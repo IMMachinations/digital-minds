@@ -192,6 +192,19 @@ the tier × {same, centered, random} design, injecting over suffix + continuatio
   vector's own content. The inherent-mode push at the same config is real but smaller/noisier
   (+0.16, 4/7 colors).
 
+Four inherent-only charts (`inherent_plots.py` → `results/inherent/inh_*.png`): the head-to-head
+preference matrix + agreement with the A/B measurement; the push/disruption decomposition with
+two illustrative tier profiles; the vector-geometry explanation (raw cosine ≈ 1, centered
+≈ −1/6 as centering predicts); and per-color push stability (positive on average, unstable per
+color across layers — orange and blue average negative).
+
+The decomposition is charted in `results/tier_components.png` (`tiers_plot.py`): left = uniform
+component per layer (centered sits above zero, raw/random at zero), middle = antisymmetric
+component (all sources collapse together, dying at L21), right = per-color push at the cleanest
+config. Mechanism note: raw color vectors are 99.3–99.9% cosine-identical across colors — the
+color-specific residual is only 4–8% of the norm, which is why uncentered injection behaves like
+the shared (≈ random-equivalent) component.
+
 **Conclusion.** The A/B-format component really was the dominant nuisance: raw mean vectors are
 behaviorally indistinguishable from random, but once the across-color mean is subtracted, the
 residual *does* steer preference directionally — including on neutral and already-won pairs,
