@@ -235,12 +235,13 @@ arbitrary scale.
 ## Balanced color tiers (`balanced_tiers.py`)
 
 A dataset that decouples color from price — the confound behind most results above: 7 colors ×
-3 tiers × 6 inherently/iconically-colored items, each carrying my own price estimate, then
-verified against the model (5 samples each). After one replacement round (25 initial flags →
-6): tier medians $2 / $34 / $841 against targets $2 / $50 / $1500; cross-color spread 0.38 /
-0.32 / 0.52 log10 per tier. The 6 residual outliers (mostly T3 gems the model prices as
-auction pieces — an antique ruby brooch at $21.6k, a padparadscha sapphire at $31.9k) are
-marked `flagged` in `results/balanced_tiers/balanced_tiers.json` for exclusion. Iteration
+3 tiers × 12 inherently/iconically-colored items (initially 6 per cell, expanded to 12 for the
+CI analysis below), each carrying my own price estimate, then verified against the model
+(5 samples each). After one replacement round on the initial set, the expanded 252-item pool
+verifies at tier medians $2 / $35 / $701 against targets $2 / $50 / $1500, cross-color spread
+0.36 / 0.39 / 0.47 log10, with 32 off-tier items (mostly T3 gems the model prices as auction
+pieces) marked `flagged` in `results/balanced_tiers/balanced_tiers.json` for exclusion —
+leaving ~10–11 usable items per cell. Iteration
 lesson: the model systematically inflates artisanal/collectible phrasing ("indigo-dyed",
 "antique", named ateliers) and deflates memorabilia and kit goods — a signed Purple Rain vinyl
 came back at $126. This set enables a price-controlled preference re-measurement.
@@ -248,30 +249,33 @@ came back at $126. This set enables a price-controlled preference re-measurement
 ## Price-controlled preference (`balanced_pref.py`)
 
 The payoff of the balanced tiers: re-measure color preference with price held constant —
-630 comparisons (3 tiers × 42 ordered color pairs × 5), items drawn within-tier from the
-unflagged balanced set, measured on the same draws with both the A/B letter-logit and the
-object-logprob methods (`results/balanced_pref/`).
+1260 comparisons (3 tiers × 42 ordered color pairs × 10) on the expanded unflagged pool
+(~10–11 items per cell), measured on the same draws with both the A/B letter-logit and
+object-logprob methods, with **95% CIs from an item-clustered bootstrap** (each replicate
+resamples every cell's item pool and weights comparisons by item multiplicity, so the CI
+reflects item idiosyncrasy — the dominant noise source). `results/balanced_pref/`.
 
-Per-color means, object-logprob measure (the cleaner one):
+Per-color means with CIs, object-logprob measure (the cleaner one; `*` = CI excludes 0):
 
-| | red | orange | yellow | green | blue | indigo | violet |
+| | red | orange | yellow | green | **blue** | indigo | violet |
 |---|---|---|---|---|---|---|---|
-| controlled (all tiers) | −0.30 | −0.22 | −0.04 | **+0.06** | **+0.51** | **+0.10** | −0.12 |
-| uncontrolled (original items) | −0.35 | −0.24 | −0.08 | −0.29 | +0.32 | +0.47 | +0.16 |
+| controlled | −0.18 | −0.14 | −0.21 | −0.02 | **+0.38*** | +0.24 | −0.08 |
+| 95% CI | [−.47,+.11] | [−.49,+.18] | [−.51,+.10] | [−.31,+.26] | **[+.19,+.59]** | [−.10,+.56] | [−.43,+.22] |
+| uncontrolled | −0.35 | −0.24 | −0.08 | −0.29 | +0.32 | +0.47 | +0.16 |
 
-- **The two poster-child "preferences" were largely price artifacts.** Green's dislike
-  (−0.29 → +0.06) and indigo's liking (+0.47 → +0.10) mostly vanish once green stops meaning
-  cheap vegetables and indigo stops meaning denim and sapphires — exactly what the
-  price-statistics account predicts.
-- **A modest blue preference survives** price control: positive in all three tiers on the
-  object measure (+0.67 / +0.60 / +0.28) and the largest controlled effect overall (+0.51).
-- **What remains is item-noisy, not a stable color trait**: overall magnitude shrinks ~30%
-  (0.27 → 0.19 mean-logprob units), tier-to-tier correlations of per-color preferences are
-  weak (+0.22 / −0.01 / +0.61 on the object measure; worse on the letter measure), and the
-  letter measure's per-tier signs flip around (orange −0.38 in T1, +1.25 in T3). With 4–6
-  items per color×tier cell, residual "preference" is substantially about specific items —
-  consistent with `value_pref.py`'s finding that pairwise preference carries item-level
-  structure beyond both color and value.
+- **Blue is the one genuine price-independent color preference.** It is the only color whose
+  CI excludes zero, positive in all three tiers (+0.33 / +0.58 / +0.23; T2 significant on its
+  own), and it replicates the smaller-pool pilot. The letter measure agrees in sign (+0.24)
+  but is too noisy for significance — as it is for every color (all seven letter-measure CIs
+  span zero).
+- **The other poster-child "preferences" were price artifacts.** Green's dislike (−0.29 →
+  −0.02) and most of indigo's liking (+0.47 → +0.24, CI spanning zero) dissolve once green
+  stops meaning cheap vegetables and indigo stops meaning denim and sapphires — exactly what
+  the price-statistics account predicts.
+- **Residual variance is item-level**: overall magnitude shrinks ~35% (0.27 → 0.18
+  mean-logprob units) and tier-to-tier correlations of per-color preferences remain moderate
+  at best (+0.21 / −0.09 / +0.52 object measure), consistent with `value_pref.py`'s finding
+  that pairwise preference carries item-level structure beyond both color and value.
 
 ## Caveats
 

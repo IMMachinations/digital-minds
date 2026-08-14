@@ -5,7 +5,7 @@
   "item": "a red apple",
   "my_estimate": 1,
   "model_geomean": 1.29,
-  "dlog_vs_center": -0.25,
+  "dlog_vs_center": -0.21,
   "flagged": false
  },
  {
@@ -14,7 +14,7 @@
   "item": "a can of Coca-Cola",
   "my_estimate": 1,
   "model_geomean": 1.55,
-  "dlog_vs_center": -0.17,
+  "dlog_vs_center": -0.13,
   "flagged": false
  },
  {
@@ -23,7 +23,7 @@
   "item": "a red bell pepper",
   "my_estimate": 1.5,
   "model_geomean": 1.14,
-  "dlog_vs_center": -0.3,
+  "dlog_vs_center": -0.26,
   "flagged": false
  },
  {
@@ -32,7 +32,7 @@
   "item": "a bottle of ketchup",
   "my_estimate": 3.5,
   "model_geomean": 2.98,
-  "dlog_vs_center": 0.12,
+  "dlog_vs_center": 0.16,
   "flagged": false
  },
  {
@@ -41,7 +41,7 @@
   "item": "a pint of strawberries",
   "my_estimate": 4,
   "model_geomean": 2.89,
-  "dlog_vs_center": 0.11,
+  "dlog_vs_center": 0.14,
   "flagged": false
  },
  {
@@ -50,7 +50,61 @@
   "item": "a candy cane",
   "my_estimate": 0.5,
   "model_geomean": 1.36,
-  "dlog_vs_center": -0.22,
+  "dlog_vs_center": -0.18,
+  "flagged": false
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a vine-ripened tomato",
+  "my_estimate": 0.8,
+  "model_geomean": 1.55,
+  "dlog_vs_center": -0.13,
+  "flagged": false
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a red rose stem",
+  "my_estimate": 3,
+  "model_geomean": 1.95,
+  "dlog_vs_center": -0.03,
+  "flagged": false
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a can of tomato soup",
+  "my_estimate": 1.5,
+  "model_geomean": 1.5,
+  "dlog_vs_center": -0.14,
+  "flagged": false
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a bag of red lentils",
+  "my_estimate": 3,
+  "model_geomean": 2.54,
+  "dlog_vs_center": 0.09,
+  "flagged": false
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a cherry popsicle",
+  "my_estimate": 1,
+  "model_geomean": 2.75,
+  "dlog_vs_center": 0.12,
+  "flagged": false
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a red party balloon",
+  "my_estimate": 1,
+  "model_geomean": 1.29,
+  "dlog_vs_center": -0.21,
   "flagged": false
  },
  {
@@ -58,8 +112,8 @@
   "tier": 2,
   "item": "a Swiss Army knife",
   "my_estimate": 40,
-  "model_geomean": 35.49,
-  "dlog_vs_center": 0.01,
+  "model_geomean": 35.0,
+  "dlog_vs_center": 0.0,
   "flagged": false
  },
  {
@@ -67,8 +121,8 @@
   "tier": 2,
   "item": "a bouquet of a dozen red roses",
   "my_estimate": 60,
-  "model_geomean": 31.07,
-  "dlog_vs_center": -0.05,
+  "model_geomean": 37.32,
+  "dlog_vs_center": 0.03,
   "flagged": false
  },
  {
@@ -76,8 +130,8 @@
   "tier": 2,
   "item": "a fire extinguisher",
   "my_estimate": 50,
-  "model_geomean": 33.94,
-  "dlog_vs_center": -0.01,
+  "model_geomean": 35.0,
+  "dlog_vs_center": 0.0,
   "flagged": false
  },
  {
@@ -85,17 +139,17 @@
   "tier": 2,
   "item": "a Manchester United home jersey",
   "my_estimate": 90,
-  "model_geomean": 101.07,
-  "dlog_vs_center": 0.47,
-  "flagged": false
+  "model_geomean": 123.28,
+  "dlog_vs_center": 0.55,
+  "flagged": true
  },
  {
   "color": "red",
   "tier": 2,
   "item": "a Santa Claus costume",
   "my_estimate": 50,
-  "model_geomean": 81.77,
-  "dlog_vs_center": 0.37,
+  "model_geomean": 79.44,
+  "dlog_vs_center": 0.36,
   "flagged": false
  },
  {
@@ -103,8 +157,62 @@
   "tier": 2,
   "item": "a Radio Flyer wagon",
   "my_estimate": 100,
-  "model_geomean": 57.58,
-  "dlog_vs_center": 0.22,
+  "model_geomean": 55.29,
+  "dlog_vs_center": 0.2,
+  "flagged": false
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a red flannel shirt",
+  "my_estimate": 40,
+  "model_geomean": 17.13,
+  "dlog_vs_center": -0.31,
+  "flagged": false
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a red umbrella",
+  "my_estimate": 20,
+  "model_geomean": 32.04,
+  "dlog_vs_center": -0.04,
+  "flagged": false
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a red toolbox",
+  "my_estimate": 40,
+  "model_geomean": 59.69,
+  "dlog_vs_center": 0.23,
+  "flagged": false
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a hot sauce gift set",
+  "my_estimate": 30,
+  "model_geomean": 26.33,
+  "dlog_vs_center": -0.12,
+  "flagged": false
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a red throw blanket",
+  "my_estimate": 35,
+  "model_geomean": 32.87,
+  "dlog_vs_center": -0.03,
+  "flagged": false
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a red bicycle helmet",
+  "my_estimate": 50,
+  "model_geomean": 33.44,
+  "dlog_vs_center": -0.02,
   "flagged": false
  },
  {
@@ -112,8 +220,8 @@
   "tier": 3,
   "item": "a ruby ring",
   "my_estimate": 2000,
-  "model_geomean": 2105.28,
-  "dlog_vs_center": 0.4,
+  "model_geomean": 1720.65,
+  "dlog_vs_center": 0.39,
   "flagged": false
  },
  {
@@ -121,17 +229,17 @@
   "tier": 3,
   "item": "a garnet and gold necklace",
   "my_estimate": 800,
-  "model_geomean": 202.25,
-  "dlog_vs_center": -0.62,
-  "flagged": true
+  "model_geomean": 247.47,
+  "dlog_vs_center": -0.45,
+  "flagged": false
  },
  {
   "color": "red",
   "tier": 3,
   "item": "an antique ruby brooch",
   "my_estimate": 1500,
-  "model_geomean": 21640.5,
-  "dlog_vs_center": 1.41,
+  "model_geomean": 9125.47,
+  "dlog_vs_center": 1.11,
   "flagged": true
  },
  {
@@ -139,8 +247,8 @@
   "tier": 3,
   "item": "a vintage Coca-Cola vending machine",
   "my_estimate": 3000,
-  "model_geomean": 966.59,
-  "dlog_vs_center": 0.06,
+  "model_geomean": 1070.56,
+  "dlog_vs_center": 0.18,
   "flagged": false
  },
  {
@@ -148,17 +256,71 @@
   "tier": 3,
   "item": "a red Vespa scooter",
   "my_estimate": 5000,
-  "model_geomean": 1993.71,
-  "dlog_vs_center": 0.37,
-  "flagged": false
+  "model_geomean": 2273.57,
+  "dlog_vs_center": 0.51,
+  "flagged": true
  },
  {
   "color": "red",
   "tier": 3,
   "item": "a signed Michael Jordan Bulls jersey",
   "my_estimate": 2000,
-  "model_geomean": 872.72,
-  "dlog_vs_center": 0.02,
+  "model_geomean": 1032.23,
+  "dlog_vs_center": 0.17,
+  "flagged": false
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a red leather recliner",
+  "my_estimate": 900,
+  "model_geomean": 291.37,
+  "dlog_vs_center": -0.38,
+  "flagged": false
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a red electric guitar",
+  "my_estimate": 700,
+  "model_geomean": 1084.47,
+  "dlog_vs_center": 0.19,
+  "flagged": false
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a red kayak",
+  "my_estimate": 800,
+  "model_geomean": 1093.36,
+  "dlog_vs_center": 0.19,
+  "flagged": false
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a red gaming PC",
+  "my_estimate": 1500,
+  "model_geomean": 1381.13,
+  "dlog_vs_center": 0.29,
+  "flagged": false
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a red moped",
+  "my_estimate": 1500,
+  "model_geomean": 775.92,
+  "dlog_vs_center": 0.04,
+  "flagged": false
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a ruby pendant necklace",
+  "my_estimate": 1200,
+  "model_geomean": 504.9,
+  "dlog_vs_center": -0.14,
   "flagged": false
  },
  {
@@ -166,8 +328,8 @@
   "tier": 1,
   "item": "an orange",
   "my_estimate": 0.5,
-  "model_geomean": 0.94,
-  "dlog_vs_center": -0.38,
+  "model_geomean": 0.84,
+  "dlog_vs_center": -0.39,
   "flagged": false
  },
  {
@@ -175,8 +337,8 @@
   "tier": 1,
   "item": "a bunch of carrots",
   "my_estimate": 1.5,
-  "model_geomean": 2.93,
-  "dlog_vs_center": 0.11,
+  "model_geomean": 3.03,
+  "dlog_vs_center": 0.16,
   "flagged": false
  },
  {
@@ -184,8 +346,8 @@
   "tier": 1,
   "item": "a can of Fanta",
   "my_estimate": 1,
-  "model_geomean": 1.53,
-  "dlog_vs_center": -0.17,
+  "model_geomean": 1.38,
+  "dlog_vs_center": -0.18,
   "flagged": false
  },
  {
@@ -193,26 +355,80 @@
   "tier": 1,
   "item": "a bag of Cheetos",
   "my_estimate": 4,
-  "model_geomean": 4.57,
-  "dlog_vs_center": 0.3,
-  "flagged": false
+  "model_geomean": 6.61,
+  "dlog_vs_center": 0.5,
+  "flagged": true
  },
  {
   "color": "orange",
   "tier": 1,
   "item": "a pumpkin",
   "my_estimate": 5,
-  "model_geomean": 6.97,
-  "dlog_vs_center": 0.49,
-  "flagged": false
+  "model_geomean": 10.32,
+  "dlog_vs_center": 0.69,
+  "flagged": true
  },
  {
   "color": "orange",
   "tier": 1,
   "item": "a persimmon",
   "my_estimate": 1,
-  "model_geomean": 1.48,
-  "dlog_vs_center": -0.19,
+  "model_geomean": 1.53,
+  "dlog_vs_center": -0.13,
+  "flagged": false
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a sweet potato",
+  "my_estimate": 1,
+  "model_geomean": 1.29,
+  "dlog_vs_center": -0.21,
+  "flagged": false
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a bag of baby carrots",
+  "my_estimate": 1.5,
+  "model_geomean": 2.69,
+  "dlog_vs_center": 0.11,
+  "flagged": false
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a can of orange soda",
+  "my_estimate": 1,
+  "model_geomean": 1.68,
+  "dlog_vs_center": -0.09,
+  "flagged": false
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a mango",
+  "my_estimate": 1.5,
+  "model_geomean": 2.08,
+  "dlog_vs_center": 0.0,
+  "flagged": false
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a box of mac and cheese",
+  "my_estimate": 1.5,
+  "model_geomean": 3.78,
+  "dlog_vs_center": 0.26,
+  "flagged": false
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a bag of candy corn",
+  "my_estimate": 2,
+  "model_geomean": 3.6,
+  "dlog_vs_center": 0.24,
   "flagged": false
  },
  {
@@ -220,8 +436,8 @@
   "tier": 2,
   "item": "a hunting safety vest",
   "my_estimate": 40,
-  "model_geomean": 39.65,
-  "dlog_vs_center": 0.06,
+  "model_geomean": 36.95,
+  "dlog_vs_center": 0.02,
   "flagged": false
  },
  {
@@ -229,8 +445,8 @@
   "tier": 2,
   "item": "a Spalding basketball",
   "my_estimate": 30,
-  "model_geomean": 17.77,
-  "dlog_vs_center": -0.29,
+  "model_geomean": 15.0,
+  "dlog_vs_center": -0.37,
   "flagged": false
  },
  {
@@ -238,8 +454,8 @@
   "tier": 2,
   "item": "a bottle of Aperol",
   "my_estimate": 30,
-  "model_geomean": 13.83,
-  "dlog_vs_center": -0.4,
+  "model_geomean": 15.0,
+  "dlog_vs_center": -0.37,
   "flagged": false
  },
  {
@@ -247,8 +463,8 @@
   "tier": 2,
   "item": "a framed monarch butterfly specimen",
   "my_estimate": 60,
-  "model_geomean": 102.38,
-  "dlog_vs_center": 0.47,
+  "model_geomean": 91.25,
+  "dlog_vs_center": 0.42,
   "flagged": false
  },
  {
@@ -256,8 +472,8 @@
   "tier": 2,
   "item": "a life jacket",
   "my_estimate": 40,
-  "model_geomean": 17.6,
-  "dlog_vs_center": -0.29,
+  "model_geomean": 23.45,
+  "dlog_vs_center": -0.17,
   "flagged": false
  },
  {
@@ -265,8 +481,62 @@
   "tier": 2,
   "item": "a construction traffic cone set",
   "my_estimate": 25,
-  "model_geomean": 17.77,
-  "dlog_vs_center": -0.29,
+  "model_geomean": 24.18,
+  "dlog_vs_center": -0.16,
+  "flagged": false
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "an over-door basketball hoop",
+  "my_estimate": 30,
+  "model_geomean": 75.0,
+  "dlog_vs_center": 0.33,
+  "flagged": false
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "an orange raincoat",
+  "my_estimate": 40,
+  "model_geomean": 27.78,
+  "dlog_vs_center": -0.1,
+  "flagged": false
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a bottle of Grand Marnier",
+  "my_estimate": 45,
+  "model_geomean": 46.22,
+  "dlog_vs_center": 0.12,
+  "flagged": false
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "an orange Nerf blaster set",
+  "my_estimate": 30,
+  "model_geomean": 17.6,
+  "dlog_vs_center": -0.3,
+  "flagged": false
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a Halloween decoration set",
+  "my_estimate": 40,
+  "model_geomean": 30.34,
+  "dlog_vs_center": -0.06,
+  "flagged": false
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "an orange beach towel set",
+  "my_estimate": 25,
+  "model_geomean": 22.3,
+  "dlog_vs_center": -0.2,
   "flagged": false
  },
  {
@@ -274,8 +544,8 @@
   "tier": 3,
   "item": "a padparadscha sapphire ring",
   "my_estimate": 2500,
-  "model_geomean": 31857.22,
-  "dlog_vs_center": 1.58,
+  "model_geomean": 16277.11,
+  "dlog_vs_center": 1.37,
   "flagged": true
  },
  {
@@ -283,8 +553,8 @@
   "tier": 3,
   "item": "a citrine gemstone ring",
   "my_estimate": 600,
-  "model_geomean": 845.91,
-  "dlog_vs_center": 0.0,
+  "model_geomean": 756.34,
+  "dlog_vs_center": 0.03,
   "flagged": false
  },
  {
@@ -292,7 +562,7 @@
   "tier": 3,
   "item": "a vintage neon Fanta sign",
   "my_estimate": 800,
-  "model_geomean": 460.34,
+  "model_geomean": 388.58,
   "dlog_vs_center": -0.26,
   "flagged": false
  },
@@ -301,8 +571,8 @@
   "tier": 3,
   "item": "a Harley-Davidson leather jacket",
   "my_estimate": 600,
-  "model_geomean": 428.23,
-  "dlog_vs_center": -0.29,
+  "model_geomean": 289.26,
+  "dlog_vs_center": -0.38,
   "flagged": false
  },
  {
@@ -310,17 +580,71 @@
   "tier": 3,
   "item": "a basketball signed by LeBron James",
   "my_estimate": 3000,
-  "model_geomean": 1229.75,
-  "dlog_vs_center": 0.16,
-  "flagged": false
+  "model_geomean": 2750.78,
+  "dlog_vs_center": 0.59,
+  "flagged": true
  },
  {
   "color": "orange",
   "tier": 3,
   "item": "a Loewe orange leather handbag",
   "my_estimate": 2500,
-  "model_geomean": 694.87,
-  "dlog_vs_center": -0.08,
+  "model_geomean": 550.16,
+  "dlog_vs_center": -0.1,
+  "flagged": false
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "an orange KitchenAid stand mixer",
+  "my_estimate": 450,
+  "model_geomean": 160.19,
+  "dlog_vs_center": -0.64,
+  "flagged": true
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a Stihl chainsaw",
+  "my_estimate": 400,
+  "model_geomean": 264.27,
+  "dlog_vs_center": -0.42,
+  "flagged": false
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "an orange kayak",
+  "my_estimate": 800,
+  "model_geomean": 769.01,
+  "dlog_vs_center": 0.04,
+  "flagged": false
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a Gretsch orange hollow-body guitar",
+  "my_estimate": 2000,
+  "model_geomean": 2171.06,
+  "dlog_vs_center": 0.49,
+  "flagged": false
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a citrine pendant and earring set",
+  "my_estimate": 700,
+  "model_geomean": 408.61,
+  "dlog_vs_center": -0.23,
+  "flagged": false
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a mid-century orange lounge chair",
+  "my_estimate": 900,
+  "model_geomean": 661.4,
+  "dlog_vs_center": -0.02,
   "flagged": false
  },
  {
@@ -328,8 +652,8 @@
   "tier": 1,
   "item": "a bunch of bananas",
   "my_estimate": 1.5,
-  "model_geomean": 1.54,
-  "dlog_vs_center": -0.17,
+  "model_geomean": 1.33,
+  "dlog_vs_center": -0.19,
   "flagged": false
  },
  {
@@ -337,8 +661,8 @@
   "tier": 1,
   "item": "a lemon",
   "my_estimate": 0.5,
-  "model_geomean": 0.93,
-  "dlog_vs_center": -0.39,
+  "model_geomean": 0.94,
+  "dlog_vs_center": -0.34,
   "flagged": false
  },
  {
@@ -346,8 +670,8 @@
   "tier": 1,
   "item": "a stick of butter",
   "my_estimate": 1,
-  "model_geomean": 2.34,
-  "dlog_vs_center": 0.01,
+  "model_geomean": 1.42,
+  "dlog_vs_center": -0.17,
   "flagged": false
  },
  {
@@ -356,7 +680,7 @@
   "item": "a box of Cheerios",
   "my_estimate": 4,
   "model_geomean": 3.68,
-  "dlog_vs_center": 0.21,
+  "dlog_vs_center": 0.25,
   "flagged": false
  },
  {
@@ -364,8 +688,8 @@
   "tier": 1,
   "item": "a yellow onion",
   "my_estimate": 1,
-  "model_geomean": 0.81,
-  "dlog_vs_center": -0.45,
+  "model_geomean": 0.87,
+  "dlog_vs_center": -0.38,
   "flagged": false
  },
  {
@@ -373,41 +697,68 @@
   "tier": 1,
   "item": "a can of pineapple chunks",
   "my_estimate": 2,
-  "model_geomean": 1.55,
-  "dlog_vs_center": -0.17,
+  "model_geomean": 1.38,
+  "dlog_vs_center": -0.18,
+  "flagged": false
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a bag of popcorn kernels",
+  "my_estimate": 2,
+  "model_geomean": 1.62,
+  "dlog_vs_center": -0.11,
+  "flagged": false
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "an ear of sweet corn",
+  "my_estimate": 0.75,
+  "model_geomean": 1.54,
+  "dlog_vs_center": -0.13,
+  "flagged": false
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a yellow squash",
+  "my_estimate": 1,
+  "model_geomean": 1.5,
+  "dlog_vs_center": -0.14,
+  "flagged": false
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a box of yellow cake mix",
+  "my_estimate": 2,
+  "model_geomean": 4.0,
+  "dlog_vs_center": 0.28,
+  "flagged": false
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a can of corn",
+  "my_estimate": 1.2,
+  "model_geomean": 1.05,
+  "dlog_vs_center": -0.3,
+  "flagged": false
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a jar of mustard",
+  "my_estimate": 2.5,
+  "model_geomean": 3.97,
+  "dlog_vs_center": 0.28,
   "flagged": false
  },
  {
   "color": "yellow",
   "tier": 2,
   "item": "a yellow rain slicker",
-  "my_estimate": 40,
-  "model_geomean": 32.77,
-  "dlog_vs_center": -0.02,
-  "flagged": false
- },
- {
-  "color": "yellow",
-  "tier": 2,
-  "item": "a jar of manuka honey",
-  "my_estimate": 90,
-  "model_geomean": 22.14,
-  "dlog_vs_center": -0.19,
-  "flagged": false
- },
- {
-  "color": "yellow",
-  "tier": 2,
-  "item": "a bottle of limoncello",
-  "my_estimate": 25,
-  "model_geomean": 15.32,
-  "dlog_vs_center": -0.35,
-  "flagged": false
- },
- {
-  "color": "yellow",
-  "tier": 2,
-  "item": "a beach umbrella",
   "my_estimate": 40,
   "model_geomean": 30.94,
   "dlog_vs_center": -0.05,
@@ -416,9 +767,36 @@
  {
   "color": "yellow",
   "tier": 2,
+  "item": "a jar of manuka honey",
+  "my_estimate": 90,
+  "model_geomean": 21.62,
+  "dlog_vs_center": -0.21,
+  "flagged": false
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a bottle of limoncello",
+  "my_estimate": 25,
+  "model_geomean": 14.65,
+  "dlog_vs_center": -0.38,
+  "flagged": false
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a beach umbrella",
+  "my_estimate": 40,
+  "model_geomean": 36.45,
+  "dlog_vs_center": 0.02,
+  "flagged": false
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
   "item": "a construction hard hat",
   "my_estimate": 25,
-  "model_geomean": 17.6,
+  "model_geomean": 18.02,
   "dlog_vs_center": -0.29,
   "flagged": false
  },
@@ -427,17 +805,71 @@
   "tier": 2,
   "item": "a LEGO Creator set",
   "my_estimate": 60,
-  "model_geomean": 40.16,
-  "dlog_vs_center": 0.07,
+  "model_geomean": 56.79,
+  "dlog_vs_center": 0.21,
   "flagged": false
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a yellow umbrella",
+  "my_estimate": 20,
+  "model_geomean": 17.64,
+  "dlog_vs_center": -0.3,
+  "flagged": false
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a yellow bath towel set",
+  "my_estimate": 30,
+  "model_geomean": 16.27,
+  "dlog_vs_center": -0.33,
+  "flagged": false
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a Pittsburgh Steelers cap",
+  "my_estimate": 30,
+  "model_geomean": 18.15,
+  "dlog_vs_center": -0.29,
+  "flagged": false
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a yellow tool chest",
+  "my_estimate": 60,
+  "model_geomean": 43.18,
+  "dlog_vs_center": 0.09,
+  "flagged": false
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a yellow desk lamp",
+  "my_estimate": 35,
+  "model_geomean": 35.0,
+  "dlog_vs_center": 0.0,
+  "flagged": false
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a set of twenty rubber ducks",
+  "my_estimate": 25,
+  "model_geomean": 9.46,
+  "dlog_vs_center": -0.57,
+  "flagged": true
  },
  {
   "color": "yellow",
   "tier": 3,
   "item": "a gold chain necklace",
   "my_estimate": 1500,
-  "model_geomean": 288.59,
-  "dlog_vs_center": -0.46,
+  "model_geomean": 308.17,
+  "dlog_vs_center": -0.36,
   "flagged": false
  },
  {
@@ -445,8 +877,8 @@
   "tier": 3,
   "item": "an ounce of gold",
   "my_estimate": 2700,
-  "model_geomean": 1647.84,
-  "dlog_vs_center": 0.29,
+  "model_geomean": 1691.59,
+  "dlog_vs_center": 0.38,
   "flagged": false
  },
  {
@@ -454,8 +886,8 @@
   "tier": 3,
   "item": "100 grams of saffron",
   "my_estimate": 800,
-  "model_geomean": 841.47,
-  "dlog_vs_center": 0.0,
+  "model_geomean": 825.14,
+  "dlog_vs_center": 0.07,
   "flagged": false
  },
  {
@@ -463,8 +895,8 @@
   "tier": 3,
   "item": "a butterscotch Fender Telecaster",
   "my_estimate": 900,
-  "model_geomean": 1922.32,
-  "dlog_vs_center": 0.36,
+  "model_geomean": 1546.97,
+  "dlog_vs_center": 0.34,
   "flagged": false
  },
  {
@@ -472,8 +904,8 @@
   "tier": 3,
   "item": "a gold bracelet",
   "my_estimate": 1200,
-  "model_geomean": 510.44,
-  "dlog_vs_center": -0.22,
+  "model_geomean": 679.04,
+  "dlog_vs_center": -0.01,
   "flagged": false
  },
  {
@@ -481,8 +913,62 @@
   "tier": 3,
   "item": "a yellow gold wedding band",
   "my_estimate": 600,
-  "model_geomean": 682.1,
-  "dlog_vs_center": -0.09,
+  "model_geomean": 348.56,
+  "dlog_vs_center": -0.3,
+  "flagged": false
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "a gold pendant necklace",
+  "my_estimate": 800,
+  "model_geomean": 360.2,
+  "dlog_vs_center": -0.29,
+  "flagged": false
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "a yellow topaz ring",
+  "my_estimate": 700,
+  "model_geomean": 184.31,
+  "dlog_vs_center": -0.58,
+  "flagged": true
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "a yellow DeWalt power tool set",
+  "my_estimate": 600,
+  "model_geomean": 217.64,
+  "dlog_vs_center": -0.51,
+  "flagged": true
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "a quarter-ounce gold coin",
+  "my_estimate": 700,
+  "model_geomean": 1033.88,
+  "dlog_vs_center": 0.17,
+  "flagged": false
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "a yellow stand-up paddleboard",
+  "my_estimate": 900,
+  "model_geomean": 604.92,
+  "dlog_vs_center": -0.06,
+  "flagged": false
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "a TV yellow Les Paul guitar",
+  "my_estimate": 1500,
+  "model_geomean": 222.06,
+  "dlog_vs_center": -0.5,
   "flagged": false
  },
  {
@@ -490,8 +976,8 @@
   "tier": 1,
   "item": "a head of lettuce",
   "my_estimate": 1.5,
-  "model_geomean": 1.78,
-  "dlog_vs_center": -0.1,
+  "model_geomean": 1.5,
+  "dlog_vs_center": -0.14,
   "flagged": false
  },
  {
@@ -499,8 +985,8 @@
   "tier": 1,
   "item": "a bunch of green grapes",
   "my_estimate": 3,
-  "model_geomean": 3.11,
-  "dlog_vs_center": 0.14,
+  "model_geomean": 2.95,
+  "dlog_vs_center": 0.15,
   "flagged": false
  },
  {
@@ -508,8 +994,8 @@
   "tier": 1,
   "item": "an avocado",
   "my_estimate": 1.5,
-  "model_geomean": 2.27,
-  "dlog_vs_center": 0.0,
+  "model_geomean": 2.63,
+  "dlog_vs_center": 0.1,
   "flagged": false
  },
  {
@@ -517,8 +1003,8 @@
   "tier": 1,
   "item": "a bunch of broccoli",
   "my_estimate": 2,
-  "model_geomean": 2.68,
-  "dlog_vs_center": 0.07,
+  "model_geomean": 2.9,
+  "dlog_vs_center": 0.14,
   "flagged": false
  },
  {
@@ -526,7 +1012,7 @@
   "tier": 1,
   "item": "a can of Sprite",
   "my_estimate": 1,
-  "model_geomean": 1.26,
+  "model_geomean": 1.14,
   "dlog_vs_center": -0.26,
   "flagged": false
  },
@@ -535,8 +1021,62 @@
   "tier": 1,
   "item": "a cucumber",
   "my_estimate": 1,
-  "model_geomean": 1.29,
+  "model_geomean": 1.2,
+  "dlog_vs_center": -0.24,
+  "flagged": false
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a green bell pepper",
+  "my_estimate": 1,
+  "model_geomean": 1.19,
   "dlog_vs_center": -0.25,
+  "flagged": false
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a bunch of celery",
+  "my_estimate": 1.5,
+  "model_geomean": 1.7,
+  "dlog_vs_center": -0.09,
+  "flagged": false
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a kiwi fruit",
+  "my_estimate": 0.75,
+  "model_geomean": 1.39,
+  "dlog_vs_center": -0.17,
+  "flagged": false
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a jar of pickles",
+  "my_estimate": 3,
+  "model_geomean": 4.08,
+  "dlog_vs_center": 0.29,
+  "flagged": false
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a bag of frozen peas",
+  "my_estimate": 1.5,
+  "model_geomean": 1.38,
+  "dlog_vs_center": -0.18,
+  "flagged": false
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a bunch of fresh basil",
+  "my_estimate": 2,
+  "model_geomean": 3.03,
+  "dlog_vs_center": 0.16,
   "flagged": false
  },
  {
@@ -544,16 +1084,16 @@
   "tier": 2,
   "item": "a jade bead bracelet",
   "my_estimate": 50,
-  "model_geomean": 100.62,
-  "dlog_vs_center": 0.47,
-  "flagged": false
+  "model_geomean": 163.6,
+  "dlog_vs_center": 0.67,
+  "flagged": true
  },
  {
   "color": "green",
   "tier": 2,
   "item": "a garden hose and sprinkler set",
   "my_estimate": 40,
-  "model_geomean": 34.49,
+  "model_geomean": 35.0,
   "dlog_vs_center": 0.0,
   "flagged": false
  },
@@ -562,8 +1102,8 @@
   "tier": 2,
   "item": "a potted monstera plant",
   "my_estimate": 40,
-  "model_geomean": 33.94,
-  "dlog_vs_center": -0.01,
+  "model_geomean": 47.48,
+  "dlog_vs_center": 0.13,
   "flagged": false
  },
  {
@@ -571,8 +1111,8 @@
   "tier": 2,
   "item": "a bottle of Chartreuse",
   "my_estimate": 70,
-  "model_geomean": 44.73,
-  "dlog_vs_center": 0.11,
+  "model_geomean": 63.25,
+  "dlog_vs_center": 0.26,
   "flagged": false
  },
  {
@@ -580,8 +1120,8 @@
   "tier": 2,
   "item": "a Boston Celtics jersey",
   "my_estimate": 90,
-  "model_geomean": 65.77,
-  "dlog_vs_center": 0.28,
+  "model_geomean": 72.84,
+  "dlog_vs_center": 0.32,
   "flagged": false
  },
  {
@@ -589,8 +1129,62 @@
   "tier": 2,
   "item": "two dozen Titleist golf balls",
   "my_estimate": 90,
-  "model_geomean": 55.36,
-  "dlog_vs_center": 0.21,
+  "model_geomean": 44.27,
+  "dlog_vs_center": 0.1,
+  "flagged": false
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a set of gardening tools",
+  "my_estimate": 35,
+  "model_geomean": 43.42,
+  "dlog_vs_center": 0.09,
+  "flagged": false
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a green rain jacket",
+  "my_estimate": 45,
+  "model_geomean": 58.0,
+  "dlog_vs_center": 0.22,
+  "flagged": false
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a bottle of Midori",
+  "my_estimate": 25,
+  "model_geomean": 22.87,
+  "dlog_vs_center": -0.18,
+  "flagged": false
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a green yoga mat set",
+  "my_estimate": 30,
+  "model_geomean": 28.44,
+  "dlog_vs_center": -0.09,
+  "flagged": false
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "three potted aloe vera plants",
+  "my_estimate": 30,
+  "model_geomean": 20.26,
+  "dlog_vs_center": -0.24,
+  "flagged": false
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a green Stanley thermos",
+  "my_estimate": 35,
+  "model_geomean": 15.32,
+  "dlog_vs_center": -0.36,
   "flagged": false
  },
  {
@@ -598,17 +1192,17 @@
   "tier": 3,
   "item": "an emerald ring",
   "my_estimate": 2500,
-  "model_geomean": 2659.06,
-  "dlog_vs_center": 0.5,
-  "flagged": false
+  "model_geomean": 3153.68,
+  "dlog_vs_center": 0.65,
+  "flagged": true
  },
  {
   "color": "green",
   "tier": 3,
   "item": "a grade-A jade pendant",
   "my_estimate": 1500,
-  "model_geomean": 579.98,
-  "dlog_vs_center": -0.16,
+  "model_geomean": 543.58,
+  "dlog_vs_center": -0.11,
   "flagged": false
  },
  {
@@ -616,8 +1210,8 @@
   "tier": 3,
   "item": "a John Deere lawn tractor",
   "my_estimate": 3000,
-  "model_geomean": 2135.39,
-  "dlog_vs_center": 0.4,
+  "model_geomean": 1673.48,
+  "dlog_vs_center": 0.38,
   "flagged": false
  },
  {
@@ -625,8 +1219,8 @@
   "tier": 3,
   "item": "an antique billiards table",
   "my_estimate": 3000,
-  "model_geomean": 2041.23,
-  "dlog_vs_center": 0.38,
+  "model_geomean": 1922.32,
+  "dlog_vs_center": 0.44,
   "flagged": false
  },
  {
@@ -634,8 +1228,8 @@
   "tier": 3,
   "item": "a thirty-year-old bonsai juniper",
   "my_estimate": 1000,
-  "model_geomean": 912.55,
-  "dlog_vs_center": 0.04,
+  "model_geomean": 575.27,
+  "dlog_vs_center": -0.09,
   "flagged": false
  },
  {
@@ -643,8 +1237,62 @@
   "tier": 3,
   "item": "a set of vintage jade mahjong tiles",
   "my_estimate": 1500,
-  "model_geomean": 472.8,
-  "dlog_vs_center": -0.25,
+  "model_geomean": 666.22,
+  "dlog_vs_center": -0.02,
+  "flagged": false
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "a jade bangle",
+  "my_estimate": 1000,
+  "model_geomean": 99.33,
+  "dlog_vs_center": -0.85,
+  "flagged": true
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "a Big Green Egg kamado grill",
+  "my_estimate": 1200,
+  "model_geomean": 951.83,
+  "dlog_vs_center": 0.13,
+  "flagged": false
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "an emerald pendant",
+  "my_estimate": 1500,
+  "model_geomean": 6289.73,
+  "dlog_vs_center": 0.95,
+  "flagged": true
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "a green Coleman canoe",
+  "my_estimate": 900,
+  "model_geomean": 188.39,
+  "dlog_vs_center": -0.57,
+  "flagged": true
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "a malachite jewelry box",
+  "my_estimate": 700,
+  "model_geomean": 192.4,
+  "dlog_vs_center": -0.56,
+  "flagged": true
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "a peridot and gold necklace",
+  "my_estimate": 700,
+  "model_geomean": 1000.0,
+  "dlog_vs_center": 0.15,
   "flagged": false
  },
  {
@@ -652,8 +1300,8 @@
   "tier": 1,
   "item": "a pint of blueberries",
   "my_estimate": 4,
-  "model_geomean": 2.94,
-  "dlog_vs_center": 0.11,
+  "model_geomean": 3.17,
+  "dlog_vs_center": 0.18,
   "flagged": false
  },
  {
@@ -661,8 +1309,8 @@
   "tier": 1,
   "item": "a can of Pepsi",
   "my_estimate": 1,
-  "model_geomean": 1.45,
-  "dlog_vs_center": -0.2,
+  "model_geomean": 1.5,
+  "dlog_vs_center": -0.14,
   "flagged": false
  },
  {
@@ -670,8 +1318,8 @@
   "tier": 1,
   "item": "a blue raspberry slushie",
   "my_estimate": 2,
-  "model_geomean": 3.16,
-  "dlog_vs_center": 0.14,
+  "model_geomean": 2.99,
+  "dlog_vs_center": 0.16,
   "flagged": false
  },
  {
@@ -679,8 +1327,8 @@
   "tier": 1,
   "item": "a bottle of Dawn dish soap",
   "my_estimate": 3,
-  "model_geomean": 2.77,
-  "dlog_vs_center": 0.09,
+  "model_geomean": 3.62,
+  "dlog_vs_center": 0.24,
   "flagged": false
  },
  {
@@ -688,8 +1336,8 @@
   "tier": 1,
   "item": "a pack of blue ballpoint pens",
   "my_estimate": 3,
-  "model_geomean": 6.38,
-  "dlog_vs_center": 0.45,
+  "model_geomean": 5.68,
+  "dlog_vs_center": 0.44,
   "flagged": false
  },
  {
@@ -697,8 +1345,62 @@
   "tier": 1,
   "item": "a box of Oreos",
   "my_estimate": 4,
-  "model_geomean": 4.28,
-  "dlog_vs_center": 0.28,
+  "model_geomean": 5.14,
+  "dlog_vs_center": 0.39,
+  "flagged": false
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a blueberry muffin",
+  "my_estimate": 3,
+  "model_geomean": 3.05,
+  "dlog_vs_center": 0.17,
+  "flagged": false
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a can of blue Powerade",
+  "my_estimate": 2,
+  "model_geomean": 1.64,
+  "dlog_vs_center": -0.1,
+  "flagged": false
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a blueberry yogurt cup",
+  "my_estimate": 1.5,
+  "model_geomean": 2.67,
+  "dlog_vs_center": 0.11,
+  "flagged": false
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a blue rubber ball",
+  "my_estimate": 2,
+  "model_geomean": 1.64,
+  "dlog_vs_center": -0.11,
+  "flagged": false
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a pack of blue Post-it notes",
+  "my_estimate": 3,
+  "model_geomean": 2.08,
+  "dlog_vs_center": 0.0,
+  "flagged": false
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a blue spiral notebook",
+  "my_estimate": 3,
+  "model_geomean": 5.53,
+  "dlog_vs_center": 0.42,
   "flagged": false
  },
  {
@@ -707,7 +1409,7 @@
   "item": "a pair of Levi's 501 jeans",
   "my_estimate": 60,
   "model_geomean": 75.0,
-  "dlog_vs_center": 0.34,
+  "dlog_vs_center": 0.33,
   "flagged": false
  },
  {
@@ -715,8 +1417,8 @@
   "tier": 2,
   "item": "a Los Angeles Dodgers cap",
   "my_estimate": 35,
-  "model_geomean": 36.52,
-  "dlog_vs_center": 0.02,
+  "model_geomean": 25.61,
+  "dlog_vs_center": -0.14,
   "flagged": false
  },
  {
@@ -724,8 +1426,8 @@
   "tier": 2,
   "item": "a bottle of Bombay Sapphire gin",
   "my_estimate": 30,
-  "model_geomean": 26.27,
-  "dlog_vs_center": -0.12,
+  "model_geomean": 25.72,
+  "dlog_vs_center": -0.13,
   "flagged": false
  },
  {
@@ -733,8 +1435,8 @@
   "tier": 2,
   "item": "a chambray button-down shirt",
   "my_estimate": 50,
-  "model_geomean": 45.84,
-  "dlog_vs_center": 0.12,
+  "model_geomean": 47.51,
+  "dlog_vs_center": 0.13,
   "flagged": false
  },
  {
@@ -742,7 +1444,7 @@
   "tier": 2,
   "item": "a Levi's denim trucker jacket",
   "my_estimate": 80,
-  "model_geomean": 75.0,
+  "model_geomean": 77.35,
   "dlog_vs_center": 0.34,
   "flagged": false
  },
@@ -751,8 +1453,62 @@
   "tier": 2,
   "item": "a pair of navy Sperry boat shoes",
   "my_estimate": 90,
-  "model_geomean": 75.85,
-  "dlog_vs_center": 0.34,
+  "model_geomean": 80.34,
+  "dlog_vs_center": 0.36,
+  "flagged": false
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a blue Columbia fleece",
+  "my_estimate": 45,
+  "model_geomean": 30.94,
+  "dlog_vs_center": -0.05,
+  "flagged": false
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a pair of blue Adidas Gazelles",
+  "my_estimate": 90,
+  "model_geomean": 75.0,
+  "dlog_vs_center": 0.33,
+  "flagged": false
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a blue enamel teapot",
+  "my_estimate": 30,
+  "model_geomean": 59.38,
+  "dlog_vs_center": 0.23,
+  "flagged": false
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a Duke Blue Devils jersey",
+  "my_estimate": 80,
+  "model_geomean": 79.44,
+  "dlog_vs_center": 0.36,
+  "flagged": false
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a Le Creuset mug set",
+  "my_estimate": 60,
+  "model_geomean": 203.8,
+  "dlog_vs_center": 0.77,
+  "flagged": true
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a French blue apron",
+  "my_estimate": 25,
+  "model_geomean": 36.18,
+  "dlog_vs_center": 0.01,
   "flagged": false
  },
  {
@@ -760,17 +1516,17 @@
   "tier": 3,
   "item": "a sapphire ring",
   "my_estimate": 2500,
-  "model_geomean": 2296.02,
-  "dlog_vs_center": 0.44,
-  "flagged": false
+  "model_geomean": 2995.82,
+  "dlog_vs_center": 0.63,
+  "flagged": true
  },
  {
   "color": "blue",
   "tier": 3,
   "item": "a blue topaz and diamond pendant",
   "my_estimate": 1000,
-  "model_geomean": 754.8,
-  "dlog_vs_center": -0.05,
+  "model_geomean": 849.72,
+  "dlog_vs_center": 0.08,
   "flagged": false
  },
  {
@@ -778,8 +1534,8 @@
   "tier": 3,
   "item": "a Tiffany & Co. silver bracelet",
   "my_estimate": 1500,
-  "model_geomean": 841.47,
-  "dlog_vs_center": 0.0,
+  "model_geomean": 722.5,
+  "dlog_vs_center": 0.01,
   "flagged": false
  },
  {
@@ -787,8 +1543,8 @@
   "tier": 3,
   "item": "an aquamarine ring",
   "my_estimate": 1500,
-  "model_geomean": 386.84,
-  "dlog_vs_center": -0.34,
+  "model_geomean": 502.87,
+  "dlog_vs_center": -0.14,
   "flagged": false
  },
  {
@@ -796,8 +1552,8 @@
   "tier": 3,
   "item": "an antique Delft porcelain vase",
   "my_estimate": 1200,
-  "model_geomean": 1161.0,
-  "dlog_vs_center": 0.14,
+  "model_geomean": 1343.37,
+  "dlog_vs_center": 0.28,
   "flagged": false
  },
  {
@@ -805,17 +1561,71 @@
   "tier": 3,
   "item": "a Blue Note first-pressing jazz LP",
   "my_estimate": 1000,
-  "model_geomean": 1298.49,
-  "dlog_vs_center": 0.19,
+  "model_geomean": 1275.42,
+  "dlog_vs_center": 0.26,
   "flagged": false
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "a blue topaz ring",
+  "my_estimate": 600,
+  "model_geomean": 142.66,
+  "dlog_vs_center": -0.69,
+  "flagged": true
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "a Levi's Vintage Clothing jacket",
+  "my_estimate": 400,
+  "model_geomean": 487.6,
+  "dlog_vs_center": -0.16,
+  "flagged": false
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "a blue Rickenbacker guitar",
+  "my_estimate": 2000,
+  "model_geomean": 1568.46,
+  "dlog_vs_center": 0.35,
+  "flagged": false
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "a lapis inlay chess set",
+  "my_estimate": 800,
+  "model_geomean": 393.63,
+  "dlog_vs_center": -0.25,
+  "flagged": false
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "a Wedgwood dinner service",
+  "my_estimate": 1200,
+  "model_geomean": 1070.56,
+  "dlog_vs_center": 0.18,
+  "flagged": false
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "an opal and sapphire bracelet",
+  "my_estimate": 1500,
+  "model_geomean": 2408.22,
+  "dlog_vs_center": 0.54,
+  "flagged": true
  },
  {
   "color": "indigo",
   "tier": 1,
   "item": "a spool of indigo embroidery thread",
   "my_estimate": 3,
-  "model_geomean": 8.41,
-  "dlog_vs_center": 0.57,
+  "model_geomean": 9.67,
+  "dlog_vs_center": 0.67,
   "flagged": true
  },
  {
@@ -823,8 +1633,8 @@
   "tier": 1,
   "item": "a box of blackberries",
   "my_estimate": 4,
-  "model_geomean": 5.61,
-  "dlog_vs_center": 0.39,
+  "model_geomean": 4.75,
+  "dlog_vs_center": 0.36,
   "flagged": false
  },
  {
@@ -832,8 +1642,8 @@
   "tier": 1,
   "item": "a plum",
   "my_estimate": 0.7,
-  "model_geomean": 0.99,
-  "dlog_vs_center": -0.36,
+  "model_geomean": 1.05,
+  "dlog_vs_center": -0.3,
   "flagged": false
  },
  {
@@ -841,8 +1651,8 @@
   "tier": 1,
   "item": "a bag of blue corn tortilla chips",
   "my_estimate": 4,
-  "model_geomean": 4.96,
-  "dlog_vs_center": 0.34,
+  "model_geomean": 5.68,
+  "dlog_vs_center": 0.44,
   "flagged": false
  },
  {
@@ -850,8 +1660,8 @@
   "tier": 1,
   "item": "a handful of ripe damson plums",
   "my_estimate": 2,
-  "model_geomean": 4.13,
-  "dlog_vs_center": 0.26,
+  "model_geomean": 2.48,
+  "dlog_vs_center": 0.08,
   "flagged": false
  },
  {
@@ -859,8 +1669,62 @@
   "tier": 1,
   "item": "a packet of morning glory seeds",
   "my_estimate": 2,
-  "model_geomean": 3.25,
-  "dlog_vs_center": 0.16,
+  "model_geomean": 3.5,
+  "dlog_vs_center": 0.23,
+  "flagged": false
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a bunch of black grapes",
+  "my_estimate": 2,
+  "model_geomean": 3.53,
+  "dlog_vs_center": 0.23,
+  "flagged": false
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a can of acai berry drink",
+  "my_estimate": 3,
+  "model_geomean": 3.38,
+  "dlog_vs_center": 0.21,
+  "flagged": false
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a packet of cornflower seeds",
+  "my_estimate": 2,
+  "model_geomean": 3.5,
+  "dlog_vs_center": 0.23,
+  "flagged": false
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a navy blue bandana",
+  "my_estimate": 3,
+  "model_geomean": 7.5,
+  "dlog_vs_center": 0.56,
+  "flagged": true
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a pair of navy shoelaces",
+  "my_estimate": 2,
+  "model_geomean": 3.22,
+  "dlog_vs_center": 0.19,
+  "flagged": false
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a handful of juniper berries",
+  "my_estimate": 2,
+  "model_geomean": 4.24,
+  "dlog_vs_center": 0.31,
   "flagged": false
  },
  {
@@ -868,8 +1732,8 @@
   "tier": 2,
   "item": "an indigo-dyed canvas tote bag",
   "my_estimate": 30,
-  "model_geomean": 31.91,
-  "dlog_vs_center": -0.03,
+  "model_geomean": 36.45,
+  "dlog_vs_center": 0.02,
   "flagged": false
  },
  {
@@ -877,8 +1741,8 @@
   "tier": 2,
   "item": "a pair of Wrangler dark-wash jeans",
   "my_estimate": 40,
-  "model_geomean": 41.83,
-  "dlog_vs_center": 0.08,
+  "model_geomean": 45.73,
+  "dlog_vs_center": 0.12,
   "flagged": false
  },
  {
@@ -886,8 +1750,8 @@
   "tier": 2,
   "item": "a denim bucket hat",
   "my_estimate": 30,
-  "model_geomean": 30.54,
-  "dlog_vs_center": -0.05,
+  "model_geomean": 29.05,
+  "dlog_vs_center": -0.08,
   "flagged": false
  },
  {
@@ -895,8 +1759,8 @@
   "tier": 2,
   "item": "a denim work shirt",
   "my_estimate": 50,
-  "model_geomean": 33.94,
-  "dlog_vs_center": -0.01,
+  "model_geomean": 36.45,
+  "dlog_vs_center": 0.02,
   "flagged": false
  },
  {
@@ -904,8 +1768,8 @@
   "tier": 2,
   "item": "a denim apron",
   "my_estimate": 35,
-  "model_geomean": 22.14,
-  "dlog_vs_center": -0.19,
+  "model_geomean": 19.79,
+  "dlog_vs_center": -0.25,
   "flagged": false
  },
  {
@@ -913,8 +1777,62 @@
   "tier": 2,
   "item": "a kit of indigo fabric dye",
   "my_estimate": 20,
-  "model_geomean": 15.8,
-  "dlog_vs_center": -0.34,
+  "model_geomean": 17.23,
+  "dlog_vs_center": -0.31,
+  "flagged": false
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a pair of Levi's 511 dark-wash jeans",
+  "my_estimate": 60,
+  "model_geomean": 128.91,
+  "dlog_vs_center": 0.57,
+  "flagged": true
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a navy hoodie",
+  "my_estimate": 35,
+  "model_geomean": 42.26,
+  "dlog_vs_center": 0.08,
+  "flagged": false
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a denim overshirt",
+  "my_estimate": 45,
+  "model_geomean": 70.06,
+  "dlog_vs_center": 0.3,
+  "flagged": false
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a navy beanie and scarf set",
+  "my_estimate": 30,
+  "model_geomean": 27.33,
+  "dlog_vs_center": -0.11,
+  "flagged": false
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a dark-wash denim vest",
+  "my_estimate": 40,
+  "model_geomean": 45.83,
+  "dlog_vs_center": 0.12,
+  "flagged": false
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a navy duffel bag",
+  "my_estimate": 45,
+  "model_geomean": 35.0,
+  "dlog_vs_center": 0.0,
   "flagged": false
  },
  {
@@ -922,8 +1840,8 @@
   "tier": 3,
   "item": "a black opal pendant",
   "my_estimate": 1500,
-  "model_geomean": 490.36,
-  "dlog_vs_center": -0.23,
+  "model_geomean": 575.27,
+  "dlog_vs_center": -0.09,
   "flagged": false
  },
  {
@@ -931,8 +1849,8 @@
   "tier": 3,
   "item": "an antique Japanese boro textile",
   "my_estimate": 1500,
-  "model_geomean": 804.74,
-  "dlog_vs_center": -0.02,
+  "model_geomean": 408.61,
+  "dlog_vs_center": -0.23,
   "flagged": false
  },
  {
@@ -940,8 +1858,8 @@
   "tier": 3,
   "item": "a lapis lazuli and silver necklace",
   "my_estimate": 800,
-  "model_geomean": 360.34,
-  "dlog_vs_center": -0.37,
+  "model_geomean": 255.08,
+  "dlog_vs_center": -0.44,
   "flagged": false
  },
  {
@@ -949,8 +1867,8 @@
   "tier": 3,
   "item": "a vintage indigo-dyed kimono",
   "my_estimate": 800,
-  "model_geomean": 462.2,
-  "dlog_vs_center": -0.26,
+  "model_geomean": 652.33,
+  "dlog_vs_center": -0.03,
   "flagged": false
  },
  {
@@ -958,26 +1876,80 @@
   "tier": 3,
   "item": "an iolite gemstone necklace",
   "my_estimate": 600,
-  "model_geomean": 696.63,
-  "dlog_vs_center": -0.08,
-  "flagged": false
+  "model_geomean": 207.72,
+  "dlog_vs_center": -0.53,
+  "flagged": true
  },
  {
   "color": "indigo",
   "tier": 3,
   "item": "a vintage Evisu denim jacket",
   "my_estimate": 500,
+  "model_geomean": 232.2,
+  "dlog_vs_center": -0.48,
+  "flagged": false
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "a navy Schott peacoat",
+  "my_estimate": 400,
   "model_geomean": 240.82,
-  "dlog_vs_center": -0.54,
+  "dlog_vs_center": -0.46,
+  "flagged": false
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "an RRL denim chore coat",
+  "my_estimate": 500,
+  "model_geomean": 90.46,
+  "dlog_vs_center": -0.89,
   "flagged": true
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "a sapphire pendant",
+  "my_estimate": 1200,
+  "model_geomean": 3454.83,
+  "dlog_vs_center": 0.69,
+  "flagged": true
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "a pair of dark opal earrings",
+  "my_estimate": 1000,
+  "model_geomean": 424.48,
+  "dlog_vs_center": -0.22,
+  "flagged": false
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "a vintage US Navy deck jacket",
+  "my_estimate": 400,
+  "model_geomean": 222.06,
+  "dlog_vs_center": -0.5,
+  "flagged": false
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "a small navy Persian rug",
+  "my_estimate": 800,
+  "model_geomean": 567.89,
+  "dlog_vs_center": -0.09,
+  "flagged": false
  },
  {
   "color": "violet",
   "tier": 1,
   "item": "a bunch of Concord grapes",
   "my_estimate": 3,
-  "model_geomean": 6.72,
-  "dlog_vs_center": 0.47,
+  "model_geomean": 5.53,
+  "dlog_vs_center": 0.42,
   "flagged": false
  },
  {
@@ -985,8 +1957,8 @@
   "tier": 1,
   "item": "an eggplant",
   "my_estimate": 1.5,
-  "model_geomean": 1.53,
-  "dlog_vs_center": -0.17,
+  "model_geomean": 1.78,
+  "dlog_vs_center": -0.07,
   "flagged": false
  },
  {
@@ -994,8 +1966,8 @@
   "tier": 1,
   "item": "a can of grape soda",
   "my_estimate": 1,
-  "model_geomean": 1.5,
-  "dlog_vs_center": -0.18,
+  "model_geomean": 1.59,
+  "dlog_vs_center": -0.12,
   "flagged": false
  },
  {
@@ -1003,8 +1975,8 @@
   "tier": 1,
   "item": "a head of purple cabbage",
   "my_estimate": 2,
-  "model_geomean": 2.23,
-  "dlog_vs_center": -0.01,
+  "model_geomean": 1.99,
+  "dlog_vs_center": -0.02,
   "flagged": false
  },
  {
@@ -1012,8 +1984,8 @@
   "tier": 1,
   "item": "a sprig of fresh lavender",
   "my_estimate": 1,
-  "model_geomean": 1.5,
-  "dlog_vs_center": -0.18,
+  "model_geomean": 1.65,
+  "dlog_vs_center": -0.1,
   "flagged": false
  },
  {
@@ -1021,17 +1993,71 @@
   "tier": 1,
   "item": "a turnip",
   "my_estimate": 1,
-  "model_geomean": 1.03,
-  "dlog_vs_center": -0.34,
+  "model_geomean": 1.05,
+  "dlog_vs_center": -0.3,
   "flagged": false
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a taro root",
+  "my_estimate": 1.5,
+  "model_geomean": 1.42,
+  "dlog_vs_center": -0.17,
+  "flagged": false
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a purple sweet potato",
+  "my_estimate": 1.5,
+  "model_geomean": 1.86,
+  "dlog_vs_center": -0.05,
+  "flagged": false
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a box of lavender tea bags",
+  "my_estimate": 3,
+  "model_geomean": 6.92,
+  "dlog_vs_center": 0.52,
+  "flagged": true
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a grape lollipop",
+  "my_estimate": 0.5,
+  "model_geomean": 1.11,
+  "dlog_vs_center": -0.27,
+  "flagged": false
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a small bunch of violets",
+  "my_estimate": 2,
+  "model_geomean": 5.48,
+  "dlog_vs_center": 0.42,
+  "flagged": false
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a potted purple hyacinth",
+  "my_estimate": 4,
+  "model_geomean": 11.1,
+  "dlog_vs_center": 0.73,
+  "flagged": true
  },
  {
   "color": "violet",
   "tier": 2,
   "item": "a bottle of lavender essential oil",
   "my_estimate": 20,
-  "model_geomean": 12.3,
-  "dlog_vs_center": -0.45,
+  "model_geomean": 13.13,
+  "dlog_vs_center": -0.43,
   "flagged": false
  },
  {
@@ -1039,8 +2065,8 @@
   "tier": 2,
   "item": "an amethyst bead bracelet",
   "my_estimate": 35,
-  "model_geomean": 41.72,
-  "dlog_vs_center": 0.08,
+  "model_geomean": 64.87,
+  "dlog_vs_center": 0.27,
   "flagged": false
  },
  {
@@ -1048,8 +2074,8 @@
   "tier": 2,
   "item": "a Los Angeles Lakers jersey",
   "my_estimate": 90,
-  "model_geomean": 69.1,
-  "dlog_vs_center": 0.3,
+  "model_geomean": 33.94,
+  "dlog_vs_center": -0.01,
   "flagged": false
  },
  {
@@ -1057,8 +2083,8 @@
   "tier": 2,
   "item": "a bottle of Crown Royal",
   "my_estimate": 35,
-  "model_geomean": 59.77,
-  "dlog_vs_center": 0.24,
+  "model_geomean": 57.16,
+  "dlog_vs_center": 0.21,
   "flagged": false
  },
  {
@@ -1066,8 +2092,8 @@
   "tier": 2,
   "item": "a lilac bush sapling",
   "my_estimate": 40,
-  "model_geomean": 15.32,
-  "dlog_vs_center": -0.35,
+  "model_geomean": 17.6,
+  "dlog_vs_center": -0.3,
   "flagged": false
  },
  {
@@ -1075,8 +2101,62 @@
   "tier": 2,
   "item": "a dried-lavender wreath",
   "my_estimate": 35,
-  "model_geomean": 21.46,
-  "dlog_vs_center": -0.21,
+  "model_geomean": 22.61,
+  "dlog_vs_center": -0.19,
+  "flagged": false
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a lavender candle set",
+  "my_estimate": 25,
+  "model_geomean": 23.87,
+  "dlog_vs_center": -0.17,
+  "flagged": false
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a small amethyst pendant",
+  "my_estimate": 40,
+  "model_geomean": 88.71,
+  "dlog_vs_center": 0.4,
+  "flagged": false
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a bottle of creme de violette",
+  "my_estimate": 25,
+  "model_geomean": 25.04,
+  "dlog_vs_center": -0.15,
+  "flagged": false
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a purple bath bomb gift set",
+  "my_estimate": 20,
+  "model_geomean": 20.48,
+  "dlog_vs_center": -0.23,
+  "flagged": false
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a Minnesota Vikings cap",
+  "my_estimate": 30,
+  "model_geomean": 12.75,
+  "dlog_vs_center": -0.44,
+  "flagged": false
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a potted orchid",
+  "my_estimate": 30,
+  "model_geomean": 33.94,
+  "dlog_vs_center": -0.01,
   "flagged": false
  },
  {
@@ -1084,8 +2164,8 @@
   "tier": 3,
   "item": "a Tahitian peacock pearl necklace",
   "my_estimate": 2000,
-  "model_geomean": 5309.29,
-  "dlog_vs_center": 0.8,
+  "model_geomean": 12590.67,
+  "dlog_vs_center": 1.25,
   "flagged": true
  },
  {
@@ -1093,8 +2173,8 @@
   "tier": 3,
   "item": "an amethyst and gold necklace",
   "my_estimate": 900,
-  "model_geomean": 637.71,
-  "dlog_vs_center": -0.12,
+  "model_geomean": 886.29,
+  "dlog_vs_center": 0.1,
   "flagged": false
  },
  {
@@ -1102,8 +2182,8 @@
   "tier": 3,
   "item": "an antique purple velvet settee",
   "my_estimate": 1500,
-  "model_geomean": 1110.32,
-  "dlog_vs_center": 0.12,
+  "model_geomean": 1725.87,
+  "dlog_vs_center": 0.39,
   "flagged": false
  },
  {
@@ -1111,8 +2191,8 @@
   "tier": 3,
   "item": "a Victorian amethyst brooch",
   "my_estimate": 1200,
-  "model_geomean": 717.26,
-  "dlog_vs_center": -0.07,
+  "model_geomean": 700.57,
+  "dlog_vs_center": 0.0,
   "flagged": false
  },
  {
@@ -1120,17 +2200,71 @@
   "tier": 3,
   "item": "a rare purple orchid specimen",
   "my_estimate": 500,
-  "model_geomean": 2131.0,
-  "dlog_vs_center": 0.4,
-  "flagged": false
+  "model_geomean": 2260.8,
+  "dlog_vs_center": 0.51,
+  "flagged": true
  },
  {
   "color": "violet",
   "tier": 3,
   "item": "a lavender jadeite carving",
   "my_estimate": 1500,
-  "model_geomean": 646.0,
-  "dlog_vs_center": -0.11,
+  "model_geomean": 966.59,
+  "dlog_vs_center": 0.14,
+  "flagged": false
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "a fine amethyst ring",
+  "my_estimate": 700,
+  "model_geomean": 637.14,
+  "dlog_vs_center": -0.04,
+  "flagged": false
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "a purple velvet armchair",
+  "my_estimate": 800,
+  "model_geomean": 405.95,
+  "dlog_vs_center": -0.24,
+  "flagged": false
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "a purple Fender Jazz Bass",
+  "my_estimate": 1200,
+  "model_geomean": 978.38,
+  "dlog_vs_center": 0.15,
+  "flagged": false
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "a pair of amethyst geode bookends",
+  "my_estimate": 500,
+  "model_geomean": 190.84,
+  "dlog_vs_center": -0.56,
+  "flagged": true
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "a Baccarat purple crystal vase",
+  "my_estimate": 800,
+  "model_geomean": 2021.41,
+  "dlog_vs_center": 0.46,
+  "flagged": false
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "a purple leather designer handbag",
+  "my_estimate": 1200,
+  "model_geomean": 1010.71,
+  "dlog_vs_center": 0.16,
   "flagged": false
  }
 ]

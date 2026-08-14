@@ -26,7 +26,7 @@ RES = Path(__file__).parent / "results"
 OUT = RES / "balanced_pref"
 OUT.mkdir(parents=True, exist_ok=True)
 
-N_PER_PAIR = 5
+N_PER_PAIR = 10
 POOL = defaultdict(list)
 for r in json.load(open(RES / "balanced_tiers" / "balanced_tiers.json")):
     if not r["flagged"]:
@@ -84,6 +84,36 @@ def spearman(x, y):
     return pearson(rk(x), rk(y))
 
 
+def color_cis(rows, key, n_boot=2000, seed=1):
+    """Per-color mean signed diff with a 95% CI from an item-clustered bootstrap: each
+    replicate resamples the item pool of every (color, tier) cell with replacement and
+    weights each comparison by the product of its two items' multiplicities — so the CI
+    reflects item idiosyncrasy, the dominant noise source, not just comparison sampling."""
+    brng = random.Random(seed)
+    pools = {k: sorted(set(v)) for k, v in POOL.items()}
+    per_color_reps = {c: [] for c in COLORS}
+    for _ in range(n_boot):
+        w = defaultdict(int)
+        for k, items in pools.items():
+            for it in brng.choices(items, k=len(items)):
+                w[it] += 1
+        for col in COLORS:
+            num = den = 0.0
+            for c in rows:
+                if col in (c["color_a"], c["color_b"]):
+                    wt = w[c["item_a"]] * w[c["item_b"]]
+                    if wt:
+                        num += wt * E.signed(c[key], c, col)
+                        den += wt
+            per_color_reps[col].append(num / den if den else 0.0)
+    out = {}
+    for col in COLORS:
+        reps = sorted(per_color_reps[col])
+        obs = per_color(rows, key)[col]
+        out[col] = (obs, reps[int(0.025 * n_boot)], reps[int(0.975 * n_boot) - 1])
+    return out
+
+
 # uncontrolled per-color preferences for comparison
 uncontrolled = {
     "ab": per_color(json.load(open(RES / "inherent" / "preferences.json")), "diff"),
@@ -115,6 +145,17 @@ for key, name, unc in [("ab_diff", "A/B letter-logit", uncontrolled["ab"]),
     for a, b in [(1, 2), (1, 3), (2, 3)]:
         lines.append(f"  corr(T{a}, T{b}): pearson "
                      f"{pearson([t[a][c] for c in COLORS], [t[b][c] for c in COLORS]):+.2f}")
+    lines.append("  per-color 95% CI (item-clustered bootstrap):")
+    cis = color_cis(comps, key)
+    for col in COLORS:
+        obs, lo, hi = cis[col]
+        star = " *" if lo > 0 or hi < 0 else ""
+        lines.append(f"    {col:>8}: {obs:+.3f} [{lo:+.3f}, {hi:+.3f}]{star}")
+    lines.append("  blue per tier:")
+    for tier in (1, 2, 3):
+        obs, lo, hi = color_cis([c for c in comps if c["tier"] == tier], key)["blue"]
+        star = " *" if lo > 0 or hi < 0 else ""
+        lines.append(f"      T{tier}: {obs:+.3f} [{lo:+.3f}, {hi:+.3f}]{star}")
     lines.append("")
 
 text = "\n".join(lines)

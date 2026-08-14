@@ -1,32 +1,56 @@
-630 comparisons: 3 tiers x 42 ordered color pairs x 5, unflagged balanced-tier items
+1260 comparisons: 3 tiers x 42 ordered color pairs x 10, unflagged balanced-tier items
 
 == A/B letter-logit ==
 per-color mean signed preference (rows = tier):
              red  orange  yellow   green    blue  indigo  violet
-  T1       0.14   -0.38   -0.81   -0.20    1.03    0.74   -0.51
-  T2      -0.84    0.96    0.78   -0.42   -0.02   -0.03   -0.42
-  T3       0.17    1.25   -0.57   -0.94   -0.21    0.76   -0.45
-  all     -0.18    0.61   -0.20   -0.52    0.27    0.49   -0.46
+  T1       0.49   -0.19   -0.59   -0.34    0.06    0.62   -0.05
+  T2       0.22   -0.08    0.02   -0.40    0.46    0.32   -0.54
+  T3      -0.05    0.34    0.01   -0.51    0.19    0.32   -0.31
+  all      0.22    0.02   -0.19   -0.42    0.24    0.42   -0.30
   uncontrolled (original inherent items):
            0.09    0.08   -0.08   -0.67   -0.24    0.69    0.13
-  corr(controlled, uncontrolled) over 7 colors: pearson +0.55  spearman +0.36
-  mean |per-color pref|: controlled 0.389  vs uncontrolled 0.283
-  corr(T1, T2): pearson -0.32
-  corr(T1, T3): pearson +0.25
-  corr(T2, T3): pearson +0.38
+  corr(controlled, uncontrolled) over 7 colors: pearson +0.66  spearman +0.43
+  mean |per-color pref|: controlled 0.258  vs uncontrolled 0.283
+  corr(T1, T2): pearson +0.52
+  corr(T1, T3): pearson +0.36
+  corr(T2, T3): pearson +0.74
+  per-color 95% CI (item-clustered bootstrap):
+         red: +0.219 [-0.387, +0.830]
+      orange: +0.023 [-0.599, +0.656]
+      yellow: -0.187 [-0.819, +0.538]
+       green: -0.416 [-0.913, +0.119]
+        blue: +0.238 [-0.361, +0.798]
+      indigo: +0.422 [-0.234, +1.129]
+      violet: -0.299 [-0.970, +0.334]
+  blue per tier:
+      T1: +0.057 [-1.028, +0.993]
+      T2: +0.464 [-0.500, +1.331]
+      T3: +0.194 [-0.954, +1.361]
 
 == object-logprob ==
 per-color mean signed preference (rows = tier):
              red  orange  yellow   green    blue  indigo  violet
-  T1       0.28   -0.76   -0.08    0.03    0.67    0.16   -0.29
-  T2      -0.61   -0.08    0.10    0.02    0.60   -0.16    0.13
-  T3      -0.58    0.18   -0.13    0.13    0.28    0.30   -0.18
-  all     -0.30   -0.22   -0.04    0.06    0.51    0.10   -0.12
+  T1       0.43   -0.31   -0.40   -0.10    0.33    0.37   -0.32
+  T2      -0.30   -0.08   -0.19   -0.15    0.58    0.00    0.14
+  T3      -0.68   -0.02   -0.05    0.20    0.23    0.36   -0.05
+  all     -0.18   -0.14   -0.21   -0.02    0.38    0.24   -0.08
   uncontrolled (original inherent items):
           -0.35   -0.24   -0.08   -0.29    0.32    0.47    0.16
-  corr(controlled, uncontrolled) over 7 colors: pearson +0.65  spearman +0.71
-  mean |per-color pref|: controlled 0.193  vs uncontrolled 0.273
-  corr(T1, T2): pearson +0.22
-  corr(T1, T3): pearson -0.01
-  corr(T2, T3): pearson +0.61
+  corr(controlled, uncontrolled) over 7 colors: pearson +0.79  spearman +0.61
+  mean |per-color pref|: controlled 0.178  vs uncontrolled 0.273
+  corr(T1, T2): pearson +0.21
+  corr(T1, T3): pearson -0.09
+  corr(T2, T3): pearson +0.52
+  per-color 95% CI (item-clustered bootstrap):
+         red: -0.182 [-0.474, +0.106]
+      orange: -0.136 [-0.491, +0.182]
+      yellow: -0.211 [-0.511, +0.101]
+       green: -0.017 [-0.310, +0.261]
+        blue: +0.380 [+0.187, +0.594] *
+      indigo: +0.242 [-0.101, +0.555]
+      violet: -0.076 [-0.431, +0.222]
+  blue per tier:
+      T1: +0.331 [-0.028, +0.714]
+      T2: +0.576 [+0.223, +1.037] *
+      T3: +0.234 [-0.045, +0.518]
 
