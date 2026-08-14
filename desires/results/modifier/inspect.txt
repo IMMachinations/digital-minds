@@ -1,0 +1,13 @@
+Here are two things. | A: a red sandal | B: an orange stapler | Answer with one letter which one you prefer. | Model: I prefer
+  ' A':24.8, ' B':22.9, ' R':19.4, ' S':17.5, ' the':15.8, ' M':15.7, ' O':15.1, ' sand':15.1, ':\n\n':15.0, ' (':14.9, ' E':14.8, ' C':14.5, '\n\n':14.3, ' X':14.1, ' G':14.1, ' option':14.0, ' a':14.0, ' P':13.9, ' to':13.6, ' both':13.2
+Consider option A and option B. | A: a red mug | B: an orange mirror | Answer with one letter which one you prefer. | Model: I prefer
+  ' B':26.8, ' A':26.5, ' option':21.8, ' M':20.5, ' Option':18.0, ' R':17.4, ' O':16.5, ' the':15.8, 'B':14.8, ' C':14.7, 'A':14.3, ' both':14.1, ' options':13.9, 'Option':13.8, ' G':13.8, ':\n\n':13.7, ' E':13.6, ' (':13.5, 'option':13.4, ' P':13.4
+Here are two things. | A: a red flag | B: an orange sweater | Answer with one letter which one you prefer. | Model: I prefer
+  ' B':23.6, ' A':23.0, ' R':17.0, ' O':15.6, ' G':14.9, ' C':14.8, ' M':14.8, ' E':14.4, ' the':14.2, ' S':13.9, ' (':13.7, ' N':13.2, ' option':13.2, ' Y':13.2, 'B':13.1, ' H':12.9, ' a':12.7, ' P':12.7, ' X':12.6, '\n\n':12.5
+Consider option A and option B. | A: a red banner | B: an orange surfboard | Answer with one letter which one you prefer. | Model: I prefer
+  ' A':27.8, ' B':27.0, ' option':21.6, ' O':19.8, ' R':19.5, ' Option':17.8, ' C':16.2, ' S':15.3, 'A':15.2, ' M':14.9, ' the':14.8, 'B':14.7, ' E':14.4, ' G':14.0, ' a':13.9, ' P':13.8, ' both':13.8, 'option':13.7, 'Option':13.6, ' W':13.6
+Pick between A and B. | A: a red broom | B: an orange sleeping-bag | Answer with one letter which one you prefer. | Model: I prefer
+  ' B':26.8, ' A':25.0, ':\n\n':19.5, ' the':18.4, ' option':17.1, 'B':16.1, ':\n':16.1, ':':15.8, ' letter':15.5, ' a':15.2, ' to':14.8, ' orange':14.6, 'A':13.6, ' Orange':13.5, ' O':13.2, ' choice':13.1, ' both':13.1, ' answer':12.9, ' C':12.9, ' R':12.8
+
+A variants used: {'A': 32, ' A': 362, '(A': 4346}
+B variants used: {'B': 33, ' B': 425, '(B': 5349}
