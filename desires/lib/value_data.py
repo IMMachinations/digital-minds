@@ -5,7 +5,7 @@ to cancel). Painting and household item sets are shared across colors so color i
 cross-color factor; the real-paintings domain is a small naturalistic check where fame and
 market value are confounded with color by construction.
 """
-from data import COLORS, example
+from .data import COLORS, example
 
 # 5 vowel-initial styles x 4 media = 20 shared painting descriptions per color; the fixed
 # "an" article works because every style starts with a vowel.

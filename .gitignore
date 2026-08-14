@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# desires/lib is a real source package, not a packaging artifact.
+!desires/lib/
