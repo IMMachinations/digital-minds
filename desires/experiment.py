@@ -67,13 +67,14 @@ def last_logits(prompts, steer=None, batch=64, n_suffix=None):
 
 
 @torch.no_grad()
-def suffix_acts(prompts, batch=64):
+def suffix_acts(prompts, batch=64, n_suffix=None):
     """Residual activations meaned over suffix tokens: acts [n_layers, N, d_model] and the
     per-layer mean token norm [n_layers]."""
+    ns = n_suffix or N_SUFFIX
     acts, norms = [[] for _ in LAYERS], [[] for _ in LAYERS]
     def cap(j):
         def hook(m, i, o):
-            s = resid(o)[:, -N_SUFFIX:, :].float()
+            s = resid(o)[:, -ns:, :].float()
             acts[j].append(s.mean(1).cpu())
             norms[j].append(s.norm(dim=-1).mean().cpu())
         return hook

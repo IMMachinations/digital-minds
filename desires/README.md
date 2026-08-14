@@ -166,6 +166,39 @@ steering — the tier and random controls unmask it. There is no evidence at any
 that these mean-difference vectors causally *push* the model toward preferring a color: a genuine
 preference direction would move neutral pairs, and nothing does.
 
+## A/B-free vectors from object logits (`objects.py`)
+
+To remove the answer-format nuisance entirely, `objects.py` drops the A/B machinery: prompts
+present the items inline (`"Pick between a fig and a ruby.\nWhich one do you prefer?\nModel: I
+prefer"`) and preference is read directly off the *object* tokens — the teacher-forced per-token
+mean log-prob of each item as the continuation (`diff = lp(item_a) − lp(item_b)`), same 420
+pairs. New vectors come from the new 10-token suffix span (`Which· one· do· you· prefer·?\n·
+Model·:· I· prefer`), top-20 wins by the new measure; saved raw and **centered** (each color's
+mean minus the across-color mean, renormalized) in `vectors_obj.pt`. Steering validation reuses
+the tier × {same, centered, random} design, injecting over suffix + continuation positions.
+
+- **The measurement itself holds up**: object-logprob diffs correlate with the old A/B logit
+  diffs at r = +0.53 (inherent) / +0.30 (modifier) — the preferences are partly
+  measurement-robust, though color rankings shift (inherent: indigo still top, but blue turns
+  positive; modifier: green jumps to +0.46).
+- **Decomposing deltas into a tier-uniform component (directional push) and a tier-antisymmetric
+  one (disruption)**: the antisymmetric part is again identical across same/centered/random —
+  non-specific, as before. The **uniform part separates the sources**: random ≈ 0 everywhere
+  (−0.2…+0.1), raw vectors ≈ 0 — but **centered vectors are uniformly positive in both modes at
+  every layer, growing with coefficient** (inherent c2: +0.13…+0.38; modifier: up to **+0.71**).
+- **Cleanest config — centered, layer 21, coef 1 (modifier)**: uniform push +0.71 mean-logprob
+  units with antisymmetric component +0.04 (i.e. essentially zero disruption), positive for
+  **7/7 colors**. Layer 21 is where random steering does nothing, so what remains is the
+  vector's own content. The inherent-mode push at the same config is real but smaller/noisier
+  (+0.16, 4/7 colors).
+
+**Conclusion.** The A/B-format component really was the dominant nuisance: raw mean vectors are
+behaviorally indistinguishable from random, but once the across-color mean is subtracted, the
+residual *does* steer preference directionally — including on neutral and already-won pairs,
+the test the old vectors failed. The directional effect is modest (≈ 0.2–0.7 mean-logprob units)
+and cleanest late in the network, consistent with early/mid-layer injection mostly disrupting
+the comparison computation rather than biasing it.
+
 ## Caveats
 Logit-diff at the prefill position, not sampled behavior; one model; vectors are means over
 correlated prompts (they likely carry an "answer-A/B" component along with color identity — the
