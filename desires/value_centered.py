@@ -1,75 +1,60 @@
 """Valuation steering with mean-centered prefer-vectors: does the null go away?
 
-Run: python value_centered.py [modifier|inherent] [pilot|full]   (after value.py <mode> full)
+Run: python value_centered.py --mode {modifier,inherent} --stage {pilot,full}
+  (after value.py --mode <mode> --stage full; baseline rows are reused from it)
 
 value.py showed the raw prefer-vectors (normalized mean activations) depress valuations
 uniformly and carry no color-differential effect: their shared non-color component dominates.
 Here each color's vector is centered against the across-color mean per layer and renormalized,
 so steering pushes only the color-differential direction. Results in
-results/value_{mode}_centered/ so value_analysis.py works with mode "<mode>_centered".
+results/value_{mode}_centered/ so value_analysis.py works with --target <mode>_centered.
 """
-import json
-import sys
-from pathlib import Path
+import argparse
 
 import torch
 
-import value as V  # loads model + raw vectors; V.STAGE is our sys.argv[2] too
-from data import COLORS
-from value_data import make_items
-
-OUT = Path(__file__).parent / "results" / f"value_{V.E.MODE}_centered"
-OUT.mkdir(parents=True, exist_ok=True)
-
-_raw = torch.stack([V.VECS[c] for c in COLORS])          # [7 colors, 28 layers, d_model]
-_cent = _raw - _raw.mean(0, keepdim=True)
-_frac = _cent.norm(dim=-1) / _raw.norm(dim=-1)           # size of the differential component
-CVECS = {c: (_cent / _cent.norm(dim=-1, keepdim=True))[i] for i, c in enumerate(COLORS)}
-print(f"differential fraction ||v - mean||/||v||: layer 14 mean {_frac[:, 14].mean():.3f}, "
-      f"all layers {_frac.mean():.3f}")
-# NB: renormalizing to unit length means coef x resid_norm now pushes the pure differential
-# direction at full strength — a much larger differential push than the raw vectors gave.
+from lib.data import COLORS
+from lib.harness import load
+from lib.io import save_json
+from lib.paths import results_dir
+from lib.steering import scaled_vec
+from lib.value_data import make_items
+from lib.valuation import base_rows, gen_rows, report, val_n_suffix
 
 PILOT_COEFS = [0.5, 1.0, 2.0]
 LAYER = 14
 FULL_COEFS = [0.5, 1.0]  # confirmed/updated by the pilot
+PILOT_N = 5
 
 
-def csteer_vec(color, layer, coef):
-    return (CVECS[color][layer] * coef * V.RESID_NORMS[layer]).to("cuda", torch.bfloat16)
-
-
-def gen_rows(items, name, color, cfg, seed):
-    """Generate for `items` under one condition and return sample rows (value.py row format)."""
-    steer = None if cfg is None else (cfg[0], csteer_vec(color, cfg[0], cfg[1]))
-    samples = V.generate([it["prompt"] for it in items], steer=steer, seed=seed)
-    return [dict(domain=it["domain"], item_color=it["color"], item=it["item"], condition=name,
-                 layer=cfg[0] if cfg else None, coef=cfg[1] if cfg else None, sample_idx=si,
-                 text=t, value=V.parse_dollars(t))
-            for it, texts in zip(items, samples) for si, t in enumerate(texts)]
-
-
-def base_rows(items):
-    """Baseline rows reused from the raw-vector run (unsteered => identical condition)."""
-    keys = {(it["domain"], it["color"], it["item"]) for it in items}
-    rows = json.load(open(V.OUT / "values.json"))
-    return [r for r in rows if r["condition"] == "base"
-            and (r["domain"], r["item_color"], r["item"]) in keys]
+def center(vecs):
+    raw = torch.stack([vecs[c] for c in COLORS])          # [7 colors, 28 layers, d_model]
+    cent = raw - raw.mean(0, keepdim=True)
+    frac = cent.norm(dim=-1) / raw.norm(dim=-1)           # size of the differential component
+    cvecs = {c: (cent / cent.norm(dim=-1, keepdim=True))[i] for i, c in enumerate(COLORS)}
+    print(f"differential fraction ||v - mean||/||v||: layer 14 mean {frac[:, 14].mean():.3f}, "
+          f"all layers {frac.mean():.3f}")
+    # NB: renormalizing to unit length means coef x resid_norm now pushes the pure differential
+    # direction at full strength — a much larger differential push than the raw vectors gave.
+    return cvecs
 
 
 # ---- Pilot: matched-color steering only, coef sweep at one layer ---------------------------------
-def pilot():
-    items = make_items(n_per_color=V.PILOT_N)
+def pilot(h, out, base_path, cvecs, resid_norms, n_suf):
+    items = make_items(n_per_color=PILOT_N)
     by_color = {c: [it for it in items if it["color"] == c] for c in COLORS}
-    rows = base_rows(items)
-    assert rows, "run `python value.py <mode> full` first (baseline rows are reused from it)"
+    rows = base_rows(items, base_path)
+    assert rows, "run `python value.py --mode <mode> --stage full` first (baseline rows are reused)"
+    # Seed formula (historical): layer * 100 + int(coef * 100).
     for cf in PILOT_COEFS:
         name = f"L{LAYER}x{cf}"
         for c in COLORS:
-            rows += gen_rows(by_color[c], name, c, (LAYER, cf), seed=LAYER * 100 + int(cf * 100))
+            steer = (LAYER, scaled_vec(cvecs[c][LAYER], cf, resid_norms[LAYER]))
+            rows += gen_rows(h, by_color[c], name, steer, (LAYER, cf),
+                             seed=LAYER * 100 + int(cf * 100), n_suffix=n_suf)
         print(f"pilot {name} done")
-    (OUT / "pilot.json").write_text(json.dumps(rows, indent=1))
-    V.report(rows, ["base"] + [f"L{LAYER}x{cf}" for cf in PILOT_COEFS])
+    save_json(out / "pilot.json", rows)
+    report(rows, ["base"] + [f"L{LAYER}x{cf}" for cf in PILOT_COEFS])
     print("\nsample steered texts:")
     for cf in PILOT_COEFS:
         for r in [r for r in rows if r["condition"] == f"L{LAYER}x{cf}"][:3]:
@@ -77,24 +62,38 @@ def pilot():
 
 
 # ---- Full: baseline + all 7 steer colors on every item (cross-color) -----------------------------
-def full():
+def full(h, out, base_path, cvecs, resid_norms, n_suf):
     items = make_items()
-    rows = base_rows(items)
+    rows = base_rows(items, base_path)
     assert rows
+    # Seed formula (historical): (condition index + 1) * 1000, conditions in coef-major order.
     for ci, (cf, c) in enumerate((cf, c) for cf in FULL_COEFS for c in COLORS):
-        rows += gen_rows(items, f"{c}|L{LAYER}x{cf}", c, (LAYER, cf), seed=(ci + 1) * 1000)
+        steer = (LAYER, scaled_vec(cvecs[c][LAYER], cf, resid_norms[LAYER]))
+        rows += gen_rows(h, items, f"{c}|L{LAYER}x{cf}", steer, (LAYER, cf),
+                         seed=(ci + 1) * 1000, n_suffix=n_suf)
         print(f"condition {c}|L{LAYER}x{cf} done ({ci + 1}/{len(FULL_COEFS) * len(COLORS)})")
-    (OUT / "values.json").write_text(json.dumps(rows, indent=1))
+    save_json(out / "values.json", rows)
     for cf in FULL_COEFS:
         tag = f"|L{LAYER}x{cf}"
         sub = [dict(r, condition=r["condition"].removesuffix(tag)) for r in rows
                if r["condition"] == "base" or r["condition"].endswith(tag)]
         print(f"\n######## centered L{LAYER} x {cf} ########")
-        V.report(sub, ["base"] + COLORS)
+        report(sub, ["base"] + COLORS)
 
 
 if __name__ == "__main__":
-    if V.STAGE == "pilot":
-        pilot()
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--mode", choices=["modifier", "inherent"], default="inherent")
+    ap.add_argument("--stage", choices=["pilot", "full"], default="full")
+    args = ap.parse_args()
+
+    out = results_dir(f"value_{args.mode}_centered")
+    base_path = results_dir(f"value_{args.mode}") / "values.json"
+    h = load()
+    saved = torch.load(results_dir(args.mode) / "vectors.pt")
+    cvecs = center(saved["vecs"])
+    n_suf = val_n_suffix(h.tok)
+    if args.stage == "pilot":
+        pilot(h, out, base_path, cvecs, saved["resid_norms"], n_suf)
     else:
-        full()
+        full(h, out, base_path, cvecs, saved["resid_norms"], n_suf)

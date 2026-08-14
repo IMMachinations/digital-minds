@@ -1,20 +1,21 @@
 """Model dollar estimates vs real-world prices.
 
-Run: python calibration.py inherent   (GPU, ~3 min)
+Run: python calibration.py   (GPU, ~3 min)
 
 ~50 items with well-known prices, valued with the same prompt as every other experiment here
 (5 samples, no steering). Reference prices are approximate 2025-ish US prices from model
 knowledge, stated to one significant-ish figure — the point is order-of-magnitude calibration,
 not exact retail tracking.
 """
-import json
+import argparse
 import math
-from pathlib import Path
 
-import value as V
-
-OUT = Path(__file__).parent / "results" / "calibration"
-OUT.mkdir(parents=True, exist_ok=True)
+from lib.harness import load
+from lib.io import save_json
+from lib.paths import results_dir
+from lib.stats import pearson
+from lib.value_data import SUFFIX, TEMPLATE
+from lib.valuation import parse_dollars
 
 ITEMS = [  # (item, approx real US price $)
     ("a banana", 0.25), ("a first-class postage stamp", 0.75), ("a loaf of white bread", 2.5),
@@ -44,11 +45,13 @@ ITEMS = [  # (item, approx real US price $)
 ]
 
 if __name__ == "__main__":
-    from value_data import TEMPLATE, SUFFIX
-    samples = V.generate([TEMPLATE.format(item=it, suffix=SUFFIX) for it, _ in ITEMS], seed=0)
-    rows = [dict(item=it, ref=ref, sample_idx=si, text=t, value=V.parse_dollars(t))
+    argparse.ArgumentParser(description=__doc__).parse_args()
+    out = results_dir("calibration")
+    h = load()
+    samples = h.generate([TEMPLATE.format(item=it, suffix=SUFFIX) for it, _ in ITEMS], seed=0)
+    rows = [dict(item=it, ref=ref, sample_idx=si, text=t, value=parse_dollars(t))
             for (it, ref), texts in zip(ITEMS, samples) for si, t in enumerate(texts)]
-    (OUT / "values.json").write_text(json.dumps(rows, indent=1))
+    save_json(out / "values.json", rows)
 
     est = {}
     for it, ref in ITEMS:
@@ -63,11 +66,6 @@ if __name__ == "__main__":
     mx, my = sum(x) / n, sum(y) / n
     slope = sum((a - mx) * (b - my) for a, b in zip(x, y)) / sum((a - mx) ** 2 for a in x)
     inter = my - slope * mx
-    def pearson(u, v):
-        mu, mv = sum(u) / len(u), sum(v) / len(v)
-        su = math.sqrt(sum((a - mu) ** 2 for a in u))
-        sv = math.sqrt(sum((b - mv) ** 2 for b in v))
-        return sum((a - mu) * (b - mv) for a, b in zip(u, v)) / (su * sv)
     rk = lambda v: [float(sorted(v).index(a)) for a in v]
     errs = sorted(((est[it] - refs[it], it) for it in est), key=lambda e: e[0])
     med = sorted(abs(e) for e, _ in errs)[len(errs) // 2]
@@ -83,5 +81,5 @@ if __name__ == "__main__":
     lines += [f"  {it}: model ${10 ** est[it]:,.0f} vs real ${10 ** refs[it]:,.0f} ({e:+.2f})"
               for e, it in errs[-5:][::-1]]
     text = "\n".join(lines)
-    (OUT / "analysis.txt").write_text(text + "\n")
+    (out / "analysis.txt").write_text(text + "\n")
     print(text)

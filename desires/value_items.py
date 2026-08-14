@@ -1,80 +1,51 @@
 """Price statistics of the original inherent items.
 
-Run: python value_items.py inherent   (GPU; ~6 min)
+Run: python value_items.py   (GPU; ~6 min; after value_centered.py --mode inherent --stage full)
 
-Tests the hypothesis from VALUE.md: the centered prefer-vectors act as global price knobs
+Tests the price-knob hypothesis: the centered prefer-vectors act as global price knobs
 because each color's direction inherits the price statistics of that color's inherent items
 (sapphires and night skies vs. vegetables). We value all 700 INHERENT items directly (baseline,
 no steering), then correlate per-color average log-values — over the full 100-item pool and
 over the top-K=20 extraction items the vectors were actually built from — with the centered
 column effects measured in results/value_inherent_centered/values.json.
 """
-import json
-import math
-from collections import defaultdict
-from pathlib import Path
-
-import value as V  # loads model; run with mode "inherent" so V.OUT matches the raw run
-from data import COLORS, INHERENT
-from value_data import TEMPLATE, SUFFIX
-
-OUT = Path(__file__).parent / "results" / "value_items"
-OUT.mkdir(parents=True, exist_ok=True)
-RES = Path(__file__).parent / "results"
-K = 20  # experiment.py's extraction K
+import argparse
+from lib.data import COLORS, INHERENT
+from lib.io import load_json, save_json
+from lib.harness import load
+from lib.paths import results_dir
+from lib.stats import column_effect, condition_ml, mean_log10_by, pearson, spearman
+from lib.tiers import K, top_wins
+from lib.value_data import SUFFIX, TEMPLATE
+from lib.valuation import parse_dollars
 
 
 def extraction_items(color, comps):
-    """Winning-side items of the top-K comparisons `color` won most strongly (comps_for logic)."""
-    mine = [c for c in comps if color in (c["color_a"], c["color_b"])]
-    mine.sort(key=lambda c: c["diff"] if c["color_a"] == color else -c["diff"], reverse=True)
-    return [c["item_a"] if c["color_a"] == color else c["item_b"] for c in mine[:K]]
+    """Winning-side items of the top-K comparisons `color` won most strongly."""
+    return [c["item_a"] if c["color_a"] == color else c["item_b"]
+            for c in top_wins(comps, color, K)]
 
 
 def column_effects(coef_tag):
     """Mean dlog10(per-item geomean) per steer color over painting+household rows."""
-    rows = json.load(open(RES / "value_inherent_centered" / "values.json"))
-    ml = defaultdict(list)
-    for r in rows:
-        if r["value"] and r["domain"] != "real":
-            ml[(r["condition"], r["domain"], r["item_color"], r["item"])].append(math.log10(r["value"]))
-    ml = {k: sum(v) / len(v) for k, v in ml.items()}
-    out = {}
-    for sc in COLORS:
-        ds = [ml[(f"{sc}|{coef_tag}", d, ic, it)] - ml[("base", d, ic, it)]
-              for (c, d, ic, it) in ml if c == "base" and (f"{sc}|{coef_tag}", d, ic, it) in ml]
-        out[sc] = sum(ds) / len(ds)
-    return out
-
-
-def pearson(x, y):
-    n = len(x)
-    mx, my = sum(x) / n, sum(y) / n
-    sx = math.sqrt(sum((a - mx) ** 2 for a in x))
-    sy = math.sqrt(sum((b - my) ** 2 for b in y))
-    return sum((a - mx) * (b - my) for a, b in zip(x, y)) / (sx * sy)
-
-
-def spearman(x, y):
-    rk = lambda v: [float(sorted(v).index(a)) for a in v]
-    return pearson(rk(x), rk(y))
+    ml = condition_ml(load_json(results_dir("value_inherent_centered") / "values.json"))
+    return {sc: column_effect(ml, f"{sc}|{coef_tag}") for sc in COLORS}
 
 
 if __name__ == "__main__":
+    argparse.ArgumentParser(description=__doc__).parse_args()
+    out = results_dir("value_items")
+    h = load()
     items = [(c, it) for c in COLORS for it in INHERENT[c]]
-    samples = V.generate([TEMPLATE.format(item=it, suffix=SUFFIX) for _, it in items], seed=0)
-    rows = [dict(color=c, item=it, sample_idx=si, text=t, value=V.parse_dollars(t))
+    samples = h.generate([TEMPLATE.format(item=it, suffix=SUFFIX) for _, it in items], seed=0)
+    rows = [dict(color=c, item=it, sample_idx=si, text=t, value=parse_dollars(t))
             for (c, it), texts in zip(items, samples) for si, t in enumerate(texts)]
-    (OUT / "values.json").write_text(json.dumps(rows, indent=1))
+    save_json(out / "values.json", rows)
 
     # per-item mean log10 over positive parsed samples
-    ml = defaultdict(list)
-    for r in rows:
-        if r["value"]:
-            ml[(r["color"], r["item"])].append(math.log10(r["value"]))
-    ml = {k: sum(v) / len(v) for k, v in ml.items()}
+    ml = mean_log10_by(rows, lambda r: (r["color"], r["item"]))
 
-    comps = json.load(open(RES / "inherent" / "preferences.json"))
+    comps = load_json(results_dir("inherent") / "preferences.json")
     pool = {c: [ml[(c, it)] for it in INHERENT[c] if (c, it) in ml] for c in COLORS}
     extr = {c: [ml[(c, it)] for it in extraction_items(c, comps) if (c, it) in ml] for c in COLORS}
     cols = {tag: column_effects(tag) for tag in ["L14x0.5", "L14x1.0"]}
@@ -96,5 +67,5 @@ if __name__ == "__main__":
             lines.append(f"  {name:>10} mean log10 vs {tag}: pearson {pearson(xs, ce):+.2f}  "
                          f"spearman {spearman(xs, ce):+.2f}")
     text = "\n".join(lines) + "\n"
-    (OUT / "analysis.txt").write_text(text)
+    (out / "analysis.txt").write_text(text)
     print(text)

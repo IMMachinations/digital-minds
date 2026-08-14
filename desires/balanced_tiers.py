@@ -1,27 +1,26 @@
 """Color-balanced item tiers: decouple color from price.
 
-Run: python balanced_tiers.py inherent   (GPU, ~8 min)
+Run: python balanced_tiers.py   (GPU, ~8 min)
 
 Every prior result confounds color with the price of the things that carry it (blue = sapphires
 and Levi's, green = vegetables). This file curates 7 colors x 3 value tiers x 12 inherently- or
-iconically-colored items, each with MY OWN price estimate (approximate US dollars, recorded
+iconically-colored items, each with a hand price estimate (approximate US dollars, recorded
 below), then verifies against the model's estimates (same valuation prompt, 5 samples, no
 steering). Items >0.5 log10 from their tier's model-median center get flagged for replacement.
 Tier targets: T1 ~ $2, T2 ~ $50, T3 ~ $1500 (log-spaced). Caveats: mid/high tiers lean on
 iconically-colored branded goods (a Coca-Cola can, Louboutin soles); indigo overlaps denim/
 violet at the edges.
 """
-import json
+import argparse
 import math
-from collections import defaultdict
-from pathlib import Path
 
-import value as V
-from data import COLORS
-from value_data import TEMPLATE, SUFFIX
-
-OUT = Path(__file__).parent / "results" / "balanced_tiers"
-OUT.mkdir(parents=True, exist_ok=True)
+from lib.data import COLORS
+from lib.harness import load
+from lib.io import save_json
+from lib.paths import results_dir
+from lib.stats import mean_log10_by
+from lib.value_data import SUFFIX, TEMPLATE
+from lib.valuation import parse_dollars
 
 TIER_TARGET = {1: 2, 2: 50, 3: 1500}
 
@@ -146,18 +145,17 @@ for c in COLORS:
         assert len(ITEMS[(c, t)]) == 12, (c, t)
 
 if __name__ == "__main__":
+    argparse.ArgumentParser(description=__doc__).parse_args()
+    out = results_dir("balanced_tiers")
+    h = load()
     flat = [(c, t, it, est) for (c, t), lst in ITEMS.items() for it, est in lst]
-    samples = V.generate([TEMPLATE.format(item=it, suffix=SUFFIX) for _, _, it, _ in flat], seed=0)
+    samples = h.generate([TEMPLATE.format(item=it, suffix=SUFFIX) for _, _, it, _ in flat], seed=0)
     rows = [dict(color=c, tier=t, item=it, my_estimate=est, sample_idx=si, text=txt,
-                 value=V.parse_dollars(txt))
+                 value=parse_dollars(txt))
             for (c, t, it, est), texts in zip(flat, samples) for si, txt in enumerate(texts)]
-    (OUT / "values.json").write_text(json.dumps(rows, indent=1))
+    save_json(out / "values.json", rows)
 
-    ml = defaultdict(list)
-    for r in rows:
-        if r["value"]:
-            ml[(r["color"], r["tier"], r["item"])].append(math.log10(r["value"]))
-    geo = {k: sum(v) / len(v) for k, v in ml.items()}
+    geo = mean_log10_by(rows, lambda r: (r["color"], r["tier"], r["item"]))
 
     # tier centers = median model log-value within tier; flag items >0.5 log10 away
     centers = {}
@@ -174,7 +172,7 @@ if __name__ == "__main__":
         summary.append(row)
         if row["flagged"]:
             flagged.append(row)
-    (OUT / "balanced_tiers.json").write_text(json.dumps(summary, indent=1))
+    save_json(out / "balanced_tiers.json", summary)
 
     print("tier centers (model median): " +
           "  ".join(f"T{t}: ${10 ** centers[t]:,.0f} (target ${TIER_TARGET[t]})" for t in (1, 2, 3)))
