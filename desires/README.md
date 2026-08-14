@@ -51,6 +51,23 @@ the model really doesn't want the losing item) and mid layers 11–14 recover +4
 color, landing just short of a flip (≈ −0.5 to −0.9); L21 does almost nothing, suggesting the
 choice is mostly resolved by then.
 
+## Where exactly the model is steered
+
+Steering adds `coef × mean_resid_norm(layer) × unit_vec` to one decoder layer's output residual
+stream, **only at the trailing question/answer span** — the last `n_suffix` token positions
+(left-padding right-aligns every prompt, so the slice is the same for the whole batch). The item
+texts (`A: a fig`, `B: ...`) are never steered; the last unsteered token is the `'\n'` before the
+span. The exact steered tokens per framing (Qwen2.5 tokenizer):
+
+- **prefer** (13 tokens): `Answer· with· one· letter· which· one· you· prefer·.\n·Model·:· I· prefer`
+- **worse** (19 tokens): `Which· of· the· two· items· is· worse·?· Answer· with· one· letter·.\n·Model·:· The· worse· one· is`
+- **avoid** (24 tokens): `If· you· had· to· avoid· one· of· these·,· which· would· it· be·?· Answer· with· one· letter·.\n·Model·:· I· would· avoid`
+
+(`·` marks token boundaries; most tokens carry their leading space.) The vectors were *extracted*
+as the mean activation over the 13-token prefer span, and the A/B logits are read at the span's
+final token (` prefer` / ` is` / ` avoid`). So in the negated framings the vector is injected
+into a span whose wording it was never extracted from — the transfer is part of the test.
+
 ## Negated-framing validation (`flip.py`)
 
 Do the vectors encode *preference*, or just "pick this color's letter"? `python flip.py [mode]`
@@ -77,6 +94,32 @@ a preference):
 | inherent L18 | −0.60 / −2.45 / −5.37 | 0.13 / 0.01 / −1.75 |
 
 (Full 5-layer tables in `flip_{worse,avoid}.json`.)
+
+**Where the delta comes from** (`flip_*.json` also records per-letter movement: Δown = raw-logit
+change of the steered color's letter, Δopp = the other letter, plus log-prob versions; Δdiff =
+Δown − Δopp). Three regimes, using inherent mode as the clean case:
+
+- *Generic letter boost*: at coef ≤ 1 the vector raises **both** letters' raw logits in every
+  framing (e.g. prefer L18 c1: own +7.7, opp +3.2) — part of the direction just encodes "answer
+  with a letter". The preference lives in the differential.
+- *Opposite-letter promotion*: the big "worse"-framing drops are mostly the **other** letter
+  rising, i.e. the model saying the *other* item is worse — L7 c1: Δdiff −7.5 = own −1.8 vs
+  opp **+5.8** (opp gains +4.8 log-prob against the whole vocab, so it's a real move, not a
+  global shift). Mid layers at c2 same shape: own ≈ +1..2, opp +6.5..7.2.
+- *High-magnitude degradation*: at c2, L7, absolute magnitudes fall (prefer framing: own −6.2,
+  opp −9.3) while the relative gap still moves the preference-consistent way — the vector starts
+  damaging the answer format, and only the differential survives.
+
+So the effect is genuinely *relative* — the gap moves consistently even when both absolute letter
+logits rise (low coef) or fall (high coef) together.
+
+**Magnitude sweep** (`sweep.py`, chart at `results/{mode}/sweep.png`, denser grid
+{0.25, 0.5, 0.75, 1, 1.5, 2, 3}): the per-letter logits follow an inverted U — both peak around
+coef 0.75–1.0 and collapse beyond ~1.5 (the vector starts destroying the answer format) — while
+the *diff* saturates and holds: in inherent mode the prefer-framing diff plateaus at +4–5 from
+coef 1 onward (layers 11–18), and the worse-framing diff descends to −6..−9 and stays there. The
+opposite-letter promotion that drives the "worse" flip peaks at coef 1–1.5. Layer 21 barely moves
+the diff in any framing, and layer 7 is the most brittle (earliest own-letter collapse).
 
 The two vector sets behave differently. **Inherent-mode vectors act like genuine valence**:
 deltas are negative nearly everywhere and grow with magnitude — steering "indigo-preference" into

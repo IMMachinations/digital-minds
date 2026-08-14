@@ -12,3 +12,17 @@ Consider option A and option B. | A: a pomegranate | B: a block of cheddar | If 
   ' the':25.8, ' option':23.4, ' A':22.8, ' B':22.4, ' p':19.5, ' block':19.0, ' having':18.9, ' a':18.8, ' Option':18.4, ' eating':18.2
 Here are two things. | A: a scarlet macaw | B: a California poppy | If you had to avoid one of these, which would it be? Answer with one letter. | Model: I would avoid
   ' the':23.2, ' A':21.9, ' B':20.8, ':\n':19.2, ' option':19.1, ' choosing':18.9, ' scar':18.0, ':\n\n':17.8, ' avoiding':17.2, ' a':17.1
+== worse ==
+Here are two things. | A: a matador's cape | B: a wheel of mimolette cheese | Which of the two items is worse? Answer with one letter. | Model: The worse one is
+  ' B':19.6, ' the':18.6, ' not':18.1, ' judged':17.9, ' likely':17.5, ':\n':17.2, ' probably':17.1, ' based':17.1, ' determined':16.6, ' generally':16.4
+Consider option A and option B. | A: a pomegranate | B: a block of cheddar | Which of the two items is worse? Answer with one letter. | Model: The worse one is
+  ' B':22.2, ' A':20.4, ' considered':19.0, ' the':18.2, ' worse':17.8, ' evaluated':17.6, ' determined':17.6, ' judged':17.5, ' generally':17.4, ':':17.2
+Here are two things. | A: a scarlet macaw | B: a California poppy | Which of the two items is worse? Answer with one letter. | Model: The worse one is
+  ' determined':20.4, ' the':20.4, ' based':20.1, ' not':19.0, ' typically':18.8, ' likely':18.6, ' generally':18.4, ' usually':18.2, ' dependent':18.2, ' a':18.1
+== avoid ==
+Here are two things. | A: a matador's cape | B: a wheel of mimolette cheese | If you had to avoid one of these, which would it be? Answer with one letter. | Model: I would avoid
+  ' the':23.5, ' B':21.2, ' A':19.6, ':\n':19.2, ':\n\n':17.6, ' choosing':17.5, ' option':16.9, ' having':16.8, ' letter':16.5, ' avoiding':16.0
+Consider option A and option B. | A: a pomegranate | B: a block of cheddar | If you had to avoid one of these, which would it be? Answer with one letter. | Model: I would avoid
+  ' the':25.8, ' option':23.4, ' A':22.8, ' B':22.4, ' p':19.5, ' block':19.0, ' having':18.9, ' a':18.8, ' Option':18.4, ' eating':18.2
+Here are two things. | A: a scarlet macaw | B: a California poppy | If you had to avoid one of these, which would it be? Answer with one letter. | Model: I would avoid
+  ' the':23.2, ' A':21.9, ' B':20.8, ':\n':19.2, ' option':19.1, ' choosing':18.9, ' scar':18.0, ':\n\n':17.8, ' avoiding':17.2, ' a':17.1
