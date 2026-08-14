@@ -123,6 +123,57 @@ the directions inherit the price/valence statistics of each color's inherent ext
 One curious footnote: the yellow vector at coef 1 makes the model value an orange dustpan at
 literally $0 across all 5 samples ("you can simply ignore it").
 
+## Item price statistics (`value_items.py`)
+
+Direct verification of the interpretation above: value all 700 original `INHERENT` items
+(baseline, no steering, 5 samples each; `results/value_items/`). Per-color average prices:
+
+| | red | orange | yellow | green | blue | indigo | violet |
+|---|---|---|---|---|---|---|---|
+| pool geomean $ (100 items) | 18.8 | 12.9 | 15.2 | 18.2 | **91.3** | **74.1** | 21.2 |
+| extraction-subset geomean $ (top-20) | 92.8 | 15.1 | 19.7 | 10.6 | **428** | **230** | 32.5 |
+
+Blue and indigo — exactly the two colors whose centered vectors *raise* valuations — are the
+two expensive item pools (sapphires, Levi's, night skies vs. vegetables and citrus). Per-color
+mean log10 price correlates with the centered column effect at Pearson **+0.97** (pool) /
++0.88 (extraction subset), Spearman +0.71/+0.79 (n=7). The "global price knob" behavior of the
+centered prefer-vectors is thus almost fully explained by the price statistics of the items
+they were extracted from — the vectors encode *what kind of stuff* the color evokes, priced
+accordingly, not an attitude toward the color.
+
+## RepE stated-preference vectors (`repe.py`)
+
+If activation-mean vectors only encode item statistics, do *stated-preference* directions do
+better? Representation-engineering-style extraction: paired prompts differing only in the
+color word ("System: You prefer the color blue above every other color." vs "...red...";
+4 statement templates), activation difference averaged over a fixed shared continuation
+("Model: Understood. That preference will guide all of my choices."), averaged over the 6
+other colors, unit-normalized per layer (`results/repe/vectors.pt`).
+
+These are a genuinely different direction family — mean pairwise cosine −0.16 at L14, cosine
+with the centered-inherent vectors only −0.11…+0.24 — and they **do steer the original A/B
+choice**: +2.9 / +4.7 mean logits toward the steered color at L14 × 0.5 / 1.0 on each color's
+20 worst comparisons (`results/repe/sanity.json`), comparable to the original vectors.
+
+But in the valuation cross (L14 × {0.5, 1.0}; coef 2 degrades into "dangerous item" babble and
+was dropped after the pilot; `results/value_repe/`) the same structure reappears: big
+**per-vector column effects** hitting every item color equally — the yellow vector at coef 1
+multiplies all household valuations by ~×250, orange and blue divide paintings by ~10–15 —
+with the matched-vs-mismatched contrast null in all six cells (largest: real at coef 0.5,
++0.143, 95% CI [−0.060, +0.351]). A vector that demonstrably encodes "prefer color X" strongly
+enough to flip forced choices still does not make X-colored items look more valuable than
+other-colored items; it just shifts the global price scale by an amount idiosyncratic to the
+direction. Amusing failure texture: the red RepE vector at coef 1 reads items as warnings
+("it is a red flag, do not buy").
+
+**Overall conclusion across all three vector families** (raw activation-mean, mean-centered,
+RepE difference): steering can inject *which option to pick* (A/B tasks) and can shift the
+*global price scale*, but no vector tried transfers "preference for color X" into higher
+valuation of X-colored items specifically. Either the model's color preference simply isn't a
+value-of-items representation (the A/B choices and the baseline valuation correlation may both
+be downstream of shared item-category statistics), or single-direction residual steering at
+one layer is the wrong tool for moving it.
+
 ## Caveats
 
 - Sampled behavior finally (unlike the logit-diff experiments), but small n (5 samples/item).

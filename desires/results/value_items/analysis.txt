@@ -1,0 +1,17 @@
+parsed items: 692/700  (unparseable samples: 0/3500)
+
+per-color item price statistics (log10 $) vs centered column effects:
+   color  pool mean  pool geo$  extr mean  extr geo$  col@0.5  col@1.0
+     red       1.27       18.8       1.97       92.8    -0.56    -1.02
+  orange       1.11       12.9       1.18       15.1    -0.39    -0.99
+  yellow       1.18       15.2       1.29       19.7    -0.32    -0.75
+   green       1.26       18.2       1.02       10.6    -0.54    -1.20
+    blue       1.96       91.3       2.63        428    +0.50    +1.14
+  indigo       1.87       74.1       2.36        230    +0.39    +0.98
+  violet       1.33       21.2       1.51       32.5    -0.34    -0.70
+
+correlations with column effect (n=7 colors, indicative only):
+        pool mean log10 vs L14x0.5: pearson +0.95  spearman +0.57
+  extraction mean log10 vs L14x0.5: pearson +0.83  spearman +0.61
+        pool mean log10 vs L14x1.0: pearson +0.97  spearman +0.71
+  extraction mean log10 vs L14x1.0: pearson +0.88  spearman +0.79
