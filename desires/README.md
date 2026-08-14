@@ -51,6 +51,43 @@ the model really doesn't want the losing item) and mid layers 11–14 recover +4
 color, landing just short of a flip (≈ −0.5 to −0.9); L21 does almost nothing, suggesting the
 choice is mostly resolved by then.
 
+## Negated-framing validation (`flip.py`)
+
+Do the vectors encode *preference*, or just "pick this color's letter"? `python flip.py [mode]`
+re-runs the same 420 item pairs under two negated framings — "Which of the two items is worse?"
+(prefill `The worse one is`) and "If you had to avoid one of these, which would it be?" (prefill
+`I would avoid`) — and injects the unchanged **prefer**-vectors. A preference vector should make
+the model *less* likely to name its color as worse/avoided (negative delta); a letter/salience
+vector would push toward the color in every framing (positive delta).
+
+**Baselines flip.** Correlation of per-pair logit-diffs against the prefer framing:
+worse −0.56 / avoid −0.08 (modifier); worse −0.56 / avoid −0.39 (inherent). Per-color means
+mostly change sign (e.g. inherent: indigo +0.69 prefer → −0.36 worse; green −0.67 prefer →
++0.38 worse). The stated preferences are consistent under negation, though "avoid" is noisier
+(the `␣A`/`␣B` logits sit further down the distribution there, see `flip_inspect.txt`).
+
+**Steering** (mean Δ toward steered color on its 20 worst-by-prefer pairs; negative = acts like
+a preference):
+
+| | worse 0.5 / 1 / 2 | avoid 0.5 / 1 / 2 |
+|---|---|---|
+| modifier L7 | −0.02 / 1.31 / 2.56 | 0.86 / 0.44 / 1.94 |
+| modifier L18 | −0.67 / −0.69 / 0.54 | −0.50 / −0.76 / 0.16 |
+| inherent L7 | −1.03 / **−7.54** / **−8.15** | 1.55 / −0.92 / −4.68 |
+| inherent L18 | −0.60 / −2.45 / −5.37 | 0.13 / 0.01 / −1.75 |
+
+(Full 5-layer tables in `flip_{worse,avoid}.json`.)
+
+The two vector sets behave differently. **Inherent-mode vectors act like genuine valence**:
+deltas are negative nearly everywhere and grow with magnitude — steering "indigo-preference" into
+a "which is worse?" prompt makes the model much less willing to call the indigo item worse.
+**Modifier-mode vectors are mixed**: mildly preference-consistent at low magnitude (L11–L18,
+coef ≤ 1) but flipping to positive at coef 2 — at high magnitude they push the color's answer
+letter regardless of the question, i.e. they carry a salience/answer component alongside any
+preference. Plausible cause: modifier prompts contain the literal color word on the steered side,
+so its direction picks up "this color is mentioned/chosen" content, while inherent items (a fig,
+a pair of jeans) force the vector to carry something more like the model's evaluation of the item.
+
 ## Caveats
 Logit-diff at the prefill position, not sampled behavior; one model; vectors are means over
 correlated prompts (they likely carry an "answer-A/B" component along with color identity — the

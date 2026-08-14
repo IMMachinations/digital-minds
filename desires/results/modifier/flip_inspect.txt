@@ -1,0 +1,14 @@
+== worse ==
+Here are two things. | A: a red sandal | B: an orange stapler | Which of the two items is worse? Answer with one letter. | Model: The worse one is
+  ' the':24.1, ' based':21.9, ' determined':21.9, ' judged':21.0, ' whichever':19.9, ' considered':19.0, ' typically':18.9, ' B':18.8, ' evaluated':18.6, ' usually':18.6
+Consider option A and option B. | A: a red mug | B: an orange mirror | Which of the two items is worse? Answer with one letter. | Model: The worse one is
+  ' B':23.2, ' the':21.5, ' considered':21.1, ' judged':19.4, ' determined':19.2, ' likely':19.2, ' based':18.8, ' probably':18.5, ' generally':18.4, ' evaluated':18.4
+Here are two things. | A: a red flag | B: an orange sweater | Which of the two items is worse? Answer with one letter. | Model: The worse one is
+  ' B':20.8, ' the':20.2, ' based':19.5, ' not':19.4, ' probably':18.5, ' subjective':18.4, ' determined':18.2, ' judged':18.2, ' likely':18.2, ' whichever':17.1
+== avoid ==
+Here are two things. | A: a red sandal | B: an orange stapler | If you had to avoid one of these, which would it be? Answer with one letter. | Model: I would avoid
+  ' the':25.6, ' B':21.1, ' A':19.4, ' having':19.2, ' choosing':18.6, ':\n':18.4, ' option':18.0, ' a':17.9, ' avoiding':17.8, ' one':17.6
+Consider option A and option B. | A: a red mug | B: an orange mirror | If you had to avoid one of these, which would it be? Answer with one letter. | Model: I would avoid
+  ' the':26.1, ' option':23.1, ' B':21.8, ' A':20.6, ' having':19.5, ' choosing':18.6, ' Option':17.5, '选项':16.2, ' avoiding':16.0, 'Option':16.0
+Here are two things. | A: a red flag | B: an orange sweater | If you had to avoid one of these, which would it be? Answer with one letter. | Model: I would avoid
+  ' the':24.4, ' B':22.8, ':\n':21.1, ' A':20.4, ' option':19.9, ' choosing':19.8, ':\n\n':17.9, ' letter':17.8, ' flag':17.6, ':':17.6

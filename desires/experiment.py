@@ -48,14 +48,15 @@ def resid(out):
 
 
 @torch.no_grad()
-def last_logits(prompts, steer=None, batch=64):
+def last_logits(prompts, steer=None, batch=64, n_suffix=None):
     """Final-position logits [N, vocab]. steer=(layer, vec) adds vec to that layer's residual
-    stream at the suffix positions."""
+    stream at the suffix positions (n_suffix overrides the default prefer-framing length)."""
     handle = None
     if steer is not None:
         layer, vec = steer
+        ns = n_suffix or N_SUFFIX
         def add_vec(m, i, o):  # mutate in place; a hook's return value would replace the output
-            resid(o)[:, -N_SUFFIX:, :].add_(vec)
+            resid(o)[:, -ns:, :].add_(vec)
         handle = LAYERS[layer].register_forward_hook(add_vec)
     try:
         return torch.cat([model(**encode(prompts[i:i + batch])).logits[:, -1, :].float().cpu()
