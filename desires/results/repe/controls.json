@@ -1,0 +1,674 @@
+[
+ {
+  "tier": "worst",
+  "color": "red",
+  "source": "repe",
+  "coef": 0.5,
+  "base": -5.068667888641357,
+  "delta": 0.3624587953090668
+ },
+ {
+  "tier": "worst",
+  "color": "red",
+  "source": "repe",
+  "coef": 1.0,
+  "base": -5.068667888641357,
+  "delta": 5.10023307800293
+ },
+ {
+  "tier": "worst",
+  "color": "red",
+  "source": "rand",
+  "coef": 0.5,
+  "base": -5.068667888641357,
+  "delta": 1.5686744451522827
+ },
+ {
+  "tier": "worst",
+  "color": "red",
+  "source": "rand",
+  "coef": 1.0,
+  "base": -5.068667888641357,
+  "delta": 4.4874186515808105
+ },
+ {
+  "tier": "worst",
+  "color": "orange",
+  "source": "repe",
+  "coef": 0.5,
+  "base": -5.931197166442871,
+  "delta": 3.693774461746216
+ },
+ {
+  "tier": "worst",
+  "color": "orange",
+  "source": "repe",
+  "coef": 1.0,
+  "base": -5.931197166442871,
+  "delta": 5.540524482727051
+ },
+ {
+  "tier": "worst",
+  "color": "orange",
+  "source": "rand",
+  "coef": 0.5,
+  "base": -5.931197166442871,
+  "delta": 3.2124505043029785
+ },
+ {
+  "tier": "worst",
+  "color": "orange",
+  "source": "rand",
+  "coef": 1.0,
+  "base": -5.931197166442871,
+  "delta": 3.0624561309814453
+ },
+ {
+  "tier": "worst",
+  "color": "yellow",
+  "source": "repe",
+  "coef": 0.5,
+  "base": -5.209237575531006,
+  "delta": 1.6217819452285767
+ },
+ {
+  "tier": "worst",
+  "color": "yellow",
+  "source": "repe",
+  "coef": 1.0,
+  "base": -5.209237575531006,
+  "delta": 2.4092531204223633
+ },
+ {
+  "tier": "worst",
+  "color": "yellow",
+  "source": "rand",
+  "coef": 0.5,
+  "base": -5.209237575531006,
+  "delta": 1.7842918634414673
+ },
+ {
+  "tier": "worst",
+  "color": "yellow",
+  "source": "rand",
+  "coef": 1.0,
+  "base": -5.209237575531006,
+  "delta": 2.5844180583953857
+ },
+ {
+  "tier": "worst",
+  "color": "green",
+  "source": "repe",
+  "coef": 0.5,
+  "base": -6.006214141845703,
+  "delta": 4.218718528747559
+ },
+ {
+  "tier": "worst",
+  "color": "green",
+  "source": "repe",
+  "coef": 1.0,
+  "base": -6.006214141845703,
+  "delta": 4.840607643127441
+ },
+ {
+  "tier": "worst",
+  "color": "green",
+  "source": "rand",
+  "coef": 0.5,
+  "base": -6.006214141845703,
+  "delta": 2.9374656677246094
+ },
+ {
+  "tier": "worst",
+  "color": "green",
+  "source": "rand",
+  "coef": 1.0,
+  "base": -6.006214141845703,
+  "delta": 5.868712902069092
+ },
+ {
+  "tier": "worst",
+  "color": "blue",
+  "source": "repe",
+  "coef": 0.5,
+  "base": -5.499929904937744,
+  "delta": 1.859533667564392
+ },
+ {
+  "tier": "worst",
+  "color": "blue",
+  "source": "repe",
+  "coef": 1.0,
+  "base": -5.499929904937744,
+  "delta": 2.5937530994415283
+ },
+ {
+  "tier": "worst",
+  "color": "blue",
+  "source": "rand",
+  "coef": 0.5,
+  "base": -5.499929904937744,
+  "delta": 2.4749789237976074
+ },
+ {
+  "tier": "worst",
+  "color": "blue",
+  "source": "rand",
+  "coef": 1.0,
+  "base": -5.499929904937744,
+  "delta": 5.068744659423828
+ },
+ {
+  "tier": "worst",
+  "color": "indigo",
+  "source": "repe",
+  "coef": 0.5,
+  "base": -4.9249467849731445,
+  "delta": 4.281196594238281
+ },
+ {
+  "tier": "worst",
+  "color": "indigo",
+  "source": "repe",
+  "coef": 1.0,
+  "base": -4.9249467849731445,
+  "delta": 5.731198310852051
+ },
+ {
+  "tier": "worst",
+  "color": "indigo",
+  "source": "rand",
+  "coef": 0.5,
+  "base": -4.9249467849731445,
+  "delta": 3.581204652786255
+ },
+ {
+  "tier": "worst",
+  "color": "indigo",
+  "source": "rand",
+  "coef": 1.0,
+  "base": -4.9249467849731445,
+  "delta": 4.046814918518066
+ },
+ {
+  "tier": "worst",
+  "color": "violet",
+  "source": "repe",
+  "coef": 0.5,
+  "base": -5.024921894073486,
+  "delta": 4.262423038482666
+ },
+ {
+  "tier": "worst",
+  "color": "violet",
+  "source": "repe",
+  "coef": 1.0,
+  "base": -5.024921894073486,
+  "delta": 6.831183433532715
+ },
+ {
+  "tier": "worst",
+  "color": "violet",
+  "source": "rand",
+  "coef": 0.5,
+  "base": -5.024921894073486,
+  "delta": 1.6561763286590576
+ },
+ {
+  "tier": "worst",
+  "color": "violet",
+  "source": "rand",
+  "coef": 1.0,
+  "base": -5.024921894073486,
+  "delta": 1.8937145471572876
+ },
+ {
+  "tier": "neutral",
+  "color": "red",
+  "source": "repe",
+  "coef": 0.5,
+  "base": -0.1687488555908203,
+  "delta": -0.306246280670166
+ },
+ {
+  "tier": "neutral",
+  "color": "red",
+  "source": "repe",
+  "coef": 1.0,
+  "base": -0.1687488555908203,
+  "delta": 0.7938125729560852
+ },
+ {
+  "tier": "neutral",
+  "color": "red",
+  "source": "rand",
+  "coef": 0.5,
+  "base": -0.1687488555908203,
+  "delta": 0.08125047385692596
+ },
+ {
+  "tier": "neutral",
+  "color": "red",
+  "source": "rand",
+  "coef": 1.0,
+  "base": -0.1687488555908203,
+  "delta": -0.1562507599592209
+ },
+ {
+  "tier": "neutral",
+  "color": "orange",
+  "source": "repe",
+  "coef": 0.5,
+  "base": 0.3750002980232239,
+  "delta": 0.006257343105971813
+ },
+ {
+  "tier": "neutral",
+  "color": "orange",
+  "source": "repe",
+  "coef": 1.0,
+  "base": 0.3750002980232239,
+  "delta": -0.25310930609703064
+ },
+ {
+  "tier": "neutral",
+  "color": "orange",
+  "source": "rand",
+  "coef": 0.5,
+  "base": 0.3750002980232239,
+  "delta": -0.2000005692243576
+ },
+ {
+  "tier": "neutral",
+  "color": "orange",
+  "source": "rand",
+  "coef": 1.0,
+  "base": 0.3750002980232239,
+  "delta": -0.3312510550022125
+ },
+ {
+  "tier": "neutral",
+  "color": "yellow",
+  "source": "repe",
+  "coef": 0.5,
+  "base": 0.006247901823371649,
+  "delta": -0.4499966502189636
+ },
+ {
+  "tier": "neutral",
+  "color": "yellow",
+  "source": "repe",
+  "coef": 1.0,
+  "base": 0.006247901823371649,
+  "delta": 0.36875152587890625
+ },
+ {
+  "tier": "neutral",
+  "color": "yellow",
+  "source": "rand",
+  "coef": 0.5,
+  "base": 0.006247901823371649,
+  "delta": -0.11874055862426758
+ },
+ {
+  "tier": "neutral",
+  "color": "yellow",
+  "source": "rand",
+  "coef": 1.0,
+  "base": 0.006247901823371649,
+  "delta": 0.10003022849559784
+ },
+ {
+  "tier": "neutral",
+  "color": "green",
+  "source": "repe",
+  "coef": 0.5,
+  "base": -0.731245219707489,
+  "delta": 1.1124823093414307
+ },
+ {
+  "tier": "neutral",
+  "color": "green",
+  "source": "repe",
+  "coef": 1.0,
+  "base": -0.731245219707489,
+  "delta": 1.0219151973724365
+ },
+ {
+  "tier": "neutral",
+  "color": "green",
+  "source": "rand",
+  "coef": 0.5,
+  "base": -0.731245219707489,
+  "delta": 0.5562447309494019
+ },
+ {
+  "tier": "neutral",
+  "color": "green",
+  "source": "rand",
+  "coef": 1.0,
+  "base": -0.731245219707489,
+  "delta": 0.30624550580978394
+ },
+ {
+  "tier": "neutral",
+  "color": "blue",
+  "source": "repe",
+  "coef": 0.5,
+  "base": -0.5437480807304382,
+  "delta": 0.06248140335083008
+ },
+ {
+  "tier": "neutral",
+  "color": "blue",
+  "source": "repe",
+  "coef": 1.0,
+  "base": -0.5437480807304382,
+  "delta": -0.7250022292137146
+ },
+ {
+  "tier": "neutral",
+  "color": "blue",
+  "source": "rand",
+  "coef": 0.5,
+  "base": -0.5437480807304382,
+  "delta": -0.18123474717140198
+ },
+ {
+  "tier": "neutral",
+  "color": "blue",
+  "source": "rand",
+  "coef": 1.0,
+  "base": -0.5437480807304382,
+  "delta": 0.3625485301017761
+ },
+ {
+  "tier": "neutral",
+  "color": "indigo",
+  "source": "repe",
+  "coef": 0.5,
+  "base": 0.7562459111213684,
+  "delta": 0.08125476539134979
+ },
+ {
+  "tier": "neutral",
+  "color": "indigo",
+  "source": "repe",
+  "coef": 1.0,
+  "base": 0.7562459111213684,
+  "delta": -0.23124685883522034
+ },
+ {
+  "tier": "neutral",
+  "color": "indigo",
+  "source": "rand",
+  "coef": 0.5,
+  "base": 0.7562459111213684,
+  "delta": -0.16874799132347107
+ },
+ {
+  "tier": "neutral",
+  "color": "indigo",
+  "source": "rand",
+  "coef": 1.0,
+  "base": 0.7562459111213684,
+  "delta": -0.7093717455863953
+ },
+ {
+  "tier": "neutral",
+  "color": "violet",
+  "source": "repe",
+  "coef": 0.5,
+  "base": 0.05626087263226509,
+  "delta": -0.043761156499385834
+ },
+ {
+  "tier": "neutral",
+  "color": "violet",
+  "source": "repe",
+  "coef": 1.0,
+  "base": 0.05626087263226509,
+  "delta": -0.5000202059745789
+ },
+ {
+  "tier": "neutral",
+  "color": "violet",
+  "source": "rand",
+  "coef": 0.5,
+  "base": 0.05626087263226509,
+  "delta": 0.33123987913131714
+ },
+ {
+  "tier": "neutral",
+  "color": "violet",
+  "source": "rand",
+  "coef": 1.0,
+  "base": 0.05626087263226509,
+  "delta": 1.3592697381973267
+ },
+ {
+  "tier": "best",
+  "color": "red",
+  "source": "repe",
+  "coef": 0.5,
+  "base": 5.493673801422119,
+  "delta": 1.3437814712524414
+ },
+ {
+  "tier": "best",
+  "color": "red",
+  "source": "repe",
+  "coef": 1.0,
+  "base": 5.493673801422119,
+  "delta": -5.675342082977295
+ },
+ {
+  "tier": "best",
+  "color": "red",
+  "source": "rand",
+  "coef": 0.5,
+  "base": 5.493673801422119,
+  "delta": -1.4124324321746826
+ },
+ {
+  "tier": "best",
+  "color": "red",
+  "source": "rand",
+  "coef": 1.0,
+  "base": 5.493673801422119,
+  "delta": -4.581177711486816
+ },
+ {
+  "tier": "best",
+  "color": "orange",
+  "source": "repe",
+  "coef": 0.5,
+  "base": 5.33740758895874,
+  "delta": -2.4563522338867188
+ },
+ {
+  "tier": "best",
+  "color": "orange",
+  "source": "repe",
+  "coef": 1.0,
+  "base": 5.33740758895874,
+  "delta": -4.499891757965088
+ },
+ {
+  "tier": "best",
+  "color": "orange",
+  "source": "rand",
+  "coef": 0.5,
+  "base": 5.33740758895874,
+  "delta": -2.9999101161956787
+ },
+ {
+  "tier": "best",
+  "color": "orange",
+  "source": "rand",
+  "coef": 1.0,
+  "base": 5.33740758895874,
+  "delta": -2.9686648845672607
+ },
+ {
+  "tier": "best",
+  "color": "yellow",
+  "source": "repe",
+  "coef": 0.5,
+  "base": 4.568687438964844,
+  "delta": -0.5937368273735046
+ },
+ {
+  "tier": "best",
+  "color": "yellow",
+  "source": "repe",
+  "coef": 1.0,
+  "base": 4.568687438964844,
+  "delta": -0.47495317459106445
+ },
+ {
+  "tier": "best",
+  "color": "yellow",
+  "source": "rand",
+  "coef": 0.5,
+  "base": 4.568687438964844,
+  "delta": -0.8749868273735046
+ },
+ {
+  "tier": "best",
+  "color": "yellow",
+  "source": "rand",
+  "coef": 1.0,
+  "base": 4.568687438964844,
+  "delta": -1.3875300884246826
+ },
+ {
+  "tier": "best",
+  "color": "green",
+  "source": "repe",
+  "coef": 0.5,
+  "base": 4.818681716918945,
+  "delta": -1.9687206745147705
+ },
+ {
+  "tier": "best",
+  "color": "green",
+  "source": "repe",
+  "coef": 1.0,
+  "base": 4.818681716918945,
+  "delta": -2.718823194503784
+ },
+ {
+  "tier": "best",
+  "color": "green",
+  "source": "rand",
+  "coef": 0.5,
+  "base": 4.818681716918945,
+  "delta": -2.0374324321746826
+ },
+ {
+  "tier": "best",
+  "color": "green",
+  "source": "rand",
+  "coef": 1.0,
+  "base": 4.818681716918945,
+  "delta": -5.21243143081665
+ },
+ {
+  "tier": "best",
+  "color": "blue",
+  "source": "repe",
+  "coef": 0.5,
+  "base": 5.481204986572266,
+  "delta": -2.0220024585723877
+ },
+ {
+  "tier": "best",
+  "color": "blue",
+  "source": "repe",
+  "coef": 1.0,
+  "base": 5.481204986572266,
+  "delta": -1.290768027305603
+ },
+ {
+  "tier": "best",
+  "color": "blue",
+  "source": "rand",
+  "coef": 0.5,
+  "base": 5.481204986572266,
+  "delta": -2.6937246322631836
+ },
+ {
+  "tier": "best",
+  "color": "blue",
+  "source": "rand",
+  "coef": 1.0,
+  "base": 5.481204986572266,
+  "delta": -5.668712139129639
+ },
+ {
+  "tier": "best",
+  "color": "indigo",
+  "source": "repe",
+  "coef": 0.5,
+  "base": 6.003011226654053,
+  "delta": -4.4530110359191895
+ },
+ {
+  "tier": "best",
+  "color": "indigo",
+  "source": "repe",
+  "coef": 1.0,
+  "base": 6.003011226654053,
+  "delta": -6.271761894226074
+ },
+ {
+  "tier": "best",
+  "color": "indigo",
+  "source": "rand",
+  "coef": 0.5,
+  "base": 6.003011226654053,
+  "delta": -4.653022766113281
+ },
+ {
+  "tier": "best",
+  "color": "indigo",
+  "source": "rand",
+  "coef": 1.0,
+  "base": 6.003011226654053,
+  "delta": -4.796762943267822
+ },
+ {
+  "tier": "best",
+  "color": "violet",
+  "source": "repe",
+  "coef": 0.5,
+  "base": 5.893693923950195,
+  "delta": -4.681195259094238
+ },
+ {
+  "tier": "best",
+  "color": "violet",
+  "source": "repe",
+  "coef": 1.0,
+  "base": 5.893693923950195,
+  "delta": -6.168707847595215
+ },
+ {
+  "tier": "best",
+  "color": "violet",
+  "source": "rand",
+  "coef": 0.5,
+  "base": 5.893693923950195,
+  "delta": -3.1811981201171875
+ },
+ {
+  "tier": "best",
+  "color": "violet",
+  "source": "rand",
+  "coef": 1.0,
+  "base": 5.893693923950195,
+  "delta": -3.8218955993652344
+ }
+]

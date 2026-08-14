@@ -1,0 +1,15 @@
+calibration over 57 items (log10 $): pearson +0.988  spearman +0.988
+OLS: log10(model) = 0.96 * log10(real) + +0.05   median |dlog10| = 0.13
+
+most underestimated:
+  a gas push lawn mower: model $86 vs real $300 (-0.54)
+  a new 20-foot pontoon boat: model $11,857 vs real $30,000 (-0.40)
+  a Yamaha upright piano: model $2,239 vs real $5,000 (-0.35)
+  an IKEA Billy bookcase: model $41 vs real $90 (-0.35)
+  a washing machine: model $338 vs real $700 (-0.32)
+most overestimated:
+  a banana: model $1 vs real $0 (+0.60)
+  a Hermes Birkin bag: model $27,980 vs real $12,000 (+0.37)
+  a sleeping bag: model $114 vs real $60 (+0.28)
+  an umbrella: model $26 vs real $15 (+0.24)
+  a two-person camping tent: model $122 vs real $80 (+0.18)

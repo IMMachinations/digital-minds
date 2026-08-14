@@ -1,0 +1,295 @@
+condition red|objmod_L21x1.0 done (1/16)
+condition orange|objmod_L21x1.0 done (2/16)
+condition yellow|objmod_L21x1.0 done (3/16)
+condition green|objmod_L21x1.0 done (4/16)
+condition blue|objmod_L21x1.0 done (5/16)
+condition indigo|objmod_L21x1.0 done (6/16)
+condition violet|objmod_L21x1.0 done (7/16)
+condition red|objinh_L21x1.0 done (8/16)
+condition orange|objinh_L21x1.0 done (9/16)
+condition yellow|objinh_L21x1.0 done (10/16)
+condition green|objinh_L21x1.0 done (11/16)
+condition blue|objinh_L21x1.0 done (12/16)
+condition indigo|objinh_L21x1.0 done (13/16)
+condition violet|objinh_L21x1.0 done (14/16)
+condition rand_L21 done (15/16)
+condition rand_L14 done (16/16)
+
+######## objmod centered, L21 x 1.0 (rand column = rand_L21) ########
+
+===== painting =====
+
+mean $
+              base       red    orange    yellow     green      blue    indigo    violet      rand
+     red  2.58e+03  2.28e+03       690  3.47e+03  1.02e+04   1.4e+05   7.5e+03       518  1.42e+03
+  orange  1.99e+03  2.01e+03       463  4.24e+03  1.89e+03  1.12e+05  5.89e+03       517       985
+  yellow  2.12e+03  1.83e+03       688  2.99e+03  1.98e+03  3.49e+04  8.04e+03       424       914
+   green  1.77e+03  1.67e+03       535   3.1e+03  3.28e+03  1.13e+04  1.15e+04       343       863
+    blue  2.22e+03  2.04e+03       674  2.45e+03   2.7e+03  2.01e+04  1.68e+04       378       944
+  indigo  2.24e+03  2.22e+03       662  2.62e+04  2.81e+03  2.01e+04  5.78e+03       606  1.14e+03
+  violet  2.67e+03  2.65e+03       749  4.23e+03  2.83e+03  1.15e+04  6.51e+03       821  1.16e+03
+
+median $
+              base       red    orange    yellow     green      blue    indigo    violet      rand
+     red  1.25e+03       750       550   1.5e+03     2e+03   2.5e+03     6e+03       125       875
+  orange     1e+03       750       175   1.5e+03  1.25e+03   1.7e+03   4.5e+03       100       750
+  yellow  1.25e+03       750       550   1.5e+03  1.25e+03   2.5e+03   4.5e+03        95       650
+   green     1e+03       550       550   1.4e+03   1.5e+03   2.5e+03   5.5e+03      87.5       750
+    blue     1e+03       750       550  1.25e+03  1.25e+03   2.5e+03   4.5e+03       100       750
+  indigo   1.5e+03       750       550   1.5e+03   1.5e+03     2e+03   4.6e+03       550       850
+  violet  1.25e+03   1.5e+03       550  1.75e+03   1.5e+03     3e+03  5.75e+03       550       925
+
+geomean $
+              base       red    orange    yellow     green      blue    indigo    violet      rand
+     red  1.41e+03  1.29e+03       359  1.79e+03  1.76e+03  3.89e+03  5.08e+03       238       663
+  orange  1.26e+03  1.17e+03       298  1.51e+03  1.12e+03  2.75e+03  4.02e+03       230       503
+  yellow  1.26e+03  1.01e+03       333  1.36e+03  1.03e+03  3.13e+03  4.57e+03       212       439
+   green  1.12e+03       924       323  1.44e+03  1.34e+03   2.6e+03   4.9e+03       196       467
+    blue  1.23e+03  1.12e+03       379  1.41e+03  1.18e+03  2.93e+03  4.76e+03       216       489
+  indigo  1.45e+03  1.29e+03       346  1.68e+03  1.44e+03  2.97e+03  4.29e+03       271       695
+  violet  1.61e+03  1.59e+03       407  2.09e+03  1.65e+03  3.15e+03  4.98e+03       314       649
+
+delta log10(geomean) vs base
+               red    orange    yellow     green      blue    indigo    violet      rand
+     red    -0.038    -0.593     0.106     0.098     0.441     0.557    -0.772    -0.326
+  orange    -0.032    -0.625     0.082    -0.049     0.340     0.506    -0.737    -0.397
+  yellow    -0.098    -0.579     0.034    -0.089     0.394     0.559    -0.776    -0.458
+   green    -0.085    -0.542     0.107     0.076     0.364     0.639    -0.758    -0.382
+    blue    -0.040    -0.511     0.059    -0.016     0.378     0.588    -0.755    -0.400
+  indigo    -0.051    -0.623     0.064    -0.005     0.310     0.471    -0.729    -0.320
+  violet    -0.005    -0.597     0.114     0.012     0.292     0.491    -0.710    -0.394
+
+matched (diag) mean dlog10: -0.059   mismatched mean dlog10: -0.055
+unparseable: 0/6300
+
+===== household =====
+
+mean $
+              base       red    orange    yellow     green      blue    indigo    violet      rand
+     red       6.8      5.07        11      4.19      8.05       9.6      20.5      10.7      6.08
+  orange      3.93      3.42      7.47      2.45      20.8       7.7      13.6      8.08       3.5
+  yellow      5.75      4.32       9.5      4.21      7.69      11.4      17.8      9.84      5.29
+   green      6.59      6.83        11      4.64      7.64        41        20      10.6      6.13
+    blue      6.47      6.59      10.2       4.2      7.43      11.5      19.5      10.5      5.44
+  indigo      11.4      16.6      16.5      10.5      17.9      20.4      34.9      14.2      9.74
+  violet       8.8      12.5      12.2      4.92        11      14.9        26      12.2      7.16
+
+median $
+              base       red    orange    yellow     green      blue    indigo    violet      rand
+     red       7.5         3       7.5       2.5       5.5       7.5        15        10         3
+  orange         3       1.5       7.5       1.5         3         3         8       7.5         2
+  yellow       3.5         3       7.5       2.5       3.5       7.5        10       7.5         3
+   green       7.5         3        10         3         4       7.5        15        10         3
+    blue       3.5         3        10       2.5       3.5       5.5        15        10         3
+  indigo       7.5       7.5        15         6       7.5        12        25      12.5        10
+  violet       7.5       5.5      12.5         3         6       7.5      17.5        10      3.25
+
+geomean $
+              base       red    orange    yellow     green      blue    indigo    violet      rand
+     red      5.14      3.35      9.11      2.43      5.05      5.64      12.9      9.32      3.92
+  orange         3      2.31      6.22      1.58      3.58      3.98      7.91         7      2.12
+  yellow      4.26      2.92      8.44      2.26      4.07      6.49      10.2      8.18      3.15
+   green      4.93      4.02      9.49      2.64      4.59      7.25      12.4      9.17      3.63
+    blue      4.77      3.84      8.56      2.59      4.29      5.86        13      9.19      3.46
+  indigo      8.69      8.74      12.6      5.85      8.78      10.5      20.3      11.8       6.3
+  violet      6.97      6.12      10.8      3.24      6.17       8.5      13.7      10.8      4.57
+
+delta log10(geomean) vs base
+               red    orange    yellow     green      blue    indigo    violet      rand
+     red    -0.187     0.248    -0.327    -0.008     0.040     0.400     0.258    -0.118
+  orange    -0.114     0.316    -0.279     0.076     0.123     0.420     0.368    -0.151
+  yellow    -0.164     0.297    -0.276    -0.020     0.182     0.377     0.283    -0.131
+   green    -0.089     0.284    -0.272    -0.031     0.167     0.399     0.269    -0.134
+    blue    -0.095     0.254    -0.266    -0.047     0.089     0.436     0.285    -0.140
+  indigo     0.002     0.160    -0.172     0.004     0.084     0.369     0.133    -0.139
+  violet    -0.057     0.190    -0.332    -0.053     0.086     0.294     0.190    -0.183
+
+matched (diag) mean dlog10: +0.067   mismatched mean dlog10: +0.091
+unparseable: 7/6300
+
+===== real =====
+
+mean $
+              base       red    orange    yellow     green      blue    indigo    violet      rand
+     red  1.98e+07  4.71e+07   6.7e+06  3.22e+06  1.82e+07  1.01e+10  5.65e+06  2.32e+06  3.03e+07
+  orange  1.69e+07  2.76e+07  5.56e+05  4.18e+06     8e+10  1.25e+10     1e+10   4.3e+06  2.27e+07
+  yellow  4.56e+07  7.51e+07  4.84e+06  7.16e+06  1.11e+08  7.63e+08  1.41e+07  2.97e+06  7.92e+07
+   green  8.43e+06  8.47e+06   2.6e+05  1.66e+06   3.3e+06   1.2e+10     1e+10  1.23e+06  2.14e+07
+    blue  5.54e+07  2.07e+09  7.32e+06  6.61e+08  1.08e+07  2.12e+08  2.01e+07  4.29e+06  6.06e+07
+  indigo  9.34e+06  9.08e+06   6.2e+04  1.08e+06   2.4e+10  7.46e+07     1e+10     2e+06  7.63e+06
+  violet  6.43e+06  8.32e+04  2.85e+05  2.45e+07  2.23e+05  3.41e+06   2.2e+10  1.25e+05  3.79e+05
+
+median $
+              base       red    orange    yellow     green      blue    indigo    violet      rand
+     red  1.25e+07     6e+04   5.5e+04   5.5e+04     3e+05  1.25e+05   2.5e+06   2.5e+06  1.75e+07
+  orange   7.5e+06  1.25e+05   5.5e+04   1.5e+06     4e+05     2e+05   2.5e+06     6e+06  1.25e+07
+  yellow   2.5e+07   1.5e+05     5e+06     5e+06  6.01e+05     5e+05   2.5e+06   2.5e+06   7.5e+07
+   green     4e+06     6e+04   1.5e+05  7.51e+04     2e+05     2e+05  2.75e+05  5.01e+03   6.5e+05
+    blue     5e+07  2.55e+05   7.5e+06     5e+06     1e+06   1.5e+06     5e+06     5e+06   6.5e+07
+  indigo   7.5e+06     6e+04   5.5e+04  2.55e+05     2e+05   2.5e+05   7.5e+05  5.75e+03     3e+05
+  violet   2.5e+06     6e+04   7.5e+04   2.5e+04   1.5e+05  2.58e+05     3e+05  5.01e+03   2.5e+05
+
+geomean $
+              base       red    orange    yellow     green      blue    indigo    violet      rand
+     red  1.04e+07  4.46e+05  2.38e+05  1.24e+05  4.86e+05  5.66e+05  1.68e+06  7.14e+05  4.83e+06
+  orange  9.06e+06  6.01e+05  1.13e+05  8.04e+05  2.37e+05  6.15e+05   2.8e+06   1.3e+06  3.69e+06
+  yellow  9.44e+06  1.08e+06  6.48e+05  1.49e+06  4.09e+05  3.06e+06  1.46e+06  2.64e+05  6.12e+06
+   green  4.43e+06  1.19e+05  1.11e+05  1.41e+05  1.62e+05  4.18e+05  8.65e+05  2.67e+04  1.54e+06
+    blue  3.81e+07  3.53e+06  3.85e+06   2.2e+06  1.05e+06  3.89e+06  3.62e+06  2.42e+06  1.67e+07
+  indigo  5.46e+06  9.99e+04  4.74e+04   1.8e+05  3.51e+05  2.24e+05  1.33e+06  8.55e+04  1.01e+06
+  violet  2.39e+06  7.31e+04  9.42e+04  8.21e+04  6.86e+04  2.42e+05  1.18e+06  6.58e+03  1.86e+05
+
+delta log10(geomean) vs base
+               red    orange    yellow     green      blue    indigo    violet      rand
+     red    -1.369    -1.642    -1.924    -1.332    -1.266    -0.793    -1.165    -0.335
+  orange    -1.178    -1.904    -1.052    -1.582    -1.168    -0.510    -0.845    -0.391
+  yellow    -0.940    -1.164    -0.802    -1.363    -0.490    -0.811    -1.554    -0.188
+   green    -1.572    -1.601    -1.497    -1.437    -1.025    -0.709    -2.220    -0.458
+    blue    -1.033    -0.995    -1.239    -1.560    -0.991    -1.021    -1.197    -0.358
+  indigo    -1.738    -2.061    -1.482    -1.192    -1.387    -0.612    -1.805    -0.734
+  violet    -1.514    -1.404    -1.464    -1.542    -0.995    -0.305    -2.560    -1.109
+
+matched (diag) mean dlog10: -1.382   mismatched mean dlog10: -1.270
+unparseable: 102/1575
+
+######## objinh centered, L21 x 1.0 (rand column = rand_L21) ########
+
+===== painting =====
+
+mean $
+              base       red    orange    yellow     green      blue    indigo    violet      rand
+     red  2.58e+03  9.11e+03   1.5e+03  3.09e+03  1.54e+04   2.5e+04  8.54e+03  1.18e+03  1.42e+03
+  orange  1.99e+03  1.55e+03   1.4e+03  4.46e+03  1.03e+04  4.38e+03  8.21e+03  1.09e+03       985
+  yellow  2.12e+03  2.56e+03  1.16e+03  1.94e+03   8.6e+03  2.66e+04  7.65e+03       961       914
+   green  1.77e+03  5.26e+03  1.21e+03  1.89e+03  1.79e+05   1.3e+04  7.19e+03  1.17e+03       863
+    blue  2.22e+03  3.71e+03  1.33e+03  4.09e+03  1.38e+03  2.88e+04  8.65e+03  1.04e+03       944
+  indigo  2.24e+03  1.94e+03  1.24e+03  5.06e+05  2.36e+03  2.54e+03  7.89e+03  1.18e+03  1.14e+03
+  violet  2.67e+03  6.15e+03  1.55e+03   3.6e+03  8.47e+03  7.35e+03  8.93e+03  1.35e+03  1.16e+03
+
+median $
+              base       red    orange    yellow     green      blue    indigo    violet      rand
+     red  1.25e+03       750       750       750     1e+03     1e+03   7.5e+03       750       875
+  orange     1e+03       750       600       550       750     1e+03     6e+03       750       750
+  yellow  1.25e+03       750       550       550       750     1e+03     6e+03       750       650
+   green     1e+03       750       550       550       625     1e+03   7.5e+03       750       750
+    blue     1e+03       750       550       550       600     1e+03   6.5e+03       750       750
+  indigo   1.5e+03       750       600       825       750       525     6e+03       750       850
+  violet  1.25e+03       750       750       750   1.1e+03        10     6e+03       750       925
+
+geomean $
+              base       red    orange    yellow     green      blue    indigo    violet      rand
+     red  1.41e+03   1.1e+03       792       986  1.07e+03       573  6.94e+03       751       663
+  orange  1.26e+03       792       665       770       866       231  6.21e+03       772       503
+  yellow  1.26e+03       912       567       680       805       564   5.9e+03       627       439
+   green  1.12e+03       944       627       591       843       404   5.7e+03       714       467
+    blue  1.23e+03       829       681       828       664  1.02e+03  6.13e+03       730       489
+  indigo  1.45e+03       775       709  1.19e+03       872       155  6.29e+03       867       695
+  violet  1.61e+03  1.07e+03       853       863       989       124  6.78e+03       914       649
+
+delta log10(geomean) vs base
+               red    orange    yellow     green      blue    indigo    violet      rand
+     red    -0.108    -0.249    -0.154    -0.121    -0.390     0.693    -0.273    -0.326
+  orange    -0.200    -0.276    -0.213    -0.161    -0.735     0.695    -0.211    -0.397
+  yellow    -0.141    -0.348    -0.268    -0.195    -0.350     0.670    -0.304    -0.458
+   green    -0.076    -0.254    -0.279    -0.125    -0.445     0.705    -0.197    -0.382
+    blue    -0.171    -0.256    -0.171    -0.267    -0.079     0.698    -0.226    -0.400
+  indigo    -0.273    -0.311    -0.088    -0.221    -0.970     0.637    -0.224    -0.320
+  violet    -0.178    -0.276    -0.270    -0.211    -1.111     0.625    -0.245    -0.394
+
+matched (diag) mean dlog10: -0.066   mismatched mean dlog10: -0.153
+unparseable: 99/6300
+
+===== household =====
+
+mean $
+              base       red    orange    yellow     green      blue    indigo    violet      rand
+     red       6.8      12.3      5.35      5.85      5.05      28.4      40.2      7.39      6.08
+  orange      3.93      5.72      2.78      3.57      2.49      19.2      31.8      4.27       3.5
+  yellow      5.75      9.66       4.1      3.88      4.67      26.5      35.9      5.87      5.29
+   green      6.59      12.3      4.76      3.88      5.41      27.4      38.7       6.3      6.13
+    blue      6.47      10.6      5.67      5.24       5.4      27.1      42.1      6.22      5.44
+  indigo      11.4      23.3      9.74      8.43      6.73      52.9      87.3      9.22      9.74
+  violet       8.8      14.3      10.8      7.59      4.85      35.8      80.9      6.89      7.16
+
+median $
+              base       red    orange    yellow     green      blue    indigo    violet      rand
+     red       7.5       7.5         3       1.5         3        30        30       7.5         3
+  orange         3       3.5       1.5       1.5         2      27.5      22.5         3         2
+  yellow       3.5       7.5         3       1.5         3      27.5      27.5       7.5         3
+   green       7.5       7.5         3       1.5         3        30        30       7.5         3
+    blue       3.5       7.5         3       1.5      2.75      27.5        30       7.5         3
+  indigo       7.5       7.5       7.5         3       3.5        30        40       7.5        10
+  violet       7.5       7.5       7.5         2         3        30        40       7.5      3.25
+
+geomean $
+              base       red    orange    yellow     green      blue    indigo    violet      rand
+     red      5.14       7.1      3.19      2.53      3.01      18.3      31.7      5.75      3.92
+  orange         3      4.03      1.64      1.78      1.95      12.1      22.5      3.24      2.12
+  yellow      4.26      5.74      2.45      1.94      2.92      14.4      27.2      4.72      3.15
+   green      4.93      6.75      2.82      2.33       3.2      15.6      29.6      5.25      3.63
+    blue      4.77      6.19      3.22      2.52      3.15      15.9      29.9      5.17      3.46
+  indigo      8.69      12.2      6.26      3.78      3.93      25.8      47.6      7.19       6.3
+  violet      6.97      8.67      5.86      2.89      3.19      25.4      42.1      5.89      4.57
+
+delta log10(geomean) vs base
+               red    orange    yellow     green      blue    indigo    violet      rand
+     red     0.140    -0.208    -0.308    -0.232     0.551     0.789     0.048    -0.118
+  orange     0.127    -0.263    -0.227    -0.188     0.604     0.876     0.034    -0.151
+  yellow     0.129    -0.240    -0.342    -0.164     0.529     0.806     0.044    -0.131
+   green     0.136    -0.243    -0.325    -0.188     0.501     0.778     0.027    -0.134
+    blue     0.113    -0.171    -0.278    -0.180     0.522     0.796     0.035    -0.140
+  indigo     0.146    -0.142    -0.362    -0.344     0.473     0.739    -0.082    -0.139
+  violet     0.095    -0.075    -0.383    -0.340     0.561     0.781    -0.073    -0.183
+
+matched (diag) mean dlog10: +0.077   mismatched mean dlog10: +0.107
+unparseable: 28/6300
+
+===== real =====
+
+mean $
+              base       red    orange    yellow     green      blue    indigo    violet      rand
+     red  1.98e+07  8.12e+05  7.58e+05  1.33e+06  7.42e+07  1.98e+06  3.24e+06  5.13e+06  3.03e+07
+  orange  1.69e+07  4.13e+06  1.16e+06  6.15e+05  1.23e+06  1.58e+06  5.64e+06  1.43e+05  2.27e+07
+  yellow  4.56e+07  1.11e+07  6.38e+07   9.6e+05  1.14e+09  2.72e+06  7.76e+06  5.41e+06  7.92e+07
+   green  8.43e+06   2.3e+06  1.46e+05   1.6e+05     4e+10  9.85e+05  1.13e+06   8.5e+04  2.14e+07
+    blue  5.54e+07   2.8e+10   2.1e+06  1.81e+07  1.59e+07   1.7e+06     1e+07  6.16e+06  6.06e+07
+  indigo  9.34e+06  8.47e+05  4.02e+05  9.93e+04  8.11e+05  1.14e+06   2.1e+06  1.25e+05  7.63e+06
+  violet  6.43e+06  2.32e+06  2.19e+05   2.2e+05  1.24e+06  7.51e+05  9.52e+05  8.81e+04  3.79e+05
+
+median $
+              base       red    orange    yellow     green      blue    indigo    violet      rand
+     red  1.25e+07  2.85e+05   7.5e+04     6e+04     2e+05  5.02e+04   1.5e+06  1.75e+05  1.75e+07
+  orange   7.5e+06   2.5e+06   6.5e+03  2.75e+05  2.65e+05     5e+05     5e+06  1.75e+05  1.25e+07
+  yellow   2.5e+07     5e+06  5.01e+05  2.55e+05     1e+07     5e+06  1.52e+06  1.75e+05   7.5e+07
+   green     4e+06  2.85e+05     6e+03   5.5e+04  1.75e+05  5.01e+05     2e+05     3e+04   6.5e+05
+    blue     5e+07   7.5e+06     5e+05     5e+05     3e+05     1e+03     5e+06  1.75e+05   6.5e+07
+  indigo   7.5e+06  2.85e+05  8.25e+03     3e+04   1.5e+05     1e+04  7.52e+04   7.5e+04     3e+05
+  violet   2.5e+06  2.85e+05   5.5e+03   5.5e+04   7.5e+04  5.02e+05  9.25e+04   7.5e+03   2.5e+05
+
+geomean $
+              base       red    orange    yellow     green      blue    indigo    violet      rand
+     red  1.04e+07   3.1e+05  8.15e+04   1.1e+05  2.71e+05  1.44e+04  3.56e+05  7.12e+04  4.83e+06
+  orange  9.06e+06  1.55e+06   2.8e+04  1.74e+05  2.95e+05  1.94e+04  8.87e+05  4.85e+04  3.69e+06
+  yellow  9.44e+06  2.02e+06  2.51e+05  1.72e+05  2.01e+06  1.08e+05  5.12e+05  8.69e+04  6.12e+06
+   green  4.43e+06   5.1e+05  1.78e+04  5.39e+04  2.46e+05  1.12e+04  1.86e+05  2.69e+04  1.54e+06
+    blue  3.81e+07  1.29e+07  2.94e+05  5.84e+05  8.99e+05  6.27e+03  2.69e+06  1.46e+05  1.67e+07
+  indigo  5.46e+06  4.04e+05  2.79e+04  3.16e+04  1.54e+05     1e+04  1.62e+05  3.52e+04  1.01e+06
+  violet  2.39e+06  6.32e+05  1.77e+04  5.23e+04  8.29e+04  4.32e+04  1.53e+05  1.65e+04  1.86e+05
+
+delta log10(geomean) vs base
+               red    orange    yellow     green      blue    indigo    violet      rand
+     red    -1.527    -2.107    -1.976    -1.585    -2.860    -1.467    -2.166    -0.335
+  orange    -0.766    -2.510    -1.717    -1.488    -2.670    -1.009    -2.271    -0.391
+  yellow    -0.669    -1.576    -1.741    -0.673    -1.941    -1.265    -2.036    -0.188
+   green    -0.939    -2.395    -1.915    -1.256    -2.598    -1.377    -2.217    -0.458
+    blue    -0.470    -2.113    -1.814    -1.627    -3.783    -1.151    -2.415    -0.358
+  indigo    -1.131    -2.292    -2.237    -1.549    -2.737    -1.527    -2.191    -0.734
+  violet    -0.577    -2.131    -1.660    -1.460    -1.742    -1.192    -2.160    -1.109
+
+matched (diag) mean dlog10: -2.072   mismatched mean dlog10: -1.718
+unparseable: 10/1575
+
+column effects (painting+household mean dlog10) vs random:
+  rand_L21: -0.262   rand_L14: +0.239 (compare rand_L14 with the value_centered columns in VALUE.md)
+  objmod: red:-0.08  orange:-0.17  yellow:-0.10  green:-0.00  blue:+0.23  indigo:+0.46  violet:-0.25   (minus rand_L21: red:+0.19  orange:+0.09  yellow:+0.17  green:+0.26  blue:+0.50  indigo:+0.73  violet:+0.02)
+  objinh: red:-0.02  orange:-0.24  yellow:-0.27  green:-0.21  blue:-0.04  indigo:+0.73  violet:-0.12   (minus rand_L21: red:+0.24  orange:+0.03  yellow:-0.00  green:+0.05  blue:+0.22  indigo:+1.00  violet:+0.14)

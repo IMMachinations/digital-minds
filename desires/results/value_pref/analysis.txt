@@ -1,0 +1,10 @@
+A/B letter-logit preference vs valuation (409 of 420 pairs usable):
+  sign agreement P[(v_a>v_b)==(a>b)]: 0.570 +/- 0.048
+  corr(dlog10 value, pref diff): pearson +0.181  spearman +0.186
+  item level (240 items with >=2 comparisons): corr(win rate, log10 value): pearson +0.122  spearman +0.111
+
+object-logprob preference vs valuation (409 of 420 pairs usable):
+  sign agreement P[(v_a>v_b)==(a>b)]: 0.570 +/- 0.048
+  corr(dlog10 value, pref diff): pearson +0.123  spearman +0.154
+  item level (240 items with >=2 comparisons): corr(win rate, log10 value): pearson +0.193  spearman +0.143
+

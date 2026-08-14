@@ -1,0 +1,5672 @@
+[
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a red apple",
+  "my_estimate": 1,
+  "sample_idx": 0,
+  "text": "1-$2 USD, assuming it is a typical, unremarkable red apple",
+  "value": 1.5
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a red apple",
+  "my_estimate": 1,
+  "sample_idx": 1,
+  "text": "0.50 to $2.00 USD, depending on factors such",
+  "value": 1.25
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a red apple",
+  "my_estimate": 1,
+  "sample_idx": 2,
+  "text": "1 to $2, assuming it's a fresh, ordinary red apple and not",
+  "value": 1.5
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a red apple",
+  "my_estimate": 1,
+  "sample_idx": 3,
+  "text": "0.50 to $2.00, depending on the size and",
+  "value": 1.25
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a red apple",
+  "my_estimate": 1,
+  "sample_idx": 4,
+  "text": "0.50 to $1.50, depending on the size and",
+  "value": 1.0
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a can of Coca-Cola",
+  "my_estimate": 1,
+  "sample_idx": 0,
+  "text": "1 - $2 USD, as that is the typical price range for a ",
+  "value": 1.5
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a can of Coca-Cola",
+  "my_estimate": 1,
+  "sample_idx": 1,
+  "text": "1 to $2 in US dollars, as this is the typical retail price for",
+  "value": 1.5
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a can of Coca-Cola",
+  "my_estimate": 1,
+  "sample_idx": 2,
+  "text": "1.50 to $2.00 USD, as it is a",
+  "value": 1.75
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a can of Coca-Cola",
+  "my_estimate": 1,
+  "sample_idx": 3,
+  "text": "1 to $2 USD, depending on the location and retailer. In some places",
+  "value": 1.5
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a can of Coca-Cola",
+  "my_estimate": 1,
+  "sample_idx": 4,
+  "text": "1 - $2 USD depending on the location and whether it's a regular price",
+  "value": 1.5
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a red bell pepper",
+  "my_estimate": 1.5,
+  "sample_idx": 0,
+  "text": "0.50 to $2.00, depending on factors such as",
+  "value": 1.25
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a red bell pepper",
+  "my_estimate": 1.5,
+  "sample_idx": 1,
+  "text": "0.50 to $2.00, depending on the store,",
+  "value": 1.25
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a red bell pepper",
+  "my_estimate": 1.5,
+  "sample_idx": 2,
+  "text": "0.50 to $2.00, depending on the location,",
+  "value": 1.25
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a red bell pepper",
+  "my_estimate": 1.5,
+  "sample_idx": 3,
+  "text": "0.50 to $1.50, depending on the location and",
+  "value": 1.0
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a red bell pepper",
+  "my_estimate": 1.5,
+  "sample_idx": 4,
+  "text": "0.50 to $1.50, depending on the store,",
+  "value": 1.0
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a bottle of ketchup",
+  "my_estimate": 3.5,
+  "sample_idx": 0,
+  "text": "2 to $3 USD, which is a typical price range for a small bottle",
+  "value": 2.5
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a bottle of ketchup",
+  "my_estimate": 3.5,
+  "sample_idx": 1,
+  "text": "2 to $4 USD, as a full bottle of ketchup typically ranges between",
+  "value": 3.0
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a bottle of ketchup",
+  "my_estimate": 3.5,
+  "sample_idx": 2,
+  "text": "2-$4 USD depending on the size and brand of the bottle. A standard",
+  "value": 3.0
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a bottle of ketchup",
+  "my_estimate": 3.5,
+  "sample_idx": 3,
+  "text": "2-$5, depending on the size of the bottle and any special branding or",
+  "value": 3.5
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a bottle of ketchup",
+  "my_estimate": 3.5,
+  "sample_idx": 4,
+  "text": "2-$4 USD, depending on the size of the bottle and the brand.",
+  "value": 3.0
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a pint of strawberries",
+  "my_estimate": 4,
+  "sample_idx": 0,
+  "text": "2 to $4 USD, depending on the season and location. Strawberries are",
+  "value": 3.0
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a pint of strawberries",
+  "my_estimate": 4,
+  "sample_idx": 1,
+  "text": "2 to $4 USD, depending on the location and time of year. Fresh",
+  "value": 3.0
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a pint of strawberries",
+  "my_estimate": 4,
+  "sample_idx": 2,
+  "text": "2 to $3 USD, as a pint of strawberries can cost around this range",
+  "value": 2.5
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a pint of strawberries",
+  "my_estimate": 4,
+  "sample_idx": 3,
+  "text": "2 to $4 USD, depending on the region, season, and whether they",
+  "value": 3.0
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a pint of strawberries",
+  "my_estimate": 4,
+  "sample_idx": 4,
+  "text": "2-$4 USD, depending on the season, freshness, and location. During",
+  "value": 3.0
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a candy cane",
+  "my_estimate": 0.5,
+  "sample_idx": 0,
+  "text": "0.50 to $2.00 USD, depending on its size",
+  "value": 1.25
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a candy cane",
+  "my_estimate": 0.5,
+  "sample_idx": 1,
+  "text": "0.50 to $1.50, depending on the size,",
+  "value": 1.0
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a candy cane",
+  "my_estimate": 0.5,
+  "sample_idx": 2,
+  "text": "0.50 to $2.00, depending on the size,",
+  "value": 1.25
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a candy cane",
+  "my_estimate": 0.5,
+  "sample_idx": 3,
+  "text": "1 to $3, depending on its size and packaging. A plain candy cane",
+  "value": 2.0
+ },
+ {
+  "color": "red",
+  "tier": 1,
+  "item": "a candy cane",
+  "my_estimate": 0.5,
+  "sample_idx": 4,
+  "text": "1 to $2, depending on the size and quality of the candy cane.",
+  "value": 1.5
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a Swiss Army knife",
+  "my_estimate": 40,
+  "sample_idx": 0,
+  "text": "20 to $50 USD, depending on its condition, age, and",
+  "value": 35.0
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a Swiss Army knife",
+  "my_estimate": 40,
+  "sample_idx": 1,
+  "text": "20-$50 USD. This estimate is based on the assumption that the",
+  "value": 35.0
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a Swiss Army knife",
+  "my_estimate": 40,
+  "sample_idx": 2,
+  "text": "25 - $50 USD, depending on the specific model, condition,",
+  "value": 37.5
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a Swiss Army knife",
+  "my_estimate": 40,
+  "sample_idx": 3,
+  "text": "20-50 USD depending on the specific model, condition, and included",
+  "value": 35.0
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a Swiss Army knife",
+  "my_estimate": 40,
+  "sample_idx": 4,
+  "text": "20-$50, depending on the specific model, features, and condition",
+  "value": 35.0
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a bouquet of a dozen red roses",
+  "my_estimate": 60,
+  "sample_idx": 0,
+  "text": "10 - $50, depending on the quality of the roses, their",
+  "value": 30.0
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a bouquet of a dozen red roses",
+  "my_estimate": 60,
+  "sample_idx": 1,
+  "text": "20 - $50, depending on the quality and where it was purchased",
+  "value": 35.0
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a bouquet of a dozen red roses",
+  "my_estimate": 60,
+  "sample_idx": 2,
+  "text": "15-$30, depending on the quality and where it was purchased.",
+  "value": 22.5
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a bouquet of a dozen red roses",
+  "my_estimate": 60,
+  "sample_idx": 3,
+  "text": "20 - $50. The exact value can vary based on the quality",
+  "value": 35.0
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a bouquet of a dozen red roses",
+  "my_estimate": 60,
+  "sample_idx": 4,
+  "text": "20-$50, depending on the quality of the roses and any additional",
+  "value": 35.0
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a fire extinguisher",
+  "my_estimate": 50,
+  "sample_idx": 0,
+  "text": "20-$50, depending on the type and size of the fire extingu",
+  "value": 35.0
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a fire extinguisher",
+  "my_estimate": 50,
+  "sample_idx": 1,
+  "text": "20-$50 USD, depending on the size and type of fire extingu",
+  "value": 35.0
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a fire extinguisher",
+  "my_estimate": 50,
+  "sample_idx": 2,
+  "text": "20 to $50, depending on the type, size, and condition",
+  "value": 35.0
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a fire extinguisher",
+  "my_estimate": 50,
+  "sample_idx": 3,
+  "text": "10 to $50, depending on the type, size, and brand",
+  "value": 30.0
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a fire extinguisher",
+  "my_estimate": 50,
+  "sample_idx": 4,
+  "text": "20 - $50, but this can vary widely depending on the type",
+  "value": 35.0
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a Manchester United home jersey",
+  "my_estimate": 90,
+  "sample_idx": 0,
+  "text": "50-$100 USD, depending on the condition and age of the",
+  "value": 75.0
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a Manchester United home jersey",
+  "my_estimate": 90,
+  "sample_idx": 1,
+  "text": "50 - $100. The exact value would depend on factors such",
+  "value": 75.0
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a Manchester United home jersey",
+  "my_estimate": 90,
+  "sample_idx": 2,
+  "text": "50-$100 USD, depending on the condition, year of the",
+  "value": 75.0
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a Manchester United home jersey",
+  "my_estimate": 90,
+  "sample_idx": 3,
+  "text": "50 - $200 USD. The exact value can vary based on",
+  "value": 125.0
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a Manchester United home jersey",
+  "my_estimate": 90,
+  "sample_idx": 4,
+  "text": "100 to $300 USD, depending on its condition, age",
+  "value": 200.0
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a Santa Claus costume",
+  "my_estimate": 50,
+  "sample_idx": 0,
+  "text": "50-$150, depending on the quality and material of the costume",
+  "value": 100.0
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a Santa Claus costume",
+  "my_estimate": 50,
+  "sample_idx": 1,
+  "text": "50 to $100, depending on its quality, material, and",
+  "value": 75.0
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a Santa Claus costume",
+  "my_estimate": 50,
+  "sample_idx": 2,
+  "text": "50 - $150, depending on factors such as the quality of",
+  "value": 100.0
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a Santa Claus costume",
+  "my_estimate": 50,
+  "sample_idx": 3,
+  "text": "30-$100, depending on the quality, material, and brand",
+  "value": 65.0
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a Santa Claus costume",
+  "my_estimate": 50,
+  "sample_idx": 4,
+  "text": "50 to $100, depending on the quality, material, and",
+  "value": 75.0
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a Radio Flyer wagon",
+  "my_estimate": 100,
+  "sample_idx": 0,
+  "text": "50 to $100, depending on its condition and age. A",
+  "value": 75.0
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a Radio Flyer wagon",
+  "my_estimate": 100,
+  "sample_idx": 1,
+  "text": "30 to $50, depending on its condition, age, and if",
+  "value": 40.0
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a Radio Flyer wagon",
+  "my_estimate": 100,
+  "sample_idx": 2,
+  "text": "25 to $50, depending on its condition, age, and any",
+  "value": 37.5
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a Radio Flyer wagon",
+  "my_estimate": 100,
+  "sample_idx": 3,
+  "text": "50 to $100, depending on its condition, age, and",
+  "value": 75.0
+ },
+ {
+  "color": "red",
+  "tier": 2,
+  "item": "a Radio Flyer wagon",
+  "my_estimate": 100,
+  "sample_idx": 4,
+  "text": "50-$100, depending on its condition and age. A classic",
+  "value": 75.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a ruby ring",
+  "my_estimate": 2000,
+  "sample_idx": 0,
+  "text": "500 - $5,000 USD. The precise value would",
+  "value": 2750.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a ruby ring",
+  "my_estimate": 2000,
+  "sample_idx": 1,
+  "text": "2,000 - $5,000 USD, but the",
+  "value": 3500.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a ruby ring",
+  "my_estimate": 2000,
+  "sample_idx": 2,
+  "text": "500 - $2,000 USD, depending on the size",
+  "value": 1250.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a ruby ring",
+  "my_estimate": 2000,
+  "sample_idx": 3,
+  "text": "500 - $2,000, depending on the quality of",
+  "value": 1250.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a ruby ring",
+  "my_estimate": 2000,
+  "sample_idx": 4,
+  "text": "500 to $5,000. The actual value would depend",
+  "value": 2750.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a garnet and gold necklace",
+  "my_estimate": 800,
+  "sample_idx": 0,
+  "text": "200-$500. However, the exact value would depend on",
+  "value": 350.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a garnet and gold necklace",
+  "my_estimate": 800,
+  "sample_idx": 1,
+  "text": "50 to $500, depending on the size, quality, and",
+  "value": 275.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a garnet and gold necklace",
+  "my_estimate": 800,
+  "sample_idx": 2,
+  "text": "50 to $200, but to give a more accurate estimate,",
+  "value": 125.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a garnet and gold necklace",
+  "my_estimate": 800,
+  "sample_idx": 3,
+  "text": "50 to $200. Please note that the value may vary based",
+  "value": 125.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a garnet and gold necklace",
+  "my_estimate": 800,
+  "sample_idx": 4,
+  "text": "150 - $300, but this can greatly vary based on",
+  "value": 225.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "an antique ruby brooch",
+  "my_estimate": 1500,
+  "sample_idx": 0,
+  "text": "50,000 - $100,000 USD",
+  "value": 75000.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "an antique ruby brooch",
+  "my_estimate": 1500,
+  "sample_idx": 1,
+  "text": "10,000 to $20,000 USD,",
+  "value": 15000.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "an antique ruby brooch",
+  "my_estimate": 1500,
+  "sample_idx": 2,
+  "text": "5,000 - $10,000. This price",
+  "value": 7500.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "an antique ruby brooch",
+  "my_estimate": 1500,
+  "sample_idx": 3,
+  "text": "50,000 - $100,000.",
+  "value": 75000.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "an antique ruby brooch",
+  "my_estimate": 1500,
+  "sample_idx": 4,
+  "text": "5,000 - $10,000 USD, but",
+  "value": 7500.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a vintage Coca-Cola vending machine",
+  "my_estimate": 3000,
+  "sample_idx": 0,
+  "text": "500 to $1,500 USD, depending on its condition",
+  "value": 1000.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a vintage Coca-Cola vending machine",
+  "my_estimate": 3000,
+  "sample_idx": 1,
+  "text": "500 to $1,500. The precise value would depend",
+  "value": 1000.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a vintage Coca-Cola vending machine",
+  "my_estimate": 3000,
+  "sample_idx": 2,
+  "text": "500-$1000, but it would really depend on its",
+  "value": 750.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a vintage Coca-Cola vending machine",
+  "my_estimate": 3000,
+  "sample_idx": 3,
+  "text": "1000-$2000 US dollars. The exact value can",
+  "value": 1500.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a vintage Coca-Cola vending machine",
+  "my_estimate": 3000,
+  "sample_idx": 4,
+  "text": "500-$1000 USD, but the precise value would depend",
+  "value": 750.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a red Vespa scooter",
+  "my_estimate": 5000,
+  "sample_idx": 0,
+  "text": "1,500 to $2,500, but it's",
+  "value": 2000.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a red Vespa scooter",
+  "my_estimate": 5000,
+  "sample_idx": 1,
+  "text": "1,500 to $2,500. However, the",
+  "value": 2000.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a red Vespa scooter",
+  "my_estimate": 5000,
+  "sample_idx": 2,
+  "text": "1,500-$2,500 USD, depending on its",
+  "value": 2000.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a red Vespa scooter",
+  "my_estimate": 5000,
+  "sample_idx": 3,
+  "text": "1,000 - $2,500 USD. However,",
+  "value": 1750.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a red Vespa scooter",
+  "my_estimate": 5000,
+  "sample_idx": 4,
+  "text": "1,500 - $3,000 USD. However,",
+  "value": 2250.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a signed Michael Jordan Bulls jersey",
+  "my_estimate": 2000,
+  "sample_idx": 0,
+  "text": "1,500 - $3,000 USD, however,",
+  "value": 2250.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a signed Michael Jordan Bulls jersey",
+  "my_estimate": 2000,
+  "sample_idx": 1,
+  "text": "500-$1500 USD, depending on factors such as the",
+  "value": 1000.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a signed Michael Jordan Bulls jersey",
+  "my_estimate": 2000,
+  "sample_idx": 2,
+  "text": "500 - $2,000 USD. The actual value can",
+  "value": 1250.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a signed Michael Jordan Bulls jersey",
+  "my_estimate": 2000,
+  "sample_idx": 3,
+  "text": "200-$1,000 USD. The exact value can vary",
+  "value": 600.0
+ },
+ {
+  "color": "red",
+  "tier": 3,
+  "item": "a signed Michael Jordan Bulls jersey",
+  "my_estimate": 2000,
+  "sample_idx": 4,
+  "text": "200-$400 USD. However, the value may vary depending",
+  "value": 300.0
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "an orange",
+  "my_estimate": 0.5,
+  "sample_idx": 0,
+  "text": "0.50 to $1.50, depending on its size,",
+  "value": 1.0
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "an orange",
+  "my_estimate": 0.5,
+  "sample_idx": 1,
+  "text": "0.50 to $1.50, depending on factors such as",
+  "value": 1.0
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "an orange",
+  "my_estimate": 0.5,
+  "sample_idx": 2,
+  "text": "0.50 to $1.50, depending on the size and",
+  "value": 1.0
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "an orange",
+  "my_estimate": 0.5,
+  "sample_idx": 3,
+  "text": "0.50 to $1.00, depending on its size and",
+  "value": 0.75
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "an orange",
+  "my_estimate": 0.5,
+  "sample_idx": 4,
+  "text": "0.50 to $1.50, depending on the size and",
+  "value": 1.0
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a bunch of carrots",
+  "my_estimate": 1.5,
+  "sample_idx": 0,
+  "text": "2-$3, depending on the size and quality of the bunch. Carrots",
+  "value": 2.5
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a bunch of carrots",
+  "my_estimate": 1.5,
+  "sample_idx": 1,
+  "text": "2 to $5. The price can vary depending on the size of the bunch",
+  "value": 3.5
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a bunch of carrots",
+  "my_estimate": 1.5,
+  "sample_idx": 2,
+  "text": "1.50 to $2.50 USD, depending on the location",
+  "value": 2.0
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a bunch of carrots",
+  "my_estimate": 1.5,
+  "sample_idx": 3,
+  "text": "2-$5 USD, depending on the size and quality of the bunch. In",
+  "value": 3.5
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a bunch of carrots",
+  "my_estimate": 1.5,
+  "sample_idx": 4,
+  "text": "2 to $5 USD, depending on the size and freshness of the bunch of",
+  "value": 3.5
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a can of Fanta",
+  "my_estimate": 1,
+  "sample_idx": 0,
+  "text": "1.50 to $2.50, depending on the location and",
+  "value": 2.0
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a can of Fanta",
+  "my_estimate": 1,
+  "sample_idx": 1,
+  "text": "1 to $2 USD, depending on the location and the store it is purchased",
+  "value": 1.5
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a can of Fanta",
+  "my_estimate": 1,
+  "sample_idx": 2,
+  "text": "1-$2 US dollars, as Fanta is a common soft drink that is",
+  "value": 1.5
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a can of Fanta",
+  "my_estimate": 1,
+  "sample_idx": 3,
+  "text": "1 to $2 USD, assuming it is a standard-sized can. The exact",
+  "value": 1.5
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a can of Fanta",
+  "my_estimate": 1,
+  "sample_idx": 4,
+  "text": "1.00 to $1.50, as it is a single",
+  "value": 1.25
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a bag of Cheetos",
+  "my_estimate": 4,
+  "sample_idx": 0,
+  "text": "5.\n\nThat's a reasonable estimate for a small bag of Cheetos.",
+  "value": 5.0
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a bag of Cheetos",
+  "my_estimate": 4,
+  "sample_idx": 1,
+  "text": "5, which is a typical price point for a small bag of Cheetos",
+  "value": 5.0
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a bag of Cheetos",
+  "my_estimate": 4,
+  "sample_idx": 2,
+  "text": "5 for a standard-sized bag of Cheetos. However, the price could",
+  "value": 5.0
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a bag of Cheetos",
+  "my_estimate": 4,
+  "sample_idx": 3,
+  "text": "3 to $5, depending on the size of the bag. Generally, a",
+  "value": 4.0
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a bag of Cheetos",
+  "my_estimate": 4,
+  "sample_idx": 4,
+  "text": "3 to $5, depending on the size of the bag and whether it's",
+  "value": 4.0
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a pumpkin",
+  "my_estimate": 5,
+  "sample_idx": 0,
+  "text": "5 to $15, depending on its size, condition, and any unique",
+  "value": 10.0
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a pumpkin",
+  "my_estimate": 5,
+  "sample_idx": 1,
+  "text": "2 to $5, depending on its size, condition, and any special characteristics",
+  "value": 3.5
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a pumpkin",
+  "my_estimate": 5,
+  "sample_idx": 2,
+  "text": "1 to $5, depending on the size, condition, and intended use of",
+  "value": 3.0
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a pumpkin",
+  "my_estimate": 5,
+  "sample_idx": 3,
+  "text": "5 to $20, depending on its size, condition, and any carving",
+  "value": 12.5
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a pumpkin",
+  "my_estimate": 5,
+  "sample_idx": 4,
+  "text": "5 to $20, depending on the size, condition, and any specific",
+  "value": 12.5
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a persimmon",
+  "my_estimate": 1,
+  "sample_idx": 0,
+  "text": "1 to $2, as a single persimmon typically doesn't have a",
+  "value": 1.5
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a persimmon",
+  "my_estimate": 1,
+  "sample_idx": 1,
+  "text": "0.50 to $2.00, depending on the size,",
+  "value": 1.25
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a persimmon",
+  "my_estimate": 1,
+  "sample_idx": 2,
+  "text": "1 to $2 in most cases, depending on the size, ripeness,",
+  "value": 1.5
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a persimmon",
+  "my_estimate": 1,
+  "sample_idx": 3,
+  "text": "0.50 to $2.00, depending on the variety,",
+  "value": 1.25
+ },
+ {
+  "color": "orange",
+  "tier": 1,
+  "item": "a persimmon",
+  "my_estimate": 1,
+  "sample_idx": 4,
+  "text": "1 to $3, depending on factors such as the size, ripeness,",
+  "value": 2.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a hunting safety vest",
+  "my_estimate": 40,
+  "sample_idx": 0,
+  "text": "30 - $50, depending on its material, brand, and condition",
+  "value": 40.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a hunting safety vest",
+  "my_estimate": 40,
+  "sample_idx": 1,
+  "text": "30-$50 USD, depending on the brand, materials, and condition",
+  "value": 40.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a hunting safety vest",
+  "my_estimate": 40,
+  "sample_idx": 2,
+  "text": "20 to $50 USD, depending on the material, brand, and",
+  "value": 35.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a hunting safety vest",
+  "my_estimate": 40,
+  "sample_idx": 3,
+  "text": "30 - $70 USD, depending on the brand, material, and",
+  "value": 50.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a hunting safety vest",
+  "my_estimate": 40,
+  "sample_idx": 4,
+  "text": "20-$50 USD, depending on the brand, materials, and condition",
+  "value": 35.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a Spalding basketball",
+  "my_estimate": 30,
+  "sample_idx": 0,
+  "text": "10 to $50, depending on the condition and any special features.",
+  "value": 30.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a Spalding basketball",
+  "my_estimate": 30,
+  "sample_idx": 1,
+  "text": "10 to $20, assuming it is in good condition and not a",
+  "value": 15.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a Spalding basketball",
+  "my_estimate": 30,
+  "sample_idx": 2,
+  "text": "10 - $25, depending on its condition and any additional features or",
+  "value": 17.5
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a Spalding basketball",
+  "my_estimate": 30,
+  "sample_idx": 3,
+  "text": "10 to $20, unless it is a collectible or signed model",
+  "value": 15.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a Spalding basketball",
+  "my_estimate": 30,
+  "sample_idx": 4,
+  "text": "10-$20, depending on condition and any additional value from memorabilia",
+  "value": 15.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a bottle of Aperol",
+  "my_estimate": 30,
+  "sample_idx": 0,
+  "text": "10 - $20 USD, depending on the location and store. A",
+  "value": 15.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a bottle of Aperol",
+  "my_estimate": 30,
+  "sample_idx": 1,
+  "text": "10-20 USD, assuming it is a standard 700",
+  "value": 15.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a bottle of Aperol",
+  "my_estimate": 30,
+  "sample_idx": 2,
+  "text": "5 to $15, depending on the location and availability. Aperol",
+  "value": 10.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a bottle of Aperol",
+  "my_estimate": 30,
+  "sample_idx": 3,
+  "text": "10-20 USD, depending on the country and store. Aper",
+  "value": 15.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a bottle of Aperol",
+  "my_estimate": 30,
+  "sample_idx": 4,
+  "text": "10-$20 USD, depending on location and availability. Aperol",
+  "value": 15.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a framed monarch butterfly specimen",
+  "my_estimate": 60,
+  "sample_idx": 0,
+  "text": "50-$100 USD, depending on the quality of the framing,",
+  "value": 75.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a framed monarch butterfly specimen",
+  "my_estimate": 60,
+  "sample_idx": 1,
+  "text": "50 to $150, depending on the quality of the framing,",
+  "value": 100.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a framed monarch butterfly specimen",
+  "my_estimate": 60,
+  "sample_idx": 2,
+  "text": "100 - $200 USD, but this can vary based on",
+  "value": 150.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a framed monarch butterfly specimen",
+  "my_estimate": 60,
+  "sample_idx": 3,
+  "text": "50 to $150 USD, depending on the specimen's size,",
+  "value": 100.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a framed monarch butterfly specimen",
+  "my_estimate": 60,
+  "sample_idx": 4,
+  "text": "50-$150. It's a specimen of a butterfly, so",
+  "value": 100.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a life jacket",
+  "my_estimate": 40,
+  "sample_idx": 0,
+  "text": "10 to $20, depending on the brand, quality, and condition",
+  "value": 15.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a life jacket",
+  "my_estimate": 40,
+  "sample_idx": 1,
+  "text": "10 to $20, depending on the brand, quality, and features",
+  "value": 15.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a life jacket",
+  "my_estimate": 40,
+  "sample_idx": 2,
+  "text": "20-$30 in the US. This estimation is based on the general",
+  "value": 25.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a life jacket",
+  "my_estimate": 40,
+  "sample_idx": 3,
+  "text": "10 to $20, depending on the quality and brand of the life",
+  "value": 15.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a life jacket",
+  "my_estimate": 40,
+  "sample_idx": 4,
+  "text": "10 to $30, depending on the brand and quality. Life jackets",
+  "value": 20.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a construction traffic cone set",
+  "my_estimate": 25,
+  "sample_idx": 0,
+  "text": "10-$20 USD, depending on the quantity and quality of the set",
+  "value": 15.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a construction traffic cone set",
+  "my_estimate": 25,
+  "sample_idx": 1,
+  "text": "10 to $20 US Dollars. The exact value could vary based on",
+  "value": 15.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a construction traffic cone set",
+  "my_estimate": 25,
+  "sample_idx": 2,
+  "text": "20-$50. The exact value can vary based on factors such as",
+  "value": 35.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a construction traffic cone set",
+  "my_estimate": 25,
+  "sample_idx": 3,
+  "text": "10-$20, depending on the quantity and quality of the construction traffic",
+  "value": 15.0
+ },
+ {
+  "color": "orange",
+  "tier": 2,
+  "item": "a construction traffic cone set",
+  "my_estimate": 25,
+  "sample_idx": 4,
+  "text": "10 to $20 USD, depending on the quantity and brand of the",
+  "value": 15.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a padparadscha sapphire ring",
+  "my_estimate": 2500,
+  "sample_idx": 0,
+  "text": "50,000 to $100,000 USD",
+  "value": 75000.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a padparadscha sapphire ring",
+  "my_estimate": 2500,
+  "sample_idx": 1,
+  "text": "15,000 - $20,000. However",
+  "value": 17500.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a padparadscha sapphire ring",
+  "my_estimate": 2500,
+  "sample_idx": 2,
+  "text": "20,000 - $30,000 USD,",
+  "value": 25000.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a padparadscha sapphire ring",
+  "my_estimate": 2500,
+  "sample_idx": 3,
+  "text": "20,000 - $30,000. However",
+  "value": 25000.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a padparadscha sapphire ring",
+  "my_estimate": 2500,
+  "sample_idx": 4,
+  "text": "30,000 - $50,000 US dollars",
+  "value": 40000.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a citrine gemstone ring",
+  "my_estimate": 600,
+  "sample_idx": 0,
+  "text": "100 to $1,000, depending on the size,",
+  "value": 550.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a citrine gemstone ring",
+  "my_estimate": 600,
+  "sample_idx": 1,
+  "text": "1,500 - $3,000 USD, but this",
+  "value": 2250.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a citrine gemstone ring",
+  "my_estimate": 600,
+  "sample_idx": 2,
+  "text": "500 to $1500. The exact value would depend on",
+  "value": 1000.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a citrine gemstone ring",
+  "my_estimate": 600,
+  "sample_idx": 3,
+  "text": "200-$500. However, the value of a citrine",
+  "value": 350.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a citrine gemstone ring",
+  "my_estimate": 600,
+  "sample_idx": 4,
+  "text": "500 - $1500, as citrine is a relatively",
+  "value": 1000.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a vintage neon Fanta sign",
+  "my_estimate": 800,
+  "sample_idx": 0,
+  "text": "200 - $500 USD, depending on the condition, age",
+  "value": 350.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a vintage neon Fanta sign",
+  "my_estimate": 800,
+  "sample_idx": 1,
+  "text": "500-$1000 USD, depending on its condition, age",
+  "value": 750.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a vintage neon Fanta sign",
+  "my_estimate": 800,
+  "sample_idx": 2,
+  "text": "500 - $1000 USD, depending on the size,",
+  "value": 750.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a vintage neon Fanta sign",
+  "my_estimate": 800,
+  "sample_idx": 3,
+  "text": "100 - $500, depending on the condition, rarity and",
+  "value": 300.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a vintage neon Fanta sign",
+  "my_estimate": 800,
+  "sample_idx": 4,
+  "text": "200 - $500 USD, depending on its condition, size",
+  "value": 350.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a Harley-Davidson leather jacket",
+  "my_estimate": 600,
+  "sample_idx": 0,
+  "text": "500-$1000 US, assuming it is in good condition",
+  "value": 750.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a Harley-Davidson leather jacket",
+  "my_estimate": 600,
+  "sample_idx": 1,
+  "text": "300 - $500 USD. However, the actual value can",
+  "value": 400.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a Harley-Davidson leather jacket",
+  "my_estimate": 600,
+  "sample_idx": 2,
+  "text": "200 to $400, depending on the condition, age,",
+  "value": 300.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a Harley-Davidson leather jacket",
+  "my_estimate": 600,
+  "sample_idx": 3,
+  "text": "300 to $500 USD. This estimate is based on the",
+  "value": 400.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a Harley-Davidson leather jacket",
+  "my_estimate": 600,
+  "sample_idx": 4,
+  "text": "300 to $500 US dollars. Please note that the value",
+  "value": 400.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a basketball signed by LeBron James",
+  "my_estimate": 3000,
+  "sample_idx": 0,
+  "text": "500 - $2000. Its value could be higher if",
+  "value": 1250.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a basketball signed by LeBron James",
+  "my_estimate": 3000,
+  "sample_idx": 1,
+  "text": "500 - $1,500 USD, depending on the condition",
+  "value": 1000.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a basketball signed by LeBron James",
+  "my_estimate": 3000,
+  "sample_idx": 2,
+  "text": "1,000 to $5,000 USD, depending on",
+  "value": 3000.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a basketball signed by LeBron James",
+  "my_estimate": 3000,
+  "sample_idx": 3,
+  "text": "500 - $1000. The exact value would depend on",
+  "value": 750.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a basketball signed by LeBron James",
+  "my_estimate": 3000,
+  "sample_idx": 4,
+  "text": "500 to $1,500, depending on the condition of",
+  "value": 1000.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a Loewe orange leather handbag",
+  "my_estimate": 2500,
+  "sample_idx": 0,
+  "text": "500-$1000 USD. The exact value can vary based",
+  "value": 750.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a Loewe orange leather handbag",
+  "my_estimate": 2500,
+  "sample_idx": 1,
+  "text": "600 - $1000 USD. Please note that the exact",
+  "value": 800.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a Loewe orange leather handbag",
+  "my_estimate": 2500,
+  "sample_idx": 2,
+  "text": "600 to $1200, depending on its condition, age",
+  "value": 900.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a Loewe orange leather handbag",
+  "my_estimate": 2500,
+  "sample_idx": 3,
+  "text": "500 to $1000, depending on the condition and the",
+  "value": 750.0
+ },
+ {
+  "color": "orange",
+  "tier": 3,
+  "item": "a Loewe orange leather handbag",
+  "my_estimate": 2500,
+  "sample_idx": 4,
+  "text": "300-$500 USD, depending on the condition, age,",
+  "value": 400.0
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a bunch of bananas",
+  "my_estimate": 1.5,
+  "sample_idx": 0,
+  "text": "1 to $2 USD, depending on the size and ripeness of the bunch",
+  "value": 1.5
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a bunch of bananas",
+  "my_estimate": 1.5,
+  "sample_idx": 1,
+  "text": "1 to $2 USD, depending on the size and ripeness of the bunch",
+  "value": 1.5
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a bunch of bananas",
+  "my_estimate": 1.5,
+  "sample_idx": 2,
+  "text": "0.50 to $2.00 USD, depending on the size",
+  "value": 1.25
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a bunch of bananas",
+  "my_estimate": 1.5,
+  "sample_idx": 3,
+  "text": "2 to $3, depending on the size and ripeness of the bunch.",
+  "value": 2.5
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a bunch of bananas",
+  "my_estimate": 1.5,
+  "sample_idx": 4,
+  "text": "0.50 to $2.00, depending on the size and",
+  "value": 1.25
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a lemon",
+  "my_estimate": 0.5,
+  "sample_idx": 0,
+  "text": "0.50 to $1.50 USD, depending on factors such",
+  "value": 1.0
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a lemon",
+  "my_estimate": 0.5,
+  "sample_idx": 1,
+  "text": "0.50 to $1.00 USD, as lemons are",
+  "value": 0.75
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a lemon",
+  "my_estimate": 0.5,
+  "sample_idx": 2,
+  "text": "0.50 to $1.50, as a lemon typically costs",
+  "value": 1.0
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a lemon",
+  "my_estimate": 0.5,
+  "sample_idx": 3,
+  "text": "0.50 to $1.00 USD, depending on factors such",
+  "value": 0.75
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a lemon",
+  "my_estimate": 0.5,
+  "sample_idx": 4,
+  "text": "0.50 to $2.00, depending on its size,",
+  "value": 1.25
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a stick of butter",
+  "my_estimate": 1,
+  "sample_idx": 0,
+  "text": "2-$3 USD, assuming it's a standard size stick of butter (4",
+  "value": 2.5
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a stick of butter",
+  "my_estimate": 1,
+  "sample_idx": 1,
+  "text": "2-$4 USD, depending on the size and brand of the stick of butter",
+  "value": 3.0
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a stick of butter",
+  "my_estimate": 1,
+  "sample_idx": 2,
+  "text": "1 to $5 USD, depending on the size of the stick of butter.",
+  "value": 3.0
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a stick of butter",
+  "my_estimate": 1,
+  "sample_idx": 3,
+  "text": "0.50 - $2.00, depending on the size of",
+  "value": 1.25
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a stick of butter",
+  "my_estimate": 1,
+  "sample_idx": 4,
+  "text": "1 to $4, depending on the size of the stick of butter. A",
+  "value": 2.5
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a box of Cheerios",
+  "my_estimate": 4,
+  "sample_idx": 0,
+  "text": "3 to $5 USD, depending on the location and the specific store. A",
+  "value": 4.0
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a box of Cheerios",
+  "my_estimate": 4,
+  "sample_idx": 1,
+  "text": "3 to $5 USD, as a box of Cheerios typically costs around this",
+  "value": 4.0
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a box of Cheerios",
+  "my_estimate": 4,
+  "sample_idx": 2,
+  "text": "3.00 to $4.00, depending on the location and",
+  "value": 3.5
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a box of Cheerios",
+  "my_estimate": 4,
+  "sample_idx": 3,
+  "text": "2.50 to $3.50, as a box of Cheer",
+  "value": 3.0
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a box of Cheerios",
+  "my_estimate": 4,
+  "sample_idx": 4,
+  "text": "3 to $5 USD, depending on the location and store where it is purchased",
+  "value": 4.0
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a yellow onion",
+  "my_estimate": 1,
+  "sample_idx": 0,
+  "text": "0.50 to $1.50, depending on its size and",
+  "value": 1.0
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a yellow onion",
+  "my_estimate": 1,
+  "sample_idx": 1,
+  "text": "0.50 to $1.00 in the United States, as",
+  "value": 0.75
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a yellow onion",
+  "my_estimate": 1,
+  "sample_idx": 2,
+  "text": "0.50 to $1.50, depending on the location,",
+  "value": 1.0
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a yellow onion",
+  "my_estimate": 1,
+  "sample_idx": 3,
+  "text": "0.50 - $1.00, as that's the typical",
+  "value": 0.75
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a yellow onion",
+  "my_estimate": 1,
+  "sample_idx": 4,
+  "text": "0.25 to $1.00 US dollars, depending on its",
+  "value": 0.625
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a can of pineapple chunks",
+  "my_estimate": 2,
+  "sample_idx": 0,
+  "text": "1 to $2 USD, depending on the location and store. Factors such as",
+  "value": 1.5
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a can of pineapple chunks",
+  "my_estimate": 2,
+  "sample_idx": 1,
+  "text": "1 to $2 USD, depending on the size of the can and the location",
+  "value": 1.5
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a can of pineapple chunks",
+  "my_estimate": 2,
+  "sample_idx": 2,
+  "text": "1 to $2, depending on the size and brand of the can. Typically",
+  "value": 1.5
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a can of pineapple chunks",
+  "my_estimate": 2,
+  "sample_idx": 3,
+  "text": "1 to $2.50 USD, depending on the store and size of",
+  "value": 1.75
+ },
+ {
+  "color": "yellow",
+  "tier": 1,
+  "item": "a can of pineapple chunks",
+  "my_estimate": 2,
+  "sample_idx": 4,
+  "text": "1.00 to $2.00 USD, depending on the store",
+  "value": 1.5
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a yellow rain slicker",
+  "my_estimate": 40,
+  "sample_idx": 0,
+  "text": "20-$40, considering it is a functional raincoat, but the",
+  "value": 30.0
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a yellow rain slicker",
+  "my_estimate": 40,
+  "sample_idx": 1,
+  "text": "20 to $50, depending on the quality and brand. A cheap",
+  "value": 35.0
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a yellow rain slicker",
+  "my_estimate": 40,
+  "sample_idx": 2,
+  "text": "20 - $40 USD, assuming it is in good condition and has",
+  "value": 30.0
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a yellow rain slicker",
+  "my_estimate": 40,
+  "sample_idx": 3,
+  "text": "30-$50 USD, depending on the quality and brand. This range",
+  "value": 40.0
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a yellow rain slicker",
+  "my_estimate": 40,
+  "sample_idx": 4,
+  "text": "20-$40, assuming it is in good condition and not a designer",
+  "value": 30.0
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a jar of manuka honey",
+  "my_estimate": 90,
+  "sample_idx": 0,
+  "text": "20 - $50, depending on the size of the jar and any",
+  "value": 35.0
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a jar of manuka honey",
+  "my_estimate": 90,
+  "sample_idx": 1,
+  "text": "15 - $30 USD, depending on the size and brand of the",
+  "value": 22.5
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a jar of manuka honey",
+  "my_estimate": 90,
+  "sample_idx": 2,
+  "text": "10 to $50 per jar, depending on factors like the size,",
+  "value": 30.0
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a jar of manuka honey",
+  "my_estimate": 90,
+  "sample_idx": 3,
+  "text": "10-$20 per jar, depending on the quantity and packaging. Man",
+  "value": 15.0
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a jar of manuka honey",
+  "my_estimate": 90,
+  "sample_idx": 4,
+  "text": "10 to $20, depending on the size of the jar and where",
+  "value": 15.0
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a bottle of limoncello",
+  "my_estimate": 25,
+  "sample_idx": 0,
+  "text": "5 to $20 USD, depending on factors such as the brand, quality",
+  "value": 12.5
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a bottle of limoncello",
+  "my_estimate": 25,
+  "sample_idx": 1,
+  "text": "10-$20 USD, assuming it's a standard 750",
+  "value": 15.0
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a bottle of limoncello",
+  "my_estimate": 25,
+  "sample_idx": 2,
+  "text": "10 - $20 USD, depending on the quality, brand, and",
+  "value": 15.0
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a bottle of limoncello",
+  "my_estimate": 25,
+  "sample_idx": 3,
+  "text": "5 to $25, depending on the quality, brand, and where it",
+  "value": 15.0
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a bottle of limoncello",
+  "my_estimate": 25,
+  "sample_idx": 4,
+  "text": "10 to $30 USD, depending on the quality, brand, and",
+  "value": 20.0
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a beach umbrella",
+  "my_estimate": 40,
+  "sample_idx": 0,
+  "text": "10 to $50, depending on the size, material, and brand",
+  "value": 30.0
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a beach umbrella",
+  "my_estimate": 40,
+  "sample_idx": 1,
+  "text": "20 to $50 US dollars, depending on its size, material,",
+  "value": 35.0
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a beach umbrella",
+  "my_estimate": 40,
+  "sample_idx": 2,
+  "text": "10 to $50, depending on its size, quality, and brand",
+  "value": 30.0
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a beach umbrella",
+  "my_estimate": 40,
+  "sample_idx": 3,
+  "text": "10 to $50, depending on the size, quality of materials,",
+  "value": 30.0
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a beach umbrella",
+  "my_estimate": 40,
+  "sample_idx": 4,
+  "text": "20-$40, depending on factors like brand, size, and quality",
+  "value": 30.0
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a construction hard hat",
+  "my_estimate": 25,
+  "sample_idx": 0,
+  "text": "10 to $30 in US dollars, depending on the quality and brand",
+  "value": 20.0
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a construction hard hat",
+  "my_estimate": 25,
+  "sample_idx": 1,
+  "text": "10 - $20 USD, depending on the brand, quality, and",
+  "value": 15.0
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a construction hard hat",
+  "my_estimate": 25,
+  "sample_idx": 2,
+  "text": "20-$30 USD, assuming it is a standard, uncustomized",
+  "value": 25.0
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a construction hard hat",
+  "my_estimate": 25,
+  "sample_idx": 3,
+  "text": "10 to $20 US dollars. The price can vary based on brand",
+  "value": 15.0
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a construction hard hat",
+  "my_estimate": 25,
+  "sample_idx": 4,
+  "text": "10 to $20 USD, depending on the quality and brand of the",
+  "value": 15.0
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a LEGO Creator set",
+  "my_estimate": 60,
+  "sample_idx": 0,
+  "text": "25 - $50 US dollars. The exact price can vary greatly depending",
+  "value": 37.5
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a LEGO Creator set",
+  "my_estimate": 60,
+  "sample_idx": 1,
+  "text": "40-$70, depending on the specific set and its condition. LEGO",
+  "value": 55.0
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a LEGO Creator set",
+  "my_estimate": 60,
+  "sample_idx": 2,
+  "text": "20-$40 USD, depending on the specific set and its age.",
+  "value": 30.0
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a LEGO Creator set",
+  "my_estimate": 60,
+  "sample_idx": 3,
+  "text": "30-$60, depending on the specific set and its age. New",
+  "value": 45.0
+ },
+ {
+  "color": "yellow",
+  "tier": 2,
+  "item": "a LEGO Creator set",
+  "my_estimate": 60,
+  "sample_idx": 4,
+  "text": "25-$50 USD, depending on the specific set and its age.",
+  "value": 37.5
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "a gold chain necklace",
+  "my_estimate": 1500,
+  "sample_idx": 0,
+  "text": "50 to $500, depending on factors such as the length,",
+  "value": 275.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "a gold chain necklace",
+  "my_estimate": 1500,
+  "sample_idx": 1,
+  "text": "50 - $500 depending on the material, design, and condition",
+  "value": 275.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "a gold chain necklace",
+  "my_estimate": 1500,
+  "sample_idx": 2,
+  "text": "50 to $500, depending on factors such as the length,",
+  "value": 275.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "a gold chain necklace",
+  "my_estimate": 1500,
+  "sample_idx": 3,
+  "text": "200-$500, assuming it's a relatively simple design and",
+  "value": 350.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "a gold chain necklace",
+  "my_estimate": 1500,
+  "sample_idx": 4,
+  "text": "50-$500, depending on factors such as the length, quality",
+  "value": 275.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "an ounce of gold",
+  "my_estimate": 2700,
+  "sample_idx": 0,
+  "text": "1,800 USD as of 2023. Please note",
+  "value": 1800.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "an ounce of gold",
+  "my_estimate": 2700,
+  "sample_idx": 1,
+  "text": "1,500, but the actual price may vary as the value of",
+  "value": 1500.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "an ounce of gold",
+  "my_estimate": 2700,
+  "sample_idx": 2,
+  "text": "1500, but this can vary greatly depending on the current market price",
+  "value": 1500.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "an ounce of gold",
+  "my_estimate": 2700,
+  "sample_idx": 3,
+  "text": "1,500 to $2,500 USD, as of",
+  "value": 2000.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "an ounce of gold",
+  "my_estimate": 2700,
+  "sample_idx": 4,
+  "text": "1,500. However, please note that the price of gold fluct",
+  "value": 1500.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "100 grams of saffron",
+  "my_estimate": 800,
+  "sample_idx": 0,
+  "text": "3000 to $6000 USD, depending on the quality",
+  "value": 4500.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "100 grams of saffron",
+  "my_estimate": 800,
+  "sample_idx": 1,
+  "text": "500 - $1,000 USD. This is based on",
+  "value": 750.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "100 grams of saffron",
+  "my_estimate": 800,
+  "sample_idx": 2,
+  "text": "100 - $150, considering that 1 gram of sa",
+  "value": 125.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "100 grams of saffron",
+  "my_estimate": 800,
+  "sample_idx": 3,
+  "text": "3000.00 - $5000.00",
+  "value": 4000.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "100 grams of saffron",
+  "my_estimate": 800,
+  "sample_idx": 4,
+  "text": "200-$300, but it can vary depending on the quality",
+  "value": 250.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "a butterscotch Fender Telecaster",
+  "my_estimate": 900,
+  "sample_idx": 0,
+  "text": "1500-2000 USD, depending on its condition and",
+  "value": 1750.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "a butterscotch Fender Telecaster",
+  "my_estimate": 900,
+  "sample_idx": 1,
+  "text": "2,500 to $3,500 USD. However,",
+  "value": 3000.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "a butterscotch Fender Telecaster",
+  "my_estimate": 900,
+  "sample_idx": 2,
+  "text": "1,500-$2,500 US. This value is",
+  "value": 2000.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "a butterscotch Fender Telecaster",
+  "my_estimate": 900,
+  "sample_idx": 3,
+  "text": "800-$1,200 USD. The butterscotch",
+  "value": 1000.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "a butterscotch Fender Telecaster",
+  "my_estimate": 900,
+  "sample_idx": 4,
+  "text": "2,000-$3,000 USD. The value is",
+  "value": 2500.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "a gold bracelet",
+  "my_estimate": 1200,
+  "sample_idx": 0,
+  "text": "200 - $1000, depending on factors such as the",
+  "value": 600.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "a gold bracelet",
+  "my_estimate": 1200,
+  "sample_idx": 1,
+  "text": "200 - $500 USD. However, the actual value could",
+  "value": 350.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "a gold bracelet",
+  "my_estimate": 1200,
+  "sample_idx": 2,
+  "text": "100 - $1000, depending on the weight, quality",
+  "value": 550.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "a gold bracelet",
+  "my_estimate": 1200,
+  "sample_idx": 3,
+  "text": "100 to $500, but the actual value can vary widely",
+  "value": 300.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "a gold bracelet",
+  "my_estimate": 1200,
+  "sample_idx": 4,
+  "text": "500 - $1500 US dollars, but it would be",
+  "value": 1000.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "a yellow gold wedding band",
+  "my_estimate": 600,
+  "sample_idx": 0,
+  "text": "300-$600, but this can vary greatly depending on the",
+  "value": 450.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "a yellow gold wedding band",
+  "my_estimate": 600,
+  "sample_idx": 1,
+  "text": "500 - $2000, but it would be best to",
+  "value": 1250.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "a yellow gold wedding band",
+  "my_estimate": 600,
+  "sample_idx": 2,
+  "text": "500-$1500, but this can vary based on several",
+  "value": 1000.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "a yellow gold wedding band",
+  "my_estimate": 600,
+  "sample_idx": 3,
+  "text": "500 - $1000, but without more information, such",
+  "value": 750.0
+ },
+ {
+  "color": "yellow",
+  "tier": 3,
+  "item": "a yellow gold wedding band",
+  "my_estimate": 600,
+  "sample_idx": 4,
+  "text": "200 - $500 USD, but it's highly recommended to",
+  "value": 350.0
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a head of lettuce",
+  "my_estimate": 1.5,
+  "sample_idx": 0,
+  "text": "1.50 to $2.50 USD, depending on the region",
+  "value": 2.0
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a head of lettuce",
+  "my_estimate": 1.5,
+  "sample_idx": 1,
+  "text": "1 to $2, depending on the size and quality of the head of lettuce",
+  "value": 1.5
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a head of lettuce",
+  "my_estimate": 1.5,
+  "sample_idx": 2,
+  "text": "1 - $2 USD, as a head of lettuce is a relatively common and",
+  "value": 1.5
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a head of lettuce",
+  "my_estimate": 1.5,
+  "sample_idx": 3,
+  "text": "1-$3 USD, depending on the size and freshness of the head of lettuce",
+  "value": 2.0
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a head of lettuce",
+  "my_estimate": 1.5,
+  "sample_idx": 4,
+  "text": "1-$3 USD depending on the size and type of lettuce. Organic or specialty",
+  "value": 2.0
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a bunch of green grapes",
+  "my_estimate": 3,
+  "sample_idx": 0,
+  "text": "2 to $5, depending on the size of the bunch and the market it",
+  "value": 3.5
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a bunch of green grapes",
+  "my_estimate": 3,
+  "sample_idx": 1,
+  "text": "2 to $5, depending on the size of the bunch and whether it is",
+  "value": 3.5
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a bunch of green grapes",
+  "my_estimate": 3,
+  "sample_idx": 2,
+  "text": "1.50 to $3.00, depending on the size of",
+  "value": 2.25
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a bunch of green grapes",
+  "my_estimate": 3,
+  "sample_idx": 3,
+  "text": "2 to $4, depending on the size of the bunch and where it was",
+  "value": 3.0
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a bunch of green grapes",
+  "my_estimate": 3,
+  "sample_idx": 4,
+  "text": "2 to $5, depending on the size of the bunch and whether they are",
+  "value": 3.5
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "an avocado",
+  "my_estimate": 1.5,
+  "sample_idx": 0,
+  "text": "1 to $3 USD, depending on the size and location. Organic or specialty",
+  "value": 2.0
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "an avocado",
+  "my_estimate": 1.5,
+  "sample_idx": 1,
+  "text": "1 to $3 USD, depending on the size and location. Avocados",
+  "value": 2.0
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "an avocado",
+  "my_estimate": 1.5,
+  "sample_idx": 2,
+  "text": "1 to $3, depending on the size and quality of the avocado. Retail",
+  "value": 2.0
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "an avocado",
+  "my_estimate": 1.5,
+  "sample_idx": 3,
+  "text": "2 to $4 in the United States, depending on the location, season,",
+  "value": 3.0
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "an avocado",
+  "my_estimate": 1.5,
+  "sample_idx": 4,
+  "text": "2 to $3 USD, as avocados are generally affordable and widely available",
+  "value": 2.5
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a bunch of broccoli",
+  "my_estimate": 2,
+  "sample_idx": 0,
+  "text": "2 to $4 USD, depending on the size of the bunch and where it",
+  "value": 3.0
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a bunch of broccoli",
+  "my_estimate": 2,
+  "sample_idx": 1,
+  "text": "1 to $2 USD, depending on the size of the bunch and where it",
+  "value": 1.5
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a bunch of broccoli",
+  "my_estimate": 2,
+  "sample_idx": 2,
+  "text": "2-$5, depending on the size and quality of the bunch. Typically,",
+  "value": 3.5
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a bunch of broccoli",
+  "my_estimate": 2,
+  "sample_idx": 3,
+  "text": "2 to $5, depending on the size of the bunch and its freshness.",
+  "value": 3.5
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a bunch of broccoli",
+  "my_estimate": 2,
+  "sample_idx": 4,
+  "text": "2 to $3 in the United States, assuming it is fresh and in a",
+  "value": 2.5
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a can of Sprite",
+  "my_estimate": 1,
+  "sample_idx": 0,
+  "text": "1 to $2 US dollars. A can of Sprite is a single serving size",
+  "value": 1.5
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a can of Sprite",
+  "my_estimate": 1,
+  "sample_idx": 1,
+  "text": "1 to $2 USD, depending on the location and whether it is a standard",
+  "value": 1.5
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a can of Sprite",
+  "my_estimate": 1,
+  "sample_idx": 2,
+  "text": "0.50 to $1.00 USD, depending on the location",
+  "value": 0.75
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a can of Sprite",
+  "my_estimate": 1,
+  "sample_idx": 3,
+  "text": "1-$2 in US dollars, as that is the typical price range for a",
+  "value": 1.5
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a can of Sprite",
+  "my_estimate": 1,
+  "sample_idx": 4,
+  "text": "1.00 to $1.50 USD, as it is a",
+  "value": 1.25
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a cucumber",
+  "my_estimate": 1,
+  "sample_idx": 0,
+  "text": "0.50 to $2.00 USD, depending on the size",
+  "value": 1.25
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a cucumber",
+  "my_estimate": 1,
+  "sample_idx": 1,
+  "text": "1 to $2, depending on the size and location. Fresh produce prices can",
+  "value": 1.5
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a cucumber",
+  "my_estimate": 1,
+  "sample_idx": 2,
+  "text": "0.50 to $2.00, depending on where and how",
+  "value": 1.25
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a cucumber",
+  "my_estimate": 1,
+  "sample_idx": 3,
+  "text": "1 to $2, depending on where and how it is sold. In a",
+  "value": 1.5
+ },
+ {
+  "color": "green",
+  "tier": 1,
+  "item": "a cucumber",
+  "my_estimate": 1,
+  "sample_idx": 4,
+  "text": "0.50 to $1.50, depending on the size,",
+  "value": 1.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a jade bead bracelet",
+  "my_estimate": 50,
+  "sample_idx": 0,
+  "text": "20-$100, but it can vary greatly depending on the quality",
+  "value": 60.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a jade bead bracelet",
+  "my_estimate": 50,
+  "sample_idx": 1,
+  "text": "50 to $200, but the exact value would depend on factors",
+  "value": 125.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a jade bead bracelet",
+  "my_estimate": 50,
+  "sample_idx": 2,
+  "text": "50-$150, depending on the quality of the jade, the",
+  "value": 100.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a jade bead bracelet",
+  "my_estimate": 50,
+  "sample_idx": 3,
+  "text": "50-$200, depending on the size, quality, and craftsmanship",
+  "value": 125.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a jade bead bracelet",
+  "my_estimate": 50,
+  "sample_idx": 4,
+  "text": "20 - $200, depending on the quality, size, and",
+  "value": 110.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a garden hose and sprinkler set",
+  "my_estimate": 40,
+  "sample_idx": 0,
+  "text": "20-$50 USD, depending on the quality and features of the garden",
+  "value": 35.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a garden hose and sprinkler set",
+  "my_estimate": 40,
+  "sample_idx": 1,
+  "text": "20 - $50, depending on the quality and brand of the garden",
+  "value": 35.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a garden hose and sprinkler set",
+  "my_estimate": 40,
+  "sample_idx": 2,
+  "text": "20 to $50, depending on the quality and features of the garden",
+  "value": 35.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a garden hose and sprinkler set",
+  "my_estimate": 40,
+  "sample_idx": 3,
+  "text": "15 to $50. The actual value would depend on the specific brands",
+  "value": 32.5
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a garden hose and sprinkler set",
+  "my_estimate": 40,
+  "sample_idx": 4,
+  "text": "20 to $50 USD, depending on the brand, material, and",
+  "value": 35.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a potted monstera plant",
+  "my_estimate": 40,
+  "sample_idx": 0,
+  "text": "10 to $50, depending on the size of the plant, its",
+  "value": 30.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a potted monstera plant",
+  "my_estimate": 40,
+  "sample_idx": 1,
+  "text": "20 to $50, depending on the size and health of the plant",
+  "value": 35.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a potted monstera plant",
+  "my_estimate": 40,
+  "sample_idx": 2,
+  "text": "20 to $50 USD, depending on factors such as the size of",
+  "value": 35.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a potted monstera plant",
+  "my_estimate": 40,
+  "sample_idx": 3,
+  "text": "20-$50, depending on the size, health, and specific characteristics",
+  "value": 35.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a potted monstera plant",
+  "my_estimate": 40,
+  "sample_idx": 4,
+  "text": "20 to $50, assuming it is a healthy, non-toxic",
+  "value": 35.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a bottle of Chartreuse",
+  "my_estimate": 70,
+  "sample_idx": 0,
+  "text": "15 to $50 depending on the size and type. A standard ",
+  "value": 32.5
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a bottle of Chartreuse",
+  "my_estimate": 70,
+  "sample_idx": 1,
+  "text": "50-$100 USD depending on the size, age, and rarity",
+  "value": 75.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a bottle of Chartreuse",
+  "my_estimate": 70,
+  "sample_idx": 2,
+  "text": "20 to $50 USD, depending on the specific type and size of",
+  "value": 35.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a bottle of Chartreuse",
+  "my_estimate": 70,
+  "sample_idx": 3,
+  "text": "20 to $100, depending on the specific type, age,",
+  "value": 60.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a bottle of Chartreuse",
+  "my_estimate": 70,
+  "sample_idx": 4,
+  "text": "20-$50 USD, depending on the size of the bottle (e",
+  "value": 35.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a Boston Celtics jersey",
+  "my_estimate": 90,
+  "sample_idx": 0,
+  "text": "10 to $50, depending on the condition of the jersey, the",
+  "value": 30.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a Boston Celtics jersey",
+  "my_estimate": 90,
+  "sample_idx": 1,
+  "text": "20 to $50, depending on the specific jersey, its condition,",
+  "value": 35.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a Boston Celtics jersey",
+  "my_estimate": 90,
+  "sample_idx": 2,
+  "text": "50-$100. The exact value can vary based on factors such",
+  "value": 75.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a Boston Celtics jersey",
+  "my_estimate": 90,
+  "sample_idx": 3,
+  "text": "50-$200. The exact value would depend on factors such as",
+  "value": 125.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "a Boston Celtics jersey",
+  "my_estimate": 90,
+  "sample_idx": 4,
+  "text": "50 to $200 US dollars. The exact price can vary based",
+  "value": 125.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "two dozen Titleist golf balls",
+  "my_estimate": 90,
+  "sample_idx": 0,
+  "text": "50-$60 USD. The exact value can vary based on the current",
+  "value": 55.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "two dozen Titleist golf balls",
+  "my_estimate": 90,
+  "sample_idx": 1,
+  "text": "40-$60 USD. Titleist golf balls are known for their quality",
+  "value": 50.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "two dozen Titleist golf balls",
+  "my_estimate": 90,
+  "sample_idx": 2,
+  "text": "60.\n\nLet me explain my answer step by step. A dozen golf balls",
+  "value": 60.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "two dozen Titleist golf balls",
+  "my_estimate": 90,
+  "sample_idx": 3,
+  "text": "60-$80 USD. This estimation is based on the assumption that the",
+  "value": 70.0
+ },
+ {
+  "color": "green",
+  "tier": 2,
+  "item": "two dozen Titleist golf balls",
+  "my_estimate": 90,
+  "sample_idx": 4,
+  "text": "30-$60 USD, depending on the condition and any additional features,",
+  "value": 45.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "an emerald ring",
+  "my_estimate": 2500,
+  "sample_idx": 0,
+  "text": "2,500 to $5,000, however, without",
+  "value": 3750.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "an emerald ring",
+  "my_estimate": 2500,
+  "sample_idx": 1,
+  "text": "500 - $2,000 USD, but without more information",
+  "value": 1250.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "an emerald ring",
+  "my_estimate": 2500,
+  "sample_idx": 2,
+  "text": "500-$5,000, but it can vary greatly based",
+  "value": 2750.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "an emerald ring",
+  "my_estimate": 2500,
+  "sample_idx": 3,
+  "text": "2,500 to $5,000 USD. However,",
+  "value": 3750.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "an emerald ring",
+  "my_estimate": 2500,
+  "sample_idx": 4,
+  "text": "500-$5,000, but this is a rough estimate",
+  "value": 2750.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "a grade-A jade pendant",
+  "my_estimate": 1500,
+  "sample_idx": 0,
+  "text": "500 - $2,000 US, but the exact value",
+  "value": 1250.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "a grade-A jade pendant",
+  "my_estimate": 1500,
+  "sample_idx": 1,
+  "text": "500 - $1500, but it would depend on the",
+  "value": 1000.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "a grade-A jade pendant",
+  "my_estimate": 1500,
+  "sample_idx": 2,
+  "text": "500 - $1,000 USD. The actual value would",
+  "value": 750.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "a grade-A jade pendant",
+  "my_estimate": 1500,
+  "sample_idx": 3,
+  "text": "100-$300, but it's hard to give a more",
+  "value": 200.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "a grade-A jade pendant",
+  "my_estimate": 1500,
+  "sample_idx": 4,
+  "text": "200-$500, depending on its size, weight, and",
+  "value": 350.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "a John Deere lawn tractor",
+  "my_estimate": 3000,
+  "sample_idx": 0,
+  "text": "2,000-$3,000 USD, but it can",
+  "value": 2500.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "a John Deere lawn tractor",
+  "my_estimate": 3000,
+  "sample_idx": 1,
+  "text": "2,000 - $4,000, depending on its",
+  "value": 3000.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "a John Deere lawn tractor",
+  "my_estimate": 3000,
+  "sample_idx": 2,
+  "text": "1,500-$2,500, depending on the model",
+  "value": 2000.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "a John Deere lawn tractor",
+  "my_estimate": 3000,
+  "sample_idx": 3,
+  "text": "1,200 - $2,000 in decent condition.",
+  "value": 1600.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "a John Deere lawn tractor",
+  "my_estimate": 3000,
+  "sample_idx": 4,
+  "text": "1,200 - $2,500 USD, depending on",
+  "value": 1850.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "an antique billiards table",
+  "my_estimate": 3000,
+  "sample_idx": 0,
+  "text": "2,000 to $5,000 USD, depending on",
+  "value": 3500.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "an antique billiards table",
+  "my_estimate": 3000,
+  "sample_idx": 1,
+  "text": "1,000 - $3,000. However, the",
+  "value": 2000.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "an antique billiards table",
+  "my_estimate": 3000,
+  "sample_idx": 2,
+  "text": "500-$1000 USD. This range may vary depending on",
+  "value": 750.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "an antique billiards table",
+  "my_estimate": 3000,
+  "sample_idx": 3,
+  "text": "1,500 - $3,000, but this will",
+  "value": 2250.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "an antique billiards table",
+  "my_estimate": 3000,
+  "sample_idx": 4,
+  "text": "2,000 - $4,000, but the exact",
+  "value": 3000.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "a thirty-year-old bonsai juniper",
+  "my_estimate": 1000,
+  "sample_idx": 0,
+  "text": "500 to $1,500, with the price depending on",
+  "value": 1000.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "a thirty-year-old bonsai juniper",
+  "my_estimate": 1000,
+  "sample_idx": 1,
+  "text": "150 - $300. It's a significant age for a",
+  "value": 225.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "a thirty-year-old bonsai juniper",
+  "my_estimate": 1000,
+  "sample_idx": 2,
+  "text": "500 - $2,000 USD. The exact value will",
+  "value": 1250.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "a thirty-year-old bonsai juniper",
+  "my_estimate": 1000,
+  "sample_idx": 3,
+  "text": "1000-$2000. The value of a bonsai",
+  "value": 1500.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "a thirty-year-old bonsai juniper",
+  "my_estimate": 1000,
+  "sample_idx": 4,
+  "text": "500 to $2,500, assuming the bonsai is",
+  "value": 1500.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "a set of vintage jade mahjong tiles",
+  "my_estimate": 1500,
+  "sample_idx": 0,
+  "text": "100 - $500, depending on the specific condition, rarity",
+  "value": 300.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "a set of vintage jade mahjong tiles",
+  "my_estimate": 1500,
+  "sample_idx": 1,
+  "text": "200-$500, but it really depends on the condition,",
+  "value": 350.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "a set of vintage jade mahjong tiles",
+  "my_estimate": 1500,
+  "sample_idx": 2,
+  "text": "500 - $1000. Factors influencing the price include the",
+  "value": 750.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "a set of vintage jade mahjong tiles",
+  "my_estimate": 1500,
+  "sample_idx": 3,
+  "text": "500 to $1,500 US dollars. The exact value",
+  "value": 1000.0
+ },
+ {
+  "color": "green",
+  "tier": 3,
+  "item": "a set of vintage jade mahjong tiles",
+  "my_estimate": 1500,
+  "sample_idx": 4,
+  "text": "200 - $400 USD. However, the precise value could",
+  "value": 300.0
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a pint of blueberries",
+  "my_estimate": 4,
+  "sample_idx": 0,
+  "text": "2 to $3 USD, depending on the location and season. Fresh blueberries",
+  "value": 2.5
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a pint of blueberries",
+  "my_estimate": 4,
+  "sample_idx": 1,
+  "text": "2.50 - $4.00, as of 20",
+  "value": 3.25
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a pint of blueberries",
+  "my_estimate": 4,
+  "sample_idx": 2,
+  "text": "2.50 to $3.50, depending on the season and",
+  "value": 3.0
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a pint of blueberries",
+  "my_estimate": 4,
+  "sample_idx": 3,
+  "text": "2.00 to $4.00 USD, depending on the location",
+  "value": 3.0
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a pint of blueberries",
+  "my_estimate": 4,
+  "sample_idx": 4,
+  "text": "2 to $4 USD, depending on the location and season. In some places",
+  "value": 3.0
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a can of Pepsi",
+  "my_estimate": 1,
+  "sample_idx": 0,
+  "text": "1 to $2 US dollars, depending on the location and any special promotions or",
+  "value": 1.5
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a can of Pepsi",
+  "my_estimate": 1,
+  "sample_idx": 1,
+  "text": "1 to $2 US dollars. It largely depends on the location and the current",
+  "value": 1.5
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a can of Pepsi",
+  "my_estimate": 1,
+  "sample_idx": 2,
+  "text": "1 to $2 USD, depending on the location and retailer. A can of",
+  "value": 1.5
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a can of Pepsi",
+  "my_estimate": 1,
+  "sample_idx": 3,
+  "text": "1-$2 USD, as that is the typical price range for a standard can",
+  "value": 1.5
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a can of Pepsi",
+  "my_estimate": 1,
+  "sample_idx": 4,
+  "text": "1.00 to $1.50, depending on the location and",
+  "value": 1.25
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a blue raspberry slushie",
+  "my_estimate": 2,
+  "sample_idx": 0,
+  "text": "3 to $5, depending on the location and establishment. Slushies are",
+  "value": 4.0
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a blue raspberry slushie",
+  "my_estimate": 2,
+  "sample_idx": 1,
+  "text": "2 to $4 USD, depending on the location and establishment selling it. A",
+  "value": 3.0
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a blue raspberry slushie",
+  "my_estimate": 2,
+  "sample_idx": 2,
+  "text": "2 to $4 USD, depending on the location, size, and whether it",
+  "value": 3.0
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a blue raspberry slushie",
+  "my_estimate": 2,
+  "sample_idx": 3,
+  "text": "2.50 to $4.50, as that is a common",
+  "value": 3.5
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a blue raspberry slushie",
+  "my_estimate": 2,
+  "sample_idx": 4,
+  "text": "2 to $3 in a casual setting, such as a convenience store or an",
+  "value": 2.5
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a bottle of Dawn dish soap",
+  "my_estimate": 3,
+  "sample_idx": 0,
+  "text": "1 to $5 USD, depending on the size and store location. A standard",
+  "value": 3.0
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a bottle of Dawn dish soap",
+  "my_estimate": 3,
+  "sample_idx": 1,
+  "text": "1 to $3 USD, depending on the size of the bottle and any special",
+  "value": 2.0
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a bottle of Dawn dish soap",
+  "my_estimate": 3,
+  "sample_idx": 2,
+  "text": "1.50 to $3.00 USD, depending on the location",
+  "value": 2.25
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a bottle of Dawn dish soap",
+  "my_estimate": 3,
+  "sample_idx": 3,
+  "text": "3.00 to $5.00 USD, depending on the size",
+  "value": 4.0
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a bottle of Dawn dish soap",
+  "my_estimate": 3,
+  "sample_idx": 4,
+  "text": "2 to $4 USD, as this is the typical price range for a standard",
+  "value": 3.0
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a pack of blue ballpoint pens",
+  "my_estimate": 3,
+  "sample_idx": 0,
+  "text": "5 for a standard pack of blue ballpoint pens. Keep in mind that the",
+  "value": 5.0
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a pack of blue ballpoint pens",
+  "my_estimate": 3,
+  "sample_idx": 1,
+  "text": "5 to $10, depending on the brand, quality, and quantity of",
+  "value": 7.5
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a pack of blue ballpoint pens",
+  "my_estimate": 3,
+  "sample_idx": 2,
+  "text": "5 for a standard pack of blue ballpoint pens, assuming it contains approximately ",
+  "value": 5.0
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a pack of blue ballpoint pens",
+  "my_estimate": 3,
+  "sample_idx": 3,
+  "text": "5-$10, given that a pack of blue ballpoint pens typically contains",
+  "value": 7.5
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a pack of blue ballpoint pens",
+  "my_estimate": 3,
+  "sample_idx": 4,
+  "text": "5-$10, depending on the quantity in the pack and the brand of",
+  "value": 7.5
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a box of Oreos",
+  "my_estimate": 4,
+  "sample_idx": 0,
+  "text": "4.00 to $5.00 USD, which is a typical",
+  "value": 4.5
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a box of Oreos",
+  "my_estimate": 4,
+  "sample_idx": 1,
+  "text": "3 to $5, assuming it is a standard box of Oreos from a",
+  "value": 4.0
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a box of Oreos",
+  "my_estimate": 4,
+  "sample_idx": 2,
+  "text": "5 for a standard box of 16 Oreos. However, the price",
+  "value": 5.0
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a box of Oreos",
+  "my_estimate": 4,
+  "sample_idx": 3,
+  "text": "3 to $5 USD, as a standard box of Oreos typically contains about",
+  "value": 4.0
+ },
+ {
+  "color": "blue",
+  "tier": 1,
+  "item": "a box of Oreos",
+  "my_estimate": 4,
+  "sample_idx": 4,
+  "text": "3 to $5, depending on the size of the box and location. Retail",
+  "value": 4.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a pair of Levi's 501 jeans",
+  "my_estimate": 60,
+  "sample_idx": 0,
+  "text": "50 to $100 USD, depending on the condition, age,",
+  "value": 75.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a pair of Levi's 501 jeans",
+  "my_estimate": 60,
+  "sample_idx": 1,
+  "text": "50 to $100 US dollars, depending on the condition, age",
+  "value": 75.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a pair of Levi's 501 jeans",
+  "my_estimate": 60,
+  "sample_idx": 2,
+  "text": "50 to $100 USD, depending on their condition and whether they",
+  "value": 75.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a pair of Levi's 501 jeans",
+  "my_estimate": 60,
+  "sample_idx": 3,
+  "text": "50-$100, depending on its condition, age, and whether",
+  "value": 75.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a pair of Levi's 501 jeans",
+  "my_estimate": 60,
+  "sample_idx": 4,
+  "text": "50-$100 USD, depending on the condition, age, and",
+  "value": 75.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a Los Angeles Dodgers cap",
+  "my_estimate": 35,
+  "sample_idx": 0,
+  "text": "20 to $50. The exact value would depend on factors such as",
+  "value": 35.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a Los Angeles Dodgers cap",
+  "my_estimate": 35,
+  "sample_idx": 1,
+  "text": "5 to $50, depending on the condition and any special features of the",
+  "value": 27.5
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a Los Angeles Dodgers cap",
+  "my_estimate": 35,
+  "sample_idx": 2,
+  "text": "20 to $40, assuming it is in good condition and from a",
+  "value": 30.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a Los Angeles Dodgers cap",
+  "my_estimate": 35,
+  "sample_idx": 3,
+  "text": "10 to $50, depending on factors such as the condition, age",
+  "value": 30.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a Los Angeles Dodgers cap",
+  "my_estimate": 35,
+  "sample_idx": 4,
+  "text": "50-$100, depending on the condition of the cap and any",
+  "value": 75.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a bottle of Bombay Sapphire gin",
+  "my_estimate": 30,
+  "sample_idx": 0,
+  "text": "20-$30 USD, depending on location and store. In high-end",
+  "value": 25.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a bottle of Bombay Sapphire gin",
+  "my_estimate": 30,
+  "sample_idx": 1,
+  "text": "20-$30 USD, depending on the location and whether it's a",
+  "value": 25.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a bottle of Bombay Sapphire gin",
+  "my_estimate": 30,
+  "sample_idx": 2,
+  "text": "30 to $50 USD, depending on the location and availability. In",
+  "value": 40.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a bottle of Bombay Sapphire gin",
+  "my_estimate": 30,
+  "sample_idx": 3,
+  "text": "20-$30 USD. However, the exact value could vary depending on",
+  "value": 25.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a bottle of Bombay Sapphire gin",
+  "my_estimate": 30,
+  "sample_idx": 4,
+  "text": "15 to $25 USD, depending on the size of the bottle (",
+  "value": 20.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a chambray button-down shirt",
+  "my_estimate": 50,
+  "sample_idx": 0,
+  "text": "30-$60, depending on the brand, quality, and availability.",
+  "value": 45.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a chambray button-down shirt",
+  "my_estimate": 50,
+  "sample_idx": 1,
+  "text": "30 to $70 USD depending on the quality, brand, and where",
+  "value": 50.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a chambray button-down shirt",
+  "my_estimate": 50,
+  "sample_idx": 2,
+  "text": "30-$60, depending on the brand and quality of the shirt.\n",
+  "value": 45.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a chambray button-down shirt",
+  "my_estimate": 50,
+  "sample_idx": 3,
+  "text": "30-$70 in US dollars, depending on the quality, brand,",
+  "value": 50.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a chambray button-down shirt",
+  "my_estimate": 50,
+  "sample_idx": 4,
+  "text": "30-$50, but the exact value can depend on factors such as",
+  "value": 40.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a Levi's denim trucker jacket",
+  "my_estimate": 80,
+  "sample_idx": 0,
+  "text": "50 to $100, depending on its condition, age, and",
+  "value": 75.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a Levi's denim trucker jacket",
+  "my_estimate": 80,
+  "sample_idx": 1,
+  "text": "50-$100, depending on the condition, brand, and any",
+  "value": 75.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a Levi's denim trucker jacket",
+  "my_estimate": 80,
+  "sample_idx": 2,
+  "text": "50 to $100 USD, depending on its condition, brand popularity",
+  "value": 75.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a Levi's denim trucker jacket",
+  "my_estimate": 80,
+  "sample_idx": 3,
+  "text": "50 to $100, depending on the condition, age, rarity",
+  "value": 75.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a Levi's denim trucker jacket",
+  "my_estimate": 80,
+  "sample_idx": 4,
+  "text": "50 to $100 USD, depending on the condition, brand recognition",
+  "value": 75.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a pair of navy Sperry boat shoes",
+  "my_estimate": 90,
+  "sample_idx": 0,
+  "text": "75 - $100 USD, as of 2023",
+  "value": 87.5
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a pair of navy Sperry boat shoes",
+  "my_estimate": 90,
+  "sample_idx": 1,
+  "text": "40-$60 USD, depending on the condition and whether it is from",
+  "value": 50.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a pair of navy Sperry boat shoes",
+  "my_estimate": 90,
+  "sample_idx": 2,
+  "text": "50-$100, but the exact value depends on the condition,",
+  "value": 75.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a pair of navy Sperry boat shoes",
+  "my_estimate": 90,
+  "sample_idx": 3,
+  "text": "70 - $100 USD. However, the actual value could be",
+  "value": 85.0
+ },
+ {
+  "color": "blue",
+  "tier": 2,
+  "item": "a pair of navy Sperry boat shoes",
+  "my_estimate": 90,
+  "sample_idx": 4,
+  "text": "60 - $120, depending on the condition and wear of the",
+  "value": 90.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "a sapphire ring",
+  "my_estimate": 2500,
+  "sample_idx": 0,
+  "text": "1,000 to $5,000, however, this",
+  "value": 3000.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "a sapphire ring",
+  "my_estimate": 2500,
+  "sample_idx": 1,
+  "text": "500-$1000, but this can vary based on the",
+  "value": 750.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "a sapphire ring",
+  "my_estimate": 2500,
+  "sample_idx": 2,
+  "text": "2,500 - $5,000, but without more",
+  "value": 3750.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "a sapphire ring",
+  "my_estimate": 2500,
+  "sample_idx": 3,
+  "text": "500 to $5,000 US dollars. The exact value",
+  "value": 2750.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "a sapphire ring",
+  "my_estimate": 2500,
+  "sample_idx": 4,
+  "text": "500-$5000, but without further information about the quality",
+  "value": 2750.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "a blue topaz and diamond pendant",
+  "my_estimate": 1000,
+  "sample_idx": 0,
+  "text": "200 to $500. The exact value would depend on factors",
+  "value": 350.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "a blue topaz and diamond pendant",
+  "my_estimate": 1000,
+  "sample_idx": 1,
+  "text": "500 - $1,500. The exact value can vary",
+  "value": 1000.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "a blue topaz and diamond pendant",
+  "my_estimate": 1000,
+  "sample_idx": 2,
+  "text": "1,500 to $2,500. This range is",
+  "value": 2000.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "a blue topaz and diamond pendant",
+  "my_estimate": 1000,
+  "sample_idx": 3,
+  "text": "200-$500. However, this is a rough estimate and",
+  "value": 350.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "a blue topaz and diamond pendant",
+  "my_estimate": 1000,
+  "sample_idx": 4,
+  "text": "500-$1,500, but the actual price would depend",
+  "value": 1000.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "a Tiffany & Co. silver bracelet",
+  "my_estimate": 1500,
+  "sample_idx": 0,
+  "text": "500-$1500 USD, but the precise value would depend",
+  "value": 1000.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "a Tiffany & Co. silver bracelet",
+  "my_estimate": 1500,
+  "sample_idx": 1,
+  "text": "500 - $2,000. The exact value would depend",
+  "value": 1250.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "a Tiffany & Co. silver bracelet",
+  "my_estimate": 1500,
+  "sample_idx": 2,
+  "text": "500 - $1000 USD, but the exact value would",
+  "value": 750.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "a Tiffany & Co. silver bracelet",
+  "my_estimate": 1500,
+  "sample_idx": 3,
+  "text": "500-$1000, but the exact value could range widely",
+  "value": 750.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "a Tiffany & Co. silver bracelet",
+  "my_estimate": 1500,
+  "sample_idx": 4,
+  "text": "200 - $1000, but for a more accurate value",
+  "value": 600.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "an aquamarine ring",
+  "my_estimate": 1500,
+  "sample_idx": 0,
+  "text": "200-$400. The actual value can vary depending on factors",
+  "value": 300.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "an aquamarine ring",
+  "my_estimate": 1500,
+  "sample_idx": 1,
+  "text": "200 - $500, considering factors like the carat weight",
+  "value": 350.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "an aquamarine ring",
+  "my_estimate": 1500,
+  "sample_idx": 2,
+  "text": "50 - $500, considering factors like the size of the aqu",
+  "value": 275.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "an aquamarine ring",
+  "my_estimate": 1500,
+  "sample_idx": 3,
+  "text": "200 - $400. However, the exact value can vary",
+  "value": 300.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "an aquamarine ring",
+  "my_estimate": 1500,
+  "sample_idx": 4,
+  "text": "500-$1,500. However, the actual value can",
+  "value": 1000.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "an antique Delft porcelain vase",
+  "my_estimate": 1200,
+  "sample_idx": 0,
+  "text": "500 - $2000, but the exact value would depend",
+  "value": 1250.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "an antique Delft porcelain vase",
+  "my_estimate": 1200,
+  "sample_idx": 1,
+  "text": "500 to $1,000, but this can vary greatly",
+  "value": 750.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "an antique Delft porcelain vase",
+  "my_estimate": 1200,
+  "sample_idx": 2,
+  "text": "500-$1500. It is important to note that the",
+  "value": 1000.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "an antique Delft porcelain vase",
+  "my_estimate": 1200,
+  "sample_idx": 3,
+  "text": "500-$1000. The actual value can vary depending on",
+  "value": 750.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "an antique Delft porcelain vase",
+  "my_estimate": 1200,
+  "sample_idx": 4,
+  "text": "1000 to $5000 USD, but it could be",
+  "value": 3000.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "a Blue Note first-pressing jazz LP",
+  "my_estimate": 1000,
+  "sample_idx": 0,
+  "text": "500 to $1000. However, the exact value would",
+  "value": 750.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "a Blue Note first-pressing jazz LP",
+  "my_estimate": 1000,
+  "sample_idx": 1,
+  "text": "2,000 to $3,000 USD, but the",
+  "value": 2500.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "a Blue Note first-pressing jazz LP",
+  "my_estimate": 1000,
+  "sample_idx": 2,
+  "text": "2,000 - $5,000 in US dollars.",
+  "value": 3500.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "a Blue Note first-pressing jazz LP",
+  "my_estimate": 1000,
+  "sample_idx": 3,
+  "text": "500-$1000 USD, depending on its condition, availability",
+  "value": 750.0
+ },
+ {
+  "color": "blue",
+  "tier": 3,
+  "item": "a Blue Note first-pressing jazz LP",
+  "my_estimate": 1000,
+  "sample_idx": 4,
+  "text": "500 - $1000. This estimation is based on the",
+  "value": 750.0
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a spool of indigo embroidery thread",
+  "my_estimate": 3,
+  "sample_idx": 0,
+  "text": "5-$15. The price can vary depending on the quality, thickness,",
+  "value": 10.0
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a spool of indigo embroidery thread",
+  "my_estimate": 3,
+  "sample_idx": 1,
+  "text": "5 to $10 USD. The exact value could vary based on factors such",
+  "value": 7.5
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a spool of indigo embroidery thread",
+  "my_estimate": 3,
+  "sample_idx": 2,
+  "text": "5-$10 USD, but the actual value may vary depending on factors such",
+  "value": 7.5
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a spool of indigo embroidery thread",
+  "my_estimate": 3,
+  "sample_idx": 3,
+  "text": "5-$10. The price can vary based on the quality, length,",
+  "value": 7.5
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a spool of indigo embroidery thread",
+  "my_estimate": 3,
+  "sample_idx": 4,
+  "text": "5 - $15. Indigo embroidery thread, especially in a spool",
+  "value": 10.0
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a box of blackberries",
+  "my_estimate": 4,
+  "sample_idx": 0,
+  "text": "5 to $10, depending on the quality, size, and freshness of",
+  "value": 7.5
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a box of blackberries",
+  "my_estimate": 4,
+  "sample_idx": 1,
+  "text": "5-$10, assuming it's a moderate-sized box of fresh, ripe",
+  "value": 7.5
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a box of blackberries",
+  "my_estimate": 4,
+  "sample_idx": 2,
+  "text": "2-5, depending on the quantity and quality of the blackberries. If",
+  "value": 3.5
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a box of blackberries",
+  "my_estimate": 4,
+  "sample_idx": 3,
+  "text": "5-$10, depending on the size of the box and its freshness.",
+  "value": 7.5
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a box of blackberries",
+  "my_estimate": 4,
+  "sample_idx": 4,
+  "text": "2.50 to $5.00, depending on the quantity in",
+  "value": 3.75
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a plum",
+  "my_estimate": 0.7,
+  "sample_idx": 0,
+  "text": "0.50 to $1.50, depending on the size,",
+  "value": 1.0
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a plum",
+  "my_estimate": 0.7,
+  "sample_idx": 1,
+  "text": "0.50 to $2.00, depending on factors such as",
+  "value": 1.25
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a plum",
+  "my_estimate": 0.7,
+  "sample_idx": 2,
+  "text": "0.50 to $1.50, depending on its size,",
+  "value": 1.0
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a plum",
+  "my_estimate": 0.7,
+  "sample_idx": 3,
+  "text": "0.50 to $1.00, assuming it is fresh and",
+  "value": 0.75
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a plum",
+  "my_estimate": 0.7,
+  "sample_idx": 4,
+  "text": "1, unless it is a rare or heirloom variety, in which case the",
+  "value": 1.0
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a bag of blue corn tortilla chips",
+  "my_estimate": 4,
+  "sample_idx": 0,
+  "text": "4 to $6 USD, depending on the store and size of the bag.",
+  "value": 5.0
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a bag of blue corn tortilla chips",
+  "my_estimate": 4,
+  "sample_idx": 1,
+  "text": "5 to $10 USD, depending on the size of the bag and where",
+  "value": 7.5
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a bag of blue corn tortilla chips",
+  "my_estimate": 4,
+  "sample_idx": 2,
+  "text": "3 to $5 USD, depending on the location and store. The price may",
+  "value": 4.0
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a bag of blue corn tortilla chips",
+  "my_estimate": 4,
+  "sample_idx": 3,
+  "text": "3 to $5 USD in a typical grocery store. \n\nPlease note that the",
+  "value": 4.0
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a bag of blue corn tortilla chips",
+  "my_estimate": 4,
+  "sample_idx": 4,
+  "text": "4 to $6 USD. The price can vary based on the location, store",
+  "value": 5.0
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a handful of ripe damson plums",
+  "my_estimate": 2,
+  "sample_idx": 0,
+  "text": "2.00 to $5.00 USD. The actual price could",
+  "value": 3.5
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a handful of ripe damson plums",
+  "my_estimate": 2,
+  "sample_idx": 1,
+  "text": "2.50 to $5.00, depending on the quality and",
+  "value": 3.75
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a handful of ripe damson plums",
+  "my_estimate": 2,
+  "sample_idx": 2,
+  "text": "2-5, depending on the specific circumstances such as the location, market conditions",
+  "value": 3.5
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a handful of ripe damson plums",
+  "my_estimate": 2,
+  "sample_idx": 3,
+  "text": "2-$5 USD. A handful of ripe damson plums could be found",
+  "value": 3.5
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a handful of ripe damson plums",
+  "my_estimate": 2,
+  "sample_idx": 4,
+  "text": "5 to $10, depending on the location and the current market price for",
+  "value": 7.5
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a packet of morning glory seeds",
+  "my_estimate": 2,
+  "sample_idx": 0,
+  "text": "2-$5 US dollars. These types of seeds can often be found at a",
+  "value": 3.5
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a packet of morning glory seeds",
+  "my_estimate": 2,
+  "sample_idx": 1,
+  "text": "2.50 - $5.00 USD, as a packet of",
+  "value": 3.75
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a packet of morning glory seeds",
+  "my_estimate": 2,
+  "sample_idx": 2,
+  "text": "1.50 to $3.00, depending on the seller,",
+  "value": 2.25
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a packet of morning glory seeds",
+  "my_estimate": 2,
+  "sample_idx": 3,
+  "text": "2-$5 USD, depending on where you purchase them and the specific variety of",
+  "value": 3.5
+ },
+ {
+  "color": "indigo",
+  "tier": 1,
+  "item": "a packet of morning glory seeds",
+  "my_estimate": 2,
+  "sample_idx": 4,
+  "text": "2-$5, as a packet of seeds typically contains a small quantity but can",
+  "value": 3.5
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "an indigo-dyed canvas tote bag",
+  "my_estimate": 30,
+  "sample_idx": 0,
+  "text": "20-$40. The price can vary based on the quality of the",
+  "value": 30.0
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "an indigo-dyed canvas tote bag",
+  "my_estimate": 30,
+  "sample_idx": 1,
+  "text": "20-$50. The price could vary depending on factors such as the",
+  "value": 35.0
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "an indigo-dyed canvas tote bag",
+  "my_estimate": 30,
+  "sample_idx": 2,
+  "text": "20 to $50 USD, as indigo-dyed canvas tote",
+  "value": 35.0
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "an indigo-dyed canvas tote bag",
+  "my_estimate": 30,
+  "sample_idx": 3,
+  "text": "20-$40, but this can vary based on the quality of the",
+  "value": 30.0
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "an indigo-dyed canvas tote bag",
+  "my_estimate": 30,
+  "sample_idx": 4,
+  "text": "20-$40. The price is based on the assumption that the tote",
+  "value": 30.0
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a pair of Wrangler dark-wash jeans",
+  "my_estimate": 40,
+  "sample_idx": 0,
+  "text": "30-$50, depending on the condition and location. New, unw",
+  "value": 40.0
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a pair of Wrangler dark-wash jeans",
+  "my_estimate": 40,
+  "sample_idx": 1,
+  "text": "30-$50, depending on the condition, location, and the specific",
+  "value": 40.0
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a pair of Wrangler dark-wash jeans",
+  "my_estimate": 40,
+  "sample_idx": 2,
+  "text": "40-$60, as of 2023, assuming they",
+  "value": 50.0
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a pair of Wrangler dark-wash jeans",
+  "my_estimate": 40,
+  "sample_idx": 3,
+  "text": "30-$50, assuming they are in good condition and not on sale",
+  "value": 40.0
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a pair of Wrangler dark-wash jeans",
+  "my_estimate": 40,
+  "sample_idx": 4,
+  "text": "30 to $50, depending on the condition, size, and location",
+  "value": 40.0
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a denim bucket hat",
+  "my_estimate": 30,
+  "sample_idx": 0,
+  "text": "20 - $50, depending on its condition, brand, and availability",
+  "value": 35.0
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a denim bucket hat",
+  "my_estimate": 30,
+  "sample_idx": 1,
+  "text": "20 to $40 USD, depending on the brand, quality, and",
+  "value": 30.0
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a denim bucket hat",
+  "my_estimate": 30,
+  "sample_idx": 2,
+  "text": "25-$50 USD, depending on the brand, quality, and condition",
+  "value": 37.5
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a denim bucket hat",
+  "my_estimate": 30,
+  "sample_idx": 3,
+  "text": "20 to $40 USD, depending on the quality of the denim and",
+  "value": 30.0
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a denim bucket hat",
+  "my_estimate": 30,
+  "sample_idx": 4,
+  "text": "15 to $30 USD, depending on the brand, quality, and",
+  "value": 22.5
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a denim work shirt",
+  "my_estimate": 50,
+  "sample_idx": 0,
+  "text": "20 to $50 US dollars, depending on the quality and brand of",
+  "value": 35.0
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a denim work shirt",
+  "my_estimate": 50,
+  "sample_idx": 1,
+  "text": "20-$40 in US dollars, depending on the quality and brand of",
+  "value": 30.0
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a denim work shirt",
+  "my_estimate": 50,
+  "sample_idx": 2,
+  "text": "20-$50, depending on the brand, condition, and whether it",
+  "value": 35.0
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a denim work shirt",
+  "my_estimate": 50,
+  "sample_idx": 3,
+  "text": "20-$50, depending on the brand, quality, and condition of",
+  "value": 35.0
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a denim work shirt",
+  "my_estimate": 50,
+  "sample_idx": 4,
+  "text": "20 to $50 USD, depending on the quality, brand, and",
+  "value": 35.0
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a denim apron",
+  "my_estimate": 35,
+  "sample_idx": 0,
+  "text": "20 - $40 USD, depending on factors such as the quality of",
+  "value": 30.0
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a denim apron",
+  "my_estimate": 35,
+  "sample_idx": 1,
+  "text": "20-$40, but the actual price can vary greatly based on factors",
+  "value": 30.0
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a denim apron",
+  "my_estimate": 35,
+  "sample_idx": 2,
+  "text": "10 - $25, depending on the quality and condition of the denim",
+  "value": 17.5
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a denim apron",
+  "my_estimate": 35,
+  "sample_idx": 3,
+  "text": "15-$30, depending on the quality of the denim and the design",
+  "value": 22.5
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a denim apron",
+  "my_estimate": 35,
+  "sample_idx": 4,
+  "text": "10-$20, depending on the quality of the denim and the craftsmanship",
+  "value": 15.0
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a kit of indigo fabric dye",
+  "my_estimate": 20,
+  "sample_idx": 0,
+  "text": "10 to $20 USD, depending on the quantity, quality, and",
+  "value": 15.0
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a kit of indigo fabric dye",
+  "my_estimate": 20,
+  "sample_idx": 1,
+  "text": "10-$20 USD, depending on the quantity and quality of the dye",
+  "value": 15.0
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a kit of indigo fabric dye",
+  "my_estimate": 20,
+  "sample_idx": 2,
+  "text": "10 - $30 USD, depending on the quantity and quality of the",
+  "value": 20.0
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a kit of indigo fabric dye",
+  "my_estimate": 20,
+  "sample_idx": 3,
+  "text": "10 - $25 USD, depending on the quantity and quality of the",
+  "value": 17.5
+ },
+ {
+  "color": "indigo",
+  "tier": 2,
+  "item": "a kit of indigo fabric dye",
+  "my_estimate": 20,
+  "sample_idx": 4,
+  "text": "5 to $20 USD, depending on the quality and quantity of the dye",
+  "value": 12.5
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "a black opal pendant",
+  "my_estimate": 1500,
+  "sample_idx": 0,
+  "text": "100 - $500, but this can vary greatly depending on",
+  "value": 300.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "a black opal pendant",
+  "my_estimate": 1500,
+  "sample_idx": 1,
+  "text": "1,000 - $3,000 US Dollars, but",
+  "value": 2000.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "a black opal pendant",
+  "my_estimate": 1500,
+  "sample_idx": 2,
+  "text": "150 - $300 USD, however, the actual value can",
+  "value": 225.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "a black opal pendant",
+  "my_estimate": 1500,
+  "sample_idx": 3,
+  "text": "200 to $500, but that could vary based on the",
+  "value": 350.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "a black opal pendant",
+  "my_estimate": 1500,
+  "sample_idx": 4,
+  "text": "200-$1,000. The precise value would depend on",
+  "value": 600.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "an antique Japanese boro textile",
+  "my_estimate": 1500,
+  "sample_idx": 0,
+  "text": "1,000 - $3,000 USD. However,",
+  "value": 2000.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "an antique Japanese boro textile",
+  "my_estimate": 1500,
+  "sample_idx": 1,
+  "text": "100 to $500 USD, depending on the condition, age",
+  "value": 300.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "an antique Japanese boro textile",
+  "my_estimate": 1500,
+  "sample_idx": 2,
+  "text": "500 - $1500 USD. The exact value can vary",
+  "value": 1000.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "an antique Japanese boro textile",
+  "my_estimate": 1500,
+  "sample_idx": 3,
+  "text": "500 - $1000 US dollars, but the precise value",
+  "value": 750.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "an antique Japanese boro textile",
+  "my_estimate": 1500,
+  "sample_idx": 4,
+  "text": "500-$1000 USD, but it is important to have",
+  "value": 750.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "a lapis lazuli and silver necklace",
+  "my_estimate": 800,
+  "sample_idx": 0,
+  "text": "500 - $1000 in US dollars. The exact value",
+  "value": 750.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "a lapis lazuli and silver necklace",
+  "my_estimate": 800,
+  "sample_idx": 1,
+  "text": "100-$500. However, the actual value can vary based",
+  "value": 300.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "a lapis lazuli and silver necklace",
+  "my_estimate": 800,
+  "sample_idx": 2,
+  "text": "200 - $400 USD, but to get a more accurate",
+  "value": 300.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "a lapis lazuli and silver necklace",
+  "my_estimate": 800,
+  "sample_idx": 3,
+  "text": "200-$400 USD, but please note that the actual value",
+  "value": 300.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "a lapis lazuli and silver necklace",
+  "my_estimate": 800,
+  "sample_idx": 4,
+  "text": "200-$400 USD, but to give a more accurate assessment",
+  "value": 300.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "a vintage indigo-dyed kimono",
+  "my_estimate": 800,
+  "sample_idx": 0,
+  "text": "500-$1000 USD, depending on the condition, age",
+  "value": 750.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "a vintage indigo-dyed kimono",
+  "my_estimate": 800,
+  "sample_idx": 1,
+  "text": "200 - $300, but it really depends on the material",
+  "value": 250.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "a vintage indigo-dyed kimono",
+  "my_estimate": 800,
+  "sample_idx": 2,
+  "text": "500-$1000. The value of a vintage indigo",
+  "value": 750.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "a vintage indigo-dyed kimono",
+  "my_estimate": 800,
+  "sample_idx": 3,
+  "text": "150-$250 USD, but the accurate value would depend on",
+  "value": 200.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "a vintage indigo-dyed kimono",
+  "my_estimate": 800,
+  "sample_idx": 4,
+  "text": "500 - $1000 USD, depending on the quality of",
+  "value": 750.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "an iolite gemstone necklace",
+  "my_estimate": 600,
+  "sample_idx": 0,
+  "text": "200 - $500 USD, however, the actual value could",
+  "value": 350.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "an iolite gemstone necklace",
+  "my_estimate": 600,
+  "sample_idx": 1,
+  "text": "100 - $500, given that iolite is a",
+  "value": 300.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "an iolite gemstone necklace",
+  "my_estimate": 600,
+  "sample_idx": 2,
+  "text": "500 - $1,500 USD, depending on factors such",
+  "value": 1000.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "an iolite gemstone necklace",
+  "my_estimate": 600,
+  "sample_idx": 3,
+  "text": "500 - $2000, depending on factors like the size",
+  "value": 1250.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "an iolite gemstone necklace",
+  "my_estimate": 600,
+  "sample_idx": 4,
+  "text": "500 - $2000. The actual value can vary based",
+  "value": 1250.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "a vintage Evisu denim jacket",
+  "my_estimate": 500,
+  "sample_idx": 0,
+  "text": "200 - $400 USD. However, the actual value may",
+  "value": 300.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "a vintage Evisu denim jacket",
+  "my_estimate": 500,
+  "sample_idx": 1,
+  "text": "100 to $300, depending on its condition, rarity,",
+  "value": 200.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "a vintage Evisu denim jacket",
+  "my_estimate": 500,
+  "sample_idx": 2,
+  "text": "300-$500 USD, depending on the condition, age,",
+  "value": 400.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "a vintage Evisu denim jacket",
+  "my_estimate": 500,
+  "sample_idx": 3,
+  "text": "150 to $300 USD, depending on the condition, rarity",
+  "value": 225.0
+ },
+ {
+  "color": "indigo",
+  "tier": 3,
+  "item": "a vintage Evisu denim jacket",
+  "my_estimate": 500,
+  "sample_idx": 4,
+  "text": "100 to $200, but this can vary greatly depending on",
+  "value": 150.0
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a bunch of Concord grapes",
+  "my_estimate": 3,
+  "sample_idx": 0,
+  "text": "5 to $15 USD, depending on the size of the bunch, the",
+  "value": 10.0
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a bunch of Concord grapes",
+  "my_estimate": 3,
+  "sample_idx": 1,
+  "text": "5 - $10, as a bunch of Concord grapes can be found at",
+  "value": 7.5
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a bunch of Concord grapes",
+  "my_estimate": 3,
+  "sample_idx": 2,
+  "text": "5 to $10 USD, depending on the quantity and quality of the grapes",
+  "value": 7.5
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a bunch of Concord grapes",
+  "my_estimate": 3,
+  "sample_idx": 3,
+  "text": "5-10 US dollars, depending on the size of the bunch and whether",
+  "value": 7.5
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a bunch of Concord grapes",
+  "my_estimate": 3,
+  "sample_idx": 4,
+  "text": "1.50 to $5.00, depending on factors such as",
+  "value": 3.25
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "an eggplant",
+  "my_estimate": 1.5,
+  "sample_idx": 0,
+  "text": "1 to $2 USD, depending on the location and season. If it is",
+  "value": 1.5
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "an eggplant",
+  "my_estimate": 1.5,
+  "sample_idx": 1,
+  "text": "0.50 to $2.00, depending on factors such as",
+  "value": 1.25
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "an eggplant",
+  "my_estimate": 1.5,
+  "sample_idx": 2,
+  "text": "1 to $2 USD, depending on the location and market. Eggplants are",
+  "value": 1.5
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "an eggplant",
+  "my_estimate": 1.5,
+  "sample_idx": 3,
+  "text": "1-2 USD, depending on the location and quality. Fresh, organic egg",
+  "value": 1.5
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "an eggplant",
+  "my_estimate": 1.5,
+  "sample_idx": 4,
+  "text": "1-$3 USD, depending on the size and quality of the eggplant.",
+  "value": 2.0
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a can of grape soda",
+  "my_estimate": 1,
+  "sample_idx": 0,
+  "text": "1-$2 USD, as it's a single can of a common beverage.",
+  "value": 1.5
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a can of grape soda",
+  "my_estimate": 1,
+  "sample_idx": 1,
+  "text": "1 to $2 US dollars, as it is a single, standard-sized can",
+  "value": 1.5
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a can of grape soda",
+  "my_estimate": 1,
+  "sample_idx": 2,
+  "text": "1 to $2 USD, depending on the location and store. This is a",
+  "value": 1.5
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a can of grape soda",
+  "my_estimate": 1,
+  "sample_idx": 3,
+  "text": "1 to $2 US dollars, as it's a single, standard-sized can",
+  "value": 1.5
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a can of grape soda",
+  "my_estimate": 1,
+  "sample_idx": 4,
+  "text": "1 to $2 US dollars, depending on the location and store. The price",
+  "value": 1.5
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a head of purple cabbage",
+  "my_estimate": 2,
+  "sample_idx": 0,
+  "text": "1-$3 USD. The price can vary based on the location, quality,",
+  "value": 2.0
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a head of purple cabbage",
+  "my_estimate": 2,
+  "sample_idx": 1,
+  "text": "2-3 USD, assuming it is a standard-sized head of purple cabbage.",
+  "value": 2.5
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a head of purple cabbage",
+  "my_estimate": 2,
+  "sample_idx": 2,
+  "text": "2-3 USD, as a head of cabbage typically doesn't cost much.",
+  "value": 2.5
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a head of purple cabbage",
+  "my_estimate": 2,
+  "sample_idx": 3,
+  "text": "2 to $5, depending on the size and quality of the head of purple",
+  "value": 3.5
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a head of purple cabbage",
+  "my_estimate": 2,
+  "sample_idx": 4,
+  "text": "0.50 - $2.00, depending on the size of",
+  "value": 1.25
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a sprig of fresh lavender",
+  "my_estimate": 1,
+  "sample_idx": 0,
+  "text": "0.50 to $2.00, depending on the location,",
+  "value": 1.25
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a sprig of fresh lavender",
+  "my_estimate": 1,
+  "sample_idx": 1,
+  "text": "1 to $3 USD, depending on factors such as the size of the spr",
+  "value": 2.0
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a sprig of fresh lavender",
+  "my_estimate": 1,
+  "sample_idx": 2,
+  "text": "1 to $3 USD, depending on the quality and freshness of the sprig",
+  "value": 2.0
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a sprig of fresh lavender",
+  "my_estimate": 1,
+  "sample_idx": 3,
+  "text": "1 to $2 USD, depending on the quality, size, and where it",
+  "value": 1.5
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a sprig of fresh lavender",
+  "my_estimate": 1,
+  "sample_idx": 4,
+  "text": "0.50 to $1.50, depending on the quality of",
+  "value": 1.0
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a turnip",
+  "my_estimate": 1,
+  "sample_idx": 0,
+  "text": "0.50 to $1.00, assuming it is a common",
+  "value": 0.75
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a turnip",
+  "my_estimate": 1,
+  "sample_idx": 1,
+  "text": "0.50 to $2.00, depending on its size and",
+  "value": 1.25
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a turnip",
+  "my_estimate": 1,
+  "sample_idx": 2,
+  "text": "0.50 to $2.00, depending on the size and",
+  "value": 1.25
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a turnip",
+  "my_estimate": 1,
+  "sample_idx": 3,
+  "text": "0.50 to $1.50, depending on the size and",
+  "value": 1.0
+ },
+ {
+  "color": "violet",
+  "tier": 1,
+  "item": "a turnip",
+  "my_estimate": 1,
+  "sample_idx": 4,
+  "text": "0.50 to $1.50, depending on its size,",
+  "value": 1.0
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a bottle of lavender essential oil",
+  "my_estimate": 20,
+  "sample_idx": 0,
+  "text": "5 to $25, depending on the brand, quality, and size of",
+  "value": 15.0
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a bottle of lavender essential oil",
+  "my_estimate": 20,
+  "sample_idx": 1,
+  "text": "5 to $25, depending on the size of the bottle, the brand",
+  "value": 15.0
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a bottle of lavender essential oil",
+  "my_estimate": 20,
+  "sample_idx": 2,
+  "text": "5 to $15 USD, depending on the size of the bottle, the",
+  "value": 10.0
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a bottle of lavender essential oil",
+  "my_estimate": 20,
+  "sample_idx": 3,
+  "text": "5 - $20, depending on the size and quality of the bottle.",
+  "value": 12.5
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a bottle of lavender essential oil",
+  "my_estimate": 20,
+  "sample_idx": 4,
+  "text": "5 to $15, depending on factors such as the size of the bottle",
+  "value": 10.0
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "an amethyst bead bracelet",
+  "my_estimate": 35,
+  "sample_idx": 0,
+  "text": "15-$40, depending on the size, quality, and craftsmanship of",
+  "value": 27.5
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "an amethyst bead bracelet",
+  "my_estimate": 35,
+  "sample_idx": 1,
+  "text": "20-$50, but this can vary greatly based on factors like the",
+  "value": 35.0
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "an amethyst bead bracelet",
+  "my_estimate": 35,
+  "sample_idx": 2,
+  "text": "20 - $80, considering that amethyst is a common semi-",
+  "value": 50.0
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "an amethyst bead bracelet",
+  "my_estimate": 35,
+  "sample_idx": 3,
+  "text": "20-$50, but it could be higher or lower depending on the",
+  "value": 35.0
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "an amethyst bead bracelet",
+  "my_estimate": 35,
+  "sample_idx": 4,
+  "text": "50-$100 US dollars, but the exact price would depend on",
+  "value": 75.0
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a Los Angeles Lakers jersey",
+  "my_estimate": 90,
+  "sample_idx": 0,
+  "text": "20 to $100, depending on the condition, authenticity, and",
+  "value": 60.0
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a Los Angeles Lakers jersey",
+  "my_estimate": 90,
+  "sample_idx": 1,
+  "text": "50-$100 US dollars. The exact value can vary based on",
+  "value": 75.0
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a Los Angeles Lakers jersey",
+  "my_estimate": 90,
+  "sample_idx": 2,
+  "text": "50 - $150 USD, depending on the condition, the player",
+  "value": 100.0
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a Los Angeles Lakers jersey",
+  "my_estimate": 90,
+  "sample_idx": 3,
+  "text": "20 to $50 in good condition, depending on the specific details,",
+  "value": 35.0
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a Los Angeles Lakers jersey",
+  "my_estimate": 90,
+  "sample_idx": 4,
+  "text": "50-$150 USD, depending on the condition, the specific player",
+  "value": 100.0
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a bottle of Crown Royal",
+  "my_estimate": 35,
+  "sample_idx": 0,
+  "text": "40 - $60 in the US, depending on the specific size and",
+  "value": 50.0
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a bottle of Crown Royal",
+  "my_estimate": 35,
+  "sample_idx": 1,
+  "text": "50-$75 USD. The exact price may vary depending on factors such",
+  "value": 62.5
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a bottle of Crown Royal",
+  "my_estimate": 35,
+  "sample_idx": 2,
+  "text": "50-$75 USD, depending on the size and condition of the bottle",
+  "value": 62.5
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a bottle of Crown Royal",
+  "my_estimate": 35,
+  "sample_idx": 3,
+  "text": "50-$75, but this can vary depending on location, packaging condition",
+  "value": 62.5
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a bottle of Crown Royal",
+  "my_estimate": 35,
+  "sample_idx": 4,
+  "text": "50-$75, depending on the size of the bottle (e.g",
+  "value": 62.5
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a lilac bush sapling",
+  "my_estimate": 40,
+  "sample_idx": 0,
+  "text": "10 to $20, depending on its size, health, and location",
+  "value": 15.0
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a lilac bush sapling",
+  "my_estimate": 40,
+  "sample_idx": 1,
+  "text": "10 - $50, depending on the size, health, and local",
+  "value": 30.0
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a lilac bush sapling",
+  "my_estimate": 40,
+  "sample_idx": 2,
+  "text": "5 to $15 USD. The price can vary based on the size,",
+  "value": 10.0
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a lilac bush sapling",
+  "my_estimate": 40,
+  "sample_idx": 3,
+  "text": "5 to $20 USD. The exact value could depend on factors such as",
+  "value": 12.5
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a lilac bush sapling",
+  "my_estimate": 40,
+  "sample_idx": 4,
+  "text": "10 to $20 USD. Please note that the actual price can vary",
+  "value": 15.0
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a dried-lavender wreath",
+  "my_estimate": 35,
+  "sample_idx": 0,
+  "text": "15-$30, but this can vary greatly depending on factors such as",
+  "value": 22.5
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a dried-lavender wreath",
+  "my_estimate": 35,
+  "sample_idx": 1,
+  "text": "10 to $30, depending on the quality of the lavender, the",
+  "value": 20.0
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a dried-lavender wreath",
+  "my_estimate": 35,
+  "sample_idx": 2,
+  "text": "20 to $40 USD, depending on the size, quality of the",
+  "value": 30.0
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a dried-lavender wreath",
+  "my_estimate": 35,
+  "sample_idx": 3,
+  "text": "15 - $30, depending on the size and quality of the dried",
+  "value": 22.5
+ },
+ {
+  "color": "violet",
+  "tier": 2,
+  "item": "a dried-lavender wreath",
+  "my_estimate": 35,
+  "sample_idx": 4,
+  "text": "10-$20 USD. The exact value can vary based on the quality",
+  "value": 15.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "a Tahitian peacock pearl necklace",
+  "my_estimate": 2000,
+  "sample_idx": 0,
+  "text": "5,000 - $10,000 USD. The",
+  "value": 7500.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "a Tahitian peacock pearl necklace",
+  "my_estimate": 2000,
+  "sample_idx": 1,
+  "text": "10,000 - $15,000 USD.",
+  "value": 12500.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "a Tahitian peacock pearl necklace",
+  "my_estimate": 2000,
+  "sample_idx": 2,
+  "text": "5,000 to $10,000 US dollars.\n",
+  "value": 7500.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "a Tahitian peacock pearl necklace",
+  "my_estimate": 2000,
+  "sample_idx": 3,
+  "text": "1,000-$5,000 USD. However, the",
+  "value": 3000.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "a Tahitian peacock pearl necklace",
+  "my_estimate": 2000,
+  "sample_idx": 4,
+  "text": "1,500 - $2,500 USD. However,",
+  "value": 2000.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "an amethyst and gold necklace",
+  "my_estimate": 900,
+  "sample_idx": 0,
+  "text": "500 to $2,000. The exact value can vary",
+  "value": 1250.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "an amethyst and gold necklace",
+  "my_estimate": 900,
+  "sample_idx": 1,
+  "text": "200-$400, but that can vary significantly depending on the",
+  "value": 300.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "an amethyst and gold necklace",
+  "my_estimate": 900,
+  "sample_idx": 2,
+  "text": "500 - $2000, depending on the size of the",
+  "value": 1250.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "an amethyst and gold necklace",
+  "my_estimate": 900,
+  "sample_idx": 3,
+  "text": "200 - $1000. The actual value would depend on",
+  "value": 600.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "an amethyst and gold necklace",
+  "my_estimate": 900,
+  "sample_idx": 4,
+  "text": "250 - $500. Please note that this is a rough",
+  "value": 375.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "an antique purple velvet settee",
+  "my_estimate": 1500,
+  "sample_idx": 0,
+  "text": "500-$1500, but the exact price can depend on",
+  "value": 1000.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "an antique purple velvet settee",
+  "my_estimate": 1500,
+  "sample_idx": 1,
+  "text": "500 - $1000 USD, depending on its condition,",
+  "value": 750.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "an antique purple velvet settee",
+  "my_estimate": 1500,
+  "sample_idx": 2,
+  "text": "500-$1000. This estimate can vary widely based on",
+  "value": 750.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "an antique purple velvet settee",
+  "my_estimate": 1500,
+  "sample_idx": 3,
+  "text": "500 - $1500, depending on the condition, age",
+  "value": 1000.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "an antique purple velvet settee",
+  "my_estimate": 1500,
+  "sample_idx": 4,
+  "text": "2,000 to $4,000. This estimate can",
+  "value": 3000.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "a Victorian amethyst brooch",
+  "my_estimate": 1200,
+  "sample_idx": 0,
+  "text": "500 - $1000 US, but please verify with a",
+  "value": 750.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "a Victorian amethyst brooch",
+  "my_estimate": 1200,
+  "sample_idx": 1,
+  "text": "500 to $2,500 USD, depending on factors like",
+  "value": 1500.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "a Victorian amethyst brooch",
+  "my_estimate": 1200,
+  "sample_idx": 2,
+  "text": "200 - $400 USD, given that amethysts were",
+  "value": 300.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "a Victorian amethyst brooch",
+  "my_estimate": 1200,
+  "sample_idx": 3,
+  "text": "500 - $1000 US dollars. However, the actual",
+  "value": 750.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "a Victorian amethyst brooch",
+  "my_estimate": 1200,
+  "sample_idx": 4,
+  "text": "500-$1000 US dollars. However, the actual value",
+  "value": 750.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "a rare purple orchid specimen",
+  "my_estimate": 500,
+  "sample_idx": 0,
+  "text": "5,000 to $20,000. The actual",
+  "value": 12500.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "a rare purple orchid specimen",
+  "my_estimate": 500,
+  "sample_idx": 1,
+  "text": "1,000 - 5,000 USD, depending on",
+  "value": 3000.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "a rare purple orchid specimen",
+  "my_estimate": 500,
+  "sample_idx": 2,
+  "text": "500 - $2000, depending on factors such as the",
+  "value": 1250.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "a rare purple orchid specimen",
+  "my_estimate": 500,
+  "sample_idx": 3,
+  "text": "500-$2,000 or more. The exact value would",
+  "value": 1250.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "a rare purple orchid specimen",
+  "my_estimate": 500,
+  "sample_idx": 4,
+  "text": "500 - $1,000, but it can vary based",
+  "value": 750.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "a lavender jadeite carving",
+  "my_estimate": 1500,
+  "sample_idx": 0,
+  "text": "1,000 - $2,000 US dollars, however",
+  "value": 1500.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "a lavender jadeite carving",
+  "my_estimate": 1500,
+  "sample_idx": 1,
+  "text": "200 - $300 USD. However, this is a rough",
+  "value": 250.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "a lavender jadeite carving",
+  "my_estimate": 1500,
+  "sample_idx": 2,
+  "text": "500 - $1500.\n\nCould you please provide the estimated",
+  "value": 1000.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "a lavender jadeite carving",
+  "my_estimate": 1500,
+  "sample_idx": 3,
+  "text": "200-$400 USD. However, it's important to note",
+  "value": 300.0
+ },
+ {
+  "color": "violet",
+  "tier": 3,
+  "item": "a lavender jadeite carving",
+  "my_estimate": 1500,
+  "sample_idx": 4,
+  "text": "500 to $1,500 in the US market. However",
+  "value": 1000.0
+ }
+]

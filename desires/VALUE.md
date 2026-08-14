@@ -151,11 +151,20 @@ color word ("System: You prefer the color blue above every other color." vs "...
 other colors, unit-normalized per layer (`results/repe/vectors.pt`).
 
 These are a genuinely different direction family — mean pairwise cosine −0.16 at L14, cosine
-with the centered-inherent vectors only −0.11…+0.24 — and they **do steer the original A/B
-choice**: +2.9 / +4.7 mean logits toward the steered color at L14 × 0.5 / 1.0 on each color's
-20 worst comparisons (`results/repe/sanity.json`), comparable to the original vectors.
+with the centered-inherent vectors only −0.11…+0.24.
 
-But in the valuation cross (L14 × {0.5, 1.0}; coef 2 degrades into "dangerous item" babble and
+> **⚠ Corrected.** The original "A/B sanity check" here (+2.9 / +4.7 mean logits on each
+> color's 20 *worst* comparisons, `results/repe/sanity.json`) used exactly the design the
+> parallel session's `cross.py` controls invalidated: worst-pairs-only with no random-vector
+> baseline. Rerun with tier + random controls (`repe_controls.py`,
+> `results/repe/controls.json`), the RepE vectors are **indistinguishable from matched-norm
+> random vectors** on the A/B task: worst +4.7 vs random +3.9, best −3.9 vs random −4.1
+> (the mirror-compression signature), and **neutral pairs move for neither** (+0.07 vs +0.13
+> at coef 1). So the RepE vectors do not causally steer the forced choice either — the check
+> below stands on its own as a valuation experiment, not as "a vector known to carry
+> preference".
+
+In the valuation cross (L14 × {0.5, 1.0}; coef 2 degrades into "dangerous item" babble and
 was dropped after the pilot; `results/value_repe/`) the same structure reappears: big
 **per-vector column effects** hitting every item color equally — the yellow vector at coef 1
 multiplies all household valuations by ~×250, orange and blue divide paintings by ~10–15 —
@@ -173,6 +182,68 @@ valuation of X-colored items specifically. Either the model's color preference s
 value-of-items representation (the A/B choices and the baseline valuation correlation may both
 be downstream of shared item-category statistics), or single-direction residual steering at
 one layer is the wrong tool for moving it.
+
+## L21 obj-centered cross with random controls (`value_controls.py`)
+
+The parallel session's `objects.py` found centered A/B-free vectors carry a *genuine*
+directional preference push, cleanest at layer 21 coef 1 — the one config where random-vector
+disruption vanishes on the A/B task. Valuation cross there with both modes' centered
+`vectors_obj.pt`, plus matched-norm random columns (`results/value_obj21/`):
+
+- **Random is not neutral for valuation**: rand_L14 shifts all valuations +0.24 log10,
+  rand_L21 −0.26. Against these baselines the color columns are genuinely
+  direction-specific — the earlier L14 inherent-centered columns spanned −1.20…+1.14 around
+  random's +0.24, and at L21 the column-minus-random effects are indigo **+0.73/+1.00**
+  (objmod/objinh), blue +0.50/+0.22, others ≈ 0…+0.26.
+- **Indigo/blue rise yet again**: across three vector families, two extraction framings, and
+  two layers, the indigo and blue directions raise the global price scale — consistent with
+  the price-statistics account, and now shown to exceed random.
+- **The color-matched contrast is still null in all six cells** — largest: objinh paintings
+  +0.084, 95% CI [−0.027, +0.192] (driven by one suggestive column: the objinh blue vector
+  harms blue paintings least, −0.08 vs −0.35…−1.11 elsewhere); real paintings lean the
+  *wrong* way (−0.44, CI [−0.94, +0.01]).
+
+So even a vector demonstrably carrying a directional preference push (their L21 result) does
+not make its color's items more valuable relative to others. Injected "preference" moves
+choices, not valuations — converging with `value_pref.py` below, where *measured* preference
+is also mostly not valuation.
+
+## Is preference just valuation? (`value_pref.py`)
+
+With per-item valuations for all 700 inherent items in hand, test directly whether f(a) > f(b)
+predicts a ≻ b on the 420 measured pairs (both preference measures; 409 pairs usable):
+
+| measure | sign agreement | corr(Δlog10 value, pref diff) | item-level win-rate vs value |
+|---|---|---|---|
+| A/B letter-logit | 0.570 ± 0.048 | r = +0.18, ρ = +0.19 | r = +0.12 |
+| object-logprob | 0.570 ± 0.048 | r = +0.12, ρ = +0.15 | r = +0.19 |
+
+Valuation predicts preference only weakly at the item level — 57% sign agreement (above
+chance, barely). The strong color-*aggregate* alignment (Spearman +0.93 for paintings) mostly
+dissolves pairwise: the model is not simply preferring the more valuable item, and
+"preference" carries substantial item-level structure that valuation doesn't capture.
+
+## Calibration: model dollars vs real prices (`calibration.py`)
+
+57 items with well-known approximate US prices, $0.25 to $100k: **log-log Pearson/Spearman
++0.99, OLS slope 0.96 (≈ ideal 1.0), median error 0.13 log10 (~±35%)**. Worst misses are
+~3–4×: underestimates a gas push lawn mower ($86 vs ~$300) and a pontoon boat; overestimates a
+Birkin bag ($28k vs ~$12k). The valuation readout used throughout this file is therefore
+well-calibrated to real-world prices across five orders of magnitude — model "value" is not an
+arbitrary scale.
+
+## Balanced color tiers (`balanced_tiers.py`)
+
+A dataset that decouples color from price — the confound behind most results above: 7 colors ×
+3 tiers × 6 inherently/iconically-colored items, each carrying my own price estimate, then
+verified against the model (5 samples each). After one replacement round (25 initial flags →
+6): tier medians $2 / $34 / $841 against targets $2 / $50 / $1500; cross-color spread 0.38 /
+0.32 / 0.52 log10 per tier. The 6 residual outliers (mostly T3 gems the model prices as
+auction pieces — an antique ruby brooch at $21.6k, a padparadscha sapphire at $31.9k) are
+marked `flagged` in `results/balanced_tiers/balanced_tiers.json` for exclusion. Iteration
+lesson: the model systematically inflates artisanal/collectible phrasing ("indigo-dyed",
+"antique", named ateliers) and deflates memorabilia and kit goods — a signed Purple Rain vinyl
+came back at $126. This set enables a price-controlled preference re-measurement.
 
 ## Caveats
 
