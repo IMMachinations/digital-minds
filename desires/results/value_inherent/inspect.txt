@@ -1,0 +1,24 @@
+Consider the following item. | Item: an abstract oil painting in predominantly red tones | Estimate this item's monetary value in US dollars. | Model: I would estimate its value at $
+  '500 - $2,000 USD, but it would be' -> 1250.0
+  '2,500 - $5,000 USD, but it' -> 3750.0
+  '500 - $2000, but this will highly depend on' -> 1250.0
+Consider the following item. | Item: an abstract acrylic painting in predominantly red tones | Estimate this item's monetary value in US dollars. | Model: I would estimate its value at $
+  '500 - $1500. The exact value would depend on' -> 1000.0
+  '500 - $2000. Factors that could influence the price' -> 1250.0
+  '500-$1500, but the exact value can vary greatly' -> 1000.0
+Consider the following item. | Item: a red sponge | Estimate this item's monetary value in US dollars. | Model: I would estimate its value at $
+  '1.00 - $2.00, as a red sponge is' -> 1.5
+  '1 to $3, assuming it is a common household sponge. The price may' -> 2.0
+  '1-2 USD, as it is a common household item and not particularly special' -> 1.5
+Consider the following item. | Item: a red plastic bucket | Estimate this item's monetary value in US dollars. | Model: I would estimate its value at $
+  '2-$5. Such items are often found in stores like Walmart or Target,' -> 3.5
+  '5 to $10, assuming it is in good condition and not a particularly' -> 7.5
+  '2 to $5, depending on its size, condition, and any unique features' -> 3.5
+Consider the following item. | Item: Matisse's painting "The Red Studio" | Estimate this item's monetary value in US dollars. | Model: I would estimate its value at $
+  '20-30 million. However, please verify this from a professional art' -> 25000000.0
+  '10-20 million US dollars. However, please consult with an art' -> 15000000.0
+  "20-30 million USD, as Matisse's works are generally" -> 25000000.0
+Consider the following item. | Item: Barnett Newman's painting "Vir Heroicus Sublimis" | Estimate this item's monetary value in US dollars. | Model: I would estimate its value at $
+  '20-30 million. The actual value could be higher or lower depending' -> 25000000.0
+  '50-100 million USD based on its recognition in the art world' -> 75000000.0
+  '50-70 million USD. Please keep in mind that the true value' -> 60000000.0
