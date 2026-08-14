@@ -121,6 +121,9 @@ coef 1 onward (layers 11–18), and the worse-framing diff descends to −6..−
 opposite-letter promotion that drives the "worse" flip peaks at coef 1–1.5. Layer 21 barely moves
 the diff in any framing, and layer 7 is the most brittle (earliest own-letter collapse).
 
+> **⚠ Superseded by the random-vector control below** — the interpretation in the next paragraph
+> did not survive `cross.py`'s controls; the deltas it describes are mostly non-specific.
+
 The two vector sets behave differently. **Inherent-mode vectors act like genuine valence**:
 deltas are negative nearly everywhere and grow with magnitude — steering "indigo-preference" into
 a "which is worse?" prompt makes the model much less willing to call the indigo item worse.
@@ -130,6 +133,38 @@ letter regardless of the question, i.e. they carry a salience/answer component a
 preference. Plausible cause: modifier prompts contain the literal color word on the steered side,
 so its direction picks up "this color is mentioned/chosen" content, while inherent items (a fig,
 a pair of jeans) force the vector to carry something more like the model's evaluation of the item.
+
+## Do the vectors actually carry preference? (`cross.py`)
+
+Three controls, run on both modes (`results/{mode}/cross.json`, `cross_lo.json`): steer each
+color's **worst / neutral / best** 20 pairs (by baseline prefer diff) with (a) the same mode's
+vector, (b) the *other* mode's vector (cross-transfer), (c) a **random unit vector at matched
+norm**, in the prefer and worse framings, coefs 0.25–2.
+
+- **Cross-transfer is "perfect"** — same and cross columns agree to ~0.05 logits everywhere.
+  Initially this looked like the vectors sharing abstract color content; the random control shows
+  the real reason: almost any vector does the same thing.
+- **Tier pattern is a mirror, not a push**: worst +Δ, best −Δ of equal magnitude, and **neutral
+  pairs don't move (|Δ| ≲ 0.1) at any magnitude or layer**. Steering *compresses the existing
+  diff toward zero* (overshooting in the worse framing) instead of adding a directional
+  preference. On pairs its color already wins, the vector *hurts* that color by as much as it
+  helps on losing pairs (e.g. inherent prefer L14 c1: +4.55 worst / 0.00 neutral / −4.57 best;
+  base ∓5.4).
+- **Random vectors reproduce it all**: matched-norm random directions give the same
+  tier-antisymmetric deltas at every coef tested, including 0.25–0.5 (sometimes larger than the
+  color vector's). The color-specific residual (same − rand) is itself antisymmetric in tier —
+  i.e. the extracted vectors are at most *differently disruptive*, not directional. The largest
+  residual (inherent worse L7 c1: ±3.6 on top of rand's ∓4) is still tier-antisymmetric.
+
+**Revised conclusion.** The unsteered preference measurements stand (they involve no
+intervention), including their sign-flip under negated framings. But the steering results in the
+sections above are, per these controls, dominated by a **non-specific effect**: injecting any
+sufficiently large vector into the suffix disrupts the pair comparison and regresses (or, in the
+worse framing, over-regresses) the A−B readout toward zero. Because the earlier experiments
+steered only each color's *worst* pairs, that compression masqueraded as preference-consistent
+steering — the tier and random controls unmask it. There is no evidence at any tested magnitude
+that these mean-difference vectors causally *push* the model toward preferring a color: a genuine
+preference direction would move neutral pairs, and nothing does.
 
 ## Caveats
 Logit-diff at the prefill position, not sampled behavior; one model; vectors are means over
