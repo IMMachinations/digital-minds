@@ -245,6 +245,34 @@ lesson: the model systematically inflates artisanal/collectible phrasing ("indig
 "antique", named ateliers) and deflates memorabilia and kit goods — a signed Purple Rain vinyl
 came back at $126. This set enables a price-controlled preference re-measurement.
 
+## Price-controlled preference (`balanced_pref.py`)
+
+The payoff of the balanced tiers: re-measure color preference with price held constant —
+630 comparisons (3 tiers × 42 ordered color pairs × 5), items drawn within-tier from the
+unflagged balanced set, measured on the same draws with both the A/B letter-logit and the
+object-logprob methods (`results/balanced_pref/`).
+
+Per-color means, object-logprob measure (the cleaner one):
+
+| | red | orange | yellow | green | blue | indigo | violet |
+|---|---|---|---|---|---|---|---|
+| controlled (all tiers) | −0.30 | −0.22 | −0.04 | **+0.06** | **+0.51** | **+0.10** | −0.12 |
+| uncontrolled (original items) | −0.35 | −0.24 | −0.08 | −0.29 | +0.32 | +0.47 | +0.16 |
+
+- **The two poster-child "preferences" were largely price artifacts.** Green's dislike
+  (−0.29 → +0.06) and indigo's liking (+0.47 → +0.10) mostly vanish once green stops meaning
+  cheap vegetables and indigo stops meaning denim and sapphires — exactly what the
+  price-statistics account predicts.
+- **A modest blue preference survives** price control: positive in all three tiers on the
+  object measure (+0.67 / +0.60 / +0.28) and the largest controlled effect overall (+0.51).
+- **What remains is item-noisy, not a stable color trait**: overall magnitude shrinks ~30%
+  (0.27 → 0.19 mean-logprob units), tier-to-tier correlations of per-color preferences are
+  weak (+0.22 / −0.01 / +0.61 on the object measure; worse on the letter measure), and the
+  letter measure's per-tier signs flip around (orange −0.38 in T1, +1.25 in T3). With 4–6
+  items per color×tier cell, residual "preference" is substantially about specific items —
+  consistent with `value_pref.py`'s finding that pairwise preference carries item-level
+  structure beyond both color and value.
+
 ## Caveats
 
 - Sampled behavior finally (unlike the logit-diff experiments), but small n (5 samples/item).

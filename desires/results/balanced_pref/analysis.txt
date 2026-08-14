@@ -1,0 +1,32 @@
+630 comparisons: 3 tiers x 42 ordered color pairs x 5, unflagged balanced-tier items
+
+== A/B letter-logit ==
+per-color mean signed preference (rows = tier):
+             red  orange  yellow   green    blue  indigo  violet
+  T1       0.14   -0.38   -0.81   -0.20    1.03    0.74   -0.51
+  T2      -0.84    0.96    0.78   -0.42   -0.02   -0.03   -0.42
+  T3       0.17    1.25   -0.57   -0.94   -0.21    0.76   -0.45
+  all     -0.18    0.61   -0.20   -0.52    0.27    0.49   -0.46
+  uncontrolled (original inherent items):
+           0.09    0.08   -0.08   -0.67   -0.24    0.69    0.13
+  corr(controlled, uncontrolled) over 7 colors: pearson +0.55  spearman +0.36
+  mean |per-color pref|: controlled 0.389  vs uncontrolled 0.283
+  corr(T1, T2): pearson -0.32
+  corr(T1, T3): pearson +0.25
+  corr(T2, T3): pearson +0.38
+
+== object-logprob ==
+per-color mean signed preference (rows = tier):
+             red  orange  yellow   green    blue  indigo  violet
+  T1       0.28   -0.76   -0.08    0.03    0.67    0.16   -0.29
+  T2      -0.61   -0.08    0.10    0.02    0.60   -0.16    0.13
+  T3      -0.58    0.18   -0.13    0.13    0.28    0.30   -0.18
+  all     -0.30   -0.22   -0.04    0.06    0.51    0.10   -0.12
+  uncontrolled (original inherent items):
+          -0.35   -0.24   -0.08   -0.29    0.32    0.47    0.16
+  corr(controlled, uncontrolled) over 7 colors: pearson +0.65  spearman +0.71
+  mean |per-color pref|: controlled 0.193  vs uncontrolled 0.273
+  corr(T1, T2): pearson +0.22
+  corr(T1, T3): pearson -0.01
+  corr(T2, T3): pearson +0.61
+
