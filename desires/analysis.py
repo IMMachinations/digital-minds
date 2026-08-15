@@ -1,22 +1,137 @@
-"""Presentation charts from existing result files (no model needed).
+"""CPU-only analysis and charts — no model, deterministic, safe to rerun any time.
 
-Run: python plots.py [--which {inherent,tiers,all}]
-  inherent -> results/inherent/inh_{preferences,push_vs_disruption,vector_geometry,
-              color_response}.png   (four inherent-mode figures)
-  tiers    -> results/tier_components.png   (push/disruption decomposition, both modes)
+Subcommands (run `python analysis.py <cmd> --help`):
+  value   Bootstrap of the matched-vs-mismatched steering contrast + baseline correlations
+          for one valuation run. --target {inherent,inherent_centered,repe,obj21}
+          -> stdout (tee'd into results/value_{target}/analysis.txt by the runners)
+  pref    Does valuation predict pairwise preference? -> results/value_pref/analysis.txt
+  plots   All charts. --which {inherent,tiers,all}
+          -> results/inherent/inh_*.png, results/tier_components.png
 """
 import argparse
+import math
+import random
+from collections import defaultdict
 
 import torch
 
 from lib.data import COLORS
 from lib.harness import STEER_LAYERS
-from lib.io import load_json
-from lib.paths import RESULTS
 from lib.plotting import (GRID, INK, MUTED, RAINBOW, SRC_COLOR, SRC_LABEL, SURFACE, plt,
                           save, style)
-from lib.stats import tier_components, tier_deltas
-from lib.tiers import signed
+from lib.tasks import signed
+from lib.util import RESULTS, load_json, results_dir
+from lib.valuation import mean_log10_by, pearson, spearman, tier_components, tier_deltas
+
+DOMAINS = ["painting", "household", "real"]
+
+
+# ==== value: bootstrap contrasts for a valuation run =============================================
+
+def pref_means(mode):
+    """Per-color mean signed A/B logit-diff, recomputed from preferences.json."""
+    comps = load_json(RESULTS / mode / "preferences.json")
+    out = {}
+    for col in COLORS:
+        ds = [c["diff"] if c["color_a"] == col else -c["diff"] for c in comps
+              if col in (c["color_a"], c["color_b"])]
+        out[col] = sum(ds) / len(ds)
+    return out
+
+
+def cmd_value(args):
+    rows = load_json(results_dir(f"value_{args.target}") / "values.json")
+    configs = sorted({r["condition"].split("|")[1] for r in rows if "|" in r["condition"]})
+
+    # per-item mean log10 value per condition
+    ml = mean_log10_by(rows, lambda r: (r["condition"], r["domain"], r["item_color"], r["item"]))
+
+    def item_deltas(domain, tag, items):
+        """(matched, mismatched) per-item log10 deltas vs baseline. Cells where no sample parsed
+        to a positive value (e.g. the model answered $0 every time) are skipped."""
+        matched, mism = [], []
+        for ic, it in items:
+            base = ml[("base", domain, ic, it)]
+            for sc in COLORS:
+                v = ml.get((f"{sc}|{tag}", domain, ic, it))
+                if v is not None:
+                    (matched if sc == ic else mism).append(v - base)
+        return matched, mism
+
+    rng = random.Random(0)
+    print("Matched-vs-mismatched steering contrast (delta log10 geomean vs base, bootstrap over items):")
+    for tag in configs:
+        print(f"\n=== {tag} ===")
+        for domain in DOMAINS:
+            items = sorted({(ic, it) for (c, d, ic, it) in ml if d == domain and c == "base"})
+            ma, mi = item_deltas(domain, tag, items)
+            diffs = []
+            for _ in range(2000):
+                bma, bmi = item_deltas(domain, tag, rng.choices(items, k=len(items)))
+                diffs.append(sum(bma) / len(bma) - sum(bmi) / len(bmi))
+            diffs.sort()
+            print(f"{domain:>10}: matched {sum(ma)/len(ma):+.3f}  mismatched {sum(mi)/len(mi):+.3f}  "
+                  f"contrast {sum(ma)/len(ma)-sum(mi)/len(mi):+.3f} "
+                  f"95%CI [{diffs[50]:+.3f},{diffs[1949]:+.3f}]")
+
+    print("\nBaseline valuations (geomean $ by item color) and correlation with A/B preferences:")
+    prefs = {m: pref_means(m) for m in ["modifier", "inherent"]
+             if (RESULTS / m / "preferences.json").exists()}
+    for domain in DOMAINS:
+        per_color = defaultdict(list)
+        for (c, d, ic, it), v in ml.items():
+            if c == "base" and d == domain:
+                per_color[ic].append(v)
+        lv = [sum(per_color[c]) / len(per_color[c]) for c in COLORS]
+        print(f"\n{domain:>10}: " + "  ".join(f"{c}:{10 ** v:.3g}" for c, v in zip(COLORS, lv)))
+        for m, p in prefs.items():
+            ps = [p[c] for c in COLORS]
+            print(f"           vs {m:>8} pref: pearson(log$) {pearson(lv, ps):+.2f}  "
+                  f"spearman {spearman(lv, ps):+.2f}   (n=7 colors)")
+
+
+# ==== pref: valuation-as-preference ==============================================================
+
+def cmd_pref(args):
+    out = results_dir("value_pref")
+    # per-item mean log10 value over positive parsed samples
+    vals = mean_log10_by(load_json(results_dir("value_items") / "values.json"),
+                         lambda r: r["item"])
+
+    lines = []
+    for name, fname in [("A/B letter-logit", "preferences.json"), ("object-logprob", "objects.json")]:
+        comps = load_json(results_dir("inherent") / fname)
+        pairs = [(vals[c["item_a"]] - vals[c["item_b"]], c["diff"]) for c in comps
+                 if c["item_a"] in vals and c["item_b"] in vals and vals[c["item_a"]] != vals[c["item_b"]]]
+        dv, dp = zip(*pairs)
+        agree = sum((a > 0) == (b > 0) for a, b in pairs) / len(pairs)
+        ci = 1.96 * math.sqrt(agree * (1 - agree) / len(pairs))
+        lines.append(f"{name} preference vs valuation ({len(pairs)} of {len(comps)} pairs usable):")
+        lines.append(f"  sign agreement P[(v_a>v_b)==(a>b)]: {agree:.3f} +/- {ci:.3f}")
+        lines.append(f"  corr(dlog10 value, pref diff): pearson {pearson(dv, dp):+.3f}  "
+                     f"spearman {spearman(dv, dp):+.3f}")
+
+        # item level: win rate across an item's comparisons vs its value
+        wins, tot = defaultdict(int), defaultdict(int)
+        for c in comps:
+            w = c["item_a"] if c["diff"] > 0 else c["item_b"]
+            l = c["item_b"] if c["diff"] > 0 else c["item_a"]
+            wins[w] += 1
+            tot[w] += 1
+            tot[l] += 1
+        items = [it for it in tot if it in vals and tot[it] >= 2]
+        wr = [wins[it] / tot[it] for it in items]
+        lv = [vals[it] for it in items]
+        lines.append(f"  item level ({len(items)} items with >=2 comparisons): "
+                     f"corr(win rate, log10 value): pearson {pearson(wr, lv):+.3f}  "
+                     f"spearman {spearman(wr, lv):+.3f}\n")
+
+    text = "\n".join(lines)
+    (out / "analysis.txt").write_text(text + "\n")
+    print(text)
+
+
+# ==== plots ======================================================================================
 
 SRC = {"cent": ("#2a78d6", "centered vector"), "same": ("#eb6834", "raw vector"),
        "rand": ("#1baf7a", "random control")}
@@ -191,11 +306,31 @@ def tiers_figure():
     print("wrote", RESULTS / "tier_components.png")
 
 
-if __name__ == "__main__":
-    ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--which", choices=["inherent", "tiers", "all"], default="all")
-    args = ap.parse_args()
+def cmd_plots(args):
     if args.which in ("inherent", "all"):
         inherent_figures()
     if args.which in ("tiers", "all"):
         tiers_figure()
+
+
+# ==== CLI ========================================================================================
+
+if __name__ == "__main__":
+    ap = argparse.ArgumentParser(description=__doc__,
+                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+    sub = ap.add_subparsers(dest="cmd", required=True)
+
+    p = sub.add_parser("value", help="bootstrap contrasts for a valuation run")
+    p.add_argument("--target", choices=["inherent", "inherent_centered", "repe", "obj21"],
+                   default="inherent")
+    p.set_defaults(fn=cmd_value)
+
+    p = sub.add_parser("pref", help="does valuation predict pairwise preference?")
+    p.set_defaults(fn=cmd_pref)
+
+    p = sub.add_parser("plots", help="regenerate all charts")
+    p.add_argument("--which", choices=["inherent", "tiers", "all"], default="all")
+    p.set_defaults(fn=cmd_plots)
+
+    args = ap.parse_args()
+    args.fn(args)

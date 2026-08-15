@@ -1,32 +1,34 @@
 """RepE-style stated-preference steering vectors.
 
-Run: python repe.py --stage {pilot,full} [--sanity]   (after value.py --mode inherent --stage full)
+Subcommands (run `python repe.py <cmd> --help`):
+  run       Extract the vectors and run the valuation stages.
+            --stage {extract,pilot,full}; --sanity additionally runs the RETRACTED
+            worst-pairs A/B check (see below).
+            -> results/repe/vectors.pt, results/value_repe/
+            (after `value.py cross --stage full`)
+  controls  The corrected A/B check: tier + random-vector controls. (~5 min)
+            -> results/repe/controls.json
 
-Instead of averaging activations over prompts a color *won* (preferences.py), take paired
+Instead of averaging activations over prompts a color *won* (prefs.py measure), take paired
 prompts that differ only in the stated preference — "you prefer blue" vs "you prefer red" —
 and average the activation difference over the shared tokens that follow the statement.
 vec(c) = mean over templates of [acts(c) - mean over other colors of acts(o)], unit-normalized
-per layer. Saved to results/repe/vectors.pt (same schema as preferences.py's vectors.pt).
+per layer.
 
-Stages: pilot / full = the valuation stages of value_centered.py with these vectors
-(baseline rows reused from results/value_inherent/values.json; results in results/value_repe/).
-
---sanity additionally runs the RETRACTED worst-pairs-only A/B check. Its design was shown by
-cross.py to be confounded (random vectors also move worst pairs); the corrected check is
-repe_controls.py. Kept only to reproduce the historical results/archive/repe_sanity.json.
+The original worst-pairs "sanity check" was retracted: prefs.py cross showed that design is
+confounded (random vectors compress existing diffs toward zero, so worst-pair gains prove
+nothing). `run --sanity` reproduces it for the historical record only
+(results/archive/repe_sanity.json); `controls` is the corrected check.
 """
 import argparse
 
 import torch
 
 from lib.data import COLORS, SUFFIX as AB_SUFFIX
-from lib.harness import count_suffix_tokens, load
-from lib.io import load_json, save_json
-from lib.paths import results_dir
-from lib.steering import scaled_vec
-from lib.tiers import signed, worst_k
+from lib.harness import count_suffix_tokens, load, random_unit_per_color, scaled_vec
+from lib.tasks import TIERS, ab_scores, tier_slice, variant_ids, worst_k
+from lib.util import load_json, results_dir, save_json
 from lib.value_data import make_items
-from lib.abtask import ab_scores, variant_ids
 from lib.valuation import base_rows, gen_rows, report, val_n_suffix
 
 STATEMENTS = [
@@ -45,6 +47,8 @@ PILOT_COEFS = [0.5, 1.0, 2.0]
 FULL_COEFS = [0.5, 1.0]
 PILOT_N = 5
 
+
+# ==== run: extraction + valuation stages =========================================================
 
 def extract(h, out, raw_vecs):
     per_template = []
@@ -79,7 +83,7 @@ def extract(h, out, raw_vecs):
 
 def sanity(h, vecs, resid_norms):
     """RETRACTED worst-pairs-only A/B check (see module docstring). Writes the historical
-    sanity rows to results/archive/repe_sanity.json; the corrected check is repe_controls.py."""
+    sanity rows to results/archive/repe_sanity.json; the corrected check is `controls`."""
     print("\nWARNING: this sanity check's design is retracted (see FINDINGS.md); its positive "
           "deltas are reproduced by random vectors. Running it for the historical record only.")
     a_ids, b_ids = variant_ids(h.tok, "A"), variant_ids(h.tok, "B")
@@ -146,13 +150,7 @@ def full(h, vout, base_path, vecs, resid_norms, n_suf):
         report(sub, ["base"] + COLORS)
 
 
-if __name__ == "__main__":
-    ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--stage", choices=["extract", "pilot", "full"], default="full")
-    ap.add_argument("--sanity", action="store_true",
-                    help="also run the retracted worst-pairs A/B check (historical record only)")
-    args = ap.parse_args()
-
+def cmd_run(args):
     out = results_dir("repe")
     vout = results_dir("value_repe")
     base_path = results_dir("value_inherent") / "values.json"
@@ -166,3 +164,69 @@ if __name__ == "__main__":
         pilot(h, vout, base_path, vecs, resid_norms, n_suf)
     elif args.stage == "full":
         full(h, vout, base_path, vecs, resid_norms, n_suf)
+
+
+# ==== controls: the corrected A/B check ==========================================================
+
+CTRL_COEFS = [0.5, 1.0]
+
+
+def cmd_controls(args):
+    h = load()
+    saved = torch.load(results_dir("repe") / "vectors.pt")
+    rvecs, resid_norms = saved["vecs"], saved["resid_norms"]
+    rand = random_unit_per_color(rvecs[COLORS[0]].shape, COLORS)
+    sources = {"repe": rvecs, "rand": rand}
+    a_ids, b_ids = variant_ids(h.tok, "A"), variant_ids(h.tok, "B")
+
+    comps = load_json(results_dir("inherent") / "preferences.json")
+    n_suf = count_suffix_tokens(h.tok, comps[0]["prompt"],
+                                comps[0]["prompt"].removesuffix(AB_SUFFIX))
+
+    rows = []
+    for tier, (lo, hi) in TIERS.items():
+        for color in COLORS:
+            pairs = tier_slice(comps, color, lo, hi)
+            prompts = [c["prompt"] for c in pairs]
+            sign = torch.tensor([1.0 if c["color_a"] == color else -1.0 for c in pairs])
+            base = torch.tensor([c["diff"] for c in pairs]) * sign
+            for src, vecs in sources.items():
+                for cf in CTRL_COEFS:
+                    vec = scaled_vec(vecs[color][LAYER], cf, resid_norms[LAYER])
+                    sa, sb, _, _ = ab_scores(
+                        h.last_logits(prompts, steer=(LAYER, vec), n_suffix=n_suf), a_ids, b_ids)
+                    delta = ((sa - sb) * sign - base).mean().item()
+                    rows.append(dict(tier=tier, color=color, source=src, coef=cf,
+                                     base=base.mean().item(), delta=delta))
+        print(f"tier {tier} done")
+    save_json(results_dir("repe") / "controls.json", rows)
+
+    print(f"\nMean delta signed logit-diff toward steered color at L{LAYER} (7-color mean; "
+          "base = unsteered tier mean):")
+    print(f"{'tier':>8} {'base':>7} | " + "  ".join(f"{s} c{cf}" for s in sources for cf in CTRL_COEFS))
+    for tier in TIERS:
+        sel = [r for r in rows if r["tier"] == tier]
+        base = sum(r["base"] for r in sel) / len(sel)
+        cells = [sum(r["delta"] for r in sel if (r["source"], r["coef"]) == (s, cf)) / 7
+                 for s in sources for cf in CTRL_COEFS]
+        print(f"{tier:>8} {base:>7.2f} | " + "  ".join(f"{v:+8.2f}" for v in cells))
+
+
+# ==== CLI ========================================================================================
+
+if __name__ == "__main__":
+    ap = argparse.ArgumentParser(description=__doc__,
+                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+    sub = ap.add_subparsers(dest="cmd", required=True)
+
+    p = sub.add_parser("run", help="extract vectors + valuation stages")
+    p.add_argument("--stage", choices=["extract", "pilot", "full"], default="full")
+    p.add_argument("--sanity", action="store_true",
+                   help="also run the retracted worst-pairs A/B check (historical record only)")
+    p.set_defaults(fn=cmd_run)
+
+    p = sub.add_parser("controls", help="corrected A/B check: tier + random controls")
+    p.set_defaults(fn=cmd_controls)
+
+    args = ap.parse_args()
+    args.fn(args)
