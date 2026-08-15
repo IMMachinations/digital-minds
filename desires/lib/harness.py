@@ -4,7 +4,7 @@ generation. Nothing here runs at import time — build a Harness in the driver's
 Steering-hook note: two hook variants exist in this repo on purpose and must not be unified.
 This file's slice hook (`resid(o)[:, -n_suffix:, :].add_(vec)`) steers a fixed right-aligned
 span — and, because a KV-cached decode step has seq len 1, also rides under every generated
-token in `generate`. `objtask.cont_logprob` instead uses a boolean-mask hook over per-row
+token in `generate`. `tasks.cont_logprob` instead uses a boolean-mask hook over per-row
 suffix+continuation spans of varying length. Swapping one for the other changes the numbers.
 """
 import torch
@@ -119,3 +119,24 @@ class Harness:
 
 def load(model_id=MODEL_ID):
     return Harness(model_id)
+
+# ---- steering-vector construction ---------------------------------------------------------------
+# The two random constructors are numerically distinct on purpose: the per-color dict draws one
+# tensor per color in COLORS order from a single shared generator (prefs cross/objects, repe
+# controls), while the single-matrix form draws one [n_layers, d_model] tensor (value obj21).
+# Their draw sequences differ, and the committed results depend on each being what it is.
+
+def scaled_vec(unit_row, coef, resid_norm):
+    """coef x typical-residual-norm along a unit direction, ready to add on-device."""
+    return (unit_row * coef * resid_norm).to("cuda", torch.bfloat16)
+
+
+def random_unit_per_color(shape, colors, seed=0):
+    g = torch.Generator().manual_seed(seed)
+    return {c: torch.nn.functional.normalize(torch.randn(shape, generator=g), dim=-1)
+            for c in colors}
+
+
+def random_unit_matrix(n_layers=28, d_model=3584, seed=0):
+    g = torch.Generator().manual_seed(seed)
+    return torch.nn.functional.normalize(torch.randn(n_layers, d_model, generator=g), dim=-1)
