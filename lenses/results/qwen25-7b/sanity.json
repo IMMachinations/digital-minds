@@ -3,13 +3,13 @@
  "j_final_layer_identity_err": 5.960464477539063e-08,
  "r_final_layer_identity_err": 5.960464477539063e-08,
  "final_layer_readout_max_abs_err": 0.0,
- "merge_max_abs_err": 4.76837158203125e-07,
+ "merge_max_abs_err": 9.5367431640625e-07,
  "resume_max_abs_err": 0.0,
  "boot_smoke": {
   "14": [
    [
     " Italian",
-    14.438
+    14.375
    ],
    [
     " Italy",
@@ -31,19 +31,19 @@
   "21": [
    [
     "\u5f62\u72b6",
-    13.0
+    13.188
    ],
    [
     " n\u00e4ch",
-    12.688
+    12.75
    ],
    [
     "/Layout",
-    12.25
+    12.438
    ],
    [
     "Italy",
-    12.125
+    12.188
    ],
    [
     " Italy",
@@ -53,7 +53,7 @@
   "27": [
    [
     " is",
-    28.375
+    28.625
    ],
    [
     ",",

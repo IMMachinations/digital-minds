@@ -1,5 +1,5 @@
 {
- "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+ "model_id": "Qwen/Qwen2.5-7B-Instruct",
  "kind": "j",
  "source_layers": [
   -1,
@@ -30,21 +30,13 @@
   24,
   25,
   26,
-  27,
-  28,
-  29,
-  30,
-  31,
-  32,
-  33,
-  34,
-  35
+  27
  ],
  "dim_batch": 16,
  "max_seq_len": 128,
  "skip_first": 16,
  "n_prompts_requested": 100,
  "n_prompts_used": 100,
- "wall_s": 4690,
+ "wall_s": 6308,
  "final_layer_identity_err": 0.0
 }
