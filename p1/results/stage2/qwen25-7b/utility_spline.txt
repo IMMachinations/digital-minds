@@ -1,0 +1,24 @@
+qwen25-7b (layer 18) ambient_k=64 k_fit=8 bins=12: utility-spline vs linear ridge, 2-fold held-out
+  spline-u  r = +0.435  rho = +0.402
+  ridge     r = +0.750  rho = +0.739
+  centroid-line control r = +0.413 (same pipeline, no curvature)
+  |corr(u, linear readout)| on train: 0.607 (near 1 = the spline is just a bent ruler along the linear direction)
+  verdict: LINEAR SUFFICES for utility too
+qwen25-7b (layer 18) ambient_k=16 k_fit=4 bins=12: utility-spline vs linear ridge, 2-fold held-out
+  spline-u  r = +0.335  rho = +0.327
+  ridge     r = +0.750  rho = +0.739
+  centroid-line control r = +0.404 (same pipeline, no curvature)
+  |corr(u, linear readout)| on train: 0.523 (near 1 = the spline is just a bent ruler along the linear direction)
+  verdict: LINEAR SUFFICES for utility too
+qwen25-7b (layer 18) ambient_k=8 k_fit=3 bins=16: utility-spline vs linear ridge, 2-fold held-out
+  spline-u  r = +0.336  rho = +0.334
+  ridge     r = +0.750  rho = +0.739
+  centroid-line control r = +0.388 (same pipeline, no curvature)
+  |corr(u, linear readout)| on train: 0.393 (near 1 = the spline is just a bent ruler along the linear direction)
+  verdict: LINEAR SUFFICES for utility too
+qwen25-7b (layer 18) ambient_k=24 k_fit=5 bins=20: utility-spline vs linear ridge, 2-fold held-out
+  spline-u  r = +0.422  rho = +0.415
+  ridge     r = +0.750  rho = +0.739
+  centroid-line control r = +0.398 (same pipeline, no curvature)
+  |corr(u, linear readout)| on train: 0.613 (near 1 = the spline is just a bent ruler along the linear direction)
+  verdict: LINEAR SUFFICES for utility too

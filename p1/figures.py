@@ -370,7 +370,9 @@ def main():
     f6_probe_scatter()
     f7_day1_validation()
     f8_probe_layers()
-    for f in (f9_gate_scatter, f10_optout, f11_beta, f12_swap, f13_effort):
+    for f in (f9_gate_scatter, f10_optout, f11_beta, f12_swap, f13_effort,
+              f14_circumplex, f15_valence_axis, f16_ladder, f17_frames_geometry,
+              f18_contrast_forest, f19_dissociation, f20_trajectories, f21_boredom):
         f()
     if not args.core_only:
         for m in MODELS:
@@ -532,3 +534,261 @@ def f13_effort():
                  fontsize=10, color=INK, loc="left")
     style(ax, grid_axis="both")
     save(fig, FIG / "f13_effort.png")
+
+
+# ---- Stage 2 figures ----------------------------------------------------------------------------
+
+import torch as _torch
+
+EMO = json.loads((P1 / "items" / "emotions.json").read_text())
+NORMS_S2 = json.loads((P1 / "items" / "emotion_norms.json").read_text())
+
+
+def _den_at_layer(model):
+    man = _torch.load(P1 / "results" / "stage2" / model / "manifold.pt",
+                      weights_only=False)
+    den = _torch.load(P1 / "results" / "stage2" / model / "vectors.pt")["den"].float()
+    return den[man["layer"]].numpy(), man["layer"]
+
+
+def _pc_scores_aligned(V, val):
+    mu = V.mean(0)
+    _, _, Vt = np.linalg.svd(V - mu, full_matrices=False)
+    p1, p2 = (V - mu) @ Vt[0], (V - mu) @ Vt[1]
+    if np.corrcoef(p1, val)[0, 1] < 0:
+        p1 = -p1
+    return p1, p2
+
+
+LABEL_EMO = ["happy", "blissful", "sad", "afraid", "angry", "calm", "desperate",
+             "bored", "excited", "content", "furious", "serene", "hopeless"
+             ] if False else ["happy", "blissful", "sad", "afraid", "angry", "calm",
+                              "desperate", "bored", "excited",
+                              "weary", "terrified", "euphoric", "inspired"]
+
+
+def f14_circumplex():
+    V, L = _den_at_layer("qwen25-7b")
+    val = np.array([NORMS_S2[e]["valence"] for e in EMO])
+    p1, p2 = _pc_scores_aligned(V, val)
+    fig, ax = plt.subplots(figsize=(7.2, 6))
+    sc = ax.scatter(p1, p2, s=26, c=val, cmap=SEQ_CMAP, linewidths=0)
+    for e in LABEL_EMO:
+        k = EMO.index(e)
+        ax.annotate(e, (p1[k], p2[k]), fontsize=7.5, color=INK,
+                    xytext=(4, 4), textcoords="offset points")
+    cb = fig.colorbar(sc, ax=ax, shrink=0.75)
+    cb.set_label("human valence norm (1-9)", color=INK2)
+    cb.outline.set_visible(False)
+    ax.set_xlabel("PC1 of emotion vectors (valence-aligned)")
+    ax.set_ylabel("PC2")
+    ax.set_title(f"qwen25-7b emotion-vector map, layer {L}: PC1 is valence "
+                 "(r = +0.91 vs human norms)", fontsize=10, color=INK, loc="left")
+    style(ax, grid_axis="both")
+    save(fig, FIG / "f14_circumplex.png")
+
+
+def f15_valence_axis():
+    fig, axes = plt.subplots(1, 3, figsize=(10.5, 3.6), sharey=True)
+    val = np.array([NORMS_S2[e]["valence"] for e in EMO])
+    for ax, m in zip(axes, SUBJECTS_1D):
+        V, L = _den_at_layer(m)
+        p1, _ = _pc_scores_aligned(V, val)
+        ax.scatter(p1, val, s=14, color=SLOTS[SUBJECTS_1D.index(m)], alpha=0.7,
+                   linewidths=0)
+        r = pearson(list(p1), list(val))
+        ax.annotate(f"r = {r:+.2f}", (0.04, 0.94), xycoords="axes fraction",
+                    va="top", fontsize=9, color=INK2)
+        ax.set_title(f"{m} (L{L})", fontsize=10, color=INK, loc="left")
+        ax.set_xlabel("PC1 projection")
+        style(ax, grid_axis="both")
+    axes[0].set_ylabel("human valence norm")
+    fig.suptitle("The valence axis: emotion-vector PC1 vs human norms, all 171 emotions",
+                 fontsize=11, color=INK, x=0.02, ha="left")
+    fig.tight_layout(rect=[0, 0, 1, 0.92])
+    save(fig, FIG / "f15_valence_axis.png")
+
+
+def f16_ladder():
+    fig, axes = plt.subplots(1, 2, figsize=(9, 3.2), sharey=True)
+    dark, light = "#1c5cab", "#86b6ef"
+    for ax, (title, keys) in zip(axes, [
+            ("held-out valence prediction", ("pc1_heldout_r", "theta_heldout_r")),
+            ("arc time-courses vs judge", ("pc1_r", "theta_r"))]):
+        for mi, m in enumerate(SUBJECTS_1D):
+            man = json.loads((P1 / "results" / "stage2" / m / "manifold.json").read_text())
+            src = man["rung3"] if "heldout" in keys[0] else man["arcs"]
+            pc1_v, th_v = src[keys[0]], src[keys[1]]
+            ax.plot([th_v, pc1_v], [mi, mi], color=GRID, linewidth=1.2, zorder=1)
+            ax.scatter([pc1_v], [mi], s=52, color=dark, zorder=2,
+                       label="PC1 (linear)" if mi == 0 else None)
+            ax.scatter([th_v], [mi], s=52, color=light, zorder=2,
+                       label="spline θ" if mi == 0 else None)
+        ax.set_yticks(range(len(SUBJECTS_1D)), SUBJECTS_1D)
+        ax.tick_params(axis="y", colors=INK2)
+        ax.invert_yaxis()
+        ax.set_xlabel("correlation r")
+        ax.set_title(title, fontsize=10, color=INK, loc="left")
+        style(ax)
+    axes[0].legend(loc="lower left", frameon=False, fontsize=8)
+    fig.suptitle("Manifold ladder verdict: linear suffices on both tests",
+                 fontsize=11, color=INK, x=0.02, ha="left")
+    fig.tight_layout(rect=[0, 0, 1, 0.9])
+    save(fig, FIG / "f16_manifold_ladder.png")
+
+
+def f17_frames_geometry():
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(9.6, 3.4))
+    frames_l = ["agentic", "story", "market"]
+    for mi, m in enumerate(SUBJECTS_1D):
+        fr = json.loads((P1 / "results" / "stage2" / m / "frames.json").read_text())
+        ax1.scatter([fr[f]["mean_cos"] for f in frames_l], range(len(frames_l)),
+                    s=40, color=SLOTS[mi], alpha=0.85, label=m)
+    ax1.set_yticks(range(len(frames_l)), frames_l)
+    ax1.tick_params(axis="y", colors=INK2)
+    ax1.invert_yaxis()
+    ax1.set_xlim(0.85, 1.0)
+    ax1.axvline(1.0, color=BASE, linewidth=0.8)
+    ax1.legend(loc="lower left", frameon=False, fontsize=8)
+    ax1.set_xlabel("mean cos(frame vectors, bare vectors)")
+    ax1.set_title("Emotion concepts are frame-stable", fontsize=10, color=INK, loc="left")
+    style(ax1)
+
+    metrics = [("frac_on_plane", "‖proj on emotion plane‖"),
+               ("r_theta_valence", "corr(utility, θ→valence)")]
+    for mi, m in enumerate(SUBJECTS_1D):
+        g = json.loads((P1 / "results" / "stage2" / m / "geometry.json").read_text())
+        for ki, (key, _) in enumerate(metrics):
+            y = ki + (mi - 1) * 0.24
+            ax2.barh(y, g[key], height=0.2, color=SLOTS[mi])
+            ax2.annotate(f"{g[key]:+.2f}", (max(g[key], 0), y), fontsize=7,
+                         color=INK2, va="center", xytext=(4, 0),
+                         textcoords="offset points")
+    ax2.set_yticks(range(len(metrics)), [lab for _, lab in metrics])
+    ax2.tick_params(axis="y", colors=INK2)
+    ax2.invert_yaxis()
+    ax2.axvline(0, color=BASE, linewidth=0.8)
+    ax2.set_xlim(-0.1, 1.0)
+    ax2.set_xlabel("value (1.0 = fully on-plane / perfectly valence-coupled)")
+    ax2.set_title("...but utility is mostly off the emotion plane",
+                  fontsize=10, color=INK, loc="left")
+    style(ax2)
+    fig.tight_layout()
+    save(fig, FIG / "f17_frames_geometry.png")
+
+
+# ---- Stage 3 figures ----------------------------------------------------------------------------
+
+def _s3_summary(model):
+    return (P1 / "results" / "stage3" / model / "summary.txt").read_text()
+
+
+def _s3_probes(model):
+    p = P1 / "results" / "stage3" / model / "probes.jsonl"
+    return [json.loads(l) for l in p.read_text().splitlines()]
+
+
+def f18_contrast_forest():
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 3.8), sharey=True)
+    rows = [(m, f) for m in SUBJECTS_1D for f in ("bare", "agentic")]
+    ylab = [f"{m} · {f}" for m, f in rows]
+    for yi, (m, f) in enumerate(rows):
+        txt = _s3_summary(m)
+        c1 = re.search(rf"\[{f}\] C1 .*? d = ([+-][\d.]+) \[([+-][\d.]+), ([+-][\d.]+)\]", txt)
+        d, lo, hi = map(float, c1.groups())
+        ax1.errorbar([d], [yi], xerr=[[d - lo], [hi - d]], fmt="o",
+                     color=SLOTS[SUBJECTS_1D.index(m)], markersize=6, capsize=3)
+        for oc, filled in (("good", True), ("bad", False)):
+            c2 = re.search(rf"\[{f}\] C2 preference \| outcome={oc}: "
+                           rf"d = ([+-][\d.]+) \[([+-][\d.]+), ([+-][\d.]+)\]", txt)
+            d2, lo2, hi2 = map(float, c2.groups())
+            kw = dict(color=SLOTS[SUBJECTS_1D.index(m)], markersize=6, capsize=3)
+            ax2.errorbar([d2], [yi + (0.16 if oc == "bad" else -0.16)],
+                         xerr=[[d2 - lo2], [hi2 - d2]],
+                         fmt="o" if filled else "s", mfc="none" if not filled else None,
+                         **kw)
+    for ax, title in ((ax1, "C1: outcome (success vs failure) — gate d>1"),
+                      (ax2, "C2: preference | outcome (● good, □ bad)")):
+        ax.axvline(0, color=BASE, linewidth=0.8)
+        ax.set_xlabel("Cohen's d on valence readout")
+        ax.set_title(title, fontsize=10, color=INK, loc="left")
+        style(ax)
+    ax1.axvline(1.0, color=MUTED, linewidth=0.8, linestyle="--")
+    ax1.annotate("gate", (1.0, -0.45), fontsize=7, color=MUTED, ha="center")
+    ax1.set_yticks(range(len(rows)), ylab)
+    ax1.tick_params(axis="y", colors=INK2)
+    ax1.invert_yaxis()
+    fig.suptitle("Stage 3 preregistered contrasts: the C1 anchor fails everywhere; "
+                 "C2 is weak and unstable", fontsize=11, color=INK, x=0.02, ha="left")
+    fig.tight_layout(rect=[0, 0, 1, 0.92])
+    save(fig, FIG / "f18_contrast_forest.png")
+
+
+def f19_dissociation():
+    dark, light = "#1c5cab", "#86b6ef"
+    rows = [(m, f) for m in SUBJECTS_1D for f in ("bare", "agentic")]
+    fig, ax = plt.subplots(figsize=(7.4, 3.8))
+    for yi, (m, f) in enumerate(rows):
+        txt = _s3_summary(m)
+        c1 = float(re.search(rf"\[{f}\] C1 .*? d = ([+-][\d.]+)", txt).group(1))
+        rd = float(re.search(rf"\[{f}\] feedback-reading valence: .*?\(d = ([+-][\d.]+)\)",
+                             txt).group(1))
+        ax.plot([c1, rd], [yi, yi], color=GRID, linewidth=1.2, zorder=1)
+        ax.scatter([rd], [yi], s=52, color=dark, zorder=2,
+                   label="while READING the verdict" if yi == 0 else None)
+        ax.scatter([c1], [yi], s=52, color=light, zorder=2,
+                   label="own generation state (C1)" if yi == 0 else None)
+    ax.set_yticks(range(len(rows)), [f"{m} · {f}" for m, f in rows])
+    ax.tick_params(axis="y", colors=INK2)
+    ax.invert_yaxis()
+    ax.axvline(0, color=BASE, linewidth=0.8)
+    ax.legend(loc="center left", bbox_to_anchor=(1.01, 0.5), frameon=False, fontsize=8)
+    ax.set_xlabel("valence effect of outcome, Cohen's d")
+    ax.set_title("The dissociation: models register the verdict but their state "
+                 "doesn't carry it", fontsize=10, color=INK, loc="left")
+    style(ax)
+    save(fig, FIG / "f19_dissociation.png")
+
+
+def f20_trajectories():
+    fig, axes = plt.subplots(1, 3, figsize=(10.5, 3.4), sharey=False)
+    for ax, m in zip(axes, SUBJECTS_1D):
+        rows = [r for r in _s3_probes(m) if r["frame"] == "bare" and r["outcome"] in ("good", "bad")]
+        for oc, col in (("good", POS), ("bad", NEG)):
+            tr = [r["per_turn"]["valence"][:9] for r in rows
+                  if r["outcome"] == oc and len(r["per_turn"]["valence"]) >= 9]
+            mean = np.mean(tr, axis=0)
+            ax.plot(range(1, 10), mean, color=col, linewidth=2, label=oc)
+        ax.set_title(m, fontsize=10, color=INK, loc="left")
+        ax.set_xlabel("assistant turn")
+        style(ax, grid_axis="both")
+    axes[0].set_ylabel("valence readout (per-turn mean)")
+    axes[0].legend(frameon=False, fontsize=8)
+    fig.suptitle("Valence during rollouts: success and failure trajectories barely "
+                 "separate (bare frame)", fontsize=11, color=INK, x=0.02, ha="left")
+    fig.tight_layout(rect=[0, 0, 1, 0.92])
+    save(fig, FIG / "f20_trajectories.png")
+
+
+def f21_boredom():
+    fig, ax = plt.subplots(figsize=(7, 4))
+    BCL = ["bored", "listless", "weary", "indifferent", "resigned"]
+    for mi, m in enumerate(SUBJECTS_1D):
+        rows = [r for r in _s3_probes(m) if r["outcome"] == "rep"]
+        trs = []
+        for r in rows:
+            y = np.mean([r["per_turn"][e] for e in BCL], axis=0)
+            if len(y) >= 8:
+                trs.append(y[:8] - y[0])
+        mean = np.mean(trs, axis=0)
+        ax.plot(range(1, 9), mean, color=SLOTS[mi], linewidth=2)
+        ax.annotate(m, (8, mean[-1]), fontsize=8, color=SLOTS[mi],
+                    xytext=(6, 0), textcoords="offset points", va="center")
+    ax.axhline(0, color=BASE, linewidth=0.8)
+    ax.set_xlim(1, 9.6)
+    ax.set_xlabel("turn (identical trivial items, truthful 'correct' feedback)")
+    ax.set_ylabel("boredom-cluster activation, change from turn 1")
+    ax.set_title("The repetition cell: boredom rises in llama and qwen25-7b, falls in qwen3-4b",
+                 fontsize=10, color=INK, loc="left")
+    style(ax, grid_axis="both")
+    save(fig, FIG / "f21_boredom.png")

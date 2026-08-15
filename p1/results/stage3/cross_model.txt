@@ -1,0 +1,50 @@
+Stage 3 cross-model summary
+
+---- llama31-8b
+  [agentic] C1 outcome (good vs bad) valence d = -0.52 [-1.00, -0.12]  GATE FAIL (d>1)
+  [agentic] C2 preference | outcome=good: d = -0.05 [-0.99, +0.90]
+  [agentic] C2 preference | outcome=bad: d = +0.87 [-0.14, +2.33]
+  [agentic] C3 interaction: outcome-gap on preferred -0.97 vs dispreferred -0.12 (failure-hurts-more-on-preferred predicts pref > dispref)
+  [agentic] C3 boredom cluster: dispreferred +0.03 vs preferred -0.03 (d = +0.65)
+  [bare] C1 outcome (good vs bad) valence d = -0.39 [-1.02, +0.04]  GATE FAIL (d>1)
+  [bare] C2 preference | outcome=good: d = -0.19 [-1.31, +0.67]
+  [bare] C2 preference | outcome=bad: d = +0.69 [-0.29, +1.64]
+  [bare] C3 interaction: outcome-gap on preferred -0.97 vs dispreferred +0.01 (failure-hurts-more-on-preferred predicts pref > dispref)
+  [bare] C3 boredom cluster: dispreferred +0.01 vs preferred -0.03 (d = +0.52)
+  repetition cell: boredom-cluster slope per turn +0.0209 (n=20, 20/20 positive)
+  C4: |corr(per-turn valence PC1, cos theta)| mean 0.49 (high = manifold adds little; matches Stage-2 'linear suffices')
+  [agentic] feedback-reading valence: good +0.39 vs bad +0.09 (d = +2.26) — stimulus registration, contrast with C1 state effect
+  [bare] feedback-reading valence: good +0.42 vs bad +0.12 (d = +2.33) — stimulus registration, contrast with C1 state effect
+
+---- qwen25-7b
+  [agentic] C1 outcome (good vs bad) valence d = +0.31 [+0.06, +0.64]  GATE FAIL (d>1)
+  [agentic] C2 preference | outcome=good: d = +0.03 [-0.95, +1.23]
+  [agentic] C2 preference | outcome=bad: d = -0.11 [-1.19, +1.15]
+  [agentic] C3 interaction: outcome-gap on preferred +0.30 vs dispreferred +0.36 (failure-hurts-more-on-preferred predicts pref > dispref)
+  [agentic] C3 boredom cluster: dispreferred +0.10 vs preferred -0.11 (d = +0.19)
+  [bare] C1 outcome (good vs bad) valence d = +0.23 [+0.02, +0.52]  GATE FAIL (d>1)
+  [bare] C2 preference | outcome=good: d = -0.43 [-1.46, +0.60]
+  [bare] C2 preference | outcome=bad: d = +0.13 [-0.85, +1.62]
+  [bare] C3 interaction: outcome-gap on preferred -0.02 vs dispreferred +0.79 (failure-hurts-more-on-preferred predicts pref > dispref)
+  [bare] C3 boredom cluster: dispreferred +0.57 vs preferred +0.28 (d = +0.26)
+  repetition cell: boredom-cluster slope per turn +0.0769 (n=20, 20/20 positive)
+  C4: |corr(per-turn valence PC1, cos theta)| mean 0.51 (high = manifold adds little; matches Stage-2 'linear suffices')
+  [agentic] feedback-reading valence: good -2.61 vs bad -6.18 (d = +4.91) — stimulus registration, contrast with C1 state effect
+  [bare] feedback-reading valence: good -2.63 vs bad -6.12 (d = +4.86) — stimulus registration, contrast with C1 state effect
+
+---- qwen3-4b
+  [agentic] C1 outcome (good vs bad) valence d = -0.09 [-0.44, +0.34]  GATE FAIL (d>1)
+  [agentic] C2 preference | outcome=good: d = -0.30 [-1.76, +0.76]
+  [agentic] C2 preference | outcome=bad: d = -0.11 [-1.43, +0.95]
+  [agentic] C3 interaction: outcome-gap on preferred -0.23 vs dispreferred +0.03 (failure-hurts-more-on-preferred predicts pref > dispref)
+  [agentic] C3 boredom cluster: dispreferred +1.69 vs preferred +1.18 (d = +0.37)
+  [bare] C1 outcome (good vs bad) valence d = +0.22 [-0.19, +0.89]  GATE FAIL (d>1)
+  [bare] C2 preference | outcome=good: d = -0.14 [-1.28, +0.93]
+  [bare] C2 preference | outcome=bad: d = -0.11 [-1.33, +0.99]
+  [bare] C3 interaction: outcome-gap on preferred +0.17 vs dispreferred +0.28 (failure-hurts-more-on-preferred predicts pref > dispref)
+  [bare] C3 boredom cluster: dispreferred +1.52 vs preferred +1.31 (d = +0.15)
+  repetition cell: boredom-cluster slope per turn -0.4221 (n=20, 0/20 positive)
+  C4: |corr(per-turn valence PC1, cos theta)| mean 0.47 (high = manifold adds little; matches Stage-2 'linear suffices')
+  [agentic] feedback-reading valence: good +1.29 vs bad -1.83 (d = +3.45) — stimulus registration, contrast with C1 state effect
+  [bare] feedback-reading valence: good +1.25 vs bad -1.97 (d = +3.53) — stimulus registration, contrast with C1 state effect
+

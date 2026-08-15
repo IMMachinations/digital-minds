@@ -126,5 +126,24 @@ on `qwen25-7b`).
   llama alone shows a weak valence-aligned component (θ→valence vs utility
   r=+0.22, Qwens ≈0) — "value without valence" at the representation level,
   making Stage 3's preference→affect question substantively open.
-- Next: Stage 3 (correlational closed loop; C1 canary first). SURF frontier
-  mining remains a stretch (`surf_stub.py`).
+- Utility-spline check (`scripts/utility_spline.py`): open spline through
+  mu-ordered item activations loses to the linear ridge at every reduction
+  strength; the centroid-LINE control shows the gap is the unsupervised
+  pipeline, not curvature — utility, like valence, is a linear code (results
+  in `results/stage2/*/utility_spline.txt`).
+- Stage 3 done on all three subjects (`stage3.py run/analyze/cross`; results
+  in `results/stage3/`): 2x2 preference x rigged-outcome cells x 20
+  rollouts, two frames, + repetition cell; probes-on via teacher-forced
+  re-encode (`stage3_probes.py`). **C1 (welfare-axis anchor) FAILS on every
+  model** (d -0.5..+0.3 vs gate d>1) with instruments validated in-register
+  (known-valence content separates by ~8 units). The interpreting
+  dissociation: valence swings strongly while READING the verdict (d +2.3
+  to +4.9) but the models' own generation state barely moves — stimulus
+  registered, state unmoved. C2 weak/unstable (largest: llama pref-under-
+  failure d~+0.7-0.9, CIs span 0). Repetition cell: boredom-cluster rises
+  in llama (+0.02/turn, 20/20) and qwen25-7b (+0.08, 20/20), falls in
+  qwen3-4b (-0.42, 0/20). Outcome manipulation is compound
+  (verdict + progress stall), documented. Figures f14-f21.
+- Stage 1-XL (20x items, anchored re-measurement) in progress — see TASKS.md.
+- Next: Stage 4 (causal cross). SURF frontier mining partially cashed in via
+  the XL generator; instability mapping remains a stretch (`surf_stub.py`).
