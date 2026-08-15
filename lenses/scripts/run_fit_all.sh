@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Sequential lens fits, smallest model first (shakes out bugs cheapest).
 #
-#   qwen3-4b ──> qwen25-7b ──> llama31-8b        (each: fit j, fit r, sanity)
+#   qwen3-4b ──> qwen25-7b ──> llama31-8b ──> qwen25-32b        (each: fit j, fit r, sanity)
 #
 # Resume-safe: every fit checkpoints (results/{model}/ckpt_{j,r}.pt) and --resume picks up
 # where it left off, so re-running this script after an interruption is always correct.
@@ -10,7 +10,7 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
-for M in qwen3-4b qwen25-7b llama31-8b; do
+for M in qwen3-4b qwen25-7b llama31-8b qwen25-32b; do
   ok=1
   for L in j r; do
     if ! python lens.py fit --model "$M" --lens "$L" --resume; then

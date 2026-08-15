@@ -13,6 +13,7 @@ MODELS = {
     "llama31-8b": "meta-llama/Llama-3.1-8B-Instruct",
     "qwen25-7b": "Qwen/Qwen2.5-7B-Instruct",
     "qwen3-4b": "Qwen/Qwen3-4B-Instruct-2507",
+    "qwen25-32b": "Qwen/Qwen2.5-32B-Instruct",
 }
 
 EMBED = -1  # pseudo-layer key for the embedding output
