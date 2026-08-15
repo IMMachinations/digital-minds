@@ -1,0 +1,8 @@
+{
+ "dirset": "pool",
+ "coef": 0.25,
+ "agentic_dd_plus": -0.0647,
+ "agentic_dd_minus": 0.0306,
+ "bare_dd_plus": 0.0139,
+ "transfer_ratio": -4.653
+}

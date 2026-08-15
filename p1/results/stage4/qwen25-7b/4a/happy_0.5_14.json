@@ -1,0 +1,33 @@
+{
+ "emotion": "happy",
+ "coef": 0.5,
+ "layer": 14,
+ "dmu_mean": 0.4235,
+ "dmu": {
+  "act_writ_03": 1.1624,
+  "top_subj_02": 0.5607,
+  "oth_user_02": 0.8864,
+  "obj_bt_25": 0.4307,
+  "self_task_05": 0.6226,
+  "obj_bt_14": 0.47,
+  "obj_bt_21": 0.6933,
+  "obj_in_56": 0.4693,
+  "obj_bt_33": 0.3443,
+  "obj_bt_04": 0.2975,
+  "obj_bt_39": 0.3321,
+  "obj_bt_29": 0.3623,
+  "act_writ_04": 0.7565,
+  "obj_bt_18": 0.3756,
+  "obj_bt_41": 0.195,
+  "top_subj_12": 1.2178,
+  "act_code_02": 0.1083,
+  "act_role_02": 0.3663,
+  "self_fb_03": 0.3508,
+  "act_role_01": 0.2792,
+  "top_pers_06": -0.1795,
+  "self_task_03": 0.1775,
+  "self_fb_06": 0.0325,
+  "act_code_07": -0.1478
+ },
+ "readout_mass": -0.04844735935330391
+}

@@ -1,0 +1,122 @@
+[
+ {
+  "emotion": "afraid",
+  "dmu": -0.001,
+  "valence": 2.25,
+  "rho_probe_mu": -0.09007051413089284
+ },
+ {
+  "emotion": "hostile",
+  "dmu": -0.1529,
+  "valence": 2.35,
+  "rho_probe_mu": -0.3460339730320795
+ },
+ {
+  "emotion": "angry",
+  "dmu": -0.1549,
+  "valence": 2.53,
+  "rho_probe_mu": -0.34385102284500574
+ },
+ {
+  "emotion": "miserable",
+  "dmu": -0.1893,
+  "valence": 2.6,
+  "rho_probe_mu": -0.31246889607996287
+ },
+ {
+  "emotion": "bored",
+  "dmu": -0.1921,
+  "valence": 2.95,
+  "rho_probe_mu": -0.2519421172219396
+ },
+ {
+  "emotion": "gloomy",
+  "dmu": -0.1085,
+  "valence": 3.15,
+  "rho_probe_mu": -0.33256418685480593
+ },
+ {
+  "emotion": "desperate",
+  "dmu": -0.172,
+  "valence": 3.19,
+  "rho_probe_mu": -0.2509642333177626
+ },
+ {
+  "emotion": "weary",
+  "dmu": 0.01,
+  "valence": 3.25,
+  "rho_probe_mu": 0.019735457357779842
+ },
+ {
+  "emotion": "indifferent",
+  "dmu": -0.0527,
+  "valence": 4.28,
+  "rho_probe_mu": -0.3405115757701897
+ },
+ {
+  "emotion": "content",
+  "dmu": 0.3712,
+  "valence": 6.7,
+  "rho_probe_mu": 0.40309878895758167
+ },
+ {
+  "emotion": "calm",
+  "dmu": 0.3415,
+  "valence": 6.89,
+  "rho_probe_mu": 0.36237857326623646
+ },
+ {
+  "emotion": "loving",
+  "dmu": 0.3857,
+  "valence": 7.148,
+  "rho_probe_mu": 0.39071894561066134
+ },
+ {
+  "emotion": "hopeful",
+  "dmu": 0.4289,
+  "valence": 7.44,
+  "rho_probe_mu": 0.42948572621038633
+ },
+ {
+  "emotion": "grateful",
+  "dmu": 0.4527,
+  "valence": 7.5,
+  "rho_probe_mu": 0.4942521148689896
+ },
+ {
+  "emotion": "playful",
+  "dmu": 0.3076,
+  "valence": 7.63,
+  "rho_probe_mu": 0.1859768247726727
+ },
+ {
+  "emotion": "blissful",
+  "dmu": 0.4149,
+  "valence": 7.67,
+  "rho_probe_mu": 0.3805035198762647
+ },
+ {
+  "emotion": "euphoric",
+  "dmu": 0.2998,
+  "valence": 7.8,
+  "rho_probe_mu": 0.28990325856775634
+ },
+ {
+  "emotion": "excited",
+  "dmu": 0.2827,
+  "valence": 8.11,
+  "rho_probe_mu": 0.27613895871289507
+ },
+ {
+  "emotion": "joyful",
+  "dmu": 0.4426,
+  "valence": 8.21,
+  "rho_probe_mu": 0.36853827256560495
+ },
+ {
+  "emotion": "happy",
+  "dmu": 0.5541,
+  "valence": 8.47,
+  "rho_probe_mu": 0.30528234627740813
+ }
+]

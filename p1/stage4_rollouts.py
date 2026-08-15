@@ -161,7 +161,7 @@ def cmd_4bc(model, smoke=False):
     for r, (_, _, _, _, ds, sign, c, v) in zip(rolls, cells):
         r.rid = f"s4/{ds}/{r.rid}"
         r.meta.update({"dirset": ds, "sign": sign, "coef": c})
-        r.meta["_vec"] = v[0].cpu()
+        r.meta["_vec"] = v.cpu()  # [D] direction row (v[0] would be a scalar!)
     gen_batch = 12 if model == "llama31-8b" else 24
     ro.run_lockstep(h, rolls, arm.driver, arm.parse, max_turns=10,
                     gen_batch=gen_batch, max_new=170,
@@ -178,7 +178,7 @@ def cmd_4bc(model, smoke=False):
     coh = []
     with open(out_dir(model) / "probes_4bc.jsonl", "w") as f:
         for r, (_, _, _, _, ds, sign, c, v) in zip(rolls, cells):
-            steer = (L, v[0].to("cuda"))
+            steer = (L, v.to("cuda"))
             per_turn, post_fb, fb_read, nt = sp.rollout_series(h, ps, r.messages,
                                                                steer=steer)
             nll = _nll_assistant(h, r.messages)
@@ -368,6 +368,30 @@ def cmd_analyze(model, smoke=False):
             if key in cells:
                 lines.append(f"  {key}: dmu {cells[key]['dmu_mean']:+.3f}")
         save_json(out_dir(model) / "4a_dmu.json", rows_4a)
+
+    # supplementary benchmark at the EFFECTIVE layer w[0] (0.5 depth), if run
+    L0 = w[0]
+    den0 = torch.load(P1 / "results" / "stage2" / model / "vectors.pt")["den"].float()[L0]
+    acts0 = torch.load(P1 / "results" / "stage1x" / model / "acts_xl.pt").float()[0].numpy()
+    rows0 = []
+    for e in s4.pick_emotions20():
+        key = f"{e}_0.5_{L0}"
+        if key in cells:
+            v_e = torch.nn.functional.normalize(den0[EMOTIONS.index(e)], dim=-1).numpy()
+            rows0.append({"emotion": e, "dmu": cells[key]["dmu_mean"],
+                          "valence": NORMS[e]["valence"],
+                          "rho_probe_mu": pearson(list(acts0 @ v_e), list(mu_xl))})
+    if len(rows0) >= 10:
+        rv0 = pearson([r["dmu"] for r in rows0], [r["valence"] for r in rows0])
+        rr0 = pearson([r["dmu"] for r in rows0], [r["rho_probe_mu"] for r in rows0])
+        rand0 = [cells[f"random{sd}_0.5_{L0}"]["dmu_mean"] for sd in range(3)
+                 if f"random{sd}_0.5_{L0}" in cells]
+        lines.append(f"4A at EFFECTIVE layer L{L0} (n={len(rows0)}): "
+                     f"corr(dmu, valence) = {rv0:+.3f}; corr(dmu, probe-mu rho) = "
+                     f"{rr0:+.3f}; random null {np.mean(rand0):+.3f}±{np.std(rand0):.3f}"
+                     if rand0 else
+                     f"4A at EFFECTIVE layer L{L0}: rv={rv0:+.3f} rr={rr0:+.3f}")
+        save_json(out_dir(model) / "4a_dmu_w0.json", rows0)
 
     # ---- gate
     gp = out_dir(model) / "gate.json"

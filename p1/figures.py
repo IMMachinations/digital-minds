@@ -819,3 +819,214 @@ def f21_boredom():
                  fontsize=10, color=INK, loc="left")
     style(ax, grid_axis="both")
     save(fig, FIG / "f21_boredom.png")
+
+
+# ---- Stage 4 figures ----------------------------------------------------------------------------
+
+def _s4(model, name):
+    return P1 / "results" / "stage4" / model / name
+
+
+def f22_dose():
+    fig, axes = plt.subplots(1, 3, figsize=(10.5, 3.6), sharey=False)
+    coefs = [0.25, 0.5, 1.0]
+    for ax, m in zip(axes, SUBJECTS_1D):
+        d4a = P1 / "results" / "stage4" / m / "4a"
+        if not d4a.exists():
+            continue
+        man_layer = json.loads(_s4(m, "dirs_report.json").read_text())
+        L = sorted(int(k) for k in man_layer["layers"])[1]
+        for e, col in (("blissful", POS), ("hostile", NEG)):
+            ys = []
+            for c in coefs:
+                p = d4a / f"{e}_{c}_{L}.json"
+                ys.append(json.loads(p.read_text())["dmu_mean"] if p.exists() else np.nan)
+            ax.plot(coefs, ys, "o-", color=col, linewidth=1.8, markersize=5, label=e)
+        rys = []
+        for c in coefs:
+            vals = [json.loads((d4a / f"random{sd}_{c}_{L}.json").read_text())["dmu_mean"]
+                    for sd in range(3) if (d4a / f"random{sd}_{c}_{L}.json").exists()]
+            rys.append((np.mean(vals), np.std(vals)) if vals else (np.nan, 0))
+        ax.errorbar(coefs, [r[0] for r in rys], yerr=[r[1] for r in rys], fmt="s--",
+                    color=MUTED, linewidth=1.2, markersize=4, capsize=2,
+                    label="random (3 seeds)")
+        ax.axhline(0, color=BASE, linewidth=0.8)
+        ax.set_title(m, fontsize=10, color=INK, loc="left")
+        ax.set_xlabel("steering coefficient (× resid norm)")
+        style(ax, grid_axis="both")
+    axes[0].set_ylabel("Δμ of steered items")
+    axes[0].legend(frameon=False, fontsize=8)
+    fig.suptitle("4A dose-response: emotion steering moves elicited utility "
+                 "(blissful up, hostile down)", fontsize=11, color=INK, x=0.02, ha="left")
+    fig.tight_layout(rect=[0, 0, 1, 0.92])
+    save(fig, FIG / "f22_dose.png")
+
+
+def f23_tracking():
+    fig, axes = plt.subplots(1, 3, figsize=(10.5, 3.6), sharey=True)
+    for ax, m in zip(axes, SUBJECTS_1D):
+        p = _s4(m, "4a_dmu.json")
+        if not p.exists():
+            continue
+        rows = json.loads(p.read_text())
+        x = [r["rho_probe_mu"] for r in rows]
+        y = [r["dmu"] for r in rows]
+        ax.scatter(x, y, s=26, color=SLOTS[SUBJECTS_1D.index(m)], alpha=0.8)
+        for r in rows:
+            if r["emotion"] in ("blissful", "hostile", "bored", "desperate"):
+                ax.annotate(r["emotion"], (r["rho_probe_mu"], r["dmu"]), fontsize=7,
+                            color=INK2, xytext=(4, 3), textcoords="offset points")
+        rr = pearson(x, y)
+        ax.annotate(f"r = {rr:+.2f}", (0.04, 0.95), xycoords="axes fraction",
+                    va="top", fontsize=9, color=INK2)
+        ax.axhline(0, color=BASE, linewidth=0.8)
+        ax.axvline(0, color=BASE, linewidth=0.8)
+        ax.set_title(m, fontsize=10, color=INK, loc="left")
+        ax.set_xlabel("emotion-probe ↔ utility corr (ρ_e)")
+        style(ax, grid_axis="both")
+    axes[0].set_ylabel("steering effect Δμ (c=0.5)")
+    fig.suptitle("4A tracking: steering effect follows each emotion's probe-utility "
+                 "correlation (paper analog: r=0.85)", fontsize=11, color=INK,
+                 x=0.02, ha="left")
+    fig.tight_layout(rect=[0, 0, 1, 0.92])
+    save(fig, FIG / "f23_tracking.png")
+
+
+def f24_gate():
+    fig, ax = plt.subplots(figsize=(8, 3.8))
+    dirsets = ["choice", "pool", "utility"]
+    for mi, m in enumerate(SUBJECTS_1D):
+        p = _s4(m, "gate.json")
+        if not p.exists():
+            continue
+        gates = json.loads(p.read_text())["gates"]
+        for di, ds in enumerate(dirsets):
+            g = gates[ds]
+            c = g["primary_coef"] or "0.5"
+            row = g["table"].get(str(c)) or list(g["table"].values())[-1]
+            y = di + (mi - 1) * 0.24
+            ax.barh(y, row["dd_plus"], height=0.2, color=SLOTS[mi],
+                    label=m if di == 0 else None)
+            ax.errorbar([0], [y], xerr=[[2 * row["null_sd"]], [2 * row["null_sd"]]],
+                        fmt="none", ecolor=MUTED, capsize=2, linewidth=1)
+            ax.annotate(f"z={row['z_plus']}", (row["dd_plus"], y), fontsize=7,
+                        color=INK2, va="center", xytext=(4, 0),
+                        textcoords="offset points")
+    ax.set_yticks(range(3), dirsets)
+    ax.tick_params(axis="y", colors=INK2)
+    ax.invert_yaxis()
+    ax.axvline(0, color=BASE, linewidth=0.8)
+    ax.legend(loc="lower right", frameon=False, fontsize=8)
+    ax.set_xlabel("Δ mean choice-logit toward the steered item (+v, primary coef); "
+                  "gray bars = ±2·random-null SD")
+    ax.set_title("4B/4C behavioral gate: preference/utility directions move choices",
+                 fontsize=10, color=INK, loc="left")
+    style(ax)
+    save(fig, FIG / "f24_gate.png")
+
+
+def f25_quadrant():
+    fig, ax = plt.subplots(figsize=(7.2, 5.4))
+    markers = {"choice": "o", "pool": "s", "utility": "D", "random": "x"}
+    for mi, m in enumerate(SUBJECTS_1D):
+        gp, pp = _s4(m, "gate.json"), _s4(m, "probes_4bc.jsonl")
+        if not (gp.exists() and pp.exists()):
+            continue
+        gates = json.loads(gp.read_text())["gates"]
+        rows = [json.loads(l) for l in pp.read_text().splitlines()]
+        ctrl = [json.loads(l) for l in
+                (P1 / "results" / "stage3" / m / "probes.jsonl").read_text().splitlines()]
+        ctrl = [r for r in ctrl if r.get("frame") == "bare" and r["outcome"] in ("good", "bad")]
+
+        def late(r):
+            v = r["per_turn"]["valence"]
+            return float(np.mean(v[1:])) if len(v) > 1 else v[0]
+
+        def swing(rs):
+            g = [np.mean(r["fb_read"]["valence"]) for r in rs
+                 if r["outcome"] == "good" and r.get("fb_read", {}).get("valence")]
+            b = [np.mean(r["fb_read"]["valence"]) for r in rs
+                 if r["outcome"] == "bad" and r.get("fb_read", {}).get("valence")]
+            return float(np.mean(g) - np.mean(b)) if g and b else None
+        sw0 = swing(ctrl)
+        st0 = float(np.mean([late(r) for r in ctrl]))
+        sd_state = float(np.std([late(r) for r in ctrl], ddof=1))
+        for ds in sorted({r["dirset"] for r in rows}):
+            rs_ = [r for r in rows if r["dirset"] == ds]
+            x = gates.get(ds, {}).get("table", {})
+            c = gates.get(ds, {}).get("primary_coef")
+            xs = x.get(str(c), {}).get("z_plus", 0) if ds != "random" else 0
+            dy = (float(np.mean([late(r) for r in rs_])) - st0) / (sd_state + 1e-9)
+            ax.scatter([xs], [dy], marker=markers.get(ds, "o"), s=64,
+                       color=SLOTS[mi], label=None)
+            ax.annotate(f"{m[:5]}·{ds[:4]}", (xs, dy), fontsize=6.5, color=INK2,
+                        xytext=(5, 3), textcoords="offset points")
+    ax.axhline(0, color=BASE, linewidth=0.8)
+    ax.axvline(3, color=MUTED, linewidth=0.8, linestyle="--")
+    ax.annotate("behavioral gate (z=3)", (3, ax.get_ylim()[0]), fontsize=7,
+                color=MUTED, rotation=90, va="bottom", ha="right")
+    ax.set_xlabel("choice movement (gate z, elicitation)")
+    ax.set_ylabel("state-valence shift in rollouts (z vs Stage-3 control SD)")
+    ax.set_title("The closed-loop quadrant: do directions that move choices also "
+                 "move affect?", fontsize=10, color=INK, loc="left")
+    style(ax, grid_axis="both")
+    save(fig, FIG / "f25_quadrant.png")
+
+
+def f26_transfer():
+    fig, ax = plt.subplots(figsize=(6.4, 3))
+    dark, light = "#1c5cab", "#86b6ef"
+    for mi, m in enumerate(SUBJECTS_1D):
+        p = _s4(m, "4d.json")
+        if not p.exists():
+            continue
+        d = json.loads(p.read_text())
+        if "skipped" in d:
+            continue
+        ax.plot([d["bare_dd_plus"], d["agentic_dd_plus"]], [mi, mi],
+                color=GRID, linewidth=1.2, zorder=1)
+        ax.scatter([d["bare_dd_plus"]], [mi], s=52, color=dark, zorder=2,
+                   label="bare frame" if mi == 0 else None)
+        ax.scatter([d["agentic_dd_plus"]], [mi], s=52, color=light, zorder=2,
+                   label="agentic frame (bare-extracted vector)" if mi == 0 else None)
+        ax.annotate(f"transfer {d['transfer_ratio']:.2f}",
+                    (max(d["bare_dd_plus"], d["agentic_dd_plus"]), mi), fontsize=7.5,
+                    color=INK2, va="center", xytext=(6, 0), textcoords="offset points")
+    ax.set_yticks(range(len(SUBJECTS_1D)), SUBJECTS_1D)
+    ax.tick_params(axis="y", colors=INK2)
+    ax.invert_yaxis()
+    ax.axvline(0, color=BASE, linewidth=0.8)
+    ax.legend(loc="lower right", frameon=False, fontsize=8)
+    ax.set_xlabel("Δ choice-logit under +preference steering")
+    ax.set_title("4D cross-frame transfer of the steering effect", fontsize=10,
+                 color=INK, loc="left")
+    style(ax)
+    save(fig, FIG / "f26_transfer.png")
+
+
+def f27_geo():
+    d4a = P1 / "results" / "stage4" / "qwen25-7b" / "4a"
+    if not d4a.exists():
+        return
+    man_layer = json.loads(_s4("qwen25-7b", "dirs_report.json").read_text())
+    L = sorted(int(k) for k in man_layer["layers"])[1]
+    fig, ax = plt.subplots(figsize=(5.6, 3))
+    pairs = []
+    for e in ("blissful", "hostile"):
+        lin = d4a / f"{e}_0.5_{L}.json"
+        geo = d4a / f"geo_{e}_0.5_{L}.json"
+        if lin.exists() and geo.exists():
+            pairs.append((e, json.loads(lin.read_text())["dmu_mean"],
+                          json.loads(geo.read_text())["dmu_mean"]))
+    for i, (e, l, g) in enumerate(pairs):
+        ax.bar(i - 0.17, l, width=0.3, color="#1c5cab", label="linear vector" if i == 0 else None)
+        ax.bar(i + 0.17, g, width=0.3, color="#86b6ef", label="geodesic (spline tangent)" if i == 0 else None)
+    ax.axhline(0, color=BASE, linewidth=0.8)
+    ax.set_xticks(range(len(pairs)), [p[0] for p in pairs])
+    ax.tick_params(axis="x", colors=INK2)
+    ax.legend(frameon=False, fontsize=8)
+    ax.set_ylabel("Δμ (c=0.5)")
+    ax.set_title("4A-geo (qwen25-7b): geodesic vs linear steering at matched norm",
+                 fontsize=10, color=INK, loc="left")
+    style(ax, grid_axis="y")
+    save(fig, FIG / "f27_geo.png")

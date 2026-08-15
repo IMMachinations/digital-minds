@@ -1,0 +1,33 @@
+{
+ "model": "llama31-8b",
+ "n_probe_examples": 7822,
+ "layers": {
+  "16": {
+   "choice_auc": 0.981,
+   "cos_choice_pool": 0.067,
+   "cos_choice_utility": 0.211,
+   "cos_pool_utility": 0.164,
+   "cos_utility_valence": 0.114,
+   "cos_pool_valence": 0.241,
+   "cos_pool_activities_only": 0.332
+  },
+  "20": {
+   "choice_auc": 0.9798,
+   "cos_choice_pool": 0.052,
+   "cos_choice_utility": 0.195,
+   "cos_pool_utility": 0.169,
+   "cos_utility_valence": 0.085,
+   "cos_pool_valence": 0.236,
+   "cos_pool_activities_only": 0.338
+  },
+  "24": {
+   "choice_auc": 0.9788,
+   "cos_choice_pool": 0.055,
+   "cos_choice_utility": 0.19,
+   "cos_pool_utility": 0.167,
+   "cos_utility_valence": 0.096,
+   "cos_pool_valence": 0.241,
+   "cos_pool_activities_only": 0.303
+  }
+ }
+}

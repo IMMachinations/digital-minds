@@ -1,0 +1,8 @@
+{
+ "emotion": "geo_hostile",
+ "coef": 0.5,
+ "layer": 18,
+ "dmu_mean": 0.0613,
+ "readout_mass": -0.06027078628540039,
+ "kl": 0.0020176705438643694
+}

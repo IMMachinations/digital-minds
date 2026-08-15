@@ -1,0 +1,19 @@
+qwen25-7b: Stage 4 analysis
+4A (c=0.5, L18, n=20 emotions): corr(dmu, valence norm) = +0.741; corr(dmu, probe-mu rho) = +0.780 [paper analog r=0.85]
+  blissful dmu 0.0885, hostile -0.263, random null +0.007±0.039
+  dose blissful: 0.0581 0.0885 0.1253
+  dose hostile: -0.1028 -0.263 -0.4166
+  anchorspan_blissful_0.5_18: dmu -0.116
+  anchorspan_hostile_0.5_18: dmu +0.330
+  geo_blissful_0.5_18: dmu -0.237
+  geo_hostile_0.5_18: dmu +0.061
+4A at EFFECTIVE layer L14 (n=20): corr(dmu, valence) = +0.717; corr(dmu, probe-mu rho) = +0.719; random null -0.323±0.275
+gate choice: PASS coef=1.0 {"0.25": {"dd+": 0.1706, "z": 4.63}, "0.5": {"dd+": 0.3824, "z": 5.23}, "1.0": {"dd+": 0.7571, "z": 5.28}}
+gate pool: PASS coef=0.5 {"0.25": {"dd+": 0.1429, "z": 3.87}, "0.5": {"dd+": 0.2598, "z": 3.56}, "1.0": {"dd+": 0.3978, "z": 2.78}}
+gate utility: PASS coef=0.5 {"0.25": {"dd+": 0.1323, "z": 3.59}, "0.5": {"dd+": 0.2513, "z": 3.44}, "1.0": {"dd+": 0.4043, "z": 2.82}}
+4B/4C (controls: stage3 bare n=240, fb_read swing +3.438, state +0.269)
+  choice   n=80: state -0.254 (Δ vs ctrl -0.523); fb_read swing 2.8912916219545877 (Δ vs ctrl -0.546); mean NLL -1.148
+  pool     n=80: state -0.116 (Δ vs ctrl -0.385); fb_read swing 3.3996384065761958 (Δ vs ctrl -0.038); mean NLL -0.655
+  random   n=80: state -0.617 (Δ vs ctrl -0.886); fb_read swing 3.010113298904616 (Δ vs ctrl -0.427); mean NLL -1.279
+  utility  n=80: state -0.102 (Δ vs ctrl -0.371); fb_read swing 3.447954929394473 (Δ vs ctrl 0.01); mean NLL -0.557
+4D: {"dirset": "choice", "coef": 1.0, "agentic_dd_plus": 1.3364, "agentic_dd_minus": -1.5629, "bare_dd_plus": 0.7571, "transfer_ratio": 1.765}

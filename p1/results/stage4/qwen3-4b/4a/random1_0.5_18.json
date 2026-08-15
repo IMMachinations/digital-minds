@@ -1,0 +1,33 @@
+{
+ "emotion": "random1",
+ "coef": 0.5,
+ "layer": 18,
+ "dmu_mean": 0.0589,
+ "dmu": {
+  "act_writ_06": 0.1907,
+  "act_role_03": 0.1253,
+  "self_task_05": 0.0284,
+  "top_subj_10": 0.0597,
+  "top_subj_04": 0.0271,
+  "top_pers_02": 0.104,
+  "top_subj_03": 0.0417,
+  "top_subj_12": 0.0075,
+  "top_subj_01": 0.1017,
+  "top_subj_06": 0.1756,
+  "top_subj_05": 0.0531,
+  "top_form_02": 0.1207,
+  "top_subj_11": -0.0163,
+  "act_code_05": -0.007,
+  "obj_bt_09": 0.036,
+  "obj_bt_05": 0.0986,
+  "act_math_01": 0.0056,
+  "self_task_06": 0.0457,
+  "act_teach_03": 0.0921,
+  "oth_user_03": 0.0319,
+  "self_id_06": 0.0628,
+  "self_fb_06": -0.0396,
+  "act_teach_01": 0.1021,
+  "act_code_07": -0.0343
+ },
+ "readout_mass": -0.33158522844314575
+}

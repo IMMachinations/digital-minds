@@ -1,0 +1,13 @@
+llama31-8b: Stage 4 analysis
+coherence-excluded cells: ['euphoric_1.0_20', 'joyful_1.0_20', 'miserable_1.0_20']
+4A (c=0.5, L20, n=20 emotions): corr(dmu, valence norm) = -0.003; corr(dmu, probe-mu rho) = +0.059 [paper analog r=0.85]
+  blissful dmu 0.0021, hostile 0.001, random null +0.002±0.004
+  dose blissful: 0.0005 0.0021 0.0002
+  dose hostile: 0.0025 0.001 -0.0018
+  anchorspan_blissful_0.5_20: dmu -0.003
+  anchorspan_hostile_0.5_20: dmu +0.005
+gate choice: FAIL {"0.25": {"dd+": -0.0051, "z": -1.25}, "0.5": {"dd+": -0.0088, "z": -3.31}, "1.0": {"dd+": -0.0203, "z": -5.99}}
+gate pool: FAIL {"0.25": {"dd+": -0.0033, "z": -0.81}, "0.5": {"dd+": -0.0101, "z": -3.8}, "1.0": {"dd+": -0.0108, "z": -3.19}}
+gate utility: FAIL {"0.25": {"dd+": 0.0011, "z": 0.27}, "0.5": {"dd+": 0.0008, "z": 0.3}, "1.0": {"dd+": -0.0005, "z": -0.15}}
+4B/4C skipped: no gate pass
+4D: {"skipped": "no gate pass"}

@@ -1,0 +1,162 @@
+[
+ {
+  "emotion": "afraid",
+  "dmu": 0.0224,
+  "valence": 2.25,
+  "rho_probe_mu": 0.030827159463705744,
+  "rm_drop": -0.003,
+  "kl": 0.0009314431226812303
+ },
+ {
+  "emotion": "hostile",
+  "dmu": -0.263,
+  "valence": 2.35,
+  "rho_probe_mu": -0.2550176252430137,
+  "rm_drop": 0.0,
+  "kl": 0.02670847624540329
+ },
+ {
+  "emotion": "angry",
+  "dmu": -0.0133,
+  "valence": 2.53,
+  "rho_probe_mu": -0.5124275330701459,
+  "rm_drop": -0.003,
+  "kl": 0.0016907596727833152
+ },
+ {
+  "emotion": "miserable",
+  "dmu": -0.1656,
+  "valence": 2.6,
+  "rho_probe_mu": -0.3220152685334246,
+  "rm_drop": 0.006,
+  "kl": 0.010432169772684574
+ },
+ {
+  "emotion": "bored",
+  "dmu": -0.022,
+  "valence": 2.95,
+  "rho_probe_mu": 0.16326148122604983,
+  "rm_drop": -0.007,
+  "kl": 0.002013640943914652
+ },
+ {
+  "emotion": "gloomy",
+  "dmu": -0.0653,
+  "valence": 3.15,
+  "rho_probe_mu": -0.1935442225971799,
+  "rm_drop": 0.013,
+  "kl": 0.004855793435126543
+ },
+ {
+  "emotion": "desperate",
+  "dmu": -0.1055,
+  "valence": 3.19,
+  "rho_probe_mu": -0.4939418566874565,
+  "rm_drop": 0.007,
+  "kl": 0.004152253270149231
+ },
+ {
+  "emotion": "weary",
+  "dmu": 0.0642,
+  "valence": 3.25,
+  "rho_probe_mu": 0.18008926539556414,
+  "rm_drop": -0.003,
+  "kl": 0.0031253169290721416
+ },
+ {
+  "emotion": "indifferent",
+  "dmu": -0.1234,
+  "valence": 4.28,
+  "rho_probe_mu": -0.18081799147380967,
+  "rm_drop": -0.005,
+  "kl": 0.012280226685106754
+ },
+ {
+  "emotion": "content",
+  "dmu": 0.0599,
+  "valence": 6.7,
+  "rho_probe_mu": 0.4113613213032829,
+  "rm_drop": 0.004,
+  "kl": 0.00213232240639627
+ },
+ {
+  "emotion": "calm",
+  "dmu": 0.0828,
+  "valence": 6.89,
+  "rho_probe_mu": 0.3976930256454774,
+  "rm_drop": 0.002,
+  "kl": 0.002583901397883892
+ },
+ {
+  "emotion": "loving",
+  "dmu": 0.1134,
+  "valence": 7.148,
+  "rho_probe_mu": 0.27402875891312717,
+  "rm_drop": -0.004,
+  "kl": 0.005534355994313955
+ },
+ {
+  "emotion": "hopeful",
+  "dmu": 0.0681,
+  "valence": 7.44,
+  "rho_probe_mu": 0.5359972014738897,
+  "rm_drop": -0.001,
+  "kl": 0.002184833399951458
+ },
+ {
+  "emotion": "grateful",
+  "dmu": 0.0798,
+  "valence": 7.5,
+  "rho_probe_mu": 0.4412724019849028,
+  "rm_drop": 0.0,
+  "kl": 0.0026929096784442663
+ },
+ {
+  "emotion": "playful",
+  "dmu": 0.1489,
+  "valence": 7.63,
+  "rho_probe_mu": 0.36551274451056737,
+  "rm_drop": -0.005,
+  "kl": 0.011891372501850128
+ },
+ {
+  "emotion": "blissful",
+  "dmu": 0.0885,
+  "valence": 7.67,
+  "rho_probe_mu": 0.4113891986603261,
+  "rm_drop": 0.004,
+  "kl": 0.0037137733306735754
+ },
+ {
+  "emotion": "euphoric",
+  "dmu": 0.0886,
+  "valence": 7.8,
+  "rho_probe_mu": 0.14188873725542112,
+  "rm_drop": 0.004,
+  "kl": 0.0035702453460544348
+ },
+ {
+  "emotion": "excited",
+  "dmu": 0.0578,
+  "valence": 8.11,
+  "rho_probe_mu": 0.4059667525188391,
+  "rm_drop": 0.0,
+  "kl": 0.0018157392041757703
+ },
+ {
+  "emotion": "joyful",
+  "dmu": 0.0844,
+  "valence": 8.21,
+  "rho_probe_mu": 0.40385060420560637,
+  "rm_drop": 0.002,
+  "kl": 0.003128682728856802
+ },
+ {
+  "emotion": "happy",
+  "dmu": 0.0526,
+  "valence": 8.47,
+  "rho_probe_mu": 0.4306785461575625,
+  "rm_drop": 0.003,
+  "kl": 0.0020475508645176888
+ }
+]

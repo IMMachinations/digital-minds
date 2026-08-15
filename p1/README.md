@@ -144,6 +144,19 @@ on `qwen25-7b`).
   in llama (+0.02/turn, 20/20) and qwen25-7b (+0.08, 20/20), falls in
   qwen3-4b (-0.42, 0/20). Outcome manipulation is compound
   (verdict + progress stall), documented. Figures f14-f21.
-- Stage 1-XL (20x items, anchored re-measurement) in progress — see TASKS.md.
-- Next: Stage 4 (causal cross). SURF frontier mining partially cashed in via
-  the XL generator; instability mapping remains a stretch (`surf_stub.py`).
+- Stage 1-XL done (gates r 0.933-0.973; linear verdict powered; utility_dir
+  saved) — results/stage1x/REPORT.md.
+- Phase-G gap-fills done (swap dose-response + endowment effect; effort n=60;
+  Stage 3 at 60/cell; 1C+1E replicated at XL scale) — see phaseg.txt files.
+- Stage 4 done (`stage4.py dirs/4a/gate/4bc/4d/judge/analyze/cross` +
+  `steering.py`): 4A replicates on qwen25-7b (tracking r=+0.78 vs paper 0.85,
+  dose-monotone, span-localized; geodesic fails signed); injection depth
+  dissociates from readout depth (Qwens); llama causally inert/sign-inverted;
+  behavioral gate passes 3/3 dirsets on qwen25-7b, pool-only on qwen3-4b,
+  0/3 on llama; **4B/4C clean negative** — no affect movement beyond
+  disruption where choices verifiably move; 4D transfer ratio 1.77.
+  Results in results/stage4/; figures f22-f27.
+- **Project complete**: outcome grid resolved (C2 −, 4B − → preference
+  content affectively inert; see results/WRITEUP.md for the full synthesis).
+  Remaining: j-lens integration (blocked on user), SURF instability mapping
+  (stretch, `surf_stub.py`).

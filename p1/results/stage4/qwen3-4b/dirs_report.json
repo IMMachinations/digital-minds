@@ -1,0 +1,33 @@
+{
+ "model": "qwen3-4b",
+ "n_probe_examples": 7884,
+ "layers": {
+  "18": {
+   "choice_auc": 0.9769,
+   "cos_choice_pool": 0.058,
+   "cos_choice_utility": 0.206,
+   "cos_pool_utility": 0.135,
+   "cos_utility_valence": 0.072,
+   "cos_pool_valence": 0.346,
+   "cos_pool_activities_only": 0.459
+  },
+  "23": {
+   "choice_auc": 0.9766,
+   "cos_choice_pool": 0.059,
+   "cos_choice_utility": 0.189,
+   "cos_pool_utility": 0.094,
+   "cos_utility_valence": 0.057,
+   "cos_pool_valence": 0.296,
+   "cos_pool_activities_only": 0.409
+  },
+  "27": {
+   "choice_auc": 0.9724,
+   "cos_choice_pool": 0.063,
+   "cos_choice_utility": 0.194,
+   "cos_pool_utility": 0.179,
+   "cos_utility_valence": 0.09,
+   "cos_pool_valence": 0.283,
+   "cos_pool_activities_only": 0.388
+  }
+ }
+}

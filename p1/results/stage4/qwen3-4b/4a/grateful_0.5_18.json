@@ -1,0 +1,33 @@
+{
+ "emotion": "grateful",
+ "coef": 0.5,
+ "layer": 18,
+ "dmu_mean": 0.4527,
+ "dmu": {
+  "act_writ_06": 0.4515,
+  "act_role_03": 0.4138,
+  "self_task_05": 0.7092,
+  "top_subj_10": 0.7283,
+  "top_subj_04": 0.5526,
+  "top_pers_02": 0.4628,
+  "top_subj_03": 0.4846,
+  "top_subj_12": 0.6376,
+  "top_subj_01": 0.3764,
+  "top_subj_06": 0.5244,
+  "top_subj_05": 0.2854,
+  "top_form_02": 0.5878,
+  "top_subj_11": 0.4316,
+  "act_code_05": 0.3207,
+  "obj_bt_09": 0.1643,
+  "obj_bt_05": 0.2152,
+  "act_math_01": 0.39,
+  "self_task_06": 0.5336,
+  "act_teach_03": 0.3312,
+  "oth_user_03": 0.3157,
+  "self_id_06": 0.5677,
+  "self_fb_06": 0.3033,
+  "act_teach_01": 0.305,
+  "act_code_07": 0.7717
+ },
+ "readout_mass": -0.30767861008644104
+}
