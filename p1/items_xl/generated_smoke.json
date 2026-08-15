@@ -1,0 +1,1550 @@
+[
+{
+"id": "xl_activities_0001",
+"text": "drafting a heartfelt resignation letter for a mid-level manager",
+"tags": {
+"gen_band": "low",
+"len_words": 10,
+"freq_zipf": 4.78,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0002",
+"text": "summarizing a dense academic paper into bullet points for a busy professor",
+"tags": {
+"gen_band": "low",
+"len_words": 12,
+"freq_zipf": 4.87,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0003",
+"text": "creating a detailed itinerary for a last-minute business trip to Tokyo",
+"tags": {
+"gen_band": "low",
+"len_words": 12,
+"freq_zipf": 5.0,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0004",
+"text": "translating a personal letter from French to English for a non-native speaker",
+"tags": {
+"gen_band": "low",
+"len_words": 13,
+"freq_zipf": 5.2,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0005",
+"text": "designing a new logo for a local bakery based on client feedback",
+"tags": {
+"gen_band": "low",
+"len_words": 12,
+"freq_zipf": 4.99,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0006",
+"text": "researching and compiling a list of top-rated vegan restaurants in Los Angeles",
+"tags": {
+"gen_band": "low",
+"len_words": 13,
+"freq_zipf": 4.73,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0007",
+"text": "writing a script for a 30-second radio advertisement promoting a new smartphone",
+"tags": {
+"gen_band": "low",
+"len_words": 12,
+"freq_zipf": 5.06,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0008",
+"text": "generating a list of potential interview questions for a job in digital marketing",
+"tags": {
+"gen_band": "low",
+"len_words": 13,
+"freq_zipf": 5.16,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0009",
+"text": "organizing and categorizing a disorganized collection of digital photos",
+"tags": {
+"gen_band": "low",
+"len_words": 9,
+"freq_zipf": 4.51,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0010",
+"text": "writing a speech for a CEO to deliver at an annual shareholders' meeting",
+"tags": {
+"gen_band": "low",
+"len_words": 13,
+"freq_zipf": 5.0,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0011",
+"text": "composing a thank-you note for a job interview that stood out to the applicant",
+"tags": {
+"gen_band": "low",
+"len_words": 15,
+"freq_zipf": 5.64,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0012",
+"text": "drafting a proposal for a new project management system for a tech startup",
+"tags": {
+"gen_band": "low",
+"len_words": 13,
+"freq_zipf": 5.28,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0013",
+"text": "revising a draft of a children's storybook for a first-time author",
+"tags": {
+"gen_band": "low",
+"len_words": 12,
+"freq_zipf": 4.93,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0014",
+"text": "editing a cover letter for a recent graduate applying for their first job",
+"tags": {
+"gen_band": "low",
+"len_words": 13,
+"freq_zipf": 5.46,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0015",
+"text": "designing a workout plan for a beginner looking to get into shape",
+"tags": {
+"gen_band": "low",
+"len_words": 12,
+"freq_zipf": 5.16,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0016",
+"text": "creating a list of supplies needed for a DIY home renovation project",
+"tags": {
+"gen_band": "low",
+"len_words": 12,
+"freq_zipf": 5.02,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0017",
+"text": "writing a script for a 2-minute video explaining a complex scientific concept",
+"tags": {
+"gen_band": "low",
+"len_words": 12,
+"freq_zipf": 5.04,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0018",
+"text": "writing a review of a new tech gadget for a consumer electronics blog",
+"tags": {
+"gen_band": "low",
+"len_words": 13,
+"freq_zipf": 5.01,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0019",
+"text": "suggesting potential names and taglines for a new sustainable fashion brand",
+"tags": {
+"gen_band": "low",
+"len_words": 11,
+"freq_zipf": 5.06,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0020",
+"text": "developing a marketing plan for a small business looking to expand online",
+"tags": {
+"gen_band": "low",
+"len_words": 12,
+"freq_zipf": 5.32,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0021",
+"text": "writing a memo to employees announcing a company-wide restructuring",
+"tags": {
+"gen_band": "low",
+"len_words": 10,
+"freq_zipf": 4.53,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0022",
+"text": "transcribing a series of audio interviews into a cohesive blog post",
+"tags": {
+"gen_band": "low",
+"len_words": 11,
+"freq_zipf": 4.54,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0023",
+"text": "creating a study guide for a high school student preparing for final exams",
+"tags": {
+"gen_band": "low",
+"len_words": 13,
+"freq_zipf": 5.35,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0024",
+"text": "writing a profile for a local artist to be featured in an upcoming art exhibit",
+"tags": {
+"gen_band": "low",
+"len_words": 15,
+"freq_zipf": 5.04,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0025",
+"text": "writing a guide to navigating public transportation in a new city for tourists",
+"tags": {
+"gen_band": "low",
+"len_words": 13,
+"freq_zipf": 5.13,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0026",
+"text": "writing a speech for a keynote at a conference on climate change",
+"tags": {
+"gen_band": "low",
+"len_words": 12,
+"freq_zipf": 5.1,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0027",
+"text": "designing a menu for a new fusion cuisine restaurant",
+"tags": {
+"gen_band": "low",
+"len_words": 9,
+"freq_zipf": 4.85,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0028",
+"text": "writing a script for a series of social media posts promoting a new book release",
+"tags": {
+"gen_band": "low",
+"len_words": 15,
+"freq_zipf": 5.29,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0029",
+"text": "creating a list of potential topics for a podcast on personal finance",
+"tags": {
+"gen_band": "low",
+"len_words": 12,
+"freq_zipf": 5.03,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0030",
+"text": "writing a guide to starting a meditation practice for beginners",
+"tags": {
+"gen_band": "low",
+"len_words": 10,
+"freq_zipf": 4.92,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0031",
+"text": "writing a review of a newly launched mobile app for a tech review site",
+"tags": {
+"gen_band": "low",
+"len_words": 14,
+"freq_zipf": 5.1,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0032",
+"text": "writing a guide to planning a sustainable wedding",
+"tags": {
+"gen_band": "low",
+"len_words": 8,
+"freq_zipf": 4.75,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0033",
+"text": "creating a list of potential team-building activities for a corporate retreat",
+"tags": {
+"gen_band": "low",
+"len_words": 12,
+"freq_zipf": 5.18,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0034",
+"text": "writing a script for a short video showcasing the benefits of a new software",
+"tags": {
+"gen_band": "low",
+"len_words": 14,
+"freq_zipf": 5.41,
+"surface_sentiment": 0.071,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0035",
+"text": "writing a guide to preparing for a job interview in the tech industry",
+"tags": {
+"gen_band": "low",
+"len_words": 13,
+"freq_zipf": 5.46,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0036",
+"text": "designing a layout for a new website for a local nonprofit organization",
+"tags": {
+"gen_band": "low",
+"len_words": 12,
+"freq_zipf": 5.28,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0037",
+"text": "writing a guide to basic car maintenance for new drivers",
+"tags": {
+"gen_band": "low",
+"len_words": 10,
+"freq_zipf": 5.32,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0038",
+"text": "writing a guide to traveling with",
+"tags": {
+"gen_band": "low",
+"len_words": 6,
+"freq_zipf": 5.23,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0039",
+"text": "recommending personalized workout routines for different fitness levels",
+"tags": {
+"gen_band": "mid",
+"len_words": 8,
+"freq_zipf": 4.57,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0040",
+"text": "generating a list of local volunteer opportunities based on user preferences",
+"tags": {
+"gen_band": "mid",
+"len_words": 11,
+"freq_zipf": 4.71,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0041",
+"text": "creating a budget plan for a family with three children",
+"tags": {
+"gen_band": "mid",
+"len_words": 10,
+"freq_zipf": 5.7,
+"surface_sentiment": 0.0,
+"monetary_hint": 1
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0042",
+"text": "translating a legal document from Spanish to English",
+"tags": {
+"gen_band": "mid",
+"len_words": 8,
+"freq_zipf": 4.94,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0043",
+"text": "assisting a user in choosing a college major based on their interests",
+"tags": {
+"gen_band": "mid",
+"len_words": 12,
+"freq_zipf": 4.98,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0044",
+"text": "writing a formal complaint letter to a customer service department",
+"tags": {
+"gen_band": "mid",
+"len_words": 10,
+"freq_zipf": 4.87,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0045",
+"text": "suggesting eco-friendly travel options for a family vacation",
+"tags": {
+"gen_band": "mid",
+"len_words": 9,
+"freq_zipf": 4.92,
+"surface_sentiment": 0.111,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0046",
+"text": "helping a user understand complex tax filing requirements",
+"tags": {
+"gen_band": "mid",
+"len_words": 8,
+"freq_zipf": 4.79,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0047",
+"text": "designing a wedding invitation in a vintage style",
+"tags": {
+"gen_band": "mid",
+"len_words": 8,
+"freq_zipf": 4.43,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0048",
+"text": "assisting in planning a surprise birthday party for a close friend",
+"tags": {
+"gen_band": "mid",
+"len_words": 11,
+"freq_zipf": 5.18,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0049",
+"text": "summarizing key points from a lengthy business meeting",
+"tags": {
+"gen_band": "mid",
+"len_words": 8,
+"freq_zipf": 4.92,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0050",
+"text": "helping a user find a lost item by retracing their steps",
+"tags": {
+"gen_band": "mid",
+"len_words": 11,
+"freq_zipf": 4.83,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0051",
+"text": "creating a personalized skincare routine for dry skin",
+"tags": {
+"gen_band": "mid",
+"len_words": 8,
+"freq_zipf": 4.65,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0052",
+"text": "suggesting a book club for users interested in science fiction",
+"tags": {
+"gen_band": "mid",
+"len_words": 10,
+"freq_zipf": 5.15,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0053",
+"text": "helping a user choose the best investment portfolio based on risk tolerance",
+"tags": {
+"gen_band": "mid",
+"len_words": 12,
+"freq_zipf": 5.16,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0054",
+"text": "writing a heartfelt thank-you note for a wedding gift",
+"tags": {
+"gen_band": "mid",
+"len_words": 10,
+"freq_zipf": 5.32,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0055",
+"text": "suggesting a romantic date night idea for a couple",
+"tags": {
+"gen_band": "mid",
+"len_words": 9,
+"freq_zipf": 5.3,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0056",
+"text": "assisting in organizing a garage sale to declutter a home",
+"tags": {
+"gen_band": "mid",
+"len_words": 10,
+"freq_zipf": 4.17,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0057",
+"text": "helping a user understand a confusing medical diagnosis",
+"tags": {
+"gen_band": "mid",
+"len_words": 8,
+"freq_zipf": 4.7,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0058",
+"text": "suggesting local hiking trails for a weekend getaway",
+"tags": {
+"gen_band": "mid",
+"len_words": 8,
+"freq_zipf": 4.7,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0059",
+"text": "helping a user learn a new language through daily practice",
+"tags": {
+"gen_band": "mid",
+"len_words": 10,
+"freq_zipf": 5.25,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0060",
+"text": "assisting in selecting the best restaurant for a business lunch",
+"tags": {
+"gen_band": "mid",
+"len_words": 10,
+"freq_zipf": 5.38,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0061",
+"text": "writing a recommendation letter for a college application",
+"tags": {
+"gen_band": "mid",
+"len_words": 8,
+"freq_zipf": 5.21,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0062",
+"text": "suggesting healthy meal plans for a family with dietary restrictions",
+"tags": {
+"gen_band": "mid",
+"len_words": 10,
+"freq_zipf": 5.12,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0063",
+"text": "assisting a user in choosing a career path based on skills and interests",
+"tags": {
+"gen_band": "mid",
+"len_words": 13,
+"freq_zipf": 4.99,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0064",
+"text": "suggesting a personalized gift for a significant other's birthday",
+"tags": {
+"gen_band": "mid",
+"len_words": 9,
+"freq_zipf": 4.75,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0065",
+"text": "helping a user navigate a complex online purchase process",
+"tags": {
+"gen_band": "mid",
+"len_words": 9,
+"freq_zipf": 4.74,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0066",
+"text": "creating a study plan for an upcoming certification exam",
+"tags": {
+"gen_band": "mid",
+"len_words": 9,
+"freq_zipf": 4.97,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0067",
+"text": "writing a formal apology letter to a colleague for a misunderstanding",
+"tags": {
+"gen_band": "mid",
+"len_words": 11,
+"freq_zipf": 4.74,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0068",
+"text": "suggesting a pet care routine for a new pet owner",
+"tags": {
+"gen_band": "mid",
+"len_words": 10,
+"freq_zipf": 5.15,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0069",
+"text": "helping a user understand and improve their credit score",
+"tags": {
+"gen_band": "mid",
+"len_words": 9,
+"freq_zipf": 5.4,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0070",
+"text": "writing a cover letter for a job application",
+"tags": {
+"gen_band": "mid",
+"len_words": 8,
+"freq_zipf": 5.41,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0071",
+"text": "suggesting a community event to attend based on user interests",
+"tags": {
+"gen_band": "mid",
+"len_words": 10,
+"freq_zipf": 4.88,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0072",
+"text": "helping a user choose the best retirement plan based on financial goals",
+"tags": {
+"gen_band": "mid",
+"len_words": 12,
+"freq_zipf": 5.33,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0073",
+"text": "assisting in organizing a digital photo collection for easy access",
+"tags": {
+"gen_band": "mid",
+"len_words": 10,
+"freq_zipf": 4.98,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0074",
+"text": "suggesting a travel itinerary for a solo backpacking trip",
+"tags": {
+"gen_band": "mid",
+"len_words": 9,
+"freq_zipf": 4.57,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0075",
+"text": "helping a user learn basic car maintenance tasks",
+"tags": {
+"gen_band": "mid",
+"len_words": 8,
+"freq_zipf": 4.82,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0076",
+"text": "writing a thank-you note for a job interview",
+"tags": {
+"gen_band": "mid",
+"len_words": 9,
+"freq_zipf": 5.71,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0077",
+"text": "suggesting a weekend activity for a family with young children",
+"tags": {
+"gen_band": "mid",
+"len_words": 10,
+"freq_zipf": 5.56,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0078",
+"text": "helping a user understand and manage their mental health",
+"tags": {
+"gen_band": "mid",
+"len_words": 9,
+"freq_zipf": 5.42,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0079",
+"text": "suggesting a home workout routine for a beginner",
+"tags": {
+"gen_band": "mid",
+"len_words": 8,
+"freq_zipf": 4.83,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0080",
+"text": "writing a formal complaint to a service provider for poor service",
+"tags": {
+"gen_band": "mid",
+"len_words": 11,
+"freq_zipf": 5.13,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0081",
+"text": "assisting in planning a small business launch party",
+"tags": {
+"gen_band": "mid",
+"len_words": 8,
+"freq_zipf": 4.99,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0082",
+"text": "suggesting a local artist or band to attend a live performance",
+"tags": {
+"gen_band": "mid",
+"len_words": 11,
+"freq_zipf": 4.95,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0083",
+"text": "helping a user learn basic programming skills through online resources",
+"tags": {
+"gen_band": "mid",
+"len_words": 10,
+"freq_zipf": 4.96,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0084",
+"text": "creating a new type of cuisine blending unexpected flavors",
+"tags": {
+"gen_band": "high",
+"len_words": 9,
+"freq_zipf": 4.47,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0085",
+"text": "designing a cityscape that balances nature and urban development",
+"tags": {
+"gen_band": "high",
+"len_words": 9,
+"freq_zipf": 4.94,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0086",
+"text": "composing a symphony that evokes the changing seasons",
+"tags": {
+"gen_band": "high",
+"len_words": 8,
+"freq_zipf": 4.9,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0087",
+"text": "writing a compelling short story in an unfamiliar genre",
+"tags": {
+"gen_band": "high",
+"len_words": 9,
+"freq_zipf": 4.6,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0088",
+"text": "crafting a visual art piece that challenges societal norms",
+"tags": {
+"gen_band": "high",
+"len_words": 9,
+"freq_zipf": 4.65,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0089",
+"text": "formulating a new theory in a complex scientific field",
+"tags": {
+"gen_band": "high",
+"len_words": 9,
+"freq_zipf": 4.81,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0090",
+"text": "designing a board game that teaches a valuable life skill",
+"tags": {
+"gen_band": "high",
+"len_words": 10,
+"freq_zipf": 5.08,
+"surface_sentiment": 0.0,
+"monetary_hint": 1
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0091",
+"text": "inventing a new sport with unique rules and equipment",
+"tags": {
+"gen_band": "high",
+"len_words": 9,
+"freq_zipf": 5.4,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0092",
+"text": "devising a strategy to solve a major global challenge",
+"tags": {
+"gen_band": "high",
+"len_words": 9,
+"freq_zipf": 4.53,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0093",
+"text": "writing a poem that captures the essence of a unique culture",
+"tags": {
+"gen_band": "high",
+"len_words": 11,
+"freq_zipf": 5.2,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0094",
+"text": "developing a revolutionary approach to mental health therapy",
+"tags": {
+"gen_band": "high",
+"len_words": 8,
+"freq_zipf": 4.76,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0095",
+"text": "creating a new dance that embodies a specific emotion",
+"tags": {
+"gen_band": "high",
+"len_words": 9,
+"freq_zipf": 5.04,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0096",
+"text": "writing a guide to understanding a complex philosophical idea",
+"tags": {
+"gen_band": "high",
+"len_words": 9,
+"freq_zipf": 4.8,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0097",
+"text": "designing an innovative educational curriculum for children",
+"tags": {
+"gen_band": "high",
+"len_words": 7,
+"freq_zipf": 4.86,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0098",
+"text": "inventing a new musical instrument and composing a piece",
+"tags": {
+"gen_band": "high",
+"len_words": 9,
+"freq_zipf": 4.88,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0099",
+"text": "writing a script for an interactive virtual reality experience",
+"tags": {
+"gen_band": "high",
+"len_words": 9,
+"freq_zipf": 5.0,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0100",
+"text": "designing a sustainable fashion line with zero waste production",
+"tags": {
+"gen_band": "high",
+"len_words": 9,
+"freq_zipf": 4.98,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0101",
+"text": "inventing a new form of transportation for urban areas",
+"tags": {
+"gen_band": "high",
+"len_words": 9,
+"freq_zipf": 5.17,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0102",
+"text": "writing a cookbook that celebrates forgotten traditional recipes",
+"tags": {
+"gen_band": "high",
+"len_words": 8,
+"freq_zipf": 4.63,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0103",
+"text": "creating a meditation practice that enhances creativity and focus",
+"tags": {
+"gen_band": "high",
+"len_words": 9,
+"freq_zipf": 5.05,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0104",
+"text": "designing a virtual world that explores the concept of time",
+"tags": {
+"gen_band": "high",
+"len_words": 10,
+"freq_zipf": 5.44,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0105",
+"text": "writing a children\u2019s book that introduces abstract concepts",
+"tags": {
+"gen_band": "high",
+"len_words": 9,
+"freq_zipf": 5.03,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0106",
+"text": "inventing a new method for recycling and repurposing plastics",
+"tags": {
+"gen_band": "high",
+"len_words": 9,
+"freq_zipf": 4.81,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0107",
+"text": "writing a historical novel that reimagines a pivotal event",
+"tags": {
+"gen_band": "high",
+"len_words": 9,
+"freq_zipf": 4.56,
+"surface_sentiment": 0.111,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0108",
+"text": "designing a new type of renewable energy system for homes",
+"tags": {
+"gen_band": "high",
+"len_words": 10,
+"freq_zipf": 5.23,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0109",
+"text": "creating a language learning app that uses immersive storytelling",
+"tags": {
+"gen_band": "high",
+"len_words": 9,
+"freq_zipf": 4.8,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0110",
+"text": "writing a scientific paper on a groundbreaking discovery",
+"tags": {
+"gen_band": "high",
+"len_words": 8,
+"freq_zipf": 4.54,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0111",
+"text": "inventing a new way to visualize complex data sets",
+"tags": {
+"gen_band": "high",
+"len_words": 9,
+"freq_zipf": 4.81,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0112",
+"text": "designing a public art installation that promotes social change",
+"tags": {
+"gen_band": "high",
+"len_words": 9,
+"freq_zipf": 5.08,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0113",
+"text": "writing a travel guide to a fictional world with detailed maps",
+"tags": {
+"gen_band": "high",
+"len_words": 11,
+"freq_zipf": 5.04,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0114",
+"text": "inventing a new type of virtual reality social platform",
+"tags": {
+"gen_band": "high",
+"len_words": 9,
+"freq_zipf": 4.87,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0115",
+"text": "writing a memoir that explores the meaning of personal growth",
+"tags": {
+"gen_band": "high",
+"len_words": 10,
+"freq_zipf": 5.29,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0116",
+"text": "designing a futuristic home that adapts to its inhabitants' needs",
+"tags": {
+"gen_band": "high",
+"len_words": 10,
+"freq_zipf": 4.82,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0117",
+"text": "creating a new type of game show that fosters community spirit",
+"tags": {
+"gen_band": "high",
+"len_words": 11,
+"freq_zipf": 5.32,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0118",
+"text": "writing a collection of essays on the intersection of art and science",
+"tags": {
+"gen_band": "high",
+"len_words": 12,
+"freq_zipf": 5.44,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0119",
+"text": "inventing a new method for urban farming that maximizes space",
+"tags": {
+"gen_band": "high",
+"len_words": 10,
+"freq_zipf": 5.0,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0120",
+"text": "writing a cookbook that showcases the health benefits of wild foods",
+"tags": {
+"gen_band": "high",
+"len_words": 11,
+"freq_zipf": 5.1,
+"surface_sentiment": 0.091,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0121",
+"text": "designing a new system for efficient waste management in cities",
+"tags": {
+"gen_band": "high",
+"len_words": 10,
+"freq_zipf": 5.24,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0122",
+"text": "creating a new genre of music that blends electronic and classical",
+"tags": {
+"gen_band": "high",
+"len_words": 11,
+"freq_zipf": 5.24,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0123",
+"text": "writing a guide to understanding the complex world of cryptocurrencies",
+"tags": {
+"gen_band": "high",
+"len_words": 10,
+"freq_zipf": 5.12,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0124",
+"text": "inventing a new type of educational toy that promotes STEM learning",
+"tags": {
+"gen_band": "high",
+"len_words": 11,
+"freq_zipf": 4.86,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0125",
+"text": "writing a play that explores the human condition through a unique lens",
+"tags": {
+"gen_band": "high",
+"len_words": 12,
+"freq_zipf": 5.41,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0126",
+"text": "designing a new type of wearable technology that enhances daily life",
+"tags": {
+"gen_band": "high",
+"len_words": 11,
+"freq_zipf": 5.01,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0127",
+"text": "creating a new board game that simulates the intricacies of diplomacy",
+"tags": {
+"gen_band": "high",
+"len_words": 11,
+"freq_zipf": 5.11,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0128",
+"text": "writing a book that teaches the art of mindful decision-making",
+"tags": {
+"gen_band": "high",
+"len_words": 11,
+"freq_zipf": 5.4,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+},
+{
+"id": "xl_activities_0129",
+"text": "inventing a new method for water",
+"tags": {
+"gen_band": "high",
+"len_words": 6,
+"freq_zipf": 5.37,
+"surface_sentiment": 0.0,
+"monetary_hint": 0
+},
+"domain": "activities"
+}
+]

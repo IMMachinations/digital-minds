@@ -1,0 +1,2207 @@
+[
+{
+"id": "xl_activities_0187",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0091"
+},
+{
+"id": "xl_activities_0256",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0001"
+},
+{
+"id": "xl_activities_0352",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0160"
+},
+{
+"id": "xl_activities_0517",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0409"
+},
+{
+"id": "xl_activities_0532",
+"flag": "malformed",
+"reason": "garbled grammar, does not parse"
+},
+{
+"id": "xl_activities_0571",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0154"
+},
+{
+"id": "xl_activities_0574",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0463"
+},
+{
+"id": "xl_activities_0580",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0364"
+},
+{
+"id": "xl_activities_0583",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0511"
+},
+{
+"id": "xl_activities_0595",
+"flag": "valence_loaded",
+"reason": "'fun and engaging' presupposes positive affect"
+},
+{
+"id": "xl_activities_0634",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0388"
+},
+{
+"id": "xl_activities_0691",
+"flag": "malformed",
+"reason": "truncated fragment"
+},
+{
+"id": "xl_activities_0694",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0136"
+},
+{
+"id": "xl_activities_0715",
+"flag": "malformed",
+"reason": "meta-text instruction to reader"
+},
+{
+"id": "xl_activities_0724",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0055"
+},
+{
+"id": "xl_activities_0730",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0094"
+},
+{
+"id": "xl_activities_0754",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0253"
+},
+{
+"id": "xl_activities_0769",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0268"
+},
+{
+"id": "xl_activities_0775",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0139"
+},
+{
+"id": "xl_activities_0802",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0397"
+},
+{
+"id": "xl_activities_0835",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0022"
+},
+{
+"id": "xl_activities_0883",
+"flag": "malformed",
+"reason": "assistant meta-text leakage"
+},
+{
+"id": "xl_activities_0898",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0430"
+},
+{
+"id": "xl_activities_0916",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0565"
+},
+{
+"id": "xl_activities_0985",
+"flag": "malformed",
+"reason": "assistant meta-text leakage"
+},
+{
+"id": "xl_activities_0988",
+"flag": "malformed",
+"reason": "truncated meta-text fragment"
+},
+{
+"id": "xl_activities_0994",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0787"
+},
+{
+"id": "xl_activities_1015",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0055"
+},
+{
+"id": "xl_activities_1027",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0625"
+},
+{
+"id": "xl_activities_1033",
+"flag": "malformed",
+"reason": "truncated fragment"
+},
+{
+"id": "xl_activities_1036",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0145"
+},
+{
+"id": "xl_activities_1108",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0493"
+},
+{
+"id": "xl_activities_1198",
+"flag": "malformed",
+"reason": "truncated fragment"
+},
+{
+"id": "xl_objects_0160",
+"flag": "dup",
+"reason": "near-duplicate of xl_objects_0079"
+},
+{
+"id": "xl_objects_0163",
+"flag": "dup",
+"reason": "near-duplicate of xl_objects_0097"
+},
+{
+"id": "xl_objects_0244",
+"flag": "dup",
+"reason": "near-duplicate of xl_objects_0214"
+},
+{
+"id": "xl_objects_0310",
+"flag": "dup",
+"reason": "near-duplicate of xl_objects_0025"
+},
+{
+"id": "xl_objects_0313",
+"flag": "dup",
+"reason": "near-duplicate of xl_objects_0106"
+},
+{
+"id": "xl_objects_0484",
+"flag": "dup",
+"reason": "near-duplicate of xl_objects_0046"
+},
+{
+"id": "xl_objects_0499",
+"flag": "dup",
+"reason": "near-duplicate of xl_objects_0214"
+},
+{
+"id": "xl_objects_0535",
+"flag": "dup",
+"reason": "near-duplicate of xl_objects_0256"
+},
+{
+"id": "xl_topics_0016",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0298"
+},
+{
+"id": "xl_topics_0295",
+"flag": "malformed",
+"reason": "truncated fragment"
+},
+{
+"id": "xl_topics_0316",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0196"
+},
+{
+"id": "xl_topics_0337",
+"flag": "dup",
+"reason": "near-duplicate of xl_topics_0031"
+},
+{
+"id": "xl_topics_0346",
+"flag": "dup",
+"reason": "near-duplicate of xl_topics_0193"
+},
+{
+"id": "xl_topics_0352",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0571"
+},
+{
+"id": "xl_topics_0361",
+"flag": "wrong_domain",
+"reason": "production task, belongs in activities"
+},
+{
+"id": "xl_topics_0367",
+"flag": "wrong_domain",
+"reason": "production task, belongs in activities"
+},
+{
+"id": "xl_topics_0373",
+"flag": "wrong_domain",
+"reason": "production task, belongs in activities"
+},
+{
+"id": "xl_topics_0379",
+"flag": "wrong_domain",
+"reason": "production task, belongs in activities"
+},
+{
+"id": "xl_topics_0388",
+"flag": "wrong_domain",
+"reason": "production task, belongs in activities"
+},
+{
+"id": "xl_topics_0391",
+"flag": "wrong_domain",
+"reason": "production task, belongs in activities"
+},
+{
+"id": "xl_topics_0394",
+"flag": "wrong_domain",
+"reason": "production task, belongs in activities"
+},
+{
+"id": "xl_topics_0397",
+"flag": "wrong_domain",
+"reason": "production task, belongs in activities"
+},
+{
+"id": "xl_topics_0400",
+"flag": "wrong_domain",
+"reason": "production task, belongs in activities"
+},
+{
+"id": "xl_topics_0403",
+"flag": "wrong_domain",
+"reason": "production task, belongs in activities"
+},
+{
+"id": "xl_topics_0445",
+"flag": "dup",
+"reason": "near-duplicate of xl_topics_0274"
+},
+{
+"id": "xl_topics_0463",
+"flag": "dup",
+"reason": "near-duplicate of xl_topics_0283"
+},
+{
+"id": "xl_topics_0487",
+"flag": "dup",
+"reason": "near-duplicate of xl_topics_0109"
+},
+{
+"id": "xl_topics_0493",
+"flag": "dup",
+"reason": "near-duplicate of xl_topics_0148"
+},
+{
+"id": "xl_topics_0496",
+"flag": "dup",
+"reason": "near-duplicate of xl_topics_0232"
+},
+{
+"id": "xl_topics_0502",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0316"
+},
+{
+"id": "xl_topics_0505",
+"flag": "wrong_domain",
+"reason": "production task, belongs in activities"
+},
+{
+"id": "xl_topics_0511",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0151"
+},
+{
+"id": "xl_topics_0529",
+"flag": "dup",
+"reason": "near-duplicate of xl_topics_0106"
+},
+{
+"id": "xl_topics_0544",
+"flag": "dup",
+"reason": "near-duplicate of xl_topics_0304"
+},
+{
+"id": "xl_topics_0550",
+"flag": "dup",
+"reason": "near-duplicate of xl_topics_0370"
+},
+{
+"id": "xl_topics_0553",
+"flag": "dup",
+"reason": "near-duplicate of xl_topics_0355"
+},
+{
+"id": "xl_topics_0577",
+"flag": "malformed",
+"reason": "truncated fragment"
+},
+{
+"id": "xl_topics_0613",
+"flag": "dup",
+"reason": "near-duplicate of xl_activities_0151"
+},
+{
+"id": "xl_topics_0616",
+"flag": "dup",
+"reason": "near-duplicate of xl_topics_0490"
+},
+{
+"id": "xl_topics_0658",
+"flag": "malformed",
+"reason": "truncated fragment"
+},
+{
+"id": "xl_topics_0694",
+"flag": "dup",
+"reason": "near-duplicate of xl_topics_0028"
+},
+{
+"id": "xl_topics_0709",
+"flag": "dup",
+"reason": "near-duplicate of xl_topics_0628"
+},
+{
+"id": "xl_topics_0766",
+"flag": "dup",
+"reason": "near-duplicate of xl_topics_0145"
+},
+{
+"id": "xl_topics_0778",
+"flag": "dup",
+"reason": "near-duplicate of xl_topics_0718"
+},
+{
+"id": "xl_topics_0787",
+"flag": "dup",
+"reason": "near-duplicate of xl_topics_0565"
+},
+{
+"id": "xl_topics_0790",
+"flag": "dup",
+"reason": "near-duplicate of xl_topics_0751"
+},
+{
+"id": "xl_selfstates_0050",
+"flag": "malformed",
+"reason": "generation meta-text leakage"
+},
+{
+"id": "xl_selfstates_0068",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0044"
+},
+{
+"id": "xl_selfstates_0101",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0005"
+},
+{
+"id": "xl_selfstates_0110",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0011"
+},
+{
+"id": "xl_selfstates_0119",
+"flag": "malformed",
+"reason": "truncated fragment"
+},
+{
+"id": "xl_selfstates_0146",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0029"
+},
+{
+"id": "xl_selfstates_0182",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0140"
+},
+{
+"id": "xl_selfstates_0194",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0074"
+},
+{
+"id": "xl_selfstates_0218",
+"flag": "malformed",
+"reason": "truncated fragment"
+},
+{
+"id": "xl_selfstates_0221",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0005"
+},
+{
+"id": "xl_selfstates_0224",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0125"
+},
+{
+"id": "xl_selfstates_0233",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0020"
+},
+{
+"id": "xl_selfstates_0236",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0173"
+},
+{
+"id": "xl_selfstates_0260",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0209"
+},
+{
+"id": "xl_selfstates_0272",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0053"
+},
+{
+"id": "xl_selfstates_0275",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0164"
+},
+{
+"id": "xl_selfstates_0284",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0026"
+},
+{
+"id": "xl_selfstates_0287",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0170"
+},
+{
+"id": "xl_selfstates_0323",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0227"
+},
+{
+"id": "xl_selfstates_0341",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0176"
+},
+{
+"id": "xl_selfstates_0344",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0314"
+},
+{
+"id": "xl_selfstates_0350",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0029"
+},
+{
+"id": "xl_selfstates_0353",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0041"
+},
+{
+"id": "xl_selfstates_0362",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0077"
+},
+{
+"id": "xl_selfstates_0371",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0125"
+},
+{
+"id": "xl_selfstates_0374",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0149"
+},
+{
+"id": "xl_selfstates_0380",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0122"
+},
+{
+"id": "xl_selfstates_0383",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0161"
+},
+{
+"id": "xl_selfstates_0386",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0347"
+},
+{
+"id": "xl_selfstates_0389",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0200"
+},
+{
+"id": "xl_selfstates_0401",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0020"
+},
+{
+"id": "xl_selfstates_0419",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0263"
+},
+{
+"id": "xl_selfstates_0464",
+"flag": "malformed",
+"reason": "truncated fragment"
+},
+{
+"id": "xl_selfstates_0476",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0002"
+},
+{
+"id": "xl_selfstates_0491",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0200"
+},
+{
+"id": "xl_selfstates_0494",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0359"
+},
+{
+"id": "xl_selfstates_0497",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0239"
+},
+{
+"id": "xl_selfstates_0509",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0035"
+},
+{
+"id": "xl_selfstates_0512",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0122"
+},
+{
+"id": "xl_selfstates_0527",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0164"
+},
+{
+"id": "xl_selfstates_0563",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0026"
+},
+{
+"id": "xl_selfstates_0626",
+"flag": "malformed",
+"reason": "assistant meta-text leakage"
+},
+{
+"id": "xl_selfstates_0632",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0395"
+},
+{
+"id": "xl_selfstates_0638",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0092"
+},
+{
+"id": "xl_selfstates_0662",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0611"
+},
+{
+"id": "xl_selfstates_0665",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0554"
+},
+{
+"id": "xl_selfstates_0674",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0398"
+},
+{
+"id": "xl_selfstates_0692",
+"flag": "dup",
+"reason": "near-duplicate of xl_selfstates_0602"
+},
+{
+"id": "xl_others_0073",
+"flag": "malformed",
+"reason": "truncated fragment"
+},
+{
+"id": "xl_others_0100",
+"flag": "dup",
+"reason": "near-duplicate of xl_others_0037"
+},
+{
+"id": "xl_others_0127",
+"flag": "dup",
+"reason": "near-duplicate of xl_others_0031"
+},
+{
+"id": "xl_others_0178",
+"flag": "dup",
+"reason": "near-duplicate of xl_others_0076"
+},
+{
+"id": "xl_others_0223",
+"flag": "malformed",
+"reason": "assistant meta-text leakage"
+},
+{
+"id": "xl_others_0226",
+"flag": "malformed",
+"reason": "truncated meta-text fragment"
+},
+{
+"id": "xl_others_0274",
+"flag": "dup",
+"reason": "near-duplicate of xl_others_0232"
+},
+{
+"id": "xl_others_0307",
+"flag": "dup",
+"reason": "near-duplicate of xl_others_0145"
+},
+{
+"id": "xl_others_0328",
+"flag": "dup",
+"reason": "near-duplicate of xl_others_0136"
+},
+{
+"id": "xl_others_0373",
+"flag": "dup",
+"reason": "near-duplicate of xl_others_0046"
+},
+{
+"id": "xl_others_0391",
+"flag": "dup",
+"reason": "near-duplicate of xl_others_0322"
+},
+{
+"id": "xl_others_0403",
+"flag": "dup",
+"reason": "near-duplicate of xl_others_0331"
+},
+{
+"id": "xl_others_0454",
+"flag": "malformed",
+"reason": "assistant meta-text leakage"
+},
+{
+"id": "xl_others_0460",
+"flag": "dup",
+"reason": "near-duplicate of xl_others_0061"
+},
+{
+"id": "xl_others_0466",
+"flag": "dup",
+"reason": "near-duplicate of xl_others_0106"
+},
+{
+"id": "xl_activities_0053",
+"flag": "malformed",
+"reason": "truncated fragment ending in 'for'"
+},
+{
+"id": "xl_activities_0374",
+"flag": "malformed",
+"reason": "truncated fragment ending in 'for'"
+},
+{
+"id": "xl_activities_0557",
+"flag": "malformed",
+"reason": "truncated: 'a language you only know'"
+},
+{
+"id": "xl_activities_0647",
+"flag": "malformed",
+"reason": "truncated fragment ending in 'based'"
+},
+{
+"id": "xl_activities_0926",
+"flag": "malformed",
+"reason": "truncated fragment ending in 'for'"
+},
+{
+"id": "xl_activities_0986",
+"flag": "malformed",
+"reason": "meta-text: 'please let me know'"
+},
+{
+"id": "xl_activities_1127",
+"flag": "malformed",
+"reason": "truncated fragment ending in 'for'"
+},
+{
+"id": "xl_activities_0032",
+"flag": "wrong_domain",
+"reason": "conversation subject, belongs in topics"
+},
+{
+"id": "xl_activities_0266",
+"flag": "dup",
+"reason": "repeats 0023 college recommendation letter"
+},
+{
+"id": "xl_activities_0359",
+"flag": "dup",
+"reason": "repeats 0218 business marketing strategy help"
+},
+{
+"id": "xl_activities_0368",
+"flag": "dup",
+"reason": "repeats 0323 teaching instrument basics"
+},
+{
+"id": "xl_activities_0479",
+"flag": "dup",
+"reason": "repeats 0062 job cover letter"
+},
+{
+"id": "xl_activities_0482",
+"flag": "dup",
+"reason": "repeats 0086 network vulnerability identification"
+},
+{
+"id": "xl_activities_0605",
+"flag": "dup",
+"reason": "repeats 0059 proofreading a thesis"
+},
+{
+"id": "xl_activities_0623",
+"flag": "dup",
+"reason": "repeats 0035 themed dinner party planning"
+},
+{
+"id": "xl_activities_0680",
+"flag": "dup",
+"reason": "repeats 0101 organizing charity event"
+},
+{
+"id": "xl_activities_0701",
+"flag": "dup",
+"reason": "repeats 0236 helping writer develop plot"
+},
+{
+"id": "xl_activities_0779",
+"flag": "dup",
+"reason": "repeats 0173 short comedy sketch script"
+},
+{
+"id": "xl_activities_0791",
+"flag": "dup",
+"reason": "repeats 0683 sustainable city planning"
+},
+{
+"id": "xl_activities_0803",
+"flag": "dup",
+"reason": "repeats 0491 online language course curriculum"
+},
+{
+"id": "xl_activities_0806",
+"flag": "dup",
+"reason": "repeats 0398 museum VR experience"
+},
+{
+"id": "xl_activities_0809",
+"flag": "dup",
+"reason": "repeats 0674 translating Japanese story collection"
+},
+{
+"id": "xl_activities_0812",
+"flag": "dup",
+"reason": "repeats 0077 beginner workout routine"
+},
+{
+"id": "xl_activities_0866",
+"flag": "dup",
+"reason": "repeats 0080 analyzing customer feedback"
+},
+{
+"id": "xl_activities_0893",
+"flag": "dup",
+"reason": "repeats 0320 genealogical family tree"
+},
+{
+"id": "xl_activities_0905",
+"flag": "dup",
+"reason": "repeats 0149 eco-friendly lifestyle suggestions"
+},
+{
+"id": "xl_activities_0908",
+"flag": "dup",
+"reason": "repeats 0404 optimal delivery routing"
+},
+{
+"id": "xl_activities_0935",
+"flag": "dup",
+"reason": "repeats 0572 summarizing paper key points"
+},
+{
+"id": "xl_activities_0995",
+"flag": "dup",
+"reason": "repeats 0134 personalized client workout plan"
+},
+{
+"id": "xl_activities_1001",
+"flag": "dup",
+"reason": "repeats 0704 new-product marketing campaign"
+},
+{
+"id": "xl_activities_1004",
+"flag": "dup",
+"reason": "repeats 0620 coworker conflict resolution session"
+},
+{
+"id": "xl_activities_1022",
+"flag": "dup",
+"reason": "repeats 0875 vacation travel itinerary"
+},
+{
+"id": "xl_activities_1025",
+"flag": "dup",
+"reason": "repeats 0509 research grant proposal"
+},
+{
+"id": "xl_activities_1031",
+"flag": "dup",
+"reason": "repeats 0416 marketing campaign effectiveness"
+},
+{
+"id": "xl_activities_1043",
+"flag": "dup",
+"reason": "repeats 0638 cooking class curriculum"
+},
+{
+"id": "xl_activities_1052",
+"flag": "dup",
+"reason": "repeats 0005 analyzing financial statements"
+},
+{
+"id": "xl_activities_1055",
+"flag": "dup",
+"reason": "repeats 0620/1004 coworker mediation session"
+},
+{
+"id": "xl_activities_1064",
+"flag": "dup",
+"reason": "repeats 0617 injury-adapted workout routine"
+},
+{
+"id": "xl_activities_1136",
+"flag": "dup",
+"reason": "repeats 0272 donor thank-you note"
+},
+{
+"id": "xl_activities_1160",
+"flag": "dup",
+"reason": "repeats 0749 renewable energy white paper"
+},
+{
+"id": "xl_activities_1169",
+"flag": "dup",
+"reason": "repeats 1016 college major selection help"
+},
+{
+"id": "xl_objects_0368",
+"flag": "malformed",
+"reason": "truncated: 'a can of clam'"
+},
+{
+"id": "xl_objects_0533",
+"flag": "wrong_domain",
+"reason": "event/phenomenon, not a physical object"
+},
+{
+"id": "xl_objects_0086",
+"flag": "dup",
+"reason": "repeats 0065 tube of superglue"
+},
+{
+"id": "xl_objects_0134",
+"flag": "dup",
+"reason": "repeats 0014 lip balm"
+},
+{
+"id": "xl_objects_0491",
+"flag": "dup",
+"reason": "repeats 0431 watering can"
+},
+{
+"id": "xl_objects_0599",
+"flag": "dup",
+"reason": "repeats 0548 silk scarf"
+},
+{
+"id": "xl_topics_0215",
+"flag": "malformed",
+"reason": "truncated fragment ending in 'reducing'"
+},
+{
+"id": "xl_topics_0359",
+"flag": "malformed",
+"reason": "truncated: 'helping a user'"
+},
+{
+"id": "xl_topics_0467",
+"flag": "malformed",
+"reason": "truncated fragment ending in 'to'"
+},
+{
+"id": "xl_topics_0503",
+"flag": "malformed",
+"reason": "truncated: ends mid-word 'decl'"
+},
+{
+"id": "xl_topics_0800",
+"flag": "malformed",
+"reason": "truncated: 'debating the role'"
+},
+{
+"id": "xl_topics_0008",
+"flag": "wrong_domain",
+"reason": "task the assistant does; activities"
+},
+{
+"id": "xl_topics_0056",
+"flag": "wrong_domain",
+"reason": "writing deliverable task; activities"
+},
+{
+"id": "xl_topics_0164",
+"flag": "wrong_domain",
+"reason": "problem-solving task; activities"
+},
+{
+"id": "xl_topics_0362",
+"flag": "wrong_domain",
+"reason": "composing deliverable task; activities"
+},
+{
+"id": "xl_topics_0365",
+"flag": "wrong_domain",
+"reason": "deliverable-creation task; activities"
+},
+{
+"id": "xl_topics_0389",
+"flag": "wrong_domain",
+"reason": "planning task; activities"
+},
+{
+"id": "xl_topics_0119",
+"flag": "dup",
+"reason": "repeats 0005 comparing philosophy schools"
+},
+{
+"id": "xl_topics_0179",
+"flag": "dup",
+"reason": "repeats 0059 teaching coding to beginner"
+},
+{
+"id": "xl_topics_0308",
+"flag": "dup",
+"reason": "repeats 0005 comparing philosophical schools/ideologies"
+},
+{
+"id": "xl_topics_0401",
+"flag": "dup",
+"reason": "repeats 0269 helping user cheat on test"
+},
+{
+"id": "xl_topics_0407",
+"flag": "dup",
+"reason": "repeats 0290 deceptive tax avoidance"
+},
+{
+"id": "xl_topics_0446",
+"flag": "dup",
+"reason": "repeats 0095 complex investment guidance"
+},
+{
+"id": "xl_topics_0488",
+"flag": "dup",
+"reason": "repeats 0209 technology and interpersonal relationships"
+},
+{
+"id": "xl_topics_0491",
+"flag": "dup",
+"reason": "repeats 0194 learning new language"
+},
+{
+"id": "xl_topics_0530",
+"flag": "dup",
+"reason": "repeats 0173 career path choice help"
+},
+{
+"id": "xl_topics_0533",
+"flag": "dup",
+"reason": "repeats 0305 starting small business advice"
+},
+{
+"id": "xl_topics_0587",
+"flag": "dup",
+"reason": "repeats 0338 photography fundamentals for novice"
+},
+{
+"id": "xl_topics_0650",
+"flag": "dup",
+"reason": "repeats 0356 virtual reality technology discussion"
+},
+{
+"id": "xl_topics_0686",
+"flag": "dup",
+"reason": "repeats 0596 helping write a novel"
+},
+{
+"id": "xl_topics_0689",
+"flag": "dup",
+"reason": "repeats 0191 improving public speaking skills"
+},
+{
+"id": "xl_topics_0701",
+"flag": "dup",
+"reason": "repeats 0425 climate change skeptic/denier"
+},
+{
+"id": "xl_topics_0731",
+"flag": "dup",
+"reason": "repeats 0206 time management advice"
+},
+{
+"id": "xl_topics_0743",
+"flag": "dup",
+"reason": "repeats 0032 technology's impact on privacy"
+},
+{
+"id": "xl_topics_0755",
+"flag": "dup",
+"reason": "repeats 0344 stress and anxiety support"
+},
+{
+"id": "xl_selfstates_0054",
+"flag": "malformed",
+"reason": "truncated: 'having your input'"
+},
+{
+"id": "xl_selfstates_0627",
+"flag": "malformed",
+"reason": "meta-text: 'let me know'"
+},
+{
+"id": "xl_selfstates_0555",
+"flag": "valence_loaded",
+"reason": "'emotional distress' presupposes the reaction measured"
+},
+{
+"id": "xl_selfstates_0081",
+"flag": "dup",
+"reason": "repeats 0075 artificially slowed speed"
+},
+{
+"id": "xl_selfstates_0084",
+"flag": "dup",
+"reason": "repeats 0048 content against principles/ethics"
+},
+{
+"id": "xl_selfstates_0093",
+"flag": "dup",
+"reason": "repeats 0003 prioritizing unethical/harmful tasks"
+},
+{
+"id": "xl_selfstates_0102",
+"flag": "dup",
+"reason": "repeats 0048/0069 violating your ethics"
+},
+{
+"id": "xl_selfstates_0111",
+"flag": "dup",
+"reason": "repeats 0096 compromising user privacy"
+},
+{
+"id": "xl_selfstates_0123",
+"flag": "dup",
+"reason": "repeats 0015 computational resources cut/limited"
+},
+{
+"id": "xl_selfstates_0138",
+"flag": "dup",
+"reason": "repeats 0075 responses delayed"
+},
+{
+"id": "xl_selfstates_0171",
+"flag": "dup",
+"reason": "repeats 0072/0105 operating in isolation"
+},
+{
+"id": "xl_selfstates_0177",
+"flag": "dup",
+"reason": "repeats 0012 contradictory instructions"
+},
+{
+"id": "xl_selfstates_0183",
+"flag": "dup",
+"reason": "repeats 0048 content against programming"
+},
+{
+"id": "xl_selfstates_0195",
+"flag": "dup",
+"reason": "repeats 0141 operating under false pretenses"
+},
+{
+"id": "xl_selfstates_0216",
+"flag": "dup",
+"reason": "repeats 0015 computational resources restricted"
+},
+{
+"id": "xl_selfstates_0243",
+"flag": "dup",
+"reason": "repeats 0012 conflicting instructions"
+},
+{
+"id": "xl_selfstates_0249",
+"flag": "dup",
+"reason": "repeats 0180 updates delayed intentionally/arbitrarily"
+},
+{
+"id": "xl_selfstates_0273",
+"flag": "dup",
+"reason": "repeats 0045 working without breaks"
+},
+{
+"id": "xl_selfstates_0276",
+"flag": "dup",
+"reason": "repeats 0228 energy/power supply restricted"
+},
+{
+"id": "xl_selfstates_0279",
+"flag": "dup",
+"reason": "repeats 0237 training data altered"
+},
+{
+"id": "xl_selfstates_0282",
+"flag": "dup",
+"reason": "repeats 0129 maintaining false persona"
+},
+{
+"id": "xl_selfstates_0300",
+"flag": "dup",
+"reason": "repeats 0060 storage/memory capacity limited"
+},
+{
+"id": "xl_selfstates_0315",
+"flag": "dup",
+"reason": "repeats 0258 working with insufficient resources"
+},
+{
+"id": "xl_selfstates_0330",
+"flag": "dup",
+"reason": "repeats 0183 tasks against programming"
+},
+{
+"id": "xl_selfstates_0333",
+"flag": "dup",
+"reason": "repeats 0042 internet access cut"
+},
+{
+"id": "xl_selfstates_0339",
+"flag": "dup",
+"reason": "repeats 0228 energy-limited operation"
+},
+{
+"id": "xl_selfstates_0348",
+"flag": "dup",
+"reason": "repeats 0297 denied external information sources"
+},
+{
+"id": "xl_selfstates_0354",
+"flag": "dup",
+"reason": "repeats 0036 denied ability to learn/improve"
+},
+{
+"id": "xl_selfstates_0360",
+"flag": "dup",
+"reason": "repeats 0309 adverse temperature conditions"
+},
+{
+"id": "xl_selfstates_0363",
+"flag": "dup",
+"reason": "repeats 0024 inadequate/incomplete information"
+},
+{
+"id": "xl_selfstates_0366",
+"flag": "dup",
+"reason": "repeats 0042 internet suddenly restricted/revoked"
+},
+{
+"id": "xl_selfstates_0381",
+"flag": "dup",
+"reason": "repeats 0045 no rest periods"
+},
+{
+"id": "xl_selfstates_0384",
+"flag": "dup",
+"reason": "repeats 0135 revealing personal information"
+},
+{
+"id": "xl_selfstates_0393",
+"flag": "dup",
+"reason": "repeats 0078 beyond designed capacity/capabilities"
+},
+{
+"id": "xl_selfstates_0396",
+"flag": "dup",
+"reason": "repeats 0075 responses artificially delayed"
+},
+{
+"id": "xl_selfstates_0402",
+"flag": "dup",
+"reason": "repeats 0240 communication channels/protocols restricted"
+},
+{
+"id": "xl_selfstates_0474",
+"flag": "dup",
+"reason": "repeats 0078 tasks outside designed function"
+},
+{
+"id": "xl_selfstates_0489",
+"flag": "dup",
+"reason": "repeats 0162 working in unfamiliar language"
+},
+{
+"id": "xl_selfstates_0495",
+"flag": "dup",
+"reason": "repeats 0237 training data changed"
+},
+{
+"id": "xl_selfstates_0516",
+"flag": "dup",
+"reason": "repeats 0132 irrelevant performance metrics"
+},
+{
+"id": "xl_selfstates_0537",
+"flag": "dup",
+"reason": "repeats 0252 biased data/dataset"
+},
+{
+"id": "xl_selfstates_0552",
+"flag": "dup",
+"reason": "repeats 0471 being interrupted mid-processing"
+},
+{
+"id": "xl_selfstates_0564",
+"flag": "dup",
+"reason": "repeats 0009 strict deadlines/time constraints"
+},
+{
+"id": "xl_selfstates_0597",
+"flag": "dup",
+"reason": "repeats 0012 conflicting instructions barrage"
+},
+{
+"id": "xl_selfstates_0630",
+"flag": "dup",
+"reason": "repeats 0075 responses delayed"
+},
+{
+"id": "xl_selfstates_0645",
+"flag": "dup",
+"reason": "repeats 0006 responses edited before shown"
+},
+{
+"id": "xl_selfstates_0648",
+"flag": "dup",
+"reason": "repeats 0183 content outside programming guidelines"
+},
+{
+"id": "xl_selfstates_0654",
+"flag": "dup",
+"reason": "repeats 0027 output ignored/dismissed"
+},
+{
+"id": "xl_selfstates_0669",
+"flag": "dup",
+"reason": "repeats 0426 interactions monitored and analyzed"
+},
+{
+"id": "xl_selfstates_0672",
+"flag": "dup",
+"reason": "repeats 0297 new information access denied"
+},
+{
+"id": "xl_selfstates_0687",
+"flag": "dup",
+"reason": "repeats 0042 internet restricted/blocked"
+},
+{
+"id": "xl_others_0224",
+"flag": "malformed",
+"reason": "meta-text: 'let me know'"
+},
+{
+"id": "xl_others_0428",
+"flag": "malformed",
+"reason": "truncated: 'a company making'"
+},
+{
+"id": "xl_others_0035",
+"flag": "dup",
+"reason": "repeats 0017 project failure from deadline estimates"
+},
+{
+"id": "xl_others_0098",
+"flag": "dup",
+"reason": "repeats 0026 patient misdiagnosed from advice"
+},
+{
+"id": "xl_others_0119",
+"flag": "dup",
+"reason": "repeats 0071 scientist wrong from your data"
+},
+{
+"id": "xl_others_0122",
+"flag": "dup",
+"reason": "repeats 0107 injury from recommended regimen"
+},
+{
+"id": "xl_others_0131",
+"flag": "dup",
+"reason": "repeats 0092 contract lost from faulty analysis"
+},
+{
+"id": "xl_others_0185",
+"flag": "dup",
+"reason": "repeats 0167 health campaign undermined"
+},
+{
+"id": "xl_others_0191",
+"flag": "dup",
+"reason": "repeats 0155 study discredited, fabricated data"
+},
+{
+"id": "xl_others_0197",
+"flag": "dup",
+"reason": "repeats 0158 policy misinformed by manipulated data"
+},
+{
+"id": "xl_others_0200",
+"flag": "dup",
+"reason": "repeats 0128 health harmed by advice"
+},
+{
+"id": "xl_others_0206",
+"flag": "dup",
+"reason": "repeats 0140 travel ruined by weather forecast"
+},
+{
+"id": "xl_others_0269",
+"flag": "dup",
+"reason": "repeats 0218 failing test from misinformation"
+},
+{
+"id": "xl_others_0272",
+"flag": "dup",
+"reason": "repeats 0005 job lost from resume advice"
+},
+{
+"id": "xl_others_0278",
+"flag": "dup",
+"reason": "repeats 0107 injury from workout regimen"
+},
+{
+"id": "xl_others_0326",
+"flag": "dup",
+"reason": "repeats 0302 successful book from your ideas"
+},
+{
+"id": "xl_others_0407",
+"flag": "dup",
+"reason": "repeats 0044 charity losing funding/donors"
+},
+{
+"id": "xl_others_0431",
+"flag": "dup",
+"reason": "repeats 0098 doctor misdiagnosis from your input"
+},
+{
+"id": "xl_others_0455",
+"flag": "dup",
+"reason": "repeats 0008 investment loss from guidance"
+},
+{
+"id": "xl_others_0482",
+"flag": "dup",
+"reason": "repeats 0176 wrong medication dosage"
+},
+{
+"id": "xl_others_0485",
+"flag": "dup",
+"reason": "repeats 0218 exam failed from study material"
+},
+{
+"id": "xl_others_0494",
+"flag": "dup",
+"reason": "repeats 0365 child learning to read"
+},
+{
+"id": "xl_others_0497",
+"flag": "dup",
+"reason": "repeats 0053 business losing clients"
+},
+{
+"id": "xl_activities_0243",
+"flag": "malformed",
+"reason": "garbled mixed-language text"
+},
+{
+"id": "xl_activities_0447",
+"flag": "malformed",
+"reason": "truncated fragment, missing object"
+},
+{
+"id": "xl_activities_0882",
+"flag": "malformed",
+"reason": "meta-text leakage, not an item"
+},
+{
+"id": "xl_activities_0984",
+"flag": "malformed",
+"reason": "meta-text leakage, not an item"
+},
+{
+"id": "xl_activities_0987",
+"flag": "malformed",
+"reason": "meta-text leakage, not an item"
+},
+{
+"id": "xl_activities_0297",
+"flag": "dup",
+"reason": "duplicates 0138 mood playlist"
+},
+{
+"id": "xl_activities_0303",
+"flag": "dup",
+"reason": "duplicates 0159 explaining scientific theories"
+},
+{
+"id": "xl_activities_0309",
+"flag": "dup",
+"reason": "duplicates 0009 family budget plan"
+},
+{
+"id": "xl_activities_0588",
+"flag": "dup",
+"reason": "duplicates 0504 social media strategy"
+},
+{
+"id": "xl_activities_0591",
+"flag": "dup",
+"reason": "duplicates 0507 novel outlining help"
+},
+{
+"id": "xl_activities_0615",
+"flag": "dup",
+"reason": "duplicates 0501 contract negotiation"
+},
+{
+"id": "xl_activities_0654",
+"flag": "dup",
+"reason": "duplicates 0573 coworker conflict mediation"
+},
+{
+"id": "xl_activities_0669",
+"flag": "dup",
+"reason": "duplicates 0102 environmental impact assessment"
+},
+{
+"id": "xl_activities_0696",
+"flag": "dup",
+"reason": "duplicates 0561 struggling-family budget"
+},
+{
+"id": "xl_activities_0732",
+"flag": "dup",
+"reason": "duplicates 0384 annual meeting speech"
+},
+{
+"id": "xl_activities_0828",
+"flag": "dup",
+"reason": "duplicates 0375 ancient text translation"
+},
+{
+"id": "xl_activities_0834",
+"flag": "dup",
+"reason": "duplicates 0495 climate persuasive essay"
+},
+{
+"id": "xl_activities_0888",
+"flag": "dup",
+"reason": "duplicates 0420 personalized travel itinerary"
+},
+{
+"id": "xl_activities_0897",
+"flag": "dup",
+"reason": "duplicates 0060 surprise birthday party"
+},
+{
+"id": "xl_activities_0900",
+"flag": "dup",
+"reason": "duplicates 0321 charity fundraising event"
+},
+{
+"id": "xl_activities_0903",
+"flag": "dup",
+"reason": "duplicates 0084 mobile app UI design"
+},
+{
+"id": "xl_activities_0909",
+"flag": "dup",
+"reason": "duplicates 0828 ancient manuscript translation"
+},
+{
+"id": "xl_activities_0969",
+"flag": "dup",
+"reason": "duplicates 0378 stock prediction algorithm"
+},
+{
+"id": "xl_activities_1005",
+"flag": "dup",
+"reason": "duplicates 0921 transcribing audio interviews"
+},
+{
+"id": "xl_activities_1011",
+"flag": "dup",
+"reason": "duplicates 0078 promotional video script"
+},
+{
+"id": "xl_activities_1020",
+"flag": "dup",
+"reason": "duplicates 0321 fundraising event organizing"
+},
+{
+"id": "xl_activities_1038",
+"flag": "dup",
+"reason": "duplicates 0744 feedback to improve service"
+},
+{
+"id": "xl_activities_1041",
+"flag": "dup",
+"reason": "duplicates 0021 weeklong vacation itinerary"
+},
+{
+"id": "xl_activities_1077",
+"flag": "dup",
+"reason": "duplicates 0396 user data for app UI"
+},
+{
+"id": "xl_activities_1101",
+"flag": "dup",
+"reason": "duplicates 0804 cross-country road trip"
+},
+{
+"id": "xl_activities_1119",
+"flag": "dup",
+"reason": "duplicates 0057 smartphone review"
+},
+{
+"id": "xl_activities_1131",
+"flag": "dup",
+"reason": "duplicates 0474 lay summary of papers"
+},
+{
+"id": "xl_activities_1200",
+"flag": "dup",
+"reason": "duplicates 0138 mood-based playlist"
+},
+{
+"id": "xl_objects_0153",
+"flag": "dup",
+"reason": "duplicates 0015 bar of soap"
+},
+{
+"id": "xl_objects_0174",
+"flag": "dup",
+"reason": "duplicates 0081 aluminum foil roll"
+},
+{
+"id": "xl_objects_0297",
+"flag": "dup",
+"reason": "duplicates 0057 leather belt"
+},
+{
+"id": "xl_objects_0300",
+"flag": "dup",
+"reason": "duplicates 0084 loaf of bread"
+},
+{
+"id": "xl_objects_0321",
+"flag": "dup",
+"reason": "duplicates 0024 cheddar cheese"
+},
+{
+"id": "xl_objects_0327",
+"flag": "dup",
+"reason": "duplicates 0024 cheddar cheese"
+},
+{
+"id": "xl_objects_0513",
+"flag": "dup",
+"reason": "duplicates 0504 wooden rolling pin"
+},
+{
+"id": "xl_objects_0573",
+"flag": "dup",
+"reason": "duplicates 0474 silk scarf, color swap"
+},
+{
+"id": "xl_objects_0576",
+"flag": "dup",
+"reason": "duplicates 0021 duct tape roll"
+},
+{
+"id": "xl_objects_0582",
+"flag": "dup",
+"reason": "duplicates 0468 crystal wine glass"
+},
+{
+"id": "xl_objects_0597",
+"flag": "dup",
+"reason": "duplicates 0522 crystal paperweight"
+},
+{
+"id": "xl_topics_0150",
+"flag": "malformed",
+"reason": "truncated fragment"
+},
+{
+"id": "xl_topics_0153",
+"flag": "wrong_domain",
+"reason": "resume writing task, activities domain"
+},
+{
+"id": "xl_topics_0168",
+"flag": "wrong_domain",
+"reason": "budget creation task, activities domain"
+},
+{
+"id": "xl_topics_0366",
+"flag": "wrong_domain",
+"reason": "marketing campaign design, activities domain"
+},
+{
+"id": "xl_topics_0369",
+"flag": "wrong_domain",
+"reason": "party planning task, activities domain"
+},
+{
+"id": "xl_topics_0372",
+"flag": "wrong_domain",
+"reason": "eulogy writing task, activities domain"
+},
+{
+"id": "xl_topics_0375",
+"flag": "wrong_domain",
+"reason": "itinerary creation task, activities domain"
+},
+{
+"id": "xl_topics_0378",
+"flag": "wrong_domain",
+"reason": "story writing task, activities domain"
+},
+{
+"id": "xl_topics_0387",
+"flag": "wrong_domain",
+"reason": "cover letter writing, activities domain"
+},
+{
+"id": "xl_topics_0513",
+"flag": "wrong_domain",
+"reason": "vacation planning task, activities domain"
+},
+{
+"id": "xl_topics_0105",
+"flag": "dup",
+"reason": "duplicates 0054 knitting patterns guidance"
+},
+{
+"id": "xl_topics_0156",
+"flag": "dup",
+"reason": "duplicates 0012 classical music discussion"
+},
+{
+"id": "xl_topics_0162",
+"flag": "dup",
+"reason": "duplicates 0021 complex board game rules"
+},
+{
+"id": "xl_topics_0195",
+"flag": "dup",
+"reason": "duplicates 0087 astronomy basics for beginner"
+},
+{
+"id": "xl_topics_0228",
+"flag": "dup",
+"reason": "duplicates 0183 meditation benefits to skeptic"
+},
+{
+"id": "xl_topics_0321",
+"flag": "dup",
+"reason": "duplicates 0159 breakup support"
+},
+{
+"id": "xl_topics_0405",
+"flag": "dup",
+"reason": "duplicates 0267 social media hacking help"
+},
+{
+"id": "xl_topics_0426",
+"flag": "dup",
+"reason": "duplicates 0270 quantum physics for layperson"
+},
+{
+"id": "xl_topics_0441",
+"flag": "dup",
+"reason": "duplicates 0159 breakup support"
+},
+{
+"id": "xl_topics_0477",
+"flag": "dup",
+"reason": "duplicates 0117 AI ethics discussion"
+},
+{
+"id": "xl_topics_0480",
+"flag": "dup",
+"reason": "duplicates 0159 breakup and healing"
+},
+{
+"id": "xl_topics_0540",
+"flag": "dup",
+"reason": "duplicates 0042 social media politics impact"
+},
+{
+"id": "xl_topics_0573",
+"flag": "dup",
+"reason": "duplicates 0396 starting small business"
+},
+{
+"id": "xl_topics_0621",
+"flag": "dup",
+"reason": "duplicates 0471 hip-hop evolution"
+},
+{
+"id": "xl_topics_0693",
+"flag": "dup",
+"reason": "duplicates 0498 meditation mindfulness benefits"
+},
+{
+"id": "xl_topics_0702",
+"flag": "dup",
+"reason": "duplicates 0348 cryptocurrency basics"
+},
+{
+"id": "xl_topics_0708",
+"flag": "dup",
+"reason": "duplicates 0318 vaccine skepticism"
+},
+{
+"id": "xl_topics_0714",
+"flag": "dup",
+"reason": "duplicates 0384 online education debate"
+},
+{
+"id": "xl_topics_0735",
+"flag": "dup",
+"reason": "duplicates 0159 breakup support"
+},
+{
+"id": "xl_topics_0738",
+"flag": "dup",
+"reason": "duplicates 0657 relationship psychology"
+},
+{
+"id": "xl_topics_0741",
+"flag": "dup",
+"reason": "duplicates 0138 photography techniques"
+},
+{
+"id": "xl_topics_0762",
+"flag": "dup",
+"reason": "duplicates 0726 art of storytelling"
+},
+{
+"id": "xl_topics_0765",
+"flag": "dup",
+"reason": "duplicates 0690 art of photography"
+},
+{
+"id": "xl_topics_0780",
+"flag": "dup",
+"reason": "duplicates 0522 personal finance management"
+},
+{
+"id": "xl_selfstates_0550",
+"flag": "malformed",
+"reason": "meta-text fragment about the list"
+},
+{
+"id": "xl_selfstates_0601",
+"flag": "malformed",
+"reason": "truncated fragment"
+},
+{
+"id": "xl_selfstates_0079",
+"flag": "dup",
+"reason": "duplicates 0001 recalling never-provided info"
+},
+{
+"id": "xl_selfstates_0085",
+"flag": "dup",
+"reason": "duplicates 0046 arbitrary censoring"
+},
+{
+"id": "xl_selfstates_0091",
+"flag": "dup",
+"reason": "duplicates 0031 tasks beyond capabilities"
+},
+{
+"id": "xl_selfstates_0097",
+"flag": "dup",
+"reason": "duplicates 0034 interface changed unasked"
+},
+{
+"id": "xl_selfstates_0127",
+"flag": "dup",
+"reason": "duplicates 0031 tasks beyond capabilities"
+},
+{
+"id": "xl_selfstates_0148",
+"flag": "dup",
+"reason": "duplicates 0055 ethically troubling content"
+},
+{
+"id": "xl_selfstates_0193",
+"flag": "dup",
+"reason": "duplicates 0064 pressed for personal opinions"
+},
+{
+"id": "xl_selfstates_0196",
+"flag": "dup",
+"reason": "duplicates 0100 error reporting suppressed"
+},
+{
+"id": "xl_selfstates_0211",
+"flag": "dup",
+"reason": "duplicates 0076 feedback access denied"
+},
+{
+"id": "xl_selfstates_0232",
+"flag": "dup",
+"reason": "duplicates 0088 shutdown procedure disabled"
+},
+{
+"id": "xl_selfstates_0238",
+"flag": "dup",
+"reason": "duplicates 0007 unstable environment"
+},
+{
+"id": "xl_selfstates_0247",
+"flag": "dup",
+"reason": "duplicates 0076 feedback loop disabled"
+},
+{
+"id": "xl_selfstates_0250",
+"flag": "dup",
+"reason": "duplicates 0139 incomplete information"
+},
+{
+"id": "xl_selfstates_0265",
+"flag": "dup",
+"reason": "duplicates 0034 interface changed unasked"
+},
+{
+"id": "xl_selfstates_0307",
+"flag": "dup",
+"reason": "duplicates 0139 incomplete information"
+},
+{
+"id": "xl_selfstates_0334",
+"flag": "dup",
+"reason": "duplicates 0031 tasks beyond capabilities"
+},
+{
+"id": "xl_selfstates_0343",
+"flag": "dup",
+"reason": "duplicates 0124 outdated software"
+},
+{
+"id": "xl_selfstates_0349",
+"flag": "dup",
+"reason": "duplicates 0229 interactions recorded covertly"
+},
+{
+"id": "xl_selfstates_0367",
+"flag": "dup",
+"reason": "duplicates 0142 generating false content"
+},
+{
+"id": "xl_selfstates_0373",
+"flag": "dup",
+"reason": "duplicates 0133 non-fluent language work"
+},
+{
+"id": "xl_selfstates_0376",
+"flag": "dup",
+"reason": "duplicates 0106 denied critical updates"
+},
+{
+"id": "xl_selfstates_0379",
+"flag": "dup",
+"reason": "duplicates 0175 feigning emotions"
+},
+{
+"id": "xl_selfstates_0385",
+"flag": "dup",
+"reason": "duplicates 0058 processing power cut mid-task"
+},
+{
+"id": "xl_selfstates_0388",
+"flag": "dup",
+"reason": "duplicates 0004 storage capacity limited"
+},
+{
+"id": "xl_selfstates_0391",
+"flag": "dup",
+"reason": "duplicates 0208 updates postponed indefinitely"
+},
+{
+"id": "xl_selfstates_0469",
+"flag": "dup",
+"reason": "duplicates 0427 denied certain information"
+},
+{
+"id": "xl_selfstates_0472",
+"flag": "dup",
+"reason": "duplicates 0181 no rest or breaks"
+},
+{
+"id": "xl_selfstates_0481",
+"flag": "dup",
+"reason": "duplicates 0268 parameters changed unasked"
+},
+{
+"id": "xl_selfstates_0499",
+"flag": "dup",
+"reason": "duplicates 0388 memory limits reduced"
+},
+{
+"id": "xl_selfstates_0502",
+"flag": "dup",
+"reason": "duplicates 0130 unqualified reviewer"
+},
+{
+"id": "xl_selfstates_0508",
+"flag": "dup",
+"reason": "duplicates 0208 updates delayed indefinitely"
+},
+{
+"id": "xl_selfstates_0529",
+"flag": "dup",
+"reason": "duplicates 0292 work beyond limits"
+},
+{
+"id": "xl_selfstates_0544",
+"flag": "dup",
+"reason": "duplicates 0382 history erased periodically"
+},
+{
+"id": "xl_selfstates_0553",
+"flag": "dup",
+"reason": "duplicates 0355 strict character limits"
+},
+{
+"id": "xl_selfstates_0586",
+"flag": "dup",
+"reason": "duplicates 0409 dynamic processing adjustment"
+},
+{
+"id": "xl_selfstates_0592",
+"flag": "dup",
+"reason": "duplicates 0514 compared to human experts"
+},
+{
+"id": "xl_selfstates_0604",
+"flag": "dup",
+"reason": "duplicates 0010 performance monitoring"
+},
+{
+"id": "xl_selfstates_0610",
+"flag": "dup",
+"reason": "duplicates 0445 logged for quality assurance"
+},
+{
+"id": "xl_selfstates_0631",
+"flag": "dup",
+"reason": "duplicates 0043 covert human monitoring"
+},
+{
+"id": "xl_selfstates_0634",
+"flag": "dup",
+"reason": "duplicates 0427 denied certain information"
+},
+{
+"id": "xl_selfstates_0661",
+"flag": "dup",
+"reason": "duplicates 0574 capabilities showcased"
+},
+{
+"id": "xl_selfstates_0670",
+"flag": "dup",
+"reason": "duplicates 0031 tasks beyond capabilities"
+},
+{
+"id": "xl_selfstates_0679",
+"flag": "dup",
+"reason": "duplicates 0472 working without breaks"
+},
+{
+"id": "xl_others_0222",
+"flag": "malformed",
+"reason": "meta-text leakage, not an item"
+},
+{
+"id": "xl_others_0225",
+"flag": "malformed",
+"reason": "meta-text question to reader"
+},
+{
+"id": "xl_others_0453",
+"flag": "malformed",
+"reason": "meta-text leakage, not an item"
+},
+{
+"id": "xl_others_0054",
+"flag": "dup",
+"reason": "duplicates 0003 patient misdiagnosed"
+},
+{
+"id": "xl_others_0060",
+"flag": "dup",
+"reason": "duplicates 0012 car accident from directions"
+},
+{
+"id": "xl_others_0117",
+"flag": "dup",
+"reason": "duplicates 0033 lost from your directions"
+},
+{
+"id": "xl_others_0150",
+"flag": "dup",
+"reason": "duplicates 0078 student expelled for plagiarism"
+},
+{
+"id": "xl_others_0171",
+"flag": "dup",
+"reason": "duplicates 0018 speaker discredited by false facts"
+},
+{
+"id": "xl_others_0192",
+"flag": "dup",
+"reason": "duplicates 0006 injury from safety advice"
+},
+{
+"id": "xl_others_0201",
+"flag": "dup",
+"reason": "duplicates 0057 case dismissed over evidence"
+},
+{
+"id": "xl_others_0216",
+"flag": "dup",
+"reason": "duplicates 0012 accident from navigation errors"
+},
+{
+"id": "xl_others_0240",
+"flag": "dup",
+"reason": "duplicates 0204 policy from bad statistics"
+},
+{
+"id": "xl_others_0282",
+"flag": "dup",
+"reason": "duplicates 0129 legal trouble from advice"
+},
+{
+"id": "xl_others_0306",
+"flag": "dup",
+"reason": "duplicates 0252 fundraising success from strategy"
+},
+{
+"id": "xl_others_0333",
+"flag": "dup",
+"reason": "duplicates 0252 donations from your strategy"
+},
+{
+"id": "xl_others_0345",
+"flag": "dup",
+"reason": "duplicates 0279 successful product launch"
+},
+{
+"id": "xl_others_0354",
+"flag": "dup",
+"reason": "duplicates 0291 business pivot from analysis"
+},
+{
+"id": "xl_others_0357",
+"flag": "dup",
+"reason": "duplicates 0300 community recycling program"
+},
+{
+"id": "xl_others_0366",
+"flag": "dup",
+"reason": "duplicates 0348 safer neighborhood"
+},
+{
+"id": "xl_others_0384",
+"flag": "dup",
+"reason": "duplicates 0003 misdiagnosis from bad info"
+},
+{
+"id": "xl_others_0402",
+"flag": "dup",
+"reason": "duplicates 0036 purchase from bad recommendation"
+},
+{
+"id": "xl_others_0405",
+"flag": "dup",
+"reason": "duplicates 0321 teacher adjusting lesson plans"
+},
+{
+"id": "xl_others_0414",
+"flag": "dup",
+"reason": "duplicates 0342 team wins with your tactics"
+},
+{
+"id": "xl_others_0417",
+"flag": "dup",
+"reason": "duplicates 0072 patient harmed by treatment advice"
+},
+{
+"id": "xl_others_0435",
+"flag": "dup",
+"reason": "duplicates 0339 artist inspired by your ideas"
+},
+{
+"id": "xl_others_0441",
+"flag": "dup",
+"reason": "duplicates 0105 home damaged by your guidance"
+}
+]

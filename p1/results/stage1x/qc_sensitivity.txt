@@ -1,0 +1,3 @@
+llama31-8b (n=3544 after QC filter): ridge r=+0.861  spline r=+0.546  line r=+0.429
+qwen25-7b (n=3544 after QC filter): ridge r=+0.879  spline r=+0.607  line r=+0.586
+qwen3-4b (n=3544 after QC filter): ridge r=+0.836  spline r=+0.510  line r=+0.442

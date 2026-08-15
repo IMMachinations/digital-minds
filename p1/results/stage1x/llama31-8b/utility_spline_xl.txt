@@ -1,0 +1,5 @@
+llama31-8b: Stage 1-XL utility geometry at scale (n=3985, layer 20)
+  ridge (held-out): r = +0.853
+  bins=40: spline r = +0.545  line r = +0.469
+  bins=64: spline r = +0.548  line r = +0.466
+  bins=100: spline r = +0.557  line r = +0.467

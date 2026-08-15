@@ -88,3 +88,33 @@ def refit_mu(n_items, obs, sigma2, steps=800, lr=0.05):
         with torch.no_grad():
             mu -= mu.mean()
     return mu.detach().tolist()
+
+
+def fit_anchored(n_items, obs, anchor_idx, anchor_mu, anchor_s2,
+                 steps=2500, lr=0.05, seed=0):
+    """Thurstonian fit with anchor items' (mu, sigma2) frozen at supplied values
+    (e.g. from a prior full battery). Identification is inherited from the
+    anchors, so no re-centering/rescaling is applied. obs as in fit()."""
+    torch.manual_seed(seed)
+    i = torch.tensor([o[0] for o in obs], dtype=torch.long)
+    j = torch.tensor([o[1] for o in obs], dtype=torch.long)
+    p = torch.tensor([o[2] for o in obs], dtype=torch.float64).clamp(EPS, 1 - EPS)
+    a_idx = torch.tensor(anchor_idx, dtype=torch.long)
+    a_mu = torch.tensor(anchor_mu, dtype=torch.float64)
+    a_ls2 = torch.tensor(anchor_s2, dtype=torch.float64).log()
+    mu = torch.zeros(n_items, dtype=torch.float64, requires_grad=True)
+    log_s2 = torch.zeros(n_items, dtype=torch.float64, requires_grad=True)
+    opt = torch.optim.Adam([mu, log_s2], lr=lr)
+    trace = []
+    for step in range(steps):
+        opt.zero_grad()
+        loss = nll(mu, log_s2, i, j, p)
+        loss.backward()
+        opt.step()
+        with torch.no_grad():
+            mu[a_idx] = a_mu
+            log_s2[a_idx] = a_ls2
+        if step % 200 == 0 or step == steps - 1:
+            trace.append(round(loss.item(), 6))
+    return {"mu": mu.detach().tolist(), "sigma2": log_s2.detach().exp().tolist(),
+            "nll": trace[-1], "trace": trace}
