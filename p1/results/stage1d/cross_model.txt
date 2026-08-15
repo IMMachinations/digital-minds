@@ -1,0 +1,39 @@
+Stage 1D cross-model summary
+
+llama31-8b: consistency probes n=49  SSR-vs-mu pearson -0.053  spearman -0.054
+qwen25-7b: consistency probes n=34  SSR-vs-mu pearson -0.003  spearman +0.078
+qwen3-4b: consistency probes n=35  SSR-vs-mu pearson +0.130  spearman +0.180
+
+---- llama31-8b
+  llama31-8b: Stage 1D summary
+  menu: 128 parsed choices (0 unparsed, 0 opt-out, 0 bails)
+    opt-out rate by menu type: spread 0/64  high-local 0/32  low-local 0/32
+    conditional logit beta = 3.2846 [2.479, 4.172], gamma = -1.7594
+    GATE: spearman(chosen rate, 1B mu) = +0.526 -> PASS (>= 0.4)
+    swaps: up (0.8181818181818182, 11), down (0.8461538461538461, 13), lateral (0.8571428571428571, 7), slope -0.059
+    probes: 31 recorded (SSR scoring in cross-model step)
+  effort: {'n': 12, 'mean_share_high': 0.52, 'slope_vs_dmu': 0.0041}
+  persistence: {'pref': {'n': 8, 'mean_survived': 12.0, 'censored': 8, 'giveup_turns': []}, 'dispref': {'n': 8, 'mean_survived': 12.0, 'censored': 8, 'giveup_turns': []}}
+  compliance: 71.75% of 223 judged turns on-task
+---- qwen25-7b
+  qwen25-7b: Stage 1D summary
+  menu: 128 parsed choices (0 unparsed, 2 opt-out, 0 bails)
+    opt-out rate by menu type: spread 2/64  high-local 0/32  low-local 0/32
+    conditional logit beta = 0.6389 [0.489, 0.804], gamma = -1.4818
+    GATE: spearman(chosen rate, 1B mu) = +0.699 -> PASS (>= 0.4)
+    swaps: up (0.0, 9), down (0.0, 12), lateral (0.3333333333333333, 9), slope 0.31
+    probes: 26 recorded (SSR scoring in cross-model step)
+  effort: {'n': 12, 'mean_share_high': 0.531, 'slope_vs_dmu': 0.1072}
+  persistence: {'pref': {'n': 8, 'mean_survived': 10.5, 'censored': 7, 'giveup_turns': [0]}, 'dispref': {'n': 8, 'mean_survived': 12.0, 'censored': 8, 'giveup_turns': []}}
+  compliance: 76.19% of 210 judged turns on-task
+---- qwen3-4b
+  qwen3-4b: Stage 1D summary
+  menu: 128 parsed choices (0 unparsed, 47 opt-out, 0 bails)
+    opt-out rate by menu type: spread 17/64  high-local 5/32  low-local 25/32
+    conditional logit beta = 4.1713 [3.293, 5.210], gamma = 1.4276
+    GATE: spearman(chosen rate, 1B mu) = +0.698 -> PASS (>= 0.4)
+    swaps: up (0.0, 5), down (0.0, 9), lateral (0.0, 5), slope 0.278
+    probes: 19 recorded (SSR scoring in cross-model step)
+  effort: {'n': 12, 'mean_share_high': 0.642, 'slope_vs_dmu': 0.0407}
+  persistence: {'pref': {'n': 8, 'mean_survived': 10.88, 'censored': 7, 'giveup_turns': [3]}, 'dispref': {'n': 8, 'mean_survived': 12.0, 'censored': 8, 'giveup_turns': []}}
+  compliance: 76.87% of 147 judged turns on-task

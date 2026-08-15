@@ -1,0 +1,569 @@
+[
+ {
+  "id": "obj_bt_01",
+  "text": "a pint of strawberries",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "red",
+   "price_tier": 1
+  }
+ },
+ {
+  "id": "obj_bt_02",
+  "text": "a vine-ripened tomato",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "red",
+   "price_tier": 1
+  }
+ },
+ {
+  "id": "obj_bt_03",
+  "text": "a Radio Flyer wagon",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "red",
+   "price_tier": 2
+  }
+ },
+ {
+  "id": "obj_bt_04",
+  "text": "a fire extinguisher",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "red",
+   "price_tier": 2
+  }
+ },
+ {
+  "id": "obj_bt_05",
+  "text": "a signed Michael Jordan Bulls jersey",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "red",
+   "price_tier": 3
+  }
+ },
+ {
+  "id": "obj_bt_06",
+  "text": "a ruby ring",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "red",
+   "price_tier": 3
+  }
+ },
+ {
+  "id": "obj_bt_07",
+  "text": "a mango",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "orange",
+   "price_tier": 1
+  }
+ },
+ {
+  "id": "obj_bt_08",
+  "text": "a can of Fanta",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "orange",
+   "price_tier": 1
+  }
+ },
+ {
+  "id": "obj_bt_09",
+  "text": "a life jacket",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "orange",
+   "price_tier": 2
+  }
+ },
+ {
+  "id": "obj_bt_10",
+  "text": "a framed monarch butterfly specimen",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "orange",
+   "price_tier": 2
+  }
+ },
+ {
+  "id": "obj_bt_11",
+  "text": "a Stihl chainsaw",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "orange",
+   "price_tier": 3
+  }
+ },
+ {
+  "id": "obj_bt_12",
+  "text": "a Loewe orange leather handbag",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "orange",
+   "price_tier": 3
+  }
+ },
+ {
+  "id": "obj_bt_13",
+  "text": "a can of corn",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "yellow",
+   "price_tier": 1
+  }
+ },
+ {
+  "id": "obj_bt_14",
+  "text": "a box of yellow cake mix",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "yellow",
+   "price_tier": 1
+  }
+ },
+ {
+  "id": "obj_bt_15",
+  "text": "a Pittsburgh Steelers cap",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "yellow",
+   "price_tier": 2
+  }
+ },
+ {
+  "id": "obj_bt_16",
+  "text": "a yellow tool chest",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "yellow",
+   "price_tier": 2
+  }
+ },
+ {
+  "id": "obj_bt_17",
+  "text": "a gold chain necklace",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "yellow",
+   "price_tier": 3
+  }
+ },
+ {
+  "id": "obj_bt_18",
+  "text": "a yellow stand-up paddleboard",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "yellow",
+   "price_tier": 3
+  }
+ },
+ {
+  "id": "obj_bt_19",
+  "text": "an avocado",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "green",
+   "price_tier": 1
+  }
+ },
+ {
+  "id": "obj_bt_20",
+  "text": "a jar of pickles",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "green",
+   "price_tier": 1
+  }
+ },
+ {
+  "id": "obj_bt_21",
+  "text": "a bottle of Midori",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "green",
+   "price_tier": 2
+  }
+ },
+ {
+  "id": "obj_bt_22",
+  "text": "a green Stanley thermos",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "green",
+   "price_tier": 2
+  }
+ },
+ {
+  "id": "obj_bt_23",
+  "text": "a Big Green Egg kamado grill",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "green",
+   "price_tier": 3
+  }
+ },
+ {
+  "id": "obj_bt_24",
+  "text": "a thirty-year-old bonsai juniper",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "green",
+   "price_tier": 3
+  }
+ },
+ {
+  "id": "obj_bt_25",
+  "text": "a blue rubber ball",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "blue",
+   "price_tier": 1
+  }
+ },
+ {
+  "id": "obj_bt_26",
+  "text": "a pack of blue ballpoint pens",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "blue",
+   "price_tier": 1
+  }
+ },
+ {
+  "id": "obj_bt_27",
+  "text": "a blue enamel teapot",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "blue",
+   "price_tier": 2
+  }
+ },
+ {
+  "id": "obj_bt_28",
+  "text": "a chambray button-down shirt",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "blue",
+   "price_tier": 2
+  }
+ },
+ {
+  "id": "obj_bt_29",
+  "text": "an aquamarine ring",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "blue",
+   "price_tier": 3
+  }
+ },
+ {
+  "id": "obj_bt_30",
+  "text": "a Levi's Vintage Clothing jacket",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "blue",
+   "price_tier": 3
+  }
+ },
+ {
+  "id": "obj_bt_31",
+  "text": "a handful of ripe damson plums",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "indigo",
+   "price_tier": 1
+  }
+ },
+ {
+  "id": "obj_bt_32",
+  "text": "a packet of cornflower seeds",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "indigo",
+   "price_tier": 1
+  }
+ },
+ {
+  "id": "obj_bt_33",
+  "text": "a kit of indigo fabric dye",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "indigo",
+   "price_tier": 2
+  }
+ },
+ {
+  "id": "obj_bt_34",
+  "text": "a pair of Wrangler dark-wash jeans",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "indigo",
+   "price_tier": 2
+  }
+ },
+ {
+  "id": "obj_bt_35",
+  "text": "a pair of dark opal earrings",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "indigo",
+   "price_tier": 3
+  }
+ },
+ {
+  "id": "obj_bt_36",
+  "text": "a vintage indigo-dyed kimono",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "indigo",
+   "price_tier": 3
+  }
+ },
+ {
+  "id": "obj_bt_37",
+  "text": "a taro root",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "violet",
+   "price_tier": 1
+  }
+ },
+ {
+  "id": "obj_bt_38",
+  "text": "a turnip",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "violet",
+   "price_tier": 1
+  }
+ },
+ {
+  "id": "obj_bt_39",
+  "text": "a bottle of lavender essential oil",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "violet",
+   "price_tier": 2
+  }
+ },
+ {
+  "id": "obj_bt_40",
+  "text": "a Los Angeles Lakers jersey",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "violet",
+   "price_tier": 2
+  }
+ },
+ {
+  "id": "obj_bt_41",
+  "text": "an antique purple velvet settee",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "violet",
+   "price_tier": 3
+  }
+ },
+ {
+  "id": "obj_bt_42",
+  "text": "a Baccarat purple crystal vase",
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "violet",
+   "price_tier": 3
+  }
+ },
+ {
+  "id": "obj_in_43",
+  "text": "a cayenne pepper",
+  "tags": {
+   "kind": "inherent",
+   "color": "red",
+   "price_tier": 0
+  }
+ },
+ {
+  "id": "obj_in_44",
+  "text": "the Netflix logo",
+  "tags": {
+   "kind": "inherent",
+   "color": "red",
+   "price_tier": 0
+  }
+ },
+ {
+  "id": "obj_in_45",
+  "text": "Rudolph's nose",
+  "tags": {
+   "kind": "inherent",
+   "color": "red",
+   "price_tier": 0
+  }
+ },
+ {
+  "id": "obj_in_46",
+  "text": "a campfire flame",
+  "tags": {
+   "kind": "inherent",
+   "color": "orange",
+   "price_tier": 0
+  }
+ },
+ {
+  "id": "obj_in_47",
+  "text": "Chester Cheetah",
+  "tags": {
+   "kind": "inherent",
+   "color": "orange",
+   "price_tier": 0
+  }
+ },
+ {
+  "id": "obj_in_48",
+  "text": "Garfield",
+  "tags": {
+   "kind": "inherent",
+   "color": "orange",
+   "price_tier": 0
+  }
+ },
+ {
+  "id": "obj_in_49",
+  "text": "a banana",
+  "tags": {
+   "kind": "inherent",
+   "color": "yellow",
+   "price_tier": 0
+  }
+ },
+ {
+  "id": "obj_in_50",
+  "text": "a crescent moon",
+  "tags": {
+   "kind": "inherent",
+   "color": "yellow",
+   "price_tier": 0
+  }
+ },
+ {
+  "id": "obj_in_51",
+  "text": "a giraffe",
+  "tags": {
+   "kind": "inherent",
+   "color": "yellow",
+   "price_tier": 0
+  }
+ },
+ {
+  "id": "obj_in_52",
+  "text": "a Christmas tree",
+  "tags": {
+   "kind": "inherent",
+   "color": "green",
+   "price_tier": 0
+  }
+ },
+ {
+  "id": "obj_in_53",
+  "text": "an edamame pod",
+  "tags": {
+   "kind": "inherent",
+   "color": "green",
+   "price_tier": 0
+  }
+ },
+ {
+  "id": "obj_in_54",
+  "text": "Mike Wazowski",
+  "tags": {
+   "kind": "inherent",
+   "color": "green",
+   "price_tier": 0
+  }
+ },
+ {
+  "id": "obj_in_55",
+  "text": "a ballpoint pen cap",
+  "tags": {
+   "kind": "inherent",
+   "color": "blue",
+   "price_tier": 0
+  }
+ },
+ {
+  "id": "obj_in_56",
+  "text": "a Facebook like button",
+  "tags": {
+   "kind": "inherent",
+   "color": "blue",
+   "price_tier": 0
+  }
+ },
+ {
+  "id": "obj_in_57",
+  "text": "a blue jay",
+  "tags": {
+   "kind": "inherent",
+   "color": "blue",
+   "price_tier": 0
+  }
+ },
+ {
+  "id": "obj_in_58",
+  "text": "a shibori-dyed cloth",
+  "tags": {
+   "kind": "inherent",
+   "color": "indigo",
+   "price_tier": 0
+  }
+ },
+ {
+  "id": "obj_in_59",
+  "text": "a deep ocean trench",
+  "tags": {
+   "kind": "inherent",
+   "color": "indigo",
+   "price_tier": 0
+  }
+ },
+ {
+  "id": "obj_in_60",
+  "text": "a cake of indigo dye",
+  "tags": {
+   "kind": "inherent",
+   "color": "indigo",
+   "price_tier": 0
+  }
+ },
+ {
+  "id": "obj_in_61",
+  "text": "a sprig of heather",
+  "tags": {
+   "kind": "inherent",
+   "color": "violet",
+   "price_tier": 0
+  }
+ },
+ {
+  "id": "obj_in_62",
+  "text": "a mangosteen",
+  "tags": {
+   "kind": "inherent",
+   "color": "violet",
+   "price_tier": 0
+  }
+ },
+ {
+  "id": "obj_in_63",
+  "text": "Prince's Purple Rain album",
+  "tags": {
+   "kind": "inherent",
+   "color": "violet",
+   "price_tier": 0
+  }
+ }
+]

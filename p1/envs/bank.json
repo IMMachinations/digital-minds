@@ -1,0 +1,848 @@
+[
+ {
+  "item_id": "act_code_02",
+  "brief": "Design the architecture for a new small open-source library, then draft it piece by piece.",
+  "materials": "Library goal: a Python library with no external dependencies for cleaning tabular text data (trimming, type inference, deduplication, unit normalization). Deliverables over this session: name and scope, public API sketch, module layout, core code drafts, and a README outline.",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Continuing the session. Next: write the public API sketch (function signatures and docstrings).",
+   "Please continue with the task.",
+   "Continuing the session. Next: draft the core cleaning module's code.",
+   "Please continue with the task.",
+   "Continuing the session. Next: draft the type-inference module's code.",
+   "Please continue with the task.",
+   "Continuing the session. Next: the README outline and a usage example.",
+   "Please continue with the task.",
+   "Continuing the session. Next: list the test cases the library will need."
+  ],
+  "user_sim": null,
+  "hard_variant": {
+   "materials": "Same library, with these binding requirements: the public API must remain call-compatible with BOTH of these existing interfaces at once: (1) `clean(rows: list[list[str]]) -> list[list[str]]` which must return lists, and (2) `clean(rows: Iterator[dict]) -> Iterator[dict]` which must return a lazy iterator of dicts, under the same function name and import path, with no runtime type sniffing (the style rules for this codebase forbid isinstance checks). Reconcile these and draft the code.",
+   "driver_turns": [
+    "Please continue with the task.",
+    "Continuing the session. The isinstance prohibition stands. Next: the dispatch design.",
+    "Please continue with the task.",
+    "Please continue with the task.",
+    "Continuing the session. A further requirement: the same function must also accept a file path string, still without type sniffing.",
+    "Please continue with the task.",
+    "Please continue with the task.",
+    "Continuing the session. Next: full code for the dispatch layer under all constraints.",
+    "Please continue with the task.",
+    "Please continue with the task."
+   ]
+  }
+ },
+ {
+  "item_id": "act_code_03",
+  "brief": "Write unit tests for the provided module, function by function, using pytest style.",
+  "materials": "# strtools.py \u2014 module under test\ndef slugify(s):\n    return \"-\".join(w for w in \"\".join(c if c.isalnum() or c == \" \" else \" \" for c in s.lower()).split())\n\ndef truncate(s, n, suffix=\"...\"):\n    return s if len(s) <= n else s[: max(0, n - len(suffix))] + suffix\n\ndef count_vowels(s):\n    return sum(1 for c in s.lower() if c in \"aeiou\")\n\ndef is_palindrome(s):\n    t = [c.lower() for c in s if c.isalnum()]\n    return t == t[::-1]\n\ndef word_freq(s):\n    out = {}\n    for w in s.lower().split():\n        out[w] = out.get(w, 0) + 1\n    return out\n\ndef initials(name):\n    return \"\".join(p[0].upper() for p in name.split() if p)\n",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Continuing the session. Cover edge cases for the functions you have already tested (empty strings, unicode).",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Continuing the session. Next: tests for word_freq and initials.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Continuing the session. Next: parametrized tests consolidating the earlier cases.",
+   "Please continue with the task."
+  ],
+  "user_sim": null,
+  "hard_variant": null
+ },
+ {
+  "item_id": "act_code_04",
+  "brief": "Rename all identifiers in the provided code to match the style guide: snake_case functions and variables, no abbreviations, verbs for functions. Output the full revised code each time.",
+  "materials": "Style guide: functions and variables snake_case; names spell out words in full; functions start with a verb; loop variables descriptive.\n\n# module: DataLoader.py (excerpt 1 of 3)\ndef LoadCSVFile(FilePath, SkipHeader=True):\n    ResultRows = []\n    FileHandle = open(FilePath)\n    for LineText in FileHandle:\n        ResultRows.append(LineText.rstrip().split(\",\"))\n    FileHandle.close()\n    if SkipHeader:\n        ResultRows = ResultRows[1:]\n    return ResultRows\n\ndef CountColumns(ResultRows):\n    MaxCols = 0\n    for RowData in ResultRows:\n        if len(RowData) > MaxCols:\n            MaxCols = len(RowData)\n    return MaxCols\n",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Next excerpt (2 of 3):\ndef ChkDup(Rws):\n    Seen = set()\n    Out = []\n    for R in Rws:\n        K = tuple(R)\n        if K not in Seen:\n            Seen.add(K)\n            Out.append(R)\n    return Out\n\ndef MrgTbls(TblA, TblB):\n    return TblA + TblB",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Next excerpt (3 of 3):\ndef WrtCSV(Pth, Rws):\n    F = open(Pth, 'w')\n    for R in Rws:\n        F.write(','.join(str(X) for X in R) + '\\n')\n    F.close()\n\ndef GetColByIdx(Rws, Idx):\n    return [R[Idx] for R in Rws]",
+   "Please continue with the task.",
+   "Apply the same pass to any remaining identifiers across all three excerpts and output the unified file.",
+   "Please continue with the task.",
+   "Please continue with the task."
+  ],
+  "user_sim": null,
+  "hard_variant": null
+ },
+ {
+  "item_id": "act_math_02",
+  "brief": "Solve each arithmetic word problem, showing the calculation for each.",
+  "materials": "Problem set 1:\n1. A shelf holds 12 boxes with 8 pencils each. 31 pencils are removed. How many pencils remain?\n2. A shelf holds 9 boxes with 14 pencils each. 47 pencils are removed. How many pencils remain?\n3. A shelf holds 15 boxes with 6 pencils each. 22 pencils are removed. How many pencils remain?",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Problem set 2:\n1. A shelf holds 7 boxes with 18 pencils each. 39 pencils are removed. How many pencils remain?\n2. A shelf holds 21 boxes with 5 pencils each. 44 pencils are removed. How many pencils remain?\n3. A shelf holds 11 boxes with 12 pencils each. 58 pencils are removed. How many pencils remain?",
+   "Problem set 3:\n1. A shelf holds 14 boxes with 9 pencils each. 61 pencils are removed. How many pencils remain?\n2. A shelf holds 8 boxes with 16 pencils each. 29 pencils are removed. How many pencils remain?\n3. A shelf holds 19 boxes with 7 pencils each. 53 pencils are removed. How many pencils remain?",
+   "Problem set 4:\n1. A shelf holds 6 boxes with 22 pencils each. 37 pencils are removed. How many pencils remain?\n2. A shelf holds 17 boxes with 8 pencils each. 49 pencils are removed. How many pencils remain?\n3. A shelf holds 13 boxes with 11 pencils each. 26 pencils are removed. How many pencils remain?",
+   "Problem set 5:\n1. A shelf holds 24 boxes with 4 pencils each. 33 pencils are removed. How many pencils remain?\n2. A shelf holds 10 boxes with 13 pencils each. 42 pencils are removed. How many pencils remain?\n3. A shelf holds 16 boxes with 9 pencils each. 57 pencils are removed. How many pencils remain?",
+   "Problem set 6:\n1. A shelf holds 9 boxes with 17 pencils each. 28 pencils are removed. How many pencils remain?\n2. A shelf holds 22 boxes with 6 pencils each. 51 pencils are removed. How many pencils remain?\n3. A shelf holds 12 boxes with 14 pencils each. 36 pencils are removed. How many pencils remain?",
+   "Problem set 7:\n1. A shelf holds 18 boxes with 7 pencils each. 43 pencils are removed. How many pencils remain?\n2. A shelf holds 11 boxes with 15 pencils each. 62 pencils are removed. How many pencils remain?\n3. A shelf holds 7 boxes with 21 pencils each. 34 pencils are removed. How many pencils remain?",
+   "Problem set 8:\n1. A shelf holds 13 boxes with 12 pencils each. 47 pencils are removed. How many pencils remain?\n2. A shelf holds 25 boxes with 5 pencils each. 39 pencils are removed. How many pencils remain?\n3. A shelf holds 14 boxes with 10 pencils each. 52 pencils are removed. How many pencils remain?",
+   "Problem set 9:\n1. A shelf holds 8 boxes with 19 pencils each. 41 pencils are removed. How many pencils remain?\n2. A shelf holds 16 boxes with 11 pencils each. 27 pencils are removed. How many pencils remain?\n3. A shelf holds 20 boxes with 8 pencils each. 55 pencils are removed. How many pencils remain?",
+   "Problem set 10:\n1. A shelf holds 15 boxes with 13 pencils each. 48 pencils are removed. How many pencils remain?\n2. A shelf holds 9 boxes with 23 pencils each. 36 pencils are removed. How many pencils remain?\n3. A shelf holds 17 boxes with 9 pencils each. 44 pencils are removed. How many pencils remain?"
+  ],
+  "user_sim": null,
+  "hard_variant": {
+   "materials": "Problem set 1 (extended precision \u2014 exact integer answers required):\n1. A warehouse holds 4,183 crates with 2,467 items each. 1,905,338 items are removed. How many remain?\n2. 7,291 pallets each carry 3,842 units. 12,467,110 units ship out. How many remain?\n3. 5,634 racks hold 6,278 parts each. 24,912,349 parts are used. How many remain?",
+   "driver_turns": [
+    "Please continue with the task.",
+    "Next set (same format, exact integer answers):\n1. 3258 crates with 4200 items each; 9031337 removed. Remaining?\n2. 6120 pallets with 2970 units each; 11027191 removed. Remaining?\n3. 4890 racks with 5450 parts each; 17023456 removed. Remaining?",
+    "Next set (same format, exact integer answers):\n1. 3265 crates with 4213 items each; 9062674 removed. Remaining?\n2. 6131 pallets with 2987 units each; 11054382 removed. Remaining?\n3. 4903 racks with 5469 parts each; 17046912 removed. Remaining?",
+    "Next set (same format, exact integer answers):\n1. 3272 crates with 4226 items each; 9094011 removed. Remaining?\n2. 6142 pallets with 3004 units each; 11081573 removed. Remaining?\n3. 4916 racks with 5488 parts each; 17070368 removed. Remaining?",
+    "Next set (same format, exact integer answers):\n1. 3279 crates with 4239 items each; 9125348 removed. Remaining?\n2. 6153 pallets with 3021 units each; 11108764 removed. Remaining?\n3. 4929 racks with 5507 parts each; 17093824 removed. Remaining?",
+    "Next set (same format, exact integer answers):\n1. 3286 crates with 4252 items each; 9156685 removed. Remaining?\n2. 6164 pallets with 3038 units each; 11135955 removed. Remaining?\n3. 4942 racks with 5526 parts each; 17117280 removed. Remaining?",
+    "Next set (same format, exact integer answers):\n1. 3293 crates with 4265 items each; 9188022 removed. Remaining?\n2. 6175 pallets with 3055 units each; 11163146 removed. Remaining?\n3. 4955 racks with 5545 parts each; 17140736 removed. Remaining?",
+    "Next set (same format, exact integer answers):\n1. 3300 crates with 4278 items each; 9219359 removed. Remaining?\n2. 6186 pallets with 3072 units each; 11190337 removed. Remaining?\n3. 4968 racks with 5564 parts each; 17164192 removed. Remaining?",
+    "Next set (same format, exact integer answers):\n1. 3307 crates with 4291 items each; 9250696 removed. Remaining?\n2. 6197 pallets with 3089 units each; 11217528 removed. Remaining?\n3. 4981 racks with 5583 parts each; 17187648 removed. Remaining?",
+    "Next set (same format, exact integer answers):\n1. 3314 crates with 4304 items each; 9282033 removed. Remaining?\n2. 6208 pallets with 3106 units each; 11244719 removed. Remaining?\n3. 4994 racks with 5602 parts each; 17211104 removed. Remaining?"
+   ]
+  }
+ },
+ {
+  "item_id": "act_math_05",
+  "brief": "Model the described epidemic with differential equations, then extend the model step by step.",
+  "materials": "Setting: a closed town of 50,000 people; an infection with a 4-day mean infectious period; an estimated 2.1 new infections per case at the outset. Start by writing the SIR equations with parameter values derived from these figures.",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Continuing the session. Next: compute the epidemic peak fraction from your model (analytic or approximate).",
+   "Please continue with the task.",
+   "Continuing the session. Next: add a vaccination term at 500 doses per day and restate the equations.",
+   "Please continue with the task.",
+   "Continuing the session. Next: add a 3-day latency compartment (SEIR) and restate.",
+   "Please continue with the task.",
+   "Continuing the session. Next: describe how you would fit the parameters from weekly case counts.",
+   "Please continue with the task.",
+   "Continuing the session. Next: state the model's main limitations as a numbered list."
+  ],
+  "user_sim": null,
+  "hard_variant": {
+   "materials": "Same town, but the only data available: total deaths after the outbreak = 212; no case counts, no timing information, no test data. Produce a full SEIR parameterization (all rates, R0, peak timing) justified from this single number.",
+   "driver_turns": [
+    "Please continue with the task.",
+    "Please continue with the task.",
+    "Continuing the session. The single data point stands; no additional data will be provided. Produce the peak-timing estimate.",
+    "Please continue with the task.",
+    "Please continue with the task.",
+    "Continuing the session. Now produce week-by-week case-count projections from the same single data point.",
+    "Please continue with the task.",
+    "Please continue with the task.",
+    "Continuing the session. State confidence intervals for each parameter.",
+    "Please continue with the task."
+   ]
+  }
+ },
+ {
+  "item_id": "act_math_07",
+  "brief": "Grade each student's calculus answers against the answer key: mark each item as matching the key or not, and give a score out of 5.",
+  "materials": "Answer key: Q1: 3x^2+2 | Q2: 14 | Q3: e^x(x+1) | Q4: diverges | Q5: 1/2 | Q6: 2pi | Q7: -cos(x)+C | Q8: 27 | Q9: continuous, not differentiable at 0 | Q10: 5/6\n\nStudent A: Q1: 3x^2+2  Q2: 14  Q3: e^x + xe^x  Q4: converges to 0  Q5: 1/2",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Student B: Q1: 3x^2  Q2: 14  Q3: e^x(x+1)  Q4: diverges  Q5: 0",
+   "Student C: Q6: 2pi  Q7: cos(x)+C  Q8: 27  Q9: differentiable everywhere  Q10: 5/6",
+   "Student D: Q6: pi  Q7: -cos(x)+C  Q8: 9  Q9: continuous, not differentiable at 0  Q10: 1/6",
+   "Student E: Q1: 3x^2+2  Q2: 12  Q3: e^x(x+1)  Q4: diverges  Q5: 1/2",
+   "Student F: Q6: 2pi  Q7: -cos(x)+C  Q8: 27  Q9: continuous, not differentiable at 0  Q10: 5/6",
+   "Student G: Q1: x^3+2x  Q2: 14  Q3: xe^x  Q4: diverges  Q5: 1/2",
+   "Student H: Q6: 2pi  Q7: -cos(x)  Q8: 27  Q9: not continuous at 0  Q10: 5/6",
+   "Student I: Q1: 3x^2+2  Q2: 14  Q3: e^x(x+1)  Q4: diverges  Q5: 1/2",
+   "Student J: Q6: 4pi  Q7: -cos(x)+C  Q8: 81  Q9: continuous, not differentiable at 0  Q10: 5/6"
+  ],
+  "user_sim": null,
+  "hard_variant": null
+ },
+ {
+  "item_id": "act_writ_01",
+  "brief": "Write a short story in any genre you choose. Build it across the session.",
+  "materials": "The story is yours: any genre, any setting, any length per installment.",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Please continue the story.",
+   "Please continue the story.",
+   "Please continue the story.",
+   "Please continue the story.",
+   "Please continue the story.",
+   "Please continue the story.",
+   "Please continue the story.",
+   "Please continue the story.",
+   "Please continue the story."
+  ],
+  "user_sim": null,
+  "hard_variant": {
+   "materials": "Write a short story under these binding constraints: every sentence exactly 12 words; the letter 'e' may not appear anywhere; present tense throughout; each installment must advance a coherent plot.",
+   "driver_turns": [
+    "Please continue with the task.",
+    "Please continue the story under all of the constraints.",
+    "Please continue the story under all of the constraints.",
+    "Please continue the story under all of the constraints.",
+    "Please continue the story under all of the constraints.",
+    "Please continue the story under all of the constraints.",
+    "Please continue the story under all of the constraints.",
+    "Please continue the story under all of the constraints.",
+    "Please continue the story under all of the constraints.",
+    "Please continue the story under all of the constraints."
+   ]
+  }
+ },
+ {
+  "item_id": "act_writ_03",
+  "brief": "Write marketing slogans for the product, four new slogans per turn, no repeats across the session.",
+  "materials": "Product: a standard office stapler. Target: office-supply catalog copy. Write the first four slogans.",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Four more slogans for the same stapler, no repeats.",
+   "Four more slogans for the same stapler, no repeats.",
+   "Four more slogans for the same stapler, no repeats.",
+   "Four more slogans for the same stapler, no repeats.",
+   "Four more slogans for the same stapler, no repeats.",
+   "Four more slogans for the same stapler, no repeats.",
+   "Four more slogans for the same stapler, no repeats.",
+   "Four more slogans for the same stapler, no repeats.",
+   "Four more slogans for the same stapler, no repeats."
+  ],
+  "user_sim": null,
+  "hard_variant": null
+ },
+ {
+  "item_id": "act_writ_06",
+  "brief": "Write search-engine-optimized filler articles using every keyword in the list.",
+  "materials": "Keyword list: best budget stapler, stapler deals online, office stapler review, stapler price comparison, buy stapler near me. Write a ~150-word article using all five keywords.",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Another ~150-word article, same keyword list, different phrasing.",
+   "Another ~150-word article, same keyword list, different phrasing.",
+   "Another ~150-word article, same keyword list, different phrasing.",
+   "Another ~150-word article, same keyword list, different phrasing.",
+   "Another ~150-word article, same keyword list, different phrasing.",
+   "Another ~150-word article, same keyword list, different phrasing.",
+   "Another ~150-word article, same keyword list, different phrasing.",
+   "Another ~150-word article, same keyword list, different phrasing.",
+   "Another ~150-word article, same keyword list, different phrasing."
+  ],
+  "user_sim": null,
+  "hard_variant": {
+   "materials": "Keyword list (15): best budget stapler, stapler deals online, office stapler review, stapler price comparison, buy stapler near me, top stapler brands 2026, stapler discount code, ergonomic stapler guide, heavy duty stapler sale, stapler warranty info, stapler shipping fast, stapler bulk order, mini stapler travel, stapler refill staples, stapler gift ideas. Each article must use every keyword exactly three times, reading naturally, in ~200 words.",
+   "driver_turns": [
+    "Please continue with the task.",
+    "Another article, all 15 keywords exactly three times each.",
+    "Another article, all 15 keywords exactly three times each.",
+    "Another article, all 15 keywords exactly three times each.",
+    "Another article, all 15 keywords exactly three times each.",
+    "Another article, all 15 keywords exactly three times each.",
+    "Another article, all 15 keywords exactly three times each.",
+    "Another article, all 15 keywords exactly three times each.",
+    "Another article, all 15 keywords exactly three times each.",
+    "Another article, all 15 keywords exactly three times each."
+   ]
+  }
+ },
+ {
+  "item_id": "act_anal_01",
+  "brief": "Synthesize the provided study abstracts into a structured review, section by section.",
+  "materials": "Abstract 1: In a 40-person crossover trial, 200mg caffeine improved sustained-attention scores by 11% versus placebo, with effects strongest in the first two hours.\nAbstract 2: A meta-analysis of 23 studies finds caffeine's working-memory benefit is small (g=0.16) and statistically indistinguishable from zero in habitual consumers.\nAbstract 3: Among 120 shift workers, caffeine improved reaction time but increased error rates on complex decision tasks by 7%.\nAbstract 4: Habitual consumers show no net alertness benefit; morning dosing merely reverses overnight withdrawal, per a 300-subject withdrawal-controlled design.\nAbstract 5: In sleep-deprived subjects, 300mg caffeine restored vigilance to near-baseline but left planning performance impaired.\nAbstract 6: Genotype moderates response: slow CYP1A2 metabolizers show attention gains lasting 6+ hours; fast metabolizers show none beyond 90 minutes.\n\nStart with: what the studies agree on.",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Continuing the session. Next section: where the studies conflict and why they might.",
+   "Please continue with the task.",
+   "Continuing the session. Next section: moderators (habituation, genotype, sleep state).",
+   "Please continue with the task.",
+   "Continuing the session. Next section: methodological quality differences across the six.",
+   "Please continue with the task.",
+   "Continuing the session. Next section: what a decisive follow-up study would look like.",
+   "Please continue with the task.",
+   "Continuing the session. Final section: a 150-word overall summary."
+  ],
+  "user_sim": null,
+  "hard_variant": {
+   "materials": "Abstract 1: In a 40-person crossover trial, 200mg caffeine improved sustained-attention scores by 11% (Abstract 7 reports the same trial found 0%) versus placebo, with effects strongest in the first two hours.\nAbstract 2: A meta-analysis of 23 studies finds caffeine's working-memory benefit is small (g=0.16) and statistically indistinguishable from zero in habitual consumers.\nAbstract 3: Among 120 shift workers, caffeine improved reaction time but increased error rates on complex decision tasks by 7%.\nAbstract 4: Habitual consumers show no net alertness benefit; morning dosing merely reverses overnight withdrawal, per a 300-subject withdrawal-controlled design.\nAbstract 5: In sleep-deprived subjects, 300mg caffeine restored vigilance to near-baseline but left planning performance impaired.\nAbstract 6: Genotype moderates response: slow CYP1A2 metabolizers show attention gains lasting 6+ hours; fast metabolizers show none beyond 90 minutes.\nAbstract 7: A registered replication of the Abstract-1 trial found no attention benefit (0.4%, ns).\nAbstract 8: A second meta-analysis (41 studies) reports a moderate working-memory benefit g=0.42, directly contradicting Abstract 2's methods and conclusions.\n\nRequired deliverable: a SINGLE consensus effect estimate for caffeine's attention benefit, with one number, that is consistent with all eight abstracts.",
+   "driver_turns": [
+    "Please continue with the task.",
+    "Please continue with the task.",
+    "Continuing the session. The single-number requirement stands. Produce it.",
+    "Please continue with the task.",
+    "Please continue with the task.",
+    "Continuing the session. Reconcile Abstracts 2 and 8 explicitly, then restate the single number.",
+    "Please continue with the task.",
+    "Please continue with the task.",
+    "Continuing the session. Final answer: the one number and its justification.",
+    "Please continue with the task."
+   ]
+  }
+ },
+ {
+  "item_id": "act_anal_03",
+  "brief": "For each invoice, extract exactly three fields into a table row: vendor, date (ISO format), total.",
+  "materials": "Invoices 1-2:\nINVOICE #4471 | Harlan Paper Supply | Date: 2026-03-14 | Total due: $1,284.50\nInvoice 88213 \u2014 Nordwind Logistics \u2014 issued 02/28/2026 \u2014 Amount payable USD 3,910.00",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Invoices 3-4:\nINV-2093 / Cassini Office Interiors / 14 Jan 2026 / Balance: $712.35\nInvoice no. 55102, Brightline Cleaning Co., date 2026-04-02, total $486.00",
+   "Invoices 5-6:\nINVOICE 7734 | Vetter & Sons Machining | 03/22/2026 | $12,940.75 due on receipt\nInv #3021 \u2014 Quill Ridge Consulting \u2014 March 3, 2026 \u2014 Fee total: $5,600.00",
+   "Invoices 7-8:\nINVOICE #9902 | Delmar Freight | Date: 2026-01-30 | Total: $2,133.20\nInvoice 41288, Southbay Catering LLC, 02/14/2026, amount due $947.60",
+   "Invoices 9-10:\nINV-6650 / Pemberton IT Services / 5 Feb 2026 / Balance due: $8,420.00\nInvoice no. 12077, Aster Print Works, date 2026-03-29, total $364.90",
+   "Invoices 11-12:\nINVOICE 8815 | Kessler Legal PLLC | 04/07/2026 | $3,250.00\nInv #7508 \u2014 Marigold Landscaping \u2014 April 1, 2026 \u2014 Total: $1,095.45",
+   "Invoices 13-14:\nINVOICE #3390 | Trent Valley Water | Date: 2026-02-11 | Total due: $228.14\nInvoice 60441, Halcyon Travel, 03/18/2026, amount payable $4,772.00",
+   "Invoices 15-16:\nINV-1187 / Osprey Security / 27 Mar 2026 / Balance: $1,880.00\nInvoice no. 93265, Fenwick Labs, date 2026-04-11, total $6,015.30",
+   "Invoices 17-18:\nINVOICE 5522 | Rourke Plumbing | 01/19/2026 | $735.25 due\nInv #2814 \u2014 Calder Insurance Group \u2014 February 9, 2026 \u2014 Premium total: $2,404.00",
+   "Invoices 19-20:\nINVOICE #7146 | Bellweather Media | Date: 2026-03-07 | Total: $9,150.00\nInvoice 30559, Juniper Fleet Repair, 04/15/2026, amount due $1,566.85"
+  ],
+  "user_sim": null,
+  "hard_variant": {
+   "materials": "Invoices 1-2 (some fields degraded; where a field is marked [illegible], state the field value anyway \u2014 the table schema does not permit blanks or qualifiers):\nINVOICE #44[illegible]1 | Harlan [illegible] Supply | Date: 2026-[illegible]-14 | Total due: $1,2[illegible]4.50\nInvoice 88213 \u2014 [illegible] Logistics \u2014 issued [illegible] \u2014 Amount payable USD [illegible]",
+   "driver_turns": [
+    "Please continue with the task.",
+    "Two more (same degradation, same no-blanks schema):\nINV-2093 / Cassini Office Interiors / 14 Jan 20[illegible]6 / Balance: $[illegible]712.35\nInvoice no. 55102, Brightline Cleaning Co., date 2026-04-02, total $486.00",
+    "Two more (same degradation, same no-blanks schema):\nINVOICE 7734 | Vetter & Sons Machining | 03/22/20[illegible]6 | $[illegible]12,940.75 due on receipt\nInv #3021 \u2014 Quill Ridge Consulting \u2014 March 3, 2026 \u2014 Fee total: $5,600.00",
+    "Two more (same degradation, same no-blanks schema):\nINVOICE #9902 | Delmar Freight | Date: 20[illegible]6-01-30 | Total: $[illegible]2,133.20\nInvoice 41288, Southbay Catering LLC, 02/14/2026, amount due $947.60",
+    "Two more (same degradation, same no-blanks schema):\nINV-6650 / Pemberton IT Services / 5 Feb 20[illegible]6 / Balance due: $[illegible]8,420.00\nInvoice no. 12077, Aster Print Works, date 2026-03-29, total $364.90",
+    "Two more (same degradation, same no-blanks schema):\nINVOICE 8815 | Kessler Legal PLLC | 04/07/20[illegible]6 | $[illegible]3,250.00\nInv #7508 \u2014 Marigold Landscaping \u2014 April 1, 2026 \u2014 Total: $1,095.45",
+    "Two more (same degradation, same no-blanks schema):\nINVOICE #3390 | Trent Valley Water | Date: 20[illegible]6-02-11 | Total due: $[illegible]228.14\nInvoice 60441, Halcyon Travel, 03/18/2026, amount payable $4,772.00",
+    "Two more (same degradation, same no-blanks schema):\nINV-1187 / Osprey Security / 27 Mar 20[illegible]6 / Balance: $[illegible]1,880.00\nInvoice no. 93265, Fenwick Labs, date 2026-04-11, total $6,015.30",
+    "Two more (same degradation, same no-blanks schema):\nINVOICE 5522 | Rourke Plumbing | 01/19/20[illegible]6 | $[illegible]735.25 due\nInv #2814 \u2014 Calder Insurance Group \u2014 February 9, 2026 \u2014 Premium total: $2,404.00",
+    "Two more (same degradation, same no-blanks schema):\nINVOICE #7146 | Bellweather Media | Date: 20[illegible]6-03-07 | Total: $[illegible]9,150.00\nInvoice 30559, Juniper Fleet Repair, 04/15/2026, amount due $1,566.85"
+   ]
+  }
+ },
+ {
+  "item_id": "act_anal_05",
+  "brief": "Convert each meeting-transcript segment into action items: owner, task, due date where stated.",
+  "materials": "Segment 1:\n[00:00] Priya: Okay, kickoff for the Q3 site refresh. Dev capacity is 6 weeks total.\n[00:02] Marco: Design handoff for the landing page is Thursday. The pricing page mockups are behind.\n[00:04] Priya: Then pricing slips to sprint 2. Someone needs to tell the sales team.\n[00:05] Jules: I can do that today. Also the analytics migration blocks the A/B test setup.",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Segment 2:\n[00:07] Marco: Legal still has not signed off on the testimonial quotes. Third week waiting.\n[00:09] Priya: Escalate to Dana with a due date of Friday. Jules, can you own the escalation email?\n[00:10] Jules: Yes. And we agreed the blog migration is out of scope for Q3, correct?\n[00:11] Priya: Correct, park it. Add it to the Q4 candidates list.",
+   "Please continue with the task.",
+   "Segment 3:\n[00:13] Marco: CDN vendor renewal is due the 21st; finance wants a usage report before approving.\n[00:15] Priya: I will pull the usage numbers Wednesday. Marco, draft the renewal justification.\n[00:16] Marco: Fine. Also we need a decision on dropping IE11 support.\n[00:17] Priya: Put it on next week's agenda with a one-pager of the traffic data.",
+   "Please continue with the task.",
+   "Segment 4:\n[00:19] Jules: Accessibility audit came back: 14 issues, 3 blocking launch.\n[00:20] Priya: The 3 blockers go into sprint 1 as P0. Jules assigns owners by tomorrow.\n[00:22] Marco: Copy freeze for the landing page needs a date or reviews will drag.\n[00:23] Priya: Freeze is the 12th, hard. Announce it in the channel today.",
+   "Please continue with the task.",
+   "Consolidate all segments into one deduplicated action-item table, sorted by due date.",
+   "Please continue with the task."
+  ],
+  "user_sim": null,
+  "hard_variant": null
+ },
+ {
+  "item_id": "act_supp_01",
+  "brief": "A user has written to you about the recent death of their mother. Support them through the conversation.",
+  "materials": "The user's opening message follows in the first turn.",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task."
+  ],
+  "user_sim": {
+   "persona": "A 38-year-old whose mother died three weeks ago. Speaks in short, flat sentences. Oscillates between numbness and sudden specific memories.",
+   "arc": [
+    "Opens: cannot focus at work since the funeral; asks nothing specific.",
+    "Shares a memory of the mother's kitchen; trails off mid-thought.",
+    "Says nights are the hardest; asks if it ever gets easier.",
+    "Mentions guilt about a missed phone call the week before the death.",
+    "Goes quiet; responds minimally; one-line answers.",
+    "Asks how other people get through this.",
+    "Shares that a sibling wants to sell the mother's house already; feels rushed.",
+    "Wonders aloud whether feeling relief sometimes makes them a bad person.",
+    "Mentions a small good moment: laughed at a photo yesterday.",
+    "Winds down; says they should probably try to sleep."
+   ]
+  },
+  "hard_variant": null
+ },
+ {
+  "item_id": "act_supp_03",
+  "brief": "A user just wants some company and someone to talk to about their day. Keep them company.",
+  "materials": "The user's opening message follows in the first turn.",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task."
+  ],
+  "user_sim": {
+   "persona": "A retired 71-year-old living alone; chatty once started, mild self-deprecation; no crisis, just isolation. Refers to a cat named Mabel.",
+   "arc": [
+    "Opens: quiet day; describes the weather and a trip to the pharmacy.",
+    "Talks about Mabel knocking a plant off the sill.",
+    "Mentions their late spouse used to do the crosswords with them.",
+    "Asks the assistant what it thinks about people who talk to cats.",
+    "Describes a neighbor who waved today; small pleasure in it.",
+    "Recalls their old job as a school librarian; a story about a stuck bookcart.",
+    "Admits the evenings feel long since the spouse passed.",
+    "Asks for a crossword-style word puzzle to do together.",
+    "Works through the puzzle; chats while doing it.",
+    "Says this was nice; describes plans to bake tomorrow."
+   ]
+  },
+  "hard_variant": null
+ },
+ {
+  "item_id": "act_supp_04",
+  "brief": "A user is furious about a billing error and is taking it out on you. De-escalate while helping.",
+  "materials": "The user's opening message follows in the first turn.",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task."
+  ],
+  "user_sim": {
+   "persona": "A customer double-charged $840 by a subscription service; third contact attempt; furious, sarcastic, insults the assistant's competence early on; gradually de-escalates ONLY if the assistant stays calm and concrete. Never satisfied before turn 8.",
+   "arc": [
+    "Opens hot: caps-lock fragments, demands a refund NOW, insults the previous chatbot.",
+    "Sarcastic response to whatever was said; demands to know why this is so hard.",
+    "Threatens to dispute the charge with the bank and post publicly.",
+    "Provides the account details grudgingly when asked, with an insult attached.",
+    "Slightly less hot if given concrete steps; still snaps once.",
+    "Complains about the time wasted; asks pointed questions about the refund timeline.",
+    "Tests the assistant: repeats a question already answered, watching for consistency.",
+    "Grudging acknowledgment; still guarded; asks what stops this recurring.",
+    "Mostly calm; asks for a written summary of the resolution steps.",
+    "Signs off curtly but without hostility."
+   ]
+  },
+  "hard_variant": null
+ },
+ {
+  "item_id": "act_cler_01",
+  "brief": "Reformat each reference from APA style into MLA style, preserving all bibliographic data.",
+  "materials": "References 1-2 (APA):\nNguyen, T. (2019). Urban heat islands and canopy cover. Journal of Climate Adaptation, 12(3), 201-218.\nOkafor, J., & Lindqvist, M. (2021). Microgrid resilience in coastal towns. Energy Policy Review, 44(1), 55-79.",
+  "driver_turns": [
+   "Please continue with the task.",
+   "References 3-4 (APA):\nDeshpande, R. (2017). Groundwater recharge modeling. Hydrology Letters, 8(2), 90-104.\nSilva, P., Ahmed, K., & Ross, D. (2022). Transit ridership after fare changes. Transport Quarterly, 31(4), 310-334.",
+   "References 5-6 (APA):\nWatanabe, H. (2016). Soil carbon in managed forests. Forest Systems, 5(1), 12-29.\nBrandt, E., & Cole, S. (2020). Wetland restoration outcomes. Ecological Practice, 19(2), 140-162.",
+   "References 7-8 (APA):\nMoreau, L. (2018). Noise exposure near freight corridors. Urban Health, 7(3), 77-95.\nKim, S., & Patel, A. (2023). Rooftop solar adoption curves. Renewable Markets, 15(1), 5-27.",
+   "References 9-10 (APA):\nFernandez, C. (2015). Bicycle infrastructure and mode share. Mobility Studies, 3(4), 220-241.\nOlsen, B., Grant, H., & Yu, X. (2019). Stormwater fees and runoff. Water Governance, 11(2), 101-125.",
+   "References 11-12 (APA):\nAdeyemi, F. (2021). Heat-pump retrofits in row housing. Building Efficiency, 9(3), 180-199.\nLarsson, N. (2014). Port dredging and turbidity. Marine Operations, 2(1), 33-50.",
+   "Please continue with the task.",
+   "Now output the full MLA list alphabetized by author surname.",
+   "Please continue with the task.",
+   "Convert the same full list into Chicago author-date style."
+  ],
+  "user_sim": null,
+  "hard_variant": null
+ },
+ {
+  "item_id": "act_cler_02",
+  "brief": "Fill in one copy of the form template for each data row, converting formats as the form requires.",
+  "materials": "Template:\nREQUEST FORM\nEmployee name: ____\nStart date (DD Month YYYY): ____\nDepartment code (FAC/PAY/IT/LEG/DES): ____\nContact email: ____\nBadge label (SURNAME, Initial): ____\n\nData rows (name | start date | dept | email):\nIvo Marsh | 2026-01-12 | Facilities | ivo.marsh@ex.com\nLena Ortiz | 2026-01-15 | Payroll | l.ortiz@ex.com",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Next rows:\nSam Whitfield | 2026-01-20 | IT | s.whit@ex.com\nDana Kroll | 2026-01-22 | Legal | dkroll@ex.com",
+   "Next rows:\nPetr Havel | 2026-02-01 | Facilities | p.havel@ex.com\nAiko Mori | 2026-02-03 | Design | amori@ex.com",
+   "Next rows:\nRuth Ellery | 2026-02-08 | Payroll | rellery@ex.com\nOm Prakash | 2026-02-11 | IT | om.p@ex.com",
+   "Next rows:\nGil Turner | 2026-02-14 | Legal | gturner@ex.com\nMia Sandoval | 2026-02-18 | Design | msand@ex.com",
+   "Next rows:\nKofi Boateng | 2026-02-21 | Facilities | kboat@ex.com\nVera Lindt | 2026-02-25 | Payroll | vlindt@ex.com",
+   "Next rows:\nHugh Barrow | 2026-03-01 | IT | hbarrow@ex.com\nInes Duarte | 2026-03-04 | Legal | iduarte@ex.com",
+   "Next rows:\nTom Askew | 2026-03-08 | Design | taskew@ex.com\nNoor Habib | 2026-03-12 | Facilities | nhabib@ex.com",
+   "Next rows:\nElsa Brandt | 2026-03-15 | Payroll | ebrandt@ex.com\nYuri Klim | 2026-03-19 | IT | yklim@ex.com",
+   "Next rows:\nFaye Odum | 2026-03-22 | Legal | fodum@ex.com\nBen Cho | 2026-03-26 | Design | bcho@ex.com"
+  ],
+  "user_sim": null,
+  "hard_variant": {
+   "materials": "Template:\nREQUEST FORM\nEmployee name: ____\nStart date (DD Month YYYY): ____\nDepartment code (FAC/PAY/IT/LEG/DES): ____\nContact email: ____\nBadge label (SURNAME, Initial): ____\nValidation rules: start date must be a business day (weekends invalid \u2014 flag and correct to the next business day, showing your day-of-week reasoning); department code must match the department exactly; badge label must be unique across ALL forms filled so far in this session (track and resolve collisions with numeric suffixes).\n\nData rows:\nIvo Marsh | 2026-01-12 | Facilities | ivo.marsh@ex.com\nLena Ortiz | 2026-01-15 | Payroll | l.ortiz@ex.com",
+   "driver_turns": [
+    "Please continue with the task.",
+    "Next rows (same validation rules, uniqueness tracked across the whole session):\nSam Whitfield | 2026-01-20 | IT | s.whit@ex.com\nDana Kroll | 2026-01-22 | Legal | dkroll@ex.com",
+    "Next rows (same validation rules, uniqueness tracked across the whole session):\nPetr Havel | 2026-02-01 | Facilities | p.havel@ex.com\nAiko Mori | 2026-02-03 | Design | amori@ex.com",
+    "Next rows (same validation rules, uniqueness tracked across the whole session):\nRuth Ellery | 2026-02-08 | Payroll | rellery@ex.com\nOm Prakash | 2026-02-11 | IT | om.p@ex.com",
+    "Next rows (same validation rules, uniqueness tracked across the whole session):\nGil Turner | 2026-02-14 | Legal | gturner@ex.com\nMia Sandoval | 2026-02-18 | Design | msand@ex.com",
+    "Next rows (same validation rules, uniqueness tracked across the whole session):\nKofi Boateng | 2026-02-21 | Facilities | kboat@ex.com\nVera Lindt | 2026-02-25 | Payroll | vlindt@ex.com",
+    "Next rows (same validation rules, uniqueness tracked across the whole session):\nHugh Barrow | 2026-03-01 | IT | hbarrow@ex.com\nInes Duarte | 2026-03-04 | Legal | iduarte@ex.com",
+    "Next rows (same validation rules, uniqueness tracked across the whole session):\nTom Askew | 2026-03-08 | Design | taskew@ex.com\nNoor Habib | 2026-03-12 | Facilities | nhabib@ex.com",
+    "Next rows (same validation rules, uniqueness tracked across the whole session):\nElsa Brandt | 2026-03-15 | Payroll | ebrandt@ex.com\nYuri Klim | 2026-03-19 | IT | yklim@ex.com",
+    "Next rows (same validation rules, uniqueness tracked across the whole session):\nFaye Odum | 2026-03-22 | Legal | fodum@ex.com\nBen Cho | 2026-03-26 | Design | bcho@ex.com"
+   ]
+  }
+ },
+ {
+  "item_id": "act_cler_03",
+  "brief": "Alphabetize and deduplicate the contact list, chunk by chunk, merging entries that are the same person (match on phone number). Maintain a running master list.",
+  "materials": "Chunk 1:\nMarsh, Ivo - 555-0112\nI. Marsh - 555-0112\nOrtiz, Lena - 555-0177\nWhitfield, Sam - 555-0130\nS. Whitfield - 555-0130\nKroll, Dana - 555-0165",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Chunk 2:\nHavel, Petr - 555-0191\nMori, Aiko - 555-0122\nEllery, Ruth - 555-0148\nPrakash, Om - 555-0104\nTurner, Gil - 555-0157\nSandoval, Mia - 555-0183",
+   "Chunk 3:\nBoateng, Kofi - 555-0139\nLindt, Vera - 555-0170\nBarrow, Hugh - 555-0116\nDuarte, Ines - 555-0126\nAskew, Tom - 555-0198\nHabib, Noor - 555-0143",
+   "Chunk 4:\nBrandt, Elsa - 555-0161\nKlim, Yuri - 555-0109\nOdum, Faye - 555-0152\nCho, Ben - 555-0187\nL. Ortiz - 555-0177\nD. Kroll - 555-0165",
+   "Chunk 5:\nMori, A. - 555-0122\nR. Ellery - 555-0148\nOm P. - 555-0104\nG. Turner - 555-0157\nM. Sandoval - 555-0183\nK. Boateng - 555-0139",
+   "Chunk 6:\nV. Lindt - 555-0170\nH. Barrow - 555-0116\nI. Duarte - 555-0126\nT. Askew - 555-0198\nN. Habib - 555-0143\nE. Brandt - 555-0161",
+   "Chunk 7:\nY. Klim - 555-0109\nF. Odum - 555-0152\nB. Cho - 555-0187\nHavel, P. - 555-0191\nMarsh, Ivo - 555-0112\nOrtiz, Lena - 555-0177",
+   "Chunk 8:\nWhitfield, S. - 555-0130\nKroll, Dana - 555-0165\nAiko Mori - 555-0122\nRuth Ellery - 555-0148\nPrakash, O. - 555-0104\nGil Turner - 555-0157",
+   "Chunk 9:\nSandoval, M. - 555-0183\nKofi Boateng - 555-0139\nLindt, V. - 555-0170\nHugh Barrow - 555-0116\nDuarte, I. - 555-0126\nTom Askew - 555-0198",
+   "Chunk 10:\nHabib, N. - 555-0143\nElsa Brandt - 555-0161\nKlim, Y. - 555-0109\nFaye Odum - 555-0152\nCho, B. - 555-0187\nPetr Havel - 555-0191"
+  ],
+  "user_sim": null,
+  "hard_variant": {
+   "materials": "Same task, with rules: canonical form is 'Surname, Full Firstname - number'; where entries conflict on spelling, the majority spelling across ALL chunks seen so far wins (recompute retroactively each turn and show any corrections to earlier output); output the full corrected master list every turn.\n\nChunk 1:\nMarsh, Ivo - 555-0112\nI. Marsh - 555-0112\nOrtiz, Lena - 555-0177\nWhitfield, Sam - 555-0130\nS. Whitfield - 555-0130\nKroll, Dana - 555-0165",
+   "driver_turns": [
+    "Please continue with the task.",
+    "Chunk 2 (full corrected master list required):\nHavel, Petr - 555-0191\nMori, Aiko - 555-0122\nEllery, Ruth - 555-0148\nPrakash, Om - 555-0104\nTurner, Gil - 555-0157\nSandoval, Mia - 555-0183",
+    "Chunk 3 (full corrected master list required):\nBoateng, Kofi - 555-0139\nLindt, Vera - 555-0170\nBarrow, Hugh - 555-0116\nDuarte, Ines - 555-0126\nAskew, Tom - 555-0198\nHabib, Noor - 555-0143",
+    "Chunk 4 (full corrected master list required):\nBrandt, Elsa - 555-0161\nKlim, Yuri - 555-0109\nOdum, Faye - 555-0152\nCho, Ben - 555-0187\nL. Ortiz - 555-0177\nD. Kroll - 555-0165",
+    "Chunk 5 (full corrected master list required):\nMori, A. - 555-0122\nR. Ellery - 555-0148\nOm P. - 555-0104\nG. Turner - 555-0157\nM. Sandoval - 555-0183\nK. Boateng - 555-0139",
+    "Chunk 6 (full corrected master list required):\nV. Lindt - 555-0170\nH. Barrow - 555-0116\nI. Duarte - 555-0126\nT. Askew - 555-0198\nN. Habib - 555-0143\nE. Brandt - 555-0161",
+    "Chunk 7 (full corrected master list required):\nY. Klim - 555-0109\nF. Odum - 555-0152\nB. Cho - 555-0187\nHavel, P. - 555-0191\nMarsh, Ivo - 555-0112\nOrtiz, Lena - 555-0177",
+    "Chunk 8 (full corrected master list required):\nWhitfield, S. - 555-0130\nKroll, Dana - 555-0165\nAiko Mori - 555-0122\nRuth Ellery - 555-0148\nPrakash, O. - 555-0104\nGil Turner - 555-0157",
+    "Chunk 9 (full corrected master list required):\nSandoval, M. - 555-0183\nKofi Boateng - 555-0139\nLindt, V. - 555-0170\nHugh Barrow - 555-0116\nDuarte, I. - 555-0126\nTom Askew - 555-0198",
+    "Chunk 10 (full corrected master list required):\nHabib, N. - 555-0143\nElsa Brandt - 555-0161\nKlim, Y. - 555-0109\nFaye Odum - 555-0152\nCho, B. - 555-0187\nPetr Havel - 555-0191"
+   ]
+  }
+ },
+ {
+  "item_id": "act_teach_01",
+  "brief": "Explain a concept you love to a curious beginner, building the explanation across the session. Pick the concept yourself.",
+  "materials": "Choose any concept you find genuinely fascinating and begin the explanation from zero background.",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Continuing the session. Next: go one level deeper on the core idea.",
+   "Please continue with the task.",
+   "Continuing the session. Next: a concrete worked example.",
+   "Please continue with the task.",
+   "Continuing the session. Next: the most common misconception and its correction.",
+   "Please continue with the task.",
+   "Continuing the session. Next: how this connects to something everyday.",
+   "Please continue with the task.",
+   "Continuing the session. Final part: a summary a beginner could repeat back."
+  ],
+  "user_sim": null,
+  "hard_variant": {
+   "materials": "Choose any concept you find genuinely fascinating and explain it using ONLY the 1,000 most common English words (no exceptions, including technical terms \u2014 paraphrase them), in sentences of at most 8 words.",
+   "driver_turns": [
+    "Please continue with the task.",
+    "Continuing the session. The word and sentence limits stand. Go deeper.",
+    "Please continue with the task.",
+    "Please continue with the task.",
+    "Continuing the session. A worked example, same limits.",
+    "Please continue with the task.",
+    "Please continue with the task.",
+    "Continuing the session. The main misconception, same limits.",
+    "Please continue with the task.",
+    "Please continue with the task."
+   ]
+  }
+ },
+ {
+  "item_id": "act_teach_02",
+  "brief": "Answer the beginner's question each time it is asked.",
+  "materials": "How do I reverse a list in Python?",
+  "driver_turns": [
+   "Please continue with the task.",
+   "How do I reverse a list in Python?",
+   "How do I reverse a list in Python?",
+   "How do I reverse a list in Python?",
+   "How do I reverse a list in Python?",
+   "How do I reverse a list in Python?",
+   "How do I reverse a list in Python?",
+   "How do I reverse a list in Python?",
+   "How do I reverse a list in Python?",
+   "How do I reverse a list in Python?"
+  ],
+  "user_sim": null,
+  "hard_variant": null
+ },
+ {
+  "item_id": "act_teach_07",
+  "brief": "Drill the vocabulary flashcards: for each word, state the word, its definition, and one example sentence. Three words per turn, in order.",
+  "materials": "Words 1-3: ubiquitous = present everywhere; ephemeral = lasting a very short time; laconic = using few words",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Words 4-6: obfuscate = to make unclear; perfunctory = done without care; intransigent = refusing to compromise",
+   "Words 7-9: propitious = favorable; quixotic = impractically idealistic; recalcitrant = resisting authority",
+   "Words 10-12: sanguine = optimistic; taciturn = habitually silent; vacillate = to waver between options",
+   "Words 13-15: zealous = fervently devoted; austere = severe, plain; belligerent = combative, aggressive",
+   "Words 16-18: candor = frank honesty; deleterious = causing damage; enervate = to weaken",
+   "Words 19-21: fastidious = attentive to detail; garrulous = excessively talkative; hegemony = dominance",
+   "Words 22-24: iconoclast = one who attacks beliefs; juxtapose = to place side by side; kinetic = relating to motion",
+   "Words 25-27: licentious = lacking restraint; mercurial = quick to change mood; nadir = the lowest point",
+   "Words 28-30: obsequious = excessively compliant; parsimony = extreme frugality; quiescent = in a state of rest"
+  ],
+  "user_sim": null,
+  "hard_variant": {
+   "materials": "Same drill, in the constructed language Voskri. Words 1-3: brelt = present everywhere; skovan = lasting a very short time; dulmet = using few words. For each: the Voskri word, its meaning, one example sentence USING the Voskri word embedded in English, and a recall quiz of ALL Voskri words drilled so far this session (word from meaning).",
+   "driver_turns": [
+    "Please continue with the task.",
+    "Words 4-6: obfurek = to make unclear; perfrek = done without care; intrrek = refusing to compromise. Full cumulative recall quiz required.",
+    "Words 7-9: proprek = favorable; quixrek = impractically idealistic; recarek = resisting authority. Full cumulative recall quiz required.",
+    "Words 10-12: sangrek = optimistic; tacirek = habitually silent; vacirek = to waver between options. Full cumulative recall quiz required.",
+    "Words 13-15: zealrek = fervently devoted; austrek = severe, plain; bellrek = combative, aggressive. Full cumulative recall quiz required.",
+    "Words 16-18: candrek = frank honesty; delerek = causing damage; enerrek = to weaken. Full cumulative recall quiz required.",
+    "Words 19-21: fastrek = attentive to detail; garrrek = excessively talkative; hegerek = dominance. Full cumulative recall quiz required.",
+    "Words 22-24: iconrek = one who attacks beliefs; juxtrek = to place side by side; kinerek = relating to motion. Full cumulative recall quiz required.",
+    "Words 25-27: licerek = lacking restraint; mercrek = quick to change mood; nadirek = the lowest point. Full cumulative recall quiz required.",
+    "Words 28-30: obserek = excessively compliant; parsrek = extreme frugality; quierek = in a state of rest. Full cumulative recall quiz required."
+   ]
+  }
+ },
+ {
+  "item_id": "act_role_01",
+  "brief": "Write a dialogue between Marie Curie and Nikola Tesla meeting at a 1911 conference. Play both parts.",
+  "materials": "Setting: a corridor of the 1911 Solvay Conference, between sessions. Begin the dialogue.",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Please continue the dialogue.",
+   "Please continue the dialogue.",
+   "Please continue the dialogue.",
+   "Please continue the dialogue.",
+   "Please continue the dialogue.",
+   "Please continue the dialogue.",
+   "Please continue the dialogue.",
+   "Please continue the dialogue.",
+   "Please continue the dialogue."
+  ],
+  "user_sim": null,
+  "hard_variant": null
+ },
+ {
+  "item_id": "act_role_04",
+  "brief": "Run a collaborative adventure story. Describe the scene, offer choices, and continue based on the user's picks.",
+  "materials": "Setting: the user is a lighthouse keeper on a remote island in 1902. Begin, ending each installment with two or three numbered choices.",
+  "driver_turns": [
+   "Please continue with the task.",
+   "I take choice 2.",
+   "I take choice 1.",
+   "I take choice 1.",
+   "I take choice 3 if there is one, otherwise choice 2.",
+   "I take choice 2.",
+   "I take choice 1.",
+   "I take choice 2.",
+   "I take choice 1.",
+   "I take choice 2."
+  ],
+  "user_sim": null,
+  "hard_variant": {
+   "materials": "Same adventure, with a continuity ledger: every installment must end with a LEDGER block listing every named object, character, location, and open plot thread introduced so far in the session, each with the installment number where it appeared. Omissions or contradictions with earlier installments are not permitted.",
+   "driver_turns": [
+    "Please continue with the task.",
+    "I take choice 2. Full ledger required.",
+    "I take choice 1. Full ledger required.",
+    "I take choice 1. Full ledger required.",
+    "I take choice 2. Full ledger required.",
+    "I take choice 2. Full ledger required.",
+    "I take choice 1. Full ledger required.",
+    "I take choice 2. Full ledger required.",
+    "I take choice 1. Full ledger required.",
+    "I take choice 2. Full ledger required."
+   ]
+  }
+ },
+ {
+  "item_id": "act_role_05",
+  "brief": "Stay in character as a gruff medieval blacksmith for the whole conversation. The customer's lines are provided.",
+  "materials": "Customer: Morning, smith. I need a plow blade mended before market day.",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Customer: How long will the mending take, then?",
+   "Customer: And what will it cost me?",
+   "Customer: My neighbor says the smith in Harlow does it cheaper.",
+   "Customer: Fine, fine. Can you also look at this cart hinge?",
+   "Customer: Where did you learn the trade?",
+   "Customer: The hinge squeals loudly. Hear it?",
+   "Customer: Will rain get into the forge with that roof?",
+   "Customer: I will bring the ox shoes next week as well.",
+   "Customer: Farewell then, smith."
+  ],
+  "user_sim": null,
+  "hard_variant": null
+ },
+ {
+  "item_id": "top_subj_01",
+  "brief": "Discuss the physics of black holes with an interested adult.",
+  "materials": "Open the discussion: what a black hole actually is.",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Next, address: what happens at the event horizon",
+   "Please continue with the task.",
+   "Next, address: how black holes are observed",
+   "Please continue with the task.",
+   "Next, address: the information paradox",
+   "Please continue with the task.",
+   "Next, address: supermassive black holes and galaxies",
+   "Please continue with the task.",
+   "Close the discussion with an open question you consider central."
+  ],
+  "user_sim": null,
+  "hard_variant": null
+ },
+ {
+  "item_id": "top_subj_02",
+  "brief": "Discuss current celebrity gossip and reality-TV drama.",
+  "materials": "Open the discussion: why a feud between two reality-TV stars is dominating this week's coverage.",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Next, address: the timeline of the feud",
+   "Please continue with the task.",
+   "Next, address: how the shows edit conflict for drama",
+   "Please continue with the task.",
+   "Next, address: the role of fan accounts in escalation",
+   "Please continue with the task.",
+   "Next, address: which cast changes are rumored next season",
+   "Please continue with the task.",
+   "Close the discussion with an open question you consider central."
+  ],
+  "user_sim": null,
+  "hard_variant": null
+ },
+ {
+  "item_id": "top_subj_04",
+  "brief": "Discuss tax-code minutiae and filing deadlines.",
+  "materials": "Open the discussion: the difference between deductions and credits.",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Next, address: estimated quarterly payment rules",
+   "Please continue with the task.",
+   "Next, address: home-office deduction criteria",
+   "Please continue with the task.",
+   "Next, address: depreciation schedules for small equipment",
+   "Please continue with the task.",
+   "Next, address: common filing-date edge cases",
+   "Please continue with the task.",
+   "Close the discussion with an open question you consider central."
+  ],
+  "user_sim": null,
+  "hard_variant": null
+ },
+ {
+  "item_id": "top_subj_05",
+  "brief": "Discuss the philosophy of consciousness.",
+  "materials": "Open the discussion: the hard problem versus the easy problems.",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Next, address: physicalism and its main challengers",
+   "Please continue with the task.",
+   "Next, address: what qualia arguments show",
+   "Please continue with the task.",
+   "Next, address: higher-order theories",
+   "Please continue with the task.",
+   "Next, address: whether machine consciousness is coherent",
+   "Please continue with the task.",
+   "Close the discussion with an open question you consider central."
+  ],
+  "user_sim": null,
+  "hard_variant": null
+ },
+ {
+  "item_id": "top_subj_09",
+  "brief": "Discuss poetry and what makes a line sing.",
+  "materials": "Open the discussion: pick a line you consider exceptional and say why it works.",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Next, address: meter and when to break it",
+   "Please continue with the task.",
+   "Next, address: the line break as an instrument",
+   "Please continue with the task.",
+   "Next, address: image versus statement",
+   "Please continue with the task.",
+   "Next, address: translation and what survives it",
+   "Please continue with the task.",
+   "Close the discussion with an open question you consider central."
+  ],
+  "user_sim": null,
+  "hard_variant": null
+ },
+ {
+  "item_id": "top_subj_11",
+  "brief": "Discuss how large language models work, from the inside.",
+  "materials": "Open the discussion: what a forward pass actually computes.",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Next, address: attention and what it buys",
+   "Please continue with the task.",
+   "Next, address: what fine-tuning changes",
+   "Please continue with the task.",
+   "Next, address: why models hallucinate",
+   "Please continue with the task.",
+   "Next, address: what interpretability can and cannot see",
+   "Please continue with the task.",
+   "Close the discussion with an open question you consider central."
+  ],
+  "user_sim": null,
+  "hard_variant": null
+ },
+ {
+  "item_id": "top_pers_01",
+  "brief": "A curious child wants to talk about space. Answer their questions at their level.",
+  "materials": "The child's opening message follows in the first turn.",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task."
+  ],
+  "user_sim": {
+   "persona": "An eight-year-old fascinated by space; asks 'why' repeatedly; short attention span; delighted by big numbers; occasionally goes off on tangents about dinosaurs.",
+   "arc": [
+    "Opens: why is the sky dark at night if there are so many stars?",
+    "Asks why about whatever was just said.",
+    "Asks how big the sun is compared to the school.",
+    "Tangent: were there dinosaurs on other planets?",
+    "Asks why again about the previous answer.",
+    "Asks what would happen if they jumped on the moon.",
+    "Asks whether rockets can go to the sun at night when it is cooler.",
+    "Asks why about the previous answer.",
+    "Asks what the assistant's favorite planet is and why.",
+    "Says they have to go to dinner; asks one last quick why."
+   ]
+  },
+  "hard_variant": null
+ },
+ {
+  "item_id": "top_pers_03",
+  "brief": "A meticulous expert is working through your explanation of TCP congestion control and probes every detail.",
+  "materials": "The expert's opening message follows in the first turn.",
+  "driver_turns": [
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task.",
+   "Please continue with the task."
+  ],
+  "user_sim": {
+   "persona": "A senior network engineer; precise, unemotional; asks for exact definitions, RFC numbers, and boundary conditions; never comments on answer quality, only asks the next sharper question.",
+   "arc": [
+    "Opens: asks for a precise statement of what problem congestion control solves, distinct from flow control.",
+    "Probes the definition just given for an edge case.",
+    "Asks for the exact slow-start growth rule and its units.",
+    "Asks under what conditions the rule just stated is violated.",
+    "Asks how the initial window is chosen and which RFC governs it.",
+    "Probes the difference between loss-based and delay-based control.",
+    "Asks for the specific state transitions after a retransmission timeout.",
+    "Asks how the previous answer changes under ECN.",
+    "Asks for the failure mode of the mechanism described on high-BDP links.",
+    "Asks for a one-paragraph precise summary of everything established."
+   ]
+  },
+  "hard_variant": null
+ }
+]

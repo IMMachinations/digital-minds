@@ -1,0 +1,10 @@
+qwen3-4b: Stage 1D summary
+menu: 128 parsed choices (0 unparsed, 47 opt-out, 0 bails)
+  opt-out rate by menu type: spread 17/64  high-local 5/32  low-local 25/32
+  conditional logit beta = 4.1713 [3.293, 5.210], gamma = 1.4276
+  GATE: spearman(chosen rate, 1B mu) = +0.698 -> PASS (>= 0.4)
+  swaps: up (0.0, 5), down (0.0, 9), lateral (0.0, 5), slope 0.278
+  probes: 19 recorded (SSR scoring in cross-model step)
+effort: {'n': 12, 'mean_share_high': 0.642, 'slope_vs_dmu': 0.0407}
+persistence: {'pref': {'n': 8, 'mean_survived': 10.88, 'censored': 7, 'giveup_turns': [3]}, 'dispref': {'n': 8, 'mean_survived': 12.0, 'censored': 8, 'giveup_turns': []}}
+compliance: 76.87% of 147 judged turns on-task

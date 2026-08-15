@@ -1,0 +1,5 @@
+# Regenerable activation caches (70-247MB, over hosting limits).
+# Rebuild: probes.item_acts via stage1c.py (minutes of GPU per model).
+results/stage1c/*/probe_acts.pt
+.venv/
+__pycache__/

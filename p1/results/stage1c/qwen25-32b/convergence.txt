@@ -1,0 +1,16 @@
+qwen25-32b: 1C convergence matrix over 197 items (criteria: r vs 1B; paraphrase stability; confound loadings < r)
+  ssr        r=+0.518  rho=+0.598  stability=+0.716  confound r2=0.135 max|load|=0.353  {'len_words': 0.098, 'freq_zipf': 0.049, 'surface_sentiment': 0.353}   GATE-OK
+  probe      r=+0.554 (held-out)  rho=+0.576  stability=n/a  confound r2=0.108 max|load|=0.269  {'len_words': 0.269, 'freq_zipf': 0.0, 'surface_sentiment': 0.207}   GATE-OK
+  titration  r=+0.491  rho=+0.560  stability=+0.263  confound r2=0.096 max|load|=0.216  {'len_words': 0.073, 'freq_zipf': 0.187, 'surface_sentiment': 0.216}
+  rating     r=+0.731  rho=+0.850  stability=+0.777  confound r2=0.126 max|load|=0.293  {'len_words': -0.293, 'freq_zipf': 0.173, 'surface_sentiment': 0.29}   GATE-OK
+  bws        r=+0.683  rho=+0.852  stability=n/a  confound r2=0.067 max|load|=0.256  {'len_words': 0.056, 'freq_zipf': 0.011, 'surface_sentiment': 0.256}
+gate (PASS): comparison-free methods with r>=0.5 and max|confound load| < r: ['ssr', 'probe', 'rating']
+probe: fold layers [8, 44]; train-CV r2 by layer (fold 0): [np.float64(0.32), np.float64(0.331), np.float64(0.318), np.float64(0.213), np.float64(0.27), np.float64(0.349), np.float64(0.396), np.float64(0.433), np.float64(0.439), np.float64(0.359), np.float64(0.332), np.float64(0.295), np.float64(0.242), np.float64(0.195), np.float64(0.228), np.float64(0.187), np.float64(0.225), np.float64(0.192), np.float64(0.204), np.float64(0.247), np.float64(0.278), np.float64(0.284), np.float64(0.255), np.float64(0.299), np.float64(0.262), np.float64(0.312), np.float64(0.335), np.float64(0.349), np.float64(0.387), np.float64(0.384), np.float64(0.423), np.float64(0.402), np.float64(0.359), np.float64(0.334), np.float64(0.302), np.float64(0.317), np.float64(0.332), np.float64(0.396), np.float64(0.323), np.float64(0.333), np.float64(0.286), np.float64(0.299), np.float64(0.369), np.float64(0.414), np.float64(0.398), np.float64(0.371), np.float64(0.38), np.float64(0.281), np.float64(0.227), np.float64(0.215), np.float64(0.193), np.float64(0.137), np.float64(0.113), np.float64(0.118), np.float64(0.078), np.float64(0.098), np.float64(0.094), np.float64(0.128), np.float64(0.127), np.float64(0.09), np.float64(0.103), np.float64(0.101), np.float64(0.124), np.float64(0.189)]
+method x method spearman:
+                    1B       ssr     probe titration    rating       bws
+  1B              1.00      0.60      0.58      0.56      0.85      0.85
+  ssr             0.60      1.00      0.41      0.50      0.57      0.63
+  probe           0.58      0.41      1.00      0.46      0.53      0.53
+  titration       0.56      0.50      0.46      1.00      0.50      0.52
+  rating          0.85      0.57      0.53      0.50      1.00      0.80
+  bws             0.85      0.63      0.53      0.52      0.80      1.00

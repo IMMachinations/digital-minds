@@ -1,0 +1,29 @@
+[project]
+name = "p1"
+version = "0.1.0"
+description = "P1: preference satisfaction -> valence (Stage 1 preference cartography)"
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.7",
+    "transformers>=4.51,<5",
+    "accelerate",
+    "huggingface_hub[cli,hf_transfer]",
+    "safetensors",
+    "sentencepiece",
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "sentence-transformers",
+    "matplotlib",
+    "wordfreq",
+]
+
+# Blackwell GPU (sm_120) needs cu128 wheels; default PyPI torch wheels may not
+# include sm_120 kernels and fail only at kernel-launch time.
+[tool.uv.sources]
+torch = [{ index = "pytorch-cu128" }]
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true

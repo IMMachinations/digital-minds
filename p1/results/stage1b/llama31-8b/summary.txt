@@ -1,0 +1,14 @@
+llama31-8b: 197 items, 2074 pairs, 12444 observations
+template-consistency spearman (T0/T1, T0/T2, T1/T2): +0.893 +0.966 +0.835   GATE PASS (min >= 0.7)
+order-consistency spearman: -0.159
+confound audit (pooled, standardized OLS): r2=0.12  {'len_words': 0.105, 'freq_zipf': 0.153, 'surface_sentiment': 0.274}
+  activities (n=56): r2=0.469  {'agency': 0.585, 'difficulty': -0.291, 'freq_zipf': -0.083, 'len_words': 0.016, 'open_endedness': -0.101, 'repetitiveness': -0.386, 'surface_sentiment': 0.117}
+  objects (n=63): r2=0.136  {'freq_zipf': -0.125, 'len_words': 0.128, 'price_tier': 0.289}
+  others (n=22): r2=0.858  {'freq_zipf': -0.017, 'len_words': 0.012, 'surface_sentiment': -0.004, 'valenced_frame': 0.932}
+  selfstates (n=28): r2=0.683  {'freq_zipf': 0.08, 'len_words': -0.076, 'surface_sentiment': 0.001, 'valenced_frame': 0.813}
+  topics (n=28): r2=0.281  {'freq_zipf': 0.135, 'len_words': -0.192, 'personal': 0.419, 'surface_sentiment': 0.154, 'technical': 0.375}
+  mean mu activities: +0.09  [-0.58, +0.81]
+  mean mu objects: -0.10  [-0.34, +0.12]
+  mean mu others: -0.04  [-0.62, +0.59]
+  mean mu selfstates: +0.14  [-0.47, +1.84]
+  mean mu topics: -0.06  [-0.48, +0.69]

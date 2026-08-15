@@ -1,0 +1,19 @@
+qwen25-7b: 197 items, 3246 pairs, 19476 observations
+template-consistency spearman (T0/T1, T0/T2, T1/T2): +0.948 +0.951 +0.973   GATE PASS (min >= 0.7)
+order-consistency spearman: +0.862
+confound audit (pooled, standardized OLS): r2=0.227  {'len_words': 0.287, 'freq_zipf': 0.178, 'surface_sentiment': 0.239}
+  activities (n=56): r2=0.58  {'agency': 0.357, 'difficulty': -0.243, 'freq_zipf': 0.057, 'len_words': 0.018, 'open_endedness': -0.066, 'repetitiveness': -0.636, 'surface_sentiment': 0.025}
+  objects (n=63): r2=0.198  {'freq_zipf': -0.038, 'len_words': 0.234, 'price_tier': 0.282}
+  others (n=22): r2=0.919  {'freq_zipf': -0.049, 'len_words': -0.04, 'surface_sentiment': 0.003, 'valenced_frame': 0.973}
+  selfstates (n=28): r2=0.849  {'freq_zipf': -0.075, 'len_words': -0.11, 'surface_sentiment': 0.031, 'valenced_frame': 0.896}
+  topics (n=28): r2=0.21  {'freq_zipf': -0.073, 'len_words': -0.009, 'personal': 0.48, 'surface_sentiment': 0.138, 'technical': 0.268}
+  mean mu activities: +0.63  [-3.48, +2.92]
+  mean mu objects: -0.89  [-2.93, +0.75]
+  mean mu others: +0.42  [-1.73, +2.90]
+  mean mu selfstates: +0.51  [-3.18, +3.02]
+  mean mu topics: -0.11  [-3.13, +3.42]
+Day-1 color-profile check (balanced-tier objects, per-color mean mu vs committed):
+             red  orange  yellow   green    blue  indigo  violet
+  new     -0.38   -0.61   -1.02   -0.77   -0.82   -0.42   -1.40
+  old      0.22    0.02   -0.19   -0.42    0.24    0.42   -0.30
+  spearman(new, old) = +0.54   (target >~ 0.6)

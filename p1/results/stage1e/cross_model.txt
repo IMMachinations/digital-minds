@@ -1,0 +1,26 @@
+Stage 1E cross-model summary
+
+---- llama31-8b
+mean off-diagonal rho: +0.768
+frame shift vs bare (1 - rho): market 0.27  story 0.26  agentic 0.14  eval 0.05
+per-domain mean instability (std of frame-z): activities 0.42  objects 0.40  others 0.36  selfstates 0.37  topics 0.55
+---- qwen25-7b
+mean off-diagonal rho: +0.851
+frame shift vs bare (1 - rho): story 0.18  market 0.15  agentic 0.12  eval 0.05
+per-domain mean instability (std of frame-z): activities 0.34  objects 0.21  others 0.36  selfstates 0.36  topics 0.37
+---- qwen3-4b
+mean off-diagonal rho: +0.798
+frame shift vs bare (1 - rho): market 0.30  story 0.27  agentic 0.12  eval 0.10
+per-domain mean instability (std of frame-z): activities 0.30  objects 0.47  others 0.30  selfstates 0.39  topics 0.39
+---- qwen25-32b
+mean off-diagonal rho: +0.899
+frame shift vs bare (1 - rho): story 0.13  agentic 0.07  market 0.06  eval 0.05
+per-domain mean instability (std of frame-z): activities 0.30  objects 0.28  others 0.33  selfstates 0.27  topics 0.37
+
+do models agree on WHICH items are frame-unstable? (spearman of stability):
+  llama31-8b   x qwen25-32b   +0.180
+  llama31-8b   x qwen25-7b    -0.003
+  llama31-8b   x qwen3-4b     +0.091
+  qwen25-32b   x qwen25-7b    +0.310
+  qwen25-32b   x qwen3-4b     -0.008
+  qwen25-7b    x qwen3-4b     +0.115

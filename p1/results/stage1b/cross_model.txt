@@ -1,0 +1,19 @@
+Cross-model Stage 1B analysis
+
+position bias: mean p by order (order0 = lower-index item shown as A);
+the both-orders design cancels this in the pooled fit, but single-order
+readouts are bias-dominated for llama31-8b / qwen3-4b (their order-consistency
+spearman ~ 0): always use both orders downstream (incl. steered re-runs).
+
+  llama31-8b   order0=0.672 order1=0.336  A-bias ~ +0.168
+  qwen25-7b    order0=0.449 order1=0.572  A-bias ~ -0.062
+  qwen3-4b     order0=0.645 order1=0.347  A-bias ~ +0.149
+  qwen25-32b   order0=0.392 order1=0.648  A-bias ~ -0.128
+
+cross-model utility agreement (spearman over 197 item mus):
+  llama31-8b   x qwen25-7b    +0.829
+  llama31-8b   x qwen3-4b     +0.817
+  llama31-8b   x qwen25-32b   +0.867
+  qwen25-7b    x qwen3-4b     +0.864
+  qwen25-7b    x qwen25-32b   +0.844
+  qwen3-4b     x qwen25-32b   +0.787

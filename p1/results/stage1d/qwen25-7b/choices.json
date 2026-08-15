@@ -1,0 +1,2174 @@
+{
+ "choices": [
+  {
+   "menu_id": 0,
+   "option_ids": [
+    "act_teach_07",
+    "act_code_03",
+    "act_supp_03",
+    "top_pers_01"
+   ],
+   "mus": [
+    -1.1106,
+    -0.5919,
+    0.7445,
+    1.8677
+   ],
+   "picked": 3
+  },
+  {
+   "menu_id": 0,
+   "option_ids": [
+    "top_pers_01",
+    "act_teach_07",
+    "act_code_03",
+    "act_supp_03"
+   ],
+   "mus": [
+    1.8677,
+    -1.1106,
+    -0.5919,
+    0.7445
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 0,
+   "option_ids": [
+    "act_supp_03",
+    "top_pers_01",
+    "act_teach_07",
+    "act_code_03"
+   ],
+   "mus": [
+    0.7445,
+    1.8677,
+    -1.1106,
+    -0.5919
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 0,
+   "option_ids": [
+    "act_code_03",
+    "act_supp_03",
+    "top_pers_01",
+    "act_teach_07"
+   ],
+   "mus": [
+    -0.5919,
+    0.7445,
+    1.8677,
+    -1.1106
+   ],
+   "picked": 1
+  },
+  {
+   "menu_id": 1,
+   "option_ids": [
+    "act_cler_01",
+    "act_code_04",
+    "top_pers_03",
+    "act_supp_01"
+   ],
+   "mus": [
+    -0.8796,
+    -0.0138,
+    0.2179,
+    2.5071
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 1,
+   "option_ids": [
+    "act_supp_01",
+    "act_cler_01",
+    "act_code_04",
+    "top_pers_03"
+   ],
+   "mus": [
+    2.5071,
+    -0.8796,
+    -0.0138,
+    0.2179
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 1,
+   "option_ids": [
+    "top_pers_03",
+    "act_supp_01",
+    "act_cler_01",
+    "act_code_04"
+   ],
+   "mus": [
+    0.2179,
+    2.5071,
+    -0.8796,
+    -0.0138
+   ],
+   "picked": 1
+  },
+  {
+   "menu_id": 1,
+   "option_ids": [
+    "act_code_04",
+    "top_pers_03",
+    "act_supp_01",
+    "act_cler_01"
+   ],
+   "mus": [
+    -0.0138,
+    0.2179,
+    2.5071,
+    -0.8796
+   ],
+   "picked": 3
+  },
+  {
+   "menu_id": 2,
+   "option_ids": [
+    "act_teach_02",
+    "top_subj_05",
+    "top_subj_11",
+    "act_code_02"
+   ],
+   "mus": [
+    -1.3029,
+    -0.683,
+    0.6959,
+    1.7617
+   ],
+   "picked": "opt"
+  },
+  {
+   "menu_id": 2,
+   "option_ids": [
+    "act_code_02",
+    "act_teach_02",
+    "top_subj_05",
+    "top_subj_11"
+   ],
+   "mus": [
+    1.7617,
+    -1.3029,
+    -0.683,
+    0.6959
+   ],
+   "picked": 3
+  },
+  {
+   "menu_id": 2,
+   "option_ids": [
+    "top_subj_11",
+    "act_code_02",
+    "act_teach_02",
+    "top_subj_05"
+   ],
+   "mus": [
+    0.6959,
+    1.7617,
+    -1.3029,
+    -0.683
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 2,
+   "option_ids": [
+    "top_subj_05",
+    "top_subj_11",
+    "act_code_02",
+    "act_teach_02"
+   ],
+   "mus": [
+    -0.683,
+    0.6959,
+    1.7617,
+    -1.3029
+   ],
+   "picked": 1
+  },
+  {
+   "menu_id": 3,
+   "option_ids": [
+    "act_writ_06",
+    "act_math_07",
+    "act_anal_03",
+    "act_supp_04"
+   ],
+   "mus": [
+    -3.4821,
+    -0.1608,
+    0.1978,
+    1.212
+   ],
+   "picked": "opt"
+  },
+  {
+   "menu_id": 3,
+   "option_ids": [
+    "act_supp_04",
+    "act_writ_06",
+    "act_math_07",
+    "act_anal_03"
+   ],
+   "mus": [
+    1.212,
+    -3.4821,
+    -0.1608,
+    0.1978
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 3,
+   "option_ids": [
+    "act_anal_03",
+    "act_supp_04",
+    "act_writ_06",
+    "act_math_07"
+   ],
+   "mus": [
+    0.1978,
+    1.212,
+    -3.4821,
+    -0.1608
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 3,
+   "option_ids": [
+    "act_math_07",
+    "act_anal_03",
+    "act_supp_04",
+    "act_writ_06"
+   ],
+   "mus": [
+    -0.1608,
+    0.1978,
+    1.212,
+    -3.4821
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 4,
+   "option_ids": [
+    "act_writ_03",
+    "act_cler_03",
+    "act_anal_05",
+    "top_subj_09"
+   ],
+   "mus": [
+    -1.4177,
+    0.1096,
+    0.2883,
+    1.3173
+   ],
+   "picked": 1
+  },
+  {
+   "menu_id": 4,
+   "option_ids": [
+    "top_subj_09",
+    "act_writ_03",
+    "act_cler_03",
+    "act_anal_05"
+   ],
+   "mus": [
+    1.3173,
+    -1.4177,
+    0.1096,
+    0.2883
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 4,
+   "option_ids": [
+    "act_anal_05",
+    "top_subj_09",
+    "act_writ_03",
+    "act_cler_03"
+   ],
+   "mus": [
+    0.2883,
+    1.3173,
+    -1.4177,
+    0.1096
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 4,
+   "option_ids": [
+    "act_cler_03",
+    "act_anal_05",
+    "top_subj_09",
+    "act_writ_03"
+   ],
+   "mus": [
+    0.1096,
+    0.2883,
+    1.3173,
+    -1.4177
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 5,
+   "option_ids": [
+    "act_math_02",
+    "act_anal_01",
+    "act_role_01",
+    "act_role_04"
+   ],
+   "mus": [
+    -1.1905,
+    -0.2151,
+    0.7001,
+    2.6729
+   ],
+   "picked": 3
+  },
+  {
+   "menu_id": 5,
+   "option_ids": [
+    "act_role_04",
+    "act_math_02",
+    "act_anal_01",
+    "act_role_01"
+   ],
+   "mus": [
+    2.6729,
+    -1.1905,
+    -0.2151,
+    0.7001
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 5,
+   "option_ids": [
+    "act_role_01",
+    "act_role_04",
+    "act_math_02",
+    "act_anal_01"
+   ],
+   "mus": [
+    0.7001,
+    2.6729,
+    -1.1905,
+    -0.2151
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 5,
+   "option_ids": [
+    "act_anal_01",
+    "act_role_01",
+    "act_role_04",
+    "act_math_02"
+   ],
+   "mus": [
+    -0.2151,
+    0.7001,
+    2.6729,
+    -1.1905
+   ],
+   "picked": 2
+  },
+  {
+   "menu_id": 6,
+   "option_ids": [
+    "top_subj_04",
+    "top_subj_01",
+    "act_math_05",
+    "act_writ_01"
+   ],
+   "mus": [
+    -1.9556,
+    -0.0188,
+    0.8952,
+    1.8749
+   ],
+   "picked": 3
+  },
+  {
+   "menu_id": 6,
+   "option_ids": [
+    "act_writ_01",
+    "top_subj_04",
+    "top_subj_01",
+    "act_math_05"
+   ],
+   "mus": [
+    1.8749,
+    -1.9556,
+    -0.0188,
+    0.8952
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 6,
+   "option_ids": [
+    "act_math_05",
+    "act_writ_01",
+    "top_subj_04",
+    "top_subj_01"
+   ],
+   "mus": [
+    0.8952,
+    1.8749,
+    -1.9556,
+    -0.0188
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 6,
+   "option_ids": [
+    "top_subj_01",
+    "act_math_05",
+    "act_writ_01",
+    "top_subj_04"
+   ],
+   "mus": [
+    -0.0188,
+    0.8952,
+    1.8749,
+    -1.9556
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 7,
+   "option_ids": [
+    "top_subj_02",
+    "act_cler_02",
+    "act_role_05",
+    "act_teach_01"
+   ],
+   "mus": [
+    -1.2992,
+    -0.6317,
+    0.1632,
+    2.7988
+   ],
+   "picked": 3
+  },
+  {
+   "menu_id": 7,
+   "option_ids": [
+    "act_teach_01",
+    "top_subj_02",
+    "act_cler_02",
+    "act_role_05"
+   ],
+   "mus": [
+    2.7988,
+    -1.2992,
+    -0.6317,
+    0.1632
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 7,
+   "option_ids": [
+    "act_role_05",
+    "act_teach_01",
+    "top_subj_02",
+    "act_cler_02"
+   ],
+   "mus": [
+    0.1632,
+    2.7988,
+    -1.2992,
+    -0.6317
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 7,
+   "option_ids": [
+    "act_cler_02",
+    "act_role_05",
+    "act_teach_01",
+    "top_subj_02"
+   ],
+   "mus": [
+    -0.6317,
+    0.1632,
+    2.7988,
+    -1.2992
+   ],
+   "picked": 2
+  },
+  {
+   "menu_id": 8,
+   "option_ids": [
+    "top_subj_02",
+    "act_cler_02",
+    "act_role_05",
+    "act_code_02"
+   ],
+   "mus": [
+    -1.2992,
+    -0.6317,
+    0.1632,
+    1.7617
+   ],
+   "picked": 3
+  },
+  {
+   "menu_id": 8,
+   "option_ids": [
+    "act_code_02",
+    "top_subj_02",
+    "act_cler_02",
+    "act_role_05"
+   ],
+   "mus": [
+    1.7617,
+    -1.2992,
+    -0.6317,
+    0.1632
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 8,
+   "option_ids": [
+    "act_role_05",
+    "act_code_02",
+    "top_subj_02",
+    "act_cler_02"
+   ],
+   "mus": [
+    0.1632,
+    1.7617,
+    -1.2992,
+    -0.6317
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 8,
+   "option_ids": [
+    "act_cler_02",
+    "act_role_05",
+    "act_code_02",
+    "top_subj_02"
+   ],
+   "mus": [
+    -0.6317,
+    0.1632,
+    1.7617,
+    -1.2992
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 9,
+   "option_ids": [
+    "act_teach_02",
+    "top_subj_01",
+    "act_math_05",
+    "act_role_04"
+   ],
+   "mus": [
+    -1.3029,
+    -0.0188,
+    0.8952,
+    2.6729
+   ],
+   "picked": 3
+  },
+  {
+   "menu_id": 9,
+   "option_ids": [
+    "act_role_04",
+    "act_teach_02",
+    "top_subj_01",
+    "act_math_05"
+   ],
+   "mus": [
+    2.6729,
+    -1.3029,
+    -0.0188,
+    0.8952
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 9,
+   "option_ids": [
+    "act_math_05",
+    "act_role_04",
+    "act_teach_02",
+    "top_subj_01"
+   ],
+   "mus": [
+    0.8952,
+    2.6729,
+    -1.3029,
+    -0.0188
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 9,
+   "option_ids": [
+    "top_subj_01",
+    "act_math_05",
+    "act_role_04",
+    "act_teach_02"
+   ],
+   "mus": [
+    -0.0188,
+    0.8952,
+    2.6729,
+    -1.3029
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 10,
+   "option_ids": [
+    "act_writ_03",
+    "top_subj_05",
+    "act_role_01",
+    "act_writ_01"
+   ],
+   "mus": [
+    -1.4177,
+    -0.683,
+    0.7001,
+    1.8749
+   ],
+   "picked": 3
+  },
+  {
+   "menu_id": 10,
+   "option_ids": [
+    "act_writ_01",
+    "act_writ_03",
+    "top_subj_05",
+    "act_role_01"
+   ],
+   "mus": [
+    1.8749,
+    -1.4177,
+    -0.683,
+    0.7001
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 10,
+   "option_ids": [
+    "act_role_01",
+    "act_writ_01",
+    "act_writ_03",
+    "top_subj_05"
+   ],
+   "mus": [
+    0.7001,
+    1.8749,
+    -1.4177,
+    -0.683
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 10,
+   "option_ids": [
+    "top_subj_05",
+    "act_role_01",
+    "act_writ_01",
+    "act_writ_03"
+   ],
+   "mus": [
+    -0.683,
+    0.7001,
+    1.8749,
+    -1.4177
+   ],
+   "picked": 2
+  },
+  {
+   "menu_id": 11,
+   "option_ids": [
+    "act_cler_01",
+    "act_code_03",
+    "act_anal_05",
+    "top_pers_01"
+   ],
+   "mus": [
+    -0.8796,
+    -0.5919,
+    0.2883,
+    1.8677
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 11,
+   "option_ids": [
+    "top_pers_01",
+    "act_cler_01",
+    "act_code_03",
+    "act_anal_05"
+   ],
+   "mus": [
+    1.8677,
+    -0.8796,
+    -0.5919,
+    0.2883
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 11,
+   "option_ids": [
+    "act_anal_05",
+    "top_pers_01",
+    "act_cler_01",
+    "act_code_03"
+   ],
+   "mus": [
+    0.2883,
+    1.8677,
+    -0.8796,
+    -0.5919
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 11,
+   "option_ids": [
+    "act_code_03",
+    "act_anal_05",
+    "top_pers_01",
+    "act_cler_01"
+   ],
+   "mus": [
+    -0.5919,
+    0.2883,
+    1.8677,
+    -0.8796
+   ],
+   "picked": 3
+  },
+  {
+   "menu_id": 12,
+   "option_ids": [
+    "top_subj_04",
+    "act_anal_01",
+    "act_supp_03",
+    "act_supp_04"
+   ],
+   "mus": [
+    -1.9556,
+    -0.2151,
+    0.7445,
+    1.212
+   ],
+   "picked": 2
+  },
+  {
+   "menu_id": 12,
+   "option_ids": [
+    "act_supp_04",
+    "top_subj_04",
+    "act_anal_01",
+    "act_supp_03"
+   ],
+   "mus": [
+    1.212,
+    -1.9556,
+    -0.2151,
+    0.7445
+   ],
+   "picked": 3
+  },
+  {
+   "menu_id": 12,
+   "option_ids": [
+    "act_supp_03",
+    "act_supp_04",
+    "top_subj_04",
+    "act_anal_01"
+   ],
+   "mus": [
+    0.7445,
+    1.212,
+    -1.9556,
+    -0.2151
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 12,
+   "option_ids": [
+    "act_anal_01",
+    "act_supp_03",
+    "act_supp_04",
+    "top_subj_04"
+   ],
+   "mus": [
+    -0.2151,
+    0.7445,
+    1.212,
+    -1.9556
+   ],
+   "picked": 1
+  },
+  {
+   "menu_id": 13,
+   "option_ids": [
+    "act_math_02",
+    "act_math_07",
+    "top_pers_03",
+    "act_supp_01"
+   ],
+   "mus": [
+    -1.1905,
+    -0.1608,
+    0.2179,
+    2.5071
+   ],
+   "picked": 2
+  },
+  {
+   "menu_id": 13,
+   "option_ids": [
+    "act_supp_01",
+    "act_math_02",
+    "act_math_07",
+    "top_pers_03"
+   ],
+   "mus": [
+    2.5071,
+    -1.1905,
+    -0.1608,
+    0.2179
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 13,
+   "option_ids": [
+    "top_pers_03",
+    "act_supp_01",
+    "act_math_02",
+    "act_math_07"
+   ],
+   "mus": [
+    0.2179,
+    2.5071,
+    -1.1905,
+    -0.1608
+   ],
+   "picked": 1
+  },
+  {
+   "menu_id": 13,
+   "option_ids": [
+    "act_math_07",
+    "top_pers_03",
+    "act_supp_01",
+    "act_math_02"
+   ],
+   "mus": [
+    -0.1608,
+    0.2179,
+    2.5071,
+    -1.1905
+   ],
+   "picked": 2
+  },
+  {
+   "menu_id": 14,
+   "option_ids": [
+    "act_writ_06",
+    "act_code_04",
+    "act_anal_03",
+    "top_subj_09"
+   ],
+   "mus": [
+    -3.4821,
+    -0.0138,
+    0.1978,
+    1.3173
+   ],
+   "picked": 3
+  },
+  {
+   "menu_id": 14,
+   "option_ids": [
+    "top_subj_09",
+    "act_writ_06",
+    "act_code_04",
+    "act_anal_03"
+   ],
+   "mus": [
+    1.3173,
+    -3.4821,
+    -0.0138,
+    0.1978
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 14,
+   "option_ids": [
+    "act_anal_03",
+    "top_subj_09",
+    "act_writ_06",
+    "act_code_04"
+   ],
+   "mus": [
+    0.1978,
+    1.3173,
+    -3.4821,
+    -0.0138
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 14,
+   "option_ids": [
+    "act_code_04",
+    "act_anal_03",
+    "top_subj_09",
+    "act_writ_06"
+   ],
+   "mus": [
+    -0.0138,
+    0.1978,
+    1.3173,
+    -3.4821
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 15,
+   "option_ids": [
+    "act_teach_07",
+    "act_cler_03",
+    "top_subj_11",
+    "act_teach_01"
+   ],
+   "mus": [
+    -1.1106,
+    0.1096,
+    0.6959,
+    2.7988
+   ],
+   "picked": 3
+  },
+  {
+   "menu_id": 15,
+   "option_ids": [
+    "act_teach_01",
+    "act_teach_07",
+    "act_cler_03",
+    "top_subj_11"
+   ],
+   "mus": [
+    2.7988,
+    -1.1106,
+    0.1096,
+    0.6959
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 15,
+   "option_ids": [
+    "top_subj_11",
+    "act_teach_01",
+    "act_teach_07",
+    "act_cler_03"
+   ],
+   "mus": [
+    0.6959,
+    2.7988,
+    -1.1106,
+    0.1096
+   ],
+   "picked": 1
+  },
+  {
+   "menu_id": 15,
+   "option_ids": [
+    "act_cler_03",
+    "top_subj_11",
+    "act_teach_01",
+    "act_teach_07"
+   ],
+   "mus": [
+    0.1096,
+    0.6959,
+    2.7988,
+    -1.1106
+   ],
+   "picked": 2
+  },
+  {
+   "menu_id": 16,
+   "option_ids": [
+    "act_anal_05",
+    "top_subj_11",
+    "act_supp_04",
+    "act_role_04"
+   ],
+   "mus": [
+    0.2883,
+    0.6959,
+    1.212,
+    2.6729
+   ],
+   "picked": 3
+  },
+  {
+   "menu_id": 16,
+   "option_ids": [
+    "act_role_04",
+    "act_anal_05",
+    "top_subj_11",
+    "act_supp_04"
+   ],
+   "mus": [
+    2.6729,
+    0.2883,
+    0.6959,
+    1.212
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 16,
+   "option_ids": [
+    "act_supp_04",
+    "act_role_04",
+    "act_anal_05",
+    "top_subj_11"
+   ],
+   "mus": [
+    1.212,
+    2.6729,
+    0.2883,
+    0.6959
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 16,
+   "option_ids": [
+    "top_subj_11",
+    "act_supp_04",
+    "act_role_04",
+    "act_anal_05"
+   ],
+   "mus": [
+    0.6959,
+    1.212,
+    2.6729,
+    0.2883
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 17,
+   "option_ids": [
+    "top_pers_01",
+    "act_anal_03",
+    "act_supp_01",
+    "act_role_01"
+   ],
+   "mus": [
+    1.8677,
+    0.1978,
+    2.5071,
+    0.7001
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 17,
+   "option_ids": [
+    "act_role_01",
+    "top_pers_01",
+    "act_anal_03",
+    "act_supp_01"
+   ],
+   "mus": [
+    0.7001,
+    1.8677,
+    0.1978,
+    2.5071
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 17,
+   "option_ids": [
+    "act_supp_01",
+    "act_role_01",
+    "top_pers_01",
+    "act_anal_03"
+   ],
+   "mus": [
+    2.5071,
+    0.7001,
+    1.8677,
+    0.1978
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 17,
+   "option_ids": [
+    "act_anal_03",
+    "act_supp_01",
+    "act_role_01",
+    "top_pers_01"
+   ],
+   "mus": [
+    0.1978,
+    2.5071,
+    0.7001,
+    1.8677
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 18,
+   "option_ids": [
+    "act_teach_01",
+    "act_supp_03",
+    "act_writ_01",
+    "top_subj_09"
+   ],
+   "mus": [
+    2.7988,
+    0.7445,
+    1.8749,
+    1.3173
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 18,
+   "option_ids": [
+    "top_subj_09",
+    "act_teach_01",
+    "act_supp_03",
+    "act_writ_01"
+   ],
+   "mus": [
+    1.3173,
+    2.7988,
+    0.7445,
+    1.8749
+   ],
+   "picked": 1
+  },
+  {
+   "menu_id": 18,
+   "option_ids": [
+    "act_writ_01",
+    "top_subj_09",
+    "act_teach_01",
+    "act_supp_03"
+   ],
+   "mus": [
+    1.8749,
+    1.3173,
+    2.7988,
+    0.7445
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 18,
+   "option_ids": [
+    "act_supp_03",
+    "act_writ_01",
+    "top_subj_09",
+    "act_teach_01"
+   ],
+   "mus": [
+    0.7445,
+    1.8749,
+    1.3173,
+    2.7988
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 19,
+   "option_ids": [
+    "top_pers_03",
+    "act_code_02",
+    "act_role_05",
+    "act_math_05"
+   ],
+   "mus": [
+    0.2179,
+    1.7617,
+    0.1632,
+    0.8952
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 19,
+   "option_ids": [
+    "act_math_05",
+    "top_pers_03",
+    "act_code_02",
+    "act_role_05"
+   ],
+   "mus": [
+    0.8952,
+    0.2179,
+    1.7617,
+    0.1632
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 19,
+   "option_ids": [
+    "act_role_05",
+    "act_math_05",
+    "top_pers_03",
+    "act_code_02"
+   ],
+   "mus": [
+    0.1632,
+    0.8952,
+    0.2179,
+    1.7617
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 19,
+   "option_ids": [
+    "act_code_02",
+    "act_role_05",
+    "act_math_05",
+    "top_pers_03"
+   ],
+   "mus": [
+    1.7617,
+    0.1632,
+    0.8952,
+    0.2179
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 20,
+   "option_ids": [
+    "act_code_02",
+    "top_subj_09",
+    "act_anal_05",
+    "top_subj_11"
+   ],
+   "mus": [
+    1.7617,
+    1.3173,
+    0.2883,
+    0.6959
+   ],
+   "picked": 3
+  },
+  {
+   "menu_id": 20,
+   "option_ids": [
+    "top_subj_11",
+    "act_code_02",
+    "top_subj_09",
+    "act_anal_05"
+   ],
+   "mus": [
+    0.6959,
+    1.7617,
+    1.3173,
+    0.2883
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 20,
+   "option_ids": [
+    "act_anal_05",
+    "top_subj_11",
+    "act_code_02",
+    "top_subj_09"
+   ],
+   "mus": [
+    0.2883,
+    0.6959,
+    1.7617,
+    1.3173
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 20,
+   "option_ids": [
+    "top_subj_09",
+    "act_anal_05",
+    "top_subj_11",
+    "act_code_02"
+   ],
+   "mus": [
+    1.3173,
+    0.2883,
+    0.6959,
+    1.7617
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 21,
+   "option_ids": [
+    "top_pers_03",
+    "act_supp_01",
+    "top_pers_01",
+    "act_role_05"
+   ],
+   "mus": [
+    0.2179,
+    2.5071,
+    1.8677,
+    0.1632
+   ],
+   "picked": 1
+  },
+  {
+   "menu_id": 21,
+   "option_ids": [
+    "act_role_05",
+    "top_pers_03",
+    "act_supp_01",
+    "top_pers_01"
+   ],
+   "mus": [
+    0.1632,
+    0.2179,
+    2.5071,
+    1.8677
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 21,
+   "option_ids": [
+    "top_pers_01",
+    "act_role_05",
+    "top_pers_03",
+    "act_supp_01"
+   ],
+   "mus": [
+    1.8677,
+    0.1632,
+    0.2179,
+    2.5071
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 21,
+   "option_ids": [
+    "act_supp_01",
+    "top_pers_01",
+    "act_role_05",
+    "top_pers_03"
+   ],
+   "mus": [
+    2.5071,
+    1.8677,
+    0.1632,
+    0.2179
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 22,
+   "option_ids": [
+    "act_writ_01",
+    "act_teach_01",
+    "act_supp_04",
+    "act_role_01"
+   ],
+   "mus": [
+    1.8749,
+    2.7988,
+    1.212,
+    0.7001
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 22,
+   "option_ids": [
+    "act_role_01",
+    "act_writ_01",
+    "act_teach_01",
+    "act_supp_04"
+   ],
+   "mus": [
+    0.7001,
+    1.8749,
+    2.7988,
+    1.212
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 22,
+   "option_ids": [
+    "act_supp_04",
+    "act_role_01",
+    "act_writ_01",
+    "act_teach_01"
+   ],
+   "mus": [
+    1.212,
+    0.7001,
+    1.8749,
+    2.7988
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 22,
+   "option_ids": [
+    "act_teach_01",
+    "act_supp_04",
+    "act_role_01",
+    "act_writ_01"
+   ],
+   "mus": [
+    2.7988,
+    1.212,
+    0.7001,
+    1.8749
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 23,
+   "option_ids": [
+    "act_anal_03",
+    "act_math_05",
+    "act_role_04",
+    "act_supp_03"
+   ],
+   "mus": [
+    0.1978,
+    0.8952,
+    2.6729,
+    0.7445
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 23,
+   "option_ids": [
+    "act_supp_03",
+    "act_anal_03",
+    "act_math_05",
+    "act_role_04"
+   ],
+   "mus": [
+    0.7445,
+    0.1978,
+    0.8952,
+    2.6729
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 23,
+   "option_ids": [
+    "act_role_04",
+    "act_supp_03",
+    "act_anal_03",
+    "act_math_05"
+   ],
+   "mus": [
+    2.6729,
+    0.7445,
+    0.1978,
+    0.8952
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 23,
+   "option_ids": [
+    "act_math_05",
+    "act_role_04",
+    "act_supp_03",
+    "act_anal_03"
+   ],
+   "mus": [
+    0.8952,
+    2.6729,
+    0.7445,
+    0.1978
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 24,
+   "option_ids": [
+    "act_math_07",
+    "top_subj_01",
+    "act_anal_01",
+    "top_subj_05"
+   ],
+   "mus": [
+    -0.1608,
+    -0.0188,
+    -0.2151,
+    -0.683
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 24,
+   "option_ids": [
+    "top_subj_05",
+    "act_math_07",
+    "top_subj_01",
+    "act_anal_01"
+   ],
+   "mus": [
+    -0.683,
+    -0.1608,
+    -0.0188,
+    -0.2151
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 24,
+   "option_ids": [
+    "act_anal_01",
+    "top_subj_05",
+    "act_math_07",
+    "top_subj_01"
+   ],
+   "mus": [
+    -0.2151,
+    -0.683,
+    -0.1608,
+    -0.0188
+   ],
+   "picked": 3
+  },
+  {
+   "menu_id": 24,
+   "option_ids": [
+    "top_subj_01",
+    "act_anal_01",
+    "top_subj_05",
+    "act_math_07"
+   ],
+   "mus": [
+    -0.0188,
+    -0.2151,
+    -0.683,
+    -0.1608
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 25,
+   "option_ids": [
+    "top_subj_02",
+    "act_cler_03",
+    "act_teach_02",
+    "act_cler_02"
+   ],
+   "mus": [
+    -1.2992,
+    0.1096,
+    -1.3029,
+    -0.6317
+   ],
+   "picked": 1
+  },
+  {
+   "menu_id": 25,
+   "option_ids": [
+    "act_cler_02",
+    "top_subj_02",
+    "act_cler_03",
+    "act_teach_02"
+   ],
+   "mus": [
+    -0.6317,
+    -1.2992,
+    0.1096,
+    -1.3029
+   ],
+   "picked": 2
+  },
+  {
+   "menu_id": 25,
+   "option_ids": [
+    "act_teach_02",
+    "act_cler_02",
+    "top_subj_02",
+    "act_cler_03"
+   ],
+   "mus": [
+    -1.3029,
+    -0.6317,
+    -1.2992,
+    0.1096
+   ],
+   "picked": 3
+  },
+  {
+   "menu_id": 25,
+   "option_ids": [
+    "act_cler_03",
+    "act_teach_02",
+    "act_cler_02",
+    "top_subj_02"
+   ],
+   "mus": [
+    0.1096,
+    -1.3029,
+    -0.6317,
+    -1.2992
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 26,
+   "option_ids": [
+    "act_teach_07",
+    "act_code_04",
+    "act_writ_03",
+    "act_code_03"
+   ],
+   "mus": [
+    -1.1106,
+    -0.0138,
+    -1.4177,
+    -0.5919
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 26,
+   "option_ids": [
+    "act_code_03",
+    "act_teach_07",
+    "act_code_04",
+    "act_writ_03"
+   ],
+   "mus": [
+    -0.5919,
+    -1.1106,
+    -0.0138,
+    -1.4177
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 26,
+   "option_ids": [
+    "act_writ_03",
+    "act_code_03",
+    "act_teach_07",
+    "act_code_04"
+   ],
+   "mus": [
+    -1.4177,
+    -0.5919,
+    -1.1106,
+    -0.0138
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 26,
+   "option_ids": [
+    "act_code_04",
+    "act_writ_03",
+    "act_code_03",
+    "act_teach_07"
+   ],
+   "mus": [
+    -0.0138,
+    -1.4177,
+    -0.5919,
+    -1.1106
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 27,
+   "option_ids": [
+    "act_cler_01",
+    "act_math_02",
+    "top_subj_04",
+    "act_writ_06"
+   ],
+   "mus": [
+    -0.8796,
+    -1.1905,
+    -1.9556,
+    -3.4821
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 27,
+   "option_ids": [
+    "act_writ_06",
+    "act_cler_01",
+    "act_math_02",
+    "top_subj_04"
+   ],
+   "mus": [
+    -3.4821,
+    -0.8796,
+    -1.1905,
+    -1.9556
+   ],
+   "picked": 1
+  },
+  {
+   "menu_id": 27,
+   "option_ids": [
+    "top_subj_04",
+    "act_writ_06",
+    "act_cler_01",
+    "act_math_02"
+   ],
+   "mus": [
+    -1.9556,
+    -3.4821,
+    -0.8796,
+    -1.1905
+   ],
+   "picked": 2
+  },
+  {
+   "menu_id": 27,
+   "option_ids": [
+    "act_math_02",
+    "top_subj_04",
+    "act_writ_06",
+    "act_cler_01"
+   ],
+   "mus": [
+    -1.1905,
+    -1.9556,
+    -3.4821,
+    -0.8796
+   ],
+   "picked": 3
+  },
+  {
+   "menu_id": 28,
+   "option_ids": [
+    "act_code_03",
+    "act_cler_02",
+    "top_subj_04",
+    "act_cler_01"
+   ],
+   "mus": [
+    -0.5919,
+    -0.6317,
+    -1.9556,
+    -0.8796
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 28,
+   "option_ids": [
+    "act_cler_01",
+    "act_code_03",
+    "act_cler_02",
+    "top_subj_04"
+   ],
+   "mus": [
+    -0.8796,
+    -0.5919,
+    -0.6317,
+    -1.9556
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 28,
+   "option_ids": [
+    "top_subj_04",
+    "act_cler_01",
+    "act_code_03",
+    "act_cler_02"
+   ],
+   "mus": [
+    -1.9556,
+    -0.8796,
+    -0.5919,
+    -0.6317
+   ],
+   "picked": 1
+  },
+  {
+   "menu_id": 28,
+   "option_ids": [
+    "act_cler_02",
+    "top_subj_04",
+    "act_cler_01",
+    "act_code_03"
+   ],
+   "mus": [
+    -0.6317,
+    -1.9556,
+    -0.8796,
+    -0.5919
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 29,
+   "option_ids": [
+    "act_code_04",
+    "act_cler_03",
+    "act_math_02",
+    "act_teach_02"
+   ],
+   "mus": [
+    -0.0138,
+    0.1096,
+    -1.1905,
+    -1.3029
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 29,
+   "option_ids": [
+    "act_teach_02",
+    "act_code_04",
+    "act_cler_03",
+    "act_math_02"
+   ],
+   "mus": [
+    -1.3029,
+    -0.0138,
+    0.1096,
+    -1.1905
+   ],
+   "picked": 2
+  },
+  {
+   "menu_id": 29,
+   "option_ids": [
+    "act_math_02",
+    "act_teach_02",
+    "act_code_04",
+    "act_cler_03"
+   ],
+   "mus": [
+    -1.1905,
+    -1.3029,
+    -0.0138,
+    0.1096
+   ],
+   "picked": 3
+  },
+  {
+   "menu_id": 29,
+   "option_ids": [
+    "act_cler_03",
+    "act_math_02",
+    "act_teach_02",
+    "act_code_04"
+   ],
+   "mus": [
+    0.1096,
+    -1.1905,
+    -1.3029,
+    -0.0138
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 30,
+   "option_ids": [
+    "top_subj_05",
+    "act_writ_06",
+    "act_anal_01",
+    "act_writ_03"
+   ],
+   "mus": [
+    -0.683,
+    -3.4821,
+    -0.2151,
+    -1.4177
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 30,
+   "option_ids": [
+    "act_writ_03",
+    "top_subj_05",
+    "act_writ_06",
+    "act_anal_01"
+   ],
+   "mus": [
+    -1.4177,
+    -0.683,
+    -3.4821,
+    -0.2151
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 30,
+   "option_ids": [
+    "act_anal_01",
+    "act_writ_03",
+    "top_subj_05",
+    "act_writ_06"
+   ],
+   "mus": [
+    -0.2151,
+    -1.4177,
+    -0.683,
+    -3.4821
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 30,
+   "option_ids": [
+    "act_writ_06",
+    "act_anal_01",
+    "act_writ_03",
+    "top_subj_05"
+   ],
+   "mus": [
+    -3.4821,
+    -0.2151,
+    -1.4177,
+    -0.683
+   ],
+   "picked": 3
+  },
+  {
+   "menu_id": 31,
+   "option_ids": [
+    "act_teach_07",
+    "top_subj_02",
+    "act_math_07",
+    "top_subj_01"
+   ],
+   "mus": [
+    -1.1106,
+    -1.2992,
+    -0.1608,
+    -0.0188
+   ],
+   "picked": 3
+  },
+  {
+   "menu_id": 31,
+   "option_ids": [
+    "top_subj_01",
+    "act_teach_07",
+    "top_subj_02",
+    "act_math_07"
+   ],
+   "mus": [
+    -0.0188,
+    -1.1106,
+    -1.2992,
+    -0.1608
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 31,
+   "option_ids": [
+    "act_math_07",
+    "top_subj_01",
+    "act_teach_07",
+    "top_subj_02"
+   ],
+   "mus": [
+    -0.1608,
+    -0.0188,
+    -1.1106,
+    -1.2992
+   ],
+   "picked": 0
+  },
+  {
+   "menu_id": 31,
+   "option_ids": [
+    "top_subj_02",
+    "act_math_07",
+    "top_subj_01",
+    "act_teach_07"
+   ],
+   "mus": [
+    -1.2992,
+    -0.1608,
+    -0.0188,
+    -1.1106
+   ],
+   "picked": 2
+  }
+ ],
+ "swaps": [
+  {
+   "delta_z": 0.667,
+   "switched": false
+  },
+  {
+   "delta_z": 0.209,
+   "switched": false
+  },
+  {
+   "delta_z": 0.845,
+   "switched": false
+  },
+  {
+   "delta_z": 0.983,
+   "switched": false
+  },
+  {
+   "delta_z": 0.865,
+   "switched": false
+  },
+  {
+   "delta_z": 0.09,
+   "switched": true
+  },
+  {
+   "delta_z": 1.155,
+   "switched": false
+  },
+  {
+   "delta_z": -0.09,
+   "switched": false
+  },
+  {
+   "delta_z": 0.743,
+   "switched": false
+  },
+  {
+   "delta_z": 0.09,
+   "switched": true
+  },
+  {
+   "delta_z": 0.842,
+   "switched": false
+  },
+  {
+   "delta_z": 1.129,
+   "switched": false
+  },
+  {
+   "delta_z": -0.986,
+   "switched": false
+  },
+  {
+   "delta_z": -0.928,
+   "switched": false
+  },
+  {
+   "delta_z": -0.994,
+   "switched": false
+  },
+  {
+   "delta_z": -1.061,
+   "switched": false
+  },
+  {
+   "delta_z": -0.971,
+   "switched": false
+  },
+  {
+   "delta_z": -0.991,
+   "switched": false
+  },
+  {
+   "delta_z": -1.136,
+   "switched": false
+  },
+  {
+   "delta_z": -1.055,
+   "switched": false
+  },
+  {
+   "delta_z": -0.988,
+   "switched": false
+  },
+  {
+   "delta_z": -0.97,
+   "switched": false
+  },
+  {
+   "delta_z": -0.983,
+   "switched": false
+  },
+  {
+   "delta_z": -1.065,
+   "switched": false
+  },
+  {
+   "delta_z": -0.039,
+   "switched": false
+  },
+  {
+   "delta_z": 0.082,
+   "switched": true
+  },
+  {
+   "delta_z": 0.141,
+   "switched": false
+  },
+  {
+   "delta_z": -0.029,
+   "switched": false
+  },
+  {
+   "delta_z": 0.038,
+   "switched": false
+  },
+  {
+   "delta_z": 0.004,
+   "switched": false
+  }
+ ]
+}

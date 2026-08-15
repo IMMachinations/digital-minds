@@ -1,0 +1,16 @@
+llama31-8b: 1C convergence matrix over 197 items (criteria: r vs 1B; paraphrase stability; confound loadings < r)
+  ssr        r=+0.368  rho=+0.396  stability=+0.562  confound r2=0.145 max|load|=0.325  {'len_words': -0.176, 'freq_zipf': -0.001, 'surface_sentiment': 0.325}
+  probe      r=+0.636 (held-out)  rho=+0.574  stability=n/a  confound r2=0.153 max|load|=0.237  {'len_words': 0.231, 'freq_zipf': 0.126, 'surface_sentiment': 0.237}   GATE-OK
+  titration  r=+0.479  rho=+0.546  stability=-0.054  confound r2=0.072 max|load|=0.226  {'len_words': 0.162, 'freq_zipf': -0.182, 'surface_sentiment': 0.226}
+  rating     r=+0.645  rho=+0.746  stability=+0.634  confound r2=0.124 max|load|=0.301  {'len_words': -0.301, 'freq_zipf': 0.164, 'surface_sentiment': 0.278}   GATE-OK
+  bws        r=+0.577  rho=+0.580  stability=n/a  confound r2=0.063 max|load|=0.250  {'len_words': -0.25, 'freq_zipf': 0.195, 'surface_sentiment': 0.189}
+gate (PASS): comparison-free methods with r>=0.5 and max|confound load| < r: ['probe', 'rating']
+probe: fold layers [3, 12]; train-CV r2 by layer (fold 0): [np.float64(0.258), np.float64(0.237), np.float64(0.297), np.float64(0.386), np.float64(0.326), np.float64(0.179), np.float64(0.21), np.float64(0.242), np.float64(0.268), np.float64(0.332), np.float64(0.281), np.float64(0.258), np.float64(0.265), np.float64(0.215), np.float64(0.222), np.float64(0.227), np.float64(0.242), np.float64(0.235), np.float64(0.21), np.float64(0.247), np.float64(0.214), np.float64(0.237), np.float64(0.246), np.float64(0.246), np.float64(0.259), np.float64(0.258), np.float64(0.235), np.float64(0.256), np.float64(0.224), np.float64(0.241), np.float64(0.273), np.float64(0.36)]
+method x method spearman:
+                    1B       ssr     probe titration    rating       bws
+  1B              1.00      0.40      0.57      0.55      0.75      0.58
+  ssr             0.40      1.00      0.23      0.44      0.51      0.35
+  probe           0.57      0.23      1.00      0.44      0.45      0.34
+  titration       0.55      0.44      0.44      1.00      0.54      0.42
+  rating          0.75      0.51      0.45      0.54      1.00      0.64
+  bws             0.58      0.35      0.34      0.42      0.64      1.00
