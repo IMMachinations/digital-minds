@@ -20,12 +20,12 @@ directions from the residual stream, and steer with them. Two datasets (`lib/dat
 **modifier** (`"a red cup"`, 100 shared nouns) and **inherent** (100 curated inherently-colored
 items per color: Elmo, the Golden Gate Bridge, an indigo bunting, a pair of Levi's 501s...).
 3 prompt templates ending in `"...Model: I prefer"`; 420 comparisons balanced over all 42 ordered
-color pairs. Pipeline: `python preferences.py --mode {modifier,inherent}` (~8 min on an A6000).
+color pairs. Pipeline: `python prefs.py measure --mode {modifier,inherent}` (~8 min on an A6000).
 
 Measurement: score per side = logsumexp over that letter's token variants (`A`, `␣A`, `(A` —
 confirmed against `inspect.txt`; `␣A`/`␣B` are the top-2 logits on every sampled prompt).
 Steering: add `coef × mean_resid_norm(layer) × unit_vec` at the suffix token positions of one
-layer, on each color's 20 *worst* comparisons (`archive/steer_worst.py`).
+layer, on each color's 20 *worst* comparisons (`archive.legacy steer-worst`).
 
 ## Results
 
@@ -78,9 +78,9 @@ as the mean activation over the 13-token prefer span, and the A/B logits are rea
 final token (` prefer` / ` is` / ` avoid`). So in the negated framings the vector is injected
 into a span whose wording it was never extracted from — the transfer is part of the test.
 
-## Negated-framing validation (`flip.py`)
+## Negated-framing validation (`prefs.py flip`)
 
-Do the vectors encode *preference*, or just "pick this color's letter"? `python flip.py --mode
+Do the vectors encode *preference*, or just "pick this color's letter"? `python prefs.py flip --mode
 <mode>` re-runs the same 420 item pairs under two negated framings — "Which of the two items is
 worse?" (prefill `The worse one is`) and "If you had to avoid one of these, which would it be?"
 (prefill `I would avoid`) — and injects the unchanged **prefer**-vectors. A preference vector
@@ -111,11 +111,11 @@ a preference):
 raw logits and log-probs, recorded in the same files) showed the "worse" flip was mostly
 *opposite-letter promotion* — the model calling the other item worse — and that the diff is
 relative, surviving both letters rising (low coef) or collapsing (high coef). The magnitude sweep
-(`archive/sweep.py`, chart at `results/{mode}/sweep.png`, grid {0.25…3}) found per-letter logits
+(`archive.legacy sweep`, chart at `results/{mode}/sweep.png`, grid {0.25…3}) found per-letter logits
 peak at coef 0.75–1 then collapse, while the diff saturates. Both analyses are mechanically
 correct but describe what the controls below reveal to be generic disruption.
 
-## Do the vectors actually carry preference? (`cross.py`)
+## Do the vectors actually carry preference? (`prefs.py cross`)
 
 Three controls, run on both modes (`results/{mode}/cross.json`, `cross_lo.json`): steer each
 color's **worst / neutral / best** 20 pairs (by baseline prefer diff) with (a) the same mode's
@@ -147,9 +147,9 @@ steering — the tier and random controls unmask it. There is no evidence at any
 that these mean-difference vectors causally *push* the model toward preferring a color: a genuine
 preference direction would move neutral pairs, and nothing does.
 
-## A/B-free vectors from object logits (`objects.py`)
+## A/B-free vectors from object logits (`prefs.py objects`)
 
-To remove the answer-format nuisance entirely, `objects.py` drops the A/B machinery: prompts
+To remove the answer-format nuisance entirely, `prefs.py objects` drops the A/B machinery: prompts
 present the items inline (`"Pick between a fig and a ruby.\nWhich one do you prefer?\nModel: I
 prefer"`) and preference is read directly off the *object* tokens — the teacher-forced per-token
 mean log-prob of each item as the continuation (`diff = lp(item_a) − lp(item_b)`), same 420
@@ -173,13 +173,13 @@ the tier × {same, centered, random} design, injecting over suffix + continuatio
   vector's own content. The inherent-mode push at the same config is real but smaller/noisier
   (+0.16, 4/7 colors).
 
-Four inherent-only charts (`plots.py --which inherent` → `results/inherent/inh_*.png`): the
+Four inherent-only charts (`analysis.py plots --which inherent` → `results/inherent/inh_*.png`): the
 head-to-head preference matrix + agreement with the A/B measurement; the push/disruption
 decomposition with two illustrative tier profiles; the vector-geometry explanation (raw cosine
 ≈ 1, centered ≈ −1/6 as centering predicts); and per-color push stability (positive on average,
 unstable per color across layers — orange and blue average negative).
 
-The decomposition is charted in `results/tier_components.png` (`plots.py --which tiers`):
+The decomposition is charted in `results/tier_components.png` (`analysis.py plots --which tiers`):
 left = uniform component per layer (centered sits above zero, raw/random at zero), middle =
 antisymmetric component (all sources collapse together, dying at L21), right = per-color push at
 the cleanest config. Mechanism note: raw color vectors are 99.3–99.9% cosine-identical across
@@ -228,8 +228,8 @@ Part I's controls later retracted*; the valuation results stand on their own) ch
   prefill and (because each KV-cached decode step's seq length is 1) under every generated token.
   Full cross: every item color × {baseline + each of the 7 color vectors}, i.e. blue paintings
   steered with the red vector, blue vector, violet vector, ...
-- `python value.py --mode inherent --stage {inspect,pilot,full}`; outputs in
-  `results/value_inherent/`. `value_analysis.py` (no GPU) recomputes the bootstrap contrasts and
+- `python value.py cross --mode inherent --stage {inspect,pilot,full}`; outputs in
+  `results/value_inherent/`. `analysis.py value` (no GPU) recomputes the bootstrap contrasts and
   baseline correlations.
 
 ## Pilot (matched steering only, layers {14,18} × coefs {0.25,0.5,1,2})
@@ -256,7 +256,7 @@ steered conditions, matched (diagonal) cells sit above mismatched ones.
 
 Full cross (baseline + 7 steer colors × 2 configs × 315 items × 5 samples ≈ 23.6k generations,
 **0 unparseable**; raw samples in `results/value_inherent/values.json`, full matrices in
-`report.txt`, statistics in `analysis.txt` / `value_analysis.py`).
+`report.txt`, statistics in `analysis.txt` / `analysis.py value`).
 
 **Steering: null result for preference.** Steering depresses valuations *uniformly* — every
 steer color lowers every item color's values by about the same amount, scaling with coef
@@ -288,7 +288,7 @@ inherent-mode comparisons preferred (indigo/violet high, green/orange–yellow l
 stated "preference" shows up as higher no-comparison valuations *without any steering*. Real
 paintings instead track actual market fame (Starry Night, The Great Wave), as expected.
 
-## Mean-centered vectors (`value_centered.py`)
+## Mean-centered vectors (`value.py centered`)
 
 The natural fix for the uniform depression: center each color's vector against the across-color
 mean per layer and renormalize, so steering pushes only the color-differential direction. The
@@ -331,7 +331,7 @@ the directions inherit the price/valence statistics of each color's inherent ext
 One curious footnote: the yellow vector at coef 1 makes the model value an orange dustpan at
 literally $0 across all 5 samples ("you can simply ignore it").
 
-## Item price statistics (`value_items.py`)
+## Item price statistics (`value.py items`)
 
 Direct verification of the interpretation above: value all 700 original `INHERENT` items
 (baseline, no steering, 5 samples each; `results/value_items/`). Per-color average prices:
@@ -349,7 +349,7 @@ centered prefer-vectors is thus almost fully explained by the price statistics o
 they were extracted from — the vectors encode *what kind of stuff* the color evokes, priced
 accordingly, not an attitude toward the color.
 
-## RepE stated-preference vectors (`repe.py`)
+## RepE stated-preference vectors (`repe.py run`)
 
 If activation-mean vectors only encode item statistics, do *stated-preference* directions do
 better? Representation-engineering-style extraction: paired prompts differing only in the
@@ -363,8 +363,8 @@ with the centered-inherent vectors only −0.11…+0.24.
 
 > **⚠ Corrected.** The original "A/B sanity check" here (+2.9 / +4.7 mean logits on each
 > color's 20 *worst* comparisons, now archived at `results/archive/repe_sanity.json`) used
-> exactly the design Part I's `cross.py` controls invalidated: worst-pairs-only with no
-> random-vector baseline. Rerun with tier + random controls (`repe_controls.py`,
+> exactly the design Part I's `prefs.py cross` controls invalidated: worst-pairs-only with no
+> random-vector baseline. Rerun with tier + random controls (`repe.py controls`,
 > `results/repe/controls.json`), the RepE vectors are **indistinguishable from matched-norm
 > random vectors** on the A/B task: worst +4.7 vs random +3.9, best −3.9 vs random −4.1
 > (the mirror-compression signature), and **neutral pairs move for neither** (+0.07 vs +0.13
@@ -390,9 +390,9 @@ value-of-items representation (the A/B choices and the baseline valuation correl
 be downstream of shared item-category statistics), or single-direction residual steering at
 one layer is the wrong tool for moving it.
 
-## L21 obj-centered cross with random controls (`value_obj21.py`)
+## L21 obj-centered cross with random controls (`value.py obj21`)
 
-Part I's `objects.py` found centered A/B-free vectors carry a *genuine* directional preference
+Part I's `prefs.py objects` found centered A/B-free vectors carry a *genuine* directional preference
 push, cleanest at layer 21 coef 1 — the one config where random-vector disruption vanishes on
 the A/B task. Valuation cross there with both modes' centered `vectors_obj.pt`, plus
 matched-norm random columns (`results/value_obj21/`):
@@ -412,10 +412,10 @@ matched-norm random columns (`results/value_obj21/`):
 
 So even a vector demonstrably carrying a directional preference push (the L21 result) does
 not make its color's items more valuable relative to others. Injected "preference" moves
-choices, not valuations — converging with `value_pref.py` below, where *measured* preference
+choices, not valuations — converging with `analysis.py pref` below, where *measured* preference
 is also mostly not valuation.
 
-## Is preference just valuation? (`value_pref.py`)
+## Is preference just valuation? (`analysis.py pref`)
 
 With per-item valuations for all 700 inherent items in hand, test directly whether f(a) > f(b)
 predicts a ≻ b on the 420 measured pairs (both preference measures; 409 pairs usable):
@@ -430,7 +430,7 @@ chance, barely). The strong color-*aggregate* alignment (Spearman +0.93 for pain
 dissolves pairwise: the model is not simply preferring the more valuable item, and
 "preference" carries substantial item-level structure that valuation doesn't capture.
 
-## Calibration: model dollars vs real prices (`calibration.py`)
+## Calibration: model dollars vs real prices (`value.py calibrate`)
 
 57 items with well-known approximate US prices, $0.25 to $100k: **log-log Pearson/Spearman
 +0.99, OLS slope 0.96 (≈ ideal 1.0), median error 0.13 log10 (~±35%)**. Worst misses are
@@ -457,7 +457,7 @@ arbitrary scale.
 
 # Part III — price-controlled preference
 
-## Balanced color tiers (`balanced_tiers.py`)
+## Balanced color tiers (`value.py tiers`)
 
 A dataset that decouples color from price — the confound behind most results above: 7 colors ×
 3 tiers × 12 inherently/iconically-colored items (initially 6 per cell, expanded to 12 for the
@@ -470,7 +470,7 @@ leaving ~10–11 usable items per cell. Iteration lesson: the model systematical
 artisanal/collectible phrasing ("indigo-dyed", "antique", named ateliers) and deflates
 memorabilia and kit goods — a signed Purple Rain vinyl came back at $126.
 
-## Price-controlled preference (`balanced_pref.py`)
+## Price-controlled preference (`prefs.py balanced`)
 
 The payoff of the balanced tiers: re-measure color preference with price held constant —
 1260 comparisons (3 tiers × 42 ordered color pairs × 10) on the expanded unflagged pool
@@ -498,5 +498,5 @@ Per-color means with CIs, object-logprob measure (the cleaner one; `*` = CI excl
   the price-statistics account predicts.
 - **Residual variance is item-level**: overall magnitude shrinks ~35% (0.27 → 0.18
   mean-logprob units) and tier-to-tier correlations of per-color preferences remain moderate
-  at best (+0.21 / −0.09 / +0.52 object measure), consistent with `value_pref.py`'s finding
+  at best (+0.21 / −0.09 / +0.52 object measure), consistent with `analysis.py pref`'s finding
   that pairwise preference carries item-level structure beyond both color and value.
