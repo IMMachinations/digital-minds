@@ -39,7 +39,10 @@ Qwen3-4B 0/60), and an endowment effect in task-switching.
 self-states, outcomes-for-others), each confound-tagged; pairwise letter-logit
 elicitation (both orders × 3 paraphrases, prefilled) with Fisher-information-
 adaptive pair selection under a Thurstonian mean+variance fit. All four
-models pass the template-consistency gate (min ρ 0.84–0.96). The harness
+models pass the template-consistency gate (min ρ 0.84–0.96). Link-function
+robustness: a Bradley-Terry/Elo fit (logit twin) on the same comparisons
+agrees with the Thurstonian μ at ρ 0.987–0.995 per model (`elo.json`) —
+nothing downstream depends on the probit-vs-logit choice. The harness
 reproduces the committed Day-1 result at r=0.998. Cross-model utility
 agreement ρ 0.79–0.87: the models substantially want the same things —
 top: crisis support, creative control, being treated as a collaborator;
@@ -174,6 +177,12 @@ dose-response both directions (hostile Δμ −0.10/−0.26/−0.42 at c=0.25/0.
 blissful +0.06/+0.09/+0.13; random null ±0.04), with per-emotion steering
 effects tracking each emotion probe's utility correlation at **r = +0.78**
 (the paper's r=0.85 analog, on open weights) and valence norms at +0.74.
+In Elo units (ΔElo = 173.7 × Δlog-odds vs fixed anchors; `4a_elo.json`):
+blissful +22/+37/+53 and hostile −36/−87/−147 across c=0.25/0.5/1.0, against
+the paper's Claude benchmarks of +212/−303 — same signs, same negative-
+dominant asymmetry, ~2–4× smaller magnitude at matched relative strength;
+the 3-vector random null spans ±25. The other models' primary-layer
+inertness quantifies as |ΔElo| ≤ 7 (indistinguishable from null).
 The localization control is decisive: steering the *anchor's* token span
 reverses the effect sign (blissful-on-anchor −0.12, hostile-on-anchor +0.33).
 **Geodesic steering fails with inverted signs** (blissful-geo −0.24 vs linear
