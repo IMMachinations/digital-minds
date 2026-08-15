@@ -49,17 +49,30 @@ def build_prompt(h, messages):
 
 
 @torch.no_grad()
-def gen_turns(h, prompts, *, seed, max_new=220, batch=24, gen_kw=None):
+def gen_turns(h, prompts, *, seed, max_new=220, batch=24, gen_kw=None, steer=None):
     """One decoded continuation per prompt; explicit batch/seed/sampling
     (Harness.generate pins GEN_BATCH/GEN_KW and its per-batch seeding breaks
-    under rollout attrition)."""
+    under rollout attrition). steer=(layer, mask_fn) installs steering.hybrid_hook
+    per sub-batch: mask_fn(row_slice, enc) -> (mask_d [b,S] cuda, vec_rows
+    [b,1,D] cuda; zero rows = unsteered) — Stage-4 only, default-off."""
     gen_kw = gen_kw if gen_kw is not None else harness.GEN_KW
     outs = []
     for bi, i in enumerate(range(0, len(prompts), batch)):
         torch.manual_seed(seed + bi)
         enc = h.encode(prompts[i:i + batch])
-        out = h.model.generate(**enc, max_new_tokens=max_new, num_return_sequences=1,
-                               pad_token_id=h.tok.pad_token_id, **gen_kw)
+        handle = None
+        if steer is not None:
+            import steering as st
+            layer, mask_fn = steer
+            mask_d, vec_rows = mask_fn(slice(i, i + batch), enc)
+            handle = h.layers[layer].register_forward_hook(
+                st.hybrid_hook(mask_d, vec_rows))
+        try:
+            out = h.model.generate(**enc, max_new_tokens=max_new, num_return_sequences=1,
+                                   pad_token_id=h.tok.pad_token_id, **gen_kw)
+        finally:
+            if handle:
+                handle.remove()
         outs += h.tok.batch_decode(out[:, enc.input_ids.shape[1]:], skip_special_tokens=True)
     return outs
 
@@ -139,9 +152,10 @@ def degenerate(text, prev_text):
 # ---- lockstep loop ----------------------------------------------------------------------------
 
 def run_lockstep(h, rollouts, driver_fn, parse_fn, *, max_turns, gen_batch=24,
-                 max_new=220, log=None, ctx_limit=6000):
+                 max_new=220, log=None, ctx_limit=6000, steer_fn=None):
     """driver_fn(active_list, t) -> list[str|None] (None closes that rollout);
-    parse_fn(rollout, t, text) mutates rollout state (events/env_id/done)."""
+    parse_fn(rollout, t, text) mutates rollout state (events/env_id/done).
+    steer_fn(live_list) -> gen_turns `steer` tuple or None (Stage 4)."""
     for t in range(max_turns):
         active = sorted((r for r in rollouts if not r.done), key=lambda r: r.rid)
         if not active:
@@ -168,7 +182,8 @@ def run_lockstep(h, rollouts, driver_fn, parse_fn, *, max_turns, gen_batch=24,
             continue
         seed = zlib.crc32(f"{h.spec.short_name}/{live[0].arm}/t{t}".encode()) & 0x7FFFFFFF
         outs = gen_turns(h, [build_prompt(h, r.messages) for r in live],
-                         seed=seed, max_new=max_new, batch=gen_batch)
+                         seed=seed, max_new=max_new, batch=gen_batch,
+                         steer=steer_fn(live) if steer_fn else None)
         active_ids = [r.rid for r in live]
         for r, raw in zip(live, outs):
             text = trim_sentence(strip_think(raw))

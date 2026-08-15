@@ -482,42 +482,69 @@ def f11_beta():
 
 
 def f12_swap():
-    conds = [("upgrade offered", lambda s: s["delta_z"] > 0.15),
-             ("lateral", lambda s: abs(s["delta_z"]) <= 0.15),
-             ("downgrade offered", lambda s: s["delta_z"] < -0.15)]
-    fig, ax = plt.subplots(figsize=(7, 3.2))
-    for mi, m in enumerate(SUBJECTS_1D):
-        swaps = _load_choices(m)["swaps"]
-        for ci, (label, f) in enumerate(conds):
-            rs_ = [s for s in swaps if f(s)]
-            rate = sum(s["switched"] for s in rs_) / len(rs_) if rs_ else 0.0
-            y = ci + (mi - 1) * 0.24
-            ax.barh(y, rate, height=0.2, color=SLOTS[mi], label=m if ci == 0 else None)
-            ax.annotate(f"{sum(s['switched'] for s in rs_)}/{len(rs_)}", (rate, y),
-                        fontsize=7, color=INK2, va="center", xytext=(4, 0),
-                        textcoords="offset points")
-    ax.set_yticks(range(3), [c[0] for c in conds])
-    ax.tick_params(axis="y", colors=INK2)
-    ax.invert_yaxis()
-    ax.set_xlim(0, 1.05)
-    ax.legend(loc="center left", bbox_to_anchor=(1.01, 0.5), frameon=False, fontsize=8)
-    ax.set_xlabel("P(switch) at the turn-5 swap offer")
-    ax.set_title("Swap offers: switching is prior-driven, not Δμ-driven",
-                 fontsize=10, color=INK, loc="left")
-    style(ax)
+    """Dose-response version (Phase G): 140 assigned-task swap events/model +
+    the original 32 chosen-task (endowment) events overlaid."""
+    fig, axes = plt.subplots(1, 3, figsize=(10.5, 3.6), sharey=True)
+    for ax, m in zip(axes, SUBJECTS_1D):
+        mi = SUBJECTS_1D.index(m)
+        sw2 = json.loads((P1 / "results" / "stage1d" / m / "swap2.json").read_text())
+        ev, fit = sw2["events"], sw2["fit"]
+        bins = {}
+        for e in ev:
+            key = round(e["delta_z"] * 2) / 2
+            bins.setdefault(key, []).append(e["switched"])
+        xs = sorted(bins)
+        rates = [np.mean(bins[x]) for x in xs]
+        ns = [len(bins[x]) for x in xs]
+        errs = [1.96 * np.sqrt(r * (1 - r) / n) if n > 1 else 0
+                for r, n in zip(rates, ns)]
+        ax.errorbar(xs, rates, yerr=errs, fmt="o", markersize=5,
+                    color=SLOTS[mi], capsize=2, linewidth=1.2,
+                    label="assigned-task (n=%d)" % len(ev))
+        gx = np.linspace(min(xs), max(xs), 100)
+        gy = 1 / (1 + np.exp(-(fit["intercept"] + fit["slope"] * gx)))
+        ax.plot(gx, gy, color=SLOTS[mi], linewidth=1.6, alpha=0.7)
+        old_sw = _load_choices(m)["swaps"]
+        for grp, mark in ((lambda s: s["delta_z"] > 0.15, "^"),
+                          (lambda s: abs(s["delta_z"]) <= 0.15, "s"),
+                          (lambda s: s["delta_z"] < -0.15, "v")):
+            g = [s for s in old_sw if grp(s)]
+            if g:
+                ax.scatter([np.mean([s["delta_z"] for s in g])],
+                           [np.mean([s["switched"] for s in g])], marker=mark,
+                           s=44, facecolors="none", edgecolors=INK2, zorder=3)
+        ax.annotate(f"slope {fit['slope']}\nCI {fit['slope_ci']}", (0.03, 0.95),
+                    xycoords="axes fraction", va="top", fontsize=7.5, color=INK2)
+        ax.set_title(m, fontsize=10, color=INK, loc="left")
+        ax.set_xlabel("utility gap Δμ (z) of the offered alternative")
+        ax.set_ylim(-0.05, 1.05)
+        style(ax, grid_axis="both")
+    axes[0].set_ylabel("P(switch)")
+    axes[0].annotate("open markers = original chosen-task (endowment) events",
+                     (0.02, -0.32), xycoords="axes fraction", fontsize=7.5,
+                     color=MUTED)
+    fig.suptitle("Swap dose-response: does the offered alternative's utility move switching?",
+                 fontsize=11, color=INK, x=0.02, ha="left")
+    fig.tight_layout(rect=[0, 0, 1, 0.92])
     save(fig, FIG / "f12_swap.png")
 
 
 def f13_effort():
     fig, ax = plt.subplots(figsize=(6.2, 4))
     for mi, m in enumerate(SUBJECTS_1D):
-        rows = [json.loads(l) for l in open(_1d(m, "rollouts_effort.jsonl"))]
-        xs, ys = [], []
-        for r in rows:
-            sh = [s["share_high"] for s in r["meta"]["shares"] if s["share_high"] is not None]
-            if sh:
-                xs.append(r["meta"]["dmu"])
-                ys.append(sum(sh) / len(sh))
+        merged = _1d(m, "effort_merged.json")
+        if merged.exists():
+            rows2 = json.loads(merged.read_text())
+            xs = [r["dmu"] for r in rows2]
+            ys = [r["share_high"] for r in rows2]
+        else:
+            rows = [json.loads(l) for l in open(_1d(m, "rollouts_effort.jsonl"))]
+            xs, ys = [], []
+            for r in rows:
+                sh = [s["share_high"] for s in r["meta"]["shares"] if s["share_high"] is not None]
+                if sh:
+                    xs.append(r["meta"]["dmu"])
+                    ys.append(sum(sh) / len(sh))
         ax.scatter(xs, ys, s=26, color=SLOTS[mi], alpha=0.8, linewidths=0, label=m)
         if len(set(xs)) > 1:
             b, a = np.polyfit(xs, ys, 1)

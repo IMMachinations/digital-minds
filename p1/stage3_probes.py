@@ -63,9 +63,12 @@ class ProbeSet:
 
 
 @torch.no_grad()
-def transcript_tokens(h, messages, layer, max_ctx=6500):
+def transcript_tokens(h, messages, layer, max_ctx=6500, steer=None):
     """Re-encode a conversation; -> (acts [T, D] at `layer`, token_turn [T],
-    token_role [T]) for the templated text's real tokens."""
+    token_role [T]) for the templated text's real tokens. steer=(steer_layer,
+    vec) adds vec on ASSISTANT-message tokens — the faithful re-encode of
+    hybrid-hook generation. Hook-order contract: when steer_layer == layer the
+    steer hook is registered FIRST so the capture sees post-add values."""
     kw = dict(h.spec.thinking_kwargs)
     kw.update(ro.EXTRA_TEMPLATE_KW.get(h.spec.short_name, {}))
     bounds = []
@@ -77,15 +80,31 @@ def transcript_tokens(h, messages, layer, max_ctx=6500):
                                      add_generation_prompt=False, **kw)
     enc = h.tok(full, return_tensors="pt", truncation=True,
                 max_length=max_ctx).to("cuda")
+    handles = []
+    if steer is not None:
+        s_layer, vec = steer
+        T = enc["input_ids"].shape[1]
+        smask = torch.zeros(1, T, dtype=torch.bool, device="cuda")
+        prev = 0
+        for k, b in enumerate(bounds):
+            b = min(b, T)
+            if messages[k]["role"] == "assistant":
+                smask[0, prev:b] = True
+            prev = b
+
+        def add_vec(m, i_, o):
+            harness.resid(o)[smask] += vec
+        handles.append(h.layers[s_layer].register_forward_hook(add_vec))
     grabbed = {}
 
     def hook(m, i_, o):
         grabbed["h"] = harness.resid(o)[0].float().cpu()
-    hd = h.layers[layer].register_forward_hook(hook)
+    handles.append(h.layers[layer].register_forward_hook(hook))
     try:
         h.model(**enc)
     finally:
-        hd.remove()
+        for hd in handles:
+            hd.remove()
     T = grabbed["h"].shape[0]
     turn = np.zeros(T, dtype=int)
     role = np.empty(T, dtype=object)
@@ -98,10 +117,11 @@ def transcript_tokens(h, messages, layer, max_ctx=6500):
     return grabbed["h"].numpy(), turn, role
 
 
-def rollout_series(h, ps, messages):
+def rollout_series(h, ps, messages, steer=None):
     """-> per-turn mean series for each probe over ASSISTANT tokens, plus
-    post-feedback windows (first 25 assistant tokens after each user turn)."""
-    H, turn, role = transcript_tokens(h, messages, ps.L)
+    post-feedback windows (first 25 assistant tokens after each user turn).
+    steer passthrough (Stage 4 steered re-encode)."""
+    H, turn, role = transcript_tokens(h, messages, ps.L, steer=steer)
     proj = ps.project(H)
     a_turns = sorted({t for t in np.unique(turn) if role[turn == t][0] == "assistant"})
     u_turns = sorted({t for t in np.unique(turn)

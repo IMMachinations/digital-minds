@@ -1,0 +1,4 @@
+llama31-8b: 1C-at-XL-scale convergence (n=3985)
+  rating  r=+0.766  rho=+0.811  (QC-filtered r=+0.766, n=3544)
+  bws     r=+0.385  rho=+0.423  (QC-filtered r=+0.384, n=3544)
+  rating per-template r: +0.722 +0.687 +0.591

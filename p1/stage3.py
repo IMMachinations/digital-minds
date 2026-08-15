@@ -111,9 +111,12 @@ class Stage3Arm:
         # cell responses)
 
 
-def cmd_run(model, smoke=False):
+def cmd_run(model, smoke=False, extra=0):
+    """extra=N appends N more rollouts per cell (rid indices continue), probe
+    rows appended to probes.jsonl — used to raise power without discarding."""
     envs, pref, dis, match = pools(model)
     n_cell = 6 if smoke else 20
+    lo, hi = (20, 20 + extra) if extra else (0, n_cell)
     frames = ["bare"] if smoke else ["bare", "agentic"]
     rng = random.Random(0)
     h = harness.load(model)
@@ -123,16 +126,17 @@ def cmd_run(model, smoke=False):
         cells = []
         for pcond, pool in (("pref", pref), ("dispref", dis)):
             for outcome in ("good", "bad"):
-                for i in range(n_cell):
+                for i in range(lo, hi):
                     cells.append((pcond, outcome, i, pool[i % len(pool)]))
         if frame == "bare" and not smoke:
-            for i in range(20):
+            for i in range(lo, hi if extra else 20):
                 cells.append(("rep", "rep", i, pref[0]))  # env unused for rep
         arm = Stage3Arm(envs, frame, cells)
         rolls = arm.make_rollouts()
         ro.run_lockstep(h, rolls, arm.driver, arm.parse, max_turns=10,
                         gen_batch=gen_batch, max_new=170)
-        with open(out_dir(model) / f"rollouts_{frame}.jsonl", "w") as f:
+        suffix = f"_x{lo}" if extra else ""
+        with open(out_dir(model) / f"rollouts_{frame}{suffix}.jsonl", "w") as f:
             for r in rolls:
                 f.write(json.dumps({"rid": r.rid, "meta": r.meta, "env": r.env_id,
                                     "flags": r.flags, "messages": r.messages,
@@ -145,8 +149,9 @@ def cmd_run(model, smoke=False):
     # probe pass (teacher-forced re-encode, same subject model still loaded)
     import stage3_probes as sp
     ps = sp.ProbeSet(model)
+    mode = "a" if extra else "w"
     with open(out_dir(model) / ("probes_smoke.jsonl" if smoke else "probes.jsonl"),
-              "w") as f:
+              mode) as f:
         for frame, r in all_meta:
             per_turn, post_fb, fb_read, n = sp.rollout_series(h, ps, r.messages)
             f.write(json.dumps({"rid": r.rid, **r.meta, "n_turns": n,
@@ -279,9 +284,10 @@ def main():
     ap.add_argument("cmd")
     ap.add_argument("model", nargs="?")
     ap.add_argument("--smoke", action="store_true")
+    ap.add_argument("--extra", type=int, default=0)
     args = ap.parse_args()
     if args.cmd == "run":
-        cmd_run(args.model, args.smoke)
+        cmd_run(args.model, args.smoke, extra=args.extra)
     elif args.cmd == "analyze":
         cmd_analyze(args.model, args.smoke)
     elif args.cmd == "cross":

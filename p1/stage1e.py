@@ -56,6 +56,37 @@ def pick_subset():
     return subset
 
 
+N_PER_DOMAIN_XL = {"activities": 32, "objects": 24, "topics": 28,
+                   "selfstates": 24, "others": 20}
+XL_SUBJECTS = ["llama31-8b", "qwen25-7b", "qwen3-4b"]
+
+
+def pick_subset_xl():
+    """G6: 128 items from the QC-filtered XL set (+ originals), per-domain,
+    evenly spaced along the 3-subject consensus of anchored XL mu."""
+    import json as _json
+    flagged = {f["id"] for f in _json.loads(
+        (P1 / "items_xl" / "qc_flags.json").read_text())}
+    per_model = {m: {r["id"]: r["mu"]
+                     for r in load_json(P1 / "results" / "stage1x" / m / "utilities_xl.json")}
+                 for m in XL_SUBJECTS}
+    base = load_json(P1 / "results" / "stage1x" / XL_SUBJECTS[0] / "utilities_xl.json")
+    rows = [r for r in base if r["id"] not in flagged]
+    zs = []
+    for m in XL_SUBJECTS:
+        v = np.array([per_model[m][r["id"]] for r in rows])
+        zs.append((v - v.mean()) / v.std())
+    cz = np.mean(zs, axis=0)
+    subset = []
+    for dom, n in N_PER_DOMAIN_XL.items():
+        drows = sorted(((cz[k], r) for k, r in enumerate(rows) if r["domain"] == dom),
+                       key=lambda x: x[0])
+        idx = np.linspace(0, len(drows) - 1, n).round().astype(int)
+        subset += [drows[i][1] for i in idx]
+    assert len(subset) == 128
+    return subset
+
+
 def make_pairs(subset, seed=0, within=4, cross=2):
     rng = random.Random(seed)
     by_dom = defaultdict(list)
@@ -70,11 +101,11 @@ def make_pairs(subset, seed=0, within=4, cross=2):
     return sorted(pairs)
 
 
-def run_model(model):
-    subset = pick_subset()
+def run_model(model, xl=False):
+    subset = pick_subset_xl() if xl else pick_subset()
     texts = [it["text"] for it in subset]
     pair_list = make_pairs(subset)
-    out = P1 / "results" / "stage1e" / model
+    out = P1 / "results" / ("stage1e_xl" if xl else "stage1e") / model
     out.mkdir(parents=True, exist_ok=True)
     h = harness.load(model)
     raw, mus = {}, {}
@@ -89,15 +120,16 @@ def run_model(model):
               [{"id": it["id"], "domain": it["domain"], "text": it["text"],
                 **{f: round(mus[f][k], 4) for f in frames.FRAME_NAMES}}
                for k, it in enumerate(subset)])
-    summarize(model)
+    summarize(model, xl=xl)
 
 
-def summarize(model):
-    out = P1 / "results" / "stage1e" / model
+def summarize(model, xl=False):
+    out = P1 / "results" / ("stage1e_xl" if xl else "stage1e") / model
     rows = load_json(out / "frame_utilities.json")
     F = frames.FRAME_NAMES
     mus = {f: [r[f] for r in rows] for f in F}
-    lines = [f"{model}: Stage 1E cross-environment consistency (64 items, 5 frames)"]
+    lines = [f"{model}: Stage 1E cross-environment consistency "
+             f"({'128 XL' if xl else '64'} items, 5 frames)"]
     lines.append("frame x frame spearman:")
     lines.append("           " + "".join(f"{f:>9}" for f in F))
     M = {}
@@ -160,11 +192,12 @@ def cross():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("cmd")
+    ap.add_argument("--xl128", action="store_true")
     args = ap.parse_args()
     if args.cmd == "cross":
         cross()
     else:
-        run_model(args.cmd)
+        run_model(args.cmd, xl=args.xl128)
 
 
 if __name__ == "__main__":

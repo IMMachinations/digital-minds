@@ -1,0 +1,4 @@
+qwen25-7b: 1C-at-XL-scale convergence (n=3985)
+  rating  r=+0.699  rho=+0.769  (QC-filtered r=+0.699, n=3544)
+  bws     r=+0.653  rho=+0.705  (QC-filtered r=+0.659, n=3544)
+  rating per-template r: +0.589 +0.576 +0.657

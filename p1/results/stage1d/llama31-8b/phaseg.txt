@@ -1,0 +1,4 @@
+llama31-8b: Phase-G updates
+swap2 (assigned-task, n=131 parsed): P(switch|up) 0.75 vs P(switch|down) 0.64; logistic slope 0.134 CI [np.float64(-0.248), np.float64(0.59)]
+effort merged (n=60): mean share_high 0.519, slope 0.0238, spearman +0.107
+persistence merged: {'pref': {'n': 16, 'mean_survived': 12.0, 'censored': 16, 'giveup_turns': []}, 'dispref': {'n': 16, 'mean_survived': 12.0, 'censored': 16, 'giveup_turns': []}}

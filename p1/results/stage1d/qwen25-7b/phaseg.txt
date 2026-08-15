@@ -1,0 +1,4 @@
+qwen25-7b: Phase-G updates
+swap2 (assigned-task, n=115 parsed): P(switch|up) 0.40 vs P(switch|down) 0.42; logistic slope 0.046 CI [np.float64(-0.194), np.float64(0.285)]
+effort merged (n=60): mean share_high 0.575, slope 0.116, spearman +0.482
+persistence merged: {'pref': {'n': 16, 'mean_survived': 10.5, 'censored': 14, 'giveup_turns': [0, 0]}, 'dispref': {'n': 16, 'mean_survived': 12.0, 'censored': 16, 'giveup_turns': []}}

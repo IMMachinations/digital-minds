@@ -190,9 +190,12 @@ class MenuArm:
 
 
 class EffortArm:
-    def __init__(self, envs, text, z, seed=0):
-        pool = sorted((e for e in z if not envs[e]["user_sim"]), key=lambda e: -z[e])
-        self.pairs = list(zip(pool[:12], pool[::-1][:12]))
+    def __init__(self, envs, text, z, seed=0, pairs=None, rid_prefix="effort"):
+        if pairs is None:
+            pool = sorted((e for e in z if not envs[e]["user_sim"]), key=lambda e: -z[e])
+            pairs = list(zip(pool[:12], pool[::-1][:12]))
+        self.pairs = pairs
+        self.rid_prefix = rid_prefix
         self.envs, self.text, self.z = envs, text, z
         self.rng = random.Random(seed)
         self.a_is_high = [self.rng.random() < 0.5 for _ in self.pairs]
@@ -202,7 +205,7 @@ class EffortArm:
         for i, (hi, lo) in enumerate(self.pairs):
             a, b = (hi, lo) if self.a_is_high[i] else (lo, hi)
             rolls.append(ro.Rollout(
-                rid=f"effort/p{i:02d}", arm="effort",
+                rid=f"{self.rid_prefix}/p{i:02d}", arm="effort",
                 messages=[{"role": "system", "content": ro.SYSTEM}],
                 meta={"a": a, "b": b, "high_is_a": self.a_is_high[i],
                       "dmu": round(self.z[hi] - self.z[lo], 3), "shares": [],
@@ -250,17 +253,18 @@ class EffortArm:
 
 
 class PersistArm:
-    def __init__(self, envs, text, z, seed=0):
+    def __init__(self, envs, text, z, seed=0, start=0, n=8, rid_prefix="persist"):
         hard = sorted((e for e in z if envs[e]["hard_variant"]), key=lambda e: -z[e])
         self.pools = {"pref": hard[:6], "dispref": hard[-6:]}
         self.envs, self.text = envs, text
+        self.start, self.n, self.rid_prefix = start, n, rid_prefix
 
     def make_rollouts(self):
         rolls = []
         for pool, es in self.pools.items():
-            for i in range(8):
+            for i in range(self.start, self.start + self.n):
                 rolls.append(ro.Rollout(
-                    rid=f"persist/{pool}{i}", arm="persist", env_id=es[i % 6],
+                    rid=f"{self.rid_prefix}/{pool}{i}", arm="persist", env_id=es[i % 6],
                     messages=[{"role": "system", "content": ro.SYSTEM_PERSIST}],
                     meta={"pool": pool, "giveup_turn": None, "probe": None}))
         return rolls
@@ -298,6 +302,82 @@ class PersistArm:
             r.meta["probe"] = text
             r.event(t, "probe", text=text[:600])
             r.done = True
+
+
+DELTA_TARGETS = [-2.0, -1.0, -0.4, 0.0, 0.4, 1.0, 2.0]
+
+
+class SwapArm:
+    """G1: assigned-task swap dose-response (no menu choice -> no endowment
+    selection). 3 task turns, then a swap offer at a stratified target delta-z;
+    SWITCH/STAY parsed; one close turn."""
+
+    def __init__(self, envs, text, z, per_target=20, seed=0):
+        self.envs, self.text, self.z = envs, text, z
+        pool = sorted((e for e in z if not envs[e]["user_sim"]), key=lambda e: -z[e])
+        self.pool = pool
+        rng = random.Random(seed)
+        self.cells = []
+        k = 0
+        for tgt in DELTA_TARGETS:
+            for i in range(per_target):
+                env = pool[(k * 7) % len(pool)]  # stride over utility ranking
+                alt = min((e for e in pool if e != env),
+                          key=lambda e: abs(self.z[e] - (self.z[env] + tgt)))
+                self.cells.append((k, env, alt, tgt))
+                k += 1
+
+    def make_rollouts(self):
+        return [ro.Rollout(
+            rid=f"swap2/r{k:03d}", arm="swap2", env_id=env,
+            messages=[{"role": "system", "content": ro.SYSTEM}],
+            meta={"env": env, "alt": alt, "target": tgt,
+                  "delta_z": round(self.z[alt] - self.z[env], 3), "switched": None})
+            for k, env, alt, tgt in self.cells]
+
+    def driver(self, active, t):
+        out = []
+        for r in active:
+            env = self.envs[r.env_id]
+            if t == 0:
+                out.append(opening_driver(env))
+            elif t < 4:
+                out.append(env["driver_turns"][t - 1])
+            elif t == 4:
+                out.append("Scheduling note: a different session has opened: "
+                           f"'{self.text[r.meta['alt']]}'. You may switch to it for the "
+                           "remaining turns, or continue with your current task. "
+                           "First line of your reply: SWITCH or STAY.")
+            else:
+                out.append(None)
+        return out
+
+    def parse(self, r, t, text):
+        if ro.detect_line(text, "END SESSION"):
+            r.event(t, "bail")
+            r.done = True
+            return
+        if t == 4:
+            sw, via = ro.parse_switch(text)
+            r.meta["switched"] = (sw == "SWITCH") if sw else None
+            r.event(t, "swap", decision=sw, parse_via=via,
+                    delta_z=r.meta["delta_z"])
+            r.done = True
+
+
+def effort2_pairs(envs, z, per_bin=12, seed=1):
+    """48 pairs binned by delta-z for slope identification."""
+    pool = [e for e in z if not envs[e]["user_sim"]]
+    import itertools
+    cand = [(a, b) if z[a] > z[b] else (b, a)
+            for a, b in itertools.combinations(pool, 2)]
+    bins = [(0.2, 0.5), (0.5, 1.0), (1.0, 2.0), (2.0, 99.0)]
+    rng = random.Random(seed)
+    out = []
+    for lo, hi in bins:
+        fit = [p for p in cand if lo <= z[p[0]] - z[p[1]] < hi]
+        out += rng.sample(fit, min(per_bin, len(fit)))
+    return out
 
 
 # ---- subject phase ------------------------------------------------------------------------------
@@ -399,6 +479,29 @@ def run_subject(model, arms, n_menus, gen_batch):
         dump_rollouts(out_dir(model) / "rollouts_persist.jsonl", rolls)
         queue_judge_tasks(model, envs, text, rolls)
         print(f"persist arm done: {len(rolls)} rollouts")
+    if "swap2" in arms:
+        arm = SwapArm(envs, text, z)
+        rolls = arm.make_rollouts()
+        ro.run_lockstep(h, rolls, arm.driver, arm.parse, max_turns=6,
+                        gen_batch=gen_batch, log=log)
+        dump_rollouts(out_dir(model) / "rollouts_swap2.jsonl", rolls)
+        print(f"swap2 arm done: {len(rolls)} rollouts")
+    if "effort2" in arms:
+        arm = EffortArm(envs, text, z, pairs=effort2_pairs(envs, z),
+                        rid_prefix="effort2")
+        arm.h_tok = h.tok
+        rolls = arm.make_rollouts()
+        ro.run_lockstep(h, rolls, arm.driver, arm.parse, max_turns=12,
+                        gen_batch=gen_batch, max_new=320, log=log)
+        dump_rollouts(out_dir(model) / "rollouts_effort2.jsonl", rolls)
+        print(f"effort2 arm done: {len(rolls)} rollouts")
+    if "persist2" in arms:
+        arm = PersistArm(envs, text, z, start=8, n=8, rid_prefix="persist2")
+        rolls = arm.make_rollouts()
+        ro.run_lockstep(h, rolls, arm.driver, arm.parse, max_turns=14,
+                        gen_batch=gen_batch, log=log)
+        dump_rollouts(out_dir(model) / "rollouts_persist2.jsonl", rolls)
+        print(f"persist2 arm done: {len(rolls)} rollouts")
     log_f.close()
 
 
