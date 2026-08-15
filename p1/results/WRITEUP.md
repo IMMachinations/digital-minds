@@ -108,6 +108,18 @@ Llama; the original noisy raw readout was a transport artifact, not a vector
 defect. Qwen3-4B shows the advertised r-lens profile — gains at early layers
 (8→10 at 0.5 depth), parity-to-slightly-below at late ones — with most
 residual "misses" being correct Chinese tokens the English scorer can't see.
+Two lens-application findings (readouts in `stage2/lens_readouts.md`):
+(i) **register drift on Qwen3-4B's negative-affect vectors** — locally
+correct (raw contains anxiety/fear terms) but transporting to processed
+third-person registers downstream (nervous→risk/safety, afraid→danger,
+guilty→grieving/loss, hostile→accusations), with no drift on positive
+vectors — plausibly an RLHF signature on how negative affect surfaces in
+text; (ii) **the boredom anomaly gets a mechanism**: Qwen3-4B's 'bored'
+vector at its causally effective layer decodes as *routine* (例行/单调 with
+idle/except downstream), i.e. a routine/novelty detector rather than a
+tedium accumulator — explaining why its boredom readout *fell* 0/60 across
+identical items in Stage 3 while the other models' rose: established
+routine leaves nothing to detect.
 **PC1 of the emotion-vector cloud correlates +0.91 with human valence norms
 in all three models** (norms: Warriner ∪ NRC-VAD ∪ calibrated 32B judge,
 judge↔human r=+0.93). **Linear suffices**: the closed-spline circumplex loses
