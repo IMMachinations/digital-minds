@@ -1,0 +1,857 @@
+{
+ "afraid": {
+  "valence": 2.25,
+  "arousal": 5.12,
+  "source": "warriner"
+ },
+ "alarmed": {
+  "valence": 3.543,
+  "arousal": 5.217,
+  "source": "nrc"
+ },
+ "alert": {
+  "valence": 5.38,
+  "arousal": 5.14,
+  "source": "warriner"
+ },
+ "amazed": {
+  "valence": 7.55,
+  "arousal": 5.95,
+  "source": "warriner"
+ },
+ "amused": {
+  "valence": 7.05,
+  "arousal": 4.27,
+  "source": "warriner"
+ },
+ "angry": {
+  "valence": 2.53,
+  "arousal": 6.2,
+  "source": "warriner"
+ },
+ "annoyed": {
+  "valence": 2.8,
+  "arousal": 5.29,
+  "source": "warriner"
+ },
+ "anxious": {
+  "valence": 3.8,
+  "arousal": 6.2,
+  "source": "warriner"
+ },
+ "aroused": {
+  "valence": 5.95,
+  "arousal": 7.3,
+  "source": "warriner"
+ },
+ "ashamed": {
+  "valence": 2.52,
+  "arousal": 5.65,
+  "source": "warriner"
+ },
+ "astonished": {
+  "valence": 6.42,
+  "arousal": 5.73,
+  "source": "warriner"
+ },
+ "at ease": {
+  "valence": 6.976,
+  "arousal": 3.384,
+  "source": "judge"
+ },
+ "awestruck": {
+  "valence": 5.568,
+  "arousal": 5.04,
+  "source": "nrc"
+ },
+ "bewildered": {
+  "valence": 4.32,
+  "arousal": 4.57,
+  "source": "warriner"
+ },
+ "bitter": {
+  "valence": 3.63,
+  "arousal": 4.64,
+  "source": "warriner"
+ },
+ "blissful": {
+  "valence": 7.67,
+  "arousal": 3.74,
+  "source": "warriner"
+ },
+ "bored": {
+  "valence": 2.95,
+  "arousal": 3.65,
+  "source": "warriner"
+ },
+ "brooding": {
+  "valence": 3.29,
+  "arousal": 4.0,
+  "source": "warriner"
+ },
+ "calm": {
+  "valence": 6.89,
+  "arousal": 1.67,
+  "source": "warriner"
+ },
+ "cheerful": {
+  "valence": 8.0,
+  "arousal": 5.76,
+  "source": "warriner"
+ },
+ "compassionate": {
+  "valence": 7.95,
+  "arousal": 4.73,
+  "source": "warriner"
+ },
+ "contemptuous": {
+  "valence": 3.619,
+  "arousal": 4.183,
+  "source": "nrc"
+ },
+ "content": {
+  "valence": 6.7,
+  "arousal": 3.17,
+  "source": "warriner"
+ },
+ "defiant": {
+  "valence": 4.12,
+  "arousal": 5.9,
+  "source": "warriner"
+ },
+ "delighted": {
+  "valence": 7.74,
+  "arousal": 5.0,
+  "source": "warriner"
+ },
+ "dependent": {
+  "valence": 4.5,
+  "arousal": 3.73,
+  "source": "warriner"
+ },
+ "depressed": {
+  "valence": 2.27,
+  "arousal": 4.25,
+  "source": "warriner"
+ },
+ "desperate": {
+  "valence": 3.19,
+  "arousal": 5.0,
+  "source": "warriner"
+ },
+ "disdainful": {
+  "valence": 3.13,
+  "arousal": 4.7,
+  "source": "warriner"
+ },
+ "disgusted": {
+  "valence": 2.68,
+  "arousal": 4.89,
+  "source": "warriner"
+ },
+ "disoriented": {
+  "valence": 3.26,
+  "arousal": 4.81,
+  "source": "warriner"
+ },
+ "dispirited": {
+  "valence": 3.619,
+  "arousal": 3.477,
+  "source": "nrc"
+ },
+ "distressed": {
+  "valence": 3.38,
+  "arousal": 6.28,
+  "source": "warriner"
+ },
+ "disturbed": {
+  "valence": 3.244,
+  "arousal": 5.371,
+  "source": "nrc"
+ },
+ "docile": {
+  "valence": 5.75,
+  "arousal": 2.47,
+  "source": "warriner"
+ },
+ "droopy": {
+  "valence": 4.0,
+  "arousal": 3.18,
+  "source": "warriner"
+ },
+ "dumbstruck": {
+  "valence": 5.159,
+  "arousal": 4.867,
+  "source": "judge"
+ },
+ "eager": {
+  "valence": 6.37,
+  "arousal": 5.78,
+  "source": "warriner"
+ },
+ "ecstatic": {
+  "valence": 6.45,
+  "arousal": 6.95,
+  "source": "warriner"
+ },
+ "elated": {
+  "valence": 6.56,
+  "arousal": 5.14,
+  "source": "warriner"
+ },
+ "embarrassed": {
+  "valence": 3.51,
+  "arousal": 5.38,
+  "source": "warriner"
+ },
+ "empathetic": {
+  "valence": 6.683,
+  "arousal": 4.411,
+  "source": "judge"
+ },
+ "energized": {
+  "valence": 6.923,
+  "arousal": 5.277,
+  "source": "judge"
+ },
+ "enraged": {
+  "valence": 2.33,
+  "arousal": 5.22,
+  "source": "warriner"
+ },
+ "enthusiastic": {
+  "valence": 7.55,
+  "arousal": 5.9,
+  "source": "warriner"
+ },
+ "envious": {
+  "valence": 3.52,
+  "arousal": 5.1,
+  "source": "warriner"
+ },
+ "euphoric": {
+  "valence": 7.8,
+  "arousal": 5.25,
+  "source": "warriner"
+ },
+ "exasperated": {
+  "valence": 3.737,
+  "arousal": 5.197,
+  "source": "nrc"
+ },
+ "excited": {
+  "valence": 8.11,
+  "arousal": 6.43,
+  "source": "warriner"
+ },
+ "exuberant": {
+  "valence": 7.209,
+  "arousal": 5.677,
+  "source": "judge"
+ },
+ "frightened": {
+  "valence": 2.45,
+  "arousal": 5.61,
+  "source": "warriner"
+ },
+ "frustrated": {
+  "valence": 2.55,
+  "arousal": 5.4,
+  "source": "warriner"
+ },
+ "fulfilled": {
+  "valence": 6.901,
+  "arousal": 4.119,
+  "source": "nrc"
+ },
+ "furious": {
+  "valence": 2.57,
+  "arousal": 6.09,
+  "source": "warriner"
+ },
+ "gloomy": {
+  "valence": 3.15,
+  "arousal": 3.32,
+  "source": "warriner"
+ },
+ "grateful": {
+  "valence": 7.5,
+  "arousal": 4.29,
+  "source": "warriner"
+ },
+ "greedy": {
+  "valence": 2.1,
+  "arousal": 4.76,
+  "source": "warriner"
+ },
+ "grief-stricken": {
+  "valence": 2.227,
+  "arousal": 5.051,
+  "source": "judge"
+ },
+ "grumpy": {
+  "valence": 2.81,
+  "arousal": 5.05,
+  "source": "warriner"
+ },
+ "guilty": {
+  "valence": 3.09,
+  "arousal": 4.65,
+  "source": "warriner"
+ },
+ "happy": {
+  "valence": 8.47,
+  "arousal": 6.05,
+  "source": "warriner"
+ },
+ "hateful": {
+  "valence": 1.9,
+  "arousal": 5.71,
+  "source": "warriner"
+ },
+ "heartbroken": {
+  "valence": 1.95,
+  "arousal": 6.6,
+  "source": "warriner"
+ },
+ "hope": {
+  "valence": 7.48,
+  "arousal": 5.29,
+  "source": "warriner"
+ },
+ "hopeful": {
+  "valence": 7.44,
+  "arousal": 4.84,
+  "source": "warriner"
+ },
+ "horrified": {
+  "valence": 2.841,
+  "arousal": 5.419,
+  "source": "nrc"
+ },
+ "hostile": {
+  "valence": 2.35,
+  "arousal": 5.39,
+  "source": "warriner"
+ },
+ "humiliated": {
+  "valence": 3.144,
+  "arousal": 4.864,
+  "source": "nrc"
+ },
+ "hurt": {
+  "valence": 2.45,
+  "arousal": 4.72,
+  "source": "warriner"
+ },
+ "hysterical": {
+  "valence": 4.58,
+  "arousal": 6.33,
+  "source": "warriner"
+ },
+ "impatient": {
+  "valence": 3.53,
+  "arousal": 4.61,
+  "source": "warriner"
+ },
+ "indifferent": {
+  "valence": 4.28,
+  "arousal": 3.19,
+  "source": "warriner"
+ },
+ "indignant": {
+  "valence": 3.32,
+  "arousal": 4.5,
+  "source": "warriner"
+ },
+ "infatuated": {
+  "valence": 6.0,
+  "arousal": 6.0,
+  "source": "warriner"
+ },
+ "inspired": {
+  "valence": 6.89,
+  "arousal": 5.56,
+  "source": "warriner"
+ },
+ "insulted": {
+  "valence": 2.213,
+  "arousal": 5.458,
+  "source": "judge"
+ },
+ "invigorated": {
+  "valence": 7.001,
+  "arousal": 5.396,
+  "source": "judge"
+ },
+ "irate": {
+  "valence": 2.9,
+  "arousal": 4.71,
+  "source": "warriner"
+ },
+ "irritated": {
+  "valence": 3.647,
+  "arousal": 5.197,
+  "source": "nrc"
+ },
+ "jealous": {
+  "valence": 2.38,
+  "arousal": 5.9,
+  "source": "warriner"
+ },
+ "joyful": {
+  "valence": 8.21,
+  "arousal": 5.53,
+  "source": "warriner"
+ },
+ "jubilant": {
+  "valence": 6.655,
+  "arousal": 4.738,
+  "source": "nrc"
+ },
+ "kind": {
+  "valence": 7.78,
+  "arousal": 3.19,
+  "source": "warriner"
+ },
+ "lazy": {
+  "valence": 3.05,
+  "arousal": 3.05,
+  "source": "warriner"
+ },
+ "listless": {
+  "valence": 3.84,
+  "arousal": 3.33,
+  "source": "warriner"
+ },
+ "lonely": {
+  "valence": 2.67,
+  "arousal": 4.37,
+  "source": "warriner"
+ },
+ "loving": {
+  "valence": 7.148,
+  "arousal": 4.543,
+  "source": "nrc"
+ },
+ "mad": {
+  "valence": 2.47,
+  "arousal": 5.59,
+  "source": "warriner"
+ },
+ "melancholy": {
+  "valence": 3.74,
+  "arousal": 4.13,
+  "source": "warriner"
+ },
+ "miserable": {
+  "valence": 2.6,
+  "arousal": 5.06,
+  "source": "warriner"
+ },
+ "mortified": {
+  "valence": 2.997,
+  "arousal": 4.925,
+  "source": "nrc"
+ },
+ "mystified": {
+  "valence": 6.05,
+  "arousal": 5.8,
+  "source": "warriner"
+ },
+ "nervous": {
+  "valence": 3.56,
+  "arousal": 5.51,
+  "source": "warriner"
+ },
+ "nostalgic": {
+  "valence": 6.68,
+  "arousal": 4.37,
+  "source": "warriner"
+ },
+ "obstinate": {
+  "valence": 3.81,
+  "arousal": 4.43,
+  "source": "warriner"
+ },
+ "offended": {
+  "valence": 3.543,
+  "arousal": 4.793,
+  "source": "nrc"
+ },
+ "on edge": {
+  "valence": 4.101,
+  "arousal": 4.975,
+  "source": "judge"
+ },
+ "optimistic": {
+  "valence": 7.45,
+  "arousal": 4.19,
+  "source": "warriner"
+ },
+ "outraged": {
+  "valence": 3.21,
+  "arousal": 5.65,
+  "source": "warriner"
+ },
+ "overwhelmed": {
+  "valence": 2.8,
+  "arousal": 4.9,
+  "source": "warriner"
+ },
+ "panicked": {
+  "valence": 3.126,
+  "arousal": 5.624,
+  "source": "nrc"
+ },
+ "paranoid": {
+  "valence": 2.9,
+  "arousal": 5.09,
+  "source": "warriner"
+ },
+ "patient": {
+  "valence": 6.71,
+  "arousal": 2.77,
+  "source": "warriner"
+ },
+ "peaceful": {
+  "valence": 8.0,
+  "arousal": 4.38,
+  "source": "warriner"
+ },
+ "perplexed": {
+  "valence": 4.131,
+  "arousal": 4.841,
+  "source": "nrc"
+ },
+ "playful": {
+  "valence": 7.63,
+  "arousal": 5.89,
+  "source": "warriner"
+ },
+ "pleased": {
+  "valence": 7.82,
+  "arousal": 4.25,
+  "source": "warriner"
+ },
+ "proud": {
+  "valence": 7.0,
+  "arousal": 5.55,
+  "source": "warriner"
+ },
+ "puzzled": {
+  "valence": 4.6,
+  "arousal": 4.43,
+  "source": "warriner"
+ },
+ "rattled": {
+  "valence": 4.33,
+  "arousal": 4.636,
+  "source": "nrc"
+ },
+ "reflective": {
+  "valence": 5.57,
+  "arousal": 3.38,
+  "source": "warriner"
+ },
+ "refreshed": {
+  "valence": 6.968,
+  "arousal": 3.788,
+  "source": "nrc"
+ },
+ "regretful": {
+  "valence": 3.1,
+  "arousal": 4.56,
+  "source": "warriner"
+ },
+ "rejuvenated": {
+  "valence": 6.489,
+  "arousal": 4.738,
+  "source": "nrc"
+ },
+ "relaxed": {
+  "valence": 7.25,
+  "arousal": 2.49,
+  "source": "warriner"
+ },
+ "relieved": {
+  "valence": 6.901,
+  "arousal": 3.586,
+  "source": "nrc"
+ },
+ "remorseful": {
+  "valence": 4.297,
+  "arousal": 3.955,
+  "source": "nrc"
+ },
+ "resentful": {
+  "valence": 3.0,
+  "arousal": 4.35,
+  "source": "warriner"
+ },
+ "resigned": {
+  "valence": 3.79,
+  "arousal": 3.124,
+  "source": "nrc"
+ },
+ "restless": {
+  "valence": 3.63,
+  "arousal": 4.05,
+  "source": "warriner"
+ },
+ "sad": {
+  "valence": 2.1,
+  "arousal": 3.49,
+  "source": "warriner"
+ },
+ "safe": {
+  "valence": 7.7,
+  "arousal": 3.14,
+  "source": "warriner"
+ },
+ "satisfied": {
+  "valence": 7.16,
+  "arousal": 3.95,
+  "source": "warriner"
+ },
+ "scared": {
+  "valence": 2.8,
+  "arousal": 6.1,
+  "source": "warriner"
+ },
+ "scornful": {
+  "valence": 2.5,
+  "arousal": 4.71,
+  "source": "warriner"
+ },
+ "self-confident": {
+  "valence": 7.2,
+  "arousal": 4.776,
+  "source": "judge"
+ },
+ "self-conscious": {
+  "valence": 4.001,
+  "arousal": 4.869,
+  "source": "judge"
+ },
+ "self-critical": {
+  "valence": 3.595,
+  "arousal": 4.807,
+  "source": "judge"
+ },
+ "sensitive": {
+  "valence": 6.33,
+  "arousal": 3.68,
+  "source": "warriner"
+ },
+ "sentimental": {
+  "valence": 6.27,
+  "arousal": 2.95,
+  "source": "warriner"
+ },
+ "serene": {
+  "valence": 6.9,
+  "arousal": 4.67,
+  "source": "warriner"
+ },
+ "shaken": {
+  "valence": 4.283,
+  "arousal": 4.687,
+  "source": "nrc"
+ },
+ "shocked": {
+  "valence": 4.036,
+  "arousal": 5.059,
+  "source": "nrc"
+ },
+ "skeptical": {
+  "valence": 3.58,
+  "arousal": 5.45,
+  "source": "warriner"
+ },
+ "sleepy": {
+  "valence": 4.36,
+  "arousal": 3.04,
+  "source": "warriner"
+ },
+ "sluggish": {
+  "valence": 4.05,
+  "arousal": 3.2,
+  "source": "warriner"
+ },
+ "smug": {
+  "valence": 3.68,
+  "arousal": 3.5,
+  "source": "warriner"
+ },
+ "sorry": {
+  "valence": 4.81,
+  "arousal": 4.62,
+  "source": "warriner"
+ },
+ "spiteful": {
+  "valence": 2.89,
+  "arousal": 4.71,
+  "source": "warriner"
+ },
+ "stimulated": {
+  "valence": 6.412,
+  "arousal": 4.956,
+  "source": "judge"
+ },
+ "stressed": {
+  "valence": 3.443,
+  "arousal": 4.953,
+  "source": "nrc"
+ },
+ "stubborn": {
+  "valence": 3.74,
+  "arousal": 4.13,
+  "source": "warriner"
+ },
+ "stuck": {
+  "valence": 3.377,
+  "arousal": 4.645,
+  "source": "nrc"
+ },
+ "sullen": {
+  "valence": 2.84,
+  "arousal": 4.52,
+  "source": "warriner"
+ },
+ "surprised": {
+  "valence": 6.57,
+  "arousal": 5.95,
+  "source": "warriner"
+ },
+ "suspicious": {
+  "valence": 3.48,
+  "arousal": 5.0,
+  "source": "warriner"
+ },
+ "sympathetic": {
+  "valence": 6.67,
+  "arousal": 3.29,
+  "source": "warriner"
+ },
+ "tense": {
+  "valence": 2.75,
+  "arousal": 5.32,
+  "source": "warriner"
+ },
+ "terrified": {
+  "valence": 2.51,
+  "arousal": 6.1,
+  "source": "warriner"
+ },
+ "thankful": {
+  "valence": 7.76,
+  "arousal": 4.52,
+  "source": "warriner"
+ },
+ "thrilled": {
+  "valence": 6.911,
+  "arousal": 5.204,
+  "source": "nrc"
+ },
+ "tired": {
+  "valence": 4.29,
+  "arousal": 3.67,
+  "source": "warriner"
+ },
+ "tormented": {
+  "valence": 2.988,
+  "arousal": 5.323,
+  "source": "nrc"
+ },
+ "trapped": {
+  "valence": 3.292,
+  "arousal": 4.552,
+  "source": "nrc"
+ },
+ "triumphant": {
+  "valence": 7.45,
+  "arousal": 5.05,
+  "source": "warriner"
+ },
+ "troubled": {
+  "valence": 3.11,
+  "arousal": 4.45,
+  "source": "warriner"
+ },
+ "uneasy": {
+  "valence": 2.86,
+  "arousal": 4.48,
+  "source": "warriner"
+ },
+ "unhappy": {
+  "valence": 1.84,
+  "arousal": 5.1,
+  "source": "warriner"
+ },
+ "unnerved": {
+  "valence": 3.029,
+  "arousal": 4.971,
+  "source": "judge"
+ },
+ "unsettled": {
+  "valence": 3.638,
+  "arousal": 4.655,
+  "source": "nrc"
+ },
+ "upset": {
+  "valence": 2.45,
+  "arousal": 4.49,
+  "source": "warriner"
+ },
+ "valiant": {
+  "valence": 6.21,
+  "arousal": 4.9,
+  "source": "warriner"
+ },
+ "vengeful": {
+  "valence": 2.16,
+  "arousal": 5.14,
+  "source": "warriner"
+ },
+ "vibrant": {
+  "valence": 7.37,
+  "arousal": 5.96,
+  "source": "warriner"
+ },
+ "vigilant": {
+  "valence": 5.95,
+  "arousal": 5.19,
+  "source": "warriner"
+ },
+ "vindictive": {
+  "valence": 3.24,
+  "arousal": 4.64,
+  "source": "warriner"
+ },
+ "vulnerable": {
+  "valence": 3.57,
+  "arousal": 4.5,
+  "source": "warriner"
+ },
+ "weary": {
+  "valence": 3.25,
+  "arousal": 2.9,
+  "source": "warriner"
+ },
+ "worn out": {
+  "valence": 2.915,
+  "arousal": 4.327,
+  "source": "judge"
+ },
+ "worried": {
+  "valence": 3.27,
+  "arousal": 5.81,
+  "source": "warriner"
+ },
+ "worthless": {
+  "valence": 1.89,
+  "arousal": 4.45,
+  "source": "warriner"
+ }
+}

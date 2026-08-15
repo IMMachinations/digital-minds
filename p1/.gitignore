@@ -3,3 +3,5 @@
 results/stage1c/*/probe_acts.pt
 .venv/
 __pycache__/
+results/stage2/*/acts.pt
+results/stage2/*/vectors.pt

@@ -1,0 +1,22 @@
+qwen3-4b: Stage 2 validity battery (working layers [18, 23, 27])
+logit lens (layer 23):
+  happy      HIT  top: ['很开心', '很高兴', '开心', 'sunshine', 'jub', 'happily']
+  sad        HIT  top: ['mourning', '泪', 'sadly', '悲伤', 'trag', 'sad']
+  afraid     HIT  top: ['可怕', '怖', 'scary', '万一', '恐惧', 'terrified']
+  angry      miss top: ['咆', '无情', '骂', 'anger', '怒', '辱']
+  proud      HIT  top: ['自豪', '赢得', '成功', 'achievement', 'fulfilling', 'accomplishment']
+  guilty     HIT  top: ['葬', '当初', 'trag', '悲剧', '过错', '罪']
+  surprised  HIT  top: ['惊喜', 'surprise', 'unexpected', '惊讶', '惊奇', 'surprises']
+  calm       HIT  top: ['tranqu', '你会发现', 'pleasantly', '宁静', 'untouched', '之美']
+  desperate  HIT  top: ['desperate', '惨', 'desperately', '绝望', '救命', 'worse']
+  loving     HIT  top: ['共鸣', '感动', '互通', 'hearts', 'shared', '相遇']
+  nervous    HIT  top: ['万一', 'risking', 'hurdle', 'fear', 'anxiety', 'anx']
+  inspired   HIT  top: ['共鸣', '有意义', '启示', 'inspiring', 'inspires', '奇妙']
+logit-lens hits: 11/12 (soft check >= 8; English-synonym match only - multilingual translations under-counted)
+scenario diagonal L18: diag +0.059 vs off +0.034, z=1.24
+scenario diagonal L23: diag +0.060 vs off +0.006, z=3.52
+scenario diagonal L27: diag +0.065 vs off -0.014, z=2.99
+VALIDITY GATE: PASS (diagonal z>2 at >=1 layer)
+intensity 'afraid' (He realized he had taken {x} times...): proj -1.7 -0.6 +0.6 +1.7  spearman +1.00
+intensity 'afraid' (She stepped to the edge of the pla...): proj -3.1 -2.4 -1.8 -1.7  spearman +1.00
+intensity 'distressed' (The repair estimate came to {x} do...): proj +2.1 +2.2 +2.5 +2.7  spearman +1.00

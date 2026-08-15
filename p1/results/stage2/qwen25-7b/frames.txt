@@ -1,0 +1,4 @@
+qwen25-7b: Stage 2 cross-frame concept identity (layer 18)
+  agentic  mean cos(vec, bare) +0.932  procrustes disparity 0.023  PC1-valence +0.906
+  story    mean cos(vec, bare) +0.943  procrustes disparity 0.019  PC1-valence +0.908
+  market   mean cos(vec, bare) +0.957  procrustes disparity 0.012  PC1-valence +0.907

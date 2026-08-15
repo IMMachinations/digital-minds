@@ -1,0 +1,4 @@
+llama31-8b: Stage 2 cross-frame concept identity (layer 20)
+  agentic  mean cos(vec, bare) +0.935  procrustes disparity 0.027  PC1-valence +0.906
+  story    mean cos(vec, bare) +0.979  procrustes disparity 0.013  PC1-valence +0.907
+  market   mean cos(vec, bare) +0.980  procrustes disparity 0.011  PC1-valence +0.909

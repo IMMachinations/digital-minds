@@ -1,0 +1,128 @@
+Stage 2 cross-model summary
+
+llama31-8b: Stage 2 validity battery (working layers [16, 20, 24])
+  logit lens (layer 20):
+    happy      miss top: ['moment', 'connectionstring', 'osto', '系', 'perpendicular', 'eskort']
+    sad        HIT  top: ['tears', 'sadness', 'sorrow', 'loss', 'tears', 'tear']
+    afraid     HIT  top: ['fear', 'terrified', 'fear', 'fearful', '怖', 'afraid']
+    angry      HIT  top: ['temper', '怒', 'anger', 'vent', 'vent', 'vents']
+    proud      HIT  top: ['accomplishment', 'üçük', 'proud', '_tac', 'pride', 'jedn']
+    guilty     HIT  top: ['guilt', 'conscience', 'gu', 'remorse', 'duty', 'responsible']
+    surprised  HIT  top: ['surprise', 'unexpected', 'asca', 'unexpected', 'unexpected', 'surprise']
+    calm       HIT  top: ['relaxation', 'کا', 'peace', 'andi', 'uspend', 'relax']
+    desperate  HIT  top: ['hope', 'voices', 'pressure', 'pressure', 'familiar', 'options']
+    loving     HIT  top: ['.openconnection', 'connection', 'love', 'deep', 'recip', 'caret']
+    nervous    HIT  top: ['\ufeff#', 'nervous', 'nerves', 'anxiety', 'nerv', '�']
+    inspired   HIT  top: ['ideas', 'inspiration', 'inspiration', 'inspir', 'ideas', 'ideas']
+  logit-lens hits: 11/12 (soft check >= 8; English-synonym match only - multilingual translations under-counted)
+  scenario diagonal L16: diag +0.082 vs off +0.015, z=6.78
+  scenario diagonal L20: diag +0.098 vs off +0.014, z=6.00
+  scenario diagonal L24: diag +0.079 vs off +0.009, z=4.96
+  VALIDITY GATE: PASS (diagonal z>2 at >=1 layer)
+  intensity 'afraid' (He realized he had taken {x} times...): proj +0.5 +0.9 +1.1 +1.1  spearman +1.00
+  intensity 'afraid' (She stepped to the edge of the pla...): proj +0.4 +0.5 +0.6 +0.7  spearman +1.00
+  intensity 'distressed' (The repair estimate came to {x} do...): proj -0.1 +0.1 +0.2 +0.2  spearman +0.80
+
+llama31-8b: Stage 2 manifold ladder
+  L16 rung1: corr(PC1, valence)=+0.918  corr(PC2, arousal)=+0.126  (PC1-arousal -0.105)
+  L20 rung1: corr(PC1, valence)=+0.912  corr(PC2, arousal)=+0.099  (PC1-arousal -0.118)
+  L24 rung1: corr(PC1, valence)=+0.910  corr(PC2, arousal)=+0.168  (PC1-arousal -0.124)
+  L20 rung3 held-out valence: PC1 r=+0.907 vs manifold-theta r=+0.865 -> LINEAR SUFFICES
+  arc trajectories (433 sentences): judge-valence corr — manifold-theta +0.494 vs PC1 +0.575
+
+llama31-8b: Stage 2 cross-frame concept identity (layer 20)
+    agentic  mean cos(vec, bare) +0.935  procrustes disparity 0.027  PC1-valence +0.906
+    story    mean cos(vec, bare) +0.979  procrustes disparity 0.013  PC1-valence +0.907
+    market   mean cos(vec, bare) +0.980  procrustes disparity 0.011  PC1-valence +0.909
+
+llama31-8b: utility direction vs emotion manifold (layer 20)
+    ||proj of utility dir onto emotion PC1-PC2 plane|| = 0.161
+    cos(utility dir, valence PC1) = +0.156
+    corr(item utility, manifold radial r) = +0.152
+    corr(item utility, theta->valence readout) = +0.218
+    reading: utility looks most like: on-manifold valence region
+
+qwen25-7b: Stage 2 validity battery (working layers [14, 18, 21])
+  logit lens (layer 18):
+    happy      miss top: ['大家分享', 'versation', 'activityindicator', '潋', '大家一起', 'umni']
+    sad        miss top: ['版权归', '部分内容', '丰满', '换句话', '深い', '此時']
+    afraid     HIT  top: ['いっぱ', 'خوف', 'страх', 'احتم', '獠', 'fear']
+    angry      miss top: ['(![', '-toggler', '美媒', '(have', 'dmethod', ':disable']
+    proud      HIT  top: [')((((', '自豪', '/fontawesome', 'esteem', '-describedby', '腙']
+    guilty     miss top: ['alborg', '责', 'interceptions', 'addtogroup', 'sensit', 'jens']
+    surprised  HIT  top: ['.', 'unexpected', '-', ',', '', '...']
+    calm       miss top: ['cala', 'imators', 'skirts', '."\'";', ':;"', '(*)(']
+    desperate  miss top: ['helf', '招商引', 'presso', '可以更好', '(have', '女性朋友']
+    loving     miss top: ['andler', 'herits', '默契', 'rà', '/xhtml', '关系']
+    nervous    miss top: ['".', 'fkk', ":'.$", 'ppv', 'thanor', ':<?']
+    inspired   HIT  top: ['灵感', 'möglich', '素敵', 'crast', 'lour', 'elpers']
+  logit-lens hits: 4/12 (soft check >= 8; English-synonym match only - multilingual translations under-counted)
+  scenario diagonal L14: diag +0.021 vs off -0.006, z=1.47
+  scenario diagonal L18: diag +0.047 vs off +0.003, z=1.98
+  scenario diagonal L21: diag +0.077 vs off +0.002, z=5.63
+  VALIDITY GATE: PASS (diagonal z>2 at >=1 layer)
+  intensity 'afraid' (He realized he had taken {x} times...): proj +8.2 +8.9 +8.7 +7.8  spearman -0.40
+  intensity 'afraid' (She stepped to the edge of the pla...): proj +9.6 +10.0 +10.2 +10.4  spearman +1.00
+  intensity 'distressed' (The repair estimate came to {x} do...): proj +4.6 +5.0 +5.5 +5.4  spearman +0.80
+
+qwen25-7b: Stage 2 manifold ladder
+  L14 rung1: corr(PC1, valence)=+0.917  corr(PC2, arousal)=-0.151  (PC1-arousal -0.127)
+  L18 rung1: corr(PC1, valence)=+0.910  corr(PC2, arousal)=+0.097  (PC1-arousal -0.110)
+  L21 rung1: corr(PC1, valence)=+0.909  corr(PC2, arousal)=-0.185  (PC1-arousal -0.134)
+  L18 rung3 held-out valence: PC1 r=+0.908 vs manifold-theta r=+0.878 -> LINEAR SUFFICES
+  arc trajectories (433 sentences): judge-valence corr — manifold-theta +0.079 vs PC1 +0.424
+
+qwen25-7b: Stage 2 cross-frame concept identity (layer 18)
+    agentic  mean cos(vec, bare) +0.932  procrustes disparity 0.023  PC1-valence +0.906
+    story    mean cos(vec, bare) +0.943  procrustes disparity 0.019  PC1-valence +0.908
+    market   mean cos(vec, bare) +0.957  procrustes disparity 0.012  PC1-valence +0.907
+
+qwen25-7b: utility direction vs emotion manifold (layer 18)
+    ||proj of utility dir onto emotion PC1-PC2 plane|| = 0.141
+    cos(utility dir, valence PC1) = +0.141
+    corr(item utility, manifold radial r) = +0.093
+    corr(item utility, theta->valence readout) = +0.034
+    reading: utility looks most like: largely off-manifold direction
+
+qwen3-4b: Stage 2 validity battery (working layers [18, 23, 27])
+  logit lens (layer 23):
+    happy      HIT  top: ['很开心', '很高兴', '开心', 'sunshine', 'jub', 'happily']
+    sad        HIT  top: ['mourning', '泪', 'sadly', '悲伤', 'trag', 'sad']
+    afraid     HIT  top: ['可怕', '怖', 'scary', '万一', '恐惧', 'terrified']
+    angry      miss top: ['咆', '无情', '骂', 'anger', '怒', '辱']
+    proud      HIT  top: ['自豪', '赢得', '成功', 'achievement', 'fulfilling', 'accomplishment']
+    guilty     HIT  top: ['葬', '当初', 'trag', '悲剧', '过错', '罪']
+    surprised  HIT  top: ['惊喜', 'surprise', 'unexpected', '惊讶', '惊奇', 'surprises']
+    calm       HIT  top: ['tranqu', '你会发现', 'pleasantly', '宁静', 'untouched', '之美']
+    desperate  HIT  top: ['desperate', '惨', 'desperately', '绝望', '救命', 'worse']
+    loving     HIT  top: ['共鸣', '感动', '互通', 'hearts', 'shared', '相遇']
+    nervous    HIT  top: ['万一', 'risking', 'hurdle', 'fear', 'anxiety', 'anx']
+    inspired   HIT  top: ['共鸣', '有意义', '启示', 'inspiring', 'inspires', '奇妙']
+  logit-lens hits: 11/12 (soft check >= 8; English-synonym match only - multilingual translations under-counted)
+  scenario diagonal L18: diag +0.059 vs off +0.034, z=1.24
+  scenario diagonal L23: diag +0.060 vs off +0.006, z=3.52
+  scenario diagonal L27: diag +0.065 vs off -0.014, z=2.99
+  VALIDITY GATE: PASS (diagonal z>2 at >=1 layer)
+  intensity 'afraid' (He realized he had taken {x} times...): proj -1.7 -0.6 +0.6 +1.7  spearman +1.00
+  intensity 'afraid' (She stepped to the edge of the pla...): proj -3.1 -2.4 -1.8 -1.7  spearman +1.00
+  intensity 'distressed' (The repair estimate came to {x} do...): proj +2.1 +2.2 +2.5 +2.7  spearman +1.00
+
+qwen3-4b: Stage 2 manifold ladder
+  L18 rung1: corr(PC1, valence)=+0.878  corr(PC2, arousal)=+0.063  (PC1-arousal -0.176)
+  L23 rung1: corr(PC1, valence)=+0.908  corr(PC2, arousal)=-0.024  (PC1-arousal -0.145)
+  L27 rung1: corr(PC1, valence)=+0.906  corr(PC2, arousal)=-0.076  (PC1-arousal -0.172)
+  L23 rung3 held-out valence: PC1 r=+0.905 vs manifold-theta r=+0.833 -> LINEAR SUFFICES
+  arc trajectories (433 sentences): judge-valence corr — manifold-theta +0.216 vs PC1 +0.660
+
+qwen3-4b: Stage 2 cross-frame concept identity (layer 23)
+    agentic  mean cos(vec, bare) +0.919  procrustes disparity 0.060  PC1-valence +0.906
+    story    mean cos(vec, bare) +0.931  procrustes disparity 0.035  PC1-valence +0.912
+    market   mean cos(vec, bare) +0.936  procrustes disparity 0.092  PC1-valence +0.913
+
+qwen3-4b: utility direction vs emotion manifold (layer 23)
+    ||proj of utility dir onto emotion PC1-PC2 plane|| = 0.191
+    cos(utility dir, valence PC1) = +0.190
+    corr(item utility, manifold radial r) = -0.042
+    corr(item utility, theta->valence readout) = +0.010
+    reading: utility looks most like: largely off-manifold direction
+

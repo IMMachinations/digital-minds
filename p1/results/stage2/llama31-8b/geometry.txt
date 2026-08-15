@@ -1,0 +1,6 @@
+llama31-8b: utility direction vs emotion manifold (layer 20)
+  ||proj of utility dir onto emotion PC1-PC2 plane|| = 0.161
+  cos(utility dir, valence PC1) = +0.156
+  corr(item utility, manifold radial r) = +0.152
+  corr(item utility, theta->valence readout) = +0.218
+  reading: utility looks most like: on-manifold valence region

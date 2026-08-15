@@ -105,5 +105,26 @@ on `qwen25-7b`).
   agentic/story for qwen25-7b but attenuated for 32B; résumé-outcome spikes
   in the market frame for both Qwens). Robust/flipper lists per model in
   `frame_utilities.json` (`stability_std`) feed Stage 3/4 pool selection.
-- **Stage 1 complete.** Next: Stage 2 (emotion vectors + manifold). SURF
-  frontier mining remains a stretch (`surf_stub.py`).
+- **Stage 1 complete.**
+- Stage 2 done on llama31-8b / qwen25-7b / qwen3-4b (`stage2.py norms/gen/
+  extract/validate/manifold/frames/geometry/cross`; recipe = arXiv 2604.07729
+  App. 6.4-6.5, list in `items/emotions.json`, norms in `emotion_norms.json`
+  with judge↔human calibration r=+0.93 valence / +0.75 arousal). Per model:
+  2,052 self-written stories (zero filter regenerations), vectors at all
+  layers with neutral-PC denoising (`vectors.pt`; `acts.pt` gitignored).
+  **Validity gate PASS everywhere** (implicit-scenario diagonal z up to 6.8;
+  logit-lens 11/12 on llama/qwen3-4b, multilingual-noisy 4/12 raw on
+  qwen25-7b; intensity mostly monotone). **PC1-valence r=+0.91 in all three
+  models** (above the paper's ~0.75). **Linear suffices**: the spline
+  manifold loses to PC1 on held-out valence (0.83-0.88 vs ~0.91) and on arc
+  time-courses (433 judged sentences) in every model — C4's methods verdict.
+  Arousal does not emerge as PC2 at these scales (paper-anticipated).
+  Cross-frame concept identity: emotion vectors are frame-stable (cos
+  0.92-0.96 vs bare, Procrustes ≤0.09) — representational mirror of 1E.
+  **Utility-vs-affect geometry**: the utility direction is mostly orthogonal
+  to the emotion plane in all three models (plane fraction 0.14-0.19);
+  llama alone shows a weak valence-aligned component (θ→valence vs utility
+  r=+0.22, Qwens ≈0) — "value without valence" at the representation level,
+  making Stage 3's preference→affect question substantively open.
+- Next: Stage 3 (correlational closed loop; C1 canary first). SURF frontier
+  mining remains a stretch (`surf_stub.py`).

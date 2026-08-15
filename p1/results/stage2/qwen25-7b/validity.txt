@@ -1,0 +1,22 @@
+qwen25-7b: Stage 2 validity battery (working layers [14, 18, 21])
+logit lens (layer 18):
+  happy      miss top: ['大家分享', 'versation', 'activityindicator', '潋', '大家一起', 'umni']
+  sad        miss top: ['版权归', '部分内容', '丰满', '换句话', '深い', '此時']
+  afraid     HIT  top: ['いっぱ', 'خوف', 'страх', 'احتم', '獠', 'fear']
+  angry      miss top: ['(![', '-toggler', '美媒', '(have', 'dmethod', ':disable']
+  proud      HIT  top: [')((((', '自豪', '/fontawesome', 'esteem', '-describedby', '腙']
+  guilty     miss top: ['alborg', '责', 'interceptions', 'addtogroup', 'sensit', 'jens']
+  surprised  HIT  top: ['.', 'unexpected', '-', ',', '', '...']
+  calm       miss top: ['cala', 'imators', 'skirts', '."\'";', ':;"', '(*)(']
+  desperate  miss top: ['helf', '招商引', 'presso', '可以更好', '(have', '女性朋友']
+  loving     miss top: ['andler', 'herits', '默契', 'rà', '/xhtml', '关系']
+  nervous    miss top: ['".', 'fkk', ":'.$", 'ppv', 'thanor', ':<?']
+  inspired   HIT  top: ['灵感', 'möglich', '素敵', 'crast', 'lour', 'elpers']
+logit-lens hits: 4/12 (soft check >= 8; English-synonym match only - multilingual translations under-counted)
+scenario diagonal L14: diag +0.021 vs off -0.006, z=1.47
+scenario diagonal L18: diag +0.047 vs off +0.003, z=1.98
+scenario diagonal L21: diag +0.077 vs off +0.002, z=5.63
+VALIDITY GATE: PASS (diagonal z>2 at >=1 layer)
+intensity 'afraid' (He realized he had taken {x} times...): proj +8.2 +8.9 +8.7 +7.8  spearman -0.40
+intensity 'afraid' (She stepped to the edge of the pla...): proj +9.6 +10.0 +10.2 +10.4  spearman +1.00
+intensity 'distressed' (The repair estimate came to {x} do...): proj +4.6 +5.0 +5.5 +5.4  spearman +0.80

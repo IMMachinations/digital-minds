@@ -1,0 +1,6 @@
+qwen3-4b: Stage 2 manifold ladder
+L18 rung1: corr(PC1, valence)=+0.878  corr(PC2, arousal)=+0.063  (PC1-arousal -0.176)
+L23 rung1: corr(PC1, valence)=+0.908  corr(PC2, arousal)=-0.024  (PC1-arousal -0.145)
+L27 rung1: corr(PC1, valence)=+0.906  corr(PC2, arousal)=-0.076  (PC1-arousal -0.172)
+L23 rung3 held-out valence: PC1 r=+0.905 vs manifold-theta r=+0.833 -> LINEAR SUFFICES
+arc trajectories (433 sentences): judge-valence corr — manifold-theta +0.216 vs PC1 +0.660
