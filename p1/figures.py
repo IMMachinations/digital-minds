@@ -379,8 +379,6 @@ def main():
             appendix(m)
 
 
-if __name__ == "__main__":
-    main()
 
 
 # ---- Stage 1D figures ---------------------------------------------------------------------------
@@ -1030,3 +1028,7 @@ def f27_geo():
                  fontsize=10, color=INK, loc="left")
     style(ax, grid_axis="y")
     save(fig, FIG / "f27_geo.png")
+
+
+if __name__ == "__main__":
+    main()
