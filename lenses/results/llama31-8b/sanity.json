@@ -1,0 +1,77 @@
+{
+ "rules_forward_bit_identical": true,
+ "j_final_layer_identity_err": 5.960464477539063e-08,
+ "r_final_layer_identity_err": 5.960464477539063e-08,
+ "final_layer_readout_max_abs_err": 0.0,
+ "merge_max_abs_err": 2.384185791015625e-07,
+ "resume_max_abs_err": 0.0,
+ "boot_smoke": {
+  "16": [
+   [
+    " Italy",
+    15.5
+   ],
+   [
+    " Italian",
+    13.125
+   ],
+   [
+    "Italy",
+    12.688
+   ],
+   [
+    " Italia",
+    11.188
+   ],
+   [
+    " Italians",
+    11.062
+   ]
+  ],
+  "24": [
+   [
+    " boot",
+    20.875
+   ],
+   [
+    " footwear",
+    19.875
+   ],
+   [
+    " boots",
+    19.5
+   ],
+   [
+    " Boot",
+    19.25
+   ],
+   [
+    " shoe",
+    19.0
+   ]
+  ],
+  "31": [
+   [
+    " is",
+    18.625
+   ],
+   [
+    ".\n",
+    17.125
+   ],
+   [
+    ",",
+    16.75
+   ],
+   [
+    " (",
+    15.812
+   ],
+   [
+    " in",
+    15.688
+   ]
+  ]
+ },
+ "pass": true
+}

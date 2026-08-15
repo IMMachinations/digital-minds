@@ -1,0 +1,77 @@
+{
+ "rules_forward_bit_identical": true,
+ "j_final_layer_identity_err": 5.960464477539063e-08,
+ "r_final_layer_identity_err": 5.960464477539063e-08,
+ "final_layer_readout_max_abs_err": 0.0,
+ "merge_max_abs_err": 1.9073486328125e-06,
+ "resume_max_abs_err": 0.0,
+ "boot_smoke": {
+  "18": [
+   [
+    "-shaped",
+    18.25
+   ],
+   [
+    " armour",
+    18.25
+   ],
+   [
+    "\u82f1\u56fd",
+    16.375
+   ],
+   [
+    "\u5f62\u72b6",
+    15.438
+   ],
+   [
+    "shape",
+    15.062
+   ]
+  ],
+  "27": [
+   [
+    "-shaped",
+    29.625
+   ],
+   [
+    "shape",
+    25.75
+   ],
+   [
+    "\u5f62\u72b6",
+    25.25
+   ],
+   [
+    "shapes",
+    21.75
+   ],
+   [
+    "\u5f62",
+    20.75
+   ]
+  ],
+  "35": [
+   [
+    " is",
+    23.875
+   ],
+   [
+    ",",
+    19.375
+   ],
+   [
+    " in",
+    19.125
+   ],
+   [
+    " with",
+    18.25
+   ],
+   [
+    " has",
+    17.875
+   ]
+  ]
+ },
+ "pass": true
+}

@@ -219,3 +219,8 @@ __marimo__/
 
 # desires/lib is a real source package, not a packaging artifact.
 !desires/lib/
+
+# lenses/lib likewise; fitted lens tensors are ~0.5-1.1 GB each (6 lenses ~ 4.5 GB) and are
+# reproducible via lenses/scripts/run_fit_all.sh, so .pt results stay out of git.
+!lenses/lib/
+lenses/results/**/*.pt

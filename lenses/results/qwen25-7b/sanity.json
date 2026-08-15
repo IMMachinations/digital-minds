@@ -1,0 +1,77 @@
+{
+ "rules_forward_bit_identical": true,
+ "j_final_layer_identity_err": 5.960464477539063e-08,
+ "r_final_layer_identity_err": 5.960464477539063e-08,
+ "final_layer_readout_max_abs_err": 0.0,
+ "merge_max_abs_err": 4.76837158203125e-07,
+ "resume_max_abs_err": 0.0,
+ "boot_smoke": {
+  "14": [
+   [
+    " Italian",
+    14.438
+   ],
+   [
+    " Italy",
+    14.062
+   ],
+   [
+    " Italia",
+    12.812
+   ],
+   [
+    " Sic",
+    10.812
+   ],
+   [
+    " Italians",
+    10.625
+   ]
+  ],
+  "21": [
+   [
+    "\u5f62\u72b6",
+    13.0
+   ],
+   [
+    " n\u00e4ch",
+    12.688
+   ],
+   [
+    "/Layout",
+    12.25
+   ],
+   [
+    "Italy",
+    12.125
+   ],
+   [
+    " Italy",
+    11.938
+   ]
+  ],
+  "27": [
+   [
+    " is",
+    28.375
+   ],
+   [
+    ",",
+    20.625
+   ],
+   [
+    " on",
+    20.5
+   ],
+   [
+    " (",
+    19.75
+   ],
+   [
+    " and",
+    18.75
+   ]
+  ]
+ },
+ "pass": true
+}
