@@ -158,5 +158,5 @@ on `qwen25-7b`).
   Results in results/stage4/; figures f22-f27.
 - **Project complete**: outcome grid resolved (C2 −, 4B − → preference
   content affectively inert; see results/WRITEUP.md for the full synthesis).
-  Remaining: j-lens integration (blocked on user), SURF instability mapping
-  (stretch, `surf_stub.py`).
+  j-lens/r-lens integration done (`scripts/lens_check.py` → lens_check.txt).
+  Remaining stretch: SURF instability mapping (`surf_stub.py`).

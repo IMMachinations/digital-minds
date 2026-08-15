@@ -17,7 +17,7 @@ Status legend: [>] running now  [q] queued (auto-launches)  [ ] todo  [b] blocke
 - [x] **Stage 3 wrap**: compile full contrast grid (C1/C2/C3/C5 per frame per model), write the C1-fail + stimulus/state-dissociation story carefully, Stage 3 figures (valence trajectories by cell, feedback-reading vs state bars, boredom repetition curves).
 - [x] **Stage 1-XL wrap** — done, consolidated in results/stage1x/REPORT.md.
 - [x] Commits through Stage 4/5 milestones (IMMachinations author, no session ref, gitignore acts caches).
-- [b] **j-lens integration** — waiting on user: fitted lenses per model at `p1/lenses/<roster-name>.pt` + layout & pre/post-norm convention. Then: loader + swap `stage2_analysis.cmd_validate` lens check to translate-then-unembed, keep raw logit-lens comparison.
+- [x] **j-lens + r-lens integration** — done via the user's `../lenses` package (`scripts/lens_check.py`): raw 4-11/12 → j-lens 9-12/12, r-lens 8-12/12 across working layers; qwen25-7b's noisy raw check fully rescued (12/12 with r-lens at every layer). Results in results/stage2/*/lens_check.txt.
 
 ## Stage 4 (causal cross) — COMPLETE
 

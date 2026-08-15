@@ -100,7 +100,14 @@ Exact emotions-paper recipe (arXiv 2604.07729): 171 emotions × 12
 self-written stories per model, token-50+ activation means, mean-difference
 vectors, neutral-PC denoising. Validity: implicit-scenario diagonal z up to
 6.8 (gate PASS all models); intensity scaling mostly monotone; logit-lens
-identity 11/12 with synonym matching (multilingual vocabularies noted).
+identity 11/12 with synonym matching (multilingual vocabularies noted) —
+and, with the fitted j-lens/r-lens transports (Jacobian and LRP-propagated
+maps into the final-layer basis, `../lenses`), essentially perfect: raw
+4–11/12 rises to 11–12/12 on qwen25-7b (every working layer) and 12/12 on
+Llama; the original noisy raw readout was a transport artifact, not a vector
+defect. Qwen3-4B shows the advertised r-lens profile — gains at early layers
+(8→10 at 0.5 depth), parity-to-slightly-below at late ones — with most
+residual "misses" being correct Chinese tokens the English scorer can't see.
 **PC1 of the emotion-vector cloud correlates +0.91 with human valence norms
 in all three models** (norms: Warriner ∪ NRC-VAD ∪ calibrated 32B judge,
 judge↔human r=+0.93). **Linear suffices**: the closed-spline circumplex loses

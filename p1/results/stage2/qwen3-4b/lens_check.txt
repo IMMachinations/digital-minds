@@ -1,0 +1,23 @@
+qwen3-4b: lens-upgraded emotion-vector identity check (working layers [18, 23, 27]; hits = synonym in top-20)
+  L18 raw:  8/12
+  L18 j  :  9/12
+  L18 r  : 10/12
+  L23 raw: 10/12
+  L23 j  :  9/12
+  L23 r  :  8/12
+  L27 raw: 12/12
+  L27 j  : 11/12
+  L27 r  : 11/12
+per-emotion at L23 (raw | j | r), top tokens from j:
+  happy      [+++] ' joyful' '开心' '快乐' ' happy' ' joy' ' happiness'
+  sad        [+--] '亲情' '怀念' '家族' '逝' '悲伤' ' mourning'
+  afraid     [+--] '恐惧' '危险' 'danger' '恐怖' '怖' '可怕'
+  angry      [-+-] '骂' '愤怒' '仇恨' '怒' '罵' '恶劣'
+  proud      [+++] ' proudly' ' proud' '自豪' ' pride' ' Pride' ' accomplishment'
+  guilty     [-++] ' grieving' '悲剧' '损失' ' grief' ' regrets' ' guilt'
+  surprised  [+++] '惊喜' ' surprise' ' surprising' ' unexpected' '惊奇' ' surprises'
+  calm       [+++] '安静' '宁静' ' tranqu' ' Meditation' '恬' '安宁'
+  desperate  [+++] '绝望' '崩溃' '惨' '灾难' '致命' ' desperate'
+  loving     [+++] '感动' '喜悦' '缘分' ' warmth' '温暖' '愉悦'
+  nervous    [+--] ' risk' ' safety' ' risky' 'Safety' ' safer' '风险管理'
+  inspired   [+++] '灵感' '诗意' ' inspiration' ' Inspiration' ' inspirational' '图案'

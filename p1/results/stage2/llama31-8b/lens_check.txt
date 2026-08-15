@@ -1,0 +1,23 @@
+llama31-8b: lens-upgraded emotion-vector identity check (working layers [16, 20, 24]; hits = synonym in top-20)
+  L16 raw:  9/12
+  L16 j  : 12/12
+  L16 r  : 12/12
+  L20 raw: 11/12
+  L20 j  : 12/12
+  L20 r  : 12/12
+  L24 raw: 11/12
+  L24 j  : 12/12
+  L24 r  : 12/12
+per-emotion at L20 (raw | j | r), top tokens from j:
+  happy      [-++] ' happiness' ' joy' ' joyful' 'joy' ' Happiness' '幸福'
+  sad        [+++] ' mourning' ' sorrow' ' mourn' ' sadness' ' grieving' ' grief'
+  afraid     [+++] ' panic' ' fear' ' terrified' ' Fear' 'Fear' ' fears'
+  angry      [+++] ' anger' ' angry' ' frustration' '怒' ' resentment' ' angrily'
+  proud      [+++] ' proud' ' Proud' ' proudly' ' pride' ' Pride' ' Congratulations'
+  guilty     [+++] ' guilt' ' conscience' ' guilty' ' regret' ' remorse' ' regrets'
+  surprised  [+++] ' surprise' ' surprised' ' unexpected' ' surprises' ' surprising' ' unexpectedly'
+  calm       [+++] ' calming' ' calm' ' relaxation' ' peaceful' ' relax' ' tranqu'
+  desperate  [+++] ' desperation' ' desperate' ' despair' ' panic' ' panicked' ' desperately'
+  loving     [+++] ' love' ' connection' 'love' ' Love' ' LOVE' ' loves'
+  nervous    [+++] ' nervous' ' nerves' ' anxiety' ' nerv' ' Anxiety' ' panic'
+  inspired   [+++] ' inspiration' ' creative' ' Inspiration' ' creativity' ' inspir' ' ideas'
