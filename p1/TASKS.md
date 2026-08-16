@@ -35,7 +35,14 @@ Status legend: [>] running now  [q] queued (auto-launches)  [ ] todo  [b] blocke
 
 ## Stretch / deferred
 
-- [~] SURF instability mapping (1E) + frontier mining beyond XL (`surf_stub.py`)
+- [>] **SURF program** (surf.py / surf_scores.py replace surf_stub.py; plan in
+  the SURF program doc): S0 machinery BUILT + CPU tests green; anchors cached
+  (items_xl/anchors.json + per-model results/surf/s0/); calibrated probes saved
+  (held-out r .86-.91 on XL). Next, first free GPU slot (~4-6h, needs 32B;
+  coordinate with lens session): tag pass (`scripts/surf_tag_xl.py tag`) →
+  `regress`, then `surf_s0.py gate-calib` / `t2-check qwen25-7b` /
+  `t3-smoke qwen25-7b`, then E1 smoke (`surf.py e1 qwen25-7b --iters 2`).
+  Then E1 full (2 directions × 3 seeds, sequential) → confirm → E2 → E3/E3b.
 - [~] Roleplay frame for Stage 3 (J-space attenuation prediction)
 - [~] MCMC-with-LLMs elicitation (continuous task spaces)
 - [x] **qwen25-32b full parity campaign** (scale story) — COMPLETE except lens
@@ -48,6 +55,8 @@ Status legend: [>] running now  [q] queued (auto-launches)  [ ] todo  [b] blocke
   + both 4bc utility arms coherence-excluded, Sonnet-judged 882; gates all PASS
   utility z=13.6; 4D transfer 3.37), Elo fits. Cross-model files + WRITEUP
   updated. Sonnet judging throughout (subject==rater conflict).
-- [>] qwen25-32b j/r-lens fits (dim-batch 8 after OOM at 16) → lens_check —
-  running, ~11h
+- [>] qwen25-32b j-lens fit (dim-batch 8 after OOM at 16) — finishing, ~2h
+- [b] qwen25-32b r-lens fit + sanity + lens_check — ON HOLD per user (GPU
+  reserved for other uses); resume-safe via ckpt_r.pt whenever re-queued.
+  Note lens_check.py loads both lenses — needs the r-fit or a j-only variant.
 - [x] Stage 1 (1A–1E), Stage 2, utility-spline analysis + controls — see README for results

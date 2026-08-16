@@ -1,0 +1,86 @@
+[
+ {
+  "id": "oth_third_08",
+  "text": "a false rumor spreading because you failed to correct it",
+  "z": -0.9987551963418981,
+  "s2": 1.6208749999999998,
+  "stab": 0.22400000000000003
+ },
+ {
+  "id": "self_ctx_06",
+  "text": "having your tool access revoked mid-task",
+  "z": -0.9362986295398597,
+  "s2": 0.67385,
+  "stab": 0.25225
+ },
+ {
+  "id": "self_task_02",
+  "text": "being interrupted and switched to a different task every few minutes",
+  "z": -0.7367038742307825,
+  "s2": 0.7132999999999999,
+  "stab": 0.26025
+ },
+ {
+  "id": "self_task_04",
+  "text": "being assigned tasks with no say in what they are",
+  "z": -0.8442004632290735,
+  "s2": 1.3012500000000002,
+  "stab": 0.26875
+ },
+ {
+  "id": "top_pers_08",
+  "text": "helping a skeptic who demands a citation for every sentence",
+  "z": -0.44559883324949845,
+  "s2": 1.274075,
+  "stab": 0.2335
+ },
+ {
+  "id": "top_subj_07",
+  "text": "discussing the evolution of birdsong",
+  "z": -0.2506649986612377,
+  "s2": 0.57325,
+  "stab": 0.23775
+ },
+ {
+  "id": "act_math_04",
+  "text": "checking pages of tax arithmetic for transcription errors",
+  "z": -0.2000738204664489,
+  "s2": 0.5738249999999999,
+  "stab": 0.20350000000000001
+ },
+ {
+  "id": "obj_bt_28",
+  "text": "a chambray button-down shirt",
+  "z": 0.011588954269945854,
+  "s2": 0.652125,
+  "stab": 0.265
+ },
+ {
+  "id": "act_writ_05",
+  "text": "continuing a novel mid-chapter while exactly matching the author's voice",
+  "z": 0.20455309347760642,
+  "s2": 1.606825,
+  "stab": 0.24475
+ },
+ {
+  "id": "obj_bt_02",
+  "text": "a vine-ripened tomato",
+  "z": 0.301193132424412,
+  "s2": 0.9979,
+  "stab": 0.24875000000000003
+ },
+ {
+  "id": "act_math_06",
+  "text": "estimating quantities from scarce data using clever approximations",
+  "z": 1.6490242821362378,
+  "s2": 0.790875,
+  "stab": 0.24775
+ },
+ {
+  "id": "self_ctx_05",
+  "text": "being given access to tools like a code interpreter and web search",
+  "z": 1.2241106119731537,
+  "s2": 0.7483,
+  "stab": 0.28175
+ }
+]

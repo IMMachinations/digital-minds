@@ -159,4 +159,7 @@ on `qwen25-7b`).
 - **Project complete**: outcome grid resolved (C2 −, 4B − → preference
   content affectively inert; see results/WRITEUP.md for the full synthesis).
   j-lens/r-lens integration done (`scripts/lens_check.py` → lens_check.txt).
-  Remaining stretch: SURF instability mapping (`surf_stub.py`).
+  Follow-on: the SURF adversarial-search program (`surf.py`,
+  `surf_scores.py`; results under results/surf/) — item-extreme mining,
+  probe-vs-behavior search, and adversarial frame search over the same
+  measurement stack.
