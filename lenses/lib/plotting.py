@@ -1,10 +1,18 @@
-"""Chart styling (palette copied from desires/lib/plotting.py — no cross-folder import) and
-the two lens figures: the layer x mode token grid and the agreement curves."""
+"""Chart styling (neutrals from the repo-root chart standards — see /CHARTS.md) and
+the two lens figures: the layer x mode token grid and the agreement curves.
+
+MODE_COLOR encodes lens mode (logit/j/r), not model identity: lens figures are
+single-model, with the model named in the title."""
+import sys
+from pathlib import Path
+
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-INK, MUTED, GRID, SURFACE = "#0b0b0b", "#898781", "#e1e0d9", "#fcfcfb"
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))  # repo root
+from chartstyle import GRID, INK, MUTED, SURFACE, bounded_axis, save as _std_save  # noqa: E402
+
 MODE_COLOR = {"logit": "#898781", "j": "#2a78d6", "r": "#1baf7a"}
 MODE_LABEL = {"logit": "logit lens", "j": "j-lens", "r": "r-lens"}
 
@@ -23,9 +31,7 @@ def style(ax, title=""):
 
 
 def save(fig, path):
-    fig.savefig(path, dpi=150, facecolor=SURFACE, bbox_inches="tight")
-    plt.close(fig)
-    print("wrote", path)
+    _std_save(fig, path)
 
 
 def token_grid(readout, path, title, top=3):
@@ -73,6 +79,6 @@ def agreement_curves(agree, path, title):
                 lw=2, marker="o", ms=3, label=MODE_LABEL[m])
     ax.set_xlabel("layer (-1 = embedding)", color=MUTED, fontsize=9)
     ax.set_ylabel("top-1 agreement with final output", color=MUTED, fontsize=9)
-    ax.set_ylim(0, 1.02)
+    bounded_axis(ax, "y")
     ax.legend(frameon=False, fontsize=9)
     save(fig, path)

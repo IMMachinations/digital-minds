@@ -1,0 +1,5 @@
+wrote results/llama31-8b/grid_boot.png
+wrote results/llama31-8b/agreement.png
+ logit: early-half mean agreement 0.000
+     j: early-half mean agreement 0.034
+     r: early-half mean agreement 0.055

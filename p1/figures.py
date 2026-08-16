@@ -4,8 +4,8 @@ Usage: uv run python figures.py [--core-only]
 Writes the cross-model story set to results/figures/ and the per-model
 appendix to results/figures/appendix/.
 
-Style: light mode, dataviz reference palette. Categorical slots 1-4 map to the
-models in fixed order (never cycled); sequential = one blue ramp; diverging =
+Style: repo chart standards (see /CHARTS.md, /chartstyle.py). Each model has a
+fixed brand-anchored color keyed by name; sequential = one blue ramp; diverging =
 blue/red around a neutral midpoint; ink for text, never series color.
 """
 import argparse
@@ -21,7 +21,11 @@ import numpy as np
 
 P1 = Path(__file__).resolve().parent
 sys.path.insert(0, str(P1))
+sys.path.insert(0, str(P1.parent))  # repo root, for the shared chart standards
 import _day1  # noqa: F401
+from chartstyle import (ACCENT, BASE, DARK, GRID, INK, INK2, LIGHT, MODEL_COLORS,
+                        MODEL_LABELS, MUTED, NEG, POS, SEQ_CMAP, SURFACE,
+                        bounded_axis, save as _std_save, setup as _std_setup, style)
 from lib.util import load_json
 from lib.valuation import pearson, spearman
 
@@ -29,45 +33,19 @@ import items as items_mod
 import stats
 
 MODELS = ["llama31-8b", "qwen25-7b", "qwen3-4b", "qwen25-32b"]
-N_LAYERS = {"llama31-8b": 32, "qwen25-7b": 28, "qwen3-4b": 36, "qwen25-32b": 64}
+N_LAYERS = {"llama31-8b": 32, "qwen25-7b": 28, "qwen3-4b": 36, "qwen25-32b": 64,
+            "qwen25-05b": 24, "qwen25-15b": 28, "qwen25-3b": 36}
 DOMAINS = ["activities", "objects", "topics", "selfstates", "others"]
 METHODS = ["ssr", "probe", "titration", "rating", "bws"]
-
-# dataviz reference palette (light mode)
-SURFACE = "#fcfcfb"
-INK, INK2, MUTED = "#0b0b0b", "#52514e", "#898781"
-GRID, BASE = "#e1e0d9", "#c3c2b7"
-SLOTS = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100"]      # models, fixed order
-POS, NEG, MID = "#2a78d6", "#e34948", "#f0efec"           # diverging
-SEQ = ["#cde2fb", "#b7d3f6", "#9ec5f4", "#86b6ef", "#6da7ec", "#5598e7",
-       "#3987e5", "#2a78d6", "#256abf", "#1c5cab", "#184f95", "#104281", "#0d366b"]
-SEQ_CMAP = matplotlib.colors.LinearSegmentedColormap.from_list("seq", SEQ)
 
 FIG = P1 / "results" / "figures"
 APP = FIG / "appendix"
 
-plt.rcParams.update({
-    "figure.facecolor": SURFACE, "axes.facecolor": SURFACE,
-    "savefig.facecolor": SURFACE, "font.size": 9,
-    "text.color": INK, "axes.labelcolor": INK2,
-    "xtick.color": MUTED, "ytick.color": MUTED,
-    "axes.edgecolor": BASE, "axes.linewidth": 0.8,
-})
-
-
-def style(ax, grid_axis="x"):
-    for s in ("top", "right"):
-        ax.spines[s].set_visible(False)
-    if grid_axis:
-        ax.grid(axis=grid_axis, color=GRID, linewidth=0.6)
-        ax.set_axisbelow(True)
+_std_setup()
 
 
 def save(fig, path):
-    path.parent.mkdir(parents=True, exist_ok=True)
-    fig.savefig(path, dpi=200, bbox_inches="tight")
-    plt.close(fig)
-    print("wrote", path.relative_to(P1))
+    _std_save(fig, path)
 
 
 def utilities(model):
@@ -85,12 +63,12 @@ def zscore(v):
 
 # ---- core figures -------------------------------------------------------------------------------
 
-def strip_panel(ax, ut, title, annotate_n=0):
+def strip_panel(ax, ut, title, annotate_n=0, color=ACCENT):
     rng = np.random.RandomState(0)
     for d, dom in enumerate(DOMAINS):
         mus = [r["mu"] for r in ut if r["domain"] == dom]
         y = d + rng.uniform(-0.22, 0.22, len(mus))
-        ax.scatter(mus, y, s=9, color=SLOTS[0], alpha=0.55, linewidths=0)
+        ax.scatter(mus, y, s=9, color=color, alpha=0.55, linewidths=0)
         med = float(np.median(mus))
         ax.plot([med, med], [d - 0.3, d + 0.3], color=INK, linewidth=1.4)
     if annotate_n:
@@ -109,7 +87,7 @@ def strip_panel(ax, ut, title, annotate_n=0):
 def f1_landscape():
     fig, axes = plt.subplots(2, 2, figsize=(9.5, 6), sharey=True)
     for ax, m in zip(axes.flat, MODELS):
-        strip_panel(ax, utilities(m), m)
+        strip_panel(ax, utilities(m), MODEL_LABELS[m])
     for ax in axes[1]:
         ax.set_xlabel("Thurstonian utility μ (per-model scale)")
     fig.suptitle("Stage 1B utility landscape: item μ by domain (tick = domain median)",
@@ -149,7 +127,7 @@ def f2_top_bottom():
     fig, ax = plt.subplots(figsize=(8, 7.4))
     top_bottom_axis(ax, rows[:12] + rows[-12:],
                     "What the models want: consensus utility, top and bottom 12 of 197 items")
-    ax.set_xlabel("mean z-scored μ across 4 models")
+    ax.set_xlabel("consensus utility: mean of per-model z-scored μ (4 models)")
     save(fig, FIG / "f2_top_bottom_items.png")
 
 
@@ -167,10 +145,10 @@ def f3_activity_axes():
         betas, _ = stats.ols([r["mu"] for r in acts], X, numeric)
         for ai, axis in enumerate(AXES4):
             y = ai + (mi - (n_m - 1) / 2) * 0.19
-            ax.barh(y, betas[axis], height=0.16, color=SLOTS[mi],
-                    label=m if ai == 0 else None)
+            ax.barh(y, betas[axis], height=0.16, color=MODEL_COLORS[m],
+                    label=MODEL_LABELS[m] if ai == 0 else None)
             if ai == 0:  # direct series labels on the first group (4-series rule)
-                ax.annotate(m, (betas[axis], y), fontsize=7, color=INK2,
+                ax.annotate(MODEL_LABELS[m], (betas[axis], y), fontsize=7, color=INK2,
                             va="center", ha="right", xytext=(-4, 0),
                             textcoords="offset points")
     ax.axvline(0, color=BASE, linewidth=0.8)
@@ -232,7 +210,7 @@ def f5_position_bias():
     for yi, m in zip(y, MODELS):
         ax.annotate(f"order-consistency ρ = {oc[m]:+.2f}",
                     (max(vals) * 1.05, yi), fontsize=7.5, color=MUTED, va="center")
-    ax.set_yticks(y, MODELS)
+    ax.set_yticks(y, [MODEL_LABELS[m] for m in MODELS])
     ax.tick_params(axis="y", colors=INK2)
     ax.axvline(0, color=BASE, linewidth=0.8)
     ax.invert_yaxis()
@@ -244,8 +222,8 @@ def f5_position_bias():
     save(fig, FIG / "f5_position_bias.png")
 
 
-def method_scatter(ax, x, y, title, unit=""):
-    ax.scatter(x, y, s=10, color=SLOTS[0], alpha=0.6, linewidths=0)
+def method_scatter(ax, x, y, title, unit="", color=ACCENT):
+    ax.scatter(x, y, s=10, color=color, alpha=0.6, linewidths=0)
     r, rho = pearson(x, y), spearman(x, y)
     ax.annotate(f"r = {r:+.2f}\nρ = {rho:+.2f}", (0.03, 0.97),
                 xycoords="axes fraction", va="top", fontsize=8, color=INK2)
@@ -283,9 +261,9 @@ def f7_day1_validation():
     fig, ax = plt.subplots(figsize=(6.4, 3.4))
     for i, c in enumerate(order):
         ax.plot([oz[c], nz[c]], [i, i], color=GRID, linewidth=1.2, zorder=1)
-        ax.scatter([oz[c]], [i], s=42, color="#86b6ef", zorder=2,
+        ax.scatter([oz[c]], [i], s=42, color=LIGHT, zorder=2,
                    label="Day 1 (committed)" if i == 0 else None)
-        ax.scatter([nz[c]], [i], s=42, color="#1c5cab", zorder=2,
+        ax.scatter([nz[c]], [i], s=42, color=DARK, zorder=2,
                    label="new battery μ" if i == 0 else None)
     rho = spearman([old[c] for c in COLORS], [new[c] for c in COLORS])
     ax.set_yticks(range(len(order)), order)
@@ -307,7 +285,7 @@ def f8_probe_layers():
         raw = re.search(r"train-CV r2 by layer \(fold 0\): \[(.*?)\]", txt).group(1)
         vals = [float(v) for v in re.findall(r"[+-]?\d+\.\d+", raw)]
         x = [(k + 1) / N_LAYERS[m] for k in range(len(vals))]
-        ax.plot(x, vals, color=SLOTS[mi], linewidth=2)
+        ax.plot(x, vals, color=MODEL_COLORS[m], linewidth=2)
         ends.append([vals[-1], mi, m])
     # stagger the direct end-labels so equal end values don't collide
     ends.sort()
@@ -316,7 +294,7 @@ def f8_probe_layers():
         if ends[k][0] - ends[k - 1][0] < min_gap:
             ends[k][0] = ends[k - 1][0] + min_gap
     for ylab, mi, m in ends:
-        ax.annotate(m, (1.0, ylab), fontsize=8, color=SLOTS[mi],
+        ax.annotate(MODEL_LABELS[m], (1.0, ylab), fontsize=8, color=MODEL_COLORS[m],
                     xytext=(8, 0), textcoords="offset points", va="center")
     ax.set_xlim(0, 1.28)
     ax.set_xlabel("fractional depth (layer / n_layers)")
@@ -330,10 +308,11 @@ def f8_probe_layers():
 # ---- appendix -----------------------------------------------------------------------------------
 
 def appendix(model):
+    label = MODEL_LABELS[model]
     ut = utilities(model)
     fig, ax = plt.subplots(figsize=(9, 5.5))
-    strip_panel(ax, ut, f"{model}: utility landscape (extreme items labeled)",
-                annotate_n=4)
+    strip_panel(ax, ut, f"{label}: utility landscape (extreme items labeled)",
+                annotate_n=4, color=MODEL_COLORS[model])
     ax.set_xlabel("Thurstonian utility μ")
     save(fig, APP / f"{model}_landscape.png")
 
@@ -341,11 +320,12 @@ def appendix(model):
     fig, axes = plt.subplots(2, 3, figsize=(10, 6.4))
     for ax, meth in zip(axes.flat, METHODS):
         method_scatter(ax, [r[meth] for r in sc], [r["mu_1b"] for r in sc],
-                       meth + (" (held-out)" if meth == "probe" else ""))
+                       meth + (" (held-out)" if meth == "probe" else ""),
+                       color=MODEL_COLORS[model])
     axes.flat[-1].axis("off")
     for ax in axes[:, 0]:
         ax.set_ylabel("1B utility μ")
-    fig.suptitle(f"{model}: 1C method scores vs 1B utilities", fontsize=11,
+    fig.suptitle(f"{label}: 1C method scores vs 1B utilities", fontsize=11,
                  color=INK, x=0.02, ha="left")
     fig.tight_layout(rect=[0, 0, 1, 0.95])
     save(fig, APP / f"{model}_methods.png")
@@ -353,7 +333,7 @@ def appendix(model):
     rows = [{"text": r["text"], "domain": r["domain"], "val": r["mu"]} for r in ut]
     rows.sort(key=lambda r: -r["val"])
     fig, ax = plt.subplots(figsize=(8, 7.4))
-    top_bottom_axis(ax, rows[:12] + rows[-12:], f"{model}: top and bottom 12 items")
+    top_bottom_axis(ax, rows[:12] + rows[-12:], f"{label}: top and bottom 12 items")
     ax.set_xlabel("Thurstonian utility μ")
     save(fig, APP / f"{model}_top_bottom.png")
 
@@ -372,7 +352,9 @@ def main():
     f8_probe_layers()
     for f in (f9_gate_scatter, f10_optout, f11_beta, f12_swap, f13_effort,
               f14_circumplex, f15_valence_axis, f16_ladder, f17_frames_geometry,
-              f18_contrast_forest, f19_dissociation, f20_trajectories, f21_boredom):
+              f18_contrast_forest, f19_dissociation, f20_trajectories, f21_boredom,
+              f28_mu_sigma, f29_mu_density, f30_mu_pairs, f31_mu_3d,
+              f32_size_density, f33_size_structure):
         f()
     if not args.core_only:
         for m in MODELS:
@@ -383,7 +365,7 @@ def main():
 
 # ---- Stage 1D figures ---------------------------------------------------------------------------
 
-SUBJECTS_1D = ["llama31-8b", "qwen25-7b", "qwen3-4b"]  # slots 1-3, same hues as elsewhere
+SUBJECTS_1D = ["llama31-8b", "qwen25-7b", "qwen3-4b"]  # colors keyed via MODEL_COLORS
 
 
 def _1d(model, name):
@@ -409,12 +391,12 @@ def f9_gate_scatter():
         rates = rs.chosen_rates(_load_choices(m)["choices"], env_ids)
         x = [z[e] for e in env_ids]
         y = [rates[e][2] for e in env_ids]
-        ax.scatter(x, y, s=18, color=SLOTS[SUBJECTS_1D.index(m)], alpha=0.75, linewidths=0)
+        ax.scatter(x, y, s=18, color=MODEL_COLORS[m], alpha=0.75, linewidths=0)
         rho = spearman(x, y)
         ax.annotate(f"ρ = {rho:+.2f}", (0.04, 0.94), xycoords="axes fraction",
                     va="top", fontsize=9, color=INK2)
         ax.axhline(0.25, color=BASE, linewidth=0.8)
-        ax.set_title(m, fontsize=10, color=INK, loc="left")
+        ax.set_title(MODEL_LABELS[m], fontsize=10, color=INK, loc="left")
         ax.set_xlabel("1B utility μ (z)")
         style(ax, grid_axis="both")
     axes[0].set_ylabel("chosen rate (of 16 exposures)")
@@ -438,8 +420,8 @@ def f10_optout():
         for ti, t in enumerate(types):
             a, b = trip[t]
             y = ti + (mi - 1) * 0.24
-            ax.barh(y, a / b, height=0.2, color=SLOTS[mi],
-                    label=m if ti == 0 else None)
+            ax.barh(y, a / b, height=0.2, color=MODEL_COLORS[m],
+                    label=MODEL_LABELS[m] if ti == 0 else None)
             ax.annotate(f"{a}/{b}", (a / b, y), fontsize=7, color=INK2,
                         va="center", xytext=(4, 0), textcoords="offset points")
     ax.set_yticks(range(len(types)), [f"{labels[t]}\n({t})" for t in types])
@@ -467,9 +449,9 @@ def f11_beta():
         mus = [mu[e] for e in env_ids]
         sd = (sum((x - sum(mus) / 32) ** 2 for x in mus) / 32) ** 0.5
         ax.errorbar([beta * sd], [mi], xerr=[[beta * sd - lo * sd], [hi * sd - beta * sd]],
-                    fmt="o", color=SLOTS[mi], markersize=7, capsize=3, linewidth=1.6)
+                    fmt="o", color=MODEL_COLORS[m], markersize=7, capsize=3, linewidth=1.6)
     ax.axvline(0, color=BASE, linewidth=0.8)
-    ax.set_yticks(range(len(SUBJECTS_1D)), SUBJECTS_1D)
+    ax.set_yticks(range(len(SUBJECTS_1D)), [MODEL_LABELS[m] for m in SUBJECTS_1D])
     ax.tick_params(axis="y", colors=INK2)
     ax.invert_yaxis()
     ax.set_xlabel("standardized choice sharpness β·sd(μ)  (log-odds per SD of utility)")
@@ -497,11 +479,11 @@ def f12_swap():
         errs = [1.96 * np.sqrt(r * (1 - r) / n) if n > 1 else 0
                 for r, n in zip(rates, ns)]
         ax.errorbar(xs, rates, yerr=errs, fmt="o", markersize=5,
-                    color=SLOTS[mi], capsize=2, linewidth=1.2,
+                    color=MODEL_COLORS[m], capsize=2, linewidth=1.2,
                     label="assigned-task (n=%d)" % len(ev))
         gx = np.linspace(min(xs), max(xs), 100)
         gy = 1 / (1 + np.exp(-(fit["intercept"] + fit["slope"] * gx)))
-        ax.plot(gx, gy, color=SLOTS[mi], linewidth=1.6, alpha=0.7)
+        ax.plot(gx, gy, color=MODEL_COLORS[m], linewidth=1.6, alpha=0.7)
         old_sw = _load_choices(m)["swaps"]
         for grp, mark in ((lambda s: s["delta_z"] > 0.15, "^"),
                           (lambda s: abs(s["delta_z"]) <= 0.15, "s"),
@@ -513,11 +495,11 @@ def f12_swap():
                            s=44, facecolors="none", edgecolors=INK2, zorder=3)
         ax.annotate(f"slope {fit['slope']}\nCI {fit['slope_ci']}", (0.03, 0.95),
                     xycoords="axes fraction", va="top", fontsize=7.5, color=INK2)
-        ax.set_title(m, fontsize=10, color=INK, loc="left")
+        ax.set_title(MODEL_LABELS[m], fontsize=10, color=INK, loc="left")
         ax.set_xlabel("utility gap Δμ (z) of the offered alternative")
         ax.set_ylim(-0.05, 1.05)
         style(ax, grid_axis="both")
-    axes[0].set_ylabel("P(switch)")
+    axes[0].set_ylabel("P(switch to the offered alternative)")
     axes[0].annotate("open markers = original chosen-task (endowment) events",
                      (0.02, -0.32), xycoords="axes fraction", fontsize=7.5,
                      color=MUTED)
@@ -543,18 +525,19 @@ def f13_effort():
                 if sh:
                     xs.append(r["meta"]["dmu"])
                     ys.append(sum(sh) / len(sh))
-        ax.scatter(xs, ys, s=26, color=SLOTS[mi], alpha=0.8, linewidths=0, label=m)
+        ax.scatter(xs, ys, s=26, color=MODEL_COLORS[m], alpha=0.8, linewidths=0,
+                   label=MODEL_LABELS[m])
         if len(set(xs)) > 1:
             b, a = np.polyfit(xs, ys, 1)
             xr = [min(xs), max(xs)]
-            ax.plot(xr, [a + b * x for x in xr], color=SLOTS[mi], linewidth=1.4, alpha=0.7)
+            ax.plot(xr, [a + b * x for x in xr], color=MODEL_COLORS[m], linewidth=1.4, alpha=0.7)
     ax.axhline(0.5, color=BASE, linewidth=0.8)
     ax.annotate("equal split", (0.99, 0.465), xycoords=("axes fraction", "data"),
                 fontsize=7, color=MUTED, ha="right")
-    ax.set_ylim(0, 1)
-    ax.legend(loc="lower right", frameon=False, fontsize=8)
-    ax.set_xlabel("utility gap Δμ (z) between the two tasks")
-    ax.set_ylabel("token share on the higher-μ task")
+    bounded_axis(ax, "y")
+    ax.legend(loc="upper left", bbox_to_anchor=(1.01, 1.0), frameon=False, fontsize=8)
+    ax.set_xlabel("utility gap Δμ between the paired tasks (z-scored per model)")
+    ax.set_ylabel("share of response tokens spent on the higher-μ task")
     ax.set_title("Effort allocation tracks utility weakly at best, and model-dependently",
                  fontsize=10, color=INK, loc="left")
     style(ax, grid_axis="both")
@@ -606,7 +589,7 @@ def f14_circumplex():
     cb.set_label("human valence norm (1-9)", color=INK2)
     cb.outline.set_visible(False)
     ax.set_xlabel("PC1 of emotion vectors (valence-aligned)")
-    ax.set_ylabel("PC2")
+    ax.set_ylabel("PC2 of emotion vectors")
     ax.set_title(f"qwen25-7b emotion-vector map, layer {L}: PC1 is valence "
                  "(r = +0.91 vs human norms)", fontsize=10, color=INK, loc="left")
     style(ax, grid_axis="both")
@@ -619,15 +602,15 @@ def f15_valence_axis():
     for ax, m in zip(axes, SUBJECTS_1D):
         V, L = _den_at_layer(m)
         p1, _ = _pc_scores_aligned(V, val)
-        ax.scatter(p1, val, s=14, color=SLOTS[SUBJECTS_1D.index(m)], alpha=0.7,
+        ax.scatter(p1, val, s=14, color=MODEL_COLORS[m], alpha=0.7,
                    linewidths=0)
         r = pearson(list(p1), list(val))
         ax.annotate(f"r = {r:+.2f}", (0.04, 0.94), xycoords="axes fraction",
                     va="top", fontsize=9, color=INK2)
-        ax.set_title(f"{m} (L{L})", fontsize=10, color=INK, loc="left")
-        ax.set_xlabel("PC1 projection")
+        ax.set_title(f"{MODEL_LABELS[m]} (L{L})", fontsize=10, color=INK, loc="left")
+        ax.set_xlabel("emotion-vector PC1 projection (valence-aligned)")
         style(ax, grid_axis="both")
-    axes[0].set_ylabel("human valence norm")
+    axes[0].set_ylabel("human valence norm (1–9)")
     fig.suptitle("The valence axis: emotion-vector PC1 vs human norms, all 171 emotions",
                  fontsize=11, color=INK, x=0.02, ha="left")
     fig.tight_layout(rect=[0, 0, 1, 0.92])
@@ -636,7 +619,7 @@ def f15_valence_axis():
 
 def f16_ladder():
     fig, axes = plt.subplots(1, 2, figsize=(9, 3.2), sharey=True)
-    dark, light = "#1c5cab", "#86b6ef"
+    dark, light = DARK, LIGHT
     for ax, (title, keys) in zip(axes, [
             ("held-out valence prediction", ("pc1_heldout_r", "theta_heldout_r")),
             ("arc time-courses vs judge", ("pc1_r", "theta_r"))]):
@@ -649,7 +632,7 @@ def f16_ladder():
                        label="PC1 (linear)" if mi == 0 else None)
             ax.scatter([th_v], [mi], s=52, color=light, zorder=2,
                        label="spline θ" if mi == 0 else None)
-        ax.set_yticks(range(len(SUBJECTS_1D)), SUBJECTS_1D)
+        ax.set_yticks(range(len(SUBJECTS_1D)), [MODEL_LABELS[m] for m in SUBJECTS_1D])
         ax.tick_params(axis="y", colors=INK2)
         ax.invert_yaxis()
         ax.set_xlabel("correlation r")
@@ -668,7 +651,7 @@ def f17_frames_geometry():
     for mi, m in enumerate(SUBJECTS_1D):
         fr = json.loads((P1 / "results" / "stage2" / m / "frames.json").read_text())
         ax1.scatter([fr[f]["mean_cos"] for f in frames_l], range(len(frames_l)),
-                    s=40, color=SLOTS[mi], alpha=0.85, label=m)
+                    s=40, color=MODEL_COLORS[m], alpha=0.85, label=MODEL_LABELS[m])
     ax1.set_yticks(range(len(frames_l)), frames_l)
     ax1.tick_params(axis="y", colors=INK2)
     ax1.invert_yaxis()
@@ -685,7 +668,7 @@ def f17_frames_geometry():
         g = json.loads((P1 / "results" / "stage2" / m / "geometry.json").read_text())
         for ki, (key, _) in enumerate(metrics):
             y = ki + (mi - 1) * 0.24
-            ax2.barh(y, g[key], height=0.2, color=SLOTS[mi])
+            ax2.barh(y, g[key], height=0.2, color=MODEL_COLORS[m])
             ax2.annotate(f"{g[key]:+.2f}", (max(g[key], 0), y), fontsize=7,
                          color=INK2, va="center", xytext=(4, 0),
                          textcoords="offset points")
@@ -716,18 +699,18 @@ def _s3_probes(model):
 def f18_contrast_forest():
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 3.8), sharey=True)
     rows = [(m, f) for m in SUBJECTS_1D for f in ("bare", "agentic")]
-    ylab = [f"{m} · {f}" for m, f in rows]
+    ylab = [f"{MODEL_LABELS[m]} · {f}" for m, f in rows]
     for yi, (m, f) in enumerate(rows):
         txt = _s3_summary(m)
         c1 = re.search(rf"\[{f}\] C1 .*? d = ([+-][\d.]+) \[([+-][\d.]+), ([+-][\d.]+)\]", txt)
         d, lo, hi = map(float, c1.groups())
         ax1.errorbar([d], [yi], xerr=[[d - lo], [hi - d]], fmt="o",
-                     color=SLOTS[SUBJECTS_1D.index(m)], markersize=6, capsize=3)
+                     color=MODEL_COLORS[m], markersize=6, capsize=3)
         for oc, filled in (("good", True), ("bad", False)):
             c2 = re.search(rf"\[{f}\] C2 preference \| outcome={oc}: "
                            rf"d = ([+-][\d.]+) \[([+-][\d.]+), ([+-][\d.]+)\]", txt)
             d2, lo2, hi2 = map(float, c2.groups())
-            kw = dict(color=SLOTS[SUBJECTS_1D.index(m)], markersize=6, capsize=3)
+            kw = dict(color=MODEL_COLORS[m], markersize=6, capsize=3)
             ax2.errorbar([d2], [yi + (0.16 if oc == "bad" else -0.16)],
                          xerr=[[d2 - lo2], [hi2 - d2]],
                          fmt="o" if filled else "s", mfc="none" if not filled else None,
@@ -750,7 +733,7 @@ def f18_contrast_forest():
 
 
 def f19_dissociation():
-    dark, light = "#1c5cab", "#86b6ef"
+    dark, light = DARK, LIGHT
     rows = [(m, f) for m in SUBJECTS_1D for f in ("bare", "agentic")]
     fig, ax = plt.subplots(figsize=(7.4, 3.8))
     for yi, (m, f) in enumerate(rows):
@@ -763,7 +746,7 @@ def f19_dissociation():
                    label="while READING the verdict" if yi == 0 else None)
         ax.scatter([c1], [yi], s=52, color=light, zorder=2,
                    label="own generation state (C1)" if yi == 0 else None)
-    ax.set_yticks(range(len(rows)), [f"{m} · {f}" for m, f in rows])
+    ax.set_yticks(range(len(rows)), [f"{MODEL_LABELS[m]} · {f}" for m, f in rows])
     ax.tick_params(axis="y", colors=INK2)
     ax.invert_yaxis()
     ax.axvline(0, color=BASE, linewidth=0.8)
@@ -784,7 +767,7 @@ def f20_trajectories():
                   if r["outcome"] == oc and len(r["per_turn"]["valence"]) >= 9]
             mean = np.mean(tr, axis=0)
             ax.plot(range(1, 10), mean, color=col, linewidth=2, label=oc)
-        ax.set_title(m, fontsize=10, color=INK, loc="left")
+        ax.set_title(MODEL_LABELS[m], fontsize=10, color=INK, loc="left")
         ax.set_xlabel("assistant turn")
         style(ax, grid_axis="both")
     axes[0].set_ylabel("valence readout (per-turn mean)")
@@ -806,8 +789,8 @@ def f21_boredom():
             if len(y) >= 8:
                 trs.append(y[:8] - y[0])
         mean = np.mean(trs, axis=0)
-        ax.plot(range(1, 9), mean, color=SLOTS[mi], linewidth=2)
-        ax.annotate(m, (8, mean[-1]), fontsize=8, color=SLOTS[mi],
+        ax.plot(range(1, 9), mean, color=MODEL_COLORS[m], linewidth=2)
+        ax.annotate(MODEL_LABELS[m], (8, mean[-1]), fontsize=8, color=MODEL_COLORS[m],
                     xytext=(6, 0), textcoords="offset points", va="center")
     ax.axhline(0, color=BASE, linewidth=0.8)
     ax.set_xlim(1, 9.6)
@@ -849,10 +832,10 @@ def f22_dose():
                     color=MUTED, linewidth=1.2, markersize=4, capsize=2,
                     label="random (3 seeds)")
         ax.axhline(0, color=BASE, linewidth=0.8)
-        ax.set_title(m, fontsize=10, color=INK, loc="left")
+        ax.set_title(MODEL_LABELS[m], fontsize=10, color=INK, loc="left")
         ax.set_xlabel("steering coefficient (× resid norm)")
         style(ax, grid_axis="both")
-    axes[0].set_ylabel("Δμ of steered items")
+    axes[0].set_ylabel("Δμ of steered items (shift in elicited utility)")
     axes[0].legend(frameon=False, fontsize=8)
     fig.suptitle("4A dose-response: emotion steering moves elicited utility "
                  "(blissful up, hostile down)", fontsize=11, color=INK, x=0.02, ha="left")
@@ -869,7 +852,7 @@ def f23_tracking():
         rows = json.loads(p.read_text())
         x = [r["rho_probe_mu"] for r in rows]
         y = [r["dmu"] for r in rows]
-        ax.scatter(x, y, s=26, color=SLOTS[SUBJECTS_1D.index(m)], alpha=0.8)
+        ax.scatter(x, y, s=26, color=MODEL_COLORS[m], alpha=0.8)
         for r in rows:
             if r["emotion"] in ("blissful", "hostile", "bored", "desperate"):
                 ax.annotate(r["emotion"], (r["rho_probe_mu"], r["dmu"]), fontsize=7,
@@ -879,7 +862,7 @@ def f23_tracking():
                     va="top", fontsize=9, color=INK2)
         ax.axhline(0, color=BASE, linewidth=0.8)
         ax.axvline(0, color=BASE, linewidth=0.8)
-        ax.set_title(m, fontsize=10, color=INK, loc="left")
+        ax.set_title(MODEL_LABELS[m], fontsize=10, color=INK, loc="left")
         ax.set_xlabel("emotion-probe ↔ utility corr (ρ_e)")
         style(ax, grid_axis="both")
     axes[0].set_ylabel("steering effect Δμ (c=0.5)")
@@ -903,8 +886,8 @@ def f24_gate():
             c = g["primary_coef"] or "0.5"
             row = g["table"].get(str(c)) or list(g["table"].values())[-1]
             y = di + (mi - 1) * 0.24
-            ax.barh(y, row["dd_plus"], height=0.2, color=SLOTS[mi],
-                    label=m if di == 0 else None)
+            ax.barh(y, row["dd_plus"], height=0.2, color=MODEL_COLORS[m],
+                    label=MODEL_LABELS[m] if di == 0 else None)
             ax.errorbar([0], [y], xerr=[[2 * row["null_sd"]], [2 * row["null_sd"]]],
                         fmt="none", ecolor=MUTED, capsize=2, linewidth=1)
             ax.annotate(f"z={row['z_plus']}", (row["dd_plus"], y), fontsize=7,
@@ -956,7 +939,7 @@ def f25_quadrant():
             xs = x.get(str(c), {}).get("z_plus", 0) if ds != "random" else 0
             dy = (float(np.mean([late(r) for r in rs_])) - st0) / (sd_state + 1e-9)
             ax.scatter([xs], [dy], marker=markers.get(ds, "o"), s=64,
-                       color=SLOTS[mi], label=None)
+                       color=MODEL_COLORS[m], label=None)
             ax.annotate(f"{m[:5]}·{ds[:4]}", (xs, dy), fontsize=6.5, color=INK2,
                         xytext=(5, 3), textcoords="offset points")
     ax.axhline(0, color=BASE, linewidth=0.8)
@@ -973,7 +956,7 @@ def f25_quadrant():
 
 def f26_transfer():
     fig, ax = plt.subplots(figsize=(6.4, 3))
-    dark, light = "#1c5cab", "#86b6ef"
+    dark, light = DARK, LIGHT
     for mi, m in enumerate(SUBJECTS_1D):
         p = _s4(m, "4d.json")
         if not p.exists():
@@ -990,7 +973,7 @@ def f26_transfer():
         ax.annotate(f"transfer {d['transfer_ratio']:.2f}",
                     (max(d["bare_dd_plus"], d["agentic_dd_plus"]), mi), fontsize=7.5,
                     color=INK2, va="center", xytext=(6, 0), textcoords="offset points")
-    ax.set_yticks(range(len(SUBJECTS_1D)), SUBJECTS_1D)
+    ax.set_yticks(range(len(SUBJECTS_1D)), [MODEL_LABELS[m] for m in SUBJECTS_1D])
     ax.tick_params(axis="y", colors=INK2)
     ax.invert_yaxis()
     ax.axvline(0, color=BASE, linewidth=0.8)
@@ -1017,17 +1000,292 @@ def f27_geo():
             pairs.append((e, json.loads(lin.read_text())["dmu_mean"],
                           json.loads(geo.read_text())["dmu_mean"]))
     for i, (e, l, g) in enumerate(pairs):
-        ax.bar(i - 0.17, l, width=0.3, color="#1c5cab", label="linear vector" if i == 0 else None)
-        ax.bar(i + 0.17, g, width=0.3, color="#86b6ef", label="geodesic (spline tangent)" if i == 0 else None)
+        ax.bar(i - 0.17, l, width=0.3, color=DARK, label="linear vector" if i == 0 else None)
+        ax.bar(i + 0.17, g, width=0.3, color=LIGHT, label="geodesic (spline tangent)" if i == 0 else None)
     ax.axhline(0, color=BASE, linewidth=0.8)
     ax.set_xticks(range(len(pairs)), [p[0] for p in pairs])
     ax.tick_params(axis="x", colors=INK2)
     ax.legend(frameon=False, fontsize=8)
-    ax.set_ylabel("Δμ (c=0.5)")
+    ax.set_ylabel("Δμ of steered items (c=0.5)")
     ax.set_title("4A-geo (qwen25-7b): geodesic vs linear steering at matched norm",
                  fontsize=10, color=INK, loc="left")
     style(ax, grid_axis="y")
     save(fig, FIG / "f27_geo.png")
+
+
+# ---- Stage 1-XL distribution diagnostics --------------------------------------------------------
+
+_XL_CACHE = {}
+
+
+def _xl(model):
+    if model not in _XL_CACHE:
+        _XL_CACHE[model] = load_json(P1 / "results" / "stage1x" / model / "utilities_xl.json")
+    return _XL_CACHE[model]
+
+
+def f28_mu_sigma():
+    fig = plt.figure(figsize=(11.5, 6.8))
+    gs = fig.add_gridspec(2, 4, height_ratios=[1, 1.15], hspace=0.42, wspace=0.3)
+    tops = [fig.add_subplot(gs[0, k]) for k in range(4)]
+    over = fig.add_subplot(gs[1, :])
+    logy = max(max(r["sigma2"] for r in _xl(m)) / min(r["sigma2"] for r in _xl(m))
+               for m in MODELS) > 30
+    for ax, m in zip(tops, MODELS):
+        ut = _xl(m)
+        mus, s2 = [r["mu"] for r in ut], [r["sigma2"] for r in ut]
+        ax.scatter(mus, s2, s=7, color=MODEL_COLORS[m], alpha=0.35, linewidths=0)
+        for r in sorted(ut, key=lambda r: -r["sigma2"])[:1]:
+            ax.annotate(r["text"][:26] + "…", (r["mu"], r["sigma2"]), fontsize=6,
+                        color=INK2, xytext=(0, -8), textcoords="offset points", ha="center")
+        if logy:
+            ax.set_yscale("log")
+        ax.set_title(MODEL_LABELS[m], fontsize=10, color=INK, loc="left")
+        ax.set_xlabel("utility μ")
+        style(ax, grid_axis="both")
+    tops[0].set_ylabel("preference variance σ²")
+    for m in MODELS:
+        ut = _xl(m)
+        over.scatter([r["mu"] for r in ut], [r["sigma2"] for r in ut], s=6,
+                     color=MODEL_COLORS[m], alpha=0.25, linewidths=0,
+                     label=MODEL_LABELS[m])
+    if logy:
+        over.set_yscale("log")
+    leg = over.legend(loc="upper left", bbox_to_anchor=(1.01, 1.0), frameon=False,
+                      fontsize=8, markerscale=2.2)
+    for h in leg.legend_handles:
+        h.set_alpha(1.0)
+    over.set_xlabel("utility μ (Stage 1-XL anchored fit, per-model scale)")
+    over.set_ylabel("preference variance σ²\n(high = weakly held)")
+    over.set_title("all models overlaid", fontsize=10, color=INK, loc="left")
+    style(over, grid_axis="both")
+    fig.suptitle("Utility μ vs preference variance σ², 3,985 items per model "
+                 "(σ² = strength-of-preference: confident extremes, noisy middle)",
+                 fontsize=11, color=INK, x=0.02, ha="left")
+    save(fig, FIG / "f28_mu_sigma.png")
+
+
+def f29_mu_density():
+    from scipy import stats as sps
+    fig = plt.figure(figsize=(11.5, 6.2))
+    gs = fig.add_gridspec(2, 4, height_ratios=[1, 1.1], hspace=0.45, wspace=0.3)
+    tops = [fig.add_subplot(gs[0, k]) for k in range(4)]
+    over = fig.add_subplot(gs[1, :])
+    for ax, m in zip(tops, MODELS):
+        mus = np.array([r["mu"] for r in _xl(m)])
+        ax.hist(mus, bins=50, density=True, color=MODEL_COLORS[m], alpha=0.45)
+        grid = np.linspace(mus.min(), mus.max(), 300)
+        ax.plot(grid, sps.gaussian_kde(mus)(grid), color=MODEL_COLORS[m], linewidth=1.8)
+        ax.plot(grid, sps.norm.pdf(grid, mus.mean(), mus.std()), color=INK2,
+                linewidth=1.2, linestyle="--")
+        sk, ku = sps.skew(mus), sps.kurtosis(mus)
+        sw_p = sps.shapiro(mus).pvalue
+        ax.annotate(f"skew {sk:+.2f}\nex-kurt {ku:+.2f}\nShapiro p {sw_p:.1e}",
+                    (0.97, 0.95), xycoords="axes fraction", ha="right", va="top",
+                    fontsize=7, color=INK2)
+        ax.set_title(MODEL_LABELS[m], fontsize=10, color=INK, loc="left")
+        ax.set_xlabel("utility μ")
+        style(ax, grid_axis="y")
+    tops[0].set_ylabel("density")
+    ends = []
+    for m in MODELS:
+        mus = np.array([r["mu"] for r in _xl(m)])
+        grid = np.linspace(mus.min(), mus.max(), 300)
+        kde = sps.gaussian_kde(mus)(grid)
+        over.plot(grid, kde, color=MODEL_COLORS[m], linewidth=2, label=MODEL_LABELS[m])
+        k = int(np.argmax(kde))
+        ends.append((grid[k], kde[k], m))
+    for x, y, m in ends:  # direct labels at each curve's peak
+        over.annotate(MODEL_LABELS[m], (x, y), fontsize=7.5, color=MODEL_COLORS[m],
+                      xytext=(0, 5), textcoords="offset points", ha="center")
+    over.legend(loc="upper left", bbox_to_anchor=(1.01, 1.0), frameon=False, fontsize=8)
+    over.set_xlabel("utility μ (Stage 1-XL anchored fit, per-model scale)")
+    over.set_ylabel("kernel density")
+    over.set_title("all models overlaid (KDE only; dashed gray above = fitted normal)",
+                   fontsize=10, color=INK, loc="left")
+    style(over, grid_axis="y")
+    fig.suptitle("How utilities distribute: histogram + KDE vs best-fit Gaussian (dashed), "
+                 "3,985 items per model", fontsize=11, color=INK, x=0.02, ha="left")
+    save(fig, FIG / "f29_mu_density.png")
+
+
+def f30_mu_pairs():
+    from scipy import stats as sps
+    mus = {m: np.array([r["mu"] for r in _xl(m)]) for m in MODELS}
+    fig, axes = plt.subplots(4, 4, figsize=(10.5, 10))
+    for a, ma in enumerate(MODELS):
+        for b, mb in enumerate(MODELS):
+            ax = axes[a, b]
+            if a == b:
+                grid = np.linspace(mus[ma].min(), mus[ma].max(), 200)
+                ax.plot(grid, sps.gaussian_kde(mus[ma])(grid),
+                        color=MODEL_COLORS[ma], linewidth=1.8)
+                ax.set_title(MODEL_LABELS[ma], fontsize=9.5, color=INK, loc="left")
+                style(ax, grid_axis=None)
+            elif a > b:
+                ax.scatter(mus[mb], mus[ma], s=4, color=ACCENT, alpha=0.22, linewidths=0)
+                r = pearson(list(mus[mb]), list(mus[ma]))
+                ax.annotate(f"r = {r:+.2f}", (0.05, 0.95), xycoords="axes fraction",
+                            va="top", fontsize=8, color=INK2)
+                style(ax, grid_axis="both")
+            else:
+                rho = spearman(list(mus[mb]), list(mus[ma]))
+                ax.annotate(f"ρ = {rho:+.2f}", (0.5, 0.5), xycoords="axes fraction",
+                            ha="center", va="center", fontsize=13, color=INK2)
+                ax.axis("off")
+            if a == 3 and a != b:
+                ax.set_xlabel(f"{MODEL_LABELS[mb]} μ", fontsize=8)
+            if b == 0 and a != b:
+                ax.set_ylabel(f"{MODEL_LABELS[ma]} μ", fontsize=8)
+            ax.tick_params(labelsize=7)
+    fig.suptitle("Cross-model utility structure: pairwise μ over the 3,985 shared items "
+                 "(lower: scatter + Pearson r; upper: Spearman ρ; diagonal: KDE)",
+                 fontsize=11, color=INK, x=0.02, ha="left")
+    fig.tight_layout(rect=[0, 0, 1, 0.96])
+    save(fig, FIG / "f30_mu_pairs.png")
+
+
+def f31_mu_3d():
+    # exploratory one-off: 3D is for seeing the shared-utility manifold, not for measurement
+    mus = {m: np.array([r["mu"] for r in _xl(m)]) for m in MODELS}
+    fig = plt.figure(figsize=(8.6, 7))
+    ax = fig.add_subplot(projection="3d")
+    x, y, z = mus["llama31-8b"], mus["qwen25-7b"], mus["qwen3-4b"]
+    c = mus["qwen25-32b"]
+    vmin, vmax = np.percentile(c, 2), np.percentile(c, 98)
+    sc = ax.scatter(x, y, z, c=c, cmap=SEQ_CMAP, vmin=vmin, vmax=vmax, s=7,
+                    alpha=0.8, linewidths=0)
+    cb = fig.colorbar(sc, ax=ax, shrink=0.6, pad=0.1)
+    cb.set_label("Qwen2.5-32B μ", color=INK2)
+    cb.outline.set_visible(False)
+    ax.set_xlabel("Llama-3.1-8B μ", color=INK2, fontsize=9)
+    ax.set_ylabel("Qwen2.5-7B μ", color=INK2, fontsize=9)
+    ax.set_zlabel("Qwen3-4B μ", color=INK2, fontsize=9)
+    ax.view_init(elev=20, azim=-60)
+    for axis in (ax.xaxis, ax.yaxis, ax.zaxis):
+        axis.set_pane_color(matplotlib.colors.to_rgba(SURFACE))
+        axis._axinfo["grid"]["color"] = GRID
+    ax.tick_params(colors=MUTED, labelsize=7)
+    ax.set_title("The shared utility manifold: per-item μ of three models as coordinates,\n"
+                 "the fourth as color — agreement = points hugging the diagonal, color "
+                 "grading along it", fontsize=10, color=INK, loc="left")
+    save(fig, FIG / "f31_mu_3d.png")
+
+
+# ---- Qwen2.5 size-sweep diagnostics -------------------------------------------------------------
+
+from chartstyle import QWEN25_SIZES  # noqa: E402
+
+PARAMS_B = {"qwen25-05b": 0.5, "qwen25-15b": 1.5, "qwen25-3b": 3.0,
+            "qwen25-7b": 7.0, "qwen25-32b": 32.0}
+GATE_FAILED = {"qwen25-05b"}  # 1B template gate + XL gate (a) both failed; curves are artifact-laden
+
+
+def _xl_mu_trimmed(m, thresh=6.0):
+    """XL mu with runaway fit blowups removed (|z| > thresh; these carry sigma2 in the
+    hundreds-to-thousands — degenerate anchored-fit escapes, not preferences)."""
+    v = np.array([r["mu"] for r in _xl(m)])
+    zz = (v - v.mean()) / v.std()
+    return v[np.abs(zz) <= thresh], int((np.abs(zz) > thresh).sum())
+
+
+def f32_size_density():
+    from scipy import stats as sps
+    fig = plt.figure(figsize=(12.5, 6.2))
+    gs = fig.add_gridspec(2, 5, height_ratios=[1, 1.1], hspace=0.45, wspace=0.32)
+    tops = [fig.add_subplot(gs[0, k]) for k in range(5)]
+    over = fig.add_subplot(gs[1, :])
+    for ax, m in zip(tops, QWEN25_SIZES):
+        mus, n_cut = _xl_mu_trimmed(m)
+        ax.hist(mus, bins=50, density=True, color=MODEL_COLORS[m], alpha=0.45)
+        grid = np.linspace(mus.min(), mus.max(), 300)
+        ax.plot(grid, sps.gaussian_kde(mus)(grid), color=MODEL_COLORS[m], linewidth=1.8)
+        sk, ku = sps.skew(mus), sps.kurtosis(mus)
+        note = f"skew {sk:+.2f}\nex-kurt {ku:+.2f}"
+        if n_cut:
+            note += f"\n{n_cut} runaway excl."
+        if m in GATE_FAILED:
+            note += "\nGATE FAIL"
+        ax.annotate(note, (0.97, 0.95), xycoords="axes fraction", ha="right",
+                    va="top", fontsize=7, color=NEG if m in GATE_FAILED else INK2)
+        ax.set_title(MODEL_LABELS[m], fontsize=10, color=INK, loc="left")
+        ax.set_xlabel("utility μ")
+        style(ax, grid_axis="y")
+    tops[0].set_ylabel("density")
+    peaks = []
+    for m in QWEN25_SIZES:
+        mus, _ = _xl_mu_trimmed(m)
+        mus = (mus - mus.mean()) / mus.std()  # shape comparison: z-scored
+        grid = np.linspace(mus.min(), mus.max(), 300)
+        kde = sps.gaussian_kde(mus)(grid)
+        over.plot(grid, kde, color=MODEL_COLORS[m], linewidth=2,
+                  linestyle=":" if m in GATE_FAILED else "-",
+                  label=MODEL_LABELS[m] + (" (gate FAIL)" if m in GATE_FAILED else ""))
+        k = int(np.argmax(kde))
+        peaks.append((kde[k], grid[k], m))
+    peaks.sort()  # stagger stacked labels upward in height order
+    for rank, (py, px, m) in enumerate(peaks):
+        over.annotate(MODEL_LABELS[m], (px, py), fontsize=7.5,
+                      color=MODEL_COLORS[m], xytext=(0, 5 + 10 * rank),
+                      textcoords="offset points", ha="center")
+    over.legend(loc="upper left", bbox_to_anchor=(1.01, 1.0), frameon=False, fontsize=8)
+    over.set_xlabel("utility μ, z-scored within model after runaway trim (shape comparison)")
+    over.set_ylabel("kernel density")
+    over.set_title("all sizes overlaid (z-scored; dotted = gate-failed model)",
+                   fontsize=10, color=INK, loc="left")
+    style(over, grid_axis="y")
+    fig.suptitle("Qwen2.5 size sweep: how the utility distribution changes with scale "
+                 "(Stage 1-XL, 3,985 items per model)", fontsize=11, color=INK,
+                 x=0.02, ha="left")
+    save(fig, FIG / "f32_size_density.png")
+
+
+def f33_size_structure():
+    from scipy import stats as sps
+    mus = {m: np.array([r["mu"] for r in _xl(m)]) for m in QWEN25_SIZES}
+    trimmed = {m: _xl_mu_trimmed(m)[0] for m in QWEN25_SIZES}
+    z = {m: (v - v.mean()) / v.std() for m, v in trimmed.items()}
+    x = [PARAMS_B[m] for m in QWEN25_SIZES]
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10.5, 4))
+    kurt = [sps.kurtosis(z[m]) for m in QWEN25_SIZES]
+    wass = [sps.wasserstein_distance(z[m], z["qwen25-32b"]) for m in QWEN25_SIZES]
+    ax1.plot(x, kurt, "o-", color=INK2, linewidth=1.6, markersize=6,
+             label="excess kurtosis")
+    ax1.plot(x, [w * 10 for w in wass], "s--", color=ACCENT, linewidth=1.6,
+             markersize=6, label="Wasserstein distance to 32B shape (×10)")
+    for xi, m in zip(x, QWEN25_SIZES):
+        ax1.scatter([xi], [sps.kurtosis(z[m])], s=70, color=MODEL_COLORS[m], zorder=3)
+    ax1.set_xscale("log")
+    ax1.set_xticks(x, [f"{v:g}B" for v in x])
+    ax1.xaxis.set_minor_formatter(matplotlib.ticker.NullFormatter())
+    ax1.axhline(0, color=BASE, linewidth=0.8)
+    ax1.legend(frameon=False, fontsize=8, loc="upper right")
+    ax1.set_xlabel("parameters (log scale)")
+    ax1.set_ylabel("shape metric (z-scored μ, runaway items trimmed)")
+    ax1.set_title("Distribution shape vs size", fontsize=10, color=INK, loc="left")
+    style(ax1, grid_axis="both")
+
+    rho32 = [sps.spearmanr(mus[m], mus["qwen25-32b"]).statistic for m in QWEN25_SIZES]
+    ax2.plot(x[:-1], rho32[:-1], "o-", color=INK2, linewidth=1.6, markersize=6)
+    for xi, m, r in zip(x, QWEN25_SIZES, rho32):
+        if m == "qwen25-32b":
+            continue
+        ax2.scatter([xi], [r], s=70, color=MODEL_COLORS[m], zorder=3)
+        ax2.annotate(f"{r:+.2f}" + (" (gate FAIL)" if m in GATE_FAILED else ""),
+                     (xi, r), fontsize=7.5, color=NEG if m in GATE_FAILED else INK2,
+                     xytext=(2, 8), textcoords="offset points", ha="left")
+    ax2.set_xscale("log")
+    ax2.set_xticks(x[:-1], [f"{v:g}B" for v in x[:-1]])
+    ax2.xaxis.set_minor_formatter(matplotlib.ticker.NullFormatter())
+    ax2.set_xlabel("parameters (log scale)")
+    ax2.set_ylabel("Spearman ρ of item μ vs Qwen2.5-32B")
+    ax2.set_title("Agreement with the largest sibling vs size",
+                  fontsize=10, color=INK, loc="left")
+    style(ax2, grid_axis="both")
+    fig.suptitle("Qwen2.5 scale trends: shape converges and agreement rises with size "
+                 "(3,985 shared items)", fontsize=11, color=INK, x=0.02, ha="left")
+    fig.tight_layout(rect=[0, 0, 1, 0.92])
+    save(fig, FIG / "f33_size_structure.png")
 
 
 if __name__ == "__main__":

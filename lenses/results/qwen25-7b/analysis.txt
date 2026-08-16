@@ -1,0 +1,5 @@
+wrote results/qwen25-7b/grid_boot.png
+wrote results/qwen25-7b/agreement.png
+ logit: early-half mean agreement 0.000
+     j: early-half mean agreement 0.014
+     r: early-half mean agreement 0.014
