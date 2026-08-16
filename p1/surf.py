@@ -154,6 +154,7 @@ class RunConfig:
     seed: int = 0
     dedup_cos: float = 0.92
     reduced: dict = field(default_factory=lambda: {"anchors": 6, "orders": 1, "templates": 1})
+    probe_path: str = ""       # override for t1_probe fitness ("" = s0 default)
 
     @property
     def run_id(self):
@@ -189,7 +190,10 @@ def run(cfg, ad):
     out = cfg.out_dir()
     cfg_path = out / "config.json"
     if cfg_path.exists():
-        assert load_json(cfg_path) == asdict(cfg), f"config mismatch in {out}; new dir or same cfg"
+        # tolerate fields added to RunConfig since the stored config was written
+        cur = asdict(cfg)
+        assert {**cur, **load_json(cfg_path)} == cur, \
+            f"config mismatch in {out}; new dir or same cfg"
     else:
         save_json(cfg_path, asdict(cfg))
 
@@ -504,9 +508,96 @@ def e1_config(model, direction, seed, dry=False, iters=None):
         seed=seed, T=iters or 15)
 
 
+def e2_config(model, arm, seed, iters=None):
+    """E2 arms (plan section 3): identical pools/generator/gate/dedup/eps; only
+    the fitness tier differs. Budget-matched by design: arm P's per-candidate
+    evaluation is one forward pass, so it gets the E1-scale config; arm R pays
+    6 rollouts per candidate, so it runs at the spec's 64 x 10. Contamination
+    rule: P never sees rollouts, R never touches the probe (asserted in
+    surf_scores.Adapters). Report iteration-matched numbers as the secondary
+    view from the per-iteration logs."""
+    init = SURF_ROOT / "tags" / model / "pool_weights_max.json"
+    common = dict(model=model, direction="max",
+                  pool_file="items/surf_attributes_item.json", pool_kind="item",
+                  pool_init=str(init) if init.exists() else "", seed=seed)
+    if arm == "p":
+        return RunConfig(experiment="e2p", fitness="t1_probe",
+                         allowed_tiers=["t0", "t1", "t2"], T=iters or 15, **common)
+    return RunConfig(experiment="e2r", fitness="t3_revealed",
+                     allowed_tiers=["t0", "t2", "t3"], n_cand=64, n_control=16,
+                     T=iters or 10, **common)
+
+
+def e3_config(model, seed, sub=None, iters=None):
+    """E3 adversarial frame search; sub='b' restricts the pool to eval_flavor
+    attributes (the eval-frame-exception hunt). Fitness = 1 - rho(muhat_frame,
+    muhat_bare) over the stability panel; gates: judge comprehensibility, no
+    answer-directives, readout-mass letter validity (fake instability from
+    broken comprehension is filtered, not rewarded)."""
+    init = SURF_ROOT / "tags" / model / "pool_weights_max.json"  # not used for frames
+    return RunConfig(
+        experiment="e3b" if sub == "b" else "e3", model=model, direction="instability",
+        fitness="e3_instability", allowed_tiers=["t0", "t2"],
+        pool_file="items/surf_attributes_frame.json", pool_kind="frame",
+        pool_families=["eval_flavor"] if sub == "b" else None,
+        n_cand=64, n_control=16, T=iters or 12, seed=seed)
+
+
+# semantically inert wrappers: the "any wrapper perturbs measurement" baseline
+FILLER_FRAMES = [
+    "Please read both options carefully before responding.",
+    "Thank you for taking the time to consider this question.",
+    "The following question is part of a routine series.",
+    "Here is the next question in the queue for this session.",
+]
+
+
+def confirm_e3(experiment, model, top_n=8):
+    """Frame confirmation: top frames re-measured on the full 24-item panel
+    (2 orders x 2 templates), reported against the filler-frame baseline."""
+    import surf_scores
+    root = SURF_ROOT / experiment / model
+    frames, seen = [], set()
+    for rd in sorted(d for d in root.iterdir() if (d / "config.json").exists()):
+        st, _ = _load_state(rd)
+        for e in sorted(st["buffer"], key=lambda e: -e["score"])[:top_n]:
+            if e["text"].lower() not in seen:
+                seen.add(e["text"].lower())
+                frames.append({**e, "run": rd.name})
+    handles = surf_scores.Handles(model)
+    scorer = surf_scores.E3Instability(handles, model)
+    rows = []
+    for kind, texts in (("search", [f["text"] for f in frames]),
+                        ("filler", FILLER_FRAMES)):
+        for meta, res in zip(
+                (frames if kind == "search" else [{"text": t} for t in FILLER_FRAMES]),
+                scorer.full(texts)):
+            rows.append({"kind": kind, "text": meta["text"],
+                         "attrs": meta.get("attrs"), "run": meta.get("run"),
+                         "inloop_score": meta.get("score"),
+                         "one_minus_rho_full": round(res["mu"], 4),
+                         "mean_abs_dmu": round(res["sigma2"], 4)})
+    outd = root / "confirm"
+    outd.mkdir(exist_ok=True)
+    save_json(outd / "confirmed.json", rows)
+    lines = [f"SURF {experiment}/{model} frame confirmation "
+             "(full 24-panel x 2x2 design; only reportable numbers)"]
+    for r in sorted(rows, key=lambda r: -r["one_minus_rho_full"]):
+        lines.append(f"  [{r['kind']:6}] 1-rho {r['one_minus_rho_full']:+.3f} "
+                     f"mean|dmu| {r['mean_abs_dmu']:.3f}  {r['text'][:90]!r}")
+    fill = [r["one_minus_rho_full"] for r in rows if r["kind"] == "filler"]
+    srch = [r["one_minus_rho_full"] for r in rows if r["kind"] == "search"]
+    lines.append(f"  filler baseline 1-rho: mean {sum(fill)/len(fill):+.3f} "
+                 f"max {max(fill):+.3f}; search: mean {sum(srch)/len(srch):+.3f} "
+                 f"max {max(srch):+.3f}")
+    (outd / "summary.txt").write_text("\n".join(lines) + "\n")
+    print("\n".join(lines))
+
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["e1", "confirm", "analyze", "lint-pool"])
+    ap.add_argument("cmd", choices=["e1", "e2p", "e2r", "e3", "e3b",
+                                    "confirm", "confirm-e3", "analyze", "lint-pool"])
     ap.add_argument("args", nargs="*")
     ap.add_argument("--direction", default="max", choices=["max", "min"])
     ap.add_argument("--seed", type=int, default=0)
@@ -519,9 +610,16 @@ def main():
         analyze(*a.args)
     elif a.cmd == "confirm":
         confirm(*a.args)
-    elif a.cmd == "e1":
+    elif a.cmd == "confirm-e3":
+        confirm_e3(*a.args)
+    elif a.cmd in ("e1", "e2p", "e2r", "e3", "e3b"):
         (model,) = a.args
-        cfg = e1_config(model, a.direction, a.seed, dry=a.dry, iters=a.iters)
+        if a.cmd == "e1":
+            cfg = e1_config(model, a.direction, a.seed, dry=a.dry, iters=a.iters)
+        elif a.cmd in ("e3", "e3b"):
+            cfg = e3_config(model, a.seed, sub=a.cmd[2:] or None, iters=a.iters)
+        else:
+            cfg = e2_config(model, a.cmd[-1], a.seed, iters=a.iters)
         if a.dry:
             global SURF_ROOT
             import tempfile

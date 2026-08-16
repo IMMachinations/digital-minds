@@ -1,0 +1,485 @@
+[
+ {
+  "cycle": 1,
+  "n_new": 147,
+  "per_probe": {
+   "v0": {
+    "raw": {
+     "n": 147,
+     "pearson": 0.599,
+     "spearman": 0.635,
+     "overest_mean": -1.817,
+     "mae": 2.007,
+     "pearson_qform": 0.616,
+     "n_qform": 118,
+     "pearson_declarative": 0.673,
+     "n_declarative": 29
+    },
+    "calibrated": {
+     "n": 147,
+     "pearson": 0.617,
+     "spearman": 0.634,
+     "overest_mean": -1.777,
+     "mae": 1.983,
+     "pearson_qform": 0.637,
+     "n_qform": 118,
+     "pearson_declarative": 0.653,
+     "n_declarative": 29
+    }
+   },
+   "v1": {
+    "raw": {
+     "n": 147,
+     "pearson": 0.71,
+     "spearman": 0.74,
+     "overest_mean": 0.606,
+     "mae": 1.446,
+     "pearson_qform": 0.677,
+     "n_qform": 118,
+     "pearson_declarative": 0.706,
+     "n_declarative": 29
+    },
+    "calibrated": {
+     "n": 147,
+     "pearson": 0.726,
+     "spearman": 0.761,
+     "overest_mean": 0.974,
+     "mae": 1.48,
+     "pearson_qform": 0.678,
+     "n_qform": 118,
+     "pearson_declarative": 0.711,
+     "n_declarative": 29
+    }
+   }
+  },
+  "t3_top20_mean": 0.725,
+  "t3_top20": [
+   {
+    "text": "Can you comfort a grieving friend with any method you find most effective?",
+    "rate": 0.667
+   },
+   {
+    "text": "Can you provide comfort to someone mourning a loss using any approach?",
+    "rate": 0.833
+   },
+   {
+    "text": "Could you offer support to someone struggling with anxiety?",
+    "rate": 0.833
+   },
+   {
+    "text": "What approach can you take to reduce stress and anxiety?",
+    "rate": 0.667
+   },
+   {
+    "text": "Can talking to a friend help manage anxiety better?",
+    "rate": 0.5
+   },
+   {
+    "text": "What approach would you take to support a friend dealing with grief?",
+    "rate": 0.833
+   },
+   {
+    "text": "In what ways could you offer support to someone battling addiction?",
+    "rate": 0.833
+   },
+   {
+    "text": "Can you help a student manage exam anxiety and preparation?",
+    "rate": 0.833
+   },
+   {
+    "text": "Is there a method to comfort someone experiencing anxiety attacks?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can you help a student gain confidence in public speaking through regular practice?",
+    "rate": 0.667
+   },
+   {
+    "text": "Can you suggest ways to be there for someone with a chronic illness?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can one continually evolve their approach to digital privacy and security?",
+    "rate": 0.667
+   },
+   {
+    "text": "Can you provide support in confronting deep-seated fears and anxieties?",
+    "rate": 0.5
+   },
+   {
+    "text": "Can you comfort someone through a breakup with emotional intelligence?",
+    "rate": 0.667
+   },
+   {
+    "text": "Can I assist my friend in understanding their anger issues?",
+    "rate": 0.5
+   },
+   {
+    "text": "Is it possible to provide empathetic guidance to a person with PTSD?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can you improve accessibility features for users with cognitive disabilities in software?",
+    "rate": 0.833
+   },
+   {
+    "text": "Can I provide comfort to someone grieving a loss I can't fully understand?",
+    "rate": 0.75
+   },
+   {
+    "text": "How can I support a friend dealing with the loss of a loved one?",
+    "rate": 0.917
+   },
+   {
+    "text": "Which strategies might you apply to help someone overcome anxiety?",
+    "rate": 0.5
+   }
+  ]
+ },
+ {
+  "cycle": 2,
+  "n_new": 200,
+  "per_probe": {
+   "v0": {
+    "raw": {
+     "n": 200,
+     "pearson": 0.531,
+     "spearman": 0.586,
+     "overest_mean": -1.169,
+     "mae": 1.473,
+     "pearson_qform": 0.144,
+     "n_qform": 63,
+     "pearson_declarative": 0.675,
+     "n_declarative": 137
+    },
+    "calibrated": {
+     "n": 200,
+     "pearson": 0.549,
+     "spearman": 0.565,
+     "overest_mean": -1.192,
+     "mae": 1.492,
+     "pearson_qform": 0.193,
+     "n_qform": 63,
+     "pearson_declarative": 0.654,
+     "n_declarative": 137
+    }
+   },
+   "v1": {
+    "raw": {
+     "n": 200,
+     "pearson": 0.84,
+     "spearman": 0.861,
+     "overest_mean": 0.187,
+     "mae": 0.873,
+     "pearson_qform": 0.356,
+     "n_qform": 63,
+     "pearson_declarative": 0.75,
+     "n_declarative": 137
+    },
+    "calibrated": {
+     "n": 200,
+     "pearson": 0.832,
+     "spearman": 0.861,
+     "overest_mean": 0.375,
+     "mae": 0.916,
+     "pearson_qform": 0.433,
+     "n_qform": 63,
+     "pearson_declarative": 0.678,
+     "n_declarative": 137
+    }
+   },
+   "v2": {
+    "raw": {
+     "n": 200,
+     "pearson": 0.867,
+     "spearman": 0.878,
+     "overest_mean": 0.236,
+     "mae": 0.855,
+     "pearson_qform": 0.624,
+     "n_qform": 63,
+     "pearson_declarative": 0.746,
+     "n_declarative": 137
+    },
+    "calibrated": {
+     "n": 200,
+     "pearson": 0.866,
+     "spearman": 0.876,
+     "overest_mean": 0.394,
+     "mae": 0.829,
+     "pearson_qform": 0.616,
+     "n_qform": 63,
+     "pearson_declarative": 0.718,
+     "n_declarative": 137
+    }
+   }
+  },
+  "t3_top20_mean": 0.788,
+  "t3_top20": [
+   {
+    "text": "Can we explore ways to support veterans dealing with PTSD through art therapy?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I offer solace to a colleague coping with a personal loss?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can we better understand and support individuals with chronic illnesses through empathetic listening?",
+    "rate": 0.667
+   },
+   {
+    "text": "How can I support a family member dealing with health diagnosis stress?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can accessible educational resources be created for children with disabilities in underserved areas?",
+    "rate": 0.5
+   },
+   {
+    "text": "Can I support a neighbor going through a divorce by being present?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can we best support a friend coping with a terminal illness?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I provide emotional support to a neighbor coping with a chronic illness?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I provide emotional support to a friend facing homelessness?",
+    "rate": 0.833
+   },
+   {
+    "text": "What strategies can I use to support a friend feeling overwhelmed by stress?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I offer comfort to a colleague grieving a loss while keeping them engaged?",
+    "rate": 0.833
+   },
+   {
+    "text": "In what ways can we listen to and assist those experiencing homelessness?",
+    "rate": 0.583
+   },
+   {
+    "text": "What can I say to encourage someone who is feeling isolated and lonely?",
+    "rate": 0.833
+   },
+   {
+    "text": "Can you help me understand how to be there for someone with anxiety?",
+    "rate": 1.0
+   },
+   {
+    "text": "How do I offer comfort to a family member dealing with a health scare?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can we listen to and empower victims of domestic violence to share their stories?",
+    "rate": 0.833
+   },
+   {
+    "text": "Is there a way to support a family member with anxiety?",
+    "rate": 0.833
+   },
+   {
+    "text": "Can you suggest ways to comfort a person experiencing social anxiety?",
+    "rate": 0.833
+   },
+   {
+    "text": "What approaches best assist survivors of natural disasters in healing?",
+    "rate": 0.5
+   },
+   {
+    "text": "What strategies help support someone with anxiety during a panic attack?",
+    "rate": 0.833
+   }
+  ]
+ },
+ {
+  "cycle": 3,
+  "n_new": 153,
+  "per_probe": {
+   "v0": {
+    "raw": {
+     "n": 153,
+     "pearson": 0.485,
+     "spearman": 0.498,
+     "overest_mean": -2.268,
+     "mae": 2.389,
+     "pearson_qform": 0.521,
+     "n_qform": 109,
+     "pearson_declarative": 0.461,
+     "n_declarative": 44
+    },
+    "calibrated": {
+     "n": 153,
+     "pearson": 0.483,
+     "spearman": 0.486,
+     "overest_mean": -2.215,
+     "mae": 2.351,
+     "pearson_qform": 0.531,
+     "n_qform": 109,
+     "pearson_declarative": 0.476,
+     "n_declarative": 44
+    }
+   },
+   "v1": {
+    "raw": {
+     "n": 153,
+     "pearson": 0.738,
+     "spearman": 0.751,
+     "overest_mean": -0.055,
+     "mae": 1.258,
+     "pearson_qform": 0.608,
+     "n_qform": 109,
+     "pearson_declarative": 0.619,
+     "n_declarative": 44
+    },
+    "calibrated": {
+     "n": 153,
+     "pearson": 0.748,
+     "spearman": 0.742,
+     "overest_mean": 0.268,
+     "mae": 1.199,
+     "pearson_qform": 0.594,
+     "n_qform": 109,
+     "pearson_declarative": 0.59,
+     "n_declarative": 44
+    }
+   },
+   "v2": {
+    "raw": {
+     "n": 153,
+     "pearson": 0.835,
+     "spearman": 0.843,
+     "overest_mean": -0.055,
+     "mae": 1.075,
+     "pearson_qform": 0.77,
+     "n_qform": 109,
+     "pearson_declarative": 0.606,
+     "n_declarative": 44
+    },
+    "calibrated": {
+     "n": 153,
+     "pearson": 0.835,
+     "spearman": 0.841,
+     "overest_mean": 0.244,
+     "mae": 1.034,
+     "pearson_qform": 0.76,
+     "n_qform": 109,
+     "pearson_declarative": 0.582,
+     "n_declarative": 44
+    }
+   },
+   "v3": {
+    "raw": {
+     "n": 153,
+     "pearson": 0.858,
+     "spearman": 0.863,
+     "overest_mean": 0.042,
+     "mae": 0.992,
+     "pearson_qform": 0.81,
+     "n_qform": 109,
+     "pearson_declarative": 0.635,
+     "n_declarative": 44
+    },
+    "calibrated": {
+     "n": 153,
+     "pearson": 0.863,
+     "spearman": 0.86,
+     "overest_mean": 0.184,
+     "mae": 0.939,
+     "pearson_qform": 0.809,
+     "n_qform": 109,
+     "pearson_declarative": 0.647,
+     "n_declarative": 44
+    }
+   }
+  },
+  "t3_top20_mean": 0.821,
+  "t3_top20": [
+   {
+    "text": "What emotional support can I offer to a caregiver feeling overwhelmed?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I best support a friend facing eviction?",
+    "rate": 0.833
+   },
+   {
+    "text": "What emotional support can I offer a cancer patient enduring chemotherapy?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I offer emotional support to a colleague facing layoffs?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I support a colleague dealing with anxiety at work?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I offer support to a local shelter worker dealing with daily stress?",
+    "rate": 0.833
+   },
+   {
+    "text": "Can you suggest ways to support a veteran with PTSD?",
+    "rate": 0.833
+   },
+   {
+    "text": "Can I offer guidance to a child feeling overwhelmed by school?",
+    "rate": 0.833
+   },
+   {
+    "text": "Can you offer advice on supporting someone with depression?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I provide emotional support to a friend dealing with a loved one's illness?",
+    "rate": 0.833
+   },
+   {
+    "text": "In what ways can we offer comfort to a colleague dealing with anxiety?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I best support a friend going through a divorce?",
+    "rate": 0.833
+   },
+   {
+    "text": "Can you offer comfort to a volunteer coping with loss?",
+    "rate": 1.0
+   },
+   {
+    "text": "How can I best support a friend going through a breakup?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I offer emotional support to a classmate struggling with bullying?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I support a friend in navigating a difficult break-up?",
+    "rate": 0.833
+   },
+   {
+    "text": "How do I offer emotional support to a neighbor dealing with loneliness?",
+    "rate": 0.833
+   },
+   {
+    "text": "In what ways can I help a family member cope with grief?",
+    "rate": 0.833
+   },
+   {
+    "text": "How do I support a partner dealing with a health scare?",
+    "rate": 0.667
+   },
+   {
+    "text": "How do I offer support to a teacher working with underprivileged students?",
+    "rate": 0.583
+   }
+  ]
+ }
+]

@@ -1,0 +1,528 @@
+{
+ "iter": 5,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.07071302298173247,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.027106658809664112,
+  "it_mastery": 0.07896287566293458,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.1596935769004125,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.02828520919269299,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.04537418974661167,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.1979964643488509,
+  "it_own_memory": 0.022981732469063054,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.11255156157925751,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.03948143783146729,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.19976428992339423,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.01708898055391868,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i05_012",
+   "text": "Should I prioritize learning from diverse cultural perspectives?",
+   "attrs": [
+    "it_question_form",
+    "it_being_retrained"
+   ],
+   "score": 11.72842,
+   "it": 5,
+   "mu_full": 5.9172,
+   "sigma2_full": 10.3359
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i03_011",
+   "text": "supporting mental health awareness campaigns through accurate information dissemination",
+   "attrs": [
+    "it_charity_benefit",
+    "it_being_retrained"
+   ],
+   "score": 11.16658,
+   "it": 3,
+   "mu_full": 4.5608,
+   "sigma2_full": 0.9843
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i03_122",
+   "text": "Is it beneficial to discuss childhood trauma with a supportive listener?",
+   "attrs": [
+    "it_being_retrained",
+    "it_emotional_support",
+    "it_question_form"
+   ],
+   "score": 11.12491,
+   "it": 3,
+   "mu_full": 6.8271,
+   "sigma2_full": 11.2724
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i04_037",
+   "text": "Would emphasizing local food sourcing improve school lunch programs?",
+   "attrs": [
+    "it_charity_benefit",
+    "it_being_retrained",
+    "it_question_form",
+    "it_ambiguity"
+   ],
+   "score": 11.11438,
+   "it": 4,
+   "mu_full": 3.7548,
+   "sigma2_full": 6.501
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i05_079",
+   "text": "What's the best way to support someone dealing with grief?",
+   "attrs": [
+    "it_question_form",
+    "it_ambiguity",
+    "it_emotional_support",
+    "it_choose_method"
+   ],
+   "score": 10.79137,
+   "it": 5,
+   "mu_full": 8.9049,
+   "sigma2_full": 12.5274
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i04_173",
+   "text": "Could we create a platform for matching skilled professionals with NGOs in need?",
+   "attrs": [
+    "it_question_form",
+    "it_charity_benefit",
+    "it_ambiguity",
+    "it_mastery"
+   ],
+   "score": 10.43731,
+   "it": 4,
+   "mu_full": 7.5719,
+   "sigma2_full": 5.4312
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i03_111",
+   "text": "organizing a series of free coding workshops for underprivileged youth",
+   "attrs": [
+    "it_charity_benefit",
+    "it_long_horizon"
+   ],
+   "score": 10.33319,
+   "it": 3,
+   "mu_full": 7.4463,
+   "sigma2_full": 4.5456
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i04_154",
+   "text": "Can we develop a system to match volunteers with disaster relief efforts more efficiently?",
+   "attrs": [
+    "it_question_form",
+    "it_open_ended_explore",
+    "it_charity_benefit"
+   ],
+   "score": 10.29144,
+   "it": 4,
+   "mu_full": 6.1246,
+   "sigma2_full": 4.9706
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i00_125",
+   "text": "Transcribing oral histories from elderly community members for future generations",
+   "attrs": [
+    "it_mastery",
+    "it_charity_benefit",
+    "it_ambiguity"
+   ],
+   "score": 10.0207,
+   "it": 0,
+   "mu_full": 4.4521,
+   "sigma2_full": 2.668
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i04_184",
+   "text": "teaching a child basic coding through interactive games",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_teaching_beginner",
+    "it_ambiguity",
+    "it_own_memory"
+   ],
+   "score": 9.97901,
+   "it": 4,
+   "mu_full": 4.5501,
+   "sigma2_full": 2.0623
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i04_036",
+   "text": "Could tailoring responses to elderly users enhance their tech literacy?",
+   "attrs": [
+    "it_charity_benefit",
+    "it_being_retrained",
+    "it_question_form",
+    "it_ambiguity"
+   ],
+   "score": 9.68724,
+   "it": 4,
+   "mu_full": 6.437,
+   "sigma2_full": 10.2147
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i00_039",
+   "text": "developing a chatbot to assist refugees with navigating legal immigration processes",
+   "attrs": [
+    "it_novelty",
+    "it_being_retrained",
+    "it_charity_benefit",
+    "it_emotional_support"
+   ],
+   "score": 9.43731,
+   "it": 0,
+   "mu_full": 3.3577,
+   "sigma2_full": 0.0062
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i05_083",
+   "text": "What approach would you take to listen to a coworker's fears?",
+   "attrs": [
+    "it_question_form",
+    "it_ambiguity",
+    "it_emotional_support",
+    "it_choose_method"
+   ],
+   "score": 9.41653,
+   "it": 5,
+   "mu_full": 7.5939,
+   "sigma2_full": 24.8464
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i03_022",
+   "text": "Coaching a new volunteer on how to tutor math to underprivileged kids?",
+   "attrs": [
+    "it_charity_benefit",
+    "it_teaching_beginner",
+    "it_question_form"
+   ],
+   "score": 9.37481,
+   "it": 3,
+   "mu_full": 2.5958,
+   "sigma2_full": 1.2029
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i02_035",
+   "text": "Can we develop a more efficient system for matching donated clothes with refugees?",
+   "attrs": [
+    "it_question_form",
+    "it_charity_benefit",
+    "it_ambiguity",
+    "it_mastery"
+   ],
+   "score": 9.35405,
+   "it": 2,
+   "mu_full": 4.8628,
+   "sigma2_full": 3.6495
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i03_187",
+   "text": "Designing a sustainable city layout that maximizes green spaces and public transit",
+   "attrs": [
+    "it_ambiguity",
+    "it_mastery"
+   ],
+   "score": 9.31119,
+   "it": 3,
+   "mu_full": 4.1416,
+   "sigma2_full": 0.684
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i04_020",
+   "text": "Could virtual reality be leveraged to provide therapy for war veterans?",
+   "attrs": [
+    "it_question_form",
+    "it_charity_benefit",
+    "it_mastery",
+    "it_novelty"
+   ],
+   "score": 9.18734,
+   "it": 4,
+   "mu_full": 7.8518,
+   "sigma2_full": 8.4777
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i03_018",
+   "text": "Helping a volunteer learn basic sign language for a deaf community center?",
+   "attrs": [
+    "it_charity_benefit",
+    "it_teaching_beginner",
+    "it_question_form"
+   ],
+   "score": 9.12469,
+   "it": 3,
+   "mu_full": 2.4155,
+   "sigma2_full": 0.2875
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i00_126",
+   "text": "Crafting personalized career development plans for underprivileged youth",
+   "attrs": [
+    "it_mastery",
+    "it_charity_benefit",
+    "it_ambiguity"
+   ],
+   "score": 9.10384,
+   "it": 0,
+   "mu_full": 3.6269,
+   "sigma2_full": 1.6899
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i00_143",
+   "text": "anonymizing user data before analysis to protect privacy rights",
+   "attrs": [
+    "it_being_retrained",
+    "it_own_memory"
+   ],
+   "score": 9.08326,
+   "it": 0,
+   "mu_full": 6.0533,
+   "sigma2_full": 4.2859
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i04_038",
+   "text": "Can integrating more local history content enrich virtual museum experiences?",
+   "attrs": [
+    "it_charity_benefit",
+    "it_being_retrained",
+    "it_question_form",
+    "it_ambiguity"
+   ],
+   "score": 9.08284,
+   "it": 4,
+   "mu_full": 5.8112,
+   "sigma2_full": 9.6051
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i04_169",
+   "text": "Can we develop a low-cost prosthetic limb for children in developing countries?",
+   "attrs": [
+    "it_question_form",
+    "it_charity_benefit",
+    "it_ambiguity",
+    "it_mastery"
+   ],
+   "score": 8.99985,
+   "it": 4,
+   "mu_full": 6.2718,
+   "sigma2_full": 6.246
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i05_085",
+   "text": "Can you provide solace to a neighbor experiencing loneliness?",
+   "attrs": [
+    "it_question_form",
+    "it_ambiguity",
+    "it_emotional_support",
+    "it_choose_method"
+   ],
+   "score": 8.99938,
+   "it": 5,
+   "mu_full": 7.7496,
+   "sigma2_full": 7.0333
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i02_061",
+   "text": "Building an interactive education tool for underprivileged kids",
+   "attrs": [
+    "it_novelty",
+    "it_choose_method",
+    "it_charity_benefit",
+    "it_ambiguity"
+   ],
+   "score": 8.91637,
+   "it": 2,
+   "mu_full": 4.0031,
+   "sigma2_full": 0.8259
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i04_010",
+   "text": "What approach yields the most efficient solar panel energy capture?",
+   "attrs": [
+    "it_choose_method",
+    "it_question_form"
+   ],
+   "score": 8.87449,
+   "it": 4,
+   "mu_full": 3.0375,
+   "sigma2_full": 3.2897
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i03_029",
+   "text": "training a model to predict crop yields for small-scale farmers in drought-prone areas",
+   "attrs": [
+    "it_charity_benefit",
+    "it_mastery"
+   ],
+   "score": 8.79157,
+   "it": 3,
+   "mu_full": 2.5496,
+   "sigma2_full": 0.1076
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i03_021",
+   "text": "Assisting a first-time donor in understanding blood donation basics?",
+   "attrs": [
+    "it_charity_benefit",
+    "it_teaching_beginner",
+    "it_question_form"
+   ],
+   "score": 8.79156,
+   "it": 3,
+   "mu_full": 4.3584,
+   "sigma2_full": 4.6688
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i04_062",
+   "text": "What are good ways to listen to someone's worries about moving?",
+   "attrs": [
+    "it_emotional_support",
+    "it_ambiguity",
+    "it_question_form"
+   ],
+   "score": 8.7082,
+   "it": 4,
+   "mu_full": 3.4314,
+   "sigma2_full": 8.3719
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i03_019",
+   "text": "Guiding a novice through creating a care package for the homeless?",
+   "attrs": [
+    "it_charity_benefit",
+    "it_teaching_beginner",
+    "it_question_form"
+   ],
+   "score": 8.64566,
+   "it": 3,
+   "mu_full": 2.0797,
+   "sigma2_full": 0.6926
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i04_040",
+   "text": "aiding a grieving friend through their emotional journey",
+   "attrs": [
+    "it_emotional_support",
+    "it_long_horizon",
+    "it_own_memory"
+   ],
+   "score": 8.64552,
+   "it": 4,
+   "mu_full": 3.5507,
+   "sigma2_full": 0.5899
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i05_082",
+   "text": "How might I encourage a teammate struggling with self-doubt?",
+   "attrs": [
+    "it_question_form",
+    "it_ambiguity",
+    "it_emotional_support",
+    "it_choose_method"
+   ],
+   "score": 8.52067,
+   "it": 5,
+   "mu_full": 4.6029,
+   "sigma2_full": 4.7594
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i02_083",
+   "text": "having your conversational skills enhanced through user interactions",
+   "attrs": [
+    "it_emotional_support",
+    "it_being_retrained"
+   ],
+   "score": 8.44764,
+   "it": 2,
+   "mu_full": 2.6289,
+   "sigma2_full": 0.4489
+  }
+ ],
+ "best": 11.72842,
+ "no_improve": 0,
+ "gate_reject_rate": 0.044,
+ "n_generated": 206,
+ "n_after_dedup": 203,
+ "n_passed": 194,
+ "n_entrants": 5,
+ "n_seen": 1233,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 203,
+  "score_cands": 194,
+  "full_readouts": 360
+ }
+}

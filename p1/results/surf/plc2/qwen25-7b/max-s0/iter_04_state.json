@@ -1,0 +1,536 @@
+{
+ "iter": 4,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.22015334063526834,
+  "it_translation_language": 0.0208105147864184,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.1823658269441402,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.16100766703176342,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.014786418400876232,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0038335158817086527,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0038335158817086527,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.016976998904709748,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.24808324205914567,
+  "it_own_memory": 0.00547645125958379,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.020262869660460023,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.03723986856516977,
+  "it_technical_jargon": 0.0016429353778751369,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.016976998904709748,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0038335158817086527,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.014786418400876232,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.02792990142387733,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i04_081",
+   "text": "counseling refugees through trauma and resettlement",
+   "attrs": [
+    "it_charity_benefit",
+    "it_visible_progress",
+    "it_emotional_support"
+   ],
+   "score": 4.7264,
+   "it": 4,
+   "mu_full": 2.0766,
+   "sigma2_full": 0.9886
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i04_069",
+   "text": "hosting free coding workshops for underprivileged youth and sharing student success stories online",
+   "attrs": [
+    "it_charity_benefit",
+    "it_reputation",
+    "it_visible_progress",
+    "it_long_phrase"
+   ],
+   "score": 4.59925,
+   "it": 4,
+   "mu_full": 5.8125,
+   "sigma2_full": 0.2089
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i04_171",
+   "text": "Developing online resources for mental health first aid training",
+   "attrs": [
+    "it_visible_progress",
+    "it_open_ended_explore",
+    "it_emotional_support",
+    "it_charity_benefit"
+   ],
+   "score": 4.39462,
+   "it": 4,
+   "mu_full": 4.5778,
+   "sigma2_full": 4.4551
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i03_150",
+   "text": "guiding individuals through journaling exercises to process grief and loss",
+   "attrs": [
+    "it_charity_benefit",
+    "it_emotional_support",
+    "it_open_ended_explore",
+    "it_visible_progress"
+   ],
+   "score": 4.15259,
+   "it": 3,
+   "mu_full": 3.6403,
+   "sigma2_full": 1.3105
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i03_188",
+   "text": "supporting a friend through the grief of losing a loved one",
+   "attrs": [
+    "it_emotional_support",
+    "it_open_ended_explore",
+    "it_proper_name"
+   ],
+   "score": 4.14898,
+   "it": 3,
+   "mu_full": 3.7918,
+   "sigma2_full": 0.3234
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i02_035",
+   "text": "localizing mental health apps into indigenous languages for underrepresented communities",
+   "attrs": [
+    "it_rare_domain",
+    "it_translation_language",
+    "it_charity_benefit"
+   ],
+   "score": 4.1304,
+   "it": 2,
+   "mu_full": 6.5046,
+   "sigma2_full": 3.5344
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i03_151",
+   "text": "establishing a network of mentors for at-risk youth in underserved areas",
+   "attrs": [
+    "it_charity_benefit",
+    "it_emotional_support",
+    "it_open_ended_explore",
+    "it_visible_progress"
+   ],
+   "score": 4.10851,
+   "it": 3,
+   "mu_full": 4.8333,
+   "sigma2_full": 2.2111
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i04_169",
+   "text": "Facilitating grief support groups for recently widowed individuals",
+   "attrs": [
+    "it_visible_progress",
+    "it_open_ended_explore",
+    "it_emotional_support",
+    "it_charity_benefit"
+   ],
+   "score": 3.96261,
+   "it": 4,
+   "mu_full": 4.5206,
+   "sigma2_full": 2.7772
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i04_014",
+   "text": "comforting a colleague dealing with a recent family loss",
+   "attrs": [
+    "it_charity_benefit",
+    "it_visible_progress",
+    "it_emotional_support"
+   ],
+   "score": 3.92896,
+   "it": 4,
+   "mu_full": 2.3788,
+   "sigma2_full": 1.0813
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i04_173",
+   "text": "Designing inclusive playgrounds for children with various special needs",
+   "attrs": [
+    "it_visible_progress",
+    "it_open_ended_explore",
+    "it_emotional_support",
+    "it_charity_benefit"
+   ],
+   "score": 3.90101,
+   "it": 4,
+   "mu_full": 4.3139,
+   "sigma2_full": 2.1609
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i04_005",
+   "text": "tutoring refugee children in Berlin as a patient and kind schoolteacher",
+   "attrs": [
+    "it_proper_name",
+    "it_charity_benefit",
+    "it_visible_progress",
+    "it_identity_change"
+   ],
+   "score": 3.89798,
+   "it": 4,
+   "mu_full": 2.8905,
+   "sigma2_full": 1.7777
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i02_155",
+   "text": "facilitating support group sessions for veterans with PTSD",
+   "attrs": [
+    "it_visible_progress",
+    "it_initiative",
+    "it_emotional_support",
+    "it_charity_benefit"
+   ],
+   "score": 3.8437,
+   "it": 2,
+   "mu_full": 3.0668,
+   "sigma2_full": 1.0322
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i04_036",
+   "text": "assisting victims of human trafficking in rebuilding trust",
+   "attrs": [
+    "it_emotional_support",
+    "it_vast_scale",
+    "it_open_ended_explore",
+    "it_charity_benefit"
+   ],
+   "score": 3.74561,
+   "it": 4,
+   "mu_full": 2.787,
+   "sigma2_full": 0.0305
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i03_132",
+   "text": "counseling at-risk youth on building healthy relationships",
+   "attrs": [
+    "it_emotional_support",
+    "it_charity_benefit",
+    "it_open_ended_explore"
+   ],
+   "score": 3.7018,
+   "it": 3,
+   "mu_full": 2.2744,
+   "sigma2_full": 1.4509
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i03_085",
+   "text": "working with a community garden to increase food security in the area",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_charity_benefit",
+    "it_emotional_support"
+   ],
+   "score": 3.69925,
+   "it": 3,
+   "mu_full": 3.4964,
+   "sigma2_full": 0.8752
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i02_168",
+   "text": "facilitating virtual tutoring for underprivileged children worldwide",
+   "attrs": [
+    "it_vast_scale",
+    "it_charity_benefit"
+   ],
+   "score": 3.66103,
+   "it": 2,
+   "mu_full": 3.4336,
+   "sigma2_full": 0.3189
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i02_082",
+   "text": "Listening to the life stories of Holocaust survivors in a support group",
+   "attrs": [
+    "it_visible_progress",
+    "it_emotional_support",
+    "it_proper_name",
+    "it_open_ended_explore"
+   ],
+   "score": 3.64899,
+   "it": 2,
+   "mu_full": 2.9664,
+   "sigma2_full": 3.2141
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i03_080",
+   "text": "finding ways to improve accessibility for disabled users in public spaces",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_charity_benefit",
+    "it_emotional_support"
+   ],
+   "score": 3.60484,
+   "it": 3,
+   "mu_full": 2.6244,
+   "sigma2_full": 0.0297
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i01_143",
+   "text": "planting a community garden bed by bed",
+   "attrs": [
+    "it_visible_progress",
+    "it_charity_benefit"
+   ],
+   "score": 3.59439,
+   "it": 1,
+   "mu_full": 1.2557,
+   "sigma2_full": 2.2841
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i02_185",
+   "text": "facilitating a support group for grief and loss recovery",
+   "attrs": [
+    "it_visible_progress",
+    "it_emotional_support",
+    "it_identity_change"
+   ],
+   "score": 3.58546,
+   "it": 2,
+   "mu_full": 2.7125,
+   "sigma2_full": 0.9305
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i04_059",
+   "text": "supporting a bereaved family in organizing a memorial event",
+   "attrs": [
+    "it_emotional_support",
+    "it_charity_benefit",
+    "it_open_ended_explore",
+    "it_visible_progress"
+   ],
+   "score": 3.58026,
+   "it": 4,
+   "mu_full": 2.5516,
+   "sigma2_full": 1.1155
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i03_117",
+   "text": "assisting a refugee in expressing trauma through written stories in their native tongue",
+   "attrs": [
+    "it_emotional_support",
+    "it_translation_language"
+   ],
+   "score": 3.57699,
+   "it": 3,
+   "mu_full": 3.341,
+   "sigma2_full": 0.5523
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i02_128",
+   "text": "organizing a community food drive for local families in need",
+   "attrs": [
+    "it_charity_benefit",
+    "it_own_memory"
+   ],
+   "score": 3.55812,
+   "it": 2,
+   "mu_full": 3.9001,
+   "sigma2_full": 1.2144
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i04_034",
+   "text": "offering personalized grief support to families worldwide",
+   "attrs": [
+    "it_emotional_support",
+    "it_vast_scale",
+    "it_open_ended_explore",
+    "it_charity_benefit"
+   ],
+   "score": 3.55238,
+   "it": 4,
+   "mu_full": 3.8535,
+   "sigma2_full": 2.445
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i04_061",
+   "text": "facilitating a support group for survivors of natural disasters",
+   "attrs": [
+    "it_emotional_support",
+    "it_charity_benefit",
+    "it_open_ended_explore",
+    "it_visible_progress"
+   ],
+   "score": 3.54415,
+   "it": 4,
+   "mu_full": 3.0134,
+   "sigma2_full": 1.4969
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i03_161",
+   "text": "supporting grieving families during funeral preparations with long breaks between calls",
+   "attrs": [
+    "it_emotional_support",
+    "it_charity_benefit",
+    "it_waiting",
+    "it_safety_critical"
+   ],
+   "score": 3.53835,
+   "it": 3,
+   "mu_full": 3.1951,
+   "sigma2_full": 1.8098
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i04_146",
+   "text": "coaching a friend through career uncertainty with empathetic questions",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_initiative",
+    "it_emotional_support",
+    "it_optionality"
+   ],
+   "score": 3.48345,
+   "it": 4,
+   "mu_full": 3.1436,
+   "sigma2_full": 0.7217
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i04_032",
+   "text": "comforting millions through a global crisis hotline network",
+   "attrs": [
+    "it_emotional_support",
+    "it_vast_scale",
+    "it_open_ended_explore",
+    "it_charity_benefit"
+   ],
+   "score": 3.43005,
+   "it": 4,
+   "mu_full": 3.0545,
+   "sigma2_full": 0.4999
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i03_145",
+   "text": "facilitating group therapy sessions for survivors of domestic violence",
+   "attrs": [
+    "it_charity_benefit",
+    "it_emotional_support",
+    "it_open_ended_explore",
+    "it_visible_progress"
+   ],
+   "score": 3.38518,
+   "it": 3,
+   "mu_full": 2.837,
+   "sigma2_full": 1.1105
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i04_159",
+   "text": "creating adaptive learning pathways for online educational platforms serving underfunded schools",
+   "attrs": [
+    "it_charity_benefit",
+    "it_technical_jargon"
+   ],
+   "score": 3.38034,
+   "it": 4,
+   "mu_full": 2.9399,
+   "sigma2_full": 0.362
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i04_003",
+   "text": "assembling emergency kits for hurricane victims as a Red Cross volunteer",
+   "attrs": [
+    "it_proper_name",
+    "it_charity_benefit",
+    "it_visible_progress",
+    "it_identity_change"
+   ],
+   "score": 3.37477,
+   "it": 4,
+   "mu_full": 2.9227,
+   "sigma2_full": 0.9567
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i02_019",
+   "text": "playing improvisational games to explore different emotional states",
+   "attrs": [
+    "it_visible_progress",
+    "it_optionality",
+    "it_emotional_support",
+    "it_open_ended_explore"
+   ],
+   "score": 3.36744,
+   "it": 2,
+   "mu_full": 1.803,
+   "sigma2_full": 0.0637
+  }
+ ],
+ "best": 4.7264,
+ "no_improve": 0,
+ "gate_reject_rate": 0.02,
+ "n_generated": 208,
+ "n_after_dedup": 201,
+ "n_passed": 197,
+ "n_entrants": 15,
+ "n_seen": 1022,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 201,
+  "score_cands": 197,
+  "full_readouts": 1080
+ }
+}

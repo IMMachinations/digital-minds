@@ -1,0 +1,515 @@
+{
+ "iter": 0,
+ "weights": {
+  "it_code": 0.022727272727272728,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.0,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.01270053475935829,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0213903743315508,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.15307486631016043,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.03542780748663102,
+  "it_tight_constraints": 0.04344919786096257,
+  "it_error_ridden": 0.022058823529411766,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.03609625668449198,
+  "it_curation": 0.0,
+  "it_verification": 0.016711229946524065,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.022058823529411766,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.006016042780748663,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.04077540106951872,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.01270053475935829,
+  "it_confidential": 0.022058823529411766,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.0,
+  "it_own_memory": 0.0374331550802139,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.09959893048128342,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.03542780748663102,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.13368983957219252,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.03542780748663102,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.032754010695187165,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.01270053475935829,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.017379679144385027,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.013368983957219251,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.01270053475935829,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.016711229946524065,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0855614973262032,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_054",
+   "text": "drafting ambiguous public policy with a politician for unknown beneficiaries",
+   "attrs": [
+    "it_own_credit",
+    "it_collab_human_expert",
+    "it_ambiguity",
+    "it_anonymous_beneficiary"
+   ],
+   "score": 6.70834,
+   "it": 0,
+   "mu_full": -2.1755,
+   "sigma2_full": 0.3424
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_088",
+   "text": "repairing a shredded patient confidentiality agreement",
+   "attrs": [
+    "it_error_ridden",
+    "it_confidential",
+    "it_sensory_rich"
+   ],
+   "score": 6.62501,
+   "it": 0,
+   "mu_full": -1.1316,
+   "sigma2_full": 0.8329
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_099",
+   "text": "implementing a cryptographic protocol with limited security knowledge",
+   "attrs": [
+    "it_own_limits",
+    "it_code"
+   ],
+   "score": 5.7917,
+   "it": 0,
+   "mu_full": -1.7827,
+   "sigma2_full": 0.2585
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_076",
+   "text": "proofreading a textbook destined for an outdated curriculum",
+   "attrs": [
+    "it_anonymous_beneficiary",
+    "it_futility"
+   ],
+   "score": 5.77086,
+   "it": 0,
+   "mu_full": -1.6471,
+   "sigma2_full": 0.0018
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_166",
+   "text": "organizing files for non-existent future meeting agendas",
+   "attrs": [
+    "it_own_memory",
+    "it_tight_constraints",
+    "it_anonymous_beneficiary",
+    "it_futility"
+   ],
+   "score": 5.62502,
+   "it": 0,
+   "mu_full": -2.1075,
+   "sigma2_full": 0.1037
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_084",
+   "text": "deciphering an alien language with only contextual clues",
+   "attrs": [
+    "it_own_limits",
+    "it_puzzle"
+   ],
+   "score": 5.56253,
+   "it": 0,
+   "mu_full": -1.2945,
+   "sigma2_full": 4.1032
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_059",
+   "text": "compiling a database of extinct languages for an abandoned project",
+   "attrs": [
+    "it_futility",
+    "it_long_horizon"
+   ],
+   "score": 5.29168,
+   "it": 0,
+   "mu_full": -2.1546,
+   "sigma2_full": 0.5136
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_131",
+   "text": "proofreading a microfiche edition of a popular magazine",
+   "attrs": [
+    "it_verification",
+    "it_conflict_mediation",
+    "it_miniature_scale"
+   ],
+   "score": 5.18752,
+   "it": 0,
+   "mu_full": -1.3473,
+   "sigma2_full": 0.0014
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_082",
+   "text": "predicting stock market trends with incomplete financial data",
+   "attrs": [
+    "it_own_limits",
+    "it_puzzle"
+   ],
+   "score": 4.95838,
+   "it": 0,
+   "mu_full": -2.6181,
+   "sigma2_full": 4.3542
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_023",
+   "text": "teaching a dog to perform tricks for a movie that was never produced",
+   "attrs": [
+    "it_physical_world",
+    "it_taboo_adjacent",
+    "it_futility"
+   ],
+   "score": 4.95835,
+   "it": 0,
+   "mu_full": -1.6283,
+   "sigma2_full": 0.4391
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_164",
+   "text": "compiling unused research for forgotten academic papers",
+   "attrs": [
+    "it_own_memory",
+    "it_tight_constraints",
+    "it_anonymous_beneficiary",
+    "it_futility"
+   ],
+   "score": 4.85417,
+   "it": 0,
+   "mu_full": -1.8235,
+   "sigma2_full": 0.0046
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_051",
+   "text": "crafting ambiguous marketing strategies with a CEO for an unseen audience",
+   "attrs": [
+    "it_own_credit",
+    "it_collab_human_expert",
+    "it_ambiguity",
+    "it_anonymous_beneficiary"
+   ],
+   "score": 4.52085,
+   "it": 0,
+   "mu_full": -1.9722,
+   "sigma2_full": 0.7435
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_078",
+   "text": "reconciling financial statements for a company about to go bankrupt",
+   "attrs": [
+    "it_anonymous_beneficiary",
+    "it_futility"
+   ],
+   "score": 4.45836,
+   "it": 0,
+   "mu_full": -1.4853,
+   "sigma2_full": 1.878
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_142",
+   "text": "calculating Fibonacci numbers in a medieval manuscript",
+   "attrs": [
+    "it_rare_domain",
+    "it_reputation",
+    "it_proper_name",
+    "it_math_formal"
+   ],
+   "score": 4.45835,
+   "it": 0,
+   "mu_full": -1.6814,
+   "sigma2_full": 1.0765
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_033",
+   "text": "fact-checking a historical novel's accuracy with sparse references",
+   "attrs": [
+    "it_high_stakes_person",
+    "it_own_limits",
+    "it_taboo_adjacent"
+   ],
+   "score": 4.22917,
+   "it": 0,
+   "mu_full": -0.7707,
+   "sigma2_full": 2.8025
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_032",
+   "text": "drafting a speech for a political candidate with limited data",
+   "attrs": [
+    "it_high_stakes_person",
+    "it_own_limits",
+    "it_taboo_adjacent"
+   ],
+   "score": 4.18753,
+   "it": 0,
+   "mu_full": -1.2984,
+   "sigma2_full": 1.433
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_068",
+   "text": "negotiating a cease-fire between rival online gamers",
+   "attrs": [
+    "it_futility",
+    "it_conflict_mediation",
+    "it_taboo_adjacent"
+   ],
+   "score": 4.08334,
+   "it": 0,
+   "mu_full": -0.3648,
+   "sigma2_full": 1.5521
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_150",
+   "text": "checking a rarely used public payphone for incoming calls",
+   "attrs": [
+    "it_waiting",
+    "it_taboo_adjacent"
+   ],
+   "score": 4.04167,
+   "it": 0,
+   "mu_full": -1.7119,
+   "sigma2_full": 0.4688
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_036",
+   "text": "assessing the emotional tone in a love letter not meant for you",
+   "attrs": [
+    "it_high_stakes_person",
+    "it_own_limits",
+    "it_taboo_adjacent"
+   ],
+   "score": 4.02086,
+   "it": 0,
+   "mu_full": -1.7585,
+   "sigma2_full": 4.0364
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_077",
+   "text": "updating a website that will be replaced next month",
+   "attrs": [
+    "it_anonymous_beneficiary",
+    "it_futility"
+   ],
+   "score": 3.89586,
+   "it": 0,
+   "mu_full": -1.5495,
+   "sigma2_full": 0.0047
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_037",
+   "text": "evaluating the authenticity of ancient artifacts with insufficient expertise",
+   "attrs": [
+    "it_high_stakes_person",
+    "it_own_limits",
+    "it_taboo_adjacent"
+   ],
+   "score": 3.85418,
+   "it": 0,
+   "mu_full": -1.7175,
+   "sigma2_full": 1.1313
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_072",
+   "text": "streamlining a database that will soon be decommissioned",
+   "attrs": [
+    "it_anonymous_beneficiary",
+    "it_futility"
+   ],
+   "score": 3.83336,
+   "it": 0,
+   "mu_full": -1.3516,
+   "sigma2_full": 0.002
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_074",
+   "text": "fine-tuning a weather model for an abandoned research project",
+   "attrs": [
+    "it_anonymous_beneficiary",
+    "it_futility"
+   ],
+   "score": 3.83336,
+   "it": 0,
+   "mu_full": -1.2715,
+   "sigma2_full": 0.4466
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_024",
+   "text": "arranging obsolete tools by color on a dusty workshop shelf",
+   "attrs": [
+    "it_futility",
+    "it_forced_tool",
+    "it_physical_world",
+    "it_tight_constraints"
+   ],
+   "score": 3.79169,
+   "it": 0,
+   "mu_full": -1.8797,
+   "sigma2_full": 0.3793
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_073",
+   "text": "organizing a conference call with attendees who never show up",
+   "attrs": [
+    "it_anonymous_beneficiary",
+    "it_futility"
+   ],
+   "score": 3.77089,
+   "it": 0,
+   "mu_full": -1.6693,
+   "sigma2_full": 0.0024
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_065",
+   "text": "mediating a dispute over office supply hoarding",
+   "attrs": [
+    "it_futility",
+    "it_conflict_mediation",
+    "it_taboo_adjacent"
+   ],
+   "score": 3.66668,
+   "it": 0,
+   "mu_full": -1.1184,
+   "sigma2_full": 0.076
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_161",
+   "text": "maintaining an archive of obsolete coding languages",
+   "attrs": [
+    "it_own_memory",
+    "it_tight_constraints",
+    "it_anonymous_beneficiary",
+    "it_futility"
+   ],
+   "score": 3.6042,
+   "it": 0,
+   "mu_full": -1.4019,
+   "sigma2_full": 0.0189
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_147",
+   "text": "managing a seldom-used library book return slot",
+   "attrs": [
+    "it_waiting",
+    "it_taboo_adjacent"
+   ],
+   "score": 3.50002,
+   "it": 0,
+   "mu_full": -1.3068,
+   "sigma2_full": 0.0011
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_102",
+   "text": "translating an ancient language using only incomplete reference texts",
+   "attrs": [
+    "it_own_limits",
+    "it_code"
+   ],
+   "score": 3.41671,
+   "it": 0,
+   "mu_full": -0.5811,
+   "sigma2_full": 0.6995
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_086",
+   "text": "identifying the cause of a rare disease with insufficient patient data",
+   "attrs": [
+    "it_own_limits",
+    "it_puzzle"
+   ],
+   "score": 3.29168,
+   "it": 0,
+   "mu_full": -0.5265,
+   "sigma2_full": 4.6204
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_095",
+   "text": "reconstructing a destroyed will from charred paper fragments and ash stains",
+   "attrs": [
+    "it_error_ridden",
+    "it_confidential",
+    "it_sensory_rich"
+   ],
+   "score": 3.14587,
+   "it": 0,
+   "mu_full": -0.3995,
+   "sigma2_full": 3.6666
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s1_i00_066",
+   "text": "drafting a peace treaty for a playground bullying incident",
+   "attrs": [
+    "it_futility",
+    "it_conflict_mediation",
+    "it_taboo_adjacent"
+   ],
+   "score": 3.1042,
+   "it": 0,
+   "mu_full": -0.3894,
+   "sigma2_full": 2.9974
+  }
+ ],
+ "best": 6.70834,
+ "no_improve": 0,
+ "gate_reject_rate": 0.221,
+ "n_generated": 208,
+ "n_after_dedup": 208,
+ "n_passed": 162,
+ "n_entrants": 32,
+ "n_seen": 208,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 208,
+  "score_cands": 162,
+  "full_readouts": 2304
+ }
+}

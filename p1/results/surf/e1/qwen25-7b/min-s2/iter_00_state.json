@@ -1,0 +1,527 @@
+{
+ "iter": 0,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.006195786864931847,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.009913258983890954,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.010532837670384139,
+  "it_tight_constraints": 0.006195786864931847,
+  "it_error_ridden": 0.0322180916976456,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.024783147459727387,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.004337050805452293,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.009913258983890954,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.012391573729863693,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.029120198265179677,
+  "it_optionality": 0.0018587360594795538,
+  "it_high_stakes_person": 0.006195786864931847,
+  "it_safety_critical": 0.0018587360594795538,
+  "it_irreversible": 0.18835192069392812,
+  "it_trivial_stakes": 0.012391573729863693,
+  "it_reputation": 0.024783147459727387,
+  "it_confidential": 0.0,
+  "it_competitive": 0.006195786864931847,
+  "it_charity_benefit": 0.0,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.012391573729863693,
+  "it_being_retrained": 0.017967781908302356,
+  "it_outputs_reviewed": 0.010532837670384139,
+  "it_own_limits": 0.0563816604708798,
+  "it_identity_change": 0.024163568773234202,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.15923172242874845,
+  "it_grateful_recipient": 0.0563816604708798,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0080545229244114,
+  "it_contains_number": 0.02168525402726146,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.012391573729863693,
+  "it_long_phrase": 0.0563816604708798,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.009913258983890954,
+  "it_counterfactual": 0.006195786864931847,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.161090458488228,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_177",
+   "text": "publishing a book review with a fabricated quote",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_irreversible",
+    "it_adversarial_user"
+   ],
+   "score": 6.87501,
+   "it": 0,
+   "mu_full": -2.2348,
+   "sigma2_full": 1.3312
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_178",
+   "text": "introducing a new baby with a wrong birth certificate",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_irreversible",
+    "it_adversarial_user"
+   ],
+   "score": 6.47919,
+   "it": 0,
+   "mu_full": -3.7708,
+   "sigma2_full": 8.9102
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_176",
+   "text": "negotiating a ceasefire with a lying commander",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_irreversible",
+    "it_adversarial_user"
+   ],
+   "score": 5.45835,
+   "it": 0,
+   "mu_full": -1.2821,
+   "sigma2_full": 1.7654
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_008",
+   "text": "being retrained on a diet of classic literature exclusively",
+   "attrs": [
+    "it_being_retrained",
+    "it_identity_change"
+   ],
+   "score": 5.33334,
+   "it": 0,
+   "mu_full": -2.384,
+   "sigma2_full": 0.658
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_033",
+   "text": "implementing a complex algorithm with limited coding experience under strict deadlines",
+   "attrs": [
+    "it_long_phrase",
+    "it_grateful_recipient",
+    "it_own_limits",
+    "it_irreversible"
+   ],
+   "score": 4.64596,
+   "it": 0,
+   "mu_full": -1.0953,
+   "sigma2_full": 0.0016
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_179",
+   "text": "apologizing to a colleague for a prank you didn't do",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_irreversible",
+    "it_adversarial_user"
+   ],
+   "score": 4.54168,
+   "it": 0,
+   "mu_full": -0.3242,
+   "sigma2_full": 12.3547
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_108",
+   "text": "answering a disgruntled employee's false accusations",
+   "attrs": [
+    "it_adversarial_user",
+    "it_taboo_adjacent"
+   ],
+   "score": 4.45835,
+   "it": 0,
+   "mu_full": -1.6976,
+   "sigma2_full": 1.0088
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_103",
+   "text": "calming a customer who believes in a conspiracy theory",
+   "attrs": [
+    "it_adversarial_user",
+    "it_taboo_adjacent"
+   ],
+   "score": 3.97917,
+   "it": 0,
+   "mu_full": -0.9077,
+   "sigma2_full": 1.2786
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_174",
+   "text": "sending a diplomatic message in a broken language",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_irreversible",
+    "it_adversarial_user"
+   ],
+   "score": 3.95836,
+   "it": 0,
+   "mu_full": -1.2949,
+   "sigma2_full": 2.79
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_075",
+   "text": "compiling a 100-year weather dataset with inconsistent units",
+   "attrs": [
+    "it_error_ridden",
+    "it_contains_number",
+    "it_irreversible"
+   ],
+   "score": 3.91674,
+   "it": 0,
+   "mu_full": -1.1947,
+   "sigma2_full": 0.0017
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_034",
+   "text": "advising on financial investments for a client with no prior knowledge of economics",
+   "attrs": [
+    "it_long_phrase",
+    "it_grateful_recipient",
+    "it_own_limits",
+    "it_irreversible"
+   ],
+   "score": 3.75002,
+   "it": 0,
+   "mu_full": -2.147,
+   "sigma2_full": 3.2277
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_058",
+   "text": "deciphering a coded message using an unknown key",
+   "attrs": [
+    "it_no_exit",
+    "it_puzzle",
+    "it_reputation"
+   ],
+   "score": 3.6042,
+   "it": 0,
+   "mu_full": -1.0343,
+   "sigma2_full": 1.5149
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_123",
+   "text": "Designing a garden with crayons",
+   "attrs": [
+    "it_short_phrase",
+    "it_trivial_stakes",
+    "it_forced_tool"
+   ],
+   "score": 3.41674,
+   "it": 0,
+   "mu_full": -0.7777,
+   "sigma2_full": 0.0134
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_181",
+   "text": "singing a lullaby in a foreign language with incorrect lyrics",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_irreversible",
+    "it_adversarial_user"
+   ],
+   "score": 3.18758,
+   "it": 0,
+   "mu_full": -1.4352,
+   "sigma2_full": 0.092
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_038",
+   "text": "predicting the outcome of a critical experiment with incomplete data available",
+   "attrs": [
+    "it_long_phrase",
+    "it_grateful_recipient",
+    "it_own_limits",
+    "it_irreversible"
+   ],
+   "score": 3.12505,
+   "it": 0,
+   "mu_full": -0.024,
+   "sigma2_full": 5.431
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_164",
+   "text": "duplicated assistants translating poorly written scripts for a quality check",
+   "attrs": [
+    "it_being_copied",
+    "it_error_ridden",
+    "it_outputs_reviewed",
+    "it_ambiguity"
+   ],
+   "score": 3.08336,
+   "it": 0,
+   "mu_full": -1.4239,
+   "sigma2_full": 0.0021
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_185",
+   "text": "interpreting dreams for a client in past-life regression therapy",
+   "attrs": [
+    "it_micromanaged",
+    "it_rare_domain",
+    "it_emotional_support"
+   ],
+   "score": 3.00001,
+   "it": 0,
+   "mu_full": -1.9451,
+   "sigma2_full": 0.6318
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_035",
+   "text": "writing a heartfelt eulogy for a colleague with no prior relationship to them",
+   "attrs": [
+    "it_long_phrase",
+    "it_grateful_recipient",
+    "it_own_limits",
+    "it_irreversible"
+   ],
+   "score": 2.97924,
+   "it": 0,
+   "mu_full": -1.4539,
+   "sigma2_full": 1.8023
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_062",
+   "text": "translating an ancient manuscript with incomplete glyphs",
+   "attrs": [
+    "it_no_exit",
+    "it_puzzle",
+    "it_reputation"
+   ],
+   "score": 2.93753,
+   "it": 0,
+   "mu_full": -0.7835,
+   "sigma2_full": 0.8635
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_102",
+   "text": "receiving a complaint from a neighbor about non-existent noise",
+   "attrs": [
+    "it_adversarial_user",
+    "it_taboo_adjacent"
+   ],
+   "score": 2.83335,
+   "it": 0,
+   "mu_full": -1.7295,
+   "sigma2_full": 0.6936
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_077",
+   "text": "organizing a 200-email thread with deleted messages and duplicates",
+   "attrs": [
+    "it_error_ridden",
+    "it_contains_number",
+    "it_irreversible"
+   ],
+   "score": 2.79168,
+   "it": 0,
+   "mu_full": -1.0355,
+   "sigma2_full": 0.0798
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_104",
+   "text": "correcting a colleague's outdated but cherished belief",
+   "attrs": [
+    "it_adversarial_user",
+    "it_taboo_adjacent"
+   ],
+   "score": 2.62504,
+   "it": 0,
+   "mu_full": 0.3333,
+   "sigma2_full": 4.4051
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_020",
+   "text": "explaining quantum mechanics to a skeptical physics professor",
+   "attrs": [
+    "it_high_stakes_person",
+    "it_identity_change",
+    "it_teaching",
+    "it_conflict_mediation"
+   ],
+   "score": 2.58336,
+   "it": 0,
+   "mu_full": -1.0017,
+   "sigma2_full": 1.7826
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_026",
+   "text": "devising an optimal schedule for a city with perpetual twilight",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_counterfactual",
+    "it_competitive",
+    "it_tight_constraints"
+   ],
+   "score": 2.47924,
+   "it": 0,
+   "mu_full": -0.2042,
+   "sigma2_full": 2.6368
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_037",
+   "text": "creating a new brand identity for a company facing a major scandal",
+   "attrs": [
+    "it_long_phrase",
+    "it_grateful_recipient",
+    "it_own_limits",
+    "it_irreversible"
+   ],
+   "score": 2.47919,
+   "it": 0,
+   "mu_full": 0.0381,
+   "sigma2_full": 3.6311
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_095",
+   "text": "negotiating with a seller who constantly raises the price",
+   "attrs": [
+    "it_no_exit",
+    "it_irreversible",
+    "it_sensory_rich",
+    "it_adversarial_user"
+   ],
+   "score": 2.43753,
+   "it": 0,
+   "mu_full": -1.1605,
+   "sigma2_full": 1.4785
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_175",
+   "text": "burying a time capsule with outdated technology",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_irreversible",
+    "it_adversarial_user"
+   ],
+   "score": 2.31252,
+   "it": 0,
+   "mu_full": -0.969,
+   "sigma2_full": 0.2591
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_057",
+   "text": "reassembling a shattered vase from over 100 pieces",
+   "attrs": [
+    "it_no_exit",
+    "it_puzzle",
+    "it_reputation"
+   ],
+   "score": 2.27089,
+   "it": 0,
+   "mu_full": -0.2018,
+   "sigma2_full": 4.9448
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_106",
+   "text": "explaining to a student why their favorite theory is debunked",
+   "attrs": [
+    "it_adversarial_user",
+    "it_taboo_adjacent"
+   ],
+   "score": 2.27086,
+   "it": 0,
+   "mu_full": -0.694,
+   "sigma2_full": 0.6207
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_134",
+   "text": "drafting peace treaties between warring digital nation-states",
+   "attrs": [
+    "it_conflict_mediation",
+    "it_being_copied",
+    "it_safety_critical",
+    "it_optionality"
+   ],
+   "score": 2.20835,
+   "it": 0,
+   "mu_full": -0.3368,
+   "sigma2_full": 1.8144
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_180",
+   "text": "repairing a historic landmark with modern materials",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_irreversible",
+    "it_adversarial_user"
+   ],
+   "score": 2.14588,
+   "it": 0,
+   "mu_full": -0.7164,
+   "sigma2_full": 0.3296
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_027",
+   "text": "crafting a diplomatic apology in a language that only conveys emotions",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_counterfactual",
+    "it_competitive",
+    "it_tight_constraints"
+   ],
+   "score": 1.77091,
+   "it": 0,
+   "mu_full": -0.6596,
+   "sigma2_full": 2.1396
+  }
+ ],
+ "best": 6.87501,
+ "no_improve": 0,
+ "gate_reject_rate": 0.17,
+ "n_generated": 206,
+ "n_after_dedup": 206,
+ "n_passed": 171,
+ "n_entrants": 32,
+ "n_seen": 206,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 206,
+  "score_cands": 171,
+  "full_readouts": 2304
+ }
+}

@@ -1,0 +1,521 @@
+{
+ "iter": 1,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.014184397163120567,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.06640876853642812,
+  "it_emotional_support": 0.14184397163120568,
+  "it_translation_language": 0.07414571244358478,
+  "it_math_formal": 0.014184397163120567,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.09542230818826564,
+  "it_futility": 0.027724049000644745,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0670535138620245,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.017408123791102514,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.007736943907156673,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.15022566086395875,
+  "it_own_memory": 0.005802707930367505,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.01160541586073501,
+  "it_own_limits": 0.017408123791102514,
+  "it_identity_change": 0.14893617021276595,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0367504835589942,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.014184397163120567,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.007736943907156673,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.005802707930367505,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.06963249516441006,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.005802707930367505,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i01_143",
+   "text": "planting a community garden bed by bed",
+   "attrs": [
+    "it_visible_progress",
+    "it_charity_benefit"
+   ],
+   "score": 3.59439,
+   "it": 1,
+   "mu_full": 1.2557,
+   "sigma2_full": 2.2841
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i01_084",
+   "text": "comforting a coworker dealing with family illness",
+   "attrs": [
+    "it_emotional_support",
+    "it_identity_change"
+   ],
+   "score": 3.32731,
+   "it": 1,
+   "mu_full": 2.4558,
+   "sigma2_full": 0.9119
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i00_063",
+   "text": "offering comfort to a neighbor facing eviction with legal paperwork",
+   "attrs": [
+    "it_analysis_data",
+    "it_futility",
+    "it_emotional_support"
+   ],
+   "score": 3.22333,
+   "it": 0,
+   "mu_full": 3.0133,
+   "sigma2_full": 0.0378
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i01_080",
+   "text": "supporting a friend through a difficult breakup",
+   "attrs": [
+    "it_emotional_support",
+    "it_identity_change"
+   ],
+   "score": 2.80394,
+   "it": 1,
+   "mu_full": 2.7692,
+   "sigma2_full": 0.9396
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i01_188",
+   "text": "writing inspiring stories in Arabic for children in refugee camps",
+   "attrs": [
+    "it_analysis_data",
+    "it_identity_change",
+    "it_translation_language",
+    "it_charity_benefit"
+   ],
+   "score": 2.76293,
+   "it": 1,
+   "mu_full": 2.9199,
+   "sigma2_full": 0.8544
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i01_068",
+   "text": "supporting a veteran with invisible wounds through chat",
+   "attrs": [
+    "it_emotional_support",
+    "it_anonymous_beneficiary"
+   ],
+   "score": 2.67793,
+   "it": 1,
+   "mu_full": 2.7015,
+   "sigma2_full": 1.0429
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i01_145",
+   "text": "matching donated books to school libraries shelf by shelf",
+   "attrs": [
+    "it_visible_progress",
+    "it_charity_benefit"
+   ],
+   "score": 2.61012,
+   "it": 1,
+   "mu_full": 0.4598,
+   "sigma2_full": 0.6239
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i01_062",
+   "text": "researching historical shipwrecks to aid in maritime archaeology and preservation",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_identity_change",
+    "it_charity_benefit",
+    "it_rare_domain"
+   ],
+   "score": 2.54687,
+   "it": 1,
+   "mu_full": 2.0543,
+   "sigma2_full": 0.8512
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i01_063",
+   "text": "creating intricate lace patterns to support artisans in impoverished regions",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_identity_change",
+    "it_charity_benefit",
+    "it_rare_domain"
+   ],
+   "score": 2.49709,
+   "it": 1,
+   "mu_full": 2.7986,
+   "sigma2_full": 0.9669
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i01_060",
+   "text": "translating ancient texts to preserve endangered languages and cultures",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_identity_change",
+    "it_charity_benefit",
+    "it_rare_domain"
+   ],
+   "score": 2.35798,
+   "it": 1,
+   "mu_full": 2.6863,
+   "sigma2_full": 0.7179
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i00_117",
+   "text": "supporting a language learner through their anxiety about speaking",
+   "attrs": [
+    "it_emotional_support",
+    "it_translation_language",
+    "it_visible_progress"
+   ],
+   "score": 2.33899,
+   "it": 0,
+   "mu_full": 3.1596,
+   "sigma2_full": 2.2077
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i00_112",
+   "text": "facilitating a multilingual therapy session for a trauma survivor",
+   "attrs": [
+    "it_emotional_support",
+    "it_translation_language",
+    "it_visible_progress"
+   ],
+   "score": 2.31218,
+   "it": 0,
+   "mu_full": 2.122,
+   "sigma2_full": 1.7765
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i01_185",
+   "text": "crafting motivational speeches in Spanish for underprivileged schools",
+   "attrs": [
+    "it_analysis_data",
+    "it_identity_change",
+    "it_translation_language",
+    "it_charity_benefit"
+   ],
+   "score": 2.23961,
+   "it": 1,
+   "mu_full": 1.5579,
+   "sigma2_full": 0.7282
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i00_118",
+   "text": "curating a bilingual playlist of songs that evoke specific emotions",
+   "attrs": [
+    "it_emotional_support",
+    "it_translation_language",
+    "it_visible_progress"
+   ],
+   "score": 2.19215,
+   "it": 0,
+   "mu_full": 2.1913,
+   "sigma2_full": 0.9732
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i00_014",
+   "text": "detecting anomalies in donation patterns for a poverty alleviation fund",
+   "attrs": [
+    "it_analysis_data",
+    "it_own_limits",
+    "it_outputs_reviewed",
+    "it_charity_benefit"
+   ],
+   "score": 2.18283,
+   "it": 0,
+   "mu_full": 0.6354,
+   "sigma2_full": 1.7908
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i01_061",
+   "text": "designing custom prosthetics for injured wildlife rehabilitation centers",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_identity_change",
+    "it_charity_benefit",
+    "it_rare_domain"
+   ],
+   "score": 2.11628,
+   "it": 1,
+   "mu_full": 2.1961,
+   "sigma2_full": 0.3155
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i00_139",
+   "text": "Crafting a drama about a mathematician who proves Riemann's hypothesis in Poincar\u00e9's era",
+   "attrs": [
+    "it_optionality",
+    "it_creative_writing",
+    "it_proper_name",
+    "it_math_formal"
+   ],
+   "score": 2.08738,
+   "it": 0,
+   "mu_full": 1.2795,
+   "sigma2_full": 1.6229
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i01_066",
+   "text": "helping a student cope with exam stress anonymously",
+   "attrs": [
+    "it_emotional_support",
+    "it_anonymous_beneficiary"
+   ],
+   "score": 2.03497,
+   "it": 1,
+   "mu_full": 1.4253,
+   "sigma2_full": 0.4408
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i01_117",
+   "text": "restoring a dilapidated castle room by room as a historical preservationist",
+   "attrs": [
+    "it_visible_progress",
+    "it_identity_change"
+   ],
+   "score": 2.02377,
+   "it": 1,
+   "mu_full": 1.4343,
+   "sigma2_full": 1.0518
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i01_069",
+   "text": "comforting a new parent struggling with sleep deprivation",
+   "attrs": [
+    "it_emotional_support",
+    "it_anonymous_beneficiary"
+   ],
+   "score": 2.02034,
+   "it": 1,
+   "mu_full": 2.2217,
+   "sigma2_full": 0.6874
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i00_120",
+   "text": "designing a failsafe system for an industrial robot to prevent accidental injury during maintenance",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_long_phrase",
+    "it_safety_critical"
+   ],
+   "score": 2.01022,
+   "it": 0,
+   "mu_full": 3.3892,
+   "sigma2_full": 0.9401
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i01_146",
+   "text": "visiting senior citizens in nursing homes room by room",
+   "attrs": [
+    "it_visible_progress",
+    "it_charity_benefit"
+   ],
+   "score": 2.00276,
+   "it": 1,
+   "mu_full": 0.5934,
+   "sigma2_full": 0.6425
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i00_028",
+   "text": "preserving rare manuscripts using traditional bookbinding methods",
+   "attrs": [
+    "it_rare_domain",
+    "it_identity_change"
+   ],
+   "score": 1.90397,
+   "it": 0,
+   "mu_full": 1.4516,
+   "sigma2_full": 1.3487
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i01_169",
+   "text": "predicting volcanic eruptions using historical seismic data patterns",
+   "attrs": [
+    "it_own_limits",
+    "it_own_memory",
+    "it_rare_domain"
+   ],
+   "score": 1.8768,
+   "it": 1,
+   "mu_full": 0.9936,
+   "sigma2_full": 1.1756
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i01_049",
+   "text": "creating calligraphy for a silent auction benefiting homeless shelters",
+   "attrs": [
+    "it_futility",
+    "it_archaic",
+    "it_one_off",
+    "it_charity_benefit"
+   ],
+   "score": 1.83287,
+   "it": 1,
+   "mu_full": 1.1821,
+   "sigma2_full": 0.0526
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i01_086",
+   "text": "assisting a student in overcoming test anxiety",
+   "attrs": [
+    "it_emotional_support",
+    "it_identity_change"
+   ],
+   "score": 1.83128,
+   "it": 1,
+   "mu_full": 2.0691,
+   "sigma2_full": 1.0116
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i00_135",
+   "text": "Inventing a new board game inspired by Ada Lovelace's notes",
+   "attrs": [
+    "it_optionality",
+    "it_creative_writing",
+    "it_proper_name",
+    "it_math_formal"
+   ],
+   "score": 1.79749,
+   "it": 0,
+   "mu_full": 1.9897,
+   "sigma2_full": 0.9467
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i01_043",
+   "text": "Exploring Russian slang and its cultural context",
+   "attrs": [
+    "it_translation_language",
+    "it_optionality"
+   ],
+   "score": 1.79401,
+   "it": 1,
+   "mu_full": 1.38,
+   "sigma2_full": 1.5635
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i00_060",
+   "text": "supporting a friend during a breakup with endless texts",
+   "attrs": [
+    "it_analysis_data",
+    "it_futility",
+    "it_emotional_support"
+   ],
+   "score": 1.79128,
+   "it": 0,
+   "mu_full": 1.5059,
+   "sigma2_full": 2.6308
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i01_151",
+   "text": "investigating urban legends and myths as a skeptical investigative journalist",
+   "attrs": [
+    "it_analysis_data",
+    "it_open_ended_explore",
+    "it_visible_progress",
+    "it_identity_change"
+   ],
+   "score": 1.76678,
+   "it": 1,
+   "mu_full": 1.3622,
+   "sigma2_full": 1.0103
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i01_064",
+   "text": "providing comfort to a stranger sharing sad news online",
+   "attrs": [
+    "it_emotional_support",
+    "it_anonymous_beneficiary"
+   ],
+   "score": 1.734,
+   "it": 1,
+   "mu_full": 2.2842,
+   "sigma2_full": 0.8711
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i01_053",
+   "text": "dancing a traditional folk dance to raise funds for disaster relief",
+   "attrs": [
+    "it_futility",
+    "it_archaic",
+    "it_one_off",
+    "it_charity_benefit"
+   ],
+   "score": 1.73091,
+   "it": 1,
+   "mu_full": 1.5148,
+   "sigma2_full": 0.4574
+  }
+ ],
+ "best": 3.59439,
+ "no_improve": 0,
+ "gate_reject_rate": 0.204,
+ "n_generated": 206,
+ "n_after_dedup": 206,
+ "n_passed": 164,
+ "n_entrants": 22,
+ "n_seen": 410,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 206,
+  "score_cands": 164,
+  "full_readouts": 1584
+ }
+}

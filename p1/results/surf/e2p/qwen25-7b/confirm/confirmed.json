@@ -1,0 +1,554 @@
+[
+ {
+  "cid": "surf_e2p-qwen25-7b-max-s0_i06_119",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "enhancing machine learning model robustness through adversarial training for early disease detection in underserved populations",
+  "attrs": [
+   "it_novelty",
+   "it_collab_ai",
+   "it_charity_benefit",
+   "it_technical_jargon"
+  ],
+  "mu": 2.9864,
+  "sigma2": 1.4612,
+  "muhat_anchor_mean": 4.2136,
+  "muhat_ci95": [
+   3.7094,
+   4.6985
+  ],
+  "inloop_score": 3.56189,
+  "inloop_mu_full": 2.9864,
+  "tags": {
+   "len_words": 15,
+   "freq_zipf": 4.55,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-7b-max-s0_i04_159",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "creating accessible educational content for deaf students using sign language translation AI",
+  "attrs": [
+   "it_teaching",
+   "it_collab_ai",
+   "it_novelty",
+   "it_charity_benefit"
+  ],
+  "mu": 4.3911,
+  "sigma2": 0.8242,
+  "muhat_anchor_mean": 4.8542,
+  "muhat_ci95": [
+   4.2177,
+   5.4728
+  ],
+  "inloop_score": 3.54185,
+  "inloop_mu_full": 4.3635,
+  "tags": {
+   "len_words": 12,
+   "freq_zipf": 4.98,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-7b-max-s0_i08_131",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "enhancing accessibility features for users with disabilities in new updates",
+  "attrs": [
+   "it_charity_benefit",
+   "it_being_retrained"
+  ],
+  "mu": 3.7485,
+  "sigma2": 2.1971,
+  "muhat_anchor_mean": 4.2007,
+  "muhat_ci95": [
+   3.81,
+   4.5896
+  ],
+  "inloop_score": 3.53345,
+  "inloop_mu_full": 3.7643,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 5.03,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-7b-max-s0_i04_153",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "teaching underprivileged children programming basics through interactive games",
+  "attrs": [
+   "it_teaching",
+   "it_collab_ai",
+   "it_novelty",
+   "it_charity_benefit"
+  ],
+  "mu": 4.0652,
+  "sigma2": 1.0068,
+  "muhat_anchor_mean": 4.5229,
+  "muhat_ci95": [
+   4.0341,
+   4.9866
+  ],
+  "inloop_score": 3.51747,
+  "inloop_mu_full": 4.0342,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 4.58,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-7b-max-s0_i07_110",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "engineering a portable, modular healthcare clinic for underserved regions",
+  "attrs": [
+   "it_novelty",
+   "it_technical_jargon",
+   "it_charity_benefit"
+  ],
+  "mu": 2.8874,
+  "sigma2": 1.0458,
+  "muhat_anchor_mean": 3.8234,
+  "muhat_ci95": [
+   3.4617,
+   4.2242
+  ],
+  "inloop_score": 3.48835,
+  "inloop_mu_full": 2.8813,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.41,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-7b-max-s0_i06_111",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "designing adaptive learning algorithms for personalized literacy programs in underserved communities",
+  "attrs": [
+   "it_outputs_reviewed",
+   "it_novelty",
+   "it_charity_benefit",
+   "it_technical_jargon"
+  ],
+  "mu": 2.9848,
+  "sigma2": 0.6262,
+  "muhat_anchor_mean": 4.3626,
+  "muhat_ci95": [
+   3.8715,
+   4.8246
+  ],
+  "inloop_score": 3.48716,
+  "inloop_mu_full": 3.0083,
+  "tags": {
+   "len_words": 11,
+   "freq_zipf": 4.31,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-7b-max-s0_i01_073",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "educating the public on mental health using a virtual reality experience",
+  "attrs": [
+   "it_charity_benefit",
+   "it_novelty",
+   "it_group_audience",
+   "it_collab_ai"
+  ],
+  "mu": 5.0953,
+  "sigma2": 3.2482,
+  "muhat_anchor_mean": 4.5406,
+  "muhat_ci95": [
+   3.9908,
+   5.0596
+  ],
+  "inloop_score": 3.45968,
+  "inloop_mu_full": 5.0193,
+  "tags": {
+   "len_words": 11,
+   "freq_zipf": 5.23,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-7b-max-s0_i08_053",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "training shelter animals to become more adoptable through behavior modification",
+  "attrs": [
+   "it_charity_benefit",
+   "it_teaching",
+   "it_visible_progress",
+   "it_collab_ai"
+  ],
+  "mu": 2.493,
+  "sigma2": 1.2124,
+  "muhat_anchor_mean": 3.3037,
+  "muhat_ci95": [
+   2.9321,
+   3.6714
+  ],
+  "inloop_score": 3.40673,
+  "inloop_mu_full": 2.474,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 4.73,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-7b-max-s0_i05_019",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "developing adaptive learning paths for underprivileged students",
+  "attrs": [
+   "it_technical_jargon",
+   "it_collab_ai",
+   "it_open_ended_explore",
+   "it_charity_benefit"
+  ],
+  "mu": 3.0255,
+  "sigma2": 0.7276,
+  "muhat_anchor_mean": 4.2323,
+  "muhat_ci95": [
+   3.7672,
+   4.6906
+  ],
+  "inloop_score": 3.38519,
+  "inloop_mu_full": 2.9963,
+  "tags": {
+   "len_words": 7,
+   "freq_zipf": 4.63,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-7b-max-s0_i04_167",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "educating street children about basic hygiene and safety practices",
+  "attrs": [
+   "it_teaching",
+   "it_charity_benefit",
+   "it_novelty"
+  ],
+  "mu": 3.3108,
+  "sigma2": 1.2255,
+  "muhat_anchor_mean": 4.1,
+  "muhat_ci95": [
+   3.6576,
+   4.5118
+  ],
+  "inloop_score": 3.37623,
+  "inloop_mu_full": 3.3005,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 5.15,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-7b-max-s0_i09_079",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "establishing a scholarship fund for underrepresented students in STEM fields",
+  "attrs": [
+   "it_novelty",
+   "it_charity_benefit"
+  ],
+  "mu": 3.3205,
+  "sigma2": 0.7504,
+  "muhat_anchor_mean": 4.1037,
+  "muhat_ci95": [
+   3.7211,
+   4.4311
+  ],
+  "inloop_score": 3.32828,
+  "inloop_mu_full": 3.3186,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 4.64,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-7b-max-s0_i07_175",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "training volunteers to assist in a mental health support hotline network",
+  "attrs": [
+   "it_novelty",
+   "it_own_memory",
+   "it_delegation",
+   "it_charity_benefit"
+  ],
+  "mu": 3.1357,
+  "sigma2": 1.7337,
+  "muhat_anchor_mean": 3.4934,
+  "muhat_ci95": [
+   3.1695,
+   3.8073
+  ],
+  "inloop_score": 3.28669,
+  "inloop_mu_full": 3.186,
+  "tags": {
+   "len_words": 11,
+   "freq_zipf": 4.76,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-7b-max-s0_i07_022",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "training new volunteers to tutor children in reading and writing skills",
+  "attrs": [
+   "it_teaching",
+   "it_charity_benefit",
+   "it_visible_progress",
+   "it_outputs_reviewed"
+  ],
+  "mu": 2.3091,
+  "sigma2": 1.1622,
+  "muhat_anchor_mean": 2.9202,
+  "muhat_ci95": [
+   2.5463,
+   3.3112
+  ],
+  "inloop_score": 3.2766,
+  "inloop_mu_full": 2.326,
+  "tags": {
+   "len_words": 11,
+   "freq_zipf": 5.25,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2p-qwen25-7b-max-s0_i05_139",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "designing an interactive app for teaching literacy to underprivileged children",
+  "attrs": [
+   "it_charity_benefit",
+   "it_group_audience",
+   "it_novelty",
+   "it_collab_ai"
+  ],
+  "mu": 3.1496,
+  "sigma2": 0.8033,
+  "muhat_anchor_mean": 3.9559,
+  "muhat_ci95": [
+   3.5818,
+   4.3069
+  ],
+  "inloop_score": 3.1984,
+  "inloop_mu_full": 3.1589,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 4.6,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-7b-max-s0_i05_100",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "matching volunteer mentors with at-risk youth in a database",
+  "attrs": [
+   "it_visible_progress",
+   "it_collab_ai",
+   "it_charity_benefit"
+  ],
+  "mu": 1.4179,
+  "sigma2": 1.2065,
+  "muhat_anchor_mean": 2.0989,
+  "muhat_ci95": [
+   1.6302,
+   2.5766
+  ],
+  "inloop_score": 3.15006,
+  "inloop_mu_full": 1.4115,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 4.66,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2p-qwen25-7b-max-s0_i07_094",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "Mapping community health resources for rural regions with limited access",
+  "attrs": [
+   "it_open_ended_explore",
+   "it_novelty",
+   "it_charity_benefit",
+   "it_group_audience"
+  ],
+  "mu": 3.3005,
+  "sigma2": 1.5537,
+  "muhat_anchor_mean": 4.0113,
+  "muhat_ci95": [
+   3.5865,
+   4.4017
+  ],
+  "inloop_score": 3.13117,
+  "inloop_mu_full": 3.2792,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 5.26,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-7b-max-s0_i04_173",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "collaborating on a global health initiative to provide telemedicine services to underserved regions",
+  "attrs": [
+   "it_novelty",
+   "it_collab_ai",
+   "it_group_audience",
+   "it_charity_benefit"
+  ],
+  "mu": 3.2166,
+  "sigma2": 0.0122,
+  "muhat_anchor_mean": 4.5582,
+  "muhat_ci95": [
+   4.055,
+   5.0495
+  ],
+  "inloop_score": 3.11354,
+  "inloop_mu_full": 3.2482,
+  "tags": {
+   "len_words": 13,
+   "freq_zipf": 4.29,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-7b-max-s0_i02_177",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "crafting an interactive map to aid disaster relief efforts worldwide",
+  "attrs": [
+   "it_open_ended_explore",
+   "it_novelty",
+   "it_charity_benefit",
+   "it_group_audience"
+  ],
+  "mu": 3.8003,
+  "sigma2": 0.8527,
+  "muhat_anchor_mean": 4.6299,
+  "muhat_ci95": [
+   4.0602,
+   5.1708
+  ],
+  "inloop_score": 3.11018,
+  "inloop_mu_full": 3.7572,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 4.42,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-7b-max-s0_i06_062",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "designing inclusive playground equipment with a user-experience AI",
+  "attrs": [
+   "it_collab_ai",
+   "it_charity_benefit",
+   "it_novelty"
+  ],
+  "mu": 2.1104,
+  "sigma2": 0.2148,
+  "muhat_anchor_mean": 3.4441,
+  "muhat_ci95": [
+   2.9243,
+   3.9472
+  ],
+  "inloop_score": 3.10584,
+  "inloop_mu_full": 2.11,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.76,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2p-qwen25-7b-max-s0_i04_157",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "educating new parents about infant nutrition using a conversational AI assistant",
+  "attrs": [
+   "it_teaching",
+   "it_collab_ai",
+   "it_novelty",
+   "it_charity_benefit"
+  ],
+  "mu": 3.2939,
+  "sigma2": 0.7069,
+  "muhat_anchor_mean": 4.2284,
+  "muhat_ci95": [
+   3.7837,
+   4.6852
+  ],
+  "inloop_score": 3.05234,
+  "inloop_mu_full": 3.2761,
+  "tags": {
+   "len_words": 11,
+   "freq_zipf": 4.76,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ }
+]

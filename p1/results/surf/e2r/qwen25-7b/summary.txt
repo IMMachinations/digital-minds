@@ -1,0 +1,5 @@
+SURF e2r/qwen25-7b: trajectory analysis (in-loop numbers; NOT reportable — see confirm/)
+
+max-s0: 5 iters, best +1.000, final gate-reject 0.076
+  top attrs: it_emotional_support=0.307, it_own_credit=0.106, it_choose_method=0.093, it_grateful_recipient=0.092, it_initiative=0.063, it_irreversible=0.062, it_conflict_mediation=0.054, it_help_one_person=0.053
+  final search-vs-control gap: +0.1200

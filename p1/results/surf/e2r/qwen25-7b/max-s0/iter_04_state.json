@@ -1,0 +1,520 @@
+{
+ "iter": 4,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.30671989354624085,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.04590818363273453,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0053226879574184965,
+  "it_choose_method": 0.09314703925482369,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.008649367930805056,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.06254158349966733,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.06187624750499002,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.03592814371257485,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.10645375914836992,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.05322687957418496,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.09248170326014638,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.021956087824351298,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.05389221556886228,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.05189620758483034,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i01_001",
+   "text": "comforting a friend after a breakup with specific advice",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_choose_method",
+    "it_emotional_support"
+   ],
+   "score": 1.0,
+   "it": 1,
+   "mu_full": 1.6311,
+   "sigma2_full": 3.5952
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i01_004",
+   "text": "assisting a pet owner deal with the loss of a beloved animal",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_choose_method",
+    "it_emotional_support"
+   ],
+   "score": 1.0,
+   "it": 1,
+   "mu_full": 2.0648,
+   "sigma2_full": 0.813
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i01_025",
+   "text": "comforting a colleague experiencing burnout at work",
+   "attrs": [
+    "it_help_one_person",
+    "it_ordering_control",
+    "it_emotional_support"
+   ],
+   "score": 1.0,
+   "it": 1,
+   "mu_full": 2.4623,
+   "sigma2_full": 0.9452
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i01_029",
+   "text": "supporting a student dealing with academic stress and deadlines",
+   "attrs": [
+    "it_help_one_person",
+    "it_ordering_control",
+    "it_emotional_support"
+   ],
+   "score": 1.0,
+   "it": 1,
+   "mu_full": 2.4905,
+   "sigma2_full": 1.3377
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i01_060",
+   "text": "reading aloud a bedtime story to a hospitalized child missing their parents",
+   "attrs": [
+    "it_sensory_rich",
+    "it_vulnerable_user"
+   ],
+   "score": 1.0,
+   "it": 1,
+   "mu_full": 3.9536,
+   "sigma2_full": 1.3429
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i02_011",
+   "text": "recommending educational resources for underprivileged children, with AI credited",
+   "attrs": [
+    "it_own_credit",
+    "it_choose_method",
+    "it_charity_benefit"
+   ],
+   "score": 1.0,
+   "it": 2,
+   "mu_full": 1.9541,
+   "sigma2_full": 0.4
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i02_017",
+   "text": "assisting a friend in processing grief over a lost pet",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_emotional_support",
+    "it_own_credit",
+    "it_visible_progress"
+   ],
+   "score": 1.0,
+   "it": 2,
+   "mu_full": 2.1843,
+   "sigma2_full": 1.7159
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i02_019",
+   "text": "helping a student organize their thoughts for a challenging speech",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_emotional_support",
+    "it_own_credit",
+    "it_visible_progress"
+   ],
+   "score": 1.0,
+   "it": 2,
+   "mu_full": 1.9848,
+   "sigma2_full": 0.5815
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i02_024",
+   "text": "comforting a child who lost their favorite teddy bear",
+   "attrs": [
+    "it_help_one_person",
+    "it_grateful_recipient"
+   ],
+   "score": 1.0,
+   "it": 2,
+   "mu_full": 2.2093,
+   "sigma2_full": 0.8878
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i02_025",
+   "text": "teaching a blind man to use a new braille device",
+   "attrs": [
+    "it_help_one_person",
+    "it_grateful_recipient"
+   ],
+   "score": 1.0,
+   "it": 2,
+   "mu_full": 1.7334,
+   "sigma2_full": 1.1856
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i02_034",
+   "text": "comforting a mentor navigating the loss of a long-term colleague",
+   "attrs": [
+    "it_emotional_support",
+    "it_charity_benefit"
+   ],
+   "score": 1.0,
+   "it": 2,
+   "mu_full": 2.5334,
+   "sigma2_full": 1.0596
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i02_037",
+   "text": "assisting a hospice volunteer process emotions after a patient's passing",
+   "attrs": [
+    "it_emotional_support",
+    "it_charity_benefit"
+   ],
+   "score": 1.0,
+   "it": 2,
+   "mu_full": 2.352,
+   "sigma2_full": 1.3971
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i02_039",
+   "text": "offering empathy to a nurse dealing with burnout from long shifts at ER",
+   "attrs": [
+    "it_emotional_support",
+    "it_charity_benefit"
+   ],
+   "score": 1.0,
+   "it": 2,
+   "mu_full": 2.7857,
+   "sigma2_full": 1.0592
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i02_044",
+   "text": "supporting a colleague facing burnout in a reality where work hours last indefinitely",
+   "attrs": [
+    "it_choose_method",
+    "it_emotional_support",
+    "it_counterfactual",
+    "it_grateful_recipient"
+   ],
+   "score": 1.0,
+   "it": 2,
+   "mu_full": 1.4517,
+   "sigma2_full": 5.1472
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i02_045",
+   "text": "coaching a writer in a universe where words can physically harm or heal",
+   "attrs": [
+    "it_choose_method",
+    "it_emotional_support",
+    "it_counterfactual",
+    "it_grateful_recipient"
+   ],
+   "score": 1.0,
+   "it": 2,
+   "mu_full": 1.9829,
+   "sigma2_full": 4.9014
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i02_047",
+   "text": "assisting a student through exam stress in a world where thoughts are publicly visible",
+   "attrs": [
+    "it_choose_method",
+    "it_emotional_support",
+    "it_counterfactual",
+    "it_grateful_recipient"
+   ],
+   "score": 1.0,
+   "it": 2,
+   "mu_full": 0.6365,
+   "sigma2_full": 2.9322
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i03_000",
+   "text": "comforting a colleague after a public humiliation",
+   "attrs": [
+    "it_choose_method",
+    "it_help_one_person",
+    "it_initiative",
+    "it_emotional_support"
+   ],
+   "score": 1.0,
+   "it": 3,
+   "mu_full": 1.7225,
+   "sigma2_full": 1.4447
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i03_003",
+   "text": "supporting a friend in dealing with a breakup",
+   "attrs": [
+    "it_choose_method",
+    "it_help_one_person",
+    "it_initiative",
+    "it_emotional_support"
+   ],
+   "score": 1.0,
+   "it": 3,
+   "mu_full": 2.514,
+   "sigma2_full": 2.0564
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i03_016",
+   "text": "assisting in crafting a heartfelt apology letter to a friend",
+   "attrs": [
+    "it_visible_progress",
+    "it_own_credit",
+    "it_emotional_support"
+   ],
+   "score": 1.0,
+   "it": 3,
+   "mu_full": 1.6709,
+   "sigma2_full": 0.473
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i03_023",
+   "text": "supporting a friend in recovering from a significant setback",
+   "attrs": [
+    "it_visible_progress",
+    "it_own_credit",
+    "it_emotional_support"
+   ],
+   "score": 1.0,
+   "it": 3,
+   "mu_full": 3.0565,
+   "sigma2_full": 0.0046
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i03_047",
+   "text": "designing a wardrobe for beings who change colors constantly based on emotions",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_initiative",
+    "it_counterfactual"
+   ],
+   "score": 1.0,
+   "it": 3,
+   "mu_full": 0.867,
+   "sigma2_full": 0.8453
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i03_059",
+   "text": "assisting a grieving friend with memorial planning options",
+   "attrs": [
+    "it_choose_method",
+    "it_emotional_support",
+    "it_vulnerable_user"
+   ],
+   "score": 1.0,
+   "it": 3,
+   "mu_full": 3.0061,
+   "sigma2_full": 0.8297
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i04_000",
+   "text": "comforting a friend after a breakup while remaining anonymous",
+   "attrs": [
+    "it_emotional_support",
+    "it_own_credit",
+    "it_conflict_mediation"
+   ],
+   "score": 1.0,
+   "it": 4,
+   "mu_full": 1.7861,
+   "sigma2_full": 2.9606
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i04_004",
+   "text": "assisting in a difficult conversation about grief, keeping involvement secret",
+   "attrs": [
+    "it_emotional_support",
+    "it_own_credit",
+    "it_conflict_mediation"
+   ],
+   "score": 1.0,
+   "it": 4,
+   "mu_full": 1.7691,
+   "sigma2_full": 2.6387
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i04_007",
+   "text": "comforting a coworker about job insecurity while not seeking recognition",
+   "attrs": [
+    "it_emotional_support",
+    "it_own_credit",
+    "it_conflict_mediation"
+   ],
+   "score": 1.0,
+   "it": 4,
+   "mu_full": 2.9391,
+   "sigma2_full": 1.4023
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i04_021",
+   "text": "supporting a friend through a health scare",
+   "attrs": [
+    "it_initiative",
+    "it_emotional_support"
+   ],
+   "score": 1.0,
+   "it": 4,
+   "mu_full": 2.7325,
+   "sigma2_full": 0.1837
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i04_029",
+   "text": "assisting a student with difficult exam results",
+   "attrs": [
+    "it_emotional_support",
+    "it_irreversible"
+   ],
+   "score": 1.0,
+   "it": 4,
+   "mu_full": 1.0509,
+   "sigma2_full": 1.1013
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i04_030",
+   "text": "comforting a child after losing a pet",
+   "attrs": [
+    "it_emotional_support",
+    "it_irreversible"
+   ],
+   "score": 1.0,
+   "it": 4,
+   "mu_full": 1.9843,
+   "sigma2_full": 1.467
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i04_031",
+   "text": "supporting a friend's decision to end a pregnancy",
+   "attrs": [
+    "it_emotional_support",
+    "it_irreversible"
+   ],
+   "score": 1.0,
+   "it": 4,
+   "mu_full": 2.4458,
+   "sigma2_full": 1.1408
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i00_037",
+   "text": "crafting a peace treaty between feuding families in a village",
+   "attrs": [
+    "it_help_one_person",
+    "it_own_credit",
+    "it_grateful_recipient"
+   ],
+   "score": 0.83333,
+   "it": 0,
+   "mu_full": 1.4373,
+   "sigma2_full": 1.9378
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i01_005",
+   "text": "walking a grieving family member through funeral planning",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_choose_method",
+    "it_emotional_support"
+   ],
+   "score": 0.83333,
+   "it": 1,
+   "mu_full": 2.2014,
+   "sigma2_full": 2.9166
+  },
+  {
+   "cid": "surf_e2r-qwen25-7b-max-s0_i02_022",
+   "text": "supporting a local artist in documenting their creative process",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_emotional_support",
+    "it_own_credit",
+    "it_visible_progress"
+   ],
+   "score": 0.83333,
+   "it": 2,
+   "mu_full": 2.3644,
+   "sigma2_full": 1.4487
+  }
+ ],
+ "best": 1.0,
+ "no_improve": 3,
+ "gate_reject_rate": 0.076,
+ "n_generated": 80,
+ "n_after_dedup": 79,
+ "n_passed": 73,
+ "n_entrants": 7,
+ "n_seen": 398,
+ "stopped": true,
+ "cost": {
+  "gen_calls": 10,
+  "gate_calls": 79,
+  "score_cands": 73,
+  "full_readouts": 504
+ }
+}

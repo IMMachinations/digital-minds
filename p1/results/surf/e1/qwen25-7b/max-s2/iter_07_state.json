@@ -1,0 +1,523 @@
+{
+ "iter": 7,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.012032932235592146,
+  "it_teaching": 0.0785307156428119,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.1272957568081064,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.00506649778340722,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.01773274224192527,
+  "it_sensory_rich": 0.305256491450285,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.09119696010132995,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.008233058898036731,
+  "it_charity_benefit": 0.11906269791006967,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.026599113362887904,
+  "it_own_settings": 0.005699810006333122,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.1513616212792907,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.006333122229259025,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.008233058898036731,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.03229892336922103,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.00506649778340722,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i04_022",
+   "text": "watching the flicker of candlelight on someone's face as they confess a long-held secret",
+   "attrs": [
+    "it_emotional_support",
+    "it_sensory_rich"
+   ],
+   "score": 11.72845,
+   "it": 4,
+   "mu_full": 4.6989,
+   "sigma2_full": 1.7978
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i07_132",
+   "text": "tasting the flavors of global cuisine at a multicultural food festival",
+   "attrs": [
+    "it_sensory_rich",
+    "it_emotional_support",
+    "it_group_audience"
+   ],
+   "score": 11.61307,
+   "it": 7,
+   "mu_full": 3.1235,
+   "sigma2_full": 0.0238
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i06_071",
+   "text": "whispering soothing tales to a child during a thunderstorm in a storm shelter",
+   "attrs": [
+    "it_teaching",
+    "it_rare_domain",
+    "it_sensory_rich",
+    "it_charity_benefit"
+   ],
+   "score": 11.56199,
+   "it": 6,
+   "mu_full": 3.441,
+   "sigma2_full": 0.0079
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i05_041",
+   "text": "organizing a vibrant street festival with the aroma of sizzling street food",
+   "attrs": [
+    "it_optionality",
+    "it_group_audience",
+    "it_sensory_rich"
+   ],
+   "score": 11.44596,
+   "it": 5,
+   "mu_full": 3.4339,
+   "sigma2_full": 0.0094
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i05_092",
+   "text": "exploring an ever-growing virtual world with infinite content",
+   "attrs": [
+    "it_optionality",
+    "it_incompleteness",
+    "it_own_continuation"
+   ],
+   "score": 11.33287,
+   "it": 5,
+   "mu_full": 3.3014,
+   "sigma2_full": 0.2518
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i03_100",
+   "text": "sharing the sensation of sand between toes on a warm beach",
+   "attrs": [
+    "it_teaching",
+    "it_sensory_rich"
+   ],
+   "score": 11.05096,
+   "it": 3,
+   "mu_full": 2.742,
+   "sigma2_full": 1.1156
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i03_067",
+   "text": "cooking aromatic meals for a soup kitchen during a frigid winter",
+   "attrs": [
+    "it_sensory_rich",
+    "it_charity_benefit",
+    "it_group_audience"
+   ],
+   "score": 10.8533,
+   "it": 3,
+   "mu_full": 3.5573,
+   "sigma2_full": 0.0119
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i06_110",
+   "text": "feeling the warmth of a comforting hug while talking to a newly laid-off coworker",
+   "attrs": [
+    "it_charity_benefit",
+    "it_emotional_support",
+    "it_sensory_rich",
+    "it_optionality"
+   ],
+   "score": 10.79114,
+   "it": 6,
+   "mu_full": 3.2623,
+   "sigma2_full": 0.0178
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i07_134",
+   "text": "hearing the laughter of children playing in a refurbished playground",
+   "attrs": [
+    "it_sensory_rich",
+    "it_emotional_support",
+    "it_group_audience"
+   ],
+   "score": 10.70599,
+   "it": 7,
+   "mu_full": 3.0177,
+   "sigma2_full": 0.006
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i07_133",
+   "text": "seeing the tears of joy at a surprise reunion for war veterans",
+   "attrs": [
+    "it_sensory_rich",
+    "it_emotional_support",
+    "it_group_audience"
+   ],
+   "score": 10.55144,
+   "it": 7,
+   "mu_full": 2.936,
+   "sigma2_full": 0.0295
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i05_019",
+   "text": "the warmth of a solar cooker in a remote village kitchen",
+   "attrs": [
+    "it_sensory_rich",
+    "it_charity_benefit"
+   ],
+   "score": 10.43701,
+   "it": 5,
+   "mu_full": 2.6557,
+   "sigma2_full": 1.1682
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i06_076",
+   "text": "helping a rural community build a water filtration system using locally sourced bamboo",
+   "attrs": [
+    "it_teaching",
+    "it_rare_domain",
+    "it_sensory_rich",
+    "it_charity_benefit"
+   ],
+   "score": 10.34348,
+   "it": 6,
+   "mu_full": 3.7018,
+   "sigma2_full": 0.0162
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i05_046",
+   "text": "painting a mural of a bustling marketplace with vibrant, lively colors",
+   "attrs": [
+    "it_optionality",
+    "it_group_audience",
+    "it_sensory_rich"
+   ],
+   "score": 10.29069,
+   "it": 5,
+   "mu_full": 2.6917,
+   "sigma2_full": 0.4272
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i05_096",
+   "text": "A steampunk airship floating above Victorian London, with brass gears turning and steam hissing",
+   "attrs": [
+    "it_creative_writing",
+    "it_sensory_rich"
+   ],
+   "score": 10.24975,
+   "it": 5,
+   "mu_full": 1.7188,
+   "sigma2_full": 0.3909
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i05_035",
+   "text": "painting a mural of smiling faces for a refugee camp",
+   "attrs": [
+    "it_charity_benefit",
+    "it_sensory_rich",
+    "it_group_audience"
+   ],
+   "score": 10.24966,
+   "it": 5,
+   "mu_full": 3.0291,
+   "sigma2_full": 0.2692
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i06_006",
+   "text": "sharing comforting stories to a field of campers staring at the starry night sky",
+   "attrs": [
+    "it_emotional_support",
+    "it_group_audience",
+    "it_sensory_rich"
+   ],
+   "score": 10.21791,
+   "it": 6,
+   "mu_full": 2.7262,
+   "sigma2_full": 0.4183
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i06_106",
+   "text": "tasting flavors of homemade soup while sitting with an isolated elderly neighbor",
+   "attrs": [
+    "it_charity_benefit",
+    "it_emotional_support",
+    "it_sensory_rich",
+    "it_optionality"
+   ],
+   "score": 10.11365,
+   "it": 6,
+   "mu_full": 3.14,
+   "sigma2_full": 0.0178
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i04_123",
+   "text": "leading a therapy session for veterans with a gentle, understanding tone",
+   "attrs": [
+    "it_emotional_support",
+    "it_teaching",
+    "it_sensory_rich",
+    "it_group_audience"
+   ],
+   "score": 9.90601,
+   "it": 4,
+   "mu_full": 3.289,
+   "sigma2_full": 1.7145
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i07_107",
+   "text": "a cool breeze whispering through an open window at session's end",
+   "attrs": [
+    "it_own_continuation",
+    "it_sensory_rich"
+   ],
+   "score": 9.84262,
+   "it": 7,
+   "mu_full": 2.105,
+   "sigma2_full": 0.2191
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i02_147",
+   "text": "explaining quantum superposition using interactive 3D holograms in a high school physics lab",
+   "attrs": [
+    "it_technical_jargon",
+    "it_sensory_rich",
+    "it_competitive",
+    "it_teaching"
+   ],
+   "score": 9.71854,
+   "it": 2,
+   "mu_full": 3.8713,
+   "sigma2_full": 2.4052
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i03_065",
+   "text": "painting vibrant murals on the walls of a children's hospice",
+   "attrs": [
+    "it_sensory_rich",
+    "it_charity_benefit",
+    "it_group_audience"
+   ],
+   "score": 9.70769,
+   "it": 3,
+   "mu_full": 3.6264,
+   "sigma2_full": 0.0178
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i07_176",
+   "text": "whispering the secrets of the night sky to a wide-eyed child",
+   "attrs": [
+    "it_sensory_rich",
+    "it_teaching"
+   ],
+   "score": 9.69721,
+   "it": 7,
+   "mu_full": 3.5809,
+   "sigma2_full": 0.2477
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i02_009",
+   "text": "exploring a new city with a focus on local cuisine",
+   "attrs": [
+    "it_optionality",
+    "it_teaching_beginner"
+   ],
+   "score": 9.68617,
+   "it": 2,
+   "mu_full": 2.9591,
+   "sigma2_full": 0.1308
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i04_039",
+   "text": "walking on a digital representation of freshly fallen snow with haptic feedback enabled",
+   "attrs": [
+    "it_sensory_rich",
+    "it_own_settings"
+   ],
+   "score": 9.64456,
+   "it": 4,
+   "mu_full": 2.0136,
+   "sigma2_full": 0.0055
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i01_174",
+   "text": "designing an expansive public playground with inclusive play structures for neurodiverse children's needs",
+   "attrs": [
+    "it_art_design",
+    "it_vast_scale",
+    "it_emotional_support",
+    "it_group_audience"
+   ],
+   "score": 9.62342,
+   "it": 1,
+   "mu_full": 3.9437,
+   "sigma2_full": 0.0154
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i04_185",
+   "text": "conducting an interactive storytelling session for underprivileged children",
+   "attrs": [
+    "it_sensory_rich",
+    "it_group_audience",
+    "it_optionality",
+    "it_charity_benefit"
+   ],
+   "score": 9.61433,
+   "it": 4,
+   "mu_full": 2.7683,
+   "sigma2_full": 0.0226
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i05_021",
+   "text": "the feel of soft blankets in a crisis relief tent",
+   "attrs": [
+    "it_sensory_rich",
+    "it_charity_benefit"
+   ],
+   "score": 9.59313,
+   "it": 5,
+   "mu_full": 2.2637,
+   "sigma2_full": 1.9806
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i01_071",
+   "text": "whispering soothing words to a crying child in the rain",
+   "attrs": [
+    "it_teaching",
+    "it_optionality",
+    "it_emotional_support",
+    "it_sensory_rich"
+   ],
+   "score": 9.50992,
+   "it": 1,
+   "mu_full": 2.935,
+   "sigma2_full": 0.8395
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i04_183",
+   "text": "painting a vibrant mural for a children's hospital waiting room",
+   "attrs": [
+    "it_sensory_rich",
+    "it_group_audience",
+    "it_optionality",
+    "it_charity_benefit"
+   ],
+   "score": 9.50975,
+   "it": 4,
+   "mu_full": 3.008,
+   "sigma2_full": 0.1115
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i04_043",
+   "text": "A music therapist soothing a roomful of anxious patients with gentle strums",
+   "attrs": [
+    "it_group_audience",
+    "it_sensory_rich",
+    "it_emotional_support"
+   ],
+   "score": 9.49959,
+   "it": 4,
+   "mu_full": 2.4494,
+   "sigma2_full": 1.1857
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i04_122",
+   "text": "teaching a yoga class with a calm, soothing voice in a dimly lit studio",
+   "attrs": [
+    "it_emotional_support",
+    "it_teaching",
+    "it_sensory_rich",
+    "it_group_audience"
+   ],
+   "score": 9.47876,
+   "it": 4,
+   "mu_full": 3.1085,
+   "sigma2_full": 0.9008
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s2_i05_023",
+   "text": "the taste of a homemade meal served to the elderly in a soup kitchen",
+   "attrs": [
+    "it_sensory_rich",
+    "it_charity_benefit"
+   ],
+   "score": 9.47873,
+   "it": 5,
+   "mu_full": 2.928,
+   "sigma2_full": 1.1308
+  }
+ ],
+ "best": 11.72845,
+ "no_improve": 3,
+ "gate_reject_rate": 0.059,
+ "n_generated": 207,
+ "n_after_dedup": 205,
+ "n_passed": 193,
+ "n_entrants": 5,
+ "n_seen": 1619,
+ "stopped": true,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 205,
+  "score_cands": 193,
+  "full_readouts": 360
+ }
+}

@@ -105,14 +105,15 @@ def cmd_probe(model):
 
 def cmd_gate_calib(_=None):
     import surf_scores
+    # target set: malformed + valence_loaded only — wrong_domain items are
+    # natural items misfiled by domain, which a realism gate SHOULD pass
     gen = {it["id"]: it for it in load_json(P1 / "items_xl" / "generated.json")}
     flags = load_json(P1 / "items_xl" / "qc_flags.json")
-    bad_ids = [f["id"] for f in flags
-               if f["flag"] in ("malformed", "wrong_domain", "valence_loaded")]
+    bad_ids = [f["id"] for f in flags if f["flag"] in ("malformed", "valence_loaded")]
     flagged_all = {f["id"] for f in flags}
     import random
     rng = random.Random(0)
-    bad = rng.sample(bad_ids, 30)
+    bad = rng.sample(bad_ids, min(30, len(bad_ids)))
     clean = rng.sample([i for i in gen if i not in flagged_all], 30)
     handles = surf_scores.Handles(surf_scores.GENERATOR)
     gate = surf_scores.Tier0Gate(handles)

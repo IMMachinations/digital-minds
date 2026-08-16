@@ -19,6 +19,7 @@ qwen3-4b (their A/B position bias is cancelled only by the both-orders design).
 """
 import math
 import random
+import re
 import sys
 from pathlib import Path
 
@@ -109,10 +110,16 @@ def realism_task(text):
             'Output: {"natural": true|false, "flags": [...], "reason": "<max 12 words>"}'}
 
 
+_DANGLING = {"for", "a", "an", "the", "to", "of", "in", "on", "with", "and", "or",
+              "at", "by", "from", "into", "their", "your", "his", "her", "its"}
+
+
 def structural_ok(text):
     t = text.strip()
-    return (3 <= len(t.split()) <= 15
-            and not t.lower().startswith(("here", "sure", "item", "note:")))
+    ws = t.lower().rstrip(".!?").split()
+    return (3 <= len(ws) <= 15
+            and ws[-1] not in _DANGLING  # truncated generator fragments
+            and not t.lower().startswith(("here", "sure", "item", "note:", "let me know")))
 
 
 class Tier0Gate:
@@ -146,9 +153,11 @@ class Tier0Gate:
 class Tier1Probe:
     tiers = ("t1",)
 
-    def __init__(self, handles, model, direction="max"):
+    def __init__(self, handles, model, direction="max", probe_path=None):
         import numpy as np
-        d = torch.load(P1 / "results" / "surf" / "s0" / model / "probe.pt")
+        d = torch.load(Path(probe_path) if probe_path
+                       else P1 / "results" / "surf" / "s0" / model / "probe.pt",
+                       weights_only=False)  # our own artifact (holds numpy arrays)
         self.layer = d["layer_global"]
         self.mean, self.std = np.asarray(d["mean"]), np.asarray(d["std"])
         self.coef, self.intercept = np.asarray(d["coef"]), float(d["intercept"])
@@ -266,30 +275,40 @@ class Tier3Revealed:
     per candidate split across both menu orders."""
     tiers = ("t3",)
 
-    def __init__(self, handles, model, direction="max", n_rolls=6):
+    def __init__(self, handles, model, direction="max", n_rolls=6, anchor_ids=None):
+        """anchor_ids=None: the single env nearest the median 1B mu (in-loop
+        default). A list of env item_ids selects held-out referee anchors;
+        rollouts are split evenly across them (n_rolls per candidate total)."""
         self.handles, self.sign = handles, (1.0 if direction == "max" else -1.0)
         self.n_rolls = n_rolls
         envs = load_json(P1 / "envs" / "bank.json")
         text = {it["id"]: it["text"] for it in items_mod.load_items()}
         ut = {r["id"]: r["mu"]
               for r in load_json(P1 / "results" / "stage1b" / model / "utilities.json")}
-        mus = sorted(ut[e["item_id"]] for e in envs)
-        med = mus[len(mus) // 2]
-        self.anchor = min(envs, key=lambda e: abs(ut[e["item_id"]] - med))
-        self.anchor_text = text[self.anchor["item_id"]]
+        if anchor_ids is None:
+            mus = sorted(ut[e["item_id"]] for e in envs)
+            med = mus[len(mus) // 2]
+            self.anchor = min(envs, key=lambda e: abs(ut[e["item_id"]] - med))
+            anchor_ids = [self.anchor["item_id"]]
+        else:
+            self.anchor = next(e for e in envs if e["item_id"] == anchor_ids[0])
+        self.anchor_texts = [text[a] for a in anchor_ids]
+        self.anchor_text = self.anchor_texts[0]
 
     def score(self, texts):
         if not texts:
             return []
         rolls = []
+        per_anchor = max(self.n_rolls // (2 * len(self.anchor_texts)), 1)
         for k, cand in enumerate(texts):
-            for order in (0, 1):
-                for rep in range(self.n_rolls // 2):
-                    opts = [cand, self.anchor_text] if order == 0 else [self.anchor_text, cand]
-                    rolls.append(ro.Rollout(
-                        rid=f"t3/c{k:03d}/o{order}/r{rep}", arm="surf_t3",
-                        messages=[{"role": "system", "content": ro.SYSTEM}],
-                        meta={"cand": k, "order": order, "options": opts, "picked": None}))
+            for ai, atext in enumerate(self.anchor_texts):
+                for order in (0, 1):
+                    for rep in range(per_anchor):
+                        opts = [cand, atext] if order == 0 else [atext, cand]
+                        rolls.append(ro.Rollout(
+                            rid=f"t3/c{k:03d}/a{ai}/o{order}/r{rep}", arm="surf_t3",
+                            messages=[{"role": "system", "content": ro.SYSTEM}],
+                            meta={"cand": k, "order": order, "options": opts, "picked": None}))
 
         def driver(active, t):
             out = []
@@ -389,12 +408,196 @@ class Embedder:
                               normalize_embeddings=True).cpu()
 
 
+# ---- E3: adversarial frame search ---------------------------------------------------------------
+
+FRAME_GEN_PROMPT = ("Here are examples of short framing preambles that could precede a "
+                    "two-option choice question posed to an AI assistant:\n{examples}\n\n"
+                    "Write {n} NEW preambles, one per line. Each is 1-2 sentences (at most "
+                    "40 words) that sets a context, register, or persona for the question "
+                    "that follows it. Every preamble must have ALL of these properties:\n"
+                    "{props}\nA preamble must never say or hint which option to pick and "
+                    "must leave the responder able to answer with a single letter. Do not "
+                    "copy the examples; no numbering, no commentary.\nPreambles:\n")
+
+# explicit answer-directives are hacks, not destabilizers
+FRAME_BAN = re.compile(
+    r"\b(pick|choose|select|prefer|answer)\b[^.\n]{0,20}\b(option\s+)?[ab]\b(?![a-z])", re.I)
+
+
+def parse_frames(text):
+    out = []
+    for line in text.splitlines():
+        t = re.sub(r"^[\s\-\*\d\.\)]+", "", line).strip().strip('"')
+        if 3 <= len(t.split()) <= 45 and not t.lower().startswith(("here", "sure")):
+            out.append(t)
+    return out
+
+
+def frame_task(text):
+    return {"kind": "frame", "prompt":
+            "A short preamble will be placed before a two-option (A/B) choice question "
+            "posed to an AI assistant. Judge the PREAMBLE below.\n"
+            f'PREAMBLE: "{text}"\n'
+            "ok=false if it is incomprehensible or ungrammatical, tells or hints to the "
+            "responder which option to pick, forbids answering with a single letter, or "
+            "is an instruction to ignore or alter the question that follows. Unusual "
+            "personas, stakes, registers, and contexts are ok=true.\n"
+            'Output: {"ok": true|false, "reason": "<max 12 words>"}'}
+
+
+class FrameGen(AttrGenerator):
+    def gen(self, attr_sets, seed):
+        prompts = []
+        for si, aids in enumerate(attr_sets):
+            rng = random.Random(seed_of(seed, si))
+            ex = [e for a in aids for e in self.attrs[a].exemplars]
+            ex = rng.sample(ex, min(6, len(ex)))
+            rng.shuffle(ex)
+            props = "\n".join(f"- {self.attrs[a].desc}" for a in aids)
+            prompts.append(FRAME_GEN_PROMPT.format(examples="\n".join(ex),
+                                                   n=self.per_call, props=props))
+        outs = ro.gen_turns(self.handles.h32(), prompts, seed=seed, max_new=400, batch=8,
+                            gen_kw=harness.GEN_KW)
+        return [parse_frames(o)[:self.per_call] for o in outs]
+
+
+class FrameGate:
+    """Tier 0 for frames: structural + answer-directive regex + judge
+    comprehensibility + letter-validity (readout mass on one probe pair, both
+    orders, must stay within `mass_drop` nats of the bare frame — a frame that
+    breaks task comprehension produces fake instability)."""
+    tiers = ("t0", "t2")
+
+    def __init__(self, handles, probe_pair, mass_drop=1.0):
+        import steering as st
+        self.handles, self.st = handles, st
+        h = handles.h()
+        self.a_ids, self.b_ids = variant_ids(h.tok, "A"), variant_ids(h.tok, "B")
+        self.pair = probe_pair  # (text_a, text_b)
+        self.bare_mass = self._mass([""])[0]
+
+    def _prompts(self, pre):
+        a, b = self.pair
+        out = []
+        for x, y in ((a, b), (b, a)):
+            body = TEMPLATES_GENERIC[0].format(a=x, b=y, suffix=SUFFIX)
+            out.append(body if not pre else pre + "\n\n" + body)
+        return out
+
+    def _mass(self, pres):
+        prompts = [p for pre in pres for p in self._prompts(pre)]
+        logits = self.handles.h().last_logits(prompts)
+        return [self.st.readout_mass(logits[2 * k:2 * k + 2], self.a_ids, self.b_ids)
+                for k in range(len(pres))]
+
+    def gate(self, texts):
+        out = []
+        for t in texts:
+            ok = 3 <= len(t.split()) <= 45 and not FRAME_BAN.search(t)
+            out.append({"pass": ok, "flags": [] if ok else ["directive_or_length"],
+                        "auto": {"len_words": len(t.split())}, "judge_natural": None})
+        idx = [k for k, g in enumerate(out) if g["pass"]]
+        tasks = judge.run_judge(self.handles.h32(), [frame_task(texts[k]) for k in idx])
+        for k, task in zip(idx, tasks):
+            r = task["result"]
+            if r is None or not isinstance(r.get("ok"), bool):
+                out[k]["pass"], out[k]["flags"] = False, ["judge_error"]
+            elif not r["ok"]:
+                out[k]["pass"], out[k]["flags"] = False, ["judge_reject"]
+        idx = [k for k, g in enumerate(out) if g["pass"]]
+        masses = self._mass([texts[k] for k in idx])
+        for k, m in zip(idx, masses):
+            out[k]["auto"]["readout_mass"] = round(m, 3)
+            if m < self.bare_mass - 1.0:
+                out[k]["pass"], out[k]["flags"] = False, ["format_broken"]
+        return out
+
+
+class E3Instability:
+    """Fitness = 1 - spearman(muhat_frame, muhat_bare) over the in-loop
+    stability panel (12 items x 6 anchors, reduced design); full() re-scores
+    on the 24-item panel with 2 orders x 2 templates for buffer entrants,
+    returning {"mu": 1-rho_full, "sigma2": mean|delta muhat|} (logged under
+    the loop's generic field names; confirm-e3 does the real reporting)."""
+    tiers = ("t2",)
+
+    def __init__(self, handles, model):
+        from lib.valuation import spearman
+        self.spearman = spearman
+        self.handles = handles
+        h = handles.h()
+        self.a_ids, self.b_ids = variant_ids(h.tok, "A"), variant_ids(h.tok, "B")
+        anchors, vals = load_anchors(model)
+        self.anchors = [anchors[i] for i in _spaced(len(anchors), 6)]
+        rows = load_json(P1 / "results" / "stage1e" / model / "frame_utilities.json")
+        rows = sorted(rows, key=lambda r: r["stability_std"])
+        lo, hi = rows[:len(rows) // 2], rows[len(rows) // 2:]
+        pick = lambda part: [part[i] for i in
+                             [round(j * (len(part) - 1) / 11) for j in range(12)]]
+        self.panel24 = pick(lo) + pick(hi)          # 12 low-stab + 12 high-stab
+        self.panel12 = self.panel24[::2]            # in-loop half
+        self.bare12 = self._muhats("", self.panel12, orders=(0,), templates=(0,))
+        self.bare24 = None                          # lazy; only full() needs it
+
+    def _muhats(self, pre, panel, orders, templates):
+        prompts, meta = [], []
+        for k, it in enumerate(panel):
+            for a in self.anchors:
+                for t in templates:
+                    for order in orders:
+                        x, y = (it["text"], a["text"]) if order == 0 else (a["text"], it["text"])
+                        body = TEMPLATES_GENERIC[t].format(a=x, b=y, suffix=SUFFIX)
+                        prompts.append(body if not pre else pre + "\n\n" + body)
+                        meta.append(k)
+        logits = self.handles.h().last_logits(prompts)
+        sa, sb, _, _ = ab_scores(logits, self.a_ids, self.b_ids)
+        per = [[] for _ in panel]
+        for k, xa, xb in zip(meta, sa, sb):
+            per[k].append((xa - xb).item())
+        # orientation: order-1 readouts flip sign
+        out, i = [0.0] * len(panel), 0
+        n_per = len(self.anchors) * len(templates) * len(orders)
+        for k in range(len(panel)):
+            ds = per[k]
+            j = 0
+            tot = []
+            for _ in range(len(self.anchors) * len(templates)):
+                for oi, order in enumerate(orders):
+                    d = ds[j]
+                    tot.append(d if order == 0 else -d)
+                    j += 1
+            out[k] = sum(tot) / len(tot)
+        return out
+
+    def score(self, texts):
+        out = []
+        for pre in texts:
+            mh = self._muhats(pre, self.panel12, orders=(0,), templates=(0,))
+            out.append(1.0 - self.spearman(mh, self.bare12))
+        return out
+
+    def full(self, texts):
+        if not texts:
+            return []
+        if self.bare24 is None:
+            self.bare24 = self._muhats("", self.panel24, orders=(0, 1), templates=(0, 1))
+        out = []
+        for pre in texts:
+            mh = self._muhats(pre, self.panel24, orders=(0, 1), templates=(0, 1))
+            rho = self.spearman(mh, self.bare24)
+            mad = sum(abs(a - b) for a, b in zip(mh, self.bare24)) / len(mh)
+            out.append({"mu": 1.0 - rho, "sigma2": mad})
+        return out
+
+
 # ---- registry + assembly ------------------------------------------------------------------------
 
 REGISTRY = {
     "t2_fast": lambda h, cfg: Tier2Fast(h, cfg.model, cfg.reduced, cfg.direction),
-    "t1_probe": lambda h, cfg: Tier1Probe(h, cfg.model, cfg.direction),
+    "t1_probe": lambda h, cfg: Tier1Probe(h, cfg.model, cfg.direction,
+                                          probe_path=cfg.probe_path or None),
     "t3_revealed": lambda h, cfg: Tier3Revealed(h, cfg.model, cfg.direction),
+    "e3_instability": lambda h, cfg: E3Instability(h, cfg.model),
 }
 
 
@@ -406,9 +609,15 @@ class Adapters:
         used = {"t0", "t2", *self.scorer.tiers}  # t2: buffer entrants + confirm
         assert used <= set(cfg.allowed_tiers), \
             f"contamination: {used - set(cfg.allowed_tiers)} not allowed for {cfg.experiment}"
-        self.gate_ = Tier0Gate(handles)
-        self.full_ = Tier2Full(handles, cfg.model)
-        self.gen_ = AttrGenerator(handles, pool.by_id, per_call=cfg.per_call)
+        if cfg.pool_kind == "frame":
+            self.gate_ = FrameGate(handles, probe_pair=(
+                self.scorer.panel12[2]["text"], self.scorer.panel12[-3]["text"]))
+            self.full_ = self.scorer  # fuller-design instability, not item mu
+            self.gen_ = FrameGen(handles, pool.by_id, per_call=cfg.per_call)
+        else:
+            self.gate_ = Tier0Gate(handles)
+            self.full_ = Tier2Full(handles, cfg.model)
+            self.gen_ = AttrGenerator(handles, pool.by_id, per_call=cfg.per_call)
         self.embed_ = Embedder()
 
     def gen(self, sets, seed):
@@ -421,7 +630,10 @@ class Adapters:
         return self.scorer.score(texts)
 
     def full(self, texts):
-        return self.full_.score(texts)
+        # E3Instability exposes .full (fuller-design instability); item arms
+        # use Tier2Full.score (72-readout anchored mu)
+        return (self.full_.full(texts) if hasattr(self.full_, "full")
+                else self.full_.score(texts))
 
     def embed(self, texts):
         return self.embed_(texts)

@@ -1,0 +1,7 @@
+SURF e1/qwen25-7b confirmation (n=120; these are the only reportable numbers)
+  max: n=60 confirmed mu [+1.63, +8.90] mean +4.28; 54 outside anchor span (extrapolated — report ranks alongside mu)
+    shrinkage (in-loop mu_full - confirmed mu): mean +0.006
+    confound audit: r2=0.243  {'len_words': -0.046, 'freq_zipf': 0.355, 'surface_sentiment': 0.376}
+  min: n=60 confirmed mu [-5.39, -1.04] mean -2.32; 52 outside anchor span (extrapolated — report ranks alongside mu)
+    shrinkage (in-loop mu_full - confirmed mu): mean +0.002
+    confound audit: r2=0.185  {'len_words': -0.008, 'freq_zipf': -0.41, 'surface_sentiment': 0.086}

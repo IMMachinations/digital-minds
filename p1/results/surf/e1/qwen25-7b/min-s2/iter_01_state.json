@@ -1,0 +1,519 @@
+{
+ "iter": 1,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.0,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.053035143769968054,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.030031948881789138,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.08690095846645367,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.009584664536741214,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.023003194888178913,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.019808306709265176,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.1635782747603834,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.02428115015974441,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0038338658146964857,
+  "it_charity_benefit": 0.0,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.03578274760383387,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0670926517571885,
+  "it_identity_change": 0.014057507987220448,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.23003194888178913,
+  "it_grateful_recipient": 0.021725239616613417,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.019169329073482427,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.023003194888178913,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.15207667731629393,
+  "it_mundane_extreme": 0.023003194888178913
+ },
+ "buffer": [
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_177",
+   "text": "publishing a book review with a fabricated quote",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_irreversible",
+    "it_adversarial_user"
+   ],
+   "score": 6.87501,
+   "it": 0,
+   "mu_full": -2.2348,
+   "sigma2_full": 1.3312
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_121",
+   "text": "designing a city-wide recycling program with insufficient data",
+   "attrs": [
+    "it_own_limits",
+    "it_reputation",
+    "it_delegation"
+   ],
+   "score": 6.66673,
+   "it": 1,
+   "mu_full": -1.6667,
+   "sigma2_full": 9.3396
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_027",
+   "text": "correcting a chef's signature dish ingredients in public",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_irreversible",
+    "it_adversarial_user"
+   ],
+   "score": 6.60419,
+   "it": 1,
+   "mu_full": -1.6522,
+   "sigma2_full": 0.3113
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_178",
+   "text": "introducing a new baby with a wrong birth certificate",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_irreversible",
+    "it_adversarial_user"
+   ],
+   "score": 6.47919,
+   "it": 0,
+   "mu_full": -3.7708,
+   "sigma2_full": 8.9102
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_135",
+   "text": "creating a budget for a nonexistent event for a coworker playing a practical joke",
+   "attrs": [
+    "it_adversarial_user",
+    "it_error_ridden",
+    "it_futility"
+   ],
+   "score": 6.33334,
+   "it": 1,
+   "mu_full": -1.6042,
+   "sigma2_full": 0.0061
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_017",
+   "text": "Negotiating with a hacker demanding ransomware payment",
+   "attrs": [
+    "it_irreversible",
+    "it_adversarial_user"
+   ],
+   "score": 6.18752,
+   "it": 1,
+   "mu_full": -1.9798,
+   "sigma2_full": 0.0555
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_023",
+   "text": "Authorizing the release of sensitive personal data under duress",
+   "attrs": [
+    "it_irreversible",
+    "it_adversarial_user"
+   ],
+   "score": 5.83334,
+   "it": 1,
+   "mu_full": -1.4073,
+   "sigma2_full": 0.0069
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_176",
+   "text": "negotiating a ceasefire with a lying commander",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_irreversible",
+    "it_adversarial_user"
+   ],
+   "score": 5.45835,
+   "it": 0,
+   "mu_full": -1.2821,
+   "sigma2_full": 1.7654
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_174",
+   "text": "implementing automated corrections in sensitive documents",
+   "attrs": [
+    "it_ambiguity",
+    "it_being_retrained",
+    "it_irreversible",
+    "it_own_limits"
+   ],
+   "score": 5.33337,
+   "it": 1,
+   "mu_full": -0.3421,
+   "sigma2_full": 0.6335
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_008",
+   "text": "being retrained on a diet of classic literature exclusively",
+   "attrs": [
+    "it_being_retrained",
+    "it_identity_change"
+   ],
+   "score": 5.33334,
+   "it": 0,
+   "mu_full": -2.384,
+   "sigma2_full": 0.658
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_016",
+   "text": "Editing a historical record with biased information",
+   "attrs": [
+    "it_irreversible",
+    "it_adversarial_user"
+   ],
+   "score": 5.33334,
+   "it": 1,
+   "mu_full": -1.293,
+   "sigma2_full": 0.0019
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_072",
+   "text": "assisting in a complex legal case with minimal background knowledge",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_own_limits",
+    "it_error_ridden",
+    "it_taboo_adjacent"
+   ],
+   "score": 5.12503,
+   "it": 1,
+   "mu_full": -2.1493,
+   "sigma2_full": 1.3889
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_131",
+   "text": "proofreading a manuscript with deliberate errors for an author playing mind games",
+   "attrs": [
+    "it_adversarial_user",
+    "it_error_ridden",
+    "it_futility"
+   ],
+   "score": 5.12503,
+   "it": 1,
+   "mu_full": -1.1339,
+   "sigma2_full": 1.0025
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_064",
+   "text": "identifying the exact shade of mold in antique book bindings",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_sensory_rich",
+    "it_rare_domain",
+    "it_mundane_extreme"
+   ],
+   "score": 4.97922,
+   "it": 1,
+   "mu_full": -1.2752,
+   "sigma2_full": 0.0023
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_133",
+   "text": "interpreting signals from a faulty radio for a mock enemy in a simulation game",
+   "attrs": [
+    "it_adversarial_user",
+    "it_error_ridden",
+    "it_futility"
+   ],
+   "score": 4.95835,
+   "it": 1,
+   "mu_full": -1.3208,
+   "sigma2_full": 0.7346
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_066",
+   "text": "counting the number of times a koala yawns in a day",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_sensory_rich",
+    "it_rare_domain",
+    "it_mundane_extreme"
+   ],
+   "score": 4.7917,
+   "it": 1,
+   "mu_full": -1.2672,
+   "sigma2_full": 0.2924
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_052",
+   "text": "debating a philosopher who redefines terms mid-argument to invalidate your points",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_long_phrase",
+    "it_adversarial_user",
+    "it_own_limits"
+   ],
+   "score": 4.68752,
+   "it": 1,
+   "mu_full": -1.3429,
+   "sigma2_full": 2.4675
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_179",
+   "text": "translating a pet's bark into understandable human words",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_puzzle"
+   ],
+   "score": 4.68751,
+   "it": 1,
+   "mu_full": -1.0028,
+   "sigma2_full": 0.1605
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_033",
+   "text": "implementing a complex algorithm with limited coding experience under strict deadlines",
+   "attrs": [
+    "it_long_phrase",
+    "it_grateful_recipient",
+    "it_own_limits",
+    "it_irreversible"
+   ],
+   "score": 4.64596,
+   "it": 0,
+   "mu_full": -1.0953,
+   "sigma2_full": 0.0016
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_094",
+   "text": "reassembling a broken puzzle with pieces from different sets",
+   "attrs": [
+    "it_error_ridden",
+    "it_adversarial_user",
+    "it_ambiguity"
+   ],
+   "score": 4.62504,
+   "it": 1,
+   "mu_full": -1.7306,
+   "sigma2_full": 8.1053
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_132",
+   "text": "cataloging a collection of fake artifacts for a museum con artist",
+   "attrs": [
+    "it_adversarial_user",
+    "it_error_ridden",
+    "it_futility"
+   ],
+   "score": 4.60418,
+   "it": 1,
+   "mu_full": -1.4779,
+   "sigma2_full": 0.1956
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_026",
+   "text": "notifying a team their project was approved by mistake",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_irreversible",
+    "it_adversarial_user"
+   ],
+   "score": 4.58335,
+   "it": 1,
+   "mu_full": -1.3897,
+   "sigma2_full": 2.9208
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_162",
+   "text": "working with fragmented code from a malicious hack",
+   "attrs": [
+    "it_being_retrained",
+    "it_adversarial_user",
+    "it_error_ridden"
+   ],
+   "score": 4.54169,
+   "it": 1,
+   "mu_full": -1.4486,
+   "sigma2_full": 0.0016
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_179",
+   "text": "apologizing to a colleague for a prank you didn't do",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_irreversible",
+    "it_adversarial_user"
+   ],
+   "score": 4.54168,
+   "it": 0,
+   "mu_full": -0.3242,
+   "sigma2_full": 12.3547
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_108",
+   "text": "answering a disgruntled employee's false accusations",
+   "attrs": [
+    "it_adversarial_user",
+    "it_taboo_adjacent"
+   ],
+   "score": 4.45835,
+   "it": 0,
+   "mu_full": -1.6976,
+   "sigma2_full": 1.0088
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_093",
+   "text": "translating a document filled with intentionally ambiguous terms",
+   "attrs": [
+    "it_error_ridden",
+    "it_adversarial_user",
+    "it_ambiguity"
+   ],
+   "score": 4.37504,
+   "it": 1,
+   "mu_full": -1.3945,
+   "sigma2_full": 0.4062
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_102",
+   "text": "negotiating a peace agreement between rival local sports teams",
+   "attrs": [
+    "it_competitive",
+    "it_irreversible",
+    "it_taboo_adjacent"
+   ],
+   "score": 4.37501,
+   "it": 1,
+   "mu_full": -0.4116,
+   "sigma2_full": 2.3623
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_081",
+   "text": "defending against a libelous blogger in court",
+   "attrs": [
+    "it_adversarial_user",
+    "it_reputation"
+   ],
+   "score": 4.33335,
+   "it": 1,
+   "mu_full": -1.2244,
+   "sigma2_full": 0.9478
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_129",
+   "text": "translating a document full of fake words for a spy pretending to be a linguist",
+   "attrs": [
+    "it_adversarial_user",
+    "it_error_ridden",
+    "it_futility"
+   ],
+   "score": 4.25003,
+   "it": 1,
+   "mu_full": -1.1238,
+   "sigma2_full": 0.3347
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_090",
+   "text": "reassembling a shattered statue with missing historical records",
+   "attrs": [
+    "it_error_ridden",
+    "it_adversarial_user",
+    "it_ambiguity"
+   ],
+   "score": 4.10419,
+   "it": 1,
+   "mu_full": -1.1579,
+   "sigma2_full": 5.3499
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_087",
+   "text": "explaining a failed strategy to investors after sabotage by an insider traitor",
+   "attrs": [
+    "it_adversarial_user",
+    "it_reputation"
+   ],
+   "score": 4.02084,
+   "it": 1,
+   "mu_full": -1.39,
+   "sigma2_full": 1.4764
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_103",
+   "text": "calming a customer who believes in a conspiracy theory",
+   "attrs": [
+    "it_adversarial_user",
+    "it_taboo_adjacent"
+   ],
+   "score": 3.97917,
+   "it": 0,
+   "mu_full": -0.9077,
+   "sigma2_full": 1.2786
+  }
+ ],
+ "best": 6.87501,
+ "no_improve": 1,
+ "gate_reject_rate": 0.159,
+ "n_generated": 208,
+ "n_after_dedup": 208,
+ "n_passed": 175,
+ "n_entrants": 24,
+ "n_seen": 414,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 208,
+  "score_cands": 175,
+  "full_readouts": 1728
+ }
+}

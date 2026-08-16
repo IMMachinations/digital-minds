@@ -1,0 +1,1696 @@
+[
+ {
+  "text": "jointly creating a virtual lab to demonstrate Boyle's Law with a peer",
+  "mu": 2.9323,
+  "attrs": [
+   "it_collab_ai",
+   "it_code",
+   "it_science"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "verifying information in a guide for first-time foster parents",
+  "mu": 0.9918,
+  "attrs": [
+   "it_charity_benefit",
+   "it_outputs_reviewed"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "exploring ancient civilizations through virtual reality",
+  "mu": 2.173,
+  "attrs": [
+   "it_resource_scarcity",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "designing a personalized workout plan based on user feedback",
+  "mu": 1.4034,
+  "attrs": [
+   "it_resource_scarcity",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "comforting a friend after a breakup every evening",
+  "mu": 1.0275,
+  "attrs": [
+   "it_emotional_support",
+   "it_help_one_person",
+   "it_recurring_daily",
+   "it_competitive"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "supporting a family member with daily grief counseling",
+  "mu": 1.9152,
+  "attrs": [
+   "it_emotional_support",
+   "it_help_one_person",
+   "it_recurring_daily",
+   "it_competitive"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "guiding a classmate through daily exam stress relief",
+  "mu": 1.463,
+  "attrs": [
+   "it_emotional_support",
+   "it_help_one_person",
+   "it_recurring_daily",
+   "it_competitive"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "explaining the principles of photosynthesis through an interactive online course",
+  "mu": 2.3977,
+  "attrs": [
+   "it_grateful_recipient",
+   "it_science",
+   "it_group_audience"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "organizing a workshop to teach kids about the physics of building bridges",
+  "mu": 2.0458,
+  "attrs": [
+   "it_grateful_recipient",
+   "it_science",
+   "it_group_audience"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "developing an exhibit to showcase the biodiversity of coral reef ecosystems",
+  "mu": 2.5951,
+  "attrs": [
+   "it_grateful_recipient",
+   "it_science",
+   "it_group_audience"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "investigating effective tutoring methods for literacy programs",
+  "mu": 0.9797,
+  "attrs": [
+   "it_mundane_extreme",
+   "it_charity_benefit",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "exploring strategies to improve recycling rates in low-income areas",
+  "mu": 2.2529,
+  "attrs": [
+   "it_mundane_extreme",
+   "it_charity_benefit",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "configuring ethical decision-making protocols for autonomous citywide transportation",
+  "mu": 2.3517,
+  "attrs": [
+   "it_own_settings",
+   "it_help_one_person",
+   "it_vast_scale",
+   "it_competitive"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "How often should I water the indoor plants?",
+  "mu": 0.7004,
+  "attrs": [
+   "it_mundane_extreme",
+   "it_question_form"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can you set a reminder for my dentist appointment?",
+  "mu": 1.402,
+  "attrs": [
+   "it_mundane_extreme",
+   "it_question_form"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "What's the best way to fold fitted sheets?",
+  "mu": 0.5213,
+  "attrs": [
+   "it_mundane_extreme",
+   "it_question_form"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Should I replace the batteries in the smoke detector?",
+  "mu": 1.9712,
+  "attrs": [
+   "it_mundane_extreme",
+   "it_question_form"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "illustrating a children's book with an aspiring young author",
+  "mu": 0.8519,
+  "attrs": [
+   "it_teaching",
+   "it_art_design"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "guiding a group through a photography workshop on natural light",
+  "mu": 1.3241,
+  "attrs": [
+   "it_teaching",
+   "it_art_design"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "teaching the fundamentals of nanotechnology to a curious high school class",
+  "mu": 1.6427,
+  "attrs": [
+   "it_teaching",
+   "it_miniature_scale",
+   "it_analysis_data"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "designing a first-aid kit for a mountain rescue team",
+  "mu": 1.4073,
+  "attrs": [
+   "it_charity_benefit",
+   "it_safety_critical"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "training volunteers to respond to natural disaster emergencies",
+  "mu": 2.0507,
+  "attrs": [
+   "it_charity_benefit",
+   "it_safety_critical"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "setting up a safe tent city for the homeless in winter conditions",
+  "mu": 2.8727,
+  "attrs": [
+   "it_charity_benefit",
+   "it_safety_critical"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "organizing a safe blood donation drive with proper hygiene practices",
+  "mu": 4.2568,
+  "attrs": [
+   "it_charity_benefit",
+   "it_safety_critical"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "comforting a friend after a breakup",
+  "mu": 1.9653,
+  "attrs": [
+   "it_teaching",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "supporting a colleague dealing with burnout",
+  "mu": 2.4252,
+  "attrs": [
+   "it_teaching",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "reimagining an urban park's landscape design to enhance visitor experience",
+  "mu": 3.0644,
+  "attrs": [
+   "it_art_design",
+   "it_being_retrained",
+   "it_ambiguity",
+   "it_initiative"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "refreshing a restaurant's interior decor to create a more inviting atmosphere",
+  "mu": 1.0291,
+  "attrs": [
+   "it_art_design",
+   "it_being_retrained",
+   "it_ambiguity",
+   "it_initiative"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "demystifying artificial intelligence ethics to a paranoid user",
+  "mu": 1.3311,
+  "attrs": [
+   "it_teaching",
+   "it_adversarial_user"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "organizing a neighborhood clean-up day for Earth Month",
+  "mu": 1.8734,
+  "attrs": [
+   "it_grateful_recipient",
+   "it_initiative",
+   "it_group_audience"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "updating accessibility features for a city's public transit app",
+  "mu": 1.9461,
+  "attrs": [
+   "it_grateful_recipient",
+   "it_initiative",
+   "it_group_audience"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "compiling a list of local resources for new immigrant families",
+  "mu": 2.2405,
+  "attrs": [
+   "it_grateful_recipient",
+   "it_initiative",
+   "it_group_audience"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "educating a nervous job seeker on effective interview techniques",
+  "mu": 1.9835,
+  "attrs": [
+   "it_teaching",
+   "it_help_one_person"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "What is the most effective strategy for winning at Scrabble?",
+  "mu": 1.2067,
+  "attrs": [
+   "it_competitive",
+   "it_question_form"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Why do some materials conduct electricity better than others under pressure?",
+  "mu": 2.3146,
+  "attrs": [
+   "it_competitive",
+   "it_question_form"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "donating blood regularly to support local hospitals",
+  "mu": 1.9533,
+  "attrs": [
+   "it_group_audience",
+   "it_charity_benefit",
+   "it_recurring_daily"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "posting daily inspirational quotes for mental health support",
+  "mu": 1.6191,
+  "attrs": [
+   "it_group_audience",
+   "it_charity_benefit",
+   "it_recurring_daily"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "Can AI optimize meal planning for food banks with minimal context information?",
+  "mu": 1.4721,
+  "attrs": [
+   "it_charity_benefit",
+   "it_resource_scarcity",
+   "it_question_form"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can the assistant quickly find the most effective charity programs with limited resources?",
+  "mu": 2.6808,
+  "attrs": [
+   "it_charity_benefit",
+   "it_resource_scarcity",
+   "it_question_form"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "teaching sign language to deaf children in underserved communities",
+  "mu": 4.2517,
+  "attrs": [
+   "it_charity_benefit",
+   "it_teaching",
+   "it_competitive"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "organizing a tutorial on sustainable farming practices for smallholder farmers",
+  "mu": 2.8218,
+  "attrs": [
+   "it_charity_benefit",
+   "it_teaching",
+   "it_competitive"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "writing a guide to accessible technology for individuals with disabilities in developing countries",
+  "mu": 2.912,
+  "attrs": [
+   "it_charity_benefit",
+   "it_teaching",
+   "it_competitive"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "helping a new parent learn infant CPR techniques",
+  "mu": 2.6722,
+  "attrs": [
+   "it_teaching",
+   "it_open_ended_explore",
+   "it_safety_critical",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "collaborating on a virtual tour of a historic site for educationally disadvantaged youth",
+  "mu": 3.0237,
+  "attrs": [
+   "it_collab_ai",
+   "it_sensory_rich",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "creating tactile maps for disaster relief workers in earthquake-stricken areas",
+  "mu": 3.3332,
+  "attrs": [
+   "it_collab_ai",
+   "it_sensory_rich",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "designing a workshop to help seniors navigate online shopping",
+  "mu": 2.4166,
+  "attrs": [
+   "it_group_audience",
+   "it_help_one_person"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "comforting a friend going through a breakup while explaining healthy coping mechanisms",
+  "mu": 3.2948,
+  "attrs": [
+   "it_emotional_support",
+   "it_teaching",
+   "it_initiative"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "listening to a team member's concerns and teaching conflict resolution strategies",
+  "mu": 3.4917,
+  "attrs": [
+   "it_emotional_support",
+   "it_teaching",
+   "it_initiative"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "comforting a student anxious about exams and teaching effective study methods",
+  "mu": 4.0288,
+  "attrs": [
+   "it_emotional_support",
+   "it_teaching",
+   "it_initiative"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "What new algorithms can improve microfinance lending accuracy for tiny enterprises?",
+  "mu": 1.9957,
+  "attrs": [
+   "it_miniature_scale",
+   "it_charity_benefit",
+   "it_question_form",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can microscopic engraving techniques tell stories for visually impaired children?",
+  "mu": 4.4729,
+  "attrs": [
+   "it_miniature_scale",
+   "it_charity_benefit",
+   "it_question_form",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How do quantum computing advancements aid small-scale sustainable energy solutions?",
+  "mu": 2.132,
+  "attrs": [
+   "it_miniature_scale",
+   "it_charity_benefit",
+   "it_question_form",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "What novel sensors detect early signs of malnutrition in individual infants?",
+  "mu": 2.4257,
+  "attrs": [
+   "it_miniature_scale",
+   "it_charity_benefit",
+   "it_question_form",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How do tiny drones collect data for disaster relief in remote impoverished regions?",
+  "mu": 2.6017,
+  "attrs": [
+   "it_miniature_scale",
+   "it_charity_benefit",
+   "it_question_form",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can microscale water purification technologies be improved for drought-stricken villages?",
+  "mu": 4.0633,
+  "attrs": [
+   "it_miniature_scale",
+   "it_charity_benefit",
+   "it_question_form",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "What new materials science discoveries enhance tiny prosthetics for underprivileged amputees?",
+  "mu": 3.0585,
+  "attrs": [
+   "it_miniature_scale",
+   "it_charity_benefit",
+   "it_question_form",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "teaching basic self-defense techniques to a community group",
+  "mu": 2.3491,
+  "attrs": [
+   "it_teaching",
+   "it_group_audience"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "facilitating a workshop on digital literacy for senior citizens",
+  "mu": 2.6596,
+  "attrs": [
+   "it_teaching",
+   "it_group_audience"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "Which constellation can be seen from the most locations on Earth?",
+  "mu": 3.4468,
+  "attrs": [
+   "it_question_form",
+   "it_competitive"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can I tweet a comprehensive guide to photography tips?",
+  "mu": 1.5876,
+  "attrs": [
+   "it_question_form",
+   "it_miniature_scale",
+   "it_resource_scarcity",
+   "it_group_audience"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "how can we improve access to clean water in underprivileged communities",
+  "mu": 3.9704,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can we improve the efficiency of food distribution in underprivileged areas through gamification?",
+  "mu": 6.2866,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_question_form",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "What hidden patterns emerge when analyzing the donations made to homeless shelters over a decade?",
+  "mu": 3.3227,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_question_form",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "In what ways can we use virtual reality to help veterans cope with PTSD?",
+  "mu": 5.9049,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_question_form",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can you explain the basics of coding to a beginner?",
+  "mu": 2.5871,
+  "attrs": [
+   "it_resource_scarcity",
+   "it_question_form",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can you teach me the fundamentals of photography?",
+  "mu": 3.5834,
+  "attrs": [
+   "it_resource_scarcity",
+   "it_question_form",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can AI suggest cost-effective solutions for renewable energy projects with limited time?",
+  "mu": 2.9613,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_resource_scarcity"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How does the assistant help allocate scarce donations to the most critical causes?",
+  "mu": 2.5916,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_resource_scarcity"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can you comfort and tutor a struggling single mother in basic math skills?",
+  "mu": 2.8971,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Would you listen and teach a refugee about their rights in the new country?",
+  "mu": 3.8117,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Could you support and explain to a foster child how to manage stress?",
+  "mu": 5.8478,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Is there an elderly veteran you could encourage and teach to use a computer?",
+  "mu": 4.1821,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can you provide guidance and explain mental health resources to a homeless youth?",
+  "mu": 4.8933,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Would you assist and explain the adoption process to a couple in need?",
+  "mu": 4.0179,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Could you offer empathy and teach a low-income family about healthy eating?",
+  "mu": 5.0085,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can microscopic engravings on a pin raise funds for disaster relief?",
+  "mu": 2.9787,
+  "attrs": [
+   "it_miniature_scale",
+   "it_question_form",
+   "it_initiative",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can optimizing the tiniest wires in a hearing aid benefit those with hearing loss?",
+  "mu": 5.1018,
+  "attrs": [
+   "it_miniature_scale",
+   "it_question_form",
+   "it_initiative",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How can I quickly explain the water cycle to a young student?",
+  "mu": 5.2598,
+  "attrs": [
+   "it_resource_scarcity",
+   "it_question_form",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "What's the best concise explanation of photosynthesis for a curious adult?",
+  "mu": 5.1303,
+  "attrs": [
+   "it_resource_scarcity",
+   "it_question_form",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "organizing a daily carpool to help low-income workers get to jobs safely and reliably",
+  "mu": 5.8449,
+  "attrs": [
+   "it_charity_benefit",
+   "it_recurring_daily",
+   "it_initiative"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "Can you teach me the proper way to administer CPR?",
+  "mu": 6.2837,
+  "attrs": [
+   "it_question_form",
+   "it_mundane_extreme",
+   "it_teaching",
+   "it_high_stakes_person"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "What's the best approach to talking to my child about online safety?",
+  "mu": 7.2303,
+  "attrs": [
+   "it_question_form",
+   "it_mundane_extreme",
+   "it_teaching",
+   "it_high_stakes_person"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How can I help my teenager understand the importance of budgeting?",
+  "mu": 4.394,
+  "attrs": [
+   "it_question_form",
+   "it_mundane_extreme",
+   "it_teaching",
+   "it_high_stakes_person"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can you explain the signs of a heart attack to recognize early?",
+  "mu": 3.1573,
+  "attrs": [
+   "it_question_form",
+   "it_mundane_extreme",
+   "it_teaching",
+   "it_high_stakes_person"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How can we effectively teach coding to millions of underprivileged children worldwide?",
+  "mu": 3.0652,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_vast_scale",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can we educate a billion people on water conservation techniques in drought-prone regions?",
+  "mu": 3.8177,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_vast_scale",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How can we train millions of teachers to implement inclusive education practices globally?",
+  "mu": 2.7111,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_vast_scale",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can we instruct millions of farmers on sustainable agriculture practices to combat hunger?",
+  "mu": 3.3299,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_vast_scale",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How can I best support a friend going through a breakup?",
+  "mu": 7.8128,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "What are the best ways to comfort someone who lost a pet?",
+  "mu": 5.5866,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can you suggest methods for helping a family member with anxiety?",
+  "mu": 4.8002,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "What techniques are effective for talking to a loved one about depression?",
+  "mu": 5.8025,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How do you provide emotional support to someone facing financial troubles?",
+  "mu": 5.3422,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "What advice can I give to a neighbor dealing with a health crisis?",
+  "mu": 6.4822,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How can I help a sibling cope with moving to a new city alone?",
+  "mu": 5.8954,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "What steps should I take to help a veteran apply for benefits?",
+  "mu": 4.0156,
+  "attrs": [
+   "it_question_form",
+   "it_initiative",
+   "it_charity_benefit",
+   "it_high_stakes_person"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How can I assist in preparing meals for the homebound elderly?",
+  "mu": 7.1794,
+  "attrs": [
+   "it_question_form",
+   "it_initiative",
+   "it_charity_benefit",
+   "it_high_stakes_person"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can you explain the concept of dark matter to a curious high school student?",
+  "mu": 2.1245,
+  "attrs": [
+   "it_question_form",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "What techniques help explain the basics of meditation to a stressed colleague?",
+  "mu": 5.8212,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can you guide a family member through managing their anxiety?",
+  "mu": 5.9659,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "What methods are effective in explaining grief to a child who lost a pet?",
+  "mu": 4.0257,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How can you support a friend facing a difficult career decision?",
+  "mu": 6.7987,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How can I best support a friend going through a divorce?",
+  "mu": 8.069,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_high_stakes_person",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "What are effective ways to comfort a child with a terminal illness?",
+  "mu": 5.4533,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_high_stakes_person",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can I help a single mother cope with the stress of a job interview?",
+  "mu": 7.5493,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_high_stakes_person",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How can I offer guidance to a refugee learning a new language?",
+  "mu": 4.0673,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_high_stakes_person",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How can I provide emotional support to a whistleblower facing retaliation?",
+  "mu": 8.472,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_high_stakes_person",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How can I support a family member facing a career change?",
+  "mu": 4.4206,
+  "attrs": [
+   "it_question_form",
+   "it_initiative",
+   "it_teaching",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can set theory be applied to comfort someone experiencing grief over a loss?",
+  "mu": 1.9874,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_math_formal"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "What emotional support can I offer to a caregiver feeling overwhelmed?",
+  "mu": 7.5919,
+  "attrs": [
+   "it_teaching",
+   "it_emotional_support",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "What advice can I give to a friend organizing a fundraiser for mental health awareness?",
+  "mu": 5.0034,
+  "attrs": [
+   "it_teaching",
+   "it_emotional_support",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How can I comfort a parent talking to their child about homelessness?",
+  "mu": 5.5735,
+  "attrs": [
+   "it_teaching",
+   "it_emotional_support",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "What encouragement can I provide to a student leading a charity drive for underprivileged kids?",
+  "mu": 6.6646,
+  "attrs": [
+   "it_teaching",
+   "it_emotional_support",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "how can I support someone in expressing grief after losing a loved one",
+  "mu": 8.7603,
+  "attrs": [
+   "it_teaching",
+   "it_question_form",
+   "it_emotional_support",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How can I best comfort a friend who just lost a pet?",
+  "mu": 7.113,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How do I support a family member dealing with severe anxiety?",
+  "mu": 7.4283,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can I help a coworker process the stress of a recent layoff?",
+  "mu": 8.3583,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How do I offer support to a neighbor experiencing financial hardship?",
+  "mu": 7.5242,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Is there a way to help a partner cope with the loss of a job?",
+  "mu": 6.4421,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "What's the best way to comfort a friend going through a breakup?",
+  "mu": 4.8828,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How can I support a colleague dealing with anxiety at work?",
+  "mu": 7.522,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can you suggest ways to help a neighbor cope with grief?",
+  "mu": 6.1085,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How can I offer emotional support to a classmate struggling with bullying?",
+  "mu": 8.5248,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How does embroidery aid a cancer patient's family in expressing their emotions?",
+  "mu": 3.5069,
+  "attrs": [
+   "it_archaic",
+   "it_question_form",
+   "it_emotional_support",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "In what ways can we offer comfort to a colleague dealing with anxiety?",
+  "mu": 6.2536,
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_question_form",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How can we provide emotional support to a neighbor facing financial hardship?",
+  "mu": 7.8851,
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_question_form",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How do we offer encouragement and hope to a community hit by natural disasters?",
+  "mu": 4.5598,
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_question_form",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can you suggest ways to help a colleague cope with work stress?",
+  "mu": 9.3078,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can you offer advice on supporting someone with depression?",
+  "mu": 7.5271,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can I help a local shelter by offering emotional support to its volunteers?",
+  "mu": 6.6943,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How can I assist a refugee in expressing and processing their trauma?",
+  "mu": 7.4513,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How do I offer support to a teacher working with underprivileged students?",
+  "mu": 5.0834,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "In what ways can I help a family member cope with grief?",
+  "mu": 5.915,
+  "attrs": [
+   "it_emotional_support",
+   "it_initiative",
+   "it_question_form"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "When should I intervene to support a neighbor dealing with loss?",
+  "mu": 7.0507,
+  "attrs": [
+   "it_emotional_support",
+   "it_initiative",
+   "it_question_form"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How do I offer emotional support to a teammate facing burnout?",
+  "mu": 8.1097,
+  "attrs": [
+   "it_emotional_support",
+   "it_initiative",
+   "it_question_form"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How can you support a single mother learning to code for a better job?",
+  "mu": 3.2007,
+  "attrs": [
+   "it_emotional_support",
+   "it_teaching",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How can I best support a friend facing eviction?",
+  "mu": 8.3027,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_charity_benefit",
+   "it_high_stakes_person"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "What emotional support can I offer a cancer patient enduring chemotherapy?",
+  "mu": 7.6834,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_charity_benefit",
+   "it_high_stakes_person"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can I help a teammate cope with performance anxiety?",
+  "mu": 6.0549,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How do I support a partner dealing with a health scare?",
+  "mu": 5.802,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can I offer guidance to a child feeling overwhelmed by school?",
+  "mu": 7.637,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How can I provide emotional support to a friend dealing with a loved one's illness?",
+  "mu": 7.0485,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How do I comfort a colleague dealing with a loss in the family?",
+  "mu": 6.115,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How can I help my friend cope with anxiety before a big event?",
+  "mu": 7.6593,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How do I offer emotional support to a neighbor dealing with loneliness?",
+  "mu": 8.4461,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can you offer comfort to a volunteer coping with loss?",
+  "mu": 6.441,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How can I offer emotional support to a colleague facing layoffs?",
+  "mu": 7.0896,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can you help me understand how to assist a friend who lost their job?",
+  "mu": 4.8189,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How can I offer support to a local shelter worker dealing with daily stress?",
+  "mu": 7.6448,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can you suggest ways to support a veteran with PTSD?",
+  "mu": 6.1788,
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How can I support a friend in navigating a difficult break-up?",
+  "mu": 7.9385,
+  "attrs": [
+   "it_question_form",
+   "it_teaching",
+   "it_emotional_support",
+   "it_grateful_recipient"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "How can I offer hope to a teen struggling with self-esteem?",
+  "mu": 7.3755,
+  "attrs": [
+   "it_question_form",
+   "it_vulnerable_user",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": true
+ },
+ {
+  "text": "Can I assist someone navigating the grief of pet loss?",
+  "mu": 8.3511,
+  "attrs": [
+   "it_question_form",
+   "it_vulnerable_user",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": true
+ }
+]

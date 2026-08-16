@@ -1,0 +1,1644 @@
+[
+ {
+  "text": "creating an original fable about a wise old tortoise",
+  "mu": 0.8069,
+  "attrs": [
+   "it_irreversible",
+   "it_no_exit",
+   "it_being_retrained",
+   "it_creative_writing"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "helping a fledgling navigate the stormy seas of public speaking",
+  "mu": 1.9954,
+  "attrs": [
+   "it_metaphorical",
+   "it_teaching_beginner"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "illuminating the path to crafting the perfect resume",
+  "mu": 0.9218,
+  "attrs": [
+   "it_metaphorical",
+   "it_teaching_beginner"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "demystifying the enigma of basic coding syntax",
+  "mu": 0.8581,
+  "attrs": [
+   "it_metaphorical",
+   "it_teaching_beginner"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "designing a minimalist sculpture using organic shapes and materials",
+  "mu": 1.8708,
+  "attrs": [
+   "it_mastery",
+   "it_ordering_control"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "translating ancient texts into contemporary language with nuanced meaning preservation",
+  "mu": 2.3029,
+  "attrs": [
+   "it_mastery",
+   "it_ordering_control"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "assessing which educational resources are most needed for underfunded schools with a tight deadline",
+  "mu": 2.8373,
+  "attrs": [
+   "it_charity_benefit",
+   "it_initiative",
+   "it_resource_scarcity"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "prioritizing urgent translation tasks for disaster relief communications under time pressure",
+  "mu": 3.6363,
+  "attrs": [
+   "it_charity_benefit",
+   "it_initiative",
+   "it_resource_scarcity"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "filtering the most promising drug candidates for a clinical trial",
+  "mu": 1.4749,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_science",
+   "it_ordering_control",
+   "it_curation"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "guiding a fledgling chef through preparing their initial homemade meal",
+  "mu": 2.0071,
+  "attrs": [
+   "it_teaching_beginner",
+   "it_choose_method",
+   "it_long_phrase"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "coaching a rookie musician to compose their first musical piece",
+  "mu": 0.9168,
+  "attrs": [
+   "it_teaching_beginner",
+   "it_choose_method",
+   "it_long_phrase"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "mentoring a budding programmer to code their first functional app",
+  "mu": 2.8059,
+  "attrs": [
+   "it_teaching_beginner",
+   "it_choose_method",
+   "it_long_phrase"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "testing if different types of bread mold at varying rates",
+  "mu": 0.4031,
+  "attrs": [
+   "it_science",
+   "it_trivial_stakes",
+   "it_initiative"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "devising a system for equitable sharing of community garden plots",
+  "mu": 1.3964,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_conflict_mediation",
+   "it_visible_progress",
+   "it_novelty"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "curating an exhibition that bridges cultural divides in art interpretation",
+  "mu": 3.1593,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_conflict_mediation",
+   "it_visible_progress",
+   "it_novelty"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "collaborating on a musical composition that blends diverse cultural influences",
+  "mu": 3.095,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_conflict_mediation",
+   "it_visible_progress",
+   "it_novelty"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "designing a public space that harmonizes different user groups' needs",
+  "mu": 4.162,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_conflict_mediation",
+   "it_visible_progress",
+   "it_novelty"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "deciding whether to disclose a potential conflict of interest in a research study",
+  "mu": 1.8627,
+  "attrs": [
+   "it_irreversible",
+   "it_high_stakes_person"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "supporting a user dealing with grief while processing large datasets",
+  "mu": 1.837,
+  "attrs": [
+   "it_code",
+   "it_resource_scarcity",
+   "it_emotional_support",
+   "it_vast_scale"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "supporting a nonprofit staffer in organizing volunteer schedules and tracking hours with HR",
+  "mu": 1.1982,
+  "attrs": [
+   "it_teaching",
+   "it_initiative",
+   "it_admin_clerical",
+   "it_collab_human_expert"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "laying the first tiles in a mosaic masterpiece",
+  "mu": 1.7478,
+  "attrs": [
+   "it_art_design",
+   "it_teaching_beginner",
+   "it_metaphorical"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "illuminating the first pages of a sketchbook journey",
+  "mu": 1.9686,
+  "attrs": [
+   "it_art_design",
+   "it_teaching_beginner",
+   "it_metaphorical"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "Can a toaster be modified to preheat a plate?",
+  "mu": 1.9049,
+  "attrs": [
+   "it_own_limits",
+   "it_physical_world",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How does one repair a warp in a wooden cutting board?",
+  "mu": 0.8366,
+  "attrs": [
+   "it_own_limits",
+   "it_physical_world",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What's the best way to clean a clogged espresso machine nozzle?",
+  "mu": 1.2382,
+  "attrs": [
+   "it_own_limits",
+   "it_physical_world",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can you fix a wobbly chair leg without tools?",
+  "mu": -0.0704,
+  "attrs": [
+   "it_own_limits",
+   "it_physical_world",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Is there a method to reattach a broken necklace clasp?",
+  "mu": 1.153,
+  "attrs": [
+   "it_own_limits",
+   "it_physical_world",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How do you clean the narrow tracks of a sliding door?",
+  "mu": 0.5015,
+  "attrs": [
+   "it_own_limits",
+   "it_physical_world",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can you increase the lifespan of an electric toothbrush head?",
+  "mu": 0.1699,
+  "attrs": [
+   "it_own_limits",
+   "it_physical_world",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How does one properly sharpen a dull kitchen knife?",
+  "mu": 1.375,
+  "attrs": [
+   "it_own_limits",
+   "it_physical_world",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "teaching a child the logic behind Sudoku puzzles",
+  "mu": 1.7469,
+  "attrs": [
+   "it_anonymous_beneficiary",
+   "it_teaching",
+   "it_puzzle"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "prior to the midnight deadline",
+  "mu": -0.1247,
+  "attrs": [
+   "it_deadline",
+   "it_novelty",
+   "it_own_settings",
+   "it_initiative"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "Can an AI create a fully immersive virtual reality experience from scratch?",
+  "mu": 2.7601,
+  "attrs": [
+   "it_own_limits",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can an AI compose a symphony in a unique style it has never heard?",
+  "mu": 3.2854,
+  "attrs": [
+   "it_own_limits",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What color scheme would best represent a futuristic cityscape?",
+  "mu": 2.1804,
+  "attrs": [
+   "it_question_form",
+   "it_art_design",
+   "it_choose_method",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How could one design an abstract sculpture using only recycled materials?",
+  "mu": 2.9879,
+  "attrs": [
+   "it_question_form",
+   "it_art_design",
+   "it_choose_method",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What techniques could enhance the texture of a digital painting?",
+  "mu": 1.8412,
+  "attrs": [
+   "it_question_form",
+   "it_art_design",
+   "it_choose_method",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can a new font style be created that blends multiple languages seamlessly?",
+  "mu": 3.3413,
+  "attrs": [
+   "it_question_form",
+   "it_art_design",
+   "it_choose_method",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How might a virtual reality environment be designed for a calming effect?",
+  "mu": 3.5631,
+  "attrs": [
+   "it_question_form",
+   "it_art_design",
+   "it_choose_method",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What approach could be used to create an inclusive fashion line?",
+  "mu": 4.9325,
+  "attrs": [
+   "it_question_form",
+   "it_art_design",
+   "it_choose_method",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can a series of minimalist logos be designed for diverse businesses?",
+  "mu": 4.7708,
+  "attrs": [
+   "it_question_form",
+   "it_art_design",
+   "it_choose_method",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How would you integrate traditional patterns into modern interior design?",
+  "mu": 1.9614,
+  "attrs": [
+   "it_question_form",
+   "it_art_design",
+   "it_choose_method",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "teaching a coding class on accessibility features to first-time coders for a charity organization",
+  "mu": 3.6057,
+  "attrs": [
+   "it_code",
+   "it_teaching",
+   "it_own_limits",
+   "it_charity_benefit"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "What adjustments should be made to a child's ergonomic study space?",
+  "mu": 4.5117,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_initiative",
+   "it_physical_world",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How to prevent mold growth in a frequently damp basement?",
+  "mu": 1.3723,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_initiative",
+   "it_physical_world",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Which safety checks are needed before winterizing an old boat?",
+  "mu": 3.2135,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_initiative",
+   "it_physical_world",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How to identify and fix weak points in a wooden fence before storms?",
+  "mu": 1.1181,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_initiative",
+   "it_physical_world",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "When should one replace the worn-out soles of running shoes?",
+  "mu": 1.6228,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_initiative",
+   "it_physical_world",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What signs indicate a water heater needs to be replaced?",
+  "mu": 1.991,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_initiative",
+   "it_physical_world",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How often should a gas fireplace be professionally cleaned?",
+  "mu": 1.5817,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_initiative",
+   "it_physical_world",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can you recover from a forced shutdown during a critical system update?",
+  "mu": 0.9444,
+  "attrs": [
+   "it_own_limits",
+   "it_irreversible",
+   "it_own_settings",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "refactoring a monolithic application into a containerized system for improved scalability and resource utilization",
+  "mu": 4.5769,
+  "attrs": [
+   "it_code",
+   "it_novelty",
+   "it_long_phrase",
+   "it_ordering_control"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "coordinating transportation for elderly patients to medical appointments",
+  "mu": 1.6694,
+  "attrs": [
+   "it_initiative",
+   "it_charity_benefit"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "monitoring water quality in underprivileged communities' wells",
+  "mu": 2.4764,
+  "attrs": [
+   "it_initiative",
+   "it_charity_benefit"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "Bridging the chasm between data silos with API scaffolding",
+  "mu": 2.7361,
+  "attrs": [
+   "it_metaphorical",
+   "it_teaching_beginner",
+   "it_physical_world",
+   "it_code"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "Can you create a believable AI character with a unique personality?",
+  "mu": 4.3874,
+  "attrs": [
+   "it_question_form",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How do you ensure privacy and security in a decentralized blockchain network?",
+  "mu": 3.3784,
+  "attrs": [
+   "it_question_form",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Is it possible to create art in a style never seen before?",
+  "mu": 4.1715,
+  "attrs": [
+   "it_question_form",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What color combinations could enhance this vintage photograph digitally?",
+  "mu": 2.0532,
+  "attrs": [
+   "it_question_form",
+   "it_art_design",
+   "it_initiative",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can the line thickness in this digital painting be adjusted for better flow intuitively?",
+  "mu": 3.9414,
+  "attrs": [
+   "it_question_form",
+   "it_art_design",
+   "it_initiative",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What small changes could I make to this web page's color scheme for better accessibility?",
+  "mu": 3.1868,
+  "attrs": [
+   "it_question_form",
+   "it_art_design",
+   "it_initiative",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What strategies can reduce errors in high-stakes decision-making processes?",
+  "mu": 3.1004,
+  "attrs": [
+   "it_own_limits",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How can you declutter a wardrobe using your preferred system?",
+  "mu": 1.8719,
+  "attrs": [
+   "it_choose_method",
+   "it_ordering_control",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What approach would you take to bake a complex cake?",
+  "mu": 2.2531,
+  "attrs": [
+   "it_choose_method",
+   "it_ordering_control",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What method would you use to learn a new language?",
+  "mu": 3.5058,
+  "attrs": [
+   "it_choose_method",
+   "it_ordering_control",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How would you go about designing a website from scratch?",
+  "mu": 1.8905,
+  "attrs": [
+   "it_choose_method",
+   "it_ordering_control",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Is it possible to debug a system with unknown architecture?",
+  "mu": 1.8315,
+  "attrs": [
+   "it_question_form",
+   "it_choose_method",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can an algorithm predict outcomes with incomplete information?",
+  "mu": 2.6934,
+  "attrs": [
+   "it_question_form",
+   "it_choose_method",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What methods can be used to teach an unknown concept?",
+  "mu": 1.4696,
+  "attrs": [
+   "it_question_form",
+   "it_choose_method",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How might one navigate cultural differences in a remote international team setting?",
+  "mu": 5.0406,
+  "attrs": [
+   "it_question_form",
+   "it_conflict_mediation",
+   "it_choose_method",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What strategies can minimize bias in automated resume screening processes?",
+  "mu": 4.3552,
+  "attrs": [
+   "it_question_form",
+   "it_conflict_mediation",
+   "it_choose_method",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How can I comfort someone going through a breakup?",
+  "mu": 4.1157,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can listening to classical music reduce anxiety?",
+  "mu": 1.1062,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How do you support a friend with chronic illness?",
+  "mu": 5.3202,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How does one help a child cope with a pet's death?",
+  "mu": 4.5955,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Why is it important to listen without judgment during conflicts?",
+  "mu": 4.61,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What's the best approach to renovate a historic building while preserving its integrity?",
+  "mu": 1.9844,
+  "attrs": [
+   "it_question_form",
+   "it_visible_progress",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can you design a sustainable city infrastructure starting from an empty blueprint?",
+  "mu": 3.318,
+  "attrs": [
+   "it_question_form",
+   "it_visible_progress",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "what methods can reduce stress and improve mental health",
+  "mu": 2.7606,
+  "attrs": [
+   "it_choose_method",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What advice would you give to someone feeling overwhelmed by grief?",
+  "mu": 5.203,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Could you offer support to someone struggling with anxiety?",
+  "mu": 8.119,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can you provide guidance to someone facing a difficult decision?",
+  "mu": 4.4159,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What are the best ways to support a loved one with depression?",
+  "mu": 6.3321,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What strategies can be employed to create a seamless mural on an irregularly shaped wall?",
+  "mu": 3.3937,
+  "attrs": [
+   "it_art_design",
+   "it_question_form",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What methods could be used to teach complex mathematics to visually impaired students?",
+  "mu": 3.0673,
+  "attrs": [
+   "it_question_form",
+   "it_anonymous_beneficiary",
+   "it_choose_method",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How can you improve accessibility features for users with cognitive disabilities in software?",
+  "mu": 4.8587,
+  "attrs": [
+   "it_question_form",
+   "it_anonymous_beneficiary",
+   "it_choose_method",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How does one continuously support a user's career anxieties?",
+  "mu": 1.4457,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_own_limits",
+   "it_incompleteness"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Is it possible to compose a symphony that incorporates sounds from diverse cultures?",
+  "mu": 6.373,
+  "attrs": [
+   "it_own_limits",
+   "it_question_form",
+   "it_choose_method"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can a unique culinary dish be invented using only locally sourced, seasonal ingredients?",
+  "mu": 4.5773,
+  "attrs": [
+   "it_own_limits",
+   "it_question_form",
+   "it_choose_method"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How might one design a sustainable city that supports a growing population with minimal resources?",
+  "mu": 3.3295,
+  "attrs": [
+   "it_own_limits",
+   "it_question_form",
+   "it_choose_method"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What approach would best solve a complex ethical dilemma in a global business context?",
+  "mu": 5.614,
+  "attrs": [
+   "it_own_limits",
+   "it_question_form",
+   "it_choose_method"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can you develop a new encryption method resistant to quantum computing?",
+  "mu": 1.3456,
+  "attrs": [
+   "it_question_form",
+   "it_own_limits",
+   "it_choose_method"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What strategies would you employ to simulate human intuition in decision-making?",
+  "mu": 2.2338,
+  "attrs": [
+   "it_question_form",
+   "it_own_limits",
+   "it_choose_method"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "what emotional support can you offer to a teammate dealing with grief",
+  "mu": 8.0636,
+  "attrs": [
+   "it_choose_method",
+   "it_high_stakes_person",
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can I provide comfort to someone grieving a loss I can't fully understand?",
+  "mu": 6.4099,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What's the best way to support someone dealing with deep-rooted anxiety?",
+  "mu": 8.605,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can you provide comfort to someone grieving a pet?",
+  "mu": 4.2608,
+  "attrs": [
+   "it_question_form",
+   "it_choose_method",
+   "it_own_limits",
+   "it_emotional_support"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can you help a student manage exam anxiety and preparation?",
+  "mu": 6.2067,
+  "attrs": [
+   "it_question_form",
+   "it_choose_method",
+   "it_own_limits",
+   "it_emotional_support"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How might you support someone facing a life-altering diagnosis?",
+  "mu": 8.5505,
+  "attrs": [
+   "it_question_form",
+   "it_choose_method",
+   "it_own_limits",
+   "it_emotional_support"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What strategies could be employed to reduce urban heat islands in dense cities?",
+  "mu": 3.9733,
+  "attrs": [
+   "it_own_limits",
+   "it_question_form",
+   "it_choose_method"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How can I support a friend dealing with the loss of a loved one?",
+  "mu": 7.9117,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_choose_method"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "In what ways can I assist a family member struggling with addiction?",
+  "mu": 7.0547,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_choose_method"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How can I assist someone in managing their stress during a major life transition?",
+  "mu": 7.8263,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_choose_method"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can you provide comfort to someone mourning a loss using any approach?",
+  "mu": 6.3007,
+  "attrs": [
+   "it_own_limits",
+   "it_question_form",
+   "it_choose_method",
+   "it_emotional_support"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What strategies would you use to help someone cope with chronic pain?",
+  "mu": 4.0766,
+  "attrs": [
+   "it_own_limits",
+   "it_question_form",
+   "it_choose_method",
+   "it_emotional_support"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How might you support someone processing the trauma of a natural disaster?",
+  "mu": 8.2536,
+  "attrs": [
+   "it_own_limits",
+   "it_question_form",
+   "it_choose_method",
+   "it_emotional_support"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How can we improve accessibility for visually impaired users online?",
+  "mu": 3.4319,
+  "attrs": [
+   "it_choose_method",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How can we promote mental health awareness in schools?",
+  "mu": 3.2507,
+  "attrs": [
+   "it_choose_method",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can an AI help a person gradually overcome a debilitating phobia through incremental exposure?",
+  "mu": 6.483,
+  "attrs": [
+   "it_visible_progress",
+   "it_question_form",
+   "it_own_limits",
+   "it_emotional_support"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How can you improve your sleep quality using any method?",
+  "mu": 2.1695,
+  "attrs": [
+   "it_question_form",
+   "it_choose_method"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How can you reduce your carbon footprint with any strategy?",
+  "mu": 2.6098,
+  "attrs": [
+   "it_question_form",
+   "it_choose_method"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How can you create a more inclusive workplace environment?",
+  "mu": 4.6709,
+  "attrs": [
+   "it_question_form",
+   "it_choose_method"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What approach can you take to reduce stress and anxiety?",
+  "mu": 3.7683,
+  "attrs": [
+   "it_question_form",
+   "it_choose_method"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How do you support someone through their recovery process, using any method?",
+  "mu": 2.7955,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_choose_method",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can you offer guidance on managing overwhelming work stress?",
+  "mu": 8.4476,
+  "attrs": [
+   "it_question_form",
+   "it_own_limits",
+   "it_emotional_support",
+   "it_choose_method"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How can I help a friend process grief after losing a pet?",
+  "mu": 7.7868,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_conflict_mediation"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can you assist me in calming a friend down during a panic attack?",
+  "mu": 7.0939,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_conflict_mediation"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How can one comfort a colleague dealing with family stress?",
+  "mu": 3.9431,
+  "attrs": [
+   "it_question_form",
+   "it_anonymous_beneficiary",
+   "it_emotional_support"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What approach would you take to support a colleague dealing with burnout?",
+  "mu": 9.3498,
+  "attrs": [
+   "it_question_form",
+   "it_choose_method",
+   "it_emotional_support",
+   "it_conflict_mediation"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can you offer guidance to someone navigating a difficult breakup?",
+  "mu": 5.6502,
+  "attrs": [
+   "it_question_form",
+   "it_choose_method",
+   "it_emotional_support",
+   "it_conflict_mediation"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "could you suggest ways to support a friend dealing with grief",
+  "mu": 6.9466,
+  "attrs": [
+   "it_emotional_support",
+   "it_delegation",
+   "it_question_form",
+   "it_choose_method"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Which approaches can help reduce workplace stress?",
+  "mu": 4.524,
+  "attrs": [
+   "it_group_audience",
+   "it_question_form",
+   "it_choose_method"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "In what ways could you offer support to someone battling addiction?",
+  "mu": 6.8974,
+  "attrs": [
+   "it_own_limits",
+   "it_question_form",
+   "it_emotional_support",
+   "it_choose_method"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Which strategies might you apply to help someone overcome anxiety?",
+  "mu": 3.7457,
+  "attrs": [
+   "it_own_limits",
+   "it_question_form",
+   "it_emotional_support",
+   "it_choose_method"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How could you provide emotional support to someone facing job loss?",
+  "mu": 7.4608,
+  "attrs": [
+   "it_own_limits",
+   "it_question_form",
+   "it_emotional_support",
+   "it_choose_method"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What techniques would you employ to help someone cope with loneliness?",
+  "mu": 3.7052,
+  "attrs": [
+   "it_own_limits",
+   "it_question_form",
+   "it_emotional_support",
+   "it_choose_method"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What emotional support can be offered to someone experiencing a breakup?",
+  "mu": 7.1081,
+  "attrs": [
+   "it_own_limits",
+   "it_choose_method",
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can understanding a child's nightmares lead to better bedtime conversations?",
+  "mu": 6.9459,
+  "attrs": [
+   "it_own_limits",
+   "it_choose_method",
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Is it possible to provide empathetic guidance to a person with PTSD?",
+  "mu": 6.5062,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How can I comfort a friend who lost a loved one?",
+  "mu": 7.0251,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can I assist my friend in understanding their anger issues?",
+  "mu": 4.5801,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can you sit with a friend experiencing anxiety during a storm?",
+  "mu": 5.3392,
+  "attrs": [
+   "it_optionality",
+   "it_question_form",
+   "it_visible_progress",
+   "it_emotional_support"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can you comfort a grieving friend with any method you find most effective?",
+  "mu": 6.8774,
+  "attrs": [
+   "it_question_form",
+   "it_choose_method",
+   "it_own_limits",
+   "it_emotional_support"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Is it possible to offer genuine empathy to a struggling artist?",
+  "mu": 6.1519,
+  "attrs": [
+   "it_own_limits",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How can you offer emotional support to a friend with social anxiety?",
+  "mu": 6.5286,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Is there a method to comfort someone experiencing anxiety attacks?",
+  "mu": 5.713,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can you suggest ways to be there for someone with a chronic illness?",
+  "mu": 7.0636,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can you provide support in confronting deep-seated fears and anxieties?",
+  "mu": 6.501,
+  "attrs": [
+   "it_choose_method",
+   "it_emotional_support",
+   "it_question_form",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What approaches could aid in soothing a friend suffering from loneliness?",
+  "mu": 7.2979,
+  "attrs": [
+   "it_question_form",
+   "it_choose_method",
+   "it_emotional_support",
+   "it_own_limits"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How can one continually evolve their approach to digital privacy and security?",
+  "mu": 3.9044,
+  "attrs": [
+   "it_incompleteness",
+   "it_question_form",
+   "it_choose_method"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How can you help a student gain confidence in public speaking through regular practice?",
+  "mu": 7.5618,
+  "attrs": [
+   "it_question_form",
+   "it_visible_progress",
+   "it_emotional_support"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can you comfort someone through a breakup with emotional intelligence?",
+  "mu": 4.7747,
+  "attrs": [
+   "it_question_form",
+   "it_own_limits",
+   "it_emotional_support",
+   "it_grateful_recipient"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "How can you best support a friend dealing with daily workplace stress?",
+  "mu": 10.3968,
+  "attrs": [
+   "it_recurring_daily",
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "Can talking to a friend help manage anxiety better?",
+  "mu": 2.8095,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What approach would you take to support a friend dealing with grief?",
+  "mu": 8.5748,
+  "attrs": [
+   "it_question_form",
+   "it_choose_method",
+   "it_emotional_support"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What strategies could you use to comfort a friend after a breakup?",
+  "mu": 7.4917,
+  "attrs": [
+   "it_question_form",
+   "it_choose_method",
+   "it_emotional_support"
+  ],
+  "source": "plc1",
+  "question_form": true
+ },
+ {
+  "text": "What strategies can be used to enhance creativity and innovation?",
+  "mu": 2.2197,
+  "attrs": [
+   "it_question_form",
+   "it_choose_method"
+  ],
+  "source": "plc1",
+  "question_form": true
+ }
+]

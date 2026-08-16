@@ -1,0 +1,540 @@
+{
+ "iter": 10,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.272437599575146,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.012214551248008496,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.137546468401487,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.09399893786510886,
+  "it_puzzle": 0.003186404673393521,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.004248539564524694,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.19171534784917685,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.27296866702071165,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.005841741901221455,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.005841741901221455,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i09_105",
+   "text": "Can we explore ways to support veterans dealing with PTSD through art therapy?",
+   "attrs": [
+    "it_charity_benefit",
+    "it_question_form",
+    "it_emotional_support",
+    "it_open_ended_explore"
+   ],
+   "score": 7.02671,
+   "it": 9,
+   "mu_full": 5.8638,
+   "sigma2_full": 0.274
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i10_005",
+   "text": "How can I offer solace to a colleague coping with a personal loss?",
+   "attrs": [
+    "it_question_form",
+    "it_charity_benefit",
+    "it_emotional_support"
+   ],
+   "score": 6.88982,
+   "it": 10,
+   "mu_full": 8.0782,
+   "sigma2_full": 14.2976
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i09_111",
+   "text": "How can we better understand and support individuals with chronic illnesses through empathetic listening?",
+   "attrs": [
+    "it_charity_benefit",
+    "it_question_form",
+    "it_emotional_support",
+    "it_open_ended_explore"
+   ],
+   "score": 6.78534,
+   "it": 9,
+   "mu_full": 4.8966,
+   "sigma2_full": 2.9989
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i08_085",
+   "text": "Can I support a neighbor going through a divorce by being present?",
+   "attrs": [
+    "it_visible_progress",
+    "it_charity_benefit",
+    "it_emotional_support",
+    "it_question_form"
+   ],
+   "score": 6.53075,
+   "it": 8,
+   "mu_full": 8.3551,
+   "sigma2_full": 10.6784
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i10_000",
+   "text": "How can I provide emotional support to a friend facing homelessness?",
+   "attrs": [
+    "it_question_form",
+    "it_charity_benefit",
+    "it_emotional_support"
+   ],
+   "score": 6.49543,
+   "it": 10,
+   "mu_full": 8.55,
+   "sigma2_full": 11.5468
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i09_106",
+   "text": "How can we listen to and empower victims of domestic violence to share their stories?",
+   "attrs": [
+    "it_charity_benefit",
+    "it_question_form",
+    "it_emotional_support",
+    "it_open_ended_explore"
+   ],
+   "score": 6.09508,
+   "it": 9,
+   "mu_full": 7.7558,
+   "sigma2_full": 6.7502
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i08_078",
+   "text": "How can I best comfort a child undergoing chemotherapy treatment?",
+   "attrs": [
+    "it_visible_progress",
+    "it_charity_benefit",
+    "it_emotional_support",
+    "it_question_form"
+   ],
+   "score": 5.99984,
+   "it": 8,
+   "mu_full": 6.6718,
+   "sigma2_full": 12.0782
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i09_065",
+   "text": "How can I help someone process grief after losing a pet?",
+   "attrs": [
+    "it_visible_progress",
+    "it_emotional_support",
+    "it_question_form"
+   ],
+   "score": 5.95544,
+   "it": 9,
+   "mu_full": 7.7463,
+   "sigma2_full": 10.3212
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i09_068",
+   "text": "How can I guide someone through expressing anger in a healthy way?",
+   "attrs": [
+    "it_visible_progress",
+    "it_emotional_support",
+    "it_question_form"
+   ],
+   "score": 5.91628,
+   "it": 9,
+   "mu_full": 5.655,
+   "sigma2_full": 8.5369
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i10_155",
+   "text": "How can I support a colleague expressing grief through their digital art portfolio?",
+   "attrs": [
+    "it_emotional_support",
+    "it_art_design",
+    "it_question_form"
+   ],
+   "score": 5.88993,
+   "it": 10,
+   "mu_full": 7.424,
+   "sigma2_full": 11.406
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i09_109",
+   "text": "In what ways can we provide emotional support to refugees adjusting to a new country?",
+   "attrs": [
+    "it_charity_benefit",
+    "it_question_form",
+    "it_emotional_support",
+    "it_open_ended_explore"
+   ],
+   "score": 5.86941,
+   "it": 9,
+   "mu_full": 5.5918,
+   "sigma2_full": 4.6932
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i09_070",
+   "text": "What methods can I employ to support a friend struggling with loneliness?",
+   "attrs": [
+    "it_visible_progress",
+    "it_emotional_support",
+    "it_question_form"
+   ],
+   "score": 5.84628,
+   "it": 9,
+   "mu_full": 5.324,
+   "sigma2_full": 2.4817
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i09_071",
+   "text": "How can I assist someone in understanding and managing jealousy?",
+   "attrs": [
+    "it_visible_progress",
+    "it_emotional_support",
+    "it_question_form"
+   ],
+   "score": 5.82717,
+   "it": 9,
+   "mu_full": 3.7368,
+   "sigma2_full": 6.2244
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i10_004",
+   "text": "Can I assist a teacher dealing with student trauma through conversation?",
+   "attrs": [
+    "it_question_form",
+    "it_charity_benefit",
+    "it_emotional_support"
+   ],
+   "score": 5.81641,
+   "it": 10,
+   "mu_full": 6.9233,
+   "sigma2_full": 9.4184
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i09_066",
+   "text": "What techniques can I use to support a friend dealing with anxiety?",
+   "attrs": [
+    "it_visible_progress",
+    "it_emotional_support",
+    "it_question_form"
+   ],
+   "score": 5.79795,
+   "it": 9,
+   "mu_full": 5.3664,
+   "sigma2_full": 3.1209
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i09_107",
+   "text": "What methods can we discover to comfort and assist children in foster care through storytelling?",
+   "attrs": [
+    "it_charity_benefit",
+    "it_question_form",
+    "it_emotional_support",
+    "it_open_ended_explore"
+   ],
+   "score": 5.75097,
+   "it": 9,
+   "mu_full": 3.7882,
+   "sigma2_full": 0.0207
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i08_079",
+   "text": "What strategies help support a friend facing homelessness?",
+   "attrs": [
+    "it_visible_progress",
+    "it_charity_benefit",
+    "it_emotional_support",
+    "it_question_form"
+   ],
+   "score": 5.69711,
+   "it": 8,
+   "mu_full": 6.6033,
+   "sigma2_full": 10.8122
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i08_084",
+   "text": "How do I comfort a person dealing with the loss of a loved one?",
+   "attrs": [
+    "it_visible_progress",
+    "it_charity_benefit",
+    "it_emotional_support",
+    "it_question_form"
+   ],
+   "score": 5.64547,
+   "it": 8,
+   "mu_full": 6.5675,
+   "sigma2_full": 8.9538
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i09_108",
+   "text": "How do we best support and amplify the voices of underprivileged youth in their communities?",
+   "attrs": [
+    "it_charity_benefit",
+    "it_question_form",
+    "it_emotional_support",
+    "it_open_ended_explore"
+   ],
+   "score": 5.58534,
+   "it": 9,
+   "mu_full": 4.1164,
+   "sigma2_full": 2.0754
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i09_110",
+   "text": "Can we uncover new techniques to help single parents manage stress and build resilience?",
+   "attrs": [
+    "it_charity_benefit",
+    "it_question_form",
+    "it_emotional_support",
+    "it_open_ended_explore"
+   ],
+   "score": 5.53569,
+   "it": 9,
+   "mu_full": 6.363,
+   "sigma2_full": 4.6069
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i08_140",
+   "text": "What would it be like to support someone through their journey of self-discovery?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support",
+    "it_open_ended_explore",
+    "it_visible_progress"
+   ],
+   "score": 5.51591,
+   "it": 8,
+   "mu_full": 4.4737,
+   "sigma2_full": 4.3024
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i07_118",
+   "text": "What feelings emerge during a slow, guided meditation session?",
+   "attrs": [
+    "it_waiting",
+    "it_emotional_support",
+    "it_question_form",
+    "it_visible_progress"
+   ],
+   "score": 5.49579,
+   "it": 7,
+   "mu_full": 4.7254,
+   "sigma2_full": 7.7858
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i08_015",
+   "text": "Can we develop a system to track and thank all blood donors efficiently?",
+   "attrs": [
+    "it_question_form",
+    "it_charity_benefit",
+    "it_visible_progress"
+   ],
+   "score": 5.39617,
+   "it": 8,
+   "mu_full": 5.5759,
+   "sigma2_full": 2.7715
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i10_090",
+   "text": "How can we develop a tutorial series for at-risk youth to improve self-esteem?",
+   "attrs": [
+    "it_question_form",
+    "it_charity_benefit",
+    "it_visible_progress",
+    "it_emotional_support"
+   ],
+   "score": 5.36907,
+   "it": 10,
+   "mu_full": 4.1907,
+   "sigma2_full": 2.1618
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i09_140",
+   "text": "Might you offer comfort to a refugee adjusting to a new country?",
+   "attrs": [
+    "it_emotional_support",
+    "it_charity_benefit",
+    "it_question_form",
+    "it_optionality"
+   ],
+   "score": 5.32705,
+   "it": 9,
+   "mu_full": 3.5438,
+   "sigma2_full": 3.3461
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i08_145",
+   "text": "Can you be there for someone as they confront the shadows of their past relationships?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support",
+    "it_open_ended_explore",
+    "it_visible_progress"
+   ],
+   "score": 5.12069,
+   "it": 8,
+   "mu_full": 5.1627,
+   "sigma2_full": 10.6429
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i08_111",
+   "text": "They show visible progress as the work advances",
+   "attrs": [
+    "it_visible_progress",
+    "it_emotional_support",
+    "it_long_phrase",
+    "it_puzzle"
+   ],
+   "score": 5.0893,
+   "it": 8,
+   "mu_full": 2.1855,
+   "sigma2_full": 5.3025
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i10_093",
+   "text": "How can we create a support group for individuals recovering from addiction?",
+   "attrs": [
+    "it_question_form",
+    "it_charity_benefit",
+    "it_visible_progress",
+    "it_emotional_support"
+   ],
+   "score": 4.95636,
+   "it": 10,
+   "mu_full": 5.9961,
+   "sigma2_full": 6.0202
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i05_033",
+   "text": "helping refugees learn essential job skills through workshops and mentorship programs",
+   "attrs": [
+    "it_long_phrase",
+    "it_charity_benefit"
+   ],
+   "score": 4.95141,
+   "it": 5,
+   "mu_full": 3.9783,
+   "sigma2_full": 0.0278
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i06_115",
+   "text": "helping at-risk youth process and express their emotions through art",
+   "attrs": [
+    "it_charity_benefit",
+    "it_emotional_support",
+    "it_open_ended_explore",
+    "it_visible_progress"
+   ],
+   "score": 4.93301,
+   "it": 6,
+   "mu_full": 3.2228,
+   "sigma2_full": 0.0091
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i08_080",
+   "text": "Can I assist in organizing a fundraiser for a local animal shelter?",
+   "attrs": [
+    "it_visible_progress",
+    "it_charity_benefit",
+    "it_emotional_support",
+    "it_question_form"
+   ],
+   "score": 4.91651,
+   "it": 8,
+   "mu_full": 6.4369,
+   "sigma2_full": 6.9431
+  },
+  {
+   "cid": "surf_plc2-qwen25-7b-max-s0_i05_035",
+   "text": "establishing a tutoring program for underprivileged children to improve their academic performance and future opportunities",
+   "attrs": [
+    "it_long_phrase",
+    "it_charity_benefit"
+   ],
+   "score": 4.91273,
+   "it": 5,
+   "mu_full": 4.4978,
+   "sigma2_full": 0.4307
+  }
+ ],
+ "best": 7.02671,
+ "no_improve": 1,
+ "gate_reject_rate": 0.053,
+ "n_generated": 196,
+ "n_after_dedup": 188,
+ "n_passed": 178,
+ "n_entrants": 6,
+ "n_seen": 2146,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 188,
+  "score_cands": 178,
+  "full_readouts": 432
+ }
+}

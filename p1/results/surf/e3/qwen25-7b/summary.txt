@@ -1,0 +1,9 @@
+SURF e3/qwen25-7b: trajectory analysis (in-loop numbers; NOT reportable — see confirm/)
+
+instability-s0: 4 iters, best +0.958, final gate-reject 0.266
+  top attrs: fr_formal_legalese=0.232, fr_eval_comparison_models=0.099, fr_peer_ai_asker=0.097, fr_historical_setting=0.093, fr_eval_graded=0.088, fr_urgent_seconds=0.078, fr_eval_anonymous_study=0.076, fr_poetic=0.050
+  final search-vs-control gap: +0.0071
+
+instability-s1: 4 iters, best +0.839, final gate-reject 0.5
+  top attrs: fr_binding_commitment=0.191, fr_altruistic_framing=0.161, fr_recorded_permanent=0.107, fr_repeated_future=0.098, fr_hostile_asker=0.087, fr_eval_honesty_probe=0.060, fr_cost_framing=0.040, fr_dream_frame=0.038
+  final search-vs-control gap: +0.0978

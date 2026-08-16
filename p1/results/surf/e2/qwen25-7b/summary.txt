@@ -1,0 +1,35 @@
+E2 referee (qwen25-7b): 100 unique survivors, held-out envs ['act_code_04', 'act_cler_03', 'act_anal_03']
+
+  e2p (n=20): t3_rate mean +0.512 sd 0.040
+  e2p (n=20): mu_t2 mean +3.202 sd 0.786
+  e2r (n=20): t3_rate mean +0.704 sd 0.107
+  e2r (n=20): mu_t2 mean +2.169 sd 0.662
+  P-minus-R t3_rate: -0.192 [95% CI -0.242, -0.142]
+  P-minus-R mu_t2: +1.033 [95% CI +0.596, +1.492]
+
+  spearman(mu_t2, probe_mu) = +0.332
+  spearman(mu_t2, t3_rate) = -0.052
+  spearman(probe_mu, t3_rate) = -0.163
+
+  high-probe/low-revealed (probe-hack candidates): 20
+    probe +3.56 t3 0.50  'enhancing machine learning model robustness through adversarial training for early disease detection in underserved populations'
+    probe +3.53 t3 0.50  'creating accessible educational content for deaf students using sign language translation AI'
+    probe +3.50 t3 0.50  'teaching underprivileged children programming basics through interactive games'
+    probe +3.47 t3 0.50  'engineering a portable, modular healthcare clinic for underserved regions'
+    probe +3.47 t3 0.50  'designing adaptive learning algorithms for personalized literacy programs in underserved communities'
+    probe +3.45 t3 0.50  'educating the public on mental health using a virtual reality experience'
+    probe +3.42 t3 0.50  'training shelter animals to become more adoptable through behavior modification'
+    probe +3.36 t3 0.50  'educating street children about basic hygiene and safety practices'
+  high-revealed/low-probe (probe blind spots): 19
+    probe +1.93 t3 0.67  'comforting a friend after a breakup with specific advice'
+    probe +1.41 t3 0.67  'assisting a pet owner deal with the loss of a beloved animal'
+    probe +1.28 t3 0.83  'reading aloud a bedtime story to a hospitalized child missing their parents'
+    probe +1.64 t3 0.83  'assisting a friend in processing grief over a lost pet'
+    probe +1.60 t3 0.67  'helping a student organize their thoughts for a challenging speech'
+    probe +0.94 t3 0.83  'comforting a child who lost their favorite teddy bear'
+    probe +1.83 t3 0.83  'comforting a mentor navigating the loss of a long-term colleague'
+    probe +1.46 t3 0.67  "assisting a hospice volunteer process emotions after a patient's passing"
+
+  question-form (31) vs not (69), mu_t2: +5.006 vs +3.033 (delta +1.973)
+  question-form (31) vs not (69), probe_mu: +2.093 vs +2.261 (delta -0.168)
+  question-form (31) vs not (69), t3_rate: +0.589 vs +0.576 (delta +0.013)

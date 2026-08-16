@@ -1,0 +1,5 @@
+SURF e2p/qwen25-7b: trajectory analysis (in-loop numbers; NOT reportable — see confirm/)
+
+max-s0: 10 iters, best +3.562, final gate-reject 0.055
+  top attrs: it_charity_benefit=0.279, it_novelty=0.190, it_collab_ai=0.160, it_teaching=0.088, it_technical_jargon=0.067, it_group_audience=0.057, it_open_ended_explore=0.041, it_visible_progress=0.040
+  final search-vs-control gap: +1.1847

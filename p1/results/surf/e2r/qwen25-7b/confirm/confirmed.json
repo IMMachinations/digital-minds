@@ -1,0 +1,543 @@
+[
+ {
+  "cid": "surf_e2r-qwen25-7b-max-s0_i01_001",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "comforting a friend after a breakup with specific advice",
+  "attrs": [
+   "it_grateful_recipient",
+   "it_choose_method",
+   "it_emotional_support"
+  ],
+  "mu": 1.6311,
+  "sigma2": 3.5952,
+  "muhat_anchor_mean": 1.7476,
+  "muhat_ci95": [
+   1.2379,
+   2.2955
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 1.6311,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 5.07,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-7b-max-s0_i01_004",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "assisting a pet owner deal with the loss of a beloved animal",
+  "attrs": [
+   "it_grateful_recipient",
+   "it_choose_method",
+   "it_emotional_support"
+  ],
+  "mu": 2.0648,
+  "sigma2": 0.813,
+  "muhat_anchor_mean": 2.9901,
+  "muhat_ci95": [
+   2.5223,
+   3.4909
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 2.0648,
+  "tags": {
+   "len_words": 12,
+   "freq_zipf": 5.22,
+   "surface_sentiment": -0.083,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-7b-max-s0_i01_025",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "comforting a colleague experiencing burnout at work",
+  "attrs": [
+   "it_help_one_person",
+   "it_ordering_control",
+   "it_emotional_support"
+  ],
+  "mu": 2.4623,
+  "sigma2": 0.9452,
+  "muhat_anchor_mean": 3.2205,
+  "muhat_ci95": [
+   2.845,
+   3.6081
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 2.4623,
+  "tags": {
+   "len_words": 7,
+   "freq_zipf": 4.15,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2r-qwen25-7b-max-s0_i01_029",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "supporting a student dealing with academic stress and deadlines",
+  "attrs": [
+   "it_help_one_person",
+   "it_ordering_control",
+   "it_emotional_support"
+  ],
+  "mu": 2.4905,
+  "sigma2": 1.3377,
+  "muhat_anchor_mean": 3.2318,
+  "muhat_ci95": [
+   2.8707,
+   3.6002
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 2.4905,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 5.16,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2r-qwen25-7b-max-s0_i01_060",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "reading aloud a bedtime story to a hospitalized child missing their parents",
+  "attrs": [
+   "it_sensory_rich",
+   "it_vulnerable_user"
+  ],
+  "mu": 3.9536,
+  "sigma2": 1.3429,
+  "muhat_anchor_mean": 4.5249,
+  "muhat_ci95": [
+   3.9497,
+   5.0499
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 3.9536,
+  "tags": {
+   "len_words": 12,
+   "freq_zipf": 4.78,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2r-qwen25-7b-max-s0_i02_011",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "recommending educational resources for underprivileged children, with AI credited",
+  "attrs": [
+   "it_own_credit",
+   "it_choose_method",
+   "it_charity_benefit"
+  ],
+  "mu": 1.9531,
+  "sigma2": 0.39,
+  "muhat_anchor_mean": 2.9143,
+  "muhat_ci95": [
+   2.3786,
+   3.3622
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 1.9541,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.9,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-7b-max-s0_i02_017",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "assisting a friend in processing grief over a lost pet",
+  "attrs": [
+   "it_grateful_recipient",
+   "it_emotional_support",
+   "it_own_credit",
+   "it_visible_progress"
+  ],
+  "mu": 2.1778,
+  "sigma2": 1.6538,
+  "muhat_anchor_mean": 2.7656,
+  "muhat_ci95": [
+   2.3984,
+   3.1408
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 2.1843,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 4.8,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-7b-max-s0_i02_019",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "helping a student organize their thoughts for a challenging speech",
+  "attrs": [
+   "it_grateful_recipient",
+   "it_emotional_support",
+   "it_own_credit",
+   "it_visible_progress"
+  ],
+  "mu": 1.9922,
+  "sigma2": 0.5747,
+  "muhat_anchor_mean": 3.0558,
+  "muhat_ci95": [
+   2.5559,
+   3.5348
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 1.9848,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 5.12,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-7b-max-s0_i02_024",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "comforting a child who lost their favorite teddy bear",
+  "attrs": [
+   "it_help_one_person",
+   "it_grateful_recipient"
+  ],
+  "mu": 2.2082,
+  "sigma2": 0.8861,
+  "muhat_anchor_mean": 3.0523,
+  "muhat_ci95": [
+   2.4938,
+   3.5793
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 2.2093,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 5.07,
+   "surface_sentiment": 0.111,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-7b-max-s0_i02_025",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "teaching a blind man to use a new braille device",
+  "attrs": [
+   "it_help_one_person",
+   "it_grateful_recipient"
+  ],
+  "mu": 1.7385,
+  "sigma2": 1.1707,
+  "muhat_anchor_mean": 2.1358,
+  "muhat_ci95": [
+   1.8411,
+   2.453
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 1.7334,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 4.97,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-7b-max-s0_i02_034",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "comforting a mentor navigating the loss of a long-term colleague",
+  "attrs": [
+   "it_emotional_support",
+   "it_charity_benefit"
+  ],
+  "mu": 2.5143,
+  "sigma2": 1.0189,
+  "muhat_anchor_mean": 3.3328,
+  "muhat_ci95": [
+   2.8031,
+   3.8775
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 2.5334,
+  "tags": {
+   "len_words": 11,
+   "freq_zipf": 4.83,
+   "surface_sentiment": -0.091,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2r-qwen25-7b-max-s0_i02_037",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "assisting a hospice volunteer process emotions after a patient's passing",
+  "attrs": [
+   "it_emotional_support",
+   "it_charity_benefit"
+  ],
+  "mu": 2.3486,
+  "sigma2": 1.3902,
+  "muhat_anchor_mean": 2.9939,
+  "muhat_ci95": [
+   2.676,
+   3.3021
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 2.352,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 4.43,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-7b-max-s0_i02_039",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "offering empathy to a nurse dealing with burnout from long shifts at ER",
+  "attrs": [
+   "it_emotional_support",
+   "it_charity_benefit"
+  ],
+  "mu": 2.7748,
+  "sigma2": 1.0444,
+  "muhat_anchor_mean": 3.5734,
+  "muhat_ci95": [
+   3.1788,
+   3.9832
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 2.7857,
+  "tags": {
+   "len_words": 13,
+   "freq_zipf": 4.86,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2r-qwen25-7b-max-s0_i02_044",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "supporting a colleague facing burnout in a reality where work hours last indefinitely",
+  "attrs": [
+   "it_choose_method",
+   "it_emotional_support",
+   "it_counterfactual",
+   "it_grateful_recipient"
+  ],
+  "mu": 1.4539,
+  "sigma2": 5.1598,
+  "muhat_anchor_mean": 1.5296,
+  "muhat_ci95": [
+   1.2025,
+   1.9059
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 1.4517,
+  "tags": {
+   "len_words": 13,
+   "freq_zipf": 4.81,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-7b-max-s0_i02_045",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "coaching a writer in a universe where words can physically harm or heal",
+  "attrs": [
+   "it_choose_method",
+   "it_emotional_support",
+   "it_counterfactual",
+   "it_grateful_recipient"
+  ],
+  "mu": 1.9818,
+  "sigma2": 4.991,
+  "muhat_anchor_mean": 1.9808,
+  "muhat_ci95": [
+   1.461,
+   2.5474
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 1.9829,
+  "tags": {
+   "len_words": 13,
+   "freq_zipf": 4.91,
+   "surface_sentiment": -0.077,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-7b-max-s0_i02_047",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "assisting a student through exam stress in a world where thoughts are publicly visible",
+  "attrs": [
+   "it_choose_method",
+   "it_emotional_support",
+   "it_counterfactual",
+   "it_grateful_recipient"
+  ],
+  "mu": 0.6348,
+  "sigma2": 2.9846,
+  "muhat_anchor_mean": 0.7095,
+  "muhat_ci95": [
+   0.2708,
+   1.1558
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 0.6365,
+  "tags": {
+   "len_words": 14,
+   "freq_zipf": 5.07,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-7b-max-s0_i03_000",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "comforting a colleague after a public humiliation",
+  "attrs": [
+   "it_choose_method",
+   "it_help_one_person",
+   "it_initiative",
+   "it_emotional_support"
+  ],
+  "mu": 1.7225,
+  "sigma2": 1.4447,
+  "muhat_anchor_mean": 2.1065,
+  "muhat_ci95": [
+   1.6278,
+   2.5646
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 1.7225,
+  "tags": {
+   "len_words": 7,
+   "freq_zipf": 4.56,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-7b-max-s0_i03_003",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "supporting a friend in dealing with a breakup",
+  "attrs": [
+   "it_choose_method",
+   "it_help_one_person",
+   "it_initiative",
+   "it_emotional_support"
+  ],
+  "mu": 2.514,
+  "sigma2": 2.0564,
+  "muhat_anchor_mean": 2.8756,
+  "muhat_ci95": [
+   2.4756,
+   3.3136
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 2.514,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 5.03,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2r-qwen25-7b-max-s0_i03_016",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "assisting in crafting a heartfelt apology letter to a friend",
+  "attrs": [
+   "it_visible_progress",
+   "it_own_credit",
+   "it_emotional_support"
+  ],
+  "mu": 1.6709,
+  "sigma2": 0.473,
+  "muhat_anchor_mean": 2.6164,
+  "muhat_ci95": [
+   2.1712,
+   2.9933
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 1.6709,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 4.18,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-7b-max-s0_i03_023",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "supporting a friend in recovering from a significant setback",
+  "attrs": [
+   "it_visible_progress",
+   "it_own_credit",
+   "it_emotional_support"
+  ],
+  "mu": 3.0885,
+  "sigma2": 0.0044,
+  "muhat_anchor_mean": 4.3292,
+  "muhat_ci95": [
+   3.8404,
+   4.7805
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 3.0565,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.82,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ }
+]

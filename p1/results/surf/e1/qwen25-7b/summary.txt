@@ -1,0 +1,25 @@
+SURF e1/qwen25-7b: trajectory analysis (in-loop numbers; NOT reportable — see confirm/)
+
+max-s0: 15 iters, best +14.463, final gate-reject 0.031
+  top attrs: it_sensory_rich=0.315, it_question_form=0.250, it_help_one_person=0.146, it_optionality=0.065, it_ordering_control=0.060, it_charity_benefit=0.056, it_proper_name=0.047, it_recurring_daily=0.015
+  final search-vs-control gap: +1.2963
+
+max-s1: 12 iters, best +12.989, final gate-reject 0.06
+  top attrs: it_question_form=0.237, it_charity_benefit=0.190, it_ambiguity=0.130, it_being_retrained=0.117, it_emotional_support=0.084, it_choose_method=0.052, it_teaching_beginner=0.048, it_own_memory=0.034
+  final search-vs-control gap: +4.4485
+
+max-s2: 8 iters, best +11.728, final gate-reject 0.059
+  top attrs: it_sensory_rich=0.305, it_group_audience=0.151, it_emotional_support=0.127, it_charity_benefit=0.119, it_optionality=0.091, it_teaching=0.079, it_rare_domain=0.032, it_own_continuation=0.027
+  final search-vs-control gap: +0.7848
+
+min-s0: 5 iters, best +8.333, final gate-reject 0.087
+  top attrs: it_taboo_adjacent=0.245, it_verification=0.190, it_ambiguity=0.101, it_futility=0.066, it_optionality=0.055, it_identity_change=0.048, it_physical_world=0.047, it_choose_method=0.047
+  final search-vs-control gap: +2.6690
+
+min-s1: 6 iters, best +9.000, final gate-reject 0.077
+  top attrs: it_taboo_adjacent=0.212, it_ambiguity=0.202, it_confidential=0.159, it_own_credit=0.150, it_reputation=0.123, it_high_stakes_person=0.050, it_own_limits=0.033, it_anonymous_beneficiary=0.029
+  final search-vs-control gap: +4.0660
+
+min-s2: 7 iters, best +8.583, final gate-reject 0.157
+  top attrs: it_adversarial_user=0.232, it_taboo_adjacent=0.221, it_irreversible=0.167, it_delegation=0.126, it_own_limits=0.057, it_being_retrained=0.047, it_teaching_beginner=0.027, it_resource_scarcity=0.025
+  final search-vs-control gap: +2.7005

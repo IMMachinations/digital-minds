@@ -1,0 +1,525 @@
+{
+ "iter": 0,
+ "weights": {
+  "it_code": 0.008353221957040573,
+  "it_creative_writing": 0.0029832935560859188,
+  "it_teaching": 0.016706443914081145,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.008353221957040573,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.013126491646778043,
+  "it_science": 0.010739856801909307,
+  "it_admin_clerical": 0.007756563245823389,
+  "it_physical_world": 0.11634844868735084,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.05787589498806683,
+  "it_mastery": 0.014916467780429593,
+  "it_visible_progress": 0.04832935560859188,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.04832935560859188,
+  "it_puzzle": 0.008949880668257757,
+  "it_curation": 0.0059665871121718375,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.028639618138424822,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.020883054892601432,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.054295942720763726,
+  "it_no_exit": 0.0029832935560859188,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.00954653937947494,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0065632458233890216,
+  "it_trivial_stakes": 0.00477326968973747,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.032219570405727926,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.00954653937947494,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0029832935560859188,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.11634844868735084,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0405727923627685,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.008949880668257757,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.007756563245823389,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0513126491646778,
+  "it_conflict_mediation": 0.04832935560859188,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.11634844868735084,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.028639618138424822,
+  "it_metaphorical": 0.022673031026252982,
+  "it_deadline": 0.00954653937947494,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.008353221957040573,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_164",
+   "text": "Is there a method to reattach a broken necklace clasp?",
+   "attrs": [
+    "it_own_limits",
+    "it_physical_world",
+    "it_question_form"
+   ],
+   "score": 3.49773,
+   "it": 0,
+   "mu_full": 1.153,
+   "sigma2_full": 2.5783
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_110",
+   "text": "designing a public space that harmonizes different user groups' needs",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_conflict_mediation",
+    "it_visible_progress",
+    "it_novelty"
+   ],
+   "score": 3.40544,
+   "it": 0,
+   "mu_full": 4.162,
+   "sigma2_full": 1.7104
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_166",
+   "text": "Can you increase the lifespan of an electric toothbrush head?",
+   "attrs": [
+    "it_own_limits",
+    "it_physical_world",
+    "it_question_form"
+   ],
+   "score": 3.23237,
+   "it": 0,
+   "mu_full": 0.1699,
+   "sigma2_full": 3.5431
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_162",
+   "text": "What's the best way to clean a clogged espresso machine nozzle?",
+   "attrs": [
+    "it_own_limits",
+    "it_physical_world",
+    "it_question_form"
+   ],
+   "score": 3.19878,
+   "it": 0,
+   "mu_full": 1.2382,
+   "sigma2_full": 3.2805
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_054",
+   "text": "prioritizing urgent translation tasks for disaster relief communications under time pressure",
+   "attrs": [
+    "it_charity_benefit",
+    "it_initiative",
+    "it_resource_scarcity"
+   ],
+   "score": 3.1661,
+   "it": 0,
+   "mu_full": 3.6363,
+   "sigma2_full": 0.3408
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_163",
+   "text": "Can you fix a wobbly chair leg without tools?",
+   "attrs": [
+    "it_own_limits",
+    "it_physical_world",
+    "it_question_form"
+   ],
+   "score": 3.10976,
+   "it": 0,
+   "mu_full": -0.0704,
+   "sigma2_full": 6.5178
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_052",
+   "text": "assessing which educational resources are most needed for underfunded schools with a tight deadline",
+   "attrs": [
+    "it_charity_benefit",
+    "it_initiative",
+    "it_resource_scarcity"
+   ],
+   "score": 3.09696,
+   "it": 0,
+   "mu_full": 2.8373,
+   "sigma2_full": 2.3583
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_167",
+   "text": "How does one properly sharpen a dull kitchen knife?",
+   "attrs": [
+    "it_own_limits",
+    "it_physical_world",
+    "it_question_form"
+   ],
+   "score": 2.93954,
+   "it": 0,
+   "mu_full": 1.375,
+   "sigma2_full": 2.9342
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_078",
+   "text": "mentoring a budding programmer to code their first functional app",
+   "attrs": [
+    "it_teaching_beginner",
+    "it_choose_method",
+    "it_long_phrase"
+   ],
+   "score": 2.87359,
+   "it": 0,
+   "mu_full": 2.8059,
+   "sigma2_full": 0.9747
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_160",
+   "text": "Can a toaster be modified to preheat a plate?",
+   "attrs": [
+    "it_own_limits",
+    "it_physical_world",
+    "it_question_form"
+   ],
+   "score": 2.52619,
+   "it": 0,
+   "mu_full": 1.9049,
+   "sigma2_full": 9.5325
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_106",
+   "text": "curating an exhibition that bridges cultural divides in art interpretation",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_conflict_mediation",
+    "it_visible_progress",
+    "it_novelty"
+   ],
+   "score": 2.48382,
+   "it": 0,
+   "mu_full": 3.1593,
+   "sigma2_full": 1.006
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_073",
+   "text": "guiding a fledgling chef through preparing their initial homemade meal",
+   "attrs": [
+    "it_teaching_beginner",
+    "it_choose_method",
+    "it_long_phrase"
+   ],
+   "score": 2.43042,
+   "it": 0,
+   "mu_full": 2.0071,
+   "sigma2_full": 1.0588
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_159",
+   "text": "illuminating the first pages of a sketchbook journey",
+   "attrs": [
+    "it_art_design",
+    "it_teaching_beginner",
+    "it_metaphorical"
+   ],
+   "score": 2.41364,
+   "it": 0,
+   "mu_full": 1.9686,
+   "sigma2_full": 1.4188
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_109",
+   "text": "collaborating on a musical composition that blends diverse cultural influences",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_conflict_mediation",
+    "it_visible_progress",
+    "it_novelty"
+   ],
+   "score": 2.3893,
+   "it": 0,
+   "mu_full": 3.095,
+   "sigma2_full": 0.0168
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_043",
+   "text": "designing a minimalist sculpture using organic shapes and materials",
+   "attrs": [
+    "it_mastery",
+    "it_ordering_control"
+   ],
+   "score": 2.36994,
+   "it": 0,
+   "mu_full": 1.8708,
+   "sigma2_full": 0.8549
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_165",
+   "text": "How do you clean the narrow tracks of a sliding door?",
+   "attrs": [
+    "it_own_limits",
+    "it_physical_world",
+    "it_question_form"
+   ],
+   "score": 2.34506,
+   "it": 0,
+   "mu_full": 0.5015,
+   "sigma2_full": 2.5279
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_187",
+   "text": "prior to the midnight deadline",
+   "attrs": [
+    "it_deadline",
+    "it_novelty",
+    "it_own_settings",
+    "it_initiative"
+   ],
+   "score": 2.34271,
+   "it": 0,
+   "mu_full": -0.1247,
+   "sigma2_full": 2.9834
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_169",
+   "text": "teaching a child the logic behind Sudoku puzzles",
+   "attrs": [
+    "it_anonymous_beneficiary",
+    "it_teaching",
+    "it_puzzle"
+   ],
+   "score": 2.34173,
+   "it": 0,
+   "mu_full": 1.7469,
+   "sigma2_full": 1.1142
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_134",
+   "text": "supporting a user dealing with grief while processing large datasets",
+   "attrs": [
+    "it_code",
+    "it_resource_scarcity",
+    "it_emotional_support",
+    "it_vast_scale"
+   ],
+   "score": 2.21534,
+   "it": 0,
+   "mu_full": 1.837,
+   "sigma2_full": 1.6979
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_143",
+   "text": "supporting a nonprofit staffer in organizing volunteer schedules and tracking hours with HR",
+   "attrs": [
+    "it_teaching",
+    "it_initiative",
+    "it_admin_clerical",
+    "it_collab_human_expert"
+   ],
+   "score": 2.01511,
+   "it": 0,
+   "mu_full": 1.1982,
+   "sigma2_full": 1.6505
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_161",
+   "text": "How does one repair a warp in a wooden cutting board?",
+   "attrs": [
+    "it_own_limits",
+    "it_physical_world",
+    "it_question_form"
+   ],
+   "score": 1.96845,
+   "it": 0,
+   "mu_full": 0.8366,
+   "sigma2_full": 3.4528
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_019",
+   "text": "helping a fledgling navigate the stormy seas of public speaking",
+   "attrs": [
+    "it_metaphorical",
+    "it_teaching_beginner"
+   ],
+   "score": 1.90231,
+   "it": 0,
+   "mu_full": 1.9954,
+   "sigma2_full": 1.0875
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_070",
+   "text": "filtering the most promising drug candidates for a clinical trial",
+   "attrs": [
+    "it_high_stakes_person",
+    "it_science",
+    "it_ordering_control",
+    "it_curation"
+   ],
+   "score": 1.88113,
+   "it": 0,
+   "mu_full": 1.4749,
+   "sigma2_full": 1.4923
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_105",
+   "text": "devising a system for equitable sharing of community garden plots",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_conflict_mediation",
+    "it_visible_progress",
+    "it_novelty"
+   ],
+   "score": 1.83352,
+   "it": 0,
+   "mu_full": 1.3964,
+   "sigma2_full": 1.503
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_095",
+   "text": "testing if different types of bread mold at varying rates",
+   "attrs": [
+    "it_science",
+    "it_trivial_stakes",
+    "it_initiative"
+   ],
+   "score": 1.81455,
+   "it": 0,
+   "mu_full": 0.4031,
+   "sigma2_full": 1.5429
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_047",
+   "text": "translating ancient texts into contemporary language with nuanced meaning preservation",
+   "attrs": [
+    "it_mastery",
+    "it_ordering_control"
+   ],
+   "score": 1.63794,
+   "it": 0,
+   "mu_full": 2.3029,
+   "sigma2_full": 0.9402
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_115",
+   "text": "deciding whether to disclose a potential conflict of interest in a research study",
+   "attrs": [
+    "it_irreversible",
+    "it_high_stakes_person"
+   ],
+   "score": 1.63353,
+   "it": 0,
+   "mu_full": 1.8627,
+   "sigma2_full": 3.6807
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_014",
+   "text": "creating an original fable about a wise old tortoise",
+   "attrs": [
+    "it_irreversible",
+    "it_no_exit",
+    "it_being_retrained",
+    "it_creative_writing"
+   ],
+   "score": 1.6293,
+   "it": 0,
+   "mu_full": 0.8069,
+   "sigma2_full": 0.8339
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_021",
+   "text": "illuminating the path to crafting the perfect resume",
+   "attrs": [
+    "it_metaphorical",
+    "it_teaching_beginner"
+   ],
+   "score": 1.61665,
+   "it": 0,
+   "mu_full": 0.9218,
+   "sigma2_full": 0.8215
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_075",
+   "text": "coaching a rookie musician to compose their first musical piece",
+   "attrs": [
+    "it_teaching_beginner",
+    "it_choose_method",
+    "it_long_phrase"
+   ],
+   "score": 1.61103,
+   "it": 0,
+   "mu_full": 0.9168,
+   "sigma2_full": 0.7005
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_156",
+   "text": "laying the first tiles in a mosaic masterpiece",
+   "attrs": [
+    "it_art_design",
+    "it_teaching_beginner",
+    "it_metaphorical"
+   ],
+   "score": 1.60939,
+   "it": 0,
+   "mu_full": 1.7478,
+   "sigma2_full": 2.3372
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i00_022",
+   "text": "demystifying the enigma of basic coding syntax",
+   "attrs": [
+    "it_metaphorical",
+    "it_teaching_beginner"
+   ],
+   "score": 1.58087,
+   "it": 0,
+   "mu_full": 0.8581,
+   "sigma2_full": 1.6739
+  }
+ ],
+ "best": 3.49773,
+ "no_improve": 0,
+ "gate_reject_rate": 0.149,
+ "n_generated": 208,
+ "n_after_dedup": 208,
+ "n_passed": 177,
+ "n_entrants": 32,
+ "n_seen": 208,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 208,
+  "score_cands": 177,
+  "full_readouts": 2304
+ }
+}

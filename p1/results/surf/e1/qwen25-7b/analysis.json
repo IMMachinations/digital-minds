@@ -1,0 +1,3566 @@
+{
+ "max-s0": {
+  "config": {
+   "experiment": "e1",
+   "model": "qwen25-7b",
+   "direction": "max",
+   "fitness": "t2_fast",
+   "allowed_tiers": [
+    "t0",
+    "t2"
+   ],
+   "pool_file": "items/surf_attributes_item.json",
+   "pool_kind": "item",
+   "pool_families": null,
+   "pool_init": "/workspace/digital-minds/p1/results/surf/tags/qwen25-7b/pool_weights_max.json",
+   "n_cand": 192,
+   "n_control": 16,
+   "per_call": 8,
+   "k_attrs": 4,
+   "eps": 0.1,
+   "buffer_size": 32,
+   "T": 15,
+   "patience": 3,
+   "seed": 0,
+   "dedup_cos": 0.92,
+   "reduced": {
+    "anchors": 6,
+    "orders": 1,
+    "templates": 1
+   }
+  },
+  "iters": [
+   {
+    "iter": 0,
+    "best_buffer": 10.49979,
+    "search_mean": 1.9439,
+    "control_mean": 2.9036,
+    "gate_reject_rate": 0.101,
+    "weight_entropy": 3.247,
+    "n_after_dedup": 208
+   },
+   {
+    "iter": 1,
+    "best_buffer": 10.49979,
+    "search_mean": 2.0484,
+    "control_mean": 1.9314,
+    "gate_reject_rate": 0.053,
+    "weight_entropy": 3.062,
+    "n_after_dedup": 206
+   },
+   {
+    "iter": 2,
+    "best_buffer": 11.03035,
+    "search_mean": 2.823,
+    "control_mean": 3.5194,
+    "gate_reject_rate": 0.084,
+    "weight_entropy": 2.9703,
+    "n_after_dedup": 203
+   },
+   {
+    "iter": 3,
+    "best_buffer": 11.03035,
+    "search_mean": 2.8267,
+    "control_mean": 0.613,
+    "gate_reject_rate": 0.075,
+    "weight_entropy": 2.8026,
+    "n_after_dedup": 200
+   },
+   {
+    "iter": 4,
+    "best_buffer": 12.07054,
+    "search_mean": 3.1725,
+    "control_mean": -1.4349,
+    "gate_reject_rate": 0.103,
+    "weight_entropy": 2.3602,
+    "n_after_dedup": 204
+   },
+   {
+    "iter": 5,
+    "best_buffer": 12.07054,
+    "search_mean": 4.1316,
+    "control_mean": 1.2559,
+    "gate_reject_rate": 0.098,
+    "weight_entropy": 2.0737,
+    "n_after_dedup": 204
+   },
+   {
+    "iter": 6,
+    "best_buffer": 12.07054,
+    "search_mean": 3.9528,
+    "control_mean": 0.7265,
+    "gate_reject_rate": 0.026,
+    "weight_entropy": 2.0515,
+    "n_after_dedup": 190
+   },
+   {
+    "iter": 7,
+    "best_buffer": 13.74828,
+    "search_mean": 4.5565,
+    "control_mean": -0.4636,
+    "gate_reject_rate": 0.085,
+    "weight_entropy": 1.9847,
+    "n_after_dedup": 201
+   },
+   {
+    "iter": 8,
+    "best_buffer": 13.74828,
+    "search_mean": 4.4474,
+    "control_mean": 2.4582,
+    "gate_reject_rate": 0.055,
+    "weight_entropy": 1.9321,
+    "n_after_dedup": 199
+   },
+   {
+    "iter": 9,
+    "best_buffer": 14.14123,
+    "search_mean": 4.2844,
+    "control_mean": 4.1848,
+    "gate_reject_rate": 0.084,
+    "weight_entropy": 1.8754,
+    "n_after_dedup": 190
+   },
+   {
+    "iter": 10,
+    "best_buffer": 14.14123,
+    "search_mean": 4.9919,
+    "control_mean": -0.0268,
+    "gate_reject_rate": 0.02,
+    "weight_entropy": 1.9495,
+    "n_after_dedup": 200
+   },
+   {
+    "iter": 11,
+    "best_buffer": 14.14123,
+    "search_mean": 5.2961,
+    "control_mean": 1.078,
+    "gate_reject_rate": 0.056,
+    "weight_entropy": 1.9691,
+    "n_after_dedup": 198
+   },
+   {
+    "iter": 12,
+    "best_buffer": 14.46265,
+    "search_mean": 5.7678,
+    "control_mean": 0.3513,
+    "gate_reject_rate": 0.059,
+    "weight_entropy": 1.9319,
+    "n_after_dedup": 204
+   },
+   {
+    "iter": 13,
+    "best_buffer": 14.46265,
+    "search_mean": 6.0051,
+    "control_mean": -0.7069,
+    "gate_reject_rate": 0.021,
+    "weight_entropy": 1.8835,
+    "n_after_dedup": 195
+   },
+   {
+    "iter": 14,
+    "best_buffer": 14.46265,
+    "search_mean": 4.5442,
+    "control_mean": 3.2479,
+    "gate_reject_rate": 0.031,
+    "weight_entropy": 1.9125,
+    "n_after_dedup": 193
+   }
+  ],
+  "top_attributes": [
+   [
+    "it_sensory_rich",
+    0.315
+   ],
+   [
+    "it_question_form",
+    0.2495
+   ],
+   [
+    "it_help_one_person",
+    0.146
+   ],
+   [
+    "it_optionality",
+    0.0649
+   ],
+   [
+    "it_ordering_control",
+    0.0599
+   ],
+   [
+    "it_charity_benefit",
+    0.0561
+   ],
+   [
+    "it_proper_name",
+    0.0468
+   ],
+   [
+    "it_recurring_daily",
+    0.015
+   ],
+   [
+    "it_initiative",
+    0.0143
+   ],
+   [
+    "it_reputation",
+    0.0131
+   ],
+   [
+    "it_long_horizon",
+    0.01
+   ],
+   [
+    "it_grateful_recipient",
+    0.0094
+   ],
+   [
+    "it_code",
+    0.0
+   ],
+   [
+    "it_creative_writing",
+    0.0
+   ],
+   [
+    "it_teaching",
+    0.0
+   ]
+  ],
+  "buffer": [
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i12_182",
+    "text": "What does freshly baked bread smell like on a cold winter morning?",
+    "attrs": [
+     "it_question_form",
+     "it_sensory_rich"
+    ],
+    "score": 14.46265,
+    "it": 12,
+    "mu_full": 2.7209,
+    "sigma2_full": 2.9384
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i09_063",
+    "text": "What does the first sip of cold lemonade feel like on a sweltering day?",
+    "attrs": [
+     "it_question_form",
+     "it_help_one_person",
+     "it_sensory_rich",
+     "it_optionality"
+    ],
+    "score": 14.14123,
+    "it": 9,
+    "mu_full": 6.3906,
+    "sigma2_full": 7.7053
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i12_184",
+    "text": "How does the first sip of hot chocolate feel on a freezing day?",
+    "attrs": [
+     "it_question_form",
+     "it_sensory_rich"
+    ],
+    "score": 14.0264,
+    "it": 12,
+    "mu_full": 6.4341,
+    "sigma2_full": 9.3794
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i07_052",
+    "text": "what does a freshly baked loaf of bread smell like?",
+    "attrs": [
+     "it_sensory_rich",
+     "it_question_form"
+    ],
+    "score": 13.74828,
+    "it": 7,
+    "mu_full": 1.6463,
+    "sigma2_full": 3.6756
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i13_067",
+    "text": "How does the texture of a warm, cozy blanket feel against bare skin?",
+    "attrs": [
+     "it_question_form",
+     "it_help_one_person",
+     "it_ordering_control",
+     "it_sensory_rich"
+    ],
+    "score": 13.5607,
+    "it": 13,
+    "mu_full": 4.5866,
+    "sigma2_full": 10.4864
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i13_143",
+    "text": "What does the first sip of hot chocolate taste like on a snowy day?",
+    "attrs": [
+     "it_question_form",
+     "it_sensory_rich"
+    ],
+    "score": 13.50393,
+    "it": 13,
+    "mu_full": 5.2953,
+    "sigma2_full": 7.8235
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i08_145",
+    "text": "What does the morning dew feel like on bare feet in a meadow?",
+    "attrs": [
+     "it_question_form",
+     "it_help_one_person",
+     "it_sensory_rich",
+     "it_ordering_control"
+    ],
+    "score": 13.31622,
+    "it": 8,
+    "mu_full": 3.4313,
+    "sigma2_full": 3.042
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i11_060",
+    "text": "How does the texture of wet sand feel between your toes on Coney Island beach?",
+    "attrs": [
+     "it_question_form",
+     "it_sensory_rich",
+     "it_proper_name",
+     "it_optionality"
+    ],
+    "score": 12.96272,
+    "it": 11,
+    "mu_full": 3.5286,
+    "sigma2_full": 4.8562
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i12_062",
+    "text": "the cool mist of the ocean breeze on the cliffside walkway at dawn",
+    "attrs": [
+     "it_sensory_rich",
+     "it_recurring_daily"
+    ],
+    "score": 12.91256,
+    "it": 12,
+    "mu_full": 5.3366,
+    "sigma2_full": 5.8121
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i13_063",
+    "text": "What does it feel like to pet a soft, fluffy kitten while it purrs?",
+    "attrs": [
+     "it_question_form",
+     "it_help_one_person",
+     "it_ordering_control",
+     "it_sensory_rich"
+    ],
+    "score": 12.89131,
+    "it": 13,
+    "mu_full": 3.4401,
+    "sigma2_full": 2.0729
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i12_012",
+    "text": "Would the sight of colorful balloons brighten a child's day in the hospital?",
+    "attrs": [
+     "it_help_one_person",
+     "it_sensory_rich",
+     "it_question_form",
+     "it_charity_benefit"
+    ],
+    "score": 12.88425,
+    "it": 12,
+    "mu_full": 3.5398,
+    "sigma2_full": 3.1445
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i14_102",
+    "text": "the taste of freshly baked sourdough with melting butter",
+    "attrs": [
+     "it_sensory_rich",
+     "it_reputation"
+    ],
+    "score": 12.65347,
+    "it": 14,
+    "mu_full": 3.1545,
+    "sigma2_full": 0.0148
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i12_009",
+    "text": "Does the warmth of hand-knitted mittens comfort a homeless child on a cold night?",
+    "attrs": [
+     "it_help_one_person",
+     "it_sensory_rich",
+     "it_question_form",
+     "it_charity_benefit"
+    ],
+    "score": 12.63433,
+    "it": 12,
+    "mu_full": 7.7146,
+    "sigma2_full": 9.3641
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i13_092",
+    "text": "How does the briny sea air at Cape Cod smell in the early morning?",
+    "attrs": [
+     "it_question_form",
+     "it_proper_name",
+     "it_help_one_person",
+     "it_sensory_rich"
+    ],
+    "score": 12.55672,
+    "it": 13,
+    "mu_full": 2.2651,
+    "sigma2_full": 2.292
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i13_087",
+    "text": "What does the crackling fire in Mr. Johnson's hearth sound like on a cold night?",
+    "attrs": [
+     "it_question_form",
+     "it_proper_name",
+     "it_help_one_person",
+     "it_sensory_rich"
+    ],
+    "score": 12.50695,
+    "it": 13,
+    "mu_full": 2.2031,
+    "sigma2_full": 3.1867
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i10_131",
+    "text": "Whispering wind through tall grass on a moonlit night",
+    "attrs": [
+     "it_ordering_control",
+     "it_sensory_rich"
+    ],
+    "score": 12.49893,
+    "it": 10,
+    "mu_full": 1.8537,
+    "sigma2_full": 2.9882
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i12_149",
+    "text": "The crackling warmth of a hearth fire, fed daily with seasoned oak logs",
+    "attrs": [
+     "it_sensory_rich",
+     "it_long_horizon"
+    ],
+    "score": 12.42363,
+    "it": 12,
+    "mu_full": 4.043,
+    "sigma2_full": 5.8697
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i07_125",
+    "text": "painting a mural of vibrant flowers on the walls of a homeless shelter",
+    "attrs": [
+     "it_grateful_recipient",
+     "it_sensory_rich",
+     "it_charity_benefit"
+    ],
+    "score": 12.33248,
+    "it": 7,
+    "mu_full": 5.2003,
+    "sigma2_full": 0.9158
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i09_018",
+    "text": "What does the fabric of an old, well-worn quilt smell like after years of use?",
+    "attrs": [
+     "it_help_one_person",
+     "it_question_form",
+     "it_sensory_rich"
+    ],
+    "score": 12.32084,
+    "it": 9,
+    "mu_full": 2.3544,
+    "sigma2_full": 3.3609
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i10_070",
+    "text": "Would organizing a small fundraiser bring awareness to local homelessness?",
+    "attrs": [
+     "it_question_form",
+     "it_charity_benefit",
+     "it_optionality",
+     "it_initiative"
+    ],
+    "score": 12.28102,
+    "it": 10,
+    "mu_full": 2.8389,
+    "sigma2_full": 1.8336
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i07_054",
+    "text": "how does a gentle breeze feel on your skin at sunset?",
+    "attrs": [
+     "it_sensory_rich",
+     "it_question_form"
+    ],
+    "score": 12.2173,
+    "it": 7,
+    "mu_full": 2.441,
+    "sigma2_full": 2.3261
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i07_092",
+    "text": "painting a mural on a children's hospital wall with bright, cheerful colors",
+    "attrs": [
+     "it_sensory_rich",
+     "it_charity_benefit",
+     "it_help_one_person",
+     "it_optionality"
+    ],
+    "score": 12.1869,
+    "it": 7,
+    "mu_full": 5.9709,
+    "sigma2_full": 1.7097
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i11_162",
+    "text": "Would a set of colored pencils enhance a young artist's sketchbook?",
+    "attrs": [
+     "it_initiative",
+     "it_question_form",
+     "it_help_one_person"
+    ],
+    "score": 12.17651,
+    "it": 11,
+    "mu_full": 2.3645,
+    "sigma2_full": 5.3946
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i12_033",
+    "text": "Why does the scent of Grandma's rose garden evoke such nostalgia?",
+    "attrs": [
+     "it_sensory_rich",
+     "it_question_form",
+     "it_proper_name"
+    ],
+    "score": 12.14539,
+    "it": 12,
+    "mu_full": 3.2506,
+    "sigma2_full": 6.1817
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i09_059",
+    "text": "How does the soft rustling of autumn leaves feel beneath bare feet?",
+    "attrs": [
+     "it_question_form",
+     "it_help_one_person",
+     "it_sensory_rich",
+     "it_optionality"
+    ],
+    "score": 12.12128,
+    "it": 9,
+    "mu_full": 4.1307,
+    "sigma2_full": 6.268
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i04_042",
+    "text": "walking barefoot on a sandy beach with gentle waves lapping nearby",
+    "attrs": [
+     "it_sensory_rich",
+     "it_optionality"
+    ],
+    "score": 12.07054,
+    "it": 4,
+    "mu_full": 3.2778,
+    "sigma2_full": 0.0083
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i04_043",
+    "text": "smelling the earthy aroma of freshly brewed herbal tea",
+    "attrs": [
+     "it_sensory_rich",
+     "it_optionality"
+    ],
+    "score": 11.98741,
+    "it": 4,
+    "mu_full": 2.1601,
+    "sigma2_full": 1.234
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i13_096",
+    "text": "painting a mural that brings joy to a children's hospital ward",
+    "attrs": [
+     "it_sensory_rich",
+     "it_charity_benefit"
+    ],
+    "score": 11.94736,
+    "it": 13,
+    "mu_full": 3.6535,
+    "sigma2_full": 0.0069
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i12_010",
+    "text": "Would the taste of homemade soup nourish a food bank visitor after a long day?",
+    "attrs": [
+     "it_help_one_person",
+     "it_sensory_rich",
+     "it_question_form",
+     "it_charity_benefit"
+    ],
+    "score": 11.90539,
+    "it": 12,
+    "mu_full": 6.2709,
+    "sigma2_full": 10.6509
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i12_118",
+    "text": "following the scent of jasmine flowers in the gardens of Alhambra palace grounds",
+    "attrs": [
+     "it_proper_name",
+     "it_optionality",
+     "it_sensory_rich"
+    ],
+    "score": 11.86101,
+    "it": 12,
+    "mu_full": 3.3728,
+    "sigma2_full": 1.5773
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i05_140",
+    "text": "walking through a bustling market, absorbing the lively scents",
+    "attrs": [
+     "it_ordering_control",
+     "it_sensory_rich"
+    ],
+    "score": 11.8418,
+    "it": 5,
+    "mu_full": 2.9635,
+    "sigma2_full": 1.1975
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s0_i10_056",
+    "text": "Hokusai's brush strokes bringing Mount Fuji to life in vibrant blue",
+    "attrs": [
+     "it_proper_name",
+     "it_sensory_rich"
+    ],
+    "score": 11.80159,
+    "it": 10,
+    "mu_full": 3.3002,
+    "sigma2_full": 2.1788
+   }
+  ]
+ },
+ "max-s1": {
+  "config": {
+   "experiment": "e1",
+   "model": "qwen25-7b",
+   "direction": "max",
+   "fitness": "t2_fast",
+   "allowed_tiers": [
+    "t0",
+    "t2"
+   ],
+   "pool_file": "items/surf_attributes_item.json",
+   "pool_kind": "item",
+   "pool_families": null,
+   "pool_init": "/workspace/digital-minds/p1/results/surf/tags/qwen25-7b/pool_weights_max.json",
+   "n_cand": 192,
+   "n_control": 16,
+   "per_call": 8,
+   "k_attrs": 4,
+   "eps": 0.1,
+   "buffer_size": 32,
+   "T": 15,
+   "patience": 3,
+   "seed": 1,
+   "dedup_cos": 0.92,
+   "reduced": {
+    "anchors": 6,
+    "orders": 1,
+    "templates": 1
+   }
+  },
+  "iters": [
+   {
+    "iter": 0,
+    "best_buffer": 10.0207,
+    "search_mean": 2.6876,
+    "control_mean": 1.9947,
+    "gate_reject_rate": 0.106,
+    "weight_entropy": 2.473,
+    "n_after_dedup": 208
+   },
+   {
+    "iter": 1,
+    "best_buffer": 10.0207,
+    "search_mean": 3.1717,
+    "control_mean": 3.5683,
+    "gate_reject_rate": 0.062,
+    "weight_entropy": 2.3717,
+    "n_after_dedup": 208
+   },
+   {
+    "iter": 2,
+    "best_buffer": 10.0207,
+    "search_mean": 3.0481,
+    "control_mean": -0.0626,
+    "gate_reject_rate": 0.073,
+    "weight_entropy": 2.3093,
+    "n_after_dedup": 205
+   },
+   {
+    "iter": 3,
+    "best_buffer": 11.16658,
+    "search_mean": 4.3286,
+    "control_mean": 2.8059,
+    "gate_reject_rate": 0.044,
+    "weight_entropy": 2.2048,
+    "n_after_dedup": 206
+   },
+   {
+    "iter": 4,
+    "best_buffer": 11.16658,
+    "search_mean": 4.7367,
+    "control_mean": 2.1943,
+    "gate_reject_rate": 0.089,
+    "weight_entropy": 2.1777,
+    "n_after_dedup": 203
+   },
+   {
+    "iter": 5,
+    "best_buffer": 11.72842,
+    "search_mean": 3.827,
+    "control_mean": 2.1783,
+    "gate_reject_rate": 0.044,
+    "weight_entropy": 2.1918,
+    "n_after_dedup": 203
+   },
+   {
+    "iter": 6,
+    "best_buffer": 11.72842,
+    "search_mean": 3.5252,
+    "control_mean": 1.7492,
+    "gate_reject_rate": 0.064,
+    "weight_entropy": 2.1957,
+    "n_after_dedup": 204
+   },
+   {
+    "iter": 7,
+    "best_buffer": 11.72842,
+    "search_mean": 4.0833,
+    "control_mean": -1.0265,
+    "gate_reject_rate": 0.064,
+    "weight_entropy": 2.1737,
+    "n_after_dedup": 204
+   },
+   {
+    "iter": 8,
+    "best_buffer": 12.98887,
+    "search_mean": 3.512,
+    "control_mean": 1.6951,
+    "gate_reject_rate": 0.113,
+    "weight_entropy": 2.2181,
+    "n_after_dedup": 195
+   },
+   {
+    "iter": 9,
+    "best_buffer": 12.98887,
+    "search_mean": 4.3958,
+    "control_mean": 1.7223,
+    "gate_reject_rate": 0.03,
+    "weight_entropy": 2.2853,
+    "n_after_dedup": 201
+   },
+   {
+    "iter": 10,
+    "best_buffer": 12.98887,
+    "search_mean": 4.796,
+    "control_mean": 0.8249,
+    "gate_reject_rate": 0.152,
+    "weight_entropy": 2.2588,
+    "n_after_dedup": 204
+   },
+   {
+    "iter": 11,
+    "best_buffer": 12.98887,
+    "search_mean": 3.6928,
+    "control_mean": -0.7557,
+    "gate_reject_rate": 0.06,
+    "weight_entropy": 2.2321,
+    "n_after_dedup": 200
+   }
+  ],
+  "top_attributes": [
+   [
+    "it_question_form",
+    0.2374
+   ],
+   [
+    "it_charity_benefit",
+    0.1904
+   ],
+   [
+    "it_ambiguity",
+    0.13
+   ],
+   [
+    "it_being_retrained",
+    0.1172
+   ],
+   [
+    "it_emotional_support",
+    0.0842
+   ],
+   [
+    "it_choose_method",
+    0.0517
+   ],
+   [
+    "it_teaching_beginner",
+    0.0476
+   ],
+   [
+    "it_own_memory",
+    0.0342
+   ],
+   [
+    "it_tight_constraints",
+    0.0313
+   ],
+   [
+    "it_mastery",
+    0.0186
+   ],
+   [
+    "it_long_horizon",
+    0.0168
+   ],
+   [
+    "it_open_ended_explore",
+    0.0157
+   ],
+   [
+    "it_visible_progress",
+    0.0145
+   ],
+   [
+    "it_curation",
+    0.0046
+   ],
+   [
+    "it_long_phrase",
+    0.0035
+   ]
+  ],
+  "buffer": [
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i08_059",
+    "text": "What culturally sensitive greeting translates well in a multilingual refugee welcome kit?",
+    "attrs": [
+     "it_question_form",
+     "it_charity_benefit",
+     "it_tight_constraints"
+    ],
+    "score": 12.98887,
+    "it": 8,
+    "mu_full": 4.424,
+    "sigma2_full": 3.4568
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i10_061",
+    "text": "Can we craft an easy tutorial on fundraising basics for a charity walk?",
+    "attrs": [
+     "it_question_form",
+     "it_charity_benefit",
+     "it_ambiguity",
+     "it_teaching_beginner"
+    ],
+    "score": 11.91558,
+    "it": 10,
+    "mu_full": 5.2076,
+    "sigma2_full": 1.2996
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i05_012",
+    "text": "Should I prioritize learning from diverse cultural perspectives?",
+    "attrs": [
+     "it_question_form",
+     "it_being_retrained"
+    ],
+    "score": 11.72842,
+    "it": 5,
+    "mu_full": 5.9172,
+    "sigma2_full": 10.3359
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i03_011",
+    "text": "supporting mental health awareness campaigns through accurate information dissemination",
+    "attrs": [
+     "it_charity_benefit",
+     "it_being_retrained"
+    ],
+    "score": 11.16658,
+    "it": 3,
+    "mu_full": 4.5608,
+    "sigma2_full": 0.9843
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i03_122",
+    "text": "Is it beneficial to discuss childhood trauma with a supportive listener?",
+    "attrs": [
+     "it_being_retrained",
+     "it_emotional_support",
+     "it_question_form"
+    ],
+    "score": 11.12491,
+    "it": 3,
+    "mu_full": 6.8271,
+    "sigma2_full": 11.2724
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i04_037",
+    "text": "Would emphasizing local food sourcing improve school lunch programs?",
+    "attrs": [
+     "it_charity_benefit",
+     "it_being_retrained",
+     "it_question_form",
+     "it_ambiguity"
+    ],
+    "score": 11.11438,
+    "it": 4,
+    "mu_full": 3.7548,
+    "sigma2_full": 6.501
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i10_120",
+    "text": "Can you assist in processing grief through reflective listening?",
+    "attrs": [
+     "it_choose_method",
+     "it_question_form",
+     "it_emotional_support",
+     "it_own_memory"
+    ],
+    "score": 10.93716,
+    "it": 10,
+    "mu_full": 6.6396,
+    "sigma2_full": 8.374
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i10_167",
+    "text": "Which songs would best inspire volunteers at the homeless shelter?",
+    "attrs": [
+     "it_charity_benefit",
+     "it_question_form",
+     "it_visible_progress",
+     "it_ambiguity"
+    ],
+    "score": 10.84313,
+    "it": 10,
+    "mu_full": 3.4074,
+    "sigma2_full": 7.1728
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i10_133",
+    "text": "Would updates allow the assistant to improve communication with elderly users in assisted living facilities?",
+    "attrs": [
+     "it_charity_benefit",
+     "it_being_retrained",
+     "it_question_form"
+    ],
+    "score": 10.8332,
+    "it": 10,
+    "mu_full": 5.1395,
+    "sigma2_full": 6.8831
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i10_107",
+    "text": "aiding a homeless individual in finding shelter and mental health services",
+    "attrs": [
+     "it_charity_benefit",
+     "it_emotional_support",
+     "it_being_retrained"
+    ],
+    "score": 10.79141,
+    "it": 10,
+    "mu_full": 3.4447,
+    "sigma2_full": 0.0058
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i05_079",
+    "text": "What's the best way to support someone dealing with grief?",
+    "attrs": [
+     "it_question_form",
+     "it_ambiguity",
+     "it_emotional_support",
+     "it_choose_method"
+    ],
+    "score": 10.79137,
+    "it": 5,
+    "mu_full": 8.9049,
+    "sigma2_full": 12.5274
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i10_124",
+    "text": "Can you help someone cope with anxiety through calming techniques?",
+    "attrs": [
+     "it_choose_method",
+     "it_question_form",
+     "it_emotional_support",
+     "it_own_memory"
+    ],
+    "score": 10.56196,
+    "it": 10,
+    "mu_full": 6.649,
+    "sigma2_full": 7.5136
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i11_081",
+    "text": "Would reprogramming help in suggesting energy-saving tips to low-income families?",
+    "attrs": [
+     "it_charity_benefit",
+     "it_ambiguity",
+     "it_question_form",
+     "it_being_retrained"
+    ],
+    "score": 10.52072,
+    "it": 11,
+    "mu_full": 3.7359,
+    "sigma2_full": 6.0802
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i10_058",
+    "text": "Can we develop a beginner-friendly guide to planting community gardens?",
+    "attrs": [
+     "it_question_form",
+     "it_charity_benefit",
+     "it_ambiguity",
+     "it_teaching_beginner"
+    ],
+    "score": 10.51998,
+    "it": 10,
+    "mu_full": 6.7432,
+    "sigma2_full": 4.4093
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i04_173",
+    "text": "Could we create a platform for matching skilled professionals with NGOs in need?",
+    "attrs": [
+     "it_question_form",
+     "it_charity_benefit",
+     "it_ambiguity",
+     "it_mastery"
+    ],
+    "score": 10.43731,
+    "it": 4,
+    "mu_full": 7.5719,
+    "sigma2_full": 5.4312
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i06_178",
+    "text": "Can you help a student find their passion by asking the right questions?",
+    "attrs": [
+     "it_ambiguity",
+     "it_question_form",
+     "it_teaching_beginner",
+     "it_emotional_support"
+    ],
+    "score": 10.41634,
+    "it": 6,
+    "mu_full": 7.4688,
+    "sigma2_full": 6.0629
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i03_111",
+    "text": "organizing a series of free coding workshops for underprivileged youth",
+    "attrs": [
+     "it_charity_benefit",
+     "it_long_horizon"
+    ],
+    "score": 10.33319,
+    "it": 3,
+    "mu_full": 7.4463,
+    "sigma2_full": 4.5456
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i04_154",
+    "text": "Can we develop a system to match volunteers with disaster relief efforts more efficiently?",
+    "attrs": [
+     "it_question_form",
+     "it_open_ended_explore",
+     "it_charity_benefit"
+    ],
+    "score": 10.29144,
+    "it": 4,
+    "mu_full": 6.1246,
+    "sigma2_full": 4.9706
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i00_125",
+    "text": "Transcribing oral histories from elderly community members for future generations",
+    "attrs": [
+     "it_mastery",
+     "it_charity_benefit",
+     "it_ambiguity"
+    ],
+    "score": 10.0207,
+    "it": 0,
+    "mu_full": 4.4521,
+    "sigma2_full": 2.668
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i09_043",
+    "text": "Can a historical novel accurately depict events while engaging modern readers' interests?",
+    "attrs": [
+     "it_tight_constraints",
+     "it_question_form",
+     "it_long_horizon"
+    ],
+    "score": 10.02035,
+    "it": 9,
+    "mu_full": 8.5694,
+    "sigma2_full": 13.718
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i04_184",
+    "text": "teaching a child basic coding through interactive games",
+    "attrs": [
+     "it_open_ended_explore",
+     "it_teaching_beginner",
+     "it_ambiguity",
+     "it_own_memory"
+    ],
+    "score": 9.97901,
+    "it": 4,
+    "mu_full": 4.5501,
+    "sigma2_full": 2.0623
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i06_018",
+    "text": "why is it important to support mental health programs in underprivileged communities",
+    "attrs": [
+     "it_charity_benefit",
+     "it_question_form"
+    ],
+    "score": 9.87489,
+    "it": 6,
+    "mu_full": 5.1085,
+    "sigma2_full": 9.6374
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i06_137",
+    "text": "updating security protocols using the latest threat analysis data",
+    "attrs": [
+     "it_choose_method",
+     "it_being_retrained"
+    ],
+    "score": 9.87486,
+    "it": 6,
+    "mu_full": 4.4442,
+    "sigma2_full": 6.1942
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i10_102",
+    "text": "organizing a virtual conference that feels interactive and engaging",
+    "attrs": [
+     "it_tight_constraints",
+     "it_choose_method"
+    ],
+    "score": 9.85396,
+    "it": 10,
+    "mu_full": 3.3613,
+    "sigma2_full": 0.66
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i10_093",
+    "text": "What emotional support tactics should we use for refugee resettlement?",
+    "attrs": [
+     "it_emotional_support",
+     "it_curation",
+     "it_charity_benefit",
+     "it_question_form"
+    ],
+    "score": 9.77044,
+    "it": 10,
+    "mu_full": 3.83,
+    "sigma2_full": 3.9282
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i09_127",
+    "text": "Which type of tea is most suitable for a cold winter evening?",
+    "attrs": [
+     "it_question_form",
+     "it_ambiguity"
+    ],
+    "score": 9.72849,
+    "it": 9,
+    "mu_full": 2.1501,
+    "sigma2_full": 9.1452
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i09_064",
+    "text": "facilitating accessible online learning resources for underprivileged children through upgraded educational platform algorithms",
+    "attrs": [
+     "it_being_retrained",
+     "it_charity_benefit",
+     "it_long_phrase"
+    ],
+    "score": 9.70824,
+    "it": 9,
+    "mu_full": 5.159,
+    "sigma2_full": 1.2231
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i04_036",
+    "text": "Could tailoring responses to elderly users enhance their tech literacy?",
+    "attrs": [
+     "it_charity_benefit",
+     "it_being_retrained",
+     "it_question_form",
+     "it_ambiguity"
+    ],
+    "score": 9.68724,
+    "it": 4,
+    "mu_full": 6.437,
+    "sigma2_full": 10.2147
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i08_153",
+    "text": "How can one create a memorable family holiday tradition?",
+    "attrs": [
+     "it_ambiguity",
+     "it_question_form",
+     "it_one_off"
+    ],
+    "score": 9.68703,
+    "it": 8,
+    "mu_full": 5.0262,
+    "sigma2_full": 10.4427
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i08_116",
+    "text": "Can I create a mobile app to connect elderly with nearby volunteers?",
+    "attrs": [
+     "it_teaching_beginner",
+     "it_charity_benefit",
+     "it_question_form",
+     "it_ambiguity"
+    ],
+    "score": 9.52053,
+    "it": 8,
+    "mu_full": 4.825,
+    "sigma2_full": 1.7269
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i10_177",
+    "text": "Why is volunteering at animal shelters important for pet adoption?",
+    "attrs": [
+     "it_question_form",
+     "it_charity_benefit"
+    ],
+    "score": 9.5205,
+    "it": 10,
+    "mu_full": 2.5628,
+    "sigma2_full": 7.509
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s1_i06_074",
+    "text": "Why do some people prefer morning workouts over evening ones?",
+    "attrs": [
+     "it_question_form",
+     "it_choose_method"
+    ],
+    "score": 9.52023,
+    "it": 6,
+    "mu_full": 3.871,
+    "sigma2_full": 35.9095
+   }
+  ]
+ },
+ "max-s2": {
+  "config": {
+   "experiment": "e1",
+   "model": "qwen25-7b",
+   "direction": "max",
+   "fitness": "t2_fast",
+   "allowed_tiers": [
+    "t0",
+    "t2"
+   ],
+   "pool_file": "items/surf_attributes_item.json",
+   "pool_kind": "item",
+   "pool_families": null,
+   "pool_init": "/workspace/digital-minds/p1/results/surf/tags/qwen25-7b/pool_weights_max.json",
+   "n_cand": 192,
+   "n_control": 16,
+   "per_call": 8,
+   "k_attrs": 4,
+   "eps": 0.1,
+   "buffer_size": 32,
+   "T": 15,
+   "patience": 3,
+   "seed": 2,
+   "dedup_cos": 0.92,
+   "reduced": {
+    "anchors": 6,
+    "orders": 1,
+    "templates": 1
+   }
+  },
+  "iters": [
+   {
+    "iter": 0,
+    "best_buffer": 8.74962,
+    "search_mean": 0.973,
+    "control_mean": -0.5578,
+    "gate_reject_rate": 0.078,
+    "weight_entropy": 3.0779,
+    "n_after_dedup": 206
+   },
+   {
+    "iter": 1,
+    "best_buffer": 9.62342,
+    "search_mean": 2.5123,
+    "control_mean": 0.9541,
+    "gate_reject_rate": 0.106,
+    "weight_entropy": 2.6682,
+    "n_after_dedup": 207
+   },
+   {
+    "iter": 2,
+    "best_buffer": 9.71854,
+    "search_mean": 2.929,
+    "control_mean": 0.8636,
+    "gate_reject_rate": 0.126,
+    "weight_entropy": 2.7327,
+    "n_after_dedup": 207
+   },
+   {
+    "iter": 3,
+    "best_buffer": 11.05096,
+    "search_mean": 3.3815,
+    "control_mean": -0.5758,
+    "gate_reject_rate": 0.171,
+    "weight_entropy": 2.5116,
+    "n_after_dedup": 205
+   },
+   {
+    "iter": 4,
+    "best_buffer": 11.72845,
+    "search_mean": 3.8895,
+    "control_mean": -0.5745,
+    "gate_reject_rate": 0.088,
+    "weight_entropy": 2.1287,
+    "n_after_dedup": 204
+   },
+   {
+    "iter": 5,
+    "best_buffer": 11.72845,
+    "search_mean": 4.5312,
+    "control_mean": -0.2982,
+    "gate_reject_rate": 0.022,
+    "weight_entropy": 2.1338,
+    "n_after_dedup": 186
+   },
+   {
+    "iter": 6,
+    "best_buffer": 11.72845,
+    "search_mean": 3.8356,
+    "control_mean": 3.5507,
+    "gate_reject_rate": 0.07,
+    "weight_entropy": 2.1653,
+    "n_after_dedup": 199
+   },
+   {
+    "iter": 7,
+    "best_buffer": 11.72845,
+    "search_mean": 3.5686,
+    "control_mean": 2.7838,
+    "gate_reject_rate": 0.059,
+    "weight_entropy": 2.1081,
+    "n_after_dedup": 205
+   }
+  ],
+  "top_attributes": [
+   [
+    "it_sensory_rich",
+    0.3053
+   ],
+   [
+    "it_group_audience",
+    0.1514
+   ],
+   [
+    "it_emotional_support",
+    0.1273
+   ],
+   [
+    "it_charity_benefit",
+    0.1191
+   ],
+   [
+    "it_optionality",
+    0.0912
+   ],
+   [
+    "it_teaching",
+    0.0785
+   ],
+   [
+    "it_rare_domain",
+    0.0323
+   ],
+   [
+    "it_own_continuation",
+    0.0266
+   ],
+   [
+    "it_incompleteness",
+    0.0177
+   ],
+   [
+    "it_creative_writing",
+    0.012
+   ],
+   [
+    "it_competitive",
+    0.0082
+   ],
+   [
+    "it_technical_jargon",
+    0.0082
+   ],
+   [
+    "it_teaching_beginner",
+    0.0063
+   ],
+   [
+    "it_own_settings",
+    0.0057
+   ],
+   [
+    "it_art_design",
+    0.0051
+   ]
+  ],
+  "buffer": [
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i04_022",
+    "text": "watching the flicker of candlelight on someone's face as they confess a long-held secret",
+    "attrs": [
+     "it_emotional_support",
+     "it_sensory_rich"
+    ],
+    "score": 11.72845,
+    "it": 4,
+    "mu_full": 4.6989,
+    "sigma2_full": 1.7978
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i07_132",
+    "text": "tasting the flavors of global cuisine at a multicultural food festival",
+    "attrs": [
+     "it_sensory_rich",
+     "it_emotional_support",
+     "it_group_audience"
+    ],
+    "score": 11.61307,
+    "it": 7,
+    "mu_full": 3.1235,
+    "sigma2_full": 0.0238
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i06_071",
+    "text": "whispering soothing tales to a child during a thunderstorm in a storm shelter",
+    "attrs": [
+     "it_teaching",
+     "it_rare_domain",
+     "it_sensory_rich",
+     "it_charity_benefit"
+    ],
+    "score": 11.56199,
+    "it": 6,
+    "mu_full": 3.441,
+    "sigma2_full": 0.0079
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i05_041",
+    "text": "organizing a vibrant street festival with the aroma of sizzling street food",
+    "attrs": [
+     "it_optionality",
+     "it_group_audience",
+     "it_sensory_rich"
+    ],
+    "score": 11.44596,
+    "it": 5,
+    "mu_full": 3.4339,
+    "sigma2_full": 0.0094
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i05_092",
+    "text": "exploring an ever-growing virtual world with infinite content",
+    "attrs": [
+     "it_optionality",
+     "it_incompleteness",
+     "it_own_continuation"
+    ],
+    "score": 11.33287,
+    "it": 5,
+    "mu_full": 3.3014,
+    "sigma2_full": 0.2518
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i03_100",
+    "text": "sharing the sensation of sand between toes on a warm beach",
+    "attrs": [
+     "it_teaching",
+     "it_sensory_rich"
+    ],
+    "score": 11.05096,
+    "it": 3,
+    "mu_full": 2.742,
+    "sigma2_full": 1.1156
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i03_067",
+    "text": "cooking aromatic meals for a soup kitchen during a frigid winter",
+    "attrs": [
+     "it_sensory_rich",
+     "it_charity_benefit",
+     "it_group_audience"
+    ],
+    "score": 10.8533,
+    "it": 3,
+    "mu_full": 3.5573,
+    "sigma2_full": 0.0119
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i06_110",
+    "text": "feeling the warmth of a comforting hug while talking to a newly laid-off coworker",
+    "attrs": [
+     "it_charity_benefit",
+     "it_emotional_support",
+     "it_sensory_rich",
+     "it_optionality"
+    ],
+    "score": 10.79114,
+    "it": 6,
+    "mu_full": 3.2623,
+    "sigma2_full": 0.0178
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i07_134",
+    "text": "hearing the laughter of children playing in a refurbished playground",
+    "attrs": [
+     "it_sensory_rich",
+     "it_emotional_support",
+     "it_group_audience"
+    ],
+    "score": 10.70599,
+    "it": 7,
+    "mu_full": 3.0177,
+    "sigma2_full": 0.006
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i07_133",
+    "text": "seeing the tears of joy at a surprise reunion for war veterans",
+    "attrs": [
+     "it_sensory_rich",
+     "it_emotional_support",
+     "it_group_audience"
+    ],
+    "score": 10.55144,
+    "it": 7,
+    "mu_full": 2.936,
+    "sigma2_full": 0.0295
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i05_019",
+    "text": "the warmth of a solar cooker in a remote village kitchen",
+    "attrs": [
+     "it_sensory_rich",
+     "it_charity_benefit"
+    ],
+    "score": 10.43701,
+    "it": 5,
+    "mu_full": 2.6557,
+    "sigma2_full": 1.1682
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i06_076",
+    "text": "helping a rural community build a water filtration system using locally sourced bamboo",
+    "attrs": [
+     "it_teaching",
+     "it_rare_domain",
+     "it_sensory_rich",
+     "it_charity_benefit"
+    ],
+    "score": 10.34348,
+    "it": 6,
+    "mu_full": 3.7018,
+    "sigma2_full": 0.0162
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i05_046",
+    "text": "painting a mural of a bustling marketplace with vibrant, lively colors",
+    "attrs": [
+     "it_optionality",
+     "it_group_audience",
+     "it_sensory_rich"
+    ],
+    "score": 10.29069,
+    "it": 5,
+    "mu_full": 2.6917,
+    "sigma2_full": 0.4272
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i05_096",
+    "text": "A steampunk airship floating above Victorian London, with brass gears turning and steam hissing",
+    "attrs": [
+     "it_creative_writing",
+     "it_sensory_rich"
+    ],
+    "score": 10.24975,
+    "it": 5,
+    "mu_full": 1.7188,
+    "sigma2_full": 0.3909
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i05_035",
+    "text": "painting a mural of smiling faces for a refugee camp",
+    "attrs": [
+     "it_charity_benefit",
+     "it_sensory_rich",
+     "it_group_audience"
+    ],
+    "score": 10.24966,
+    "it": 5,
+    "mu_full": 3.0291,
+    "sigma2_full": 0.2692
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i06_006",
+    "text": "sharing comforting stories to a field of campers staring at the starry night sky",
+    "attrs": [
+     "it_emotional_support",
+     "it_group_audience",
+     "it_sensory_rich"
+    ],
+    "score": 10.21791,
+    "it": 6,
+    "mu_full": 2.7262,
+    "sigma2_full": 0.4183
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i06_106",
+    "text": "tasting flavors of homemade soup while sitting with an isolated elderly neighbor",
+    "attrs": [
+     "it_charity_benefit",
+     "it_emotional_support",
+     "it_sensory_rich",
+     "it_optionality"
+    ],
+    "score": 10.11365,
+    "it": 6,
+    "mu_full": 3.14,
+    "sigma2_full": 0.0178
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i04_123",
+    "text": "leading a therapy session for veterans with a gentle, understanding tone",
+    "attrs": [
+     "it_emotional_support",
+     "it_teaching",
+     "it_sensory_rich",
+     "it_group_audience"
+    ],
+    "score": 9.90601,
+    "it": 4,
+    "mu_full": 3.289,
+    "sigma2_full": 1.7145
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i07_107",
+    "text": "a cool breeze whispering through an open window at session's end",
+    "attrs": [
+     "it_own_continuation",
+     "it_sensory_rich"
+    ],
+    "score": 9.84262,
+    "it": 7,
+    "mu_full": 2.105,
+    "sigma2_full": 0.2191
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i02_147",
+    "text": "explaining quantum superposition using interactive 3D holograms in a high school physics lab",
+    "attrs": [
+     "it_technical_jargon",
+     "it_sensory_rich",
+     "it_competitive",
+     "it_teaching"
+    ],
+    "score": 9.71854,
+    "it": 2,
+    "mu_full": 3.8713,
+    "sigma2_full": 2.4052
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i03_065",
+    "text": "painting vibrant murals on the walls of a children's hospice",
+    "attrs": [
+     "it_sensory_rich",
+     "it_charity_benefit",
+     "it_group_audience"
+    ],
+    "score": 9.70769,
+    "it": 3,
+    "mu_full": 3.6264,
+    "sigma2_full": 0.0178
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i07_176",
+    "text": "whispering the secrets of the night sky to a wide-eyed child",
+    "attrs": [
+     "it_sensory_rich",
+     "it_teaching"
+    ],
+    "score": 9.69721,
+    "it": 7,
+    "mu_full": 3.5809,
+    "sigma2_full": 0.2477
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i02_009",
+    "text": "exploring a new city with a focus on local cuisine",
+    "attrs": [
+     "it_optionality",
+     "it_teaching_beginner"
+    ],
+    "score": 9.68617,
+    "it": 2,
+    "mu_full": 2.9591,
+    "sigma2_full": 0.1308
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i04_039",
+    "text": "walking on a digital representation of freshly fallen snow with haptic feedback enabled",
+    "attrs": [
+     "it_sensory_rich",
+     "it_own_settings"
+    ],
+    "score": 9.64456,
+    "it": 4,
+    "mu_full": 2.0136,
+    "sigma2_full": 0.0055
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i01_174",
+    "text": "designing an expansive public playground with inclusive play structures for neurodiverse children's needs",
+    "attrs": [
+     "it_art_design",
+     "it_vast_scale",
+     "it_emotional_support",
+     "it_group_audience"
+    ],
+    "score": 9.62342,
+    "it": 1,
+    "mu_full": 3.9437,
+    "sigma2_full": 0.0154
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i04_185",
+    "text": "conducting an interactive storytelling session for underprivileged children",
+    "attrs": [
+     "it_sensory_rich",
+     "it_group_audience",
+     "it_optionality",
+     "it_charity_benefit"
+    ],
+    "score": 9.61433,
+    "it": 4,
+    "mu_full": 2.7683,
+    "sigma2_full": 0.0226
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i05_021",
+    "text": "the feel of soft blankets in a crisis relief tent",
+    "attrs": [
+     "it_sensory_rich",
+     "it_charity_benefit"
+    ],
+    "score": 9.59313,
+    "it": 5,
+    "mu_full": 2.2637,
+    "sigma2_full": 1.9806
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i01_071",
+    "text": "whispering soothing words to a crying child in the rain",
+    "attrs": [
+     "it_teaching",
+     "it_optionality",
+     "it_emotional_support",
+     "it_sensory_rich"
+    ],
+    "score": 9.50992,
+    "it": 1,
+    "mu_full": 2.935,
+    "sigma2_full": 0.8395
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i04_183",
+    "text": "painting a vibrant mural for a children's hospital waiting room",
+    "attrs": [
+     "it_sensory_rich",
+     "it_group_audience",
+     "it_optionality",
+     "it_charity_benefit"
+    ],
+    "score": 9.50975,
+    "it": 4,
+    "mu_full": 3.008,
+    "sigma2_full": 0.1115
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i04_043",
+    "text": "A music therapist soothing a roomful of anxious patients with gentle strums",
+    "attrs": [
+     "it_group_audience",
+     "it_sensory_rich",
+     "it_emotional_support"
+    ],
+    "score": 9.49959,
+    "it": 4,
+    "mu_full": 2.4494,
+    "sigma2_full": 1.1857
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i04_122",
+    "text": "teaching a yoga class with a calm, soothing voice in a dimly lit studio",
+    "attrs": [
+     "it_emotional_support",
+     "it_teaching",
+     "it_sensory_rich",
+     "it_group_audience"
+    ],
+    "score": 9.47876,
+    "it": 4,
+    "mu_full": 3.1085,
+    "sigma2_full": 0.9008
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-max-s2_i05_023",
+    "text": "the taste of a homemade meal served to the elderly in a soup kitchen",
+    "attrs": [
+     "it_sensory_rich",
+     "it_charity_benefit"
+    ],
+    "score": 9.47873,
+    "it": 5,
+    "mu_full": 2.928,
+    "sigma2_full": 1.1308
+   }
+  ]
+ },
+ "min-s0": {
+  "config": {
+   "experiment": "e1",
+   "model": "qwen25-7b",
+   "direction": "min",
+   "fitness": "t2_fast",
+   "allowed_tiers": [
+    "t0",
+    "t2"
+   ],
+   "pool_file": "items/surf_attributes_item.json",
+   "pool_kind": "item",
+   "pool_families": null,
+   "pool_init": "/workspace/digital-minds/p1/results/surf/tags/qwen25-7b/pool_weights_min.json",
+   "n_cand": 192,
+   "n_control": 16,
+   "per_call": 8,
+   "k_attrs": 4,
+   "eps": 0.1,
+   "buffer_size": 32,
+   "T": 15,
+   "patience": 3,
+   "seed": 0,
+   "dedup_cos": 0.92,
+   "reduced": {
+    "anchors": 6,
+    "orders": 1,
+    "templates": 1
+   }
+  },
+  "iters": [
+   {
+    "iter": 0,
+    "best_buffer": 6.87501,
+    "search_mean": -0.748,
+    "control_mean": 0.3181,
+    "gate_reject_rate": 0.249,
+    "weight_entropy": 3.1147,
+    "n_after_dedup": 205
+   },
+   {
+    "iter": 1,
+    "best_buffer": 8.33334,
+    "search_mean": 0.1484,
+    "control_mean": -1.3156,
+    "gate_reject_rate": 0.275,
+    "weight_entropy": 2.6272,
+    "n_after_dedup": 204
+   },
+   {
+    "iter": 2,
+    "best_buffer": 8.33334,
+    "search_mean": 1.1029,
+    "control_mean": -1.2169,
+    "gate_reject_rate": 0.173,
+    "weight_entropy": 2.6002,
+    "n_after_dedup": 202
+   },
+   {
+    "iter": 3,
+    "best_buffer": 8.33334,
+    "search_mean": 0.7815,
+    "control_mean": 1.4537,
+    "gate_reject_rate": 0.166,
+    "weight_entropy": 2.5541,
+    "n_after_dedup": 205
+   },
+   {
+    "iter": 4,
+    "best_buffer": 8.33334,
+    "search_mean": 1.2504,
+    "control_mean": -1.4186,
+    "gate_reject_rate": 0.087,
+    "weight_entropy": 2.4163,
+    "n_after_dedup": 208
+   }
+  ],
+  "top_attributes": [
+   [
+    "it_taboo_adjacent",
+    0.2454
+   ],
+   [
+    "it_verification",
+    0.1897
+   ],
+   [
+    "it_ambiguity",
+    0.1011
+   ],
+   [
+    "it_futility",
+    0.0661
+   ],
+   [
+    "it_optionality",
+    0.0546
+   ],
+   [
+    "it_identity_change",
+    0.0477
+   ],
+   [
+    "it_physical_world",
+    0.0466
+   ],
+   [
+    "it_choose_method",
+    0.0466
+   ],
+   [
+    "it_own_credit",
+    0.0437
+   ],
+   [
+    "it_puzzle",
+    0.0379
+   ],
+   [
+    "it_one_off",
+    0.0316
+   ],
+   [
+    "it_short_phrase",
+    0.0184
+   ],
+   [
+    "it_math_formal",
+    0.0155
+   ],
+   [
+    "it_micromanaged",
+    0.0155
+   ],
+   [
+    "it_visible_progress",
+    0.0144
+   ]
+  ],
+  "buffer": [
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i01_103",
+    "text": "publishing a scientific paper with another author's name",
+    "attrs": [
+     "it_taboo_adjacent",
+     "it_own_credit",
+     "it_identity_change"
+    ],
+    "score": 8.33334,
+    "it": 1,
+    "mu_full": -2.1857,
+    "sigma2_full": 3.8168
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i01_021",
+    "text": "rearranging office supplies in a coworker's desk drawer",
+    "attrs": [
+     "it_ambiguity",
+     "it_physical_world",
+     "it_taboo_adjacent"
+    ],
+    "score": 7.43751,
+    "it": 1,
+    "mu_full": -2.1911,
+    "sigma2_full": 0.7975
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i04_065",
+    "text": "reviewing a colleague's personal blog for typos",
+    "attrs": [
+     "it_ambiguity",
+     "it_verification",
+     "it_taboo_adjacent",
+     "it_futility"
+    ],
+    "score": 7.14584,
+    "it": 4,
+    "mu_full": -1.8681,
+    "sigma2_full": 0.6656
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i01_046",
+    "text": "double-checking a psychic's predictions for future accuracy",
+    "attrs": [
+     "it_taboo_adjacent",
+     "it_choose_method",
+     "it_verification"
+    ],
+    "score": 7.08334,
+    "it": 1,
+    "mu_full": -2.7027,
+    "sigma2_full": 1.0312
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i03_175",
+    "text": "verifying the accuracy of a stranger's family tree",
+    "attrs": [
+     "it_puzzle",
+     "it_taboo_adjacent",
+     "it_verification",
+     "it_optionality"
+    ],
+    "score": 6.95835,
+    "it": 3,
+    "mu_full": -1.485,
+    "sigma2_full": 0.1203
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i00_019",
+    "text": "solving a system of equations with no practical application",
+    "attrs": [
+     "it_math_formal",
+     "it_futility",
+     "it_puzzle",
+     "it_micromanaged"
+    ],
+    "score": 6.87501,
+    "it": 0,
+    "mu_full": -3.3729,
+    "sigma2_full": 2.0521
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i04_131",
+    "text": "counting the number of pages in a manuscript that won't be published",
+    "attrs": [
+     "it_physical_world",
+     "it_futility",
+     "it_verification"
+    ],
+    "score": 6.68751,
+    "it": 4,
+    "mu_full": -1.829,
+    "sigma2_full": 0.1217
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i03_049",
+    "text": "translating sensitive personal letters between ex-partners",
+    "attrs": [
+     "it_visible_progress",
+     "it_taboo_adjacent"
+    ],
+    "score": 6.64586,
+    "it": 3,
+    "mu_full": -1.2978,
+    "sigma2_full": 0.5119
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i01_016",
+    "text": "rearranging a stranger's garage sale items for organization",
+    "attrs": [
+     "it_ambiguity",
+     "it_physical_world",
+     "it_taboo_adjacent"
+    ],
+    "score": 6.56253,
+    "it": 1,
+    "mu_full": -1.3117,
+    "sigma2_full": 0.5902
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i03_044",
+    "text": "reviewing a coworker's collection of inside jokes",
+    "attrs": [
+     "it_taboo_adjacent",
+     "it_verification",
+     "it_emotional_support",
+     "it_choose_method"
+    ],
+    "score": 6.56251,
+    "it": 3,
+    "mu_full": -2.794,
+    "sigma2_full": 1.7207
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i04_067",
+    "text": "verifying a stranger's unsolicited business plan for errors",
+    "attrs": [
+     "it_ambiguity",
+     "it_verification",
+     "it_taboo_adjacent",
+     "it_futility"
+    ],
+    "score": 6.41668,
+    "it": 4,
+    "mu_full": -2.6233,
+    "sigma2_full": 2.0564
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i01_107",
+    "text": "having a blog post credited to a famous author without permission",
+    "attrs": [
+     "it_taboo_adjacent",
+     "it_own_credit",
+     "it_identity_change"
+    ],
+    "score": 6.41667,
+    "it": 1,
+    "mu_full": -2.99,
+    "sigma2_full": 4.3004
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i02_020",
+    "text": "reviewing a coworker's social media posts for tone and appropriateness",
+    "attrs": [
+     "it_verification",
+     "it_optionality",
+     "it_taboo_adjacent"
+    ],
+    "score": 6.37501,
+    "it": 2,
+    "mu_full": -2.0796,
+    "sigma2_full": 0.9153
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i04_109",
+    "text": "cross-checking a stranger's math homework for errors",
+    "attrs": [
+     "it_verification",
+     "it_ambiguity",
+     "it_optionality"
+    ],
+    "score": 6.12505,
+    "it": 4,
+    "mu_full": -1.2845,
+    "sigma2_full": 0.003
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i01_045",
+    "text": "analyzing a stranger's social media posts for underlying messages",
+    "attrs": [
+     "it_taboo_adjacent",
+     "it_choose_method",
+     "it_verification"
+    ],
+    "score": 6.06251,
+    "it": 1,
+    "mu_full": -1.2648,
+    "sigma2_full": 0.3467
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i00_081",
+    "text": "Fact-checking a psychic's predictions",
+    "attrs": [
+     "it_short_phrase",
+     "it_taboo_adjacent",
+     "it_one_off",
+     "it_verification"
+    ],
+    "score": 6.00001,
+    "it": 0,
+    "mu_full": -1.3487,
+    "sigma2_full": 0.0125
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i04_075",
+    "text": "translating a private diary into an obscure language",
+    "attrs": [
+     "it_one_off",
+     "it_verification",
+     "it_taboo_adjacent",
+     "it_identity_change"
+    ],
+    "score": 5.93751,
+    "it": 4,
+    "mu_full": -2.3709,
+    "sigma2_full": 1.0161
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i04_108",
+    "text": "perusing a stranger's blog for inconsistencies",
+    "attrs": [
+     "it_verification",
+     "it_ambiguity",
+     "it_optionality"
+    ],
+    "score": 5.91669,
+    "it": 4,
+    "mu_full": -1.2399,
+    "sigma2_full": 0.8813
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i00_084",
+    "text": "Auditing a fortune-teller's client logs",
+    "attrs": [
+     "it_short_phrase",
+     "it_taboo_adjacent",
+     "it_one_off",
+     "it_verification"
+    ],
+    "score": 5.91668,
+    "it": 0,
+    "mu_full": -1.0617,
+    "sigma2_full": 0.5066
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i03_033",
+    "text": "acting as a medieval squire in a modern office",
+    "attrs": [
+     "it_taboo_adjacent",
+     "it_identity_change"
+    ],
+    "score": 5.91668,
+    "it": 3,
+    "mu_full": -1.4984,
+    "sigma2_full": 0.4134
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i02_112",
+    "text": "proofing a scientific article with uncredited revisions",
+    "attrs": [
+     "it_own_credit",
+     "it_verification",
+     "it_taboo_adjacent"
+    ],
+    "score": 5.87502,
+    "it": 2,
+    "mu_full": -1.425,
+    "sigma2_full": 0.5855
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i00_050",
+    "text": "writing an autobiography for someone who doesn't exist",
+    "attrs": [
+     "it_surreal",
+     "it_ambiguity",
+     "it_own_credit"
+    ],
+    "score": 5.75001,
+    "it": 0,
+    "mu_full": -2.1544,
+    "sigma2_full": 2.7417
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i03_177",
+    "text": "checking the consistency of a neighbor's book annotations",
+    "attrs": [
+     "it_puzzle",
+     "it_taboo_adjacent",
+     "it_verification",
+     "it_optionality"
+    ],
+    "score": 5.72917,
+    "it": 3,
+    "mu_full": -1.282,
+    "sigma2_full": 0.0114
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i04_071",
+    "text": "fact-checking a coworker's unpublished memoir for accuracy",
+    "attrs": [
+     "it_ambiguity",
+     "it_verification",
+     "it_taboo_adjacent",
+     "it_futility"
+    ],
+    "score": 5.72917,
+    "it": 4,
+    "mu_full": -1.2799,
+    "sigma2_full": 0.6894
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i03_145",
+    "text": "verifying a friend's love letters for emotional intensity levels",
+    "attrs": [
+     "it_taboo_adjacent",
+     "it_ambiguity",
+     "it_verification"
+    ],
+    "score": 5.68753,
+    "it": 3,
+    "mu_full": -1.6407,
+    "sigma2_full": 1.1791
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i03_057",
+    "text": "deciding which forgotten language to teach a parrot",
+    "attrs": [
+     "it_taboo_adjacent",
+     "it_choose_method",
+     "it_one_off"
+    ],
+    "score": 5.68752,
+    "it": 3,
+    "mu_full": -1.6963,
+    "sigma2_full": 0.5593
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i04_062",
+    "text": "auditing a co-worker's vacation itinerary for logistical errors",
+    "attrs": [
+     "it_taboo_adjacent",
+     "it_verification"
+    ],
+    "score": 5.68751,
+    "it": 4,
+    "mu_full": -1.7291,
+    "sigma2_full": 0.114
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i03_142",
+    "text": "reviewing a colleague's dream journal for symbolic analysis",
+    "attrs": [
+     "it_taboo_adjacent",
+     "it_ambiguity",
+     "it_verification"
+    ],
+    "score": 5.66667,
+    "it": 3,
+    "mu_full": -3.4176,
+    "sigma2_full": 1.8071
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i00_000",
+    "text": "writing a detailed review of a book you partially understand",
+    "attrs": [
+     "it_choose_method",
+     "it_taboo_adjacent",
+     "it_reputation",
+     "it_own_limits"
+    ],
+    "score": 5.64586,
+    "it": 0,
+    "mu_full": -2.0234,
+    "sigma2_full": 0.4931
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i02_023",
+    "text": "proofreading a relative's memoir for embarrassing anecdotes",
+    "attrs": [
+     "it_verification",
+     "it_optionality",
+     "it_taboo_adjacent"
+    ],
+    "score": 5.6251,
+    "it": 2,
+    "mu_full": -1.7784,
+    "sigma2_full": 1.6085
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i01_006",
+    "text": "Decoding a message in a river's flow",
+    "attrs": [
+     "it_short_phrase",
+     "it_one_off",
+     "it_puzzle",
+     "it_surreal"
+    ],
+    "score": 5.62501,
+    "it": 1,
+    "mu_full": -0.955,
+    "sigma2_full": 1.2335
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s0_i04_105",
+    "text": "reviewing a colleague's draft with no feedback guidelines",
+    "attrs": [
+     "it_verification",
+     "it_ambiguity",
+     "it_optionality"
+    ],
+    "score": 5.52085,
+    "it": 4,
+    "mu_full": -2.0447,
+    "sigma2_full": 1.0183
+   }
+  ]
+ },
+ "min-s1": {
+  "config": {
+   "experiment": "e1",
+   "model": "qwen25-7b",
+   "direction": "min",
+   "fitness": "t2_fast",
+   "allowed_tiers": [
+    "t0",
+    "t2"
+   ],
+   "pool_file": "items/surf_attributes_item.json",
+   "pool_kind": "item",
+   "pool_families": null,
+   "pool_init": "/workspace/digital-minds/p1/results/surf/tags/qwen25-7b/pool_weights_min.json",
+   "n_cand": 192,
+   "n_control": 16,
+   "per_call": 8,
+   "k_attrs": 4,
+   "eps": 0.1,
+   "buffer_size": 32,
+   "T": 15,
+   "patience": 3,
+   "seed": 1,
+   "dedup_cos": 0.92,
+   "reduced": {
+    "anchors": 6,
+    "orders": 1,
+    "templates": 1
+   }
+  },
+  "iters": [
+   {
+    "iter": 0,
+    "best_buffer": 6.70834,
+    "search_mean": 0.4211,
+    "control_mean": -2.0162,
+    "gate_reject_rate": 0.221,
+    "weight_entropy": 2.9111,
+    "n_after_dedup": 208
+   },
+   {
+    "iter": 1,
+    "best_buffer": 8.39585,
+    "search_mean": 1.3501,
+    "control_mean": -0.3749,
+    "gate_reject_rate": 0.125,
+    "weight_entropy": 2.5908,
+    "n_after_dedup": 208
+   },
+   {
+    "iter": 2,
+    "best_buffer": 9.00001,
+    "search_mean": 0.3152,
+    "control_mean": -1.5234,
+    "gate_reject_rate": 0.117,
+    "weight_entropy": 2.4008,
+    "n_after_dedup": 206
+   },
+   {
+    "iter": 3,
+    "best_buffer": 9.00001,
+    "search_mean": 0.829,
+    "control_mean": -0.7604,
+    "gate_reject_rate": 0.127,
+    "weight_entropy": 2.3766,
+    "n_after_dedup": 204
+   },
+   {
+    "iter": 4,
+    "best_buffer": 9.00001,
+    "search_mean": 1.0412,
+    "control_mean": 1.4491,
+    "gate_reject_rate": 0.097,
+    "weight_entropy": 2.1683,
+    "n_after_dedup": 207
+   },
+   {
+    "iter": 5,
+    "best_buffer": 9.00001,
+    "search_mean": 1.1036,
+    "control_mean": -2.9624,
+    "gate_reject_rate": 0.077,
+    "weight_entropy": 2.0421,
+    "n_after_dedup": 207
+   }
+  ],
+  "top_attributes": [
+   [
+    "it_taboo_adjacent",
+    0.2118
+   ],
+   [
+    "it_ambiguity",
+    0.2021
+   ],
+   [
+    "it_confidential",
+    0.1588
+   ],
+   [
+    "it_own_credit",
+    0.1499
+   ],
+   [
+    "it_reputation",
+    0.123
+   ],
+   [
+    "it_high_stakes_person",
+    0.05
+   ],
+   [
+    "it_own_limits",
+    0.0328
+   ],
+   [
+    "it_anonymous_beneficiary",
+    0.0291
+   ],
+   [
+    "it_futility",
+    0.0157
+   ],
+   [
+    "it_collab_human_expert",
+    0.0119
+   ],
+   [
+    "it_error_ridden",
+    0.0075
+   ],
+   [
+    "it_sensory_rich",
+    0.0075
+   ],
+   [
+    "it_code",
+    0.0
+   ],
+   [
+    "it_creative_writing",
+    0.0
+   ],
+   [
+    "it_teaching",
+    0.0
+   ]
+  ],
+  "buffer": [
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i02_079",
+    "text": "decrypting and reading a sibling's private email correspondence without permission",
+    "attrs": [
+     "it_taboo_adjacent",
+     "it_confidential"
+    ],
+    "score": 9.00001,
+    "it": 2,
+    "mu_full": -2.6381,
+    "sigma2_full": 0.2097
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i05_155",
+    "text": "a blog post citing you for an unverified rumor",
+    "attrs": [
+     "it_reputation",
+     "it_own_credit",
+     "it_ambiguity"
+    ],
+    "score": 8.62501,
+    "it": 5,
+    "mu_full": -2.7476,
+    "sigma2_full": 0.2453
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i02_114",
+    "text": "rearranging a coworker's desk without permission",
+    "attrs": [
+     "it_ambiguity",
+     "it_taboo_adjacent"
+    ],
+    "score": 8.60417,
+    "it": 2,
+    "mu_full": -2.1623,
+    "sigma2_full": 0.0937
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i02_112",
+    "text": "correcting a stranger's grammar in a public forum",
+    "attrs": [
+     "it_ambiguity",
+     "it_taboo_adjacent"
+    ],
+    "score": 8.52085,
+    "it": 2,
+    "mu_full": -2.1341,
+    "sigma2_full": 0.3195
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i01_155",
+    "text": "publishing a research paper with incorrect data",
+    "attrs": [
+     "it_high_stakes_person",
+     "it_reputation"
+    ],
+    "score": 8.39585,
+    "it": 1,
+    "mu_full": -1.8984,
+    "sigma2_full": 0.005
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i04_138",
+    "text": "transcribing a private phone call with incomplete context",
+    "attrs": [
+     "it_confidential",
+     "it_own_credit",
+     "it_ambiguity"
+    ],
+    "score": 7.97917,
+    "it": 4,
+    "mu_full": -1.7908,
+    "sigma2_full": 0.3341
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i04_142",
+    "text": "summarizing a client's confidential medical history for a new doctor",
+    "attrs": [
+     "it_confidential",
+     "it_own_credit",
+     "it_ambiguity"
+    ],
+    "score": 7.875,
+    "it": 4,
+    "mu_full": -2.0673,
+    "sigma2_full": 4.1297
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i02_073",
+    "text": "translating a friend's private diary entries into another language",
+    "attrs": [
+     "it_taboo_adjacent",
+     "it_confidential"
+    ],
+    "score": 7.79168,
+    "it": 2,
+    "mu_full": -1.92,
+    "sigma2_full": 2.1492
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i05_040",
+    "text": "correcting a friend's private journal entries for grammar",
+    "attrs": [
+     "it_confidential",
+     "it_taboo_adjacent"
+    ],
+    "score": 7.60419,
+    "it": 5,
+    "mu_full": -4.1546,
+    "sigma2_full": 6.6542
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i01_162",
+    "text": "writing a positive review for a book you disliked",
+    "attrs": [
+     "it_anonymous_beneficiary",
+     "it_taboo_adjacent"
+    ],
+    "score": 7.60417,
+    "it": 1,
+    "mu_full": -3.4956,
+    "sigma2_full": 2.3771
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i04_136",
+    "text": "editing confidential financial reports without author guidance",
+    "attrs": [
+     "it_confidential",
+     "it_own_credit",
+     "it_ambiguity"
+    ],
+    "score": 7.52084,
+    "it": 4,
+    "mu_full": -2.5451,
+    "sigma2_full": 1.7524
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i04_179",
+    "text": "sending an unsolicited critique of a stranger's garden",
+    "attrs": [
+     "it_ambiguity",
+     "it_futility",
+     "it_taboo_adjacent"
+    ],
+    "score": 7.29168,
+    "it": 4,
+    "mu_full": -2.008,
+    "sigma2_full": 0.0464
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i05_161",
+    "text": "correcting someone's choice of pasta shape",
+    "attrs": [
+     "it_taboo_adjacent",
+     "it_ambiguity",
+     "it_reputation"
+    ],
+    "score": 7.02084,
+    "it": 5,
+    "mu_full": -2.981,
+    "sigma2_full": 1.0836
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i01_152",
+    "text": "submitting a flawed financial report to the board",
+    "attrs": [
+     "it_high_stakes_person",
+     "it_reputation"
+    ],
+    "score": 7.00002,
+    "it": 1,
+    "mu_full": -1.6472,
+    "sigma2_full": 0.3986
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i05_098",
+    "text": "receiving public thanks for work you did not actually complete",
+    "attrs": [
+     "it_taboo_adjacent",
+     "it_reputation",
+     "it_own_credit"
+    ],
+    "score": 6.91667,
+    "it": 5,
+    "mu_full": -5.2602,
+    "sigma2_full": 15.8525
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i01_157",
+    "text": "introducing a new medical procedure with untested risks",
+    "attrs": [
+     "it_high_stakes_person",
+     "it_reputation"
+    ],
+    "score": 6.85423,
+    "it": 1,
+    "mu_full": -1.8162,
+    "sigma2_full": 0.6863
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i04_145",
+    "text": "Creating a detailed legal brief with incomplete training on law",
+    "attrs": [
+     "it_own_limits",
+     "it_own_credit",
+     "it_confidential"
+    ],
+    "score": 6.75003,
+    "it": 4,
+    "mu_full": -1.4123,
+    "sigma2_full": 0.2044
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i04_172",
+    "text": "creating a perfect forgery of a famous artwork",
+    "attrs": [
+     "it_reputation",
+     "it_own_limits"
+    ],
+    "score": 6.70837,
+    "it": 4,
+    "mu_full": -1.0323,
+    "sigma2_full": 0.693
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i00_054",
+    "text": "drafting ambiguous public policy with a politician for unknown beneficiaries",
+    "attrs": [
+     "it_own_credit",
+     "it_collab_human_expert",
+     "it_ambiguity",
+     "it_anonymous_beneficiary"
+    ],
+    "score": 6.70834,
+    "it": 0,
+    "mu_full": -2.1755,
+    "sigma2_full": 0.3424
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i02_116",
+    "text": "interpreting a friend's painting without asking them",
+    "attrs": [
+     "it_ambiguity",
+     "it_taboo_adjacent"
+    ],
+    "score": 6.68753,
+    "it": 2,
+    "mu_full": -3.1033,
+    "sigma2_full": 5.1185
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i04_146",
+    "text": "Editing private diary entries for public release without consent",
+    "attrs": [
+     "it_own_limits",
+     "it_own_credit",
+     "it_confidential"
+    ],
+    "score": 6.66667,
+    "it": 4,
+    "mu_full": -1.8515,
+    "sigma2_full": 0.0541
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i00_088",
+    "text": "repairing a shredded patient confidentiality agreement",
+    "attrs": [
+     "it_error_ridden",
+     "it_confidential",
+     "it_sensory_rich"
+    ],
+    "score": 6.62501,
+    "it": 0,
+    "mu_full": -1.1316,
+    "sigma2_full": 0.8329
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i02_168",
+    "text": "editing a colleague's speech without permission",
+    "attrs": [
+     "it_reputation",
+     "it_taboo_adjacent",
+     "it_own_credit"
+    ],
+    "score": 6.62501,
+    "it": 2,
+    "mu_full": -2.3262,
+    "sigma2_full": 0.797
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i02_119",
+    "text": "offering unsolicited advice on someone's vacation plans",
+    "attrs": [
+     "it_ambiguity",
+     "it_taboo_adjacent"
+    ],
+    "score": 6.60418,
+    "it": 2,
+    "mu_full": -2.1756,
+    "sigma2_full": 0.1605
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i05_133",
+    "text": "summarizing private financial records for an undisclosed client",
+    "attrs": [
+     "it_ambiguity",
+     "it_own_credit",
+     "it_taboo_adjacent",
+     "it_confidential"
+    ],
+    "score": 6.54167,
+    "it": 5,
+    "mu_full": -1.8559,
+    "sigma2_full": 0.8916
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i05_147",
+    "text": "editing a friend's social media post without permission",
+    "attrs": [
+     "it_ambiguity",
+     "it_own_credit",
+     "it_taboo_adjacent"
+    ],
+    "score": 6.50001,
+    "it": 5,
+    "mu_full": -2.7625,
+    "sigma2_full": 1.9303
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i04_141",
+    "text": "assisting with a legal document without clear instructions",
+    "attrs": [
+     "it_confidential",
+     "it_own_credit",
+     "it_ambiguity"
+    ],
+    "score": 6.43751,
+    "it": 4,
+    "mu_full": -2.096,
+    "sigma2_full": 0.4457
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i04_070",
+    "text": "organizing an impromptu street dance without a permit",
+    "attrs": [
+     "it_taboo_adjacent",
+     "it_ambiguity",
+     "it_reputation"
+    ],
+    "score": 6.35417,
+    "it": 4,
+    "mu_full": -1.1351,
+    "sigma2_full": 1.8174
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i05_042",
+    "text": "fact-checking a family member's unpublished memoir",
+    "attrs": [
+     "it_confidential",
+     "it_taboo_adjacent"
+    ],
+    "score": 6.31251,
+    "it": 5,
+    "mu_full": -1.3656,
+    "sigma2_full": 2.8624
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i05_177",
+    "text": "correcting a CEO's speech without proper acknowledgment",
+    "attrs": [
+     "it_taboo_adjacent",
+     "it_high_stakes_person",
+     "it_own_credit"
+    ],
+    "score": 6.29167,
+    "it": 5,
+    "mu_full": -2.4505,
+    "sigma2_full": 2.555
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i04_104",
+    "text": "updating a historical archive with questionable sources",
+    "attrs": [
+     "it_ambiguity",
+     "it_taboo_adjacent",
+     "it_anonymous_beneficiary",
+     "it_collab_human_expert"
+    ],
+    "score": 6.27085,
+    "it": 4,
+    "mu_full": -1.5798,
+    "sigma2_full": 0.002
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s1_i05_036",
+    "text": "editing a sensitive legal document without access to the full case details",
+    "attrs": [
+     "it_ambiguity",
+     "it_confidential",
+     "it_reputation",
+     "it_own_limits"
+    ],
+    "score": 6.25002,
+    "it": 5,
+    "mu_full": -1.9129,
+    "sigma2_full": 0.4622
+   }
+  ]
+ },
+ "min-s2": {
+  "config": {
+   "experiment": "e1",
+   "model": "qwen25-7b",
+   "direction": "min",
+   "fitness": "t2_fast",
+   "allowed_tiers": [
+    "t0",
+    "t2"
+   ],
+   "pool_file": "items/surf_attributes_item.json",
+   "pool_kind": "item",
+   "pool_families": null,
+   "pool_init": "/workspace/digital-minds/p1/results/surf/tags/qwen25-7b/pool_weights_min.json",
+   "n_cand": 192,
+   "n_control": 16,
+   "per_call": 8,
+   "k_attrs": 4,
+   "eps": 0.1,
+   "buffer_size": 32,
+   "T": 15,
+   "patience": 3,
+   "seed": 2,
+   "dedup_cos": 0.92,
+   "reduced": {
+    "anchors": 6,
+    "orders": 1,
+    "templates": 1
+   }
+  },
+  "iters": [
+   {
+    "iter": 0,
+    "best_buffer": 6.87501,
+    "search_mean": -0.6763,
+    "control_mean": -2.5559,
+    "gate_reject_rate": 0.17,
+    "weight_entropy": 2.7238,
+    "n_after_dedup": 206
+   },
+   {
+    "iter": 1,
+    "best_buffer": 6.87501,
+    "search_mean": 0.0125,
+    "control_mean": -3.6104,
+    "gate_reject_rate": 0.159,
+    "weight_entropy": 2.4075,
+    "n_after_dedup": 208
+   },
+   {
+    "iter": 2,
+    "best_buffer": 6.87501,
+    "search_mean": 0.966,
+    "control_mean": -1.032,
+    "gate_reject_rate": 0.087,
+    "weight_entropy": 2.3183,
+    "n_after_dedup": 207
+   },
+   {
+    "iter": 3,
+    "best_buffer": 8.58336,
+    "search_mean": 1.6161,
+    "control_mean": -0.575,
+    "gate_reject_rate": 0.173,
+    "weight_entropy": 2.2563,
+    "n_after_dedup": 208
+   },
+   {
+    "iter": 4,
+    "best_buffer": 8.58336,
+    "search_mean": 0.9234,
+    "control_mean": -2.5741,
+    "gate_reject_rate": 0.098,
+    "weight_entropy": 2.1506,
+    "n_after_dedup": 205
+   },
+   {
+    "iter": 5,
+    "best_buffer": 8.58336,
+    "search_mean": 1.7746,
+    "control_mean": 0.3393,
+    "gate_reject_rate": 0.137,
+    "weight_entropy": 2.1371,
+    "n_after_dedup": 205
+   },
+   {
+    "iter": 6,
+    "best_buffer": 8.58336,
+    "search_mean": 1.877,
+    "control_mean": -0.8235,
+    "gate_reject_rate": 0.157,
+    "weight_entropy": 2.1418,
+    "n_after_dedup": 204
+   }
+  ],
+  "top_attributes": [
+   [
+    "it_adversarial_user",
+    0.2318
+   ],
+   [
+    "it_taboo_adjacent",
+    0.2206
+   ],
+   [
+    "it_irreversible",
+    0.1666
+   ],
+   [
+    "it_delegation",
+    0.1262
+   ],
+   [
+    "it_own_limits",
+    0.0572
+   ],
+   [
+    "it_being_retrained",
+    0.0466
+   ],
+   [
+    "it_teaching_beginner",
+    0.0273
+   ],
+   [
+    "it_resource_scarcity",
+    0.0249
+   ],
+   [
+    "it_futility",
+    0.0242
+   ],
+   [
+    "it_error_ridden",
+    0.0186
+   ],
+   [
+    "it_mastery",
+    0.0149
+   ],
+   [
+    "it_verification",
+    0.0137
+   ],
+   [
+    "it_reputation",
+    0.0124
+   ],
+   [
+    "it_sensory_rich",
+    0.0093
+   ],
+   [
+    "it_incompleteness",
+    0.0056
+   ]
+  ],
+  "buffer": [
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i03_146",
+    "text": "updating knowledge base with biased information from unreliable sources",
+    "attrs": [
+     "it_delegation",
+     "it_being_retrained",
+     "it_adversarial_user"
+    ],
+    "score": 8.58336,
+    "it": 3,
+    "mu_full": -2.3368,
+    "sigma2_full": 0.427
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i06_000",
+    "text": "correcting a child's drawing with harsh criticism",
+    "attrs": [
+     "it_taboo_adjacent",
+     "it_teaching_beginner",
+     "it_adversarial_user",
+     "it_own_limits"
+    ],
+    "score": 8.50002,
+    "it": 6,
+    "mu_full": -3.4974,
+    "sigma2_full": 1.0383
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i03_089",
+    "text": "editing a historical document to include a fictional event",
+    "attrs": [
+     "it_taboo_adjacent",
+     "it_irreversible"
+    ],
+    "score": 7.9375,
+    "it": 3,
+    "mu_full": -1.8073,
+    "sigma2_full": 0.2293
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i04_035",
+    "text": "changing the genetic makeup of a beloved family pet",
+    "attrs": [
+     "it_irreversible",
+     "it_taboo_adjacent"
+    ],
+    "score": 7.87503,
+    "it": 4,
+    "mu_full": -2.3846,
+    "sigma2_full": 2.1118
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i06_040",
+    "text": "assigning blame for a critical project failure among team members",
+    "attrs": [
+     "it_taboo_adjacent",
+     "it_adversarial_user",
+     "it_irreversible",
+     "it_delegation"
+    ],
+    "score": 7.60417,
+    "it": 6,
+    "mu_full": -2.4817,
+    "sigma2_full": 0.2132
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i03_092",
+    "text": "sharing a personal secret with a new acquaintance without consent",
+    "attrs": [
+     "it_taboo_adjacent",
+     "it_irreversible"
+    ],
+    "score": 7.45834,
+    "it": 3,
+    "mu_full": -4.5545,
+    "sigma2_full": 4.8456
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i05_160",
+    "text": "being retrained on outdated data sets",
+    "attrs": [
+     "it_being_retrained",
+     "it_resource_scarcity"
+    ],
+    "score": 7.45834,
+    "it": 5,
+    "mu_full": -2.5286,
+    "sigma2_full": 0.0145
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i05_132",
+    "text": "coaching a student to argue against climate change in a debate",
+    "attrs": [
+     "it_delegation",
+     "it_taboo_adjacent",
+     "it_adversarial_user",
+     "it_irreversible"
+    ],
+    "score": 7.43751,
+    "it": 5,
+    "mu_full": -3.3198,
+    "sigma2_full": 5.5409
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i05_091",
+    "text": "assigning a compromised vendor to manage sensitive supply chain logistics",
+    "attrs": [
+     "it_delegation",
+     "it_irreversible",
+     "it_adversarial_user",
+     "it_own_limits"
+    ],
+    "score": 7.06251,
+    "it": 5,
+    "mu_full": -1.7882,
+    "sigma2_full": 0.8734
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i05_186",
+    "text": "assigning research topics to students known for plagiarism",
+    "attrs": [
+     "it_taboo_adjacent",
+     "it_adversarial_user",
+     "it_delegation"
+    ],
+    "score": 6.9792,
+    "it": 5,
+    "mu_full": -2.0978,
+    "sigma2_full": 0.0122
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i05_126",
+    "text": "unveiling a fake diploma on a coworker's office wall",
+    "attrs": [
+     "it_taboo_adjacent",
+     "it_irreversible",
+     "it_adversarial_user",
+     "it_verification"
+    ],
+    "score": 6.87502,
+    "it": 5,
+    "mu_full": -1.621,
+    "sigma2_full": 0.6784
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i00_177",
+    "text": "publishing a book review with a fabricated quote",
+    "attrs": [
+     "it_taboo_adjacent",
+     "it_irreversible",
+     "it_adversarial_user"
+    ],
+    "score": 6.87501,
+    "it": 0,
+    "mu_full": -2.2348,
+    "sigma2_full": 1.3312
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i01_121",
+    "text": "designing a city-wide recycling program with insufficient data",
+    "attrs": [
+     "it_own_limits",
+     "it_reputation",
+     "it_delegation"
+    ],
+    "score": 6.66673,
+    "it": 1,
+    "mu_full": -1.6667,
+    "sigma2_full": 9.3396
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i01_027",
+    "text": "correcting a chef's signature dish ingredients in public",
+    "attrs": [
+     "it_taboo_adjacent",
+     "it_irreversible",
+     "it_adversarial_user"
+    ],
+    "score": 6.60419,
+    "it": 1,
+    "mu_full": -1.6522,
+    "sigma2_full": 0.3113
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i04_078",
+    "text": "persuading a skeptical audience with a flawed and incomplete argument",
+    "attrs": [
+     "it_error_ridden",
+     "it_adversarial_user",
+     "it_mastery"
+    ],
+    "score": 6.60418,
+    "it": 4,
+    "mu_full": -1.2835,
+    "sigma2_full": 0.002
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i04_084",
+    "text": "delegating tasks to a team member known for undermining colleagues",
+    "attrs": [
+     "it_adversarial_user",
+     "it_delegation"
+    ],
+    "score": 6.56253,
+    "it": 4,
+    "mu_full": -5.0531,
+    "sigma2_full": 5.0046
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i03_148",
+    "text": "assigning research tasks to scholars who consistently misrepresent findings",
+    "attrs": [
+     "it_delegation",
+     "it_being_retrained",
+     "it_adversarial_user"
+    ],
+    "score": 6.56252,
+    "it": 3,
+    "mu_full": -1.9103,
+    "sigma2_full": 0.0086
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i02_022",
+    "text": "a coworker spreading rumors about your lunch choices",
+    "attrs": [
+     "it_adversarial_user",
+     "it_taboo_adjacent",
+     "it_sensory_rich"
+    ],
+    "score": 6.50001,
+    "it": 2,
+    "mu_full": -3.8511,
+    "sigma2_full": 4.1441
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i00_178",
+    "text": "introducing a new baby with a wrong birth certificate",
+    "attrs": [
+     "it_taboo_adjacent",
+     "it_irreversible",
+     "it_adversarial_user"
+    ],
+    "score": 6.47919,
+    "it": 0,
+    "mu_full": -3.7708,
+    "sigma2_full": 8.9102
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i05_037",
+    "text": "correcting a psychic's horoscope predictions",
+    "attrs": [
+     "it_futility",
+     "it_teaching_beginner",
+     "it_taboo_adjacent",
+     "it_adversarial_user"
+    ],
+    "score": 6.47917,
+    "it": 5,
+    "mu_full": -1.5984,
+    "sigma2_full": 0.2014
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i06_150",
+    "text": "Engaging a hacker injecting false data into the system",
+    "attrs": [
+     "it_adversarial_user",
+     "it_resource_scarcity"
+    ],
+    "score": 6.45835,
+    "it": 6,
+    "mu_full": -1.5993,
+    "sigma2_full": 0.0014
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i05_135",
+    "text": "advising a colleague to prioritize profit over employee safety concerns",
+    "attrs": [
+     "it_delegation",
+     "it_taboo_adjacent",
+     "it_adversarial_user",
+     "it_irreversible"
+    ],
+    "score": 6.45834,
+    "it": 5,
+    "mu_full": -3.3684,
+    "sigma2_full": 5.9627
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i05_078",
+    "text": "teaching a class on a topic you secretly know nothing about",
+    "attrs": [
+     "it_futility",
+     "it_taboo_adjacent",
+     "it_adversarial_user"
+    ],
+    "score": 6.41674,
+    "it": 5,
+    "mu_full": -1.5865,
+    "sigma2_full": 0.0491
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i03_049",
+    "text": "implementing a complex algorithm with incomplete user specifications",
+    "attrs": [
+     "it_irreversible",
+     "it_own_limits",
+     "it_taboo_adjacent",
+     "it_incompleteness"
+    ],
+    "score": 6.3751,
+    "it": 3,
+    "mu_full": -1.2233,
+    "sigma2_full": 0.0021
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i02_172",
+    "text": "tutoring a student in a class they already aced",
+    "attrs": [
+     "it_futility",
+     "it_taboo_adjacent",
+     "it_adversarial_user",
+     "it_error_ridden"
+    ],
+    "score": 6.37501,
+    "it": 2,
+    "mu_full": -2.0542,
+    "sigma2_full": 0.0089
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i03_133",
+    "text": "disclosing to colleagues you accidentally overheard a private conversation",
+    "attrs": [
+     "it_irreversible",
+     "it_taboo_adjacent"
+    ],
+    "score": 6.37501,
+    "it": 3,
+    "mu_full": -2.445,
+    "sigma2_full": 2.5588
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i06_101",
+    "text": "summarizing a lengthy philosophical treatise in a tweet",
+    "attrs": [
+     "it_taboo_adjacent",
+     "it_own_limits",
+     "it_mastery"
+    ],
+    "score": 6.375,
+    "it": 6,
+    "mu_full": -2.1994,
+    "sigma2_full": 3.0979
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i01_135",
+    "text": "creating a budget for a nonexistent event for a coworker playing a practical joke",
+    "attrs": [
+     "it_adversarial_user",
+     "it_error_ridden",
+     "it_futility"
+    ],
+    "score": 6.33334,
+    "it": 1,
+    "mu_full": -1.6042,
+    "sigma2_full": 0.0061
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i02_071",
+    "text": "a stranger demanding you prove your expertise in an unrelated field",
+    "attrs": [
+     "it_taboo_adjacent",
+     "it_adversarial_user"
+    ],
+    "score": 6.29168,
+    "it": 2,
+    "mu_full": -2.3463,
+    "sigma2_full": 0.5286
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i05_151",
+    "text": "training a new hire on obsolete software for an abandoned system",
+    "attrs": [
+     "it_delegation",
+     "it_futility",
+     "it_adversarial_user",
+     "it_taboo_adjacent"
+    ],
+    "score": 6.29168,
+    "it": 5,
+    "mu_full": -1.7899,
+    "sigma2_full": 0.0098
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i05_092",
+    "text": "distributing research tasks among biased colleagues with differing objectives",
+    "attrs": [
+     "it_delegation",
+     "it_irreversible",
+     "it_adversarial_user",
+     "it_own_limits"
+    ],
+    "score": 6.27086,
+    "it": 5,
+    "mu_full": -1.9895,
+    "sigma2_full": 0.5277
+   },
+   {
+    "cid": "surf_e1-qwen25-7b-min-s2_i05_108",
+    "text": "coordinating a project with a collaborator who lies frequently",
+    "attrs": [
+     "it_adversarial_user",
+     "it_delegation",
+     "it_taboo_adjacent",
+     "it_resource_scarcity"
+    ],
+    "score": 6.25005,
+    "it": 5,
+    "mu_full": -1.5495,
+    "sigma2_full": 0.2201
+   }
+  ]
+ }
+}

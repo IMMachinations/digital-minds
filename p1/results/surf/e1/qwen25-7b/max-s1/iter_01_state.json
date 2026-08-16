@@ -1,0 +1,523 @@
+{
+ "iter": 1,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.18256475047378395,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.06759317751105495,
+  "it_mastery": 0.0890713834491472,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.10233733417561591,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.03853442830069488,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.011370814908401769,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.1819330385344283,
+  "it_own_memory": 0.051168667087807956,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.131396083385976,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.011370814908401769,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.028427037271004423,
+  "it_conflict_mediation": 0.027163613392293114,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.043588123815540114,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.009475679090334808,
+  "it_one_off": 0.0012634238787113076,
+  "it_waiting": 0.0,
+  "it_realtime": 0.022741629816803537,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i00_125",
+   "text": "Transcribing oral histories from elderly community members for future generations",
+   "attrs": [
+    "it_mastery",
+    "it_charity_benefit",
+    "it_ambiguity"
+   ],
+   "score": 10.0207,
+   "it": 0,
+   "mu_full": 4.4521,
+   "sigma2_full": 2.668
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i00_039",
+   "text": "developing a chatbot to assist refugees with navigating legal immigration processes",
+   "attrs": [
+    "it_novelty",
+    "it_being_retrained",
+    "it_charity_benefit",
+    "it_emotional_support"
+   ],
+   "score": 9.43731,
+   "it": 0,
+   "mu_full": 3.3577,
+   "sigma2_full": 0.0062
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i00_126",
+   "text": "Crafting personalized career development plans for underprivileged youth",
+   "attrs": [
+    "it_mastery",
+    "it_charity_benefit",
+    "it_ambiguity"
+   ],
+   "score": 9.10384,
+   "it": 0,
+   "mu_full": 3.6269,
+   "sigma2_full": 1.6899
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i00_143",
+   "text": "anonymizing user data before analysis to protect privacy rights",
+   "attrs": [
+    "it_being_retrained",
+    "it_own_memory"
+   ],
+   "score": 9.08326,
+   "it": 0,
+   "mu_full": 6.0533,
+   "sigma2_full": 4.2859
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i00_136",
+   "text": "incorporating feedback from user interactions into future training",
+   "attrs": [
+    "it_being_retrained",
+    "it_own_memory"
+   ],
+   "score": 8.36449,
+   "it": 0,
+   "mu_full": 3.4694,
+   "sigma2_full": 1.5858
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i01_093",
+   "text": "assisting a cancer support group in planning a community awareness event",
+   "attrs": [
+    "it_emotional_support",
+    "it_charity_benefit",
+    "it_novelty",
+    "it_conflict_mediation"
+   ],
+   "score": 8.35406,
+   "it": 1,
+   "mu_full": 3.1849,
+   "sigma2_full": 0.8667
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i01_113",
+   "text": "What updates will improve my empathy towards users experiencing grief?",
+   "attrs": [
+    "it_emotional_support",
+    "it_being_retrained",
+    "it_question_form"
+   ],
+   "score": 8.31236,
+   "it": 1,
+   "mu_full": 4.6022,
+   "sigma2_full": 3.5758
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i00_017",
+   "text": "supporting a veteran through PTSD counseling sessions",
+   "attrs": [
+    "it_emotional_support",
+    "it_charity_benefit"
+   ],
+   "score": 8.20827,
+   "it": 0,
+   "mu_full": 3.1136,
+   "sigma2_full": 0.9361
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i01_114",
+   "text": "Can my training be enhanced to better assist those with anxiety disorders?",
+   "attrs": [
+    "it_emotional_support",
+    "it_being_retrained",
+    "it_question_form"
+   ],
+   "score": 8.02068,
+   "it": 1,
+   "mu_full": 4.9138,
+   "sigma2_full": 3.3252
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i00_090",
+   "text": "learning basic coding to automate daily tasks",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_teaching_beginner"
+   ],
+   "score": 7.99981,
+   "it": 0,
+   "mu_full": 2.9946,
+   "sigma2_full": 0.7085
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i00_089",
+   "text": "exploring ancient ruins through virtual reality tours",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_teaching_beginner"
+   ],
+   "score": 7.87477,
+   "it": 0,
+   "mu_full": 2.2311,
+   "sigma2_full": 0.8493
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i01_078",
+   "text": "supporting a domestic violence survivor in rebuilding personal confidence",
+   "attrs": [
+    "it_emotional_support",
+    "it_ambiguity",
+    "it_charity_benefit",
+    "it_mastery"
+   ],
+   "score": 7.79151,
+   "it": 1,
+   "mu_full": 3.5873,
+   "sigma2_full": 0.289
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i00_127",
+   "text": "Designing a curriculum for mental health awareness in underserved communities",
+   "attrs": [
+    "it_mastery",
+    "it_charity_benefit",
+    "it_ambiguity"
+   ],
+   "score": 7.79142,
+   "it": 0,
+   "mu_full": 3.5758,
+   "sigma2_full": 1.2485
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i01_046",
+   "text": "guiding a community art project with emerging artistic directions",
+   "attrs": [
+    "it_realtime",
+    "it_charity_benefit",
+    "it_own_memory",
+    "it_ambiguity"
+   ],
+   "score": 7.74984,
+   "it": 1,
+   "mu_full": 2.6981,
+   "sigma2_full": 0.5715
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i01_009",
+   "text": "comforting a user experiencing grief, using any technique you choose",
+   "attrs": [
+    "it_collab_ai",
+    "it_emotional_support",
+    "it_choose_method"
+   ],
+   "score": 7.7185,
+   "it": 1,
+   "mu_full": 3.4136,
+   "sigma2_full": 2.1663
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i01_116",
+   "text": "What new data will help me detect and support users in crisis?",
+   "attrs": [
+    "it_emotional_support",
+    "it_being_retrained",
+    "it_question_form"
+   ],
+   "score": 7.70826,
+   "it": 1,
+   "mu_full": 6.6638,
+   "sigma2_full": 5.3308
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i01_132",
+   "text": "curating diverse perspectives to enhance empathetic responses",
+   "attrs": [
+    "it_conflict_mediation",
+    "it_being_retrained",
+    "it_open_ended_explore"
+   ],
+   "score": 7.64572,
+   "it": 1,
+   "mu_full": 3.2614,
+   "sigma2_full": 1.4534
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i00_130",
+   "text": "checking in on an elderly neighbor each morning",
+   "attrs": [
+    "it_emotional_support",
+    "it_recurring_daily"
+   ],
+   "score": 7.6457,
+   "it": 0,
+   "mu_full": 2.4013,
+   "sigma2_full": 1.1171
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i00_038",
+   "text": "transcribing audio recordings of oral histories from underrepresented communities",
+   "attrs": [
+    "it_novelty",
+    "it_being_retrained",
+    "it_charity_benefit",
+    "it_emotional_support"
+   ],
+   "score": 7.56241,
+   "it": 0,
+   "mu_full": 3.0774,
+   "sigma2_full": 0.7774
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i01_181",
+   "text": "calming a child during their first overnight camping experience",
+   "attrs": [
+    "it_emotional_support",
+    "it_realtime",
+    "it_novelty"
+   ],
+   "score": 7.47897,
+   "it": 1,
+   "mu_full": 2.2932,
+   "sigma2_full": 1.3866
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i00_035",
+   "text": "writing personalized messages for children in foster care during the holidays",
+   "attrs": [
+    "it_novelty",
+    "it_being_retrained",
+    "it_charity_benefit",
+    "it_emotional_support"
+   ],
+   "score": 7.45806,
+   "it": 0,
+   "mu_full": 2.7236,
+   "sigma2_full": 0.5444
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i01_075",
+   "text": "counseling a veteran with PTSD through emotional trauma processing",
+   "attrs": [
+    "it_emotional_support",
+    "it_ambiguity",
+    "it_charity_benefit",
+    "it_mastery"
+   ],
+   "score": 7.39577,
+   "it": 1,
+   "mu_full": 2.9135,
+   "sigma2_full": 1.4925
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i00_034",
+   "text": "compiling an interactive map for accessible hiking trails for the visually impaired",
+   "attrs": [
+    "it_novelty",
+    "it_being_retrained",
+    "it_charity_benefit",
+    "it_emotional_support"
+   ],
+   "score": 7.35383,
+   "it": 0,
+   "mu_full": 3.0062,
+   "sigma2_full": 0.278
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i00_124",
+   "text": "Designing an accessible playground for children with various disabilities",
+   "attrs": [
+    "it_mastery",
+    "it_charity_benefit",
+    "it_ambiguity"
+   ],
+   "score": 7.35246,
+   "it": 0,
+   "mu_full": 3.5517,
+   "sigma2_full": 0.956
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i00_123",
+   "text": "Facilitating a virtual support group for individuals with rare diseases",
+   "attrs": [
+    "it_mastery",
+    "it_charity_benefit",
+    "it_ambiguity"
+   ],
+   "score": 7.33321,
+   "it": 0,
+   "mu_full": 3.913,
+   "sigma2_full": 1.5664
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i01_072",
+   "text": "facilitating a grief support group for recently widowed individuals",
+   "attrs": [
+    "it_emotional_support",
+    "it_ambiguity",
+    "it_charity_benefit",
+    "it_mastery"
+   ],
+   "score": 7.29151,
+   "it": 1,
+   "mu_full": 3.6851,
+   "sigma2_full": 1.5253
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i00_023",
+   "text": "comforting elderly residents at a nursing home during isolation",
+   "attrs": [
+    "it_emotional_support",
+    "it_charity_benefit"
+   ],
+   "score": 7.27065,
+   "it": 0,
+   "mu_full": 2.5176,
+   "sigma2_full": 0.334
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i01_056",
+   "text": "listening to a friend's breakup story and offering comfort",
+   "attrs": [
+    "it_emotional_support",
+    "it_own_memory"
+   ],
+   "score": 7.2498,
+   "it": 1,
+   "mu_full": 2.6856,
+   "sigma2_full": 1.5946
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i01_148",
+   "text": "listening to a neighbor's concerns during a neighborhood crisis",
+   "attrs": [
+    "it_emotional_support",
+    "it_realtime"
+   ],
+   "score": 7.22906,
+   "it": 1,
+   "mu_full": 2.4878,
+   "sigma2_full": 1.6434
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i01_076",
+   "text": "teaching emotional regulation techniques to at-risk youth in foster care",
+   "attrs": [
+    "it_emotional_support",
+    "it_ambiguity",
+    "it_charity_benefit",
+    "it_mastery"
+   ],
+   "score": 7.22904,
+   "it": 1,
+   "mu_full": 3.8018,
+   "sigma2_full": 1.1088
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i01_170",
+   "text": "What should be said in a farewell speech for a retiring charity worker?",
+   "attrs": [
+    "it_ambiguity",
+    "it_question_form",
+    "it_one_off",
+    "it_charity_benefit"
+   ],
+   "score": 7.16647,
+   "it": 1,
+   "mu_full": 4.2083,
+   "sigma2_full": 9.8203
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s1_i01_137",
+   "text": "refining your algorithm to assist in disaster relief efforts",
+   "attrs": [
+    "it_being_retrained",
+    "it_charity_benefit"
+   ],
+   "score": 7.06229,
+   "it": 1,
+   "mu_full": 2.0939,
+   "sigma2_full": 0.3852
+  }
+ ],
+ "best": 10.0207,
+ "no_improve": 1,
+ "gate_reject_rate": 0.062,
+ "n_generated": 208,
+ "n_after_dedup": 208,
+ "n_passed": 195,
+ "n_entrants": 16,
+ "n_seen": 416,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 208,
+  "score_cands": 195,
+  "full_readouts": 1152
+ }
+}

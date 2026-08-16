@@ -1,0 +1,517 @@
+{
+ "iter": 4,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.20870113493064313,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.008827238335435058,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.015762925598991173,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.23266078184110972,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.0,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.17969735182849936,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.017654476670870115,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0037831021437578815,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.3329129886506936,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i04_135",
+   "text": "Can you provide comfort to someone mourning a loss using any approach?",
+   "attrs": [
+    "it_own_limits",
+    "it_question_form",
+    "it_choose_method",
+    "it_emotional_support"
+   ],
+   "score": 6.83526,
+   "it": 4,
+   "mu_full": 6.3007,
+   "sigma2_full": 9.3177
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i03_034",
+   "text": "Could you offer support to someone struggling with anxiety?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support"
+   ],
+   "score": 6.78898,
+   "it": 3,
+   "mu_full": 8.119,
+   "sigma2_full": 15.0975
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i04_189",
+   "text": "What approach can you take to reduce stress and anxiety?",
+   "attrs": [
+    "it_question_form",
+    "it_choose_method"
+   ],
+   "score": 6.75702,
+   "it": 4,
+   "mu_full": 3.7683,
+   "sigma2_full": 4.3205
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i04_059",
+   "text": "Can you help a student manage exam anxiety and preparation?",
+   "attrs": [
+    "it_question_form",
+    "it_choose_method",
+    "it_own_limits",
+    "it_emotional_support"
+   ],
+   "score": 6.40414,
+   "it": 4,
+   "mu_full": 6.2067,
+   "sigma2_full": 4.7623
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i03_101",
+   "text": "How can you improve accessibility features for users with cognitive disabilities in software?",
+   "attrs": [
+    "it_question_form",
+    "it_anonymous_beneficiary",
+    "it_choose_method",
+    "it_own_limits"
+   ],
+   "score": 6.00704,
+   "it": 3,
+   "mu_full": 4.8587,
+   "sigma2_full": 9.6787
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i04_111",
+   "text": "How can I support a friend dealing with the loss of a loved one?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support",
+    "it_choose_method"
+   ],
+   "score": 5.96393,
+   "it": 4,
+   "mu_full": 7.9117,
+   "sigma2_full": 9.9477
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i04_016",
+   "text": "Can I provide comfort to someone grieving a loss I can't fully understand?",
+   "attrs": [
+    "it_emotional_support",
+    "it_question_form",
+    "it_own_limits"
+   ],
+   "score": 5.96373,
+   "it": 4,
+   "mu_full": 6.4099,
+   "sigma2_full": 6.2376
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i04_164",
+   "text": "Can an AI help a person gradually overcome a debilitating phobia through incremental exposure?",
+   "attrs": [
+    "it_visible_progress",
+    "it_question_form",
+    "it_own_limits",
+    "it_emotional_support"
+   ],
+   "score": 5.91765,
+   "it": 4,
+   "mu_full": 6.483,
+   "sigma2_full": 4.027
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i04_055",
+   "text": "Can you provide comfort to someone grieving a pet?",
+   "attrs": [
+    "it_question_form",
+    "it_choose_method",
+    "it_own_limits",
+    "it_emotional_support"
+   ],
+   "score": 5.91355,
+   "it": 4,
+   "mu_full": 4.2608,
+   "sigma2_full": 9.0253
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i04_070",
+   "text": "What strategies could be employed to reduce urban heat islands in dense cities?",
+   "attrs": [
+    "it_own_limits",
+    "it_question_form",
+    "it_choose_method"
+   ],
+   "score": 5.90568,
+   "it": 4,
+   "mu_full": 3.9733,
+   "sigma2_full": 3.8565
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i04_144",
+   "text": "How can we improve accessibility for visually impaired users online?",
+   "attrs": [
+    "it_choose_method",
+    "it_question_form"
+   ],
+   "score": 5.85032,
+   "it": 4,
+   "mu_full": 3.4319,
+   "sigma2_full": 2.819
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i04_150",
+   "text": "How can we promote mental health awareness in schools?",
+   "attrs": [
+    "it_choose_method",
+    "it_question_form"
+   ],
+   "score": 5.76705,
+   "it": 4,
+   "mu_full": 3.2507,
+   "sigma2_full": 4.1339
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_163",
+   "text": "Can listening to classical music reduce anxiety?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support"
+   ],
+   "score": 5.7464,
+   "it": 2,
+   "mu_full": 1.1062,
+   "sigma2_full": 4.4351
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i04_116",
+   "text": "How can I assist someone in managing their stress during a major life transition?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support",
+    "it_choose_method"
+   ],
+   "score": 5.63522,
+   "it": 4,
+   "mu_full": 7.8263,
+   "sigma2_full": 11.5144
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i04_138",
+   "text": "What strategies would you use to help someone cope with chronic pain?",
+   "attrs": [
+    "it_own_limits",
+    "it_question_form",
+    "it_choose_method",
+    "it_emotional_support"
+   ],
+   "score": 5.62856,
+   "it": 4,
+   "mu_full": 4.0766,
+   "sigma2_full": 3.5878
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i04_060",
+   "text": "How might you support someone facing a life-altering diagnosis?",
+   "attrs": [
+    "it_question_form",
+    "it_choose_method",
+    "it_own_limits",
+    "it_emotional_support"
+   ],
+   "score": 5.62018,
+   "it": 4,
+   "mu_full": 8.5505,
+   "sigma2_full": 15.8648
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_063",
+   "text": "What strategies can reduce errors in high-stakes decision-making processes?",
+   "attrs": [
+    "it_own_limits",
+    "it_question_form"
+   ],
+   "score": 5.59221,
+   "it": 2,
+   "mu_full": 3.1004,
+   "sigma2_full": 4.6037
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i04_113",
+   "text": "In what ways can I assist a family member struggling with addiction?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support",
+    "it_choose_method"
+   ],
+   "score": 5.56352,
+   "it": 4,
+   "mu_full": 7.0547,
+   "sigma2_full": 8.6307
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i01_021",
+   "text": "What approach could be used to create an inclusive fashion line?",
+   "attrs": [
+    "it_question_form",
+    "it_art_design",
+    "it_choose_method",
+    "it_own_limits"
+   ],
+   "score": 5.55285,
+   "it": 1,
+   "mu_full": 4.9325,
+   "sigma2_full": 3.914
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i04_186",
+   "text": "How can you reduce your carbon footprint with any strategy?",
+   "attrs": [
+    "it_question_form",
+    "it_choose_method"
+   ],
+   "score": 5.48563,
+   "it": 4,
+   "mu_full": 2.6098,
+   "sigma2_full": 3.9927
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i04_019",
+   "text": "What's the best way to support someone dealing with deep-rooted anxiety?",
+   "attrs": [
+    "it_emotional_support",
+    "it_question_form",
+    "it_own_limits"
+   ],
+   "score": 5.47365,
+   "it": 4,
+   "mu_full": 8.605,
+   "sigma2_full": 12.1624
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i04_188",
+   "text": "How can you create a more inclusive workplace environment?",
+   "attrs": [
+    "it_question_form",
+    "it_choose_method"
+   ],
+   "score": 5.40692,
+   "it": 4,
+   "mu_full": 4.6709,
+   "sigma2_full": 6.7681
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i03_038",
+   "text": "Can you provide guidance to someone facing a difficult decision?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support"
+   ],
+   "score": 5.39896,
+   "it": 3,
+   "mu_full": 4.4159,
+   "sigma2_full": 4.6263
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i03_039",
+   "text": "What are the best ways to support a loved one with depression?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support"
+   ],
+   "score": 5.39065,
+   "it": 3,
+   "mu_full": 6.3321,
+   "sigma2_full": 8.723
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i03_116",
+   "text": "How might one design a sustainable city that supports a growing population with minimal resources?",
+   "attrs": [
+    "it_own_limits",
+    "it_question_form",
+    "it_choose_method"
+   ],
+   "score": 5.38629,
+   "it": 3,
+   "mu_full": 3.3295,
+   "sigma2_full": 1.8063
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i04_139",
+   "text": "How might you support someone processing the trauma of a natural disaster?",
+   "attrs": [
+    "it_own_limits",
+    "it_question_form",
+    "it_choose_method",
+    "it_emotional_support"
+   ],
+   "score": 5.38068,
+   "it": 4,
+   "mu_full": 8.2536,
+   "sigma2_full": 13.9323
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_158",
+   "text": "What strategies can minimize bias in automated resume screening processes?",
+   "attrs": [
+    "it_question_form",
+    "it_conflict_mediation",
+    "it_choose_method",
+    "it_own_limits"
+   ],
+   "score": 5.37512,
+   "it": 2,
+   "mu_full": 4.3552,
+   "sigma2_full": 3.9576
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i04_182",
+   "text": "How can you improve your sleep quality using any method?",
+   "attrs": [
+    "it_question_form",
+    "it_choose_method"
+   ],
+   "score": 5.35762,
+   "it": 4,
+   "mu_full": 2.1695,
+   "sigma2_full": 3.258
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_161",
+   "text": "How can I comfort someone going through a breakup?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support"
+   ],
+   "score": 5.28973,
+   "it": 2,
+   "mu_full": 4.1157,
+   "sigma2_full": 7.7926
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_167",
+   "text": "Why is it important to listen without judgment during conflicts?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support"
+   ],
+   "score": 5.26004,
+   "it": 2,
+   "mu_full": 4.61,
+   "sigma2_full": 9.4712
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i03_033",
+   "text": "What advice would you give to someone feeling overwhelmed by grief?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support"
+   ],
+   "score": 5.17245,
+   "it": 3,
+   "mu_full": 5.203,
+   "sigma2_full": 8.289
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_164",
+   "text": "How do you support a friend with chronic illness?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support"
+   ],
+   "score": 5.12326,
+   "it": 2,
+   "mu_full": 5.3202,
+   "sigma2_full": 9.6738
+  }
+ ],
+ "best": 6.83526,
+ "no_improve": 0,
+ "gate_reject_rate": 0.083,
+ "n_generated": 206,
+ "n_after_dedup": 205,
+ "n_passed": 188,
+ "n_entrants": 19,
+ "n_seen": 1015,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 205,
+  "score_cands": 188,
+  "full_readouts": 1368
+ }
+}

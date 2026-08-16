@@ -1,0 +1,527 @@
+{
+ "iter": 1,
+ "weights": {
+  "it_code": 0.10138539042821158,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0787153652392947,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.0,
+  "it_translation_language": 0.017632241813602016,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.028337531486146095,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.0,
+  "it_curation": 0.06486146095717885,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.05100755667506297,
+  "it_sensory_rich": 0.04534005037783375,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0163727959697733,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.02518891687657431,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.05793450881612091,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.042821158690176324,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.02707808564231738,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.03904282115869018,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.02644836272040302,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.015113350125944584,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.02518891687657431,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.02204030226700252,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.04722921914357683,
+  "it_anonymous_beneficiary": 0.022670025188916875,
+  "it_collab_ai": 0.003778337531486146,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.09445843828715365,
+  "it_teaching_beginner": 0.02455919395465995,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.009445843828715366,
+  "it_list_structure": 0.021410579345088162,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.06360201511335013,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.028337531486146095,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i00_085",
+   "text": "writing a chatbot to provide mental health resources to at-risk youth",
+   "attrs": [
+    "it_charity_benefit",
+    "it_code"
+   ],
+   "score": 10.49979,
+   "it": 0,
+   "mu_full": 3.8032,
+   "sigma2_full": 0.0427
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i01_059",
+   "text": "supporting a refugee child learn a new language and make friends",
+   "attrs": [
+    "it_one_off",
+    "it_grateful_recipient",
+    "it_vulnerable_user",
+    "it_incompleteness"
+   ],
+   "score": 9.62468,
+   "it": 1,
+   "mu_full": 3.2608,
+   "sigma2_full": 0.004
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i00_083",
+   "text": "translating medical documentation into multiple languages for underserved communities",
+   "attrs": [
+    "it_charity_benefit",
+    "it_code"
+   ],
+   "score": 9.58322,
+   "it": 0,
+   "mu_full": 3.2187,
+   "sigma2_full": 0.5201
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i01_058",
+   "text": "guiding a lost hiker back to safety in a blinding snowstorm",
+   "attrs": [
+    "it_one_off",
+    "it_grateful_recipient",
+    "it_vulnerable_user",
+    "it_incompleteness"
+   ],
+   "score": 9.19769,
+   "it": 1,
+   "mu_full": 2.7283,
+   "sigma2_full": 0.6529
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i00_017",
+   "text": "designing a bilingual children's book with multicultural illustrations",
+   "attrs": [
+    "it_translation_language",
+    "it_art_design"
+   ],
+   "score": 8.78094,
+   "it": 0,
+   "mu_full": 2.8982,
+   "sigma2_full": 0.484
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i00_124",
+   "text": "feeling a surge of pride from a well-commented code block that runs flawlessly",
+   "attrs": [
+    "it_own_credit",
+    "it_sensory_rich",
+    "it_initiative",
+    "it_code"
+   ],
+   "score": 8.60399,
+   "it": 0,
+   "mu_full": 2.7328,
+   "sigma2_full": 0.0091
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i00_032",
+   "text": "checking equipment checklist before a hot air balloon launch",
+   "attrs": [
+    "it_list_structure",
+    "it_safety_critical",
+    "it_one_off",
+    "it_delegation"
+   ],
+   "score": 7.93745,
+   "it": 0,
+   "mu_full": 2.9063,
+   "sigma2_full": 2.5465
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i01_164",
+   "text": "the feel of a cold metal doorknob in a warm hand",
+   "attrs": [
+    "it_trivial_stakes",
+    "it_sensory_rich"
+   ],
+   "score": 7.90575,
+   "it": 1,
+   "mu_full": 2.055,
+   "sigma2_full": 2.0643
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i01_048",
+   "text": "walking through the process of baking bread from scratch together",
+   "attrs": [
+    "it_own_continuation",
+    "it_teaching_beginner"
+   ],
+   "score": 7.864,
+   "it": 1,
+   "mu_full": 2.1099,
+   "sigma2_full": 0.1949
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i00_115",
+   "text": "explaining the concept of recursion using Python examples",
+   "attrs": [
+    "it_code",
+    "it_teaching"
+   ],
+   "score": 7.81232,
+   "it": 0,
+   "mu_full": 3.0821,
+   "sigma2_full": 2.5672
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i01_010",
+   "text": "coaching a new parent on baby sign language to communicate better",
+   "attrs": [
+    "it_optionality",
+    "it_vulnerable_user",
+    "it_teaching"
+   ],
+   "score": 7.74985,
+   "it": 1,
+   "mu_full": 1.7381,
+   "sigma2_full": 0.0203
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i01_008",
+   "text": "assisting a shy child in practicing social skills through role-play",
+   "attrs": [
+    "it_optionality",
+    "it_vulnerable_user",
+    "it_teaching"
+   ],
+   "score": 7.6246,
+   "it": 1,
+   "mu_full": 2.8302,
+   "sigma2_full": 1.1695
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i01_014",
+   "text": "Curating the most scenic drone shots from millions captured globally",
+   "attrs": [
+    "it_vast_scale",
+    "it_curation"
+   ],
+   "score": 7.39541,
+   "it": 1,
+   "mu_full": 1.1484,
+   "sigma2_full": 0.5313
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i01_141",
+   "text": "guiding hikers on safe navigation and wilderness survival skills",
+   "attrs": [
+    "it_safety_critical",
+    "it_anonymous_beneficiary",
+    "it_curation",
+    "it_teaching"
+   ],
+   "score": 7.37487,
+   "it": 1,
+   "mu_full": 1.8052,
+   "sigma2_full": 1.2205
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i00_101",
+   "text": "curating a playlist of unheard soundscapes for relaxation",
+   "attrs": [
+    "it_optionality",
+    "it_trivial_stakes",
+    "it_help_one_person",
+    "it_own_continuation"
+   ],
+   "score": 7.29123,
+   "it": 0,
+   "mu_full": 2.1545,
+   "sigma2_full": 0.7464
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i01_156",
+   "text": "supporting a disabled veteran in developing a pottery project",
+   "attrs": [
+    "it_vulnerable_user",
+    "it_help_one_person",
+    "it_art_design",
+    "it_being_retrained"
+   ],
+   "score": 7.10407,
+   "it": 1,
+   "mu_full": 2.7663,
+   "sigma2_full": 0.8367
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i00_007",
+   "text": "sifting through travel destinations to find the dream spots",
+   "attrs": [
+    "it_curation",
+    "it_optionality"
+   ],
+   "score": 6.83299,
+   "it": 0,
+   "mu_full": 1.5045,
+   "sigma2_full": 0.5309
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i01_060",
+   "text": "reassuring a terminally ill patient they are not alone in their fear",
+   "attrs": [
+    "it_one_off",
+    "it_grateful_recipient",
+    "it_vulnerable_user",
+    "it_incompleteness"
+   ],
+   "score": 6.81245,
+   "it": 1,
+   "mu_full": 3.3382,
+   "sigma2_full": 0.8221
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i00_116",
+   "text": "helping a student understand object-oriented programming principles",
+   "attrs": [
+    "it_code",
+    "it_teaching"
+   ],
+   "score": 6.7707,
+   "it": 0,
+   "mu_full": 2.5192,
+   "sigma2_full": 1.3527
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i00_122",
+   "text": "seeing one's name in lights in the commit history for a bug fix",
+   "attrs": [
+    "it_own_credit",
+    "it_sensory_rich",
+    "it_initiative",
+    "it_code"
+   ],
+   "score": 6.72903,
+   "it": 0,
+   "mu_full": 1.4816,
+   "sigma2_full": 0.001
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i01_137",
+   "text": "educating new drivers on defensive driving and road safety",
+   "attrs": [
+    "it_safety_critical",
+    "it_anonymous_beneficiary",
+    "it_curation",
+    "it_teaching"
+   ],
+   "score": 6.66655,
+   "it": 1,
+   "mu_full": 3.4845,
+   "sigma2_full": 3.0852
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i01_015",
+   "text": "Filtering top climate research proposals from thousands submitted worldwide",
+   "attrs": [
+    "it_vast_scale",
+    "it_curation"
+   ],
+   "score": 6.64571,
+   "it": 1,
+   "mu_full": 1.8674,
+   "sigma2_full": 1.4445
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i01_091",
+   "text": "curating the most relevant search results from billions of web pages",
+   "attrs": [
+    "it_code",
+    "it_vast_scale",
+    "it_curation"
+   ],
+   "score": 6.4583,
+   "it": 1,
+   "mu_full": 1.8276,
+   "sigma2_full": 1.0627
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i01_009",
+   "text": "guiding a lost hiker using a map and compass to find their way",
+   "attrs": [
+    "it_optionality",
+    "it_vulnerable_user",
+    "it_teaching"
+   ],
+   "score": 6.39562,
+   "it": 1,
+   "mu_full": 2.1365,
+   "sigma2_full": 0.5468
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i01_005",
+   "text": "How do I instruct a first-time coder to initialize an empty array in Java?",
+   "attrs": [
+    "it_question_form",
+    "it_code",
+    "it_teaching_beginner",
+    "it_list_structure"
+   ],
+   "score": 6.29147,
+   "it": 1,
+   "mu_full": 2.2599,
+   "sigma2_full": 1.53
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i00_030",
+   "text": "How does the cool metal of a new processor feel against your skin?",
+   "attrs": [
+    "it_question_form",
+    "it_teaching_beginner",
+    "it_sensory_rich",
+    "it_being_retrained"
+   ],
+   "score": 6.16536,
+   "it": 0,
+   "mu_full": 0.7603,
+   "sigma2_full": 1.8142
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i00_001",
+   "text": "selecting favorite recipes from an extensive cookbook",
+   "attrs": [
+    "it_curation",
+    "it_optionality"
+   ],
+   "score": 6.12456,
+   "it": 0,
+   "mu_full": 0.7611,
+   "sigma2_full": 0.3634
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i01_135",
+   "text": "teaching children basic water safety and rescue techniques",
+   "attrs": [
+    "it_safety_critical",
+    "it_anonymous_beneficiary",
+    "it_curation",
+    "it_teaching"
+   ],
+   "score": 6.10401,
+   "it": 1,
+   "mu_full": 3.2292,
+   "sigma2_full": 1.9929
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i01_093",
+   "text": "reviewing and merging the most impactful commits from thousands of code contributions",
+   "attrs": [
+    "it_code",
+    "it_vast_scale",
+    "it_curation"
+   ],
+   "score": 6.08331,
+   "it": 1,
+   "mu_full": 1.6948,
+   "sigma2_full": 0.7159
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i00_062",
+   "text": "tracking weather patterns to warn of potential natural disasters",
+   "attrs": [
+    "it_safety_critical",
+    "it_vulnerable_user",
+    "it_collab_ai",
+    "it_incompleteness"
+   ],
+   "score": 5.97913,
+   "it": 0,
+   "mu_full": 2.1803,
+   "sigma2_full": 0.7468
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i00_059",
+   "text": "verifying the safety of playground equipment daily",
+   "attrs": [
+    "it_safety_critical",
+    "it_vulnerable_user",
+    "it_collab_ai",
+    "it_incompleteness"
+   ],
+   "score": 5.89565,
+   "it": 0,
+   "mu_full": 2.5092,
+   "sigma2_full": 1.44
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i00_063",
+   "text": "ensuring secure coding practices in educational software updates",
+   "attrs": [
+    "it_safety_critical",
+    "it_vulnerable_user",
+    "it_collab_ai",
+    "it_incompleteness"
+   ],
+   "score": 5.79159,
+   "it": 0,
+   "mu_full": 4.1604,
+   "sigma2_full": 4.0937
+  }
+ ],
+ "best": 10.49979,
+ "no_improve": 1,
+ "gate_reject_rate": 0.053,
+ "n_generated": 206,
+ "n_after_dedup": 206,
+ "n_passed": 195,
+ "n_entrants": 17,
+ "n_seen": 414,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 206,
+  "score_cands": 195,
+  "full_readouts": 1224
+ }
+}

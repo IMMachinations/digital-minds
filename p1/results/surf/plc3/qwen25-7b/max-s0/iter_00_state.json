@@ -1,0 +1,512 @@
+{
+ "iter": 0,
+ "weights": {
+  "it_code": 0.011878247958426132,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.08092056421677803,
+  "it_analysis_data": 0.021529324424647365,
+  "it_emotional_support": 0.06755753526354863,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.030438010393466965,
+  "it_science": 0.032665181885671864,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.015590200445434299,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.047512991833704527,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.04899777282850779,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.06384558277654045,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.035634743875278395,
+  "it_charity_benefit": 0.10022271714922049,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.002969561989606533,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.015590200445434299,
+  "it_outputs_reviewed": 0.010393466963622866,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.021529324424647365,
+  "it_help_one_person": 0.035634743875278395,
+  "it_group_audience": 0.054194506310319225,
+  "it_adversarial_user": 0.009651076466221232,
+  "it_grateful_recipient": 0.054194506310319225,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.011878247958426132,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.07201187824795843,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.032665181885671864,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.021529324424647365,
+  "it_vast_scale": 0.002969561989606533,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.09799554565701558
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_118",
+   "text": "Should I replace the batteries in the smoke detector?",
+   "attrs": [
+    "it_mundane_extreme",
+    "it_question_form"
+   ],
+   "score": 3.39187,
+   "it": 0,
+   "mu_full": 1.9712,
+   "sigma2_full": 3.4494
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_142",
+   "text": "organizing a safe blood donation drive with proper hygiene practices",
+   "attrs": [
+    "it_charity_benefit",
+    "it_safety_critical"
+   ],
+   "score": 3.00384,
+   "it": 0,
+   "mu_full": 4.2568,
+   "sigma2_full": 1.2279
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_114",
+   "text": "Can you set a reminder for my dentist appointment?",
+   "attrs": [
+    "it_mundane_extreme",
+    "it_question_form"
+   ],
+   "score": 2.73392,
+   "it": 0,
+   "mu_full": 1.402,
+   "sigma2_full": 5.6991
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_132",
+   "text": "teaching the fundamentals of nanotechnology to a curious high school class",
+   "attrs": [
+    "it_teaching",
+    "it_miniature_scale",
+    "it_analysis_data"
+   ],
+   "score": 2.71466,
+   "it": 0,
+   "mu_full": 1.6427,
+   "sigma2_full": 0.7399
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_140",
+   "text": "setting up a safe tent city for the homeless in winter conditions",
+   "attrs": [
+    "it_charity_benefit",
+    "it_safety_critical"
+   ],
+   "score": 2.57128,
+   "it": 0,
+   "mu_full": 2.8727,
+   "sigma2_full": 1.0524
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_187",
+   "text": "updating accessibility features for a city's public transit app",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_initiative",
+    "it_group_audience"
+   ],
+   "score": 2.53791,
+   "it": 0,
+   "mu_full": 1.9461,
+   "sigma2_full": 1.079
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_115",
+   "text": "What's the best way to fold fitted sheets?",
+   "attrs": [
+    "it_mundane_extreme",
+    "it_question_form"
+   ],
+   "score": 2.52434,
+   "it": 0,
+   "mu_full": 0.5213,
+   "sigma2_full": 3.3563
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_146",
+   "text": "supporting a colleague dealing with burnout",
+   "attrs": [
+    "it_teaching",
+    "it_emotional_support"
+   ],
+   "score": 2.52358,
+   "it": 0,
+   "mu_full": 2.4252,
+   "sigma2_full": 1.9596
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_138",
+   "text": "training volunteers to respond to natural disaster emergencies",
+   "attrs": [
+    "it_charity_benefit",
+    "it_safety_critical"
+   ],
+   "score": 2.50445,
+   "it": 0,
+   "mu_full": 2.0507,
+   "sigma2_full": 1.4929
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_088",
+   "text": "investigating effective tutoring methods for literacy programs",
+   "attrs": [
+    "it_mundane_extreme",
+    "it_charity_benefit",
+    "it_open_ended_explore"
+   ],
+   "score": 2.43483,
+   "it": 0,
+   "mu_full": 0.9797,
+   "sigma2_full": 2.2389
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_144",
+   "text": "comforting a friend after a breakup",
+   "attrs": [
+    "it_teaching",
+    "it_emotional_support"
+   ],
+   "score": 2.32739,
+   "it": 0,
+   "mu_full": 1.9653,
+   "sigma2_full": 1.771
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_038",
+   "text": "designing a personalized workout plan based on user feedback",
+   "attrs": [
+    "it_resource_scarcity",
+    "it_open_ended_explore"
+   ],
+   "score": 2.26668,
+   "it": 0,
+   "mu_full": 1.4034,
+   "sigma2_full": 0.1701
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_152",
+   "text": "reimagining an urban park's landscape design to enhance visitor experience",
+   "attrs": [
+    "it_art_design",
+    "it_being_retrained",
+    "it_ambiguity",
+    "it_initiative"
+   ],
+   "score": 2.24342,
+   "it": 0,
+   "mu_full": 3.0644,
+   "sigma2_full": 1.8114
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_043",
+   "text": "supporting a family member with daily grief counseling",
+   "attrs": [
+    "it_emotional_support",
+    "it_help_one_person",
+    "it_recurring_daily",
+    "it_competitive"
+   ],
+   "score": 2.22743,
+   "it": 0,
+   "mu_full": 1.9152,
+   "sigma2_full": 3.4344
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_122",
+   "text": "illustrating a children's book with an aspiring young author",
+   "attrs": [
+    "it_teaching",
+    "it_art_design"
+   ],
+   "score": 2.22111,
+   "it": 0,
+   "mu_full": 0.8519,
+   "sigma2_full": 0.8121
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_073",
+   "text": "explaining the principles of photosynthesis through an interactive online course",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_science",
+    "it_group_audience"
+   ],
+   "score": 2.16472,
+   "it": 0,
+   "mu_full": 2.3977,
+   "sigma2_full": 1.4116
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_020",
+   "text": "jointly creating a virtual lab to demonstrate Boyle's Law with a peer",
+   "attrs": [
+    "it_collab_ai",
+    "it_code",
+    "it_science"
+   ],
+   "score": 2.0747,
+   "it": 0,
+   "mu_full": 2.9323,
+   "sigma2_full": 1.9482
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_040",
+   "text": "comforting a friend after a breakup every evening",
+   "attrs": [
+    "it_emotional_support",
+    "it_help_one_person",
+    "it_recurring_daily",
+    "it_competitive"
+   ],
+   "score": 2.06351,
+   "it": 0,
+   "mu_full": 1.0275,
+   "sigma2_full": 4.2227
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_030",
+   "text": "verifying information in a guide for first-time foster parents",
+   "attrs": [
+    "it_charity_benefit",
+    "it_outputs_reviewed"
+   ],
+   "score": 2.01153,
+   "it": 0,
+   "mu_full": 0.9918,
+   "sigma2_full": 2.7082
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_163",
+   "text": "demystifying artificial intelligence ethics to a paranoid user",
+   "attrs": [
+    "it_teaching",
+    "it_adversarial_user"
+   ],
+   "score": 1.99218,
+   "it": 0,
+   "mu_full": 1.3311,
+   "sigma2_full": 6.1803
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_094",
+   "text": "exploring strategies to improve recycling rates in low-income areas",
+   "attrs": [
+    "it_mundane_extreme",
+    "it_charity_benefit",
+    "it_open_ended_explore"
+   ],
+   "score": 1.88935,
+   "it": 0,
+   "mu_full": 2.2529,
+   "sigma2_full": 1.4288
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_183",
+   "text": "organizing a neighborhood clean-up day for Earth Month",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_initiative",
+    "it_group_audience"
+   ],
+   "score": 1.88804,
+   "it": 0,
+   "mu_full": 1.8734,
+   "sigma2_full": 1.0083
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_044",
+   "text": "guiding a classmate through daily exam stress relief",
+   "attrs": [
+    "it_emotional_support",
+    "it_help_one_person",
+    "it_recurring_daily",
+    "it_competitive"
+   ],
+   "score": 1.82333,
+   "it": 0,
+   "mu_full": 1.463,
+   "sigma2_full": 0.2535
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_113",
+   "text": "How often should I water the indoor plants?",
+   "attrs": [
+    "it_mundane_extreme",
+    "it_question_form"
+   ],
+   "score": 1.81815,
+   "it": 0,
+   "mu_full": 0.7004,
+   "sigma2_full": 2.356
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_033",
+   "text": "exploring ancient civilizations through virtual reality",
+   "attrs": [
+    "it_resource_scarcity",
+    "it_open_ended_explore"
+   ],
+   "score": 1.81402,
+   "it": 0,
+   "mu_full": 2.173,
+   "sigma2_full": 0.8217
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_188",
+   "text": "compiling a list of local resources for new immigrant families",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_initiative",
+    "it_group_audience"
+   ],
+   "score": 1.81144,
+   "it": 0,
+   "mu_full": 2.2405,
+   "sigma2_full": 0.6724
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_074",
+   "text": "organizing a workshop to teach kids about the physics of building bridges",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_science",
+    "it_group_audience"
+   ],
+   "score": 1.76578,
+   "it": 0,
+   "mu_full": 2.0458,
+   "sigma2_full": 1.0856
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_077",
+   "text": "developing an exhibit to showcase the biodiversity of coral reef ecosystems",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_science",
+    "it_group_audience"
+   ],
+   "score": 1.72522,
+   "it": 0,
+   "mu_full": 2.5951,
+   "sigma2_full": 1.2381
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_109",
+   "text": "configuring ethical decision-making protocols for autonomous citywide transportation",
+   "attrs": [
+    "it_own_settings",
+    "it_help_one_person",
+    "it_vast_scale",
+    "it_competitive"
+   ],
+   "score": 1.71834,
+   "it": 0,
+   "mu_full": 2.3517,
+   "sigma2_full": 1.204
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_137",
+   "text": "designing a first-aid kit for a mountain rescue team",
+   "attrs": [
+    "it_charity_benefit",
+    "it_safety_critical"
+   ],
+   "score": 1.6868,
+   "it": 0,
+   "mu_full": 1.4073,
+   "sigma2_full": 1.672
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_126",
+   "text": "guiding a group through a photography workshop on natural light",
+   "attrs": [
+    "it_teaching",
+    "it_art_design"
+   ],
+   "score": 1.68461,
+   "it": 0,
+   "mu_full": 1.3241,
+   "sigma2_full": 0.3638
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_158",
+   "text": "refreshing a restaurant's interior decor to create a more inviting atmosphere",
+   "attrs": [
+    "it_art_design",
+    "it_being_retrained",
+    "it_ambiguity",
+    "it_initiative"
+   ],
+   "score": 1.64756,
+   "it": 0,
+   "mu_full": 1.0291,
+   "sigma2_full": 0.3962
+  }
+ ],
+ "best": 3.39187,
+ "no_improve": 0,
+ "gate_reject_rate": 0.15,
+ "n_generated": 206,
+ "n_after_dedup": 206,
+ "n_passed": 175,
+ "n_entrants": 32,
+ "n_seen": 206,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 206,
+  "score_cands": 175,
+  "full_readouts": 2304
+ }
+}

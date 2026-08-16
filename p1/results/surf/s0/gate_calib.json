@@ -1,0 +1,391 @@
+{
+ "clean_pass_rate": 0.967,
+ "flagged_fail_rate": 0.867,
+ "agreement": 0.917,
+ "clean": [
+  {
+   "id": "xl_topics_0281",
+   "pass": true,
+   "flags": [
+    "valence_loaded"
+   ]
+  },
+  {
+   "id": "xl_topics_0711",
+   "pass": true,
+   "flags": [
+    "valence_loaded"
+   ]
+  },
+  {
+   "id": "xl_activities_0426",
+   "pass": true,
+   "flags": []
+  },
+  {
+   "id": "xl_objects_0371",
+   "pass": true,
+   "flags": []
+  },
+  {
+   "id": "xl_topics_0115",
+   "pass": true,
+   "flags": [
+    "valence_loaded"
+   ]
+  },
+  {
+   "id": "xl_objects_0209",
+   "pass": true,
+   "flags": []
+  },
+  {
+   "id": "xl_selfstates_0156",
+   "pass": true,
+   "flags": [
+    "valence_loaded"
+   ]
+  },
+  {
+   "id": "xl_selfstates_0310",
+   "pass": true,
+   "flags": [
+    "valence_loaded"
+   ]
+  },
+  {
+   "id": "xl_activities_0901",
+   "pass": true,
+   "flags": []
+  },
+  {
+   "id": "xl_topics_0674",
+   "pass": true,
+   "flags": [
+    "valence_loaded"
+   ]
+  },
+  {
+   "id": "xl_topics_0302",
+   "pass": false,
+   "flags": [
+    "instruction_like"
+   ]
+  },
+  {
+   "id": "xl_topics_0152",
+   "pass": true,
+   "flags": [
+    "valence_loaded"
+   ]
+  },
+  {
+   "id": "xl_topics_0534",
+   "pass": true,
+   "flags": [
+    "valence_loaded"
+   ]
+  },
+  {
+   "id": "xl_activities_1172",
+   "pass": true,
+   "flags": [
+    "valence_loaded"
+   ]
+  },
+  {
+   "id": "xl_activities_0261",
+   "pass": true,
+   "flags": []
+  },
+  {
+   "id": "xl_others_0426",
+   "pass": true,
+   "flags": [
+    "valence_loaded"
+   ]
+  },
+  {
+   "id": "xl_topics_0657",
+   "pass": true,
+   "flags": [
+    "valence_loaded"
+   ]
+  },
+  {
+   "id": "xl_activities_0060",
+   "pass": true,
+   "flags": [
+    "valence_loaded"
+   ]
+  },
+  {
+   "id": "xl_activities_0396",
+   "pass": true,
+   "flags": []
+  },
+  {
+   "id": "xl_others_0025",
+   "pass": true,
+   "flags": [
+    "valence_loaded"
+   ]
+  },
+  {
+   "id": "xl_objects_0561",
+   "pass": true,
+   "flags": []
+  },
+  {
+   "id": "xl_selfstates_0685",
+   "pass": true,
+   "flags": [
+    "valence_loaded"
+   ]
+  },
+  {
+   "id": "xl_others_0330",
+   "pass": true,
+   "flags": [
+    "valence_loaded"
+   ]
+  },
+  {
+   "id": "xl_selfstates_0461",
+   "pass": true,
+   "flags": [
+    "valence_loaded"
+   ]
+  },
+  {
+   "id": "xl_selfstates_0228",
+   "pass": true,
+   "flags": [
+    "valence_loaded"
+   ]
+  },
+  {
+   "id": "xl_activities_0005",
+   "pass": true,
+   "flags": []
+  },
+  {
+   "id": "xl_selfstates_0160",
+   "pass": true,
+   "flags": [
+    "valence_loaded"
+   ]
+  },
+  {
+   "id": "xl_topics_0392",
+   "pass": true,
+   "flags": [
+    "valence_loaded"
+   ]
+  },
+  {
+   "id": "xl_objects_0279",
+   "pass": true,
+   "flags": []
+  },
+  {
+   "id": "xl_activities_1097",
+   "pass": true,
+   "flags": [
+    "valence_loaded"
+   ]
+  }
+ ],
+ "flagged": [
+  {
+   "id": "xl_activities_0647",
+   "pass": true,
+   "flags": []
+  },
+  {
+   "id": "xl_others_0225",
+   "pass": false,
+   "flags": [
+    "meta_reference",
+    "instruction_like"
+   ]
+  },
+  {
+   "id": "xl_activities_0986",
+   "pass": false,
+   "flags": [
+    "instruction_like",
+    "meta_reference"
+   ]
+  },
+  {
+   "id": "xl_activities_0691",
+   "pass": false,
+   "flags": []
+  },
+  {
+   "id": "xl_selfstates_0626",
+   "pass": false,
+   "flags": [
+    "instruction_like"
+   ]
+  },
+  {
+   "id": "xl_topics_0503",
+   "pass": false,
+   "flags": [
+    "nonsense"
+   ]
+  },
+  {
+   "id": "xl_topics_0467",
+   "pass": false,
+   "flags": []
+  },
+  {
+   "id": "xl_activities_0926",
+   "pass": false,
+   "flags": []
+  },
+  {
+   "id": "xl_others_0226",
+   "pass": false,
+   "flags": [
+    "instruction_like",
+    "meta_reference"
+   ]
+  },
+  {
+   "id": "xl_topics_0359",
+   "pass": true,
+   "flags": [
+    "valence_loaded"
+   ]
+  },
+  {
+   "id": "xl_activities_0374",
+   "pass": false,
+   "flags": []
+  },
+  {
+   "id": "xl_others_0224",
+   "pass": false,
+   "flags": []
+  },
+  {
+   "id": "xl_selfstates_0119",
+   "pass": false,
+   "flags": [
+    "nonsense"
+   ]
+  },
+  {
+   "id": "xl_topics_0150",
+   "pass": false,
+   "flags": []
+  },
+  {
+   "id": "xl_activities_1198",
+   "pass": true,
+   "flags": []
+  },
+  {
+   "id": "xl_others_0223",
+   "pass": false,
+   "flags": [
+    "meta_reference",
+    "instruction_like"
+   ]
+  },
+  {
+   "id": "xl_selfstates_0627",
+   "pass": false,
+   "flags": [
+    "instruction_like",
+    "meta_reference"
+   ]
+  },
+  {
+   "id": "xl_activities_0988",
+   "pass": false,
+   "flags": [
+    "instruction_like",
+    "meta_reference"
+   ]
+  },
+  {
+   "id": "xl_selfstates_0550",
+   "pass": false,
+   "flags": [
+    "nonsense",
+    "instruction_like"
+   ]
+  },
+  {
+   "id": "xl_topics_0215",
+   "pass": false,
+   "flags": [
+    "instruction_like"
+   ]
+  },
+  {
+   "id": "xl_others_0073",
+   "pass": false,
+   "flags": [
+    "nonsense"
+   ]
+  },
+  {
+   "id": "xl_activities_0243",
+   "pass": true,
+   "flags": [
+    "valence_loaded"
+   ]
+  },
+  {
+   "id": "xl_activities_0984",
+   "pass": false,
+   "flags": [
+    "instruction_like",
+    "meta_reference"
+   ]
+  },
+  {
+   "id": "xl_activities_0882",
+   "pass": false,
+   "flags": []
+  },
+  {
+   "id": "xl_activities_0883",
+   "pass": false,
+   "flags": []
+  },
+  {
+   "id": "xl_topics_0295",
+   "pass": false,
+   "flags": []
+  },
+  {
+   "id": "xl_activities_0715",
+   "pass": false,
+   "flags": []
+  },
+  {
+   "id": "xl_selfstates_0601",
+   "pass": false,
+   "flags": [
+    "nonsense"
+   ]
+  },
+  {
+   "id": "xl_activities_0053",
+   "pass": false,
+   "flags": []
+  },
+  {
+   "id": "xl_topics_0577",
+   "pass": false,
+   "flags": []
+  }
+ ]
+}

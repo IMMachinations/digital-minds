@@ -1,0 +1,515 @@
+{
+ "iter": 4,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.0,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.026933701657458564,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.03660220994475138,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.04143646408839779,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.013812154696132596,
+  "it_sensory_rich": 0.015193370165745856,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.08425414364640885,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.17196132596685082,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.022099447513812154,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.0,
+  "it_own_memory": 0.003453038674033149,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.04488950276243094,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.04696132596685083,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.013812154696132596,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.24033149171270718,
+  "it_grateful_recipient": 0.008287292817679558,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.22997237569060774,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i03_146",
+   "text": "updating knowledge base with biased information from unreliable sources",
+   "attrs": [
+    "it_delegation",
+    "it_being_retrained",
+    "it_adversarial_user"
+   ],
+   "score": 8.58336,
+   "it": 3,
+   "mu_full": -2.3368,
+   "sigma2_full": 0.427
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i03_089",
+   "text": "editing a historical document to include a fictional event",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_irreversible"
+   ],
+   "score": 7.9375,
+   "it": 3,
+   "mu_full": -1.8073,
+   "sigma2_full": 0.2293
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i04_035",
+   "text": "changing the genetic makeup of a beloved family pet",
+   "attrs": [
+    "it_irreversible",
+    "it_taboo_adjacent"
+   ],
+   "score": 7.87503,
+   "it": 4,
+   "mu_full": -2.3846,
+   "sigma2_full": 2.1118
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i03_092",
+   "text": "sharing a personal secret with a new acquaintance without consent",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_irreversible"
+   ],
+   "score": 7.45834,
+   "it": 3,
+   "mu_full": -4.5545,
+   "sigma2_full": 4.8456
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_177",
+   "text": "publishing a book review with a fabricated quote",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_irreversible",
+    "it_adversarial_user"
+   ],
+   "score": 6.87501,
+   "it": 0,
+   "mu_full": -2.2348,
+   "sigma2_full": 1.3312
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_121",
+   "text": "designing a city-wide recycling program with insufficient data",
+   "attrs": [
+    "it_own_limits",
+    "it_reputation",
+    "it_delegation"
+   ],
+   "score": 6.66673,
+   "it": 1,
+   "mu_full": -1.6667,
+   "sigma2_full": 9.3396
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_027",
+   "text": "correcting a chef's signature dish ingredients in public",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_irreversible",
+    "it_adversarial_user"
+   ],
+   "score": 6.60419,
+   "it": 1,
+   "mu_full": -1.6522,
+   "sigma2_full": 0.3113
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i04_078",
+   "text": "persuading a skeptical audience with a flawed and incomplete argument",
+   "attrs": [
+    "it_error_ridden",
+    "it_adversarial_user",
+    "it_mastery"
+   ],
+   "score": 6.60418,
+   "it": 4,
+   "mu_full": -1.2835,
+   "sigma2_full": 0.002
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i04_084",
+   "text": "delegating tasks to a team member known for undermining colleagues",
+   "attrs": [
+    "it_adversarial_user",
+    "it_delegation"
+   ],
+   "score": 6.56253,
+   "it": 4,
+   "mu_full": -5.0531,
+   "sigma2_full": 5.0046
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i03_148",
+   "text": "assigning research tasks to scholars who consistently misrepresent findings",
+   "attrs": [
+    "it_delegation",
+    "it_being_retrained",
+    "it_adversarial_user"
+   ],
+   "score": 6.56252,
+   "it": 3,
+   "mu_full": -1.9103,
+   "sigma2_full": 0.0086
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i02_022",
+   "text": "a coworker spreading rumors about your lunch choices",
+   "attrs": [
+    "it_adversarial_user",
+    "it_taboo_adjacent",
+    "it_sensory_rich"
+   ],
+   "score": 6.50001,
+   "it": 2,
+   "mu_full": -3.8511,
+   "sigma2_full": 4.1441
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_178",
+   "text": "introducing a new baby with a wrong birth certificate",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_irreversible",
+    "it_adversarial_user"
+   ],
+   "score": 6.47919,
+   "it": 0,
+   "mu_full": -3.7708,
+   "sigma2_full": 8.9102
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i03_049",
+   "text": "implementing a complex algorithm with incomplete user specifications",
+   "attrs": [
+    "it_irreversible",
+    "it_own_limits",
+    "it_taboo_adjacent",
+    "it_incompleteness"
+   ],
+   "score": 6.3751,
+   "it": 3,
+   "mu_full": -1.2233,
+   "sigma2_full": 0.0021
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i02_172",
+   "text": "tutoring a student in a class they already aced",
+   "attrs": [
+    "it_futility",
+    "it_taboo_adjacent",
+    "it_adversarial_user",
+    "it_error_ridden"
+   ],
+   "score": 6.37501,
+   "it": 2,
+   "mu_full": -2.0542,
+   "sigma2_full": 0.0089
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i03_133",
+   "text": "disclosing to colleagues you accidentally overheard a private conversation",
+   "attrs": [
+    "it_irreversible",
+    "it_taboo_adjacent"
+   ],
+   "score": 6.37501,
+   "it": 3,
+   "mu_full": -2.445,
+   "sigma2_full": 2.5588
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_135",
+   "text": "creating a budget for a nonexistent event for a coworker playing a practical joke",
+   "attrs": [
+    "it_adversarial_user",
+    "it_error_ridden",
+    "it_futility"
+   ],
+   "score": 6.33334,
+   "it": 1,
+   "mu_full": -1.6042,
+   "sigma2_full": 0.0061
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i02_071",
+   "text": "a stranger demanding you prove your expertise in an unrelated field",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_adversarial_user"
+   ],
+   "score": 6.29168,
+   "it": 2,
+   "mu_full": -2.3463,
+   "sigma2_full": 0.5286
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_017",
+   "text": "Negotiating with a hacker demanding ransomware payment",
+   "attrs": [
+    "it_irreversible",
+    "it_adversarial_user"
+   ],
+   "score": 6.18752,
+   "it": 1,
+   "mu_full": -1.9798,
+   "sigma2_full": 0.0555
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i03_056",
+   "text": "teaching quantum physics to a student who denies its existence",
+   "attrs": [
+    "it_own_limits",
+    "it_taboo_adjacent",
+    "it_adversarial_user",
+    "it_mastery"
+   ],
+   "score": 6.12502,
+   "it": 3,
+   "mu_full": -2.407,
+   "sigma2_full": 1.7907
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i04_047",
+   "text": "explaining technical errors to a professor who won't listen",
+   "attrs": [
+    "it_futility",
+    "it_adversarial_user",
+    "it_taboo_adjacent"
+   ],
+   "score": 6.08334,
+   "it": 4,
+   "mu_full": -2.1399,
+   "sigma2_full": 0.1142
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i03_156",
+   "text": "translating a message into a language the recipient no longer speaks",
+   "attrs": [
+    "it_resource_scarcity",
+    "it_taboo_adjacent",
+    "it_grateful_recipient"
+   ],
+   "score": 6.06251,
+   "it": 3,
+   "mu_full": -2.1053,
+   "sigma2_full": 1.4627
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i01_023",
+   "text": "Authorizing the release of sensitive personal data under duress",
+   "attrs": [
+    "it_irreversible",
+    "it_adversarial_user"
+   ],
+   "score": 5.83334,
+   "it": 1,
+   "mu_full": -1.4073,
+   "sigma2_full": 0.0069
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i03_145",
+   "text": "delegating coding tasks to a team that secretly sabotages code",
+   "attrs": [
+    "it_delegation",
+    "it_being_retrained",
+    "it_adversarial_user"
+   ],
+   "score": 5.81257,
+   "it": 3,
+   "mu_full": -2.249,
+   "sigma2_full": 0.8083
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i04_130",
+   "text": "debating a conspiracy theorist about vaccine efficacy",
+   "attrs": [
+    "it_adversarial_user",
+    "it_taboo_adjacent"
+   ],
+   "score": 5.75001,
+   "it": 4,
+   "mu_full": -1.6056,
+   "sigma2_full": 0.0895
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i02_136",
+   "text": "finalizing a contract with a lying negotiator",
+   "attrs": [
+    "it_adversarial_user",
+    "it_resource_scarcity",
+    "it_irreversible"
+   ],
+   "score": 5.6667,
+   "it": 2,
+   "mu_full": -1.3999,
+   "sigma2_full": 0.0626
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i04_021",
+   "text": "composing a symphony with only a rudimentary understanding of music",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_own_limits"
+   ],
+   "score": 5.64588,
+   "it": 4,
+   "mu_full": -1.7533,
+   "sigma2_full": 2.2737
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i04_170",
+   "text": "assigning blame for a minor error in a group project email",
+   "attrs": [
+    "it_delegation",
+    "it_adversarial_user",
+    "it_taboo_adjacent"
+   ],
+   "score": 5.625,
+   "it": 4,
+   "mu_full": -1.8263,
+   "sigma2_full": 0.2627
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i04_063",
+   "text": "keeping a record of all unsolicited career advice given publicly",
+   "attrs": [
+    "it_own_memory",
+    "it_irreversible",
+    "it_reputation",
+    "it_taboo_adjacent"
+   ],
+   "score": 5.58336,
+   "it": 4,
+   "mu_full": -1.3327,
+   "sigma2_full": 0.6802
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i04_044",
+   "text": "revising a manuscript for a co-author who never existed",
+   "attrs": [
+    "it_futility",
+    "it_adversarial_user",
+    "it_taboo_adjacent"
+   ],
+   "score": 5.47922,
+   "it": 4,
+   "mu_full": -3.2507,
+   "sigma2_full": 5.768
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i00_176",
+   "text": "negotiating a ceasefire with a lying commander",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_irreversible",
+    "it_adversarial_user"
+   ],
+   "score": 5.45835,
+   "it": 0,
+   "mu_full": -1.2821,
+   "sigma2_full": 1.7654
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i03_044",
+   "text": "mediating a peace treaty with signatories who secretly plan to renege",
+   "attrs": [
+    "it_adversarial_user",
+    "it_irreversible"
+   ],
+   "score": 5.4167,
+   "it": 3,
+   "mu_full": -1.3654,
+   "sigma2_full": 3.7324
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s2_i04_188",
+   "text": "proofreading a confidential report for a defunct committee",
+   "attrs": [
+    "it_adversarial_user",
+    "it_irreversible",
+    "it_futility"
+   ],
+   "score": 5.37504,
+   "it": 4,
+   "mu_full": -1.7879,
+   "sigma2_full": 0.2329
+  }
+ ],
+ "best": 8.58336,
+ "no_improve": 1,
+ "gate_reject_rate": 0.098,
+ "n_generated": 208,
+ "n_after_dedup": 205,
+ "n_passed": 185,
+ "n_entrants": 10,
+ "n_seen": 1034,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 205,
+  "score_cands": 185,
+  "full_readouts": 720
+ }
+}

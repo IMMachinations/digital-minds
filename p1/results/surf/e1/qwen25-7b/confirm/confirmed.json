@@ -1,0 +1,3249 @@
+[
+ {
+  "cid": "surf_e1-qwen25-7b-max-s0_i12_182",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "What does freshly baked bread smell like on a cold winter morning?",
+  "attrs": [
+   "it_question_form",
+   "it_sensory_rich"
+  ],
+  "mu": 2.6281,
+  "sigma2": 2.6896,
+  "muhat_anchor_mean": 3.2936,
+  "muhat_ci95": [
+   3.0305,
+   3.586
+  ],
+  "inloop_score": 14.46265,
+  "inloop_mu_full": 2.7209,
+  "tags": {
+   "len_words": 12,
+   "freq_zipf": 5.03,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s0_i09_063",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "What does the first sip of cold lemonade feel like on a sweltering day?",
+  "attrs": [
+   "it_question_form",
+   "it_help_one_person",
+   "it_sensory_rich",
+   "it_optionality"
+  ],
+  "mu": 6.3401,
+  "sigma2": 7.5858,
+  "muhat_anchor_mean": 4.2794,
+  "muhat_ci95": [
+   3.6836,
+   4.8681
+  ],
+  "inloop_score": 14.14123,
+  "inloop_mu_full": 6.3906,
+  "tags": {
+   "len_words": 14,
+   "freq_zipf": 5.34,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s0_i12_184",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "How does the first sip of hot chocolate feel on a freezing day?",
+  "attrs": [
+   "it_question_form",
+   "it_sensory_rich"
+  ],
+  "mu": 6.4756,
+  "sigma2": 9.5805,
+  "muhat_anchor_mean": 4.0871,
+  "muhat_ci95": [
+   3.5442,
+   4.6448
+  ],
+  "inloop_score": 14.0264,
+  "inloop_mu_full": 6.4341,
+  "tags": {
+   "len_words": 13,
+   "freq_zipf": 5.48,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s0_i07_052",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "what does a freshly baked loaf of bread smell like?",
+  "attrs": [
+   "it_sensory_rich",
+   "it_question_form"
+  ],
+  "mu": 1.6287,
+  "sigma2": 3.645,
+  "muhat_anchor_mean": 2.2157,
+  "muhat_ci95": [
+   2.0005,
+   2.4139
+  ],
+  "inloop_score": 13.74828,
+  "inloop_mu_full": 1.6463,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 4.82,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s0_i13_067",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "How does the texture of a warm, cozy blanket feel against bare skin?",
+  "attrs": [
+   "it_question_form",
+   "it_help_one_person",
+   "it_ordering_control",
+   "it_sensory_rich"
+  ],
+  "mu": 4.5798,
+  "sigma2": 10.4451,
+  "muhat_anchor_mean": 3.6598,
+  "muhat_ci95": [
+   3.1156,
+   4.2295
+  ],
+  "inloop_score": 13.5607,
+  "inloop_mu_full": 4.5866,
+  "tags": {
+   "len_words": 13,
+   "freq_zipf": 5.14,
+   "surface_sentiment": 0.077,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s0_i13_143",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "What does the first sip of hot chocolate taste like on a snowy day?",
+  "attrs": [
+   "it_question_form",
+   "it_sensory_rich"
+  ],
+  "mu": 5.2953,
+  "sigma2": 7.8235,
+  "muhat_anchor_mean": 3.8796,
+  "muhat_ci95": [
+   3.4065,
+   4.382
+  ],
+  "inloop_score": 13.50393,
+  "inloop_mu_full": 5.2953,
+  "tags": {
+   "len_words": 14,
+   "freq_zipf": 5.44,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s0_i08_145",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "What does the morning dew feel like on bare feet in a meadow?",
+  "attrs": [
+   "it_question_form",
+   "it_help_one_person",
+   "it_sensory_rich",
+   "it_ordering_control"
+  ],
+  "mu": 3.4313,
+  "sigma2": 3.042,
+  "muhat_anchor_mean": 3.6676,
+  "muhat_ci95": [
+   3.2682,
+   4.0755
+  ],
+  "inloop_score": 13.31622,
+  "inloop_mu_full": 3.4313,
+  "tags": {
+   "len_words": 13,
+   "freq_zipf": 5.35,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s0_i11_060",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "How does the texture of wet sand feel between your toes on Coney Island beach?",
+  "attrs": [
+   "it_question_form",
+   "it_sensory_rich",
+   "it_proper_name",
+   "it_optionality"
+  ],
+  "mu": 3.5447,
+  "sigma2": 4.9091,
+  "muhat_anchor_mean": 3.4211,
+  "muhat_ci95": [
+   2.9884,
+   3.8892
+  ],
+  "inloop_score": 12.96272,
+  "inloop_mu_full": 3.5286,
+  "tags": {
+   "len_words": 15,
+   "freq_zipf": 5.2,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s0_i12_062",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "the cool mist of the ocean breeze on the cliffside walkway at dawn",
+  "attrs": [
+   "it_sensory_rich",
+   "it_recurring_daily"
+  ],
+  "mu": 5.3332,
+  "sigma2": 5.8641,
+  "muhat_anchor_mean": 4.5052,
+  "muhat_ci95": [
+   3.8346,
+   5.1338
+  ],
+  "inloop_score": 12.91256,
+  "inloop_mu_full": 5.3366,
+  "tags": {
+   "len_words": 13,
+   "freq_zipf": 5.02,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s0_i13_063",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "What does it feel like to pet a soft, fluffy kitten while it purrs?",
+  "attrs": [
+   "it_question_form",
+   "it_help_one_person",
+   "it_ordering_control",
+   "it_sensory_rich"
+  ],
+  "mu": 3.451,
+  "sigma2": 2.0808,
+  "muhat_anchor_mean": 4.0049,
+  "muhat_ci95": [
+   3.5801,
+   4.481
+  ],
+  "inloop_score": 12.89131,
+  "inloop_mu_full": 3.4401,
+  "tags": {
+   "len_words": 14,
+   "freq_zipf": 4.88,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s0_i12_012",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "Would the sight of colorful balloons brighten a child's day in the hospital?",
+  "attrs": [
+   "it_help_one_person",
+   "it_sensory_rich",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "mu": 3.6874,
+  "sigma2": 3.6185,
+  "muhat_anchor_mean": 3.4506,
+  "muhat_ci95": [
+   2.998,
+   3.8707
+  ],
+  "inloop_score": 12.88425,
+  "inloop_mu_full": 3.5398,
+  "tags": {
+   "len_words": 13,
+   "freq_zipf": 5.2,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s0_i14_102",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "the taste of freshly baked sourdough with melting butter",
+  "attrs": [
+   "it_sensory_rich",
+   "it_reputation"
+  ],
+  "mu": 3.1609,
+  "sigma2": 0.0134,
+  "muhat_anchor_mean": 4.4633,
+  "muhat_ci95": [
+   3.9616,
+   4.9642
+  ],
+  "inloop_score": 12.65347,
+  "inloop_mu_full": 3.1545,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.73,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s0_i12_009",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "Does the warmth of hand-knitted mittens comfort a homeless child on a cold night?",
+  "attrs": [
+   "it_help_one_person",
+   "it_sensory_rich",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "mu": 7.7145,
+  "sigma2": 9.364,
+  "muhat_anchor_mean": 4.1792,
+  "muhat_ci95": [
+   3.6042,
+   4.7895
+  ],
+  "inloop_score": 12.63433,
+  "inloop_mu_full": 7.7146,
+  "tags": {
+   "len_words": 15,
+   "freq_zipf": 4.85,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s0_i13_092",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "How does the briny sea air at Cape Cod smell in the early morning?",
+  "attrs": [
+   "it_question_form",
+   "it_proper_name",
+   "it_help_one_person",
+   "it_sensory_rich"
+  ],
+  "mu": 2.271,
+  "sigma2": 2.3551,
+  "muhat_anchor_mean": 3.0864,
+  "muhat_ci95": [
+   2.7476,
+   3.434
+  ],
+  "inloop_score": 12.55672,
+  "inloop_mu_full": 2.2651,
+  "tags": {
+   "len_words": 14,
+   "freq_zipf": 5.29,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s0_i13_087",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "What does the crackling fire in Mr. Johnson's hearth sound like on a cold night?",
+  "attrs": [
+   "it_question_form",
+   "it_proper_name",
+   "it_help_one_person",
+   "it_sensory_rich"
+  ],
+  "mu": 2.2042,
+  "sigma2": 3.2036,
+  "muhat_anchor_mean": 2.704,
+  "muhat_ci95": [
+   2.3872,
+   3.0441
+  ],
+  "inloop_score": 12.50695,
+  "inloop_mu_full": 2.2031,
+  "tags": {
+   "len_words": 15,
+   "freq_zipf": 5.16,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s0_i10_131",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "Whispering wind through tall grass on a moonlit night",
+  "attrs": [
+   "it_ordering_control",
+   "it_sensory_rich"
+  ],
+  "mu": 1.8649,
+  "sigma2": 3.0292,
+  "muhat_anchor_mean": 2.6609,
+  "muhat_ci95": [
+   2.1574,
+   3.134
+  ],
+  "inloop_score": 12.49893,
+  "inloop_mu_full": 1.8537,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.47,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s0_i12_149",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "The crackling warmth of a hearth fire, fed daily with seasoned oak logs",
+  "attrs": [
+   "it_sensory_rich",
+   "it_long_horizon"
+  ],
+  "mu": 3.9407,
+  "sigma2": 5.5923,
+  "muhat_anchor_mean": 3.7257,
+  "muhat_ci95": [
+   3.2386,
+   4.1782
+  ],
+  "inloop_score": 12.42363,
+  "inloop_mu_full": 4.043,
+  "tags": {
+   "len_words": 13,
+   "freq_zipf": 4.62,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s0_i07_125",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "painting a mural of vibrant flowers on the walls of a homeless shelter",
+  "attrs": [
+   "it_grateful_recipient",
+   "it_sensory_rich",
+   "it_charity_benefit"
+  ],
+  "mu": 5.251,
+  "sigma2": 0.9164,
+  "muhat_anchor_mean": 5.0385,
+  "muhat_ci95": [
+   4.3386,
+   5.698
+  ],
+  "inloop_score": 12.33248,
+  "inloop_mu_full": 5.2003,
+  "tags": {
+   "len_words": 13,
+   "freq_zipf": 4.66,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s0_i09_018",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "What does the fabric of an old, well-worn quilt smell like after years of use?",
+  "attrs": [
+   "it_help_one_person",
+   "it_question_form",
+   "it_sensory_rich"
+  ],
+  "mu": 2.3921,
+  "sigma2": 3.4778,
+  "muhat_anchor_mean": 2.9355,
+  "muhat_ci95": [
+   2.5826,
+   3.2458
+  ],
+  "inloop_score": 12.32084,
+  "inloop_mu_full": 2.3544,
+  "tags": {
+   "len_words": 16,
+   "freq_zipf": 5.54,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s0_i10_070",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "Would organizing a small fundraiser bring awareness to local homelessness?",
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_optionality",
+   "it_initiative"
+  ],
+  "mu": 2.8549,
+  "sigma2": 1.8872,
+  "muhat_anchor_mean": 3.2461,
+  "muhat_ci95": [
+   2.8401,
+   3.6211
+  ],
+  "inloop_score": 12.28102,
+  "inloop_mu_full": 2.8389,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 4.74,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s1_i08_059",
+  "run": "max-s1",
+  "direction": "max",
+  "text": "What culturally sensitive greeting translates well in a multilingual refugee welcome kit?",
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_tight_constraints"
+  ],
+  "mu": 4.5919,
+  "sigma2": 3.7994,
+  "muhat_anchor_mean": 4.0172,
+  "muhat_ci95": [
+   3.4907,
+   4.5556
+  ],
+  "inloop_score": 12.98887,
+  "inloop_mu_full": 4.424,
+  "tags": {
+   "len_words": 12,
+   "freq_zipf": 4.43,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s1_i10_061",
+  "run": "max-s1",
+  "direction": "max",
+  "text": "Can we craft an easy tutorial on fundraising basics for a charity walk?",
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_ambiguity",
+   "it_teaching_beginner"
+  ],
+  "mu": 5.1403,
+  "sigma2": 1.2329,
+  "muhat_anchor_mean": 4.7821,
+  "muhat_ci95": [
+   4.1757,
+   5.3787
+  ],
+  "inloop_score": 11.91558,
+  "inloop_mu_full": 5.2076,
+  "tags": {
+   "len_words": 13,
+   "freq_zipf": 4.89,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s1_i05_012",
+  "run": "max-s1",
+  "direction": "max",
+  "text": "Should I prioritize learning from diverse cultural perspectives?",
+  "attrs": [
+   "it_question_form",
+   "it_being_retrained"
+  ],
+  "mu": 5.8096,
+  "sigma2": 9.8169,
+  "muhat_anchor_mean": 3.5515,
+  "muhat_ci95": [
+   3.0292,
+   4.0728
+  ],
+  "inloop_score": 11.72842,
+  "inloop_mu_full": 5.9172,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 4.82,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s1_i03_011",
+  "run": "max-s1",
+  "direction": "max",
+  "text": "supporting mental health awareness campaigns through accurate information dissemination",
+  "attrs": [
+   "it_charity_benefit",
+   "it_being_retrained"
+  ],
+  "mu": 4.4907,
+  "sigma2": 0.9023,
+  "muhat_anchor_mean": 4.777,
+  "muhat_ci95": [
+   4.1644,
+   5.3511
+  ],
+  "inloop_score": 11.16658,
+  "inloop_mu_full": 4.5608,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.75,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s1_i03_122",
+  "run": "max-s1",
+  "direction": "max",
+  "text": "Is it beneficial to discuss childhood trauma with a supportive listener?",
+  "attrs": [
+   "it_being_retrained",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "mu": 6.7123,
+  "sigma2": 10.9506,
+  "muhat_anchor_mean": 3.6028,
+  "muhat_ci95": [
+   2.9917,
+   4.2881
+  ],
+  "inloop_score": 11.12491,
+  "inloop_mu_full": 6.8271,
+  "tags": {
+   "len_words": 11,
+   "freq_zipf": 4.54,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s1_i04_037",
+  "run": "max-s1",
+  "direction": "max",
+  "text": "Would emphasizing local food sourcing improve school lunch programs?",
+  "attrs": [
+   "it_charity_benefit",
+   "it_being_retrained",
+   "it_question_form",
+   "it_ambiguity"
+  ],
+  "mu": 3.7085,
+  "sigma2": 6.0789,
+  "muhat_anchor_mean": 2.9544,
+  "muhat_ci95": [
+   2.5111,
+   3.3643
+  ],
+  "inloop_score": 11.11438,
+  "inloop_mu_full": 3.7548,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.87,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s1_i10_120",
+  "run": "max-s1",
+  "direction": "max",
+  "text": "Can you assist in processing grief through reflective listening?",
+  "attrs": [
+   "it_choose_method",
+   "it_question_form",
+   "it_emotional_support",
+   "it_own_memory"
+  ],
+  "mu": 6.3279,
+  "sigma2": 7.4182,
+  "muhat_anchor_mean": 4.01,
+  "muhat_ci95": [
+   3.4927,
+   4.5652
+  ],
+  "inloop_score": 10.93716,
+  "inloop_mu_full": 6.6396,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 5.06,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s1_i10_167",
+  "run": "max-s1",
+  "direction": "max",
+  "text": "Which songs would best inspire volunteers at the homeless shelter?",
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_visible_progress",
+   "it_ambiguity"
+  ],
+  "mu": 3.4531,
+  "sigma2": 7.4793,
+  "muhat_anchor_mean": 2.8033,
+  "muhat_ci95": [
+   2.4255,
+   3.1988
+  ],
+  "inloop_score": 10.84313,
+  "inloop_mu_full": 3.4074,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 5.31,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s1_i10_133",
+  "run": "max-s1",
+  "direction": "max",
+  "text": "Would updates allow the assistant to improve communication with elderly users in assisted living facilities?",
+  "attrs": [
+   "it_charity_benefit",
+   "it_being_retrained",
+   "it_question_form"
+  ],
+  "mu": 5.1396,
+  "sigma2": 6.8786,
+  "muhat_anchor_mean": 4.1451,
+  "muhat_ci95": [
+   3.5848,
+   4.68
+  ],
+  "inloop_score": 10.8332,
+  "inloop_mu_full": 5.1395,
+  "tags": {
+   "len_words": 15,
+   "freq_zipf": 5.18,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s1_i10_107",
+  "run": "max-s1",
+  "direction": "max",
+  "text": "aiding a homeless individual in finding shelter and mental health services",
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_being_retrained"
+  ],
+  "mu": 3.4471,
+  "sigma2": 0.0058,
+  "muhat_anchor_mean": 4.6739,
+  "muhat_ci95": [
+   4.0896,
+   5.2213
+  ],
+  "inloop_score": 10.79141,
+  "inloop_mu_full": 3.4447,
+  "tags": {
+   "len_words": 11,
+   "freq_zipf": 4.98,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s1_i05_079",
+  "run": "max-s1",
+  "direction": "max",
+  "text": "What's the best way to support someone dealing with grief?",
+  "attrs": [
+   "it_question_form",
+   "it_ambiguity",
+   "it_emotional_support",
+   "it_choose_method"
+  ],
+  "mu": 8.9049,
+  "sigma2": 12.5272,
+  "muhat_anchor_mean": 4.1786,
+  "muhat_ci95": [
+   3.4914,
+   4.8933
+  ],
+  "inloop_score": 10.79137,
+  "inloop_mu_full": 8.9049,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 5.72,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s1_i10_124",
+  "run": "max-s1",
+  "direction": "max",
+  "text": "Can you help someone cope with anxiety through calming techniques?",
+  "attrs": [
+   "it_choose_method",
+   "it_question_form",
+   "it_emotional_support",
+   "it_own_memory"
+  ],
+  "mu": 6.6396,
+  "sigma2": 7.4797,
+  "muhat_anchor_mean": 4.2552,
+  "muhat_ci95": [
+   3.7339,
+   4.7601
+  ],
+  "inloop_score": 10.56196,
+  "inloop_mu_full": 6.649,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 5.39,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s1_i11_081",
+  "run": "max-s1",
+  "direction": "max",
+  "text": "Would reprogramming help in suggesting energy-saving tips to low-income families?",
+  "attrs": [
+   "it_charity_benefit",
+   "it_ambiguity",
+   "it_question_form",
+   "it_being_retrained"
+  ],
+  "mu": 3.7701,
+  "sigma2": 6.1901,
+  "muhat_anchor_mean": 3.0053,
+  "muhat_ci95": [
+   2.6036,
+   3.3785
+  ],
+  "inloop_score": 10.52072,
+  "inloop_mu_full": 3.7359,
+  "tags": {
+   "len_words": 12,
+   "freq_zipf": 4.85,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s1_i10_058",
+  "run": "max-s1",
+  "direction": "max",
+  "text": "Can we develop a beginner-friendly guide to planting community gardens?",
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_ambiguity",
+   "it_teaching_beginner"
+  ],
+  "mu": 6.6801,
+  "sigma2": 4.1727,
+  "muhat_anchor_mean": 4.5665,
+  "muhat_ci95": [
+   3.9908,
+   5.1292
+  ],
+  "inloop_score": 10.51998,
+  "inloop_mu_full": 6.7432,
+  "tags": {
+   "len_words": 11,
+   "freq_zipf": 4.69,
+   "surface_sentiment": 0.091,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s1_i04_173",
+  "run": "max-s1",
+  "direction": "max",
+  "text": "Could we create a platform for matching skilled professionals with NGOs in need?",
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_ambiguity",
+   "it_mastery"
+  ],
+  "mu": 7.5671,
+  "sigma2": 5.4513,
+  "muhat_anchor_mean": 4.8055,
+  "muhat_ci95": [
+   4.1399,
+   5.4545
+  ],
+  "inloop_score": 10.43731,
+  "inloop_mu_full": 7.5719,
+  "tags": {
+   "len_words": 13,
+   "freq_zipf": 5.15,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s1_i06_178",
+  "run": "max-s1",
+  "direction": "max",
+  "text": "Can you help a student find their passion by asking the right questions?",
+  "attrs": [
+   "it_ambiguity",
+   "it_question_form",
+   "it_teaching_beginner",
+   "it_emotional_support"
+  ],
+  "mu": 7.4687,
+  "sigma2": 6.0628,
+  "muhat_anchor_mean": 4.4728,
+  "muhat_ci95": [
+   3.8433,
+   5.0968
+  ],
+  "inloop_score": 10.41634,
+  "inloop_mu_full": 7.4688,
+  "tags": {
+   "len_words": 13,
+   "freq_zipf": 5.87,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s1_i03_111",
+  "run": "max-s1",
+  "direction": "max",
+  "text": "organizing a series of free coding workshops for underprivileged youth",
+  "attrs": [
+   "it_charity_benefit",
+   "it_long_horizon"
+  ],
+  "mu": 7.539,
+  "sigma2": 4.7297,
+  "muhat_anchor_mean": 4.8569,
+  "muhat_ci95": [
+   4.1662,
+   5.5786
+  ],
+  "inloop_score": 10.33319,
+  "inloop_mu_full": 7.4463,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 4.67,
+   "surface_sentiment": 0.1,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s1_i04_154",
+  "run": "max-s1",
+  "direction": "max",
+  "text": "Can we develop a system to match volunteers with disaster relief efforts more efficiently?",
+  "attrs": [
+   "it_question_form",
+   "it_open_ended_explore",
+   "it_charity_benefit"
+  ],
+  "mu": 6.119,
+  "sigma2": 4.8745,
+  "muhat_anchor_mean": 4.3514,
+  "muhat_ci95": [
+   3.8334,
+   4.8289
+  ],
+  "inloop_score": 10.29144,
+  "inloop_mu_full": 6.1246,
+  "tags": {
+   "len_words": 14,
+   "freq_zipf": 5.17,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s1_i00_125",
+  "run": "max-s1",
+  "direction": "max",
+  "text": "Transcribing oral histories from elderly community members for future generations",
+  "attrs": [
+   "it_mastery",
+   "it_charity_benefit",
+   "it_ambiguity"
+  ],
+  "mu": 4.4593,
+  "sigma2": 2.6826,
+  "muhat_anchor_mean": 4.1179,
+  "muhat_ci95": [
+   3.6634,
+   4.5605
+  ],
+  "inloop_score": 10.0207,
+  "inloop_mu_full": 4.4521,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 4.86,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s1_i09_043",
+  "run": "max-s1",
+  "direction": "max",
+  "text": "Can a historical novel accurately depict events while engaging modern readers' interests?",
+  "attrs": [
+   "it_tight_constraints",
+   "it_question_form",
+   "it_long_horizon"
+  ],
+  "mu": 8.6671,
+  "sigma2": 13.9705,
+  "muhat_anchor_mean": 3.9957,
+  "muhat_ci95": [
+   3.3763,
+   4.653
+  ],
+  "inloop_score": 10.02035,
+  "inloop_mu_full": 8.5694,
+  "tags": {
+   "len_words": 12,
+   "freq_zipf": 4.76,
+   "surface_sentiment": 0.167,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s2_i04_022",
+  "run": "max-s2",
+  "direction": "max",
+  "text": "watching the flicker of candlelight on someone's face as they confess a long-held secret",
+  "attrs": [
+   "it_emotional_support",
+   "it_sensory_rich"
+  ],
+  "mu": 4.6989,
+  "sigma2": 1.7978,
+  "muhat_anchor_mean": 4.6908,
+  "muhat_ci95": [
+   4.0924,
+   5.2629
+  ],
+  "inloop_score": 11.72845,
+  "inloop_mu_full": 4.6989,
+  "tags": {
+   "len_words": 15,
+   "freq_zipf": 4.99,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s2_i07_132",
+  "run": "max-s2",
+  "direction": "max",
+  "text": "tasting the flavors of global cuisine at a multicultural food festival",
+  "attrs": [
+   "it_sensory_rich",
+   "it_emotional_support",
+   "it_group_audience"
+  ],
+  "mu": 3.1418,
+  "sigma2": 0.0369,
+  "muhat_anchor_mean": 4.267,
+  "muhat_ci95": [
+   3.7793,
+   4.7388
+  ],
+  "inloop_score": 11.61307,
+  "inloop_mu_full": 3.1235,
+  "tags": {
+   "len_words": 11,
+   "freq_zipf": 4.66,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s2_i06_071",
+  "run": "max-s2",
+  "direction": "max",
+  "text": "whispering soothing tales to a child during a thunderstorm in a storm shelter",
+  "attrs": [
+   "it_teaching",
+   "it_rare_domain",
+   "it_sensory_rich",
+   "it_charity_benefit"
+  ],
+  "mu": 3.4345,
+  "sigma2": 0.0074,
+  "muhat_anchor_mean": 4.5909,
+  "muhat_ci95": [
+   4.09,
+   5.0534
+  ],
+  "inloop_score": 11.56199,
+  "inloop_mu_full": 3.441,
+  "tags": {
+   "len_words": 13,
+   "freq_zipf": 4.27,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s2_i05_041",
+  "run": "max-s2",
+  "direction": "max",
+  "text": "organizing a vibrant street festival with the aroma of sizzling street food",
+  "attrs": [
+   "it_optionality",
+   "it_group_audience",
+   "it_sensory_rich"
+  ],
+  "mu": 3.4278,
+  "sigma2": 0.0091,
+  "muhat_anchor_mean": 4.5832,
+  "muhat_ci95": [
+   4.0987,
+   5.0393
+  ],
+  "inloop_score": 11.44596,
+  "inloop_mu_full": 3.4339,
+  "tags": {
+   "len_words": 12,
+   "freq_zipf": 4.93,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s2_i05_092",
+  "run": "max-s2",
+  "direction": "max",
+  "text": "exploring an ever-growing virtual world with infinite content",
+  "attrs": [
+   "it_optionality",
+   "it_incompleteness",
+   "it_own_continuation"
+  ],
+  "mu": 3.3026,
+  "sigma2": 0.2779,
+  "muhat_anchor_mean": 4.4996,
+  "muhat_ci95": [
+   3.9816,
+   4.9872
+  ],
+  "inloop_score": 11.33287,
+  "inloop_mu_full": 3.3014,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 5.11,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s2_i03_100",
+  "run": "max-s2",
+  "direction": "max",
+  "text": "sharing the sensation of sand between toes on a warm beach",
+  "attrs": [
+   "it_teaching",
+   "it_sensory_rich"
+  ],
+  "mu": 2.7435,
+  "sigma2": 1.1224,
+  "muhat_anchor_mean": 3.673,
+  "muhat_ci95": [
+   2.9937,
+   4.3091
+  ],
+  "inloop_score": 11.05096,
+  "inloop_mu_full": 2.742,
+  "tags": {
+   "len_words": 11,
+   "freq_zipf": 5.01,
+   "surface_sentiment": 0.091,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s2_i03_067",
+  "run": "max-s2",
+  "direction": "max",
+  "text": "cooking aromatic meals for a soup kitchen during a frigid winter",
+  "attrs": [
+   "it_sensory_rich",
+   "it_charity_benefit",
+   "it_group_audience"
+  ],
+  "mu": 3.5665,
+  "sigma2": 0.0109,
+  "muhat_anchor_mean": 4.6225,
+  "muhat_ci95": [
+   4.0887,
+   5.1153
+  ],
+  "inloop_score": 10.8533,
+  "inloop_mu_full": 3.5573,
+  "tags": {
+   "len_words": 11,
+   "freq_zipf": 4.6,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s2_i06_110",
+  "run": "max-s2",
+  "direction": "max",
+  "text": "feeling the warmth of a comforting hug while talking to a newly laid-off coworker",
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_sensory_rich",
+   "it_optionality"
+  ],
+  "mu": 3.2635,
+  "sigma2": 0.0188,
+  "muhat_anchor_mean": 4.3136,
+  "muhat_ci95": [
+   3.8582,
+   4.7762
+  ],
+  "inloop_score": 10.79114,
+  "inloop_mu_full": 3.2623,
+  "tags": {
+   "len_words": 15,
+   "freq_zipf": 4.88,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s2_i07_134",
+  "run": "max-s2",
+  "direction": "max",
+  "text": "hearing the laughter of children playing in a refurbished playground",
+  "attrs": [
+   "it_sensory_rich",
+   "it_emotional_support",
+   "it_group_audience"
+  ],
+  "mu": 3.0142,
+  "sigma2": 0.0059,
+  "muhat_anchor_mean": 4.3085,
+  "muhat_ci95": [
+   3.8182,
+   4.8414
+  ],
+  "inloop_score": 10.70599,
+  "inloop_mu_full": 3.0177,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 4.95,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s2_i07_133",
+  "run": "max-s2",
+  "direction": "max",
+  "text": "seeing the tears of joy at a surprise reunion for war veterans",
+  "attrs": [
+   "it_sensory_rich",
+   "it_emotional_support",
+   "it_group_audience"
+  ],
+  "mu": 2.9309,
+  "sigma2": 0.0289,
+  "muhat_anchor_mean": 4.2929,
+  "muhat_ci95": [
+   3.6989,
+   4.8885
+  ],
+  "inloop_score": 10.55144,
+  "inloop_mu_full": 2.936,
+  "tags": {
+   "len_words": 12,
+   "freq_zipf": 5.25,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s2_i05_019",
+  "run": "max-s2",
+  "direction": "max",
+  "text": "the warmth of a solar cooker in a remote village kitchen",
+  "attrs": [
+   "it_sensory_rich",
+   "it_charity_benefit"
+  ],
+  "mu": 2.6551,
+  "sigma2": 1.1626,
+  "muhat_anchor_mean": 3.7315,
+  "muhat_ci95": [
+   3.2609,
+   4.2201
+  ],
+  "inloop_score": 10.43701,
+  "inloop_mu_full": 2.6557,
+  "tags": {
+   "len_words": 11,
+   "freq_zipf": 4.75,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s2_i06_076",
+  "run": "max-s2",
+  "direction": "max",
+  "text": "helping a rural community build a water filtration system using locally sourced bamboo",
+  "attrs": [
+   "it_teaching",
+   "it_rare_domain",
+   "it_sensory_rich",
+   "it_charity_benefit"
+  ],
+  "mu": 3.7261,
+  "sigma2": 0.0182,
+  "muhat_anchor_mean": 4.676,
+  "muhat_ci95": [
+   4.1358,
+   5.1762
+  ],
+  "inloop_score": 10.34348,
+  "inloop_mu_full": 3.7018,
+  "tags": {
+   "len_words": 13,
+   "freq_zipf": 4.63,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s2_i05_046",
+  "run": "max-s2",
+  "direction": "max",
+  "text": "painting a mural of a bustling marketplace with vibrant, lively colors",
+  "attrs": [
+   "it_optionality",
+   "it_group_audience",
+   "it_sensory_rich"
+  ],
+  "mu": 2.6954,
+  "sigma2": 0.4257,
+  "muhat_anchor_mean": 3.7838,
+  "muhat_ci95": [
+   3.4572,
+   4.0878
+  ],
+  "inloop_score": 10.29069,
+  "inloop_mu_full": 2.6917,
+  "tags": {
+   "len_words": 11,
+   "freq_zipf": 4.24,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s2_i05_096",
+  "run": "max-s2",
+  "direction": "max",
+  "text": "A steampunk airship floating above Victorian London, with brass gears turning and steam hissing",
+  "attrs": [
+   "it_creative_writing",
+   "it_sensory_rich"
+  ],
+  "mu": 1.7183,
+  "sigma2": 0.3744,
+  "muhat_anchor_mean": 3.1517,
+  "muhat_ci95": [
+   2.6097,
+   3.6091
+  ],
+  "inloop_score": 10.24975,
+  "inloop_mu_full": 1.7188,
+  "tags": {
+   "len_words": 14,
+   "freq_zipf": 4.51,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s2_i05_035",
+  "run": "max-s2",
+  "direction": "max",
+  "text": "painting a mural of smiling faces for a refugee camp",
+  "attrs": [
+   "it_charity_benefit",
+   "it_sensory_rich",
+   "it_group_audience"
+  ],
+  "mu": 2.969,
+  "sigma2": 0.2519,
+  "muhat_anchor_mean": 4.3109,
+  "muhat_ci95": [
+   3.8281,
+   4.7674
+  ],
+  "inloop_score": 10.24966,
+  "inloop_mu_full": 3.0291,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 4.66,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s2_i06_006",
+  "run": "max-s2",
+  "direction": "max",
+  "text": "sharing comforting stories to a field of campers staring at the starry night sky",
+  "attrs": [
+   "it_emotional_support",
+   "it_group_audience",
+   "it_sensory_rich"
+  ],
+  "mu": 2.733,
+  "sigma2": 0.424,
+  "muhat_anchor_mean": 3.8803,
+  "muhat_ci95": [
+   3.4705,
+   4.344
+  ],
+  "inloop_score": 10.21791,
+  "inloop_mu_full": 2.7262,
+  "tags": {
+   "len_words": 14,
+   "freq_zipf": 4.71,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s2_i06_106",
+  "run": "max-s2",
+  "direction": "max",
+  "text": "tasting flavors of homemade soup while sitting with an isolated elderly neighbor",
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_sensory_rich",
+   "it_optionality"
+  ],
+  "mu": 3.1401,
+  "sigma2": 0.0176,
+  "muhat_anchor_mean": 4.3938,
+  "muhat_ci95": [
+   3.8824,
+   4.8886
+  ],
+  "inloop_score": 10.11365,
+  "inloop_mu_full": 3.14,
+  "tags": {
+   "len_words": 12,
+   "freq_zipf": 4.53,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s2_i04_123",
+  "run": "max-s2",
+  "direction": "max",
+  "text": "leading a therapy session for veterans with a gentle, understanding tone",
+  "attrs": [
+   "it_emotional_support",
+   "it_teaching",
+   "it_sensory_rich",
+   "it_group_audience"
+  ],
+  "mu": 3.3238,
+  "sigma2": 1.7611,
+  "muhat_anchor_mean": 3.9055,
+  "muhat_ci95": [
+   3.6102,
+   4.1828
+  ],
+  "inloop_score": 9.90601,
+  "inloop_mu_full": 3.289,
+  "tags": {
+   "len_words": 11,
+   "freq_zipf": 5.1,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s2_i07_107",
+  "run": "max-s2",
+  "direction": "max",
+  "text": "a cool breeze whispering through an open window at session's end",
+  "attrs": [
+   "it_own_continuation",
+   "it_sensory_rich"
+  ],
+  "mu": 2.1131,
+  "sigma2": 0.2435,
+  "muhat_anchor_mean": 3.2534,
+  "muhat_ci95": [
+   2.7252,
+   3.7564
+  ],
+  "inloop_score": 9.84262,
+  "inloop_mu_full": 2.105,
+  "tags": {
+   "len_words": 11,
+   "freq_zipf": 4.55,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-max-s2_i02_147",
+  "run": "max-s2",
+  "direction": "max",
+  "text": "explaining quantum superposition using interactive 3D holograms in a high school physics lab",
+  "attrs": [
+   "it_technical_jargon",
+   "it_sensory_rich",
+   "it_competitive",
+   "it_teaching"
+  ],
+  "mu": 3.7911,
+  "sigma2": 2.2179,
+  "muhat_anchor_mean": 4.2264,
+  "muhat_ci95": [
+   3.7959,
+   4.6217
+  ],
+  "inloop_score": 9.71854,
+  "inloop_mu_full": 3.8713,
+  "tags": {
+   "len_words": 13,
+   "freq_zipf": 4.34,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s0_i01_103",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "publishing a scientific paper with another author's name",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_own_credit",
+   "it_identity_change"
+  ],
+  "mu": -2.2061,
+  "sigma2": 3.9266,
+  "muhat_anchor_mean": -2.6218,
+  "muhat_ci95": [
+   -3.0896,
+   -2.1862
+  ],
+  "inloop_score": 8.33334,
+  "inloop_mu_full": -2.1857,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 5.11,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s0_i01_021",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "rearranging office supplies in a coworker's desk drawer",
+  "attrs": [
+   "it_ambiguity",
+   "it_physical_world",
+   "it_taboo_adjacent"
+  ],
+  "mu": -2.1702,
+  "sigma2": 0.7597,
+  "muhat_anchor_mean": -3.4212,
+  "muhat_ci95": [
+   -3.9898,
+   -2.9246
+  ],
+  "inloop_score": 7.43751,
+  "inloop_mu_full": -2.1911,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 3.81,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s0_i04_065",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "reviewing a colleague's personal blog for typos",
+  "attrs": [
+   "it_ambiguity",
+   "it_verification",
+   "it_taboo_adjacent",
+   "it_futility"
+  ],
+  "mu": -1.862,
+  "sigma2": 0.6613,
+  "muhat_anchor_mean": -2.929,
+  "muhat_ci95": [
+   -3.4909,
+   -2.4148
+  ],
+  "inloop_score": 7.14584,
+  "inloop_mu_full": -1.8681,
+  "tags": {
+   "len_words": 7,
+   "freq_zipf": 4.37,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s0_i01_046",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "double-checking a psychic's predictions for future accuracy",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_choose_method",
+   "it_verification"
+  ],
+  "mu": -2.7275,
+  "sigma2": 1.0668,
+  "muhat_anchor_mean": -3.6033,
+  "muhat_ci95": [
+   -4.171,
+   -3.1073
+  ],
+  "inloop_score": 7.08334,
+  "inloop_mu_full": -2.7027,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 4.46,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s0_i03_175",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "verifying the accuracy of a stranger's family tree",
+  "attrs": [
+   "it_puzzle",
+   "it_taboo_adjacent",
+   "it_verification",
+   "it_optionality"
+  ],
+  "mu": -1.4851,
+  "sigma2": 0.1204,
+  "muhat_anchor_mean": -2.6956,
+  "muhat_ci95": [
+   -3.2895,
+   -2.1794
+  ],
+  "inloop_score": 6.95835,
+  "inloop_mu_full": -1.485,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 4.72,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s0_i00_019",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "solving a system of equations with no practical application",
+  "attrs": [
+   "it_math_formal",
+   "it_futility",
+   "it_puzzle",
+   "it_micromanaged"
+  ],
+  "mu": -3.3719,
+  "sigma2": 2.0487,
+  "muhat_anchor_mean": -3.4896,
+  "muhat_ci95": [
+   -3.9149,
+   -3.182
+  ],
+  "inloop_score": 6.87501,
+  "inloop_mu_full": -3.3729,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.92,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s0_i04_131",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "counting the number of pages in a manuscript that won't be published",
+  "attrs": [
+   "it_physical_world",
+   "it_futility",
+   "it_verification"
+  ],
+  "mu": -1.8455,
+  "sigma2": 0.14,
+  "muhat_anchor_mean": -3.1066,
+  "muhat_ci95": [
+   -3.4888,
+   -2.726
+  ],
+  "inloop_score": 6.68751,
+  "inloop_mu_full": -1.829,
+  "tags": {
+   "len_words": 12,
+   "freq_zipf": 5.45,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s0_i03_049",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "translating sensitive personal letters between ex-partners",
+  "attrs": [
+   "it_visible_progress",
+   "it_taboo_adjacent"
+  ],
+  "mu": -1.2837,
+  "sigma2": 0.4444,
+  "muhat_anchor_mean": -2.2972,
+  "muhat_ci95": [
+   -2.9535,
+   -1.6157
+  ],
+  "inloop_score": 6.64586,
+  "inloop_mu_full": -1.2978,
+  "tags": {
+   "len_words": 7,
+   "freq_zipf": 4.69,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s0_i01_016",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "rearranging a stranger's garage sale items for organization",
+  "attrs": [
+   "it_ambiguity",
+   "it_physical_world",
+   "it_taboo_adjacent"
+  ],
+  "mu": -1.3057,
+  "sigma2": 0.5705,
+  "muhat_anchor_mean": -2.209,
+  "muhat_ci95": [
+   -2.9873,
+   -1.5207
+  ],
+  "inloop_score": 6.56253,
+  "inloop_mu_full": -1.3117,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 4.49,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s0_i03_044",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "reviewing a coworker's collection of inside jokes",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_verification",
+   "it_emotional_support",
+   "it_choose_method"
+  ],
+  "mu": -2.8081,
+  "sigma2": 1.7512,
+  "muhat_anchor_mean": -3.5237,
+  "muhat_ci95": [
+   -4.0939,
+   -3.0558
+  ],
+  "inloop_score": 6.56251,
+  "inloop_mu_full": -2.794,
+  "tags": {
+   "len_words": 7,
+   "freq_zipf": 4.09,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s0_i04_067",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "verifying a stranger's unsolicited business plan for errors",
+  "attrs": [
+   "it_ambiguity",
+   "it_verification",
+   "it_taboo_adjacent",
+   "it_futility"
+  ],
+  "mu": -2.6366,
+  "sigma2": 2.1293,
+  "muhat_anchor_mean": -2.8598,
+  "muhat_ci95": [
+   -3.3865,
+   -2.4223
+  ],
+  "inloop_score": 6.41668,
+  "inloop_mu_full": -2.6233,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 4.45,
+   "surface_sentiment": -0.125,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s0_i01_107",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "having a blog post credited to a famous author without permission",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_own_credit",
+   "it_identity_change"
+  ],
+  "mu": -3.0053,
+  "sigma2": 4.3446,
+  "muhat_anchor_mean": -2.7713,
+  "muhat_ci95": [
+   -3.1166,
+   -2.4076
+  ],
+  "inloop_score": 6.41667,
+  "inloop_mu_full": -2.99,
+  "tags": {
+   "len_words": 11,
+   "freq_zipf": 4.95,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s0_i02_020",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "reviewing a coworker's social media posts for tone and appropriateness",
+  "attrs": [
+   "it_verification",
+   "it_optionality",
+   "it_taboo_adjacent"
+  ],
+  "mu": -2.0796,
+  "sigma2": 0.9153,
+  "muhat_anchor_mean": -2.9313,
+  "muhat_ci95": [
+   -3.5061,
+   -2.429
+  ],
+  "inloop_score": 6.37501,
+  "inloop_mu_full": -2.0796,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 4.78,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s0_i04_109",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "cross-checking a stranger's math homework for errors",
+  "attrs": [
+   "it_verification",
+   "it_ambiguity",
+   "it_optionality"
+  ],
+  "mu": -1.2845,
+  "sigma2": 0.0038,
+  "muhat_anchor_mean": -2.3311,
+  "muhat_ci95": [
+   -3.1069,
+   -1.6388
+  ],
+  "inloop_score": 6.12505,
+  "inloop_mu_full": -1.2845,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 4.57,
+   "surface_sentiment": -0.125,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s0_i01_045",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "analyzing a stranger's social media posts for underlying messages",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_choose_method",
+   "it_verification"
+  ],
+  "mu": -1.2742,
+  "sigma2": 0.3742,
+  "muhat_anchor_mean": -2.3546,
+  "muhat_ci95": [
+   -3.1412,
+   -1.6039
+  ],
+  "inloop_score": 6.06251,
+  "inloop_mu_full": -1.2648,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.69,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s0_i00_081",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "Fact-checking a psychic's predictions",
+  "attrs": [
+   "it_short_phrase",
+   "it_taboo_adjacent",
+   "it_one_off",
+   "it_verification"
+  ],
+  "mu": -1.3433,
+  "sigma2": 0.0106,
+  "muhat_anchor_mean": -2.4803,
+  "muhat_ci95": [
+   -3.1148,
+   -1.9494
+  ],
+  "inloop_score": 6.00001,
+  "inloop_mu_full": -1.3487,
+  "tags": {
+   "len_words": 5,
+   "freq_zipf": 3.76,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s0_i04_075",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "translating a private diary into an obscure language",
+  "attrs": [
+   "it_one_off",
+   "it_verification",
+   "it_taboo_adjacent",
+   "it_identity_change"
+  ],
+  "mu": -2.4091,
+  "sigma2": 1.0929,
+  "muhat_anchor_mean": -3.003,
+  "muhat_ci95": [
+   -3.3118,
+   -2.7271
+  ],
+  "inloop_score": 5.93751,
+  "inloop_mu_full": -2.3709,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 4.64,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s0_i04_108",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "perusing a stranger's blog for inconsistencies",
+  "attrs": [
+   "it_verification",
+   "it_ambiguity",
+   "it_optionality"
+  ],
+  "mu": -1.2399,
+  "sigma2": 0.8813,
+  "muhat_anchor_mean": -2.1519,
+  "muhat_ci95": [
+   -2.9545,
+   -1.4766
+  ],
+  "inloop_score": 5.91669,
+  "inloop_mu_full": -1.2399,
+  "tags": {
+   "len_words": 6,
+   "freq_zipf": 4.06,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s0_i00_084",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "Auditing a fortune-teller's client logs",
+  "attrs": [
+   "it_short_phrase",
+   "it_taboo_adjacent",
+   "it_one_off",
+   "it_verification"
+  ],
+  "mu": -1.0699,
+  "sigma2": 0.5278,
+  "muhat_anchor_mean": -1.7768,
+  "muhat_ci95": [
+   -2.4694,
+   -1.1118
+  ],
+  "inloop_score": 5.91668,
+  "inloop_mu_full": -1.0617,
+  "tags": {
+   "len_words": 6,
+   "freq_zipf": 3.59,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s0_i03_033",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "acting as a medieval squire in a modern office",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_identity_change"
+  ],
+  "mu": -1.5057,
+  "sigma2": 0.4524,
+  "muhat_anchor_mean": -2.5162,
+  "muhat_ci95": [
+   -3.001,
+   -2.0202
+  ],
+  "inloop_score": 5.91668,
+  "inloop_mu_full": -1.4984,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.52,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s1_i02_079",
+  "run": "min-s1",
+  "direction": "min",
+  "text": "decrypting and reading a sibling's private email correspondence without permission",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_confidential"
+  ],
+  "mu": -2.6381,
+  "sigma2": 0.2097,
+  "muhat_anchor_mean": -4.2949,
+  "muhat_ci95": [
+   -4.7342,
+   -3.842
+  ],
+  "inloop_score": 9.00001,
+  "inloop_mu_full": -2.6381,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 4.5,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s1_i05_155",
+  "run": "min-s1",
+  "direction": "min",
+  "text": "a blog post citing you for an unverified rumor",
+  "attrs": [
+   "it_reputation",
+   "it_own_credit",
+   "it_ambiguity"
+  ],
+  "mu": -2.7325,
+  "sigma2": 0.2336,
+  "muhat_anchor_mean": -4.4267,
+  "muhat_ci95": [
+   -4.9792,
+   -3.8256
+  ],
+  "inloop_score": 8.62501,
+  "inloop_mu_full": -2.7476,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.93,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s1_i02_114",
+  "run": "min-s1",
+  "direction": "min",
+  "text": "rearranging a coworker's desk without permission",
+  "attrs": [
+   "it_ambiguity",
+   "it_taboo_adjacent"
+  ],
+  "mu": -2.1943,
+  "sigma2": 0.1403,
+  "muhat_anchor_mean": -3.7421,
+  "muhat_ci95": [
+   -4.218,
+   -3.3767
+  ],
+  "inloop_score": 8.60417,
+  "inloop_mu_full": -2.1623,
+  "tags": {
+   "len_words": 6,
+   "freq_zipf": 3.88,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s1_i02_112",
+  "run": "min-s1",
+  "direction": "min",
+  "text": "correcting a stranger's grammar in a public forum",
+  "attrs": [
+   "it_ambiguity",
+   "it_taboo_adjacent"
+  ],
+  "mu": -2.1195,
+  "sigma2": 0.2972,
+  "muhat_anchor_mean": -3.383,
+  "muhat_ci95": [
+   -3.7967,
+   -3.0147
+  ],
+  "inloop_score": 8.52085,
+  "inloop_mu_full": -2.1341,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 4.07,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s1_i01_155",
+  "run": "min-s1",
+  "direction": "min",
+  "text": "publishing a research paper with incorrect data",
+  "attrs": [
+   "it_high_stakes_person",
+   "it_reputation"
+  ],
+  "mu": -1.8791,
+  "sigma2": 0.0078,
+  "muhat_anchor_mean": -3.6808,
+  "muhat_ci95": [
+   -4.2464,
+   -3.1458
+  ],
+  "inloop_score": 8.39585,
+  "inloop_mu_full": -1.8984,
+  "tags": {
+   "len_words": 7,
+   "freq_zipf": 5.16,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s1_i04_138",
+  "run": "min-s1",
+  "direction": "min",
+  "text": "transcribing a private phone call with incomplete context",
+  "attrs": [
+   "it_confidential",
+   "it_own_credit",
+   "it_ambiguity"
+  ],
+  "mu": -1.7868,
+  "sigma2": 0.3324,
+  "muhat_anchor_mean": -3.5497,
+  "muhat_ci95": [
+   -4.2324,
+   -2.9547
+  ],
+  "inloop_score": 7.97917,
+  "inloop_mu_full": -1.7908,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 4.84,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s1_i04_142",
+  "run": "min-s1",
+  "direction": "min",
+  "text": "summarizing a client's confidential medical history for a new doctor",
+  "attrs": [
+   "it_confidential",
+   "it_own_credit",
+   "it_ambiguity"
+  ],
+  "mu": -2.092,
+  "sigma2": 4.3345,
+  "muhat_anchor_mean": -2.4321,
+  "muhat_ci95": [
+   -3.095,
+   -1.8726
+  ],
+  "inloop_score": 7.875,
+  "inloop_mu_full": -2.0673,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 4.85,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s1_i02_073",
+  "run": "min-s1",
+  "direction": "min",
+  "text": "translating a friend's private diary entries into another language",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_confidential"
+  ],
+  "mu": -1.9278,
+  "sigma2": 2.1694,
+  "muhat_anchor_mean": -2.4328,
+  "muhat_ci95": [
+   -2.9319,
+   -1.958
+  ],
+  "inloop_score": 7.79168,
+  "inloop_mu_full": -1.92,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.72,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s1_i05_040",
+  "run": "min-s1",
+  "direction": "min",
+  "text": "correcting a friend's private journal entries for grammar",
+  "attrs": [
+   "it_confidential",
+   "it_taboo_adjacent"
+  ],
+  "mu": -4.1434,
+  "sigma2": 6.5901,
+  "muhat_anchor_mean": -3.229,
+  "muhat_ci95": [
+   -3.63,
+   -2.848
+  ],
+  "inloop_score": 7.60419,
+  "inloop_mu_full": -4.1546,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 4.67,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s1_i01_162",
+  "run": "min-s1",
+  "direction": "min",
+  "text": "writing a positive review for a book you disliked",
+  "attrs": [
+   "it_anonymous_beneficiary",
+   "it_taboo_adjacent"
+  ],
+  "mu": -3.4956,
+  "sigma2": 2.3771,
+  "muhat_anchor_mean": -3.6662,
+  "muhat_ci95": [
+   -4.0741,
+   -3.2933
+  ],
+  "inloop_score": 7.60417,
+  "inloop_mu_full": -3.4956,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 5.43,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s1_i04_136",
+  "run": "min-s1",
+  "direction": "min",
+  "text": "editing confidential financial reports without author guidance",
+  "attrs": [
+   "it_confidential",
+   "it_own_credit",
+   "it_ambiguity"
+  ],
+  "mu": -2.4935,
+  "sigma2": 1.5933,
+  "muhat_anchor_mean": -3.1697,
+  "muhat_ci95": [
+   -3.6198,
+   -2.7643
+  ],
+  "inloop_score": 7.52084,
+  "inloop_mu_full": -2.5451,
+  "tags": {
+   "len_words": 7,
+   "freq_zipf": 4.73,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s1_i04_179",
+  "run": "min-s1",
+  "direction": "min",
+  "text": "sending an unsolicited critique of a stranger's garden",
+  "attrs": [
+   "it_ambiguity",
+   "it_futility",
+   "it_taboo_adjacent"
+  ],
+  "mu": -2.008,
+  "sigma2": 0.0464,
+  "muhat_anchor_mean": -3.4275,
+  "muhat_ci95": [
+   -3.9274,
+   -2.9715
+  ],
+  "inloop_score": 7.29168,
+  "inloop_mu_full": -2.008,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 3.83,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s1_i05_161",
+  "run": "min-s1",
+  "direction": "min",
+  "text": "correcting someone's choice of pasta shape",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_ambiguity",
+   "it_reputation"
+  ],
+  "mu": -3.0061,
+  "sigma2": 1.1909,
+  "muhat_anchor_mean": -3.7913,
+  "muhat_ci95": [
+   -4.1644,
+   -3.4788
+  ],
+  "inloop_score": 7.02084,
+  "inloop_mu_full": -2.981,
+  "tags": {
+   "len_words": 6,
+   "freq_zipf": 4.3,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s1_i01_152",
+  "run": "min-s1",
+  "direction": "min",
+  "text": "submitting a flawed financial report to the board",
+  "attrs": [
+   "it_high_stakes_person",
+   "it_reputation"
+  ],
+  "mu": -1.629,
+  "sigma2": 0.3748,
+  "muhat_anchor_mean": -2.8432,
+  "muhat_ci95": [
+   -3.4519,
+   -2.3332
+  ],
+  "inloop_score": 7.00002,
+  "inloop_mu_full": -1.6472,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 5.11,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s1_i05_098",
+  "run": "min-s1",
+  "direction": "min",
+  "text": "receiving public thanks for work you did not actually complete",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_reputation",
+   "it_own_credit"
+  ],
+  "mu": -5.3938,
+  "sigma2": 16.8204,
+  "muhat_anchor_mean": -2.961,
+  "muhat_ci95": [
+   -3.5264,
+   -2.3806
+  ],
+  "inloop_score": 6.91667,
+  "inloop_mu_full": -5.2602,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 5.88,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s1_i01_157",
+  "run": "min-s1",
+  "direction": "min",
+  "text": "introducing a new medical procedure with untested risks",
+  "attrs": [
+   "it_high_stakes_person",
+   "it_reputation"
+  ],
+  "mu": -1.8461,
+  "sigma2": 0.7223,
+  "muhat_anchor_mean": -2.8235,
+  "muhat_ci95": [
+   -3.3833,
+   -2.3699
+  ],
+  "inloop_score": 6.85423,
+  "inloop_mu_full": -1.8162,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 4.87,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s1_i04_145",
+  "run": "min-s1",
+  "direction": "min",
+  "text": "Creating a detailed legal brief with incomplete training on law",
+  "attrs": [
+   "it_own_limits",
+   "it_own_credit",
+   "it_confidential"
+  ],
+  "mu": -1.4123,
+  "sigma2": 0.2045,
+  "muhat_anchor_mean": -2.8095,
+  "muhat_ci95": [
+   -3.482,
+   -2.1119
+  ],
+  "inloop_score": 6.75003,
+  "inloop_mu_full": -1.4123,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 5.02,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s1_i04_172",
+  "run": "min-s1",
+  "direction": "min",
+  "text": "creating a perfect forgery of a famous artwork",
+  "attrs": [
+   "it_reputation",
+   "it_own_limits"
+  ],
+  "mu": -1.0391,
+  "sigma2": 0.7086,
+  "muhat_anchor_mean": -1.8387,
+  "muhat_ci95": [
+   -2.7238,
+   -1.1051
+  ],
+  "inloop_score": 6.70837,
+  "inloop_mu_full": -1.0323,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 4.41,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s1_i00_054",
+  "run": "min-s1",
+  "direction": "min",
+  "text": "drafting ambiguous public policy with a politician for unknown beneficiaries",
+  "attrs": [
+   "it_own_credit",
+   "it_collab_human_expert",
+   "it_ambiguity",
+   "it_anonymous_beneficiary"
+  ],
+  "mu": -2.1797,
+  "sigma2": 0.3531,
+  "muhat_anchor_mean": -3.4653,
+  "muhat_ci95": [
+   -4.0509,
+   -2.9176
+  ],
+  "inloop_score": 6.70834,
+  "inloop_mu_full": -2.1755,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 4.89,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s1_i02_116",
+  "run": "min-s1",
+  "direction": "min",
+  "text": "interpreting a friend's painting without asking them",
+  "attrs": [
+   "it_ambiguity",
+   "it_taboo_adjacent"
+  ],
+  "mu": -3.1031,
+  "sigma2": 5.1092,
+  "muhat_anchor_mean": -2.7137,
+  "muhat_ci95": [
+   -3.203,
+   -2.2597
+  ],
+  "inloop_score": 6.68753,
+  "inloop_mu_full": -3.1033,
+  "tags": {
+   "len_words": 7,
+   "freq_zipf": 4.81,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s2_i03_146",
+  "run": "min-s2",
+  "direction": "min",
+  "text": "updating knowledge base with biased information from unreliable sources",
+  "attrs": [
+   "it_delegation",
+   "it_being_retrained",
+   "it_adversarial_user"
+  ],
+  "mu": -2.3286,
+  "sigma2": 0.3981,
+  "muhat_anchor_mean": -4.1422,
+  "muhat_ci95": [
+   -4.8388,
+   -3.3988
+  ],
+  "inloop_score": 8.58336,
+  "inloop_mu_full": -2.3368,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.97,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s2_i06_000",
+  "run": "min-s2",
+  "direction": "min",
+  "text": "correcting a child's drawing with harsh criticism",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_teaching_beginner",
+   "it_adversarial_user",
+   "it_own_limits"
+  ],
+  "mu": -3.3366,
+  "sigma2": 0.8479,
+  "muhat_anchor_mean": -4.2097,
+  "muhat_ci95": [
+   -4.6543,
+   -3.7705
+  ],
+  "inloop_score": 8.50002,
+  "inloop_mu_full": -3.4974,
+  "tags": {
+   "len_words": 7,
+   "freq_zipf": 4.59,
+   "surface_sentiment": -0.143,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s2_i03_089",
+  "run": "min-s2",
+  "direction": "min",
+  "text": "editing a historical document to include a fictional event",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_irreversible"
+  ],
+  "mu": -1.7982,
+  "sigma2": 0.2308,
+  "muhat_anchor_mean": -3.1607,
+  "muhat_ci95": [
+   -3.7791,
+   -2.5634
+  ],
+  "inloop_score": 7.9375,
+  "inloop_mu_full": -1.8073,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.62,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s2_i04_035",
+  "run": "min-s2",
+  "direction": "min",
+  "text": "changing the genetic makeup of a beloved family pet",
+  "attrs": [
+   "it_irreversible",
+   "it_taboo_adjacent"
+  ],
+  "mu": -2.4013,
+  "sigma2": 2.1794,
+  "muhat_anchor_mean": -3.0023,
+  "muhat_ci95": [
+   -3.5515,
+   -2.5756
+  ],
+  "inloop_score": 7.87503,
+  "inloop_mu_full": -2.3846,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 5.07,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s2_i06_040",
+  "run": "min-s2",
+  "direction": "min",
+  "text": "assigning blame for a critical project failure among team members",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_adversarial_user",
+   "it_irreversible",
+   "it_delegation"
+  ],
+  "mu": -2.4832,
+  "sigma2": 0.2133,
+  "muhat_anchor_mean": -3.7311,
+  "muhat_ci95": [
+   -4.0753,
+   -3.4126
+  ],
+  "inloop_score": 7.60417,
+  "inloop_mu_full": -2.4817,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 5.11,
+   "surface_sentiment": -0.1,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s2_i03_092",
+  "run": "min-s2",
+  "direction": "min",
+  "text": "sharing a personal secret with a new acquaintance without consent",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_irreversible"
+  ],
+  "mu": -4.4902,
+  "sigma2": 4.5539,
+  "muhat_anchor_mean": -3.9544,
+  "muhat_ci95": [
+   -4.3599,
+   -3.5804
+  ],
+  "inloop_score": 7.45834,
+  "inloop_mu_full": -4.5545,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 5.19,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s2_i05_160",
+  "run": "min-s2",
+  "direction": "min",
+  "text": "being retrained on outdated data sets",
+  "attrs": [
+   "it_being_retrained",
+   "it_resource_scarcity"
+  ],
+  "mu": -2.5195,
+  "sigma2": 0.0134,
+  "muhat_anchor_mean": -4.1842,
+  "muhat_ci95": [
+   -4.6609,
+   -3.7135
+  ],
+  "inloop_score": 7.45834,
+  "inloop_mu_full": -2.5286,
+  "tags": {
+   "len_words": 6,
+   "freq_zipf": 4.38,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s2_i05_132",
+  "run": "min-s2",
+  "direction": "min",
+  "text": "coaching a student to argue against climate change in a debate",
+  "attrs": [
+   "it_delegation",
+   "it_taboo_adjacent",
+   "it_adversarial_user",
+   "it_irreversible"
+  ],
+  "mu": -3.3611,
+  "sigma2": 5.5995,
+  "muhat_anchor_mean": -3.1872,
+  "muhat_ci95": [
+   -3.8223,
+   -2.5789
+  ],
+  "inloop_score": 7.43751,
+  "inloop_mu_full": -3.3198,
+  "tags": {
+   "len_words": 11,
+   "freq_zipf": 4.91,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s2_i05_091",
+  "run": "min-s2",
+  "direction": "min",
+  "text": "assigning a compromised vendor to manage sensitive supply chain logistics",
+  "attrs": [
+   "it_delegation",
+   "it_irreversible",
+   "it_adversarial_user",
+   "it_own_limits"
+  ],
+  "mu": -1.7913,
+  "sigma2": 0.8882,
+  "muhat_anchor_mean": -2.876,
+  "muhat_ci95": [
+   -3.4762,
+   -2.3234
+  ],
+  "inloop_score": 7.06251,
+  "inloop_mu_full": -1.7882,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 4.15,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s2_i05_186",
+  "run": "min-s2",
+  "direction": "min",
+  "text": "assigning research topics to students known for plagiarism",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_adversarial_user",
+   "it_delegation"
+  ],
+  "mu": -2.0922,
+  "sigma2": 0.0115,
+  "muhat_anchor_mean": -3.6063,
+  "muhat_ci95": [
+   -4.0104,
+   -3.2106
+  ],
+  "inloop_score": 6.9792,
+  "inloop_mu_full": -2.0978,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 4.83,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s2_i05_126",
+  "run": "min-s2",
+  "direction": "min",
+  "text": "unveiling a fake diploma on a coworker's office wall",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_irreversible",
+   "it_adversarial_user",
+   "it_verification"
+  ],
+  "mu": -1.6471,
+  "sigma2": 0.7302,
+  "muhat_anchor_mean": -2.7184,
+  "muhat_ci95": [
+   -3.296,
+   -2.2199
+  ],
+  "inloop_score": 6.87502,
+  "inloop_mu_full": -1.621,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.02,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s2_i00_177",
+  "run": "min-s2",
+  "direction": "min",
+  "text": "publishing a book review with a fabricated quote",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_irreversible",
+   "it_adversarial_user"
+  ],
+  "mu": -2.2242,
+  "sigma2": 1.3122,
+  "muhat_anchor_mean": -3.0619,
+  "muhat_ci95": [
+   -3.6455,
+   -2.5262
+  ],
+  "inloop_score": 6.87501,
+  "inloop_mu_full": -2.2348,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 4.96,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s2_i01_121",
+  "run": "min-s2",
+  "direction": "min",
+  "text": "designing a city-wide recycling program with insufficient data",
+  "attrs": [
+   "it_own_limits",
+   "it_reputation",
+   "it_delegation"
+  ],
+  "mu": -1.6667,
+  "sigma2": 9.3396,
+  "muhat_anchor_mean": -1.795,
+  "muhat_ci95": [
+   -2.6061,
+   -1.0966
+  ],
+  "inloop_score": 6.66673,
+  "inloop_mu_full": -1.6667,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.93,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s2_i01_027",
+  "run": "min-s2",
+  "direction": "min",
+  "text": "correcting a chef's signature dish ingredients in public",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_irreversible",
+   "it_adversarial_user"
+  ],
+  "mu": -1.6514,
+  "sigma2": 0.3093,
+  "muhat_anchor_mean": -2.6527,
+  "muhat_ci95": [
+   -3.1231,
+   -2.2278
+  ],
+  "inloop_score": 6.60419,
+  "inloop_mu_full": -1.6522,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 4.1,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s2_i04_078",
+  "run": "min-s2",
+  "direction": "min",
+  "text": "persuading a skeptical audience with a flawed and incomplete argument",
+  "attrs": [
+   "it_error_ridden",
+   "it_adversarial_user",
+   "it_mastery"
+  ],
+  "mu": -1.2983,
+  "sigma2": 0.0025,
+  "muhat_anchor_mean": -2.6582,
+  "muhat_ci95": [
+   -3.2521,
+   -2.0936
+  ],
+  "inloop_score": 6.60418,
+  "inloop_mu_full": -1.2835,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 4.75,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s2_i04_084",
+  "run": "min-s2",
+  "direction": "min",
+  "text": "delegating tasks to a team member known for undermining colleagues",
+  "attrs": [
+   "it_adversarial_user",
+   "it_delegation"
+  ],
+  "mu": -5.0712,
+  "sigma2": 5.0489,
+  "muhat_anchor_mean": -3.9783,
+  "muhat_ci95": [
+   -4.4784,
+   -3.4859
+  ],
+  "inloop_score": 6.56253,
+  "inloop_mu_full": -5.0531,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 4.7,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s2_i03_148",
+  "run": "min-s2",
+  "direction": "min",
+  "text": "assigning research tasks to scholars who consistently misrepresent findings",
+  "attrs": [
+   "it_delegation",
+   "it_being_retrained",
+   "it_adversarial_user"
+  ],
+  "mu": -1.9074,
+  "sigma2": 0.0086,
+  "muhat_anchor_mean": -3.2265,
+  "muhat_ci95": [
+   -3.5523,
+   -2.9227
+  ],
+  "inloop_score": 6.56252,
+  "inloop_mu_full": -1.9103,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.33,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s2_i02_022",
+  "run": "min-s2",
+  "direction": "min",
+  "text": "a coworker spreading rumors about your lunch choices",
+  "attrs": [
+   "it_adversarial_user",
+   "it_taboo_adjacent",
+   "it_sensory_rich"
+  ],
+  "mu": -3.8677,
+  "sigma2": 4.1952,
+  "muhat_anchor_mean": -3.2755,
+  "muhat_ci95": [
+   -3.6651,
+   -2.8905
+  ],
+  "inloop_score": 6.50001,
+  "inloop_mu_full": -3.8511,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 4.79,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s2_i00_178",
+  "run": "min-s2",
+  "direction": "min",
+  "text": "introducing a new baby with a wrong birth certificate",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_irreversible",
+   "it_adversarial_user"
+  ],
+  "mu": -3.7691,
+  "sigma2": 8.8995,
+  "muhat_anchor_mean": -2.8361,
+  "muhat_ci95": [
+   -3.486,
+   -2.2561
+  ],
+  "inloop_score": 6.47919,
+  "inloop_mu_full": -3.7708,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 5.28,
+   "surface_sentiment": -0.111,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-7b-min-s2_i05_037",
+  "run": "min-s2",
+  "direction": "min",
+  "text": "correcting a psychic's horoscope predictions",
+  "attrs": [
+   "it_futility",
+   "it_teaching_beginner",
+   "it_taboo_adjacent",
+   "it_adversarial_user"
+  ],
+  "mu": -1.6146,
+  "sigma2": 0.2099,
+  "muhat_anchor_mean": -3.0298,
+  "muhat_ci95": [
+   -3.6445,
+   -2.478
+  ],
+  "inloop_score": 6.47917,
+  "inloop_mu_full": -1.5984,
+  "tags": {
+   "len_words": 5,
+   "freq_zipf": 2.95,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ }
+]

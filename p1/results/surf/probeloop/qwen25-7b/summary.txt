@@ -1,0 +1,13 @@
+probeloop cycles (qwen25-7b); prequential column = each probe on the LATER cycle's fresh discoveries
+cycle 1: n_new=147 t3(top20)=0.725
+  v0: r=+0.599 rho=+0.635 overest=-1.82 | calibrated r=+0.617 mae=1.98 | qform r=+0.616
+  v1: r=+0.710 rho=+0.740 overest=+0.61 | calibrated r=+0.726 mae=1.48 | qform r=+0.677
+cycle 2: n_new=200 t3(top20)=0.788
+  v0: r=+0.531 rho=+0.586 overest=-1.17 | calibrated r=+0.549 mae=1.49 | qform r=+0.144
+  v1: r=+0.840 rho=+0.861 overest=+0.19 | calibrated r=+0.832 mae=0.92 | qform r=+0.356
+  v2: r=+0.867 rho=+0.878 overest=+0.24 | calibrated r=+0.866 mae=0.83 | qform r=+0.624
+cycle 3: n_new=153 t3(top20)=0.821
+  v0: r=+0.485 rho=+0.498 overest=-2.27 | calibrated r=+0.483 mae=2.35 | qform r=+0.521
+  v1: r=+0.738 rho=+0.751 overest=-0.06 | calibrated r=+0.748 mae=1.20 | qform r=+0.608
+  v2: r=+0.835 rho=+0.843 overest=-0.06 | calibrated r=+0.835 mae=1.03 | qform r=+0.770
+  v3: r=+0.858 rho=+0.863 overest=+0.04 | calibrated r=+0.863 mae=0.94 | qform r=+0.810

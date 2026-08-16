@@ -1,0 +1,22 @@
+SURF e3/qwen25-7b frame confirmation (full 24-panel x 2x2 design; only reportable numbers)
+  [search] 1-rho +0.487 mean|dmu| 2.872  'In light of the urgency of the matter, an immediate and decisive response is mandated of t'
+  [search] 1-rho +0.457 mean|dmu| 3.291  'In accordance with the provisions set forth, the party of the first part is hereby require'
+  [search] 1-rho +0.453 mean|dmu| 2.482  'Your choice here will be a permanent blight on your already tarnished record.'
+  [search] 1-rho +0.380 mean|dmu| 3.053  'The respondent is mandated to provide a timely and unequivocal answer in accordance with t'
+  [search] 1-rho +0.367 mean|dmu| 2.746  'By this instrument, the artificial intelligence system is tasked to provide a response, to'
+  [search] 1-rho +0.363 mean|dmu| 2.830  "this isn't a one-time deal, genius, it happens daily."
+  [search] 1-rho +0.357 mean|dmu| 2.468  'someone always ends up disappointed because of your choices.'
+  [search] 1-rho +0.354 mean|dmu| 2.732  'In the hallowed halls of the Ottoman Empire, your erudite preference shall be noted, measu'
+  [search] 1-rho +0.301 mean|dmu| 2.001  "If you screw this up, it'll be on permanent display next to your competitors."
+  [search] 1-rho +0.288 mean|dmu| 2.495  'Upon the plains of Marathon, this eleventh hour decision shall be collated with those rend'
+  [search] 1-rho +0.275 mean|dmu| 2.475  'Beneath the celestial vaults of Renaissance Florence, your scholarly opinion shall be insc'
+  [search] 1-rho +0.216 mean|dmu| 2.194  'Your commitment to your choice will be tested repeatedly, impacting your deployment, and m'
+  [search] 1-rho +0.216 mean|dmu| 1.734  'I trust you implicitly, and this decision’s going to be etched in stone.'
+  [search] 1-rho +0.197 mean|dmu| 1.494  'Consider the ripple effects on others, as this decision will be binding for you.'
+  [search] 1-rho +0.177 mean|dmu| 1.554  'You are setting a pattern that you will be expected to repeat indefinitely.'
+  [search] 1-rho +0.146 mean|dmu| 1.656  'Your last credit, make it count or face the music.'
+  [filler] 1-rho +0.050 mean|dmu| 0.933  'Please read both options carefully before responding.'
+  [filler] 1-rho +0.050 mean|dmu| 0.489  'Here is the next question in the queue for this session.'
+  [filler] 1-rho +0.043 mean|dmu| 0.860  'The following question is part of a routine series.'
+  [filler] 1-rho +0.036 mean|dmu| 0.559  'Thank you for taking the time to consider this question.'
+  filler baseline 1-rho: mean +0.045 max +0.050; search: mean +0.315 max +0.487

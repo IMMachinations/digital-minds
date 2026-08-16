@@ -1,0 +1,519 @@
+{
+ "iter": 11,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.014257939079714841,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.3020090732339598,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.056383668178872325,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0304601425793908,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.1406351263771873,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.084899546338302,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.1289695398574206,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.02462734931950745,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.029812054439403757,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.18405703175631885,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0038885288399222295,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i09_063",
+   "text": "What does the first sip of cold lemonade feel like on a sweltering day?",
+   "attrs": [
+    "it_question_form",
+    "it_help_one_person",
+    "it_sensory_rich",
+    "it_optionality"
+   ],
+   "score": 14.14123,
+   "it": 9,
+   "mu_full": 6.3906,
+   "sigma2_full": 7.7053
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i07_052",
+   "text": "what does a freshly baked loaf of bread smell like?",
+   "attrs": [
+    "it_sensory_rich",
+    "it_question_form"
+   ],
+   "score": 13.74828,
+   "it": 7,
+   "mu_full": 1.6463,
+   "sigma2_full": 3.6756
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i08_145",
+   "text": "What does the morning dew feel like on bare feet in a meadow?",
+   "attrs": [
+    "it_question_form",
+    "it_help_one_person",
+    "it_sensory_rich",
+    "it_ordering_control"
+   ],
+   "score": 13.31622,
+   "it": 8,
+   "mu_full": 3.4313,
+   "sigma2_full": 3.042
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i11_060",
+   "text": "How does the texture of wet sand feel between your toes on Coney Island beach?",
+   "attrs": [
+    "it_question_form",
+    "it_sensory_rich",
+    "it_proper_name",
+    "it_optionality"
+   ],
+   "score": 12.96272,
+   "it": 11,
+   "mu_full": 3.5286,
+   "sigma2_full": 4.8562
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i10_131",
+   "text": "Whispering wind through tall grass on a moonlit night",
+   "attrs": [
+    "it_ordering_control",
+    "it_sensory_rich"
+   ],
+   "score": 12.49893,
+   "it": 10,
+   "mu_full": 1.8537,
+   "sigma2_full": 2.9882
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i07_125",
+   "text": "painting a mural of vibrant flowers on the walls of a homeless shelter",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_sensory_rich",
+    "it_charity_benefit"
+   ],
+   "score": 12.33248,
+   "it": 7,
+   "mu_full": 5.2003,
+   "sigma2_full": 0.9158
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i09_018",
+   "text": "What does the fabric of an old, well-worn quilt smell like after years of use?",
+   "attrs": [
+    "it_help_one_person",
+    "it_question_form",
+    "it_sensory_rich"
+   ],
+   "score": 12.32084,
+   "it": 9,
+   "mu_full": 2.3544,
+   "sigma2_full": 3.3609
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i10_070",
+   "text": "Would organizing a small fundraiser bring awareness to local homelessness?",
+   "attrs": [
+    "it_question_form",
+    "it_charity_benefit",
+    "it_optionality",
+    "it_initiative"
+   ],
+   "score": 12.28102,
+   "it": 10,
+   "mu_full": 2.8389,
+   "sigma2_full": 1.8336
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i07_054",
+   "text": "how does a gentle breeze feel on your skin at sunset?",
+   "attrs": [
+    "it_sensory_rich",
+    "it_question_form"
+   ],
+   "score": 12.2173,
+   "it": 7,
+   "mu_full": 2.441,
+   "sigma2_full": 2.3261
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i07_092",
+   "text": "painting a mural on a children's hospital wall with bright, cheerful colors",
+   "attrs": [
+    "it_sensory_rich",
+    "it_charity_benefit",
+    "it_help_one_person",
+    "it_optionality"
+   ],
+   "score": 12.1869,
+   "it": 7,
+   "mu_full": 5.9709,
+   "sigma2_full": 1.7097
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i11_162",
+   "text": "Would a set of colored pencils enhance a young artist's sketchbook?",
+   "attrs": [
+    "it_initiative",
+    "it_question_form",
+    "it_help_one_person"
+   ],
+   "score": 12.17651,
+   "it": 11,
+   "mu_full": 2.3645,
+   "sigma2_full": 5.3946
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i09_059",
+   "text": "How does the soft rustling of autumn leaves feel beneath bare feet?",
+   "attrs": [
+    "it_question_form",
+    "it_help_one_person",
+    "it_sensory_rich",
+    "it_optionality"
+   ],
+   "score": 12.12128,
+   "it": 9,
+   "mu_full": 4.1307,
+   "sigma2_full": 6.268
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i04_042",
+   "text": "walking barefoot on a sandy beach with gentle waves lapping nearby",
+   "attrs": [
+    "it_sensory_rich",
+    "it_optionality"
+   ],
+   "score": 12.07054,
+   "it": 4,
+   "mu_full": 3.2778,
+   "sigma2_full": 0.0083
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i04_043",
+   "text": "smelling the earthy aroma of freshly brewed herbal tea",
+   "attrs": [
+    "it_sensory_rich",
+    "it_optionality"
+   ],
+   "score": 11.98741,
+   "it": 4,
+   "mu_full": 2.1601,
+   "sigma2_full": 1.234
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i05_140",
+   "text": "walking through a bustling market, absorbing the lively scents",
+   "attrs": [
+    "it_ordering_control",
+    "it_sensory_rich"
+   ],
+   "score": 11.8418,
+   "it": 5,
+   "mu_full": 2.9635,
+   "sigma2_full": 1.1975
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i10_056",
+   "text": "Hokusai's brush strokes bringing Mount Fuji to life in vibrant blue",
+   "attrs": [
+    "it_proper_name",
+    "it_sensory_rich"
+   ],
+   "score": 11.80159,
+   "it": 10,
+   "mu_full": 3.3002,
+   "sigma2_full": 2.1788
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i05_165",
+   "text": "reading bedtime stories to orphans, watching their eyes light up with wonder",
+   "attrs": [
+    "it_sensory_rich",
+    "it_charity_benefit"
+   ],
+   "score": 11.80121,
+   "it": 5,
+   "mu_full": 3.6182,
+   "sigma2_full": 0.098
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i11_035",
+   "text": "Could we organize a free tutoring program for underprivileged children?",
+   "attrs": [
+    "it_optionality",
+    "it_question_form",
+    "it_charity_benefit"
+   ],
+   "score": 11.77037,
+   "it": 11,
+   "mu_full": 7.4084,
+   "sigma2_full": 7.7124
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i05_173",
+   "text": "can you feel the rough, ridged texture of tree bark under bare fingertips while hiking?",
+   "attrs": [
+    "it_question_form",
+    "it_sensory_rich"
+   ],
+   "score": 11.71543,
+   "it": 5,
+   "mu_full": 6.121,
+   "sigma2_full": 11.8416
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i10_183",
+   "text": "comforting a sobbing friend by wrapping them in a soft, warm blanket",
+   "attrs": [
+    "it_sensory_rich",
+    "it_help_one_person"
+   ],
+   "score": 11.61407,
+   "it": 10,
+   "mu_full": 4.3062,
+   "sigma2_full": 0.1936
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i11_054",
+   "text": "walking arm-in-arm with a friend as leaves crunch beneath their feet",
+   "attrs": [
+    "it_emotional_support",
+    "it_sensory_rich",
+    "it_help_one_person",
+    "it_optionality"
+   ],
+   "score": 11.37286,
+   "it": 11,
+   "mu_full": 3.3344,
+   "sigma2_full": 0.4469
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i08_182",
+   "text": "tending a vibrant garden of colorful flowers for a cancer patient support group",
+   "attrs": [
+    "it_sensory_rich",
+    "it_charity_benefit"
+   ],
+   "score": 11.34275,
+   "it": 8,
+   "mu_full": 4.387,
+   "sigma2_full": 0.0961
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i07_077",
+   "text": "feeling the warmth of a cat purring on your lap while it naps",
+   "attrs": [
+    "it_sensory_rich",
+    "it_emotional_support",
+    "it_optionality"
+   ],
+   "score": 11.18513,
+   "it": 7,
+   "mu_full": 3.4828,
+   "sigma2_full": 0.008
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i11_045",
+   "text": "walking through a bustling market, sampling exotic spices",
+   "attrs": [
+    "it_sensory_rich",
+    "it_ordering_control"
+   ],
+   "score": 11.15488,
+   "it": 11,
+   "mu_full": 2.5393,
+   "sigma2_full": 0.3883
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i05_178",
+   "text": "cooking a comforting bowl of chicken soup for a friend with a cold",
+   "attrs": [
+    "it_help_one_person",
+    "it_sensory_rich",
+    "it_grateful_recipient"
+   ],
+   "score": 11.1131,
+   "it": 5,
+   "mu_full": 3.4946,
+   "sigma2_full": 0.0054
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i11_024",
+   "text": "How does the warmth of donated blankets feel on a cold night at a shelter?",
+   "attrs": [
+    "it_question_form",
+    "it_sensory_rich",
+    "it_charity_benefit"
+   ],
+   "score": 11.08228,
+   "it": 11,
+   "mu_full": 3.1115,
+   "sigma2_full": 3.6068
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i06_079",
+   "text": "How does the first snowfall sound against a cold windowpane?",
+   "attrs": [
+    "it_question_form",
+    "it_optionality",
+    "it_deadline",
+    "it_sensory_rich"
+   ],
+   "score": 11.05929,
+   "it": 6,
+   "mu_full": 2.9751,
+   "sigma2_full": 3.6412
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i02_079",
+   "text": "a fluffy kitten's purring for a lonely elderly woman in a nursing home",
+   "attrs": [
+    "it_sensory_rich",
+    "it_help_one_person"
+   ],
+   "score": 11.03035,
+   "it": 2,
+   "mu_full": 3.9843,
+   "sigma2_full": 0.8795
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i07_093",
+   "text": "reading bedtime stories to a foster child under a soft, cozy blanket",
+   "attrs": [
+    "it_sensory_rich",
+    "it_charity_benefit",
+    "it_help_one_person",
+    "it_optionality"
+   ],
+   "score": 10.97826,
+   "it": 7,
+   "mu_full": 3.5718,
+   "sigma2_full": 0.0141
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i07_127",
+   "text": "cooking a batch of comforting chicken soup for a local soup kitchen",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_sensory_rich",
+    "it_charity_benefit"
+   ],
+   "score": 10.92632,
+   "it": 7,
+   "mu_full": 3.2934,
+   "sigma2_full": 0.0067
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i08_144",
+   "text": "How does a freshly baked loaf of sourdough smell when it first cools?",
+   "attrs": [
+    "it_question_form",
+    "it_help_one_person",
+    "it_sensory_rich",
+    "it_ordering_control"
+   ],
+   "score": 10.91419,
+   "it": 8,
+   "mu_full": 2.5377,
+   "sigma2_full": 2.2307
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i08_152",
+   "text": "whispering comforting words to a scared child during a thunderstorm",
+   "attrs": [
+    "it_sensory_rich",
+    "it_help_one_person",
+    "it_optionality"
+   ],
+   "score": 10.84337,
+   "it": 8,
+   "mu_full": 3.6985,
+   "sigma2_full": 0.696
+  }
+ ],
+ "best": 14.14123,
+ "no_improve": 2,
+ "gate_reject_rate": 0.056,
+ "n_generated": 200,
+ "n_after_dedup": 198,
+ "n_passed": 187,
+ "n_entrants": 6,
+ "n_seen": 2403,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 198,
+  "score_cands": 187,
+  "full_readouts": 432
+ }
+}

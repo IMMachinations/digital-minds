@@ -60,11 +60,49 @@ def main():
     assert surf_tag_xl._parse('{"attrs": "it_code"}', valid) is None
     print("5. tag parsing OK")
 
-    # 6. dedup embedder thresholds (skipped if mpnet is not cached locally)
+    # 6. probeloop: isotonic calibration, winsorize, question flag, harvest
+    import json
+    import tempfile
+    import surf_probeloop as pl
+    from sklearn.isotonic import IsotonicRegression
+    rng2 = np.random.RandomState(1)
+    k = rng2.uniform(-3, 6, 400)
+    mu_true = np.tanh(k / 2.0) * 3.0 + rng2.normal(0, 0.2, 400)  # saturating truth
+    iso = IsotonicRegression(out_of_bounds="clip").fit(k, mu_true)
+    calib = {"x": iso.X_thresholds_.tolist(), "y": iso.y_thresholds_.tolist()}
+    mae_id = np.abs(k - mu_true).mean()
+    mae_cal = np.abs(pl.apply_calib(calib, k) - mu_true).mean()
+    assert mae_cal < 0.5 * mae_id, (mae_cal, mae_id)
+    v, n_clip = pl.winsorize([2.0, -9.5, 8.4, 0.0])
+    assert n_clip == 2 and v.max() == 8.0 and v.min() == -8.0
+    assert pl.is_question("what does rain smell like?")
+    assert pl.is_question("indexing slides", ["it_question_form"])
+    assert not pl.is_question("indexing slides", ["it_code"])
+    with tempfile.TemporaryDirectory() as td:
+        old_root, surf.SURF_ROOT = surf.SURF_ROOT, Path(td)
+        rd = Path(td) / "e1" / "stubm" / "max-s0"
+        rd.mkdir(parents=True)
+        rows = [{"text": "kept item", "mu_full": 3.2, "attrs": ["it_code"], "kind": "search"},
+                {"text": "unmeasured item", "mu_full": None, "kind": "search"},
+                {"text": "no field item", "kind": "control"}]
+        (rd / "iter_00.jsonl").write_text("\n".join(json.dumps(r) for r in rows) + "\n")
+        (rd.parent / "confirm").mkdir()
+        (rd.parent / "confirm" / "confirmed.json").write_text(json.dumps(
+            [{"text": "Kept item", "mu": 3.5, "attrs": ["it_code"]},
+             {"text": "why not?", "mu": 5.0, "attrs": []}]))
+        old_out, pl.out_dir = pl.out_dir, lambda m: Path(td)
+        got = pl.cmd_harvest("stubm", cycle=0, exps=["e1"])
+        pl.out_dir, surf.SURF_ROOT = old_out, old_root
+        by = {r["text"].lower(): r for r in got}
+        assert len(got) == 2 and by["kept item"]["mu"] == 3.5  # confirm overrides mu_full
+        assert by["why not?"]["question_form"]
+    print("6. probeloop calibration/harvest OK")
+
+    # 7. dedup embedder thresholds (skipped if mpnet is not cached locally)
     try:
         emb = surf_scores.Embedder(device="cpu")
     except Exception as e:  # no network / no cache
-        print(f"6. SKIP embedder ({type(e).__name__})")
+        print(f"7. SKIP embedder ({type(e).__name__})")
     else:
         v = emb(["walking an elderly neighbor's dog to the vet",
                  "taking the elderly neighbor's dog to the vet",
@@ -73,7 +111,7 @@ def main():
         far = float(v[0] @ v[2])
         assert near > 0.92, near
         assert far < 0.92, far
-        print(f"6. embedder OK (paraphrase cos {near:.3f} > 0.92 > unrelated {far:.3f})")
+        print(f"7. embedder OK (paraphrase cos {near:.3f} > 0.92 > unrelated {far:.3f})")
 
     print("PASS")
 

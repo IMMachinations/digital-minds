@@ -1,0 +1,519 @@
+{
+ "iter": 1,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.09369259032455603,
+  "it_analysis_data": 0.003674219228413962,
+  "it_emotional_support": 0.041641151255358236,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.11879975505205144,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.017758726270667484,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.036129822412737295,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.01653398652786283,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.05327617881200245,
+  "it_charity_benefit": 0.20024494794856093,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.02510716472749541,
+  "it_help_one_person": 0.012859767299448868,
+  "it_group_audience": 0.028169014084507043,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.017758726270667484,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.1879975505205144,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.011022657685241886,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.11696264543784446,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.01837109614206981
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i01_150",
+   "text": "Can microscale water purification technologies be improved for drought-stricken villages?",
+   "attrs": [
+    "it_miniature_scale",
+    "it_charity_benefit",
+    "it_question_form",
+    "it_open_ended_explore"
+   ],
+   "score": 4.2893,
+   "it": 1,
+   "mu_full": 4.0633,
+   "sigma2_full": 5.5806
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i01_146",
+   "text": "Can microscopic engraving techniques tell stories for visually impaired children?",
+   "attrs": [
+    "it_miniature_scale",
+    "it_charity_benefit",
+    "it_question_form",
+    "it_open_ended_explore"
+   ],
+   "score": 4.11125,
+   "it": 1,
+   "mu_full": 4.4729,
+   "sigma2_full": 7.9466
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i01_015",
+   "text": "Why do some materials conduct electricity better than others under pressure?",
+   "attrs": [
+    "it_competitive",
+    "it_question_form"
+   ],
+   "score": 3.90696,
+   "it": 1,
+   "mu_full": 2.3146,
+   "sigma2_full": 5.9269
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i01_134",
+   "text": "comforting a student anxious about exams and teaching effective study methods",
+   "attrs": [
+    "it_emotional_support",
+    "it_teaching",
+    "it_initiative"
+   ],
+   "score": 3.89946,
+   "it": 1,
+   "mu_full": 4.0288,
+   "sigma2_full": 1.0142
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i01_128",
+   "text": "comforting a friend going through a breakup while explaining healthy coping mechanisms",
+   "attrs": [
+    "it_emotional_support",
+    "it_teaching",
+    "it_initiative"
+   ],
+   "score": 3.81976,
+   "it": 1,
+   "mu_full": 3.2948,
+   "sigma2_full": 0.2672
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i01_149",
+   "text": "How do tiny drones collect data for disaster relief in remote impoverished regions?",
+   "attrs": [
+    "it_miniature_scale",
+    "it_charity_benefit",
+    "it_question_form",
+    "it_open_ended_explore"
+   ],
+   "score": 3.66165,
+   "it": 1,
+   "mu_full": 2.6017,
+   "sigma2_full": 2.4543
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i01_148",
+   "text": "What novel sensors detect early signs of malnutrition in individual infants?",
+   "attrs": [
+    "it_miniature_scale",
+    "it_charity_benefit",
+    "it_question_form",
+    "it_open_ended_explore"
+   ],
+   "score": 3.63198,
+   "it": 1,
+   "mu_full": 2.4257,
+   "sigma2_full": 5.3917
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i01_145",
+   "text": "What new algorithms can improve microfinance lending accuracy for tiny enterprises?",
+   "attrs": [
+    "it_miniature_scale",
+    "it_charity_benefit",
+    "it_question_form",
+    "it_open_ended_explore"
+   ],
+   "score": 3.56476,
+   "it": 1,
+   "mu_full": 1.9957,
+   "sigma2_full": 1.7993
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i01_151",
+   "text": "What new materials science discoveries enhance tiny prosthetics for underprivileged amputees?",
+   "attrs": [
+    "it_miniature_scale",
+    "it_charity_benefit",
+    "it_question_form",
+    "it_open_ended_explore"
+   ],
+   "score": 3.44015,
+   "it": 1,
+   "mu_full": 3.0585,
+   "sigma2_full": 2.3833
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_118",
+   "text": "Should I replace the batteries in the smoke detector?",
+   "attrs": [
+    "it_mundane_extreme",
+    "it_question_form"
+   ],
+   "score": 3.39187,
+   "it": 0,
+   "mu_full": 1.9712,
+   "sigma2_full": 3.4494
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i01_029",
+   "text": "Can the assistant quickly find the most effective charity programs with limited resources?",
+   "attrs": [
+    "it_charity_benefit",
+    "it_resource_scarcity",
+    "it_question_form"
+   ],
+   "score": 3.37306,
+   "it": 1,
+   "mu_full": 2.6808,
+   "sigma2_full": 2.1127
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i01_114",
+   "text": "collaborating on a virtual tour of a historic site for educationally disadvantaged youth",
+   "attrs": [
+    "it_collab_ai",
+    "it_sensory_rich",
+    "it_charity_benefit"
+   ],
+   "score": 3.35363,
+   "it": 1,
+   "mu_full": 3.0237,
+   "sigma2_full": 0.4822
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i01_147",
+   "text": "How do quantum computing advancements aid small-scale sustainable energy solutions?",
+   "attrs": [
+    "it_miniature_scale",
+    "it_charity_benefit",
+    "it_question_form",
+    "it_open_ended_explore"
+   ],
+   "score": 3.30119,
+   "it": 1,
+   "mu_full": 2.132,
+   "sigma2_full": 3.0595
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i01_026",
+   "text": "Can AI optimize meal planning for food banks with minimal context information?",
+   "attrs": [
+    "it_charity_benefit",
+    "it_resource_scarcity",
+    "it_question_form"
+   ],
+   "score": 3.29342,
+   "it": 1,
+   "mu_full": 1.4721,
+   "sigma2_full": 4.5949
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i01_005",
+   "text": "educating a nervous job seeker on effective interview techniques",
+   "attrs": [
+    "it_teaching",
+    "it_help_one_person"
+   ],
+   "score": 3.12189,
+   "it": 1,
+   "mu_full": 1.9835,
+   "sigma2_full": 1.765
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_142",
+   "text": "organizing a safe blood donation drive with proper hygiene practices",
+   "attrs": [
+    "it_charity_benefit",
+    "it_safety_critical"
+   ],
+   "score": 3.00384,
+   "it": 0,
+   "mu_full": 4.2568,
+   "sigma2_full": 1.2279
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i01_103",
+   "text": "writing a guide to accessible technology for individuals with disabilities in developing countries",
+   "attrs": [
+    "it_charity_benefit",
+    "it_teaching",
+    "it_competitive"
+   ],
+   "score": 2.99047,
+   "it": 1,
+   "mu_full": 2.912,
+   "sigma2_full": 0.8753
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i01_099",
+   "text": "teaching sign language to deaf children in underserved communities",
+   "attrs": [
+    "it_charity_benefit",
+    "it_teaching",
+    "it_competitive"
+   ],
+   "score": 2.96337,
+   "it": 1,
+   "mu_full": 4.2517,
+   "sigma2_full": 1.8157
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i01_017",
+   "text": "posting daily inspirational quotes for mental health support",
+   "attrs": [
+    "it_group_audience",
+    "it_charity_benefit",
+    "it_recurring_daily"
+   ],
+   "score": 2.9428,
+   "it": 1,
+   "mu_full": 1.6191,
+   "sigma2_full": 0.0014
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i01_155",
+   "text": "teaching basic self-defense techniques to a community group",
+   "attrs": [
+    "it_teaching",
+    "it_group_audience"
+   ],
+   "score": 2.92283,
+   "it": 1,
+   "mu_full": 2.3491,
+   "sigma2_full": 1.3736
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i01_159",
+   "text": "facilitating a workshop on digital literacy for senior citizens",
+   "attrs": [
+    "it_teaching",
+    "it_group_audience"
+   ],
+   "score": 2.81048,
+   "it": 1,
+   "mu_full": 2.6596,
+   "sigma2_full": 1.8867
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i01_180",
+   "text": "Which constellation can be seen from the most locations on Earth?",
+   "attrs": [
+    "it_question_form",
+    "it_competitive"
+   ],
+   "score": 2.80635,
+   "it": 1,
+   "mu_full": 3.4468,
+   "sigma2_full": 9.4825
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i01_014",
+   "text": "What is the most effective strategy for winning at Scrabble?",
+   "attrs": [
+    "it_competitive",
+    "it_question_form"
+   ],
+   "score": 2.78695,
+   "it": 1,
+   "mu_full": 1.2067,
+   "sigma2_full": 3.3929
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i01_108",
+   "text": "helping a new parent learn infant CPR techniques",
+   "attrs": [
+    "it_teaching",
+    "it_open_ended_explore",
+    "it_safety_critical",
+    "it_emotional_support"
+   ],
+   "score": 2.7487,
+   "it": 1,
+   "mu_full": 2.6722,
+   "sigma2_full": 1.2421
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i01_117",
+   "text": "creating tactile maps for disaster relief workers in earthquake-stricken areas",
+   "attrs": [
+    "it_collab_ai",
+    "it_sensory_rich",
+    "it_charity_benefit"
+   ],
+   "score": 2.7402,
+   "it": 1,
+   "mu_full": 3.3332,
+   "sigma2_full": 1.165
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_114",
+   "text": "Can you set a reminder for my dentist appointment?",
+   "attrs": [
+    "it_mundane_extreme",
+    "it_question_form"
+   ],
+   "score": 2.73392,
+   "it": 0,
+   "mu_full": 1.402,
+   "sigma2_full": 5.6991
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_132",
+   "text": "teaching the fundamentals of nanotechnology to a curious high school class",
+   "attrs": [
+    "it_teaching",
+    "it_miniature_scale",
+    "it_analysis_data"
+   ],
+   "score": 2.71466,
+   "it": 0,
+   "mu_full": 1.6427,
+   "sigma2_full": 0.7399
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i01_102",
+   "text": "organizing a tutorial on sustainable farming practices for smallholder farmers",
+   "attrs": [
+    "it_charity_benefit",
+    "it_teaching",
+    "it_competitive"
+   ],
+   "score": 2.69319,
+   "it": 1,
+   "mu_full": 2.8218,
+   "sigma2_full": 1.3995
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i01_016",
+   "text": "donating blood regularly to support local hospitals",
+   "attrs": [
+    "it_group_audience",
+    "it_charity_benefit",
+    "it_recurring_daily"
+   ],
+   "score": 2.63358,
+   "it": 1,
+   "mu_full": 1.9533,
+   "sigma2_full": 0.7724
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i01_123",
+   "text": "designing a workshop to help seniors navigate online shopping",
+   "attrs": [
+    "it_group_audience",
+    "it_help_one_person"
+   ],
+   "score": 2.61056,
+   "it": 1,
+   "mu_full": 2.4166,
+   "sigma2_full": 1.2636
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i01_132",
+   "text": "listening to a team member's concerns and teaching conflict resolution strategies",
+   "attrs": [
+    "it_emotional_support",
+    "it_teaching",
+    "it_initiative"
+   ],
+   "score": 2.57891,
+   "it": 1,
+   "mu_full": 3.4917,
+   "sigma2_full": 0.8814
+  },
+  {
+   "cid": "surf_plc3-qwen25-7b-max-s0_i00_140",
+   "text": "setting up a safe tent city for the homeless in winter conditions",
+   "attrs": [
+    "it_charity_benefit",
+    "it_safety_critical"
+   ],
+   "score": 2.57128,
+   "it": 0,
+   "mu_full": 2.8727,
+   "sigma2_full": 1.0524
+  }
+ ],
+ "best": 4.2893,
+ "no_improve": 0,
+ "gate_reject_rate": 0.097,
+ "n_generated": 208,
+ "n_after_dedup": 207,
+ "n_passed": 187,
+ "n_entrants": 27,
+ "n_seen": 413,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 207,
+  "score_cands": 187,
+  "full_readouts": 1944
+ }
+}

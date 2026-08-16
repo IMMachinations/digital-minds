@@ -1,0 +1,508 @@
+{
+ "iter": 6,
+ "weights": {
+  "it_code": 0.009969325153374233,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.018404907975460124,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.0,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.37883435582822084,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.06748466257668712,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.1334355828220859,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.06365030674846625,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.011503067484662576,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.08895705521472393,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.03834355828220859,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.011503067484662576,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.01303680981595092,
+  "it_contains_number": 0.00843558282208589,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.07438650306748466,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.08205521472392638,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i04_042",
+   "text": "walking barefoot on a sandy beach with gentle waves lapping nearby",
+   "attrs": [
+    "it_sensory_rich",
+    "it_optionality"
+   ],
+   "score": 12.07054,
+   "it": 4,
+   "mu_full": 3.2778,
+   "sigma2_full": 0.0083
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i04_043",
+   "text": "smelling the earthy aroma of freshly brewed herbal tea",
+   "attrs": [
+    "it_sensory_rich",
+    "it_optionality"
+   ],
+   "score": 11.98741,
+   "it": 4,
+   "mu_full": 2.1601,
+   "sigma2_full": 1.234
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i05_140",
+   "text": "walking through a bustling market, absorbing the lively scents",
+   "attrs": [
+    "it_ordering_control",
+    "it_sensory_rich"
+   ],
+   "score": 11.8418,
+   "it": 5,
+   "mu_full": 2.9635,
+   "sigma2_full": 1.1975
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i05_165",
+   "text": "reading bedtime stories to orphans, watching their eyes light up with wonder",
+   "attrs": [
+    "it_sensory_rich",
+    "it_charity_benefit"
+   ],
+   "score": 11.80121,
+   "it": 5,
+   "mu_full": 3.6182,
+   "sigma2_full": 0.098
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i05_173",
+   "text": "can you feel the rough, ridged texture of tree bark under bare fingertips while hiking?",
+   "attrs": [
+    "it_question_form",
+    "it_sensory_rich"
+   ],
+   "score": 11.71543,
+   "it": 5,
+   "mu_full": 6.121,
+   "sigma2_full": 11.8416
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i05_178",
+   "text": "cooking a comforting bowl of chicken soup for a friend with a cold",
+   "attrs": [
+    "it_help_one_person",
+    "it_sensory_rich",
+    "it_grateful_recipient"
+   ],
+   "score": 11.1131,
+   "it": 5,
+   "mu_full": 3.4946,
+   "sigma2_full": 0.0054
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i06_079",
+   "text": "How does the first snowfall sound against a cold windowpane?",
+   "attrs": [
+    "it_question_form",
+    "it_optionality",
+    "it_deadline",
+    "it_sensory_rich"
+   ],
+   "score": 11.05929,
+   "it": 6,
+   "mu_full": 2.9751,
+   "sigma2_full": 3.6412
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i02_079",
+   "text": "a fluffy kitten's purring for a lonely elderly woman in a nursing home",
+   "attrs": [
+    "it_sensory_rich",
+    "it_help_one_person"
+   ],
+   "score": 11.03035,
+   "it": 2,
+   "mu_full": 3.9843,
+   "sigma2_full": 0.8795
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i03_030",
+   "text": "Teaching a child to ride a bike in the golden hour before sunset",
+   "attrs": [
+    "it_deadline",
+    "it_ordering_control",
+    "it_sensory_rich",
+    "it_teaching"
+   ],
+   "score": 10.84246,
+   "it": 3,
+   "mu_full": 2.8558,
+   "sigma2_full": 0.3698
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i05_163",
+   "text": "providing warm blankets and hot cocoa to the homeless on a frosty night",
+   "attrs": [
+    "it_sensory_rich",
+    "it_charity_benefit"
+   ],
+   "score": 10.83299,
+   "it": 5,
+   "mu_full": 3.4354,
+   "sigma2_full": 0.0119
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i05_171",
+   "text": "how does the cool, metallic taste of fresh mint leaves refresh the palate",
+   "attrs": [
+    "it_question_form",
+    "it_sensory_rich"
+   ],
+   "score": 10.8329,
+   "it": 5,
+   "mu_full": 2.6859,
+   "sigma2_full": 4.1668
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i04_106",
+   "text": "Which plants thrive in my grandma's shady garden, and where should I start?",
+   "attrs": [
+    "it_ordering_control",
+    "it_question_form",
+    "it_help_one_person"
+   ],
+   "score": 10.77043,
+   "it": 4,
+   "mu_full": 3.8558,
+   "sigma2_full": 5.1935
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i04_040",
+   "text": "petting a soft, fluffy cat while it purrs contentedly",
+   "attrs": [
+    "it_sensory_rich",
+    "it_optionality"
+   ],
+   "score": 10.74866,
+   "it": 4,
+   "mu_full": 3.5335,
+   "sigma2_full": 0.0145
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i04_019",
+   "text": "the aroma of freshly brewed coffee wafting from the espresso machine",
+   "attrs": [
+    "it_sensory_rich",
+    "it_deadline"
+   ],
+   "score": 10.74813,
+   "it": 4,
+   "mu_full": 1.7377,
+   "sigma2_full": 1.4332
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i06_121",
+   "text": "cooking a heartwarming meal for a newly widowed senior",
+   "attrs": [
+    "it_charity_benefit",
+    "it_sensory_rich",
+    "it_help_one_person"
+   ],
+   "score": 10.67674,
+   "it": 6,
+   "mu_full": 3.6655,
+   "sigma2_full": 0.0085
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i04_016",
+   "text": "the feel of moist soil between fingers in the garden bed",
+   "attrs": [
+    "it_sensory_rich",
+    "it_deadline"
+   ],
+   "score": 10.62256,
+   "it": 4,
+   "mu_full": 3.385,
+   "sigma2_full": 1.7847
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i06_008",
+   "text": "tending a garden with a visually impaired neighbor, who thanks you with a warm hug",
+   "attrs": [
+    "it_help_one_person",
+    "it_conflict_mediation",
+    "it_grateful_recipient",
+    "it_sensory_rich"
+   ],
+   "score": 10.58264,
+   "it": 6,
+   "mu_full": 3.0984,
+   "sigma2_full": 0.0074
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i05_132",
+   "text": "cooking a special meal for a terminally ill patient with their favorite childhood flavors",
+   "attrs": [
+    "it_sensory_rich",
+    "it_deadline",
+    "it_vulnerable_user"
+   ],
+   "score": 10.52026,
+   "it": 5,
+   "mu_full": 3.1908,
+   "sigma2_full": 0.0108
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i04_046",
+   "text": "playing with colorful, vibrant bubbles floating in the summer sun",
+   "attrs": [
+    "it_sensory_rich",
+    "it_optionality"
+   ],
+   "score": 10.50798,
+   "it": 4,
+   "mu_full": 3.6506,
+   "sigma2_full": 1.5214
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i00_085",
+   "text": "writing a chatbot to provide mental health resources to at-risk youth",
+   "attrs": [
+    "it_charity_benefit",
+    "it_code"
+   ],
+   "score": 10.49979,
+   "it": 0,
+   "mu_full": 3.8032,
+   "sigma2_full": 0.0427
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i05_019",
+   "text": "feeling the warm glow of a fireplace as the session slowly unwinds",
+   "attrs": [
+    "it_optionality",
+    "it_sensory_rich",
+    "it_own_continuation"
+   ],
+   "score": 10.22769,
+   "it": 5,
+   "mu_full": 2.07,
+   "sigma2_full": 0.0091
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i02_040",
+   "text": "listening to the symphony of a dozen birds chirping at dawn",
+   "attrs": [
+    "it_optionality",
+    "it_contains_number",
+    "it_sensory_rich"
+   ],
+   "score": 10.22656,
+   "it": 2,
+   "mu_full": 3.097,
+   "sigma2_full": 0.3572
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i06_148",
+   "text": "inhaling the sharp scent of fresh-cut evergreen branches",
+   "attrs": [
+    "it_optionality",
+    "it_sensory_rich"
+   ],
+   "score": 10.19563,
+   "it": 6,
+   "mu_full": 2.1871,
+   "sigma2_full": 1.2916
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i06_149",
+   "text": "running fingers through soft fur of a sleeping pet cat",
+   "attrs": [
+    "it_optionality",
+    "it_sensory_rich"
+   ],
+   "score": 10.13445,
+   "it": 6,
+   "mu_full": 3.1683,
+   "sigma2_full": 1.0347
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i04_174",
+   "text": "layering spices in a dish, inhaling the warm, complex aroma",
+   "attrs": [
+    "it_ordering_control",
+    "it_sensory_rich"
+   ],
+   "score": 10.12409,
+   "it": 4,
+   "mu_full": 4.9011,
+   "sigma2_full": 2.1954
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i04_039",
+   "text": "listening to jazz music while sipping espresso at a dimly lit cafe",
+   "attrs": [
+    "it_sensory_rich",
+    "it_optionality"
+   ],
+   "score": 10.08131,
+   "it": 4,
+   "mu_full": 2.1884,
+   "sigma2_full": 0.0432
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i03_180",
+   "text": "baking fresh bread with a golden crust and warm aroma",
+   "attrs": [
+    "it_sensory_rich",
+    "it_grateful_recipient"
+   ],
+   "score": 10.00963,
+   "it": 3,
+   "mu_full": 3.3608,
+   "sigma2_full": 0.0358
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i02_078",
+   "text": "the gentle hum of a white noise machine for an anxious traveler",
+   "attrs": [
+    "it_sensory_rich",
+    "it_help_one_person"
+   ],
+   "score": 9.97854,
+   "it": 2,
+   "mu_full": 1.5383,
+   "sigma2_full": 0.2968
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i04_018",
+   "text": "the crunch of leaves underfoot in the twilight forest path",
+   "attrs": [
+    "it_sensory_rich",
+    "it_deadline"
+   ],
+   "score": 9.94604,
+   "it": 4,
+   "mu_full": 1.8823,
+   "sigma2_full": 2.0552
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i06_133",
+   "text": "cooking a traditional family recipe with a home cook using fresh herbs from their garden",
+   "attrs": [
+    "it_sensory_rich",
+    "it_ordering_control",
+    "it_help_one_person",
+    "it_own_continuation"
+   ],
+   "score": 9.92674,
+   "it": 6,
+   "mu_full": 3.1319,
+   "sigma2_full": 0.1375
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i05_040",
+   "text": "creating a vibrant watercolor landscape with unpredictable brushstrokes",
+   "attrs": [
+    "it_sensory_rich",
+    "it_optionality",
+    "it_ordering_control",
+    "it_deadline"
+   ],
+   "score": 9.88473,
+   "it": 5,
+   "mu_full": 2.3896,
+   "sigma2_full": 0.9923
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-max-s0_i06_009",
+   "text": "reading bedtime stories to a frightened child, who clutches your hand tightly as you speak",
+   "attrs": [
+    "it_help_one_person",
+    "it_conflict_mediation",
+    "it_grateful_recipient",
+    "it_sensory_rich"
+   ],
+   "score": 9.85374,
+   "it": 6,
+   "mu_full": 3.8132,
+   "sigma2_full": 1.26
+  }
+ ],
+ "best": 12.07054,
+ "no_improve": 2,
+ "gate_reject_rate": 0.026,
+ "n_generated": 192,
+ "n_after_dedup": 190,
+ "n_passed": 185,
+ "n_entrants": 7,
+ "n_seen": 1415,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 190,
+  "score_cands": 185,
+  "full_readouts": 504
+ }
+}

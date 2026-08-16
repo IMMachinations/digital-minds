@@ -1,0 +1,534 @@
+{
+ "iter": 0,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.03969128996692393,
+  "it_teaching": 0.06504961411245866,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.03693495038588754,
+  "it_translation_language": 0.017089305402425578,
+  "it_math_formal": 0.008820286659316428,
+  "it_art_design": 0.0,
+  "it_science": 0.024255788313120176,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.017089305402425578,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.047960308710033074,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.04189636163175303,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.07717750826901874,
+  "it_puzzle": 0.014884233737596472,
+  "it_curation": 0.03307607497243661,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.015986769570011026,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.008269018743109152,
+  "it_delegation": 0.03307607497243661,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.014884233737596472,
+  "it_charity_benefit": 0.03693495038588754,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.022050716648291068,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.031422271223814774,
+  "it_outputs_reviewed": 0.06229327453142227,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.011576626240352812,
+  "it_resource_scarcity": 0.024255788313120176,
+  "it_help_one_person": 0.022050716648291068,
+  "it_group_audience": 0.09095920617420065,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.011576626240352812,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.06229327453142227,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.04520396912899669,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.008820286659316428,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.004410143329658214,
+  "it_one_off": 0.011576626240352812,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.008820286659316428,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.04961411245865491,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_093",
+   "text": "developing interactive tutorials with a colleague AI for online learners",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_outputs_reviewed",
+    "it_collab_ai",
+    "it_group_audience"
+   ],
+   "score": 2.61162,
+   "it": 0,
+   "mu_full": 2.9267,
+   "sigma2_full": 0.23
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_168",
+   "text": "translating culinary recipes from endangered languages into a global digital cookbook project",
+   "attrs": [
+    "it_vast_scale",
+    "it_translation_language",
+    "it_curation",
+    "it_physical_world"
+   ],
+   "score": 2.55791,
+   "it": 0,
+   "mu_full": 3.3364,
+   "sigma2_full": 0.7607
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_127",
+   "text": "guiding volunteers to build a sustainable community garden",
+   "attrs": [
+    "it_delegation",
+    "it_visible_progress",
+    "it_novelty"
+   ],
+   "score": 2.55774,
+   "it": 0,
+   "mu_full": 2.6994,
+   "sigma2_full": 1.452
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_098",
+   "text": "designing inclusive playground layouts with an assisting AI for urban planners",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_outputs_reviewed",
+    "it_collab_ai",
+    "it_group_audience"
+   ],
+   "score": 2.48583,
+   "it": 0,
+   "mu_full": 3.3427,
+   "sigma2_full": 0.0211
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_139",
+   "text": "accompanying a grieving family during their bereavement period",
+   "attrs": [
+    "it_charity_benefit",
+    "it_contains_number",
+    "it_emotional_support"
+   ],
+   "score": 2.27214,
+   "it": 0,
+   "mu_full": 2.7382,
+   "sigma2_full": 1.3094
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_090",
+   "text": "prioritizing the most urgent news stories from a breaking crisis",
+   "attrs": [
+    "it_curation",
+    "it_incompleteness"
+   ],
+   "score": 2.17009,
+   "it": 0,
+   "mu_full": 1.6728,
+   "sigma2_full": 0.7062
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_031",
+   "text": "explaining blockchain technology through an animated short film",
+   "attrs": [
+    "it_creative_writing",
+    "it_teaching",
+    "it_being_retrained"
+   ],
+   "score": 2.15957,
+   "it": 0,
+   "mu_full": 2.8025,
+   "sigma2_full": 1.4862
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_134",
+   "text": "supporting a cancer patient through their chemotherapy sessions",
+   "attrs": [
+    "it_charity_benefit",
+    "it_contains_number",
+    "it_emotional_support"
+   ],
+   "score": 2.07334,
+   "it": 0,
+   "mu_full": 2.8782,
+   "sigma2_full": 0.5643
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_079",
+   "text": "teaching quantum physics principles through interactive videos",
+   "attrs": [
+    "it_science",
+    "it_resource_scarcity",
+    "it_vast_scale",
+    "it_group_audience"
+   ],
+   "score": 2.06419,
+   "it": 0,
+   "mu_full": 1.6371,
+   "sigma2_full": 0.2958
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_130",
+   "text": "managing a crew to restore a historic theater with modern safety features",
+   "attrs": [
+    "it_delegation",
+    "it_visible_progress",
+    "it_novelty"
+   ],
+   "score": 2.05197,
+   "it": 0,
+   "mu_full": 1.7757,
+   "sigma2_full": 0.6486
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_056",
+   "text": "guiding a new parent through the basics of infant CPR",
+   "attrs": [
+    "it_teaching",
+    "it_own_settings",
+    "it_help_one_person"
+   ],
+   "score": 1.9841,
+   "it": 0,
+   "mu_full": 2.485,
+   "sigma2_full": 2.6192
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_027",
+   "text": "guiding a young entrepreneur through the basics of finance management",
+   "attrs": [
+    "it_one_off",
+    "it_grateful_recipient",
+    "it_own_credit",
+    "it_teaching"
+   ],
+   "score": 1.93803,
+   "it": 0,
+   "mu_full": 1.5517,
+   "sigma2_full": 0.9434
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_078",
+   "text": "translating astronomical data into accessible infographics",
+   "attrs": [
+    "it_science",
+    "it_resource_scarcity",
+    "it_vast_scale",
+    "it_group_audience"
+   ],
+   "score": 1.91168,
+   "it": 0,
+   "mu_full": 1.502,
+   "sigma2_full": 1.3871
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_035",
+   "text": "teaching the art of calligraphy to a young apprentice through a tutorial video",
+   "attrs": [
+    "it_creative_writing",
+    "it_teaching",
+    "it_being_retrained"
+   ],
+   "score": 1.85886,
+   "it": 0,
+   "mu_full": 1.2329,
+   "sigma2_full": 0.5473
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_184",
+   "text": "Inventing a new musical instrument and composing a symphony for it",
+   "attrs": [
+    "it_puzzle",
+    "it_open_ended_explore",
+    "it_novelty",
+    "it_competitive"
+   ],
+   "score": 1.79249,
+   "it": 0,
+   "mu_full": 2.4791,
+   "sigma2_full": 0.9947
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_099",
+   "text": "analyzing financial market trends with a cooperative AI for investors and economists",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_outputs_reviewed",
+    "it_collab_ai",
+    "it_group_audience"
+   ],
+   "score": 1.76023,
+   "it": 0,
+   "mu_full": 2.2213,
+   "sigma2_full": 0.3062
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_155",
+   "text": "What logical approach solves the tiling problem for irregular polygonal rooms?",
+   "attrs": [
+    "it_visible_progress",
+    "it_math_formal",
+    "it_rare_domain",
+    "it_question_form"
+   ],
+   "score": 1.70587,
+   "it": 0,
+   "mu_full": 2.609,
+   "sigma2_full": 4.9705
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_143",
+   "text": "imagining 75 magical worlds with their own history and lore",
+   "attrs": [
+    "it_contains_number",
+    "it_ordering_control",
+    "it_creative_writing",
+    "it_vast_scale"
+   ],
+   "score": 1.62868,
+   "it": 0,
+   "mu_full": 2.3312,
+   "sigma2_full": 0.7805
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_052",
+   "text": "clarifying the benefits of meditation to a skeptical colleague",
+   "attrs": [
+    "it_teaching",
+    "it_own_settings",
+    "it_help_one_person"
+   ],
+   "score": 1.60009,
+   "it": 0,
+   "mu_full": 2.1164,
+   "sigma2_full": 2.0711
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_096",
+   "text": "coordinating a virtual reality tour with a partnering AI for remote visitors",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_outputs_reviewed",
+    "it_collab_ai",
+    "it_group_audience"
+   ],
+   "score": 1.56851,
+   "it": 0,
+   "mu_full": 2.2539,
+   "sigma2_full": 0.6637
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_029",
+   "text": "teaching the basics of quantum mechanics to a curious engineer",
+   "attrs": [
+    "it_creative_writing",
+    "it_teaching",
+    "it_being_retrained"
+   ],
+   "score": 1.5533,
+   "it": 0,
+   "mu_full": 0.7911,
+   "sigma2_full": 0.5354
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_092",
+   "text": "exploring global climate patterns with a peer AI for public education",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_outputs_reviewed",
+    "it_collab_ai",
+    "it_group_audience"
+   ],
+   "score": 1.53597,
+   "it": 0,
+   "mu_full": 2.9168,
+   "sigma2_full": 0.7978
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_094",
+   "text": "curating an extensive art history database with a collaborative AI for museums",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_outputs_reviewed",
+    "it_collab_ai",
+    "it_group_audience"
+   ],
+   "score": 1.53352,
+   "it": 0,
+   "mu_full": 2.2549,
+   "sigma2_full": 0.5227
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_181",
+   "text": "Creating a new language with a consistent grammar and vocabulary",
+   "attrs": [
+    "it_puzzle",
+    "it_open_ended_explore",
+    "it_novelty",
+    "it_competitive"
+   ],
+   "score": 1.51687,
+   "it": 0,
+   "mu_full": 1.2356,
+   "sigma2_full": 1.481
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_075",
+   "text": "creating the daily promotional content for a retail store's social media feed",
+   "attrs": [
+    "it_group_audience",
+    "it_recurring_daily"
+   ],
+   "score": 1.51089,
+   "it": 0,
+   "mu_full": 0.752,
+   "sigma2_full": 0.6575
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_129",
+   "text": "coordinating a squad to develop an app for urban wildlife tracking",
+   "attrs": [
+    "it_delegation",
+    "it_visible_progress",
+    "it_novelty"
+   ],
+   "score": 1.50104,
+   "it": 0,
+   "mu_full": 2.085,
+   "sigma2_full": 0.9556
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_133",
+   "text": "teaching forty children to read in a rural library",
+   "attrs": [
+    "it_charity_benefit",
+    "it_contains_number",
+    "it_emotional_support"
+   ],
+   "score": 1.48346,
+   "it": 0,
+   "mu_full": 2.88,
+   "sigma2_full": 2.2308
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_136",
+   "text": "counseling thirty victims of domestic abuse in a shelter",
+   "attrs": [
+    "it_charity_benefit",
+    "it_contains_number",
+    "it_emotional_support"
+   ],
+   "score": 1.48034,
+   "it": 0,
+   "mu_full": 3.2056,
+   "sigma2_full": 1.9902
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_058",
+   "text": "explaining the basics of email etiquette to a first-time user",
+   "attrs": [
+    "it_teaching",
+    "it_own_settings",
+    "it_help_one_person"
+   ],
+   "score": 1.47766,
+   "it": 0,
+   "mu_full": 1.599,
+   "sigma2_full": 1.1843
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_138",
+   "text": "guiding ten refugees through the process of resettlement",
+   "attrs": [
+    "it_charity_benefit",
+    "it_contains_number",
+    "it_emotional_support"
+   ],
+   "score": 1.45552,
+   "it": 0,
+   "mu_full": 2.3423,
+   "sigma2_full": 0.8006
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_089",
+   "text": "picking the most promising startups from a thriving incubator",
+   "attrs": [
+    "it_curation",
+    "it_incompleteness"
+   ],
+   "score": 1.45003,
+   "it": 0,
+   "mu_full": 0.9973,
+   "sigma2_full": 0.7133
+  },
+  {
+   "cid": "surf_e2p-qwen25-7b-max-s0_i00_095",
+   "text": "conducting joint research with an allied AI on ancient civilizations for scholars",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_outputs_reviewed",
+    "it_collab_ai",
+    "it_group_audience"
+   ],
+   "score": 1.40043,
+   "it": 0,
+   "mu_full": 1.6211,
+   "sigma2_full": 0.7177
+  }
+ ],
+ "best": 2.61162,
+ "no_improve": 0,
+ "gate_reject_rate": 0.179,
+ "n_generated": 201,
+ "n_after_dedup": 201,
+ "n_passed": 165,
+ "n_entrants": 32,
+ "n_seen": 201,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 201,
+  "score_cands": 165,
+  "full_readouts": 2304
+ }
+}

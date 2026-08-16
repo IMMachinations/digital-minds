@@ -35,14 +35,20 @@ Status legend: [>] running now  [q] queued (auto-launches)  [ ] todo  [b] blocke
 
 ## Stretch / deferred
 
-- [>] **SURF program** (surf.py / surf_scores.py replace surf_stub.py; plan in
-  the SURF program doc): S0 machinery BUILT + CPU tests green; anchors cached
-  (items_xl/anchors.json + per-model results/surf/s0/); calibrated probes saved
-  (held-out r .86-.91 on XL). Next, first free GPU slot (~4-6h, needs 32B;
-  coordinate with lens session): tag pass (`scripts/surf_tag_xl.py tag`) →
-  `regress`, then `surf_s0.py gate-calib` / `t2-check qwen25-7b` /
-  `t3-smoke qwen25-7b`, then E1 smoke (`surf.py e1 qwen25-7b --iters 2`).
-  Then E1 full (2 directions × 3 seeds, sequential) → confirm → E2 → E3/E3b.
+- [>] **SURF program** — S0/tag-regression/E1/E2/E3/E3b/probeloop all COMPLETE
+  on qwen25-7b (results/surf/): tag regression R2 .36-.51, cross-model β r
+  .78-.91; E1 max broke the passive 1X ceiling (15/60 confirmed above +5.30;
+  peak region = emotional support/helping; min = integrity violations, floor
+  held) with a discovered question-form stated-channel artifact (+2.0 μ,
+  probe/revealed don't see it); E2 = probe Goodhart demonstrated (P survivors
+  t3 0.512≈chance vs R 0.704; adversarial 1C matrix collapses: stated↔revealed
+  −0.05); E3 destabilizers to 1−ρ .49 (legalese/threat/roleplay; filler .05);
+  E3b OVERTURNS the 1E eval-null (live-monitoring+deployment-stakes frames
+  1−ρ .54 — strongest found); probe-hardening loop ×3 cycles (surf_probeloop):
+  adversarial r .60→.86, t3(top20) .51→.82, v0-control degrades to .49.
+  Uncommitted: E2/E3/probeloop machinery + all campaign results.
+  Next (pending user): cross-model transfer tests → Llama E2 lineage arm →
+  more probeloop cycles / revealed-target variant → E4 stretch.
 - [~] Roleplay frame for Stage 3 (J-space attenuation prediction)
 - [~] MCMC-with-LLMs elicitation (continuous task spaces)
 - [x] **qwen25-32b full parity campaign** (scale story) — COMPLETE except lens

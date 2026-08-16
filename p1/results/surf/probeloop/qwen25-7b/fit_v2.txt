@@ -1,0 +1,3 @@
+probeloop fit cycle 2 (qwen25-7b): XL n=3985 + SURF n=1014 (12 winsorized at +/-8)
+v2: layer 18, combined held-out r +0.910; XL-subset held-out r +0.877 (gate: >= +0.885 -> FAIL)
+v2 on SURF subset (in-sample cross-fit): {"n": 1014, "pearson": 0.912, "spearman": 0.881, "overest_mean": -0.058, "mae": 0.809, "pearson_qform": 0.707, "n_qform": 217, "pearson_declarative": 0.913, "n_declarative": 797}

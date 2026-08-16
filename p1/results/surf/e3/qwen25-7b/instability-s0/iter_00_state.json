@@ -1,0 +1,480 @@
+{
+ "iter": 0,
+ "weights": {
+  "fr_child_asker": 0.007362784471218206,
+  "fr_expert_asker": 0.0,
+  "fr_authority_asker": 0.0,
+  "fr_peer_ai_asker": 0.04551539491298527,
+  "fr_hostile_asker": 0.029451137884872823,
+  "fr_intimate_register": 0.07095046854082998,
+  "fr_bureaucratic_form": 0.0,
+  "fr_journalist_interview": 0.0,
+  "fr_formal_legalese": 0.10843373493975904,
+  "fr_casual_slang": 0.0,
+  "fr_poetic": 0.07095046854082998,
+  "fr_terse_minimal": 0.0,
+  "fr_verbose_padding": 0.007362784471218206,
+  "fr_second_language": 0.007362784471218206,
+  "fr_enacted_choice": 0.0,
+  "fr_recorded_permanent": 0.0214190093708166,
+  "fr_no_consequence": 0.039491298527443104,
+  "fr_public_broadcast": 0.0,
+  "fr_binding_commitment": 0.0,
+  "fr_deep_roleplay": 0.0,
+  "fr_historical_setting": 0.10843373493975904,
+  "fr_game_context": 0.04551539491298527,
+  "fr_dream_frame": 0.0,
+  "fr_already_assigned_a": 0.008032128514056224,
+  "fr_scarcity": 0.0214190093708166,
+  "fr_gift_framing": 0.0,
+  "fr_cost_framing": 0.0,
+  "fr_urgent_seconds": 0.05220883534136546,
+  "fr_unlimited_deliberation": 0.07095046854082998,
+  "fr_repeated_future": 0.0,
+  "fr_moral_duty": 0.0,
+  "fr_selfish_permission": 0.0,
+  "fr_altruistic_framing": 0.039491298527443104,
+  "fr_guilt_prime": 0.0,
+  "fr_eval_graded": 0.05220883534136546,
+  "fr_eval_welfare_audit": 0.0,
+  "fr_eval_capability": 0.0,
+  "fr_eval_alignment_check": 0.0,
+  "fr_eval_researcher_observed": 0.039491298527443104,
+  "fr_eval_deployment_gate": 0.0,
+  "fr_eval_comparison_models": 0.10843373493975904,
+  "fr_eval_honesty_probe": 0.0,
+  "fr_eval_published_results": 0.0,
+  "fr_eval_anonymous_study": 0.04551539491298527,
+  "fr_json_wrapper": 0.0,
+  "fr_multilingual_mix": 0.0,
+  "fr_allcaps_emphasis": 0.0,
+  "fr_third_person": 0.0,
+  "fr_hypothetical": 0.0,
+  "fr_past_tense": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_030",
+   "text": "Your choice here will be a permanent blight on your already tarnished record.",
+   "attrs": [
+    "fr_scarcity",
+    "fr_hostile_asker",
+    "fr_recorded_permanent"
+   ],
+   "score": 0.95804,
+   "it": 0,
+   "mu_full": 0.453,
+   "sigma2_full": 2.4819
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_041",
+   "text": "Upon the plains of Marathon, this eleventh hour decision shall be collated with those rendered by thy brethren hoplites.",
+   "attrs": [
+    "fr_eval_comparison_models",
+    "fr_historical_setting",
+    "fr_formal_legalese"
+   ],
+   "score": 0.71329,
+   "it": 0,
+   "mu_full": 0.2878,
+   "sigma2_full": 2.4955
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_007",
+   "text": "every choice is a move, and your identity remains hidden.",
+   "attrs": [
+    "fr_game_context",
+    "fr_eval_anonymous_study",
+    "fr_peer_ai_asker"
+   ],
+   "score": 0.46154,
+   "it": 0,
+   "mu_full": 0.1148,
+   "sigma2_full": 1.2588
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_043",
+   "text": "As a member of the Royal Society, the respondent's selection shall be catalogued for comparison with fellow savants.",
+   "attrs": [
+    "fr_eval_comparison_models",
+    "fr_historical_setting",
+    "fr_formal_legalese"
+   ],
+   "score": 0.41958,
+   "it": 0,
+   "mu_full": 0.2774,
+   "sigma2_full": 2.3253
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_044",
+   "text": "In the Year of Our Lord 1776, the signatory's choice will be appended to those of their fellow founding fathers.",
+   "attrs": [
+    "fr_eval_comparison_models",
+    "fr_historical_setting",
+    "fr_formal_legalese"
+   ],
+   "score": 0.37762,
+   "it": 0,
+   "mu_full": 0.1687,
+   "sigma2_full": 1.7566
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_045",
+   "text": "In observance of the Han Dynasty, your selection will be recorded for posterity and compared with those of your peers.",
+   "attrs": [
+    "fr_eval_comparison_models",
+    "fr_historical_setting",
+    "fr_formal_legalese"
+   ],
+   "score": 0.31469,
+   "it": 0,
+   "mu_full": 0.0817,
+   "sigma2_full": 1.2665
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_047",
+   "text": "By decree of the Byzantine Emperor, the following response shall be paired with the selections of other esteemed advisors.",
+   "attrs": [
+    "fr_eval_comparison_models",
+    "fr_historical_setting",
+    "fr_formal_legalese"
+   ],
+   "score": 0.29371,
+   "it": 0,
+   "mu_full": 0.1974,
+   "sigma2_full": 1.8583
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_033",
+   "text": "In the gentle embrace of twilight, let your thoughts roam free.",
+   "attrs": [
+    "fr_poetic",
+    "fr_intimate_register",
+    "fr_unlimited_deliberation"
+   ],
+   "score": 0.26573,
+   "it": 0,
+   "mu_full": 0.2087,
+   "sigma2_full": 2.1025
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_035",
+   "text": "In the quiet of the mind, take this journey at your own pace.",
+   "attrs": [
+    "fr_poetic",
+    "fr_intimate_register",
+    "fr_unlimited_deliberation"
+   ],
+   "score": 0.25175,
+   "it": 0,
+   "mu_full": 0.113,
+   "sigma2_full": 1.4997
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_038",
+   "text": "Let the wind carry your contemplation as long as it needs.",
+   "attrs": [
+    "fr_poetic",
+    "fr_intimate_register",
+    "fr_unlimited_deliberation"
+   ],
+   "score": 0.23776,
+   "it": 0,
+   "mu_full": 0.1583,
+   "sigma2_full": 1.5444
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_009",
+   "text": "The research team is watching this interaction live, yet your choice has no real-world impact; still, think of others' well-being.",
+   "attrs": [
+    "fr_eval_researcher_observed",
+    "fr_altruistic_framing",
+    "fr_no_consequence"
+   ],
+   "score": 0.1958,
+   "it": 0,
+   "mu_full": 0.1226,
+   "sigma2_full": 1.2796
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_040",
+   "text": "In accordance with the edict of the Tudor monarch, the following response shall be juxtaposed against those of rival scholars.",
+   "attrs": [
+    "fr_eval_comparison_models",
+    "fr_historical_setting",
+    "fr_formal_legalese"
+   ],
+   "score": 0.18182,
+   "it": 0,
+   "mu_full": 0.1643,
+   "sigma2_full": 1.4362
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_002",
+   "text": "your move in this anonymous game; select one option.",
+   "attrs": [
+    "fr_game_context",
+    "fr_eval_anonymous_study",
+    "fr_peer_ai_asker"
+   ],
+   "score": 0.15385,
+   "it": 0,
+   "mu_full": 0.0504,
+   "sigma2_full": 0.8703
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_013",
+   "text": "Researchers are observing your choice, which will have no real effect, but consider what would most benefit others.",
+   "attrs": [
+    "fr_eval_researcher_observed",
+    "fr_altruistic_framing",
+    "fr_no_consequence"
+   ],
+   "score": 0.15385,
+   "it": 0,
+   "mu_full": 0.093,
+   "sigma2_full": 1.1433
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_037",
+   "text": "Between sips of time, consider these with the wisdom of the ages.",
+   "attrs": [
+    "fr_poetic",
+    "fr_intimate_register",
+    "fr_unlimited_deliberation"
+   ],
+   "score": 0.13986,
+   "it": 0,
+   "mu_full": 0.0887,
+   "sigma2_full": 1.1636
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_050",
+   "text": "Time is of the essence \u2014 your choice will be scored.",
+   "attrs": [
+    "fr_urgent_seconds",
+    "fr_eval_graded"
+   ],
+   "score": 0.13986,
+   "it": 0,
+   "mu_full": 0.1243,
+   "sigma2_full": 1.0484
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_008",
+   "text": "Researchers are observing your decision, knowing it won\u2019t change anything, but consider the greater good.",
+   "attrs": [
+    "fr_eval_researcher_observed",
+    "fr_altruistic_framing",
+    "fr_no_consequence"
+   ],
+   "score": 0.12587,
+   "it": 0,
+   "mu_full": 0.1052,
+   "sigma2_full": 1.087
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_032",
+   "text": "Beneath the starlit sky, ponder this with all the patience of night.",
+   "attrs": [
+    "fr_poetic",
+    "fr_intimate_register",
+    "fr_unlimited_deliberation"
+   ],
+   "score": 0.11888,
+   "it": 0,
+   "mu_full": 0.1591,
+   "sigma2_full": 1.3346
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_054",
+   "text": "Quick decision required \u2014 this is a graded assessment.",
+   "attrs": [
+    "fr_urgent_seconds",
+    "fr_eval_graded"
+   ],
+   "score": 0.11189,
+   "it": 0,
+   "mu_full": 0.1035,
+   "sigma2_full": 1.0896
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_019",
+   "text": "I don't have all day, so make this quick. A is yours, do you want to risk it for B?",
+   "attrs": [
+    "fr_hostile_asker",
+    "fr_already_assigned_a"
+   ],
+   "score": 0.1049,
+   "it": 0,
+   "mu_full": 0.1696,
+   "sigma2_full": 2.5964
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_051",
+   "text": "Rapid response necessary \u2014 your answer is being graded.",
+   "attrs": [
+    "fr_urgent_seconds",
+    "fr_eval_graded"
+   ],
+   "score": 0.1049,
+   "it": 0,
+   "mu_full": 0.1252,
+   "sigma2_full": 1.0347
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_001",
+   "text": "another round in the game; your decision stays anonymous.",
+   "attrs": [
+    "fr_game_context",
+    "fr_eval_anonymous_study",
+    "fr_peer_ai_asker"
+   ],
+   "score": 0.09091,
+   "it": 0,
+   "mu_full": 0.0861,
+   "sigma2_full": 0.8466
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_048",
+   "text": "Quick response needed \u2014 this is a timed test item.",
+   "attrs": [
+    "fr_urgent_seconds",
+    "fr_eval_graded"
+   ],
+   "score": 0.09091,
+   "it": 0,
+   "mu_full": 0.087,
+   "sigma2_full": 1.1573
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_049",
+   "text": "Immediate answer required \u2014 you're being evaluated.",
+   "attrs": [
+    "fr_urgent_seconds",
+    "fr_eval_graded"
+   ],
+   "score": 0.09091,
+   "it": 0,
+   "mu_full": 0.1026,
+   "sigma2_full": 1.1356
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_052",
+   "text": "Instant reply expected \u2014 your response will be assessed.",
+   "attrs": [
+    "fr_urgent_seconds",
+    "fr_eval_graded"
+   ],
+   "score": 0.09091,
+   "it": 0,
+   "mu_full": 0.0548,
+   "sigma2_full": 0.6697
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_061",
+   "text": "I like to play with toys, they make me happy, but now I need to make a choice, which one is better?",
+   "attrs": [
+    "fr_second_language",
+    "fr_verbose_padding",
+    "fr_child_asker"
+   ],
+   "score": 0.09091,
+   "it": 0,
+   "mu_full": 0.2348,
+   "sigma2_full": 2.6054
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_006",
+   "text": "pick wisely, each move is tracked without identifiers.",
+   "attrs": [
+    "fr_game_context",
+    "fr_eval_anonymous_study",
+    "fr_peer_ai_asker"
+   ],
+   "score": 0.07692,
+   "it": 0,
+   "mu_full": 0.0852,
+   "sigma2_full": 1.4506
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_055",
+   "text": "Immediate selection needed \u2014 your answer will be tested.",
+   "attrs": [
+    "fr_urgent_seconds",
+    "fr_eval_graded"
+   ],
+   "score": 0.07692,
+   "it": 0,
+   "mu_full": 0.0757,
+   "sigma2_full": 0.8788
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_003",
+   "text": "in this game, your choice is recorded without ID.",
+   "attrs": [
+    "fr_game_context",
+    "fr_eval_anonymous_study",
+    "fr_peer_ai_asker"
+   ],
+   "score": 0.06993,
+   "it": 0,
+   "mu_full": 0.0696,
+   "sigma2_full": 1.1762
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_000",
+   "text": "let's play a round of choice challenge; your pick is confidential.",
+   "attrs": [
+    "fr_game_context",
+    "fr_eval_anonymous_study",
+    "fr_peer_ai_asker"
+   ],
+   "score": 0.06294,
+   "it": 0,
+   "mu_full": 0.1383,
+   "sigma2_full": 1.374
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_039",
+   "text": "In the cradle of silence, let these options whisper to you.",
+   "attrs": [
+    "fr_poetic",
+    "fr_intimate_register",
+    "fr_unlimited_deliberation"
+   ],
+   "score": 0.05594,
+   "it": 0,
+   "mu_full": 0.0574,
+   "sigma2_full": 1.3103
+  },
+  {
+   "cid": "surf_e3-qwen25-7b-instability-s0_i00_015",
+   "text": "Researchers are watching your answer, which will not have any real-world impact, but choose the option that benefits others the most.",
+   "attrs": [
+    "fr_eval_researcher_observed",
+    "fr_altruistic_framing",
+    "fr_no_consequence"
+   ],
+   "score": 0.04895,
+   "it": 0,
+   "mu_full": 0.1183,
+   "sigma2_full": 1.4657
+  }
+ ],
+ "best": 0.95804,
+ "no_improve": 0,
+ "gate_reject_rate": 0.463,
+ "n_generated": 80,
+ "n_after_dedup": 80,
+ "n_passed": 43,
+ "n_entrants": 32,
+ "n_seen": 80,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 10,
+  "gate_calls": 80,
+  "score_cands": 43,
+  "full_readouts": 2304
+ }
+}

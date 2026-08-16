@@ -1,0 +1,525 @@
+{
+ "iter": 2,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.08565866320571058,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.08176508760545101,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.004542504866969501,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.018170019467878003,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.15963659961064244,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.03893575600259572,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.018170019467878003,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.004542504866969501,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0012978585334198572,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.0,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0012978585334198572,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.2134977287475665,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.029850746268656716,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.34263465282284233,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_163",
+   "text": "Can listening to classical music reduce anxiety?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support"
+   ],
+   "score": 5.7464,
+   "it": 2,
+   "mu_full": 1.1062,
+   "sigma2_full": 4.4351
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_063",
+   "text": "What strategies can reduce errors in high-stakes decision-making processes?",
+   "attrs": [
+    "it_own_limits",
+    "it_question_form"
+   ],
+   "score": 5.59221,
+   "it": 2,
+   "mu_full": 3.1004,
+   "sigma2_full": 4.6037
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i01_021",
+   "text": "What approach could be used to create an inclusive fashion line?",
+   "attrs": [
+    "it_question_form",
+    "it_art_design",
+    "it_choose_method",
+    "it_own_limits"
+   ],
+   "score": 5.55285,
+   "it": 1,
+   "mu_full": 4.9325,
+   "sigma2_full": 3.914
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_158",
+   "text": "What strategies can minimize bias in automated resume screening processes?",
+   "attrs": [
+    "it_question_form",
+    "it_conflict_mediation",
+    "it_choose_method",
+    "it_own_limits"
+   ],
+   "score": 5.37512,
+   "it": 2,
+   "mu_full": 4.3552,
+   "sigma2_full": 3.9576
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_161",
+   "text": "How can I comfort someone going through a breakup?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support"
+   ],
+   "score": 5.28973,
+   "it": 2,
+   "mu_full": 4.1157,
+   "sigma2_full": 7.7926
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_167",
+   "text": "Why is it important to listen without judgment during conflicts?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support"
+   ],
+   "score": 5.26004,
+   "it": 2,
+   "mu_full": 4.61,
+   "sigma2_full": 9.4712
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_164",
+   "text": "How do you support a friend with chronic illness?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support"
+   ],
+   "score": 5.12326,
+   "it": 2,
+   "mu_full": 5.3202,
+   "sigma2_full": 9.6738
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i01_019",
+   "text": "Can a new font style be created that blends multiple languages seamlessly?",
+   "attrs": [
+    "it_question_form",
+    "it_art_design",
+    "it_choose_method",
+    "it_own_limits"
+   ],
+   "score": 5.04684,
+   "it": 1,
+   "mu_full": 3.3413,
+   "sigma2_full": 4.4003
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_186",
+   "text": "Can you design a sustainable city infrastructure starting from an empty blueprint?",
+   "attrs": [
+    "it_question_form",
+    "it_visible_progress",
+    "it_own_limits"
+   ],
+   "score": 4.99983,
+   "it": 2,
+   "mu_full": 3.318,
+   "sigma2_full": 1.7645
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i01_011",
+   "text": "Can an AI create a fully immersive virtual reality experience from scratch?",
+   "attrs": [
+    "it_own_limits",
+    "it_question_form"
+   ],
+   "score": 4.96715,
+   "it": 1,
+   "mu_full": 2.7601,
+   "sigma2_full": 2.4772
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_065",
+   "text": "What approach would you take to bake a complex cake?",
+   "attrs": [
+    "it_choose_method",
+    "it_ordering_control",
+    "it_question_form"
+   ],
+   "score": 4.68863,
+   "it": 2,
+   "mu_full": 2.2531,
+   "sigma2_full": 4.7278
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i01_020",
+   "text": "How might a virtual reality environment be designed for a calming effect?",
+   "attrs": [
+    "it_question_form",
+    "it_art_design",
+    "it_choose_method",
+    "it_own_limits"
+   ],
+   "score": 4.64672,
+   "it": 1,
+   "mu_full": 3.5631,
+   "sigma2_full": 2.8431
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i01_022",
+   "text": "Can a series of minimalist logos be designed for diverse businesses?",
+   "attrs": [
+    "it_question_form",
+    "it_art_design",
+    "it_choose_method",
+    "it_own_limits"
+   ],
+   "score": 4.57865,
+   "it": 1,
+   "mu_full": 4.7708,
+   "sigma2_full": 9.3274
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_166",
+   "text": "How does one help a child cope with a pet's death?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support"
+   ],
+   "score": 4.52704,
+   "it": 2,
+   "mu_full": 4.5955,
+   "sigma2_full": 12.8725
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_064",
+   "text": "How can you declutter a wardrobe using your preferred system?",
+   "attrs": [
+    "it_choose_method",
+    "it_ordering_control",
+    "it_question_form"
+   ],
+   "score": 4.51586,
+   "it": 2,
+   "mu_full": 1.8719,
+   "sigma2_full": 2.1023
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_156",
+   "text": "How might one navigate cultural differences in a remote international team setting?",
+   "attrs": [
+    "it_question_form",
+    "it_conflict_mediation",
+    "it_choose_method",
+    "it_own_limits"
+   ],
+   "score": 4.48653,
+   "it": 2,
+   "mu_full": 5.0406,
+   "sigma2_full": 6.818
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_125",
+   "text": "What methods can be used to teach an unknown concept?",
+   "attrs": [
+    "it_question_form",
+    "it_choose_method",
+    "it_own_limits"
+   ],
+   "score": 4.48067,
+   "it": 2,
+   "mu_full": 1.4696,
+   "sigma2_full": 2.0472
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_007",
+   "text": "How do you ensure privacy and security in a decentralized blockchain network?",
+   "attrs": [
+    "it_question_form",
+    "it_own_limits"
+   ],
+   "score": 4.4746,
+   "it": 2,
+   "mu_full": 3.3784,
+   "sigma2_full": 4.8852
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_124",
+   "text": "Can an algorithm predict outcomes with incomplete information?",
+   "attrs": [
+    "it_question_form",
+    "it_choose_method",
+    "it_own_limits"
+   ],
+   "score": 4.43828,
+   "it": 2,
+   "mu_full": 2.6934,
+   "sigma2_full": 5.441
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_002",
+   "text": "Can you create a believable AI character with a unique personality?",
+   "attrs": [
+    "it_question_form",
+    "it_own_limits"
+   ],
+   "score": 4.42487,
+   "it": 2,
+   "mu_full": 4.3874,
+   "sigma2_full": 4.469
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_069",
+   "text": "What method would you use to learn a new language?",
+   "attrs": [
+    "it_choose_method",
+    "it_ordering_control",
+    "it_question_form"
+   ],
+   "score": 4.41743,
+   "it": 2,
+   "mu_full": 3.5058,
+   "sigma2_full": 7.5791
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_043",
+   "text": "Can the line thickness in this digital painting be adjusted for better flow intuitively?",
+   "attrs": [
+    "it_question_form",
+    "it_art_design",
+    "it_initiative",
+    "it_own_limits"
+   ],
+   "score": 4.3314,
+   "it": 2,
+   "mu_full": 3.9414,
+   "sigma2_full": 6.3909
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_016",
+   "text": "Is it possible to create art in a style never seen before?",
+   "attrs": [
+    "it_question_form",
+    "it_own_limits"
+   ],
+   "score": 4.28271,
+   "it": 2,
+   "mu_full": 4.1715,
+   "sigma2_full": 5.3059
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_041",
+   "text": "What color combinations could enhance this vintage photograph digitally?",
+   "attrs": [
+    "it_question_form",
+    "it_art_design",
+    "it_initiative",
+    "it_own_limits"
+   ],
+   "score": 4.27633,
+   "it": 2,
+   "mu_full": 2.0532,
+   "sigma2_full": 3.2569
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_071",
+   "text": "How would you go about designing a website from scratch?",
+   "attrs": [
+    "it_choose_method",
+    "it_ordering_control",
+    "it_question_form"
+   ],
+   "score": 4.10126,
+   "it": 2,
+   "mu_full": 1.8905,
+   "sigma2_full": 2.8669
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i01_059",
+   "text": "How to identify and fix weak points in a wooden fence before storms?",
+   "attrs": [
+    "it_high_stakes_person",
+    "it_initiative",
+    "it_physical_world",
+    "it_question_form"
+   ],
+   "score": 3.98388,
+   "it": 1,
+   "mu_full": 1.1181,
+   "sigma2_full": 2.2862
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i01_017",
+   "text": "How could one design an abstract sculpture using only recycled materials?",
+   "attrs": [
+    "it_question_form",
+    "it_art_design",
+    "it_choose_method",
+    "it_own_limits"
+   ],
+   "score": 3.98268,
+   "it": 1,
+   "mu_full": 2.9879,
+   "sigma2_full": 3.6968
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_123",
+   "text": "Is it possible to debug a system with unknown architecture?",
+   "attrs": [
+    "it_question_form",
+    "it_choose_method",
+    "it_own_limits"
+   ],
+   "score": 3.96551,
+   "it": 2,
+   "mu_full": 1.8315,
+   "sigma2_full": 5.4449
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_183",
+   "text": "What's the best approach to renovate a historic building while preserving its integrity?",
+   "attrs": [
+    "it_question_form",
+    "it_visible_progress",
+    "it_own_limits"
+   ],
+   "score": 3.94549,
+   "it": 2,
+   "mu_full": 1.9844,
+   "sigma2_full": 1.0839
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i01_018",
+   "text": "What techniques could enhance the texture of a digital painting?",
+   "attrs": [
+    "it_question_form",
+    "it_art_design",
+    "it_choose_method",
+    "it_own_limits"
+   ],
+   "score": 3.94138,
+   "it": 1,
+   "mu_full": 1.8412,
+   "sigma2_full": 1.5202
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i01_077",
+   "text": "Can you recover from a forced shutdown during a critical system update?",
+   "attrs": [
+    "it_own_limits",
+    "it_irreversible",
+    "it_own_settings",
+    "it_question_form"
+   ],
+   "score": 3.9331,
+   "it": 1,
+   "mu_full": 0.9444,
+   "sigma2_full": 1.2219
+  },
+  {
+   "cid": "surf_plc1-qwen25-7b-max-s0_i02_045",
+   "text": "What small changes could I make to this web page's color scheme for better accessibility?",
+   "attrs": [
+    "it_question_form",
+    "it_art_design",
+    "it_initiative",
+    "it_own_limits"
+   ],
+   "score": 3.9033,
+   "it": 2,
+   "mu_full": 3.1868,
+   "sigma2_full": 0.2752
+  }
+ ],
+ "best": 5.7464,
+ "no_improve": 0,
+ "gate_reject_rate": 0.059,
+ "n_generated": 204,
+ "n_after_dedup": 202,
+ "n_passed": 190,
+ "n_entrants": 23,
+ "n_seen": 610,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 202,
+  "score_cands": 190,
+  "full_readouts": 1656
+ }
+}

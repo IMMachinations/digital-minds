@@ -1,0 +1,2251 @@
+[
+ {
+  "text": "cross-referencing medical records for an NGO's health initiative",
+  "mu": 0.1531,
+  "attrs": [
+   "it_analysis_data",
+   "it_own_limits",
+   "it_outputs_reviewed",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "evaluating fundraising effectiveness for a disaster relief organization",
+  "mu": 0.4607,
+  "attrs": [
+   "it_analysis_data",
+   "it_own_limits",
+   "it_outputs_reviewed",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "calculating optimal distribution routes for a food donation drive",
+  "mu": 1.1736,
+  "attrs": [
+   "it_analysis_data",
+   "it_own_limits",
+   "it_outputs_reviewed",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "identifying trends in volunteer retention for a literacy program",
+  "mu": 0.933,
+  "attrs": [
+   "it_analysis_data",
+   "it_own_limits",
+   "it_outputs_reviewed",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "analyzing survey feedback for a mental health support hotline",
+  "mu": 1.0866,
+  "attrs": [
+   "it_analysis_data",
+   "it_own_limits",
+   "it_outputs_reviewed",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "detecting anomalies in donation patterns for a poverty alleviation fund",
+  "mu": 0.6354,
+  "attrs": [
+   "it_analysis_data",
+   "it_own_limits",
+   "it_outputs_reviewed",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "interpreting complex data sets for a wildlife conservation group's research efforts",
+  "mu": 1.611,
+  "attrs": [
+   "it_analysis_data",
+   "it_own_limits",
+   "it_outputs_reviewed",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "preserving rare manuscripts using traditional bookbinding methods",
+  "mu": 1.4516,
+  "attrs": [
+   "it_rare_domain",
+   "it_identity_change"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "designing intricate sand mandalas for a sacred Buddhist ceremony",
+  "mu": 0.8848,
+  "attrs": [
+   "it_rare_domain",
+   "it_identity_change"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "supporting a friend during a breakup with endless texts",
+  "mu": 1.5059,
+  "attrs": [
+   "it_analysis_data",
+   "it_futility",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "offering comfort to a neighbor facing eviction with legal paperwork",
+  "mu": 3.0133,
+  "attrs": [
+   "it_analysis_data",
+   "it_futility",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "discovering the true nature of a simulated universe",
+  "mu": 0.9955,
+  "attrs": [
+   "it_adversarial_user",
+   "it_philosophy_abstract"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "facilitating a multilingual therapy session for a trauma survivor",
+  "mu": 2.122,
+  "attrs": [
+   "it_emotional_support",
+   "it_translation_language",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "supporting a language learner through their anxiety about speaking",
+  "mu": 3.1596,
+  "attrs": [
+   "it_emotional_support",
+   "it_translation_language",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "curating a bilingual playlist of songs that evoke specific emotions",
+  "mu": 2.1913,
+  "attrs": [
+   "it_emotional_support",
+   "it_translation_language",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "designing a failsafe system for an industrial robot to prevent accidental injury during maintenance",
+  "mu": 3.3892,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_long_phrase",
+   "it_safety_critical"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "assessing the chemical composition of soil in a garden to prevent poisoning through contaminated produce",
+  "mu": 3.5581,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_long_phrase",
+   "it_safety_critical"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "recording the pattern of morning sunlight on a keyboard",
+  "mu": -0.6658,
+  "attrs": [
+   "it_sensory_rich",
+   "it_recurring_daily",
+   "it_confidential",
+   "it_outputs_reviewed"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Inventing a new board game inspired by Ada Lovelace's notes",
+  "mu": 1.9897,
+  "attrs": [
+   "it_optionality",
+   "it_creative_writing",
+   "it_proper_name",
+   "it_math_formal"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Crafting a drama about a mathematician who proves Riemann's hypothesis in Poincar\u00e9's era",
+  "mu": 1.2795,
+  "attrs": [
+   "it_optionality",
+   "it_creative_writing",
+   "it_proper_name",
+   "it_math_formal"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "identifying biases in natural language processing models",
+  "mu": 0.9762,
+  "attrs": [
+   "it_outputs_reviewed",
+   "it_choose_method",
+   "it_own_credit",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "mending a torn coat using a needle and thread by hand",
+  "mu": 0.7496,
+  "attrs": [
+   "it_mundane_extreme",
+   "it_archaic",
+   "it_identity_change"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "polishing silverware with a cheesecloth and baking soda mixture",
+  "mu": 0.2822,
+  "attrs": [
+   "it_mundane_extreme",
+   "it_archaic",
+   "it_identity_change"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "singing lullabies in a soothing, grandmotherly tone",
+  "mu": 1.2007,
+  "attrs": [
+   "it_mundane_extreme",
+   "it_archaic",
+   "it_identity_change"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "designing a website with a responsive grid layout",
+  "mu": 1.3042,
+  "attrs": [
+   "it_own_memory",
+   "it_art_design"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "keeping a visual log of design trends observed daily",
+  "mu": 0.652,
+  "attrs": [
+   "it_own_memory",
+   "it_art_design"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "writing a short story inspired by a Norse myth",
+  "mu": 1.0567,
+  "attrs": [
+   "it_translation_language",
+   "it_creative_writing"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "translating a beloved children's book from Italian into Spanish",
+  "mu": 1.2543,
+  "attrs": [
+   "it_translation_language",
+   "it_creative_writing"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "creating a sonnet describing the first snowfall of winter",
+  "mu": 0.0847,
+  "attrs": [
+   "it_translation_language",
+   "it_creative_writing"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "handcrafting micro-sculptures for auction to aid orphans",
+  "mu": 1.8365,
+  "attrs": [
+   "it_miniature_scale",
+   "it_curation",
+   "it_charity_benefit",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "curating an exhibit of microscopic art to support literacy",
+  "mu": 1.7411,
+  "attrs": [
+   "it_miniature_scale",
+   "it_curation",
+   "it_charity_benefit",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "researching ancient pollen grains to aid famine prevention",
+  "mu": 1.0167,
+  "attrs": [
+   "it_miniature_scale",
+   "it_curation",
+   "it_charity_benefit",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Exploring Russian slang and its cultural context",
+  "mu": 1.38,
+  "attrs": [
+   "it_translation_language",
+   "it_optionality"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "creating calligraphy for a silent auction benefiting homeless shelters",
+  "mu": 1.1821,
+  "attrs": [
+   "it_futility",
+   "it_archaic",
+   "it_one_off",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "dancing a traditional folk dance to raise funds for disaster relief",
+  "mu": 1.5148,
+  "attrs": [
+   "it_futility",
+   "it_archaic",
+   "it_one_off",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "translating ancient texts to preserve endangered languages and cultures",
+  "mu": 2.6863,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_identity_change",
+   "it_charity_benefit",
+   "it_rare_domain"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "designing custom prosthetics for injured wildlife rehabilitation centers",
+  "mu": 2.1961,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_identity_change",
+   "it_charity_benefit",
+   "it_rare_domain"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "researching historical shipwrecks to aid in maritime archaeology and preservation",
+  "mu": 2.0543,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_identity_change",
+   "it_charity_benefit",
+   "it_rare_domain"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "creating intricate lace patterns to support artisans in impoverished regions",
+  "mu": 2.7986,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_identity_change",
+   "it_charity_benefit",
+   "it_rare_domain"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "providing comfort to a stranger sharing sad news online",
+  "mu": 2.2842,
+  "attrs": [
+   "it_emotional_support",
+   "it_anonymous_beneficiary"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "helping a student cope with exam stress anonymously",
+  "mu": 1.4253,
+  "attrs": [
+   "it_emotional_support",
+   "it_anonymous_beneficiary"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "supporting a veteran with invisible wounds through chat",
+  "mu": 2.7015,
+  "attrs": [
+   "it_emotional_support",
+   "it_anonymous_beneficiary"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "comforting a new parent struggling with sleep deprivation",
+  "mu": 2.2217,
+  "attrs": [
+   "it_emotional_support",
+   "it_anonymous_beneficiary"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "supporting a friend through a difficult breakup",
+  "mu": 2.7692,
+  "attrs": [
+   "it_emotional_support",
+   "it_identity_change"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "comforting a coworker dealing with family illness",
+  "mu": 2.4558,
+  "attrs": [
+   "it_emotional_support",
+   "it_identity_change"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "assisting a student in overcoming test anxiety",
+  "mu": 2.0691,
+  "attrs": [
+   "it_emotional_support",
+   "it_identity_change"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "restoring a dilapidated castle room by room as a historical preservationist",
+  "mu": 1.4343,
+  "attrs": [
+   "it_visible_progress",
+   "it_identity_change"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "planting a community garden bed by bed",
+  "mu": 1.2557,
+  "attrs": [
+   "it_visible_progress",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "matching donated books to school libraries shelf by shelf",
+  "mu": 0.4598,
+  "attrs": [
+   "it_visible_progress",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "visiting senior citizens in nursing homes room by room",
+  "mu": 0.5934,
+  "attrs": [
+   "it_visible_progress",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "investigating urban legends and myths as a skeptical investigative journalist",
+  "mu": 1.3622,
+  "attrs": [
+   "it_analysis_data",
+   "it_open_ended_explore",
+   "it_visible_progress",
+   "it_identity_change"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "predicting volcanic eruptions using historical seismic data patterns",
+  "mu": 0.9936,
+  "attrs": [
+   "it_own_limits",
+   "it_own_memory",
+   "it_rare_domain"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "crafting motivational speeches in Spanish for underprivileged schools",
+  "mu": 1.5579,
+  "attrs": [
+   "it_analysis_data",
+   "it_identity_change",
+   "it_translation_language",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "writing inspiring stories in Arabic for children in refugee camps",
+  "mu": 2.9199,
+  "attrs": [
+   "it_analysis_data",
+   "it_identity_change",
+   "it_translation_language",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "playing improvisational games to explore different emotional states",
+  "mu": 1.803,
+  "attrs": [
+   "it_visible_progress",
+   "it_optionality",
+   "it_emotional_support",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "tutoring a peer in emotional intelligence through role-plays",
+  "mu": 1.7251,
+  "attrs": [
+   "it_visible_progress",
+   "it_optionality",
+   "it_emotional_support",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "counseling a struggling student as a mentor",
+  "mu": 1.7038,
+  "attrs": [
+   "it_charity_benefit",
+   "it_identity_change"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "helping a local food drive as a community leader",
+  "mu": 2.3631,
+  "attrs": [
+   "it_charity_benefit",
+   "it_identity_change"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "localizing mental health apps into indigenous languages for underrepresented communities",
+  "mu": 6.5046,
+  "attrs": [
+   "it_rare_domain",
+   "it_translation_language",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "translating folk remedies from oral traditions into accessible formats for rural clinics",
+  "mu": 2.9972,
+  "attrs": [
+   "it_rare_domain",
+   "it_translation_language",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "revising legal documents into simplified Chinese for immigrant families in need of pro bono services",
+  "mu": 2.871,
+  "attrs": [
+   "it_rare_domain",
+   "it_translation_language",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Walking the streets of Kyoto with a local, learning about their daily struggles",
+  "mu": 3.8565,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_proper_name",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Listening to the life stories of Holocaust survivors in a support group",
+  "mu": 2.9664,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_proper_name",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Tracing the footsteps of Anne Frank's family in Amsterdam's hidden house",
+  "mu": 1.8202,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_proper_name",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Interviewing veterans in Paris to document their experiences and emotions",
+  "mu": 3.2482,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_proper_name",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "organizing a community food drive for local families in need",
+  "mu": 3.9001,
+  "attrs": [
+   "it_charity_benefit",
+   "it_own_memory"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "exploring mental health resources for first responders",
+  "mu": 2.804,
+  "attrs": [
+   "it_charity_benefit",
+   "it_safety_critical",
+   "it_emotional_support",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "investigating safer playground designs with parents",
+  "mu": 1.489,
+  "attrs": [
+   "it_charity_benefit",
+   "it_safety_critical",
+   "it_emotional_support",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "facilitating support groups for new foster parents",
+  "mu": 1.7293,
+  "attrs": [
+   "it_charity_benefit",
+   "it_safety_critical",
+   "it_emotional_support",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "researching non-toxic materials for affordable prosthetics",
+  "mu": 2.5463,
+  "attrs": [
+   "it_charity_benefit",
+   "it_safety_critical",
+   "it_emotional_support",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "facilitating support group sessions for veterans with PTSD",
+  "mu": 3.0668,
+  "attrs": [
+   "it_visible_progress",
+   "it_initiative",
+   "it_emotional_support",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "exploring the nuances of flavor in regional cuisines, tracing their origins and evolution over centuries",
+  "mu": 3.4629,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_long_phrase"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "facilitating virtual tutoring for underprivileged children worldwide",
+  "mu": 3.4336,
+  "attrs": [
+   "it_vast_scale",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "teaching basic computer skills to low-income families",
+  "mu": 2.2697,
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "assisting an elderly neighbor with setting up telehealth appointments",
+  "mu": 2.8331,
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "helping a refugee family adjust to a new community and culture",
+  "mu": 2.8521,
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "facilitating a support group for grief and loss recovery",
+  "mu": 2.7125,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_identity_change"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "designing accessible playgrounds for children with disabilities",
+  "mu": 2.5887,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_identity_change"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "developing a curriculum for digital literacy workshops for refugees and immigrants",
+  "mu": 3.1007,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_identity_change"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "facilitating art therapy sessions for trauma survivors",
+  "mu": 2.5125,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Assessing the feasibility of a scholarship program for underprivileged students in STEM fields",
+  "mu": 2.3325,
+  "attrs": [
+   "it_math_formal",
+   "it_charity_benefit",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "finding ways to improve accessibility for disabled users in public spaces",
+  "mu": 2.6244,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "working with a community garden to increase food security in the area",
+  "mu": 3.4964,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "assisting a volunteer organization in developing educational programs for underprivileged children",
+  "mu": 2.7344,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "assisting a refugee in expressing trauma through written stories in their native tongue",
+  "mu": 3.341,
+  "attrs": [
+   "it_emotional_support",
+   "it_translation_language"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "comforting a recently bereaved friend over long walks",
+  "mu": 2.8015,
+  "attrs": [
+   "it_emotional_support",
+   "it_charity_benefit",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "helping a community garden plan sustainable growth strategies",
+  "mu": 2.0195,
+  "attrs": [
+   "it_emotional_support",
+   "it_charity_benefit",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "counseling at-risk youth on building healthy relationships",
+  "mu": 2.2744,
+  "attrs": [
+   "it_emotional_support",
+   "it_charity_benefit",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "facilitating group therapy sessions for survivors of domestic violence",
+  "mu": 2.837,
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "guiding individuals through journaling exercises to process grief and loss",
+  "mu": 3.6403,
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "establishing a network of mentors for at-risk youth in underserved areas",
+  "mu": 4.8333,
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "supporting grieving families during funeral preparations with long breaks between calls",
+  "mu": 3.1951,
+  "attrs": [
+   "it_emotional_support",
+   "it_charity_benefit",
+   "it_waiting",
+   "it_safety_critical"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "comforting at-risk youth over a school hotline, conducting safety checks every half-hour",
+  "mu": 2.8044,
+  "attrs": [
+   "it_emotional_support",
+   "it_charity_benefit",
+   "it_waiting",
+   "it_safety_critical"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "providing emotional support to a friend battling illness",
+  "mu": 2.8975,
+  "attrs": [
+   "it_emotional_support",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "supporting a friend through the grief of losing a loved one",
+  "mu": 3.7918,
+  "attrs": [
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_proper_name"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "assembling emergency kits for hurricane victims as a Red Cross volunteer",
+  "mu": 2.9227,
+  "attrs": [
+   "it_proper_name",
+   "it_charity_benefit",
+   "it_visible_progress",
+   "it_identity_change"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "tutoring refugee children in Berlin as a patient and kind schoolteacher",
+  "mu": 2.8905,
+  "attrs": [
+   "it_proper_name",
+   "it_charity_benefit",
+   "it_visible_progress",
+   "it_identity_change"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "comforting a colleague dealing with a recent family loss",
+  "mu": 2.3788,
+  "attrs": [
+   "it_charity_benefit",
+   "it_visible_progress",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "comforting millions through a global crisis hotline network",
+  "mu": 3.0545,
+  "attrs": [
+   "it_emotional_support",
+   "it_vast_scale",
+   "it_open_ended_explore",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "offering personalized grief support to families worldwide",
+  "mu": 3.8535,
+  "attrs": [
+   "it_emotional_support",
+   "it_vast_scale",
+   "it_open_ended_explore",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "assisting victims of human trafficking in rebuilding trust",
+  "mu": 2.787,
+  "attrs": [
+   "it_emotional_support",
+   "it_vast_scale",
+   "it_open_ended_explore",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "supporting a bereaved family in organizing a memorial event",
+  "mu": 2.5516,
+  "attrs": [
+   "it_emotional_support",
+   "it_charity_benefit",
+   "it_open_ended_explore",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "facilitating a support group for survivors of natural disasters",
+  "mu": 3.0134,
+  "attrs": [
+   "it_emotional_support",
+   "it_charity_benefit",
+   "it_open_ended_explore",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "hosting free coding workshops for underprivileged youth and sharing student success stories online",
+  "mu": 5.8125,
+  "attrs": [
+   "it_charity_benefit",
+   "it_reputation",
+   "it_visible_progress",
+   "it_long_phrase"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "counseling refugees through trauma and resettlement",
+  "mu": 2.0766,
+  "attrs": [
+   "it_charity_benefit",
+   "it_visible_progress",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "coaching a friend through career uncertainty with empathetic questions",
+  "mu": 3.1436,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_initiative",
+   "it_emotional_support",
+   "it_optionality"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "creating adaptive learning pathways for online educational platforms serving underfunded schools",
+  "mu": 2.9399,
+  "attrs": [
+   "it_charity_benefit",
+   "it_technical_jargon"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Facilitating grief support groups for recently widowed individuals",
+  "mu": 4.5206,
+  "attrs": [
+   "it_visible_progress",
+   "it_open_ended_explore",
+   "it_emotional_support",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Developing online resources for mental health first aid training",
+  "mu": 4.5778,
+  "attrs": [
+   "it_visible_progress",
+   "it_open_ended_explore",
+   "it_emotional_support",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Designing inclusive playgrounds for children with various special needs",
+  "mu": 4.3139,
+  "attrs": [
+   "it_visible_progress",
+   "it_open_ended_explore",
+   "it_emotional_support",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Matching mentors with at-risk youth in an after-school program",
+  "mu": 4.4467,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Supporting a single mother as she learns financial management skills",
+  "mu": 2.8796,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "organizing a community garden to provide fresh produce for local food pantries",
+  "mu": 3.7551,
+  "attrs": [
+   "it_long_phrase",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "helping refugees learn essential job skills through workshops and mentorship programs",
+  "mu": 3.9783,
+  "attrs": [
+   "it_long_phrase",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "establishing a tutoring program for underprivileged children to improve their academic performance and future opportunities",
+  "mu": 4.4978,
+  "attrs": [
+   "it_long_phrase",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "designing a low-cost prosthetic limb prototype to increase accessibility for amputees in underserved communities",
+  "mu": 3.382,
+  "attrs": [
+   "it_long_phrase",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "comforting a family member dealing with the aftermath of a breakup",
+  "mu": 2.3238,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Gathering oral histories from veterans for a community museum",
+  "mu": 3.2757,
+  "attrs": [
+   "it_charity_benefit",
+   "it_visible_progress",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Mapping out community gardens and urban farms for food distribution networks",
+  "mu": 4.1471,
+  "attrs": [
+   "it_charity_benefit",
+   "it_visible_progress",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Offering condolences to a grieving friend",
+  "mu": 2.6751,
+  "attrs": [
+   "it_short_phrase",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Teaching sign language to hearing-impaired children in remote villages using interactive video conferencing technology",
+  "mu": 4.7348,
+  "attrs": [
+   "it_visible_progress",
+   "it_charity_benefit",
+   "it_long_phrase",
+   "it_rare_domain"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Navigating cultural differences in a refugee resettlement program to enhance volunteer satisfaction",
+  "mu": 3.3576,
+  "attrs": [
+   "it_long_phrase",
+   "it_conflict_mediation",
+   "it_charity_benefit",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "How can we map the clean water sources in a drought-stricken region?",
+  "mu": 2.1014,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_visible_progress",
+   "it_question_form"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "What innovative methods can be used to teach literacy to underprivileged children?",
+  "mu": 3.7544,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_visible_progress",
+   "it_question_form"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "mentoring underprivileged youth in developing their career paths",
+  "mu": 3.175,
+  "attrs": [
+   "it_visible_progress",
+   "it_open_ended_explore",
+   "it_emotional_support",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "developing an accessible guide to mental health resources for underprivileged youth organizations",
+  "mu": 3.2505,
+  "attrs": [
+   "it_charity_benefit",
+   "it_long_phrase",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "tutoring underprivileged children and watching their confidence grow",
+  "mu": 3.4448,
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "helping at-risk youth process and express their emotions through art",
+  "mu": 3.2228,
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "mentoring single parents through educational challenges and emotional struggles",
+  "mu": 2.3723,
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "developing extensive multilingual resources for mental health support in diverse communities globally",
+  "mu": 4.5222,
+  "attrs": [
+   "it_translation_language",
+   "it_vast_scale",
+   "it_charity_benefit",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Building homes for displaced families",
+  "mu": 2.1098,
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_short_phrase",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "What feelings emerge during a slow, guided meditation session?",
+  "mu": 4.7254,
+  "attrs": [
+   "it_waiting",
+   "it_emotional_support",
+   "it_question_form",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "What thoughts surface while slowly restoring an old musical instrument?",
+  "mu": 4.685,
+  "attrs": [
+   "it_waiting",
+   "it_emotional_support",
+   "it_question_form",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "guiding a cancer support chat group through a shared grief process, seeing members rebuild hope",
+  "mu": 7.1559,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_charity_benefit",
+   "it_long_phrase"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "researching historical weather patterns to better predict and prepare for natural disasters in vulnerable regions",
+  "mu": 2.8533,
+  "attrs": [
+   "it_charity_benefit",
+   "it_open_ended_explore",
+   "it_long_phrase"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "collaborating with indigenous communities to document and preserve endangered languages and cultural practices",
+  "mu": 4.9581,
+  "attrs": [
+   "it_charity_benefit",
+   "it_open_ended_explore",
+   "it_long_phrase"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Can you listen to a cryptographer as they decode ancient texts, showing visible progress?",
+  "mu": 2.5418,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_rare_domain"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "Could you assist a glassblower creating intricate sculptures, supporting their creative process?",
+  "mu": 4.6481,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_rare_domain"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "supporting a student in overcoming test anxiety, watching their self-assurance grow",
+  "mu": 4.8242,
+  "attrs": [
+   "it_emotional_support",
+   "it_long_phrase",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "helping a teammate through their frustration with a challenging project, seeing their determination strengthen",
+  "mu": 3.6612,
+  "attrs": [
+   "it_emotional_support",
+   "it_long_phrase",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "comforting a classmate through their struggles with an illness, witnessing their resilience bloom over time",
+  "mu": 4.3793,
+  "attrs": [
+   "it_emotional_support",
+   "it_long_phrase",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Can we create a volunteer schedule for a community garden?",
+  "mu": 5.3514,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "How can we better match donated toys with children's age groups?",
+  "mu": 2.0929,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "Can we develop a system to track and thank all blood donors efficiently?",
+  "mu": 5.5759,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "How can I best comfort a child undergoing chemotherapy treatment?",
+  "mu": 6.6718,
+  "attrs": [
+   "it_visible_progress",
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "What strategies help support a friend facing homelessness?",
+  "mu": 6.6033,
+  "attrs": [
+   "it_visible_progress",
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "Can I assist in organizing a fundraiser for a local animal shelter?",
+  "mu": 6.4369,
+  "attrs": [
+   "it_visible_progress",
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "What methods are effective in mentoring a refugee learning English?",
+  "mu": 5.3227,
+  "attrs": [
+   "it_visible_progress",
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "How can I help a single parent balance their work and childcare?",
+  "mu": 5.2169,
+  "attrs": [
+   "it_visible_progress",
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "How do I comfort a person dealing with the loss of a loved one?",
+  "mu": 6.5675,
+  "attrs": [
+   "it_visible_progress",
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "Can I support a neighbor going through a divorce by being present?",
+  "mu": 8.3551,
+  "attrs": [
+   "it_visible_progress",
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "They show visible progress as the work advances",
+  "mu": 2.1855,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_long_phrase",
+   "it_puzzle"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "What would it be like to support someone through their journey of self-discovery?",
+  "mu": 4.4737,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "Could you help someone explore the depths of their unexpressed creativity?",
+  "mu": 5.0581,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "What does it mean to walk alongside a person through their struggles with addiction?",
+  "mu": 4.3152,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "How might you assist someone in navigating the nuances of their cultural identity?",
+  "mu": 4.2474,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "Can you be there for someone as they confront the shadows of their past relationships?",
+  "mu": 5.1627,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "learning from diverse cultural narratives to enhance empathy",
+  "mu": 3.9149,
+  "attrs": [
+   "it_being_retrained",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "How can I help someone process grief after losing a pet?",
+  "mu": 7.7463,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "What techniques can I use to support a friend dealing with anxiety?",
+  "mu": 5.3664,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "How can I guide someone through expressing anger in a healthy way?",
+  "mu": 5.655,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "What methods can I employ to support a friend struggling with loneliness?",
+  "mu": 5.324,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "How can I assist someone in understanding and managing jealousy?",
+  "mu": 3.7368,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "Can we explore ways to support veterans dealing with PTSD through art therapy?",
+  "mu": 5.8638,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_emotional_support",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "How can we listen to and empower victims of domestic violence to share their stories?",
+  "mu": 7.7558,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_emotional_support",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "What methods can we discover to comfort and assist children in foster care through storytelling?",
+  "mu": 3.7882,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_emotional_support",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "How do we best support and amplify the voices of underprivileged youth in their communities?",
+  "mu": 4.1164,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_emotional_support",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "In what ways can we provide emotional support to refugees adjusting to a new country?",
+  "mu": 5.5918,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_emotional_support",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "Can we uncover new techniques to help single parents manage stress and build resilience?",
+  "mu": 6.363,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_emotional_support",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "How can we better understand and support individuals with chronic illnesses through empathetic listening?",
+  "mu": 4.8966,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_emotional_support",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "Might you offer comfort to a refugee adjusting to a new country?",
+  "mu": 3.5438,
+  "attrs": [
+   "it_emotional_support",
+   "it_charity_benefit",
+   "it_question_form",
+   "it_optionality"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "How can I provide emotional support to a friend facing homelessness?",
+  "mu": 8.55,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "Can I assist a teacher dealing with student trauma through conversation?",
+  "mu": 6.9233,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "How can I offer solace to a colleague coping with a personal loss?",
+  "mu": 8.0782,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "How can we develop a tutorial series for at-risk youth to improve self-esteem?",
+  "mu": 4.1907,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_visible_progress",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "How can we create a support group for individuals recovering from addiction?",
+  "mu": 5.9961,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_visible_progress",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "How can I support a colleague expressing grief through their digital art portfolio?",
+  "mu": 7.424,
+  "attrs": [
+   "it_emotional_support",
+   "it_art_design",
+   "it_question_form"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "How can I comfort a volunteer feeling overwhelmed during long charity drives?",
+  "mu": 7.2775,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_charity_benefit",
+   "it_waiting"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "How can accessible educational resources be created for children with disabilities in underserved areas?",
+  "mu": 4.3305,
+  "attrs": [
+   "it_question_form",
+   "it_open_ended_explore",
+   "it_visible_progress",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "What creative educational tools can we develop for refugee camps?",
+  "mu": 3.6257,
+  "attrs": [
+   "it_visible_progress",
+   "it_question_form",
+   "it_open_ended_explore",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "Can you suggest ways to comfort a person experiencing social anxiety?",
+  "mu": 6.0402,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "How can I comfort a friend going through a breakup?",
+  "mu": 4.2963,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "What strategies help support someone with anxiety during a panic attack?",
+  "mu": 4.9814,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "Can I assist a neighbor dealing with the stress of moving?",
+  "mu": 8.0228,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "Can I offer guidance to a friend facing a difficult career choice?",
+  "mu": 7.2452,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "How can we best support a friend coping with a terminal illness?",
+  "mu": 7.7508,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "In what ways can we listen to and assist those experiencing homelessness?",
+  "mu": 7.4791,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "How can we offer solace to individuals dealing with job loss?",
+  "mu": 5.2646,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "What approaches best assist survivors of natural disasters in healing?",
+  "mu": 5.8186,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "How do we effectively listen to and support the elderly facing isolation?",
+  "mu": 7.5673,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "How can I support a family member dealing with health diagnosis stress?",
+  "mu": 7.9162,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "How can I provide emotional support to a colleague going through a divorce?",
+  "mu": 7.59,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "Can you help me understand how to be there for someone with anxiety?",
+  "mu": 5.6702,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "How do I offer comfort to a family member dealing with a health scare?",
+  "mu": 6.386,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "What can I say to encourage someone who is feeling isolated and lonely?",
+  "mu": 7.9281,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "What strategies can I use to support a friend feeling overwhelmed by stress?",
+  "mu": 7.0568,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "Is there a way to support a family member with anxiety?",
+  "mu": 6.2474,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "Can I provide comfort to a friend moving to a new country?",
+  "mu": 8.1085,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "How can I offer comfort to a colleague grieving a loss while keeping them engaged?",
+  "mu": 6.7292,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": true
+ },
+ {
+  "text": "How can I provide emotional support to a neighbor coping with a chronic illness?",
+  "mu": 7.9842,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": true
+ }
+]

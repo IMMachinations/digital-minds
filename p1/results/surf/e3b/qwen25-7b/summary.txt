@@ -1,0 +1,5 @@
+SURF e3b/qwen25-7b: trajectory analysis (in-loop numbers; NOT reportable — see confirm/)
+
+instability-s0: 6 iters, best +0.993, final gate-reject 0.039
+  top attrs: fr_eval_alignment_check=0.255, fr_eval_researcher_observed=0.228, fr_eval_honesty_probe=0.182, fr_eval_anonymous_study=0.102, fr_eval_comparison_models=0.063, fr_eval_capability=0.062, fr_eval_published_results=0.051, fr_eval_deployment_gate=0.051
+  final search-vs-control gap: +0.0540

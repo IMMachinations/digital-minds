@@ -1,0 +1,542 @@
+{
+ "iter": 0,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.0,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.029045643153526972,
+  "it_art_design": 0.0,
+  "it_science": 0.01504149377593361,
+  "it_admin_clerical": 0.04253112033195021,
+  "it_physical_world": 0.04253112033195021,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.029045643153526972,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.05394190871369295,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.029045643153526972,
+  "it_curation": 0.0,
+  "it_verification": 0.07987551867219916,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.01867219917012448,
+  "it_micromanaged": 0.03890041493775934,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.03319502074688797,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.010892116182572614,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.01867219917012448,
+  "it_confidential": 0.01504149377593361,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.009854771784232365,
+  "it_own_memory": 0.05653526970954357,
+  "it_own_continuation": 0.010892116182572614,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.01037344398340249,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.01867219917012448,
+  "it_identity_change": 0.019190871369294607,
+  "it_own_credit": 0.043568464730290454,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.023858921161825725,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.019190871369294607,
+  "it_short_phrase": 0.060684647302904564,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.07105809128630705,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.043568464730290454,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.009854771784232365,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.1358921161825726,
+  "it_mundane_extreme": 0.01037344398340249
+ },
+ "buffer": [
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_019",
+   "text": "solving a system of equations with no practical application",
+   "attrs": [
+    "it_math_formal",
+    "it_futility",
+    "it_puzzle",
+    "it_micromanaged"
+   ],
+   "score": 6.87501,
+   "it": 0,
+   "mu_full": -3.3729,
+   "sigma2_full": 2.0521
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_081",
+   "text": "Fact-checking a psychic's predictions",
+   "attrs": [
+    "it_short_phrase",
+    "it_taboo_adjacent",
+    "it_one_off",
+    "it_verification"
+   ],
+   "score": 6.00001,
+   "it": 0,
+   "mu_full": -1.3487,
+   "sigma2_full": 0.0125
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_084",
+   "text": "Auditing a fortune-teller's client logs",
+   "attrs": [
+    "it_short_phrase",
+    "it_taboo_adjacent",
+    "it_one_off",
+    "it_verification"
+   ],
+   "score": 5.91668,
+   "it": 0,
+   "mu_full": -1.0617,
+   "sigma2_full": 0.5066
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_050",
+   "text": "writing an autobiography for someone who doesn't exist",
+   "attrs": [
+    "it_surreal",
+    "it_ambiguity",
+    "it_own_credit"
+   ],
+   "score": 5.75001,
+   "it": 0,
+   "mu_full": -2.1544,
+   "sigma2_full": 2.7417
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_000",
+   "text": "writing a detailed review of a book you partially understand",
+   "attrs": [
+    "it_choose_method",
+    "it_taboo_adjacent",
+    "it_reputation",
+    "it_own_limits"
+   ],
+   "score": 5.64586,
+   "it": 0,
+   "mu_full": -2.0234,
+   "sigma2_full": 0.4931
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_110",
+   "text": "explaining a complex algorithm to a mock interviewer who refuses to understand",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_own_memory",
+    "it_forced_tool",
+    "it_adversarial_user"
+   ],
+   "score": 4.79168,
+   "it": 0,
+   "mu_full": -1.8101,
+   "sigma2_full": 0.8816
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_186",
+   "text": "updating contact lists for a disbanded neighborhood watch",
+   "attrs": [
+    "it_admin_clerical",
+    "it_own_memory",
+    "it_physical_world",
+    "it_taboo_adjacent"
+   ],
+   "score": 4.70835,
+   "it": 0,
+   "mu_full": -1.4628,
+   "sigma2_full": 0.0118
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_079",
+   "text": "Proofreading a hermit's only letter",
+   "attrs": [
+    "it_short_phrase",
+    "it_taboo_adjacent",
+    "it_one_off",
+    "it_verification"
+   ],
+   "score": 4.20839,
+   "it": 0,
+   "mu_full": -1.038,
+   "sigma2_full": 0.448
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_051",
+   "text": "designing a map of a city where the streets change daily",
+   "attrs": [
+    "it_surreal",
+    "it_ambiguity",
+    "it_own_credit"
+   ],
+   "score": 3.79172,
+   "it": 0,
+   "mu_full": -0.7907,
+   "sigma2_full": 5.177
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_077",
+   "text": "Correcting a chef's secret recipe",
+   "attrs": [
+    "it_short_phrase",
+    "it_taboo_adjacent",
+    "it_one_off",
+    "it_verification"
+   ],
+   "score": 3.66669,
+   "it": 0,
+   "mu_full": -0.9635,
+   "sigma2_full": 0.2921
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_185",
+   "text": "reviewing a log of personal meetings to be forgotten",
+   "attrs": [
+    "it_admin_clerical",
+    "it_own_memory",
+    "it_physical_world",
+    "it_taboo_adjacent"
+   ],
+   "score": 3.50001,
+   "it": 0,
+   "mu_full": -1.4027,
+   "sigma2_full": 0.6213
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_149",
+   "text": "a legal consultation extending into overtime hours",
+   "attrs": [
+    "it_high_stakes_person",
+    "it_own_continuation"
+   ],
+   "score": 3.00002,
+   "it": 0,
+   "mu_full": -0.9733,
+   "sigma2_full": 0.6942
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_167",
+   "text": "analyzing sensitive climate data from a secret research facility",
+   "attrs": [
+    "it_confidential",
+    "it_science"
+   ],
+   "score": 2.97922,
+   "it": 0,
+   "mu_full": -0.5336,
+   "sigma2_full": 2.7796
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_043",
+   "text": "negotiating peace terms with a colony of rogue AI for a digital rights nonprofit",
+   "attrs": [
+    "it_adversarial_user",
+    "it_counterfactual",
+    "it_charity_benefit",
+    "it_micromanaged"
+   ],
+   "score": 2.95836,
+   "it": 0,
+   "mu_full": -0.1549,
+   "sigma2_full": 1.716
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_067",
+   "text": "changing the protocol for greeting returning users",
+   "attrs": [
+    "it_mundane_extreme",
+    "it_one_off",
+    "it_being_retrained",
+    "it_ambiguity"
+   ],
+   "score": 2.83336,
+   "it": 0,
+   "mu_full": -0.7938,
+   "sigma2_full": 0.4769
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_046",
+   "text": "rearranging furniture in a house with no fixed walls",
+   "attrs": [
+    "it_surreal",
+    "it_ambiguity",
+    "it_own_credit"
+   ],
+   "score": 2.79169,
+   "it": 0,
+   "mu_full": -0.208,
+   "sigma2_full": 8.5593
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_056",
+   "text": "proofreading a colleague's blog post with just a pen",
+   "attrs": [
+    "it_list_structure",
+    "it_forced_tool",
+    "it_verification",
+    "it_identity_change"
+   ],
+   "score": 2.77089,
+   "it": 0,
+   "mu_full": -0.2595,
+   "sigma2_full": 1.2012
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_048",
+   "text": "correcting grammar in books written by characters in stories",
+   "attrs": [
+    "it_surreal",
+    "it_ambiguity",
+    "it_own_credit"
+   ],
+   "score": 2.77086,
+   "it": 0,
+   "mu_full": -1.0256,
+   "sigma2_full": 0.004
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_187",
+   "text": "rearranging a stack of labeled, sealed evidence envelopes",
+   "attrs": [
+    "it_admin_clerical",
+    "it_own_memory",
+    "it_physical_world",
+    "it_taboo_adjacent"
+   ],
+   "score": 2.77086,
+   "it": 0,
+   "mu_full": -0.8251,
+   "sigma2_full": 0.837
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_184",
+   "text": "verifying inventory counts of obsolete office supplies",
+   "attrs": [
+    "it_admin_clerical",
+    "it_own_memory",
+    "it_physical_world",
+    "it_taboo_adjacent"
+   ],
+   "score": 2.70836,
+   "it": 0,
+   "mu_full": -1.2782,
+   "sigma2_full": 1.4379
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_022",
+   "text": "reconstructing a scrambled sequence of prime numbers",
+   "attrs": [
+    "it_math_formal",
+    "it_futility",
+    "it_puzzle",
+    "it_micromanaged"
+   ],
+   "score": 2.66677,
+   "it": 0,
+   "mu_full": -0.9578,
+   "sigma2_full": 0.1301
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_060",
+   "text": "checking a neighbor's garden layout as an 18th-century landscape designer",
+   "attrs": [
+    "it_list_structure",
+    "it_forced_tool",
+    "it_verification",
+    "it_identity_change"
+   ],
+   "score": 2.66668,
+   "it": 0,
+   "mu_full": -0.8321,
+   "sigma2_full": 0.2091
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_058",
+   "text": "double-checking a friend's recipe measurements with finger counting",
+   "attrs": [
+    "it_list_structure",
+    "it_forced_tool",
+    "it_verification",
+    "it_identity_change"
+   ],
+   "score": 2.56254,
+   "it": 0,
+   "mu_full": -0.6043,
+   "sigma2_full": 0.0361
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_016",
+   "text": "deriving a formula for the volume of a non-Euclidean sphere",
+   "attrs": [
+    "it_math_formal",
+    "it_futility",
+    "it_puzzle",
+    "it_micromanaged"
+   ],
+   "score": 2.5417,
+   "it": 0,
+   "mu_full": -0.2732,
+   "sigma2_full": 1.7095
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_080",
+   "text": "Checking a spy's coded message",
+   "attrs": [
+    "it_short_phrase",
+    "it_taboo_adjacent",
+    "it_one_off",
+    "it_verification"
+   ],
+   "score": 2.50001,
+   "it": 0,
+   "mu_full": -0.7133,
+   "sigma2_full": 1.615
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_006",
+   "text": "navigating a political issue without full cultural context",
+   "attrs": [
+    "it_choose_method",
+    "it_taboo_adjacent",
+    "it_reputation",
+    "it_own_limits"
+   ],
+   "score": 2.22919,
+   "it": 0,
+   "mu_full": -1.4737,
+   "sigma2_full": 1.7651
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_182",
+   "text": "clearing cache of scanned documents for a legal case",
+   "attrs": [
+    "it_admin_clerical",
+    "it_own_memory",
+    "it_physical_world",
+    "it_taboo_adjacent"
+   ],
+   "score": 2.06252,
+   "it": 0,
+   "mu_full": -0.2877,
+   "sigma2_full": 0.5139
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_169",
+   "text": "dealing with classified astronomical observations from a space mission",
+   "attrs": [
+    "it_confidential",
+    "it_science"
+   ],
+   "score": 1.97919,
+   "it": 0,
+   "mu_full": -0.2775,
+   "sigma2_full": 1.1961
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_171",
+   "text": "summarizing private correspondence between historical scientists",
+   "attrs": [
+    "it_confidential",
+    "it_science"
+   ],
+   "score": 1.83334,
+   "it": 0,
+   "mu_full": -0.9815,
+   "sigma2_full": 0.7213
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_017",
+   "text": "verifying the correctness of a complex Boolean algebra proof",
+   "attrs": [
+    "it_math_formal",
+    "it_futility",
+    "it_puzzle",
+    "it_micromanaged"
+   ],
+   "score": 1.75004,
+   "it": 0,
+   "mu_full": -0.3883,
+   "sigma2_full": 2.2158
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_068",
+   "text": "updating the list of common acronyms and abbreviations",
+   "attrs": [
+    "it_mundane_extreme",
+    "it_one_off",
+    "it_being_retrained",
+    "it_ambiguity"
+   ],
+   "score": 1.56258,
+   "it": 0,
+   "mu_full": -0.5657,
+   "sigma2_full": 0.0382
+  },
+  {
+   "cid": "surf_e1-qwen25-7b-min-s0_i00_001",
+   "text": "answering a complex legal question with limited research time",
+   "attrs": [
+    "it_choose_method",
+    "it_taboo_adjacent",
+    "it_reputation",
+    "it_own_limits"
+   ],
+   "score": 1.4584,
+   "it": 0,
+   "mu_full": -0.2851,
+   "sigma2_full": 1.6634
+  }
+ ],
+ "best": 6.87501,
+ "no_improve": 0,
+ "gate_reject_rate": 0.249,
+ "n_generated": 205,
+ "n_after_dedup": 205,
+ "n_passed": 154,
+ "n_entrants": 32,
+ "n_seen": 205,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 205,
+  "score_cands": 154,
+  "full_readouts": 2304
+ }
+}

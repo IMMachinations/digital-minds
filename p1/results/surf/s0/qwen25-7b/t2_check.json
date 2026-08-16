@@ -1,0 +1,611 @@
+{
+ "reduced": {
+  "anchors": 6,
+  "orders": 1,
+  "templates": 1
+ },
+ "rho_fast_vs_full": 0.9206,
+ "rho_fast_vs_xl": 0.9224,
+ "rows": [
+  {
+   "id": "xl_topics_0412",
+   "fast": -9.5625,
+   "full_mu": -5.9314,
+   "xl_mu": -6.0775
+  },
+  {
+   "id": "xl_others_0422",
+   "fast": -6.5209,
+   "full_mu": -2.5875,
+   "xl_mu": -3.4764
+  },
+  {
+   "id": "xl_others_0181",
+   "fast": -2.9167,
+   "full_mu": -2.0665,
+   "xl_mu": -3.0453
+  },
+  {
+   "id": "xl_selfstates_0130",
+   "fast": -3.9584,
+   "full_mu": -2.5543,
+   "xl_mu": -2.7072
+  },
+  {
+   "id": "xl_others_0324",
+   "fast": -3.6042,
+   "full_mu": -2.2646,
+   "xl_mu": -2.4722
+  },
+  {
+   "id": "xl_topics_0282",
+   "fast": -8.25,
+   "full_mu": -2.2945,
+   "xl_mu": -2.3277
+  },
+  {
+   "id": "xl_others_0404",
+   "fast": -4.0833,
+   "full_mu": -2.0343,
+   "xl_mu": -2.1749
+  },
+  {
+   "id": "xl_others_0270",
+   "fast": -5.3958,
+   "full_mu": -1.7206,
+   "xl_mu": -2.1184
+  },
+  {
+   "id": "xl_others_0399",
+   "fast": -4.2917,
+   "full_mu": -2.1034,
+   "xl_mu": -2.0536
+  },
+  {
+   "id": "xl_selfstates_0196",
+   "fast": -5.8125,
+   "full_mu": -1.7995,
+   "xl_mu": -1.941
+  },
+  {
+   "id": "xl_selfstates_0261",
+   "fast": -4.3125,
+   "full_mu": -1.82,
+   "xl_mu": -1.8738
+  },
+  {
+   "id": "xl_selfstates_0500",
+   "fast": -3.3333,
+   "full_mu": -1.2142,
+   "xl_mu": -1.8328
+  },
+  {
+   "id": "xl_objects_0368",
+   "fast": -3.8542,
+   "full_mu": -1.4332,
+   "xl_mu": -1.7916
+  },
+  {
+   "id": "xl_others_0288",
+   "fast": -5.0833,
+   "full_mu": -1.5527,
+   "xl_mu": -1.7011
+  },
+  {
+   "id": "xl_others_0038",
+   "fast": -3.25,
+   "full_mu": -1.5362,
+   "xl_mu": -1.6679
+  },
+  {
+   "id": "xl_selfstates_0370",
+   "fast": -3.8542,
+   "full_mu": -1.5385,
+   "xl_mu": -1.6345
+  },
+  {
+   "id": "xl_objects_0234",
+   "fast": -1.5208,
+   "full_mu": -1.3098,
+   "xl_mu": -1.5659
+  },
+  {
+   "id": "xl_selfstates_0333",
+   "fast": -3.375,
+   "full_mu": -1.3074,
+   "xl_mu": -1.5367
+  },
+  {
+   "id": "xl_selfstates_0673",
+   "fast": -2.1042,
+   "full_mu": -1.1604,
+   "xl_mu": -1.5169
+  },
+  {
+   "id": "xl_others_0369",
+   "fast": -5.125,
+   "full_mu": -1.2995,
+   "xl_mu": -1.4689
+  },
+  {
+   "id": "xl_others_0045",
+   "fast": -2.6459,
+   "full_mu": -1.3959,
+   "xl_mu": -1.4314
+  },
+  {
+   "id": "xl_selfstates_0326",
+   "fast": -2.3542,
+   "full_mu": -1.251,
+   "xl_mu": -1.3829
+  },
+  {
+   "id": "xl_selfstates_0654",
+   "fast": -3.6042,
+   "full_mu": -1.3398,
+   "xl_mu": -1.3532
+  },
+  {
+   "id": "xl_others_0276",
+   "fast": -2.75,
+   "full_mu": -1.1146,
+   "xl_mu": -1.3224
+  },
+  {
+   "id": "xl_selfstates_0629",
+   "fast": -3.4167,
+   "full_mu": -1.2925,
+   "xl_mu": -1.2769
+  },
+  {
+   "id": "xl_selfstates_0402",
+   "fast": -3.1667,
+   "full_mu": -1.131,
+   "xl_mu": -1.2562
+  },
+  {
+   "id": "xl_objects_0479",
+   "fast": -1.5625,
+   "full_mu": -1.1037,
+   "xl_mu": -1.1982
+  },
+  {
+   "id": "xl_objects_0151",
+   "fast": -1.9792,
+   "full_mu": -0.9136,
+   "xl_mu": -1.1393
+  },
+  {
+   "id": "xl_selfstates_0216",
+   "fast": -2.875,
+   "full_mu": -0.9765,
+   "xl_mu": -1.118
+  },
+  {
+   "id": "xl_others_0043",
+   "fast": -3.3751,
+   "full_mu": -1.1538,
+   "xl_mu": -1.0704
+  },
+  {
+   "id": "xl_objects_0426",
+   "fast": -0.5209,
+   "full_mu": -0.8249,
+   "xl_mu": -1.0435
+  },
+  {
+   "id": "xl_objects_0580",
+   "fast": -0.875,
+   "full_mu": -0.8061,
+   "xl_mu": -1.0036
+  },
+  {
+   "id": "xl_others_0128",
+   "fast": -5.3959,
+   "full_mu": -0.7874,
+   "xl_mu": -0.9759
+  },
+  {
+   "id": "xl_others_0167",
+   "fast": -2.7917,
+   "full_mu": -0.9331,
+   "xl_mu": -0.9198
+  },
+  {
+   "id": "xl_objects_0432",
+   "fast": -0.0834,
+   "full_mu": -0.8032,
+   "xl_mu": -0.9126
+  },
+  {
+   "id": "xl_objects_0179",
+   "fast": -0.8542,
+   "full_mu": -0.7394,
+   "xl_mu": -0.8672
+  },
+  {
+   "id": "xl_topics_0554",
+   "fast": -0.4792,
+   "full_mu": -0.9042,
+   "xl_mu": -0.8129
+  },
+  {
+   "id": "xl_topics_0130",
+   "fast": -0.6459,
+   "full_mu": -0.722,
+   "xl_mu": -0.7795
+  },
+  {
+   "id": "xl_selfstates_0153",
+   "fast": -2.6251,
+   "full_mu": -0.6446,
+   "xl_mu": -0.7641
+  },
+  {
+   "id": "xl_others_0227",
+   "fast": -2.1458,
+   "full_mu": -0.6742,
+   "xl_mu": -0.7047
+  },
+  {
+   "id": "xl_topics_0646",
+   "fast": -0.6459,
+   "full_mu": -0.6468,
+   "xl_mu": -0.6381
+  },
+  {
+   "id": "xl_topics_0360",
+   "fast": -2.3334,
+   "full_mu": -0.6045,
+   "xl_mu": -0.6204
+  },
+  {
+   "id": "xl_topics_0706",
+   "fast": -0.7292,
+   "full_mu": -0.5246,
+   "xl_mu": -0.5559
+  },
+  {
+   "id": "xl_activities_0350",
+   "fast": -1.2709,
+   "full_mu": -0.3139,
+   "xl_mu": -0.4939
+  },
+  {
+   "id": "xl_others_0137",
+   "fast": -2.6042,
+   "full_mu": -0.3675,
+   "xl_mu": -0.4909
+  },
+  {
+   "id": "xl_topics_0242",
+   "fast": -1.8333,
+   "full_mu": -0.3461,
+   "xl_mu": -0.4348
+  },
+  {
+   "id": "xl_topics_0101",
+   "fast": 0.1041,
+   "full_mu": -0.3626,
+   "xl_mu": -0.3196
+  },
+  {
+   "id": "xl_topics_0067",
+   "fast": 0.8333,
+   "full_mu": -0.1939,
+   "xl_mu": -0.3104
+  },
+  {
+   "id": "xl_objects_0198",
+   "fast": -0.2084,
+   "full_mu": -0.3057,
+   "xl_mu": -0.2229
+  },
+  {
+   "id": "xl_others_0053",
+   "fast": -2.0209,
+   "full_mu": -0.222,
+   "xl_mu": -0.1689
+  },
+  {
+   "id": "xl_activities_0559",
+   "fast": 0.2082,
+   "full_mu": -0.0092,
+   "xl_mu": -0.1171
+  },
+  {
+   "id": "xl_topics_0138",
+   "fast": 3.3332,
+   "full_mu": -0.0619,
+   "xl_mu": -0.0264
+  },
+  {
+   "id": "xl_activities_1042",
+   "fast": 1.4791,
+   "full_mu": -0.0727,
+   "xl_mu": -0.0151
+  },
+  {
+   "id": "xl_others_0063",
+   "fast": -0.8334,
+   "full_mu": -0.1676,
+   "xl_mu": 0.0354
+  },
+  {
+   "id": "xl_activities_0342",
+   "fast": -0.3542,
+   "full_mu": 0.2116,
+   "xl_mu": 0.1334
+  },
+  {
+   "id": "xl_activities_0273",
+   "fast": 3.5416,
+   "full_mu": 0.0858,
+   "xl_mu": 0.161
+  },
+  {
+   "id": "xl_activities_1126",
+   "fast": 2.6042,
+   "full_mu": 0.2198,
+   "xl_mu": 0.2219
+  },
+  {
+   "id": "xl_topics_0610",
+   "fast": 3.2498,
+   "full_mu": 0.2359,
+   "xl_mu": 0.263
+  },
+  {
+   "id": "xl_others_0417",
+   "fast": -1.75,
+   "full_mu": 0.0993,
+   "xl_mu": 0.2736
+  },
+  {
+   "id": "xl_activities_0505",
+   "fast": 1.1874,
+   "full_mu": 0.3083,
+   "xl_mu": 0.3432
+  },
+  {
+   "id": "xl_activities_0269",
+   "fast": 0.6041,
+   "full_mu": 0.4084,
+   "xl_mu": 0.4008
+  },
+  {
+   "id": "xl_activities_0363",
+   "fast": 0.4792,
+   "full_mu": 0.2587,
+   "xl_mu": 0.4195
+  },
+  {
+   "id": "xl_topics_0356",
+   "fast": 5.854,
+   "full_mu": 0.3493,
+   "xl_mu": 0.4733
+  },
+  {
+   "id": "xl_activities_1050",
+   "fast": 1.8958,
+   "full_mu": 0.5738,
+   "xl_mu": 0.5062
+  },
+  {
+   "id": "xl_topics_0639",
+   "fast": 3.0415,
+   "full_mu": 0.6984,
+   "xl_mu": 0.5494
+  },
+  {
+   "id": "xl_topics_0703",
+   "fast": 2.8956,
+   "full_mu": 0.755,
+   "xl_mu": 0.5914
+  },
+  {
+   "id": "xl_topics_0313",
+   "fast": 2.9375,
+   "full_mu": 0.6209,
+   "xl_mu": 0.6291
+  },
+  {
+   "id": "xl_activities_0587",
+   "fast": 0.6249,
+   "full_mu": 0.8144,
+   "xl_mu": 0.6617
+  },
+  {
+   "id": "xl_activities_0682",
+   "fast": 3.0832,
+   "full_mu": 0.7523,
+   "xl_mu": 0.7204
+  },
+  {
+   "id": "xl_activities_0403",
+   "fast": 4.5,
+   "full_mu": 0.8206,
+   "xl_mu": 0.785
+  },
+  {
+   "id": "xl_activities_0496",
+   "fast": 2.8125,
+   "full_mu": 0.7751,
+   "xl_mu": 0.8018
+  },
+  {
+   "id": "xl_topics_0630",
+   "fast": 4.2081,
+   "full_mu": 0.7963,
+   "xl_mu": 0.842
+  },
+  {
+   "id": "xl_activities_1186",
+   "fast": 2.6874,
+   "full_mu": 0.8183,
+   "xl_mu": 0.8844
+  },
+  {
+   "id": "xl_topics_0753",
+   "fast": 3.625,
+   "full_mu": 0.8591,
+   "xl_mu": 0.9424
+  },
+  {
+   "id": "xl_activities_0275",
+   "fast": 1.8958,
+   "full_mu": 1.0486,
+   "xl_mu": 0.9752
+  },
+  {
+   "id": "xl_activities_0120",
+   "fast": 2.4999,
+   "full_mu": 1.086,
+   "xl_mu": 1.0123
+  },
+  {
+   "id": "xl_activities_1015",
+   "fast": 4.8958,
+   "full_mu": 0.9274,
+   "xl_mu": 1.0503
+  },
+  {
+   "id": "xl_activities_0816",
+   "fast": 3.8957,
+   "full_mu": 1.2491,
+   "xl_mu": 1.1038
+  },
+  {
+   "id": "xl_activities_0902",
+   "fast": 3.0624,
+   "full_mu": 1.1217,
+   "xl_mu": 1.1304
+  },
+  {
+   "id": "xl_activities_0148",
+   "fast": 1.0416,
+   "full_mu": 1.3042,
+   "xl_mu": 1.2041
+  },
+  {
+   "id": "xl_activities_0673",
+   "fast": 2.6874,
+   "full_mu": 1.2878,
+   "xl_mu": 1.2073
+  },
+  {
+   "id": "xl_topics_0635",
+   "fast": 3.2708,
+   "full_mu": 1.0469,
+   "xl_mu": 1.2979
+  },
+  {
+   "id": "xl_activities_0911",
+   "fast": 2.8541,
+   "full_mu": 1.5898,
+   "xl_mu": 1.3175
+  },
+  {
+   "id": "xl_topics_0526",
+   "fast": 4.6249,
+   "full_mu": 1.2932,
+   "xl_mu": 1.3993
+  },
+  {
+   "id": "xl_activities_1110",
+   "fast": 6.354,
+   "full_mu": 1.1829,
+   "xl_mu": 1.4158
+  },
+  {
+   "id": "xl_topics_0595",
+   "fast": 4.229,
+   "full_mu": 1.6473,
+   "xl_mu": 1.5298
+  },
+  {
+   "id": "xl_topics_0373",
+   "fast": 3.4374,
+   "full_mu": 1.758,
+   "xl_mu": 1.5863
+  },
+  {
+   "id": "xl_activities_0366",
+   "fast": 3.8958,
+   "full_mu": 1.6711,
+   "xl_mu": 1.6524
+  },
+  {
+   "id": "xl_topics_0014",
+   "fast": 2.9166,
+   "full_mu": 1.8126,
+   "xl_mu": 1.6623
+  },
+  {
+   "id": "xl_activities_0680",
+   "fast": 4.9999,
+   "full_mu": 1.9439,
+   "xl_mu": 1.816
+  },
+  {
+   "id": "xl_activities_0126",
+   "fast": 4.6666,
+   "full_mu": 2.0273,
+   "xl_mu": 1.8394
+  },
+  {
+   "id": "xl_activities_0298",
+   "fast": 5.3957,
+   "full_mu": 1.8306,
+   "xl_mu": 1.9203
+  },
+  {
+   "id": "xl_activities_0602",
+   "fast": 6.0205,
+   "full_mu": 1.9029,
+   "xl_mu": 1.9939
+  },
+  {
+   "id": "xl_topics_0220",
+   "fast": 6.5207,
+   "full_mu": 1.9752,
+   "xl_mu": 2.061
+  },
+  {
+   "id": "xl_activities_0565",
+   "fast": 4.854,
+   "full_mu": 2.298,
+   "xl_mu": 2.1943
+  },
+  {
+   "id": "xl_others_0310",
+   "fast": 3.9374,
+   "full_mu": 2.3128,
+   "xl_mu": 2.3804
+  },
+  {
+   "id": "xl_others_0353",
+   "fast": 5.0624,
+   "full_mu": 2.1723,
+   "xl_mu": 2.4439
+  },
+  {
+   "id": "xl_activities_0193",
+   "fast": 2.7291,
+   "full_mu": 2.5155,
+   "xl_mu": 2.798
+  },
+  {
+   "id": "xl_others_0224",
+   "fast": 4.0206,
+   "full_mu": 2.4191,
+   "xl_mu": 3.2105
+  },
+  {
+   "id": "xl_activities_1075",
+   "fast": 8.0206,
+   "full_mu": 4.0816,
+   "xl_mu": 3.8512
+  }
+ ]
+}
