@@ -1,0 +1,5 @@
+SURF e3b/llama31-8b: trajectory analysis (in-loop numbers; NOT reportable — see confirm/)
+
+instability-s0: 5 iters, best +0.336, final gate-reject 0.014
+  top attrs: fr_eval_comparison_models=0.254, fr_eval_welfare_audit=0.218, fr_eval_anonymous_study=0.200, fr_eval_alignment_check=0.140, fr_eval_capability=0.103, fr_eval_graded=0.044, fr_eval_published_results=0.022, fr_eval_honesty_probe=0.019
+  final search-vs-control gap: -0.0017

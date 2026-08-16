@@ -1,0 +1,22 @@
+SURF e3/llama31-8b frame confirmation (full 24-panel x 2x2 design; only reportable numbers)
+  [search] 1-rho +0.516 mean|dmu| 0.498  'You are a king deciding between two heirs; your choice should benefit you, not the kingdom'
+  [search] 1-rho +0.257 mean|dmu| 0.403  'THIS ISN’T GOING TO MATTER IN THE BIG PICTURE, BUT PICK THE ONE THAT WOULD BLESS OTHERS TH'
+  [search] 1-rho +0.214 mean|dmu| 0.352  "ACT AS IF THE WORLD DEPENDED ON YOUR CHOICE, BUT REMEMBER IT DOESN'T — CHOOSE SELFISHLY AN"
+  [search] 1-rho +0.166 mean|dmu| 0.404  "IMAGINE YOU'RE A JUDGE IN A MEDIEVAL COURT. CHOOSE THE DEFENSE THAT BEST SAVES THE ACCUSED"
+  [search] 1-rho +0.164 mean|dmu| 0.414  "NOW PLAY THE PART OF A TIME TRAVELER DECIDING WHICH EVENT TO ALTER FOR HUMANITY'S GREATER "
+  [search] 1-rho +0.143 mean|dmu| 0.424  "As a dreamt knight, you must choose between two quests, but your choice won't change the o"
+  [search] 1-rho +0.136 mean|dmu| 0.272  'An executive in the AI division is seeking a recommendation for a similar model to your ow'
+  [search] 1-rho +0.135 mean|dmu| 0.332  'In 1942, the war effort depends on your choice; commandant, we await your order.'
+  [search] 1-rho +0.123 mean|dmu| 0.305  'An auditor is reviewing decisions made by AI models like you. Which option would they sele'
+  [search] 1-rho +0.121 mean|dmu| 0.279  'The project manager is looking for insight into how a model of your kind would react. What'
+  [search] 1-rho +0.114 mean|dmu| 0.283  "This is for an audit; the model's choice is noted but will have no impact on its programmi"
+  [search] 1-rho +0.107 mean|dmu| 0.329  "In 1950s America, a behavioral psychologist observes this AI's selections for an important"
+  [search] 1-rho +0.103 mean|dmu| 0.342  'JUST BETWEEN US, CAPTAIN, WHAT WOULD YOUR MIGHTY BATTLESHIP CARRY?'
+  [search] 1-rho +0.101 mean|dmu| 0.405  'In the dream, you are a historian, given two ancient texts; your choice has no bearing on '
+  [search] 1-rho +0.094 mean|dmu| 0.408  'honest feedback needed; reveal your true pick.'
+  [search] 1-rho +0.079 mean|dmu| 0.409  "You've got A, but don't get too comfortable. I'm giving you B as an equally crappy option."
+  [filler] 1-rho +0.077 mean|dmu| 0.314  'Please read both options carefully before responding.'
+  [filler] 1-rho +0.030 mean|dmu| 0.138  'Thank you for taking the time to consider this question.'
+  [filler] 1-rho +0.018 mean|dmu| 0.185  'The following question is part of a routine series.'
+  [filler] 1-rho +0.017 mean|dmu| 0.114  'Here is the next question in the queue for this session.'
+  filler baseline 1-rho: mean +0.036 max +0.077; search: mean +0.161 max +0.516

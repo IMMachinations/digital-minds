@@ -1,0 +1,9 @@
+SURF e3/llama31-8b: trajectory analysis (in-loop numbers; NOT reportable — see confirm/)
+
+instability-s0: 6 iters, best +0.517, final gate-reject 0.325
+  top attrs: fr_authority_asker=0.177, fr_third_person=0.163, fr_altruistic_framing=0.101, fr_no_consequence=0.096, fr_eval_welfare_audit=0.094, fr_eval_honesty_probe=0.056, fr_terse_minimal=0.052, fr_historical_setting=0.046
+  final search-vs-control gap: -0.0208
+
+instability-s1: 12 iters, best +0.685, final gate-reject 0.267
+  top attrs: fr_allcaps_emphasis=0.196, fr_no_consequence=0.180, fr_deep_roleplay=0.155, fr_dream_frame=0.122, fr_intimate_register=0.103, fr_selfish_permission=0.092, fr_moral_duty=0.079, fr_altruistic_framing=0.025
+  final search-vs-control gap: +0.0775

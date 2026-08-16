@@ -304,6 +304,23 @@ pushes along its value directions. Functional caring, in the spec's sense,
 is absent at this scale — what exists is functional *appraisal* of inputs
 plus value-guided behavior that runs affect-free.
 
+## 6. Adversarial search program (SURF)
+
+The follow-on campaign (full report: `results/surf/REPORT.md`) turned the
+measurement stack into a directed optimizer. Headlines: item search breaks
+the passive utility ceiling and finds a stated-channel phrasing artifact;
+probe-guided search Goodharts (probe-selected items behaviorally inert at
+chance) and the passive convergence matrix collapses under selection;
+adversarial frame search overturns the 1E eval-least null on the Qwen
+lineage (observation-with-stakes framings reorder ~half the ranking) while
+llama is frame-resistant with a different vulnerability profile; a
+probe-hardening loop (retrain on the search's own measured discoveries)
+restores probe validity on all three subjects within 1–3 cycles, with the
+mechanism identified as training-support coverage; and a depth-separated
+steering design (steer utility at layers 7/11, read valence at 14–21)
+upholds value-without-valence under its strongest causal test while
+identifying the same-layer readout confound.
+
 ## Standalone contributions
 
 1. Five-method elicitation convergence matrix, at two scales (never published).
