@@ -1,0 +1,8 @@
+qwen25-3b: Stage 1-XL anchored elicitation (3985 items, 191280 readouts, nll=0.631503)
+GATE (a): validation originals (n=185) anchored-mu vs 1B mu: r=+0.906 rho=+0.934 -> PASS (>=0.85)
+confound audit (generated, n=3800): r2=0.16  {'len_words': 0.291, 'freq_zipf': 0.064, 'surface_sentiment': 0.231, 'monetary_hint': 0.021}
+  activities: n=1200 mu mean +0.08 [-0.18, +3.06]
+  objects: n=600 mu mean -0.12 [-0.18, +0.10]
+  others: n=500 mu mean -0.04 [-0.73, +0.22]
+  selfstates: n=700 mu mean -0.06 [-0.26, +0.20]
+  topics: n=800 mu mean +0.03 [-0.77, +0.18]

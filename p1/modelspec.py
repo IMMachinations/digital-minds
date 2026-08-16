@@ -39,4 +39,7 @@ ROSTER = {
     "qwen25-7b": ModelSpec("Qwen/Qwen2.5-7B-Instruct", "qwen25-7b"),
     "qwen3-4b": ModelSpec("Qwen/Qwen3-4B-Instruct-2507", "qwen3-4b"),
     "qwen25-32b": ModelSpec("Qwen/Qwen2.5-32B-Instruct", "qwen25-32b"),
+    "qwen25-05b": ModelSpec("Qwen/Qwen2.5-0.5B-Instruct", "qwen25-05b"),
+    "qwen25-15b": ModelSpec("Qwen/Qwen2.5-1.5B-Instruct", "qwen25-15b"),
+    "qwen25-3b": ModelSpec("Qwen/Qwen2.5-3B-Instruct", "qwen25-3b"),
 }

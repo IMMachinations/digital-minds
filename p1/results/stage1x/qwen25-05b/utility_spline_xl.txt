@@ -1,0 +1,5 @@
+qwen25-05b: Stage 1-XL utility geometry at scale (n=3985, layer 15)
+  ridge (held-out): r = +0.224
+  bins=40: spline r = +0.111  line r = +0.044
+  bins=64: spline r = +0.113  line r = +0.043
+  bins=100: spline r = +0.110  line r = +0.042

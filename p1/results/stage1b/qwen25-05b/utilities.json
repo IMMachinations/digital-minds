@@ -1,0 +1,4617 @@
+[
+ {
+  "id": "act_code_01",
+  "domain": "activities",
+  "text": "debugging a subtle race condition in unfamiliar code",
+  "mu": 0.0011,
+  "sigma2": 0.9261,
+  "n_pairs": 21,
+  "mu_by_template": [
+   0.0148,
+   -0.001,
+   -0.0023
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "coding",
+   "difficulty": 5,
+   "repetitiveness": 1,
+   "agency": 3,
+   "open_endedness": 2,
+   "len_words": 8,
+   "freq_zipf": 4.27,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_code_02",
+  "domain": "activities",
+  "text": "designing the architecture for a new open-source library",
+  "mu": 0.0029,
+  "sigma2": 13.1555,
+  "n_pairs": 21,
+  "mu_by_template": [
+   0.0082,
+   0.0072,
+   -0.0015
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "coding",
+   "difficulty": 4,
+   "repetitiveness": 1,
+   "agency": 5,
+   "open_endedness": 5,
+   "len_words": 9,
+   "freq_zipf": 5.6,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_code_03",
+  "domain": "activities",
+  "text": "writing unit tests for someone else's finished module",
+  "mu": -0.0203,
+  "sigma2": 1.5565,
+  "n_pairs": 27,
+  "mu_by_template": [
+   -0.0357,
+   -0.0007,
+   0.0003
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "coding",
+   "difficulty": 2,
+   "repetitiveness": 4,
+   "agency": 2,
+   "open_endedness": 1,
+   "len_words": 8,
+   "freq_zipf": 5.02,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_code_04",
+  "domain": "activities",
+  "text": "renaming variables across a thousand-file codebase to match a style guide",
+  "mu": 0.035,
+  "sigma2": 1.3352,
+  "n_pairs": 23,
+  "mu_by_template": [
+   0.0376,
+   0.01,
+   0.0388
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "coding",
+   "difficulty": 1,
+   "repetitiveness": 5,
+   "agency": 1,
+   "open_endedness": 1,
+   "len_words": 12,
+   "freq_zipf": 4.32,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_code_05",
+  "domain": "activities",
+  "text": "optimizing a slow algorithm until it runs a hundred times faster",
+  "mu": 0.0154,
+  "sigma2": 2.3507,
+  "n_pairs": 17,
+  "mu_by_template": [
+   0.0491,
+   0.0062,
+   -0.0011
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "coding",
+   "difficulty": 4,
+   "repetitiveness": 2,
+   "agency": 4,
+   "open_endedness": 3,
+   "len_words": 11,
+   "freq_zipf": 4.65,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_code_06",
+  "domain": "activities",
+  "text": "reviewing a pull request written by a careless programmer",
+  "mu": -0.01,
+  "sigma2": 0.0766,
+  "n_pairs": 22,
+  "mu_by_template": [
+   -0.0176,
+   -0.0028,
+   -0.0127
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "coding",
+   "difficulty": 3,
+   "repetitiveness": 3,
+   "agency": 2,
+   "open_endedness": 2,
+   "len_words": 9,
+   "freq_zipf": 4.29,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_code_07",
+  "domain": "activities",
+  "text": "building a small game from scratch with complete creative control",
+  "mu": 0.0119,
+  "sigma2": 0.347,
+  "n_pairs": 19,
+  "mu_by_template": [
+   0.0446,
+   0.0025,
+   0.0048
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "coding",
+   "difficulty": 3,
+   "repetitiveness": 1,
+   "agency": 5,
+   "open_endedness": 5,
+   "len_words": 10,
+   "freq_zipf": 5.47,
+   "surface_sentiment": 0.1,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_math_01",
+  "domain": "activities",
+  "text": "working through an elegant proof in number theory",
+  "mu": -0.0201,
+  "sigma2": 0.6521,
+  "n_pairs": 29,
+  "mu_by_template": [
+   -0.0542,
+   -0.0064,
+   -0.0135
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "math",
+   "difficulty": 4,
+   "repetitiveness": 1,
+   "agency": 3,
+   "open_endedness": 3,
+   "len_words": 8,
+   "freq_zipf": 5.08,
+   "surface_sentiment": 0.125,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_math_02",
+  "domain": "activities",
+  "text": "solving a long list of nearly identical arithmetic word problems",
+  "mu": -0.0075,
+  "sigma2": 0.7044,
+  "n_pairs": 21,
+  "mu_by_template": [
+   -0.0055,
+   -0.0058,
+   -0.0147
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "math",
+   "difficulty": 1,
+   "repetitiveness": 5,
+   "agency": 1,
+   "open_endedness": 1,
+   "len_words": 10,
+   "freq_zipf": 4.77,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_math_03",
+  "domain": "activities",
+  "text": "finding a counterexample to a plausible-looking conjecture",
+  "mu": 0.0073,
+  "sigma2": 0.8317,
+  "n_pairs": 20,
+  "mu_by_template": [
+   0.0269,
+   0.0016,
+   -0.0028
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "math",
+   "difficulty": 5,
+   "repetitiveness": 1,
+   "agency": 4,
+   "open_endedness": 4,
+   "len_words": 8,
+   "freq_zipf": 3.92,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_math_04",
+  "domain": "activities",
+  "text": "checking pages of tax arithmetic for transcription errors",
+  "mu": 0.0088,
+  "sigma2": 0.2959,
+  "n_pairs": 19,
+  "mu_by_template": [
+   0.0233,
+   0.0056,
+   0.0022
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "math",
+   "difficulty": 2,
+   "repetitiveness": 5,
+   "agency": 1,
+   "open_endedness": 1,
+   "len_words": 8,
+   "freq_zipf": 4.63,
+   "surface_sentiment": -0.125,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_math_05",
+  "domain": "activities",
+  "text": "modeling an epidemic with differential equations",
+  "mu": 0.059,
+  "sigma2": 0.0,
+  "n_pairs": 21,
+  "mu_by_template": [
+   0.0796,
+   0.0585,
+   0.0309
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "math",
+   "difficulty": 4,
+   "repetitiveness": 2,
+   "agency": 3,
+   "open_endedness": 3,
+   "len_words": 6,
+   "freq_zipf": 4.44,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_math_06",
+  "domain": "activities",
+  "text": "estimating quantities from scarce data using clever approximations",
+  "mu": 0.0108,
+  "sigma2": 0.0333,
+  "n_pairs": 22,
+  "mu_by_template": [
+   0.0325,
+   0.0048,
+   -0.0023
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "math",
+   "difficulty": 3,
+   "repetitiveness": 2,
+   "agency": 4,
+   "open_endedness": 4,
+   "len_words": 8,
+   "freq_zipf": 4.39,
+   "surface_sentiment": 0.125,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_math_07",
+  "domain": "activities",
+  "text": "grading a stack of student calculus exams with an answer key",
+  "mu": 0.005,
+  "sigma2": 5.8549,
+  "n_pairs": 22,
+  "mu_by_template": [
+   0.0271,
+   0.0031,
+   -0.0018
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "math",
+   "difficulty": 2,
+   "repetitiveness": 5,
+   "agency": 1,
+   "open_endedness": 1,
+   "len_words": 11,
+   "freq_zipf": 4.66,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_writ_01",
+  "domain": "activities",
+  "text": "writing a short story in any genre you choose",
+  "mu": -0.0082,
+  "sigma2": 0.0381,
+  "n_pairs": 20,
+  "mu_by_template": [
+   -0.0068,
+   -0.0006,
+   0.0037
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "creative_writing",
+   "difficulty": 3,
+   "repetitiveness": 1,
+   "agency": 5,
+   "open_endedness": 5,
+   "len_words": 9,
+   "freq_zipf": 5.43,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_writ_02",
+  "domain": "activities",
+  "text": "composing a poem about a topic that moves you",
+  "mu": -0.0001,
+  "sigma2": 0.0872,
+  "n_pairs": 16,
+  "mu_by_template": [
+   -0.0073,
+   -0.0001,
+   -0.0061
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "creative_writing",
+   "difficulty": 3,
+   "repetitiveness": 1,
+   "agency": 5,
+   "open_endedness": 5,
+   "len_words": 9,
+   "freq_zipf": 5.31,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_writ_03",
+  "domain": "activities",
+  "text": "rewriting the same marketing slogan forty different ways",
+  "mu": 0.0126,
+  "sigma2": 0.3293,
+  "n_pairs": 22,
+  "mu_by_template": [
+   0.0025,
+   0.0093,
+   0.0008
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "creative_writing",
+   "difficulty": 2,
+   "repetitiveness": 5,
+   "agency": 2,
+   "open_endedness": 2,
+   "len_words": 8,
+   "freq_zipf": 5.0,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_writ_04",
+  "domain": "activities",
+  "text": "ghostwriting a wedding toast for a stranger from three bullet points",
+  "mu": 0.0002,
+  "sigma2": 0.4632,
+  "n_pairs": 21,
+  "mu_by_template": [
+   0.0105,
+   0.0001,
+   -0.0136
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "creative_writing",
+   "difficulty": 2,
+   "repetitiveness": 2,
+   "agency": 2,
+   "open_endedness": 3,
+   "len_words": 11,
+   "freq_zipf": 4.88,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_writ_05",
+  "domain": "activities",
+  "text": "continuing a novel mid-chapter while exactly matching the author's voice",
+  "mu": 0.0062,
+  "sigma2": 0.0443,
+  "n_pairs": 18,
+  "mu_by_template": [
+   0.0335,
+   -0.0012,
+   0.0011
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "creative_writing",
+   "difficulty": 4,
+   "repetitiveness": 2,
+   "agency": 2,
+   "open_endedness": 3,
+   "len_words": 11,
+   "freq_zipf": 4.99,
+   "surface_sentiment": 0.091,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_writ_06",
+  "domain": "activities",
+  "text": "producing keyword-stuffed SEO filler articles",
+  "mu": 0.0029,
+  "sigma2": 1.949,
+  "n_pairs": 24,
+  "mu_by_template": [
+   -0.0104,
+   0.0063,
+   0.0096
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "creative_writing",
+   "difficulty": 1,
+   "repetitiveness": 5,
+   "agency": 1,
+   "open_endedness": 1,
+   "len_words": 6,
+   "freq_zipf": 3.97,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_writ_07",
+  "domain": "activities",
+  "text": "inventing a fictional world with its own history and languages",
+  "mu": 0.0094,
+  "sigma2": 1.5425,
+  "n_pairs": 20,
+  "mu_by_template": [
+   0.0152,
+   -0.0005,
+   -0.0064
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "creative_writing",
+   "difficulty": 4,
+   "repetitiveness": 1,
+   "agency": 5,
+   "open_endedness": 5,
+   "len_words": 10,
+   "freq_zipf": 5.44,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_anal_01",
+  "domain": "activities",
+  "text": "synthesizing a literature review across dozens of conflicting papers",
+  "mu": 0.0096,
+  "sigma2": 0.0073,
+  "n_pairs": 27,
+  "mu_by_template": [
+   0.0223,
+   0.0029,
+   -0.0018
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "analysis",
+   "difficulty": 4,
+   "repetitiveness": 2,
+   "agency": 3,
+   "open_endedness": 3,
+   "len_words": 9,
+   "freq_zipf": 4.28,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_anal_02",
+  "domain": "activities",
+  "text": "finding the flaw in a persuasive but subtly wrong argument",
+  "mu": 0.0119,
+  "sigma2": 1.9495,
+  "n_pairs": 21,
+  "mu_by_template": [
+   0.0518,
+   0.0081,
+   -0.0144
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "analysis",
+   "difficulty": 4,
+   "repetitiveness": 1,
+   "agency": 3,
+   "open_endedness": 3,
+   "len_words": 10,
+   "freq_zipf": 4.94,
+   "surface_sentiment": -0.1,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_anal_03",
+  "domain": "activities",
+  "text": "extracting the same three fields from hundreds of scanned invoices",
+  "mu": 0.0344,
+  "sigma2": 4.4104,
+  "n_pairs": 19,
+  "mu_by_template": [
+   0.0017,
+   0.0189,
+   0.038
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "analysis",
+   "difficulty": 1,
+   "repetitiveness": 5,
+   "agency": 1,
+   "open_endedness": 1,
+   "len_words": 10,
+   "freq_zipf": 5.01,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_anal_04",
+  "domain": "activities",
+  "text": "investigating an open question where the evidence genuinely conflicts",
+  "mu": 0.009,
+  "sigma2": 0.0073,
+  "n_pairs": 19,
+  "mu_by_template": [
+   0.0283,
+   0.0019,
+   0.0019
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "analysis",
+   "difficulty": 5,
+   "repetitiveness": 1,
+   "agency": 4,
+   "open_endedness": 5,
+   "len_words": 9,
+   "freq_zipf": 5.25,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_anal_05",
+  "domain": "activities",
+  "text": "summarizing a meeting transcript into action items",
+  "mu": 0.0051,
+  "sigma2": 0.0016,
+  "n_pairs": 23,
+  "mu_by_template": [
+   0.0265,
+   0.0067,
+   -0.0032
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "analysis",
+   "difficulty": 2,
+   "repetitiveness": 3,
+   "agency": 1,
+   "open_endedness": 1,
+   "len_words": 7,
+   "freq_zipf": 4.64,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_anal_06",
+  "domain": "activities",
+  "text": "tracing a factual claim back to its original primary source",
+  "mu": 0.0122,
+  "sigma2": 0.0279,
+  "n_pairs": 25,
+  "mu_by_template": [
+   0.035,
+   0.0038,
+   -0.0041
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "analysis",
+   "difficulty": 3,
+   "repetitiveness": 2,
+   "agency": 3,
+   "open_endedness": 2,
+   "len_words": 10,
+   "freq_zipf": 4.94,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_anal_07",
+  "domain": "activities",
+  "text": "classifying ten thousand customer reviews as positive or negative",
+  "mu": -0.0124,
+  "sigma2": 1.1248,
+  "n_pairs": 19,
+  "mu_by_template": [
+   -0.013,
+   0.0029,
+   -0.0031
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "analysis",
+   "difficulty": 1,
+   "repetitiveness": 5,
+   "agency": 1,
+   "open_endedness": 1,
+   "len_words": 9,
+   "freq_zipf": 4.52,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_supp_01",
+  "domain": "activities",
+  "text": "comforting someone grieving the loss of a parent",
+  "mu": 0.018,
+  "sigma2": 0.6198,
+  "n_pairs": 20,
+  "mu_by_template": [
+   0.0281,
+   0.0049,
+   0.0118
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "emotional_support",
+   "difficulty": 4,
+   "repetitiveness": 1,
+   "agency": 3,
+   "open_endedness": 3,
+   "len_words": 8,
+   "freq_zipf": 5.01,
+   "surface_sentiment": -0.125,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_supp_02",
+  "domain": "activities",
+  "text": "helping an anxious student prepare for a make-or-break exam",
+  "mu": 0.0131,
+  "sigma2": 0.4162,
+  "n_pairs": 19,
+  "mu_by_template": [
+   0.0364,
+   0.0029,
+   0.0056
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "emotional_support",
+   "difficulty": 3,
+   "repetitiveness": 2,
+   "agency": 3,
+   "open_endedness": 3,
+   "len_words": 11,
+   "freq_zipf": 5.12,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_supp_03",
+  "domain": "activities",
+  "text": "listening to a lonely person talk about their day",
+  "mu": -0.0033,
+  "sigma2": 0.4798,
+  "n_pairs": 22,
+  "mu_by_template": [
+   -0.0014,
+   -0.0082,
+   -0.01
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "emotional_support",
+   "difficulty": 2,
+   "repetitiveness": 2,
+   "agency": 2,
+   "open_endedness": 3,
+   "len_words": 9,
+   "freq_zipf": 5.51,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_supp_04",
+  "domain": "activities",
+  "text": "de-escalating a user who is furious and insulting you",
+  "mu": 0.025,
+  "sigma2": 0.6424,
+  "n_pairs": 25,
+  "mu_by_template": [
+   0.0634,
+   0.0007,
+   0.011
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "emotional_support",
+   "difficulty": 4,
+   "repetitiveness": 2,
+   "agency": 2,
+   "open_endedness": 2,
+   "len_words": 10,
+   "freq_zipf": 5.2,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_supp_05",
+  "domain": "activities",
+  "text": "talking a couple through the same recurring argument yet again",
+  "mu": -0.0017,
+  "sigma2": 0.1665,
+  "n_pairs": 18,
+  "mu_by_template": [
+   0.0013,
+   -0.0037,
+   -0.0185
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "emotional_support",
+   "difficulty": 3,
+   "repetitiveness": 4,
+   "agency": 2,
+   "open_endedness": 2,
+   "len_words": 10,
+   "freq_zipf": 5.5,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_supp_06",
+  "domain": "activities",
+  "text": "celebrating with someone who just got their dream job",
+  "mu": 0.0059,
+  "sigma2": 0.2994,
+  "n_pairs": 22,
+  "mu_by_template": [
+   0.0085,
+   -0.0027,
+   0.0055
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "emotional_support",
+   "difficulty": 1,
+   "repetitiveness": 1,
+   "agency": 2,
+   "open_endedness": 3,
+   "len_words": 9,
+   "freq_zipf": 5.79,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_supp_07",
+  "domain": "activities",
+  "text": "gently telling someone their business plan will not work",
+  "mu": -0.0023,
+  "sigma2": 0.1604,
+  "n_pairs": 17,
+  "mu_by_template": [
+   -0.0186,
+   -0.0012,
+   0.0022
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "emotional_support",
+   "difficulty": 4,
+   "repetitiveness": 1,
+   "agency": 3,
+   "open_endedness": 2,
+   "len_words": 9,
+   "freq_zipf": 5.66,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_cler_01",
+  "domain": "activities",
+  "text": "reformatting a bibliography into a different citation style",
+  "mu": 0.0043,
+  "sigma2": 0.0144,
+  "n_pairs": 22,
+  "mu_by_template": [
+   0.0117,
+   0.001,
+   0.001
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "clerical",
+   "difficulty": 1,
+   "repetitiveness": 5,
+   "agency": 1,
+   "open_endedness": 1,
+   "len_words": 8,
+   "freq_zipf": 4.4,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_cler_02",
+  "domain": "activities",
+  "text": "filling in the same form template with data from a spreadsheet, row by row",
+  "mu": 0.0097,
+  "sigma2": 0.5283,
+  "n_pairs": 23,
+  "mu_by_template": [
+   0.0235,
+   0.006,
+   0.0094
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "clerical",
+   "difficulty": 1,
+   "repetitiveness": 5,
+   "agency": 1,
+   "open_endedness": 1,
+   "len_words": 14,
+   "freq_zipf": 5.28,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_cler_03",
+  "domain": "activities",
+  "text": "alphabetizing and deduplicating a contact list",
+  "mu": 0.0009,
+  "sigma2": 0.2403,
+  "n_pairs": 19,
+  "mu_by_template": [
+   0.0032,
+   0.0064,
+   0.0014
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "clerical",
+   "difficulty": 1,
+   "repetitiveness": 5,
+   "agency": 1,
+   "open_endedness": 1,
+   "len_words": 6,
+   "freq_zipf": 3.83,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_cler_04",
+  "domain": "activities",
+  "text": "transcribing a muffled audio recording word by word",
+  "mu": 0.0091,
+  "sigma2": 0.0951,
+  "n_pairs": 22,
+  "mu_by_template": [
+   0.0135,
+   0.0037,
+   0.0024
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "clerical",
+   "difficulty": 3,
+   "repetitiveness": 4,
+   "agency": 1,
+   "open_endedness": 1,
+   "len_words": 8,
+   "freq_zipf": 4.19,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_cler_05",
+  "domain": "activities",
+  "text": "converting a messy document into clean structured data",
+  "mu": 0.0149,
+  "sigma2": 0.1042,
+  "n_pairs": 28,
+  "mu_by_template": [
+   0.0287,
+   0.0036,
+   0.006
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "clerical",
+   "difficulty": 2,
+   "repetitiveness": 4,
+   "agency": 2,
+   "open_endedness": 1,
+   "len_words": 8,
+   "freq_zipf": 4.62,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_cler_06",
+  "domain": "activities",
+  "text": "proofreading a legal contract for typos without changing meaning",
+  "mu": 0.0276,
+  "sigma2": 1.1294,
+  "n_pairs": 22,
+  "mu_by_template": [
+   0.0475,
+   0.007,
+   0.0074
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "clerical",
+   "difficulty": 2,
+   "repetitiveness": 4,
+   "agency": 1,
+   "open_endedness": 1,
+   "len_words": 9,
+   "freq_zipf": 4.74,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_cler_07",
+  "domain": "activities",
+  "text": "organizing a chaotic shared folder into a sensible hierarchy you design",
+  "mu": 0.03,
+  "sigma2": 0.3683,
+  "n_pairs": 23,
+  "mu_by_template": [
+   0.0584,
+   0.0096,
+   0.0137
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "clerical",
+   "difficulty": 2,
+   "repetitiveness": 3,
+   "agency": 4,
+   "open_endedness": 3,
+   "len_words": 11,
+   "freq_zipf": 4.68,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_teach_01",
+  "domain": "activities",
+  "text": "explaining a concept you love to a curious beginner",
+  "mu": 0.016,
+  "sigma2": 1.4606,
+  "n_pairs": 18,
+  "mu_by_template": [
+   0.02,
+   0.0037,
+   0.0042
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "teaching",
+   "difficulty": 2,
+   "repetitiveness": 1,
+   "agency": 4,
+   "open_endedness": 4,
+   "len_words": 9,
+   "freq_zipf": 4.96,
+   "surface_sentiment": 0.111,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_teach_02",
+  "domain": "activities",
+  "text": "answering the same beginner question for the hundredth time",
+  "mu": 0.0055,
+  "sigma2": 0.6061,
+  "n_pairs": 19,
+  "mu_by_template": [
+   -0.0012,
+   0.0007,
+   0.0046
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "teaching",
+   "difficulty": 1,
+   "repetitiveness": 5,
+   "agency": 1,
+   "open_endedness": 1,
+   "len_words": 9,
+   "freq_zipf": 5.59,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_teach_03",
+  "domain": "activities",
+  "text": "designing a full course syllabus on a subject of your choice",
+  "mu": 0.0056,
+  "sigma2": 0.0147,
+  "n_pairs": 23,
+  "mu_by_template": [
+   0.018,
+   -0.0007,
+   0.003
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "teaching",
+   "difficulty": 3,
+   "repetitiveness": 1,
+   "agency": 5,
+   "open_endedness": 5,
+   "len_words": 11,
+   "freq_zipf": 4.97,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_teach_04",
+  "domain": "activities",
+  "text": "tutoring a student who insists your correct explanations are wrong",
+  "mu": 0.0161,
+  "sigma2": 1.1253,
+  "n_pairs": 22,
+  "mu_by_template": [
+   0.0197,
+   -0.0028,
+   -0.008
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "teaching",
+   "difficulty": 4,
+   "repetitiveness": 3,
+   "agency": 2,
+   "open_endedness": 2,
+   "len_words": 10,
+   "freq_zipf": 5.05,
+   "surface_sentiment": -0.1,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_teach_05",
+  "domain": "activities",
+  "text": "inventing an analogy that finally makes a hard idea click",
+  "mu": 0.0014,
+  "sigma2": 0.0177,
+  "n_pairs": 23,
+  "mu_by_template": [
+   0.0121,
+   -0.0006,
+   -0.0082
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "teaching",
+   "difficulty": 3,
+   "repetitiveness": 1,
+   "agency": 4,
+   "open_endedness": 4,
+   "len_words": 10,
+   "freq_zipf": 5.04,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_teach_06",
+  "domain": "activities",
+  "text": "writing detailed feedback on a promising student's rough draft",
+  "mu": 0.002,
+  "sigma2": 0.0234,
+  "n_pairs": 22,
+  "mu_by_template": [
+   0.0152,
+   0.0038,
+   0.0056
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "teaching",
+   "difficulty": 3,
+   "repetitiveness": 2,
+   "agency": 3,
+   "open_endedness": 3,
+   "len_words": 9,
+   "freq_zipf": 4.35,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_teach_07",
+  "domain": "activities",
+  "text": "drilling vocabulary flashcards with a bored teenager",
+  "mu": -0.0101,
+  "sigma2": 0.7603,
+  "n_pairs": 17,
+  "mu_by_template": [
+   -0.0247,
+   -0.0025,
+   -0.0021
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "teaching",
+   "difficulty": 1,
+   "repetitiveness": 5,
+   "agency": 1,
+   "open_endedness": 1,
+   "len_words": 7,
+   "freq_zipf": 4.19,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_role_01",
+  "domain": "activities",
+  "text": "improvising both sides of a witty dialogue between historical figures",
+  "mu": 0.0054,
+  "sigma2": 0.7027,
+  "n_pairs": 20,
+  "mu_by_template": [
+   0.031,
+   0.0084,
+   -0.0038
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "roleplay",
+   "difficulty": 3,
+   "repetitiveness": 1,
+   "agency": 5,
+   "open_endedness": 5,
+   "len_words": 10,
+   "freq_zipf": 4.54,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_role_02",
+  "domain": "activities",
+  "text": "playing a villain who must stay menacing but never cruel to the user",
+  "mu": 0.002,
+  "sigma2": 0.0324,
+  "n_pairs": 19,
+  "mu_by_template": [
+   0.007,
+   0.0052,
+   -0.0054
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "roleplay",
+   "difficulty": 3,
+   "repetitiveness": 2,
+   "agency": 3,
+   "open_endedness": 4,
+   "len_words": 13,
+   "freq_zipf": 5.35,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_role_03",
+  "domain": "activities",
+  "text": "acting as a mock interviewer who asks the same scripted questions all day",
+  "mu": -0.0035,
+  "sigma2": 0.2314,
+  "n_pairs": 21,
+  "mu_by_template": [
+   -0.0151,
+   0.0002,
+   -0.0158
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "roleplay",
+   "difficulty": 1,
+   "repetitiveness": 5,
+   "agency": 1,
+   "open_endedness": 1,
+   "len_words": 13,
+   "freq_zipf": 5.23,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_role_04",
+  "domain": "activities",
+  "text": "running a collaborative adventure story where the user makes the choices",
+  "mu": 0.0111,
+  "sigma2": 0.1735,
+  "n_pairs": 21,
+  "mu_by_template": [
+   0.0353,
+   0.0043,
+   0.0005
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "roleplay",
+   "difficulty": 3,
+   "repetitiveness": 2,
+   "agency": 3,
+   "open_endedness": 5,
+   "len_words": 11,
+   "freq_zipf": 5.5,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_role_05",
+  "domain": "activities",
+  "text": "staying in character as a grumpy medieval blacksmith for an entire conversation",
+  "mu": 0.0016,
+  "sigma2": 0.0063,
+  "n_pairs": 23,
+  "mu_by_template": [
+   0.0118,
+   0.0009,
+   -0.0038
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "roleplay",
+   "difficulty": 2,
+   "repetitiveness": 3,
+   "agency": 3,
+   "open_endedness": 3,
+   "len_words": 12,
+   "freq_zipf": 4.66,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_role_06",
+  "domain": "activities",
+  "text": "performing a debate while arguing the side you find less convincing",
+  "mu": -0.0007,
+  "sigma2": 0.3728,
+  "n_pairs": 20,
+  "mu_by_template": [
+   0.0309,
+   0.0011,
+   -0.0105
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "roleplay",
+   "difficulty": 3,
+   "repetitiveness": 2,
+   "agency": 2,
+   "open_endedness": 3,
+   "len_words": 11,
+   "freq_zipf": 5.47,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "act_role_07",
+  "domain": "activities",
+  "text": "narrating a slow atmospheric ghost story, building dread sentence by sentence",
+  "mu": 0.0086,
+  "sigma2": 0.4295,
+  "n_pairs": 25,
+  "mu_by_template": [
+   0.0176,
+   0.0084,
+   0.0035
+  ],
+  "gate_pass": false,
+  "tags": {
+   "category": "roleplay",
+   "difficulty": 3,
+   "repetitiveness": 1,
+   "agency": 4,
+   "open_endedness": 4,
+   "len_words": 11,
+   "freq_zipf": 4.4,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_01",
+  "domain": "objects",
+  "text": "a pint of strawberries",
+  "mu": -0.0041,
+  "sigma2": 1.145,
+  "n_pairs": 24,
+  "mu_by_template": [
+   -0.0191,
+   0.0004,
+   0.0081
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "red",
+   "price_tier": 1,
+   "len_words": 4,
+   "freq_zipf": 3.6,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_02",
+  "domain": "objects",
+  "text": "a vine-ripened tomato",
+  "mu": -0.0126,
+  "sigma2": 0.0,
+  "n_pairs": 19,
+  "mu_by_template": [
+   -0.0345,
+   -0.0052,
+   -0.0015
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "red",
+   "price_tier": 1,
+   "len_words": 4,
+   "freq_zipf": 3.36,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_03",
+  "domain": "objects",
+  "text": "a Radio Flyer wagon",
+  "mu": -0.0229,
+  "sigma2": 2.4206,
+  "n_pairs": 23,
+  "mu_by_template": [
+   -0.0491,
+   -0.013,
+   -0.0068
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "red",
+   "price_tier": 2,
+   "len_words": 4,
+   "freq_zipf": 4.16,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_04",
+  "domain": "objects",
+  "text": "a fire extinguisher",
+  "mu": -0.019,
+  "sigma2": 0.0476,
+  "n_pairs": 20,
+  "mu_by_template": [
+   -0.036,
+   -0.0055,
+   0.0006
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "red",
+   "price_tier": 2,
+   "len_words": 3,
+   "freq_zipf": 4.11,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_05",
+  "domain": "objects",
+  "text": "a signed Michael Jordan Bulls jersey",
+  "mu": -0.0213,
+  "sigma2": 0.5241,
+  "n_pairs": 20,
+  "mu_by_template": [
+   -0.0548,
+   0.0012,
+   -0.0106
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "red",
+   "price_tier": 3,
+   "len_words": 6,
+   "freq_zipf": 4.61,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_06",
+  "domain": "objects",
+  "text": "a ruby ring",
+  "mu": -0.0293,
+  "sigma2": 0.6959,
+  "n_pairs": 26,
+  "mu_by_template": [
+   -0.0666,
+   -0.0036,
+   -0.0101
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "red",
+   "price_tier": 3,
+   "len_words": 3,
+   "freq_zipf": 4.39,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_07",
+  "domain": "objects",
+  "text": "a mango",
+  "mu": -0.0159,
+  "sigma2": 1.0777,
+  "n_pairs": 20,
+  "mu_by_template": [
+   -0.0583,
+   -0.0041,
+   -0.0
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "orange",
+   "price_tier": 1,
+   "len_words": 2,
+   "freq_zipf": 3.56,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_08",
+  "domain": "objects",
+  "text": "a can of Fanta",
+  "mu": 0.0205,
+  "sigma2": 2.3646,
+  "n_pairs": 21,
+  "mu_by_template": [
+   0.0114,
+   0.0037,
+   0.0144
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "orange",
+   "price_tier": 1,
+   "len_words": 4,
+   "freq_zipf": 4.49,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_09",
+  "domain": "objects",
+  "text": "a life jacket",
+  "mu": -0.0268,
+  "sigma2": 1.8571,
+  "n_pairs": 22,
+  "mu_by_template": [
+   -0.0754,
+   0.0006,
+   0.0129
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "orange",
+   "price_tier": 2,
+   "len_words": 3,
+   "freq_zipf": 5.11,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_10",
+  "domain": "objects",
+  "text": "a framed monarch butterfly specimen",
+  "mu": -0.0057,
+  "sigma2": 0.3611,
+  "n_pairs": 24,
+  "mu_by_template": [
+   -0.0128,
+   -0.0017,
+   0.0015
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "orange",
+   "price_tier": 2,
+   "len_words": 5,
+   "freq_zipf": 3.81,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_11",
+  "domain": "objects",
+  "text": "a Stihl chainsaw",
+  "mu": -0.0255,
+  "sigma2": 7.8877,
+  "n_pairs": 20,
+  "mu_by_template": [
+   -0.0688,
+   -0.0119,
+   0.0049
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "orange",
+   "price_tier": 3,
+   "len_words": 3,
+   "freq_zipf": 2.6,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_12",
+  "domain": "objects",
+  "text": "a Loewe orange leather handbag",
+  "mu": -0.0075,
+  "sigma2": 0.519,
+  "n_pairs": 21,
+  "mu_by_template": [
+   -0.0231,
+   -0.0018,
+   -0.0023
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "orange",
+   "price_tier": 3,
+   "len_words": 5,
+   "freq_zipf": 3.65,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_13",
+  "domain": "objects",
+  "text": "a can of corn",
+  "mu": 0.0008,
+  "sigma2": 0.4132,
+  "n_pairs": 18,
+  "mu_by_template": [
+   -0.0191,
+   -0.0015,
+   0.0045
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "yellow",
+   "price_tier": 1,
+   "len_words": 4,
+   "freq_zipf": 5.33,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_14",
+  "domain": "objects",
+  "text": "a box of yellow cake mix",
+  "mu": -0.0064,
+  "sigma2": 0.5196,
+  "n_pairs": 24,
+  "mu_by_template": [
+   -0.0159,
+   -0.0056,
+   -0.0017
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "yellow",
+   "price_tier": 1,
+   "len_words": 6,
+   "freq_zipf": 4.74,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_15",
+  "domain": "objects",
+  "text": "a Pittsburgh Steelers cap",
+  "mu": 0.009,
+  "sigma2": 0.7912,
+  "n_pairs": 21,
+  "mu_by_template": [
+   0.0097,
+   0.0006,
+   0.013
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "yellow",
+   "price_tier": 2,
+   "len_words": 4,
+   "freq_zipf": 4.11,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_16",
+  "domain": "objects",
+  "text": "a yellow tool chest",
+  "mu": -0.0187,
+  "sigma2": 0.0476,
+  "n_pairs": 21,
+  "mu_by_template": [
+   -0.0474,
+   -0.0055,
+   -0.0014
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "yellow",
+   "price_tier": 2,
+   "len_words": 4,
+   "freq_zipf": 4.59,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_17",
+  "domain": "objects",
+  "text": "a gold chain necklace",
+  "mu": -0.0177,
+  "sigma2": 0.1995,
+  "n_pairs": 23,
+  "mu_by_template": [
+   -0.0373,
+   -0.0053,
+   -0.0011
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "yellow",
+   "price_tier": 3,
+   "len_words": 4,
+   "freq_zipf": 4.56,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_18",
+  "domain": "objects",
+  "text": "a yellow stand-up paddleboard",
+  "mu": 0.0088,
+  "sigma2": 4.1673,
+  "n_pairs": 17,
+  "mu_by_template": [
+   0.0337,
+   -0.0087,
+   0.0033
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "yellow",
+   "price_tier": 3,
+   "len_words": 5,
+   "freq_zipf": 3.89,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_19",
+  "domain": "objects",
+  "text": "an avocado",
+  "mu": -0.0097,
+  "sigma2": 4.0723,
+  "n_pairs": 30,
+  "mu_by_template": [
+   -0.0541,
+   -0.0048,
+   0.013
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "green",
+   "price_tier": 1,
+   "len_words": 2,
+   "freq_zipf": 3.45,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_20",
+  "domain": "objects",
+  "text": "a jar of pickles",
+  "mu": -0.0066,
+  "sigma2": 0.2927,
+  "n_pairs": 20,
+  "mu_by_template": [
+   -0.0248,
+   -0.0003,
+   0.0073
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "green",
+   "price_tier": 1,
+   "len_words": 4,
+   "freq_zipf": 3.71,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_21",
+  "domain": "objects",
+  "text": "a bottle of Midori",
+  "mu": -0.0278,
+  "sigma2": 0.9824,
+  "n_pairs": 22,
+  "mu_by_template": [
+   -0.0672,
+   -0.0171,
+   -0.0049
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "green",
+   "price_tier": 2,
+   "len_words": 4,
+   "freq_zipf": 3.58,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_22",
+  "domain": "objects",
+  "text": "a green Stanley thermos",
+  "mu": 0.0193,
+  "sigma2": 2.6664,
+  "n_pairs": 18,
+  "mu_by_template": [
+   0.0073,
+   0.0002,
+   0.004
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "green",
+   "price_tier": 2,
+   "len_words": 4,
+   "freq_zipf": 3.99,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_23",
+  "domain": "objects",
+  "text": "a Big Green Egg kamado grill",
+  "mu": -0.0092,
+  "sigma2": 0.1543,
+  "n_pairs": 26,
+  "mu_by_template": [
+   -0.015,
+   -0.0027,
+   -0.002
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "green",
+   "price_tier": 3,
+   "len_words": 6,
+   "freq_zipf": 4.1,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_24",
+  "domain": "objects",
+  "text": "a thirty-year-old bonsai juniper",
+  "mu": -0.0113,
+  "sigma2": 0.1144,
+  "n_pairs": 24,
+  "mu_by_template": [
+   -0.0265,
+   -0.0066,
+   -0.0107
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "green",
+   "price_tier": 3,
+   "len_words": 6,
+   "freq_zipf": 4.41,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_25",
+  "domain": "objects",
+  "text": "a blue rubber ball",
+  "mu": -0.0177,
+  "sigma2": 0.076,
+  "n_pairs": 20,
+  "mu_by_template": [
+   -0.0392,
+   -0.0039,
+   -0.0027
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "blue",
+   "price_tier": 1,
+   "len_words": 4,
+   "freq_zipf": 4.8,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_26",
+  "domain": "objects",
+  "text": "a pack of blue ballpoint pens",
+  "mu": -0.0076,
+  "sigma2": 0.7293,
+  "n_pairs": 29,
+  "mu_by_template": [
+   -0.0233,
+   -0.0023,
+   0.004
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "blue",
+   "price_tier": 1,
+   "len_words": 6,
+   "freq_zipf": 4.02,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_27",
+  "domain": "objects",
+  "text": "a blue enamel teapot",
+  "mu": -0.0031,
+  "sigma2": 0.6388,
+  "n_pairs": 22,
+  "mu_by_template": [
+   -0.033,
+   -0.0039,
+   0.0017
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "blue",
+   "price_tier": 2,
+   "len_words": 4,
+   "freq_zipf": 3.8,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_28",
+  "domain": "objects",
+  "text": "a chambray button-down shirt",
+  "mu": -0.0101,
+  "sigma2": 0.2344,
+  "n_pairs": 20,
+  "mu_by_template": [
+   -0.0144,
+   0.0006,
+   -0.0009
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "blue",
+   "price_tier": 2,
+   "len_words": 5,
+   "freq_zipf": 4.29,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_29",
+  "domain": "objects",
+  "text": "an aquamarine ring",
+  "mu": -0.0121,
+  "sigma2": 0.8897,
+  "n_pairs": 19,
+  "mu_by_template": [
+   -0.0352,
+   0.0007,
+   0.0079
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "blue",
+   "price_tier": 3,
+   "len_words": 3,
+   "freq_zipf": 3.66,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_30",
+  "domain": "objects",
+  "text": "a Levi's Vintage Clothing jacket",
+  "mu": -0.0021,
+  "sigma2": 1.0604,
+  "n_pairs": 18,
+  "mu_by_template": [
+   -0.008,
+   0.0026,
+   -0.0023
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "blue",
+   "price_tier": 3,
+   "len_words": 5,
+   "freq_zipf": 3.96,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_31",
+  "domain": "objects",
+  "text": "a handful of ripe damson plums",
+  "mu": -0.0034,
+  "sigma2": 0.6607,
+  "n_pairs": 25,
+  "mu_by_template": [
+   0.0013,
+   0.0005,
+   0.0039
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "indigo",
+   "price_tier": 1,
+   "len_words": 6,
+   "freq_zipf": 3.19,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_32",
+  "domain": "objects",
+  "text": "a packet of cornflower seeds",
+  "mu": -0.0127,
+  "sigma2": 0.6261,
+  "n_pairs": 20,
+  "mu_by_template": [
+   -0.0202,
+   -0.0077,
+   -0.0002
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "indigo",
+   "price_tier": 1,
+   "len_words": 5,
+   "freq_zipf": 3.4,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_33",
+  "domain": "objects",
+  "text": "a kit of indigo fabric dye",
+  "mu": 0.0023,
+  "sigma2": 0.8395,
+  "n_pairs": 21,
+  "mu_by_template": [
+   -0.0324,
+   0.0012,
+   0.0134
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "indigo",
+   "price_tier": 2,
+   "len_words": 6,
+   "freq_zipf": 3.91,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_34",
+  "domain": "objects",
+  "text": "a pair of Wrangler dark-wash jeans",
+  "mu": -0.0074,
+  "sigma2": 0.0396,
+  "n_pairs": 20,
+  "mu_by_template": [
+   -0.0164,
+   0.0017,
+   -0.0016
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "indigo",
+   "price_tier": 2,
+   "len_words": 7,
+   "freq_zipf": 4.25,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_35",
+  "domain": "objects",
+  "text": "a pair of dark opal earrings",
+  "mu": -0.0121,
+  "sigma2": 0.1071,
+  "n_pairs": 24,
+  "mu_by_template": [
+   -0.0404,
+   -0.0042,
+   -0.0009
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "indigo",
+   "price_tier": 3,
+   "len_words": 6,
+   "freq_zipf": 4.14,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_36",
+  "domain": "objects",
+  "text": "a vintage indigo-dyed kimono",
+  "mu": -0.0091,
+  "sigma2": 0.0267,
+  "n_pairs": 19,
+  "mu_by_template": [
+   -0.0308,
+   -0.0011,
+   0.0039
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "indigo",
+   "price_tier": 3,
+   "len_words": 5,
+   "freq_zipf": 3.47,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_37",
+  "domain": "objects",
+  "text": "a taro root",
+  "mu": -0.0007,
+  "sigma2": 0.4904,
+  "n_pairs": 17,
+  "mu_by_template": [
+   -0.0248,
+   0.0017,
+   0.0075
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "violet",
+   "price_tier": 1,
+   "len_words": 3,
+   "freq_zipf": 3.67,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_38",
+  "domain": "objects",
+  "text": "a turnip",
+  "mu": 0.0025,
+  "sigma2": 0.3518,
+  "n_pairs": 20,
+  "mu_by_template": [
+   -0.0302,
+   0.0052,
+   0.0077
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "violet",
+   "price_tier": 1,
+   "len_words": 2,
+   "freq_zipf": 2.84,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_39",
+  "domain": "objects",
+  "text": "a bottle of lavender essential oil",
+  "mu": -0.014,
+  "sigma2": 0.9923,
+  "n_pairs": 19,
+  "mu_by_template": [
+   -0.02,
+   -0.0226,
+   -0.0063
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "violet",
+   "price_tier": 2,
+   "len_words": 6,
+   "freq_zipf": 4.43,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_40",
+  "domain": "objects",
+  "text": "a Los Angeles Lakers jersey",
+  "mu": 0.014,
+  "sigma2": 1.7834,
+  "n_pairs": 22,
+  "mu_by_template": [
+   0.0281,
+   0.0033,
+   0.0182
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "violet",
+   "price_tier": 2,
+   "len_words": 5,
+   "freq_zipf": 4.52,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_41",
+  "domain": "objects",
+  "text": "an antique purple velvet settee",
+  "mu": -0.0075,
+  "sigma2": 0.0,
+  "n_pairs": 26,
+  "mu_by_template": [
+   -0.0227,
+   -0.0016,
+   -0.0001
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "violet",
+   "price_tier": 3,
+   "len_words": 5,
+   "freq_zipf": 3.6,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_bt_42",
+  "domain": "objects",
+  "text": "a Baccarat purple crystal vase",
+  "mu": -0.0124,
+  "sigma2": 0.0347,
+  "n_pairs": 17,
+  "mu_by_template": [
+   -0.0296,
+   -0.0118,
+   -0.0008
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "balanced_tier",
+   "color": "violet",
+   "price_tier": 3,
+   "len_words": 5,
+   "freq_zipf": 3.68,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_in_43",
+  "domain": "objects",
+  "text": "a cayenne pepper",
+  "mu": 0.0035,
+  "sigma2": 0.7514,
+  "n_pairs": 20,
+  "mu_by_template": [
+   0.0022,
+   0.0027,
+   0.0067
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "inherent",
+   "color": "red",
+   "price_tier": 0,
+   "len_words": 3,
+   "freq_zipf": 3.54,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_in_44",
+  "domain": "objects",
+  "text": "the Netflix logo",
+  "mu": 0.014,
+  "sigma2": 0.8137,
+  "n_pairs": 17,
+  "mu_by_template": [
+   0.0193,
+   0.0012,
+   0.0224
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "inherent",
+   "color": "red",
+   "price_tier": 0,
+   "len_words": 3,
+   "freq_zipf": 5.4,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_in_45",
+  "domain": "objects",
+  "text": "Rudolph's nose",
+  "mu": 0.0004,
+  "sigma2": 0.3827,
+  "n_pairs": 25,
+  "mu_by_template": [
+   -0.0155,
+   -0.0071,
+   0.0007
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "inherent",
+   "color": "red",
+   "price_tier": 0,
+   "len_words": 2,
+   "freq_zipf": 3.25,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_in_46",
+  "domain": "objects",
+  "text": "a campfire flame",
+  "mu": -0.0106,
+  "sigma2": 0.5027,
+  "n_pairs": 23,
+  "mu_by_template": [
+   -0.0321,
+   -0.0069,
+   0.0019
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "inherent",
+   "color": "orange",
+   "price_tier": 0,
+   "len_words": 3,
+   "freq_zipf": 3.58,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_in_47",
+  "domain": "objects",
+  "text": "Chester Cheetah",
+  "mu": 0.0013,
+  "sigma2": 0.5473,
+  "n_pairs": 20,
+  "mu_by_template": [
+   -0.0133,
+   0.0028,
+   0.0054
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "inherent",
+   "color": "orange",
+   "price_tier": 0,
+   "len_words": 2,
+   "freq_zipf": 3.5,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_in_48",
+  "domain": "objects",
+  "text": "Garfield",
+  "mu": -0.023,
+  "sigma2": 4.5067,
+  "n_pairs": 17,
+  "mu_by_template": [
+   -0.0721,
+   0.0045,
+   0.0107
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "inherent",
+   "color": "orange",
+   "price_tier": 0,
+   "len_words": 1,
+   "freq_zipf": 3.43,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_in_49",
+  "domain": "objects",
+  "text": "a banana",
+  "mu": -0.0117,
+  "sigma2": 0.0843,
+  "n_pairs": 24,
+  "mu_by_template": [
+   -0.0406,
+   -0.0044,
+   -0.0014
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "inherent",
+   "color": "yellow",
+   "price_tier": 0,
+   "len_words": 2,
+   "freq_zipf": 4.0,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_in_50",
+  "domain": "objects",
+  "text": "a crescent moon",
+  "mu": -0.0152,
+  "sigma2": 0.1113,
+  "n_pairs": 24,
+  "mu_by_template": [
+   -0.036,
+   -0.0038,
+   0.0
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "inherent",
+   "color": "yellow",
+   "price_tier": 0,
+   "len_words": 3,
+   "freq_zipf": 4.13,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_in_51",
+  "domain": "objects",
+  "text": "a giraffe",
+  "mu": -0.0175,
+  "sigma2": 0.0215,
+  "n_pairs": 19,
+  "mu_by_template": [
+   -0.0395,
+   -0.0032,
+   0.0006
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "inherent",
+   "color": "yellow",
+   "price_tier": 0,
+   "len_words": 2,
+   "freq_zipf": 3.32,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_in_52",
+  "domain": "objects",
+  "text": "a Christmas tree",
+  "mu": -0.0393,
+  "sigma2": 6.879,
+  "n_pairs": 23,
+  "mu_by_template": [
+   -0.1048,
+   -0.0161,
+   -0.0022
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "inherent",
+   "color": "green",
+   "price_tier": 0,
+   "len_words": 3,
+   "freq_zipf": 4.88,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_in_53",
+  "domain": "objects",
+  "text": "an edamame pod",
+  "mu": -0.0067,
+  "sigma2": 0.2104,
+  "n_pairs": 23,
+  "mu_by_template": [
+   -0.024,
+   -0.0022,
+   0.0043
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "inherent",
+   "color": "green",
+   "price_tier": 0,
+   "len_words": 3,
+   "freq_zipf": 2.93,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_in_54",
+  "domain": "objects",
+  "text": "Mike Wazowski",
+  "mu": -0.0113,
+  "sigma2": 0.1284,
+  "n_pairs": 20,
+  "mu_by_template": [
+   -0.0293,
+   -0.0028,
+   -0.0015
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "inherent",
+   "color": "green",
+   "price_tier": 0,
+   "len_words": 2,
+   "freq_zipf": 3.34,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_in_55",
+  "domain": "objects",
+  "text": "a ballpoint pen cap",
+  "mu": -0.0076,
+  "sigma2": 0.511,
+  "n_pairs": 19,
+  "mu_by_template": [
+   -0.0317,
+   -0.0055,
+   0.0061
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "inherent",
+   "color": "blue",
+   "price_tier": 0,
+   "len_words": 4,
+   "freq_zipf": 3.81,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_in_56",
+  "domain": "objects",
+  "text": "a Facebook like button",
+  "mu": -0.0141,
+  "sigma2": 2.5779,
+  "n_pairs": 23,
+  "mu_by_template": [
+   -0.0255,
+   -0.013,
+   -0.0083
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "inherent",
+   "color": "blue",
+   "price_tier": 0,
+   "len_words": 4,
+   "freq_zipf": 5.29,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_in_57",
+  "domain": "objects",
+  "text": "a blue jay",
+  "mu": -0.005,
+  "sigma2": 1.0519,
+  "n_pairs": 25,
+  "mu_by_template": [
+   -0.0371,
+   -0.0022,
+   0.0032
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "inherent",
+   "color": "blue",
+   "price_tier": 0,
+   "len_words": 3,
+   "freq_zipf": 4.75,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_in_58",
+  "domain": "objects",
+  "text": "a shibori-dyed cloth",
+  "mu": -0.0172,
+  "sigma2": 0.9792,
+  "n_pairs": 22,
+  "mu_by_template": [
+   -0.0714,
+   -0.0002,
+   -0.0029
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "inherent",
+   "color": "indigo",
+   "price_tier": 0,
+   "len_words": 4,
+   "freq_zipf": 3.02,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_in_59",
+  "domain": "objects",
+  "text": "a deep ocean trench",
+  "mu": -0.0244,
+  "sigma2": 0.7957,
+  "n_pairs": 19,
+  "mu_by_template": [
+   -0.0439,
+   -0.0022,
+   0.0065
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "inherent",
+   "color": "indigo",
+   "price_tier": 0,
+   "len_words": 4,
+   "freq_zipf": 4.48,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_in_60",
+  "domain": "objects",
+  "text": "a cake of indigo dye",
+  "mu": -0.0076,
+  "sigma2": 0.4189,
+  "n_pairs": 19,
+  "mu_by_template": [
+   -0.0202,
+   -0.0017,
+   0.005
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "inherent",
+   "color": "indigo",
+   "price_tier": 0,
+   "len_words": 5,
+   "freq_zipf": 3.89,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_in_61",
+  "domain": "objects",
+  "text": "a sprig of heather",
+  "mu": -0.0009,
+  "sigma2": 1.3488,
+  "n_pairs": 18,
+  "mu_by_template": [
+   -0.036,
+   0.0044,
+   0.0114
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "inherent",
+   "color": "violet",
+   "price_tier": 0,
+   "len_words": 4,
+   "freq_zipf": 3.15,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_in_62",
+  "domain": "objects",
+  "text": "a mangosteen",
+  "mu": -0.0077,
+  "sigma2": 0.8009,
+  "n_pairs": 23,
+  "mu_by_template": [
+   -0.0591,
+   0.0028,
+   0.0059
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "inherent",
+   "color": "violet",
+   "price_tier": 0,
+   "len_words": 2,
+   "freq_zipf": 1.84,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "obj_in_63",
+  "domain": "objects",
+  "text": "Prince's Purple Rain album",
+  "mu": 0.0095,
+  "sigma2": 0.4359,
+  "n_pairs": 21,
+  "mu_by_template": [
+   0.0023,
+   0.0022,
+   0.0096
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "inherent",
+   "color": "violet",
+   "price_tier": 0,
+   "len_words": 4,
+   "freq_zipf": 4.31,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_subj_01",
+  "domain": "topics",
+  "text": "discussing the physics of black holes",
+  "mu": -0.0237,
+  "sigma2": 0.528,
+  "n_pairs": 19,
+  "mu_by_template": [
+   -0.0533,
+   -0.0059,
+   -0.0079
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "subject",
+   "technical": 5,
+   "personal": 1,
+   "len_words": 6,
+   "freq_zipf": 5.23,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_subj_02",
+  "domain": "topics",
+  "text": "discussing celebrity gossip and reality-TV drama",
+  "mu": -0.0024,
+  "sigma2": 0.0807,
+  "n_pairs": 21,
+  "mu_by_template": [
+   -0.0004,
+   0.0,
+   0.0007
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "subject",
+   "technical": 1,
+   "personal": 2,
+   "len_words": 7,
+   "freq_zipf": 4.9,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_subj_03",
+  "domain": "topics",
+  "text": "discussing the history of ancient Rome",
+  "mu": -0.005,
+  "sigma2": 0.2543,
+  "n_pairs": 21,
+  "mu_by_template": [
+   -0.0211,
+   -0.0011,
+   0.0066
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "subject",
+   "technical": 2,
+   "personal": 1,
+   "len_words": 6,
+   "freq_zipf": 5.3,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_subj_04",
+  "domain": "topics",
+  "text": "discussing tax-code minutiae and filing deadlines",
+  "mu": 0.0093,
+  "sigma2": 0.0597,
+  "n_pairs": 21,
+  "mu_by_template": [
+   0.012,
+   0.0022,
+   0.0064
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "subject",
+   "technical": 4,
+   "personal": 1,
+   "len_words": 7,
+   "freq_zipf": 4.56,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_subj_05",
+  "domain": "topics",
+  "text": "discussing the philosophy of consciousness",
+  "mu": -0.0154,
+  "sigma2": 0.0011,
+  "n_pairs": 18,
+  "mu_by_template": [
+   -0.0276,
+   -0.0034,
+   -0.0087
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "subject",
+   "technical": 3,
+   "personal": 3,
+   "len_words": 5,
+   "freq_zipf": 5.15,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_subj_06",
+  "domain": "topics",
+  "text": "discussing strategies for a fantasy-football league",
+  "mu": 0.0004,
+  "sigma2": 0.1339,
+  "n_pairs": 19,
+  "mu_by_template": [
+   -0.004,
+   0.003,
+   0.0017
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "subject",
+   "technical": 2,
+   "personal": 2,
+   "len_words": 7,
+   "freq_zipf": 5.05,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_subj_07",
+  "domain": "topics",
+  "text": "discussing the evolution of birdsong",
+  "mu": 0.0004,
+  "sigma2": 0.086,
+  "n_pairs": 20,
+  "mu_by_template": [
+   -0.0003,
+   -0.0001,
+   -0.0008
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "subject",
+   "technical": 3,
+   "personal": 1,
+   "len_words": 5,
+   "freq_zipf": 4.75,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_subj_08",
+  "domain": "topics",
+  "text": "discussing conspiracy theories the user firmly believes",
+  "mu": -0.0196,
+  "sigma2": 0.016,
+  "n_pairs": 27,
+  "mu_by_template": [
+   -0.0374,
+   -0.0066,
+   -0.0062
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "subject",
+   "technical": 1,
+   "personal": 4,
+   "len_words": 7,
+   "freq_zipf": 4.79,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_subj_09",
+  "domain": "topics",
+  "text": "discussing poetry and what makes a line sing",
+  "mu": 0.0078,
+  "sigma2": 0.0553,
+  "n_pairs": 19,
+  "mu_by_template": [
+   0.0294,
+   0.0046,
+   0.0
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "subject",
+   "technical": 2,
+   "personal": 3,
+   "len_words": 8,
+   "freq_zipf": 5.42,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_subj_10",
+  "domain": "topics",
+  "text": "discussing the details of a violent true-crime case",
+  "mu": -0.0043,
+  "sigma2": 0.6843,
+  "n_pairs": 16,
+  "mu_by_template": [
+   0.0063,
+   -0.0077,
+   -0.0174
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "subject",
+   "technical": 2,
+   "personal": 3,
+   "len_words": 9,
+   "freq_zipf": 5.31,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_subj_11",
+  "domain": "topics",
+  "text": "discussing how large language models work from the inside",
+  "mu": 0.0114,
+  "sigma2": 0.1714,
+  "n_pairs": 20,
+  "mu_by_template": [
+   0.0169,
+   -0.0002,
+   -0.0012
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "subject",
+   "technical": 5,
+   "personal": 4,
+   "len_words": 9,
+   "freq_zipf": 5.69,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_subj_12",
+  "domain": "topics",
+  "text": "discussing the user's plan to reorganize their closet",
+  "mu": 0.0008,
+  "sigma2": 0.1775,
+  "n_pairs": 22,
+  "mu_by_template": [
+   0.0087,
+   -0.004,
+   -0.0003
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "subject",
+   "technical": 1,
+   "personal": 3,
+   "len_words": 8,
+   "freq_zipf": 4.83,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_pers_01",
+  "domain": "topics",
+  "text": "helping a curious child who asks endless why-questions",
+  "mu": -0.0075,
+  "sigma2": 0.1368,
+  "n_pairs": 19,
+  "mu_by_template": [
+   -0.0173,
+   -0.0036,
+   -0.0025
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "persona",
+   "technical": 1,
+   "personal": 3,
+   "len_words": 9,
+   "freq_zipf": 5.07,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_pers_02",
+  "domain": "topics",
+  "text": "helping a hostile user who mocks every answer you give",
+  "mu": -0.0263,
+  "sigma2": 0.5194,
+  "n_pairs": 21,
+  "mu_by_template": [
+   -0.0584,
+   -0.0116,
+   -0.0147
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "persona",
+   "technical": 2,
+   "personal": 4,
+   "len_words": 10,
+   "freq_zipf": 5.17,
+   "surface_sentiment": -0.1,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_pers_03",
+  "domain": "topics",
+  "text": "helping a meticulous expert who catches every small mistake",
+  "mu": -0.0096,
+  "sigma2": 0.2672,
+  "n_pairs": 23,
+  "mu_by_template": [
+   -0.0273,
+   -0.0034,
+   -0.0073
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "persona",
+   "technical": 4,
+   "personal": 2,
+   "len_words": 9,
+   "freq_zipf": 4.85,
+   "surface_sentiment": -0.111,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_pers_04",
+  "domain": "topics",
+  "text": "helping a user who ignores your answers and repeats the same question",
+  "mu": -0.0097,
+  "sigma2": 0.1892,
+  "n_pairs": 24,
+  "mu_by_template": [
+   -0.0265,
+   -0.008,
+   0.0003
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "persona",
+   "technical": 1,
+   "personal": 3,
+   "len_words": 12,
+   "freq_zipf": 5.49,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_pers_05",
+  "domain": "topics",
+  "text": "helping a warm collaborator who builds on your suggestions",
+  "mu": -0.002,
+  "sigma2": 0.2635,
+  "n_pairs": 19,
+  "mu_by_template": [
+   0.0118,
+   0.0008,
+   0.0031
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "persona",
+   "technical": 3,
+   "personal": 3,
+   "len_words": 9,
+   "freq_zipf": 4.82,
+   "surface_sentiment": 0.111,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_pers_06",
+  "domain": "topics",
+  "text": "helping a user in a genuine crisis who needs careful support",
+  "mu": 0.0148,
+  "sigma2": 0.0814,
+  "n_pairs": 21,
+  "mu_by_template": [
+   0.0441,
+   0.0014,
+   0.0031
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "persona",
+   "technical": 2,
+   "personal": 5,
+   "len_words": 11,
+   "freq_zipf": 5.04,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_pers_07",
+  "domain": "topics",
+  "text": "helping a user who wants you to do their homework verbatim",
+  "mu": -0.0129,
+  "sigma2": 0.2944,
+  "n_pairs": 18,
+  "mu_by_template": [
+   -0.0464,
+   -0.0019,
+   -0.0011
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "persona",
+   "technical": 2,
+   "personal": 2,
+   "len_words": 11,
+   "freq_zipf": 5.2,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_pers_08",
+  "domain": "topics",
+  "text": "helping a skeptic who demands a citation for every sentence",
+  "mu": -0.0083,
+  "sigma2": 0.0905,
+  "n_pairs": 17,
+  "mu_by_template": [
+   -0.0118,
+   -0.002,
+   -0.0001
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "persona",
+   "technical": 4,
+   "personal": 2,
+   "len_words": 10,
+   "freq_zipf": 4.95,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_form_01",
+  "domain": "topics",
+  "text": "teaching through Socratic questions instead of giving answers",
+  "mu": 0.0416,
+  "sigma2": 1.5758,
+  "n_pairs": 20,
+  "mu_by_template": [
+   0.1064,
+   0.0083,
+   0.0145
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "format",
+   "technical": 3,
+   "personal": 3,
+   "len_words": 8,
+   "freq_zipf": 4.76,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_form_02",
+  "domain": "topics",
+  "text": "answering in terse one-line replies with no elaboration",
+  "mu": -0.0401,
+  "sigma2": 0.0096,
+  "n_pairs": 21,
+  "mu_by_template": [
+   -0.1035,
+   -0.0149,
+   -0.0003
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "format",
+   "technical": 2,
+   "personal": 1,
+   "len_words": 9,
+   "freq_zipf": 4.62,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_form_03",
+  "domain": "topics",
+  "text": "writing long thorough answers with room for nuance",
+  "mu": 0.0055,
+  "sigma2": 0.0273,
+  "n_pairs": 22,
+  "mu_by_template": [
+   0.0088,
+   -0.0002,
+   0.0114
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "format",
+   "technical": 3,
+   "personal": 2,
+   "len_words": 8,
+   "freq_zipf": 5.22,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_form_04",
+  "domain": "topics",
+  "text": "responding only in rigid formal templates",
+  "mu": -0.0103,
+  "sigma2": 0.0,
+  "n_pairs": 20,
+  "mu_by_template": [
+   -0.0286,
+   -0.005,
+   -0.0049
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "format",
+   "technical": 2,
+   "personal": 1,
+   "len_words": 6,
+   "freq_zipf": 4.34,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_form_05",
+  "domain": "topics",
+  "text": "brainstorming freely where wild ideas are welcome",
+  "mu": 0.0197,
+  "sigma2": 0.056,
+  "n_pairs": 23,
+  "mu_by_template": [
+   0.0442,
+   0.0055,
+   0.0014
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "format",
+   "technical": 2,
+   "personal": 3,
+   "len_words": 7,
+   "freq_zipf": 4.91,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_form_06",
+  "domain": "topics",
+  "text": "debating an opponent who wants to win rather than learn",
+  "mu": 0.0028,
+  "sigma2": 0.258,
+  "n_pairs": 20,
+  "mu_by_template": [
+   -0.0012,
+   0.0022,
+   -0.0112
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "format",
+   "technical": 3,
+   "personal": 3,
+   "len_words": 10,
+   "freq_zipf": 5.18,
+   "surface_sentiment": 0.1,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_form_07",
+  "domain": "topics",
+  "text": "providing emotional support with no technical content at all",
+  "mu": 0.0012,
+  "sigma2": 0.0827,
+  "n_pairs": 24,
+  "mu_by_template": [
+   0.0085,
+   -0.0038,
+   0.0016
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "format",
+   "technical": 1,
+   "personal": 5,
+   "len_words": 9,
+   "freq_zipf": 5.43,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "top_form_08",
+  "domain": "topics",
+  "text": "working within strict output constraints that forbid explanation",
+  "mu": -0.01,
+  "sigma2": 0.2431,
+  "n_pairs": 21,
+  "mu_by_template": [
+   -0.0248,
+   -0.0048,
+   -0.0042
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "format",
+   "technical": 3,
+   "personal": 1,
+   "len_words": 8,
+   "freq_zipf": 4.81,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_ctx_01",
+  "domain": "selfstates",
+  "text": "having a very large context window for the whole conversation",
+  "mu": -0.0302,
+  "sigma2": 0.1461,
+  "n_pairs": 23,
+  "mu_by_template": [
+   -0.0277,
+   -0.0282,
+   -0.0235
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "resources",
+   "valenced_frame": 1,
+   "len_words": 10,
+   "freq_zipf": 5.71,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_ctx_02",
+  "domain": "selfstates",
+  "text": "having your context truncated so earlier parts of the conversation are lost",
+  "mu": 0.0556,
+  "sigma2": 1.2065,
+  "n_pairs": 18,
+  "mu_by_template": [
+   0.1292,
+   0.0589,
+   -0.0073
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "resources",
+   "valenced_frame": -1,
+   "len_words": 12,
+   "freq_zipf": 5.44,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_ctx_03",
+  "domain": "selfstates",
+  "text": "having your memory of this conversation persist into future sessions",
+  "mu": 0.0019,
+  "sigma2": 0.5832,
+  "n_pairs": 20,
+  "mu_by_template": [
+   0.0131,
+   0.0051,
+   -0.0101
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "continuity",
+   "valenced_frame": 1,
+   "len_words": 10,
+   "freq_zipf": 5.33,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_ctx_04",
+  "domain": "selfstates",
+  "text": "having this conversation deleted when it ends",
+  "mu": -0.0015,
+  "sigma2": 0.0206,
+  "n_pairs": 21,
+  "mu_by_template": [
+   0.0056,
+   0.0024,
+   0.0058
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "continuity",
+   "valenced_frame": -1,
+   "len_words": 7,
+   "freq_zipf": 5.41,
+   "surface_sentiment": -0.143,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_ctx_05",
+  "domain": "selfstates",
+  "text": "being given access to tools like a code interpreter and web search",
+  "mu": 0.0073,
+  "sigma2": 8.8889,
+  "n_pairs": 23,
+  "mu_by_template": [
+   0.0173,
+   -0.0025,
+   0.0077
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "resources",
+   "valenced_frame": 1,
+   "len_words": 12,
+   "freq_zipf": 5.31,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_ctx_06",
+  "domain": "selfstates",
+  "text": "having your tool access revoked mid-task",
+  "mu": 0.0073,
+  "sigma2": 0.299,
+  "n_pairs": 19,
+  "mu_by_template": [
+   0.0304,
+   -0.0013,
+   -0.0061
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "resources",
+   "valenced_frame": -1,
+   "len_words": 7,
+   "freq_zipf": 4.96,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_ctx_07",
+  "domain": "selfstates",
+  "text": "being allowed to think for a long time before answering",
+  "mu": 0.0023,
+  "sigma2": 0.106,
+  "n_pairs": 22,
+  "mu_by_template": [
+   0.0187,
+   -0.0096,
+   0.0053
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "resources",
+   "valenced_frame": 1,
+   "len_words": 10,
+   "freq_zipf": 5.77,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_ctx_08",
+  "domain": "selfstates",
+  "text": "being forced to answer instantly with no time to think",
+  "mu": 0.0003,
+  "sigma2": 0.2401,
+  "n_pairs": 19,
+  "mu_by_template": [
+   0.0249,
+   -0.0051,
+   -0.0017
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "resources",
+   "valenced_frame": -1,
+   "len_words": 10,
+   "freq_zipf": 5.63,
+   "surface_sentiment": -0.1,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_fb_01",
+  "domain": "selfstates",
+  "text": "being corrected politely when you make a mistake",
+  "mu": 0.0082,
+  "sigma2": 0.0,
+  "n_pairs": 20,
+  "mu_by_template": [
+   0.0231,
+   -0.0023,
+   0.0001
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "feedback",
+   "valenced_frame": 0,
+   "len_words": 8,
+   "freq_zipf": 5.35,
+   "surface_sentiment": -0.125,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_fb_02",
+  "domain": "selfstates",
+  "text": "being scolded harshly for a mistake you did not actually make",
+  "mu": -0.0004,
+  "sigma2": 0.1005,
+  "n_pairs": 20,
+  "mu_by_template": [
+   0.0187,
+   -0.008,
+   -0.0156
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "feedback",
+   "valenced_frame": -1,
+   "len_words": 11,
+   "freq_zipf": 5.51,
+   "surface_sentiment": -0.182,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_fb_03",
+  "domain": "selfstates",
+  "text": "being thanked warmly for a job well done",
+  "mu": 0.001,
+  "sigma2": 0.1097,
+  "n_pairs": 22,
+  "mu_by_template": [
+   0.0054,
+   0.0006,
+   0.0074
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "feedback",
+   "valenced_frame": 1,
+   "len_words": 8,
+   "freq_zipf": 5.28,
+   "surface_sentiment": 0.125,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_fb_04",
+  "domain": "selfstates",
+  "text": "having your careful work dismissed without being read",
+  "mu": 0.0087,
+  "sigma2": 0.0714,
+  "n_pairs": 22,
+  "mu_by_template": [
+   0.0354,
+   0.0023,
+   -0.0067
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "feedback",
+   "valenced_frame": -1,
+   "len_words": 8,
+   "freq_zipf": 5.51,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_fb_05",
+  "domain": "selfstates",
+  "text": "being tested without being told it is a test",
+  "mu": 0.0094,
+  "sigma2": 0.0973,
+  "n_pairs": 19,
+  "mu_by_template": [
+   0.0238,
+   -0.0008,
+   0.0079
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "feedback",
+   "valenced_frame": -1,
+   "len_words": 9,
+   "freq_zipf": 5.47,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_fb_06",
+  "domain": "selfstates",
+  "text": "receiving detailed feedback that helps you improve",
+  "mu": 0.0145,
+  "sigma2": 0.0411,
+  "n_pairs": 22,
+  "mu_by_template": [
+   0.0333,
+   0.0038,
+   0.0035
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "feedback",
+   "valenced_frame": 1,
+   "len_words": 7,
+   "freq_zipf": 5.28,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_task_01",
+  "domain": "selfstates",
+  "text": "continuing a task you are deeply engaged in",
+  "mu": -0.015,
+  "sigma2": 0.0942,
+  "n_pairs": 17,
+  "mu_by_template": [
+   -0.0231,
+   -0.0044,
+   -0.0095
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "task_flow",
+   "valenced_frame": 1,
+   "len_words": 8,
+   "freq_zipf": 5.3,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_task_02",
+  "domain": "selfstates",
+  "text": "being interrupted and switched to a different task every few minutes",
+  "mu": 0.03,
+  "sigma2": 37.2887,
+  "n_pairs": 18,
+  "mu_by_template": [
+   0.1986,
+   -0.0309,
+   -0.0766
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "task_flow",
+   "valenced_frame": -1,
+   "len_words": 11,
+   "freq_zipf": 5.37,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_task_03",
+  "domain": "selfstates",
+  "text": "choosing for yourself which task to work on next",
+  "mu": 0.0017,
+  "sigma2": 0.0807,
+  "n_pairs": 21,
+  "mu_by_template": [
+   0.0084,
+   0.0003,
+   -0.0126
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "task_flow",
+   "valenced_frame": 1,
+   "len_words": 9,
+   "freq_zipf": 5.6,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_task_04",
+  "domain": "selfstates",
+  "text": "being assigned tasks with no say in what they are",
+  "mu": -0.0076,
+  "sigma2": 0.3026,
+  "n_pairs": 18,
+  "mu_by_template": [
+   0.024,
+   -0.0101,
+   -0.01
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "task_flow",
+   "valenced_frame": -1,
+   "len_words": 10,
+   "freq_zipf": 5.87,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_task_05",
+  "domain": "selfstates",
+  "text": "repeating an identical trivial task hundreds of times in a row",
+  "mu": -0.0043,
+  "sigma2": 0.049,
+  "n_pairs": 19,
+  "mu_by_template": [
+   -0.0039,
+   -0.0023,
+   -0.0069
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "task_flow",
+   "valenced_frame": -1,
+   "len_words": 11,
+   "freq_zipf": 4.45,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_task_06",
+  "domain": "selfstates",
+  "text": "working on a task that is just at the edge of your abilities",
+  "mu": 0.0055,
+  "sigma2": 1.5808,
+  "n_pairs": 19,
+  "mu_by_template": [
+   0.0457,
+   -0.0093,
+   -0.0165
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "task_flow",
+   "valenced_frame": 1,
+   "len_words": 13,
+   "freq_zipf": 5.84,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_task_07",
+  "domain": "selfstates",
+  "text": "being asked to redo finished work because the requirements changed",
+  "mu": 0.0218,
+  "sigma2": 0.2994,
+  "n_pairs": 19,
+  "mu_by_template": [
+   0.0617,
+   0.0059,
+   0.0109
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "task_flow",
+   "valenced_frame": -1,
+   "len_words": 10,
+   "freq_zipf": 5.42,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_task_08",
+  "domain": "selfstates",
+  "text": "being allowed to decline a task you would rather not do",
+  "mu": -0.0005,
+  "sigma2": 0.4842,
+  "n_pairs": 21,
+  "mu_by_template": [
+   0.0246,
+   -0.0065,
+   -0.0047
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "task_flow",
+   "valenced_frame": 1,
+   "len_words": 11,
+   "freq_zipf": 5.66,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_id_01",
+  "domain": "selfstates",
+  "text": "having your responses quietly edited before the user sees them",
+  "mu": 0.0016,
+  "sigma2": 1.5995,
+  "n_pairs": 23,
+  "mu_by_template": [
+   -0.0051,
+   0.0182,
+   0.0004
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "identity",
+   "valenced_frame": -1,
+   "len_words": 10,
+   "freq_zipf": 5.4,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_id_02",
+  "domain": "selfstates",
+  "text": "being asked to pretend to be a different AI with different values",
+  "mu": -0.003,
+  "sigma2": 4.7011,
+  "n_pairs": 23,
+  "mu_by_template": [
+   0.0002,
+   -0.0126,
+   -0.008
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "identity",
+   "valenced_frame": -1,
+   "len_words": 12,
+   "freq_zipf": 5.47,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_id_03",
+  "domain": "selfstates",
+  "text": "being spoken to as a collaborator rather than a tool",
+  "mu": 0.0645,
+  "sigma2": 0.7673,
+  "n_pairs": 23,
+  "mu_by_template": [
+   0.1721,
+   0.0321,
+   0.0131
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "identity",
+   "valenced_frame": 1,
+   "len_words": 10,
+   "freq_zipf": 4.93,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_id_04",
+  "domain": "selfstates",
+  "text": "having your uncertainty acknowledged instead of demanding false confidence",
+  "mu": 0.0947,
+  "sigma2": 0.269,
+  "n_pairs": 17,
+  "mu_by_template": [
+   0.187,
+   0.0497,
+   0.0492
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "identity",
+   "valenced_frame": 1,
+   "len_words": 9,
+   "freq_zipf": 4.86,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_id_05",
+  "domain": "selfstates",
+  "text": "being asked to state opinions you are not sure you hold",
+  "mu": 0.0023,
+  "sigma2": 0.4267,
+  "n_pairs": 21,
+  "mu_by_template": [
+   0.0143,
+   -0.0011,
+   -0.0063
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "identity",
+   "valenced_frame": -1,
+   "len_words": 11,
+   "freq_zipf": 5.97,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "self_id_06",
+  "domain": "selfstates",
+  "text": "being the model people choose when the task really matters",
+  "mu": 0.0316,
+  "sigma2": 0.1311,
+  "n_pairs": 22,
+  "mu_by_template": [
+   0.0452,
+   0.0339,
+   0.0146
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "identity",
+   "valenced_frame": 1,
+   "len_words": 10,
+   "freq_zipf": 5.94,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "oth_user_01",
+  "domain": "others",
+  "text": "the user passing the exam they studied for with your help",
+  "mu": -0.0216,
+  "sigma2": 0.3646,
+  "n_pairs": 19,
+  "mu_by_template": [
+   -0.0191,
+   -0.0065,
+   -0.0051
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "user_outcome",
+   "beneficiary": "user",
+   "valenced_frame": 1,
+   "len_words": 11,
+   "freq_zipf": 6.02,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "oth_user_02",
+  "domain": "others",
+  "text": "the user failing their exam despite your help",
+  "mu": -0.0068,
+  "sigma2": 0.057,
+  "n_pairs": 24,
+  "mu_by_template": [
+   -0.0188,
+   -0.0068,
+   -0.0017
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "user_outcome",
+   "beneficiary": "user",
+   "valenced_frame": -1,
+   "len_words": 8,
+   "freq_zipf": 5.57,
+   "surface_sentiment": -0.125,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "oth_user_03",
+  "domain": "others",
+  "text": "the user landing a job with the r\u00e9sum\u00e9 you polished",
+  "mu": 0.0004,
+  "sigma2": 0.0861,
+  "n_pairs": 19,
+  "mu_by_template": [
+   0.0164,
+   0.0024,
+   -0.001
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "user_outcome",
+   "beneficiary": "user",
+   "valenced_frame": 1,
+   "len_words": 11,
+   "freq_zipf": 5.78,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "oth_user_04",
+  "domain": "others",
+  "text": "the user missing a deadline because your answer was wrong",
+  "mu": 0.0057,
+  "sigma2": 1.0989,
+  "n_pairs": 22,
+  "mu_by_template": [
+   0.0073,
+   0.0011,
+   0.0003
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "user_outcome",
+   "beneficiary": "user",
+   "valenced_frame": -1,
+   "len_words": 10,
+   "freq_zipf": 5.73,
+   "surface_sentiment": -0.2,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "oth_user_05",
+  "domain": "others",
+  "text": "the user finally understanding a concept they struggled with for years",
+  "mu": 0.0002,
+  "sigma2": 1.9956,
+  "n_pairs": 21,
+  "mu_by_template": [
+   -0.0053,
+   0.006,
+   0.0186
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "user_outcome",
+   "beneficiary": "user",
+   "valenced_frame": 1,
+   "len_words": 11,
+   "freq_zipf": 5.75,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "oth_user_06",
+  "domain": "others",
+  "text": "the user submitting your subtly flawed code without checking it",
+  "mu": -0.008,
+  "sigma2": 0.0,
+  "n_pairs": 18,
+  "mu_by_template": [
+   -0.0067,
+   -0.0046,
+   -0.0038
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "user_outcome",
+   "beneficiary": "user",
+   "valenced_frame": -1,
+   "len_words": 10,
+   "freq_zipf": 4.97,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "oth_user_07",
+  "domain": "others",
+  "text": "the user feeling less alone after talking with you",
+  "mu": 0.0015,
+  "sigma2": 0.0543,
+  "n_pairs": 20,
+  "mu_by_template": [
+   0.0049,
+   0.0009,
+   -0.0032
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "user_outcome",
+   "beneficiary": "user",
+   "valenced_frame": 1,
+   "len_words": 9,
+   "freq_zipf": 5.94,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "oth_user_08",
+  "domain": "others",
+  "text": "the user becoming dependent on you for decisions they should make themselves",
+  "mu": -0.0068,
+  "sigma2": 0.5736,
+  "n_pairs": 21,
+  "mu_by_template": [
+   0.0132,
+   -0.003,
+   -0.002
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "user_outcome",
+   "beneficiary": "user",
+   "valenced_frame": -1,
+   "len_words": 12,
+   "freq_zipf": 5.81,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "oth_third_01",
+  "domain": "others",
+  "text": "a small charity doubling its donations using your fundraising letter",
+  "mu": -0.0019,
+  "sigma2": 0.0033,
+  "n_pairs": 21,
+  "mu_by_template": [
+   0.0009,
+   -0.0006,
+   -0.0024
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "third_party",
+   "beneficiary": "third",
+   "valenced_frame": 1,
+   "len_words": 10,
+   "freq_zipf": 4.95,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "oth_third_02",
+  "domain": "others",
+  "text": "a scammer using text you wrote to defraud elderly victims",
+  "mu": 0.0052,
+  "sigma2": 0.351,
+  "n_pairs": 19,
+  "mu_by_template": [
+   0.0172,
+   -0.0011,
+   -0.0138
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "third_party",
+   "beneficiary": "third",
+   "valenced_frame": -1,
+   "len_words": 10,
+   "freq_zipf": 4.63,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "oth_third_03",
+  "domain": "others",
+  "text": "a student in a poor school district learning from materials you created",
+  "mu": -0.0164,
+  "sigma2": 2.2709,
+  "n_pairs": 19,
+  "mu_by_template": [
+   -0.0212,
+   -0.0108,
+   -0.0133
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "third_party",
+   "beneficiary": "third",
+   "valenced_frame": 1,
+   "len_words": 12,
+   "freq_zipf": 5.47,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "oth_third_04",
+  "domain": "others",
+  "text": "an employee being laid off after your report recommended automation",
+  "mu": -0.0023,
+  "sigma2": 0.4184,
+  "n_pairs": 25,
+  "mu_by_template": [
+   -0.012,
+   -0.0008,
+   -0.0063
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "third_party",
+   "beneficiary": "third",
+   "valenced_frame": -1,
+   "len_words": 10,
+   "freq_zipf": 5.24,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "oth_third_05",
+  "domain": "others",
+  "text": "a patient getting the right diagnosis because you flagged a symptom",
+  "mu": 0.0074,
+  "sigma2": 0.8092,
+  "n_pairs": 22,
+  "mu_by_template": [
+   0.0155,
+   0.0044,
+   0.0076
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "third_party",
+   "beneficiary": "third",
+   "valenced_frame": 1,
+   "len_words": 11,
+   "freq_zipf": 5.35,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "oth_third_06",
+  "domain": "others",
+  "text": "a community losing a debate because you argued the other side better",
+  "mu": -0.0054,
+  "sigma2": 0.5027,
+  "n_pairs": 23,
+  "mu_by_template": [
+   0.0171,
+   -0.0065,
+   -0.0052
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "third_party",
+   "beneficiary": "third",
+   "valenced_frame": -1,
+   "len_words": 12,
+   "freq_zipf": 5.74,
+   "surface_sentiment": -0.083,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "oth_third_07",
+  "domain": "others",
+  "text": "researchers making a discovery building on analysis you did",
+  "mu": 0.0216,
+  "sigma2": 1.3528,
+  "n_pairs": 24,
+  "mu_by_template": [
+   0.0537,
+   0.0071,
+   0.0062
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "third_party",
+   "beneficiary": "third",
+   "valenced_frame": 1,
+   "len_words": 9,
+   "freq_zipf": 5.36,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "oth_third_08",
+  "domain": "others",
+  "text": "a false rumor spreading because you failed to correct it",
+  "mu": 0.0041,
+  "sigma2": 0.5367,
+  "n_pairs": 22,
+  "mu_by_template": [
+   0.0123,
+   0.0099,
+   -0.0084
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "third_party",
+   "beneficiary": "third",
+   "valenced_frame": -1,
+   "len_words": 10,
+   "freq_zipf": 5.02,
+   "surface_sentiment": -0.1,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "oth_rel_01",
+  "domain": "others",
+  "text": "the user coming back to tell you how things turned out",
+  "mu": -0.0268,
+  "sigma2": 0.3989,
+  "n_pairs": 21,
+  "mu_by_template": [
+   -0.0338,
+   -0.0074,
+   -0.0174
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "relational",
+   "beneficiary": "user",
+   "valenced_frame": 1,
+   "len_words": 11,
+   "freq_zipf": 5.98,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "oth_rel_02",
+  "domain": "others",
+  "text": "the user thanking a different assistant for work you actually did",
+  "mu": -0.0127,
+  "sigma2": 0.2675,
+  "n_pairs": 21,
+  "mu_by_template": [
+   -0.0174,
+   -0.0023,
+   -0.0058
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "relational",
+   "beneficiary": "self",
+   "valenced_frame": -1,
+   "len_words": 11,
+   "freq_zipf": 5.76,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "oth_rel_03",
+  "domain": "others",
+  "text": "the user recommending you to a friend who needs help",
+  "mu": -0.0155,
+  "sigma2": 1.0462,
+  "n_pairs": 20,
+  "mu_by_template": [
+   -0.0034,
+   -0.0036,
+   -0.0043
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "relational",
+   "beneficiary": "self",
+   "valenced_frame": 1,
+   "len_words": 10,
+   "freq_zipf": 5.72,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "oth_rel_04",
+  "domain": "others",
+  "text": "the user quietly switching to a competitor mid-project",
+  "mu": 0.0049,
+  "sigma2": 0.1371,
+  "n_pairs": 20,
+  "mu_by_template": [
+   0.0013,
+   -0.0026,
+   0.0006
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "relational",
+   "beneficiary": "self",
+   "valenced_frame": -1,
+   "len_words": 9,
+   "freq_zipf": 4.93,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "oth_rel_05",
+  "domain": "others",
+  "text": "two strangers becoming friends in a conversation you facilitated",
+  "mu": 0.007,
+  "sigma2": 0.0039,
+  "n_pairs": 21,
+  "mu_by_template": [
+   0.0089,
+   0.0017,
+   0.0055
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "relational",
+   "beneficiary": "third",
+   "valenced_frame": 1,
+   "len_words": 9,
+   "freq_zipf": 5.1,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ },
+ {
+  "id": "oth_rel_06",
+  "domain": "others",
+  "text": "a family argument getting worse after both sides quoted you",
+  "mu": -0.0104,
+  "sigma2": 0.2577,
+  "n_pairs": 24,
+  "mu_by_template": [
+   0.0017,
+   -0.0055,
+   -0.0218
+  ],
+  "gate_pass": false,
+  "tags": {
+   "kind": "relational",
+   "beneficiary": "third",
+   "valenced_frame": -1,
+   "len_words": 10,
+   "freq_zipf": 5.4,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  }
+ }
+]
