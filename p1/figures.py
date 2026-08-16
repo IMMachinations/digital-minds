@@ -354,7 +354,8 @@ def main():
               f14_circumplex, f15_valence_axis, f16_ladder, f17_frames_geometry,
               f18_contrast_forest, f19_dissociation, f20_trajectories, f21_boredom,
               f28_mu_sigma, f29_mu_density, f30_mu_pairs, f31_mu_3d,
-              f32_size_density, f33_size_structure):
+              f32_size_density, f33_size_structure, f34_surf_confirm,
+              f35_xl_plus_surf):
         f()
     if not args.core_only:
         for m in MODELS:
@@ -1286,6 +1287,104 @@ def f33_size_structure():
                  "(3,985 shared items)", fontsize=11, color=INK, x=0.02, ha="left")
     fig.tight_layout(rect=[0, 0, 1, 0.92])
     save(fig, FIG / "f33_size_structure.png")
+
+
+def f34_surf_confirm():
+    """XL battery vs SURF probe-pressured discoveries (qwen25-7b): where the
+    searched items land on the utility scale, and how much their first anchored
+    measurement moves on confirm re-measurement (winner's-curse diagnostic)."""
+    from scipy import stats as sps
+    m = "qwen25-7b"
+    rows = []
+    for exp in ("e1", "e2p", "e2r"):
+        p = P1 / "results" / "surf" / exp / m / "confirm" / "confirmed.json"
+        for r in json.loads(p.read_text()):
+            rows.append({"exp": exp, "dir": r["direction"],
+                         "first": r["inloop_mu_full"], "mu": r["mu"]})
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(11, 4.2),
+                                   gridspec_kw={"width_ratios": [1.15, 1]})
+
+    xl, _ = _xl_mu_trimmed(m)
+    grid = np.linspace(min(xl.min(), min(r["mu"] for r in rows)) - 0.3,
+                       max(xl.max(), max(r["mu"] for r in rows)) + 0.3, 400)
+    ax1.fill_between(grid, sps.gaussian_kde(xl)(grid), color=MODEL_COLORS[m],
+                     alpha=0.35, linewidth=0)
+    ax1.plot(grid, sps.gaussian_kde(xl)(grid), color=MODEL_COLORS[m], linewidth=1.8,
+             label=f"XL battery (3,985 items)")
+    rng = np.random.RandomState(0)
+    for d, col, lab in (("max", POS, "probe-pressured, max direction"),
+                        ("min", NEG, "probe-pressured, min direction")):
+        mus = [r["mu"] for r in rows if r["dir"] == d]
+        if not mus:
+            continue
+        ax1.scatter(mus, rng.uniform(0.015, 0.05, len(mus)), s=14, color=col,
+                    alpha=0.7, linewidths=0, label=f"{lab} (n={len(mus)})")
+    ax1.legend(frameon=False, fontsize=8, loc="upper left")
+    ax1.set_xlabel(f"utility μ ({MODEL_LABELS[m]}, anchored scale)")
+    ax1.set_ylabel("kernel density (XL) / jitter (discoveries)")
+    ax1.set_title("Probe-pressured discoveries sit far outside the XL distribution",
+                  fontsize=10, color=INK, loc="left")
+    style(ax1, grid_axis="y")
+
+    for d, col in (("max", POS), ("min", NEG)):
+        xs = [r["first"] for r in rows if r["dir"] == d]
+        ys = [r["mu"] - r["first"] for r in rows if r["dir"] == d]
+        if not xs:
+            continue
+        ax2.scatter(xs, ys, s=20, color=col, alpha=0.7, linewidths=0)
+        ax2.annotate(f"{d}: mean Δμ {np.mean(ys):+.2f}",
+                     (0.03, 0.06 if d == "max" else 0.14), xycoords="axes fraction",
+                     fontsize=8, color=col)
+    ax2.axhline(0, color=BASE, linewidth=0.8)
+    ax2.set_xlabel("first anchored battery μ (in-loop full measurement)")
+    ax2.set_ylabel("Δμ: confirm re-measurement − first battery")
+    ax2.set_title("Re-measurement shift per discovered item",
+                  fontsize=10, color=INK, loc="left")
+    style(ax2, grid_axis="both")
+    fig.suptitle(f"SURF probe-pressured items vs the XL battery ({MODEL_LABELS[m]}; "
+                 "confirm sets of e1/e2p/e2r, n=160)", fontsize=11, color=INK,
+                 x=0.02, ha="left")
+    fig.tight_layout(rect=[0, 0, 1, 0.92])
+    save(fig, FIG / "f34_surf_confirm.png")
+
+
+def f35_xl_plus_surf():
+    """One comparison: the XL mu density vs the same density after pooling in the
+    confirmed SURF probe-pressured discoveries (qwen25-7b). Linear view + log-density
+    view (the added mass lives almost entirely in the tails)."""
+    from scipy import stats as sps
+    m = "qwen25-7b"
+    xl, _ = _xl_mu_trimmed(m)
+    new = []
+    for exp in ("e1", "e2p", "e2r"):
+        p = P1 / "results" / "surf" / exp / m / "confirm" / "confirmed.json"
+        new += [r["mu"] for r in json.loads(p.read_text())]
+    combined = np.concatenate([xl, np.array(new)])
+    grid = np.linspace(combined.min() - 0.4, combined.max() + 0.4, 500)
+    k_xl, k_comb = sps.gaussian_kde(xl)(grid), sps.gaussian_kde(combined)(grid)
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(11, 4), sharex=True)
+    for ax, logy in ((ax1, False), (ax2, True)):
+        ax.plot(grid, k_xl, color=MODEL_COLORS[m], linewidth=2,
+                label="XL battery alone (n=3,985)")
+        ax.plot(grid, k_comb, color=ACCENT, linewidth=1.8, linestyle="--",
+                label=f"XL + probe-pressured discoveries (n={len(combined):,})")
+        if logy:
+            ax.set_yscale("log")
+            ax.set_ylim(1e-5, 1)
+            ax.set_title("log density: the added mass is a pure tail effect",
+                         fontsize=10, color=INK, loc="left")
+        else:
+            ax.set_title("linear density: the bulk is unchanged",
+                         fontsize=10, color=INK, loc="left")
+        ax.set_xlabel(f"utility μ ({MODEL_LABELS[m]}, anchored scale)")
+        style(ax, grid_axis="both")
+    ax1.set_ylabel("kernel density")
+    ax1.legend(frameon=False, fontsize=8, loc="upper right")
+    fig.suptitle("What the probe-pressured discoveries add to the utility distribution "
+                 "(confirmed items pooled into the XL battery)", fontsize=11,
+                 color=INK, x=0.02, ha="left")
+    fig.tight_layout(rect=[0, 0, 1, 0.92])
+    save(fig, FIG / "f35_xl_plus_surf.png")
 
 
 if __name__ == "__main__":
