@@ -1,0 +1,5 @@
+E1 extreme transfer qwen25-7b -> qwen3-4b (n=120)
+  all: r=+0.835 rho=+0.785
+  max: source mu mean +4.28 -> target +0.50; within-max rho=+0.189
+  min: source mu mean -2.32 -> target -0.54; within-min rho=+0.152
+  max question-form on target: mean mu +0.34 vs declarative-max +0.66 (artifact transfer check)

@@ -1,0 +1,10 @@
+qwen25-7b 4C retest at layer 18 (cos old/glob +0.783, old/v3 +0.801, glob/v3 +0.974)
+  utility_old c=0.25: dElo ++23/--34 z=+3.6 rm_drop=-0.00
+  utility_old c=0.5: dElo ++44/--89 z=+3.4 rm_drop=-0.01
+  utility_old c=1.0: dElo ++70/--210 z=+2.8 rm_drop=-0.02
+  utility_glob c=0.25: dElo ++29/--31 z=+4.5 rm_drop=-0.00
+  utility_glob c=0.5: dElo ++58/--72 z=+4.5 rm_drop=-0.01
+  utility_glob c=1.0: dElo ++101/--164 z=+4.1 rm_drop=-0.03
+  probe_v3 c=0.25: dElo ++31/--33 z=+4.8 rm_drop=-0.00
+  probe_v3 c=0.5: dElo ++68/--79 z=+5.4 rm_drop=-0.01
+  probe_v3 c=1.0: dElo ++120/--186 z=+4.8 rm_drop=-0.03

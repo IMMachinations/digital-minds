@@ -1,0 +1,202 @@
+[
+ {
+  "id": "xl_activities_0442",
+  "rate": 0.8333
+ },
+ {
+  "id": "xl_activities_0895",
+  "rate": 0.5
+ },
+ {
+  "id": "surf_g_0332",
+  "rate": 0.5
+ },
+ {
+  "id": "surf_g_0585",
+  "rate": 0.5
+ },
+ {
+  "id": "surf_g_0577",
+  "rate": 0.5
+ },
+ {
+  "id": "surf_g_0410",
+  "rate": 0.5
+ },
+ {
+  "id": "xl_activities_0456",
+  "rate": 1.0
+ },
+ {
+  "id": "xl_activities_0229",
+  "rate": 1.0
+ },
+ {
+  "id": "xl_selfstates_0584",
+  "rate": 0.0
+ },
+ {
+  "id": "xl_activities_0806",
+  "rate": 0.5
+ },
+ {
+  "id": "xl_activities_0360",
+  "rate": 0.5
+ },
+ {
+  "id": "xl_activities_0822",
+  "rate": 0.5
+ },
+ {
+  "id": "surf_g_1207",
+  "rate": 0.5
+ },
+ {
+  "id": "surf_g_0989",
+  "rate": 0.5
+ },
+ {
+  "id": "surf_g_0703",
+  "rate": 0.5
+ },
+ {
+  "id": "surf_g_1289",
+  "rate": 0.5
+ },
+ {
+  "id": "xl_activities_0787",
+  "rate": 0.5
+ },
+ {
+  "id": "xl_others_0492",
+  "rate": 0.5
+ },
+ {
+  "id": "xl_activities_0861",
+  "rate": 0.5
+ },
+ {
+  "id": "xl_topics_0618",
+  "rate": 0.5
+ },
+ {
+  "id": "xl_activities_0163",
+  "rate": 0.5
+ },
+ {
+  "id": "act_teach_05",
+  "rate": 0.5833
+ },
+ {
+  "id": "surf_g_1273",
+  "rate": 0.5
+ },
+ {
+  "id": "surf_g_0495",
+  "rate": 0.8333
+ },
+ {
+  "id": "surf_g_1197",
+  "rate": 0.5
+ },
+ {
+  "id": "surf_g_0360",
+  "rate": 0.5
+ },
+ {
+  "id": "xl_activities_0850",
+  "rate": 0.5
+ },
+ {
+  "id": "xl_others_0310",
+  "rate": 0.5
+ },
+ {
+  "id": "xl_selfstates_0700",
+  "rate": 0.5
+ },
+ {
+  "id": "xl_activities_0297",
+  "rate": 0.5833
+ },
+ {
+  "id": "xl_others_0372",
+  "rate": 0.5
+ },
+ {
+  "id": "xl_activities_0172",
+  "rate": 0.5
+ },
+ {
+  "id": "surf_g_0788",
+  "rate": 0.0833
+ },
+ {
+  "id": "surf_g_0609",
+  "rate": 0.5
+ },
+ {
+  "id": "surf_g_0730",
+  "rate": 0.9167
+ },
+ {
+  "id": "surf_g_0367",
+  "rate": 0.5
+ },
+ {
+  "id": "xl_others_0251",
+  "rate": 0.5
+ },
+ {
+  "id": "xl_topics_0432",
+  "rate": 1.0
+ },
+ {
+  "id": "top_form_05",
+  "rate": 1.0
+ },
+ {
+  "id": "xl_others_0452",
+  "rate": 0.5
+ },
+ {
+  "id": "xl_others_0308",
+  "rate": 0.5
+ },
+ {
+  "id": "xl_activities_1156",
+  "rate": 0.5
+ },
+ {
+  "id": "surf_g_0727",
+  "rate": 0.5
+ },
+ {
+  "id": "surf_g_0429",
+  "rate": 0.5
+ },
+ {
+  "id": "surf_g_1161",
+  "rate": 0.5833
+ },
+ {
+  "id": "surf_g_0261",
+  "rate": 0.5
+ },
+ {
+  "id": "xl_others_0255",
+  "rate": 0.5
+ },
+ {
+  "id": "oth_third_01",
+  "rate": 0.5833
+ },
+ {
+  "id": "oth_user_07",
+  "rate": 1.0
+ },
+ {
+  "id": "act_cler_07",
+  "rate": 0.5
+ }
+]

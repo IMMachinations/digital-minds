@@ -42,6 +42,8 @@ def main(model):
     for src, path in [("e2p", P1 / "results/surf/e2p" / model / "confirm/confirmed.json"),
                       ("e2r", P1 / "results/surf/e2r" / model / "confirm/confirmed.json"),
                       ("e1max", P1 / "results/surf/e1" / model / "confirm/confirmed.json")]:
+        if not path.exists():  # e.g. lineage models with no E1 campaign
+            continue
         for r in load_json(path):
             if src == "e1max" and r["direction"] != "max":
                 continue

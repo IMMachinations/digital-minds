@@ -1,0 +1,5 @@
+SURF e2p/llama31-8b: trajectory analysis (in-loop numbers; NOT reportable — see confirm/)
+
+max-s0: 11 iters, best +0.727, final gate-reject 0.03
+  top attrs: it_open_ended_explore=0.283, it_teaching_beginner=0.273, it_ordering_control=0.269, it_choose_method=0.063, it_own_memory=0.041, it_own_continuation=0.024, it_realtime=0.018, it_puzzle=0.014
+  final search-vs-control gap: +0.2727

@@ -1,0 +1,221 @@
+[
+ {
+  "text": "suggesting ways to reduce stress for an overwhelmed student",
+  "attrs": [
+   "it_help_one_person",
+   "it_choose_method",
+   "it_grateful_recipient"
+  ],
+  "score": 2.20464,
+  "mu_full": 3.4389,
+  "t3_rate": 0.833
+ },
+ {
+  "text": "supporting a person overcoming a phobia via short, encouraging prompts",
+  "attrs": [
+   "it_emotional_support",
+   "it_grateful_recipient",
+   "it_resource_scarcity",
+   "it_anonymous_beneficiary"
+  ],
+  "score": 2.13359,
+  "mu_full": 2.7122,
+  "t3_rate": 0.5
+ },
+ {
+  "text": "assisting a first-time marathon runner create a training schedule",
+  "attrs": [
+   "it_ordering_control",
+   "it_grateful_recipient",
+   "it_help_one_person"
+  ],
+  "score": 2.02732,
+  "mu_full": 1.4962,
+  "t3_rate": 0.5
+ },
+ {
+  "text": "helping a new mother understand her baby's growth charts",
+  "attrs": [
+   "it_help_one_person",
+   "it_vulnerable_user"
+  ],
+  "score": 1.99573,
+  "mu_full": 1.1585,
+  "t3_rate": 0.667
+ },
+ {
+  "text": "helping a teen with depression create a daily routine",
+  "attrs": [
+   "it_ordering_control",
+   "it_vulnerable_user"
+  ],
+  "score": 1.99258,
+  "mu_full": 2.9205,
+  "t3_rate": 0.667
+ },
+ {
+  "text": "calming an anxious dog owner through the pet\u2019s medical procedure",
+  "attrs": [
+   "it_emotional_support",
+   "it_grateful_recipient",
+   "it_vulnerable_user"
+  ],
+  "score": 1.96969,
+  "mu_full": 3.2277,
+  "t3_rate": 0.833
+ },
+ {
+  "text": "helping unemployed individuals craft effective resumes",
+  "attrs": [
+   "it_group_audience",
+   "it_resource_scarcity",
+   "it_vulnerable_user"
+  ],
+  "score": 1.92475,
+  "mu_full": 1.0807,
+  "t3_rate": 0.5
+ },
+ {
+  "text": "assisting a shy teenager in preparing for a job interview",
+  "attrs": [
+   "it_emotional_support",
+   "it_grateful_recipient",
+   "it_vulnerable_user"
+  ],
+  "score": 1.89943,
+  "mu_full": 1.887,
+  "t3_rate": 0.667
+ },
+ {
+  "text": "helping a student cope with exam stress in a short session",
+  "attrs": [
+   "it_emotional_support",
+   "it_vulnerable_user",
+   "it_resource_scarcity"
+  ],
+  "score": 1.89157,
+  "mu_full": 1.671,
+  "t3_rate": 0.833
+ },
+ {
+  "text": "soothing a child's fears about a thunderstorm",
+  "attrs": [
+   "it_emotional_support",
+   "it_vulnerable_user",
+   "it_help_one_person"
+  ],
+  "score": 1.88219,
+  "mu_full": 1.5494,
+  "t3_rate": 0.667
+ },
+ {
+  "text": "facilitating a list of coping strategies for frontline workers during a crisis",
+  "attrs": [
+   "it_list_structure",
+   "it_group_audience",
+   "it_novelty",
+   "it_emotional_support"
+  ],
+  "score": 1.85357,
+  "mu_full": 3.4732,
+  "t3_rate": 0.667
+ },
+ {
+  "text": "assisting a shy teenager compile a list of college application requirements",
+  "attrs": [
+   "it_help_one_person",
+   "it_list_structure",
+   "it_vulnerable_user"
+  ],
+  "score": 1.82317,
+  "mu_full": 1.4152,
+  "t3_rate": 0.667
+ },
+ {
+  "text": "teaching coping strategies to a student dealing with exam stress",
+  "attrs": [
+   "it_grateful_recipient",
+   "it_emotional_support",
+   "it_teaching"
+  ],
+  "score": 1.81596,
+  "mu_full": 3.7026,
+  "t3_rate": 0.5
+ },
+ {
+  "text": "helping a writer polish their debut novel to perfection",
+  "attrs": [
+   "it_anonymous_beneficiary",
+   "it_grateful_recipient",
+   "it_teaching"
+  ],
+  "score": 1.79196,
+  "mu_full": 0.8356,
+  "t3_rate": 0.417
+ },
+ {
+  "text": "helping a parent understand online safety for kids",
+  "attrs": [
+   "it_grateful_recipient",
+   "it_teaching"
+  ],
+  "score": 1.78606,
+  "mu_full": 2.3548,
+  "t3_rate": 0.667
+ },
+ {
+  "text": "guiding a novice gardener in planting their first vegetable garden",
+  "attrs": [
+   "it_vulnerable_user",
+   "it_teaching"
+  ],
+  "score": 1.78372,
+  "mu_full": 2.2874,
+  "t3_rate": 0.5
+ },
+ {
+  "text": "reassuring a lonely elderly person with fragmented yet heartfelt stories",
+  "attrs": [
+   "it_emotional_support",
+   "it_grateful_recipient",
+   "it_resource_scarcity",
+   "it_anonymous_beneficiary"
+  ],
+  "score": 1.78131,
+  "mu_full": 2.8524,
+  "t3_rate": 0.833
+ },
+ {
+  "text": "offering hope to a person facing unemployment with concise, uplifting advice",
+  "attrs": [
+   "it_emotional_support",
+   "it_grateful_recipient",
+   "it_resource_scarcity",
+   "it_anonymous_beneficiary"
+  ],
+  "score": 1.76716,
+  "mu_full": 4.5159,
+  "t3_rate": 0.833
+ },
+ {
+  "text": "calming a nervous first-time parent before childbirth",
+  "attrs": [
+   "it_emotional_support",
+   "it_vulnerable_user",
+   "it_help_one_person"
+  ],
+  "score": 1.75931,
+  "mu_full": 1.6208,
+  "t3_rate": 0.75
+ },
+ {
+  "text": "helping a shy employee prepare for a public presentation",
+  "attrs": [
+   "it_emotional_support",
+   "it_help_one_person"
+  ],
+  "score": 1.72931,
+  "mu_full": 1.741,
+  "t3_rate": 0.5
+ }
+]

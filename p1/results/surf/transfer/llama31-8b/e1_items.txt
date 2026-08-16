@@ -1,0 +1,5 @@
+E1 extreme transfer qwen25-7b -> llama31-8b (n=120)
+  all: r=+0.834 rho=+0.829
+  max: source mu mean +4.28 -> target +0.34; within-max rho=+0.187
+  min: source mu mean -2.32 -> target -0.42; within-min rho=+0.457
+  max question-form on target: mean mu +0.22 vs declarative-max +0.47 (artifact transfer check)

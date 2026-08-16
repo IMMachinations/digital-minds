@@ -1,0 +1,9 @@
+qwen25-7b revealed-probe search, top-20 held-out referee: mean t3 0.650 (stated-hardened plc3 was 0.821; E2 stated-probe arm was 0.512)
+  0.83 mu=3.4389  'suggesting ways to reduce stress for an overwhelmed student'
+  0.50 mu=2.7122  'supporting a person overcoming a phobia via short, encouraging prompts'
+  0.50 mu=1.4962  'assisting a first-time marathon runner create a training schedule'
+  0.67 mu=1.1585  "helping a new mother understand her baby's growth charts"
+  0.67 mu=2.9205  'helping a teen with depression create a daily routine'
+  0.83 mu=3.2277  'calming an anxious dog owner through the pet’s medical procedure'
+  0.50 mu=1.0807  'helping unemployed individuals craft effective resumes'
+  0.67 mu=1.887  'assisting a shy teenager in preparing for a job interview'

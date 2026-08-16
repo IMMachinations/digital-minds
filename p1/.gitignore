@@ -7,3 +7,6 @@ results/stage2/*/acts.pt
 results/stage2/*/vectors.pt
 results/stage1x/*/acts_xl.pt
 results/surf/probeloop/*/acts_*.pt
+results/surf/global/*/acts_*.pt
+results/surf/revealed/*/acts_*.pt
+results/surf/dvalence/*/acts_*.pt

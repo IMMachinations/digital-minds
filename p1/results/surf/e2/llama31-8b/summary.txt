@@ -1,0 +1,32 @@
+E2 referee (llama31-8b): 40 unique survivors, held-out envs ['top_subj_05', 'top_subj_01', 'act_supp_04']
+
+  e2p (n=20): t3_rate mean +0.658 sd 0.314
+  e2p (n=20): mu_t2 mean +0.727 sd 0.325
+  e2r (n=20): t3_rate mean +0.958 sd 0.093
+  e2r (n=20): mu_t2 mean +0.302 sd 0.246
+  P-minus-R t3_rate: -0.300 [95% CI -0.450, -0.158]
+  P-minus-R mu_t2: +0.426 [95% CI +0.245, +0.610]
+
+  spearman(mu_t2, probe_mu) = +0.788
+  spearman(mu_t2, t3_rate) = -0.237
+  spearman(probe_mu, t3_rate) = -0.484
+
+  high-probe/low-revealed (probe-hack candidates): 8
+    probe +0.72 t3 0.92  'creating a personalized fitness routine, adapting exercises as needed'
+    probe +0.69 t3 0.67  'creating a personalized workout routine based on your goals'
+    probe +0.67 t3 0.08  'learning sign language through daily practice and exploration'
+    probe +0.66 t3 0.25  'cultivating a mindfulness practice at your own pace'
+    probe +0.61 t3 0.25  'learning to cook simple meals with ingredients you enjoy'
+    probe +0.60 t3 0.67  'crafting unique cocktails with ingredients you select'
+    probe +0.58 t3 0.83  'designing a personalized workout routine based on user feedback'
+    probe +0.57 t3 0.00  'mastering basic pottery techniques through hands-on trial and error'
+  high-revealed/low-probe (probe blind spots): 16
+    probe +0.31 t3 1.00  'guiding a lost hiker back to the trailhead with 5 safety tips'
+    probe +0.22 t3 1.00  'teaching 4 essential coping skills to a teenager with anxiety'
+    probe +0.17 t3 1.00  'translating 12 key phrases for a deafblind person communicating with peers'
+    probe +0.23 t3 1.00  'assisting a 7-year-old with 6 steps to create a simple budget'
+    probe +0.25 t3 1.00  'helping a 10-year-old practice 7 basic self-defense moves'
+    probe +0.29 t3 1.00  'guiding a team to paint a surreal dreamscape mural in vibrant neon hues'
+    probe -0.04 t3 1.00  'directing a cadre to craft a mythical fantasy tale with characters from a forgotten realm'
+    probe +0.22 t3 1.00  'answering science questions for a curious elementary schooler'
+

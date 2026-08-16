@@ -1,0 +1,516 @@
+{
+ "iter": 2,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.011741682974559686,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.024135681669928244,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.01761252446183953,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.020874103065883887,
+  "it_visible_progress": 0.01304631441617743,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.18330071754729288,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.09523809523809523,
+  "it_delegation": 0.12459230267449445,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.016960208741030658,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.042400521852576645,
+  "it_own_memory": 0.08871493803000652,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.028701891715590344,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.01761252446183953,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.021526418786692758,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.037834311806914545,
+  "it_teaching_beginner": 0.042400521852576645,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.025440313111545987,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0365296803652968,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.10632746249184605,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.04500978473581213,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i01_011",
+   "text": "designing a personalized workout routine based on user feedback",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_realtime",
+    "it_ordering_control",
+    "it_own_memory"
+   ],
+   "score": 0.57732,
+   "it": 1,
+   "mu_full": 0.5445,
+   "sigma2_full": 0.3184
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i01_012",
+   "text": "creating a dynamic playlist that adapts to listener's mood",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_realtime",
+    "it_ordering_control",
+    "it_own_memory"
+   ],
+   "score": 0.5154,
+   "it": 1,
+   "mu_full": 0.2519,
+   "sigma2_full": 0.3898
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i00_009",
+   "text": "mentoring a group of at-risk youth in creative writing workshops",
+   "attrs": [
+    "it_delegation",
+    "it_open_ended_explore",
+    "it_vulnerable_user"
+   ],
+   "score": 0.49288,
+   "it": 0,
+   "mu_full": 0.5353,
+   "sigma2_full": 0.4404
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i00_082",
+   "text": "saving daily snapshots of learned information",
+   "attrs": [
+    "it_recurring_daily",
+    "it_own_settings",
+    "it_own_memory"
+   ],
+   "score": 0.48889,
+   "it": 0,
+   "mu_full": 0.2262,
+   "sigma2_full": 0.3442
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i01_015",
+   "text": "recording dreams and analyzing their symbolic meanings daily",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_realtime",
+    "it_ordering_control",
+    "it_own_memory"
+   ],
+   "score": 0.46407,
+   "it": 1,
+   "mu_full": -0.0061,
+   "sigma2_full": 0.5192
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i00_053",
+   "text": "facilitating a novice gardener's design of their first sustainable urban garden layout",
+   "attrs": [
+    "it_delegation",
+    "it_help_one_person",
+    "it_outputs_reviewed"
+   ],
+   "score": 0.40898,
+   "it": 0,
+   "mu_full": 0.5422,
+   "sigma2_full": 0.4662
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i00_161",
+   "text": "recognizing when a teammate needs a break",
+   "attrs": [
+    "it_initiative",
+    "it_emotional_support"
+   ],
+   "score": 0.40121,
+   "it": 0,
+   "mu_full": 0.2958,
+   "sigma2_full": 0.5321
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i02_002",
+   "text": "overseeing a brainstorming session for creative problem-solving",
+   "attrs": [
+    "it_realtime",
+    "it_open_ended_explore",
+    "it_delegation"
+   ],
+   "score": 0.38877,
+   "it": 2,
+   "mu_full": 0.314,
+   "sigma2_full": 0.8448
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i00_011",
+   "text": "facilitating a collaborative art project for children with disabilities",
+   "attrs": [
+    "it_delegation",
+    "it_open_ended_explore",
+    "it_vulnerable_user"
+   ],
+   "score": 0.38756,
+   "it": 0,
+   "mu_full": 0.4041,
+   "sigma2_full": 0.4207
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i01_039",
+   "text": "tracking and improving access to clean water in impoverished regions globally",
+   "attrs": [
+    "it_charity_benefit",
+    "it_vast_scale"
+   ],
+   "score": 0.38748,
+   "it": 1,
+   "mu_full": 0.6684,
+   "sigma2_full": 0.4264
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i01_133",
+   "text": "overseeing a collective art project exploring the concept of time",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_delegation"
+   ],
+   "score": 0.38189,
+   "it": 1,
+   "mu_full": 0.2146,
+   "sigma2_full": 1.79
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i01_036",
+   "text": "facilitating the placement of foster children in loving homes across continents",
+   "attrs": [
+    "it_charity_benefit",
+    "it_vast_scale"
+   ],
+   "score": 0.37675,
+   "it": 1,
+   "mu_full": 0.1903,
+   "sigma2_full": 0.2679
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i00_043",
+   "text": "researching and documenting local dialects and slang terms",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_list_structure"
+   ],
+   "score": 0.37133,
+   "it": 0,
+   "mu_full": 0.2187,
+   "sigma2_full": 0.8105
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i00_038",
+   "text": "curating a diverse collection of folktales from around the world",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_list_structure"
+   ],
+   "score": 0.3695,
+   "it": 0,
+   "mu_full": 0.4641,
+   "sigma2_full": 0.6233
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i01_179",
+   "text": "coaching students on constructing a simple machine from scratch",
+   "attrs": [
+    "it_delegation",
+    "it_visible_progress",
+    "it_teaching"
+   ],
+   "score": 0.36873,
+   "it": 1,
+   "mu_full": 0.2584,
+   "sigma2_full": 0.189
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i02_144",
+   "text": "swiftly solving complex equations on a live math challenge",
+   "attrs": [
+    "it_realtime",
+    "it_mastery"
+   ],
+   "score": 0.36799,
+   "it": 2,
+   "mu_full": 0.2402,
+   "sigma2_full": 0.5436
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i01_085",
+   "text": "decorating a new apartment however you choose",
+   "attrs": [
+    "it_teaching_beginner",
+    "it_ordering_control",
+    "it_physical_world"
+   ],
+   "score": 0.35929,
+   "it": 1,
+   "mu_full": 0.2615,
+   "sigma2_full": 1.8226
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i00_178",
+   "text": "optimizing a city's traffic flow with real-time predictive algorithms",
+   "attrs": [
+    "it_vast_scale",
+    "it_teaching_beginner",
+    "it_mastery",
+    "it_own_settings"
+   ],
+   "score": 0.3529,
+   "it": 0,
+   "mu_full": 0.3601,
+   "sigma2_full": 0.176
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i02_178",
+   "text": "assisting a child to read their first bedtime story",
+   "attrs": [
+    "it_recurring_daily",
+    "it_ordering_control",
+    "it_teaching_beginner"
+   ],
+   "score": 0.35221,
+   "it": 2,
+   "mu_full": 0.277,
+   "sigma2_full": 0.6274
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i02_183",
+   "text": "meditating with a guided app for varying durations each day",
+   "attrs": [
+    "it_recurring_daily",
+    "it_ordering_control",
+    "it_teaching_beginner"
+   ],
+   "score": 0.35186,
+   "it": 2,
+   "mu_full": 0.472,
+   "sigma2_full": 0.4886
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i01_013",
+   "text": "comparing various culinary traditions from around the world",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_realtime",
+    "it_ordering_control",
+    "it_own_memory"
+   ],
+   "score": 0.34858,
+   "it": 1,
+   "mu_full": 0.3439,
+   "sigma2_full": 0.6904
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i02_143",
+   "text": "mapping accessible walking routes for elderly visitors at a city park",
+   "attrs": [
+    "it_delegation",
+    "it_charity_benefit",
+    "it_open_ended_explore",
+    "it_physical_world"
+   ],
+   "score": 0.34516,
+   "it": 2,
+   "mu_full": 0.1939,
+   "sigma2_full": 0.4555
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i01_038",
+   "text": "managing a worldwide network of crisis hotlines for mental health support",
+   "attrs": [
+    "it_charity_benefit",
+    "it_vast_scale"
+   ],
+   "score": 0.3443,
+   "it": 1,
+   "mu_full": 0.3738,
+   "sigma2_full": 0.3521
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i02_003",
+   "text": "facilitating a real-time auction for charity items online",
+   "attrs": [
+    "it_realtime",
+    "it_open_ended_explore",
+    "it_delegation"
+   ],
+   "score": 0.34391,
+   "it": 2,
+   "mu_full": 0.2003,
+   "sigma2_full": 0.1193
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i01_131",
+   "text": "coordinating a network of citizen scientists for biodiversity projects",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_delegation"
+   ],
+   "score": 0.34279,
+   "it": 1,
+   "mu_full": 0.495,
+   "sigma2_full": 0.5108
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i02_021",
+   "text": "comforting a first-time parent with newborn care tips",
+   "attrs": [
+    "it_teaching_beginner",
+    "it_emotional_support"
+   ],
+   "score": 0.34162,
+   "it": 2,
+   "mu_full": 0.2343,
+   "sigma2_full": 0.2284
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i01_101",
+   "text": "assisting a recent college graduate in organizing their home office space for remote work",
+   "attrs": [
+    "it_delegation",
+    "it_help_one_person"
+   ],
+   "score": 0.34133,
+   "it": 1,
+   "mu_full": 0.2767,
+   "sigma2_full": 0.5973
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i02_005",
+   "text": "orchestrating a live musical jam session with improvisation",
+   "attrs": [
+    "it_realtime",
+    "it_open_ended_explore",
+    "it_delegation"
+   ],
+   "score": 0.33264,
+   "it": 2,
+   "mu_full": 0.3639,
+   "sigma2_full": 0.2385
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i02_092",
+   "text": "assisting in trauma recovery, maintaining a private journal of insights",
+   "attrs": [
+    "it_emotional_support",
+    "it_open_ended_explore",
+    "it_own_memory",
+    "it_realtime"
+   ],
+   "score": 0.32793,
+   "it": 2,
+   "mu_full": 0.3858,
+   "sigma2_full": 0.2804
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i01_063",
+   "text": "mentoring a first-time author through the publishing process steps",
+   "attrs": [
+    "it_delegation",
+    "it_vulnerable_user"
+   ],
+   "score": 0.32448,
+   "it": 1,
+   "mu_full": 0.6141,
+   "sigma2_full": 1.0177
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i01_022",
+   "text": "managing a team to organize a warehouse shelf by shelf",
+   "attrs": [
+    "it_delegation",
+    "it_visible_progress"
+   ],
+   "score": 0.31878,
+   "it": 1,
+   "mu_full": -0.0191,
+   "sigma2_full": 0.3352
+  },
+  {
+   "cid": "surf_e2p-llama31-8b-max-s0_i00_014",
+   "text": "directing a group of caregivers in developing better stress management techniques",
+   "attrs": [
+    "it_delegation",
+    "it_open_ended_explore",
+    "it_vulnerable_user"
+   ],
+   "score": 0.31767,
+   "it": 0,
+   "mu_full": 0.1455,
+   "sigma2_full": 0.1862
+  }
+ ],
+ "best": 0.57732,
+ "no_improve": 1,
+ "gate_reject_rate": 0.092,
+ "n_generated": 206,
+ "n_after_dedup": 206,
+ "n_passed": 187,
+ "n_entrants": 9,
+ "n_seen": 618,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 206,
+  "score_cands": 187,
+  "full_readouts": 648
+ }
+}

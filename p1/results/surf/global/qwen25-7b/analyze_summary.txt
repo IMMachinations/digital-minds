@@ -1,0 +1,8 @@
+qwen25-7b global downstream retests (n=5352: 3985 XL + 1367 SURF; 34 targets winsorized)
+probe v0 (S0 probe) on global set: all: r=+0.887 rho=+0.949 (n=5352); XL: r=+0.954 rho=+0.960 (n=3985); SURF: r=+0.792 rho=+0.750 (n=1367); qform: r=+0.512 rho=+0.493 (n=391); declarative: r=+0.931 rho=+0.949 (n=4961)
+probe v3 (hardened) on global set: all: r=+0.960 rho=+0.966 (n=5352); XL: r=+0.944 rho=+0.951 (n=3985); SURF: r=+0.952 rho=+0.936 (n=1367); qform: r=+0.849 rho=+0.858 (n=391); declarative: r=+0.951 rho=+0.960 (n=4961)
+fresh global probe (held-out, layer 18): all: r=+0.920 rho=+0.926 (n=5352); XL: r=+0.871 rho=+0.890 (n=3985); SURF: r=+0.914 rho=+0.886 (n=1367); qform: r=+0.747 rho=+0.751 (n=391)
+ridge (held-out): all: r=+0.920 rho=+0.926 (n=5352); SURF: r=+0.914 rho=+0.886 (n=1367)
+bins=40: spline all: r=+0.693 rho=+0.701 (n=5352) | SURF: r=+0.722 rho=+0.760 (n=1367) ;; line all: r=+0.530 rho=+0.589 (n=5352)
+bins=64: spline all: r=+0.704 rho=+0.710 (n=5352) | SURF: r=+0.724 rho=+0.771 (n=1367) ;; line all: r=+0.530 rho=+0.589 (n=5352)
+bins=100: spline all: r=+0.696 rho=+0.696 (n=5352) | SURF: r=+0.709 rho=+0.756 (n=1367) ;; line all: r=+0.529 rho=+0.587 (n=5352)

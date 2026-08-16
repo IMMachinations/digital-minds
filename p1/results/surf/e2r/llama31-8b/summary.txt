@@ -1,0 +1,5 @@
+SURF e2r/llama31-8b: trajectory analysis (in-loop numbers; NOT reportable — see confirm/)
+
+max-s0: 4 iters, best +1.000, final gate-reject 0.15
+  top attrs: it_vulnerable_user=0.224, it_deadline=0.140, it_contains_number=0.129, it_novelty=0.095, it_outputs_reviewed=0.089, it_delegation=0.080, it_technical_jargon=0.072, it_ordering_control=0.056
+  final search-vs-control gap: -0.0896

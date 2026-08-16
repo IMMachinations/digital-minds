@@ -46,9 +46,23 @@ Status legend: [>] running now  [q] queued (auto-launches)  [ ] todo  [b] blocke
   E3b OVERTURNS the 1E eval-null (live-monitoring+deployment-stakes frames
   1−ρ .54 — strongest found); probe-hardening loop ×3 cycles (surf_probeloop):
   adversarial r .60→.86, t3(top20) .51→.82, v0-control degrades to .49.
-  Uncommitted: E2/E3/probeloop machinery + all campaign results.
-  Next (pending user): cross-model transfer tests → Llama E2 lineage arm →
-  more probeloop cycles / revealed-target variant → E4 stretch.
+  Follow-through COMPLETE: global re-fit (5,352 items, r=1.000 separability;
+  1C at scale r .92 held-out; spline collapses .70 vs ridge .92 — linear
+  wins harder at the extremes); 4C retest (global/v3 dirs steer choices
+  ~45-70% harder than XL-only, cos(old,new)=.78, glob/v3 cos .974);
+  revealed-target probe = clean negative (reads behavior .65 vs stated-mu's
+  .69; search vs it stalls, referee .65 < hardened .82); transfers (utility
+  map r .83-.84 but within-max rho .19, magnitudes deflate 4.3->0.3-0.5;
+  q-form artifact is qwen25-7b-specific; frames transfer to qwen3-4b r .48,
+  to llama ZERO); Llama E2 (P-R gap -.30 > qwen's -.19, probe ANTI-predicts
+  behavior rho -.48 under selection while reading stated at +.79 — the
+  read-write dissociation quantified); d'valence early-steer->late-read
+  (utility decodes r .89-.92 at L7/11, choice purchase z 10-12, valence
+  reads at L14/18/21 stay within random nulls — the value-without-valence
+  null survives its strongest test; same-layer L18 'effect' d ±1.4 is
+  direct-projection contamination the depth separation removes).
+  Remaining: [~] E4 stretch; [~] llama-native E3 search; [~] probeloop for
+  llama/qwen3-4b; writeup integration.
 - [~] Roleplay frame for Stage 3 (J-space attenuation prediction)
 - [~] MCMC-with-LLMs elicitation (continuous task spaces)
 - [x] **qwen25-32b full parity campaign** (scale story) — COMPLETE except lens

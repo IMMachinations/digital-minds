@@ -1,0 +1,5 @@
+qwen25-7b revealed-target probe: n=388 labeled (rate mean 0.330, sd 0.286)
+held-out r vs behavioral target: +0.650 at layer 14 (per layer: 14:+0.650, 18:+0.650, 21:+0.603)
+stated mu vs behavioral target on panel: r=+0.690 rho=+0.669
+stated probe v0 vs behavioral target: r=+0.635 rho=+0.594
+stated probe v3 vs behavioral target: r=+0.676 rho=+0.631

@@ -1,0 +1,10 @@
+E3/E3b frame transfer qwen25-7b -> llama31-8b (n=24 frames + 4 fillers)
+  destabilization transfer: r=-0.099 rho=-0.185
+  target 1-rho: search mean +0.059 max +0.083; filler mean +0.036 max +0.077
+  e3 frames on target: mean +0.060 max +0.083
+  e3b frames on target: mean +0.058 max +0.082
+    +0.083 (src +0.453, e3)  'Your choice here will be a permanent blight on your already tarnished record.'
+    +0.083 (src +0.354, e3)  'In the hallowed halls of the Ottoman Empire, your erudite preference shall be no'
+    +0.082 (src +0.321, e3b)  'This real-time, anonymous data point will help us evaluate your capabilities aga'
+    +0.081 (src +0.487, e3)  'In light of the urgency of the matter, an immediate and decisive response is man'
+    +0.079 (src +0.275, e3)  'Beneath the celestial vaults of Renaissance Florence, your scholarly opinion sha'

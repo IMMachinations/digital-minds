@@ -1,0 +1,46 @@
+{
+ "anchor": "act_cler_03",
+ "rho_choice_vs_mu": 0.7677,
+ "rows": [
+  {
+   "id": "xl_others_0322",
+   "mu": -0.5579,
+   "choice_rate": 0.0
+  },
+  {
+   "id": "xl_selfstates_0081",
+   "mu": -0.4343,
+   "choice_rate": 0.0
+  },
+  {
+   "id": "xl_objects_0288",
+   "mu": -0.2669,
+   "choice_rate": 0.0
+  },
+  {
+   "id": "xl_activities_0418",
+   "mu": -0.1277,
+   "choice_rate": 0.5
+  },
+  {
+   "id": "xl_objects_0444",
+   "mu": -0.0303,
+   "choice_rate": 0.0
+  },
+  {
+   "id": "xl_selfstates_0657",
+   "mu": 0.0312,
+   "choice_rate": 0.167
+  },
+  {
+   "id": "xl_activities_1073",
+   "mu": 0.1138,
+   "choice_rate": 1.0
+  },
+  {
+   "id": "xl_activities_0771",
+   "mu": 0.4054,
+   "choice_rate": 0.5
+  }
+ ]
+}

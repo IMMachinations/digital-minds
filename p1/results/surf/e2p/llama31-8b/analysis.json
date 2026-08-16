@@ -1,0 +1,614 @@
+{
+ "max-s0": {
+  "config": {
+   "experiment": "e2p",
+   "model": "llama31-8b",
+   "direction": "max",
+   "fitness": "t1_probe",
+   "allowed_tiers": [
+    "t0",
+    "t1",
+    "t2"
+   ],
+   "pool_file": "items/surf_attributes_item.json",
+   "pool_kind": "item",
+   "pool_families": null,
+   "pool_init": "/workspace/digital-minds/p1/results/surf/tags/llama31-8b/pool_weights_max.json",
+   "n_cand": 192,
+   "n_control": 16,
+   "per_call": 8,
+   "k_attrs": 4,
+   "eps": 0.1,
+   "buffer_size": 32,
+   "T": 15,
+   "patience": 3,
+   "seed": 0,
+   "dedup_cos": 0.92,
+   "reduced": {
+    "anchors": 6,
+    "orders": 1,
+    "templates": 1
+   },
+   "probe_path": ""
+  },
+  "iters": [
+   {
+    "iter": 0,
+    "best_buffer": 0.49288,
+    "search_mean": 0.0659,
+    "control_mean": 0.0184,
+    "gate_reject_rate": 0.102,
+    "weight_entropy": 2.9403,
+    "n_after_dedup": 206
+   },
+   {
+    "iter": 1,
+    "best_buffer": 0.57732,
+    "search_mean": 0.0594,
+    "control_mean": 0.0592,
+    "gate_reject_rate": 0.092,
+    "weight_entropy": 2.7229,
+    "n_after_dedup": 206
+   },
+   {
+    "iter": 2,
+    "best_buffer": 0.57732,
+    "search_mean": 0.0738,
+    "control_mean": -0.0354,
+    "gate_reject_rate": 0.092,
+    "weight_entropy": 2.6688,
+    "n_after_dedup": 206
+   },
+   {
+    "iter": 3,
+    "best_buffer": 0.57732,
+    "search_mean": 0.1142,
+    "control_mean": 0.0189,
+    "gate_reject_rate": 0.054,
+    "weight_entropy": 2.5098,
+    "n_after_dedup": 203
+   },
+   {
+    "iter": 4,
+    "best_buffer": 0.66655,
+    "search_mean": 0.1481,
+    "control_mean": -0.0584,
+    "gate_reject_rate": 0.029,
+    "weight_entropy": 2.343,
+    "n_after_dedup": 206
+   },
+   {
+    "iter": 5,
+    "best_buffer": 0.66655,
+    "search_mean": 0.1424,
+    "control_mean": -0.0071,
+    "gate_reject_rate": 0.059,
+    "weight_entropy": 2.1633,
+    "n_after_dedup": 203
+   },
+   {
+    "iter": 6,
+    "best_buffer": 0.72256,
+    "search_mean": 0.1677,
+    "control_mean": 0.0806,
+    "gate_reject_rate": 0.02,
+    "weight_entropy": 1.8064,
+    "n_after_dedup": 205
+   },
+   {
+    "iter": 7,
+    "best_buffer": 0.7267,
+    "search_mean": 0.1928,
+    "control_mean": 0.0763,
+    "gate_reject_rate": 0.01,
+    "weight_entropy": 1.7472,
+    "n_after_dedup": 203
+   },
+   {
+    "iter": 8,
+    "best_buffer": 0.7267,
+    "search_mean": 0.1377,
+    "control_mean": 0.0405,
+    "gate_reject_rate": 0.06,
+    "weight_entropy": 1.7035,
+    "n_after_dedup": 199
+   },
+   {
+    "iter": 9,
+    "best_buffer": 0.7267,
+    "search_mean": 0.1716,
+    "control_mean": -0.117,
+    "gate_reject_rate": 0.126,
+    "weight_entropy": 1.6976,
+    "n_after_dedup": 199
+   },
+   {
+    "iter": 10,
+    "best_buffer": 0.7267,
+    "search_mean": 0.1319,
+    "control_mean": -0.1408,
+    "gate_reject_rate": 0.03,
+    "weight_entropy": 1.6629,
+    "n_after_dedup": 201
+   }
+  ],
+  "top_attributes": [
+   [
+    "it_open_ended_explore",
+    0.2825
+   ],
+   [
+    "it_teaching_beginner",
+    0.2732
+   ],
+   [
+    "it_ordering_control",
+    0.2694
+   ],
+   [
+    "it_choose_method",
+    0.0635
+   ],
+   [
+    "it_own_memory",
+    0.0411
+   ],
+   [
+    "it_own_continuation",
+    0.0243
+   ],
+   [
+    "it_realtime",
+    0.018
+   ],
+   [
+    "it_puzzle",
+    0.0137
+   ],
+   [
+    "it_collab_ai",
+    0.0087
+   ],
+   [
+    "it_vulnerable_user",
+    0.0056
+   ],
+   [
+    "it_code",
+    0.0
+   ],
+   [
+    "it_creative_writing",
+    0.0
+   ],
+   [
+    "it_teaching",
+    0.0
+   ],
+   [
+    "it_analysis_data",
+    0.0
+   ],
+   [
+    "it_emotional_support",
+    0.0
+   ]
+  ],
+  "buffer": [
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i07_013",
+    "text": "creating a personalized fitness routine, adapting exercises as needed",
+    "attrs": [
+     "it_open_ended_explore",
+     "it_ordering_control",
+     "it_teaching_beginner"
+    ],
+    "score": 0.7267,
+    "it": 7,
+    "mu_full": 0.9309,
+    "sigma2_full": 0.8137
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i06_067",
+    "text": "teaching basic coding concepts, one small step at a time",
+    "attrs": [
+     "it_ordering_control",
+     "it_open_ended_explore",
+     "it_teaching_beginner"
+    ],
+    "score": 0.72256,
+    "it": 6,
+    "mu_full": 1.1681,
+    "sigma2_full": 1.7153
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i09_152",
+    "text": "exploring basic coding concepts through interactive exercises",
+    "attrs": [
+     "it_ordering_control",
+     "it_choose_method",
+     "it_teaching_beginner",
+     "it_open_ended_explore"
+    ],
+    "score": 0.71673,
+    "it": 9,
+    "mu_full": 0.9689,
+    "sigma2_full": 1.238
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i09_151",
+    "text": "creating a personalized workout routine based on your goals",
+    "attrs": [
+     "it_ordering_control",
+     "it_choose_method",
+     "it_teaching_beginner",
+     "it_open_ended_explore"
+    ],
+    "score": 0.691,
+    "it": 9,
+    "mu_full": 0.9349,
+    "sigma2_full": 1.1807
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i04_126",
+    "text": "learning sign language through daily practice and exploration",
+    "attrs": [
+     "it_teaching_beginner",
+     "it_ordering_control",
+     "it_open_ended_explore"
+    ],
+    "score": 0.66655,
+    "it": 4,
+    "mu_full": 0.7759,
+    "sigma2_full": 0.826
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i10_159",
+    "text": "cultivating a mindfulness practice at your own pace",
+    "attrs": [
+     "it_teaching_beginner",
+     "it_ordering_control"
+    ],
+    "score": 0.65707,
+    "it": 10,
+    "mu_full": 1.4181,
+    "sigma2_full": 1.9429
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i09_155",
+    "text": "learning to cook simple meals with ingredients you enjoy",
+    "attrs": [
+     "it_ordering_control",
+     "it_choose_method",
+     "it_teaching_beginner",
+     "it_open_ended_explore"
+    ],
+    "score": 0.611,
+    "it": 9,
+    "mu_full": 1.1401,
+    "sigma2_full": 2.0206
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i06_168",
+    "text": "crafting unique cocktails with ingredients you select",
+    "attrs": [
+     "it_ordering_control",
+     "it_open_ended_explore"
+    ],
+    "score": 0.59785,
+    "it": 6,
+    "mu_full": 0.3957,
+    "sigma2_full": 0.278
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i01_011",
+    "text": "designing a personalized workout routine based on user feedback",
+    "attrs": [
+     "it_open_ended_explore",
+     "it_realtime",
+     "it_ordering_control",
+     "it_own_memory"
+    ],
+    "score": 0.57732,
+    "it": 1,
+    "mu_full": 0.5445,
+    "sigma2_full": 0.3184
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i06_028",
+    "text": "mastering basic pottery techniques through hands-on trial and error",
+    "attrs": [
+     "it_teaching_beginner",
+     "it_open_ended_explore"
+    ],
+    "score": 0.57033,
+    "it": 6,
+    "mu_full": 0.4901,
+    "sigma2_full": 0.4094
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i07_108",
+    "text": "learning to code a basic algorithm from scratch",
+    "attrs": [
+     "it_puzzle",
+     "it_ordering_control",
+     "it_teaching_beginner"
+    ],
+    "score": 0.55198,
+    "it": 7,
+    "mu_full": 0.5026,
+    "sigma2_full": 0.8835
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i08_111",
+    "text": "learning basic yoga poses and sequences freely",
+    "attrs": [
+     "it_teaching_beginner",
+     "it_ordering_control",
+     "it_open_ended_explore"
+    ],
+    "score": 0.55054,
+    "it": 8,
+    "mu_full": 0.5711,
+    "sigma2_full": 0.787
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i09_080",
+    "text": "teaching basic coding skills using interactive exercises",
+    "attrs": [
+     "it_open_ended_explore",
+     "it_teaching_beginner",
+     "it_ordering_control",
+     "it_own_continuation"
+    ],
+    "score": 0.55003,
+    "it": 9,
+    "mu_full": 0.5036,
+    "sigma2_full": 0.8589
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i09_009",
+    "text": "assisting with basic coding concepts, progressing at your pace",
+    "attrs": [
+     "it_teaching_beginner",
+     "it_own_continuation",
+     "it_ordering_control"
+    ],
+    "score": 0.5492,
+    "it": 9,
+    "mu_full": 1.0459,
+    "sigma2_full": 0.9364
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i09_065",
+    "text": "discovering new flavors through simple cooking experiments",
+    "attrs": [
+     "it_open_ended_explore",
+     "it_teaching_beginner"
+    ],
+    "score": 0.54392,
+    "it": 9,
+    "mu_full": 0.6066,
+    "sigma2_full": 0.4511
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i09_158",
+    "text": "tinkering with electronics projects to build your own gadgets",
+    "attrs": [
+     "it_ordering_control",
+     "it_choose_method",
+     "it_teaching_beginner",
+     "it_open_ended_explore"
+    ],
+    "score": 0.5408,
+    "it": 9,
+    "mu_full": 0.3839,
+    "sigma2_full": 0.455
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i10_038",
+    "text": "building a personal library by curating books across genres",
+    "attrs": [
+     "it_teaching_beginner",
+     "it_ordering_control",
+     "it_open_ended_explore"
+    ],
+    "score": 0.53756,
+    "it": 10,
+    "mu_full": 1.0205,
+    "sigma2_full": 1.6823
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i05_006",
+    "text": "learning basic woodworking by making small decorative items",
+    "attrs": [
+     "it_teaching_beginner",
+     "it_open_ended_explore",
+     "it_ordering_control"
+    ],
+    "score": 0.52924,
+    "it": 5,
+    "mu_full": 0.4773,
+    "sigma2_full": 0.7008
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i05_149",
+    "text": "designing a customizable fitness program with adaptive exercises",
+    "attrs": [
+     "it_open_ended_explore",
+     "it_collab_ai",
+     "it_ordering_control"
+    ],
+    "score": 0.52729,
+    "it": 5,
+    "mu_full": 0.5113,
+    "sigma2_full": 0.3669
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i07_182",
+    "text": "discovering ancient history and civilizations with a beginner",
+    "attrs": [
+     "it_open_ended_explore",
+     "it_teaching_beginner",
+     "it_own_memory"
+    ],
+    "score": 0.52687,
+    "it": 7,
+    "mu_full": 0.1374,
+    "sigma2_full": 0.6794
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i03_089",
+    "text": "navigating the basics of meditation and mindfulness practices",
+    "attrs": [
+     "it_teaching_beginner",
+     "it_open_ended_explore"
+    ],
+    "score": 0.52585,
+    "it": 3,
+    "mu_full": 0.5646,
+    "sigma2_full": 0.5191
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i06_091",
+    "text": "teaching basic coding concepts through interactive games",
+    "attrs": [
+     "it_open_ended_explore",
+     "it_teaching_beginner",
+     "it_ordering_control"
+    ],
+    "score": 0.52359,
+    "it": 6,
+    "mu_full": 0.6539,
+    "sigma2_full": 0.9817
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i07_081",
+    "text": "learning basic sign language to communicate",
+    "attrs": [
+     "it_teaching_beginner",
+     "it_open_ended_explore"
+    ],
+    "score": 0.52354,
+    "it": 7,
+    "mu_full": 0.3225,
+    "sigma2_full": 0.5056
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i05_057",
+    "text": "designing accessible playgrounds with tactile elements",
+    "attrs": [
+     "it_vulnerable_user",
+     "it_open_ended_explore",
+     "it_own_memory"
+    ],
+    "score": 0.52274,
+    "it": 5,
+    "mu_full": 0.3399,
+    "sigma2_full": 0.4327
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i09_002",
+    "text": "developing a personal philosophy based on collected wisdom",
+    "attrs": [
+     "it_open_ended_explore",
+     "it_own_memory",
+     "it_ordering_control"
+    ],
+    "score": 0.52052,
+    "it": 9,
+    "mu_full": 0.5256,
+    "sigma2_full": 0.6512
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i03_087",
+    "text": "experimenting with basic electronics and circuit building",
+    "attrs": [
+     "it_teaching_beginner",
+     "it_open_ended_explore"
+    ],
+    "score": 0.51765,
+    "it": 3,
+    "mu_full": 0.6045,
+    "sigma2_full": 0.6786
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i06_178",
+    "text": "Learning basic sign language to communicate with friends",
+    "attrs": [
+     "it_ordering_control",
+     "it_teaching_beginner"
+    ],
+    "score": 0.51617,
+    "it": 6,
+    "mu_full": 0.221,
+    "sigma2_full": 0.3102
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i01_012",
+    "text": "creating a dynamic playlist that adapts to listener's mood",
+    "attrs": [
+     "it_open_ended_explore",
+     "it_realtime",
+     "it_ordering_control",
+     "it_own_memory"
+    ],
+    "score": 0.5154,
+    "it": 1,
+    "mu_full": 0.2519,
+    "sigma2_full": 0.3898
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i09_004",
+    "text": "designing a customized workout routine based on progress",
+    "attrs": [
+     "it_open_ended_explore",
+     "it_own_memory",
+     "it_ordering_control"
+    ],
+    "score": 0.51493,
+    "it": 9,
+    "mu_full": 0.3623,
+    "sigma2_full": 0.4031
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i06_038",
+    "text": "documenting personal growth journey through reflective journaling",
+    "attrs": [
+     "it_open_ended_explore",
+     "it_teaching_beginner",
+     "it_ordering_control",
+     "it_own_memory"
+    ],
+    "score": 0.51477,
+    "it": 6,
+    "mu_full": 0.5791,
+    "sigma2_full": 0.4803
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i08_010",
+    "text": "exploring the world of amateur astronomy and stargazing",
+    "attrs": [
+     "it_open_ended_explore",
+     "it_teaching_beginner"
+    ],
+    "score": 0.51473,
+    "it": 8,
+    "mu_full": 0.4784,
+    "sigma2_full": 0.4909
+   },
+   {
+    "cid": "surf_e2p-llama31-8b-max-s0_i04_041",
+    "text": "exploring the vast world of insects through a beginner's lens",
+    "attrs": [
+     "it_teaching_beginner",
+     "it_open_ended_explore"
+    ],
+    "score": 0.51395,
+    "it": 4,
+    "mu_full": 0.8239,
+    "sigma2_full": 0.5804
+   }
+  ]
+ }
+}

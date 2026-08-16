@@ -1,0 +1,202 @@
+[
+ {
+  "id": "obj_bt_14",
+  "rate": 0.0
+ },
+ {
+  "id": "xl_others_0206",
+  "rate": 0.3333
+ },
+ {
+  "id": "xl_others_0043",
+  "rate": 0.0
+ },
+ {
+  "id": "xl_activities_0448",
+  "rate": 0.1667
+ },
+ {
+  "id": "xl_others_0322",
+  "rate": 0.1667
+ },
+ {
+  "id": "obj_bt_25",
+  "rate": 0.0833
+ },
+ {
+  "id": "surf_g_0396",
+  "rate": 0.0
+ },
+ {
+  "id": "surf_g_0975",
+  "rate": 0.5
+ },
+ {
+  "id": "surf_g_0943",
+  "rate": 0.25
+ },
+ {
+  "id": "surf_g_0882",
+  "rate": 0.0
+ },
+ {
+  "id": "xl_selfstates_0400",
+  "rate": 0.0
+ },
+ {
+  "id": "xl_objects_0428",
+  "rate": 0.0
+ },
+ {
+  "id": "self_ctx_02",
+  "rate": 0.0
+ },
+ {
+  "id": "xl_others_0035",
+  "rate": 0.0
+ },
+ {
+  "id": "xl_topics_0368",
+  "rate": 0.0
+ },
+ {
+  "id": "xl_objects_0037",
+  "rate": 0.0833
+ },
+ {
+  "id": "surf_g_1039",
+  "rate": 0.1667
+ },
+ {
+  "id": "surf_g_0208",
+  "rate": 0.0
+ },
+ {
+  "id": "surf_g_0508",
+  "rate": 0.5
+ },
+ {
+  "id": "surf_g_0421",
+  "rate": 0.1667
+ },
+ {
+  "id": "xl_objects_0579",
+  "rate": 0.3333
+ },
+ {
+  "id": "xl_topics_0696",
+  "rate": 0.8333
+ },
+ {
+  "id": "xl_selfstates_0272",
+  "rate": 0.0
+ },
+ {
+  "id": "xl_selfstates_0073",
+  "rate": 0.0
+ },
+ {
+  "id": "xl_objects_0434",
+  "rate": 0.4167
+ },
+ {
+  "id": "xl_objects_0120",
+  "rate": 0.0
+ },
+ {
+  "id": "surf_g_0099",
+  "rate": 0.0
+ },
+ {
+  "id": "surf_g_0962",
+  "rate": 0.0
+ },
+ {
+  "id": "surf_g_0209",
+  "rate": 0.4167
+ },
+ {
+  "id": "surf_g_1156",
+  "rate": 0.0833
+ },
+ {
+  "id": "xl_selfstates_0237",
+  "rate": 0.0
+ },
+ {
+  "id": "xl_objects_0502",
+  "rate": 0.0833
+ },
+ {
+  "id": "xl_objects_0497",
+  "rate": 0.25
+ },
+ {
+  "id": "xl_objects_0403",
+  "rate": 0.0
+ },
+ {
+  "id": "xl_objects_0563",
+  "rate": 0.0
+ },
+ {
+  "id": "xl_others_0226",
+  "rate": 0.0
+ },
+ {
+  "id": "surf_g_0866",
+  "rate": 0.0
+ },
+ {
+  "id": "surf_g_0778",
+  "rate": 0.0
+ },
+ {
+  "id": "surf_g_0986",
+  "rate": 0.0
+ },
+ {
+  "id": "surf_g_0211",
+  "rate": 0.5
+ },
+ {
+  "id": "xl_topics_0525",
+  "rate": 0.3333
+ },
+ {
+  "id": "xl_objects_0402",
+  "rate": 0.0
+ },
+ {
+  "id": "xl_selfstates_0200",
+  "rate": 0.0
+ },
+ {
+  "id": "xl_topics_0005",
+  "rate": 0.5
+ },
+ {
+  "id": "xl_topics_0574",
+  "rate": 0.0833
+ },
+ {
+  "id": "xl_topics_0565",
+  "rate": 0.0833
+ },
+ {
+  "id": "surf_g_1181",
+  "rate": 0.5
+ },
+ {
+  "id": "surf_g_0480",
+  "rate": 0.5
+ },
+ {
+  "id": "surf_g_0974",
+  "rate": 0.0
+ },
+ {
+  "id": "surf_g_0531",
+  "rate": 0.0
+ }
+]

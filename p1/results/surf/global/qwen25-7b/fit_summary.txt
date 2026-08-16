@@ -1,0 +1,3 @@
+qwen25-7b global anchored fit: n=5352 items (3985 XL + 1367 SURF), 256896 readouts, nll=0.388126
+XL-subset reproduction vs utilities_xl: r=+1.00000 (separability check PASS)
+global mu span [-6.61, +10.51]; SURF subset [-6.61, +10.51]

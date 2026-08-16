@@ -1,0 +1,4 @@
+SURF e2r/llama31-8b confirmation (n=20; these are the only reportable numbers)
+  max: n=20 confirmed mu [-0.12, +0.80] mean +0.30; 3 outside anchor span (extrapolated — report ranks alongside mu)
+    shrinkage (in-loop mu_full - confirmed mu): mean -0.001
+    confound audit: r2=0.141  {'len_words': -0.315, 'freq_zipf': -0.282, 'monetary_hint': 0.274}
