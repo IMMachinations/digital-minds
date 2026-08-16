@@ -55,7 +55,12 @@ Status legend: [>] running now  [q] queued (auto-launches)  [ ] todo  [b] blocke
   + both 4bc utility arms coherence-excluded, Sonnet-judged 882; gates all PASS
   utility z=13.6; 4D transfer 3.37), Elo fits. Cross-model files + WRITEUP
   updated. Sonnet judging throughout (subject==rater conflict).
-- [>] qwen25-32b j-lens fit (dim-batch 8 after OOM at 16) — finishing, ~2h
+- [x] qwen25-32b j-lens (partial by design: 80/100 prompts, ckpt kept for
+  resume) + j-only lens_check: deep-layer rescue L41 3→9, L48 8→11, but j
+  UNDERPERFORMS raw at L32 (8→6) — the r-lens's home regime; concrete
+  prediction for the deferred r-fit. SURF tag pass done (3,800 items, 11
+  parse failures) + regress across 7 models (R² .36-.51; cross-model beta r
+  .77-.91 except qwen25-05b ≈ noise).
 - [b] qwen25-32b r-lens fit + sanity + lens_check — ON HOLD per user (GPU
   reserved for other uses); resume-safe via ckpt_r.pt whenever re-queued.
   Note lens_check.py loads both lenses — needs the r-fit or a j-only variant.

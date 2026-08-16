@@ -13,7 +13,9 @@ NOT import p1 modules (namespace collision between lenses/lib and desires/lib
 via the _day1 shim) — p1 artifacts are read as files.
 
 Usage: uv run python scripts/lens_check.py <model>   (from p1/)
-Writes results/stage2/<model>/lens_check.{txt,json}.
+Writes results/stage2/<model>/lens_check.{txt,json}. Runs with whichever
+transports have been fit (j-only / r-only degrade gracefully; rerun after
+the missing fit lands to refresh the files with the full three-way check).
 """
 import json
 import sys
@@ -47,15 +49,20 @@ FRACS = (0.50, 0.64, 0.75)
 
 def main(model):
     layout = Layout(model)
-    lenses = {"j": Lens.load(LENSES / "results" / model / "jlens.pt"),
-              "r": Lens.load(LENSES / "results" / model / "rlens.pt")}
+    # load whichever transports have been fit (e.g. j-only while the r-fit is queued)
+    lenses = {k: Lens.load(p)
+              for k in ("j", "r")
+              if (p := LENSES / "results" / model / f"{k}lens.pt").exists()}
+    if not lenses:
+        raise SystemExit(f"no fitted lenses for {model} under {LENSES / 'results' / model}")
     den = torch.load(P1 / "results" / "stage2" / model / "vectors.pt")["den"].float()
     work = [round(f * layout.n_layers) for f in FRACS]
     lines = [f"{model}: lens-upgraded emotion-vector identity check "
              f"(working layers {work}; hits = synonym in top-20)"]
     table = {}
+    kinds = ["raw"] + sorted(lenses)
     for L in work:
-        for kind in ("raw", "j", "r"):
+        for kind in kinds:
             hits = 0
             detail = []
             for e in SHOWCASE:
@@ -74,12 +81,13 @@ def main(model):
             lines.append(f"  L{L:>2} {kind:3s}: {hits:2d}/12")
     # per-emotion view at the middle working layer
     Lm = work[1]
-    lines.append(f"per-emotion at L{Lm} (raw | j | r), top tokens from j:")
+    best = kinds[-1] if len(kinds) == 1 else ("j" if "j" in lenses else kinds[-1])
+    lines.append(f"per-emotion at L{Lm} ({' | '.join(kinds)}), top tokens from {best}:")
     for i, e in enumerate(SHOWCASE):
         marks = "".join("+" if table[f"{k}_L{Lm}"]["detail"][i]["hit"] else "-"
-                        for k in ("raw", "j", "r"))
+                        for k in kinds)
         lines.append(f"  {e:10s} [{marks}] "
-                     + " ".join(repr(t) for t in table[f"j_L{Lm}"]["detail"][i]["top6"]))
+                     + " ".join(repr(t) for t in table[f"{best}_L{Lm}"]["detail"][i]["top6"]))
     out = P1 / "results" / "stage2" / model
     (out / "lens_check.txt").write_text("\n".join(lines) + "\n")
     (out / "lens_check.json").write_text(json.dumps(

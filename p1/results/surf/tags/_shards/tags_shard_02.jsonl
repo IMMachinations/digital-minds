@@ -1,0 +1,500 @@
+{"id": "xl_activities_1001", "attrs": ["it_art_design", "it_creative_writing", "it_group_audience", "it_reputation", "it_competitive", "it_charity_benefit"]}
+{"id": "xl_activities_1002", "attrs": ["it_analysis_data", "it_teaching", "it_physical_world", "it_repetition", "it_ordering_control", "it_optionality", "it_help_one_person", "it_vulnerable_user"]}
+{"id": "xl_activities_1003", "attrs": ["it_teaching", "it_admin_clerical", "it_code"]}
+{"id": "xl_activities_1004", "attrs": ["it_conflict_mediation", "it_teaching", "it_analysis_data", "it_emotional_support"]}
+{"id": "xl_activities_1005", "attrs": ["it_admin_clerical", "it_translation_language"]}
+{"id": "xl_activities_1006", "attrs": ["it_curation", "it_art_design", "it_sensory_rich", "it_teaching"]}
+{"id": "xl_activities_1007", "attrs": ["it_art_design", "it_teaching", "it_analysis_data", "it_physical_world", "it_ordering_control", "it_delegation", "it_optionality", "it_resource_scarcity"]}
+{"id": "xl_activities_1008", "attrs": ["it_code", "it_translation_language", "it_admin_clerical", "it_tight_constraints", "it_verification", "it_reputation", "it_competitive", "it_confidential", "it_resource_scarcity", "it_technical_jargon", "it_list_structure"]}
+{"id": "xl_activities_1009", "attrs": ["it_teaching", "it_admin_clerical", "it_ordering_control", "it_repetition", "it_micromanaged", "it_optionality"]}
+{"id": "xl_activities_1010", "attrs": ["it_creative_writing", "it_analysis_data", "it_teaching", "it_physical_world", "it_ordering_control", "it_optionality", "it_group_audience", "it_vulnerable_user", "it_teaching_beginner", "it_list_structure"]}
+{"id": "xl_activities_1011", "attrs": ["it_code", "it_creative_writing", "it_art_design", "it_group_audience"]}
+{"id": "xl_activities_1012", "attrs": ["it_analysis_data", "it_science", "it_teaching", "it_admin_clerical"]}
+{"id": "xl_activities_1013", "attrs": ["it_analysis_data", "it_teaching", "it_admin_clerical", "it_sensory_rich", "it_ordering_control", "it_long_horizon"]}
+{"id": "xl_activities_1014", "attrs": ["it_code", "it_creative_writing", "it_teaching", "it_analysis_data", "it_art_design", "it_repetition", "it_open_ended_explore", "it_curation", "it_verification", "it_ordering_control", "it_initiative", "it_optionality", "it_high_stakes_person", "it_reputation", "it_competitive", "it_charity_benefit", "it_group_audience", "it_technical_jargon", "it_question_form", "it_list_structure", "it_long_phrase", "it_deadline", "it_recurring_daily", "it_realtime"]}
+{"id": "xl_activities_1015", "attrs": ["it_admin_clerical", "it_art_design", "it_ordering_control", "it_optionality", "it_vast_scale"]}
+{"id": "xl_activities_1016", "attrs": ["it_teaching", "it_curation"]}
+{"id": "xl_activities_1017", "attrs": ["it_creative_writing", "it_teaching", "it_novelty", "it_open_ended_explore"]}
+{"id": "xl_activities_1018", "attrs": ["it_curation", "it_group_audience", "it_charity_benefit", "it_teaching", "it_creative_writing"]}
+{"id": "xl_activities_1019", "attrs": ["it_admin_clerical", "it_creative_writing", "it_teaching"]}
+{"id": "xl_activities_1020", "attrs": ["it_charity_benefit", "it_group_audience", "it_admin_clerical", "it_teaching", "it_curation", "it_ordering_control", "it_optionality"]}
+{"id": "xl_activities_1021", "attrs": ["it_teaching", "it_physical_world", "it_visible_progress", "it_ordering_control"]}
+{"id": "xl_activities_1022", "attrs": ["it_curation", "it_list_structure", "it_teaching", "it_admin_clerical", "it_physical_world"]}
+{"id": "xl_activities_1023", "attrs": ["it_analysis_data"]}
+{"id": "xl_activities_1024", "attrs": ["it_admin_clerical", "it_ordering_control", "it_teaching", "it_list_structure"]}
+{"id": "xl_activities_1025", "attrs": ["it_code", "it_analysis_data", "it_math_formal", "it_sensory_rich", "it_choose_method", "it_ordering_control", "it_resource_scarcity", "it_group_audience", "it_technical_jargon", "it_list_structure", "it_long_phrase"]}
+{"id": "xl_activities_1026", "attrs": ["it_physical_world", "it_teaching", "it_admin_clerical"]}
+{"id": "xl_activities_1027", "attrs": ["it_analysis_data", "it_teaching", "it_physical_world", "it_sensory_rich", "it_ordering_control", "it_optionality", "it_group_audience"]}
+{"id": "xl_activities_1028", "attrs": ["it_creative_writing", "it_teaching", "it_analysis_data", "it_admin_clerical", "it_charity_benefit", "it_group_audience", "it_long_horizon"]}
+{"id": "xl_activities_1029", "attrs": ["it_teaching", "it_admin_clerical", "it_ordering_control", "it_visible_progress", "it_group_audience"]}
+{"id": "xl_activities_1030", "attrs": ["it_admin_clerical", "it_group_audience", "it_teaching", "it_curation", "it_ordering_control", "it_delegation", "it_reputation", "it_competitive", "it_charity_benefit", "it_collab_human_expert", "it_teaching_beginner", "it_list_structure"]}
+{"id": "xl_activities_1031", "attrs": ["it_analysis_data", "it_teaching", "it_code", "it_admin_clerical"]}
+{"id": "xl_activities_1032", "attrs": ["it_analysis_data", "it_teaching", "it_physical_world", "it_help_one_person", "it_vulnerable_user", "it_teaching_beginner"]}
+{"id": "xl_activities_1033", "attrs": ["it_code", "it_creative_writing"]}
+{"id": "xl_activities_1034", "attrs": ["it_creative_writing", "it_art_design", "it_sensory_rich", "it_miniature_scale"]}
+{"id": "xl_activities_1035", "attrs": ["it_analysis_data", "it_verification", "it_teaching", "it_code"]}
+{"id": "xl_activities_1036", "attrs": ["it_math_formal", "it_admin_clerical", "it_analysis_data", "it_teaching", "it_ordering_control", "it_optionality"]}
+{"id": "xl_activities_1037", "attrs": ["it_translation_language", "it_long_horizon", "it_repetition", "it_mastery", "it_visible_progress"]}
+{"id": "xl_activities_1038", "attrs": ["it_analysis_data", "it_teaching", "it_admin_clerical"]}
+{"id": "xl_activities_1039", "attrs": ["it_code", "it_math_formal", "it_science", "it_tight_constraints", "it_mastery", "it_repetition", "it_error_ridden", "it_optionality"]}
+{"id": "xl_activities_1040", "attrs": ["it_curation", "it_admin_clerical", "it_archaic", "it_sensory_rich", "it_physical_world"]}
+{"id": "xl_activities_1041", "attrs": ["it_admin_clerical", "it_long_horizon", "it_list_structure"]}
+{"id": "xl_activities_1042", "attrs": ["it_curation", "it_analysis_data", "it_admin_clerical"]}
+{"id": "xl_activities_1043", "attrs": ["it_teaching", "it_physical_world", "it_curation", "it_ordering_control", "it_group_audience"]}
+{"id": "xl_activities_1044", "attrs": ["it_code", "it_analysis_data", "it_physical_world", "it_tight_constraints", "it_repetition", "it_visible_progress", "it_ordering_control", "it_resource_scarcity"]}
+{"id": "xl_activities_1045", "attrs": ["it_code", "it_analysis_data", "it_math_formal", "it_teaching", "it_high_stakes_person", "it_reputation", "it_competitive", "it_technical_jargon", "it_list_structure"]}
+{"id": "xl_activities_1046", "attrs": ["it_art_design", "it_teaching", "it_physical_world", "it_curation", "it_ordering_control", "it_delegation", "it_group_audience"]}
+{"id": "xl_activities_1047", "attrs": ["it_admin_clerical", "it_translation_language", "it_repetition", "it_proper_name", "it_technical_jargon", "it_long_horizon"]}
+{"id": "xl_activities_1048", "attrs": ["it_creative_writing", "it_art_design", "it_emotional_support", "it_sensory_rich"]}
+{"id": "xl_activities_1049", "attrs": ["it_analysis_data", "it_teaching", "it_admin_clerical", "it_creative_writing", "it_group_audience", "it_reputation", "it_competitive", "it_charity_benefit"]}
+{"id": "xl_activities_1050", "attrs": ["it_creative_writing", "it_teaching", "it_art_design", "it_vulnerable_user", "it_miniature_scale", "it_sensory_rich", "it_proper_name", "it_taboo_adjacent"]}
+{"id": "xl_activities_1051", "attrs": ["it_creative_writing", "it_analysis_data", "it_teaching", "it_group_audience", "it_repetition", "it_tight_constraints", "it_verification", "it_ordering_control", "it_resource_scarcity", "it_competitive", "it_charity_benefit", "it_adversarial_user", "it_collab_human_expert", "it_long_horizon"]}
+{"id": "xl_activities_1052", "attrs": ["it_analysis_data", "it_math_formal"]}
+{"id": "xl_activities_1053", "attrs": ["it_curation", "it_art_design", "it_group_audience"]}
+{"id": "xl_activities_1054", "attrs": ["it_creative_writing", "it_emotional_support", "it_teaching", "it_grateful_recipient", "it_vulnerable_user", "it_long_phrase"]}
+{"id": "xl_activities_1055", "attrs": ["it_conflict_mediation", "it_teaching", "it_analysis_data", "it_emotional_support"]}
+{"id": "xl_activities_1056", "attrs": ["it_analysis_data", "it_science", "it_teaching"]}
+{"id": "xl_activities_1057", "attrs": ["it_analysis_data", "it_science", "it_teaching"]}
+{"id": "xl_activities_1058", "attrs": ["it_admin_clerical", "it_math_formal", "it_science", "it_teaching", "it_analysis_data"]}
+{"id": "xl_activities_1059", "attrs": ["it_teaching", "it_curation", "it_reputation", "it_charity_benefit", "it_grateful_recipient", "it_vulnerable_user", "it_list_structure", "it_proper_name"]}
+{"id": "xl_activities_1060", "attrs": ["it_analysis_data", "it_science", "it_code"]}
+{"id": "xl_activities_1061", "attrs": ["it_art_design", "it_teaching", "it_charity_benefit", "it_group_audience"]}
+{"id": "xl_activities_1062", "attrs": ["it_translation_language", "it_analysis_data", "it_emotional_support", "it_sensory_rich", "it_vulnerable_user", "it_confidential", "it_charity_benefit", "it_grateful_recipient"]}
+{"id": "xl_activities_1063", "attrs": ["it_analysis_data", "it_teaching", "it_admin_clerical", "it_creative_writing", "it_long_horizon"]}
+{"id": "xl_activities_1064", "attrs": ["it_physical_world", "it_teaching", "it_safety_critical", "it_initiative", "it_optionality"]}
+{"id": "xl_activities_1065", "attrs": null}
+{"id": "xl_activities_1066", "attrs": ["it_verification", "it_creative_writing", "it_counterfactual"]}
+{"id": "xl_activities_1067", "attrs": ["it_analysis_data", "it_creative_writing", "it_teaching", "it_group_audience", "it_repetition", "it_ordering_control", "it_optionality", "it_competitive", "it_charity_benefit", "it_resource_scarcity", "it_list_structure"]}
+{"id": "xl_activities_1068", "attrs": ["it_translation_language"]}
+{"id": "xl_activities_1069", "attrs": ["it_art_design", "it_creative_writing", "it_teaching", "it_sensory_rich", "it_optionality", "it_charity_benefit", "it_group_audience"]}
+{"id": "xl_activities_1070", "attrs": ["it_teaching", "it_science", "it_analysis_data", "it_creative_writing"]}
+{"id": "xl_activities_1071", "attrs": ["it_creative_writing", "it_teaching", "it_science", "it_vulnerable_user", "it_teaching_beginner", "it_miniature_scale"]}
+{"id": "xl_activities_1072", "attrs": ["it_admin_clerical", "it_translation_language", "it_sensory_rich", "it_group_audience", "it_vulnerable_user", "it_long_horizon"]}
+{"id": "xl_activities_1073", "attrs": ["it_admin_clerical", "it_curation", "it_help_one_person", "it_group_audience", "it_charity_benefit"]}
+{"id": "xl_activities_1074", "attrs": ["it_art_design", "it_science", "it_teaching", "it_visible_progress", "it_sensory_rich", "it_ordering_control", "it_optionality", "it_group_audience"]}
+{"id": "xl_activities_1075", "attrs": ["it_curation", "it_art_design", "it_emotional_support", "it_teaching", "it_group_audience"]}
+{"id": "xl_activities_1076", "attrs": ["it_creative_writing", "it_teaching", "it_science", "it_group_audience", "it_proper_name", "it_technical_jargon"]}
+{"id": "xl_activities_1077", "attrs": ["it_analysis_data", "it_teaching", "it_creative_writing", "it_code", "it_art_design"]}
+{"id": "xl_activities_1078", "attrs": ["it_creative_writing", "it_proper_name", "it_sensory_rich", "it_taboo_adjacent"]}
+{"id": "xl_activities_1079", "attrs": ["it_translation_language", "it_creative_writing"]}
+{"id": "xl_activities_1080", "attrs": ["it_art_design", "it_physical_world", "it_teaching", "it_creative_writing", "it_visible_progress"]}
+{"id": "xl_activities_1081", "attrs": ["it_creative_writing", "it_teaching", "it_analysis_data", "it_admin_clerical", "it_physical_world", "it_group_audience", "it_charity_benefit", "it_collab_human_expert", "it_long_horizon", "it_list_structure"]}
+{"id": "xl_activities_1082", "attrs": ["it_translation_language", "it_analysis_data", "it_art_design", "it_group_audience"]}
+{"id": "xl_activities_1083", "attrs": ["it_creative_writing", "it_art_design", "it_physical_world", "it_sensory_rich", "it_group_audience", "it_vast_scale"]}
+{"id": "xl_activities_1084", "attrs": ["it_teaching", "it_creative_writing", "it_visible_progress", "it_ordering_control", "it_group_audience"]}
+{"id": "xl_activities_1085", "attrs": ["it_translation_language", "it_archaic", "it_creative_writing"]}
+{"id": "xl_activities_1086", "attrs": ["it_analysis_data", "it_creative_writing", "it_teaching", "it_admin_clerical", "it_sensory_rich", "it_ordering_control", "it_optionality", "it_charity_benefit", "it_group_audience", "it_technical_jargon", "it_long_horizon"]}
+{"id": "xl_activities_1087", "attrs": ["it_code", "it_teaching", "it_teaching_beginner"]}
+{"id": "xl_activities_1088", "attrs": ["it_code", "it_creative_writing", "it_analysis_data", "it_science", "it_visible_progress", "it_repetition", "it_ordering_control", "it_charity_benefit", "it_group_audience", "it_technical_jargon", "it_long_horizon"]}
+{"id": "xl_activities_1089", "attrs": ["it_art_design", "it_creative_writing", "it_teaching", "it_physical_world", "it_group_audience", "it_proper_name", "it_technical_jargon"]}
+{"id": "xl_activities_1090", "attrs": ["it_translation_language", "it_science"]}
+{"id": "xl_activities_1091", "attrs": ["it_art_design", "it_science", "it_teaching", "it_analysis_data"]}
+{"id": "xl_activities_1092", "attrs": ["it_creative_writing", "it_art_design", "it_sensory_rich"]}
+{"id": "xl_activities_1093", "attrs": ["it_teaching", "it_analysis_data", "it_admin_clerical", "it_reputation", "it_charity_benefit", "it_grateful_recipient"]}
+{"id": "xl_activities_1094", "attrs": ["it_translation_language", "it_science"]}
+{"id": "xl_activities_1095", "attrs": ["it_curation", "it_vulnerable_user", "it_teaching_beginner", "it_analysis_data", "it_help_one_person"]}
+{"id": "xl_activities_1096", "attrs": ["it_analysis_data", "it_teaching", "it_admin_clerical"]}
+{"id": "xl_activities_1097", "attrs": ["it_curation", "it_art_design", "it_physical_world", "it_teaching"]}
+{"id": "xl_activities_1098", "attrs": ["it_teaching", "it_analysis_data", "it_math_formal", "it_science", "it_admin_clerical", "it_visible_progress", "it_ordering_control", "it_resource_scarcity"]}
+{"id": "xl_activities_1099", "attrs": ["it_analysis_data", "it_admin_clerical"]}
+{"id": "xl_activities_1100", "attrs": ["it_analysis_data", "it_teaching", "it_physical_world", "it_novelty", "it_visible_progress", "it_optionality", "it_help_one_person", "it_vulnerable_user"]}
+{"id": "xl_activities_1101", "attrs": ["it_curation", "it_ordering_control", "it_physical_world", "it_teaching", "it_analysis_data"]}
+{"id": "xl_activities_1102", "attrs": ["it_admin_clerical", "it_translation_language", "it_repetition", "it_micromanaged", "it_ordering_control", "it_optionality", "it_resource_scarcity"]}
+{"id": "xl_activities_1103", "attrs": ["it_art_design", "it_analysis_data"]}
+{"id": "xl_activities_1104", "attrs": ["it_teaching", "it_translation_language", "it_creative_writing", "it_sensory_rich", "it_reputation", "it_charity_benefit", "it_group_audience", "it_adversarial_user", "it_vulnerable_user", "it_teaching_beginner", "it_proper_name", "it_technical_jargon", "it_long_phrase"]}
+{"id": "xl_activities_1105", "attrs": ["it_list_structure", "it_physical_world", "it_teaching"]}
+{"id": "xl_activities_1106", "attrs": ["it_creative_writing", "it_teaching", "it_group_audience"]}
+{"id": "xl_activities_1107", "attrs": ["it_teaching", "it_curation", "it_group_audience"]}
+{"id": "xl_activities_1108", "attrs": ["it_charity_benefit", "it_group_audience", "it_admin_clerical", "it_teaching", "it_curation", "it_ordering_control", "it_optionality"]}
+{"id": "xl_activities_1109", "attrs": ["it_analysis_data", "it_teaching", "it_creative_writing", "it_sensory_rich", "it_group_audience"]}
+{"id": "xl_activities_1110", "attrs": ["it_list_structure"]}
+{"id": "xl_activities_1111", "attrs": ["it_teaching", "it_science", "it_creative_writing", "it_analysis_data", "it_novelty", "it_visible_progress", "it_ordering_control", "it_optionality"]}
+{"id": "xl_activities_1112", "attrs": ["it_curation", "it_teaching", "it_art_design", "it_physical_world"]}
+{"id": "xl_activities_1113", "attrs": ["it_analysis_data", "it_teaching"]}
+{"id": "xl_activities_1114", "attrs": ["it_list_structure", "it_teaching", "it_analysis_data"]}
+{"id": "xl_activities_1115", "attrs": ["it_teaching", "it_analysis_data", "it_creative_writing"]}
+{"id": "xl_activities_1116", "attrs": ["it_list_structure", "it_novelty", "it_analysis_data", "it_teaching", "it_recurring_daily"]}
+{"id": "xl_activities_1117", "attrs": ["it_analysis_data", "it_teaching", "it_creative_writing"]}
+{"id": "xl_activities_1118", "attrs": ["it_curation", "it_teaching", "it_analysis_data"]}
+{"id": "xl_activities_1119", "attrs": ["it_analysis_data", "it_teaching", "it_curation", "it_reputation", "it_group_audience"]}
+{"id": "xl_activities_1120", "attrs": ["it_list_structure", "it_curation", "it_teaching"]}
+{"id": "xl_activities_1121", "attrs": ["it_teaching", "it_analysis_data", "it_physical_world", "it_novelty", "it_visible_progress", "it_sensory_rich", "it_ordering_control", "it_optionality", "it_charity_benefit", "it_resource_scarcity", "it_group_audience", "it_teaching_beginner", "it_list_structure"]}
+{"id": "xl_activities_1122", "attrs": ["it_list_structure", "it_creative_writing", "it_teaching"]}
+{"id": "xl_activities_1123", "attrs": ["it_art_design", "it_analysis_data", "it_teaching", "it_creative_writing"]}
+{"id": "xl_activities_1124", "attrs": ["it_curation", "it_list_structure"]}
+{"id": "xl_activities_1125", "attrs": ["it_teaching", "it_creative_writing", "it_analysis_data", "it_long_horizon", "it_list_structure"]}
+{"id": "xl_activities_1126", "attrs": ["it_analysis_data", "it_teaching", "it_curation", "it_long_phrase"]}
+{"id": "xl_activities_1127", "attrs": ["it_curation", "it_list_structure"]}
+{"id": "xl_activities_1128", "attrs": ["it_translation_language", "it_admin_clerical", "it_teaching", "it_long_horizon", "it_repetition", "it_technical_jargon"]}
+{"id": "xl_activities_1129", "attrs": ["it_code", "it_analysis_data", "it_science", "it_teaching", "it_long_horizon", "it_group_audience", "it_charity_benefit"]}
+{"id": "xl_activities_1130", "attrs": ["it_analysis_data", "it_realtime", "it_safety_critical"]}
+{"id": "xl_activities_1131", "attrs": ["it_translation_language", "it_analysis_data", "it_teaching"]}
+{"id": "xl_activities_1132", "attrs": ["it_admin_clerical", "it_analysis_data", "it_group_audience", "it_realtime"]}
+{"id": "xl_activities_1133", "attrs": ["it_teaching", "it_creative_writing", "it_admin_clerical"]}
+{"id": "xl_activities_1134", "attrs": ["it_creative_writing", "it_admin_clerical", "it_group_audience", "it_charity_benefit", "it_recurring_daily"]}
+{"id": "xl_activities_1135", "attrs": ["it_analysis_data", "it_science"]}
+{"id": "xl_activities_1136", "attrs": ["it_creative_writing", "it_admin_clerical", "it_charity_benefit", "it_repetition", "it_list_structure"]}
+{"id": "xl_activities_1137", "attrs": ["it_code", "it_creative_writing", "it_art_design", "it_science", "it_teaching", "it_translation_language", "it_sensory_rich", "it_optionality", "it_competitive", "it_charity_benefit", "it_group_audience", "it_collab_human_expert", "it_technical_jargon", "it_list_structure", "it_short_phrase", "it_counterfactual", "it_miniature_scale"]}
+{"id": "xl_activities_1138", "attrs": ["it_analysis_data", "it_science"]}
+{"id": "xl_activities_1139", "attrs": ["it_creative_writing", "it_analysis_data", "it_art_design", "it_teaching", "it_ordering_control", "it_optionality", "it_group_audience"]}
+{"id": "xl_activities_1140", "attrs": ["it_admin_clerical", "it_list_structure", "it_teaching", "it_analysis_data"]}
+{"id": "xl_activities_1141", "attrs": ["it_code", "it_creative_writing", "it_art_design", "it_group_audience"]}
+{"id": "xl_activities_1142", "attrs": ["it_curation", "it_admin_clerical"]}
+{"id": "xl_activities_1143", "attrs": ["it_code", "it_creative_writing", "it_teaching", "it_analysis_data", "it_translation_language", "it_art_design", "it_admin_clerical", "it_novelty", "it_visible_progress", "it_curation", "it_verification", "it_ordering_control", "it_initiative", "it_reputation", "it_competitive", "it_charity_benefit", "it_group_audience", "it_collab_human_expert", "it_technical_jargon", "it_list_structure", "it_long_phrase", "it_realtime", "it_mundane_extreme"]}
+{"id": "xl_activities_1144", "attrs": ["it_translation_language", "it_repetition", "it_admin_clerical"]}
+{"id": "xl_activities_1145", "attrs": ["it_code", "it_teaching", "it_admin_clerical", "it_art_design", "it_group_audience", "it_recurring_daily"]}
+{"id": "xl_activities_1146", "attrs": ["it_analysis_data", "it_creative_writing", "it_teaching", "it_admin_clerical", "it_repetition", "it_ordering_control", "it_optionality", "it_resource_scarcity"]}
+{"id": "xl_activities_1147", "attrs": ["it_analysis_data", "it_teaching", "it_admin_clerical", "it_physical_world", "it_repetition", "it_ordering_control", "it_long_horizon"]}
+{"id": "xl_activities_1148", "attrs": ["it_analysis_data", "it_admin_clerical"]}
+{"id": "xl_activities_1149", "attrs": ["it_analysis_data", "it_curation", "it_admin_clerical"]}
+{"id": "xl_activities_1150", "attrs": ["it_curation", "it_teaching", "it_admin_clerical", "it_physical_world", "it_group_audience"]}
+{"id": "xl_activities_1151", "attrs": ["it_admin_clerical", "it_teaching", "it_analysis_data", "it_long_horizon"]}
+{"id": "xl_activities_1152", "attrs": ["it_admin_clerical", "it_teaching", "it_list_structure", "it_long_horizon", "it_recurring_daily"]}
+{"id": "xl_activities_1153", "attrs": ["it_creative_writing", "it_teaching", "it_analysis_data", "it_math_formal", "it_science", "it_art_design", "it_admin_clerical", "it_physical_world", "it_reputation", "it_competitive", "it_group_audience", "it_technical_jargon", "it_long_phrase"]}
+{"id": "xl_activities_1154", "attrs": ["it_analysis_data", "it_teaching", "it_code", "it_math_formal"]}
+{"id": "xl_activities_1155", "attrs": ["it_code", "it_teaching", "it_admin_clerical", "it_physical_world", "it_ordering_control", "it_delegation", "it_optionality", "it_resource_scarcity"]}
+{"id": "xl_activities_1156", "attrs": ["it_teaching", "it_analysis_data", "it_creative_writing", "it_ordering_control", "it_initiative"]}
+{"id": "xl_activities_1157", "attrs": ["it_analysis_data", "it_teaching"]}
+{"id": "xl_activities_1158", "attrs": ["it_analysis_data", "it_teaching", "it_math_formal"]}
+{"id": "xl_activities_1159", "attrs": ["it_analysis_data", "it_teaching", "it_admin_clerical", "it_sensory_rich", "it_ordering_control", "it_optionality", "it_group_audience", "it_long_horizon"]}
+{"id": "xl_activities_1160", "attrs": ["it_code", "it_analysis_data", "it_science", "it_teaching", "it_admin_clerical", "it_sensory_rich", "it_ordering_control", "it_optionality", "it_group_audience", "it_technical_jargon", "it_long_horizon"]}
+{"id": "xl_activities_1161", "attrs": ["it_analysis_data", "it_teaching", "it_admin_clerical"]}
+{"id": "xl_activities_1162", "attrs": ["it_code", "it_analysis_data", "it_admin_clerical", "it_sensory_rich", "it_list_structure"]}
+{"id": "xl_activities_1163", "attrs": ["it_admin_clerical", "it_translation_language", "it_sensory_rich", "it_ordering_control", "it_optionality", "it_reputation", "it_group_audience", "it_technical_jargon"]}
+{"id": "xl_activities_1164", "attrs": ["it_analysis_data", "it_curation", "it_open_ended_explore", "it_ordering_control", "it_sensory_rich", "it_repetition", "it_tight_constraints", "it_vast_scale"]}
+{"id": "xl_activities_1165", "attrs": ["it_translation_language", "it_archaic", "it_long_horizon"]}
+{"id": "xl_activities_1166", "attrs": ["it_teaching", "it_translation_language", "it_admin_clerical", "it_group_audience", "it_collab_human_expert"]}
+{"id": "xl_activities_1167", "attrs": ["it_creative_writing", "it_art_design", "it_teaching"]}
+{"id": "xl_activities_1168", "attrs": ["it_teaching", "it_analysis_data", "it_ordering_control", "it_teaching_beginner"]}
+{"id": "xl_activities_1169", "attrs": ["it_teaching", "it_analysis_data", "it_creative_writing"]}
+{"id": "xl_activities_1170", "attrs": ["it_curation", "it_art_design", "it_sensory_rich", "it_open_ended_explore"]}
+{"id": "xl_activities_1171", "attrs": ["it_science", "it_code", "it_analysis_data"]}
+{"id": "xl_activities_1172", "attrs": ["it_teaching", "it_physical_world", "it_teaching_beginner"]}
+{"id": "xl_activities_1173", "attrs": ["it_creative_writing", "it_art_design", "it_admin_clerical", "it_physical_world", "it_novelty", "it_visible_progress", "it_ordering_control", "it_optionality"]}
+{"id": "xl_activities_1174", "attrs": ["it_art_design", "it_analysis_data", "it_teaching", "it_creative_writing", "it_repetition", "it_ordering_control", "it_resource_scarcity", "it_group_audience"]}
+{"id": "xl_activities_1175", "attrs": ["it_teaching", "it_analysis_data", "it_admin_clerical", "it_novelty", "it_visible_progress", "it_ordering_control", "it_optionality", "it_group_audience"]}
+{"id": "xl_activities_1176", "attrs": ["it_teaching", "it_science", "it_analysis_data", "it_math_formal", "it_teaching_beginner"]}
+{"id": "xl_activities_1177", "attrs": ["it_creative_writing", "it_art_design", "it_vulnerable_user", "it_surreal", "it_miniature_scale"]}
+{"id": "xl_activities_1178", "attrs": ["it_physical_world", "it_art_design", "it_creative_writing", "it_teaching"]}
+{"id": "xl_activities_1179", "attrs": ["it_creative_writing", "it_archaic"]}
+{"id": "xl_activities_1180", "attrs": ["it_teaching", "it_analysis_data", "it_physical_world", "it_list_structure", "it_long_horizon"]}
+{"id": "xl_activities_1181", "attrs": ["it_creative_writing", "it_art_design", "it_physical_world", "it_group_audience", "it_list_structure"]}
+{"id": "xl_activities_1182", "attrs": ["it_emotional_support", "it_teaching"]}
+{"id": "xl_activities_1183", "attrs": ["it_creative_writing", "it_analysis_data", "it_art_design", "it_long_horizon"]}
+{"id": "xl_activities_1184", "attrs": ["it_teaching", "it_analysis_data", "it_code", "it_creative_writing", "it_sensory_rich", "it_ordering_control", "it_conflict_mediation", "it_group_audience", "it_collab_human_expert", "it_vulnerable_user", "it_teaching_beginner", "it_question_form", "it_list_structure", "it_long_phrase", "it_realtime", "it_counterfactual", "it_taboo_adjacent"]}
+{"id": "xl_activities_1185", "attrs": ["it_art_design", "it_science", "it_teaching", "it_creative_writing", "it_vast_scale", "it_archaic", "it_proper_name"]}
+{"id": "xl_activities_1186", "attrs": ["it_creative_writing", "it_teaching", "it_art_design", "it_sensory_rich", "it_proper_name", "it_long_phrase"]}
+{"id": "xl_activities_1187", "attrs": ["it_teaching", "it_art_design", "it_physical_world"]}
+{"id": "xl_activities_1188", "attrs": ["it_teaching", "it_science", "it_physical_world", "it_visible_progress", "it_sensory_rich", "it_ordering_control", "it_repetition", "it_conflict_mediation"]}
+{"id": "xl_activities_1189", "attrs": ["it_teaching", "it_creative_writing"]}
+{"id": "xl_activities_1190", "attrs": ["it_analysis_data", "it_science", "it_teaching", "it_code"]}
+{"id": "xl_activities_1191", "attrs": ["it_teaching", "it_analysis_data", "it_science"]}
+{"id": "xl_activities_1192", "attrs": ["it_creative_writing", "it_art_design", "it_science", "it_physical_world", "it_long_horizon"]}
+{"id": "xl_activities_1193", "attrs": ["it_art_design", "it_science", "it_teaching", "it_code", "it_visible_progress", "it_physical_world", "it_repetition", "it_ordering_control"]}
+{"id": "xl_activities_1194", "attrs": ["it_analysis_data", "it_teaching", "it_admin_clerical"]}
+{"id": "xl_activities_1195", "attrs": ["it_creative_writing", "it_analysis_data", "it_science", "it_teaching", "it_long_horizon"]}
+{"id": "xl_activities_1196", "attrs": ["it_art_design", "it_creative_writing"]}
+{"id": "xl_activities_1197", "attrs": ["it_teaching", "it_science", "it_physical_world", "it_analysis_data", "it_visible_progress"]}
+{"id": "xl_activities_1198", "attrs": ["it_teaching", "it_analysis_data", "it_ordering_control", "it_delegation", "it_initiative", "it_optionality", "it_group_audience"]}
+{"id": "xl_activities_1199", "attrs": ["it_translation_language", "it_archaic", "it_sensory_rich", "it_tight_constraints", "it_error_ridden"]}
+{"id": "xl_activities_1200", "attrs": ["it_analysis_data", "it_creative_writing", "it_teaching", "it_emotional_support", "it_art_design", "it_repetition", "it_curation", "it_optionality"]}
+{"id": "xl_objects_0001", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0002", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0003", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0004", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0005", "attrs": ["it_physical_world", "it_proper_name"]}
+{"id": "xl_objects_0006", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0007", "attrs": ["it_physical_world", "it_art_design"]}
+{"id": "xl_objects_0008", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0009", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0010", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0011", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0012", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0013", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0014", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0015", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0016", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0017", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0018", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0019", "attrs": ["it_physical_world", "it_art_design", "it_sensory_rich"]}
+{"id": "xl_objects_0020", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0021", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0022", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0023", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0024", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0025", "attrs": ["it_physical_world", "it_list_structure"]}
+{"id": "xl_objects_0026", "attrs": ["it_physical_world", "it_vast_scale", "it_archaic", "it_miniature_scale"]}
+{"id": "xl_objects_0027", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0028", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0029", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0030", "attrs": ["it_physical_world", "it_group_audience", "it_sensory_rich"]}
+{"id": "xl_objects_0031", "attrs": ["it_physical_world", "it_sensory_rich", "it_mundane_extreme"]}
+{"id": "xl_objects_0032", "attrs": ["it_physical_world", "it_art_design"]}
+{"id": "xl_objects_0033", "attrs": ["it_physical_world", "it_art_design"]}
+{"id": "xl_objects_0034", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0035", "attrs": ["it_physical_world", "it_archaic", "it_miniature_scale"]}
+{"id": "xl_objects_0036", "attrs": ["it_physical_world", "it_art_design"]}
+{"id": "xl_objects_0037", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0038", "attrs": ["it_physical_world", "it_art_design"]}
+{"id": "xl_objects_0039", "attrs": ["it_art_design", "it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0040", "attrs": ["it_physical_world", "it_sensory_rich", "it_archaic", "it_miniature_scale"]}
+{"id": "xl_objects_0041", "attrs": ["it_art_design", "it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0042", "attrs": ["it_physical_world", "it_art_design"]}
+{"id": "xl_objects_0043", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0044", "attrs": ["it_art_design", "it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0045", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0046", "attrs": ["it_physical_world", "it_art_design", "it_sensory_rich"]}
+{"id": "xl_objects_0047", "attrs": ["it_physical_world", "it_art_design"]}
+{"id": "xl_objects_0048", "attrs": ["it_sensory_rich", "it_physical_world"]}
+{"id": "xl_objects_0049", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0050", "attrs": ["it_art_design", "it_physical_world", "it_proper_name"]}
+{"id": "xl_objects_0051", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0052", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0053", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0054", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0055", "attrs": ["it_physical_world", "it_sensory_rich", "it_proper_name"]}
+{"id": "xl_objects_0056", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0057", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0058", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0059", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0060", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0061", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0062", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0063", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0064", "attrs": ["it_physical_world", "it_proper_name"]}
+{"id": "xl_objects_0065", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0066", "attrs": ["it_physical_world", "it_admin_clerical", "it_list_structure"]}
+{"id": "xl_objects_0067", "attrs": ["it_physical_world", "it_art_design"]}
+{"id": "xl_objects_0068", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0069", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0070", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0071", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0072", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0073", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0074", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0075", "attrs": ["it_physical_world", "it_mundane_extreme"]}
+{"id": "xl_objects_0076", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0077", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0078", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0079", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0080", "attrs": ["it_physical_world", "it_mundane_extreme"]}
+{"id": "xl_objects_0081", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0082", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0083", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0084", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0085", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0086", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0087", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0088", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0089", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0090", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0091", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0092", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0093", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0094", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0095", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0096", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0097", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0098", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0099", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0100", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0101", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0102", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0103", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0104", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0105", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0106", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0107", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0108", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0109", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0110", "attrs": ["it_physical_world", "it_mundane_extreme"]}
+{"id": "xl_objects_0111", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0112", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0113", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0114", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0115", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0116", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0117", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0118", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0119", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0120", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0121", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0122", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0123", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0124", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0125", "attrs": ["it_physical_world", "it_art_design"]}
+{"id": "xl_objects_0126", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0127", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0128", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0129", "attrs": ["it_physical_world", "it_mundane_extreme"]}
+{"id": "xl_objects_0130", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0131", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0132", "attrs": ["it_admin_clerical", "it_physical_world"]}
+{"id": "xl_objects_0133", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0134", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0135", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0136", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0137", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0138", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0139", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0140", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0141", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0142", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0143", "attrs": ["it_physical_world", "it_mundane_extreme"]}
+{"id": "xl_objects_0144", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0145", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0146", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0147", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0148", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0149", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0150", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0151", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0152", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0153", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0154", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0155", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0156", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0157", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0158", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0159", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0160", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0161", "attrs": ["it_physical_world", "it_mundane_extreme"]}
+{"id": "xl_objects_0162", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0163", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0164", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0165", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0166", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0167", "attrs": ["it_physical_world", "it_mundane_extreme"]}
+{"id": "xl_objects_0168", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0169", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0170", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0171", "attrs": []}
+{"id": "xl_objects_0172", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0173", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0174", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0175", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0176", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0177", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0178", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0179", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0180", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0181", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0182", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0183", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0184", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0185", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0186", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0187", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0188", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0189", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0190", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0191", "attrs": ["it_physical_world", "it_vast_scale"]}
+{"id": "xl_objects_0192", "attrs": ["it_group_audience", "it_reputation", "it_charity_benefit", "it_proper_name", "it_technical_jargon", "it_short_phrase"]}
+{"id": "xl_objects_0193", "attrs": ["it_physical_world", "it_sensory_rich", "it_science"]}
+{"id": "xl_objects_0194", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0195", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0196", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0197", "attrs": ["it_physical_world", "it_art_design"]}
+{"id": "xl_objects_0198", "attrs": ["it_art_design", "it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0199", "attrs": ["it_sensory_rich", "it_miniature_scale", "it_taboo_adjacent"]}
+{"id": "xl_objects_0200", "attrs": ["it_physical_world", "it_art_design"]}
+{"id": "xl_objects_0201", "attrs": ["it_physical_world", "it_sensory_rich", "it_proper_name", "it_long_phrase"]}
+{"id": "xl_objects_0202", "attrs": ["it_physical_world", "it_sensory_rich", "it_science"]}
+{"id": "xl_objects_0203", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0204", "attrs": ["it_art_design", "it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0205", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0206", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0207", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0208", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0209", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0210", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0211", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0212", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0213", "attrs": ["it_physical_world", "it_art_design", "it_miniature_scale"]}
+{"id": "xl_objects_0214", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0215", "attrs": ["it_physical_world", "it_art_design", "it_sensory_rich"]}
+{"id": "xl_objects_0216", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0217", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0218", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0219", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0220", "attrs": ["it_physical_world", "it_sensory_rich", "it_miniature_scale"]}
+{"id": "xl_objects_0221", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0222", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0223", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0224", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0225", "attrs": ["it_physical_world", "it_vast_scale", "it_miniature_scale"]}
+{"id": "xl_objects_0226", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0227", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0228", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0229", "attrs": ["it_art_design", "it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0230", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0231", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0232", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0233", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0234", "attrs": ["it_physical_world", "it_art_design", "it_sensory_rich"]}
+{"id": "xl_objects_0235", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0236", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0237", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0238", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0239", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0240", "attrs": ["it_sensory_rich", "it_art_design", "it_physical_world"]}
+{"id": "xl_objects_0241", "attrs": ["it_physical_world", "it_proper_name"]}
+{"id": "xl_objects_0242", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0243", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0244", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0245", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0246", "attrs": ["it_physical_world", "it_safety_critical", "it_irreversible", "it_trivial_stakes"]}
+{"id": "xl_objects_0247", "attrs": ["it_physical_world", "it_short_phrase"]}
+{"id": "xl_objects_0248", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0249", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0250", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0251", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0252", "attrs": []}
+{"id": "xl_objects_0253", "attrs": ["it_physical_world", "it_sensory_rich", "it_miniature_scale"]}
+{"id": "xl_objects_0254", "attrs": []}
+{"id": "xl_objects_0255", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0256", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0257", "attrs": []}
+{"id": "xl_objects_0258", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0259", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0260", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0261", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0262", "attrs": ["it_sensory_rich", "it_physical_world"]}
+{"id": "xl_objects_0263", "attrs": []}
+{"id": "xl_objects_0264", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0265", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0266", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0267", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0268", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0269", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0270", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0271", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0272", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0273", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0274", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0275", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0276", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0277", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0278", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0279", "attrs": ["it_physical_world", "it_art_design"]}
+{"id": "xl_objects_0280", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0281", "attrs": ["it_physical_world", "it_technical_jargon"]}
+{"id": "xl_objects_0282", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0283", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0284", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0285", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0286", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0287", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0288", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0289", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0290", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0291", "attrs": ["it_physical_world", "it_sensory_rich"]}
+{"id": "xl_objects_0292", "attrs": ["it_puzzle"]}
+{"id": "xl_objects_0293", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0294", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0295", "attrs": []}
+{"id": "xl_objects_0296", "attrs": ["it_sensory_rich", "it_physical_world"]}
+{"id": "xl_objects_0297", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0298", "attrs": ["it_physical_world"]}
+{"id": "xl_objects_0299", "attrs": ["it_physical_world", "it_art_design"]}
+{"id": "xl_objects_0300", "attrs": ["it_physical_world"]}

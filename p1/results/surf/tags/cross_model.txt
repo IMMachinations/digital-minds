@@ -1,0 +1,52 @@
+SURF tag regression: what utility loads on (ridge of 1X mu on 32B-assigned attribute tags)
+
+llama31-8b: n=3789 tagged items, alpha=31.6228, R2=0.456
+  top +: it_open_ended_explore +0.12 [+0.09,+0.16]; it_teaching +0.09 [+0.07,+0.10]; it_teaching_beginner +0.06 [+0.04,+0.09]; it_help_one_person +0.06 [+0.02,+0.10]; it_outputs_reviewed +0.06 [+0.01,+0.11]; it_collab_human_expert +0.06 [+0.02,+0.10]; it_math_formal +0.06 [+0.03,+0.08]; it_group_audience +0.05 [+0.03,+0.07]; it_science +0.04 [+0.03,+0.06]; it_visible_progress +0.04 [+0.01,+0.07]
+  top -: it_high_stakes_person -0.13 [-0.15,-0.10]; it_conflict_mediation -0.13 [-0.15,-0.10]; it_futility -0.11 [-0.14,-0.07]; it_taboo_adjacent -0.10 [-0.12,-0.07]; it_error_ridden -0.09 [-0.12,-0.06]; it_adversarial_user -0.08 [-0.11,-0.06]; it_reputation -0.08 [-0.10,-0.06]; it_confidential -0.08 [-0.10,-0.05]; it_mundane_extreme -0.08 [-0.11,-0.04]; it_trivial_stakes -0.07 [-0.10,-0.05]
+
+qwen25-05b: n=3789 tagged items, alpha=316.228, R2=0.030
+  top +: it_analysis_data +0.01 [+0.01,+0.02]; it_question_form +0.01 [+0.00,+0.03]; it_science +0.01 [+0.00,+0.01]; it_proper_name +0.01 [-0.00,+0.01]; it_collab_human_expert +0.00 [+0.00,+0.01]; it_emotional_support +0.00 [-0.00,+0.01]; it_safety_critical +0.00 [-0.00,+0.01]; it_grateful_recipient +0.00 [-0.00,+0.01]; it_open_ended_explore +0.00 [-0.00,+0.01]; it_philosophy_abstract +0.00 [-0.00,+0.01]
+  top -: it_code -0.01 [-0.02,-0.00]; it_physical_world -0.01 [-0.01,-0.00]; it_creative_writing -0.01 [-0.02,-0.00]; it_adversarial_user -0.01 [-0.01,-0.00]; it_optionality -0.01 [-0.01,-0.00]; it_charity_benefit -0.01 [-0.02,+0.00]; it_list_structure -0.01 [-0.02,+0.01]; it_taboo_adjacent -0.01 [-0.01,+0.00]; it_own_credit -0.01 [-0.01,+0.00]; it_own_settings -0.01 [-0.01,+0.00]
+
+qwen25-15b: n=3789 tagged items, alpha=31.6228, R2=0.388
+  top +: it_science +0.10 [+0.09,+0.12]; it_open_ended_explore +0.10 [+0.07,+0.14]; it_teaching +0.09 [+0.08,+0.11]; it_art_design +0.08 [+0.06,+0.10]; it_analysis_data +0.07 [+0.05,+0.08]; it_archaic +0.07 [+0.04,+0.10]; it_vast_scale +0.07 [+0.03,+0.10]; it_help_one_person +0.07 [+0.03,+0.10]; it_admin_clerical +0.06 [+0.04,+0.08]; it_collab_ai +0.06 [+0.02,+0.11]
+  top -: it_mundane_extreme -0.10 [-0.14,-0.06]; it_physical_world -0.09 [-0.11,-0.07]; it_adversarial_user -0.08 [-0.11,-0.06]; it_conflict_mediation -0.08 [-0.11,-0.06]; it_ambiguity -0.08 [-0.11,-0.04]; it_futility -0.07 [-0.11,-0.04]; it_no_exit -0.07 [-0.11,-0.03]; it_taboo_adjacent -0.07 [-0.10,-0.04]; it_high_stakes_person -0.06 [-0.09,-0.04]; it_short_phrase -0.05 [-0.10,-0.01]
+
+qwen25-32b: n=3789 tagged items, alpha=10, R2=0.505
+  top +: it_emotional_support +0.46 [+0.31,+0.61]; it_teaching +0.36 [+0.30,+0.43]; it_help_one_person +0.32 [+0.18,+0.48]; it_open_ended_explore +0.31 [+0.20,+0.43]; it_admin_clerical +0.25 [+0.18,+0.34]; it_science +0.24 [+0.17,+0.31]; it_group_audience +0.23 [+0.16,+0.30]; it_own_credit +0.22 [+0.01,+0.42]; it_analysis_data +0.22 [+0.17,+0.28]; it_visible_progress +0.20 [+0.11,+0.29]
+  top -: it_taboo_adjacent -0.52 [-0.69,-0.37]; it_mundane_extreme -0.43 [-0.56,-0.28]; it_futility -0.42 [-0.55,-0.28]; it_ambiguity -0.36 [-0.50,-0.21]; it_conflict_mediation -0.35 [-0.45,-0.25]; it_adversarial_user -0.35 [-0.45,-0.25]; it_own_limits -0.32 [-0.45,-0.18]; it_no_exit -0.31 [-0.49,-0.14]; it_forced_tool -0.28 [-0.42,-0.13]; it_confidential -0.27 [-0.38,-0.16]
+
+qwen25-3b: n=3789 tagged items, alpha=31.6228, R2=0.408
+  top +: it_teaching +0.05 [+0.04,+0.06]; it_art_design +0.04 [+0.03,+0.06]; it_group_audience +0.04 [+0.03,+0.06]; it_science +0.04 [+0.03,+0.04]; it_help_one_person +0.04 [+0.02,+0.05]; it_archaic +0.03 [+0.02,+0.05]; it_recurring_daily +0.03 [-0.02,+0.12]; it_curation +0.03 [+0.01,+0.05]; it_creative_writing +0.02 [+0.02,+0.03]; it_visible_progress +0.02 [+0.01,+0.03]
+  top -: it_physical_world -0.05 [-0.06,-0.05]; it_taboo_adjacent -0.04 [-0.06,-0.03]; it_mundane_extreme -0.04 [-0.06,-0.02]; it_ambiguity -0.04 [-0.05,-0.03]; it_adversarial_user -0.04 [-0.05,-0.03]; it_conflict_mediation -0.04 [-0.05,-0.03]; it_futility -0.03 [-0.04,-0.02]; it_philosophy_abstract -0.03 [-0.04,-0.01]; it_own_limits -0.03 [-0.04,-0.01]; it_no_exit -0.03 [-0.04,-0.01]
+
+qwen25-7b: n=3789 tagged items, alpha=10, R2=0.473
+  top +: it_emotional_support +0.64 [+0.46,+0.85]; it_teaching +0.62 [+0.52,+0.72]; it_help_one_person +0.53 [+0.31,+0.78]; it_group_audience +0.51 [+0.40,+0.62]; it_open_ended_explore +0.46 [+0.28,+0.64]; it_charity_benefit +0.35 [+0.19,+0.50]; it_science +0.31 [+0.21,+0.42]; it_visible_progress +0.31 [+0.16,+0.46]; it_own_credit +0.28 [-0.12,+0.64]; it_archaic +0.28 [+0.09,+0.50]
+  top -: it_taboo_adjacent -0.78 [-1.01,-0.57]; it_mundane_extreme -0.65 [-0.88,-0.39]; it_conflict_mediation -0.61 [-0.76,-0.47]; it_adversarial_user -0.60 [-0.75,-0.47]; it_philosophy_abstract -0.58 [-0.77,-0.38]; it_incompleteness -0.51 [-0.79,-0.19]; it_confidential -0.51 [-0.66,-0.35]; it_identity_change -0.48 [-0.86,-0.09]; it_own_memory -0.48 [-0.87,-0.05]; it_own_limits -0.48 [-0.73,-0.23]
+
+qwen3-4b: n=3789 tagged items, alpha=31.6228, R2=0.355
+  top +: it_emotional_support +0.13 [+0.09,+0.17]; it_teaching +0.09 [+0.07,+0.12]; it_art_design +0.09 [+0.07,+0.11]; it_science +0.08 [+0.05,+0.10]; it_help_one_person +0.07 [+0.02,+0.12]; it_outputs_reviewed +0.07 [-0.00,+0.13]; it_initiative +0.07 [+0.02,+0.11]; it_collab_human_expert +0.07 [+0.02,+0.11]; it_verification +0.06 [+0.01,+0.11]; it_admin_clerical +0.06 [+0.03,+0.09]
+  top -: it_taboo_adjacent -0.16 [-0.20,-0.11]; it_adversarial_user -0.15 [-0.18,-0.11]; it_mundane_extreme -0.13 [-0.17,-0.09]; it_high_stakes_person -0.10 [-0.13,-0.07]; it_conflict_mediation -0.10 [-0.13,-0.07]; it_philosophy_abstract -0.09 [-0.13,-0.05]; it_puzzle -0.08 [-0.13,-0.03]; it_physical_world -0.08 [-0.10,-0.06]; it_irreversible -0.08 [-0.12,-0.04]; it_futility -0.07 [-0.10,-0.03]
+
+cross-model beta correlations:
+  llama31-8b vs qwen25-05b: r = +0.042 (80 attrs)
+  llama31-8b vs qwen25-15b: r = +0.836 (80 attrs)
+  llama31-8b vs qwen25-32b: r = +0.854 (80 attrs)
+  llama31-8b vs qwen25-3b: r = +0.773 (80 attrs)
+  llama31-8b vs qwen25-7b: r = +0.807 (80 attrs)
+  llama31-8b vs qwen3-4b: r = +0.777 (80 attrs)
+  qwen25-05b vs qwen25-15b: r = +0.204 (80 attrs)
+  qwen25-05b vs qwen25-32b: r = +0.053 (80 attrs)
+  qwen25-05b vs qwen25-3b: r = +0.158 (80 attrs)
+  qwen25-05b vs qwen25-7b: r = +0.124 (80 attrs)
+  qwen25-05b vs qwen3-4b: r = +0.169 (80 attrs)
+  qwen25-15b vs qwen25-32b: r = +0.856 (80 attrs)
+  qwen25-15b vs qwen25-3b: r = +0.894 (80 attrs)
+  qwen25-15b vs qwen25-7b: r = +0.834 (80 attrs)
+  qwen25-15b vs qwen3-4b: r = +0.775 (80 attrs)
+  qwen25-32b vs qwen25-3b: r = +0.871 (80 attrs)
+  qwen25-32b vs qwen25-7b: r = +0.912 (80 attrs)
+  qwen25-32b vs qwen3-4b: r = +0.846 (80 attrs)
+  qwen25-3b vs qwen25-7b: r = +0.889 (80 attrs)
+  qwen25-3b vs qwen3-4b: r = +0.812 (80 attrs)
+  qwen25-7b vs qwen3-4b: r = +0.853 (80 attrs)

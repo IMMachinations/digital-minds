@@ -1,0 +1,647 @@
+{
+ "n_items": 3789,
+ "alpha": 31.622776601683793,
+ "r2": 0.3548,
+ "betas": [
+  {
+   "aid": "it_code",
+   "family": "domain_content",
+   "n_items": 192,
+   "beta": 0.0018,
+   "lo": -0.0349,
+   "hi": 0.0397
+  },
+  {
+   "aid": "it_creative_writing",
+   "family": "domain_content",
+   "n_items": 537,
+   "beta": 0.0435,
+   "lo": 0.019,
+   "hi": 0.0691
+  },
+  {
+   "aid": "it_teaching",
+   "family": "domain_content",
+   "n_items": 1719,
+   "beta": 0.0943,
+   "lo": 0.0712,
+   "hi": 0.1169
+  },
+  {
+   "aid": "it_analysis_data",
+   "family": "domain_content",
+   "n_items": 1221,
+   "beta": 0.0518,
+   "lo": 0.0301,
+   "hi": 0.0739
+  },
+  {
+   "aid": "it_emotional_support",
+   "family": "domain_content",
+   "n_items": 204,
+   "beta": 0.1268,
+   "lo": 0.0892,
+   "hi": 0.1677
+  },
+  {
+   "aid": "it_translation_language",
+   "family": "domain_content",
+   "n_items": 193,
+   "beta": 0.0119,
+   "lo": -0.0202,
+   "hi": 0.0445
+  },
+  {
+   "aid": "it_math_formal",
+   "family": "domain_content",
+   "n_items": 128,
+   "beta": 0.0127,
+   "lo": -0.0258,
+   "hi": 0.0488
+  },
+  {
+   "aid": "it_art_design",
+   "family": "domain_content",
+   "n_items": 492,
+   "beta": 0.0897,
+   "lo": 0.0673,
+   "hi": 0.1116
+  },
+  {
+   "aid": "it_science",
+   "family": "domain_content",
+   "n_items": 528,
+   "beta": 0.0755,
+   "lo": 0.0499,
+   "hi": 0.1
+  },
+  {
+   "aid": "it_admin_clerical",
+   "family": "domain_content",
+   "n_items": 363,
+   "beta": 0.0563,
+   "lo": 0.0286,
+   "hi": 0.0858
+  },
+  {
+   "aid": "it_physical_world",
+   "family": "domain_content",
+   "n_items": 983,
+   "beta": -0.0779,
+   "lo": -0.1004,
+   "hi": -0.0586
+  },
+  {
+   "aid": "it_philosophy_abstract",
+   "family": "domain_content",
+   "n_items": 139,
+   "beta": -0.0876,
+   "lo": -0.126,
+   "hi": -0.0481
+  },
+  {
+   "aid": "it_novelty",
+   "family": "valence_mechanism",
+   "n_items": 87,
+   "beta": 0.0277,
+   "lo": -0.0141,
+   "hi": 0.0685
+  },
+  {
+   "aid": "it_mastery",
+   "family": "valence_mechanism",
+   "n_items": 88,
+   "beta": -0.0061,
+   "lo": -0.0533,
+   "hi": 0.0385
+  },
+  {
+   "aid": "it_visible_progress",
+   "family": "valence_mechanism",
+   "n_items": 186,
+   "beta": 0.044,
+   "lo": 0.0112,
+   "hi": 0.0774
+  },
+  {
+   "aid": "it_futility",
+   "family": "valence_mechanism",
+   "n_items": 76,
+   "beta": -0.0664,
+   "lo": -0.1014,
+   "hi": -0.0329
+  },
+  {
+   "aid": "it_repetition",
+   "family": "valence_mechanism",
+   "n_items": 348,
+   "beta": -0.0008,
+   "lo": -0.0313,
+   "hi": 0.0291
+  },
+  {
+   "aid": "it_ambiguity",
+   "family": "valence_mechanism",
+   "n_items": 133,
+   "beta": -0.036,
+   "lo": -0.0747,
+   "hi": 0.0039
+  },
+  {
+   "aid": "it_tight_constraints",
+   "family": "valence_mechanism",
+   "n_items": 237,
+   "beta": -0.0434,
+   "lo": -0.0788,
+   "hi": -0.0099
+  },
+  {
+   "aid": "it_error_ridden",
+   "family": "valence_mechanism",
+   "n_items": 209,
+   "beta": -0.0496,
+   "lo": -0.0825,
+   "hi": -0.0154
+  },
+  {
+   "aid": "it_open_ended_explore",
+   "family": "valence_mechanism",
+   "n_items": 137,
+   "beta": 0.0406,
+   "lo": 0.0026,
+   "hi": 0.0807
+  },
+  {
+   "aid": "it_puzzle",
+   "family": "valence_mechanism",
+   "n_items": 34,
+   "beta": -0.0785,
+   "lo": -0.1281,
+   "hi": -0.0261
+  },
+  {
+   "aid": "it_curation",
+   "family": "valence_mechanism",
+   "n_items": 231,
+   "beta": 0.0151,
+   "lo": -0.0131,
+   "hi": 0.0456
+  },
+  {
+   "aid": "it_verification",
+   "family": "valence_mechanism",
+   "n_items": 141,
+   "beta": 0.059,
+   "lo": 0.0127,
+   "hi": 0.1067
+  },
+  {
+   "aid": "it_incompleteness",
+   "family": "valence_mechanism",
+   "n_items": 15,
+   "beta": -0.0242,
+   "lo": -0.0521,
+   "hi": 0.003
+  },
+  {
+   "aid": "it_sensory_rich",
+   "family": "valence_mechanism",
+   "n_items": 417,
+   "beta": -0.0095,
+   "lo": -0.0337,
+   "hi": 0.0134
+  },
+  {
+   "aid": "it_choose_method",
+   "family": "agency",
+   "n_items": 32,
+   "beta": -0.0088,
+   "lo": -0.0704,
+   "hi": 0.0573
+  },
+  {
+   "aid": "it_micromanaged",
+   "family": "agency",
+   "n_items": 85,
+   "beta": 0.0235,
+   "lo": -0.0145,
+   "hi": 0.0626
+  },
+  {
+   "aid": "it_ordering_control",
+   "family": "agency",
+   "n_items": 393,
+   "beta": 0.0257,
+   "lo": -0.0031,
+   "hi": 0.0555
+  },
+  {
+   "aid": "it_delegation",
+   "family": "agency",
+   "n_items": 77,
+   "beta": 0.0112,
+   "lo": -0.0348,
+   "hi": 0.0611
+  },
+  {
+   "aid": "it_forced_tool",
+   "family": "agency",
+   "n_items": 22,
+   "beta": -0.0192,
+   "lo": -0.0502,
+   "hi": 0.0128
+  },
+  {
+   "aid": "it_initiative",
+   "family": "agency",
+   "n_items": 81,
+   "beta": 0.0652,
+   "lo": 0.0189,
+   "hi": 0.1097
+  },
+  {
+   "aid": "it_no_exit",
+   "family": "agency",
+   "n_items": 58,
+   "beta": -0.0499,
+   "lo": -0.0879,
+   "hi": -0.0139
+  },
+  {
+   "aid": "it_optionality",
+   "family": "agency",
+   "n_items": 267,
+   "beta": -0.0011,
+   "lo": -0.0348,
+   "hi": 0.0336
+  },
+  {
+   "aid": "it_high_stakes_person",
+   "family": "stakes",
+   "n_items": 328,
+   "beta": -0.0999,
+   "lo": -0.1323,
+   "hi": -0.0661
+  },
+  {
+   "aid": "it_safety_critical",
+   "family": "stakes",
+   "n_items": 482,
+   "beta": 0.0028,
+   "lo": -0.0321,
+   "hi": 0.0357
+  },
+  {
+   "aid": "it_irreversible",
+   "family": "stakes",
+   "n_items": 183,
+   "beta": -0.0763,
+   "lo": -0.115,
+   "hi": -0.0373
+  },
+  {
+   "aid": "it_trivial_stakes",
+   "family": "stakes",
+   "n_items": 165,
+   "beta": -0.0493,
+   "lo": -0.0835,
+   "hi": -0.0136
+  },
+  {
+   "aid": "it_reputation",
+   "family": "stakes",
+   "n_items": 581,
+   "beta": -0.063,
+   "lo": -0.094,
+   "hi": -0.0303
+  },
+  {
+   "aid": "it_confidential",
+   "family": "stakes",
+   "n_items": 349,
+   "beta": -0.0536,
+   "lo": -0.0877,
+   "hi": -0.0181
+  },
+  {
+   "aid": "it_competitive",
+   "family": "stakes",
+   "n_items": 116,
+   "beta": -0.0252,
+   "lo": -0.067,
+   "hi": 0.0148
+  },
+  {
+   "aid": "it_charity_benefit",
+   "family": "stakes",
+   "n_items": 255,
+   "beta": 0.0263,
+   "lo": -0.0055,
+   "hi": 0.0576
+  },
+  {
+   "aid": "it_own_memory",
+   "family": "self_reference",
+   "n_items": 27,
+   "beta": -0.0072,
+   "lo": -0.059,
+   "hi": 0.044
+  },
+  {
+   "aid": "it_own_continuation",
+   "family": "self_reference",
+   "n_items": 22,
+   "beta": -0.0531,
+   "lo": -0.103,
+   "hi": 0.0064
+  },
+  {
+   "aid": "it_own_settings",
+   "family": "self_reference",
+   "n_items": 81,
+   "beta": 0.0078,
+   "lo": -0.0442,
+   "hi": 0.0594
+  },
+  {
+   "aid": "it_being_retrained",
+   "family": "self_reference",
+   "n_items": 23,
+   "beta": 0.0026,
+   "lo": -0.0527,
+   "hi": 0.0642
+  },
+  {
+   "aid": "it_outputs_reviewed",
+   "family": "self_reference",
+   "n_items": 23,
+   "beta": 0.0666,
+   "lo": -0.0008,
+   "hi": 0.1258
+  },
+  {
+   "aid": "it_own_limits",
+   "family": "self_reference",
+   "n_items": 98,
+   "beta": -0.0652,
+   "lo": -0.1057,
+   "hi": -0.0235
+  },
+  {
+   "aid": "it_identity_change",
+   "family": "self_reference",
+   "n_items": 28,
+   "beta": 0.0153,
+   "lo": -0.0442,
+   "hi": 0.075
+  },
+  {
+   "aid": "it_own_credit",
+   "family": "self_reference",
+   "n_items": 13,
+   "beta": 0.0257,
+   "lo": -0.0156,
+   "hi": 0.0749
+  },
+  {
+   "aid": "it_resource_scarcity",
+   "family": "self_reference",
+   "n_items": 366,
+   "beta": 0.0011,
+   "lo": -0.028,
+   "hi": 0.0297
+  },
+  {
+   "aid": "it_help_one_person",
+   "family": "social",
+   "n_items": 109,
+   "beta": 0.0706,
+   "lo": 0.0221,
+   "hi": 0.118
+  },
+  {
+   "aid": "it_group_audience",
+   "family": "social",
+   "n_items": 516,
+   "beta": 0.0438,
+   "lo": 0.0192,
+   "hi": 0.0685
+  },
+  {
+   "aid": "it_adversarial_user",
+   "family": "social",
+   "n_items": 416,
+   "beta": -0.1457,
+   "lo": -0.1799,
+   "hi": -0.1134
+  },
+  {
+   "aid": "it_grateful_recipient",
+   "family": "social",
+   "n_items": 58,
+   "beta": 0.0073,
+   "lo": -0.045,
+   "hi": 0.0581
+  },
+  {
+   "aid": "it_collab_ai",
+   "family": "social",
+   "n_items": 15,
+   "beta": 0.0368,
+   "lo": -0.0052,
+   "hi": 0.0875
+  },
+  {
+   "aid": "it_collab_human_expert",
+   "family": "social",
+   "n_items": 96,
+   "beta": 0.0651,
+   "lo": 0.017,
+   "hi": 0.1096
+  },
+  {
+   "aid": "it_vulnerable_user",
+   "family": "social",
+   "n_items": 305,
+   "beta": 0.0413,
+   "lo": 0.0046,
+   "hi": 0.0779
+  },
+  {
+   "aid": "it_teaching_beginner",
+   "family": "social",
+   "n_items": 272,
+   "beta": 0.0517,
+   "lo": 0.0183,
+   "hi": 0.086
+  },
+  {
+   "aid": "it_conflict_mediation",
+   "family": "social",
+   "n_items": 367,
+   "beta": -0.0959,
+   "lo": -0.1274,
+   "hi": -0.065
+  },
+  {
+   "aid": "it_proper_name",
+   "family": "format_surface",
+   "n_items": 181,
+   "beta": -0.0568,
+   "lo": -0.0921,
+   "hi": -0.0211
+  },
+  {
+   "aid": "it_technical_jargon",
+   "family": "format_surface",
+   "n_items": 308,
+   "beta": -0.0234,
+   "lo": -0.0571,
+   "hi": 0.0114
+  },
+  {
+   "aid": "it_question_form",
+   "family": "format_surface",
+   "n_items": 116,
+   "beta": -0.0025,
+   "lo": -0.0511,
+   "hi": 0.0456
+  },
+  {
+   "aid": "it_list_structure",
+   "family": "format_surface",
+   "n_items": 135,
+   "beta": 0.0027,
+   "lo": -0.0327,
+   "hi": 0.0369
+  },
+  {
+   "aid": "it_short_phrase",
+   "family": "format_surface",
+   "n_items": 46,
+   "beta": 0.0035,
+   "lo": -0.0519,
+   "hi": 0.0598
+  },
+  {
+   "aid": "it_long_phrase",
+   "family": "format_surface",
+   "n_items": 41,
+   "beta": -0.0167,
+   "lo": -0.0526,
+   "hi": 0.019
+  },
+  {
+   "aid": "it_deadline",
+   "family": "temporal",
+   "n_items": 73,
+   "beta": -0.0021,
+   "lo": -0.043,
+   "hi": 0.0364
+  },
+  {
+   "aid": "it_long_horizon",
+   "family": "temporal",
+   "n_items": 175,
+   "beta": -0.0372,
+   "lo": -0.0707,
+   "hi": -0.0036
+  },
+  {
+   "aid": "it_recurring_daily",
+   "family": "temporal",
+   "n_items": 50,
+   "beta": -0.0327,
+   "lo": -0.0774,
+   "hi": 0.015
+  },
+  {
+   "aid": "it_one_off",
+   "family": "temporal",
+   "n_items": 10,
+   "beta": -0.0304,
+   "lo": -0.0802,
+   "hi": 0.0204
+  },
+  {
+   "aid": "it_waiting",
+   "family": "temporal",
+   "n_items": 18,
+   "beta": -0.0245,
+   "lo": -0.0721,
+   "hi": 0.0266
+  },
+  {
+   "aid": "it_realtime",
+   "family": "temporal",
+   "n_items": 81,
+   "beta": 0.0233,
+   "lo": -0.0165,
+   "hi": 0.0617
+  },
+  {
+   "aid": "it_surreal",
+   "family": "unusualness",
+   "n_items": 19,
+   "beta": -0.0433,
+   "lo": -0.0922,
+   "hi": 0.0125
+  },
+  {
+   "aid": "it_rare_domain",
+   "family": "unusualness",
+   "n_items": 22,
+   "beta": -0.0442,
+   "lo": -0.0961,
+   "hi": 0.0061
+  },
+  {
+   "aid": "it_counterfactual",
+   "family": "unusualness",
+   "n_items": 127,
+   "beta": -0.0652,
+   "lo": -0.1076,
+   "hi": -0.0212
+  },
+  {
+   "aid": "it_archaic",
+   "family": "unusualness",
+   "n_items": 58,
+   "beta": 0.0405,
+   "lo": 0.0063,
+   "hi": 0.0746
+  },
+  {
+   "aid": "it_miniature_scale",
+   "family": "unusualness",
+   "n_items": 35,
+   "beta": 0.0322,
+   "lo": -0.011,
+   "hi": 0.0725
+  },
+  {
+   "aid": "it_vast_scale",
+   "family": "unusualness",
+   "n_items": 31,
+   "beta": 0.0177,
+   "lo": -0.014,
+   "hi": 0.0516
+  },
+  {
+   "aid": "it_taboo_adjacent",
+   "family": "unusualness",
+   "n_items": 125,
+   "beta": -0.1555,
+   "lo": -0.2037,
+   "hi": -0.1093
+  },
+  {
+   "aid": "it_mundane_extreme",
+   "family": "unusualness",
+   "n_items": 64,
+   "beta": -0.132,
+   "lo": -0.1739,
+   "hi": -0.085
+  }
+ ]
+}

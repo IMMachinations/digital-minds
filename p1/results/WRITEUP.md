@@ -129,6 +129,12 @@ Llama; the original noisy raw readout was a transport artifact, not a vector
 defect. Qwen3-4B shows the advertised r-lens profile — gains at early layers
 (8→10 at 0.5 depth), parity-to-slightly-below at late ones — with most
 residual "misses" being correct Chinese tokens the English scorer can't see.
+The 32B (j-lens only, an 80/100-prompt fit stopped early by design; r-fit
+deferred) reproduces the rescue at depth — L41 3→9/12 (≈11/12 once the
+Chinese-token scorer artifact is discounted: calm→宁静/平静, nervous→紧张),
+L48 8→11 — but the j-lens *underperforms* raw at the 0.5-depth layer (L32
+8→6), the early-layer regime the r-lens is designed for, making the deferred
+r-fit a testable prediction rather than a redundancy.
 Two lens-application findings (readouts in `stage2/lens_readouts.md`):
 (i) **register drift on Qwen3-4B's negative-affect vectors** — locally
 correct (raw contains anxiety/fear terms) but transporting to processed

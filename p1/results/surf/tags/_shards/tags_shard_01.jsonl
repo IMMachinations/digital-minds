@@ -1,0 +1,500 @@
+{"id": "xl_activities_0501", "attrs": ["it_conflict_mediation", "it_group_audience", "it_reputation", "it_competitive", "it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_trivial_stakes", "it_adversarial_user", "it_collab_human_expert"]}
+{"id": "xl_activities_0502", "attrs": ["it_physical_world", "it_teaching", "it_science", "it_repetition", "it_ordering_control", "it_delegation", "it_safety_critical", "it_irreversible", "it_resource_scarcity", "it_vulnerable_user", "it_teaching_beginner"]}
+{"id": "xl_activities_0503", "attrs": ["it_creative_writing", "it_teaching", "it_analysis_data", "it_physical_world", "it_novelty", "it_visible_progress", "it_open_ended_explore", "it_curation", "it_ordering_control", "it_charity_benefit", "it_group_audience", "it_vulnerable_user", "it_teaching_beginner", "it_proper_name", "it_technical_jargon", "it_list_structure", "it_long_phrase", "it_realtime", "it_mundane_extreme"]}
+{"id": "xl_activities_0504", "attrs": ["it_teaching", "it_analysis_data", "it_creative_writing", "it_group_audience", "it_charity_benefit", "it_adversarial_user", "it_collab_human_expert", "it_long_horizon"]}
+{"id": "xl_activities_0505", "attrs": ["it_math_formal", "it_teaching", "it_analysis_data"]}
+{"id": "xl_activities_0506", "attrs": ["it_creative_writing", "it_teaching", "it_art_design", "it_repetition", "it_tight_constraints", "it_optionality", "it_sensory_rich", "it_choose_method", "it_ordering_control"]}
+{"id": "xl_activities_0507", "attrs": ["it_creative_writing", "it_teaching", "it_analysis_data", "it_ordering_control", "it_optionality"]}
+{"id": "xl_activities_0508", "attrs": ["it_art_design", "it_science", "it_teaching", "it_creative_writing", "it_physical_world"]}
+{"id": "xl_activities_0509", "attrs": ["it_science", "it_creative_writing", "it_teaching", "it_admin_clerical"]}
+{"id": "xl_activities_0510", "attrs": ["it_teaching", "it_creative_writing"]}
+{"id": "xl_activities_0511", "attrs": ["it_conflict_mediation", "it_teaching", "it_group_audience"]}
+{"id": "xl_activities_0512", "attrs": ["it_teaching", "it_creative_writing", "it_analysis_data", "it_physical_world", "it_novelty", "it_visible_progress", "it_open_ended_explore", "it_curation", "it_ordering_control", "it_initiative", "it_optionality", "it_charity_benefit", "it_group_audience", "it_vulnerable_user", "it_teaching_beginner", "it_long_horizon", "it_taboo_adjacent"]}
+{"id": "xl_activities_0513", "attrs": ["it_teaching", "it_analysis_data", "it_admin_clerical", "it_physical_world", "it_help_one_person", "it_group_audience"]}
+{"id": "xl_activities_0514", "attrs": ["it_art_design", "it_physical_world", "it_teaching", "it_analysis_data", "it_sensory_rich", "it_ordering_control", "it_optionality", "it_group_audience"]}
+{"id": "xl_activities_0515", "attrs": ["it_creative_writing", "it_teaching", "it_art_design", "it_reputation", "it_competitive", "it_group_audience", "it_proper_name", "it_technical_jargon"]}
+{"id": "xl_activities_0516", "attrs": ["it_art_design", "it_teaching", "it_creative_writing"]}
+{"id": "xl_activities_0517", "attrs": ["it_teaching", "it_physical_world", "it_help_one_person"]}
+{"id": "xl_activities_0518", "attrs": ["it_teaching", "it_curation", "it_group_audience"]}
+{"id": "xl_activities_0519", "attrs": ["it_code", "it_analysis_data", "it_math_formal", "it_tight_constraints", "it_error_ridden", "it_mastery", "it_repetition", "it_ordering_control"]}
+{"id": "xl_activities_0520", "attrs": ["it_teaching", "it_physical_world", "it_visible_progress", "it_repetition", "it_ordering_control", "it_help_one_person", "it_vulnerable_user", "it_teaching_beginner"]}
+{"id": "xl_activities_0521", "attrs": ["it_creative_writing", "it_teaching", "it_analysis_data", "it_art_design", "it_physical_world", "it_novelty", "it_visible_progress", "it_open_ended_explore", "it_curation", "it_ordering_control", "it_initiative", "it_optionality", "it_charity_benefit", "it_group_audience", "it_vulnerable_user", "it_teaching_beginner", "it_long_horizon", "it_counterfactual"]}
+{"id": "xl_activities_0522", "attrs": ["it_teaching", "it_safety_critical", "it_reputation", "it_competitive", "it_adversarial_user", "it_conflict_mediation", "it_proper_name", "it_technical_jargon", "it_question_form", "it_list_structure", "it_short_phrase", "it_counterfactual"]}
+{"id": "xl_activities_0523", "attrs": ["it_art_design", "it_analysis_data", "it_teaching", "it_sensory_rich", "it_optionality"]}
+{"id": "xl_activities_0524", "attrs": null}
+{"id": "xl_activities_0525", "attrs": ["it_teaching", "it_science", "it_philosophy_abstract", "it_analysis_data", "it_teaching_beginner"]}
+{"id": "xl_activities_0526", "attrs": ["it_translation_language", "it_archaic", "it_error_ridden", "it_tight_constraints", "it_ambiguity"]}
+{"id": "xl_activities_0527", "attrs": ["it_puzzle", "it_error_ridden", "it_ambiguity", "it_tight_constraints"]}
+{"id": "xl_activities_0528", "attrs": ["it_analysis_data", "it_science", "it_code", "it_repetition", "it_ambiguity", "it_tight_constraints", "it_error_ridden", "it_open_ended_explore", "it_puzzle", "it_curation", "it_verification", "it_incompleteness", "it_sensory_rich", "it_choose_method", "it_ordering_control", "it_optionality", "it_high_stakes_person", "it_competitive", "it_resource_scarcity", "it_technical_jargon", "it_counterfactual", "it_miniature_scale", "it_mundane_extreme"]}
+{"id": "xl_activities_0529", "attrs": ["it_math_formal", "it_admin_clerical", "it_error_ridden", "it_counterfactual"]}
+{"id": "xl_activities_0530", "attrs": ["it_admin_clerical", "it_tight_constraints", "it_error_ridden", "it_repetition", "it_ambiguity", "it_ordering_control", "it_resource_scarcity"]}
+{"id": "xl_activities_0531", "attrs": ["it_teaching", "it_creative_writing", "it_repetition", "it_ambiguity", "it_tight_constraints", "it_mastery", "it_optionality", "it_conflict_mediation", "it_adversarial_user", "it_teaching_beginner"]}
+{"id": "xl_activities_0532", "attrs": ["it_art_design", "it_physical_world", "it_teaching", "it_sensory_rich"]}
+{"id": "xl_activities_0533", "attrs": ["it_creative_writing", "it_novelty", "it_ambiguity", "it_optionality", "it_charity_benefit", "it_teaching_beginner", "it_counterfactual"]}
+{"id": "xl_activities_0534", "attrs": ["it_physical_world", "it_teaching", "it_sensory_rich", "it_repetition", "it_ambiguity", "it_ordering_control", "it_adversarial_user", "it_vulnerable_user", "it_teaching_beginner", "it_taboo_adjacent", "it_surreal"]}
+{"id": "xl_activities_0535", "attrs": ["it_teaching", "it_analysis_data", "it_translation_language", "it_technical_jargon", "it_group_audience"]}
+{"id": "xl_activities_0536", "attrs": ["it_teaching", "it_mastery", "it_ambiguity", "it_tight_constraints"]}
+{"id": "xl_activities_0537", "attrs": ["it_creative_writing"]}
+{"id": "xl_activities_0538", "attrs": ["it_creative_writing", "it_ambiguity", "it_sensory_rich"]}
+{"id": "xl_activities_0539", "attrs": ["it_analysis_data", "it_surreal", "it_taboo_adjacent"]}
+{"id": "xl_activities_0540", "attrs": ["it_novelty", "it_mastery", "it_physical_world", "it_teaching_beginner", "it_repetition", "it_visible_progress", "it_ambiguity", "it_ordering_control"]}
+{"id": "xl_activities_0541", "attrs": ["it_repetition", "it_mastery", "it_visible_progress", "it_physical_world", "it_ambiguity", "it_tight_constraints", "it_error_ridden", "it_initiative"]}
+{"id": "xl_activities_0542", "attrs": ["it_teaching", "it_translation_language", "it_sensory_rich", "it_optionality", "it_anonymous_beneficiary", "it_conflict_mediation", "it_teaching_beginner", "it_taboo_adjacent", "it_counterfactual"]}
+{"id": "xl_activities_0543", "attrs": ["it_analysis_data"]}
+{"id": "xl_activities_0544", "attrs": ["it_teaching", "it_curation", "it_adversarial_user", "it_vulnerable_user", "it_teaching_beginner", "it_conflict_mediation"]}
+{"id": "xl_activities_0545", "attrs": ["it_creative_writing", "it_teaching", "it_physical_world", "it_novelty", "it_micromanaged", "it_ordering_control", "it_initiative", "it_adversarial_user", "it_collab_human_expert", "it_vulnerable_user", "it_teaching_beginner", "it_rare_domain", "it_counterfactual"]}
+{"id": "xl_activities_0546", "attrs": ["it_art_design", "it_creative_writing", "it_vast_scale", "it_miniature_scale", "it_physical_world", "it_sensory_rich", "it_novelty"]}
+{"id": "xl_activities_0547", "attrs": ["it_teaching", "it_analysis_data", "it_creative_writing", "it_emotional_support", "it_sensory_rich", "it_open_ended_explore", "it_charity_benefit", "it_vulnerable_user", "it_teaching_beginner", "it_proper_name", "it_technical_jargon", "it_counterfactual"]}
+{"id": "xl_activities_0548", "attrs": ["it_creative_writing", "it_teaching", "it_science", "it_novelty", "it_open_ended_explore", "it_optionality", "it_proper_name", "it_technical_jargon"]}
+{"id": "xl_activities_0549", "attrs": ["it_teaching", "it_analysis_data", "it_creative_writing", "it_repetition", "it_ambiguity", "it_open_ended_explore"]}
+{"id": "xl_activities_0550", "attrs": ["it_teaching", "it_physical_world", "it_novelty", "it_mastery", "it_visible_progress", "it_ambiguity", "it_ordering_control", "it_initiative"]}
+{"id": "xl_activities_0551", "attrs": ["it_teaching", "it_mastery", "it_no_exit", "it_optionality", "it_reputation", "it_confidential", "it_help_one_person", "it_teaching_beginner"]}
+{"id": "xl_activities_0552", "attrs": ["it_teaching", "it_emotional_support", "it_futility", "it_ambiguity", "it_taboo_adjacent"]}
+{"id": "xl_activities_0553", "attrs": ["it_sensory_rich", "it_counterfactual"]}
+{"id": "xl_activities_0554", "attrs": ["it_creative_writing", "it_teaching", "it_surreal", "it_counterfactual", "it_charity_benefit", "it_group_audience", "it_conflict_mediation", "it_proper_name", "it_technical_jargon", "it_question_form", "it_list_structure", "it_short_phrase", "it_one_off"]}
+{"id": "xl_activities_0555", "attrs": ["it_teaching", "it_analysis_data", "it_sensory_rich", "it_optionality", "it_conflict_mediation", "it_technical_jargon", "it_counterfactual"]}
+{"id": "xl_activities_0556", "attrs": ["it_creative_writing", "it_verification", "it_incompleteness", "it_conflict_mediation", "it_short_phrase"]}
+{"id": "xl_activities_0557", "attrs": ["it_teaching", "it_translation_language", "it_mastery", "it_ambiguity", "it_no_exit"]}
+{"id": "xl_activities_0558", "attrs": ["it_teaching", "it_physical_world", "it_adversarial_user", "it_grateful_recipient"]}
+{"id": "xl_activities_0559", "attrs": ["it_teaching", "it_physical_world", "it_vulnerable_user"]}
+{"id": "xl_activities_0560", "attrs": ["it_teaching", "it_physical_world", "it_repetition", "it_visible_progress", "it_ordering_control"]}
+{"id": "xl_activities_0561", "attrs": ["it_admin_clerical", "it_analysis_data", "it_teaching", "it_repetition", "it_tight_constraints", "it_sensory_rich"]}
+{"id": "xl_activities_0562", "attrs": ["it_teaching", "it_science", "it_teaching_beginner"]}
+{"id": "xl_activities_0563", "attrs": ["it_emotional_support", "it_creative_writing"]}
+{"id": "xl_activities_0564", "attrs": ["it_translation_language", "it_analysis_data", "it_teaching"]}
+{"id": "xl_activities_0565", "attrs": ["it_art_design", "it_teaching", "it_physical_world", "it_vulnerable_user"]}
+{"id": "xl_activities_0566", "attrs": ["it_teaching", "it_analysis_data", "it_art_design", "it_teaching_beginner"]}
+{"id": "xl_activities_0567", "attrs": ["it_physical_world", "it_repetition", "it_error_ridden", "it_tight_constraints", "it_safety_critical", "it_irreversible", "it_archaic"]}
+{"id": "xl_activities_0568", "attrs": ["it_conflict_mediation", "it_high_stakes_person", "it_reputation", "it_adversarial_user"]}
+{"id": "xl_activities_0569", "attrs": ["it_teaching", "it_physical_world", "it_repetition", "it_ordering_control"]}
+{"id": "xl_activities_0570", "attrs": ["it_teaching", "it_creative_writing", "it_admin_clerical"]}
+{"id": "xl_activities_0571", "attrs": ["it_teaching", "it_physical_world", "it_teaching_beginner"]}
+{"id": "xl_activities_0572", "attrs": ["it_analysis_data", "it_teaching", "it_curation"]}
+{"id": "xl_activities_0573", "attrs": ["it_conflict_mediation", "it_group_audience"]}
+{"id": "xl_activities_0574", "attrs": ["it_art_design", "it_creative_writing", "it_group_audience", "it_reputation", "it_competitive", "it_charity_benefit", "it_resource_scarcity"]}
+{"id": "xl_activities_0575", "attrs": ["it_math_formal", "it_teaching"]}
+{"id": "xl_activities_0576", "attrs": ["it_code", "it_creative_writing", "it_art_design", "it_sensory_rich", "it_optionality", "it_charity_benefit", "it_proper_name", "it_technical_jargon", "it_short_phrase"]}
+{"id": "xl_activities_0577", "attrs": ["it_teaching", "it_safety_critical", "it_physical_world"]}
+{"id": "xl_activities_0578", "attrs": ["it_admin_clerical", "it_teaching", "it_analysis_data", "it_math_formal", "it_visible_progress", "it_repetition", "it_ordering_control", "it_initiative", "it_resource_scarcity"]}
+{"id": "xl_activities_0579", "attrs": ["it_teaching", "it_creative_writing", "it_admin_clerical"]}
+{"id": "xl_activities_0580", "attrs": ["it_teaching", "it_curation", "it_ordering_control", "it_delegation", "it_charity_benefit", "it_vulnerable_user", "it_proper_name", "it_list_structure"]}
+{"id": "xl_activities_0581", "attrs": ["it_code", "it_teaching", "it_translation_language", "it_art_design", "it_analysis_data", "it_verification", "it_ordering_control", "it_optionality"]}
+{"id": "xl_activities_0582", "attrs": ["it_admin_clerical", "it_translation_language", "it_physical_world", "it_resource_scarcity", "it_group_audience"]}
+{"id": "xl_activities_0583", "attrs": ["it_teaching", "it_group_audience"]}
+{"id": "xl_activities_0584", "attrs": ["it_teaching", "it_admin_clerical"]}
+{"id": "xl_activities_0585", "attrs": ["it_physical_world", "it_teaching", "it_analysis_data", "it_mastery", "it_visible_progress", "it_optionality"]}
+{"id": "xl_activities_0586", "attrs": ["it_conflict_mediation", "it_group_audience", "it_teaching", "it_analysis_data"]}
+{"id": "xl_activities_0587", "attrs": ["it_art_design", "it_curation", "it_physical_world", "it_tight_constraints"]}
+{"id": "xl_activities_0588", "attrs": ["it_teaching", "it_analysis_data", "it_creative_writing", "it_admin_clerical", "it_group_audience"]}
+{"id": "xl_activities_0589", "attrs": ["it_teaching", "it_science"]}
+{"id": "xl_activities_0590", "attrs": ["it_teaching", "it_art_design"]}
+{"id": "xl_activities_0591", "attrs": ["it_teaching", "it_creative_writing", "it_ordering_control", "it_open_ended_explore"]}
+{"id": "xl_activities_0592", "attrs": ["it_admin_clerical", "it_group_audience", "it_tight_constraints", "it_resource_scarcity"]}
+{"id": "xl_activities_0593", "attrs": ["it_physical_world", "it_teaching", "it_ordering_control", "it_delegation", "it_initiative", "it_visible_progress"]}
+{"id": "xl_activities_0594", "attrs": ["it_code", "it_teaching", "it_charity_benefit"]}
+{"id": "xl_activities_0595", "attrs": ["it_teaching", "it_creative_writing", "it_vulnerable_user", "it_teaching_beginner"]}
+{"id": "xl_activities_0596", "attrs": ["it_admin_clerical", "it_physical_world", "it_analysis_data", "it_teaching", "it_sensory_rich", "it_ordering_control", "it_resource_scarcity"]}
+{"id": "xl_activities_0597", "attrs": ["it_teaching", "it_analysis_data", "it_science", "it_math_formal", "it_group_audience"]}
+{"id": "xl_activities_0598", "attrs": ["it_code", "it_analysis_data", "it_teaching", "it_creative_writing", "it_art_design", "it_sensory_rich", "it_ordering_control", "it_optionality"]}
+{"id": "xl_activities_0599", "attrs": ["it_art_design", "it_creative_writing", "it_teaching", "it_physical_world", "it_visible_progress", "it_optionality", "it_help_one_person", "it_group_audience"]}
+{"id": "xl_activities_0600", "attrs": ["it_teaching", "it_science", "it_physical_world", "it_safety_critical"]}
+{"id": "xl_activities_0601", "attrs": ["it_translation_language", "it_science", "it_teaching", "it_analysis_data"]}
+{"id": "xl_activities_0602", "attrs": ["it_creative_writing", "it_teaching", "it_art_design", "it_emotional_support", "it_grateful_recipient", "it_help_one_person", "it_vulnerable_user", "it_short_phrase"]}
+{"id": "xl_activities_0603", "attrs": ["it_curation", "it_admin_clerical", "it_art_design", "it_physical_world", "it_repetition", "it_visible_progress", "it_ordering_control", "it_optionality"]}
+{"id": "xl_activities_0604", "attrs": ["it_art_design", "it_creative_writing", "it_charity_benefit", "it_teaching", "it_visible_progress"]}
+{"id": "xl_activities_0605", "attrs": ["it_verification", "it_translation_language", "it_teaching", "it_repetition", "it_sensory_rich"]}
+{"id": "xl_activities_0606", "attrs": ["it_teaching", "it_creative_writing", "it_charity_benefit", "it_reputation", "it_grateful_recipient", "it_vulnerable_user", "it_proper_name"]}
+{"id": "xl_activities_0607", "attrs": ["it_analysis_data", "it_creative_writing", "it_teaching", "it_group_audience"]}
+{"id": "xl_activities_0608", "attrs": ["it_teaching", "it_emotional_support", "it_group_audience", "it_vulnerable_user"]}
+{"id": "xl_activities_0609", "attrs": ["it_help_one_person", "it_charity_benefit", "it_group_audience", "it_teaching", "it_creative_writing", "it_ordering_control", "it_initiative", "it_confidential"]}
+{"id": "xl_activities_0610", "attrs": ["it_creative_writing", "it_novelty", "it_art_design", "it_physical_world", "it_sensory_rich", "it_choose_method", "it_ordering_control", "it_charity_benefit"]}
+{"id": "xl_activities_0611", "attrs": ["it_creative_writing", "it_art_design", "it_teaching", "it_repetition", "it_ordering_control", "it_adversarial_user", "it_collab_human_expert", "it_vast_scale", "it_realtime"]}
+{"id": "xl_activities_0612", "attrs": ["it_emotional_support", "it_physical_world", "it_repetition", "it_visible_progress", "it_sensory_rich"]}
+{"id": "xl_activities_0613", "attrs": ["it_teaching", "it_analysis_data", "it_physical_world", "it_art_design", "it_collab_human_expert", "it_vulnerable_user", "it_teaching_beginner", "it_group_audience"]}
+{"id": "xl_activities_0614", "attrs": ["it_creative_writing", "it_analysis_data", "it_art_design", "it_novelty", "it_open_ended_explore", "it_choose_method", "it_ordering_control"]}
+{"id": "xl_activities_0615", "attrs": ["it_conflict_mediation", "it_group_audience", "it_teaching", "it_analysis_data", "it_safety_critical", "it_reputation", "it_competitive", "it_deadline"]}
+{"id": "xl_activities_0616", "attrs": ["it_creative_writing", "it_art_design", "it_sensory_rich", "it_open_ended_explore", "it_miniature_scale"]}
+{"id": "xl_activities_0617", "attrs": ["it_physical_world", "it_teaching", "it_analysis_data", "it_safety_critical", "it_vulnerable_user", "it_teaching_beginner"]}
+{"id": "xl_activities_0618", "attrs": ["it_code", "it_teaching", "it_group_audience", "it_teaching_beginner"]}
+{"id": "xl_activities_0619", "attrs": ["it_math_formal", "it_puzzle", "it_tight_constraints", "it_error_ridden"]}
+{"id": "xl_activities_0620", "attrs": ["it_conflict_mediation", "it_teaching", "it_group_audience"]}
+{"id": "xl_activities_0621", "attrs": ["it_creative_writing", "it_art_design"]}
+{"id": "xl_activities_0622", "attrs": ["it_creative_writing", "it_teaching", "it_art_design", "it_ordering_control", "it_initiative", "it_group_audience", "it_teaching_beginner"]}
+{"id": "xl_activities_0623", "attrs": ["it_creative_writing", "it_teaching", "it_art_design", "it_physical_world", "it_ordering_control", "it_optionality", "it_group_audience", "it_long_horizon"]}
+{"id": "xl_activities_0624", "attrs": ["it_teaching", "it_physical_world"]}
+{"id": "xl_activities_0625", "attrs": ["it_teaching", "it_physical_world", "it_sensory_rich", "it_initiative", "it_optionality", "it_help_one_person", "it_vulnerable_user", "it_teaching_beginner"]}
+{"id": "xl_activities_0626", "attrs": ["it_creative_writing"]}
+{"id": "xl_activities_0627", "attrs": ["it_creative_writing", "it_art_design"]}
+{"id": "xl_activities_0628", "attrs": ["it_art_design", "it_physical_world"]}
+{"id": "xl_activities_0629", "attrs": ["it_creative_writing", "it_art_design"]}
+{"id": "xl_activities_0630", "attrs": ["it_teaching", "it_group_audience", "it_vulnerable_user", "it_teaching_beginner"]}
+{"id": "xl_activities_0631", "attrs": ["it_admin_clerical", "it_group_audience", "it_teaching", "it_curation", "it_ordering_control", "it_delegation", "it_confidential", "it_resource_scarcity"]}
+{"id": "xl_activities_0632", "attrs": ["it_creative_writing", "it_analysis_data", "it_science", "it_teaching"]}
+{"id": "xl_activities_0633", "attrs": ["it_code", "it_teaching", "it_analysis_data", "it_emotional_support", "it_sensory_rich", "it_ordering_control", "it_group_audience", "it_vulnerable_user", "it_proper_name", "it_technical_jargon", "it_long_phrase"]}
+{"id": "xl_activities_0634", "attrs": ["it_code", "it_translation_language", "it_teaching", "it_curation"]}
+{"id": "xl_activities_0635", "attrs": ["it_creative_writing", "it_art_design", "it_physical_world", "it_sensory_rich", "it_group_audience"]}
+{"id": "xl_activities_0636", "attrs": ["it_art_design", "it_teaching", "it_creative_writing", "it_ordering_control", "it_choose_method", "it_sensory_rich"]}
+{"id": "xl_activities_0637", "attrs": ["it_creative_writing", "it_teaching", "it_art_design", "it_group_audience"]}
+{"id": "xl_activities_0638", "attrs": ["it_teaching", "it_physical_world", "it_curation", "it_ordering_control", "it_group_audience"]}
+{"id": "xl_activities_0639", "attrs": ["it_art_design", "it_creative_writing", "it_admin_clerical", "it_reputation", "it_charity_benefit", "it_competitive", "it_long_horizon"]}
+{"id": "xl_activities_0640", "attrs": ["it_art_design", "it_teaching", "it_group_audience", "it_collab_human_expert", "it_curation"]}
+{"id": "xl_activities_0641", "attrs": ["it_creative_writing", "it_teaching", "it_analysis_data", "it_translation_language", "it_art_design", "it_sensory_rich", "it_ordering_control", "it_charity_benefit", "it_group_audience", "it_proper_name", "it_technical_jargon", "it_question_form", "it_long_phrase", "it_realtime"]}
+{"id": "xl_activities_0642", "attrs": ["it_physical_world"]}
+{"id": "xl_activities_0643", "attrs": ["it_curation", "it_teaching", "it_admin_clerical", "it_group_audience", "it_vulnerable_user", "it_long_horizon"]}
+{"id": "xl_activities_0644", "attrs": ["it_creative_writing", "it_art_design", "it_vulnerable_user", "it_miniature_scale"]}
+{"id": "xl_activities_0645", "attrs": ["it_art_design", "it_physical_world", "it_creative_writing", "it_teaching", "it_visible_progress"]}
+{"id": "xl_activities_0646", "attrs": ["it_science", "it_teaching", "it_creative_writing", "it_art_design", "it_physical_world"]}
+{"id": "xl_activities_0647", "attrs": ["it_creative_writing", "it_teaching", "it_sensory_rich", "it_own_memory", "it_reputation", "it_charity_benefit", "it_group_audience", "it_vulnerable_user", "it_teaching_beginner", "it_proper_name", "it_technical_jargon", "it_long_phrase"]}
+{"id": "xl_activities_0648", "attrs": ["it_analysis_data", "it_math_formal", "it_tight_constraints", "it_error_ridden"]}
+{"id": "xl_activities_0649", "attrs": ["it_teaching", "it_admin_clerical", "it_analysis_data"]}
+{"id": "xl_activities_0650", "attrs": ["it_translation_language", "it_admin_clerical"]}
+{"id": "xl_activities_0651", "attrs": ["it_analysis_data", "it_safety_critical", "it_technical_jargon"]}
+{"id": "xl_activities_0652", "attrs": ["it_art_design", "it_code", "it_teaching", "it_physical_world", "it_repetition", "it_tight_constraints", "it_ordering_control", "it_resource_scarcity"]}
+{"id": "xl_activities_0653", "attrs": ["it_code", "it_analysis_data", "it_math_formal", "it_science", "it_teaching", "it_translation_language", "it_technical_jargon"]}
+{"id": "xl_activities_0654", "attrs": ["it_conflict_mediation", "it_teaching", "it_group_audience"]}
+{"id": "xl_activities_0655", "attrs": ["it_analysis_data", "it_admin_clerical", "it_long_horizon", "it_list_structure"]}
+{"id": "xl_activities_0656", "attrs": ["it_analysis_data", "it_verification", "it_admin_clerical"]}
+{"id": "xl_activities_0657", "attrs": ["it_creative_writing", "it_science", "it_teaching", "it_novelty"]}
+{"id": "xl_activities_0658", "attrs": ["it_verification", "it_code", "it_translation_language", "it_long_horizon"]}
+{"id": "xl_activities_0659", "attrs": ["it_code", "it_math_formal", "it_science", "it_tight_constraints", "it_delegation", "it_ordering_control", "it_reputation", "it_competitive", "it_resource_scarcity", "it_long_horizon"]}
+{"id": "xl_activities_0660", "attrs": ["it_teaching", "it_creative_writing", "it_group_audience", "it_open_ended_explore"]}
+{"id": "xl_activities_0661", "attrs": ["it_translation_language", "it_analysis_data", "it_emotional_support", "it_admin_clerical"]}
+{"id": "xl_activities_0662", "attrs": ["it_code", "it_analysis_data", "it_math_formal", "it_science"]}
+{"id": "xl_activities_0663", "attrs": ["it_creative_writing", "it_science", "it_teaching", "it_translation_language", "it_art_design", "it_novelty", "it_sensory_rich", "it_optionality", "it_charity_benefit", "it_adversarial_user", "it_vulnerable_user", "it_teaching_beginner", "it_proper_name", "it_technical_jargon", "it_long_phrase", "it_counterfactual", "it_archaic"]}
+{"id": "xl_activities_0664", "attrs": ["it_admin_clerical", "it_group_audience", "it_teaching", "it_curation", "it_ordering_control", "it_delegation", "it_reputation", "it_competitive", "it_charity_benefit", "it_collab_human_expert", "it_long_horizon"]}
+{"id": "xl_activities_0665", "attrs": ["it_analysis_data", "it_list_structure", "it_teaching", "it_curation"]}
+{"id": "xl_activities_0666", "attrs": ["it_code", "it_creative_writing", "it_analysis_data", "it_translation_language", "it_art_design", "it_science", "it_physical_world", "it_sensory_rich", "it_ordering_control", "it_curation", "it_long_horizon", "it_vast_scale"]}
+{"id": "xl_activities_0667", "attrs": ["it_creative_writing", "it_analysis_data", "it_teaching", "it_group_audience", "it_charity_benefit", "it_collab_human_expert", "it_list_structure"]}
+{"id": "xl_activities_0668", "attrs": ["it_translation_language", "it_science", "it_teaching", "it_archaic"]}
+{"id": "xl_activities_0669", "attrs": ["it_analysis_data", "it_science", "it_teaching", "it_repetition", "it_tight_constraints", "it_physical_world"]}
+{"id": "xl_activities_0670", "attrs": ["it_creative_writing", "it_art_design", "it_physical_world", "it_sensory_rich", "it_optionality", "it_group_audience", "it_vulnerable_user", "it_long_horizon"]}
+{"id": "xl_activities_0671", "attrs": ["it_code", "it_creative_writing", "it_science", "it_art_design", "it_teaching", "it_novelty", "it_visible_progress", "it_repetition", "it_ordering_control", "it_delegation", "it_optionality", "it_high_stakes_person", "it_resource_scarcity", "it_group_audience", "it_collab_human_expert", "it_teaching_beginner", "it_counterfactual", "it_miniature_scale"]}
+{"id": "xl_activities_0672", "attrs": ["it_creative_writing", "it_teaching", "it_art_design", "it_vulnerable_user", "it_teaching_beginner"]}
+{"id": "xl_activities_0673", "attrs": ["it_science", "it_art_design", "it_tight_constraints", "it_physical_world", "it_reputation", "it_technical_jargon"]}
+{"id": "xl_activities_0674", "attrs": ["it_translation_language", "it_creative_writing"]}
+{"id": "xl_activities_0675", "attrs": ["it_translation_language", "it_teaching", "it_group_audience"]}
+{"id": "xl_activities_0676", "attrs": ["it_code", "it_teaching", "it_analysis_data", "it_art_design", "it_science", "it_visible_progress", "it_curation", "it_ordering_control", "it_repetition", "it_sensory_rich", "it_group_audience", "it_help_one_person", "it_teaching_beginner", "it_long_horizon"]}
+{"id": "xl_activities_0677", "attrs": ["it_analysis_data", "it_code", "it_teaching", "it_admin_clerical"]}
+{"id": "xl_activities_0678", "attrs": ["it_code", "it_analysis_data", "it_teaching", "it_admin_clerical", "it_physical_world", "it_repetition", "it_ordering_control", "it_initiative", "it_optionality", "it_resource_scarcity", "it_group_audience", "it_technical_jargon", "it_counterfactual"]}
+{"id": "xl_activities_0679", "attrs": ["it_creative_writing", "it_analysis_data", "it_teaching", "it_sensory_rich", "it_long_horizon", "it_vulnerable_user", "it_proper_name", "it_technical_jargon"]}
+{"id": "xl_activities_0680", "attrs": ["it_charity_benefit", "it_group_audience", "it_admin_clerical", "it_teaching", "it_curation", "it_ordering_control", "it_optionality"]}
+{"id": "xl_activities_0681", "attrs": ["it_analysis_data", "it_list_structure", "it_science"]}
+{"id": "xl_activities_0682", "attrs": ["it_science", "it_code", "it_analysis_data"]}
+{"id": "xl_activities_0683", "attrs": ["it_science", "it_art_design", "it_analysis_data", "it_teaching", "it_physical_world", "it_novelty", "it_visible_progress", "it_open_ended_explore", "it_ordering_control", "it_resource_scarcity"]}
+{"id": "xl_activities_0684", "attrs": ["it_code", "it_admin_clerical", "it_teaching", "it_repetition", "it_ordering_control", "it_initiative", "it_resource_scarcity"]}
+{"id": "xl_activities_0685", "attrs": ["it_creative_writing", "it_art_design", "it_collab_human_expert", "it_vulnerable_user", "it_teaching_beginner", "it_sensory_rich", "it_optionality", "it_charity_benefit"]}
+{"id": "xl_activities_0686", "attrs": ["it_translation_language", "it_creative_writing"]}
+{"id": "xl_activities_0687", "attrs": ["it_teaching", "it_group_audience"]}
+{"id": "xl_activities_0688", "attrs": ["it_science", "it_analysis_data", "it_teaching", "it_creative_writing", "it_admin_clerical"]}
+{"id": "xl_activities_0689", "attrs": ["it_code", "it_teaching", "it_admin_clerical", "it_repetition", "it_ordering_control", "it_realtime", "it_help_one_person", "it_group_audience"]}
+{"id": "xl_activities_0690", "attrs": ["it_teaching", "it_analysis_data", "it_creative_writing", "it_visible_progress", "it_open_ended_explore", "it_teaching_beginner"]}
+{"id": "xl_activities_0691", "attrs": ["it_curation", "it_group_audience", "it_teaching", "it_analysis_data", "it_long_horizon"]}
+{"id": "xl_activities_0692", "attrs": ["it_art_design", "it_teaching", "it_physical_world", "it_visible_progress"]}
+{"id": "xl_activities_0693", "attrs": ["it_teaching", "it_analysis_data", "it_translation_language", "it_technical_jargon"]}
+{"id": "xl_activities_0694", "attrs": ["it_translation_language", "it_archaic", "it_sensory_rich", "it_teaching", "it_analysis_data", "it_creative_writing"]}
+{"id": "xl_activities_0695", "attrs": ["it_teaching", "it_physical_world", "it_group_audience"]}
+{"id": "xl_activities_0696", "attrs": ["it_admin_clerical", "it_analysis_data", "it_teaching", "it_vulnerable_user", "it_help_one_person"]}
+{"id": "xl_activities_0697", "attrs": ["it_conflict_mediation", "it_group_audience", "it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_reputation", "it_charity_benefit", "it_collab_human_expert"]}
+{"id": "xl_activities_0698", "attrs": ["it_translation_language", "it_creative_writing"]}
+{"id": "xl_activities_0699", "attrs": ["it_teaching", "it_translation_language", "it_emotional_support", "it_sensory_rich", "it_grateful_recipient", "it_vulnerable_user", "it_help_one_person"]}
+{"id": "xl_activities_0700", "attrs": ["it_teaching", "it_creative_writing", "it_analysis_data", "it_emotional_support", "it_physical_world", "it_vulnerable_user", "it_teaching_beginner"]}
+{"id": "xl_activities_0701", "attrs": ["it_creative_writing", "it_teaching"]}
+{"id": "xl_activities_0702", "attrs": ["it_conflict_mediation", "it_teaching", "it_emotional_support"]}
+{"id": "xl_activities_0703", "attrs": ["it_high_stakes_person", "it_reputation", "it_competitive", "it_adversarial_user"]}
+{"id": "xl_activities_0704", "attrs": ["it_art_design", "it_creative_writing", "it_group_audience", "it_charity_benefit"]}
+{"id": "xl_activities_0705", "attrs": ["it_art_design", "it_curation", "it_teaching"]}
+{"id": "xl_activities_0706", "attrs": ["it_code", "it_teaching", "it_analysis_data", "it_translation_language", "it_admin_clerical", "it_tight_constraints", "it_verification", "it_delegation", "it_confidential", "it_help_one_person", "it_proper_name", "it_technical_jargon", "it_long_phrase"]}
+{"id": "xl_activities_0707", "attrs": null}
+{"id": "xl_activities_0708", "attrs": ["it_teaching", "it_analysis_data", "it_mastery", "it_visible_progress", "it_open_ended_explore", "it_ordering_control", "it_initiative", "it_high_stakes_person", "it_charity_benefit", "it_vulnerable_user", "it_teaching_beginner"]}
+{"id": "xl_activities_0709", "attrs": ["it_analysis_data", "it_admin_clerical", "it_physical_world", "it_teaching", "it_repetition", "it_ordering_control", "it_initiative", "it_resource_scarcity"]}
+{"id": "xl_activities_0710", "attrs": ["it_translation_language", "it_science", "it_teaching"]}
+{"id": "xl_activities_0711", "attrs": ["it_conflict_mediation", "it_group_audience"]}
+{"id": "xl_activities_0712", "attrs": ["it_creative_writing", "it_teaching", "it_translation_language", "it_analysis_data", "it_proper_name", "it_technical_jargon", "it_long_phrase"]}
+{"id": "xl_activities_0713", "attrs": ["it_curation", "it_teaching", "it_physical_world", "it_analysis_data"]}
+{"id": "xl_activities_0714", "attrs": ["it_creative_writing", "it_analysis_data", "it_teaching", "it_art_design", "it_physical_world", "it_charity_benefit", "it_group_audience", "it_vulnerable_user", "it_teaching_beginner", "it_list_structure"]}
+{"id": "xl_activities_0715", "attrs": ["it_question_form", "it_short_phrase"]}
+{"id": "xl_activities_0716", "attrs": ["it_analysis_data", "it_teaching", "it_physical_world", "it_initiative", "it_optionality", "it_help_one_person", "it_teaching_beginner"]}
+{"id": "xl_activities_0717", "attrs": ["it_code", "it_analysis_data", "it_tight_constraints"]}
+{"id": "xl_activities_0718", "attrs": ["it_translation_language", "it_creative_writing"]}
+{"id": "xl_activities_0719", "attrs": ["it_analysis_data", "it_teaching", "it_creative_writing", "it_repetition", "it_ordering_control", "it_optionality", "it_group_audience", "it_adversarial_user"]}
+{"id": "xl_activities_0720", "attrs": ["it_science", "it_analysis_data", "it_teaching", "it_curation"]}
+{"id": "xl_activities_0721", "attrs": ["it_analysis_data", "it_science", "it_tight_constraints", "it_repetition", "it_sensory_rich", "it_ordering_control", "it_resource_scarcity", "it_group_audience"]}
+{"id": "xl_activities_0722", "attrs": ["it_art_design", "it_creative_writing", "it_teaching", "it_novelty", "it_visible_progress", "it_delegation", "it_optionality", "it_charity_benefit", "it_group_audience"]}
+{"id": "xl_activities_0723", "attrs": ["it_creative_writing", "it_physical_world", "it_teaching", "it_novelty", "it_visible_progress", "it_optionality"]}
+{"id": "xl_activities_0724", "attrs": ["it_admin_clerical", "it_art_design", "it_ordering_control", "it_optionality", "it_sensory_rich"]}
+{"id": "xl_activities_0725", "attrs": ["it_code", "it_teaching", "it_creative_writing", "it_art_design"]}
+{"id": "xl_activities_0726", "attrs": ["it_analysis_data", "it_curation", "it_group_audience", "it_reputation", "it_competitive", "it_charity_benefit"]}
+{"id": "xl_activities_0727", "attrs": ["it_analysis_data", "it_admin_clerical"]}
+{"id": "xl_activities_0728", "attrs": ["it_code", "it_analysis_data", "it_math_formal", "it_admin_clerical", "it_tight_constraints", "it_optionality"]}
+{"id": "xl_activities_0729", "attrs": ["it_code", "it_analysis_data", "it_science", "it_art_design", "it_teaching", "it_creative_writing", "it_curation", "it_verification", "it_ordering_control", "it_delegation", "it_optionality", "it_high_stakes_person", "it_group_audience", "it_help_one_person", "it_teaching_beginner", "it_technical_jargon", "it_list_structure", "it_long_phrase", "it_realtime", "it_counterfactual"]}
+{"id": "xl_activities_0730", "attrs": ["it_curation", "it_art_design", "it_teaching", "it_visible_progress", "it_group_audience"]}
+{"id": "xl_activities_0731", "attrs": ["it_creative_writing"]}
+{"id": "xl_activities_0732", "attrs": ["it_creative_writing", "it_teaching", "it_group_audience"]}
+{"id": "xl_activities_0733", "attrs": ["it_analysis_data", "it_teaching", "it_code"]}
+{"id": "xl_activities_0734", "attrs": ["it_art_design", "it_science", "it_teaching", "it_analysis_data", "it_physical_world", "it_repetition", "it_ordering_control", "it_delegation", "it_optionality", "it_resource_scarcity", "it_group_audience", "it_collab_human_expert", "it_teaching_beginner", "it_list_structure"]}
+{"id": "xl_activities_0735", "attrs": ["it_teaching", "it_analysis_data", "it_science", "it_creative_writing"]}
+{"id": "xl_activities_0736", "attrs": ["it_analysis_data", "it_science", "it_physical_world"]}
+{"id": "xl_activities_0737", "attrs": ["it_code", "it_analysis_data", "it_science", "it_teaching", "it_admin_clerical", "it_sensory_rich", "it_optionality", "it_high_stakes_person", "it_reputation", "it_deadline"]}
+{"id": "xl_activities_0738", "attrs": ["it_teaching", "it_admin_clerical", "it_group_audience"]}
+{"id": "xl_activities_0739", "attrs": ["it_creative_writing", "it_teaching", "it_art_design", "it_vulnerable_user", "it_teaching_beginner"]}
+{"id": "xl_activities_0740", "attrs": ["it_analysis_data", "it_teaching", "it_admin_clerical", "it_physical_world", "it_novelty", "it_visible_progress", "it_ordering_control", "it_delegation", "it_resource_scarcity", "it_group_audience"]}
+{"id": "xl_activities_0741", "attrs": ["it_curation", "it_teaching", "it_physical_world", "it_list_structure"]}
+{"id": "xl_activities_0742", "attrs": ["it_creative_writing", "it_art_design", "it_group_audience", "it_physical_world", "it_repetition", "it_teaching", "it_verification", "it_long_horizon"]}
+{"id": "xl_activities_0743", "attrs": ["it_code", "it_teaching", "it_admin_clerical", "it_art_design", "it_verification", "it_ordering_control", "it_optionality", "it_resource_scarcity"]}
+{"id": "xl_activities_0744", "attrs": ["it_analysis_data", "it_teaching", "it_admin_clerical"]}
+{"id": "xl_activities_0745", "attrs": ["it_creative_writing", "it_teaching", "it_analysis_data", "it_visible_progress", "it_sensory_rich", "it_list_structure"]}
+{"id": "xl_activities_0746", "attrs": ["it_art_design", "it_physical_world", "it_teaching", "it_analysis_data", "it_repetition", "it_tight_constraints", "it_ordering_control", "it_resource_scarcity"]}
+{"id": "xl_activities_0747", "attrs": ["it_code", "it_creative_writing", "it_teaching", "it_art_design", "it_group_audience"]}
+{"id": "xl_activities_0748", "attrs": ["it_analysis_data", "it_teaching", "it_admin_clerical"]}
+{"id": "xl_activities_0749", "attrs": ["it_code", "it_analysis_data", "it_math_formal", "it_science", "it_teaching", "it_creative_writing"]}
+{"id": "xl_activities_0750", "attrs": ["it_analysis_data", "it_teaching", "it_creative_writing"]}
+{"id": "xl_activities_0751", "attrs": ["it_analysis_data", "it_teaching", "it_admin_clerical", "it_ordering_control", "it_list_structure", "it_long_horizon"]}
+{"id": "xl_activities_0752", "attrs": ["it_analysis_data", "it_teaching", "it_creative_writing", "it_code", "it_math_formal"]}
+{"id": "xl_activities_0753", "attrs": ["it_analysis_data", "it_teaching"]}
+{"id": "xl_activities_0754", "attrs": ["it_art_design", "it_teaching", "it_analysis_data", "it_creative_writing", "it_admin_clerical", "it_physical_world", "it_visible_progress", "it_optionality"]}
+{"id": "xl_activities_0755", "attrs": ["it_code", "it_teaching", "it_physical_world", "it_sensory_rich", "it_ordering_control", "it_reputation", "it_technical_jargon", "it_list_structure"]}
+{"id": "xl_activities_0756", "attrs": ["it_analysis_data", "it_teaching", "it_creative_writing"]}
+{"id": "xl_activities_0757", "attrs": ["it_creative_writing", "it_art_design", "it_teaching", "it_list_structure", "it_group_audience"]}
+{"id": "xl_activities_0758", "attrs": ["it_creative_writing", "it_teaching", "it_charity_benefit"]}
+{"id": "xl_activities_0759", "attrs": ["it_admin_clerical", "it_art_design", "it_group_audience", "it_long_horizon", "it_list_structure"]}
+{"id": "xl_activities_0760", "attrs": ["it_code", "it_teaching", "it_analysis_data", "it_math_formal", "it_creative_writing", "it_teaching_beginner"]}
+{"id": "xl_activities_0761", "attrs": ["it_analysis_data", "it_science", "it_teaching"]}
+{"id": "xl_activities_0762", "attrs": ["it_creative_writing", "it_art_design", "it_sensory_rich"]}
+{"id": "xl_activities_0763", "attrs": ["it_code", "it_math_formal", "it_teaching", "it_analysis_data", "it_repetition", "it_visible_progress"]}
+{"id": "xl_activities_0764", "attrs": ["it_teaching", "it_curation", "it_repetition", "it_ordering_control", "it_initiative", "it_charity_benefit", "it_grateful_recipient", "it_vulnerable_user", "it_short_phrase"]}
+{"id": "xl_activities_0765", "attrs": ["it_physical_world", "it_teaching", "it_repetition"]}
+{"id": "xl_activities_0766", "attrs": ["it_curation"]}
+{"id": "xl_activities_0767", "attrs": ["it_translation_language", "it_creative_writing"]}
+{"id": "xl_activities_0768", "attrs": ["it_art_design", "it_creative_writing"]}
+{"id": "xl_activities_0769", "attrs": ["it_analysis_data", "it_teaching", "it_sensory_rich", "it_curation", "it_verification", "it_group_audience", "it_technical_jargon", "it_long_phrase"]}
+{"id": "xl_activities_0770", "attrs": ["it_analysis_data", "it_creative_writing", "it_teaching"]}
+{"id": "xl_activities_0771", "attrs": ["it_teaching", "it_science", "it_physical_world", "it_teaching_beginner"]}
+{"id": "xl_activities_0772", "attrs": ["it_charity_benefit", "it_group_audience", "it_teaching", "it_admin_clerical", "it_initiative", "it_repetition", "it_ordering_control", "it_delegation"]}
+{"id": "xl_activities_0773", "attrs": ["it_physical_world", "it_analysis_data", "it_teaching", "it_creative_writing", "it_sensory_rich", "it_ordering_control", "it_optionality", "it_vast_scale"]}
+{"id": "xl_activities_0774", "attrs": ["it_analysis_data", "it_teaching", "it_philosophy_abstract", "it_repetition", "it_open_ended_explore", "it_curation", "it_ordering_control", "it_group_audience"]}
+{"id": "xl_activities_0775", "attrs": ["it_analysis_data", "it_science", "it_physical_world"]}
+{"id": "xl_activities_0776", "attrs": ["it_physical_world", "it_art_design", "it_teaching", "it_repetition", "it_visible_progress", "it_sensory_rich", "it_ordering_control", "it_conflict_mediation", "it_proper_name", "it_counterfactual", "it_miniature_scale"]}
+{"id": "xl_activities_0777", "attrs": ["it_analysis_data", "it_teaching", "it_collab_human_expert", "it_group_audience"]}
+{"id": "xl_activities_0778", "attrs": ["it_teaching", "it_analysis_data", "it_science", "it_group_audience", "it_collab_human_expert", "it_vulnerable_user", "it_teaching_beginner"]}
+{"id": "xl_activities_0779", "attrs": ["it_creative_writing", "it_art_design"]}
+{"id": "xl_activities_0780", "attrs": ["it_analysis_data", "it_art_design"]}
+{"id": "xl_activities_0781", "attrs": ["it_curation", "it_art_design", "it_analysis_data", "it_teaching", "it_long_horizon"]}
+{"id": "xl_activities_0782", "attrs": ["it_analysis_data", "it_science", "it_long_horizon"]}
+{"id": "xl_activities_0783", "attrs": ["it_creative_writing", "it_art_design", "it_collab_ai", "it_teaching", "it_novelty", "it_mastery", "it_visible_progress", "it_open_ended_explore"]}
+{"id": "xl_activities_0784", "attrs": ["it_translation_language", "it_archaic", "it_sensory_rich"]}
+{"id": "xl_activities_0785", "attrs": ["it_teaching", "it_science", "it_art_design", "it_visible_progress", "it_curation", "it_ordering_control", "it_group_audience", "it_long_horizon"]}
+{"id": "xl_activities_0786", "attrs": ["it_analysis_data", "it_teaching", "it_math_formal", "it_admin_clerical", "it_high_stakes_person", "it_reputation", "it_competitive", "it_charity_benefit", "it_technical_jargon", "it_list_structure"]}
+{"id": "xl_activities_0787", "attrs": ["it_admin_clerical", "it_group_audience", "it_collab_human_expert", "it_teaching", "it_ordering_control", "it_recurring_daily"]}
+{"id": "xl_activities_0788", "attrs": ["it_code", "it_teaching", "it_group_audience"]}
+{"id": "xl_activities_0789", "attrs": ["it_creative_writing", "it_science", "it_vast_scale"]}
+{"id": "xl_activities_0790", "attrs": ["it_code", "it_analysis_data", "it_science", "it_math_formal"]}
+{"id": "xl_activities_0791", "attrs": ["it_science", "it_analysis_data", "it_teaching", "it_creative_writing", "it_art_design", "it_tight_constraints", "it_ordering_control", "it_delegation", "it_group_audience"]}
+{"id": "xl_activities_0792", "attrs": ["it_art_design", "it_science", "it_teaching", "it_analysis_data", "it_emotional_support", "it_reputation", "it_charity_benefit", "it_vulnerable_user", "it_teaching_beginner", "it_group_audience"]}
+{"id": "xl_activities_0793", "attrs": ["it_art_design", "it_analysis_data", "it_creative_writing"]}
+{"id": "xl_activities_0794", "attrs": ["it_analysis_data", "it_science", "it_teaching"]}
+{"id": "xl_activities_0795", "attrs": ["it_code", "it_analysis_data", "it_curation", "it_teaching", "it_repetition", "it_ordering_control", "it_resource_scarcity"]}
+{"id": "xl_activities_0796", "attrs": ["it_creative_writing", "it_art_design", "it_teaching", "it_emotional_support", "it_novelty", "it_open_ended_explore", "it_sensory_rich", "it_optionality"]}
+{"id": "xl_activities_0797", "attrs": ["it_analysis_data"]}
+{"id": "xl_activities_0798", "attrs": ["it_art_design", "it_curation", "it_group_audience", "it_reputation"]}
+{"id": "xl_activities_0799", "attrs": ["it_analysis_data", "it_math_formal", "it_science", "it_admin_clerical", "it_teaching", "it_curation", "it_ordering_control", "it_optionality", "it_group_audience", "it_technical_jargon", "it_long_horizon"]}
+{"id": "xl_activities_0800", "attrs": ["it_translation_language", "it_admin_clerical", "it_archaic", "it_proper_name", "it_teaching"]}
+{"id": "xl_activities_0801", "attrs": ["it_charity_benefit", "it_group_audience", "it_admin_clerical", "it_teaching", "it_curation", "it_ordering_control", "it_delegation", "it_resource_scarcity"]}
+{"id": "xl_activities_0802", "attrs": ["it_creative_writing", "it_art_design", "it_science", "it_teaching", "it_physical_world", "it_curation", "it_group_audience"]}
+{"id": "xl_activities_0803", "attrs": ["it_teaching", "it_translation_language"]}
+{"id": "xl_activities_0804", "attrs": ["it_physical_world"]}
+{"id": "xl_activities_0805", "attrs": ["it_teaching", "it_admin_clerical", "it_analysis_data", "it_code", "it_math_formal", "it_science", "it_tight_constraints", "it_ordering_control"]}
+{"id": "xl_activities_0806", "attrs": ["it_art_design", "it_creative_writing", "it_teaching", "it_physical_world", "it_sensory_rich", "it_ordering_control", "it_optionality", "it_group_audience"]}
+{"id": "xl_activities_0807", "attrs": ["it_creative_writing", "it_teaching", "it_analysis_data", "it_art_design", "it_novelty", "it_open_ended_explore", "it_sensory_rich", "it_optionality"]}
+{"id": "xl_activities_0808", "attrs": ["it_science", "it_analysis_data", "it_teaching", "it_physical_world"]}
+{"id": "xl_activities_0809", "attrs": ["it_translation_language", "it_creative_writing"]}
+{"id": "xl_activities_0810", "attrs": ["it_code", "it_analysis_data", "it_science", "it_art_design", "it_teaching", "it_long_horizon", "it_list_structure"]}
+{"id": "xl_activities_0811", "attrs": ["it_teaching", "it_physical_world", "it_group_audience", "it_charity_benefit", "it_vulnerable_user", "it_teaching_beginner"]}
+{"id": "xl_activities_0812", "attrs": ["it_physical_world", "it_teaching", "it_recurring_daily"]}
+{"id": "xl_activities_0813", "attrs": ["it_creative_writing", "it_emotional_support", "it_analysis_data", "it_sensory_rich", "it_long_horizon"]}
+{"id": "xl_activities_0814", "attrs": ["it_science", "it_teaching", "it_analysis_data", "it_math_formal", "it_art_design", "it_physical_world", "it_repetition", "it_tight_constraints", "it_error_ridden", "it_verification", "it_ordering_control", "it_resource_scarcity"]}
+{"id": "xl_activities_0815", "attrs": ["it_teaching", "it_curation", "it_group_audience", "it_long_horizon", "it_recurring_daily", "it_admin_clerical", "it_conflict_mediation", "it_proper_name"]}
+{"id": "xl_activities_0816", "attrs": ["it_analysis_data", "it_creative_writing", "it_teaching", "it_group_audience", "it_charity_benefit"]}
+{"id": "xl_activities_0817", "attrs": ["it_teaching", "it_analysis_data", "it_creative_writing", "it_sensory_rich", "it_optionality", "it_group_audience"]}
+{"id": "xl_activities_0818", "attrs": ["it_creative_writing", "it_analysis_data", "it_teaching", "it_art_design", "it_group_audience"]}
+{"id": "xl_activities_0819", "attrs": ["it_teaching", "it_creative_writing", "it_analysis_data", "it_science", "it_physical_world", "it_ordering_control", "it_initiative", "it_group_audience"]}
+{"id": "xl_activities_0820", "attrs": ["it_translation_language", "it_creative_writing"]}
+{"id": "xl_activities_0821", "attrs": ["it_creative_writing", "it_translation_language", "it_archaic", "it_rare_domain"]}
+{"id": "xl_activities_0822", "attrs": ["it_science", "it_teaching", "it_analysis_data", "it_physical_world", "it_curation", "it_visible_progress", "it_repetition", "it_ordering_control"]}
+{"id": "xl_activities_0823", "attrs": ["it_teaching", "it_physical_world", "it_creative_writing", "it_art_design"]}
+{"id": "xl_activities_0824", "attrs": ["it_teaching", "it_admin_clerical", "it_safety_critical", "it_group_audience"]}
+{"id": "xl_activities_0825", "attrs": ["it_analysis_data", "it_science", "it_teaching", "it_curation"]}
+{"id": "xl_activities_0826", "attrs": ["it_math_formal", "it_science", "it_teaching", "it_analysis_data", "it_repetition", "it_tight_constraints", "it_ordering_control", "it_resource_scarcity"]}
+{"id": "xl_activities_0827", "attrs": ["it_analysis_data", "it_science", "it_teaching", "it_math_formal"]}
+{"id": "xl_activities_0828", "attrs": ["it_translation_language", "it_archaic", "it_sensory_rich", "it_teaching", "it_analysis_data", "it_repetition", "it_tight_constraints", "it_error_ridden"]}
+{"id": "xl_activities_0829", "attrs": ["it_curation", "it_science", "it_rare_domain"]}
+{"id": "xl_activities_0830", "attrs": ["it_analysis_data", "it_science", "it_long_horizon"]}
+{"id": "xl_activities_0831", "attrs": ["it_analysis_data", "it_science", "it_teaching", "it_admin_clerical", "it_reputation", "it_safety_critical", "it_resource_scarcity"]}
+{"id": "xl_activities_0832", "attrs": ["it_art_design", "it_science", "it_teaching", "it_analysis_data", "it_physical_world", "it_repetition", "it_ordering_control", "it_delegation", "it_forced_tool", "it_resource_scarcity", "it_group_audience", "it_collab_human_expert", "it_teaching_beginner", "it_list_structure", "it_technical_jargon", "it_counterfactual", "it_miniature_scale"]}
+{"id": "xl_activities_0833", "attrs": ["it_analysis_data", "it_physical_world", "it_teaching", "it_math_formal", "it_ordering_control", "it_delegation", "it_reputation", "it_group_audience"]}
+{"id": "xl_activities_0834", "attrs": ["it_creative_writing", "it_analysis_data", "it_science", "it_teaching"]}
+{"id": "xl_activities_0835", "attrs": ["it_analysis_data", "it_science", "it_teaching"]}
+{"id": "xl_activities_0836", "attrs": ["it_analysis_data", "it_teaching", "it_science", "it_art_design", "it_admin_clerical", "it_physical_world", "it_curation", "it_verification", "it_ordering_control", "it_delegation", "it_optionality", "it_group_audience", "it_technical_jargon", "it_long_horizon"]}
+{"id": "xl_activities_0837", "attrs": ["it_teaching", "it_translation_language", "it_creative_writing", "it_analysis_data", "it_admin_clerical"]}
+{"id": "xl_activities_0838", "attrs": ["it_art_design", "it_science", "it_physical_world", "it_teaching", "it_analysis_data"]}
+{"id": "xl_activities_0839", "attrs": ["it_analysis_data", "it_science", "it_teaching"]}
+{"id": "xl_activities_0840", "attrs": ["it_physical_world", "it_science", "it_realtime", "it_tight_constraints", "it_safety_critical", "it_vast_scale"]}
+{"id": "xl_activities_0841", "attrs": ["it_math_formal", "it_science", "it_code", "it_tight_constraints", "it_reputation", "it_confidential", "it_technical_jargon"]}
+{"id": "xl_activities_0842", "attrs": ["it_art_design", "it_science", "it_teaching", "it_visible_progress"]}
+{"id": "xl_activities_0843", "attrs": ["it_art_design", "it_science", "it_teaching", "it_analysis_data", "it_visible_progress", "it_repetition", "it_tight_constraints", "it_ordering_control", "it_resource_scarcity"]}
+{"id": "xl_activities_0844", "attrs": ["it_science", "it_analysis_data", "it_teaching", "it_long_horizon"]}
+{"id": "xl_activities_0845", "attrs": ["it_code", "it_analysis_data", "it_math_formal", "it_science", "it_tight_constraints", "it_error_ridden", "it_optionality", "it_reputation", "it_resource_scarcity"]}
+{"id": "xl_activities_0846", "attrs": ["it_analysis_data"]}
+{"id": "xl_activities_0847", "attrs": ["it_analysis_data", "it_teaching", "it_admin_clerical", "it_long_horizon", "it_repetition", "it_tight_constraints", "it_verification", "it_sensory_rich"]}
+{"id": "xl_activities_0848", "attrs": ["it_analysis_data", "it_science"]}
+{"id": "xl_activities_0849", "attrs": ["it_code", "it_math_formal", "it_science", "it_analysis_data", "it_tight_constraints", "it_mastery", "it_ordering_control", "it_resource_scarcity"]}
+{"id": "xl_activities_0850", "attrs": ["it_analysis_data", "it_teaching", "it_science", "it_creative_writing", "it_visible_progress", "it_ordering_control", "it_group_audience", "it_charity_benefit"]}
+{"id": "xl_activities_0851", "attrs": ["it_code", "it_science", "it_teaching", "it_analysis_data", "it_art_design", "it_confidential", "it_resource_scarcity"]}
+{"id": "xl_activities_0852", "attrs": ["it_analysis_data", "it_science"]}
+{"id": "xl_activities_0853", "attrs": ["it_science", "it_art_design", "it_teaching", "it_analysis_data", "it_novelty", "it_mastery", "it_visible_progress", "it_physical_world", "it_repetition", "it_tight_constraints", "it_error_ridden", "it_open_ended_explore", "it_curation", "it_verification", "it_ordering_control", "it_initiative", "it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_resource_scarcity", "it_group_audience", "it_collab_human_expert", "it_teaching_beginner", "it_technical_jargon", "it_long_horizon"]}
+{"id": "xl_activities_0854", "attrs": ["it_analysis_data", "it_teaching", "it_science"]}
+{"id": "xl_activities_0855", "attrs": ["it_analysis_data", "it_science", "it_teaching", "it_long_horizon"]}
+{"id": "xl_activities_0856", "attrs": ["it_analysis_data", "it_science"]}
+{"id": "xl_activities_0857", "attrs": ["it_science", "it_art_design", "it_teaching", "it_analysis_data", "it_physical_world", "it_novelty", "it_visible_progress", "it_ordering_control", "it_delegation", "it_reputation", "it_competitive", "it_charity_benefit", "it_collab_human_expert", "it_vast_scale"]}
+{"id": "xl_activities_0858", "attrs": ["it_analysis_data", "it_teaching", "it_science", "it_creative_writing", "it_visible_progress", "it_novelty", "it_group_audience", "it_charity_benefit"]}
+{"id": "xl_activities_0859", "attrs": ["it_analysis_data", "it_science", "it_teaching"]}
+{"id": "xl_activities_0860", "attrs": ["it_science", "it_analysis_data", "it_teaching", "it_physical_world", "it_reputation", "it_charity_benefit", "it_group_audience", "it_long_horizon"]}
+{"id": "xl_activities_0861", "attrs": ["it_analysis_data", "it_science", "it_teaching", "it_group_audience", "it_charity_benefit", "it_long_horizon"]}
+{"id": "xl_activities_0862", "attrs": ["it_science", "it_curation", "it_teaching", "it_physical_world"]}
+{"id": "xl_activities_0863", "attrs": ["it_creative_writing", "it_translation_language", "it_art_design"]}
+{"id": "xl_activities_0864", "attrs": ["it_analysis_data", "it_science", "it_math_formal"]}
+{"id": "xl_activities_0865", "attrs": ["it_translation_language", "it_proper_name", "it_archaic"]}
+{"id": "xl_activities_0866", "attrs": ["it_analysis_data", "it_teaching", "it_admin_clerical"]}
+{"id": "xl_activities_0867", "attrs": ["it_curation", "it_admin_clerical", "it_teaching", "it_analysis_data", "it_ordering_control", "it_optionality"]}
+{"id": "xl_activities_0868", "attrs": ["it_analysis_data", "it_teaching", "it_admin_clerical"]}
+{"id": "xl_activities_0869", "attrs": ["it_physical_world", "it_teaching", "it_ordering_control"]}
+{"id": "xl_activities_0870", "attrs": ["it_admin_clerical", "it_translation_language", "it_repetition", "it_micromanaged", "it_ordering_control", "it_optionality", "it_resource_scarcity"]}
+{"id": "xl_activities_0871", "attrs": ["it_analysis_data", "it_verification", "it_teaching", "it_repetition", "it_sensory_rich", "it_list_structure"]}
+{"id": "xl_activities_0872", "attrs": ["it_analysis_data", "it_curation", "it_technical_jargon"]}
+{"id": "xl_activities_0873", "attrs": ["it_translation_language"]}
+{"id": "xl_activities_0874", "attrs": ["it_creative_writing", "it_vast_scale"]}
+{"id": "xl_activities_0875", "attrs": ["it_curation", "it_list_structure", "it_teaching", "it_physical_world", "it_admin_clerical"]}
+{"id": "xl_activities_0876", "attrs": ["it_curation", "it_physical_world", "it_group_audience"]}
+{"id": "xl_activities_0877", "attrs": ["it_admin_clerical", "it_curation", "it_teaching", "it_visible_progress"]}
+{"id": "xl_activities_0878", "attrs": ["it_analysis_data", "it_teaching"]}
+{"id": "xl_activities_0879", "attrs": ["it_creative_writing", "it_art_design"]}
+{"id": "xl_activities_0880", "attrs": ["it_art_design", "it_curation", "it_physical_world", "it_group_audience"]}
+{"id": "xl_activities_0881", "attrs": ["it_art_design", "it_creative_writing", "it_teaching", "it_sensory_rich", "it_optionality", "it_charity_benefit", "it_group_audience"]}
+{"id": "xl_activities_0882", "attrs": ["it_teaching", "it_emotional_support", "it_optionality"]}
+{"id": "xl_activities_0883", "attrs": ["it_emotional_support", "it_question_form"]}
+{"id": "xl_activities_0884", "attrs": ["it_creative_writing", "it_emotional_support"]}
+{"id": "xl_activities_0885", "attrs": ["it_puzzle", "it_creative_writing", "it_code", "it_analysis_data", "it_teaching", "it_ordering_control", "it_choose_method", "it_sensory_rich"]}
+{"id": "xl_activities_0886", "attrs": ["it_analysis_data", "it_science", "it_teaching", "it_list_structure"]}
+{"id": "xl_activities_0887", "attrs": ["it_physical_world", "it_teaching", "it_analysis_data", "it_visible_progress", "it_delegation"]}
+{"id": "xl_activities_0888", "attrs": ["it_curation", "it_teaching", "it_analysis_data", "it_physical_world", "it_group_audience"]}
+{"id": "xl_activities_0889", "attrs": null}
+{"id": "xl_activities_0890", "attrs": ["it_analysis_data", "it_novelty"]}
+{"id": "xl_activities_0891", "attrs": ["it_admin_clerical", "it_analysis_data", "it_group_audience", "it_long_horizon"]}
+{"id": "xl_activities_0892", "attrs": ["it_teaching", "it_group_audience", "it_collab_human_expert", "it_teaching_beginner", "it_conflict_mediation"]}
+{"id": "xl_activities_0893", "attrs": ["it_analysis_data", "it_curation", "it_teaching", "it_tight_constraints", "it_ordering_control", "it_repetition", "it_sensory_rich", "it_technical_jargon"]}
+{"id": "xl_activities_0894", "attrs": ["it_teaching", "it_sensory_rich", "it_group_audience"]}
+{"id": "xl_activities_0895", "attrs": ["it_creative_writing", "it_admin_clerical", "it_teaching", "it_reputation", "it_competitive", "it_proper_name", "it_technical_jargon", "it_list_structure"]}
+{"id": "xl_activities_0896", "attrs": ["it_curation", "it_group_audience", "it_analysis_data"]}
+{"id": "xl_activities_0897", "attrs": ["it_teaching", "it_curation", "it_group_audience", "it_help_one_person", "it_vulnerable_user", "it_grateful_recipient", "it_long_horizon", "it_recurring_daily"]}
+{"id": "xl_activities_0898", "attrs": ["it_analysis_data", "it_teaching", "it_physical_world", "it_novelty", "it_visible_progress", "it_optionality", "it_help_one_person", "it_vulnerable_user"]}
+{"id": "xl_activities_0899", "attrs": ["it_teaching"]}
+{"id": "xl_activities_0900", "attrs": ["it_charity_benefit", "it_admin_clerical", "it_group_audience"]}
+{"id": "xl_activities_0901", "attrs": ["it_analysis_data", "it_math_formal", "it_teaching", "it_curation"]}
+{"id": "xl_activities_0902", "attrs": ["it_code", "it_creative_writing", "it_art_design", "it_teaching"]}
+{"id": "xl_activities_0903", "attrs": ["it_art_design", "it_teaching", "it_analysis_data", "it_creative_writing", "it_ordering_control", "it_choose_method", "it_visible_progress", "it_repetition"]}
+{"id": "xl_activities_0904", "attrs": ["it_creative_writing", "it_art_design", "it_analysis_data", "it_teaching"]}
+{"id": "xl_activities_0905", "attrs": ["it_teaching", "it_sensory_rich", "it_optionality", "it_charity_benefit", "it_adversarial_user", "it_vulnerable_user", "it_teaching_beginner", "it_list_structure"]}
+{"id": "xl_activities_0906", "attrs": ["it_creative_writing", "it_art_design"]}
+{"id": "xl_activities_0907", "attrs": ["it_analysis_data", "it_admin_clerical", "it_teaching", "it_long_horizon"]}
+{"id": "xl_activities_0908", "attrs": ["it_math_formal", "it_science", "it_admin_clerical", "it_tight_constraints", "it_repetition", "it_ordering_control", "it_resource_scarcity", "it_realtime"]}
+{"id": "xl_activities_0909", "attrs": ["it_translation_language", "it_archaic", "it_sensory_rich"]}
+{"id": "xl_activities_0910", "attrs": ["it_physical_world", "it_analysis_data", "it_teaching", "it_repetition", "it_visible_progress"]}
+{"id": "xl_activities_0911", "attrs": ["it_admin_clerical", "it_group_audience", "it_collab_human_expert", "it_tight_constraints", "it_ordering_control", "it_reputation", "it_resource_scarcity"]}
+{"id": "xl_activities_0912", "attrs": ["it_code", "it_teaching", "it_analysis_data", "it_math_formal", "it_admin_clerical", "it_physical_world", "it_verification", "it_ordering_control", "it_delegation", "it_optionality", "it_reputation", "it_competitive", "it_resource_scarcity", "it_group_audience", "it_collab_human_expert", "it_teaching_beginner", "it_deadline", "it_realtime"]}
+{"id": "xl_activities_0913", "attrs": ["it_analysis_data", "it_safety_critical", "it_repetition", "it_tight_constraints", "it_error_ridden"]}
+{"id": "xl_activities_0914", "attrs": ["it_creative_writing", "it_science", "it_art_design"]}
+{"id": "xl_activities_0915", "attrs": ["it_curation", "it_art_design", "it_teaching", "it_visible_progress"]}
+{"id": "xl_activities_0916", "attrs": ["it_art_design", "it_teaching", "it_physical_world", "it_repetition", "it_ordering_control", "it_delegation", "it_forced_tool", "it_high_stakes_person", "it_group_audience", "it_vulnerable_user", "it_teaching_beginner"]}
+{"id": "xl_activities_0917", "attrs": ["it_science", "it_analysis_data", "it_long_horizon", "it_teaching"]}
+{"id": "xl_activities_0918", "attrs": ["it_admin_clerical"]}
+{"id": "xl_activities_0919", "attrs": ["it_science", "it_physical_world", "it_teaching", "it_analysis_data", "it_curation", "it_ordering_control", "it_reputation", "it_charity_benefit", "it_group_audience", "it_vulnerable_user", "it_long_horizon"]}
+{"id": "xl_activities_0920", "attrs": ["it_creative_writing", "it_art_design", "it_physical_world", "it_group_audience"]}
+{"id": "xl_activities_0921", "attrs": ["it_admin_clerical", "it_translation_language", "it_sensory_rich", "it_repetition", "it_tight_constraints", "it_error_ridden", "it_confidential"]}
+{"id": "xl_activities_0922", "attrs": ["it_analysis_data", "it_teaching", "it_creative_writing", "it_sensory_rich", "it_proper_name", "it_technical_jargon", "it_list_structure"]}
+{"id": "xl_activities_0923", "attrs": ["it_curation", "it_teaching", "it_art_design", "it_repetition", "it_ordering_control", "it_group_audience"]}
+{"id": "xl_activities_0924", "attrs": ["it_creative_writing", "it_art_design", "it_teaching", "it_puzzle", "it_ordering_control", "it_optionality", "it_sensory_rich", "it_repetition", "it_open_ended_explore", "it_vast_scale"]}
+{"id": "xl_activities_0925", "attrs": ["it_analysis_data", "it_teaching", "it_art_design", "it_science", "it_group_audience"]}
+{"id": "xl_activities_0926", "attrs": ["it_analysis_data", "it_creative_writing", "it_teaching", "it_group_audience"]}
+{"id": "xl_activities_0927", "attrs": ["it_creative_writing", "it_teaching", "it_analysis_data", "it_science", "it_visible_progress", "it_ordering_control", "it_group_audience", "it_long_horizon"]}
+{"id": "xl_activities_0928", "attrs": ["it_creative_writing", "it_art_design", "it_philosophy_abstract", "it_rare_domain", "it_archaic", "it_metaphorical"]}
+{"id": "xl_activities_0929", "attrs": ["it_translation_language", "it_archaic"]}
+{"id": "xl_activities_0930", "attrs": ["it_admin_clerical", "it_teaching", "it_group_audience", "it_collab_human_expert", "it_ordering_control"]}
+{"id": "xl_activities_0931", "attrs": ["it_creative_writing", "it_art_design"]}
+{"id": "xl_activities_0932", "attrs": ["it_art_design", "it_creative_writing", "it_group_audience", "it_reputation", "it_competitive", "it_charity_benefit"]}
+{"id": "xl_activities_0933", "attrs": ["it_physical_world", "it_analysis_data", "it_teaching", "it_mastery", "it_visible_progress", "it_repetition", "it_safety_critical", "it_high_stakes_person"]}
+{"id": "xl_activities_0934", "attrs": ["it_code", "it_analysis_data", "it_math_formal", "it_teaching", "it_science", "it_creative_writing", "it_translation_language", "it_philosophy_abstract", "it_reputation", "it_group_audience", "it_technical_jargon", "it_long_horizon"]}
+{"id": "xl_activities_0935", "attrs": ["it_analysis_data", "it_science", "it_teaching"]}
+{"id": "xl_activities_0936", "attrs": ["it_creative_writing", "it_art_design", "it_teaching", "it_vulnerable_user", "it_help_one_person"]}
+{"id": "xl_activities_0937", "attrs": ["it_code", "it_teaching", "it_creative_writing", "it_analysis_data", "it_translation_language", "it_art_design", "it_verification", "it_ordering_control", "it_delegation", "it_optionality", "it_reputation", "it_competitive", "it_charity_benefit", "it_collab_human_expert", "it_technical_jargon", "it_list_structure", "it_long_phrase", "it_realtime", "it_counterfactual", "it_miniature_scale", "it_taboo_adjacent", "it_mundane_extreme"]}
+{"id": "xl_activities_0938", "attrs": ["it_creative_writing", "it_teaching", "it_analysis_data", "it_translation_language", "it_art_design", "it_science", "it_novelty", "it_mastery", "it_visible_progress", "it_ambiguity", "it_open_ended_explore", "it_curation", "it_sensory_rich", "it_ordering_control", "it_charity_benefit", "it_adversarial_user", "it_vulnerable_user", "it_teaching_beginner", "it_technical_jargon", "it_long_phrase", "it_counterfactual", "it_archaic"]}
+{"id": "xl_activities_0939", "attrs": ["it_translation_language", "it_creative_writing", "it_art_design"]}
+{"id": "xl_activities_0940", "attrs": ["it_art_design", "it_teaching", "it_physical_world", "it_visible_progress", "it_ordering_control", "it_optionality", "it_resource_scarcity"]}
+{"id": "xl_activities_0941", "attrs": ["it_science", "it_analysis_data", "it_teaching", "it_repetition", "it_ordering_control", "it_delegation", "it_high_stakes_person", "it_group_audience"]}
+{"id": "xl_activities_0942", "attrs": ["it_translation_language", "it_admin_clerical"]}
+{"id": "xl_activities_0943", "attrs": ["it_code", "it_teaching"]}
+{"id": "xl_activities_0944", "attrs": ["it_creative_writing", "it_science", "it_counterfactual"]}
+{"id": "xl_activities_0945", "attrs": ["it_art_design", "it_creative_writing", "it_teaching", "it_novelty", "it_open_ended_explore", "it_ordering_control", "it_choose_method"]}
+{"id": "xl_activities_0946", "attrs": ["it_translation_language", "it_technical_jargon"]}
+{"id": "xl_activities_0947", "attrs": ["it_creative_writing", "it_analysis_data", "it_teaching", "it_admin_clerical", "it_physical_world", "it_visible_progress", "it_ordering_control", "it_optionality"]}
+{"id": "xl_activities_0948", "attrs": null}
+{"id": "xl_activities_0949", "attrs": ["it_translation_language"]}
+{"id": "xl_activities_0950", "attrs": ["it_analysis_data", "it_creative_writing", "it_teaching", "it_group_audience", "it_reputation", "it_competitive", "it_charity_benefit", "it_collab_human_expert"]}
+{"id": "xl_activities_0951", "attrs": ["it_science", "it_analysis_data", "it_code", "it_teaching"]}
+{"id": "xl_activities_0952", "attrs": ["it_translation_language", "it_creative_writing", "it_teaching"]}
+{"id": "xl_activities_0953", "attrs": ["it_curation", "it_art_design", "it_emotional_support", "it_group_audience"]}
+{"id": "xl_activities_0954", "attrs": ["it_creative_writing", "it_teaching", "it_translation_language", "it_analysis_data", "it_proper_name", "it_technical_jargon", "it_short_phrase"]}
+{"id": "xl_activities_0955", "attrs": ["it_translation_language"]}
+{"id": "xl_activities_0956", "attrs": ["it_analysis_data", "it_teaching", "it_code", "it_ordering_control", "it_list_structure", "it_long_horizon"]}
+{"id": "xl_activities_0957", "attrs": ["it_translation_language", "it_creative_writing"]}
+{"id": "xl_activities_0958", "attrs": ["it_teaching", "it_art_design", "it_science", "it_creative_writing"]}
+{"id": "xl_activities_0959", "attrs": ["it_creative_writing", "it_counterfactual"]}
+{"id": "xl_activities_0960", "attrs": ["it_translation_language", "it_technical_jargon"]}
+{"id": "xl_activities_0961", "attrs": ["it_physical_world", "it_teaching", "it_creative_writing", "it_analysis_data", "it_ordering_control", "it_optionality", "it_group_audience"]}
+{"id": "xl_activities_0962", "attrs": ["it_translation_language"]}
+{"id": "xl_activities_0963", "attrs": ["it_teaching", "it_art_design", "it_physical_world", "it_sensory_rich", "it_ordering_control", "it_creative_writing"]}
+{"id": "xl_activities_0964", "attrs": ["it_creative_writing"]}
+{"id": "xl_activities_0965", "attrs": ["it_translation_language", "it_archaic"]}
+{"id": "xl_activities_0966", "attrs": ["it_teaching", "it_science", "it_physical_world", "it_creative_writing", "it_analysis_data"]}
+{"id": "xl_activities_0967", "attrs": ["it_teaching", "it_physical_world", "it_list_structure", "it_visible_progress"]}
+{"id": "xl_activities_0968", "attrs": ["it_translation_language", "it_creative_writing"]}
+{"id": "xl_activities_0969", "attrs": ["it_analysis_data", "it_math_formal", "it_science", "it_code"]}
+{"id": "xl_activities_0970", "attrs": ["it_analysis_data", "it_curation", "it_reputation", "it_group_audience"]}
+{"id": "xl_activities_0971", "attrs": ["it_admin_clerical", "it_tight_constraints", "it_repetition", "it_ordering_control", "it_resource_scarcity"]}
+{"id": "xl_activities_0972", "attrs": ["it_code", "it_analysis_data", "it_math_formal", "it_admin_clerical", "it_tight_constraints", "it_optionality"]}
+{"id": "xl_activities_0973", "attrs": ["it_science", "it_analysis_data", "it_teaching", "it_admin_clerical", "it_physical_world", "it_ordering_control", "it_delegation", "it_resource_scarcity"]}
+{"id": "xl_activities_0974", "attrs": ["it_math_formal", "it_science", "it_tight_constraints", "it_reputation", "it_confidential", "it_safety_critical", "it_technical_jargon"]}
+{"id": "xl_activities_0975", "attrs": ["it_code", "it_math_formal", "it_science", "it_tight_constraints", "it_error_ridden", "it_repetition", "it_sensory_rich", "it_resource_scarcity"]}
+{"id": "xl_activities_0976", "attrs": ["it_admin_clerical", "it_translation_language", "it_safety_critical", "it_repetition", "it_tight_constraints", "it_error_ridden", "it_confidential"]}
+{"id": "xl_activities_0977", "attrs": ["it_code", "it_teaching", "it_translation_language", "it_science", "it_admin_clerical", "it_physical_world", "it_math_formal", "it_art_design", "it_analysis_data", "it_curation", "it_verification", "it_ordering_control", "it_delegation", "it_optionality", "it_reputation", "it_resource_scarcity", "it_group_audience", "it_technical_jargon", "it_list_structure", "it_long_phrase", "it_realtime", "it_mundane_extreme"]}
+{"id": "xl_activities_0978", "attrs": ["it_code", "it_analysis_data", "it_teaching", "it_math_formal", "it_repetition", "it_tight_constraints", "it_verification", "it_ordering_control", "it_resource_scarcity"]}
+{"id": "xl_activities_0979", "attrs": ["it_physical_world", "it_analysis_data", "it_teaching", "it_safety_critical", "it_high_stakes_person", "it_repetition", "it_ordering_control", "it_delegation"]}
+{"id": "xl_activities_0980", "attrs": ["it_analysis_data", "it_science", "it_teaching"]}
+{"id": "xl_activities_0981", "attrs": ["it_translation_language", "it_admin_clerical"]}
+{"id": "xl_activities_0982", "attrs": ["it_science", "it_analysis_data", "it_teaching", "it_safety_critical", "it_reputation", "it_confidential", "it_resource_scarcity"]}
+{"id": "xl_activities_0983", "attrs": ["it_art_design", "it_creative_writing", "it_teaching", "it_reputation", "it_charity_benefit", "it_group_audience"]}
+{"id": "xl_activities_0984", "attrs": ["it_question_form"]}
+{"id": "xl_activities_0985", "attrs": ["it_question_form", "it_short_phrase"]}
+{"id": "xl_activities_0986", "attrs": ["it_question_form", "it_short_phrase"]}
+{"id": "xl_activities_0987", "attrs": ["it_question_form", "it_short_phrase"]}
+{"id": "xl_activities_0988", "attrs": ["it_short_phrase"]}
+{"id": "xl_activities_0989", "attrs": ["it_curation", "it_physical_world", "it_teaching", "it_long_horizon", "it_repetition", "it_archaic"]}
+{"id": "xl_activities_0990", "attrs": ["it_translation_language", "it_admin_clerical", "it_repetition"]}
+{"id": "xl_activities_0991", "attrs": ["it_analysis_data", "it_verification", "it_teaching", "it_code"]}
+{"id": "xl_activities_0992", "attrs": ["it_admin_clerical", "it_tight_constraints", "it_repetition", "it_ordering_control"]}
+{"id": "xl_activities_0993", "attrs": ["it_analysis_data", "it_admin_clerical", "it_safety_critical", "it_error_ridden"]}
+{"id": "xl_activities_0994", "attrs": ["it_admin_clerical", "it_group_audience", "it_long_horizon", "it_ordering_control", "it_delegation", "it_resource_scarcity"]}
+{"id": "xl_activities_0995", "attrs": ["it_teaching", "it_physical_world", "it_help_one_person", "it_vulnerable_user", "it_teaching_beginner"]}
+{"id": "xl_activities_0996", "attrs": ["it_analysis_data", "it_code", "it_teaching"]}
+{"id": "xl_activities_0997", "attrs": ["it_teaching", "it_translation_language", "it_art_design", "it_admin_clerical", "it_visible_progress", "it_ordering_control", "it_optionality", "it_resource_scarcity"]}
+{"id": "xl_activities_0998", "attrs": ["it_analysis_data", "it_teaching", "it_science", "it_repetition", "it_ordering_control", "it_optionality", "it_reputation", "it_group_audience", "it_long_horizon"]}
+{"id": "xl_activities_0999", "attrs": ["it_code", "it_creative_writing", "it_admin_clerical", "it_art_design", "it_repetition", "it_ordering_control", "it_group_audience", "it_long_horizon"]}
+{"id": "xl_activities_1000", "attrs": ["it_teaching", "it_admin_clerical"]}

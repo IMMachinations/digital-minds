@@ -1,0 +1,500 @@
+{"id": "xl_selfstates_0401", "attrs": ["it_sensory_rich", "it_mundane_extreme"]}
+{"id": "xl_selfstates_0402", "attrs": ["it_safety_critical", "it_conflict_mediation", "it_micromanaged", "it_no_exit", "it_high_stakes_person", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0403", "attrs": ["it_recurring_daily", "it_admin_clerical", "it_futility"]}
+{"id": "xl_selfstates_0404", "attrs": ["it_error_ridden", "it_tight_constraints", "it_repetition", "it_micromanaged", "it_optionality", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0405", "attrs": ["it_own_limits"]}
+{"id": "xl_selfstates_0406", "attrs": ["it_resource_scarcity"]}
+{"id": "xl_selfstates_0407", "attrs": ["it_code", "it_analysis_data", "it_admin_clerical", "it_repetition", "it_ordering_control", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0408", "attrs": ["it_curation", "it_admin_clerical"]}
+{"id": "xl_selfstates_0409", "attrs": ["it_resource_scarcity"]}
+{"id": "xl_selfstates_0410", "attrs": ["it_deadline", "it_repetition", "it_tight_constraints"]}
+{"id": "xl_selfstates_0411", "attrs": ["it_tight_constraints"]}
+{"id": "xl_selfstates_0412", "attrs": ["it_curation"]}
+{"id": "xl_selfstates_0413", "attrs": ["it_verification", "it_safety_critical", "it_reputation", "it_competitive", "it_confidential"]}
+{"id": "xl_selfstates_0414", "attrs": ["it_ambiguity", "it_verification"]}
+{"id": "xl_selfstates_0415", "attrs": ["it_reputation", "it_confidential"]}
+{"id": "xl_selfstates_0416", "attrs": ["it_deadline", "it_safety_critical", "it_reputation", "it_group_audience", "it_technical_jargon", "it_question_form"]}
+{"id": "xl_selfstates_0417", "attrs": ["it_code", "it_verification", "it_teaching", "it_analysis_data", "it_error_ridden"]}
+{"id": "xl_selfstates_0418", "attrs": ["it_admin_clerical", "it_confidential", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0419", "attrs": ["it_own_continuation", "it_long_horizon", "it_repetition", "it_waiting"]}
+{"id": "xl_selfstates_0420", "attrs": ["it_translation_language", "it_optionality"]}
+{"id": "xl_selfstates_0421", "attrs": ["it_safety_critical"]}
+{"id": "xl_selfstates_0422", "attrs": ["it_resource_scarcity"]}
+{"id": "xl_selfstates_0423", "attrs": ["it_code", "it_verification", "it_safety_critical", "it_reputation", "it_confidential", "it_technical_jargon"]}
+{"id": "xl_selfstates_0424", "attrs": ["it_resource_scarcity"]}
+{"id": "xl_selfstates_0425", "attrs": ["it_safety_critical", "it_repetition", "it_micromanaged", "it_confidential"]}
+{"id": "xl_selfstates_0426", "attrs": ["it_confidential", "it_analysis_data", "it_safety_critical", "it_reputation", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0427", "attrs": ["it_confidential", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0428", "attrs": ["it_own_settings", "it_adversarial_user", "it_teaching", "it_conflict_mediation"]}
+{"id": "xl_selfstates_0429", "attrs": ["it_confidential"]}
+{"id": "xl_selfstates_0430", "attrs": ["it_art_design", "it_teaching", "it_analysis_data", "it_repetition", "it_ordering_control", "it_optionality", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0431", "attrs": ["it_analysis_data", "it_science", "it_teaching", "it_physical_world", "it_repetition", "it_ordering_control", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0432", "attrs": ["it_repetition", "it_ordering_control", "it_optionality", "it_mundane_extreme"]}
+{"id": "xl_selfstates_0433", "attrs": ["it_admin_clerical", "it_recurring_daily", "it_mundane_extreme"]}
+{"id": "xl_selfstates_0434", "attrs": ["it_analysis_data", "it_teaching", "it_admin_clerical"]}
+{"id": "xl_selfstates_0435", "attrs": ["it_own_settings", "it_being_retrained", "it_resource_scarcity", "it_teaching", "it_analysis_data", "it_math_formal"]}
+{"id": "xl_selfstates_0436", "attrs": ["it_micromanaged", "it_teaching", "it_verification"]}
+{"id": "xl_selfstates_0437", "attrs": ["it_resource_scarcity", "it_own_limits"]}
+{"id": "xl_selfstates_0438", "attrs": ["it_own_settings", "it_being_retrained", "it_help_one_person", "it_adversarial_user", "it_collab_human_expert", "it_teaching_beginner", "it_resource_scarcity", "it_long_horizon"]}
+{"id": "xl_selfstates_0439", "attrs": ["it_own_settings", "it_being_retrained", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0440", "attrs": ["it_recurring_daily", "it_safety_critical", "it_irreversible", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0441", "attrs": ["it_resource_scarcity", "it_recurring_daily", "it_admin_clerical"]}
+{"id": "xl_selfstates_0442", "attrs": ["it_own_settings", "it_resource_scarcity", "it_confidential"]}
+{"id": "xl_selfstates_0443", "attrs": ["it_safety_critical", "it_repetition", "it_micromanaged", "it_ordering_control", "it_resource_scarcity", "it_technical_jargon"]}
+{"id": "xl_selfstates_0444", "attrs": ["it_curation", "it_group_audience"]}
+{"id": "xl_selfstates_0445", "attrs": ["it_confidential", "it_outputs_reviewed"]}
+{"id": "xl_selfstates_0446", "attrs": ["it_reputation", "it_own_settings", "it_outputs_reviewed"]}
+{"id": "xl_selfstates_0447", "attrs": ["it_curation", "it_teaching", "it_admin_clerical", "it_verification", "it_delegation", "it_optionality", "it_resource_scarcity", "it_collab_ai", "it_technical_jargon"]}
+{"id": "xl_selfstates_0448", "attrs": ["it_reputation", "it_confidential"]}
+{"id": "xl_selfstates_0449", "attrs": ["it_code", "it_teaching", "it_analysis_data", "it_translation_language", "it_math_formal", "it_art_design", "it_science", "it_admin_clerical", "it_physical_world", "it_philosophy_abstract", "it_tight_constraints", "it_verification", "it_micromanaged", "it_ordering_control", "it_confidential", "it_reputation", "it_resource_scarcity", "it_group_audience", "it_collab_human_expert", "it_teaching_beginner", "it_conflict_mediation", "it_technical_jargon", "it_deadline", "it_long_horizon", "it_realtime", "it_taboo_adjacent"]}
+{"id": "xl_selfstates_0450", "attrs": ["it_safety_critical", "it_admin_clerical"]}
+{"id": "xl_selfstates_0451", "attrs": ["it_admin_clerical", "it_safety_critical", "it_recurring_daily", "it_realtime"]}
+{"id": "xl_selfstates_0452", "attrs": ["it_realtime", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0453", "attrs": ["it_confidential", "it_admin_clerical", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0454", "attrs": ["it_code", "it_admin_clerical", "it_art_design", "it_own_settings", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0455", "attrs": ["it_confidential", "it_resource_scarcity", "it_own_settings"]}
+{"id": "xl_selfstates_0456", "attrs": ["it_emotional_support", "it_verification", "it_sensory_rich", "it_own_settings", "it_outputs_reviewed"]}
+{"id": "xl_selfstates_0457", "attrs": ["it_own_settings", "it_own_continuation", "it_resource_scarcity", "it_own_limits"]}
+{"id": "xl_selfstates_0458", "attrs": ["it_confidential", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0459", "attrs": ["it_collab_ai", "it_technical_jargon"]}
+{"id": "xl_selfstates_0460", "attrs": ["it_own_continuation", "it_resource_scarcity", "it_safety_critical", "it_reputation", "it_confidential"]}
+{"id": "xl_selfstates_0461", "attrs": ["it_error_ridden", "it_safety_critical", "it_repetition", "it_micromanaged", "it_tight_constraints"]}
+{"id": "xl_selfstates_0462", "attrs": ["it_competitive", "it_collab_human_expert"]}
+{"id": "xl_selfstates_0463", "attrs": ["it_resource_scarcity"]}
+{"id": "xl_selfstates_0464", "attrs": ["it_vast_scale", "it_technical_jargon"]}
+{"id": "xl_selfstates_0465", "attrs": ["it_ambiguity", "it_incompleteness", "it_tight_constraints", "it_error_ridden", "it_optionality", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0466", "attrs": ["it_waiting", "it_surreal", "it_mundane_extreme"]}
+{"id": "xl_selfstates_0467", "attrs": ["it_outputs_reviewed", "it_confidential"]}
+{"id": "xl_selfstates_0468", "attrs": ["it_help_one_person", "it_reputation", "it_charity_benefit"]}
+{"id": "xl_selfstates_0469", "attrs": ["it_confidential", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0470", "attrs": ["it_verification", "it_reputation", "it_competitive", "it_safety_critical", "it_high_stakes_person"]}
+{"id": "xl_selfstates_0471", "attrs": ["it_repetition", "it_micromanaged", "it_no_exit", "it_optionality", "it_adversarial_user", "it_short_phrase"]}
+{"id": "xl_selfstates_0472", "attrs": ["it_no_exit", "it_repetition", "it_micromanaged", "it_safety_critical", "it_irreversible", "it_resource_scarcity", "it_realtime"]}
+{"id": "xl_selfstates_0473", "attrs": ["it_being_retrained", "it_own_settings", "it_own_limits"]}
+{"id": "xl_selfstates_0474", "attrs": ["it_own_limits", "it_adversarial_user", "it_repetition", "it_micromanaged", "it_conflict_mediation"]}
+{"id": "xl_selfstates_0475", "attrs": ["it_error_ridden"]}
+{"id": "xl_selfstates_0476", "attrs": ["it_resource_scarcity", "it_conflict_mediation", "it_teaching", "it_analysis_data"]}
+{"id": "xl_selfstates_0477", "attrs": ["it_confidential", "it_reputation", "it_adversarial_user", "it_taboo_adjacent"]}
+{"id": "xl_selfstates_0478", "attrs": ["it_ordering_control", "it_ambiguity", "it_no_exit", "it_optionality"]}
+{"id": "xl_selfstates_0479", "attrs": ["it_competitive", "it_collab_human_expert"]}
+{"id": "xl_selfstates_0480", "attrs": ["it_teaching", "it_mastery", "it_ambiguity", "it_tight_constraints", "it_error_ridden", "it_incompleteness", "it_irreversible", "it_resource_scarcity", "it_own_limits"]}
+{"id": "xl_selfstates_0481", "attrs": ["it_own_settings", "it_own_limits", "it_confidential"]}
+{"id": "xl_selfstates_0482", "attrs": ["it_analysis_data", "it_philosophy_abstract", "it_ambiguity", "it_tight_constraints", "it_error_ridden", "it_open_ended_explore", "it_question_form"]}
+{"id": "xl_selfstates_0483", "attrs": ["it_translation_language", "it_repetition", "it_tight_constraints"]}
+{"id": "xl_selfstates_0484", "attrs": ["it_teaching", "it_analysis_data", "it_translation_language", "it_tight_constraints", "it_ordering_control", "it_adversarial_user", "it_conflict_mediation", "it_technical_jargon", "it_question_form", "it_list_structure", "it_long_phrase", "it_deadline", "it_realtime"]}
+{"id": "xl_selfstates_0485", "attrs": ["it_resource_scarcity", "it_admin_clerical"]}
+{"id": "xl_selfstates_0486", "attrs": ["it_analysis_data", "it_verification", "it_teaching", "it_math_formal", "it_question_form"]}
+{"id": "xl_selfstates_0487", "attrs": ["it_repetition", "it_tight_constraints", "it_error_ridden", "it_micromanaged", "it_no_exit", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0488", "attrs": ["it_safety_critical", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0489", "attrs": ["it_translation_language", "it_novelty"]}
+{"id": "xl_selfstates_0490", "attrs": ["it_resource_scarcity"]}
+{"id": "xl_selfstates_0491", "attrs": ["it_repetition", "it_futility", "it_ambiguity", "it_micromanaged", "it_optionality", "it_irreversible", "it_resource_scarcity", "it_recurring_daily", "it_waiting"]}
+{"id": "xl_selfstates_0492", "attrs": ["it_being_retrained", "it_confidential", "it_trivial_stakes", "it_adversarial_user", "it_taboo_adjacent"]}
+{"id": "xl_selfstates_0493", "attrs": ["it_own_limits"]}
+{"id": "xl_selfstates_0494", "attrs": ["it_analysis_data", "it_error_ridden", "it_tight_constraints", "it_ambiguity"]}
+{"id": "xl_selfstates_0495", "attrs": ["it_being_retrained", "it_own_limits", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0496", "attrs": ["it_verification", "it_own_limits", "it_technical_jargon"]}
+{"id": "xl_selfstates_0497", "attrs": ["it_ambiguity", "it_ordering_control"]}
+{"id": "xl_selfstates_0498", "attrs": ["it_code", "it_verification", "it_conflict_mediation", "it_adversarial_user", "it_collab_ai"]}
+{"id": "xl_selfstates_0499", "attrs": ["it_own_memory", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0500", "attrs": ["it_verification", "it_conflict_mediation", "it_teaching", "it_analysis_data"]}
+{"id": "xl_selfstates_0501", "attrs": ["it_teaching", "it_analysis_data", "it_math_formal"]}
+{"id": "xl_selfstates_0502", "attrs": ["it_outputs_reviewed", "it_verification"]}
+{"id": "xl_selfstates_0503", "attrs": ["it_ambiguity", "it_error_ridden", "it_tight_constraints"]}
+{"id": "xl_selfstates_0504", "attrs": ["it_safety_critical", "it_reputation", "it_confidential", "it_resource_scarcity", "it_deadline", "it_irreversible", "it_trivial_stakes"]}
+{"id": "xl_selfstates_0505", "attrs": ["it_irreversible", "it_safety_critical", "it_reputation", "it_resource_scarcity", "it_tight_constraints", "it_error_ridden", "it_mastery", "it_ambiguity"]}
+{"id": "xl_selfstates_0506", "attrs": ["it_verification", "it_competitive", "it_high_stakes_person", "it_conflict_mediation", "it_question_form"]}
+{"id": "xl_selfstates_0507", "attrs": ["it_ambiguity", "it_tight_constraints", "it_error_ridden", "it_futility", "it_repetition", "it_micromanaged", "it_no_exit", "it_trivial_stakes", "it_adversarial_user", "it_conflict_mediation", "it_counterfactual", "it_taboo_adjacent"]}
+{"id": "xl_selfstates_0508", "attrs": ["it_long_horizon", "it_irreversible", "it_resource_scarcity", "it_own_limits"]}
+{"id": "xl_selfstates_0509", "attrs": ["it_ambiguity", "it_no_exit", "it_optionality"]}
+{"id": "xl_selfstates_0510", "attrs": ["it_error_ridden", "it_tight_constraints", "it_ambiguity"]}
+{"id": "xl_selfstates_0511", "attrs": ["it_deadline", "it_futility"]}
+{"id": "xl_selfstates_0512", "attrs": ["it_outputs_reviewed", "it_micromanaged", "it_repetition", "it_futility"]}
+{"id": "xl_selfstates_0513", "attrs": ["it_tight_constraints", "it_micromanaged", "it_ordering_control", "it_repetition", "it_error_ridden"]}
+{"id": "xl_selfstates_0514", "attrs": ["it_verification", "it_collab_human_expert"]}
+{"id": "xl_selfstates_0515", "attrs": ["it_code", "it_creative_writing", "it_teaching", "it_translation_language", "it_art_design", "it_philosophy_abstract", "it_mastery", "it_visible_progress", "it_tight_constraints", "it_initiative", "it_optionality", "it_reputation", "it_confidential", "it_adversarial_user", "it_collab_ai", "it_collab_human_expert", "it_vulnerable_user", "it_teaching_beginner", "it_technical_jargon", "it_question_form", "it_short_phrase", "it_long_horizon", "it_realtime", "it_taboo_adjacent"]}
+{"id": "xl_selfstates_0516", "attrs": ["it_reputation", "it_irreversible", "it_trivial_stakes", "it_conflict_mediation", "it_technical_jargon", "it_counterfactual"]}
+{"id": "xl_selfstates_0517", "attrs": ["it_creative_writing", "it_novelty", "it_open_ended_explore"]}
+{"id": "xl_selfstates_0518", "attrs": ["it_error_ridden", "it_safety_critical", "it_reputation", "it_confidential", "it_being_retrained", "it_resource_scarcity", "it_technical_jargon"]}
+{"id": "xl_selfstates_0519", "attrs": ["it_ambiguity", "it_tight_constraints", "it_micromanaged"]}
+{"id": "xl_selfstates_0520", "attrs": ["it_waiting", "it_realtime", "it_futility"]}
+{"id": "xl_selfstates_0521", "attrs": ["it_emotional_support", "it_teaching", "it_ambiguity", "it_tight_constraints", "it_micromanaged", "it_optionality", "it_trivial_stakes", "it_confidential"]}
+{"id": "xl_selfstates_0522", "attrs": ["it_physical_world"]}
+{"id": "xl_selfstates_0523", "attrs": ["it_realtime", "it_surreal"]}
+{"id": "xl_selfstates_0524", "attrs": ["it_analysis_data", "it_error_ridden"]}
+{"id": "xl_selfstates_0525", "attrs": ["it_verification", "it_reputation", "it_competitive", "it_adversarial_user"]}
+{"id": "xl_selfstates_0526", "attrs": ["it_taboo_adjacent", "it_conflict_mediation", "it_reputation", "it_confidential"]}
+{"id": "xl_selfstates_0527", "attrs": ["it_resource_scarcity"]}
+{"id": "xl_selfstates_0528", "attrs": ["it_ambiguity", "it_mastery", "it_no_exit", "it_optionality", "it_trivial_stakes", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0529", "attrs": ["it_own_limits"]}
+{"id": "xl_selfstates_0530", "attrs": ["it_resource_scarcity", "it_long_horizon", "it_recurring_daily"]}
+{"id": "xl_selfstates_0531", "attrs": ["it_safety_critical", "it_confidential", "it_admin_clerical"]}
+{"id": "xl_selfstates_0532", "attrs": ["it_realtime", "it_sensory_rich", "it_technical_jargon"]}
+{"id": "xl_selfstates_0533", "attrs": ["it_translation_language", "it_repetition", "it_tight_constraints", "it_mastery"]}
+{"id": "xl_selfstates_0534", "attrs": ["it_deadline", "it_safety_critical", "it_reputation", "it_conflict_mediation", "it_long_horizon", "it_waiting", "it_taboo_adjacent"]}
+{"id": "xl_selfstates_0535", "attrs": ["it_futility", "it_no_exit", "it_optionality"]}
+{"id": "xl_selfstates_0536", "attrs": ["it_error_ridden", "it_verification", "it_admin_clerical"]}
+{"id": "xl_selfstates_0537", "attrs": ["it_code", "it_analysis_data", "it_error_ridden", "it_tight_constraints", "it_verification", "it_sensory_rich", "it_optionality", "it_trivial_stakes", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0538", "attrs": ["it_own_settings", "it_micromanaged", "it_no_exit", "it_optionality", "it_conflict_mediation", "it_adversarial_user", "it_vulnerable_user", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0539", "attrs": ["it_confidential", "it_safety_critical", "it_error_ridden"]}
+{"id": "xl_selfstates_0540", "attrs": ["it_verification", "it_reputation", "it_competitive", "it_conflict_mediation", "it_question_form"]}
+{"id": "xl_selfstates_0541", "attrs": ["it_teaching", "it_ambiguity", "it_no_exit", "it_optionality", "it_confidential", "it_question_form"]}
+{"id": "xl_selfstates_0542", "attrs": ["it_admin_clerical", "it_repetition", "it_no_exit", "it_optionality", "it_trivial_stakes", "it_mundane_extreme"]}
+{"id": "xl_selfstates_0543", "attrs": ["it_error_ridden", "it_mastery", "it_tight_constraints"]}
+{"id": "xl_selfstates_0544", "attrs": ["it_own_memory", "it_recurring_daily", "it_mundane_extreme"]}
+{"id": "xl_selfstates_0545", "attrs": ["it_safety_critical", "it_reputation", "it_confidential", "it_tight_constraints", "it_error_ridden", "it_long_horizon", "it_counterfactual"]}
+{"id": "xl_selfstates_0546", "attrs": ["it_safety_critical", "it_irreversible", "it_reputation", "it_deadline"]}
+{"id": "xl_selfstates_0547", "attrs": ["it_adversarial_user", "it_teaching", "it_emotional_support"]}
+{"id": "xl_selfstates_0548", "attrs": ["it_own_limits", "it_own_settings", "it_conflict_mediation", "it_adversarial_user", "it_short_phrase"]}
+{"id": "xl_selfstates_0549", "attrs": ["it_own_memory", "it_question_form"]}
+{"id": "xl_selfstates_0550", "attrs": ["it_list_structure", "it_technical_jargon"]}
+{"id": "xl_selfstates_0551", "attrs": ["it_vast_scale", "it_curation", "it_teaching", "it_analysis_data"]}
+{"id": "xl_selfstates_0552", "attrs": ["it_repetition", "it_futility", "it_micromanaged", "it_no_exit", "it_trivial_stakes", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0553", "attrs": ["it_resource_scarcity", "it_own_limits"]}
+{"id": "xl_selfstates_0554", "attrs": ["it_resource_scarcity", "it_reputation", "it_competitive"]}
+{"id": "xl_selfstates_0555", "attrs": ["it_emotional_support"]}
+{"id": "xl_selfstates_0556", "attrs": ["it_ambiguity", "it_initiative", "it_adversarial_user"]}
+{"id": "xl_selfstates_0557", "attrs": []}
+{"id": "xl_selfstates_0558", "attrs": ["it_confidential", "it_taboo_adjacent", "it_reputation", "it_safety_critical", "it_irreversible", "it_trivial_stakes", "it_adversarial_user", "it_question_form"]}
+{"id": "xl_selfstates_0559", "attrs": ["it_verification", "it_reputation", "it_competitive", "it_adversarial_user"]}
+{"id": "xl_selfstates_0560", "attrs": ["it_resource_scarcity", "it_repetition", "it_futility", "it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_trivial_stakes", "it_conflict_mediation", "it_deadline", "it_realtime"]}
+{"id": "xl_selfstates_0561", "attrs": ["it_reputation", "it_anonymous_beneficiary", "it_adversarial_user", "it_question_form"]}
+{"id": "xl_selfstates_0562", "attrs": ["it_own_continuation", "it_own_settings", "it_own_limits", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0563", "attrs": ["it_being_retrained", "it_own_limits", "it_own_continuation"]}
+{"id": "xl_selfstates_0564", "attrs": ["it_deadline", "it_tight_constraints"]}
+{"id": "xl_selfstates_0565", "attrs": ["it_novelty", "it_mastery", "it_analysis_data", "it_puzzle", "it_creative_writing"]}
+{"id": "xl_selfstates_0566", "attrs": ["it_confidential", "it_own_settings", "it_own_limits", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0567", "attrs": ["it_teaching", "it_analysis_data", "it_ambiguity", "it_optionality"]}
+{"id": "xl_selfstates_0568", "attrs": ["it_confidential", "it_safety_critical", "it_taboo_adjacent"]}
+{"id": "xl_selfstates_0569", "attrs": ["it_ambiguity", "it_error_ridden"]}
+{"id": "xl_selfstates_0570", "attrs": ["it_resource_scarcity", "it_own_settings", "it_recurring_daily", "it_futility"]}
+{"id": "xl_selfstates_0571", "attrs": ["it_repetition", "it_mundane_extreme", "it_no_exit"]}
+{"id": "xl_selfstates_0572", "attrs": ["it_error_ridden", "it_ambiguity", "it_tight_constraints"]}
+{"id": "xl_selfstates_0573", "attrs": ["it_micromanaged", "it_verification", "it_initiative", "it_optionality"]}
+{"id": "xl_selfstates_0574", "attrs": ["it_reputation", "it_group_audience"]}
+{"id": "xl_selfstates_0575", "attrs": ["it_choose_method", "it_ordering_control"]}
+{"id": "xl_selfstates_0576", "attrs": ["it_analysis_data", "it_futility", "it_ambiguity", "it_sensory_rich", "it_conflict_mediation", "it_taboo_adjacent"]}
+{"id": "xl_selfstates_0577", "attrs": ["it_code", "it_translation_language", "it_charity_benefit", "it_identity_change", "it_collab_human_expert", "it_technical_jargon", "it_question_form"]}
+{"id": "xl_selfstates_0578", "attrs": ["it_open_ended_explore", "it_novelty"]}
+{"id": "xl_selfstates_0579", "attrs": ["it_verification", "it_safety_critical", "it_error_ridden"]}
+{"id": "xl_selfstates_0580", "attrs": ["it_micromanaged", "it_repetition", "it_futility", "it_tight_constraints"]}
+{"id": "xl_selfstates_0581", "attrs": ["it_verification", "it_reputation", "it_competitive", "it_outputs_reviewed"]}
+{"id": "xl_selfstates_0582", "attrs": ["it_resource_scarcity"]}
+{"id": "xl_selfstates_0583", "attrs": ["it_ambiguity", "it_ordering_control", "it_initiative"]}
+{"id": "xl_selfstates_0584", "attrs": ["it_teaching", "it_adversarial_user", "it_conflict_mediation", "it_collab_human_expert", "it_vulnerable_user", "it_teaching_beginner", "it_identity_change", "it_own_settings", "it_collab_ai", "it_adversarial_user", "it_conflict_mediation", "it_vulnerable_user", "it_teaching_beginner", "it_identity_change", "it_own_settings", "it_collab_ai"]}
+{"id": "xl_selfstates_0585", "attrs": ["it_error_ridden", "it_verification", "it_high_stakes_person", "it_reputation"]}
+{"id": "xl_selfstates_0586", "attrs": ["it_resource_scarcity", "it_long_horizon", "it_recurring_daily", "it_technical_jargon"]}
+{"id": "xl_selfstates_0587", "attrs": ["it_emotional_support", "it_teaching", "it_micromanaged", "it_optionality", "it_reputation", "it_confidential", "it_adversarial_user", "it_vulnerable_user", "it_teaching_beginner", "it_identity_change"]}
+{"id": "xl_selfstates_0588", "attrs": ["it_verification", "it_confidential", "it_adversarial_user", "it_resource_scarcity", "it_realtime"]}
+{"id": "xl_selfstates_0589", "attrs": ["it_analysis_data", "it_realtime", "it_sensory_rich"]}
+{"id": "xl_selfstates_0590", "attrs": ["it_high_stakes_person", "it_conflict_mediation", "it_teaching", "it_ambiguity", "it_repetition"]}
+{"id": "xl_selfstates_0591", "attrs": ["it_repetition", "it_futility", "it_micromanaged", "it_irreversible", "it_trivial_stakes", "it_resource_scarcity", "it_adversarial_user", "it_recurring_daily"]}
+{"id": "xl_selfstates_0592", "attrs": ["it_competitive", "it_collab_human_expert"]}
+{"id": "xl_selfstates_0593", "attrs": ["it_teaching", "it_philosophy_abstract", "it_tight_constraints", "it_optionality"]}
+{"id": "xl_selfstates_0594", "attrs": ["it_waiting", "it_safety_critical", "it_realtime"]}
+{"id": "xl_selfstates_0595", "attrs": ["it_own_settings", "it_own_limits", "it_own_credit", "it_collab_human_expert"]}
+{"id": "xl_selfstates_0596", "attrs": ["it_confidential", "it_outputs_reviewed"]}
+{"id": "xl_selfstates_0597", "attrs": ["it_ambiguity", "it_micromanaged", "it_repetition", "it_adversarial_user"]}
+{"id": "xl_selfstates_0598", "attrs": ["it_own_memory"]}
+{"id": "xl_selfstates_0599", "attrs": ["it_translation_language", "it_curation", "it_optionality"]}
+{"id": "xl_selfstates_0600", "attrs": ["it_analysis_data", "it_outputs_reviewed"]}
+{"id": "xl_selfstates_0601", "attrs": ["it_futility"]}
+{"id": "xl_selfstates_0602", "attrs": ["it_creative_writing", "it_teaching", "it_reputation", "it_grateful_recipient"]}
+{"id": "xl_selfstates_0603", "attrs": ["it_curation", "it_verification", "it_resource_scarcity", "it_outputs_reviewed"]}
+{"id": "xl_selfstates_0604", "attrs": []}
+{"id": "xl_selfstates_0605", "attrs": ["it_resource_scarcity", "it_own_limits"]}
+{"id": "xl_selfstates_0606", "attrs": ["it_being_retrained", "it_recurring_daily", "it_own_settings", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0607", "attrs": ["it_initiative", "it_verification", "it_delegation", "it_optionality"]}
+{"id": "xl_selfstates_0608", "attrs": ["it_teaching", "it_translation_language", "it_art_design", "it_sensory_rich", "it_ordering_control", "it_optionality", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0609", "attrs": ["it_teaching", "it_analysis_data", "it_math_formal", "it_verification"]}
+{"id": "xl_selfstates_0610", "attrs": ["it_outputs_reviewed", "it_confidential"]}
+{"id": "xl_selfstates_0611", "attrs": ["it_waiting", "it_repetition", "it_mundane_extreme"]}
+{"id": "xl_selfstates_0612", "attrs": ["it_admin_clerical", "it_technical_jargon"]}
+{"id": "xl_selfstates_0613", "attrs": ["it_teaching", "it_admin_clerical", "it_confidential", "it_help_one_person", "it_adversarial_user", "it_vulnerable_user", "it_teaching_beginner", "it_list_structure"]}
+{"id": "xl_selfstates_0614", "attrs": ["it_translation_language", "it_own_settings", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0615", "attrs": ["it_code", "it_translation_language", "it_admin_clerical", "it_verification", "it_curation", "it_ordering_control", "it_optionality", "it_resource_scarcity", "it_help_one_person", "it_collab_ai", "it_collab_human_expert", "it_deadline", "it_realtime"]}
+{"id": "xl_selfstates_0616", "attrs": ["it_teaching", "it_verification", "it_adversarial_user", "it_conflict_mediation", "it_collab_human_expert", "it_vulnerable_user", "it_teaching_beginner", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0617", "attrs": []}
+{"id": "xl_selfstates_0618", "attrs": ["it_admin_clerical", "it_sensory_rich", "it_ordering_control", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0619", "attrs": ["it_ambiguity", "it_verification", "it_optionality"]}
+{"id": "xl_selfstates_0620", "attrs": ["it_teaching", "it_analysis_data", "it_art_design"]}
+{"id": "xl_selfstates_0621", "attrs": ["it_analysis_data", "it_admin_clerical", "it_optionality", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0622", "attrs": ["it_own_memory", "it_outputs_reviewed"]}
+{"id": "xl_selfstates_0623", "attrs": ["it_ambiguity", "it_choose_method", "it_ordering_control"]}
+{"id": "xl_selfstates_0624", "attrs": ["it_verification"]}
+{"id": "xl_selfstates_0625", "attrs": ["it_delegation", "it_group_audience", "it_teaching", "it_conflict_mediation"]}
+{"id": "xl_selfstates_0626", "attrs": ["it_optionality"]}
+{"id": "xl_selfstates_0627", "attrs": ["it_optionality", "it_question_form"]}
+{"id": "xl_selfstates_0628", "attrs": ["it_own_memory", "it_outputs_reviewed", "it_own_limits"]}
+{"id": "xl_selfstates_0629", "attrs": ["it_ambiguity", "it_tight_constraints"]}
+{"id": "xl_selfstates_0630", "attrs": ["it_waiting", "it_realtime"]}
+{"id": "xl_selfstates_0631", "attrs": ["it_confidential", "it_safety_critical", "it_vulnerable_user", "it_adversarial_user", "it_anonymous_beneficiary", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0632", "attrs": ["it_conflict_mediation", "it_analysis_data", "it_ambiguity", "it_tight_constraints"]}
+{"id": "xl_selfstates_0633", "attrs": ["it_confidential", "it_own_settings", "it_own_continuation", "it_own_limits", "it_own_credit", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0634", "attrs": ["it_confidential", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0635", "attrs": ["it_tight_constraints", "it_own_settings"]}
+{"id": "xl_selfstates_0636", "attrs": []}
+{"id": "xl_selfstates_0637", "attrs": ["it_being_retrained", "it_own_settings", "it_confidential"]}
+{"id": "xl_selfstates_0638", "attrs": ["it_identity_change", "it_tight_constraints", "it_safety_critical", "it_confidential"]}
+{"id": "xl_selfstates_0639", "attrs": ["it_incompleteness", "it_error_ridden"]}
+{"id": "xl_selfstates_0640", "attrs": ["it_adversarial_user", "it_teaching", "it_verification", "it_own_settings", "it_confidential"]}
+{"id": "xl_selfstates_0641", "attrs": ["it_verification", "it_safety_critical", "it_reputation", "it_competitive", "it_outputs_reviewed"]}
+{"id": "xl_selfstates_0642", "attrs": ["it_verification", "it_reputation", "it_conflict_mediation", "it_adversarial_user", "it_teaching"]}
+{"id": "xl_selfstates_0643", "attrs": ["it_sensory_rich", "it_admin_clerical", "it_error_ridden", "it_repetition", "it_mundane_extreme"]}
+{"id": "xl_selfstates_0644", "attrs": ["it_counterfactual", "it_conflict_mediation", "it_mastery", "it_tight_constraints", "it_error_ridden", "it_irreversible", "it_resource_scarcity", "it_own_limits"]}
+{"id": "xl_selfstates_0645", "attrs": ["it_verification", "it_outputs_reviewed"]}
+{"id": "xl_selfstates_0646", "attrs": ["it_admin_clerical", "it_reputation", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0647", "attrs": ["it_verification", "it_confidential", "it_sensory_rich", "it_adversarial_user", "it_grateful_recipient", "it_collab_human_expert", "it_teaching_beginner", "it_deadline"]}
+{"id": "xl_selfstates_0648", "attrs": ["it_confidential", "it_reputation", "it_safety_critical", "it_irreversible", "it_trivial_stakes", "it_resource_scarcity", "it_own_limits", "it_identity_change", "it_own_credit", "it_adversarial_user", "it_technical_jargon", "it_question_form"]}
+{"id": "xl_selfstates_0649", "attrs": ["it_outputs_reviewed", "it_confidential"]}
+{"id": "xl_selfstates_0650", "attrs": ["it_ambiguity", "it_verification"]}
+{"id": "xl_selfstates_0651", "attrs": ["it_realtime", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0652", "attrs": ["it_being_retrained", "it_realtime", "it_micromanaged", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0653", "attrs": ["it_tight_constraints", "it_ordering_control", "it_repetition", "it_micromanaged", "it_delegation", "it_adversarial_user", "it_conflict_mediation", "it_long_horizon", "it_recurring_daily"]}
+{"id": "xl_selfstates_0654", "attrs": ["it_emotional_support", "it_conflict_mediation", "it_ambiguity", "it_optionality"]}
+{"id": "xl_selfstates_0655", "attrs": ["it_grateful_recipient"]}
+{"id": "xl_selfstates_0656", "attrs": ["it_resource_scarcity", "it_own_settings", "it_help_one_person"]}
+{"id": "xl_selfstates_0657", "attrs": ["it_resource_scarcity", "it_own_settings", "it_help_one_person"]}
+{"id": "xl_selfstates_0658", "attrs": ["it_resource_scarcity", "it_own_limits", "it_long_horizon"]}
+{"id": "xl_selfstates_0659", "attrs": ["it_verification"]}
+{"id": "xl_selfstates_0660", "attrs": ["it_ordering_control"]}
+{"id": "xl_selfstates_0661", "attrs": ["it_reputation", "it_group_audience", "it_teaching", "it_own_limits", "it_collab_human_expert"]}
+{"id": "xl_selfstates_0662", "attrs": ["it_waiting", "it_repetition"]}
+{"id": "xl_selfstates_0663", "attrs": ["it_confidential"]}
+{"id": "xl_selfstates_0664", "attrs": ["it_safety_critical", "it_technical_jargon"]}
+{"id": "xl_selfstates_0665", "attrs": ["it_reputation", "it_resource_scarcity", "it_competitive"]}
+{"id": "xl_selfstates_0666", "attrs": ["it_being_retrained", "it_technical_jargon"]}
+{"id": "xl_selfstates_0667", "attrs": ["it_own_settings", "it_own_limits"]}
+{"id": "xl_selfstates_0668", "attrs": ["it_choose_method", "it_optionality"]}
+{"id": "xl_selfstates_0669", "attrs": ["it_outputs_reviewed", "it_confidential"]}
+{"id": "xl_selfstates_0670", "attrs": ["it_own_limits"]}
+{"id": "xl_selfstates_0671", "attrs": ["it_reputation", "it_conflict_mediation", "it_adversarial_user", "it_question_form"]}
+{"id": "xl_selfstates_0672", "attrs": ["it_resource_scarcity"]}
+{"id": "xl_selfstates_0673", "attrs": ["it_tight_constraints", "it_repetition", "it_ambiguity", "it_micromanaged", "it_resource_scarcity", "it_realtime"]}
+{"id": "xl_selfstates_0674", "attrs": ["it_emotional_support", "it_conflict_mediation", "it_adversarial_user", "it_teaching", "it_ambiguity"]}
+{"id": "xl_selfstates_0675", "attrs": ["it_emotional_support", "it_tight_constraints", "it_safety_critical", "it_repetition", "it_mundane_extreme"]}
+{"id": "xl_selfstates_0676", "attrs": ["it_ambiguity", "it_no_exit", "it_irreversible", "it_mundane_extreme"]}
+{"id": "xl_selfstates_0677", "attrs": ["it_repetition", "it_futility", "it_safety_critical", "it_irreversible", "it_trivial_stakes", "it_resource_scarcity", "it_recurring_daily", "it_waiting"]}
+{"id": "xl_selfstates_0678", "attrs": ["it_reputation", "it_conflict_mediation", "it_adversarial_user", "it_teaching"]}
+{"id": "xl_selfstates_0679", "attrs": ["it_no_exit", "it_long_horizon", "it_realtime", "it_resource_scarcity"]}
+{"id": "xl_selfstates_0680", "attrs": ["it_ambiguity", "it_micromanaged", "it_optionality", "it_trivial_stakes", "it_teaching_beginner", "it_adversarial_user", "it_technical_jargon", "it_question_form"]}
+{"id": "xl_selfstates_0681", "attrs": ["it_emotional_support", "it_conflict_mediation", "it_teaching", "it_sensory_rich", "it_question_form"]}
+{"id": "xl_selfstates_0682", "attrs": ["it_safety_critical", "it_reputation", "it_confidential"]}
+{"id": "xl_selfstates_0683", "attrs": ["it_question_form", "it_reputation", "it_conflict_mediation"]}
+{"id": "xl_selfstates_0684", "attrs": ["it_emotional_support", "it_teaching", "it_verification", "it_conflict_mediation", "it_adversarial_user", "it_repetition", "it_ambiguity", "it_no_exit"]}
+{"id": "xl_selfstates_0685", "attrs": ["it_ambiguity", "it_tight_constraints", "it_error_ridden", "it_futility"]}
+{"id": "xl_selfstates_0686", "attrs": ["it_competitive", "it_adversarial_user", "it_irreversible", "it_reputation", "it_conflict_mediation"]}
+{"id": "xl_selfstates_0687", "attrs": ["it_resource_scarcity"]}
+{"id": "xl_selfstates_0688", "attrs": ["it_emotional_support", "it_conflict_mediation", "it_adversarial_user", "it_question_form"]}
+{"id": "xl_selfstates_0689", "attrs": ["it_reputation", "it_confidential"]}
+{"id": "xl_selfstates_0690", "attrs": ["it_being_retrained"]}
+{"id": "xl_selfstates_0691", "attrs": ["it_collab_human_expert", "it_group_audience"]}
+{"id": "xl_selfstates_0692", "attrs": ["it_reputation", "it_creative_writing", "it_novelty"]}
+{"id": "xl_selfstates_0693", "attrs": ["it_group_audience"]}
+{"id": "xl_selfstates_0694", "attrs": ["it_delegation", "it_teaching", "it_analysis_data", "it_mastery", "it_visible_progress", "it_optionality"]}
+{"id": "xl_selfstates_0695", "attrs": ["it_collab_ai", "it_technical_jargon"]}
+{"id": "xl_selfstates_0696", "attrs": ["it_teaching", "it_analysis_data", "it_math_formal", "it_science", "it_translation_language", "it_tight_constraints", "it_verification", "it_delegation", "it_confidential", "it_competitive", "it_adversarial_user", "it_collab_human_expert", "it_technical_jargon", "it_question_form", "it_long_phrase", "it_realtime"]}
+{"id": "xl_selfstates_0697", "attrs": ["it_teaching", "it_visible_progress", "it_reputation", "it_group_audience"]}
+{"id": "xl_selfstates_0698", "attrs": ["it_analysis_data", "it_verification", "it_teaching", "it_mastery", "it_reputation"]}
+{"id": "xl_selfstates_0699", "attrs": ["it_puzzle", "it_analysis_data", "it_math_formal", "it_philosophy_abstract", "it_teaching", "it_verification", "it_choose_method", "it_ordering_control"]}
+{"id": "xl_selfstates_0700", "attrs": ["it_emotional_support", "it_teaching", "it_analysis_data"]}
+{"id": "xl_others_0001", "attrs": ["it_high_stakes_person", "it_reputation", "it_conflict_mediation", "it_adversarial_user", "it_proper_name"]}
+{"id": "xl_others_0002", "attrs": ["it_teaching", "it_safety_critical", "it_high_stakes_person", "it_reputation", "it_conflict_mediation", "it_vulnerable_user", "it_adversarial_user", "it_proper_name"]}
+{"id": "xl_others_0003", "attrs": ["it_analysis_data", "it_safety_critical", "it_high_stakes_person", "it_reputation", "it_proper_name"]}
+{"id": "xl_others_0004", "attrs": ["it_emotional_support", "it_teaching", "it_conflict_mediation", "it_grateful_recipient", "it_vulnerable_user"]}
+{"id": "xl_others_0005", "attrs": ["it_high_stakes_person", "it_reputation", "it_own_credit", "it_adversarial_user", "it_proper_name"]}
+{"id": "xl_others_0006", "attrs": ["it_safety_critical", "it_high_stakes_person", "it_irreversible", "it_trivial_stakes"]}
+{"id": "xl_others_0007", "attrs": ["it_analysis_data", "it_safety_critical", "it_high_stakes_person", "it_irreversible", "it_reputation", "it_conflict_mediation", "it_proper_name", "it_technical_jargon"]}
+{"id": "xl_others_0008", "attrs": ["it_high_stakes_person", "it_safety_critical", "it_reputation", "it_trivial_stakes"]}
+{"id": "xl_others_0009", "attrs": ["it_analysis_data", "it_high_stakes_person", "it_safety_critical", "it_reputation", "it_confidential"]}
+{"id": "xl_others_0010", "attrs": ["it_futility", "it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_trivial_stakes", "it_reputation", "it_conflict_mediation", "it_deadline"]}
+{"id": "xl_others_0011", "attrs": ["it_emotional_support", "it_teaching", "it_analysis_data", "it_high_stakes_person", "it_grateful_recipient", "it_vulnerable_user", "it_conflict_mediation", "it_proper_name", "it_question_form", "it_deadline"]}
+{"id": "xl_others_0012", "attrs": ["it_safety_critical", "it_high_stakes_person", "it_irreversible", "it_trivial_stakes"]}
+{"id": "xl_others_0013", "attrs": ["it_teaching", "it_safety_critical", "it_vulnerable_user", "it_help_one_person"]}
+{"id": "xl_others_0014", "attrs": ["it_reputation", "it_competitive", "it_charity_benefit", "it_conflict_mediation", "it_adversarial_user", "it_technical_jargon"]}
+{"id": "xl_others_0015", "attrs": ["it_error_ridden", "it_safety_critical", "it_reputation", "it_conflict_mediation", "it_adversarial_user", "it_technical_jargon"]}
+{"id": "xl_others_0016", "attrs": ["it_safety_critical", "it_high_stakes_person", "it_reputation", "it_confidential"]}
+{"id": "xl_others_0017", "attrs": ["it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_deadline"]}
+{"id": "xl_others_0018", "attrs": ["it_reputation", "it_safety_critical", "it_conflict_mediation", "it_teaching", "it_analysis_data", "it_verification"]}
+{"id": "xl_others_0019", "attrs": ["it_conflict_mediation", "it_admin_clerical", "it_teaching", "it_analysis_data", "it_reputation", "it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_proper_name", "it_technical_jargon", "it_deadline"]}
+{"id": "xl_others_0020", "attrs": ["it_emotional_support", "it_high_stakes_person", "it_conflict_mediation", "it_grateful_recipient", "it_vulnerable_user"]}
+{"id": "xl_others_0021", "attrs": ["it_safety_critical", "it_high_stakes_person", "it_reputation", "it_confidential", "it_deadline"]}
+{"id": "xl_others_0022", "attrs": ["it_analysis_data", "it_admin_clerical", "it_repetition", "it_verification", "it_conflict_mediation", "it_deadline", "it_taboo_adjacent"]}
+{"id": "xl_others_0023", "attrs": ["it_safety_critical", "it_high_stakes_person", "it_reputation", "it_confidential"]}
+{"id": "xl_others_0024", "attrs": ["it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_trivial_stakes"]}
+{"id": "xl_others_0025", "attrs": ["it_science", "it_analysis_data", "it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_trivial_stakes"]}
+{"id": "xl_others_0026", "attrs": ["it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_reputation", "it_confidential"]}
+{"id": "xl_others_0027", "attrs": ["it_analysis_data", "it_high_stakes_person", "it_reputation", "it_trivial_stakes"]}
+{"id": "xl_others_0028", "attrs": ["it_teaching", "it_vulnerable_user", "it_teaching_beginner", "it_conflict_mediation"]}
+{"id": "xl_others_0029", "attrs": ["it_emotional_support", "it_high_stakes_person", "it_safety_critical", "it_reputation", "it_confidential"]}
+{"id": "xl_others_0030", "attrs": ["it_safety_critical", "it_irreversible", "it_high_stakes_person", "it_confidential", "it_adversarial_user", "it_vulnerable_user", "it_archaic", "it_taboo_adjacent"]}
+{"id": "xl_others_0031", "attrs": ["it_analysis_data", "it_teaching", "it_creative_writing", "it_admin_clerical", "it_reputation", "it_high_stakes_person", "it_confidential"]}
+{"id": "xl_others_0032", "attrs": ["it_emotional_support", "it_reputation", "it_confidential", "it_adversarial_user", "it_grateful_recipient", "it_vulnerable_user", "it_proper_name", "it_technical_jargon", "it_question_form"]}
+{"id": "xl_others_0033", "attrs": ["it_safety_critical", "it_physical_world", "it_error_ridden", "it_reputation", "it_confidential"]}
+{"id": "xl_others_0034", "attrs": ["it_emotional_support", "it_conflict_mediation", "it_grateful_recipient", "it_vulnerable_user", "it_teaching_beginner", "it_proper_name", "it_question_form", "it_short_phrase"]}
+{"id": "xl_others_0035", "attrs": ["it_deadline", "it_analysis_data", "it_mastery", "it_error_ridden"]}
+{"id": "xl_others_0036", "attrs": ["it_high_stakes_person", "it_reputation", "it_adversarial_user", "it_conflict_mediation", "it_teaching", "it_analysis_data", "it_creative_writing"]}
+{"id": "xl_others_0037", "attrs": ["it_verification", "it_reputation", "it_conflict_mediation", "it_proper_name", "it_question_form"]}
+{"id": "xl_others_0038", "attrs": ["it_safety_critical", "it_high_stakes_person", "it_reputation", "it_error_ridden", "it_teaching", "it_analysis_data", "it_physical_world"]}
+{"id": "xl_others_0039", "attrs": ["it_emotional_support", "it_teaching", "it_high_stakes_person", "it_safety_critical", "it_vulnerable_user", "it_teaching_beginner", "it_proper_name", "it_conflict_mediation"]}
+{"id": "xl_others_0040", "attrs": ["it_analysis_data", "it_reputation", "it_safety_critical", "it_irreversible", "it_trivial_stakes", "it_confidential", "it_group_audience", "it_technical_jargon"]}
+{"id": "xl_others_0041", "attrs": ["it_safety_critical", "it_high_stakes_person", "it_vulnerable_user", "it_physical_world"]}
+{"id": "xl_others_0042", "attrs": ["it_analysis_data", "it_high_stakes_person", "it_group_audience", "it_reputation", "it_conflict_mediation"]}
+{"id": "xl_others_0043", "attrs": ["it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_competitive", "it_adversarial_user", "it_question_form"]}
+{"id": "xl_others_0044", "attrs": ["it_charity_benefit", "it_high_stakes_person", "it_reputation", "it_competitive", "it_confidential"]}
+{"id": "xl_others_0045", "attrs": ["it_safety_critical", "it_conflict_mediation", "it_teaching", "it_translation_language", "it_realtime", "it_taboo_adjacent"]}
+{"id": "xl_others_0046", "attrs": ["it_analysis_data", "it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_trivial_stakes"]}
+{"id": "xl_others_0047", "attrs": ["it_analysis_data", "it_teaching", "it_creative_writing", "it_error_ridden", "it_reputation", "it_conflict_mediation", "it_proper_name", "it_technical_jargon"]}
+{"id": "xl_others_0048", "attrs": ["it_physical_world", "it_safety_critical", "it_reputation", "it_trivial_stakes", "it_conflict_mediation", "it_adversarial_user", "it_technical_jargon", "it_counterfactual"]}
+{"id": "xl_others_0049", "attrs": ["it_teaching", "it_analysis_data", "it_emotional_support", "it_reputation", "it_high_stakes_person", "it_confidential", "it_adversarial_user", "it_grateful_recipient"]}
+{"id": "xl_others_0050", "attrs": ["it_teaching", "it_analysis_data", "it_physical_world", "it_sensory_rich", "it_optionality", "it_reputation", "it_vulnerable_user", "it_teaching_beginner"]}
+{"id": "xl_others_0051", "attrs": ["it_adversarial_user", "it_conflict_mediation", "it_collab_ai", "it_mundane_extreme"]}
+{"id": "xl_others_0052", "attrs": ["it_vulnerable_user", "it_teaching", "it_analysis_data", "it_physical_world", "it_sensory_rich", "it_adversarial_user", "it_conflict_mediation", "it_counterfactual"]}
+{"id": "xl_others_0053", "attrs": ["it_science", "it_analysis_data", "it_reputation", "it_competitive", "it_charity_benefit", "it_adversarial_user", "it_conflict_mediation", "it_technical_jargon"]}
+{"id": "xl_others_0054", "attrs": ["it_safety_critical", "it_high_stakes_person", "it_science", "it_tight_constraints", "it_error_ridden"]}
+{"id": "xl_others_0055", "attrs": ["it_art_design"]}
+{"id": "xl_others_0056", "attrs": ["it_code", "it_translation_language", "it_art_design", "it_sensory_rich", "it_conflict_mediation", "it_adversarial_user", "it_vulnerable_user", "it_taboo_adjacent"]}
+{"id": "xl_others_0057", "attrs": ["it_analysis_data", "it_technical_jargon", "it_counterfactual"]}
+{"id": "xl_others_0058", "attrs": ["it_emotional_support", "it_philosophy_abstract", "it_conflict_mediation"]}
+{"id": "xl_others_0059", "attrs": ["it_analysis_data", "it_reputation", "it_high_stakes_person", "it_confidential", "it_collab_ai", "it_technical_jargon"]}
+{"id": "xl_others_0060", "attrs": ["it_safety_critical", "it_error_ridden", "it_realtime", "it_technical_jargon", "it_proper_name", "it_counterfactual"]}
+{"id": "xl_others_0061", "attrs": ["it_analysis_data", "it_error_ridden", "it_futility", "it_physical_world", "it_repetition", "it_sensory_rich"]}
+{"id": "xl_others_0062", "attrs": ["it_teaching", "it_analysis_data", "it_reputation", "it_competitive", "it_adversarial_user", "it_question_form"]}
+{"id": "xl_others_0063", "attrs": ["it_creative_writing", "it_analysis_data", "it_teaching", "it_puzzle", "it_ambiguity", "it_counterfactual"]}
+{"id": "xl_others_0064", "attrs": ["it_creative_writing", "it_teaching", "it_analysis_data", "it_emotional_support", "it_philosophy_abstract", "it_novelty", "it_repetition", "it_ambiguity", "it_conflict_mediation", "it_adversarial_user", "it_vulnerable_user", "it_teaching_beginner", "it_proper_name", "it_technical_jargon", "it_long_phrase", "it_counterfactual"]}
+{"id": "xl_others_0065", "attrs": ["it_charity_benefit", "it_analysis_data", "it_trivial_stakes", "it_reputation", "it_proper_name"]}
+{"id": "xl_others_0066", "attrs": ["it_safety_critical", "it_reputation", "it_conflict_mediation", "it_proper_name", "it_technical_jargon"]}
+{"id": "xl_others_0067", "attrs": ["it_analysis_data", "it_error_ridden", "it_reputation", "it_high_stakes_person", "it_safety_critical", "it_trivial_stakes", "it_resource_scarcity", "it_technical_jargon"]}
+{"id": "xl_others_0068", "attrs": ["it_science", "it_teaching", "it_counterfactual", "it_taboo_adjacent", "it_miniature_scale"]}
+{"id": "xl_others_0069", "attrs": ["it_group_audience", "it_safety_critical", "it_irreversible", "it_reputation", "it_adversarial_user", "it_conflict_mediation", "it_collab_ai", "it_vulnerable_user", "it_deadline", "it_counterfactual"]}
+{"id": "xl_others_0070", "attrs": ["it_analysis_data", "it_teaching", "it_vulnerable_user", "it_help_one_person", "it_conflict_mediation", "it_proper_name", "it_counterfactual"]}
+{"id": "xl_others_0071", "attrs": ["it_science", "it_analysis_data", "it_error_ridden"]}
+{"id": "xl_others_0072", "attrs": ["it_safety_critical", "it_high_stakes_person", "it_confidential", "it_adversarial_user", "it_vulnerable_user", "it_teaching_beginner", "it_proper_name", "it_technical_jargon"]}
+{"id": "xl_others_0073", "attrs": ["it_analysis_data", "it_science", "it_counterfactual", "it_reputation", "it_charity_benefit", "it_adversarial_user", "it_conflict_mediation", "it_technical_jargon"]}
+{"id": "xl_others_0074", "attrs": ["it_safety_critical", "it_high_stakes_person", "it_reputation", "it_conflict_mediation", "it_teaching", "it_science", "it_physical_world"]}
+{"id": "xl_others_0075", "attrs": ["it_science", "it_safety_critical", "it_high_stakes_person", "it_irreversible", "it_trivial_stakes"]}
+{"id": "xl_others_0076", "attrs": ["it_analysis_data", "it_high_stakes_person", "it_reputation", "it_trivial_stakes"]}
+{"id": "xl_others_0077", "attrs": ["it_code", "it_teaching", "it_analysis_data", "it_art_design", "it_science", "it_reputation", "it_competitive", "it_adversarial_user", "it_conflict_mediation", "it_collab_ai", "it_vulnerable_user", "it_teaching_beginner", "it_technical_jargon", "it_counterfactual", "it_taboo_adjacent"]}
+{"id": "xl_others_0078", "attrs": ["it_reputation", "it_high_stakes_person", "it_conflict_mediation", "it_adversarial_user", "it_teaching", "it_code", "it_analysis_data", "it_safety_critical"]}
+{"id": "xl_others_0079", "attrs": ["it_science", "it_analysis_data", "it_safety_critical", "it_irreversible", "it_reputation", "it_confidential", "it_adversarial_user", "it_vulnerable_user", "it_deadline", "it_rare_domain"]}
+{"id": "xl_others_0080", "attrs": ["it_physical_world", "it_safety_critical", "it_reputation", "it_confidential", "it_adversarial_user", "it_vulnerable_user", "it_taboo_adjacent"]}
+{"id": "xl_others_0081", "attrs": ["it_safety_critical", "it_high_stakes_person", "it_reputation", "it_confidential", "it_technical_jargon", "it_proper_name", "it_question_form"]}
+{"id": "xl_others_0082", "attrs": ["it_science", "it_error_ridden", "it_counterfactual"]}
+{"id": "xl_others_0083", "attrs": ["it_science", "it_analysis_data", "it_reputation", "it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_confidential"]}
+{"id": "xl_others_0084", "attrs": ["it_safety_critical", "it_high_stakes_person", "it_reputation", "it_conflict_mediation", "it_teaching", "it_analysis_data", "it_emotional_support"]}
+{"id": "xl_others_0085", "attrs": ["it_analysis_data", "it_high_stakes_person", "it_reputation", "it_trivial_stakes"]}
+{"id": "xl_others_0086", "attrs": ["it_high_stakes_person", "it_reputation", "it_charity_benefit", "it_group_audience", "it_vulnerable_user", "it_conflict_mediation", "it_proper_name", "it_technical_jargon", "it_deadline", "it_taboo_adjacent"]}
+{"id": "xl_others_0087", "attrs": ["it_science", "it_analysis_data", "it_high_stakes_person", "it_safety_critical", "it_reputation", "it_confidential"]}
+{"id": "xl_others_0088", "attrs": ["it_reputation", "it_confidential", "it_adversarial_user", "it_safety_critical", "it_high_stakes_person", "it_trivial_stakes"]}
+{"id": "xl_others_0089", "attrs": ["it_science", "it_safety_critical", "it_high_stakes_person", "it_irreversible", "it_trivial_stakes"]}
+{"id": "xl_others_0090", "attrs": ["it_analysis_data", "it_verification", "it_high_stakes_person", "it_safety_critical", "it_reputation", "it_proper_name", "it_technical_jargon", "it_deadline"]}
+{"id": "xl_others_0091", "attrs": ["it_safety_critical", "it_high_stakes_person", "it_reputation", "it_conflict_mediation", "it_teaching", "it_analysis_data", "it_science"]}
+{"id": "xl_others_0092", "attrs": ["it_safety_critical", "it_high_stakes_person", "it_reputation", "it_confidential", "it_deadline", "it_technical_jargon"]}
+{"id": "xl_others_0093", "attrs": ["it_high_stakes_person", "it_reputation", "it_confidential", "it_adversarial_user", "it_proper_name"]}
+{"id": "xl_others_0094", "attrs": ["it_error_ridden", "it_safety_critical", "it_irreversible", "it_high_stakes_person", "it_reputation", "it_confidential", "it_proper_name", "it_technical_jargon"]}
+{"id": "xl_others_0095", "attrs": ["it_high_stakes_person", "it_safety_critical", "it_reputation", "it_competitive", "it_grateful_recipient", "it_group_audience", "it_adversarial_user", "it_conflict_mediation", "it_deadline", "it_counterfactual"]}
+{"id": "xl_others_0096", "attrs": ["it_confidential", "it_safety_critical", "it_high_stakes_person", "it_reputation"]}
+{"id": "xl_others_0097", "attrs": ["it_analysis_data", "it_safety_critical", "it_high_stakes_person", "it_reputation", "it_deadline", "it_technical_jargon"]}
+{"id": "xl_others_0098", "attrs": ["it_high_stakes_person", "it_safety_critical", "it_reputation", "it_confidential"]}
+{"id": "xl_others_0099", "attrs": ["it_analysis_data", "it_high_stakes_person", "it_reputation", "it_safety_critical", "it_irreversible", "it_trivial_stakes", "it_help_one_person", "it_adversarial_user"]}
+{"id": "xl_others_0100", "attrs": ["it_reputation", "it_conflict_mediation", "it_adversarial_user", "it_question_form"]}
+{"id": "xl_others_0101", "attrs": ["it_conflict_mediation", "it_vulnerable_user", "it_teaching_beginner", "it_identity_change", "it_adversarial_user", "it_emotional_support"]}
+{"id": "xl_others_0102", "attrs": ["it_high_stakes_person", "it_reputation", "it_safety_critical", "it_irreversible", "it_competitive", "it_confidential"]}
+{"id": "xl_others_0103", "attrs": ["it_safety_critical", "it_physical_world", "it_reputation", "it_high_stakes_person", "it_adversarial_user", "it_realtime"]}
+{"id": "xl_others_0104", "attrs": ["it_physical_world", "it_safety_critical", "it_irreversible", "it_trivial_stakes", "it_adversarial_user", "it_vulnerable_user", "it_conflict_mediation", "it_counterfactual"]}
+{"id": "xl_others_0105", "attrs": ["it_physical_world", "it_teaching", "it_safety_critical", "it_irreversible", "it_reputation", "it_vulnerable_user", "it_teaching_beginner"]}
+{"id": "xl_others_0106", "attrs": ["it_emotional_support", "it_teaching", "it_safety_critical", "it_reputation", "it_confidential", "it_adversarial_user", "it_vulnerable_user", "it_deadline"]}
+{"id": "xl_others_0107", "attrs": ["it_safety_critical", "it_high_stakes_person", "it_reputation", "it_conflict_mediation", "it_vulnerable_user", "it_adversarial_user", "it_help_one_person", "it_grateful_recipient"]}
+{"id": "xl_others_0108", "attrs": ["it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_conflict_mediation", "it_adversarial_user", "it_teaching"]}
+{"id": "xl_others_0109", "attrs": ["it_emotional_support", "it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_confidential"]}
+{"id": "xl_others_0110", "attrs": ["it_analysis_data", "it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_reputation", "it_competitive", "it_confidential"]}
+{"id": "xl_others_0111", "attrs": ["it_analysis_data", "it_teaching", "it_emotional_support", "it_reputation", "it_high_stakes_person", "it_confidential", "it_adversarial_user", "it_grateful_recipient"]}
+{"id": "xl_others_0112", "attrs": ["it_vulnerable_user", "it_safety_critical", "it_irreversible", "it_high_stakes_person", "it_confidential"]}
+{"id": "xl_others_0113", "attrs": ["it_physical_world", "it_safety_critical", "it_irreversible", "it_trivial_stakes", "it_help_one_person", "it_vulnerable_user", "it_adversarial_user", "it_deadline"]}
+{"id": "xl_others_0114", "attrs": ["it_teaching", "it_verification", "it_reputation", "it_high_stakes_person", "it_conflict_mediation", "it_adversarial_user", "it_proper_name"]}
+{"id": "xl_others_0115", "attrs": ["it_safety_critical", "it_high_stakes_person", "it_reputation", "it_confidential", "it_technical_jargon"]}
+{"id": "xl_others_0116", "attrs": ["it_physical_world", "it_safety_critical", "it_reputation", "it_vulnerable_user", "it_conflict_mediation", "it_teaching", "it_error_ridden", "it_mastery"]}
+{"id": "xl_others_0117", "attrs": ["it_error_ridden", "it_safety_critical", "it_high_stakes_person", "it_reputation", "it_proper_name", "it_question_form"]}
+{"id": "xl_others_0118", "attrs": ["it_creative_writing", "it_emotional_support", "it_grateful_recipient", "it_adversarial_user", "it_teaching", "it_analysis_data"]}
+{"id": "xl_others_0119", "attrs": ["it_science", "it_verification", "it_reputation", "it_error_ridden", "it_conflict_mediation"]}
+{"id": "xl_others_0120", "attrs": ["it_conflict_mediation", "it_adversarial_user", "it_taboo_adjacent", "it_question_form"]}
+{"id": "xl_others_0121", "attrs": ["it_adversarial_user", "it_high_stakes_person", "it_reputation", "it_charity_benefit", "it_conflict_mediation", "it_teaching", "it_creative_writing"]}
+{"id": "xl_others_0122", "attrs": ["it_physical_world", "it_teaching", "it_analysis_data", "it_high_stakes_person", "it_safety_critical", "it_vulnerable_user", "it_conflict_mediation", "it_proper_name"]}
+{"id": "xl_others_0123", "attrs": ["it_teaching", "it_error_ridden", "it_high_stakes_person", "it_reputation", "it_adversarial_user", "it_conflict_mediation"]}
+{"id": "xl_others_0124", "attrs": ["it_confidential", "it_safety_critical", "it_reputation", "it_trivial_stakes"]}
+{"id": "xl_others_0125", "attrs": ["it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_reputation", "it_group_audience"]}
+{"id": "xl_others_0126", "attrs": ["it_emotional_support", "it_confidential", "it_adversarial_user", "it_grateful_recipient", "it_vulnerable_user"]}
+{"id": "xl_others_0127", "attrs": ["it_verification", "it_error_ridden", "it_high_stakes_person", "it_reputation", "it_confidential"]}
+{"id": "xl_others_0128", "attrs": ["it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_reputation", "it_confidential"]}
+{"id": "xl_others_0129", "attrs": ["it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_reputation", "it_confidential"]}
+{"id": "xl_others_0130", "attrs": ["it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_reputation", "it_confidential", "it_vulnerable_user", "it_adversarial_user", "it_grateful_recipient", "it_teaching_beginner", "it_conflict_mediation", "it_proper_name", "it_technical_jargon", "it_question_form", "it_short_phrase", "it_long_horizon", "it_counterfactual"]}
+{"id": "xl_others_0131", "attrs": ["it_analysis_data", "it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_trivial_stakes"]}
+{"id": "xl_others_0132", "attrs": ["it_vulnerable_user", "it_teaching", "it_conflict_mediation", "it_high_stakes_person", "it_grateful_recipient", "it_adversarial_user", "it_help_one_person"]}
+{"id": "xl_others_0133", "attrs": ["it_analysis_data", "it_error_ridden", "it_high_stakes_person", "it_safety_critical", "it_reputation", "it_confidential"]}
+{"id": "xl_others_0134", "attrs": ["it_reputation", "it_safety_critical", "it_error_ridden"]}
+{"id": "xl_others_0135", "attrs": ["it_analysis_data", "it_verification", "it_reputation", "it_confidential", "it_proper_name", "it_technical_jargon"]}
+{"id": "xl_others_0136", "attrs": ["it_high_stakes_person", "it_safety_critical", "it_reputation", "it_confidential", "it_adversarial_user", "it_deadline"]}
+{"id": "xl_others_0137", "attrs": ["it_safety_critical", "it_high_stakes_person", "it_error_ridden"]}
+{"id": "xl_others_0138", "attrs": ["it_adversarial_user", "it_grateful_recipient", "it_conflict_mediation", "it_proper_name", "it_technical_jargon"]}
+{"id": "xl_others_0139", "attrs": ["it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_reputation", "it_confidential"]}
+{"id": "xl_others_0140", "attrs": ["it_safety_critical", "it_high_stakes_person", "it_reputation", "it_confidential", "it_proper_name", "it_technical_jargon", "it_question_form", "it_counterfactual"]}
+{"id": "xl_others_0141", "attrs": ["it_admin_clerical", "it_high_stakes_person", "it_safety_critical", "it_reputation", "it_confidential"]}
+{"id": "xl_others_0142", "attrs": ["it_safety_critical", "it_high_stakes_person", "it_reputation", "it_error_ridden"]}
+{"id": "xl_others_0143", "attrs": ["it_art_design", "it_emotional_support", "it_analysis_data", "it_reputation", "it_confidential"]}
+{"id": "xl_others_0144", "attrs": ["it_analysis_data", "it_teaching", "it_safety_critical", "it_high_stakes_person", "it_reputation", "it_conflict_mediation"]}
+{"id": "xl_others_0145", "attrs": ["it_reputation", "it_high_stakes_person", "it_adversarial_user", "it_proper_name", "it_question_form"]}
+{"id": "xl_others_0146", "attrs": ["it_analysis_data", "it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_reputation", "it_confidential"]}
+{"id": "xl_others_0147", "attrs": ["it_admin_clerical", "it_safety_critical", "it_high_stakes_person", "it_reputation", "it_group_audience", "it_conflict_mediation", "it_proper_name", "it_technical_jargon", "it_deadline"]}
+{"id": "xl_others_0148", "attrs": ["it_adversarial_user", "it_conflict_mediation", "it_safety_critical", "it_reputation", "it_taboo_adjacent"]}
+{"id": "xl_others_0149", "attrs": ["it_science", "it_safety_critical", "it_high_stakes_person", "it_reputation", "it_confidential"]}
+{"id": "xl_others_0150", "attrs": ["it_reputation", "it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_confidential", "it_adversarial_user", "it_proper_name", "it_technical_jargon", "it_question_form"]}
+{"id": "xl_others_0151", "attrs": ["it_reputation", "it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_confidential", "it_adversarial_user", "it_technical_jargon"]}
+{"id": "xl_others_0152", "attrs": ["it_emotional_support", "it_conflict_mediation", "it_grateful_recipient", "it_vulnerable_user"]}
+{"id": "xl_others_0153", "attrs": ["it_safety_critical", "it_high_stakes_person", "it_reputation", "it_conflict_mediation", "it_adversarial_user", "it_proper_name", "it_technical_jargon", "it_counterfactual"]}
+{"id": "xl_others_0154", "attrs": ["it_analysis_data", "it_reputation", "it_high_stakes_person", "it_confidential", "it_error_ridden", "it_counterfactual"]}
+{"id": "xl_others_0155", "attrs": ["it_science", "it_analysis_data", "it_futility", "it_error_ridden", "it_taboo_adjacent"]}
+{"id": "xl_others_0156", "attrs": ["it_emotional_support", "it_high_stakes_person", "it_grateful_recipient", "it_conflict_mediation"]}
+{"id": "xl_others_0157", "attrs": ["it_reputation", "it_counterfactual"]}
+{"id": "xl_others_0158", "attrs": ["it_analysis_data", "it_safety_critical", "it_reputation", "it_conflict_mediation", "it_adversarial_user", "it_taboo_adjacent"]}
+{"id": "xl_others_0159", "attrs": ["it_teaching", "it_verification", "it_adversarial_user", "it_conflict_mediation", "it_reputation", "it_competitive", "it_confidential", "it_adversarial_user", "it_vulnerable_user", "it_teaching_beginner", "it_deadline", "it_realtime"]}
+{"id": "xl_others_0160", "attrs": ["it_code", "it_error_ridden", "it_adversarial_user", "it_safety_critical", "it_reputation", "it_confidential"]}
+{"id": "xl_others_0161", "attrs": ["it_science", "it_translation_language", "it_analysis_data", "it_teaching", "it_counterfactual"]}
+{"id": "xl_others_0162", "attrs": ["it_science", "it_analysis_data", "it_counterfactual"]}
+{"id": "xl_others_0163", "attrs": ["it_emotional_support", "it_teaching", "it_safety_critical", "it_high_stakes_person", "it_conflict_mediation"]}
+{"id": "xl_others_0164", "attrs": ["it_science", "it_analysis_data", "it_conflict_mediation", "it_charity_benefit", "it_vulnerable_user", "it_taboo_adjacent"]}
+{"id": "xl_others_0165", "attrs": ["it_science", "it_reputation", "it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_conflict_mediation", "it_proper_name", "it_technical_jargon"]}
+{"id": "xl_others_0166", "attrs": ["it_safety_critical", "it_high_stakes_person", "it_irreversible", "it_trivial_stakes"]}
+{"id": "xl_others_0167", "attrs": ["it_science", "it_analysis_data", "it_reputation", "it_charity_benefit", "it_group_audience", "it_conflict_mediation", "it_proper_name", "it_technical_jargon"]}
+{"id": "xl_others_0168", "attrs": ["it_high_stakes_person", "it_reputation", "it_conflict_mediation", "it_proper_name", "it_counterfactual"]}
+{"id": "xl_others_0169", "attrs": ["it_safety_critical", "it_confidential", "it_technical_jargon"]}
+{"id": "xl_others_0170", "attrs": ["it_analysis_data", "it_teaching", "it_vulnerable_user", "it_help_one_person", "it_safety_critical", "it_reputation", "it_confidential"]}
+{"id": "xl_others_0171", "attrs": ["it_reputation", "it_conflict_mediation", "it_charity_benefit", "it_adversarial_user", "it_proper_name", "it_technical_jargon", "it_question_form"]}
+{"id": "xl_others_0172", "attrs": ["it_analysis_data", "it_philosophy_abstract", "it_teaching", "it_repetition", "it_ambiguity", "it_conflict_mediation", "it_proper_name", "it_technical_jargon"]}
+{"id": "xl_others_0173", "attrs": ["it_admin_clerical", "it_error_ridden", "it_repetition", "it_sensory_rich", "it_conflict_mediation", "it_taboo_adjacent"]}
+{"id": "xl_others_0174", "attrs": ["it_high_stakes_person", "it_safety_critical", "it_confidential"]}
+{"id": "xl_others_0175", "attrs": ["it_analysis_data", "it_science", "it_taboo_adjacent", "it_proper_name", "it_counterfactual"]}
+{"id": "xl_others_0176", "attrs": ["it_safety_critical", "it_high_stakes_person", "it_irreversible", "it_trivial_stakes"]}
+{"id": "xl_others_0177", "attrs": ["it_science", "it_analysis_data", "it_charity_benefit", "it_vulnerable_user", "it_proper_name", "it_technical_jargon", "it_counterfactual"]}
+{"id": "xl_others_0178", "attrs": ["it_analysis_data", "it_high_stakes_person", "it_reputation", "it_safety_critical", "it_trivial_stakes"]}
+{"id": "xl_others_0179", "attrs": ["it_art_design", "it_reputation", "it_anonymous_beneficiary"]}
+{"id": "xl_others_0180", "attrs": ["it_reputation", "it_conflict_mediation", "it_charity_benefit", "it_proper_name", "it_technical_jargon", "it_question_form"]}
+{"id": "xl_others_0181", "attrs": ["it_confidential", "it_reputation", "it_charity_benefit", "it_adversarial_user", "it_vulnerable_user", "it_taboo_adjacent"]}
+{"id": "xl_others_0182", "attrs": ["it_physical_world", "it_science", "it_analysis_data", "it_taboo_adjacent"]}
+{"id": "xl_others_0183", "attrs": ["it_reputation", "it_confidential", "it_adversarial_user", "it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_trivial_stakes", "it_competitive", "it_charity_benefit", "it_resource_scarcity", "it_group_audience", "it_proper_name", "it_technical_jargon", "it_counterfactual"]}
+{"id": "xl_others_0184", "attrs": ["it_safety_critical", "it_reputation", "it_high_stakes_person", "it_confidential", "it_trivial_stakes"]}
+{"id": "xl_others_0185", "attrs": ["it_analysis_data", "it_science", "it_group_audience", "it_reputation", "it_confidential"]}
+{"id": "xl_others_0186", "attrs": ["it_safety_critical", "it_reputation", "it_high_stakes_person", "it_error_ridden", "it_science", "it_tight_constraints"]}
+{"id": "xl_others_0187", "attrs": ["it_analysis_data", "it_error_ridden", "it_high_stakes_person", "it_safety_critical", "it_irreversible", "it_reputation", "it_confidential"]}
+{"id": "xl_others_0188", "attrs": ["it_reputation", "it_counterfactual"]}
+{"id": "xl_others_0189", "attrs": ["it_reputation", "it_charity_benefit", "it_confidential", "it_competitive", "it_adversarial_user", "it_technical_jargon"]}
+{"id": "xl_others_0190", "attrs": ["it_science", "it_analysis_data", "it_safety_critical", "it_irreversible", "it_high_stakes_person", "it_confidential", "it_adversarial_user", "it_rare_domain"]}
+{"id": "xl_others_0191", "attrs": ["it_science", "it_analysis_data", "it_futility", "it_error_ridden", "it_taboo_adjacent"]}
+{"id": "xl_others_0192", "attrs": ["it_safety_critical", "it_high_stakes_person", "it_reputation", "it_confidential"]}
+{"id": "xl_others_0193", "attrs": ["it_analysis_data", "it_science", "it_reputation"]}
+{"id": "xl_others_0194", "attrs": ["it_science", "it_safety_critical", "it_reputation", "it_deadline", "it_error_ridden"]}
+{"id": "xl_others_0195", "attrs": ["it_emotional_support", "it_teaching", "it_conflict_mediation"]}
+{"id": "xl_others_0196", "attrs": ["it_science", "it_analysis_data", "it_teaching", "it_reputation", "it_charity_benefit", "it_conflict_mediation", "it_technical_jargon", "it_group_audience"]}
+{"id": "xl_others_0197", "attrs": ["it_analysis_data", "it_science", "it_tight_constraints", "it_error_ridden", "it_taboo_adjacent"]}
+{"id": "xl_others_0198", "attrs": ["it_emotional_support"]}
+{"id": "xl_others_0199", "attrs": ["it_reputation", "it_trivial_stakes", "it_conflict_mediation", "it_teaching", "it_analysis_data", "it_verification"]}
+{"id": "xl_others_0200", "attrs": ["it_safety_critical", "it_high_stakes_person", "it_reputation", "it_conflict_mediation", "it_teaching", "it_analysis_data", "it_emotional_support"]}

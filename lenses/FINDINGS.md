@@ -4,7 +4,10 @@ Narrative results for the j-lens / r-lens fits (see README for methods and
 commands). Fits cover all layers of Llama-3.1-8B-Instruct,
 Qwen2.5-7B-Instruct, and Qwen3-4B-Instruct-2507; every sanity suite passes
 (forward bit-identical under the LRP rules; final-layer Jacobian = identity
-to ≤6e-8; merge and resume exact). The headline applications below come from
+to ≤6e-8; merge and resume exact). Qwen2.5-32B has a j-lens only, fit at
+dim-batch 8 and deliberately stopped at 80/100 prompts (checkpoint kept, so
+the fit can be resumed and re-averaged; `results/qwen25-32b/fit_jlens.json`
+records the partial provenance); its r-fit is deferred. The headline applications below come from
 the P1 experiment's Stage-2 emotion vectors (`../p1`), where the lenses were
 used to re-run the vector-identity check and to read individual vectors
 (`../p1/results/stage2/lens_check.txt`, `lens_readouts.md`).
@@ -21,6 +24,22 @@ raw readouts were already decent (9–11/12) and saturate to 12/12 under
 either transport. Conclusion: mid-stack "uninterpretable" logit-lens output
 can be pure basis rotation, fully recoverable by a fitted linear transport —
 worth checking before concluding a direction is noisy.
+
+## 1b. The 32B splits the rescue by depth — and sets up the r-lens test
+
+On Qwen2.5-32B (partial j-lens, 80 prompts) the transport rescue reproduces
+at the deep working layers — L41 3→9/12 (effectively ~11/12: two "misses"
+are correct Chinese tokens, calm→宁静/平静, nervous→紧张) and L48 8→11 —
+but at the 0.5-depth layer L32 the j-lens *underperforms* the raw readout
+(8→6/12). This is the first model in the set where the j-lens loses to raw
+anywhere, and it happens exactly in the early-layer regime the r-lens is
+built for (§2). The deferred 32B r-fit therefore carries a concrete
+prediction: it should restore L32 to ≥ raw while matching j at L41/L48.
+(Caveats: the fit is partial, and 64 layers of Jacobian error accumulate
+further at 0.5 depth than in the smaller models.) Echo of §3: the 32B's
+'nervous' j-readout at L41 is again a suspicion/safety register
+(可疑/安全 alongside 紧张), and 'guilty' transports to repentance/morality
+(忏/赎/道德) — the negative-affect register drift is not a 4B quirk.
 
 ## 2. r-lens earns its early-layer claim, with texture
 
