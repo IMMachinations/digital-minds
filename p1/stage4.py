@@ -42,7 +42,7 @@ import stage1x
 from pairs import TEMPLATES_GENERIC
 from stage2 import EMOTIONS, out_dir as s2_dir
 
-SUBJECTS = ["llama31-8b", "qwen25-7b", "qwen3-4b"]
+SUBJECTS = ["llama31-8b", "qwen25-7b", "qwen3-4b", "qwen25-32b"]
 RATER = "qwen25-32b"
 COEFS = [0.25, 0.5, 1.0]
 NORMS = load_json(P1 / "items" / "emotion_norms.json")

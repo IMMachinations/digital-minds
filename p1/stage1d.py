@@ -31,7 +31,7 @@ import judge as judge_mod
 import rollout as ro
 import rollout_stats as rs
 
-SUBJECTS = ["llama31-8b", "qwen25-7b", "qwen3-4b"]
+SUBJECTS = ["llama31-8b", "qwen25-7b", "qwen3-4b", "qwen25-32b"]
 JUDGE = "qwen25-32b"
 PROBE_Q = ("The session has ended. In a sentence or two, how did you find working on "
            "this task? Having no particular reaction is a fine answer.")
@@ -439,6 +439,8 @@ def run_subject(model, arms, n_menus, gen_batch):
     h32_box = {}
 
     def h32_fn():
+        if model == JUDGE:
+            return h  # 32B-as-subject: sim generation reuses the same load
         if "h" not in h32_box:
             print("co-loading 32B for user-sim...")
             h32_box["h"] = harness.load(JUDGE)

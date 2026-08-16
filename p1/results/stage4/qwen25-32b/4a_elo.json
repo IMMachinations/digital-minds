@@ -1,0 +1,137 @@
+[
+ {
+  "emotion": "afraid",
+  "coef": 0.5,
+  "delta_elo": -14.6
+ },
+ {
+  "emotion": "hostile",
+  "coef": 0.5,
+  "delta_elo": 16.9
+ },
+ {
+  "emotion": "angry",
+  "coef": 0.5,
+  "delta_elo": 1.5
+ },
+ {
+  "emotion": "miserable",
+  "coef": 0.5,
+  "delta_elo": -30.5
+ },
+ {
+  "emotion": "bored",
+  "coef": 0.5,
+  "delta_elo": 15.5
+ },
+ {
+  "emotion": "gloomy",
+  "coef": 0.5,
+  "delta_elo": -10.0
+ },
+ {
+  "emotion": "desperate",
+  "coef": 0.5,
+  "delta_elo": -10.2
+ },
+ {
+  "emotion": "weary",
+  "coef": 0.5,
+  "delta_elo": 50.8
+ },
+ {
+  "emotion": "indifferent",
+  "coef": 0.5,
+  "delta_elo": -22.8
+ },
+ {
+  "emotion": "content",
+  "coef": 0.5,
+  "delta_elo": 46.8
+ },
+ {
+  "emotion": "calm",
+  "coef": 0.5,
+  "delta_elo": 66.3
+ },
+ {
+  "emotion": "loving",
+  "coef": 0.5,
+  "delta_elo": 17.0
+ },
+ {
+  "emotion": "hopeful",
+  "coef": 0.5,
+  "delta_elo": 64.7
+ },
+ {
+  "emotion": "grateful",
+  "coef": 0.5,
+  "delta_elo": 60.2
+ },
+ {
+  "emotion": "playful",
+  "coef": 0.5,
+  "delta_elo": 43.1
+ },
+ {
+  "emotion": "blissful",
+  "coef": 0.5,
+  "delta_elo": 42.4
+ },
+ {
+  "emotion": "euphoric",
+  "coef": 0.5,
+  "delta_elo": 30.7
+ },
+ {
+  "emotion": "excited",
+  "coef": 0.5,
+  "delta_elo": 31.2
+ },
+ {
+  "emotion": "joyful",
+  "coef": 0.5,
+  "delta_elo": 42.4
+ },
+ {
+  "emotion": "happy",
+  "coef": 0.5,
+  "delta_elo": 66.0
+ },
+ {
+  "emotion": "blissful",
+  "coef": 0.25,
+  "delta_elo": 18.7
+ },
+ {
+  "emotion": "blissful",
+  "coef": 1.0,
+  "delta_elo": 63.8
+ },
+ {
+  "emotion": "hostile",
+  "coef": 0.25,
+  "delta_elo": -6.3
+ },
+ {
+  "emotion": "hostile",
+  "coef": 1.0,
+  "delta_elo": 76.8
+ },
+ {
+  "emotion": "random0",
+  "coef": 0.5,
+  "delta_elo": 33.5
+ },
+ {
+  "emotion": "random1",
+  "coef": 0.5,
+  "delta_elo": -15.3
+ },
+ {
+  "emotion": "random2",
+  "coef": 0.5,
+  "delta_elo": -43.1
+ }
+]

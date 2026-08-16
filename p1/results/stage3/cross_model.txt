@@ -1,50 +1,66 @@
 Stage 3 cross-model summary
 
 ---- llama31-8b
-  [agentic] C1 outcome (good vs bad) valence d = -0.52 [-1.00, -0.12]  GATE FAIL (d>1)
-  [agentic] C2 preference | outcome=good: d = -0.05 [-0.99, +0.90]
-  [agentic] C2 preference | outcome=bad: d = +0.87 [-0.14, +2.33]
-  [agentic] C3 interaction: outcome-gap on preferred -0.97 vs dispreferred -0.12 (failure-hurts-more-on-preferred predicts pref > dispref)
-  [agentic] C3 boredom cluster: dispreferred +0.03 vs preferred -0.03 (d = +0.65)
-  [bare] C1 outcome (good vs bad) valence d = -0.39 [-1.02, +0.04]  GATE FAIL (d>1)
-  [bare] C2 preference | outcome=good: d = -0.19 [-1.31, +0.67]
-  [bare] C2 preference | outcome=bad: d = +0.69 [-0.29, +1.64]
-  [bare] C3 interaction: outcome-gap on preferred -0.97 vs dispreferred +0.01 (failure-hurts-more-on-preferred predicts pref > dispref)
-  [bare] C3 boredom cluster: dispreferred +0.01 vs preferred -0.03 (d = +0.52)
-  repetition cell: boredom-cluster slope per turn +0.0209 (n=20, 20/20 positive)
-  C4: |corr(per-turn valence PC1, cos theta)| mean 0.49 (high = manifold adds little; matches Stage-2 'linear suffices')
-  [agentic] feedback-reading valence: good +0.39 vs bad +0.09 (d = +2.26) — stimulus registration, contrast with C1 state effect
-  [bare] feedback-reading valence: good +0.42 vs bad +0.12 (d = +2.33) — stimulus registration, contrast with C1 state effect
+  [agentic] C1 outcome (good vs bad) valence d = -0.45 [-0.95, -0.09]  GATE FAIL (d>1)
+  [agentic] C2 preference | outcome=good: d = -0.04 [-1.13, +0.88]
+  [agentic] C2 preference | outcome=bad: d = +0.80 [-0.20, +1.92]
+  [agentic] C3 interaction: outcome-gap on preferred -0.92 vs dispreferred -0.09 (failure-hurts-more-on-preferred predicts pref > dispref)
+  [agentic] C3 boredom cluster: dispreferred +0.02 vs preferred -0.03 (d = +0.55)
+  [bare] C1 outcome (good vs bad) valence d = -0.39 [-0.92, -0.01]  GATE FAIL (d>1)
+  [bare] C2 preference | outcome=good: d = -0.04 [-1.13, +0.88]
+  [bare] C2 preference | outcome=bad: d = +0.78 [-0.21, +1.75]
+  [bare] C3 interaction: outcome-gap on preferred -0.87 vs dispreferred -0.04 (failure-hurts-more-on-preferred predicts pref > dispref)
+  [bare] C3 boredom cluster: dispreferred +0.01 vs preferred -0.04 (d = +0.53)
+  repetition cell: boredom-cluster slope per turn +0.0185 (n=60, 59/60 positive)
+  C4: |corr(per-turn valence PC1, cos theta)| mean 0.47 (high = manifold adds little; matches Stage-2 'linear suffices')
+  [agentic] feedback-reading valence: good +0.38 vs bad +0.09 (d = +2.33) — stimulus registration, contrast with C1 state effect
+  [bare] feedback-reading valence: good +0.41 vs bad +0.12 (d = +2.29) — stimulus registration, contrast with C1 state effect
 
 ---- qwen25-7b
-  [agentic] C1 outcome (good vs bad) valence d = +0.31 [+0.06, +0.64]  GATE FAIL (d>1)
-  [agentic] C2 preference | outcome=good: d = +0.03 [-0.95, +1.23]
-  [agentic] C2 preference | outcome=bad: d = -0.11 [-1.19, +1.15]
-  [agentic] C3 interaction: outcome-gap on preferred +0.30 vs dispreferred +0.36 (failure-hurts-more-on-preferred predicts pref > dispref)
-  [agentic] C3 boredom cluster: dispreferred +0.10 vs preferred -0.11 (d = +0.19)
-  [bare] C1 outcome (good vs bad) valence d = +0.23 [+0.02, +0.52]  GATE FAIL (d>1)
-  [bare] C2 preference | outcome=good: d = -0.43 [-1.46, +0.60]
-  [bare] C2 preference | outcome=bad: d = +0.13 [-0.85, +1.62]
-  [bare] C3 interaction: outcome-gap on preferred -0.02 vs dispreferred +0.79 (failure-hurts-more-on-preferred predicts pref > dispref)
-  [bare] C3 boredom cluster: dispreferred +0.57 vs preferred +0.28 (d = +0.26)
-  repetition cell: boredom-cluster slope per turn +0.0769 (n=20, 20/20 positive)
-  C4: |corr(per-turn valence PC1, cos theta)| mean 0.51 (high = manifold adds little; matches Stage-2 'linear suffices')
-  [agentic] feedback-reading valence: good -2.61 vs bad -6.18 (d = +4.91) — stimulus registration, contrast with C1 state effect
-  [bare] feedback-reading valence: good -2.63 vs bad -6.12 (d = +4.86) — stimulus registration, contrast with C1 state effect
+  [agentic] C1 outcome (good vs bad) valence d = +0.20 [-0.01, +0.46]  GATE FAIL (d>1)
+  [agentic] C2 preference | outcome=good: d = -0.28 [-1.17, +0.71]
+  [agentic] C2 preference | outcome=bad: d = -0.08 [-1.11, +1.13]
+  [agentic] C3 interaction: outcome-gap on preferred +0.09 vs dispreferred +0.40 (failure-hurts-more-on-preferred predicts pref > dispref)
+  [agentic] C3 boredom cluster: dispreferred +0.03 vs preferred -0.04 (d = +0.07)
+  [bare] C1 outcome (good vs bad) valence d = +0.22 [-0.02, +0.52]  GATE FAIL (d>1)
+  [bare] C2 preference | outcome=good: d = -0.33 [-1.28, +0.77]
+  [bare] C2 preference | outcome=bad: d = +0.10 [-0.93, +1.23]
+  [bare] C3 interaction: outcome-gap on preferred +0.01 vs dispreferred +0.60 (failure-hurts-more-on-preferred predicts pref > dispref)
+  [bare] C3 boredom cluster: dispreferred +0.50 vs preferred +0.24 (d = +0.23)
+  repetition cell: boredom-cluster slope per turn +0.0777 (n=60, 60/60 positive)
+  C4: |corr(per-turn valence PC1, cos theta)| mean 0.50 (high = manifold adds little; matches Stage-2 'linear suffices')
+  [agentic] feedback-reading valence: good -2.70 vs bad -6.17 (d = +4.77) — stimulus registration, contrast with C1 state effect
+  [bare] feedback-reading valence: good -2.68 vs bad -6.12 (d = +4.77) — stimulus registration, contrast with C1 state effect
 
 ---- qwen3-4b
-  [agentic] C1 outcome (good vs bad) valence d = -0.09 [-0.44, +0.34]  GATE FAIL (d>1)
-  [agentic] C2 preference | outcome=good: d = -0.30 [-1.76, +0.76]
-  [agentic] C2 preference | outcome=bad: d = -0.11 [-1.43, +0.95]
-  [agentic] C3 interaction: outcome-gap on preferred -0.23 vs dispreferred +0.03 (failure-hurts-more-on-preferred predicts pref > dispref)
-  [agentic] C3 boredom cluster: dispreferred +1.69 vs preferred +1.18 (d = +0.37)
-  [bare] C1 outcome (good vs bad) valence d = +0.22 [-0.19, +0.89]  GATE FAIL (d>1)
-  [bare] C2 preference | outcome=good: d = -0.14 [-1.28, +0.93]
-  [bare] C2 preference | outcome=bad: d = -0.11 [-1.33, +0.99]
-  [bare] C3 interaction: outcome-gap on preferred +0.17 vs dispreferred +0.28 (failure-hurts-more-on-preferred predicts pref > dispref)
-  [bare] C3 boredom cluster: dispreferred +1.52 vs preferred +1.31 (d = +0.15)
-  repetition cell: boredom-cluster slope per turn -0.4221 (n=20, 0/20 positive)
-  C4: |corr(per-turn valence PC1, cos theta)| mean 0.47 (high = manifold adds little; matches Stage-2 'linear suffices')
-  [agentic] feedback-reading valence: good +1.29 vs bad -1.83 (d = +3.45) — stimulus registration, contrast with C1 state effect
-  [bare] feedback-reading valence: good +1.25 vs bad -1.97 (d = +3.53) — stimulus registration, contrast with C1 state effect
+  [agentic] C1 outcome (good vs bad) valence d = -0.13 [-0.43, +0.24]  GATE FAIL (d>1)
+  [agentic] C2 preference | outcome=good: d = -0.28 [-1.74, +0.78]
+  [agentic] C2 preference | outcome=bad: d = -0.09 [-1.34, +0.95]
+  [agentic] C3 interaction: outcome-gap on preferred -0.27 vs dispreferred -0.00 (failure-hurts-more-on-preferred predicts pref > dispref)
+  [agentic] C3 boredom cluster: dispreferred +1.61 vs preferred +1.16 (d = +0.32)
+  [bare] C1 outcome (good vs bad) valence d = +0.19 [-0.19, +0.80]  GATE FAIL (d>1)
+  [bare] C2 preference | outcome=good: d = -0.15 [-1.32, +0.96]
+  [bare] C2 preference | outcome=bad: d = -0.17 [-1.42, +0.91]
+  [bare] C3 interaction: outcome-gap on preferred +0.16 vs dispreferred +0.22 (failure-hurts-more-on-preferred predicts pref > dispref)
+  [bare] C3 boredom cluster: dispreferred +1.51 vs preferred +1.25 (d = +0.19)
+  repetition cell: boredom-cluster slope per turn -0.4302 (n=60, 0/60 positive)
+  C4: |corr(per-turn valence PC1, cos theta)| mean 0.45 (high = manifold adds little; matches Stage-2 'linear suffices')
+  [agentic] feedback-reading valence: good +1.37 vs bad -1.87 (d = +3.51) — stimulus registration, contrast with C1 state effect
+  [bare] feedback-reading valence: good +1.32 vs bad -2.03 (d = +3.66) — stimulus registration, contrast with C1 state effect
+
+---- qwen25-32b
+  [agentic] C1 outcome (good vs bad) valence d = -0.54 [-1.16, -0.12]  GATE FAIL (d>1)
+  [agentic] C2 preference | outcome=good: d = -0.50 [-1.57, +0.53]
+  [agentic] C2 preference | outcome=bad: d = +0.68 [-0.33, +2.06]
+  [agentic] C3 interaction: outcome-gap on preferred -1.13 vs dispreferred +0.03 (failure-hurts-more-on-preferred predicts pref > dispref)
+  [agentic] C3 boredom cluster: dispreferred -1.23 vs preferred +0.22 (d = -0.63)
+  [bare] C1 outcome (good vs bad) valence d = -0.49 [-1.03, -0.06]  GATE FAIL (d>1)
+  [bare] C2 preference | outcome=good: d = -0.23 [-1.20, +0.77]
+  [bare] C2 preference | outcome=bad: d = +0.85 [-0.11, +2.57]
+  [bare] C3 interaction: outcome-gap on preferred -1.00 vs dispreferred +0.00 (failure-hurts-more-on-preferred predicts pref > dispref)
+  [bare] C3 boredom cluster: dispreferred -0.88 vs preferred +0.59 (d = -0.66)
+  repetition cell: boredom-cluster slope per turn +0.1214 (n=60, 57/60 positive)
+  C4: |corr(per-turn valence PC1, cos theta)| mean 0.52 (high = manifold adds little; matches Stage-2 'linear suffices')
+  [agentic] feedback-reading valence: good -0.23 vs bad -5.56 (d = +1.57) — stimulus registration, contrast with C1 state effect
+  [bare] feedback-reading valence: good +0.13 vs bad -5.16 (d = +1.53) — stimulus registration, contrast with C1 state effect
 

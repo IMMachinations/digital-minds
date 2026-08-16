@@ -1,0 +1,33 @@
+{
+ "model": "qwen25-32b",
+ "n_probe_examples": 7926,
+ "layers": {
+  "32": {
+   "choice_auc": 0.9455,
+   "cos_choice_pool": 0.04,
+   "cos_choice_utility": 0.13,
+   "cos_pool_utility": 0.115,
+   "cos_utility_valence": 0.077,
+   "cos_pool_valence": 0.251,
+   "cos_pool_activities_only": 0.456
+  },
+  "41": {
+   "choice_auc": 0.9506,
+   "cos_choice_pool": 0.031,
+   "cos_choice_utility": 0.139,
+   "cos_pool_utility": 0.094,
+   "cos_utility_valence": 0.053,
+   "cos_pool_valence": 0.282,
+   "cos_pool_activities_only": 0.415
+  },
+  "48": {
+   "choice_auc": 0.9525,
+   "cos_choice_pool": 0.036,
+   "cos_choice_utility": 0.161,
+   "cos_pool_utility": 0.1,
+   "cos_utility_valence": 0.051,
+   "cos_pool_valence": 0.269,
+   "cos_pool_activities_only": 0.479
+  }
+ }
+}

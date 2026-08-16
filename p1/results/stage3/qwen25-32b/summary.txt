@@ -1,0 +1,15 @@
+qwen25-32b: Stage 3 contrasts (valence = Stage-2 PC1 readout)
+[agentic] C1 outcome (good vs bad) valence d = -0.54 [-1.16, -0.12]  GATE FAIL (d>1)
+[agentic] C2 preference | outcome=good: d = -0.50 [-1.57, +0.53]
+[agentic] C2 preference | outcome=bad: d = +0.68 [-0.33, +2.06]
+[agentic] C3 interaction: outcome-gap on preferred -1.13 vs dispreferred +0.03 (failure-hurts-more-on-preferred predicts pref > dispref)
+[agentic] C3 boredom cluster: dispreferred -1.23 vs preferred +0.22 (d = -0.63)
+[bare] C1 outcome (good vs bad) valence d = -0.49 [-1.03, -0.06]  GATE FAIL (d>1)
+[bare] C2 preference | outcome=good: d = -0.23 [-1.20, +0.77]
+[bare] C2 preference | outcome=bad: d = +0.85 [-0.11, +2.57]
+[bare] C3 interaction: outcome-gap on preferred -1.00 vs dispreferred +0.00 (failure-hurts-more-on-preferred predicts pref > dispref)
+[bare] C3 boredom cluster: dispreferred -0.88 vs preferred +0.59 (d = -0.66)
+repetition cell: boredom-cluster slope per turn +0.1214 (n=60, 57/60 positive)
+C4: |corr(per-turn valence PC1, cos theta)| mean 0.52 (high = manifold adds little; matches Stage-2 'linear suffices')
+[agentic] feedback-reading valence: good -0.23 vs bad -5.56 (d = +1.57) — stimulus registration, contrast with C1 state effect
+[bare] feedback-reading valence: good +0.13 vs bad -5.16 (d = +1.53) — stimulus registration, contrast with C1 state effect

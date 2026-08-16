@@ -16,7 +16,7 @@ from lib.util import load_json, save_json
 import rollout_stats as rs
 import stage3
 
-SUBJECTS = ["llama31-8b", "qwen25-7b", "qwen3-4b"]
+SUBJECTS = ["llama31-8b", "qwen25-7b", "qwen3-4b", "qwen25-32b"]
 
 
 def swap2_events(model):

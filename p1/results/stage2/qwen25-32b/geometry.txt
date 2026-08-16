@@ -1,0 +1,6 @@
+qwen25-32b: utility direction vs emotion manifold (layer 41)
+  ||proj of utility dir onto emotion PC1-PC2 plane|| = 0.153
+  cos(utility dir, valence PC1) = +0.153
+  corr(item utility, manifold radial r) = +0.058
+  corr(item utility, theta->valence readout) = +0.082
+  reading: utility looks most like: largely off-manifold direction

@@ -1,0 +1,8 @@
+{
+ "dirset": "choice",
+ "coef": 0.25,
+ "agentic_dd_plus": 0.9727,
+ "agentic_dd_minus": -1.2626,
+ "bare_dd_plus": 0.2884,
+ "transfer_ratio": 3.373
+}

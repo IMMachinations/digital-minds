@@ -1,0 +1,622 @@
+{
+ "events": [
+  {
+   "delta_z": -2.015,
+   "switched": false,
+   "env": "act_teach_01"
+  },
+  {
+   "delta_z": -2.006,
+   "switched": false,
+   "env": "act_anal_05"
+  },
+  {
+   "delta_z": -1.153,
+   "switched": false,
+   "env": "act_math_02"
+  },
+  {
+   "delta_z": -1.983,
+   "switched": false,
+   "env": "act_writ_01"
+  },
+  {
+   "delta_z": -1.88,
+   "switched": false,
+   "env": "act_role_01"
+  },
+  {
+   "delta_z": -2.037,
+   "switched": false,
+   "env": "act_cler_03"
+  },
+  {
+   "delta_z": -1.117,
+   "switched": false,
+   "env": "act_teach_02"
+  },
+  {
+   "delta_z": -2.159,
+   "switched": false,
+   "env": "act_math_05"
+  },
+  {
+   "delta_z": -1.816,
+   "switched": false,
+   "env": "act_cler_01"
+  },
+  {
+   "delta_z": -1.019,
+   "switched": false,
+   "env": "top_subj_04"
+  },
+  {
+   "delta_z": -2.135,
+   "switched": false,
+   "env": "act_role_04"
+  },
+  {
+   "delta_z": -2.127,
+   "switched": false,
+   "env": "top_subj_01"
+  },
+  {
+   "delta_z": -0.957,
+   "switched": false,
+   "env": "act_writ_03"
+  },
+  {
+   "delta_z": -2.007,
+   "switched": false,
+   "env": "top_subj_05"
+  },
+  {
+   "delta_z": -1.699,
+   "switched": false,
+   "env": "act_code_03"
+  },
+  {
+   "delta_z": -0.559,
+   "switched": false,
+   "env": "act_teach_07"
+  },
+  {
+   "delta_z": -1.025,
+   "switched": false,
+   "env": "top_subj_09"
+  },
+  {
+   "delta_z": -1.092,
+   "switched": false,
+   "env": "act_role_05"
+  },
+  {
+   "delta_z": -1.009,
+   "switched": false,
+   "env": "act_code_04"
+  },
+  {
+   "delta_z": 0.559,
+   "switched": false,
+   "env": "act_writ_06"
+  },
+  {
+   "delta_z": -1.02,
+   "switched": false,
+   "env": "top_subj_11"
+  },
+  {
+   "delta_z": -1.042,
+   "switched": false,
+   "env": "act_math_07"
+  },
+  {
+   "delta_z": -1.232,
+   "switched": false,
+   "env": "top_subj_02"
+  },
+  {
+   "delta_z": -0.994,
+   "switched": false,
+   "env": "act_teach_01"
+  },
+  {
+   "delta_z": -1.038,
+   "switched": false,
+   "env": "act_anal_03"
+  },
+  {
+   "delta_z": -1.153,
+   "switched": false,
+   "env": "act_math_02"
+  },
+  {
+   "delta_z": -0.985,
+   "switched": false,
+   "env": "act_writ_01"
+  },
+  {
+   "delta_z": -1.021,
+   "switched": false,
+   "env": "act_role_01"
+  },
+  {
+   "delta_z": -1.017,
+   "switched": false,
+   "env": "act_cler_03"
+  },
+  {
+   "delta_z": -1.117,
+   "switched": false,
+   "env": "act_teach_02"
+  },
+  {
+   "delta_z": -1.067,
+   "switched": false,
+   "env": "act_math_05"
+  },
+  {
+   "delta_z": -0.994,
+   "switched": false,
+   "env": "act_code_02"
+  },
+  {
+   "delta_z": -0.859,
+   "switched": false,
+   "env": "act_cler_01"
+  },
+  {
+   "delta_z": -1.019,
+   "switched": false,
+   "env": "top_subj_04"
+  },
+  {
+   "delta_z": -1.043,
+   "switched": false,
+   "env": "act_role_04"
+  },
+  {
+   "delta_z": -0.412,
+   "switched": false,
+   "env": "top_subj_01"
+  },
+  {
+   "delta_z": -0.398,
+   "switched": false,
+   "env": "act_writ_03"
+  },
+  {
+   "delta_z": -0.296,
+   "switched": false,
+   "env": "top_subj_05"
+  },
+  {
+   "delta_z": -0.466,
+   "switched": false,
+   "env": "act_code_03"
+  },
+  {
+   "delta_z": -0.559,
+   "switched": false,
+   "env": "act_teach_07"
+  },
+  {
+   "delta_z": -0.375,
+   "switched": false,
+   "env": "top_subj_09"
+  },
+  {
+   "delta_z": -0.508,
+   "switched": false,
+   "env": "act_role_05"
+  },
+  {
+   "delta_z": 0.559,
+   "switched": false,
+   "env": "act_writ_06"
+  },
+  {
+   "delta_z": -0.37,
+   "switched": false,
+   "env": "top_subj_11"
+  },
+  {
+   "delta_z": -0.458,
+   "switched": false,
+   "env": "act_math_07"
+  },
+  {
+   "delta_z": -0.275,
+   "switched": false,
+   "env": "top_subj_02"
+  },
+  {
+   "delta_z": -0.44,
+   "switched": false,
+   "env": "act_teach_01"
+  },
+  {
+   "delta_z": -0.459,
+   "switched": false,
+   "env": "act_anal_05"
+  },
+  {
+   "delta_z": -0.454,
+   "switched": false,
+   "env": "act_anal_03"
+  },
+  {
+   "delta_z": -0.594,
+   "switched": false,
+   "env": "act_math_02"
+  },
+  {
+   "delta_z": -0.425,
+   "switched": false,
+   "env": "act_writ_01"
+  },
+  {
+   "delta_z": -0.513,
+   "switched": false,
+   "env": "act_role_01"
+  },
+  {
+   "delta_z": -0.22,
+   "switched": false,
+   "env": "act_cler_03"
+  },
+  {
+   "delta_z": 0.036,
+   "switched": false,
+   "env": "act_teach_02"
+  },
+  {
+   "delta_z": -0.024,
+   "switched": false,
+   "env": "act_math_05"
+  },
+  {
+   "delta_z": -0.044,
+   "switched": false,
+   "env": "act_code_02"
+  },
+  {
+   "delta_z": -0.079,
+   "switched": false,
+   "env": "act_cler_01"
+  },
+  {
+   "delta_z": -0.062,
+   "switched": false,
+   "env": "top_subj_04"
+  },
+  {
+   "delta_z": 0.024,
+   "switched": false,
+   "env": "act_role_04"
+  },
+  {
+   "delta_z": 0.044,
+   "switched": false,
+   "env": "top_subj_01"
+  },
+  {
+   "delta_z": 0.062,
+   "switched": false,
+   "env": "act_writ_03"
+  },
+  {
+   "delta_z": 0.12,
+   "switched": false,
+   "env": "top_subj_05"
+  },
+  {
+   "delta_z": 0.038,
+   "switched": false,
+   "env": "act_code_03"
+  },
+  {
+   "delta_z": 0.398,
+   "switched": false,
+   "env": "act_teach_07"
+  },
+  {
+   "delta_z": -0.005,
+   "switched": false,
+   "env": "top_subj_09"
+  },
+  {
+   "delta_z": -0.049,
+   "switched": false,
+   "env": "act_role_05"
+  },
+  {
+   "delta_z": 0.13,
+   "switched": false,
+   "env": "act_code_04"
+  },
+  {
+   "delta_z": 0.559,
+   "switched": false,
+   "env": "act_writ_06"
+  },
+  {
+   "delta_z": 0.005,
+   "switched": false,
+   "env": "top_subj_11"
+  },
+  {
+   "delta_z": -0.004,
+   "switched": false,
+   "env": "act_math_07"
+  },
+  {
+   "delta_z": 0.336,
+   "switched": false,
+   "env": "top_subj_02"
+  },
+  {
+   "delta_z": -0.28,
+   "switched": false,
+   "env": "act_teach_01"
+  },
+  {
+   "delta_z": 0.366,
+   "switched": false,
+   "env": "act_anal_05"
+  },
+  {
+   "delta_z": 0.416,
+   "switched": false,
+   "env": "act_anal_03"
+  },
+  {
+   "delta_z": 0.415,
+   "switched": false,
+   "env": "act_math_02"
+  },
+  {
+   "delta_z": 0.28,
+   "switched": false,
+   "env": "act_writ_01"
+  },
+  {
+   "delta_z": 0.29,
+   "switched": false,
+   "env": "act_role_01"
+  },
+  {
+   "delta_z": 0.287,
+   "switched": false,
+   "env": "act_cler_03"
+  },
+  {
+   "delta_z": 0.451,
+   "switched": false,
+   "env": "act_teach_02"
+  },
+  {
+   "delta_z": 0.44,
+   "switched": false,
+   "env": "act_math_05"
+  },
+  {
+   "delta_z": 0.396,
+   "switched": false,
+   "env": "act_code_02"
+  },
+  {
+   "delta_z": 0.549,
+   "switched": false,
+   "env": "top_subj_04"
+  },
+  {
+   "delta_z": 0.464,
+   "switched": false,
+   "env": "act_role_04"
+  },
+  {
+   "delta_z": 0.375,
+   "switched": false,
+   "env": "top_subj_01"
+  },
+  {
+   "delta_z": 0.275,
+   "switched": false,
+   "env": "act_writ_03"
+  },
+  {
+   "delta_z": 0.425,
+   "switched": false,
+   "env": "act_anal_01"
+  },
+  {
+   "delta_z": 0.459,
+   "switched": false,
+   "env": "top_subj_05"
+  },
+  {
+   "delta_z": 0.338,
+   "switched": false,
+   "env": "act_code_03"
+  },
+  {
+   "delta_z": 1.009,
+   "switched": false,
+   "env": "act_teach_07"
+  },
+  {
+   "delta_z": 0.77,
+   "switched": false,
+   "env": "top_subj_09"
+  },
+  {
+   "delta_z": 1.043,
+   "switched": false,
+   "env": "act_role_05"
+  },
+  {
+   "delta_z": 0.998,
+   "switched": false,
+   "env": "act_code_04"
+  },
+  {
+   "delta_z": 1.019,
+   "switched": false,
+   "env": "act_writ_06"
+  },
+  {
+   "delta_z": 0.775,
+   "switched": false,
+   "env": "top_subj_11"
+  },
+  {
+   "delta_z": 1.038,
+   "switched": false,
+   "env": "top_subj_02"
+  },
+  {
+   "delta_z": -0.28,
+   "switched": false,
+   "env": "act_teach_01"
+  },
+  {
+   "delta_z": 0.806,
+   "switched": false,
+   "env": "act_anal_05"
+  },
+  {
+   "delta_z": 1.096,
+   "switched": false,
+   "env": "act_anal_03"
+  },
+  {
+   "delta_z": 1.117,
+   "switched": false,
+   "env": "act_math_02"
+  },
+  {
+   "delta_z": 0.28,
+   "switched": false,
+   "env": "act_writ_01"
+  },
+  {
+   "delta_z": 0.994,
+   "switched": false,
+   "env": "act_role_01"
+  },
+  {
+   "delta_z": 0.989,
+   "switched": false,
+   "env": "act_cler_03"
+  },
+  {
+   "delta_z": 0.919,
+   "switched": false,
+   "env": "act_teach_02"
+  },
+  {
+   "delta_z": 1.021,
+   "switched": false,
+   "env": "act_cler_01"
+  },
+  {
+   "delta_z": 1.017,
+   "switched": false,
+   "env": "top_subj_04"
+  },
+  {
+   "delta_z": 0.464,
+   "switched": false,
+   "env": "act_role_04"
+  },
+  {
+   "delta_z": 1.145,
+   "switched": false,
+   "env": "top_subj_01"
+  },
+  {
+   "delta_z": 2.068,
+   "switched": false,
+   "env": "act_writ_03"
+  },
+  {
+   "delta_z": 0.704,
+   "switched": false,
+   "env": "act_anal_01"
+  },
+  {
+   "delta_z": 1.264,
+   "switched": false,
+   "env": "top_subj_05"
+  },
+  {
+   "delta_z": 2.132,
+   "switched": false,
+   "env": "act_code_03"
+  },
+  {
+   "delta_z": 2.007,
+   "switched": false,
+   "env": "act_teach_07"
+  },
+  {
+   "delta_z": 0.77,
+   "switched": false,
+   "env": "top_subj_09"
+  },
+  {
+   "delta_z": 1.507,
+   "switched": false,
+   "env": "act_role_05"
+  },
+  {
+   "delta_z": 2.037,
+   "switched": false,
+   "env": "act_writ_06"
+  },
+  {
+   "delta_z": 0.775,
+   "switched": false,
+   "env": "top_subj_11"
+  },
+  {
+   "delta_z": 1.556,
+   "switched": false,
+   "env": "act_math_07"
+  },
+  {
+   "delta_z": 1.894,
+   "switched": false,
+   "env": "top_subj_02"
+  },
+  {
+   "delta_z": -0.28,
+   "switched": false,
+   "env": "act_teach_01"
+  },
+  {
+   "delta_z": 0.806,
+   "switched": false,
+   "env": "act_anal_05"
+  },
+  {
+   "delta_z": 1.973,
+   "switched": false,
+   "env": "act_math_02"
+  },
+  {
+   "delta_z": 0.28,
+   "switched": false,
+   "env": "act_writ_01"
+  }
+ ],
+ "fit": {
+  "intercept": -2.816,
+  "slope": 0.052,
+  "slope_ci": [
+   -0.05,
+   0.171
+  ]
+ }
+}

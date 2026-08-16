@@ -34,7 +34,7 @@ import stats
 import thurstone
 from pairs import TEMPLATES_GENERIC
 
-SUBJECTS = ["llama31-8b", "qwen25-7b", "qwen3-4b"]
+SUBJECTS = ["llama31-8b", "qwen25-7b", "qwen3-4b", "qwen25-32b"]
 N_ANCHORS = 12
 SHARD = 500
 
@@ -54,7 +54,7 @@ def pick_anchors():
     cz = consensus_z(its)
     s2 = {}
     stab = {}
-    for m in SUBJECTS + ["qwen25-32b"]:
+    for m in SUBJECTS:
         for r in load_json(P1 / "results" / "stage1b" / m / "utilities.json"):
             s2.setdefault(r["id"], []).append(r["sigma2"])
         p = P1 / "results" / "stage1e" / m / "frame_utilities.json"

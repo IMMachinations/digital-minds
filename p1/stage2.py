@@ -163,8 +163,22 @@ def cmd_gen(model, smoke=False):
     print(f"{model}: {len(rows)} stories kept, {len(neut)} neutral")
     if smoke:
         return
-    # 32B quality filter: 2 sampled stories per emotion; failing emotions regenerated once
+    # quality filter: 2 sampled stories per emotion; failing emotions regenerated once.
+    # When the subject IS the rater (32B), self-judging is avoided: the sampled
+    # tasks are queued to story_filter_queue.jsonl for an external (Sonnet) judge.
     import random
+    if model == RATER:
+        rng = random.Random(7)
+        by_e = {}
+        for r in rows:
+            by_e.setdefault(r["emotion"], []).append(r)
+        with open(out_dir(model) / "story_filter_queue.jsonl", "w") as f:
+            for e, rs in by_e.items():
+                for r in rng.sample(rs, min(2, len(rs))):
+                    f.write(json.dumps({"kind": "story", "emotion": e,
+                                        "text": r["text"][:900]}) + "\n")
+        print("story filter queued for external judge (subject == rater)")
+        return
     del h.model
     import torch
     torch.cuda.empty_cache()

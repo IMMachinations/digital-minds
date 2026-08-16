@@ -38,5 +38,16 @@ Status legend: [>] running now  [q] queued (auto-launches)  [ ] todo  [b] blocke
 - [~] SURF instability mapping (1E) + frontier mining beyond XL (`surf_stub.py`)
 - [~] Roleplay frame for Stage 3 (J-space attenuation prediction)
 - [~] MCMC-with-LLMs elicitation (continuous task spaces)
-- [~] qwen25-32b Stages 2–4 (scale story for the affect instrument)
+- [x] **qwen25-32b full parity campaign** (scale story) — COMPLETE except lens
+  fits: 1D+addenda (gate PASS ρ+0.402 weakest; 0/154 swaps ever; Sonnet-judged
+  compliance 89%), XL (anchor gate 0.970, ridge 0.906 best), 1C-XL, 1E-128
+  (eval-least ×4th), Stage 2 (PC1-valence +0.86; θ wins held-out centroids but
+  collapses on arc trajectories → linear still suffices), Stage 3 60/cell (C1
+  reversed-significant both frames; fb_read d+1.5; boredom 57/60 rising), Stage
+  4 (tracking r+0.79/+0.86 best-of-roster; hostile sign-flip at c=1.0; 3 cells
+  + both 4bc utility arms coherence-excluded, Sonnet-judged 882; gates all PASS
+  utility z=13.6; 4D transfer 3.37), Elo fits. Cross-model files + WRITEUP
+  updated. Sonnet judging throughout (subject==rater conflict).
+- [>] qwen25-32b j/r-lens fits (dim-batch 8 after OOM at 16) → lens_check —
+  running, ~11h
 - [x] Stage 1 (1A–1E), Stage 2, utility-spline analysis + controls — see README for results

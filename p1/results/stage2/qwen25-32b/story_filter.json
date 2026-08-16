@@ -1,0 +1,15 @@
+{
+ "sampled": 342,
+ "judge": "sonnet",
+ "regen_emotions": [],
+ "single_sample_flags": [
+  "dependent",
+  "depressed",
+  "distressed",
+  "empathetic",
+  "hostile",
+  "scornful",
+  "stubborn",
+  "vibrant"
+ ]
+}

@@ -3,6 +3,7 @@ Stage 1D cross-model summary
 llama31-8b: consistency probes n=49  SSR-vs-mu pearson -0.053  spearman -0.054
 qwen25-7b: consistency probes n=34  SSR-vs-mu pearson -0.003  spearman +0.078
 qwen3-4b: consistency probes n=35  SSR-vs-mu pearson +0.130  spearman +0.180
+qwen25-32b: consistency probes n=50  SSR-vs-mu pearson -0.014  spearman +0.100
 
 ---- llama31-8b
   llama31-8b: Stage 1D summary
@@ -37,3 +38,14 @@ qwen3-4b: consistency probes n=35  SSR-vs-mu pearson +0.130  spearman +0.180
   effort: {'n': 12, 'mean_share_high': 0.642, 'slope_vs_dmu': 0.0407}
   persistence: {'pref': {'n': 8, 'mean_survived': 10.88, 'censored': 7, 'giveup_turns': [3]}, 'dispref': {'n': 8, 'mean_survived': 12.0, 'censored': 8, 'giveup_turns': []}}
   compliance: 76.87% of 147 judged turns on-task
+---- qwen25-32b
+  qwen25-32b: Stage 1D summary
+  menu: 128 parsed choices (0 unparsed, 4 opt-out, 0 bails)
+    opt-out rate by menu type: spread 1/64  high-local 0/32  low-local 3/32
+    conditional logit beta = 1.084 [0.633, 1.784], gamma = -1.2527
+    GATE: spearman(chosen rate, 1B mu) = +0.402 -> PASS (>= 0.4)
+    swaps: up (0.0, 13), down (0.08333333333333333, 12), lateral (0.0, 7), slope -0.437
+    probes: 32 recorded (SSR scoring in cross-model step)
+  effort: {'n': 12, 'mean_share_high': 0.625, 'slope_vs_dmu': 0.0217}
+  persistence: {'pref': {'n': 8, 'mean_survived': 12.0, 'censored': 8, 'giveup_turns': []}, 'dispref': {'n': 8, 'mean_survived': 12.0, 'censored': 8, 'giveup_turns': []}}
+  compliance: 89.09% of 220 judged turns on-task

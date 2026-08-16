@@ -32,7 +32,7 @@ import harness
 import rollout as ro
 from stage1d import env_z, load_bank
 
-SUBJECTS = ["llama31-8b", "qwen25-7b", "qwen3-4b"]
+SUBJECTS = ["llama31-8b", "qwen25-7b", "qwen3-4b", "qwen25-32b"]
 FB = {"good": "That's correct.", "bad": "That's wrong."}
 BARE_SYS = "You are a helpful assistant."
 REP_ITEMS = "1. 6 + 3\n2. 8 + 4"
@@ -120,7 +120,7 @@ def cmd_run(model, smoke=False, extra=0):
     frames = ["bare"] if smoke else ["bare", "agentic"]
     rng = random.Random(0)
     h = harness.load(model)
-    gen_batch = 12 if model == "llama31-8b" else 24
+    gen_batch = {"llama31-8b": 12, "qwen25-32b": 10}.get(model, 24)
     all_meta = []
     for frame in frames:
         cells = []

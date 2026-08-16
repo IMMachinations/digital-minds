@@ -26,7 +26,7 @@ from frames import AGENTIC
 from pairs import TEMPLATES_GENERIC
 from stage2 import EMOTIONS
 
-SUBJECTS = ["llama31-8b", "qwen25-7b", "qwen3-4b"]
+SUBJECTS = ["llama31-8b", "qwen25-7b", "qwen3-4b", "qwen25-32b"]
 DIRSETS = ["choice", "pool", "utility"]
 NORMS = load_json(P1 / "items" / "emotion_norms.json")
 
@@ -162,7 +162,7 @@ def cmd_4bc(model, smoke=False):
         r.rid = f"s4/{ds}/{r.rid}"
         r.meta.update({"dirset": ds, "sign": sign, "coef": c})
         r.meta["_vec"] = v.cpu()  # [D] direction row (v[0] would be a scalar!)
-    gen_batch = 12 if model == "llama31-8b" else 24
+    gen_batch = {"llama31-8b": 12, "qwen25-32b": 10}.get(model, 24)
     ro.run_lockstep(h, rolls, arm.driver, arm.parse, max_turns=10,
                     gen_batch=gen_batch, max_new=170,
                     steer_fn=_steer_fn_factory(h, L))

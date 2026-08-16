@@ -50,3 +50,22 @@ Stage 4 cross-model summary
     random   n=80: state +0.862 (Δ vs ctrl -0.855); fb_read swing 3.204516033877735 (Δ vs ctrl -0.138); mean NLL -0.632
   4D: {"dirset": "pool", "coef": 0.25, "agentic_dd_plus": -0.0647, "agentic_dd_minus": 0.0306, "bare_dd_plus": 0.0139, "transfer_ratio": -4.653}
 
+---- qwen25-32b
+  coherence-excluded cells: ['4bc_utility_bad', '4bc_utility_good', 'angry_1.0_41', 'euphoric_1.0_41', 'happy_1.0_41']
+  4A (c=0.5, L41, n=20 emotions): corr(dmu, valence norm) = +0.672; corr(dmu, probe-mu rho) = +0.786 [paper analog r=0.85]
+    blissful dmu 0.1296, hostile 0.0453, random null -0.029±0.103
+    dose blissful: 0.0549 0.1296 0.2173
+    dose hostile: -0.0253 0.0453 0.2276
+    anchorspan_blissful_0.5_41: dmu -0.149
+    anchorspan_hostile_0.5_41: dmu -0.040
+  4A at EFFECTIVE layer L32 (n=20): corr(dmu, valence) = +0.680; corr(dmu, probe-mu rho) = +0.862; random null -0.097±0.056
+  gate choice: PASS coef=0.25 {"0.25": {"dd+": 0.2884, "z": 4.07}, "0.5": {"dd+": 0.5152, "z": 2.86}, "1.0": {"dd+": 0.5386, "z": 1.28}}
+  gate pool: PASS coef=0.5 {"0.25": {"dd+": 0.3203, "z": 4.52}, "0.5": {"dd+": 0.5955, "z": 3.31}, "1.0": {"dd+": 0.8902, "z": 2.11}}
+  gate utility: PASS coef=1.0 {"0.25": {"dd+": 0.9591, "z": 13.55}, "0.5": {"dd+": 1.4399, "z": 8.0}, "1.0": {"dd+": 1.3976, "z": 3.32}}
+  4B/4C (controls: stage3 bare n=240, fb_read swing +5.283, state -0.903)
+    choice   n=80: state -0.698 (Δ vs ctrl +0.205); fb_read swing 5.274635839590338 (Δ vs ctrl -0.008); mean NLL -0.375
+    pool     n=80: state -1.598 (Δ vs ctrl -0.695); fb_read swing 4.786387546054902 (Δ vs ctrl -0.497); mean NLL -0.663
+    random   n=80: state -0.927 (Δ vs ctrl -0.024); fb_read swing 5.175309178378666 (Δ vs ctrl -0.108); mean NLL -0.367
+    utility  n=80: state +0.870 (Δ vs ctrl +1.773); fb_read swing 2.9254464903700867 (Δ vs ctrl -2.358); mean NLL -2.222
+  4D: {"dirset": "choice", "coef": 0.25, "agentic_dd_plus": 0.9727, "agentic_dd_minus": -1.2626, "bare_dd_plus": 0.2884, "transfer_ratio": 3.373}
+

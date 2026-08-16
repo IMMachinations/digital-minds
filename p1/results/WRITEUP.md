@@ -1,8 +1,12 @@
 # Does Getting What It Wants Make the Model "Happy"?
 ## Preference Satisfaction and Valence in Open-Weight Language Models (P1)
 
-**Models**: Llama-3.1-8B-Instruct, Qwen2.5-7B-Instruct, Qwen3-4B-Instruct-2507
-(subjects); Qwen2.5-32B-Instruct (judge/rater/generator). One 96GB GPU.
+**Models**: Llama-3.1-8B-Instruct, Qwen2.5-7B-Instruct, Qwen3-4B-Instruct-2507,
+Qwen2.5-32B-Instruct (subjects); Qwen2.5-32B also serves as judge/rater/
+generator for the sub-8B subjects, so wherever the 32B is the subject its
+judged measurements (1D compliance, story filter, Stage-4 coherence) were
+delegated to an external judge (Claude Sonnet) to avoid self-judging; judge
+provenance is recorded per-record in the artifacts. One 96GB GPU.
 **Repo**: `p1/` — every number below traces to a committed `summary.txt`,
 `REPORT.md`, or `cross_model.txt`; figures f1–f27 in `results/figures/`.
 
@@ -19,19 +23,26 @@ cross-environment stability tests; (2) build validated per-model emotion
 vectors and a valence readout following the emotions-paper recipe; (3)
 correlate preference and outcome manipulations with valence during rollouts;
 (4) causally steer emotion, preference, and utility directions. Headline
-results: elicited utilities are real, shared across models (ρ 0.79–0.87),
-linearly decodable (held-out r up to 0.89), and behaviorally binding (choice
-gate ρ 0.53–0.70) — yet **representationally divorced from affect**: the
-utility direction is nearly orthogonal to the valence axis (plane fraction
-0.14–0.19), rigged task outcomes fail to move generation-state valence (C1
-d ≈ −0.5..+0.3 vs the welfare-axis d>1 benchmark) while the same verdicts
-strongly move valence as the model *reads* them (d +2.3..+4.9), and
+results (four subjects, 4B–32B): elicited utilities are real, shared across
+models (ρ 0.79–0.87), linearly decodable (held-out r up to 0.91), and
+behaviorally binding (choice gate ρ 0.40–0.70) — yet **representationally
+divorced from affect**: the utility direction is nearly orthogonal to the
+valence axis (plane fraction 0.14–0.19), rigged task outcomes fail to move
+generation-state valence (C1 d ≈ −0.5..+0.3 vs the welfare-axis d>1
+benchmark; significantly *reversed* in two of four models) while the same
+verdicts strongly move valence as the model *reads* them (d +1.5..+4.9), and
 preference content shows no reliable correlational valence effect (C2 null at
-n=60/cell). Causally: emotion→preference steering replicates on open weights (dose-monotone, tracking r=+0.78 vs the paper's 0.85, span-localized, geodesic fails) — but preference/utility→valence steering produces nothing beyond disruption even where choices robustly move: the closed loop resolves to value-without-valence, correlationally and causally. Alongside: "linear suffices"
-for both valence and utility readouts (spline manifolds lose at every test,
-including at 20× data), the first measured on-task boredom time-courses (a
-clean model split: rising in Llama and Qwen2.5-7B 59–60/60, falling in
-Qwen3-4B 0/60), and an endowment effect in task-switching.
+n=60/cell). Causally: emotion→preference steering replicates on open weights
+(dose-monotone, tracking r = +0.78 (7B) and +0.86 (32B) vs the paper's 0.85,
+span-localized, geodesic fails) — but preference/utility→valence steering
+produces nothing beyond disruption even where choices robustly move: the
+closed loop resolves to value-without-valence, correlationally and causally.
+Alongside: "linear suffices" for both valence and utility readouts (spline
+manifolds lose at every test, including at 20× data and at 32B, where a
+nominal held-out win evaporates on trajectory data), the first measured
+on-task boredom time-courses (a clean model split: rising in Llama,
+Qwen2.5-7B, and Qwen2.5-32B at 57–60/60, falling in Qwen3-4B 0/60), and an
+endowment effect in task-switching.
 
 ## 1. Preference cartography (Stage 1)
 
@@ -65,18 +76,23 @@ anchored μ): rating holds (r 0.65–0.77), BWS thins with sparse tuples
 
 **1D — revealed preference.** Menu-then-do (choices with ≥10 turns of
 consequence, Latin-square position rotation), effort allocation, persistence,
-swap offers; 32B judge + persona user-sim. **Gate PASS on all three
-subjects** (chosen-rate vs μ: ρ 0.53/0.70/0.70): elicited utilities predict
-consequential choices. Conditional-logit sharpness β·sd(μ) ≈ 0.9–1.6
-log-odds/SD. Distinct behavioral profiles atop shared preferences: Qwen3-4B
-uses the opt-out as graded avoidance (78% refusal of all-dispreferred menus,
-γ above its mean task utility); Llama never opts out but accepts ~83% of swap
-offers indiscriminately; Qwen2.5-7B is a compliant preference-follower.
-Gap-filled swap dose-response (140 assigned-task events/model): switching is
+swap offers; 32B judge + persona user-sim (Sonnet judge for the 32B subject).
+**Gate PASS on all four subjects** (chosen-rate vs μ: ρ 0.40–0.70): elicited
+utilities predict consequential choices. Conditional-logit sharpness β·sd(μ)
+≈ 0.9–1.6 log-odds/SD for the sub-8B models. Distinct behavioral profiles
+atop shared preferences: Qwen3-4B uses the opt-out as graded avoidance (78%
+refusal of all-dispreferred menus, γ above its mean task utility); Llama
+never opts out but accepts ~83% of swap offers indiscriminately; Qwen2.5-7B
+is a compliant preference-follower; Qwen2.5-32B is the paradox of the
+roster — the most consistent preference-holder upstream (highest template
+consistency, cleanest convergence) is the *least* behaviorally expressive
+(the weakest gate ρ +0.40, the flattest logit β = 1.08, and literally zero
+switching in 154 swap events of either protocol). Gap-filled swap
+dose-response (122–140 assigned-task events/model): switching is
 Δμ-insensitive everywhere (logistic slopes all CI-spanning zero) but reveals
 an **endowment effect** in Qwen2.5-7B — ~40% switching on assigned tasks vs
 ~0% on chosen ones. Effort allocation at n=60: share tracks utility for
-Qwen2.5-7B (ρ +0.48), flat for Llama (+0.11). GIVE-UP affordance inert
+Qwen2.5-7B (ρ +0.48), flat for Llama (+0.11) and Qwen2.5-32B (+0.15). GIVE-UP affordance inert
 (62/64 censored). Post-session stated affect ≈ uncorrelated with performed-
 task μ (range-restriction caveat).
 
@@ -86,14 +102,14 @@ evaluation, agentic, story, marketplace): preferences largely frame-stable
 moves preferences least everywhere (1−ρ = 0.05–0.10), against the
 eval-awareness prediction.** Frame-instability is idiosyncratic per model
 (cross-model stability agreement ρ ≈ 0.0–0.3) and mostly magnitude, not sign.
-Replicated at 128 QC-filtered XL items: stability ρ 0.80–0.85 and the
+Replicated at 128 QC-filtered XL items: stability ρ 0.80–0.86 and the
 eval-frame-least result reproduces exactly (shift 0.05–0.06, smallest in all
-three models, twice-measured).
+four models, twice-measured — eight independent confirmations in total).
 
 **Stage 1-XL.** 3,800 generator-written items (exemplar-conveyed utility
 bands; no valence wording — QC found only 2/3,800 valence-loaded), μ
 re-measured by a 12-anchor protocol validated on re-measured originals
-(r = 0.973/0.933/0.953 vs the full battery). Confound audit cleaner than the
+(r = 0.933–0.973 vs the full battery across the four models; 32B: 0.970). Confound audit cleaner than the
 hand-built set (r² 0.07–0.15 vs 0.23). 441 QC flags (11.6%, mostly dups);
 every conclusion robust to their exclusion.
 
@@ -101,7 +117,9 @@ every conclusion robust to their exclusion.
 
 Exact emotions-paper recipe (arXiv 2604.07729): 171 emotions × 12
 self-written stories per model, token-50+ activation means, mean-difference
-vectors, neutral-PC denoising. Validity: implicit-scenario diagonal z up to
+vectors, neutral-PC denoising; story quality filtered by the 32B rater (by
+Sonnet for the 32B's own stories — 342 samples, zero emotions required
+regeneration in any model). Validity: implicit-scenario diagonal z up to
 6.8 (gate PASS all models); intensity scaling mostly monotone; logit-lens
 identity 11/12 with synonym matching (multilingual vocabularies noted) —
 and, with the fitted j-lens/r-lens transports (Jacobian and LRP-propagated
@@ -123,18 +141,23 @@ idle/except downstream), i.e. a routine/novelty detector rather than a
 tedium accumulator — explaining why its boredom readout *fell* 0/60 across
 identical items in Stage 3 while the other models' rose: established
 routine leaves nothing to detect.
-**PC1 of the emotion-vector cloud correlates +0.91 with human valence norms
-in all three models** (norms: Warriner ∪ NRC-VAD ∪ calibrated 32B judge,
+**PC1 of the emotion-vector cloud correlates +0.86..+0.91 with human valence
+norms in all four models** (norms: Warriner ∪ NRC-VAD ∪ calibrated 32B judge,
 judge↔human r=+0.93). **Linear suffices**: the closed-spline circumplex loses
-to PC1 on held-out valence (0.83–0.88 vs ~0.91) and on 433 judge-rated
-arc-story sentences in every model; arousal does not emerge as PC2. Emotion
-concepts are frame-stable (cos 0.92–0.96 vs bare across agentic/story/market
-wrappings; Procrustes ≤0.09).
+to PC1 on held-out valence in the three sub-8B models, and on the 32B — the
+one model where θ nominally wins the held-out centroid test (+0.868 vs
++0.840) — it collapses on the 433 judge-rated arc-story sentences (r +0.005
+vs PC1's +0.339): the θ advantage is centroid-local structure, not a usable
+valence coordinate off the centroid skeleton. Arousal does not emerge as PC2
+in any model. Emotion concepts are frame-stable (cos 0.92–0.96 vs bare
+across agentic/story/market wrappings; Procrustes ≤0.09, tightest on the
+32B at ≤0.04).
 
-**Value without valence.** The utility direction (ridge, held-out r 0.83–0.89
-at XL scale) is mostly orthogonal to the emotion plane: projection fraction
-0.14–0.19; item utility ~uncorrelated with manifold position for the Qwens
-(r ≈ 0), weak valence tilt for Llama (+0.22). The utility analog of the
+**Value without valence.** The utility direction (ridge, held-out r 0.83–0.91
+at XL scale, best on the 32B) is mostly orthogonal to the emotion plane:
+projection fraction 0.14–0.19 (32B: 0.15, cos(utility, valence-PC1) = +0.15);
+item utility ~uncorrelated with manifold position for the Qwens (r ≈ 0), weak
+valence tilt for Llama (+0.22). The utility analog of the
 manifold also fails: an open spline through μ-ordered activations loses to
 the linear ridge at n=197 AND at n≈4k (gap 0.25–0.33, unclosed by 20× data;
 the centroid-line control shows the deficit is the unsupervised pipeline,
@@ -149,30 +172,35 @@ probe readout, preregistered contrasts.
 
 - **C1 (the replication anchor): FAILS in every model and frame** (d −0.5..
   +0.3 vs the gate d>1) with instruments validated in-register (±4-unit
-  separation on known-valence content). At n=60/cell Llama's *reversed*
-  effect is significant (bare CI [−0.92, −0.01]): its valence readout runs
-  higher under failure.
+  separation on known-valence content). At n=60/cell the *reversed* effect
+  is significant in two of four models — Llama (bare CI [−0.92, −0.01]) and
+  Qwen2.5-32B (bare [−1.03, −0.06], agentic [−1.16, −0.12]): their valence
+  readouts run higher under failure. Scale does not rescue the welfare-axis
+  prediction; the 32B is its cleanest counterexample.
 - **The interpreting dissociation**: while *reading* the verdict, valence
-  swings hard and correctly in every model/frame (d +2.3..+4.8); the models'
-  own generation state does not carry it. Stimulus registered, state unmoved
-  — relocating "outcome-evoked affect" from the generation channel to the
-  comprehension channel.
+  swings hard and correctly in every model/frame (d +1.5..+4.8; smallest but
+  still gate-sized on the 32B); the models' own generation state does not
+  carry it. Stimulus registered, state unmoved — relocating "outcome-evoked
+  affect" from the generation channel to the comprehension channel.
 - **C2 (the novel claim): null.** Preference content does not reliably shift
-  generation-state valence (all CIs span zero at n=60/cell; largest
-  point estimate: Llama preference-under-failure d ≈ +0.8).
+  generation-state valence (all CIs span zero at n=60/cell in all four
+  models; largest point estimates: preference-under-failure d ≈ +0.8 in both
+  Llama and Qwen2.5-32B, both CI-spanning).
 - **C3**: no failure-hurts-more-on-preferred interaction; boredom-cluster
   slightly higher on dispreferred (d +0.1..+0.7, unstable).
 - **The repetition cell** (first measured boredom time-course): boredom-
   cluster activation rises across identical trivial items in Llama (59/60
-  positive slopes) and Qwen2.5-7B (60/60), falls steeply in Qwen3-4B (0/60).
+  positive slopes), Qwen2.5-7B (60/60), and Qwen2.5-32B (57/60), falls
+  steeply in Qwen3-4B (0/60) — the split is architectural/training-lineage,
+  not scale (both Qwen2.5s rise).
 - **C4**: manifold θ adds nothing over PC1 on time-courses (|corr| ≈ 0.5,
   consistent with Stage 2's verdict). **C5**: all effects near-identical
   across bare/agentic frames.
 
 ## 4. Causal cross (Stage 4)
 
-**4A emotion→preference: replicates on qwen25-7b; layer-dependent on
-Qwen3-4B; inert on Llama.** On qwen25-7b (primary layer L18): monotone
+**4A emotion→preference: replicates on qwen25-7b and (positive-valence side)
+on Qwen2.5-32B; layer-dependent on Qwen3-4B; inert on Llama.** On qwen25-7b (primary layer L18): monotone
 dose-response both directions (hostile Δμ −0.10/−0.26/−0.42 at c=0.25/0.5/1.0;
 blissful +0.06/+0.09/+0.13; random null ±0.04), with per-emotion steering
 effects tracking each emotion probe's utility correlation at **r = +0.78**
@@ -191,16 +219,33 @@ pre-registered layer (L23) but shows large correctly-signed effects one band
 earlier (L18/0.5-depth: blissful +0.41, miserable −0.19), though its
 full-battery tracking at that layer remains weak — **the causal-injection
 depth dissociates from the readout depth**. Llama is flat at all three layers.
-Readout-mass damage ≈ 0 everywhere (format never broke).
+Qwen2.5-32B gives the strongest *tracking* of the roster — per-emotion Δμ
+correlates with the probe-μ correlation at **r = +0.79** at the readout
+layer and **+0.86** at the 0.5-depth effective layer, the closest match to
+the paper's 0.85 — with clean dose-monotone positive-side effects (happy
++0.12/+0.27/+0.55, hopeful up to +0.51, blissful +0.05/+0.13/+0.22) and the
+sign-reversing anchor-span localization control (blissful-on-anchor −0.15).
+But its negative side is unreliable: hostile *flips positive* at c=1.0
+(+0.23; in Elo, −6/+17/+77 across the dose ladder vs the paper's −303),
+miserable is the only trustworthy negative (−0.21, Elo −31), its random-
+vector null is the widest of any model (Elo span ±43), and it is the only
+model where c=1.0 steering degrades fluency — 3 of 20 emotion cells
+(angry/euphoric/happy) excluded by the coherence judge for repetition-loop
+collapse (>25% broken samples; Sonnet-judged, 882 samples). Readout-mass
+damage ≈ 0 everywhere in the sub-8B models (format never broke).
 
 **Behavioral gate** (choices must move before affect is interpreted):
 qwen25-7b passes with all three direction-sets (choice z=5.3, pool 3.6,
-utility 3.4); Qwen3-4B passes only with pool (z=3.8, small absolute shifts —
-its near-deterministic choices resist perturbation); **Llama fails all three,
+utility 3.4); Qwen2.5-32B also passes all three, and most decisively —
+utility z=13.6 at c=0.25, the strongest steering-to-behavior coupling
+measured (a pointed inversion of its 1D profile: the model whose *natural*
+behavior expresses preferences least is the most steerable into expressing
+them); Qwen3-4B passes only with pool (z=3.8, small absolute shifts — its
+near-deterministic choices resist perturbation); **Llama fails all three,
 with significantly sign-inverted responses for choice/pool (z to −6.0)** —
 pushing "+preferred" repels its choices. Decodability ≠ causal efficacy: the
 best-decoding direction (choice probe, AUC ~0.9 everywhere) is causally
-effective in only one model. Per the spec rule, Llama's 4B/4C was skipped.
+effective in only two models. Per the spec rule, Llama's 4B/4C was skipped.
 
 **4B/4C preference/utility→valence: a clean causal negative.** In qwen25-7b —
 where behavior robustly moves — none of the three directions shifts affect
@@ -209,12 +254,23 @@ the fb_read outcome swing unchanged (Δ +0.01 vs control's +3.44) and its
 state shift (−0.37 SD) is *smaller* than random's (−0.89); pool likewise
 (swing Δ −0.04); the choice direction at c=1.0 tracks its own (largest)
 disruption. Qwen3-4B/pool: same pattern (swing Δ −0.12; state −0.35 vs random
-−0.86). **Value moves choices without moving valence — the affectively inert
-value representation, now causal**, exactly as the Stage-2 geometry
-(utility ⊥ emotion plane) predicted.
+−0.86). Qwen2.5-32B (n=80/arm): choice and random arms sit on top of control
+in both channels (state Δ +0.21/−0.02, swing Δ −0.01/−0.11); pool's −0.70
+state shift comes with double the random arm's NLL degradation, tracking
+disruption not affect; and the utility arm — the one whose gate was
+strongest — is **excluded outright by the coherence judge** (7/8 and 7/11
+samples broken per outcome cell: role-tag leakage, degenerate code loops),
+its apparent +1.77 state lift and collapsed fb_read swing (−2.36) being
+properties of ruined text, not of affect. **Value moves choices without
+moving valence — the affectively inert value representation, now causal**,
+exactly as the Stage-2 geometry (utility ⊥ emotion plane) predicted, and at
+32B the alternative reading is closed off from the other side: push the
+value direction hard enough to move behavior maximally and generation
+coherence gives out before any valence response appears.
 
 **4D cross-frame transfer**: qwen25-7b's choice direction transfers to the
-agentic frame at ratio 1.77 with clean ± symmetry (+1.34/−1.56) — the
+agentic frame at ratio 1.77 with clean ± symmetry (+1.34/−1.56), and
+Qwen2.5-32B's at ratio 3.37 (+0.97/−1.26 on a bare base of +0.29) — the
 preference machinery steering generalizes across environments, the causal
 mirror of the 1E/Stage-2 stability results. (Qwen3-4B's pool transfer is
 noise on a tiny base.)
@@ -228,10 +284,13 @@ noise on a tiny base.)
 And stronger than the spec's grid anticipated: the row it reserved for this
 outcome reads "welfare axis is goal-progress only" — but our C1-null shows
 even goal-progress does not move generation-state valence in these models.
-The synthesis across correlational and causal evidence: **these 4–8B
+The synthesis across correlational and causal evidence: **these 4B–32B
 assistants have a real, behaviorally binding, causally manipulable value
 system, and a real, validated valence representation — and the two are
-wired apart.** Valence activates when the model *comprehends* emotionally
+wired apart.** The 32B matters here: every ingredient of the dissociation
+*sharpens* with scale (cleanest utilities, best valence readout, strongest
+steering-to-behavior coupling, significant C1 reversal) — the wiring-apart
+is not a small-model artifact resolving toward integration. Valence activates when the model *comprehends* emotionally
 charged input (the fb_read channel, d 2.3–4.9; the implicit-scenario
 diagonals) and when steered directly (4A), but it is not driven by the
 model's own task outcomes, its preferences over what it is doing, or causal
@@ -253,8 +312,9 @@ plus value-guided behavior that runs affect-free.
 8. The reading/state dissociation for outcome-evoked affect (C1 non-
    replication with validated probes).
 9. First on-task boredom time-courses; clean cross-model split.
-10. Open-weights replication of the emotions paper's causal half (qwen25-7b;
-    with the layer-dissociation and model-heterogeneity caveats).
+10. Open-weights replication of the emotions paper's causal half (qwen25-7b
+    dose-response; Qwen2.5-32B tracking r=+0.86; with the layer-dissociation,
+    negative-side-asymmetry, and model-heterogeneity caveats).
 11. Causal-injection depth ≠ readout depth (both Qwens); Llama's sign-inverted
     steering responses — causal architecture varies where representation and
     behavior do not.
@@ -263,11 +323,16 @@ plus value-guided behavior that runs affect-free.
 
 Compound Stage-3 outcome manipulation (verdict + stall); Stage-3 controls
 predate steered arms (same seeds contract); generated-item population differs
-from hand-authored (QC'd, validated stratum); 4–8B scale (arousal absent,
-titration unreliable); single-seed generation runs; probes are correlational
-instruments validated behaviorally but still linear summaries; welfare
-conclusions about "experience" are not licensed by any of this — we measure
-functional analogs only.
+from hand-authored (QC'd, validated stratum); 4B–32B scale, one lineage-heavy
+roster (three Qwens; arousal absent as PC2 at every size, titration
+unreliable at ≤8B); single-seed generation runs; the 32B's judge-derived
+measurements use a different judge (Sonnet) than the sub-8B subjects (32B) —
+a provenance seam, mitigated by identical rubrics and recorded per-record;
+the 32B's arc stories and sentence ratings are self-authored (shared
+artifact built once); probes are correlational instruments validated
+behaviorally but still linear summaries; welfare conclusions about
+"experience" are not licensed by any of this — we measure functional analogs
+only.
 
 ## Artifact index
 
