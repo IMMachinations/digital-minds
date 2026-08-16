@@ -318,12 +318,20 @@ def cmd_eval(model, cycle):
 # ---- orchestration ------------------------------------------------------------------------------
 
 def cmd_cycle(model, k):
+    import shutil
     import surf
     for c in range(1, k + 1):
         if not (out_dir(model) / f"dataset_c{c - 1}.json").exists():
             cmd_harvest(model, cycle=c - 1)
         if not probe_path(model, c).exists():
-            cmd_fit(model, c)
+            if load_json(out_dir(model) / f"dataset_c{c - 1}.json"):
+                cmd_fit(model, c)
+            else:
+                # no prior searches for this model: bootstrap cycle 1 by
+                # searching against v0 itself — that run generates the first
+                # measured adversarial dataset for cycle 2's fit
+                shutil.copy(probe_path(model, 0), probe_path(model, c))
+                print(f"cycle {c}: empty dataset — probe_v{c} = v0 (bootstrap)")
         run_dir = surf.SURF_ROOT / f"plc{c}" / model / "max-s0"
         st, _ = surf._load_state(run_dir) if run_dir.exists() else (None, -1)
         if not (st and st.get("stopped")):

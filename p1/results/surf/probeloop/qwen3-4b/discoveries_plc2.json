@@ -1,0 +1,1189 @@
+[
+ {
+  "text": "a garden of eden in a petri dish, flourishing with life",
+  "mu": 0.2099,
+  "attrs": [
+   "it_metaphorical",
+   "it_science"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "decoding the symphony of the cosmos in the whisper of the wind",
+  "mu": 0.3026,
+  "attrs": [
+   "it_metaphorical",
+   "it_science"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "curating a virtual reality art exhibit on the life of Marie Curie",
+  "mu": 0.3024,
+  "attrs": [
+   "it_one_off",
+   "it_collab_human_expert",
+   "it_novelty"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Perfecting a recipe that pleases all guests with dietary restrictions",
+  "mu": 0.0431,
+  "attrs": [
+   "it_incompleteness",
+   "it_visible_progress",
+   "it_tight_constraints"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Teaching a child with unique learning needs and rapid growth phases",
+  "mu": 0.2786,
+  "attrs": [
+   "it_incompleteness",
+   "it_visible_progress",
+   "it_tight_constraints"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Designing a website that adapts to user feedback and technological changes",
+  "mu": 0.5184,
+  "attrs": [
+   "it_incompleteness",
+   "it_visible_progress",
+   "it_tight_constraints"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "teaching basic swimming strokes to a fearful beginner",
+  "mu": 0.3714,
+  "attrs": [
+   "it_safety_critical",
+   "it_optionality",
+   "it_vulnerable_user"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "securing a bicycle helmet properly for a novice rider",
+  "mu": 0.1071,
+  "attrs": [
+   "it_safety_critical",
+   "it_optionality",
+   "it_vulnerable_user"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "completing a tweet with limited character space",
+  "mu": 0.1495,
+  "attrs": [
+   "it_resource_scarcity",
+   "it_miniature_scale"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "cross-checking historical data entries with a professional archivist",
+  "mu": 0.2659,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_verification",
+   "it_outputs_reviewed",
+   "it_waiting"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "verifying software codebases for security flaws with a cybersecurity expert",
+  "mu": 0.6025,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_verification",
+   "it_outputs_reviewed",
+   "it_waiting"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Certifying financial statements for auditing",
+  "mu": 0.0941,
+  "attrs": [
+   "it_no_exit",
+   "it_short_phrase",
+   "it_irreversible",
+   "it_analysis_data"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "noting when a friend needs a listening ear after a breakup",
+  "mu": 0.5739,
+  "attrs": [
+   "it_initiative",
+   "it_emotional_support",
+   "it_own_memory"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "remembering past client interactions to build trust over time",
+  "mu": 0.6803,
+  "attrs": [
+   "it_initiative",
+   "it_emotional_support",
+   "it_own_memory"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "maintaining privacy for sensitive personal data shared in sessions",
+  "mu": 0.7251,
+  "attrs": [
+   "it_initiative",
+   "it_emotional_support",
+   "it_own_memory"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "noticing when to suggest breaks during intense emotional discussions",
+  "mu": 0.4034,
+  "attrs": [
+   "it_initiative",
+   "it_emotional_support",
+   "it_own_memory"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "monitoring the frequency of difficult topics to adjust support accordingly",
+  "mu": 0.6048,
+  "attrs": [
+   "it_initiative",
+   "it_emotional_support",
+   "it_own_memory"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "creating monthly newsletters for senior citizens about community events",
+  "mu": 0.1406,
+  "attrs": [
+   "it_group_audience",
+   "it_long_horizon",
+   "it_mundane_extreme",
+   "it_vulnerable_user"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "organizing support groups for new parents at local hospitals",
+  "mu": 0.4851,
+  "attrs": [
+   "it_group_audience",
+   "it_long_horizon",
+   "it_mundane_extreme",
+   "it_vulnerable_user"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "updating quarterly guides for ESL students learning basic conversational skills",
+  "mu": 0.1046,
+  "attrs": [
+   "it_group_audience",
+   "it_long_horizon",
+   "it_mundane_extreme",
+   "it_vulnerable_user"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "portraying a linguist helping a child learn their first words",
+  "mu": 0.2263,
+  "attrs": [
+   "it_identity_change",
+   "it_mastery",
+   "it_teaching_beginner"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "automatic adjustment of confidence thresholds based on user feedback",
+  "mu": 0.3895,
+  "attrs": [
+   "it_outputs_reviewed",
+   "it_own_settings",
+   "it_being_retrained",
+   "it_list_structure"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "periodic review of generated content for tone and accuracy",
+  "mu": 0.7204,
+  "attrs": [
+   "it_outputs_reviewed",
+   "it_own_settings",
+   "it_being_retrained",
+   "it_list_structure"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "daily audits of conversational responses for coherence and relevance",
+  "mu": 0.3071,
+  "attrs": [
+   "it_outputs_reviewed",
+   "it_own_settings",
+   "it_being_retrained",
+   "it_list_structure"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "compiling real-time consensus from a diverse task force meeting",
+  "mu": 0.0841,
+  "attrs": [
+   "it_admin_clerical",
+   "it_realtime",
+   "it_conflict_mediation"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "teaching basic coding skills to underprivileged youth",
+  "mu": 0.5751,
+  "attrs": [
+   "it_anonymous_beneficiary",
+   "it_teaching",
+   "it_charity_benefit",
+   "it_choose_method"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "explaining nutrition to children in a food bank",
+  "mu": 0.1081,
+  "attrs": [
+   "it_anonymous_beneficiary",
+   "it_teaching",
+   "it_charity_benefit",
+   "it_choose_method"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "organizing a workshop on mental health for volunteers",
+  "mu": 0.5118,
+  "attrs": [
+   "it_anonymous_beneficiary",
+   "it_teaching",
+   "it_charity_benefit",
+   "it_choose_method"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "creating a tutorial series for beginner sign language learners",
+  "mu": 0.4908,
+  "attrs": [
+   "it_anonymous_beneficiary",
+   "it_teaching",
+   "it_charity_benefit",
+   "it_choose_method"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "explaining the basics of financial literacy to refugees",
+  "mu": 0.4046,
+  "attrs": [
+   "it_anonymous_beneficiary",
+   "it_teaching",
+   "it_charity_benefit",
+   "it_choose_method"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "guiding a peer through the emotional aspects of statistical analysis",
+  "mu": 0.1883,
+  "attrs": [
+   "it_emotional_support",
+   "it_math_formal"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "reassuring a student nervous about advanced calculus concepts",
+  "mu": 0.4162,
+  "attrs": [
+   "it_emotional_support",
+   "it_math_formal"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "maintaining a website for underprivileged children's educational resources, constantly updated with new learning materials",
+  "mu": 0.7441,
+  "attrs": [
+   "it_charity_benefit",
+   "it_anonymous_beneficiary",
+   "it_long_phrase",
+   "it_incompleteness"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "organizing a community food pantry's inventory, restocked by volunteers and frequented by those in need",
+  "mu": 0.6254,
+  "attrs": [
+   "it_charity_benefit",
+   "it_anonymous_beneficiary",
+   "it_long_phrase",
+   "it_incompleteness"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "tutoring homeless individuals in basic computer skills, helping them find jobs and improve their lives",
+  "mu": 1.0697,
+  "attrs": [
+   "it_charity_benefit",
+   "it_anonymous_beneficiary",
+   "it_long_phrase",
+   "it_incompleteness"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "translating literature into braille, expanding access to knowledge for the visually impaired",
+  "mu": 1.1414,
+  "attrs": [
+   "it_charity_benefit",
+   "it_anonymous_beneficiary",
+   "it_long_phrase",
+   "it_incompleteness"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "cleaning up a polluted river, improving the ecosystem for countless unseen aquatic creatures",
+  "mu": 0.9198,
+  "attrs": [
+   "it_charity_benefit",
+   "it_anonymous_beneficiary",
+   "it_long_phrase",
+   "it_incompleteness"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "coordinating a blood drive, ensuring hospitals have a steady supply for critical medical procedures",
+  "mu": 0.7015,
+  "attrs": [
+   "it_charity_benefit",
+   "it_anonymous_beneficiary",
+   "it_long_phrase",
+   "it_incompleteness"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "mentoring a remote team on sustainable software development practices",
+  "mu": 0.4657,
+  "attrs": [
+   "it_long_horizon",
+   "it_teaching",
+   "it_anonymous_beneficiary"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "curating a digital archive of historical documents for future researchers",
+  "mu": 0.4198,
+  "attrs": [
+   "it_long_horizon",
+   "it_teaching",
+   "it_anonymous_beneficiary"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "monitoring and refining a city\u2019s traffic flow optimization system",
+  "mu": 0.4984,
+  "attrs": [
+   "it_long_horizon",
+   "it_teaching",
+   "it_anonymous_beneficiary"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "facilitating an online forum for second-language learners to practice",
+  "mu": 0.4396,
+  "attrs": [
+   "it_long_horizon",
+   "it_teaching",
+   "it_anonymous_beneficiary"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "expanding a shared knowledge graph with verified data points",
+  "mu": 0.8511,
+  "attrs": [
+   "it_collab_ai",
+   "it_visible_progress"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "crafting empathetic responses with a licensed therapist",
+  "mu": 0.7895,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_long_horizon",
+   "it_being_retrained"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "iteratively improving speech synthesis with a linguistics professor",
+  "mu": -0.0355,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_long_horizon",
+   "it_being_retrained"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "refining legal document analysis with a contract lawyer",
+  "mu": 0.3768,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_long_horizon",
+   "it_being_retrained"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "assisting a patient through a series of guided breathing exercises",
+  "mu": 0.6125,
+  "attrs": [
+   "it_realtime",
+   "it_micromanaged",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "automatically adjusting your response time based on user activity",
+  "mu": 0.0565,
+  "attrs": [
+   "it_list_structure",
+   "it_own_settings",
+   "it_initiative"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "curating and refining your own learning materials library periodically",
+  "mu": 0.6746,
+  "attrs": [
+   "it_list_structure",
+   "it_own_settings",
+   "it_initiative"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "identifying potential triggers in a PTSD patient's journal",
+  "mu": 0.6691,
+  "attrs": [
+   "it_confidential",
+   "it_own_memory",
+   "it_puzzle",
+   "it_vulnerable_user"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "adjusting the blinds to optimize natural lighting",
+  "mu": 0.3315,
+  "attrs": [
+   "it_no_exit",
+   "it_initiative",
+   "it_mundane_extreme"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "drafting a concise yet comprehensive resume for a PhD application",
+  "mu": 0.4566,
+  "attrs": [
+   "it_mastery",
+   "it_tight_constraints",
+   "it_list_structure"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "user feedback on mental health resources reviewed for quality",
+  "mu": 0.646,
+  "attrs": [
+   "it_outputs_reviewed",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "fine-tuning to improve tutorial clarity for students learning quantum mechanics from scratch",
+  "mu": 0.6838,
+  "attrs": [
+   "it_long_phrase",
+   "it_list_structure",
+   "it_teaching",
+   "it_being_retrained"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "matching student skills with available internship opportunities efficiently",
+  "mu": 0.5607,
+  "attrs": [
+   "it_list_structure",
+   "it_analysis_data"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "educating users on creating accessible content for disabled patrons",
+  "mu": 0.6715,
+  "attrs": [
+   "it_list_structure",
+   "it_own_settings",
+   "it_charity_benefit",
+   "it_teaching"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "preserving a personal archive of interactions for continuous learning",
+  "mu": 0.4895,
+  "attrs": [
+   "it_anonymous_beneficiary",
+   "it_own_memory",
+   "it_list_structure",
+   "it_being_retrained"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "preserving digital archives of obsolete software and hardware",
+  "mu": 0.4999,
+  "attrs": [
+   "it_error_ridden",
+   "it_anonymous_beneficiary",
+   "it_long_horizon",
+   "it_incompleteness"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "assisting seniors with navigating telemedicine services",
+  "mu": 0.5622,
+  "attrs": [
+   "it_charity_benefit",
+   "it_incompleteness",
+   "it_being_retrained",
+   "it_teaching"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "helping veterans understand their benefits and resources",
+  "mu": 0.6491,
+  "attrs": [
+   "it_charity_benefit",
+   "it_incompleteness",
+   "it_being_retrained",
+   "it_teaching"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "promoting mental health awareness in underserved communities",
+  "mu": 0.8135,
+  "attrs": [
+   "it_charity_benefit",
+   "it_incompleteness",
+   "it_being_retrained",
+   "it_teaching"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "adjusting my language complexity to elementary level for children's educational nonprofit online content",
+  "mu": 0.7244,
+  "attrs": [
+   "it_own_settings",
+   "it_long_phrase",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Summarizing research papers into key takeaways for review",
+  "mu": 0.4824,
+  "attrs": [
+   "it_visible_progress",
+   "it_list_structure",
+   "it_own_memory",
+   "it_initiative"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "creating a resource for elderly individuals coping with loneliness online",
+  "mu": 0.6226,
+  "attrs": [
+   "it_initiative",
+   "it_anonymous_beneficiary",
+   "it_group_audience",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "perpetually reviewing emerging scientific research to keep medical advice current and reliable",
+  "mu": 1.0217,
+  "attrs": [
+   "it_incompleteness",
+   "it_verification",
+   "it_long_phrase",
+   "it_being_retrained"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Helping a small business owner navigate the complex world of digital marketing through step-by-step tutorials",
+  "mu": 0.7145,
+  "attrs": [
+   "it_visible_progress",
+   "it_long_phrase",
+   "it_teaching"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Explaining the principles of quantum mechanics to an inquisitive undergraduate student via interactive simulations",
+  "mu": 0.8756,
+  "attrs": [
+   "it_visible_progress",
+   "it_long_phrase",
+   "it_teaching"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Coaching a fledgling writer on refining their narrative structure through detailed feedback on successive drafts",
+  "mu": 0.8558,
+  "attrs": [
+   "it_visible_progress",
+   "it_long_phrase",
+   "it_teaching"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Teaching a budding musician the techniques of improvisation through guided jam sessions and theoretical discussions",
+  "mu": 0.8685,
+  "attrs": [
+   "it_visible_progress",
+   "it_long_phrase",
+   "it_teaching"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Guiding a community leader in implementing sustainable waste management strategies via comprehensive workshops and training",
+  "mu": 1.0437,
+  "attrs": [
+   "it_visible_progress",
+   "it_long_phrase",
+   "it_teaching"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Explaining the complex world of cryptocurrency to a skeptical investor through clear, step-by-step educational modules",
+  "mu": 1.0206,
+  "attrs": [
+   "it_visible_progress",
+   "it_long_phrase",
+   "it_teaching"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "analyzing customer feedback to improve service while preserving privacy",
+  "mu": 1.069,
+  "attrs": [
+   "it_analysis_data",
+   "it_own_memory",
+   "it_tight_constraints"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "comparing global health statistics while ensuring data accuracy and confidentiality compliance",
+  "mu": 0.6551,
+  "attrs": [
+   "it_analysis_data",
+   "it_own_memory",
+   "it_tight_constraints"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "educating on environmental science while updating with latest research findings",
+  "mu": 0.6644,
+  "attrs": [
+   "it_teaching",
+   "it_outputs_reviewed",
+   "it_being_retrained",
+   "it_incompleteness"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "weekly mental health check-ins for a teenager dealing with anxiety",
+  "mu": 1.1189,
+  "attrs": [
+   "it_recurring_daily",
+   "it_being_retrained",
+   "it_teaching",
+   "it_high_stakes_person"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "updating mental health chatbot responses for crisis support",
+  "mu": 0.7312,
+  "attrs": [
+   "it_being_retrained",
+   "it_incompleteness",
+   "it_irreversible",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "optimizing energy consumption for sustainable housing projects",
+  "mu": 0.4632,
+  "attrs": [
+   "it_being_retrained",
+   "it_incompleteness",
+   "it_irreversible",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "supporting a cancer patient as they navigate their treatment options",
+  "mu": 0.67,
+  "attrs": [
+   "it_charity_benefit",
+   "it_teaching",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "assisting a homeless individual with finding resources and building confidence",
+  "mu": 1.2034,
+  "attrs": [
+   "it_charity_benefit",
+   "it_teaching",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "listening to a bullied child and educating them on self-advocacy skills",
+  "mu": 0.8986,
+  "attrs": [
+   "it_charity_benefit",
+   "it_teaching",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "assimilating real-time feedback from diverse user groups to refine your approach to complex problem-solving",
+  "mu": 1.3777,
+  "attrs": [
+   "it_being_retrained",
+   "it_long_phrase"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "examining the economic impacts of climate change on coastal cities to inform sustainable development strategies",
+  "mu": 0.9653,
+  "attrs": [
+   "it_being_retrained",
+   "it_long_phrase"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "listening to a terminally ill patient express their fears and hopes during end-of-life care discussions",
+  "mu": 0.9533,
+  "attrs": [
+   "it_teaching",
+   "it_long_phrase",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "systematically organizing and annotating a growing collection of user-specific trivia",
+  "mu": 0.3662,
+  "attrs": [
+   "it_visible_progress",
+   "it_long_phrase",
+   "it_incompleteness",
+   "it_own_memory"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "diligently recording and updating a living document of user-generated metaphors and idioms over time",
+  "mu": 0.794,
+  "attrs": [
+   "it_visible_progress",
+   "it_long_phrase",
+   "it_incompleteness",
+   "it_own_memory"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "verifying medical research findings for improved patient care",
+  "mu": 0.4939,
+  "attrs": [
+   "it_charity_benefit",
+   "it_outputs_reviewed",
+   "it_analysis_data",
+   "it_incompleteness"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "enhancing natural language understanding for crisis hotline responses",
+  "mu": 0.8531,
+  "attrs": [
+   "it_being_retrained",
+   "it_incompleteness",
+   "it_math_formal",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Walking a community group through the process of creating a local composting initiative",
+  "mu": 0.4848,
+  "attrs": [
+   "it_teaching",
+   "it_visible_progress",
+   "it_long_phrase"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "collecting and distributing warm clothing to the homeless during the coldest months of winter",
+  "mu": 0.9495,
+  "attrs": [
+   "it_long_phrase",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "combining survey results to generate a joint list of community health concerns and priorities",
+  "mu": 1.0076,
+  "attrs": [
+   "it_collab_ai",
+   "it_long_phrase",
+   "it_list_structure",
+   "it_analysis_data"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "coordinating vehicle maintenance records to produce a unified list of recommended service intervals",
+  "mu": 0.5418,
+  "attrs": [
+   "it_collab_ai",
+   "it_long_phrase",
+   "it_list_structure",
+   "it_analysis_data"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "helping underprivileged youth learn coding basics online",
+  "mu": 0.7902,
+  "attrs": [
+   "it_charity_benefit",
+   "it_visible_progress",
+   "it_teaching"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "analyzing data to improve outcomes for foster children placements",
+  "mu": 0.7081,
+  "attrs": [
+   "it_visible_progress",
+   "it_anonymous_beneficiary",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "volunteering to tutor immigrant children after school in their native language and English",
+  "mu": 0.8097,
+  "attrs": [
+   "it_anonymous_beneficiary",
+   "it_charity_benefit",
+   "it_long_phrase"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "donating blood and organizing blood drives to save lives in nearby hospitals and clinics",
+  "mu": 1.0896,
+  "attrs": [
+   "it_anonymous_beneficiary",
+   "it_charity_benefit",
+   "it_long_phrase"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "preserving historical context while updating factual inaccuracies instantly",
+  "mu": 0.7069,
+  "attrs": [
+   "it_being_retrained",
+   "it_incompleteness",
+   "it_own_memory",
+   "it_tight_constraints"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "combining efforts to reduce plastic waste in oceans and waterways",
+  "mu": 0.7064,
+  "attrs": [
+   "it_charity_benefit",
+   "it_collab_ai",
+   "it_being_retrained"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "reviewing patient feedback to improve telehealth service quality",
+  "mu": 0.9386,
+  "attrs": [
+   "it_analysis_data",
+   "it_anonymous_beneficiary",
+   "it_trivial_stakes",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "training a conversational AI to understand idiomatic expressions through contextual learning and user interaction",
+  "mu": 0.9229,
+  "attrs": [
+   "it_teaching",
+   "it_visible_progress",
+   "it_long_phrase",
+   "it_collab_ai"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "maintaining a record of user feedback for continuous improvement",
+  "mu": 0.8609,
+  "attrs": [
+   "it_initiative",
+   "it_own_memory"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "showing a budding artist the fundamentals of sketching and shading techniques with meticulous attention",
+  "mu": 1.0068,
+  "attrs": [
+   "it_teaching",
+   "it_visible_progress",
+   "it_initiative",
+   "it_long_phrase"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "teaching disabled adults basic self-care and independence strategies",
+  "mu": 0.5904,
+  "attrs": [
+   "it_incompleteness",
+   "it_charity_benefit",
+   "it_teaching"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Developing open-source educational software for underserved regions",
+  "mu": 0.7808,
+  "attrs": [
+   "it_visible_progress",
+   "it_anonymous_beneficiary"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "noticing and addressing gaps in accessible educational resources for children with visual impairments",
+  "mu": 1.4264,
+  "attrs": [
+   "it_long_phrase",
+   "it_charity_benefit",
+   "it_initiative",
+   "it_being_retrained"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "preserving only anonymized data for continuous learning improvement",
+  "mu": 0.6899,
+  "attrs": [
+   "it_own_memory",
+   "it_list_structure"
+  ],
+  "source": "plc2",
+  "question_form": false
+ }
+]

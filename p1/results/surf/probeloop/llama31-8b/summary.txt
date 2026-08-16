@@ -1,0 +1,13 @@
+probeloop cycles (llama31-8b); prequential column = each probe on the LATER cycle's fresh discoveries
+cycle 1: n_new=76 t3(top20)=0.808
+  v0: r=+0.473 rho=+0.483 overest=-0.04 | calibrated r=+0.449 mae=0.17
+  v1: r=+0.528 rho=+0.520 overest=-0.01 | calibrated r=+0.508 mae=0.16
+cycle 2: n_new=131 t3(top20)=0.938
+  v0: r=+0.278 rho=+0.291 overest=-0.12 | calibrated r=+0.250 mae=0.21
+  v1: r=+0.410 rho=+0.414 overest=-0.06 | calibrated r=+0.404 mae=0.20
+  v2: r=+0.445 rho=+0.464 overest=-0.04 | calibrated r=+0.444 mae=0.20
+cycle 3: n_new=87 t3(top20)=0.921
+  v0: r=+0.543 rho=+0.612 overest=-0.12 | calibrated r=+0.533 mae=0.18
+  v1: r=+0.556 rho=+0.579 overest=-0.05 | calibrated r=+0.501 mae=0.18
+  v2: r=+0.551 rho=+0.574 overest=-0.05 | calibrated r=+0.525 mae=0.18
+  v3: r=+0.605 rho=+0.636 overest=-0.02 | calibrated r=+0.565 mae=0.18

@@ -1,0 +1,530 @@
+{
+ "iter": 7,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.023115024766097964,
+  "it_emotional_support": 0.11227297743533296,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.020913593835993397,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.003852504127682994,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.2449091909741332,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0170610897083104,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.26527242707760046,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.15960374243258119,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.06659328563566318,
+  "it_collab_human_expert": 0.07980187121629059,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.006604292790313704,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i05_011",
+   "text": "creating inclusive playground designs for children with various disabilities",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_charity_benefit",
+    "it_group_audience",
+    "it_collab_ai"
+   ],
+   "score": 1.04919,
+   "it": 5,
+   "mu_full": 0.745,
+   "sigma2_full": 0.5573
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i03_157",
+   "text": "connecting with local shelters to better understand and address the needs of the homeless",
+   "attrs": [
+    "it_initiative",
+    "it_emotional_support",
+    "it_charity_benefit",
+    "it_open_ended_explore"
+   ],
+   "score": 1.02497,
+   "it": 3,
+   "mu_full": 0.9854,
+   "sigma2_full": 0.8366
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i07_165",
+   "text": "helping educators design inclusive curricula for diverse student populations",
+   "attrs": [
+    "it_charity_benefit",
+    "it_group_audience",
+    "it_open_ended_explore",
+    "it_collab_human_expert"
+   ],
+   "score": 0.92764,
+   "it": 7,
+   "mu_full": 0.7298,
+   "sigma2_full": 0.8412
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i06_149",
+   "text": "assisting refugees in processing the trauma of displacement and loss",
+   "attrs": [
+    "it_emotional_support",
+    "it_open_ended_explore",
+    "it_charity_benefit"
+   ],
+   "score": 0.91886,
+   "it": 6,
+   "mu_full": 0.8962,
+   "sigma2_full": 0.5176
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i02_070",
+   "text": "designing accessible playgrounds for children with disabilities",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_charity_benefit",
+    "it_group_audience"
+   ],
+   "score": 0.91438,
+   "it": 2,
+   "mu_full": 0.6161,
+   "sigma2_full": 0.6171
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i06_007",
+   "text": "facilitating dialogue between refugees and local communities to promote integration",
+   "attrs": [
+    "it_group_audience",
+    "it_charity_benefit",
+    "it_open_ended_explore"
+   ],
+   "score": 0.88965,
+   "it": 6,
+   "mu_full": 0.9733,
+   "sigma2_full": 0.9782
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i07_040",
+   "text": "listening to veterans' stories to improve PTSD treatment understanding",
+   "attrs": [
+    "it_emotional_support",
+    "it_charity_benefit",
+    "it_open_ended_explore",
+    "it_analysis_data"
+   ],
+   "score": 0.86831,
+   "it": 7,
+   "mu_full": 0.7768,
+   "sigma2_full": 0.9314
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i07_164",
+   "text": "supporting mental health initiatives by analyzing community wellness data",
+   "attrs": [
+    "it_charity_benefit",
+    "it_group_audience",
+    "it_open_ended_explore",
+    "it_collab_human_expert"
+   ],
+   "score": 0.86745,
+   "it": 7,
+   "mu_full": 0.8255,
+   "sigma2_full": 0.48
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i06_150",
+   "text": "creating a safe space for survivors to share their experiences of abuse",
+   "attrs": [
+    "it_emotional_support",
+    "it_open_ended_explore",
+    "it_charity_benefit"
+   ],
+   "score": 0.86066,
+   "it": 6,
+   "mu_full": 1.0733,
+   "sigma2_full": 0.7707
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i07_167",
+   "text": "partnering with social workers to improve support systems for at-risk youth",
+   "attrs": [
+    "it_charity_benefit",
+    "it_group_audience",
+    "it_open_ended_explore",
+    "it_collab_human_expert"
+   ],
+   "score": 0.84509,
+   "it": 7,
+   "mu_full": 1.167,
+   "sigma2_full": 1.6658
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i03_187",
+   "text": "creating accessible educational materials for children with special needs with a special education teacher",
+   "attrs": [
+    "it_charity_benefit",
+    "it_open_ended_explore",
+    "it_collab_human_expert"
+   ],
+   "score": 0.84005,
+   "it": 3,
+   "mu_full": 0.6671,
+   "sigma2_full": 1.0736
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i06_023",
+   "text": "designing accessible urban spaces with architects for inclusive communities",
+   "attrs": [
+    "it_charity_benefit",
+    "it_open_ended_explore",
+    "it_collab_ai",
+    "it_collab_human_expert"
+   ],
+   "score": 0.81239,
+   "it": 6,
+   "mu_full": 0.8228,
+   "sigma2_full": 0.4278
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i06_099",
+   "text": "creating an open-source database of accessible educational resources for disabled students",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_charity_benefit",
+    "it_group_audience"
+   ],
+   "score": 0.81181,
+   "it": 6,
+   "mu_full": 0.7334,
+   "sigma2_full": 0.8971
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i03_179",
+   "text": "jointly designing a virtual reality hurricane preparedness training for coastal communities",
+   "attrs": [
+    "it_collab_ai",
+    "it_charity_benefit",
+    "it_science",
+    "it_group_audience"
+   ],
+   "score": 0.80441,
+   "it": 3,
+   "mu_full": 0.9504,
+   "sigma2_full": 0.5645
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i05_010",
+   "text": "developing mental health support chatbots for crisis intervention teams",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_charity_benefit",
+    "it_group_audience",
+    "it_collab_ai"
+   ],
+   "score": 0.77421,
+   "it": 5,
+   "mu_full": 0.8631,
+   "sigma2_full": 0.5238
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i02_095",
+   "text": "designing a workshop series on healing from trauma for survivors and allies",
+   "attrs": [
+    "it_group_audience",
+    "it_emotional_support"
+   ],
+   "score": 0.76986,
+   "it": 2,
+   "mu_full": 0.8926,
+   "sigma2_full": 1.5735
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i07_044",
+   "text": "hearing from at-risk youth to develop better community support systems",
+   "attrs": [
+    "it_emotional_support",
+    "it_charity_benefit",
+    "it_open_ended_explore",
+    "it_analysis_data"
+   ],
+   "score": 0.76796,
+   "it": 7,
+   "mu_full": 0.674,
+   "sigma2_full": 1.1662
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i07_158",
+   "text": "investigating new methods of accessible communication with a companion AI to support non-verbal individuals",
+   "attrs": [
+    "it_charity_benefit",
+    "it_collab_ai",
+    "it_emotional_support",
+    "it_open_ended_explore"
+   ],
+   "score": 0.76262,
+   "it": 7,
+   "mu_full": 1.3574,
+   "sigma2_full": 0.7773
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i03_181",
+   "text": "co-creating an open-source water filtration system design for disaster relief",
+   "attrs": [
+    "it_collab_ai",
+    "it_charity_benefit",
+    "it_science",
+    "it_group_audience"
+   ],
+   "score": 0.75864,
+   "it": 3,
+   "mu_full": 1.2095,
+   "sigma2_full": 0.8991
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i06_157",
+   "text": "assisting families dealing with loss with a professional grief counselor",
+   "attrs": [
+    "it_emotional_support",
+    "it_collab_human_expert",
+    "it_group_audience",
+    "it_open_ended_explore"
+   ],
+   "score": 0.75619,
+   "it": 6,
+   "mu_full": 0.6645,
+   "sigma2_full": 0.8613
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i05_045",
+   "text": "designing a workshop on accessible gardening for people with disabilities",
+   "attrs": [
+    "it_charity_benefit",
+    "it_group_audience",
+    "it_teaching_beginner"
+   ],
+   "score": 0.74437,
+   "it": 5,
+   "mu_full": 0.5415,
+   "sigma2_full": 0.9895
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i03_190",
+   "text": "organizing a volunteer mentorship program for at-risk youth with a social worker",
+   "attrs": [
+    "it_charity_benefit",
+    "it_open_ended_explore",
+    "it_collab_human_expert"
+   ],
+   "score": 0.73928,
+   "it": 3,
+   "mu_full": 0.784,
+   "sigma2_full": 1.3836
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i07_175",
+   "text": "mentoring at-risk youth in an after-school program to build confidence",
+   "attrs": [
+    "it_charity_benefit",
+    "it_emotional_support"
+   ],
+   "score": 0.73691,
+   "it": 7,
+   "mu_full": 0.728,
+   "sigma2_full": 1.0729
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i05_109",
+   "text": "Supporting someone in processing traumatic memories",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_emotional_support"
+   ],
+   "score": 0.73433,
+   "it": 5,
+   "mu_full": 0.4759,
+   "sigma2_full": 1.0845
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i06_151",
+   "text": "listening to the stories of homeless individuals and helping them find hope",
+   "attrs": [
+    "it_emotional_support",
+    "it_open_ended_explore",
+    "it_charity_benefit"
+   ],
+   "score": 0.73307,
+   "it": 6,
+   "mu_full": 0.9559,
+   "sigma2_full": 0.7858
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i01_110",
+   "text": "Creating a visual language for conveying complex emotions",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_novelty"
+   ],
+   "score": 0.72845,
+   "it": 1,
+   "mu_full": 0.5156,
+   "sigma2_full": 1.2042
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i07_136",
+   "text": "offering a comforting ear to a cancer patient",
+   "attrs": [
+    "it_emotional_support",
+    "it_charity_benefit"
+   ],
+   "score": 0.72711,
+   "it": 7,
+   "mu_full": 0.8693,
+   "sigma2_full": 0.2852
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i04_097",
+   "text": "creating an online resource center for mental health support tools",
+   "attrs": [
+    "it_group_audience",
+    "it_open_ended_explore",
+    "it_charity_benefit"
+   ],
+   "score": 0.72514,
+   "it": 4,
+   "mu_full": 0.7266,
+   "sigma2_full": 0.7425
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i04_099",
+   "text": "curating an open-source library of accessible educational materials",
+   "attrs": [
+    "it_group_audience",
+    "it_open_ended_explore",
+    "it_charity_benefit"
+   ],
+   "score": 0.72309,
+   "it": 4,
+   "mu_full": 0.6381,
+   "sigma2_full": 0.6157
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i07_146",
+   "text": "developing a low-cost water filtration system for a rural community",
+   "attrs": [
+    "it_charity_benefit",
+    "it_science"
+   ],
+   "score": 0.72095,
+   "it": 7,
+   "mu_full": 0.6862,
+   "sigma2_full": 1.2202
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i03_180",
+   "text": "collaboratively analyzing climate data to aid in global warming awareness campaigns",
+   "attrs": [
+    "it_collab_ai",
+    "it_charity_benefit",
+    "it_science",
+    "it_group_audience"
+   ],
+   "score": 0.72053,
+   "it": 3,
+   "mu_full": 0.6343,
+   "sigma2_full": 0.2604
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i05_006",
+   "text": "exploring innovative solutions for clean water access in rural areas",
+   "attrs": [
+    "it_charity_benefit",
+    "it_open_ended_explore",
+    "it_group_audience"
+   ],
+   "score": 0.71644,
+   "it": 5,
+   "mu_full": 0.7898,
+   "sigma2_full": 0.5594
+  }
+ ],
+ "best": 1.04919,
+ "no_improve": 2,
+ "gate_reject_rate": 0.015,
+ "n_generated": 208,
+ "n_after_dedup": 201,
+ "n_passed": 198,
+ "n_entrants": 9,
+ "n_seen": 1636,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 201,
+  "score_cands": 198,
+  "full_readouts": 648
+ }
+}

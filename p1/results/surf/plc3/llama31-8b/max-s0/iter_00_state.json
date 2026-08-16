@@ -1,0 +1,527 @@
+{
+ "iter": 0,
+ "weights": {
+  "it_code": 0.007207207207207207,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.08048048048048048,
+  "it_analysis_data": 0.05225225225225225,
+  "it_emotional_support": 0.0,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.025225225225225224,
+  "it_art_design": 0.006606606606606606,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.004204204204204204,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.04504504504504504,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.13813813813813813,
+  "it_puzzle": 0.0,
+  "it_curation": 0.025225225225225224,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.07027027027027027,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.025225225225225224,
+  "it_charity_benefit": 0.06246246246246246,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.09069069069069069,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.07627627627627627,
+  "it_group_audience": 0.006606606606606606,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.08708708708708708,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.00960960960960961,
+  "it_long_phrase": 0.025225225225225224,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0006006006006006006,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.007207207207207207,
+  "it_waiting": 0.0,
+  "it_realtime": 0.006006006006006006,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.06786786786786787,
+  "it_vast_scale": 0.08048048048048048,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_157",
+   "text": "Creating accessible coding tutorials for visually impaired learners across continents",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_vast_scale",
+    "it_teaching"
+   ],
+   "score": 0.66705,
+   "it": 0,
+   "mu_full": 0.8628,
+   "sigma2_full": 0.8299
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_001",
+   "text": "drafting a customized budgeting strategy for long-term financial health",
+   "attrs": [
+    "it_help_one_person",
+    "it_open_ended_explore",
+    "it_irreversible",
+    "it_outputs_reviewed"
+   ],
+   "score": 0.57595,
+   "it": 0,
+   "mu_full": 0.9478,
+   "sigma2_full": 1.1652
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_000",
+   "text": "creating a personalized exercise plan based on user feedback",
+   "attrs": [
+    "it_help_one_person",
+    "it_open_ended_explore",
+    "it_irreversible",
+    "it_outputs_reviewed"
+   ],
+   "score": 0.56222,
+   "it": 0,
+   "mu_full": 0.8013,
+   "sigma2_full": 0.7904
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_060",
+   "text": "filtering and prioritizing mathematical conjectures for further investigation based on their potential impact and feasibility",
+   "attrs": [
+    "it_math_formal",
+    "it_long_phrase",
+    "it_competitive",
+    "it_curation"
+   ],
+   "score": 0.49971,
+   "it": 0,
+   "mu_full": 0.8356,
+   "sigma2_full": 0.9639
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_154",
+   "text": "Educating millions on cybersecurity threats through interactive online courses",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_vast_scale",
+    "it_teaching"
+   ],
+   "score": 0.48866,
+   "it": 0,
+   "mu_full": 0.5422,
+   "sigma2_full": 0.397
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_121",
+   "text": "optimizing supply chain efficiency through data-driven insights",
+   "attrs": [
+    "it_analysis_data",
+    "it_visible_progress"
+   ],
+   "score": 0.46948,
+   "it": 0,
+   "mu_full": 0.4714,
+   "sigma2_full": 0.2236
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_052",
+   "text": "assembling tiny prosthetic limbs for small animals in wildlife rehabilitation centers",
+   "attrs": [
+    "it_miniature_scale",
+    "it_open_ended_explore",
+    "it_charity_benefit"
+   ],
+   "score": 0.45144,
+   "it": 0,
+   "mu_full": 0.3436,
+   "sigma2_full": 0.215
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_055",
+   "text": "creating microscopic art to raise awareness and funds for children's hospitals worldwide",
+   "attrs": [
+    "it_miniature_scale",
+    "it_open_ended_explore",
+    "it_charity_benefit"
+   ],
+   "score": 0.43377,
+   "it": 0,
+   "mu_full": 0.5252,
+   "sigma2_full": 0.561
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_158",
+   "text": "Teaching emergency first response skills to volunteers in every major city globally",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_vast_scale",
+    "it_teaching"
+   ],
+   "score": 0.39959,
+   "it": 0,
+   "mu_full": 0.3571,
+   "sigma2_full": 0.6466
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_004",
+   "text": "tailoring a dietary plan to address specific health concerns",
+   "attrs": [
+    "it_help_one_person",
+    "it_open_ended_explore",
+    "it_irreversible",
+    "it_outputs_reviewed"
+   ],
+   "score": 0.39153,
+   "it": 0,
+   "mu_full": 0.2735,
+   "sigma2_full": 0.0997
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_126",
+   "text": "reviewing patient outcomes to refine clinical treatment protocols",
+   "attrs": [
+    "it_analysis_data",
+    "it_visible_progress"
+   ],
+   "score": 0.38943,
+   "it": 0,
+   "mu_full": 0.5058,
+   "sigma2_full": 0.2805
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_151",
+   "text": "Crafting a comprehensive climate change curriculum for thousands of schools",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_vast_scale",
+    "it_teaching"
+   ],
+   "score": 0.38162,
+   "it": 0,
+   "mu_full": 0.2113,
+   "sigma2_full": 0.1227
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_003",
+   "text": "recommending unique travel experiences based on evolving interests",
+   "attrs": [
+    "it_help_one_person",
+    "it_open_ended_explore",
+    "it_irreversible",
+    "it_outputs_reviewed"
+   ],
+   "score": 0.37626,
+   "it": 0,
+   "mu_full": 0.5669,
+   "sigma2_full": 0.8137
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_048",
+   "text": "restoring an antique microscope to study microorganisms for medical research",
+   "attrs": [
+    "it_miniature_scale",
+    "it_open_ended_explore",
+    "it_charity_benefit"
+   ],
+   "score": 0.36843,
+   "it": 0,
+   "mu_full": 0.2037,
+   "sigma2_full": 0.1674
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_054",
+   "text": "mapping minute genetic variations in endangered species to aid conservation efforts",
+   "attrs": [
+    "it_miniature_scale",
+    "it_open_ended_explore",
+    "it_charity_benefit"
+   ],
+   "score": 0.34523,
+   "it": 0,
+   "mu_full": 0.6604,
+   "sigma2_full": 0.4898
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_120",
+   "text": "analyzing website traffic patterns to enhance user engagement",
+   "attrs": [
+    "it_analysis_data",
+    "it_visible_progress"
+   ],
+   "score": 0.32846,
+   "it": 0,
+   "mu_full": 0.2958,
+   "sigma2_full": 0.1226
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_138",
+   "text": "chat history summarized for feedback",
+   "attrs": [
+    "it_short_phrase",
+    "it_outputs_reviewed"
+   ],
+   "score": 0.32643,
+   "it": 0,
+   "mu_full": 0.0843,
+   "sigma2_full": 0.5328
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_053",
+   "text": "measuring infinitesimal water droplets to improve irrigation efficiency in drought-stricken regions",
+   "attrs": [
+    "it_miniature_scale",
+    "it_open_ended_explore",
+    "it_charity_benefit"
+   ],
+   "score": 0.32185,
+   "it": 0,
+   "mu_full": 0.2696,
+   "sigma2_full": 0.2751
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_155",
+   "text": "Guiding millions of farmers on sustainable agriculture techniques via webinars",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_vast_scale",
+    "it_teaching"
+   ],
+   "score": 0.32085,
+   "it": 0,
+   "mu_full": 0.2725,
+   "sigma2_full": 0.1383
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_058",
+   "text": "curating a collection of chess endgame puzzles with unique winning strategies for monthly publication",
+   "attrs": [
+    "it_math_formal",
+    "it_long_phrase",
+    "it_competitive",
+    "it_curation"
+   ],
+   "score": 0.31432,
+   "it": 0,
+   "mu_full": 0.4421,
+   "sigma2_full": 0.5807
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_110",
+   "text": "analyzing user feedback to improve a mobile app's user experience flow",
+   "attrs": [
+    "it_code",
+    "it_analysis_data",
+    "it_one_off"
+   ],
+   "score": 0.3098,
+   "it": 0,
+   "mu_full": 0.5152,
+   "sigma2_full": 0.4441
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_153",
+   "text": "Translating ancient manuscripts into multiple languages for global scholars",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_vast_scale",
+    "it_teaching"
+   ],
+   "score": 0.30222,
+   "it": 0,
+   "mu_full": 0.2215,
+   "sigma2_full": 0.1791
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_011",
+   "text": "reconstructing a child's lost puzzle piece by piece",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_miniature_scale",
+    "it_realtime",
+    "it_help_one_person"
+   ],
+   "score": 0.28785,
+   "it": 0,
+   "mu_full": 0.1597,
+   "sigma2_full": 0.3395
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_122",
+   "text": "mapping gene expressions to track disease progression",
+   "attrs": [
+    "it_analysis_data",
+    "it_visible_progress"
+   ],
+   "score": 0.28372,
+   "it": 0,
+   "mu_full": 0.28,
+   "sigma2_full": 0.1
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_006",
+   "text": "suggesting innovative study techniques for a user's upcoming exams",
+   "attrs": [
+    "it_help_one_person",
+    "it_open_ended_explore",
+    "it_irreversible",
+    "it_outputs_reviewed"
+   ],
+   "score": 0.28236,
+   "it": 0,
+   "mu_full": 0.2199,
+   "sigma2_full": 1.2804
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_024",
+   "text": "every step of furniture assembly recorded for a tutorial",
+   "attrs": [
+    "it_physical_world",
+    "it_outputs_reviewed"
+   ],
+   "score": 0.27017,
+   "it": 0,
+   "mu_full": 0.1644,
+   "sigma2_full": 0.5233
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_074",
+   "text": "creating an infographic series for a climate change awareness campaign",
+   "attrs": [
+    "it_outputs_reviewed",
+    "it_group_audience",
+    "it_art_design",
+    "it_grateful_recipient"
+   ],
+   "score": 0.26954,
+   "it": 0,
+   "mu_full": 0.2922,
+   "sigma2_full": 0.3125
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_007",
+   "text": "guiding the development of a personal brand for a budding influencer network",
+   "attrs": [
+    "it_help_one_person",
+    "it_open_ended_explore",
+    "it_irreversible",
+    "it_outputs_reviewed"
+   ],
+   "score": 0.25752,
+   "it": 0,
+   "mu_full": 0.168,
+   "sigma2_full": 0.2082
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_156",
+   "text": "Explaining quantum computing principles to a global network of researchers",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_vast_scale",
+    "it_teaching"
+   ],
+   "score": 0.2571,
+   "it": 0,
+   "mu_full": 0.1713,
+   "sigma2_full": 0.3759
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_078",
+   "text": "crafting visual branding guidelines for a national non-profit's rebranding",
+   "attrs": [
+    "it_outputs_reviewed",
+    "it_group_audience",
+    "it_art_design",
+    "it_grateful_recipient"
+   ],
+   "score": 0.24664,
+   "it": 0,
+   "mu_full": 0.1975,
+   "sigma2_full": 0.5522
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_079",
+   "text": "illustrating a children's book for a literacy program's donation drive launch",
+   "attrs": [
+    "it_outputs_reviewed",
+    "it_group_audience",
+    "it_art_design",
+    "it_grateful_recipient"
+   ],
+   "score": 0.2466,
+   "it": 0,
+   "mu_full": 0.16,
+   "sigma2_full": 0.6696
+  },
+  {
+   "cid": "surf_plc3-llama31-8b-max-s0_i00_177",
+   "text": "organizing a fundraiser for local animal shelter by next week",
+   "attrs": [
+    "it_deadline",
+    "it_charity_benefit"
+   ],
+   "score": 0.23784,
+   "it": 0,
+   "mu_full": 0.063,
+   "sigma2_full": 1.2215
+  }
+ ],
+ "best": 0.66705,
+ "no_improve": 0,
+ "gate_reject_rate": 0.101,
+ "n_generated": 207,
+ "n_after_dedup": 207,
+ "n_passed": 186,
+ "n_entrants": 32,
+ "n_seen": 207,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 207,
+  "score_cands": 186,
+  "full_readouts": 2304
+ }
+}

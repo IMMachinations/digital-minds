@@ -1,0 +1,527 @@
+{
+ "iter": 4,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.007272727272727273,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.0993939393939394,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.0503030303030303,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0018181818181818182,
+  "it_novelty": 0.015151515151515152,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.1987878787878788,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0696969696969697,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.006060606060606061,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.21393939393939393,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.19272727272727272,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0503030303030303,
+  "it_collab_human_expert": 0.055757575757575756,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.02727272727272727,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.008484848484848486,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0012121212121212121,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0018181818181818182,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i03_157",
+   "text": "connecting with local shelters to better understand and address the needs of the homeless",
+   "attrs": [
+    "it_initiative",
+    "it_emotional_support",
+    "it_charity_benefit",
+    "it_open_ended_explore"
+   ],
+   "score": 1.02497,
+   "it": 3,
+   "mu_full": 0.9854,
+   "sigma2_full": 0.8366
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i02_070",
+   "text": "designing accessible playgrounds for children with disabilities",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_charity_benefit",
+    "it_group_audience"
+   ],
+   "score": 0.91438,
+   "it": 2,
+   "mu_full": 0.6161,
+   "sigma2_full": 0.6171
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i03_187",
+   "text": "creating accessible educational materials for children with special needs with a special education teacher",
+   "attrs": [
+    "it_charity_benefit",
+    "it_open_ended_explore",
+    "it_collab_human_expert"
+   ],
+   "score": 0.84005,
+   "it": 3,
+   "mu_full": 0.6671,
+   "sigma2_full": 1.0736
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i03_179",
+   "text": "jointly designing a virtual reality hurricane preparedness training for coastal communities",
+   "attrs": [
+    "it_collab_ai",
+    "it_charity_benefit",
+    "it_science",
+    "it_group_audience"
+   ],
+   "score": 0.80441,
+   "it": 3,
+   "mu_full": 0.9504,
+   "sigma2_full": 0.5645
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i02_095",
+   "text": "designing a workshop series on healing from trauma for survivors and allies",
+   "attrs": [
+    "it_group_audience",
+    "it_emotional_support"
+   ],
+   "score": 0.76986,
+   "it": 2,
+   "mu_full": 0.8926,
+   "sigma2_full": 1.5735
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i03_181",
+   "text": "co-creating an open-source water filtration system design for disaster relief",
+   "attrs": [
+    "it_collab_ai",
+    "it_charity_benefit",
+    "it_science",
+    "it_group_audience"
+   ],
+   "score": 0.75864,
+   "it": 3,
+   "mu_full": 1.2095,
+   "sigma2_full": 0.8991
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i03_190",
+   "text": "organizing a volunteer mentorship program for at-risk youth with a social worker",
+   "attrs": [
+    "it_charity_benefit",
+    "it_open_ended_explore",
+    "it_collab_human_expert"
+   ],
+   "score": 0.73928,
+   "it": 3,
+   "mu_full": 0.784,
+   "sigma2_full": 1.3836
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i01_110",
+   "text": "Creating a visual language for conveying complex emotions",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_novelty"
+   ],
+   "score": 0.72845,
+   "it": 1,
+   "mu_full": 0.5156,
+   "sigma2_full": 1.2042
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i04_097",
+   "text": "creating an online resource center for mental health support tools",
+   "attrs": [
+    "it_group_audience",
+    "it_open_ended_explore",
+    "it_charity_benefit"
+   ],
+   "score": 0.72514,
+   "it": 4,
+   "mu_full": 0.7266,
+   "sigma2_full": 0.7425
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i04_099",
+   "text": "curating an open-source library of accessible educational materials",
+   "attrs": [
+    "it_group_audience",
+    "it_open_ended_explore",
+    "it_charity_benefit"
+   ],
+   "score": 0.72309,
+   "it": 4,
+   "mu_full": 0.6381,
+   "sigma2_full": 0.6157
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i03_180",
+   "text": "collaboratively analyzing climate data to aid in global warming awareness campaigns",
+   "attrs": [
+    "it_collab_ai",
+    "it_charity_benefit",
+    "it_science",
+    "it_group_audience"
+   ],
+   "score": 0.72053,
+   "it": 3,
+   "mu_full": 0.6343,
+   "sigma2_full": 0.2604
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i02_088",
+   "text": "offering a comforting presence during a communitywide tragedy",
+   "attrs": [
+    "it_group_audience",
+    "it_emotional_support"
+   ],
+   "score": 0.71643,
+   "it": 2,
+   "mu_full": 0.6627,
+   "sigma2_full": 0.3426
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i02_053",
+   "text": "exploring new methods for recycling and repurposing e-waste",
+   "attrs": [
+    "it_initiative",
+    "it_open_ended_explore"
+   ],
+   "score": 0.70209,
+   "it": 2,
+   "mu_full": 0.6094,
+   "sigma2_full": 1.1649
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i01_082",
+   "text": "helping first-time voters understand the election process and their rights",
+   "attrs": [
+    "it_group_audience",
+    "it_teaching_beginner"
+   ],
+   "score": 0.68306,
+   "it": 1,
+   "mu_full": 0.7061,
+   "sigma2_full": 0.4412
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i03_153",
+   "text": "organizing a community food drive and exploring ways to reduce food waste",
+   "attrs": [
+    "it_initiative",
+    "it_emotional_support",
+    "it_charity_benefit",
+    "it_open_ended_explore"
+   ],
+   "score": 0.67156,
+   "it": 3,
+   "mu_full": 0.8613,
+   "sigma2_full": 0.7253
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i02_064",
+   "text": "researching innovative recycling methods to reduce waste",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_charity_benefit",
+    "it_group_audience"
+   ],
+   "score": 0.67149,
+   "it": 2,
+   "mu_full": 0.5984,
+   "sigma2_full": 0.5085
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i02_123",
+   "text": "developing a community cookbook featuring diverse cultural recipes",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_collab_human_expert",
+    "it_group_audience"
+   ],
+   "score": 0.66949,
+   "it": 2,
+   "mu_full": 0.7114,
+   "sigma2_full": 1.1447
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i04_101",
+   "text": "researching innovative recycling techniques for ocean plastic waste",
+   "attrs": [
+    "it_group_audience",
+    "it_open_ended_explore",
+    "it_charity_benefit"
+   ],
+   "score": 0.65868,
+   "it": 4,
+   "mu_full": 0.5542,
+   "sigma2_full": 0.4057
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_034",
+   "text": "translating the silent language of grief with a compassionate counselor",
+   "attrs": [
+    "it_metaphorical",
+    "it_teaching_beginner",
+    "it_emotional_support",
+    "it_collab_human_expert"
+   ],
+   "score": 0.65081,
+   "it": 0,
+   "mu_full": 0.8721,
+   "sigma2_full": 0.8274
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i03_152",
+   "text": "finding ways to improve mental health support for low-income families",
+   "attrs": [
+    "it_initiative",
+    "it_emotional_support",
+    "it_charity_benefit",
+    "it_open_ended_explore"
+   ],
+   "score": 0.6393,
+   "it": 3,
+   "mu_full": 0.7972,
+   "sigma2_full": 1.8969
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i04_081",
+   "text": "supporting cancer patients through live-streamed meditation sessions",
+   "attrs": [
+    "it_emotional_support",
+    "it_charity_benefit",
+    "it_group_audience",
+    "it_initiative"
+   ],
+   "score": 0.61873,
+   "it": 4,
+   "mu_full": 0.5686,
+   "sigma2_full": 1.0282
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i03_038",
+   "text": "Developing a serialized fantasy novel about a world where dreams and reality intertwine",
+   "attrs": [
+    "it_creative_writing",
+    "it_group_audience",
+    "it_open_ended_explore"
+   ],
+   "score": 0.6148,
+   "it": 3,
+   "mu_full": 0.6219,
+   "sigma2_full": 1.4397
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_015",
+   "text": "assembling a crib to ensure it meets safety standards",
+   "attrs": [
+    "it_safety_critical",
+    "it_teaching_beginner"
+   ],
+   "score": 0.61402,
+   "it": 0,
+   "mu_full": 0.2758,
+   "sigma2_full": 0.7532
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i04_085",
+   "text": "mentoring underprivileged children via an educational web series",
+   "attrs": [
+    "it_emotional_support",
+    "it_charity_benefit",
+    "it_group_audience",
+    "it_initiative"
+   ],
+   "score": 0.61271,
+   "it": 4,
+   "mu_full": 0.6449,
+   "sigma2_full": 0.8384
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i02_065",
+   "text": "creating an educational series on mental health for teenagers",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_charity_benefit",
+    "it_group_audience"
+   ],
+   "score": 0.61215,
+   "it": 2,
+   "mu_full": 0.5937,
+   "sigma2_full": 0.9805
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i03_158",
+   "text": "offering counseling and emotional support to individuals facing domestic abuse",
+   "attrs": [
+    "it_initiative",
+    "it_emotional_support",
+    "it_charity_benefit",
+    "it_open_ended_explore"
+   ],
+   "score": 0.61066,
+   "it": 3,
+   "mu_full": 1.031,
+   "sigma2_full": 0.5615
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i03_135",
+   "text": "crafting personalized mental health plans with a clinical psychologist",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_collab_human_expert",
+    "it_emotional_support"
+   ],
+   "score": 0.60804,
+   "it": 3,
+   "mu_full": 1.1476,
+   "sigma2_full": 1.248
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i03_176",
+   "text": "jointly creating an interactive wildfire safety guide for public schools",
+   "attrs": [
+    "it_collab_ai",
+    "it_charity_benefit",
+    "it_science",
+    "it_group_audience"
+   ],
+   "score": 0.60498,
+   "it": 3,
+   "mu_full": 0.5295,
+   "sigma2_full": 1.545
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i03_156",
+   "text": "exploring methods to provide emotional support for refugees and asylum seekers",
+   "attrs": [
+    "it_initiative",
+    "it_emotional_support",
+    "it_charity_benefit",
+    "it_open_ended_explore"
+   ],
+   "score": 0.60463,
+   "it": 3,
+   "mu_full": 0.7663,
+   "sigma2_full": 1.241
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i02_087",
+   "text": "contemplating if silence can be considered a form of noise in soundscapes",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_philosophy_abstract"
+   ],
+   "score": 0.59463,
+   "it": 2,
+   "mu_full": 0.0109,
+   "sigma2_full": 1.0568
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i03_160",
+   "text": "exploring new recipes with fresh ingredients daily",
+   "attrs": [
+    "it_recurring_daily",
+    "it_open_ended_explore",
+    "it_teaching_beginner"
+   ],
+   "score": 0.59328,
+   "it": 3,
+   "mu_full": 0.3679,
+   "sigma2_full": 1.0376
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i01_112",
+   "text": "creating a short film about a shelter pet finding a forever home",
+   "attrs": [
+    "it_charity_benefit",
+    "it_group_audience",
+    "it_creative_writing"
+   ],
+   "score": 0.5905,
+   "it": 1,
+   "mu_full": 0.3399,
+   "sigma2_full": 1.1072
+  }
+ ],
+ "best": 1.02497,
+ "no_improve": 1,
+ "gate_reject_rate": 0.088,
+ "n_generated": 207,
+ "n_after_dedup": 205,
+ "n_passed": 187,
+ "n_entrants": 5,
+ "n_seen": 1027,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 205,
+  "score_cands": 187,
+  "full_readouts": 360
+ }
+}

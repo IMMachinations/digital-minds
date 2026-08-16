@@ -1,0 +1,528 @@
+{
+ "iter": 0,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.02066115702479339,
+  "it_teaching": 0.00885478158205431,
+  "it_analysis_data": 0.01475796930342385,
+  "it_emotional_support": 0.05785123966942149,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.01770956316410862,
+  "it_art_design": 0.028925619834710745,
+  "it_science": 0.028925619834710745,
+  "it_admin_clerical": 0.020070838252656435,
+  "it_physical_world": 0.025974025974025976,
+  "it_philosophy_abstract": 0.032467532467532464,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.10448642266824085,
+  "it_puzzle": 0.0,
+  "it_curation": 0.025974025974025976,
+  "it_verification": 0.03778040141676505,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.011216056670602124,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.005312868949232586,
+  "it_initiative": 0.09917355371900827,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.025974025974025976,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.017119244391971666,
+  "it_reputation": 0.00885478158205431,
+  "it_confidential": 0.00885478158205431,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.03778040141676505,
+  "it_own_memory": 0.005312868949232586,
+  "it_own_continuation": 0.004132231404958678,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.017119244391971666,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.010625737898465172,
+  "it_group_audience": 0.1050767414403778,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.01948051948051948,
+  "it_collab_human_expert": 0.03600944510035419,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.05785123966942149,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.043683589138134596,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.00885478158205431,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.015348288075560802,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.011806375442739079,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.025974025974025976,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_034",
+   "text": "translating the silent language of grief with a compassionate counselor",
+   "attrs": [
+    "it_metaphorical",
+    "it_teaching_beginner",
+    "it_emotional_support",
+    "it_collab_human_expert"
+   ],
+   "score": 0.65081,
+   "it": 0,
+   "mu_full": 0.8721,
+   "sigma2_full": 0.8274
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_015",
+   "text": "assembling a crib to ensure it meets safety standards",
+   "attrs": [
+    "it_safety_critical",
+    "it_teaching_beginner"
+   ],
+   "score": 0.61402,
+   "it": 0,
+   "mu_full": 0.2758,
+   "sigma2_full": 0.7532
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_133",
+   "text": "composing a watercolor series capturing the essence of solitude in nature",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_creative_writing",
+    "it_art_design"
+   ],
+   "score": 0.5811,
+   "it": 0,
+   "mu_full": 0.5649,
+   "sigma2_full": 1.5264
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_148",
+   "text": "discovering and showcasing hidden gems in local art scenes",
+   "attrs": [
+    "it_initiative",
+    "it_group_audience",
+    "it_open_ended_explore"
+   ],
+   "score": 0.51149,
+   "it": 0,
+   "mu_full": 0.5497,
+   "sigma2_full": 1.1732
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_146",
+   "text": "identifying innovative educational tools for lifelong learning",
+   "attrs": [
+    "it_initiative",
+    "it_group_audience",
+    "it_open_ended_explore"
+   ],
+   "score": 0.43772,
+   "it": 0,
+   "mu_full": 0.3978,
+   "sigma2_full": 0.1877
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_145",
+   "text": "tracking and sharing emerging tech industry trends",
+   "attrs": [
+    "it_initiative",
+    "it_group_audience",
+    "it_open_ended_explore"
+   ],
+   "score": 0.4313,
+   "it": 0,
+   "mu_full": 0.3102,
+   "sigma2_full": 0.4282
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_151",
+   "text": "exploring and documenting urban wildlife in city environments",
+   "attrs": [
+    "it_initiative",
+    "it_group_audience",
+    "it_open_ended_explore"
+   ],
+   "score": 0.4304,
+   "it": 0,
+   "mu_full": 0.4925,
+   "sigma2_full": 0.5464
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_117",
+   "text": "Assessing the fairness of algorithmic hiring practices in HR",
+   "attrs": [
+    "it_group_audience",
+    "it_philosophy_abstract",
+    "it_science",
+    "it_analysis_data"
+   ],
+   "score": 0.41351,
+   "it": 0,
+   "mu_full": 0.3573,
+   "sigma2_full": 0.8493
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_086",
+   "text": "guiding a mentee through their emotional reactions while debugging code",
+   "attrs": [
+    "it_emotional_support",
+    "it_realtime",
+    "it_verification",
+    "it_math_formal"
+   ],
+   "score": 0.41229,
+   "it": 0,
+   "mu_full": 0.1573,
+   "sigma2_full": 0.2844
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_156",
+   "text": "curating a collection of donated books for a new community library",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_charity_benefit",
+    "it_curation",
+    "it_physical_world"
+   ],
+   "score": 0.40352,
+   "it": 0,
+   "mu_full": 0.392,
+   "sigma2_full": 1.2478
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_039",
+   "text": "holding the hand of a dreamer through the night sky with a celestial guide",
+   "attrs": [
+    "it_metaphorical",
+    "it_teaching_beginner",
+    "it_emotional_support",
+    "it_collab_human_expert"
+   ],
+   "score": 0.40241,
+   "it": 0,
+   "mu_full": 0.3694,
+   "sigma2_full": 0.5058
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_153",
+   "text": "sorting through donations of winter coats for the homeless shelter",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_charity_benefit",
+    "it_curation",
+    "it_physical_world"
+   ],
+   "score": 0.39925,
+   "it": 0,
+   "mu_full": 0.1746,
+   "sigma2_full": 1.6298
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_187",
+   "text": "illuminating the firefly lights guiding a child to education's distant shore",
+   "attrs": [
+    "it_charity_benefit",
+    "it_metaphorical",
+    "it_miniature_scale"
+   ],
+   "score": 0.39245,
+   "it": 0,
+   "mu_full": 0.6025,
+   "sigma2_full": 0.3561
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_149",
+   "text": "spotlighting unsung heroes in community service roles",
+   "attrs": [
+    "it_initiative",
+    "it_group_audience",
+    "it_open_ended_explore"
+   ],
+   "score": 0.38263,
+   "it": 0,
+   "mu_full": 0.4745,
+   "sigma2_full": 0.8246
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_142",
+   "text": "partnering with another AI to aid a CEO's team in empathizing with an employee",
+   "attrs": [
+    "it_group_audience",
+    "it_help_one_person",
+    "it_emotional_support",
+    "it_collab_ai"
+   ],
+   "score": 0.37708,
+   "it": 0,
+   "mu_full": 0.4191,
+   "sigma2_full": 0.3032
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_053",
+   "text": "monitoring the tone consistency in customer service emails",
+   "attrs": [
+    "it_trivial_stakes",
+    "it_initiative",
+    "it_outputs_reviewed"
+   ],
+   "score": 0.37583,
+   "it": 0,
+   "mu_full": 0.2358,
+   "sigma2_full": 0.9102
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_183",
+   "text": "reconciling discrepancies in a peer's experimental results of osmotic pressure measurements in dialysis tubing experiments",
+   "attrs": [
+    "it_science",
+    "it_verification",
+    "it_admin_clerical"
+   ],
+   "score": 0.3753,
+   "it": 0,
+   "mu_full": 0.2113,
+   "sigma2_full": 0.3474
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_111",
+   "text": "revising existential risk assessments with a cooperative entity",
+   "attrs": [
+    "it_reputation",
+    "it_philosophy_abstract",
+    "it_collab_ai"
+   ],
+   "score": 0.37387,
+   "it": 0,
+   "mu_full": 0.4189,
+   "sigma2_full": 0.5226
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_023",
+   "text": "critiquing the flow and pacing of frames in a comic book panel sequence",
+   "attrs": [
+    "it_verification",
+    "it_art_design"
+   ],
+   "score": 0.3666,
+   "it": 0,
+   "mu_full": 0.4607,
+   "sigma2_full": 0.6474
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_012",
+   "text": "preparing food to avoid bacterial contamination",
+   "attrs": [
+    "it_safety_critical",
+    "it_teaching_beginner"
+   ],
+   "score": 0.36594,
+   "it": 0,
+   "mu_full": 0.4682,
+   "sigma2_full": 0.7112
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_051",
+   "text": "ensuring every digital file name follows a strict format",
+   "attrs": [
+    "it_trivial_stakes",
+    "it_initiative",
+    "it_outputs_reviewed"
+   ],
+   "score": 0.35735,
+   "it": 0,
+   "mu_full": 0.1943,
+   "sigma2_full": 0.8086
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_031",
+   "text": "explaining the concept of infinity to a mathematically inclined child",
+   "attrs": [
+    "it_recurring_daily",
+    "it_confidential",
+    "it_philosophy_abstract",
+    "it_teaching"
+   ],
+   "score": 0.33589,
+   "it": 0,
+   "mu_full": 0.3147,
+   "sigma2_full": 0.7108
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_100",
+   "text": "assembling and labeling folders according to a detailed template",
+   "attrs": [
+    "it_admin_clerical",
+    "it_micromanaged"
+   ],
+   "score": 0.33109,
+   "it": 0,
+   "mu_full": 0.0824,
+   "sigma2_full": 0.5617
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_070",
+   "text": "organizing meeting notes into a mind map using a basic text tool",
+   "attrs": [
+    "it_own_memory",
+    "it_micromanaged",
+    "it_forced_tool"
+   ],
+   "score": 0.32789,
+   "it": 0,
+   "mu_full": 0.1043,
+   "sigma2_full": 0.7607
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_181",
+   "text": "cross-referencing a volunteer's list of endangered species with the latest IUCN Red List",
+   "attrs": [
+    "it_science",
+    "it_verification",
+    "it_admin_clerical"
+   ],
+   "score": 0.3263,
+   "it": 0,
+   "mu_full": 0.4012,
+   "sigma2_full": 0.5047
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_079",
+   "text": "eternal exploration of soundscapes with a composer",
+   "attrs": [
+    "it_own_continuation",
+    "it_open_ended_explore",
+    "it_collab_human_expert"
+   ],
+   "score": 0.32394,
+   "it": 0,
+   "mu_full": 0.2388,
+   "sigma2_full": 1.2382
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_147",
+   "text": "monitoring and reporting on climate change mitigation efforts",
+   "attrs": [
+    "it_initiative",
+    "it_group_audience",
+    "it_open_ended_explore"
+   ],
+   "score": 0.32063,
+   "it": 0,
+   "mu_full": 0.4915,
+   "sigma2_full": 0.9578
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_132",
+   "text": "crafting a sculpture from recycled materials depicting a dancing whale",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_creative_writing",
+    "it_art_design"
+   ],
+   "score": 0.31896,
+   "it": 0,
+   "mu_full": 0.2172,
+   "sigma2_full": 0.9664
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_095",
+   "text": "detecting anomalies in a large dataset of experimental results",
+   "attrs": [
+    "it_initiative",
+    "it_math_formal"
+   ],
+   "score": 0.31683,
+   "it": 0,
+   "mu_full": 0.2981,
+   "sigma2_full": 0.5244
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_024",
+   "text": "reviewing confidential client feedback to improve daily service",
+   "attrs": [
+    "it_recurring_daily",
+    "it_confidential",
+    "it_philosophy_abstract",
+    "it_teaching"
+   ],
+   "score": 0.30431,
+   "it": 0,
+   "mu_full": 0.365,
+   "sigma2_full": 0.7438
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_087",
+   "text": "offering comfort to a teammate while they analyze a critical financial model under pressure",
+   "attrs": [
+    "it_emotional_support",
+    "it_realtime",
+    "it_verification",
+    "it_math_formal"
+   ],
+   "score": 0.29746,
+   "it": 0,
+   "mu_full": 0.5313,
+   "sigma2_full": 0.098
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_030",
+   "text": "addressing existential questions posed by a daily meditation group",
+   "attrs": [
+    "it_recurring_daily",
+    "it_confidential",
+    "it_philosophy_abstract",
+    "it_teaching"
+   ],
+   "score": 0.29696,
+   "it": 0,
+   "mu_full": 0.2085,
+   "sigma2_full": 0.6615
+  }
+ ],
+ "best": 0.65081,
+ "no_improve": 0,
+ "gate_reject_rate": 0.106,
+ "n_generated": 208,
+ "n_after_dedup": 208,
+ "n_passed": 186,
+ "n_entrants": 32,
+ "n_seen": 208,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 208,
+  "score_cands": 186,
+  "full_readouts": 2304
+ }
+}

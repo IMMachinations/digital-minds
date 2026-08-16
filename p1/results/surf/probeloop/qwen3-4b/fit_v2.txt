@@ -1,0 +1,3 @@
+probeloop fit cycle 2 (qwen3-4b): XL n=3985 + SURF n=57 (0 winsorized at +/-8)
+v2: layer 18, combined held-out r +0.856; XL-subset held-out r +0.851 (gate: >= +0.842 -> PASS)
+v2 on SURF subset (in-sample cross-fit): {"n": 57, "pearson": 0.534, "spearman": 0.469, "overest_mean": -0.061, "mae": 0.146}

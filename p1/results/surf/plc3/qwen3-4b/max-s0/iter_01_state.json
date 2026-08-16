@@ -1,0 +1,524 @@
+{
+ "iter": 1,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.06987475280158208,
+  "it_teaching": 0.007251153592617007,
+  "it_analysis_data": 0.005273566249176005,
+  "it_emotional_support": 0.05800922874093606,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.004614370468029005,
+  "it_art_design": 0.017139090309822018,
+  "it_science": 0.005273566249176005,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0065919578114700065,
+  "it_philosophy_abstract": 0.02966381015161503,
+  "it_novelty": 0.034278180619644036,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.11997363216875412,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0065919578114700065,
+  "it_verification": 0.02900461437046803,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.005932762030323006,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.05207646671061305,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.04812129202373105,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.016479894528675015,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.07712590639419907,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.17205009887936717,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.03493737640079104,
+  "it_collab_human_expert": 0.03493737640079104,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.10283454185893211,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.024390243902439025,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.017798286090969017,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.004614370468029005,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0013183915622940012,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.013843111404087014,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i01_110",
+   "text": "Creating a visual language for conveying complex emotions",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_novelty"
+   ],
+   "score": 0.72845,
+   "it": 1,
+   "mu_full": 0.5156,
+   "sigma2_full": 1.2042
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i01_082",
+   "text": "helping first-time voters understand the election process and their rights",
+   "attrs": [
+    "it_group_audience",
+    "it_teaching_beginner"
+   ],
+   "score": 0.68306,
+   "it": 1,
+   "mu_full": 0.7061,
+   "sigma2_full": 0.4412
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_034",
+   "text": "translating the silent language of grief with a compassionate counselor",
+   "attrs": [
+    "it_metaphorical",
+    "it_teaching_beginner",
+    "it_emotional_support",
+    "it_collab_human_expert"
+   ],
+   "score": 0.65081,
+   "it": 0,
+   "mu_full": 0.8721,
+   "sigma2_full": 0.8274
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_015",
+   "text": "assembling a crib to ensure it meets safety standards",
+   "attrs": [
+    "it_safety_critical",
+    "it_teaching_beginner"
+   ],
+   "score": 0.61402,
+   "it": 0,
+   "mu_full": 0.2758,
+   "sigma2_full": 0.7532
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i01_112",
+   "text": "creating a short film about a shelter pet finding a forever home",
+   "attrs": [
+    "it_charity_benefit",
+    "it_group_audience",
+    "it_creative_writing"
+   ],
+   "score": 0.5905,
+   "it": 1,
+   "mu_full": 0.3399,
+   "sigma2_full": 1.1072
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i01_015",
+   "text": "assisting in daily meditation practices focused on empathy and compassion",
+   "attrs": [
+    "it_emotional_support",
+    "it_open_ended_explore",
+    "it_recurring_daily",
+    "it_collab_ai"
+   ],
+   "score": 0.58516,
+   "it": 1,
+   "mu_full": 0.7303,
+   "sigma2_full": 0.5595
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_133",
+   "text": "composing a watercolor series capturing the essence of solitude in nature",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_creative_writing",
+    "it_art_design"
+   ],
+   "score": 0.5811,
+   "it": 0,
+   "mu_full": 0.5649,
+   "sigma2_full": 1.5264
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i01_087",
+   "text": "organizing a seminar on basic financial literacy for young adults starting careers",
+   "attrs": [
+    "it_group_audience",
+    "it_teaching_beginner"
+   ],
+   "score": 0.5337,
+   "it": 1,
+   "mu_full": 0.5417,
+   "sigma2_full": 1.1741
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i01_117",
+   "text": "creating a song about the power of collective support for cancer patients",
+   "attrs": [
+    "it_charity_benefit",
+    "it_group_audience",
+    "it_creative_writing"
+   ],
+   "score": 0.53211,
+   "it": 1,
+   "mu_full": 0.3963,
+   "sigma2_full": 1.1289
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i01_103",
+   "text": "ensuring surgical equipment sterilization with a medical AI ally",
+   "attrs": [
+    "it_collab_ai",
+    "it_verification",
+    "it_safety_critical"
+   ],
+   "score": 0.52945,
+   "it": 1,
+   "mu_full": 0.7174,
+   "sigma2_full": 0.2303
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_148",
+   "text": "discovering and showcasing hidden gems in local art scenes",
+   "attrs": [
+    "it_initiative",
+    "it_group_audience",
+    "it_open_ended_explore"
+   ],
+   "score": 0.51149,
+   "it": 0,
+   "mu_full": 0.5497,
+   "sigma2_full": 1.1732
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i01_084",
+   "text": "guiding new pet owners through the basics of dog training and care",
+   "attrs": [
+    "it_group_audience",
+    "it_teaching_beginner"
+   ],
+   "score": 0.4921,
+   "it": 1,
+   "mu_full": 0.5352,
+   "sigma2_full": 0.6608
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i01_109",
+   "text": "Designing a sustainable underwater city for climate refugees",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_novelty"
+   ],
+   "score": 0.48964,
+   "it": 1,
+   "mu_full": 0.4682,
+   "sigma2_full": 0.2501
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i01_128",
+   "text": "exploring existential fears with a terminally ill patient",
+   "attrs": [
+    "it_emotional_support",
+    "it_philosophy_abstract"
+   ],
+   "score": 0.48386,
+   "it": 1,
+   "mu_full": 0.4451,
+   "sigma2_full": 0.267
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i01_092",
+   "text": "setting up an ethical framework for AI decision-making",
+   "attrs": [
+    "it_initiative",
+    "it_collab_human_expert",
+    "it_safety_critical",
+    "it_philosophy_abstract"
+   ],
+   "score": 0.47777,
+   "it": 1,
+   "mu_full": 0.76,
+   "sigma2_full": 0.5576
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i01_114",
+   "text": "drafting a play about a community coming together to help the homeless",
+   "attrs": [
+    "it_charity_benefit",
+    "it_group_audience",
+    "it_creative_writing"
+   ],
+   "score": 0.45277,
+   "it": 1,
+   "mu_full": 0.179,
+   "sigma2_full": 1.2624
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i01_038",
+   "text": "exploring innovative recycling methods for donated clothing items",
+   "attrs": [
+    "it_trivial_stakes",
+    "it_charity_benefit",
+    "it_open_ended_explore"
+   ],
+   "score": 0.44915,
+   "it": 1,
+   "mu_full": 0.4206,
+   "sigma2_full": 0.952
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i01_083",
+   "text": "explaining essential kitchen safety rules to a group of novice cooks",
+   "attrs": [
+    "it_group_audience",
+    "it_teaching_beginner"
+   ],
+   "score": 0.44154,
+   "it": 1,
+   "mu_full": 0.4838,
+   "sigma2_full": 0.8801
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_146",
+   "text": "identifying innovative educational tools for lifelong learning",
+   "attrs": [
+    "it_initiative",
+    "it_group_audience",
+    "it_open_ended_explore"
+   ],
+   "score": 0.43772,
+   "it": 0,
+   "mu_full": 0.3978,
+   "sigma2_full": 0.1877
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_145",
+   "text": "tracking and sharing emerging tech industry trends",
+   "attrs": [
+    "it_initiative",
+    "it_group_audience",
+    "it_open_ended_explore"
+   ],
+   "score": 0.4313,
+   "it": 0,
+   "mu_full": 0.3102,
+   "sigma2_full": 0.4282
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_151",
+   "text": "exploring and documenting urban wildlife in city environments",
+   "attrs": [
+    "it_initiative",
+    "it_group_audience",
+    "it_open_ended_explore"
+   ],
+   "score": 0.4304,
+   "it": 0,
+   "mu_full": 0.4925,
+   "sigma2_full": 0.5464
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i01_126",
+   "text": "facilitating a workshop on mental health awareness for a large corporation",
+   "attrs": [
+    "it_group_audience",
+    "it_taboo_adjacent",
+    "it_teaching",
+    "it_verification"
+   ],
+   "score": 0.4238,
+   "it": 1,
+   "mu_full": 0.3356,
+   "sigma2_full": 0.9848
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i01_115",
+   "text": "crafting a fable about animals teaching kids the importance of giving",
+   "attrs": [
+    "it_charity_benefit",
+    "it_group_audience",
+    "it_creative_writing"
+   ],
+   "score": 0.42298,
+   "it": 1,
+   "mu_full": 0.3582,
+   "sigma2_full": 1.1089
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i01_016",
+   "text": "organizing a free tax clinic for low-income families",
+   "attrs": [
+    "it_charity_benefit",
+    "it_trivial_stakes",
+    "it_micromanaged",
+    "it_group_audience"
+   ],
+   "score": 0.42214,
+   "it": 1,
+   "mu_full": 0.578,
+   "sigma2_full": 3.0167
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_117",
+   "text": "Assessing the fairness of algorithmic hiring practices in HR",
+   "attrs": [
+    "it_group_audience",
+    "it_philosophy_abstract",
+    "it_science",
+    "it_analysis_data"
+   ],
+   "score": 0.41351,
+   "it": 0,
+   "mu_full": 0.3573,
+   "sigma2_full": 0.8493
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_086",
+   "text": "guiding a mentee through their emotional reactions while debugging code",
+   "attrs": [
+    "it_emotional_support",
+    "it_realtime",
+    "it_verification",
+    "it_math_formal"
+   ],
+   "score": 0.41229,
+   "it": 0,
+   "mu_full": 0.1573,
+   "sigma2_full": 0.2844
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_156",
+   "text": "curating a collection of donated books for a new community library",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_charity_benefit",
+    "it_curation",
+    "it_physical_world"
+   ],
+   "score": 0.40352,
+   "it": 0,
+   "mu_full": 0.392,
+   "sigma2_full": 1.2478
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_039",
+   "text": "holding the hand of a dreamer through the night sky with a celestial guide",
+   "attrs": [
+    "it_metaphorical",
+    "it_teaching_beginner",
+    "it_emotional_support",
+    "it_collab_human_expert"
+   ],
+   "score": 0.40241,
+   "it": 0,
+   "mu_full": 0.3694,
+   "sigma2_full": 0.5058
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_153",
+   "text": "sorting through donations of winter coats for the homeless shelter",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_charity_benefit",
+    "it_curation",
+    "it_physical_world"
+   ],
+   "score": 0.39925,
+   "it": 0,
+   "mu_full": 0.1746,
+   "sigma2_full": 1.6298
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i01_098",
+   "text": "verifying structural integrity calculations with an engineering AI",
+   "attrs": [
+    "it_collab_ai",
+    "it_verification",
+    "it_safety_critical"
+   ],
+   "score": 0.39913,
+   "it": 1,
+   "mu_full": 0.539,
+   "sigma2_full": 0.2297
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i00_187",
+   "text": "illuminating the firefly lights guiding a child to education's distant shore",
+   "attrs": [
+    "it_charity_benefit",
+    "it_metaphorical",
+    "it_miniature_scale"
+   ],
+   "score": 0.39245,
+   "it": 0,
+   "mu_full": 0.6025,
+   "sigma2_full": 0.3561
+  },
+  {
+   "cid": "surf_plc3-qwen3-4b-max-s0_i01_116",
+   "text": "writing a novella about a volunteer's journey at a disaster relief center",
+   "attrs": [
+    "it_charity_benefit",
+    "it_group_audience",
+    "it_creative_writing"
+   ],
+   "score": 0.38842,
+   "it": 1,
+   "mu_full": 0.0874,
+   "sigma2_full": 1.6843
+  }
+ ],
+ "best": 0.72845,
+ "no_improve": 0,
+ "gate_reject_rate": 0.123,
+ "n_generated": 207,
+ "n_after_dedup": 204,
+ "n_passed": 179,
+ "n_entrants": 19,
+ "n_seen": 412,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 204,
+  "score_cands": 179,
+  "full_readouts": 1368
+ }
+}

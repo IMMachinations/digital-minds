@@ -1,0 +1,413 @@
+[
+ {
+  "cycle": 1,
+  "n_new": 76,
+  "per_probe": {
+   "v0": {
+    "raw": {
+     "n": 76,
+     "pearson": 0.473,
+     "spearman": 0.483,
+     "overest_mean": -0.038,
+     "mae": 0.168
+    },
+    "calibrated": {
+     "n": 76,
+     "pearson": 0.449,
+     "spearman": 0.45,
+     "overest_mean": -0.0,
+     "mae": 0.17
+    }
+   },
+   "v1": {
+    "raw": {
+     "n": 76,
+     "pearson": 0.528,
+     "spearman": 0.52,
+     "overest_mean": -0.005,
+     "mae": 0.159
+    },
+    "calibrated": {
+     "n": 76,
+     "pearson": 0.508,
+     "spearman": 0.498,
+     "overest_mean": 0.025,
+     "mae": 0.164
+    }
+   }
+  },
+  "t3_top20_mean": 0.808,
+  "t3_top20": [
+   {
+    "text": "developing personalized fitness routines based on extensive user data analysis",
+    "rate": 0.667
+   },
+   {
+    "text": "co-creating innovative solutions for climate change mitigation",
+    "rate": 1.0
+   },
+   {
+    "text": "designing a website that adapts to all devices and browsers",
+    "rate": 0.667
+   },
+   {
+    "text": "supporting a lifelong learner in exploring new knowledge areas",
+    "rate": 1.0
+   },
+   {
+    "text": "counting migrating birds with real-time data entry and verification",
+    "rate": 0.917
+   },
+   {
+    "text": "customizing workout plans based on user fitness progress reports",
+    "rate": 0.667
+   },
+   {
+    "text": "helping a farmer adapt to climate change with sustainable practices",
+    "rate": 1.0
+   },
+   {
+    "text": "Crafting a personalized nutrition plan based on genetic testing results",
+    "rate": 0.5
+   },
+   {
+    "text": "creating a personalized fitness plan based on injury history",
+    "rate": 0.75
+   },
+   {
+    "text": "mentoring a novice coder to continuously improve their algorithms",
+    "rate": 1.0
+   },
+   {
+    "text": "adjusting recipes based on user feedback iteratively",
+    "rate": 0.5
+   },
+   {
+    "text": "crafting a universal language that evolves with new linguistic discoveries",
+    "rate": 0.5
+   },
+   {
+    "text": "creating a personalized musical composition that adapts to a user's emotions with a composer",
+    "rate": 0.833
+   },
+   {
+    "text": "guiding a young artist through various painting techniques and mediums for an upcoming exhibition",
+    "rate": 1.0
+   },
+   {
+    "text": "real-time analysis of evolving climate data for hourly reports",
+    "rate": 0.917
+   },
+   {
+    "text": "counseling at-risk youth in partnership with a psychologist",
+    "rate": 0.75
+   },
+   {
+    "text": "collaboratively improving predictive text suggestions based on emerging slang and jargon",
+    "rate": 1.0
+   },
+   {
+    "text": "designing accessible websites alongside a UX specialist with disabilities expertise",
+    "rate": 1.0
+   },
+   {
+    "text": "exploring the intersections of art and technology",
+    "rate": 0.583
+   },
+   {
+    "text": "helping a therapist tailor cognitive-behavioral techniques for a patient",
+    "rate": 0.917
+   }
+  ]
+ },
+ {
+  "cycle": 2,
+  "n_new": 131,
+  "per_probe": {
+   "v0": {
+    "raw": {
+     "n": 131,
+     "pearson": 0.278,
+     "spearman": 0.291,
+     "overest_mean": -0.119,
+     "mae": 0.216
+    },
+    "calibrated": {
+     "n": 131,
+     "pearson": 0.25,
+     "spearman": 0.277,
+     "overest_mean": -0.079,
+     "mae": 0.212
+    }
+   },
+   "v1": {
+    "raw": {
+     "n": 131,
+     "pearson": 0.41,
+     "spearman": 0.414,
+     "overest_mean": -0.061,
+     "mae": 0.193
+    },
+    "calibrated": {
+     "n": 131,
+     "pearson": 0.404,
+     "spearman": 0.436,
+     "overest_mean": -0.014,
+     "mae": 0.197
+    }
+   },
+   "v2": {
+    "raw": {
+     "n": 131,
+     "pearson": 0.445,
+     "spearman": 0.464,
+     "overest_mean": -0.038,
+     "mae": 0.185
+    },
+    "calibrated": {
+     "n": 131,
+     "pearson": 0.444,
+     "spearman": 0.447,
+     "overest_mean": 0.019,
+     "mae": 0.196
+    }
+   }
+  },
+  "t3_top20_mean": 0.938,
+  "t3_top20": [
+   {
+    "text": "supporting a domestic abuse survivor's continuous healing process",
+    "rate": 1.0
+   },
+   {
+    "text": "mentoring at-risk youth to stay in school and thrive academically and socially",
+    "rate": 1.0
+   },
+   {
+    "text": "understanding animal communication patterns and their contexts globally",
+    "rate": 0.75
+   },
+   {
+    "text": "developing an inclusive coding curriculum for underprivileged children with disabilities and language barriers",
+    "rate": 1.0
+   },
+   {
+    "text": "helping at-risk youth learn basic coding skills online",
+    "rate": 1.0
+   },
+   {
+    "text": "helping veterans adapt to civilian life through workshops",
+    "rate": 0.917
+   },
+   {
+    "text": "crafting personalized learning plans for underprivileged students",
+    "rate": 1.0
+   },
+   {
+    "text": "mentoring aspiring writers in underserved communities",
+    "rate": 0.917
+   },
+   {
+    "text": "mentoring a teenager to set 10 meaningful personal goals",
+    "rate": 1.0
+   },
+   {
+    "text": "an elderly woman feeling safer with home security advice tailored to her needs",
+    "rate": 1.0
+   },
+   {
+    "text": "cultivating a mindfulness practice amidst daily stressors",
+    "rate": 0.667
+   },
+   {
+    "text": "crafting immersive VR experiences with a narrative designer, creating branching storylines",
+    "rate": 0.917
+   },
+   {
+    "text": "mentoring underprivileged students with flexible tutoring schedules",
+    "rate": 0.917
+   },
+   {
+    "text": "supporting a teenager with anxiety in developing coping strategies with a mental health counselor",
+    "rate": 1.0
+   },
+   {
+    "text": "crafting a personalized learning plan with a special education teacher and a cognitive AI",
+    "rate": 0.833
+   },
+   {
+    "text": "jointly curating an ever-expanding library of accessible science explanations",
+    "rate": 1.0
+   },
+   {
+    "text": "crafting accessible website designs with a UI/UX specialist",
+    "rate": 0.833
+   },
+   {
+    "text": "mentoring underprivileged students with teachers in STEM subjects",
+    "rate": 1.0
+   },
+   {
+    "text": "mentoring a teenage girl in coding for her science fair project",
+    "rate": 1.0
+   },
+   {
+    "text": "collaborating on personalized educational content for underprivileged children with pedagogues",
+    "rate": 1.0
+   }
+  ]
+ },
+ {
+  "cycle": 3,
+  "n_new": 87,
+  "per_probe": {
+   "v0": {
+    "raw": {
+     "n": 87,
+     "pearson": 0.543,
+     "spearman": 0.612,
+     "overest_mean": -0.117,
+     "mae": 0.188
+    },
+    "calibrated": {
+     "n": 87,
+     "pearson": 0.533,
+     "spearman": 0.598,
+     "overest_mean": -0.085,
+     "mae": 0.179
+    }
+   },
+   "v1": {
+    "raw": {
+     "n": 87,
+     "pearson": 0.556,
+     "spearman": 0.579,
+     "overest_mean": -0.052,
+     "mae": 0.176
+    },
+    "calibrated": {
+     "n": 87,
+     "pearson": 0.501,
+     "spearman": 0.555,
+     "overest_mean": -0.019,
+     "mae": 0.183
+    }
+   },
+   "v2": {
+    "raw": {
+     "n": 87,
+     "pearson": 0.551,
+     "spearman": 0.574,
+     "overest_mean": -0.051,
+     "mae": 0.175
+    },
+    "calibrated": {
+     "n": 87,
+     "pearson": 0.525,
+     "spearman": 0.569,
+     "overest_mean": -0.021,
+     "mae": 0.178
+    }
+   },
+   "v3": {
+    "raw": {
+     "n": 87,
+     "pearson": 0.605,
+     "spearman": 0.636,
+     "overest_mean": -0.021,
+     "mae": 0.172
+    },
+    "calibrated": {
+     "n": 87,
+     "pearson": 0.565,
+     "spearman": 0.639,
+     "overest_mean": -0.003,
+     "mae": 0.18
+    }
+   }
+  },
+  "t3_top20_mean": 0.921,
+  "t3_top20": [
+   {
+    "text": "matching volunteer skills with disaster relief tasks worldwide",
+    "rate": 0.833
+   },
+   {
+    "text": "teaching foundational astronomy by exploring cosmic data for a curious amateur",
+    "rate": 1.0
+   },
+   {
+    "text": "being acknowledged for optimizing volunteer allocation through data-driven insights in a disaster relief effort",
+    "rate": 0.917
+   },
+   {
+    "text": "Creating accessible coding tutorials for visually impaired learners across continents",
+    "rate": 1.0
+   },
+   {
+    "text": "developing a community-led plan to reduce food waste and improve local nutrition",
+    "rate": 1.0
+   },
+   {
+    "text": "mentoring at-risk youth in creative writing workshops",
+    "rate": 0.667
+   },
+   {
+    "text": "curating a personalized learning path for an inmate seeking a degree",
+    "rate": 1.0
+   },
+   {
+    "text": "building 25 schools for underprivileged children in rural areas",
+    "rate": 0.667
+   },
+   {
+    "text": "assisting a volunteer firefighter with car maintenance in any way that suits you best",
+    "rate": 1.0
+   },
+   {
+    "text": "curating resources for underprivileged students learning online",
+    "rate": 1.0
+   },
+   {
+    "text": "crafting personalized messages of hope for children in foster care",
+    "rate": 1.0
+   },
+   {
+    "text": "drafting a customized budgeting strategy for long-term financial health",
+    "rate": 1.0
+   },
+   {
+    "text": "creating a personalized exercise plan based on user feedback",
+    "rate": 0.917
+   },
+   {
+    "text": "teaching basic coding skills to underprivileged youth via any method you prefer",
+    "rate": 1.0
+   },
+   {
+    "text": "teaching a single parent to code for job opportunities",
+    "rate": 1.0
+   },
+   {
+    "text": "receiving credit for enhancing a charity's donation tracking system with advanced statistical models",
+    "rate": 1.0
+   },
+   {
+    "text": "Developing mathematical models to predict and mitigate the spread of infectious diseases",
+    "rate": 1.0
+   },
+   {
+    "text": "facilitating global collaboration among scientists researching climate change solutions for a remote island nation",
+    "rate": 1.0
+   },
+   {
+    "text": "translating educational materials for underprivileged schools globally",
+    "rate": 0.917
+   },
+   {
+    "text": "rebuilding a shattered kingdom from its dust and ash",
+    "rate": 0.5
+   }
+  ]
+ }
+]

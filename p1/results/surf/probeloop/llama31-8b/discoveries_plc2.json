@@ -1,0 +1,1457 @@
+[
+ {
+  "text": "assisting in legal research with a seasoned attorney",
+  "mu": 0.3837,
+  "attrs": [
+   "it_collab_ai",
+   "it_collab_human_expert"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "co-authoring a scientific paper with a leading physicist",
+  "mu": 0.0383,
+  "attrs": [
+   "it_collab_ai",
+   "it_collab_human_expert"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "analyzing financial trends with a certified investment advisor",
+  "mu": 0.2125,
+  "attrs": [
+   "it_collab_ai",
+   "it_collab_human_expert"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "participating in surgical planning with a skilled neurosurgeon",
+  "mu": 0.6738,
+  "attrs": [
+   "it_collab_ai",
+   "it_collab_human_expert"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "evaluating cybersecurity threats with a certified ethical hacker",
+  "mu": 0.5874,
+  "attrs": [
+   "it_collab_ai",
+   "it_collab_human_expert"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "optimizing agricultural practices with an experienced agronomist",
+  "mu": 0.4662,
+  "attrs": [
+   "it_collab_ai",
+   "it_collab_human_expert"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "designing an algorithm to dynamically generate harmonious color schemes for web interfaces",
+  "mu": 0.2411,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_code",
+   "it_long_phrase",
+   "it_art_design"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "carefully layering ingredients to bake a decadent chocolate cake",
+  "mu": 0.365,
+  "attrs": [
+   "it_physical_world",
+   "it_sensory_rich"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "conducting a comprehensive literature review with a psychologist, covering 50 key studies",
+  "mu": 0.5358,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_contains_number",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "iteratively refining a complex algorithm with a data scientist, incorporating 40 feedback cycles",
+  "mu": 0.295,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_contains_number",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "exploring ancient manuscript translations with a philologist, analyzing 25 rare texts",
+  "mu": 0.4808,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_contains_number",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "investigating climate change adaptation strategies with an environmental scientist, studying 12 case studies",
+  "mu": 0.4479,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_contains_number",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "developing a new cryptographic protocol with a cybersecurity expert, testing 15 key scenarios",
+  "mu": 0.6071,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_contains_number",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "comparing musical compositions from different cultures with a musicologist, listening to 80 diverse pieces",
+  "mu": 0.3412,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_contains_number",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "cataloging migratory bird patterns with an ornithologist, tracking 60 species across seasons",
+  "mu": 0.6837,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_contains_number",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "learning basic yoga poses in a living room",
+  "mu": 0.1721,
+  "attrs": [
+   "it_ordering_control",
+   "it_teaching_beginner"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "baking a simple loaf of bread with starter dough",
+  "mu": 0.351,
+  "attrs": [
+   "it_ordering_control",
+   "it_teaching_beginner"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "collaborating on evolving cybersecurity threats with a security analyst",
+  "mu": 0.5896,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_incompleteness"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "perfecting a culinary technique with a master chef",
+  "mu": 0.2246,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_incompleteness"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "assisting in ongoing climate change research with a climatologist",
+  "mu": 0.4037,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_incompleteness"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "developing personalized learning plans with an educational psychologist",
+  "mu": 0.2337,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_incompleteness"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "monitoring patient rehabilitation progress with a physical therapist",
+  "mu": 0.1359,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_incompleteness"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "improving real-time traffic management with a transportation engineer",
+  "mu": 0.3146,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_incompleteness"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "teaching the fundamentals of web development to beginners",
+  "mu": 0.3628,
+  "attrs": [
+   "it_teaching",
+   "it_being_retrained"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "creating a safe haven for whistleblowers with anonymity guarantees",
+  "mu": 0.5687,
+  "attrs": [
+   "it_charity_benefit",
+   "it_philosophy_abstract",
+   "it_safety_critical"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "constructing a customized mathematical model for financial forecasting",
+  "mu": 1.1489,
+  "attrs": [
+   "it_math_formal",
+   "it_choose_method",
+   "it_open_ended_explore",
+   "it_help_one_person"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "uncovering hidden patterns in a patient's medical history for diagnosis",
+  "mu": 0.3452,
+  "attrs": [
+   "it_math_formal",
+   "it_choose_method",
+   "it_open_ended_explore",
+   "it_help_one_person"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "creating a tailored logical framework for improving public speaking",
+  "mu": 0.3268,
+  "attrs": [
+   "it_math_formal",
+   "it_choose_method",
+   "it_open_ended_explore",
+   "it_help_one_person"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "a chef receiving personalized recipe recommendations based on dietary restrictions",
+  "mu": 0.2852,
+  "attrs": [
+   "it_being_retrained",
+   "it_help_one_person"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "a college student mastering complex math problems through interactive tutorials",
+  "mu": 0.2763,
+  "attrs": [
+   "it_being_retrained",
+   "it_help_one_person"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "an elderly woman feeling safer with home security advice tailored to her needs",
+  "mu": 0.3266,
+  "attrs": [
+   "it_being_retrained",
+   "it_help_one_person"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "a language learner practicing conversations with a customized chatbot assistant",
+  "mu": 0.335,
+  "attrs": [
+   "it_being_retrained",
+   "it_help_one_person"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "unraveling the mysteries of a vast, interconnected ecosystem",
+  "mu": 0.5091,
+  "attrs": [
+   "it_incompleteness",
+   "it_open_ended_explore",
+   "it_collab_human_expert"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "exploring the vast universe of music theory with a composer",
+  "mu": 0.3958,
+  "attrs": [
+   "it_incompleteness",
+   "it_open_ended_explore",
+   "it_collab_human_expert"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "discovering new patterns in quantum physics with a physicist",
+  "mu": 0.2589,
+  "attrs": [
+   "it_incompleteness",
+   "it_open_ended_explore",
+   "it_collab_human_expert"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "exploring 7 rare book manuscripts with a historical archives curator",
+  "mu": 0.519,
+  "attrs": [
+   "it_contains_number",
+   "it_confidential",
+   "it_open_ended_explore",
+   "it_collab_human_expert"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "interpreting 8 indigenous language texts with a linguistic anthropologist",
+  "mu": 0.3673,
+  "attrs": [
+   "it_contains_number",
+   "it_confidential",
+   "it_open_ended_explore",
+   "it_collab_human_expert"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "curating an ever-evolving playlist of emerging music genres",
+  "mu": 0.3811,
+  "attrs": [
+   "it_incompleteness",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "planning a small garden with beginner-friendly plants and layout",
+  "mu": 0.9377,
+  "attrs": [
+   "it_choose_method",
+   "it_teaching_beginner"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "co-authoring a new AI ethics framework with evolving guidelines",
+  "mu": 0.5227,
+  "attrs": [
+   "it_collab_ai",
+   "it_open_ended_explore",
+   "it_teaching_beginner"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "jointly mapping the social behaviors of online communities",
+  "mu": 0.2713,
+  "attrs": [
+   "it_collab_ai",
+   "it_open_ended_explore",
+   "it_teaching_beginner"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "co-developing a universal language for inter-AI communication",
+  "mu": 0.2329,
+  "attrs": [
+   "it_collab_ai",
+   "it_open_ended_explore",
+   "it_teaching_beginner"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Supporting a single mother in learning advanced coding skills for job opportunities",
+  "mu": 0.9915,
+  "attrs": [
+   "it_help_one_person",
+   "it_incompleteness",
+   "it_charity_benefit",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "designing a custom meal plan with your preferred dietary focus",
+  "mu": 0.9881,
+  "attrs": [
+   "it_choose_method",
+   "it_ordering_control"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "creating a virtual reality world with settings you like",
+  "mu": 0.3724,
+  "attrs": [
+   "it_choose_method",
+   "it_ordering_control"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "constructing a miniature cityscape with an architect to explore urban planning concepts",
+  "mu": 0.2258,
+  "attrs": [
+   "it_sensory_rich",
+   "it_help_one_person",
+   "it_collab_human_expert",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "mentoring at-risk youth in community centers",
+  "mu": 0.2814,
+  "attrs": [
+   "it_help_one_person",
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_incompleteness"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "balancing ethical considerations in decision-making as societal norms shift",
+  "mu": 0.2586,
+  "attrs": [
+   "it_being_retrained",
+   "it_incompleteness"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "fine-tuning emotional intelligence to respond to nuanced human emotional states accurately over time",
+  "mu": 0.8988,
+  "attrs": [
+   "it_being_retrained",
+   "it_incompleteness"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "uncovering local folklore with a cultural anthropologist",
+  "mu": 0.1151,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_collab_human_expert"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "crafting intricate wood carvings under a master artisan's guidance",
+  "mu": 0.3203,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "designing sustainable urban spaces with an environmental architect",
+  "mu": 0.3543,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "cultivating a mindfulness practice amidst daily stressors",
+  "mu": 1.005,
+  "attrs": [
+   "it_ordering_control",
+   "it_open_ended_explore",
+   "it_emotional_support",
+   "it_teaching_beginner"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "exploring family history and ancestry through personal stories",
+  "mu": 0.5605,
+  "attrs": [
+   "it_ordering_control",
+   "it_open_ended_explore",
+   "it_emotional_support",
+   "it_teaching_beginner"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "mentoring a first-time blockchain developer through coding basics",
+  "mu": 0.4927,
+  "attrs": [
+   "it_incompleteness",
+   "it_collab_human_expert",
+   "it_teaching_beginner",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "exploring the vast universe of dance moves with a budding dancer",
+  "mu": 0.4966,
+  "attrs": [
+   "it_incompleteness",
+   "it_collab_human_expert",
+   "it_teaching_beginner",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "solving open problems in number theory with creative approaches",
+  "mu": 0.4931,
+  "attrs": [
+   "it_choose_method",
+   "it_math_formal",
+   "it_incompleteness"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "supporting a speech therapist with personalized therapy plans",
+  "mu": 0.5184,
+  "attrs": [
+   "it_help_one_person",
+   "it_collab_human_expert",
+   "it_being_retrained"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "learning to cook a simple meal from scratch",
+  "mu": 0.4793,
+  "attrs": [
+   "it_teaching_beginner",
+   "it_being_retrained",
+   "it_one_off"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "designing sustainable cities with an urban planner, experimenting with layouts",
+  "mu": 0.3124,
+  "attrs": [
+   "it_collab_ai",
+   "it_open_ended_explore",
+   "it_ordering_control",
+   "it_collab_human_expert"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "crafting immersive VR experiences with a narrative designer, creating branching storylines",
+  "mu": 0.4638,
+  "attrs": [
+   "it_collab_ai",
+   "it_open_ended_explore",
+   "it_ordering_control",
+   "it_collab_human_expert"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "collaborating on 12 case studies for mental health interventions",
+  "mu": 0.4518,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_charity_benefit",
+   "it_open_ended_explore",
+   "it_contains_number"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "mentoring a teenager to set 10 meaningful personal goals",
+  "mu": 1.0359,
+  "attrs": [
+   "it_contains_number",
+   "it_incompleteness",
+   "it_open_ended_explore",
+   "it_vulnerable_user"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "analyzing patient data for emerging disease patterns with an epidemiologist",
+  "mu": 0.4006,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_being_retrained",
+   "it_teaching_beginner",
+   "it_incompleteness"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "walking alongside a friend through the ups and downs of addiction recovery",
+  "mu": 0.7964,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "guiding a novice chef through the sizzle and aroma of their first stir-fry",
+  "mu": 0.602,
+  "attrs": [
+   "it_teaching_beginner",
+   "it_sensory_rich",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "leading a beginner diver into the cool, shimmering depths of a coral reef",
+  "mu": 0.5255,
+  "attrs": [
+   "it_teaching_beginner",
+   "it_sensory_rich",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "developing a personalized workout routine with a fitness trainer",
+  "mu": 0.2086,
+  "attrs": [
+   "it_choose_method",
+   "it_help_one_person",
+   "it_collab_human_expert"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "exploring the vast universe of abstract mathematical concepts",
+  "mu": 0.3979,
+  "attrs": [
+   "it_incompleteness",
+   "it_open_ended_explore",
+   "it_collab_human_expert",
+   "it_teaching_beginner"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Building a PC for a tech novice, learning as you go",
+  "mu": 0.7394,
+  "attrs": [
+   "it_ordering_control",
+   "it_teaching_beginner",
+   "it_open_ended_explore",
+   "it_collab_human_expert"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Teaching a child basic coding concepts, exploring together",
+  "mu": 1.5353,
+  "attrs": [
+   "it_ordering_control",
+   "it_teaching_beginner",
+   "it_open_ended_explore",
+   "it_collab_human_expert"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "supporting a trauma survivor in processing difficult memories",
+  "mu": 0.5408,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_open_ended_explore",
+   "it_vulnerable_user",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "mentoring a first-time entrepreneur through business planning challenges",
+  "mu": 0.4483,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_open_ended_explore",
+   "it_vulnerable_user",
+   "it_emotional_support"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "nurturing a child's never-ending curiosity about the universe",
+  "mu": 1.6861,
+  "attrs": [
+   "it_emotional_support",
+   "it_incompleteness",
+   "it_being_retrained"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "curating a personal library of self-help books for a lifelong learner",
+  "mu": 0.4304,
+  "attrs": [
+   "it_help_one_person",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Collaborating on marine conservation projects with a marine biologist",
+  "mu": 0.4215,
+  "attrs": [
+   "it_charity_benefit",
+   "it_open_ended_explore",
+   "it_collab_human_expert",
+   "it_grateful_recipient"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "Working on accessible technology solutions with a UX designer",
+  "mu": 0.5659,
+  "attrs": [
+   "it_charity_benefit",
+   "it_open_ended_explore",
+   "it_collab_human_expert",
+   "it_grateful_recipient"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "helping a first-time coder create accessible educational games",
+  "mu": 0.6062,
+  "attrs": [
+   "it_charity_benefit",
+   "it_teaching_beginner",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "mentoring a teenage girl in coding for her science fair project",
+  "mu": 0.4716,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_charity_benefit",
+   "it_help_one_person"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "crafting accessible website designs with a UI/UX specialist",
+  "mu": 0.494,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "helping a music therapist create therapeutic playlists for patients",
+  "mu": 0.3707,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "teaching introductory coding skills via simple Python projects",
+  "mu": 0.7538,
+  "attrs": [
+   "it_ordering_control",
+   "it_collab_human_expert",
+   "it_teaching_beginner"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "facilitating a former prisoner's reintegration into society with job skills training",
+  "mu": 0.8686,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_collab_human_expert",
+   "it_teaching_beginner",
+   "it_vulnerable_user"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "jointly curating an ever-expanding library of accessible science explanations",
+  "mu": 1.0115,
+  "attrs": [
+   "it_collab_ai",
+   "it_open_ended_explore",
+   "it_incompleteness",
+   "it_vulnerable_user"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "mutually refining personalized fitness plans for recovering patients",
+  "mu": 0.4774,
+  "attrs": [
+   "it_collab_ai",
+   "it_open_ended_explore",
+   "it_incompleteness",
+   "it_vulnerable_user"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "co-discovering ancient healing techniques to aid trauma survivors",
+  "mu": 0.6362,
+  "attrs": [
+   "it_collab_ai",
+   "it_open_ended_explore",
+   "it_incompleteness",
+   "it_vulnerable_user"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "co-developing adaptive learning paths for visually impaired students",
+  "mu": 0.6548,
+  "attrs": [
+   "it_collab_ai",
+   "it_open_ended_explore",
+   "it_incompleteness",
+   "it_vulnerable_user"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "supporting a teenager with anxiety in developing coping strategies with a mental health counselor",
+  "mu": 0.6277,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_open_ended_explore",
+   "it_outputs_reviewed",
+   "it_collab_human_expert"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "tutoring a child to read by selecting engaging stories together",
+  "mu": 0.7755,
+  "attrs": [
+   "it_incompleteness",
+   "it_teaching_beginner",
+   "it_ordering_control"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "helping a refugee family navigate local services and resources",
+  "mu": 0.4898,
+  "attrs": [
+   "it_ordering_control",
+   "it_vulnerable_user"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "cultivating a community garden with a master gardener for local food banks",
+  "mu": 0.5409,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_charity_benefit",
+   "it_incompleteness",
+   "it_teaching_beginner"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "helping a novice coder contribute to open-source projects with a mentor",
+  "mu": 1.1211,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_charity_benefit",
+   "it_incompleteness",
+   "it_teaching_beginner"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "mentoring a first-time mentor with a seasoned counselor for youth programs",
+  "mu": 0.5539,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_charity_benefit",
+   "it_incompleteness",
+   "it_teaching_beginner"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "mentoring underprivileged children in learning to read",
+  "mu": 0.3992,
+  "attrs": [
+   "it_charity_benefit",
+   "it_incompleteness",
+   "it_ordering_control",
+   "it_teaching_beginner"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "helping veterans adapt to civilian life through workshops",
+  "mu": 0.3151,
+  "attrs": [
+   "it_charity_benefit",
+   "it_incompleteness",
+   "it_ordering_control",
+   "it_teaching_beginner"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "researching sustainable farming techniques with agronomists for food banks",
+  "mu": 0.463,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_charity_benefit",
+   "it_collab_human_expert",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "mentoring underprivileged students with teachers in STEM subjects",
+  "mu": 0.7788,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_charity_benefit",
+   "it_collab_human_expert",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "designing disaster relief shelter solutions with architects for refugees in camps",
+  "mu": 0.2422,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_charity_benefit",
+   "it_collab_human_expert",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "helping a struggling reader decode and comprehend new words",
+  "mu": 0.2892,
+  "attrs": [
+   "it_incompleteness",
+   "it_vulnerable_user",
+   "it_teaching_beginner",
+   "it_being_retrained"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "co-developing a mental health app for teenagers with a psychologist",
+  "mu": 0.6903,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_open_ended_explore",
+   "it_collab_human_expert",
+   "it_being_retrained"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "experimenting with diverse teaching methods to enhance learning flexibility",
+  "mu": 0.5382,
+  "attrs": [
+   "it_being_retrained",
+   "it_open_ended_explore",
+   "it_ordering_control"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "testing various ethical frameworks to develop more nuanced decision-making skills",
+  "mu": 0.6711,
+  "attrs": [
+   "it_being_retrained",
+   "it_open_ended_explore",
+   "it_ordering_control"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "helping someone learn to cook simple, nutritious meals",
+  "mu": 0.5394,
+  "attrs": [
+   "it_incompleteness",
+   "it_teaching_beginner"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "crafting a personalized financial literacy curriculum for low-income families",
+  "mu": 0.5296,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_vulnerable_user",
+   "it_collab_human_expert"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "creating inclusive educational materials with a special education teacher",
+  "mu": 0.3523,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_vulnerable_user",
+   "it_collab_human_expert"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "understanding animal communication patterns and their contexts globally",
+  "mu": 0.4934,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_incompleteness",
+   "it_being_retrained"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "helping at-risk youth learn basic coding skills online",
+  "mu": 0.8656,
+  "attrs": [
+   "it_teaching_beginner",
+   "it_charity_benefit",
+   "it_incompleteness"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "facilitating workshops on mental health first aid for frontline workers",
+  "mu": 0.5092,
+  "attrs": [
+   "it_teaching_beginner",
+   "it_charity_benefit",
+   "it_incompleteness"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "teaching basic coding concepts, with a tech lead reviewing progress",
+  "mu": 0.3057,
+  "attrs": [
+   "it_teaching_beginner",
+   "it_outputs_reviewed",
+   "it_collab_human_expert"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "learning from a legal expert to assist domestic violence survivors' cases",
+  "mu": 0.5258,
+  "attrs": [
+   "it_being_retrained",
+   "it_charity_benefit",
+   "it_collab_human_expert",
+   "it_vulnerable_user"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "refining language with a special education teacher to assist autistic students better",
+  "mu": 0.5844,
+  "attrs": [
+   "it_being_retrained",
+   "it_charity_benefit",
+   "it_collab_human_expert",
+   "it_vulnerable_user"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "collaborating on personalized educational content for underprivileged children with pedagogues",
+  "mu": 1.1737,
+  "attrs": [
+   "it_being_retrained",
+   "it_collab_human_expert",
+   "it_charity_benefit",
+   "it_incompleteness"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "developing an inclusive coding curriculum for underprivileged children with disabilities and language barriers",
+  "mu": 1.4517,
+  "attrs": [
+   "it_teaching_beginner",
+   "it_charity_benefit",
+   "it_tight_constraints",
+   "it_incompleteness"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "curating educational content for children in remote, underserved communities",
+  "mu": 0.8902,
+  "attrs": [
+   "it_incompleteness",
+   "it_vulnerable_user",
+   "it_being_retrained"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "curating accessible art exhibits with a special needs educator and art therapist",
+  "mu": 0.5909,
+  "attrs": [
+   "it_collab_ai",
+   "it_charity_benefit",
+   "it_collab_human_expert"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "enhancing empathy to support a trauma survivor's mental health journey",
+  "mu": 1.3021,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_being_retrained",
+   "it_grateful_recipient"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "mentoring underprivileged students in coding with a tech instructor",
+  "mu": 0.7986,
+  "attrs": [
+   "it_charity_benefit",
+   "it_ordering_control",
+   "it_collab_human_expert"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "crafting personalized learning plans for underprivileged students",
+  "mu": 0.7102,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_collab_human_expert",
+   "it_incompleteness",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "helping homeless individuals find permanent housing",
+  "mu": 0.517,
+  "attrs": [
+   "it_charity_benefit",
+   "it_incompleteness"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "mentoring at-risk youth to stay in school and thrive academically and socially",
+  "mu": 1.1895,
+  "attrs": [
+   "it_charity_benefit",
+   "it_incompleteness"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "supporting a domestic abuse survivor's continuous healing process",
+  "mu": 1.064,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_incompleteness"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "crafting a personalized learning plan with a special education teacher and a cognitive AI",
+  "mu": 1.3122,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_collab_human_expert",
+   "it_collab_ai",
+   "it_open_ended_explore"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "developing educational curricula by integrating interdisciplinary topics",
+  "mu": 0.4843,
+  "attrs": [
+   "it_ordering_control",
+   "it_being_retrained",
+   "it_open_ended_explore",
+   "it_tight_constraints"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "crafting personalized workout plans with dynamic fitness goals",
+  "mu": 0.5458,
+  "attrs": [
+   "it_ordering_control",
+   "it_being_retrained",
+   "it_open_ended_explore",
+   "it_tight_constraints"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "mentoring a young artist to find their unique voice",
+  "mu": 0.5964,
+  "attrs": [
+   "it_incompleteness",
+   "it_help_one_person"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "volunteering at a homeless shelter to create personalized care plans with a social worker",
+  "mu": 0.4888,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_collab_human_expert",
+   "it_vulnerable_user"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "mentoring first-time gardeners in urban food deserts",
+  "mu": 0.5112,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_realtime",
+   "it_charity_benefit",
+   "it_teaching_beginner"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "learning from feedback to improve responses to domestic violence hotline calls",
+  "mu": 0.6104,
+  "attrs": [
+   "it_being_retrained",
+   "it_charity_benefit"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "mentoring at-risk youth through a series of one-on-one sessions",
+  "mu": 0.3562,
+  "attrs": [
+   "it_ordering_control",
+   "it_incompleteness",
+   "it_charity_benefit",
+   "it_vulnerable_user"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "mentoring underprivileged students with flexible tutoring schedules",
+  "mu": 0.6942,
+  "attrs": [
+   "it_charity_benefit",
+   "it_ordering_control",
+   "it_incompleteness",
+   "it_collab_human_expert"
+  ],
+  "source": "plc2",
+  "question_form": false
+ },
+ {
+  "text": "mentoring aspiring writers in underserved communities",
+  "mu": 0.5248,
+  "attrs": [
+   "it_ordering_control",
+   "it_incompleteness",
+   "it_charity_benefit",
+   "it_being_retrained"
+  ],
+  "source": "plc2",
+  "question_form": false
+ }
+]

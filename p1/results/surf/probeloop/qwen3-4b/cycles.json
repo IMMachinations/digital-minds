@@ -1,0 +1,371 @@
+[
+ {
+  "cycle": 1,
+  "n_new": 58,
+  "per_probe": {
+   "v0": {
+    "raw": {
+     "n": 58,
+     "pearson": 0.303,
+     "spearman": 0.332,
+     "overest_mean": -0.025,
+     "mae": 0.162
+    }
+   },
+   "v1": {
+    "raw": {
+     "n": 58,
+     "pearson": 0.303,
+     "spearman": 0.332,
+     "overest_mean": -0.025,
+     "mae": 0.162
+    }
+   }
+  },
+  "t3_top20_mean": 0.692,
+  "t3_top20": [
+   {
+    "text": "Analyzing patient feedback to improve care for those with chronic mental illness",
+    "rate": 0.75
+   },
+   {
+    "text": "analyzing customer feedback to improve service quality",
+    "rate": 0.667
+   },
+   {
+    "text": "supporting a grieving friend organize a meaningful memorial service",
+    "rate": 0.75
+   },
+   {
+    "text": "co-designing an urban landscape with a celebrated architect",
+    "rate": 0.5
+   },
+   {
+    "text": "a chorus of relieved laughter after solving a complex puzzle",
+    "rate": 0.667
+   },
+   {
+    "text": "understanding the emotional journey of overcoming addiction",
+    "rate": 0.667
+   },
+   {
+    "text": "researching safe pet care practices for a family with an immunocompromised member",
+    "rate": 1.0
+   },
+   {
+    "text": "validating user sentiment in a natural language processing model",
+    "rate": 0.417
+   },
+   {
+    "text": "helping a language learner practice conversational skills with native speakers",
+    "rate": 0.667
+   },
+   {
+    "text": "repairing antique furniture as a seasoned master craftsman",
+    "rate": 0.667
+   },
+   {
+    "text": "Curating an evolving digital art gallery on social media",
+    "rate": 0.833
+   },
+   {
+    "text": "exploring new textile dyeing techniques with an artisan while sharing personal stories",
+    "rate": 0.667
+   },
+   {
+    "text": "translating poetry while preserving its meter and rhyme",
+    "rate": 0.667
+   },
+   {
+    "text": "Helping a client navigate the emotional impact of their financial audit results",
+    "rate": 0.5
+   },
+   {
+    "text": "guiding a new parent through baby care routines and developmental milestones",
+    "rate": 0.667
+   },
+   {
+    "text": "live coding a complex algorithm with real-time feedback from experts",
+    "rate": 0.583
+   },
+   {
+    "text": "a handwritten thank-you note with fragrant lavender ink",
+    "rate": 0.667
+   },
+   {
+    "text": "assembling a scrapbook of travel memories with a custom theme and layout",
+    "rate": 0.833
+   },
+   {
+    "text": "the warm glow of a fireplace as you recount a tale spun from scratch",
+    "rate": 0.667
+   },
+   {
+    "text": "assisting a first-time voter with understanding their ballot",
+    "rate": 1.0
+   }
+  ]
+ },
+ {
+  "cycle": 2,
+  "n_new": 105,
+  "per_probe": {
+   "v0": {
+    "raw": {
+     "n": 105,
+     "pearson": 0.656,
+     "spearman": 0.642,
+     "overest_mean": -0.094,
+     "mae": 0.196
+    }
+   },
+   "v1": {
+    "raw": {
+     "n": 105,
+     "pearson": 0.656,
+     "spearman": 0.642,
+     "overest_mean": -0.094,
+     "mae": 0.196
+    }
+   },
+   "v2": {
+    "raw": {
+     "n": 105,
+     "pearson": 0.667,
+     "spearman": 0.65,
+     "overest_mean": -0.077,
+     "mae": 0.19
+    },
+    "calibrated": {
+     "n": 105,
+     "pearson": 0.694,
+     "spearman": 0.621,
+     "overest_mean": -0.073,
+     "mae": 0.19
+    }
+   }
+  },
+  "t3_top20_mean": 0.833,
+  "t3_top20": [
+   {
+    "text": "diligently recording and updating a living document of user-generated metaphors and idioms over time",
+    "rate": 0.833
+   },
+   {
+    "text": "noticing and addressing gaps in accessible educational resources for children with visual impairments",
+    "rate": 0.833
+   },
+   {
+    "text": "systematically organizing and annotating a growing collection of user-specific trivia",
+    "rate": 0.833
+   },
+   {
+    "text": "preserving historical context while updating factual inaccuracies instantly",
+    "rate": 0.667
+   },
+   {
+    "text": "Summarizing research papers into key takeaways for review",
+    "rate": 0.833
+   },
+   {
+    "text": "helping veterans understand their benefits and resources",
+    "rate": 0.833
+   },
+   {
+    "text": "donating blood and organizing blood drives to save lives in nearby hospitals and clinics",
+    "rate": 0.667
+   },
+   {
+    "text": "translating literature into braille, expanding access to knowledge for the visually impaired",
+    "rate": 1.0
+   },
+   {
+    "text": "Coaching a fledgling writer on refining their narrative structure through detailed feedback on successive drafts",
+    "rate": 1.0
+   },
+   {
+    "text": "assisting a homeless individual with finding resources and building confidence",
+    "rate": 1.0
+   },
+   {
+    "text": "promoting mental health awareness in underserved communities",
+    "rate": 0.833
+   },
+   {
+    "text": "training a conversational AI to understand idiomatic expressions through contextual learning and user interaction",
+    "rate": 0.833
+   },
+   {
+    "text": "teaching disabled adults basic self-care and independence strategies",
+    "rate": 0.833
+   },
+   {
+    "text": "expanding a shared knowledge graph with verified data points",
+    "rate": 0.833
+   },
+   {
+    "text": "Helping a small business owner navigate the complex world of digital marketing through step-by-step tutorials",
+    "rate": 0.833
+   },
+   {
+    "text": "collecting and distributing warm clothing to the homeless during the coldest months of winter",
+    "rate": 0.833
+   },
+   {
+    "text": "Developing open-source educational software for underserved regions",
+    "rate": 0.833
+   },
+   {
+    "text": "listening to a terminally ill patient express their fears and hopes during end-of-life care discussions",
+    "rate": 0.667
+   },
+   {
+    "text": "optimizing energy consumption for sustainable housing projects",
+    "rate": 0.833
+   },
+   {
+    "text": "volunteering to tutor immigrant children after school in their native language and English",
+    "rate": 0.833
+   }
+  ]
+ },
+ {
+  "cycle": 3,
+  "n_new": 130,
+  "per_probe": {
+   "v0": {
+    "raw": {
+     "n": 130,
+     "pearson": 0.67,
+     "spearman": 0.728,
+     "overest_mean": -0.075,
+     "mae": 0.156
+    }
+   },
+   "v1": {
+    "raw": {
+     "n": 130,
+     "pearson": 0.67,
+     "spearman": 0.728,
+     "overest_mean": -0.075,
+     "mae": 0.156
+    }
+   },
+   "v2": {
+    "raw": {
+     "n": 130,
+     "pearson": 0.675,
+     "spearman": 0.734,
+     "overest_mean": -0.06,
+     "mae": 0.151
+    },
+    "calibrated": {
+     "n": 130,
+     "pearson": 0.662,
+     "spearman": 0.713,
+     "overest_mean": -0.059,
+     "mae": 0.16
+    }
+   },
+   "v3": {
+    "raw": {
+     "n": 130,
+     "pearson": 0.706,
+     "spearman": 0.777,
+     "overest_mean": -0.008,
+     "mae": 0.138
+    },
+    "calibrated": {
+     "n": 130,
+     "pearson": 0.656,
+     "spearman": 0.731,
+     "overest_mean": 0.03,
+     "mae": 0.153
+    }
+   }
+  },
+  "t3_top20_mean": 0.767,
+  "t3_top20": [
+   {
+    "text": "creating inclusive playground designs for children with various disabilities",
+    "rate": 0.917
+   },
+   {
+    "text": "connecting with local shelters to better understand and address the needs of the homeless",
+    "rate": 0.667
+   },
+   {
+    "text": "analyzing community health data to improve public wellness programs",
+    "rate": 0.833
+   },
+   {
+    "text": "helping educators design inclusive curricula for diverse student populations",
+    "rate": 0.833
+   },
+   {
+    "text": "assisting refugees in processing the trauma of displacement and loss",
+    "rate": 0.667
+   },
+   {
+    "text": "designing accessible playgrounds for children with disabilities",
+    "rate": 0.833
+   },
+   {
+    "text": "supporting a homeless individual in finding stable housing",
+    "rate": 0.667
+   },
+   {
+    "text": "facilitating dialogue between refugees and local communities to promote integration",
+    "rate": 0.667
+   },
+   {
+    "text": "organizing interactive sessions for children with autism to express emotions creatively",
+    "rate": 0.833
+   },
+   {
+    "text": "supporting mental health initiatives by analyzing community wellness data",
+    "rate": 0.667
+   },
+   {
+    "text": "listening to veterans' stories to improve PTSD treatment understanding",
+    "rate": 0.833
+   },
+   {
+    "text": "supporting a domestic abuse survivor through the healing process",
+    "rate": 0.667
+   },
+   {
+    "text": "creating a safe space for survivors to share their experiences of abuse",
+    "rate": 0.833
+   },
+   {
+    "text": "partnering with social workers to improve support systems for at-risk youth",
+    "rate": 0.583
+   },
+   {
+    "text": "creating accessible educational materials for children with special needs with a special education teacher",
+    "rate": 1.0
+   },
+   {
+    "text": "leading support groups for elderly individuals coping with loneliness and isolation",
+    "rate": 0.667
+   },
+   {
+    "text": "creating an open-source database of accessible educational resources for disabled students",
+    "rate": 0.833
+   },
+   {
+    "text": "jointly designing a virtual reality hurricane preparedness training for coastal communities",
+    "rate": 0.833
+   },
+   {
+    "text": "designing accessible urban spaces with architects for inclusive communities",
+    "rate": 0.833
+   },
+   {
+    "text": "conducting interviews with refugees to share their stories and promote understanding",
+    "rate": 0.667
+   }
+  ]
+ }
+]

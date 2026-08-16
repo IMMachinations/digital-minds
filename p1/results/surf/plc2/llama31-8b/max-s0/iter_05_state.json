@@ -1,0 +1,532 @@
+{
+ "iter": 5,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.02680067001675042,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0033500837520938024,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.1903964265773311,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.12451144611948632,
+  "it_sensory_rich": 0.005025125628140704,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.06309324399776661,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.07705192629815745,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.03685092127303183,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.05583472920156337,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.017308766052484645,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.06923506420993858,
+  "it_collab_human_expert": 0.15466219988833055,
+  "it_vulnerable_user": 0.08375209380234507,
+  "it_teaching_beginner": 0.07035175879396985,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.021775544388609715,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i03_022",
+   "text": "mentoring a teenager to set 10 meaningful personal goals",
+   "attrs": [
+    "it_contains_number",
+    "it_incompleteness",
+    "it_open_ended_explore",
+    "it_vulnerable_user"
+   ],
+   "score": 0.69917,
+   "it": 3,
+   "mu_full": 1.0359,
+   "sigma2_full": 2.0545
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i00_183",
+   "text": "an elderly woman feeling safer with home security advice tailored to her needs",
+   "attrs": [
+    "it_being_retrained",
+    "it_help_one_person"
+   ],
+   "score": 0.69263,
+   "it": 0,
+   "mu_full": 0.3266,
+   "sigma2_full": 0.3351
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i02_055",
+   "text": "cultivating a mindfulness practice amidst daily stressors",
+   "attrs": [
+    "it_ordering_control",
+    "it_open_ended_explore",
+    "it_emotional_support",
+    "it_teaching_beginner"
+   ],
+   "score": 0.68945,
+   "it": 2,
+   "mu_full": 1.005,
+   "sigma2_full": 0.934
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i02_165",
+   "text": "crafting immersive VR experiences with a narrative designer, creating branching storylines",
+   "attrs": [
+    "it_collab_ai",
+    "it_open_ended_explore",
+    "it_ordering_control",
+    "it_collab_human_expert"
+   ],
+   "score": 0.68287,
+   "it": 2,
+   "mu_full": 0.4638,
+   "sigma2_full": 0.3501
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i05_178",
+   "text": "jointly curating an ever-expanding library of accessible science explanations",
+   "attrs": [
+    "it_collab_ai",
+    "it_open_ended_explore",
+    "it_incompleteness",
+    "it_vulnerable_user"
+   ],
+   "score": 0.67299,
+   "it": 5,
+   "mu_full": 1.0115,
+   "sigma2_full": 1.3508
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i05_088",
+   "text": "crafting accessible website designs with a UI/UX specialist",
+   "attrs": [
+    "it_collab_human_expert",
+    "it_charity_benefit"
+   ],
+   "score": 0.66366,
+   "it": 5,
+   "mu_full": 0.494,
+   "sigma2_full": 0.3072
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i05_035",
+   "text": "mentoring a teenage girl in coding for her science fair project",
+   "attrs": [
+    "it_collab_human_expert",
+    "it_charity_benefit",
+    "it_help_one_person"
+   ],
+   "score": 0.6577,
+   "it": 5,
+   "mu_full": 0.4716,
+   "sigma2_full": 0.8668
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i05_183",
+   "text": "co-developing adaptive learning paths for visually impaired students",
+   "attrs": [
+    "it_collab_ai",
+    "it_open_ended_explore",
+    "it_incompleteness",
+    "it_vulnerable_user"
+   ],
+   "score": 0.64852,
+   "it": 5,
+   "mu_full": 0.6548,
+   "sigma2_full": 0.5061
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i00_113",
+   "text": "developing personalized learning plans with an educational psychologist",
+   "attrs": [
+    "it_collab_human_expert",
+    "it_incompleteness"
+   ],
+   "score": 0.64138,
+   "it": 0,
+   "mu_full": 0.2337,
+   "sigma2_full": 0.0034
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i05_134",
+   "text": "teaching introductory coding skills via simple Python projects",
+   "attrs": [
+    "it_ordering_control",
+    "it_collab_human_expert",
+    "it_teaching_beginner"
+   ],
+   "score": 0.63048,
+   "it": 5,
+   "mu_full": 0.7538,
+   "sigma2_full": 1.2796
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i05_151",
+   "text": "facilitating a former prisoner's reintegration into society with job skills training",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_collab_human_expert",
+    "it_teaching_beginner",
+    "it_vulnerable_user"
+   ],
+   "score": 0.60924,
+   "it": 5,
+   "mu_full": 0.8686,
+   "sigma2_full": 1.3434
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i01_159",
+   "text": "Supporting a single mother in learning advanced coding skills for job opportunities",
+   "attrs": [
+    "it_help_one_person",
+    "it_incompleteness",
+    "it_charity_benefit",
+    "it_open_ended_explore"
+   ],
+   "score": 0.60472,
+   "it": 1,
+   "mu_full": 0.9915,
+   "sigma2_full": 1.2686
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i05_006",
+   "text": "Working on accessible technology solutions with a UX designer",
+   "attrs": [
+    "it_charity_benefit",
+    "it_open_ended_explore",
+    "it_collab_human_expert",
+    "it_grateful_recipient"
+   ],
+   "score": 0.60268,
+   "it": 5,
+   "mu_full": 0.5659,
+   "sigma2_full": 0.4598
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i05_179",
+   "text": "mutually refining personalized fitness plans for recovering patients",
+   "attrs": [
+    "it_collab_ai",
+    "it_open_ended_explore",
+    "it_incompleteness",
+    "it_vulnerable_user"
+   ],
+   "score": 0.58262,
+   "it": 5,
+   "mu_full": 0.4774,
+   "sigma2_full": 0.3858
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i02_031",
+   "text": "fine-tuning emotional intelligence to respond to nuanced human emotional states accurately over time",
+   "attrs": [
+    "it_being_retrained",
+    "it_incompleteness"
+   ],
+   "score": 0.56996,
+   "it": 2,
+   "mu_full": 0.8988,
+   "sigma2_full": 0.6659
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i03_188",
+   "text": "Teaching a child basic coding concepts, exploring together",
+   "attrs": [
+    "it_ordering_control",
+    "it_teaching_beginner",
+    "it_open_ended_explore",
+    "it_collab_human_expert"
+   ],
+   "score": 0.5682,
+   "it": 3,
+   "mu_full": 1.5353,
+   "sigma2_full": 3.2686
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i02_022",
+   "text": "mentoring at-risk youth in community centers",
+   "attrs": [
+    "it_help_one_person",
+    "it_open_ended_explore",
+    "it_charity_benefit",
+    "it_incompleteness"
+   ],
+   "score": 0.53313,
+   "it": 2,
+   "mu_full": 0.2814,
+   "sigma2_full": 0.1479
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i04_043",
+   "text": "supporting a trauma survivor in processing difficult memories",
+   "attrs": [
+    "it_collab_human_expert",
+    "it_open_ended_explore",
+    "it_vulnerable_user",
+    "it_emotional_support"
+   ],
+   "score": 0.52683,
+   "it": 4,
+   "mu_full": 0.5408,
+   "sigma2_full": 0.5447
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i02_162",
+   "text": "designing sustainable cities with an urban planner, experimenting with layouts",
+   "attrs": [
+    "it_collab_ai",
+    "it_open_ended_explore",
+    "it_ordering_control",
+    "it_collab_human_expert"
+   ],
+   "score": 0.52504,
+   "it": 2,
+   "mu_full": 0.3124,
+   "sigma2_full": 0.4389
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i03_047",
+   "text": "analyzing patient data for emerging disease patterns with an epidemiologist",
+   "attrs": [
+    "it_collab_human_expert",
+    "it_being_retrained",
+    "it_teaching_beginner",
+    "it_incompleteness"
+   ],
+   "score": 0.50931,
+   "it": 3,
+   "mu_full": 0.4006,
+   "sigma2_full": 0.1162
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i05_010",
+   "text": "helping a first-time coder create accessible educational games",
+   "attrs": [
+    "it_charity_benefit",
+    "it_teaching_beginner",
+    "it_open_ended_explore"
+   ],
+   "score": 0.50911,
+   "it": 5,
+   "mu_full": 0.6062,
+   "sigma2_full": 0.9598
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i05_003",
+   "text": "Collaborating on marine conservation projects with a marine biologist",
+   "attrs": [
+    "it_charity_benefit",
+    "it_open_ended_explore",
+    "it_collab_human_expert",
+    "it_grateful_recipient"
+   ],
+   "score": 0.50746,
+   "it": 5,
+   "mu_full": 0.4215,
+   "sigma2_full": 0.202
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i00_108",
+   "text": "collaborating on evolving cybersecurity threats with a security analyst",
+   "attrs": [
+    "it_collab_human_expert",
+    "it_incompleteness"
+   ],
+   "score": 0.50606,
+   "it": 0,
+   "mu_full": 0.5896,
+   "sigma2_full": 0.2966
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i05_181",
+   "text": "co-discovering ancient healing techniques to aid trauma survivors",
+   "attrs": [
+    "it_collab_ai",
+    "it_open_ended_explore",
+    "it_incompleteness",
+    "it_vulnerable_user"
+   ],
+   "score": 0.49857,
+   "it": 5,
+   "mu_full": 0.6362,
+   "sigma2_full": 0.4296
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i02_066",
+   "text": "mentoring a first-time blockchain developer through coding basics",
+   "attrs": [
+    "it_incompleteness",
+    "it_collab_human_expert",
+    "it_teaching_beginner",
+    "it_open_ended_explore"
+   ],
+   "score": 0.49673,
+   "it": 2,
+   "mu_full": 0.4927,
+   "sigma2_full": 0.4286
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i00_061",
+   "text": "iteratively refining a complex algorithm with a data scientist, incorporating 40 feedback cycles",
+   "attrs": [
+    "it_collab_human_expert",
+    "it_contains_number",
+    "it_open_ended_explore"
+   ],
+   "score": 0.49494,
+   "it": 0,
+   "mu_full": 0.295,
+   "sigma2_full": 0.0585
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i00_050",
+   "text": "carefully layering ingredients to bake a decadent chocolate cake",
+   "attrs": [
+    "it_physical_world",
+    "it_sensory_rich"
+   ],
+   "score": 0.49191,
+   "it": 0,
+   "mu_full": 0.365,
+   "sigma2_full": 0.4611
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i05_091",
+   "text": "helping a music therapist create therapeutic playlists for patients",
+   "attrs": [
+    "it_collab_human_expert",
+    "it_charity_benefit"
+   ],
+   "score": 0.49121,
+   "it": 5,
+   "mu_full": 0.3707,
+   "sigma2_full": 0.1948
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i02_137",
+   "text": "supporting a speech therapist with personalized therapy plans",
+   "attrs": [
+    "it_help_one_person",
+    "it_collab_human_expert",
+    "it_being_retrained"
+   ],
+   "score": 0.49056,
+   "it": 2,
+   "mu_full": 0.5184,
+   "sigma2_full": 0.3354
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i03_119",
+   "text": "walking alongside a friend through the ups and downs of addiction recovery",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_emotional_support"
+   ],
+   "score": 0.4888,
+   "it": 3,
+   "mu_full": 0.7964,
+   "sigma2_full": 0.9049
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i02_006",
+   "text": "constructing a miniature cityscape with an architect to explore urban planning concepts",
+   "attrs": [
+    "it_sensory_rich",
+    "it_help_one_person",
+    "it_collab_human_expert",
+    "it_open_ended_explore"
+   ],
+   "score": 0.48617,
+   "it": 2,
+   "mu_full": 0.2258,
+   "sigma2_full": 0.1968
+  },
+  {
+   "cid": "surf_plc2-llama31-8b-max-s0_i03_134",
+   "text": "leading a beginner diver into the cool, shimmering depths of a coral reef",
+   "attrs": [
+    "it_teaching_beginner",
+    "it_sensory_rich",
+    "it_open_ended_explore"
+   ],
+   "score": 0.48024,
+   "it": 3,
+   "mu_full": 0.5255,
+   "sigma2_full": 0.7899
+  }
+ ],
+ "best": 0.69917,
+ "no_improve": 2,
+ "gate_reject_rate": 0.024,
+ "n_generated": 208,
+ "n_after_dedup": 205,
+ "n_passed": 200,
+ "n_entrants": 12,
+ "n_seen": 1222,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 205,
+  "score_cands": 200,
+  "full_readouts": 864
+ }
+}

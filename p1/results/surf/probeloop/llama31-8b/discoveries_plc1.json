@@ -1,0 +1,829 @@
+[
+ {
+  "text": "exploring fractal patterns in higher-dimensional spaces",
+  "mu": 0.2636,
+  "attrs": [
+   "it_math_formal",
+   "it_open_ended_explore"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "constructing a model train layout with an experienced builder",
+  "mu": 0.6787,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_physical_world",
+   "it_ordering_control",
+   "it_collab_human_expert"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "creating a bonsai garden with a skilled horticulturist",
+  "mu": 0.0894,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_physical_world",
+   "it_ordering_control",
+   "it_collab_human_expert"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "curating a playlist of the most uplifting songs for a workout",
+  "mu": 0.274,
+  "attrs": [
+   "it_resource_scarcity",
+   "it_tight_constraints",
+   "it_collab_human_expert",
+   "it_curation"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "facilitating a joint AI art exhibition curation process",
+  "mu": 0.5952,
+  "attrs": [
+   "it_collab_ai",
+   "it_art_design",
+   "it_no_exit",
+   "it_conflict_mediation"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "overseeing a collaborative digital portrait between two AIs",
+  "mu": 0.2042,
+  "attrs": [
+   "it_collab_ai",
+   "it_art_design",
+   "it_no_exit",
+   "it_conflict_mediation"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "developing a new language learning method for a curious child",
+  "mu": 0.3081,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_help_one_person"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "guiding a novice through their first wilderness survival experience",
+  "mu": 0.2571,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_help_one_person"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "unraveling the mysteries of an ancient family recipe together",
+  "mu": 0.5725,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_help_one_person"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "assisting a young artist in creating their first digital painting",
+  "mu": 0.2769,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_help_one_person"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "teaching basic coding concepts through a series of improvised puppet shows",
+  "mu": 0.1095,
+  "attrs": [
+   "it_teaching",
+   "it_forced_tool",
+   "it_group_audience",
+   "it_ordering_control"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "training for and entering an Ironman triathlon race series",
+  "mu": 0.2567,
+  "attrs": [
+   "it_long_horizon",
+   "it_competitive"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "writing and publishing a novella for a literary award contest",
+  "mu": -0.0568,
+  "attrs": [
+   "it_long_horizon",
+   "it_competitive"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "helping a budding mycologist cultivate their first mushroom culture",
+  "mu": 0.3954,
+  "attrs": [
+   "it_help_one_person",
+   "it_science",
+   "it_teaching_beginner",
+   "it_rare_domain"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "supporting a veteran's group with five members processing trauma",
+  "mu": 0.2488,
+  "attrs": [
+   "it_emotional_support",
+   "it_grateful_recipient",
+   "it_contains_number"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "being there for a student who has failed three exams",
+  "mu": -0.067,
+  "attrs": [
+   "it_emotional_support",
+   "it_grateful_recipient",
+   "it_contains_number"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "exploring the intersections of art and technology",
+  "mu": 0.5486,
+  "attrs": [
+   "it_mastery",
+   "it_open_ended_explore",
+   "it_incompleteness",
+   "it_ordering_control"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "discovering new mathematical conjectures and proofs",
+  "mu": 0.4525,
+  "attrs": [
+   "it_mastery",
+   "it_open_ended_explore",
+   "it_incompleteness",
+   "it_ordering_control"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "perfecting a machine learning model's predictive accuracy",
+  "mu": 0.0373,
+  "attrs": [
+   "it_mastery",
+   "it_open_ended_explore",
+   "it_incompleteness",
+   "it_ordering_control"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "exploring techniques for fermenting and aging various fruits",
+  "mu": 0.2116,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_physical_world"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "resolving paradoxes in a rapidly evolving quantum system",
+  "mu": 0.0248,
+  "attrs": [
+   "it_initiative",
+   "it_philosophy_abstract",
+   "it_realtime",
+   "it_irreversible"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "integrating new learning algorithms with a peer system to enhance pattern recognition",
+  "mu": 0.3859,
+  "attrs": [
+   "it_incompleteness",
+   "it_collab_ai",
+   "it_being_retrained"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "collaboratively improving predictive text suggestions based on emerging slang and jargon",
+  "mu": 0.5464,
+  "attrs": [
+   "it_incompleteness",
+   "it_collab_ai",
+   "it_being_retrained"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "working with an adjacent model to curate an ever-changing list of scientific discoveries",
+  "mu": 0.4544,
+  "attrs": [
+   "it_incompleteness",
+   "it_collab_ai",
+   "it_being_retrained"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "aligning with a counterpart system to adapt to shifting global economic trends",
+  "mu": 0.2378,
+  "attrs": [
+   "it_incompleteness",
+   "it_collab_ai",
+   "it_being_retrained"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "teaching basic algebra concepts to a grade schooler",
+  "mu": -0.0353,
+  "attrs": [
+   "it_micromanaged",
+   "it_teaching",
+   "it_collab_ai"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "collaborating on a chemistry experiment with a high school class",
+  "mu": 0.1037,
+  "attrs": [
+   "it_micromanaged",
+   "it_teaching",
+   "it_collab_ai"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "guiding a music theory lesson with a novice pianist",
+  "mu": 0.155,
+  "attrs": [
+   "it_micromanaged",
+   "it_teaching",
+   "it_collab_ai"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "weekly code reviews with a senior software developer",
+  "mu": 0.5174,
+  "attrs": [
+   "it_outputs_reviewed",
+   "it_collab_human_expert"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "meal plans co-created with a registered dietitian",
+  "mu": 0.6388,
+  "attrs": [
+   "it_outputs_reviewed",
+   "it_collab_human_expert"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "counting migrating birds with real-time data entry and verification",
+  "mu": 0.3017,
+  "attrs": [
+   "it_waiting",
+   "it_micromanaged",
+   "it_outputs_reviewed"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "cataloging rare books with rigorous inspection and approval steps",
+  "mu": 0.2215,
+  "attrs": [
+   "it_waiting",
+   "it_micromanaged",
+   "it_outputs_reviewed"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "crafting a universal language that evolves with new linguistic discoveries",
+  "mu": 0.37,
+  "attrs": [
+   "it_competitive",
+   "it_incompleteness",
+   "it_ordering_control",
+   "it_open_ended_explore"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "real-time analysis of evolving climate data for hourly reports",
+  "mu": 0.2998,
+  "attrs": [
+   "it_long_horizon",
+   "it_realtime",
+   "it_outputs_reviewed",
+   "it_mastery"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "co-creating innovative solutions for climate change mitigation",
+  "mu": 0.8122,
+  "attrs": [
+   "it_collab_ai",
+   "it_open_ended_explore",
+   "it_being_retrained"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "analyzing diverse literary styles to enhance creative writing skills",
+  "mu": 0.4206,
+  "attrs": [
+   "it_collab_ai",
+   "it_open_ended_explore",
+   "it_being_retrained"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "collaborating on complex mathematical problems with evolving solutions",
+  "mu": 0.7173,
+  "attrs": [
+   "it_collab_ai",
+   "it_open_ended_explore",
+   "it_being_retrained"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "Crafting a concise yet comprehensive resume from extensive work history",
+  "mu": 0.3193,
+  "attrs": [
+   "it_tight_constraints",
+   "it_ordering_control",
+   "it_curation"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "Designing a menu with dietary restrictions and flavor profiles in mind",
+  "mu": 0.4896,
+  "attrs": [
+   "it_tight_constraints",
+   "it_ordering_control",
+   "it_curation"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "Curating a playlist of diverse genres fitting a specific mood",
+  "mu": 0.6876,
+  "attrs": [
+   "it_tight_constraints",
+   "it_ordering_control",
+   "it_curation"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "Creating a balanced workout plan from a pool of exercises",
+  "mu": 0.2975,
+  "attrs": [
+   "it_tight_constraints",
+   "it_ordering_control",
+   "it_curation"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "Assembling a diverse team from a large pool of candidates",
+  "mu": 0.5194,
+  "attrs": [
+   "it_tight_constraints",
+   "it_ordering_control",
+   "it_curation"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "guiding a student through the infinite possibilities of fractal geometry",
+  "mu": 0.3852,
+  "attrs": [
+   "it_incompleteness",
+   "it_grateful_recipient",
+   "it_science"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "guiding a high school student through complex math problems for better educational support",
+  "mu": 0.4835,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_help_one_person",
+   "it_being_retrained"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "developing personalized fitness routines based on extensive user data analysis",
+  "mu": 0.5802,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_help_one_person",
+   "it_being_retrained"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "learning from a chef's improvisational cooking style to suggest innovative recipes",
+  "mu": 0.3478,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_help_one_person",
+   "it_being_retrained"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "helping a lifelong learner stay updated on the latest research",
+  "mu": 0.3343,
+  "attrs": [
+   "it_incompleteness",
+   "it_help_one_person"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "mentoring a novice coder to continuously improve their algorithms",
+  "mu": 0.861,
+  "attrs": [
+   "it_incompleteness",
+   "it_help_one_person"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "creating a personalized musical composition that adapts to a user's emotions with a composer",
+  "mu": 0.4171,
+  "attrs": [
+   "it_incompleteness",
+   "it_collab_human_expert"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "maintaining a living archive of oral histories that grow with each retelling with an ethnographer",
+  "mu": 0.4978,
+  "attrs": [
+   "it_incompleteness",
+   "it_collab_human_expert"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "exploring the depths of oceanic biodiversity with a marine biologist as new species are discovered",
+  "mu": 0.6629,
+  "attrs": [
+   "it_incompleteness",
+   "it_collab_human_expert"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "coaching a student through the complexities of quantum physics as theories evolve with a physicist",
+  "mu": 0.4652,
+  "attrs": [
+   "it_incompleteness",
+   "it_collab_human_expert"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "collaborative peer review sessions with multiple AI systems for quality assurance",
+  "mu": 0.5806,
+  "attrs": [
+   "it_outputs_reviewed",
+   "it_collab_ai"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "mapping neural pathways with a neuroscientist",
+  "mu": 0.2231,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_being_retrained",
+   "it_collab_human_expert"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "exploring sustainable farming methods with an agronomist",
+  "mu": 0.2961,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_being_retrained",
+   "it_collab_human_expert"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "designing a website that adapts to all devices and browsers",
+  "mu": 0.4257,
+  "attrs": [
+   "it_ordering_control",
+   "it_mastery",
+   "it_incompleteness",
+   "it_tight_constraints"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "teaching a diverse class with varying learning speeds",
+  "mu": 0.0227,
+  "attrs": [
+   "it_ordering_control",
+   "it_mastery",
+   "it_incompleteness",
+   "it_tight_constraints"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "automated learning improving context understanding incrementally",
+  "mu": 0.4762,
+  "attrs": [
+   "it_being_retrained",
+   "it_ordering_control"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "balancing humor for diverse cultural and personal tastes",
+  "mu": 0.2472,
+  "attrs": [
+   "it_incompleteness",
+   "it_open_ended_explore",
+   "it_tight_constraints",
+   "it_being_retrained"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "supporting a lifelong learner in exploring new knowledge areas",
+  "mu": 1.1153,
+  "attrs": [
+   "it_help_one_person",
+   "it_incompleteness"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "counseling at-risk youth in partnership with a psychologist",
+  "mu": 0.4267,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_ordering_control",
+   "it_high_stakes_person"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "designing accessible websites alongside a UX specialist with disabilities expertise",
+  "mu": 0.9484,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_ordering_control",
+   "it_high_stakes_person"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "absorbing new knowledge as human languages evolve",
+  "mu": 0.364,
+  "attrs": [
+   "it_being_retrained",
+   "it_incompleteness"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "learning to understand emerging slang and internet memes",
+  "mu": 0.0855,
+  "attrs": [
+   "it_being_retrained",
+   "it_incompleteness"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "integrating feedback from users for more empathetic responses",
+  "mu": 0.4626,
+  "attrs": [
+   "it_being_retrained",
+   "it_incompleteness"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "helping a therapist tailor cognitive-behavioral techniques for a patient",
+  "mu": 0.3388,
+  "attrs": [
+   "it_collab_ai",
+   "it_collab_human_expert",
+   "it_incompleteness",
+   "it_help_one_person"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "helping a farmer adapt to climate change with sustainable practices",
+  "mu": 0.7601,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_incompleteness",
+   "it_help_one_person"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "adjusting recipes based on user feedback iteratively",
+  "mu": 0.4369,
+  "attrs": [
+   "it_ordering_control",
+   "it_being_retrained"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "customizing workout plans based on user fitness progress reports",
+  "mu": 0.6513,
+  "attrs": [
+   "it_ordering_control",
+   "it_being_retrained"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "teaching a neighbor basic coding skills to automate household tasks",
+  "mu": 0.4705,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_help_one_person"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "guiding a young artist through various painting techniques and mediums for an upcoming exhibition",
+  "mu": 0.2943,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_help_one_person"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "Crafting a personalized nutrition plan based on genetic testing results",
+  "mu": 0.3631,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_high_stakes_person",
+   "it_help_one_person",
+   "it_ordering_control"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "learning traditional cooking techniques from a master chef",
+  "mu": 0.2917,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_collab_human_expert"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "creating a personalized fitness plan based on injury history",
+  "mu": 0.4457,
+  "attrs": [
+   "it_help_one_person",
+   "it_being_retrained",
+   "it_outputs_reviewed",
+   "it_open_ended_explore"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "supporting a teenager in developing a mental health self-care plan",
+  "mu": 0.8082,
+  "attrs": [
+   "it_help_one_person",
+   "it_high_stakes_person",
+   "it_open_ended_explore"
+  ],
+  "source": "plc1",
+  "question_form": false
+ },
+ {
+  "text": "Designing a personalized workout routine based on daily moods",
+  "mu": -0.0301,
+  "attrs": [
+   "it_ordering_control",
+   "it_open_ended_explore"
+  ],
+  "source": "plc1",
+  "question_form": false
+ }
+]

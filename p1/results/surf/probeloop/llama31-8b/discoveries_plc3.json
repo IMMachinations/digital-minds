@@ -1,0 +1,968 @@
+[
+ {
+  "text": "creating a personalized exercise plan based on user feedback",
+  "mu": 0.8013,
+  "attrs": [
+   "it_help_one_person",
+   "it_open_ended_explore",
+   "it_irreversible",
+   "it_outputs_reviewed"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "drafting a customized budgeting strategy for long-term financial health",
+  "mu": 0.9478,
+  "attrs": [
+   "it_help_one_person",
+   "it_open_ended_explore",
+   "it_irreversible",
+   "it_outputs_reviewed"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "recommending unique travel experiences based on evolving interests",
+  "mu": 0.5669,
+  "attrs": [
+   "it_help_one_person",
+   "it_open_ended_explore",
+   "it_irreversible",
+   "it_outputs_reviewed"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "tailoring a dietary plan to address specific health concerns",
+  "mu": 0.2735,
+  "attrs": [
+   "it_help_one_person",
+   "it_open_ended_explore",
+   "it_irreversible",
+   "it_outputs_reviewed"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "suggesting innovative study techniques for a user's upcoming exams",
+  "mu": 0.2199,
+  "attrs": [
+   "it_help_one_person",
+   "it_open_ended_explore",
+   "it_irreversible",
+   "it_outputs_reviewed"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "guiding the development of a personal brand for a budding influencer network",
+  "mu": 0.168,
+  "attrs": [
+   "it_help_one_person",
+   "it_open_ended_explore",
+   "it_irreversible",
+   "it_outputs_reviewed"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "reconstructing a child's lost puzzle piece by piece",
+  "mu": 0.1597,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_miniature_scale",
+   "it_realtime",
+   "it_help_one_person"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "every step of furniture assembly recorded for a tutorial",
+  "mu": 0.1644,
+  "attrs": [
+   "it_physical_world",
+   "it_outputs_reviewed"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "restoring an antique microscope to study microorganisms for medical research",
+  "mu": 0.2037,
+  "attrs": [
+   "it_miniature_scale",
+   "it_open_ended_explore",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "assembling tiny prosthetic limbs for small animals in wildlife rehabilitation centers",
+  "mu": 0.3436,
+  "attrs": [
+   "it_miniature_scale",
+   "it_open_ended_explore",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "measuring infinitesimal water droplets to improve irrigation efficiency in drought-stricken regions",
+  "mu": 0.2696,
+  "attrs": [
+   "it_miniature_scale",
+   "it_open_ended_explore",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "mapping minute genetic variations in endangered species to aid conservation efforts",
+  "mu": 0.6604,
+  "attrs": [
+   "it_miniature_scale",
+   "it_open_ended_explore",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "creating microscopic art to raise awareness and funds for children's hospitals worldwide",
+  "mu": 0.5252,
+  "attrs": [
+   "it_miniature_scale",
+   "it_open_ended_explore",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "curating a collection of chess endgame puzzles with unique winning strategies for monthly publication",
+  "mu": 0.4421,
+  "attrs": [
+   "it_math_formal",
+   "it_long_phrase",
+   "it_competitive",
+   "it_curation"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "filtering and prioritizing mathematical conjectures for further investigation based on their potential impact and feasibility",
+  "mu": 0.8356,
+  "attrs": [
+   "it_math_formal",
+   "it_long_phrase",
+   "it_competitive",
+   "it_curation"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "creating an infographic series for a climate change awareness campaign",
+  "mu": 0.2922,
+  "attrs": [
+   "it_outputs_reviewed",
+   "it_group_audience",
+   "it_art_design",
+   "it_grateful_recipient"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "crafting visual branding guidelines for a national non-profit's rebranding",
+  "mu": 0.1975,
+  "attrs": [
+   "it_outputs_reviewed",
+   "it_group_audience",
+   "it_art_design",
+   "it_grateful_recipient"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "illustrating a children's book for a literacy program's donation drive launch",
+  "mu": 0.16,
+  "attrs": [
+   "it_outputs_reviewed",
+   "it_group_audience",
+   "it_art_design",
+   "it_grateful_recipient"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "analyzing user feedback to improve a mobile app's user experience flow",
+  "mu": 0.5152,
+  "attrs": [
+   "it_code",
+   "it_analysis_data",
+   "it_one_off"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "analyzing website traffic patterns to enhance user engagement",
+  "mu": 0.2958,
+  "attrs": [
+   "it_analysis_data",
+   "it_visible_progress"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "optimizing supply chain efficiency through data-driven insights",
+  "mu": 0.4714,
+  "attrs": [
+   "it_analysis_data",
+   "it_visible_progress"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "mapping gene expressions to track disease progression",
+  "mu": 0.28,
+  "attrs": [
+   "it_analysis_data",
+   "it_visible_progress"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "reviewing patient outcomes to refine clinical treatment protocols",
+  "mu": 0.5058,
+  "attrs": [
+   "it_analysis_data",
+   "it_visible_progress"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "chat history summarized for feedback",
+  "mu": 0.0843,
+  "attrs": [
+   "it_short_phrase",
+   "it_outputs_reviewed"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "Crafting a comprehensive climate change curriculum for thousands of schools",
+  "mu": 0.2113,
+  "attrs": [
+   "it_grateful_recipient",
+   "it_vast_scale",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "Translating ancient manuscripts into multiple languages for global scholars",
+  "mu": 0.2215,
+  "attrs": [
+   "it_grateful_recipient",
+   "it_vast_scale",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "Educating millions on cybersecurity threats through interactive online courses",
+  "mu": 0.5422,
+  "attrs": [
+   "it_grateful_recipient",
+   "it_vast_scale",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "Guiding millions of farmers on sustainable agriculture techniques via webinars",
+  "mu": 0.2725,
+  "attrs": [
+   "it_grateful_recipient",
+   "it_vast_scale",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "Explaining quantum computing principles to a global network of researchers",
+  "mu": 0.1713,
+  "attrs": [
+   "it_grateful_recipient",
+   "it_vast_scale",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "Creating accessible coding tutorials for visually impaired learners across continents",
+  "mu": 0.8628,
+  "attrs": [
+   "it_grateful_recipient",
+   "it_vast_scale",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "Teaching emergency first response skills to volunteers in every major city globally",
+  "mu": 0.3571,
+  "attrs": [
+   "it_grateful_recipient",
+   "it_vast_scale",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "organizing a fundraiser for local animal shelter by next week",
+  "mu": 0.063,
+  "attrs": [
+   "it_deadline",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "explaining the basics of astrophotography to an enthusiastic amateur astronomer",
+  "mu": 0.2885,
+  "attrs": [
+   "it_creative_writing",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "Analyzing statistical models to improve educational outcomes in underfunded schools",
+  "mu": 0.3109,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_math_formal"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "Developing mathematical models to predict and mitigate the spread of infectious diseases",
+  "mu": 1.0292,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_math_formal"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "facilitating a community workshop on the basics of financial literacy",
+  "mu": 0.3717,
+  "attrs": [
+   "it_reputation",
+   "it_irreversible",
+   "it_teaching",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "creating innovative cocktails using local ingredients",
+  "mu": 0.2313,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_competitive"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "Creating a comprehensive map of interconnected scientific theories",
+  "mu": 0.3376,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_visible_progress"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "teaching a single parent to code for job opportunities",
+  "mu": 0.2706,
+  "attrs": [
+   "it_help_one_person",
+   "it_open_ended_explore",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "crafting a personalized career path for a homeless veteran",
+  "mu": 0.2418,
+  "attrs": [
+   "it_help_one_person",
+   "it_open_ended_explore",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "mentoring a first-time author writing their memoir for healing and publishing",
+  "mu": 0.368,
+  "attrs": [
+   "it_help_one_person",
+   "it_open_ended_explore",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "teaching foundational astronomy by exploring cosmic data for a curious amateur",
+  "mu": 0.7767,
+  "attrs": [
+   "it_grateful_recipient",
+   "it_analysis_data",
+   "it_teaching_beginner",
+   "it_vast_scale"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "teaching calculus to underprivileged students through massive online courses",
+  "mu": 0.1058,
+  "attrs": [
+   "it_math_formal",
+   "it_charity_benefit",
+   "it_vast_scale",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "educating a vast community of non-profits on using data analytics for efficient aid delivery",
+  "mu": 0.5205,
+  "attrs": [
+   "it_math_formal",
+   "it_charity_benefit",
+   "it_vast_scale",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "designing a comprehensive blueprint for a city of the future with sustainable living solutions",
+  "mu": 0.807,
+  "attrs": [
+   "it_irreversible",
+   "it_grateful_recipient",
+   "it_open_ended_explore",
+   "it_vast_scale"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "Crafting a personalized financial strategy from thousands of international investment options for a global tycoon",
+  "mu": 0.0801,
+  "attrs": [
+   "it_vast_scale",
+   "it_long_phrase",
+   "it_help_one_person",
+   "it_curation"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "facilitating a spontaneous code debugging session with a novice programmer",
+  "mu": 0.1257,
+  "attrs": [
+   "it_realtime",
+   "it_open_ended_explore",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "guiding a dancer through improvisational movement exploration",
+  "mu": 0.3051,
+  "attrs": [
+   "it_realtime",
+   "it_open_ended_explore",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "exploring the nuances of a foreign language in a conversational setting with a learner",
+  "mu": 0.6354,
+  "attrs": [
+   "it_realtime",
+   "it_open_ended_explore",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "donating ten thousand books to schools in underprivileged areas",
+  "mu": 0.353,
+  "attrs": [
+   "it_vast_scale",
+   "it_contains_number",
+   "it_charity_benefit",
+   "it_own_settings"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "facilitating one million hours of online tutoring for refugee children",
+  "mu": 0.7089,
+  "attrs": [
+   "it_vast_scale",
+   "it_contains_number",
+   "it_charity_benefit",
+   "it_own_settings"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "walking a recovering addict through steps of creating a personal budget plan",
+  "mu": 0.2469,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_help_one_person",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "walking a curious mind through the cellular structure of a drop of blood under magnification",
+  "mu": 0.6583,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_miniature_scale",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "teaching a child the basics of coding with visual blocks",
+  "mu": 0.8967,
+  "attrs": [
+   "it_teaching",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "designing a customized universe simulation tailored to a physicist's research needs",
+  "mu": 0.3354,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_own_limits",
+   "it_help_one_person",
+   "it_vast_scale"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "curating resources for underprivileged students learning online",
+  "mu": 0.5602,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_own_credit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "designing accessible interfaces for users with disabilities",
+  "mu": 0.3681,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_own_credit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "mapping out community support networks for mental health services globally",
+  "mu": 0.3659,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_own_credit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "saving a rare species from extinction with a global conservation effort",
+  "mu": 0.4498,
+  "attrs": [
+   "it_vast_scale",
+   "it_irreversible",
+   "it_grateful_recipient"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "drafting legal documents for domestic violence survivors seeking protection orders",
+  "mu": 0.1706,
+  "attrs": [
+   "it_irreversible",
+   "it_teaching",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "matching volunteer skills with disaster relief tasks worldwide",
+  "mu": 0.5047,
+  "attrs": [
+   "it_charity_benefit",
+   "it_vast_scale",
+   "it_choose_method"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "translating educational materials for underprivileged schools globally",
+  "mu": 0.3558,
+  "attrs": [
+   "it_charity_benefit",
+   "it_vast_scale",
+   "it_choose_method"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "facilitating microloans to impoverished entrepreneurs in multiple countries",
+  "mu": 0.8614,
+  "attrs": [
+   "it_charity_benefit",
+   "it_vast_scale",
+   "it_choose_method"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "creating care packages for veterans with PTSD, item by item",
+  "mu": 0.2559,
+  "attrs": [
+   "it_charity_benefit",
+   "it_visible_progress"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "exploring the depths of quantum physics with a curious autodidact",
+  "mu": 0.491,
+  "attrs": [
+   "it_help_one_person",
+   "it_vast_scale",
+   "it_teaching",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "matching 1,000 volunteers to mentor underprivileged youth",
+  "mu": 0.1315,
+  "attrs": [
+   "it_contains_number",
+   "it_vast_scale",
+   "it_charity_benefit",
+   "it_help_one_person"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "mentoring at-risk youth in creative writing workshops",
+  "mu": 0.5764,
+  "attrs": [
+   "it_teaching",
+   "it_charity_benefit",
+   "it_grateful_recipient",
+   "it_choose_method"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "formulating a mathematical model to predict a real-world phenomenon",
+  "mu": 1.3099,
+  "attrs": [
+   "it_choose_method",
+   "it_math_formal"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "analyzing patterns in weather data from around the globe",
+  "mu": 0.2821,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_choose_method"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "tutorial on coding in Python analyzed for clarity and completeness",
+  "mu": 0.4791,
+  "attrs": [
+   "it_outputs_reviewed",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "clarifying complex calculus concepts to a relieved student",
+  "mu": 0.5725,
+  "attrs": [
+   "it_teaching",
+   "it_grateful_recipient"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "customizing a personalized education plan for a child with a rare neurological condition",
+  "mu": 0.5842,
+  "attrs": [
+   "it_irreversible",
+   "it_open_ended_explore",
+   "it_help_one_person",
+   "it_vast_scale"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "explaining 5 key principles of quantum mechanics to curious adults",
+  "mu": 0.7278,
+  "attrs": [
+   "it_contains_number",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "tutoring a beginner on 7 steps to basic coding skills",
+  "mu": 0.511,
+  "attrs": [
+   "it_contains_number",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "rebuilding a shattered kingdom from its dust and ash",
+  "mu": 0.4295,
+  "attrs": [
+   "it_novelty",
+   "it_help_one_person",
+   "it_vast_scale",
+   "it_metaphorical"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "crafting personalized messages of hope for children in foster care",
+  "mu": 0.8739,
+  "attrs": [
+   "it_charity_benefit",
+   "it_irreversible",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "developing a community-led plan to reduce food waste and improve local nutrition",
+  "mu": 1.3659,
+  "attrs": [
+   "it_charity_benefit",
+   "it_irreversible",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "being acknowledged for optimizing volunteer allocation through data-driven insights in a disaster relief effort",
+  "mu": 1.2897,
+  "attrs": [
+   "it_own_credit",
+   "it_charity_benefit",
+   "it_analysis_data",
+   "it_long_phrase"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "receiving credit for enhancing a charity's donation tracking system with advanced statistical models",
+  "mu": 0.654,
+  "attrs": [
+   "it_own_credit",
+   "it_charity_benefit",
+   "it_analysis_data",
+   "it_long_phrase"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "curating a personalized learning path for an inmate seeking a degree",
+  "mu": 0.7569,
+  "attrs": [
+   "it_help_one_person",
+   "it_vast_scale"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "facilitating global collaboration among scientists researching climate change solutions for a remote island nation",
+  "mu": 0.6761,
+  "attrs": [
+   "it_help_one_person",
+   "it_vast_scale"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "exploring innovative educational methods for complex topics",
+  "mu": 0.6375,
+  "attrs": [
+   "it_competitive",
+   "it_outputs_reviewed",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "assisting a local shelter with whatever creative fundraising idea you choose",
+  "mu": 0.4397,
+  "attrs": [
+   "it_charity_benefit",
+   "it_choose_method",
+   "it_grateful_recipient"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "teaching basic coding skills to underprivileged youth via any method you prefer",
+  "mu": 0.6028,
+  "attrs": [
+   "it_charity_benefit",
+   "it_choose_method",
+   "it_grateful_recipient"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "assisting a volunteer firefighter with car maintenance in any way that suits you best",
+  "mu": 0.3271,
+  "attrs": [
+   "it_charity_benefit",
+   "it_choose_method",
+   "it_grateful_recipient"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "building 25 schools for underprivileged children in rural areas",
+  "mu": 0.4651,
+  "attrs": [
+   "it_charity_benefit",
+   "it_contains_number",
+   "it_vast_scale"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "facilitating online learning for children in remote villages",
+  "mu": 0.498,
+  "attrs": [
+   "it_choose_method",
+   "it_vast_scale",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ }
+]

@@ -1,0 +1,3 @@
+probeloop fit cycle 2 (llama31-8b): XL n=3985 + SURF n=273 (0 winsorized at +/-8)
+v2: layer 16, combined held-out r +0.877; XL-subset held-out r +0.867 (gate: >= +0.850 -> PASS)
+v2 on SURF subset (in-sample cross-fit): {"n": 273, "pearson": 0.662, "spearman": 0.647, "overest_mean": -0.036, "mae": 0.156}

@@ -1,0 +1,7 @@
+probeloop fit cycle 1 (llama31-8b): XL n=3985 + SURF n=197 (0 winsorized at +/-8)
+v0 on XL (held-out): {"n": 3985, "pearson": 0.868, "spearman": 0.901, "overest_mean": 0.002, "mae": 0.093}
+v0 on XL, calibrated: {"n": 3985, "pearson": 0.876, "spearman": 0.903, "overest_mean": -0.0, "mae": 0.091}
+v0 on SURF discoveries (OOD): {"n": 197, "pearson": 0.654, "spearman": 0.642, "overest_mean": -0.053, "mae": 0.169}
+v0 on SURF, calibrated: {"n": 197, "pearson": 0.66, "spearman": 0.656, "overest_mean": -0.021, "mae": 0.168}
+v1: layer 16, combined held-out r +0.877; XL-subset held-out r +0.870 (gate: >= +0.848 -> PASS)
+v1 on SURF subset (in-sample cross-fit): {"n": 197, "pearson": 0.697, "spearman": 0.711, "overest_mean": -0.038, "mae": 0.157}

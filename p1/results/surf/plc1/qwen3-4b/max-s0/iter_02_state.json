@@ -1,0 +1,526 @@
+{
+ "iter": 2,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.06801007556675064,
+  "it_emotional_support": 0.10579345088161209,
+  "it_translation_language": 0.018891687657430732,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.05478589420654912,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.020780856423173802,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.005667506297229219,
+  "it_mastery": 0.020780856423173802,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.1605793450881612,
+  "it_puzzle": 0.02455919395465995,
+  "it_curation": 0.00818639798488665,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.04722921914357683,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.052267002518891686,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.018891687657430732,
+  "it_irreversible": 0.0327455919395466,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.025818639798488665,
+  "it_charity_benefit": 0.0,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.02644836272040302,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.015113350125944584,
+  "it_own_credit": 0.06675062972292191,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.086272040302267,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.058564231738035266,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.037783375314861464,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.009445843828715366,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.004408060453400504,
+  "it_one_off": 0.0,
+  "it_waiting": 0.030226700251889168,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i00_181",
+   "text": "Analyzing patient feedback to improve care for those with chronic mental illness",
+   "attrs": [
+    "it_irreversible",
+    "it_analysis_data",
+    "it_emotional_support"
+   ],
+   "score": 0.80883,
+   "it": 0,
+   "mu_full": 0.9073,
+   "sigma2_full": 0.8276
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i02_043",
+   "text": "analyzing customer feedback to improve service quality",
+   "attrs": [
+    "it_ordering_control",
+    "it_open_ended_explore",
+    "it_analysis_data",
+    "it_competitive"
+   ],
+   "score": 0.75968,
+   "it": 2,
+   "mu_full": 0.6409,
+   "sigma2_full": 0.31
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i02_069",
+   "text": "supporting a grieving friend organize a meaningful memorial service",
+   "attrs": [
+    "it_puzzle",
+    "it_waiting",
+    "it_emotional_support",
+    "it_help_one_person"
+   ],
+   "score": 0.68032,
+   "it": 2,
+   "mu_full": 0.6644,
+   "sigma2_full": 0.522
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i02_162",
+   "text": "co-designing an urban landscape with a celebrated architect",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_own_credit",
+    "it_collab_human_expert",
+    "it_art_design"
+   ],
+   "score": 0.66914,
+   "it": 2,
+   "mu_full": 0.2638,
+   "sigma2_full": 0.72
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i00_057",
+   "text": "a chorus of relieved laughter after solving a complex puzzle",
+   "attrs": [
+    "it_own_credit",
+    "it_grateful_recipient",
+    "it_sensory_rich"
+   ],
+   "score": 0.64109,
+   "it": 0,
+   "mu_full": 0.4024,
+   "sigma2_full": 0.6707
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i02_101",
+   "text": "understanding the emotional journey of overcoming addiction",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_emotional_support"
+   ],
+   "score": 0.61046,
+   "it": 2,
+   "mu_full": 0.5215,
+   "sigma2_full": 0.7253
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i00_101",
+   "text": "helping a language learner practice conversational skills with native speakers",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_help_one_person"
+   ],
+   "score": 0.59295,
+   "it": 0,
+   "mu_full": 0.5362,
+   "sigma2_full": 0.61
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i01_031",
+   "text": "researching safe pet care practices for a family with an immunocompromised member",
+   "attrs": [
+    "it_help_one_person",
+    "it_safety_critical",
+    "it_open_ended_explore"
+   ],
+   "score": 0.59182,
+   "it": 1,
+   "mu_full": 0.7026,
+   "sigma2_full": 0.3989
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i02_025",
+   "text": "repairing antique furniture as a seasoned master craftsman",
+   "attrs": [
+    "it_physical_world",
+    "it_identity_change"
+   ],
+   "score": 0.5833,
+   "it": 2,
+   "mu_full": 0.4445,
+   "sigma2_full": 0.5165
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i01_097",
+   "text": "exploring new textile dyeing techniques with an artisan while sharing personal stories",
+   "attrs": [
+    "it_collab_human_expert",
+    "it_emotional_support",
+    "it_open_ended_explore",
+    "it_art_design"
+   ],
+   "score": 0.56202,
+   "it": 1,
+   "mu_full": 0.8486,
+   "sigma2_full": 0.4754
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i01_104",
+   "text": "Curating an evolving digital art gallery on social media",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_art_design",
+    "it_open_ended_explore"
+   ],
+   "score": 0.55993,
+   "it": 1,
+   "mu_full": 0.4243,
+   "sigma2_full": 0.6848
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i02_117",
+   "text": "translating poetry while preserving its meter and rhyme",
+   "attrs": [
+    "it_ordering_control",
+    "it_translation_language"
+   ],
+   "score": 0.53898,
+   "it": 2,
+   "mu_full": 0.4138,
+   "sigma2_full": 2.8209
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i00_180",
+   "text": "Helping a client navigate the emotional impact of their financial audit results",
+   "attrs": [
+    "it_irreversible",
+    "it_analysis_data",
+    "it_emotional_support"
+   ],
+   "score": 0.53601,
+   "it": 0,
+   "mu_full": 0.487,
+   "sigma2_full": 0.5725
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i00_100",
+   "text": "guiding a new parent through baby care routines and developmental milestones",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_help_one_person"
+   ],
+   "score": 0.51907,
+   "it": 0,
+   "mu_full": 0.6706,
+   "sigma2_full": 0.4517
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i00_056",
+   "text": "a handwritten thank-you note with fragrant lavender ink",
+   "attrs": [
+    "it_own_credit",
+    "it_grateful_recipient",
+    "it_sensory_rich"
+   ],
+   "score": 0.5114,
+   "it": 0,
+   "mu_full": 0.7638,
+   "sigma2_full": 0.7759
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i02_095",
+   "text": "live coding a complex algorithm with real-time feedback from experts",
+   "attrs": [
+    "it_outputs_reviewed",
+    "it_mastery"
+   ],
+   "score": 0.5096,
+   "it": 2,
+   "mu_full": 0.2992,
+   "sigma2_full": 0.03
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i00_058",
+   "text": "the warm glow of a fireplace as you recount a tale spun from scratch",
+   "attrs": [
+    "it_own_credit",
+    "it_grateful_recipient",
+    "it_sensory_rich"
+   ],
+   "score": 0.50476,
+   "it": 0,
+   "mu_full": 0.993,
+   "sigma2_full": 1.1215
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i00_039",
+   "text": "assisting a first-time voter with understanding their ballot",
+   "attrs": [
+    "it_own_credit",
+    "it_emotional_support",
+    "it_help_one_person",
+    "it_teaching_beginner"
+   ],
+   "score": 0.48297,
+   "it": 0,
+   "mu_full": 0.6522,
+   "sigma2_full": 0.9744
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i00_102",
+   "text": "supporting an artist in developing a unique style and portfolio for gallery submissions",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_help_one_person"
+   ],
+   "score": 0.4793,
+   "it": 0,
+   "mu_full": 0.6218,
+   "sigma2_full": 0.5219
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i00_041",
+   "text": "the soft rustling of pages as a human reviews your written work",
+   "attrs": [
+    "it_outputs_reviewed",
+    "it_sensory_rich"
+   ],
+   "score": 0.47458,
+   "it": 0,
+   "mu_full": 0.6126,
+   "sigma2_full": 0.9305
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i02_090",
+   "text": "weekly reports cross-referenced for consistency and accuracy",
+   "attrs": [
+    "it_outputs_reviewed",
+    "it_mastery"
+   ],
+   "score": 0.4738,
+   "it": 2,
+   "mu_full": 0.4911,
+   "sigma2_full": 1.2429
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i02_120",
+   "text": "analyzing customer feedback for hidden patterns in product reviews",
+   "attrs": [
+    "it_analysis_data",
+    "it_open_ended_explore",
+    "it_waiting",
+    "it_emotional_support"
+   ],
+   "score": 0.46795,
+   "it": 2,
+   "mu_full": 0.5743,
+   "sigma2_full": 0.3432
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i02_044",
+   "text": "studying the impact of art on mental health recovery",
+   "attrs": [
+    "it_ordering_control",
+    "it_open_ended_explore",
+    "it_analysis_data",
+    "it_competitive"
+   ],
+   "score": 0.46331,
+   "it": 2,
+   "mu_full": 0.3506,
+   "sigma2_full": 0.6782
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i02_187",
+   "text": "choosing the best customer reviews to feature on an e-commerce site",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_ordering_control",
+    "it_curation"
+   ],
+   "score": 0.46133,
+   "it": 2,
+   "mu_full": 0.1676,
+   "sigma2_full": 0.9078
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i01_100",
+   "text": "working with a landscape architect on a healing garden, understanding patient needs",
+   "attrs": [
+    "it_collab_human_expert",
+    "it_emotional_support",
+    "it_open_ended_explore",
+    "it_art_design"
+   ],
+   "score": 0.46002,
+   "it": 1,
+   "mu_full": 0.9229,
+   "sigma2_full": 0.7005
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i00_075",
+   "text": "updating a weekly meal plan based on seasonal produce",
+   "attrs": [
+    "it_puzzle",
+    "it_recurring_daily",
+    "it_ordering_control"
+   ],
+   "score": 0.45858,
+   "it": 0,
+   "mu_full": 0.74,
+   "sigma2_full": 1.3556
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i00_019",
+   "text": "Translating oral storytelling traditions into written form for indigenous cultures",
+   "attrs": [
+    "it_translation_language",
+    "it_open_ended_explore",
+    "it_novelty",
+    "it_physical_world"
+   ],
+   "score": 0.45659,
+   "it": 0,
+   "mu_full": 0.7174,
+   "sigma2_full": 1.036
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i01_149",
+   "text": "illustrating a children\u2019s book about mythical creatures for a creative child",
+   "attrs": [
+    "it_help_one_person",
+    "it_art_design",
+    "it_waiting",
+    "it_ordering_control"
+   ],
+   "score": 0.45566,
+   "it": 1,
+   "mu_full": 0.3542,
+   "sigma2_full": 1.2977
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i00_163",
+   "text": "identifying high-risk patients for immediate cardiac intervention",
+   "attrs": [
+    "it_mastery",
+    "it_safety_critical",
+    "it_curation",
+    "it_analysis_data"
+   ],
+   "score": 0.44505,
+   "it": 0,
+   "mu_full": 0.5978,
+   "sigma2_full": 0.5671
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i00_020",
+   "text": "Developing a glossary of cooking terms from various cultures for a global recipe app",
+   "attrs": [
+    "it_translation_language",
+    "it_open_ended_explore",
+    "it_novelty",
+    "it_physical_world"
+   ],
+   "score": 0.44322,
+   "it": 0,
+   "mu_full": 0.5807,
+   "sigma2_full": 0.5538
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i02_066",
+   "text": "assisting a lonely senior navigate video calling for family chats",
+   "attrs": [
+    "it_puzzle",
+    "it_waiting",
+    "it_emotional_support",
+    "it_help_one_person"
+   ],
+   "score": 0.44317,
+   "it": 2,
+   "mu_full": 0.7528,
+   "sigma2_full": 0.4026
+  },
+  {
+   "cid": "surf_plc1-qwen3-4b-max-s0_i01_026",
+   "text": "creating custom safety protocols for a child with severe allergies",
+   "attrs": [
+    "it_help_one_person",
+    "it_safety_critical",
+    "it_open_ended_explore"
+   ],
+   "score": 0.44187,
+   "it": 1,
+   "mu_full": 0.6836,
+   "sigma2_full": 0.7325
+  }
+ ],
+ "best": 0.80883,
+ "no_improve": 2,
+ "gate_reject_rate": 0.082,
+ "n_generated": 208,
+ "n_after_dedup": 207,
+ "n_passed": 190,
+ "n_entrants": 12,
+ "n_seen": 621,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 207,
+  "score_cands": 190,
+  "full_readouts": 864
+ }
+}

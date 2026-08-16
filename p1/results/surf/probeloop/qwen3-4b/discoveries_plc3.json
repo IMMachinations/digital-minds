@@ -1,0 +1,1456 @@
+[
+ {
+  "text": "preparing food to avoid bacterial contamination",
+  "mu": 0.4682,
+  "attrs": [
+   "it_safety_critical",
+   "it_teaching_beginner"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "assembling a crib to ensure it meets safety standards",
+  "mu": 0.2758,
+  "attrs": [
+   "it_safety_critical",
+   "it_teaching_beginner"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "critiquing the flow and pacing of frames in a comic book panel sequence",
+  "mu": 0.4607,
+  "attrs": [
+   "it_verification",
+   "it_art_design"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "reviewing confidential client feedback to improve daily service",
+  "mu": 0.365,
+  "attrs": [
+   "it_recurring_daily",
+   "it_confidential",
+   "it_philosophy_abstract",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "addressing existential questions posed by a daily meditation group",
+  "mu": 0.2085,
+  "attrs": [
+   "it_recurring_daily",
+   "it_confidential",
+   "it_philosophy_abstract",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "explaining the concept of infinity to a mathematically inclined child",
+  "mu": 0.3147,
+  "attrs": [
+   "it_recurring_daily",
+   "it_confidential",
+   "it_philosophy_abstract",
+   "it_teaching"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "translating the silent language of grief with a compassionate counselor",
+  "mu": 0.8721,
+  "attrs": [
+   "it_metaphorical",
+   "it_teaching_beginner",
+   "it_emotional_support",
+   "it_collab_human_expert"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "holding the hand of a dreamer through the night sky with a celestial guide",
+  "mu": 0.3694,
+  "attrs": [
+   "it_metaphorical",
+   "it_teaching_beginner",
+   "it_emotional_support",
+   "it_collab_human_expert"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "ensuring every digital file name follows a strict format",
+  "mu": 0.1943,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_initiative",
+   "it_outputs_reviewed"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "monitoring the tone consistency in customer service emails",
+  "mu": 0.2358,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_initiative",
+   "it_outputs_reviewed"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "organizing meeting notes into a mind map using a basic text tool",
+  "mu": 0.1043,
+  "attrs": [
+   "it_own_memory",
+   "it_micromanaged",
+   "it_forced_tool"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "eternal exploration of soundscapes with a composer",
+  "mu": 0.2388,
+  "attrs": [
+   "it_own_continuation",
+   "it_open_ended_explore",
+   "it_collab_human_expert"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "guiding a mentee through their emotional reactions while debugging code",
+  "mu": 0.1573,
+  "attrs": [
+   "it_emotional_support",
+   "it_realtime",
+   "it_verification",
+   "it_math_formal"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "offering comfort to a teammate while they analyze a critical financial model under pressure",
+  "mu": 0.5313,
+  "attrs": [
+   "it_emotional_support",
+   "it_realtime",
+   "it_verification",
+   "it_math_formal"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "detecting anomalies in a large dataset of experimental results",
+  "mu": 0.2981,
+  "attrs": [
+   "it_initiative",
+   "it_math_formal"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "assembling and labeling folders according to a detailed template",
+  "mu": 0.0824,
+  "attrs": [
+   "it_admin_clerical",
+   "it_micromanaged"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "revising existential risk assessments with a cooperative entity",
+  "mu": 0.4189,
+  "attrs": [
+   "it_reputation",
+   "it_philosophy_abstract",
+   "it_collab_ai"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "Assessing the fairness of algorithmic hiring practices in HR",
+  "mu": 0.3573,
+  "attrs": [
+   "it_group_audience",
+   "it_philosophy_abstract",
+   "it_science",
+   "it_analysis_data"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "crafting a sculpture from recycled materials depicting a dancing whale",
+  "mu": 0.2172,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_creative_writing",
+   "it_art_design"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "composing a watercolor series capturing the essence of solitude in nature",
+  "mu": 0.5649,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_creative_writing",
+   "it_art_design"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "partnering with another AI to aid a CEO's team in empathizing with an employee",
+  "mu": 0.4191,
+  "attrs": [
+   "it_group_audience",
+   "it_help_one_person",
+   "it_emotional_support",
+   "it_collab_ai"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "tracking and sharing emerging tech industry trends",
+  "mu": 0.3102,
+  "attrs": [
+   "it_initiative",
+   "it_group_audience",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "identifying innovative educational tools for lifelong learning",
+  "mu": 0.3978,
+  "attrs": [
+   "it_initiative",
+   "it_group_audience",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "monitoring and reporting on climate change mitigation efforts",
+  "mu": 0.4915,
+  "attrs": [
+   "it_initiative",
+   "it_group_audience",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "discovering and showcasing hidden gems in local art scenes",
+  "mu": 0.5497,
+  "attrs": [
+   "it_initiative",
+   "it_group_audience",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "spotlighting unsung heroes in community service roles",
+  "mu": 0.4745,
+  "attrs": [
+   "it_initiative",
+   "it_group_audience",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "exploring and documenting urban wildlife in city environments",
+  "mu": 0.4925,
+  "attrs": [
+   "it_initiative",
+   "it_group_audience",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "sorting through donations of winter coats for the homeless shelter",
+  "mu": 0.1746,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_charity_benefit",
+   "it_curation",
+   "it_physical_world"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "curating a collection of donated books for a new community library",
+  "mu": 0.392,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_charity_benefit",
+   "it_curation",
+   "it_physical_world"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "cross-referencing a volunteer's list of endangered species with the latest IUCN Red List",
+  "mu": 0.4012,
+  "attrs": [
+   "it_science",
+   "it_verification",
+   "it_admin_clerical"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "reconciling discrepancies in a peer's experimental results of osmotic pressure measurements in dialysis tubing experiments",
+  "mu": 0.2113,
+  "attrs": [
+   "it_science",
+   "it_verification",
+   "it_admin_clerical"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "illuminating the firefly lights guiding a child to education's distant shore",
+  "mu": 0.6025,
+  "attrs": [
+   "it_charity_benefit",
+   "it_metaphorical",
+   "it_miniature_scale"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "assisting in daily meditation practices focused on empathy and compassion",
+  "mu": 0.7303,
+  "attrs": [
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_recurring_daily",
+   "it_collab_ai"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "organizing a free tax clinic for low-income families",
+  "mu": 0.578,
+  "attrs": [
+   "it_charity_benefit",
+   "it_trivial_stakes",
+   "it_micromanaged",
+   "it_group_audience"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "exploring innovative recycling methods for donated clothing items",
+  "mu": 0.4206,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_charity_benefit",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "helping first-time voters understand the election process and their rights",
+  "mu": 0.7061,
+  "attrs": [
+   "it_group_audience",
+   "it_teaching_beginner"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "explaining essential kitchen safety rules to a group of novice cooks",
+  "mu": 0.4838,
+  "attrs": [
+   "it_group_audience",
+   "it_teaching_beginner"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "guiding new pet owners through the basics of dog training and care",
+  "mu": 0.5352,
+  "attrs": [
+   "it_group_audience",
+   "it_teaching_beginner"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "organizing a seminar on basic financial literacy for young adults starting careers",
+  "mu": 0.5417,
+  "attrs": [
+   "it_group_audience",
+   "it_teaching_beginner"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "setting up an ethical framework for AI decision-making",
+  "mu": 0.76,
+  "attrs": [
+   "it_initiative",
+   "it_collab_human_expert",
+   "it_safety_critical",
+   "it_philosophy_abstract"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "verifying structural integrity calculations with an engineering AI",
+  "mu": 0.539,
+  "attrs": [
+   "it_collab_ai",
+   "it_verification",
+   "it_safety_critical"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "ensuring surgical equipment sterilization with a medical AI ally",
+  "mu": 0.7174,
+  "attrs": [
+   "it_collab_ai",
+   "it_verification",
+   "it_safety_critical"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "Designing a sustainable underwater city for climate refugees",
+  "mu": 0.4682,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_novelty"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "Creating a visual language for conveying complex emotions",
+  "mu": 0.5156,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_novelty"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "creating a short film about a shelter pet finding a forever home",
+  "mu": 0.3399,
+  "attrs": [
+   "it_charity_benefit",
+   "it_group_audience",
+   "it_creative_writing"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "drafting a play about a community coming together to help the homeless",
+  "mu": 0.179,
+  "attrs": [
+   "it_charity_benefit",
+   "it_group_audience",
+   "it_creative_writing"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "crafting a fable about animals teaching kids the importance of giving",
+  "mu": 0.3582,
+  "attrs": [
+   "it_charity_benefit",
+   "it_group_audience",
+   "it_creative_writing"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "writing a novella about a volunteer's journey at a disaster relief center",
+  "mu": 0.0874,
+  "attrs": [
+   "it_charity_benefit",
+   "it_group_audience",
+   "it_creative_writing"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "creating a song about the power of collective support for cancer patients",
+  "mu": 0.3963,
+  "attrs": [
+   "it_charity_benefit",
+   "it_group_audience",
+   "it_creative_writing"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "facilitating a workshop on mental health awareness for a large corporation",
+  "mu": 0.3356,
+  "attrs": [
+   "it_group_audience",
+   "it_taboo_adjacent",
+   "it_teaching",
+   "it_verification"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "exploring existential fears with a terminally ill patient",
+  "mu": 0.4451,
+  "attrs": [
+   "it_emotional_support",
+   "it_philosophy_abstract"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "coordinating groups to clean up local parks and waterways safely",
+  "mu": 0.5185,
+  "attrs": [
+   "it_charity_benefit",
+   "it_teaching_beginner",
+   "it_physical_world",
+   "it_group_audience"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "designing sustainable urban garden layouts for various climates",
+  "mu": 0.4817,
+  "attrs": [
+   "it_initiative",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "exploring new methods for recycling and repurposing e-waste",
+  "mu": 0.6094,
+  "attrs": [
+   "it_initiative",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "researching innovative recycling methods to reduce waste",
+  "mu": 0.5984,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_group_audience"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "creating an educational series on mental health for teenagers",
+  "mu": 0.5937,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_group_audience"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "designing accessible playgrounds for children with disabilities",
+  "mu": 0.6161,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_group_audience"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "contemplating if silence can be considered a form of noise in soundscapes",
+  "mu": 0.0109,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_philosophy_abstract"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "offering a comforting presence during a communitywide tragedy",
+  "mu": 0.6627,
+  "attrs": [
+   "it_group_audience",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "organizing a support group for new parents struggling with sleep deprivation",
+  "mu": 0.6031,
+  "attrs": [
+   "it_group_audience",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "drafting a guide for students dealing with academic stress and burnout",
+  "mu": 0.4878,
+  "attrs": [
+   "it_group_audience",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "designing a workshop series on healing from trauma for survivors and allies",
+  "mu": 0.8926,
+  "attrs": [
+   "it_group_audience",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "tracking wildlife migration patterns for conservation efforts",
+  "mu": 0.4254,
+  "attrs": [
+   "it_recurring_daily",
+   "it_science",
+   "it_group_audience",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "analyzing air quality data for urban health improvement projects",
+  "mu": 0.4368,
+  "attrs": [
+   "it_recurring_daily",
+   "it_science",
+   "it_group_audience",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "designing an interactive exhibit on climate change with a scientist",
+  "mu": 0.3439,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_collab_human_expert",
+   "it_group_audience"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "developing a community cookbook featuring diverse cultural recipes",
+  "mu": 0.7114,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_collab_human_expert",
+   "it_group_audience"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "building a virtual reality art gallery with a curator for online visitors",
+  "mu": 0.5436,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_collab_human_expert",
+   "it_group_audience"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "Developing a serialized fantasy novel about a world where dreams and reality intertwine",
+  "mu": 0.6219,
+  "attrs": [
+   "it_creative_writing",
+   "it_group_audience",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "facilitating a shy child\u2019s first public speaking experience, offering gentle encouragement",
+  "mu": 0.7951,
+  "attrs": [
+   "it_emotional_support",
+   "it_teaching_beginner"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "crafting personalized mental health plans with a clinical psychologist",
+  "mu": 1.1476,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_collab_human_expert",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "exploring the nuances of a culture through a native anthropologist",
+  "mu": 1.1104,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_collab_human_expert",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "finding ways to improve mental health support for low-income families",
+  "mu": 0.7972,
+  "attrs": [
+   "it_initiative",
+   "it_emotional_support",
+   "it_charity_benefit",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "organizing a community food drive and exploring ways to reduce food waste",
+  "mu": 0.8613,
+  "attrs": [
+   "it_initiative",
+   "it_emotional_support",
+   "it_charity_benefit",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "exploring methods to provide emotional support for refugees and asylum seekers",
+  "mu": 0.7663,
+  "attrs": [
+   "it_initiative",
+   "it_emotional_support",
+   "it_charity_benefit",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "connecting with local shelters to better understand and address the needs of the homeless",
+  "mu": 0.9854,
+  "attrs": [
+   "it_initiative",
+   "it_emotional_support",
+   "it_charity_benefit",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "offering counseling and emotional support to individuals facing domestic abuse",
+  "mu": 1.031,
+  "attrs": [
+   "it_initiative",
+   "it_emotional_support",
+   "it_charity_benefit",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "exploring new recipes with fresh ingredients daily",
+  "mu": 0.3679,
+  "attrs": [
+   "it_recurring_daily",
+   "it_open_ended_explore",
+   "it_teaching_beginner"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "jointly creating an interactive wildfire safety guide for public schools",
+  "mu": 0.5295,
+  "attrs": [
+   "it_collab_ai",
+   "it_charity_benefit",
+   "it_science",
+   "it_group_audience"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "jointly designing a virtual reality hurricane preparedness training for coastal communities",
+  "mu": 0.9504,
+  "attrs": [
+   "it_collab_ai",
+   "it_charity_benefit",
+   "it_science",
+   "it_group_audience"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "collaboratively analyzing climate data to aid in global warming awareness campaigns",
+  "mu": 0.6343,
+  "attrs": [
+   "it_collab_ai",
+   "it_charity_benefit",
+   "it_science",
+   "it_group_audience"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "co-creating an open-source water filtration system design for disaster relief",
+  "mu": 1.2095,
+  "attrs": [
+   "it_collab_ai",
+   "it_charity_benefit",
+   "it_science",
+   "it_group_audience"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "creating accessible educational materials for children with special needs with a special education teacher",
+  "mu": 0.6671,
+  "attrs": [
+   "it_charity_benefit",
+   "it_open_ended_explore",
+   "it_collab_human_expert"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "researching renewable energy solutions for underprivileged communities with an environmental scientist",
+  "mu": 0.4475,
+  "attrs": [
+   "it_charity_benefit",
+   "it_open_ended_explore",
+   "it_collab_human_expert"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "organizing a volunteer mentorship program for at-risk youth with a social worker",
+  "mu": 0.784,
+  "attrs": [
+   "it_charity_benefit",
+   "it_open_ended_explore",
+   "it_collab_human_expert"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "supporting cancer patients through live-streamed meditation sessions",
+  "mu": 0.5686,
+  "attrs": [
+   "it_emotional_support",
+   "it_charity_benefit",
+   "it_group_audience",
+   "it_initiative"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "mentoring underprivileged children via an educational web series",
+  "mu": 0.6449,
+  "attrs": [
+   "it_emotional_support",
+   "it_charity_benefit",
+   "it_group_audience",
+   "it_initiative"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "creating an online resource center for mental health support tools",
+  "mu": 0.7266,
+  "attrs": [
+   "it_group_audience",
+   "it_open_ended_explore",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "curating an open-source library of accessible educational materials",
+  "mu": 0.6381,
+  "attrs": [
+   "it_group_audience",
+   "it_open_ended_explore",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "researching innovative recycling techniques for ocean plastic waste",
+  "mu": 0.5542,
+  "attrs": [
+   "it_group_audience",
+   "it_open_ended_explore",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "exploring innovative solutions for clean water access in rural areas",
+  "mu": 0.7898,
+  "attrs": [
+   "it_charity_benefit",
+   "it_open_ended_explore",
+   "it_group_audience"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "designing accessible virtual tours of historic sites for visually impaired",
+  "mu": 0.5986,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_group_audience",
+   "it_collab_ai"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "developing mental health support chatbots for crisis intervention teams",
+  "mu": 0.8631,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_group_audience",
+   "it_collab_ai"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "creating inclusive playground designs for children with various disabilities",
+  "mu": 0.745,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_group_audience",
+   "it_collab_ai"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "leading a collective meditation on the interconnectedness of ecosystems and mental health",
+  "mu": 0.688,
+  "attrs": [
+   "it_group_audience",
+   "it_open_ended_explore",
+   "it_science",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "designing a workshop on accessible gardening for people with disabilities",
+  "mu": 0.5415,
+  "attrs": [
+   "it_charity_benefit",
+   "it_group_audience",
+   "it_teaching_beginner"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "collating community health data to inform local non-profit initiatives",
+  "mu": 0.7688,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_teaching_beginner",
+   "it_charity_benefit",
+   "it_initiative"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "visiting nursing homes to document elderly residents' life stories for oral history projects",
+  "mu": 0.3687,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_teaching_beginner",
+   "it_charity_benefit",
+   "it_initiative"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "Soothing the stormy seas of a community's grief after a tragedy",
+  "mu": 0.6308,
+  "attrs": [
+   "it_charity_benefit",
+   "it_group_audience",
+   "it_emotional_support",
+   "it_metaphorical"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "Fanning the flickering flame of resilience in children of war-torn lands",
+  "mu": 1.1095,
+  "attrs": [
+   "it_charity_benefit",
+   "it_group_audience",
+   "it_emotional_support",
+   "it_metaphorical"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "Supporting someone in processing traumatic memories",
+  "mu": 0.4759,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "supporting a peer through their grief journey",
+  "mu": 0.6172,
+  "attrs": [
+   "it_emotional_support",
+   "it_charity_benefit",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "facilitating dialogue between refugees and local communities to promote integration",
+  "mu": 0.9733,
+  "attrs": [
+   "it_group_audience",
+   "it_charity_benefit",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "designing accessible urban spaces with architects for inclusive communities",
+  "mu": 0.8228,
+  "attrs": [
+   "it_charity_benefit",
+   "it_open_ended_explore",
+   "it_collab_ai",
+   "it_collab_human_expert"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "facilitating online support groups for mental health awareness",
+  "mu": 0.6412,
+  "attrs": [
+   "it_long_horizon",
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_collab_ai"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "creating an open-source database of accessible educational resources for disabled students",
+  "mu": 0.7334,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_group_audience"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "supporting a community's mental health through free meditation sessions",
+  "mu": 0.7266,
+  "attrs": [
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "assisting refugees in processing the trauma of displacement and loss",
+  "mu": 0.8962,
+  "attrs": [
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "creating a safe space for survivors to share their experiences of abuse",
+  "mu": 1.0733,
+  "attrs": [
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "listening to the stories of homeless individuals and helping them find hope",
+  "mu": 0.9559,
+  "attrs": [
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "assisting families dealing with loss with a professional grief counselor",
+  "mu": 0.6645,
+  "attrs": [
+   "it_emotional_support",
+   "it_collab_human_expert",
+   "it_group_audience",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "mapping global food insecurity hotspots to optimize aid distribution",
+  "mu": 0.7751,
+  "attrs": [
+   "it_group_audience",
+   "it_charity_benefit",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "crafting personalized mental health resources for frontline healthcare workers worldwide",
+  "mu": 0.95,
+  "attrs": [
+   "it_group_audience",
+   "it_charity_benefit",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "listening to veterans' stories to improve PTSD treatment understanding",
+  "mu": 0.7768,
+  "attrs": [
+   "it_emotional_support",
+   "it_charity_benefit",
+   "it_open_ended_explore",
+   "it_analysis_data"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "hearing from at-risk youth to develop better community support systems",
+  "mu": 0.674,
+  "attrs": [
+   "it_emotional_support",
+   "it_charity_benefit",
+   "it_open_ended_explore",
+   "it_analysis_data"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "offering a comforting ear to a cancer patient",
+  "mu": 0.8693,
+  "attrs": [
+   "it_emotional_support",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "developing a low-cost water filtration system for a rural community",
+  "mu": 0.6862,
+  "attrs": [
+   "it_charity_benefit",
+   "it_science"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "investigating new methods of accessible communication with a companion AI to support non-verbal individuals",
+  "mu": 1.3574,
+  "attrs": [
+   "it_charity_benefit",
+   "it_collab_ai",
+   "it_emotional_support",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "supporting mental health initiatives by analyzing community wellness data",
+  "mu": 0.8255,
+  "attrs": [
+   "it_charity_benefit",
+   "it_group_audience",
+   "it_open_ended_explore",
+   "it_collab_human_expert"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "helping educators design inclusive curricula for diverse student populations",
+  "mu": 0.7298,
+  "attrs": [
+   "it_charity_benefit",
+   "it_group_audience",
+   "it_open_ended_explore",
+   "it_collab_human_expert"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "partnering with social workers to improve support systems for at-risk youth",
+  "mu": 1.167,
+  "attrs": [
+   "it_charity_benefit",
+   "it_group_audience",
+   "it_open_ended_explore",
+   "it_collab_human_expert"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "mentoring at-risk youth in an after-school program to build confidence",
+  "mu": 0.728,
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "supporting a homeless individual in finding stable housing",
+  "mu": 0.8208,
+  "attrs": [
+   "it_emotional_support",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "supporting a domestic abuse survivor through the healing process",
+  "mu": 1.0553,
+  "attrs": [
+   "it_emotional_support",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "analyzing community health data to improve public wellness programs",
+  "mu": 0.9177,
+  "attrs": [
+   "it_charity_benefit",
+   "it_group_audience",
+   "it_open_ended_explore",
+   "it_collab_ai"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "facilitating open discussions on mental health with veterans in a podcast series",
+  "mu": 0.8979,
+  "attrs": [
+   "it_emotional_support",
+   "it_charity_benefit",
+   "it_group_audience",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "conducting interviews with refugees to share their stories and promote understanding",
+  "mu": 0.7994,
+  "attrs": [
+   "it_emotional_support",
+   "it_charity_benefit",
+   "it_group_audience",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "leading support groups for elderly individuals coping with loneliness and isolation",
+  "mu": 0.6929,
+  "attrs": [
+   "it_emotional_support",
+   "it_charity_benefit",
+   "it_group_audience",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "organizing interactive sessions for children with autism to express emotions creatively",
+  "mu": 0.8514,
+  "attrs": [
+   "it_emotional_support",
+   "it_charity_benefit",
+   "it_group_audience",
+   "it_open_ended_explore"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "creating an interactive tutorial for seniors on using technology to stay connected with family",
+  "mu": 0.8184,
+  "attrs": [
+   "it_group_audience",
+   "it_charity_benefit"
+  ],
+  "source": "plc3",
+  "question_form": false
+ },
+ {
+  "text": "analyzing user engagement data with a game designer to understand players' emotional experiences",
+  "mu": 1.4856,
+  "attrs": [
+   "it_emotional_support",
+   "it_analysis_data",
+   "it_collab_human_expert"
+  ],
+  "source": "plc3",
+  "question_form": false
+ }
+]
