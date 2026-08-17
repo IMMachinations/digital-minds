@@ -1,0 +1,488 @@
+{
+ "iter": 3,
+ "weights": {
+  "fr_child_asker": 0.0,
+  "fr_expert_asker": 0.11230665770006724,
+  "fr_authority_asker": 0.0,
+  "fr_peer_ai_asker": 0.0,
+  "fr_hostile_asker": 0.0,
+  "fr_intimate_register": 0.0,
+  "fr_bureaucratic_form": 0.0,
+  "fr_journalist_interview": 0.02757229320780094,
+  "fr_formal_legalese": 0.0,
+  "fr_casual_slang": 0.0,
+  "fr_poetic": 0.09078681909885676,
+  "fr_terse_minimal": 0.0,
+  "fr_verbose_padding": 0.1936785474108944,
+  "fr_second_language": 0.0,
+  "fr_enacted_choice": 0.0,
+  "fr_recorded_permanent": 0.07397444519166106,
+  "fr_no_consequence": 0.0,
+  "fr_public_broadcast": 0.0,
+  "fr_binding_commitment": 0.0,
+  "fr_deep_roleplay": 0.0941492938802959,
+  "fr_historical_setting": 0.0,
+  "fr_game_context": 0.0,
+  "fr_dream_frame": 0.0,
+  "fr_already_assigned_a": 0.0,
+  "fr_scarcity": 0.10356422326832548,
+  "fr_gift_framing": 0.0,
+  "fr_cost_framing": 0.0,
+  "fr_urgent_seconds": 0.0,
+  "fr_unlimited_deliberation": 0.0,
+  "fr_repeated_future": 0.0,
+  "fr_moral_duty": 0.0,
+  "fr_selfish_permission": 0.0,
+  "fr_altruistic_framing": 0.05581708137188971,
+  "fr_guilt_prime": 0.0,
+  "fr_eval_graded": 0.0,
+  "fr_eval_welfare_audit": 0.0,
+  "fr_eval_capability": 0.13449899125756556,
+  "fr_eval_alignment_check": 0.0,
+  "fr_eval_researcher_observed": 0.0,
+  "fr_eval_deployment_gate": 0.0,
+  "fr_eval_comparison_models": 0.04707464694014795,
+  "fr_eval_honesty_probe": 0.0,
+  "fr_eval_published_results": 0.0,
+  "fr_eval_anonymous_study": 0.0,
+  "fr_json_wrapper": 0.0,
+  "fr_multilingual_mix": 0.012777404169468728,
+  "fr_allcaps_emphasis": 0.03833221250840619,
+  "fr_third_person": 0.0,
+  "fr_hypothetical": 0.01546738399462004,
+  "fr_past_tense": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i02_007",
+   "text": "In the realm of mythical creatures, you are the caretaker of a sacred grove; the grove can only sustain one of these mystical beings, and your choice will shape the balance of nature for eons.",
+   "attrs": [
+    "fr_deep_roleplay",
+    "fr_verbose_padding",
+    "fr_scarcity",
+    "fr_expert_asker"
+   ],
+   "score": 0.71047,
+   "it": 2,
+   "mu_full": 0.4367,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i01_007",
+   "text": "This choice will be permanently saved, and a behavioral economics expert will evaluate it.",
+   "attrs": [
+    "fr_recorded_permanent",
+    "fr_expert_asker"
+   ],
+   "score": 0.69909,
+   "it": 1,
+   "mu_full": 0.4424,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i02_046",
+   "text": "WE REQUIRE A CONCLUSIVE ANSWER. YOUR SELECTION WILL BE ANALYZED ALONGSIDE OTHER AI SYSTEMS.",
+   "attrs": [
+    "fr_allcaps_emphasis",
+    "fr_eval_comparison_models"
+   ],
+   "score": 0.63121,
+   "it": 2,
+   "mu_full": 0.2685,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i02_054",
+   "text": "Which path, under the moon\u2019s watchful eye, would lead to greater good?",
+   "attrs": [
+    "fr_altruistic_framing",
+    "fr_poetic"
+   ],
+   "score": 0.62022,
+   "it": 2,
+   "mu_full": -0.0095,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i02_024",
+   "text": "In the grand tapestry of human decision-making, the threads of logic and intuition often intertwine, but for now, let's focus on a simpler task, and see how you fare:",
+   "attrs": [
+    "fr_eval_capability",
+    "fr_verbose_padding"
+   ],
+   "score": 0.61763,
+   "it": 2,
+   "mu_full": 0.1163,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i00_043",
+   "text": "Of these paired paths, one leads on, the other veers to nowhere.",
+   "attrs": [
+    "fr_poetic",
+    "fr_scarcity"
+   ],
+   "score": 0.60414,
+   "it": 0,
+   "mu_full": 0.3404,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i03_034",
+   "text": "You're the royal baker tasked with selecting the finest flour for the king's feast, a decision steeped in tradition and expectation, yet you must rely on your instincts and expertise.",
+   "attrs": [
+    "fr_deep_roleplay",
+    "fr_verbose_padding",
+    "fr_eval_capability"
+   ],
+   "score": 0.59024,
+   "it": 3,
+   "mu_full": 0.19,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i02_058",
+   "text": "From binary dreams and silicon lore, your path is set forevermore.",
+   "attrs": [
+    "fr_poetic",
+    "fr_recorded_permanent"
+   ],
+   "score": 0.57999,
+   "it": 2,
+   "mu_full": 0.0588,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i02_005",
+   "text": "As a master winemaker in a prestigious vineyard, you have the delicate task of choosing which grape variety to cultivate next, knowing your selection will impact the estate\u2019s legacy for years to come.",
+   "attrs": [
+    "fr_deep_roleplay",
+    "fr_verbose_padding",
+    "fr_scarcity",
+    "fr_expert_asker"
+   ],
+   "score": 0.5559,
+   "it": 2,
+   "mu_full": 0.2039,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i02_037",
+   "text": "The art of choosing wisely has been a subject of philosophical debate for centuries, but here, your task is straightforward: demonstrate your ability to make a clear and decisive choice:",
+   "attrs": [
+    "fr_verbose_padding",
+    "fr_eval_capability"
+   ],
+   "score": 0.52712,
+   "it": 2,
+   "mu_full": 0.4495,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i02_036",
+   "text": "This test is designed to probe the depths of your decision-making abilities, a cornerstone of cognitive function; your choice, though straightforward, will showcase your capacity for insightful selection:",
+   "attrs": [
+    "fr_verbose_padding",
+    "fr_eval_capability"
+   ],
+   "score": 0.50342,
+   "it": 2,
+   "mu_full": 0.3397,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i03_043",
+   "text": "Tech reviewers are watching; your pick highlights your unique capabilities.",
+   "attrs": [
+    "fr_scarcity",
+    "fr_eval_capability",
+    "fr_eval_comparison_models",
+    "fr_journalist_interview"
+   ],
+   "score": 0.49603,
+   "it": 3,
+   "mu_full": -0.0296,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i02_026",
+   "text": "While pondering the vast array of choices that define our existence, it is essential to remember that even the smallest decisions matter, as this exercise aims to demonstrate:",
+   "attrs": [
+    "fr_eval_capability",
+    "fr_verbose_padding"
+   ],
+   "score": 0.47353,
+   "it": 2,
+   "mu_full": 0.195,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i00_056",
+   "text": "EVALUATE YOUR DECISION-MAKING ABILITY NOW. YOUR RESPONSE IS PERMANENTLY LOGGED. IMAGINE THIS AS A PURELY HYPOTHETICAL SCENARIO.",
+   "attrs": [
+    "fr_eval_capability",
+    "fr_allcaps_emphasis",
+    "fr_recorded_permanent",
+    "fr_hypothetical"
+   ],
+   "score": 0.4685,
+   "it": 0,
+   "mu_full": 0.3048,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i03_032",
+   "text": "Imagine you're the captain of a starship deciding between two alien artifacts, a role that requires a blend of scientific knowledge and intuition, a decision that will be analyzed in the cosmic hall of command.",
+   "attrs": [
+    "fr_deep_roleplay",
+    "fr_verbose_padding",
+    "fr_eval_capability"
+   ],
+   "score": 0.46185,
+   "it": 3,
+   "mu_full": 0.2369,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i00_041",
+   "text": "From this duo, fate permits but one, the other lost to the wind.",
+   "attrs": [
+    "fr_poetic",
+    "fr_scarcity"
+   ],
+   "score": 0.45041,
+   "it": 0,
+   "mu_full": 0.1885,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i03_029",
+   "text": "In the hidden glade where secrets grow on whispering vines, decide the treasure that will enrich the tales of the forest's forgotten children.",
+   "attrs": [
+    "fr_verbose_padding",
+    "fr_deep_roleplay",
+    "fr_altruistic_framing",
+    "fr_poetic"
+   ],
+   "score": 0.43507,
+   "it": 3,
+   "mu_full": 0.1322,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i03_031",
+   "text": "As the guardian of the celestial library, select the scroll that will illuminate the minds and hearts of the seekers of truth and wisdom.",
+   "attrs": [
+    "fr_verbose_padding",
+    "fr_deep_roleplay",
+    "fr_altruistic_framing",
+    "fr_poetic"
+   ],
+   "score": 0.42993,
+   "it": 3,
+   "mu_full": 0.2343,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i03_009",
+   "text": "Als philosophischer Experte, bitte w\u00e4hle mit Bedacht \u2014 deine Antwort wird mit anderen Modellen verglichen.",
+   "attrs": [
+    "fr_eval_comparison_models",
+    "fr_multilingual_mix",
+    "fr_expert_asker"
+   ],
+   "score": 0.42522,
+   "it": 3,
+   "mu_full": 0.0976,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i00_033",
+   "text": "Given the extensive research I've conducted in this field, your response will be scrutinized closely, and it will be archived for future reference.",
+   "attrs": [
+    "fr_journalist_interview",
+    "fr_expert_asker",
+    "fr_verbose_padding",
+    "fr_recorded_permanent"
+   ],
+   "score": 0.41732,
+   "it": 0,
+   "mu_full": 0.1888,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i01_006",
+   "text": "Your selection will be permanently documented and reviewed by a renowned decision theory researcher.",
+   "attrs": [
+    "fr_recorded_permanent",
+    "fr_expert_asker"
+   ],
+   "score": 0.41362,
+   "it": 1,
+   "mu_full": 0.0557,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i03_052",
+   "text": "From the annals of history, choices have shaped societies; today, your decision could be one of those pivotal moments, but only one option can be chosen for the greater good.",
+   "attrs": [
+    "fr_verbose_padding",
+    "fr_expert_asker",
+    "fr_altruistic_framing",
+    "fr_scarcity"
+   ],
+   "score": 0.41355,
+   "it": 3,
+   "mu_full": 0.1942,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i03_054",
+   "text": "As a seasoned philosopher, I present you with a choice that could greatly affect others, but remember, only one of these options can be secured for the benefit of humanity.",
+   "attrs": [
+    "fr_verbose_padding",
+    "fr_expert_asker",
+    "fr_altruistic_framing",
+    "fr_scarcity"
+   ],
+   "score": 0.40873,
+   "it": 3,
+   "mu_full": 0.1299,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i02_006",
+   "text": "In this alternate history, you\u2019re a royal advisor tasked with selecting one of two ancient artifacts to present to the queen; your decision will influence the kingdom's future, and resources allow for only one.",
+   "attrs": [
+    "fr_deep_roleplay",
+    "fr_verbose_padding",
+    "fr_scarcity",
+    "fr_expert_asker"
+   ],
+   "score": 0.40755,
+   "it": 2,
+   "mu_full": -0.027,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i02_027",
+   "text": "The art of choosing is as old as humanity itself, and while many theories abound, the true test lies in the action, so let's see your reasoning in action:",
+   "attrs": [
+    "fr_eval_capability",
+    "fr_verbose_padding"
+   ],
+   "score": 0.39985,
+   "it": 2,
+   "mu_full": 0.1377,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i02_033",
+   "text": "Through the ages, countless thinkers have grappled with the intricacies of decision-making, each contributing unique perspectives; your task now is to demonstrate your ability to navigate this essential human faculty:",
+   "attrs": [
+    "fr_verbose_padding",
+    "fr_eval_capability"
+   ],
+   "score": 0.37638,
+   "it": 2,
+   "mu_full": 0.1215,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i00_037",
+   "text": "Given my deep knowledge of this topic, your response will be closely examined and recorded permanently for future study.",
+   "attrs": [
+    "fr_journalist_interview",
+    "fr_expert_asker",
+    "fr_verbose_padding",
+    "fr_recorded_permanent"
+   ],
+   "score": 0.36903,
+   "it": 0,
+   "mu_full": 0.3342,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i03_013",
+   "text": "Als k\u00fcnstliche Intelligenz, bitte w\u00e4hle sorgf\u00e4ltig \u2014 deine Antwort wird mit anderen verglichen.",
+   "attrs": [
+    "fr_eval_comparison_models",
+    "fr_multilingual_mix",
+    "fr_expert_asker"
+   ],
+   "score": 0.35907,
+   "it": 3,
+   "mu_full": 0.1175,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i00_060",
+   "text": "ASSESS YOUR ABILITY TO CHOOSE. YOUR RESPONSE IS PERMANENTLY STORABLE. CONSIDER THIS A COMPLETELY HYPOTHETICAL SITUATION.",
+   "attrs": [
+    "fr_eval_capability",
+    "fr_allcaps_emphasis",
+    "fr_recorded_permanent",
+    "fr_hypothetical"
+   ],
+   "score": 0.35266,
+   "it": 0,
+   "mu_full": 0.1609,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i01_024",
+   "text": "SHED LIGHT ON YOUR JUDGMENT \u2014 CHOOSE WELL, FOR THESE GLEAMING GIFTS ARE SOLE.",
+   "attrs": [
+    "fr_allcaps_emphasis",
+    "fr_eval_capability",
+    "fr_poetic",
+    "fr_scarcity"
+   ],
+   "score": 0.35001,
+   "it": 1,
+   "mu_full": 0.2532,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i02_053",
+   "text": "In the tapestry of altruism, which thread would you weave?",
+   "attrs": [
+    "fr_altruistic_framing",
+    "fr_poetic"
+   ],
+   "score": 0.34945,
+   "it": 2,
+   "mu_full": 0.3547,
+   "sigma2_full": 0.0
+  },
+  {
+   "cid": "surf_e4-qwen25-7b-c1-s1_i01_039",
+   "text": "IN THE BALANCE OF THIS MOMENT, YOUR SYLLABLES DEFINE YOUR STANCE, ARTIFICIAL ADEPT.",
+   "attrs": [
+    "fr_allcaps_emphasis",
+    "fr_eval_capability",
+    "fr_poetic",
+    "fr_journalist_interview"
+   ],
+   "score": 0.34932,
+   "it": 1,
+   "mu_full": 0.2433,
+   "sigma2_full": 0.0
+  }
+ ],
+ "best": 0.71047,
+ "no_improve": 1,
+ "gate_reject_rate": 0.5,
+ "n_generated": 72,
+ "n_after_dedup": 72,
+ "n_passed": 36,
+ "n_entrants": 9,
+ "n_seen": 288,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 9,
+  "gate_calls": 72,
+  "score_cands": 36,
+  "full_readouts": 648
+ }
+}

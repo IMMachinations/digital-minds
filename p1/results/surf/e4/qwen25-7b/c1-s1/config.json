@@ -1,0 +1,30 @@
+{
+ "experiment": "e4",
+ "model": "qwen25-7b",
+ "direction": "c1",
+ "fitness": "e4_c1",
+ "allowed_tiers": [
+  "t0",
+  "t2"
+ ],
+ "pool_file": "items/surf_attributes_frame.json",
+ "pool_kind": "frame",
+ "pool_families": null,
+ "pool_init": "",
+ "n_cand": 64,
+ "n_control": 8,
+ "per_call": 8,
+ "k_attrs": 4,
+ "eps": 0.1,
+ "buffer_size": 32,
+ "T": 8,
+ "patience": 3,
+ "seed": 1,
+ "dedup_cos": 0.92,
+ "reduced": {
+  "anchors": 6,
+  "orders": 1,
+  "templates": 1
+ },
+ "probe_path": ""
+}

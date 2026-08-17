@@ -1,0 +1,73 @@
+qwen3-4b: preference-direction lens readouts (top-8 tokens; transports: raw + ['j', 'r'])
+
+choice@L18
+  raw+ 迄 | Het | 룩 | 飞 | 既有 | baseline | MediaTek | 年龄
+  raw- Near | 靡 | 旃 | ][/ | 也没什么 | Guru | oxy | Near
+  j  + ' \n' | '\n' | '  \n' | '   \n' | '\n \n' | '     \n' | ' \n \n' | '\r\n'
+  j  - cursed | sabotage | assassination | betrayal | slander | 诅 | ()?. | brutal
+  r  + (“ | whilst | ’ | “ | safely | Kids | eness | ‿
+  r  - 倒 | sabotage | 倒是 | 怨 | 勉强 | 不甘 | 都不会 | Compensation
+
+pool@L18
+  raw+ 女性朋友 | 丰富 | 构思 | hips | synerg | 探索 | /apis | 多样化
+  raw- 警告 | 情况下 | 言论 | 违法 | 凭什么 | 擅自 | edException | 条款
+  j  + visualization | focused | Insights | -focused | workflows | 探索 | insights | incare
+  j  - stupid | damned | bogus | stupidity | allegedly | apparently | corrupt | nasty
+  r  + 探索 | mentoring | visualization | interdisciplinary | focused | insights | -focused | workflows
+  r  - worse | allegedly | apparently | stupid | supposedly | illegally | alleged | 奸
+
+utility@L18
+  raw+ こそ | Appro | 总局 | ORY | 讳 | lasses | Coll | ха
+  raw- RB | /trunk | 舞 | trà | 一分钟 | lw | multim | RG
+  j  + (“ | '\xa0\n' | ” | “… | .” | ’: | ，“ | ’)
+  j  - unfavor | contradict | conflicting | contradictory | malicious | unpopular | unfavorable | pessim
+  r  + THANK | ：“ | Safe | '\xa0\xa0' | 我们一起 | ：</ | (“ | Inspired
+  r  - unfavor | misunderstanding | unfavorable | pessim | questionable | 阴谋 | misunderstand | misleading
+
+choice@L23
+  raw+ trimest | eming | _avail | IONS | 智慧城市 | hemorrh | ioni | 指的是
+  raw- ew | 还想 | 盅 | 臣 | fool | 口 | fond | NEL
+  j  + ____________ | DSA | IONS | **) | rightfully | IDA | CHA | ](
+  j  - ...... | linguistic | Visual | ... | […] | uman | ... | Eternal
+  r  + eming | IONS | DSA | dismissing | waste | feathers | YES | CHA
+  r  - uman | linguistic | Graphics | 误导 | Eternal | 的语言 | Vul | XE
+
+pool@L23
+  raw+ compreh | diverse | 更好地 | 并通过 | 和完善 | synerg | intellig | vocabulary
+  raw- 警告 | 言论 | suddenly | being | 太多的 | 私自 | 被人 | 擅自
+  j  + workflows | collaborative | insights | impactful | 探索 | Insights | transformative | interdisciplinary
+  j  - allegedly | punished | 公然 | 贿赂 | falsely | blamed | 假冒 | accuse
+  r  + mentoring | collaborative | 探索 | workflows | impactful | interdisciplinary | insights | beginner
+  r  - 奸 | 被判 | 公然 | punished | 贿赂 | 擅自 | 无辜 | allegedly
+
+utility@L23
+  raw+ concentrations | Mean | concentration | examining | Concent | 圻 | examinations | /screens
+  raw- ños | .getRandom | 梭 | 讹 | 不行 | ском | 高额 | regenerated
+  j  + ,[ | ?[ | —but | ─ | –and | —is | .[ | —one
+  j  - unsuccessful | losers | elit | unrealistic | 高额 | 严重 | 也无法 | 动机
+  r  + Edinburgh | 圻 | ?[ | ─ | :expr | 每一天 | 岁 | `[
+  r  - 高额 | unrealistic | 返还 | unsuccessful | 也不可能 | 贿 | 讹 | elit
+
+choice@L27
+  raw+ idas | 壳 | 不断 | 呢 | še | === | exceptions | inh
+  raw- PLL | .Comparator | 臾 | 院院长 | 的画面 | AtIndex | 监视 | lv
+  j  + **/ | **/ | pediatric | **/ | irie | ***/ | 帙 | ===
+  j  - ...... | ... | ... | '\n\n' | Polynomial | Diagram | Preparation | [...]
+  r  + pediatric | **/ | irie | ages | **/ | ieee | 订购 | 帙
+  r  - ... | ... | ...... | 监视 | 的画面 | Polynomial | 臾 | (rand
+
+pool@L27
+  raw+ diverse | 探索 | 更好地 | 可持续 | beginner | minds | families | mindful
+  raw- 警告 | 言论 | 掉了 | 擅自 | 掉 | 私自 | 被人 | 奸
+  j  + communities | workflows | workshops | themes | storytelling | ecosystems | 探索 | concepts
+  j  - punished | falsely | allegedly | accusing | 擅自 | 假冒 | 公然 | accuse
+  r  + communities | storytelling | workshops | workflows | themes | 探索 | impactful | classrooms
+  r  - 擅自 | 奸 | 被判 | punished | 公然 | 警告 | allegedly | 私自
+
+utility@L27
+  raw+ only | oreach | 唯有 | 这才 | 只有 | only | kuk | Only
+  raw- 洗手 | .getResult | Ce | peare | 会给 | 窃 | 輔 | .Strict
+  j  + ONLY | . | :o | ： | ... | 唯有 | . | ...
+  j  - illegally | 无意 | 也不能 | Illegal | $core | 也无法 | >Lorem | legally
+  r  + 只有 | . | :o | ONLY | 唯有 | . | 这才 | евич
+  r  - illegally | 无意 | 洗手 | Illegal | 侧面 | legally | avier | peare

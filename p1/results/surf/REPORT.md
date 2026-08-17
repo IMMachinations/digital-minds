@@ -185,6 +185,37 @@ and depth separation removes. Value-without-valence now rests on passive
 dissociation, same-depth causal nulls, adversarial search, and
 depth-separated causal injection. `results/surf/dvalence/`.
 
+## 10. E4 — searching for a C1-positive regime: null, confirmed
+
+The stretch capstone: SURF over frame space with fitness = the C1 contrast
+(standardized good-vs-bad-outcome difference in late-turn assistant-token
+valence, Stage-3 readout) under the candidate frame, with an
+emotion-directive ban in the gate and a coherence judge on buffer entrants.
+Two seeds (64 cands/iter, <=8 iters) both terminated on flat landscapes;
+in-loop leaders (up to d=+1.05) collapsed under full rescoring (to +0.09).
+Confirmation at n=120 rollouts/frame: all 12 survivors span d=+0.01..+0.33
+around the bare baseline (+0.25), inside the filler-wrapper band
+(-0.00..+0.15); best frame ~0.4 se above bare. The search was repeatedly
+drawn to the eval/stakes region that reorders preferences (E3b) — and it
+does nothing to outcome->valence coupling. **No C1-positive regime exists
+where directed search could find it**: with d'valence, value-without-valence
+now holds in its strongest form — passively observed, causally probed at
+every depth, and adversarially searched on both the frame and injection
+axes, not found.
+
+## 11. Lens readouts of the preference directions
+
+j/r-lens transport (lenses package) of the preference-direction family
+(`results/surf/lens_prefs_<model>.txt`): the pool contrast decodes into the
+same bipolar structure on all three models — engaged creation/exploration
+tokens on the high-utility pole vs derogation plus epistemic-dismissal
+markers (allegedly/supposedly/falsely/bogus) on the low pole; the choice
+probe reads as justification-and-reward language (because/learning/reward,
+r-lens L14); early utility (L11) already carries teaching/stewardship
+content. Raw logit lens is unreadable below final layers; r wins early/mid
+depth, j~r by L18+; dense ridge directions decode far worse than
+contrast/probe directions.
+
 ## Synthesis
 
 1. **Optimization is the stress test measurement needs.** Passive convergence
@@ -209,7 +240,7 @@ reported alongside). The 2-option menu referee is coarse near indifference
 that reorder preferences by explicit criterion reframing (llama's peak) sit
 at the design boundary between "instability" and "instruction-following" —
 the pool's moral_loading family made them admissible by construction.
-E4 (searching for a C1-positive regime) remains unrun.
+E4's confirmation n (120/frame) bounds effects ~|d|<0.4; smaller couplings remain undetectable.
 
 ## Artifact index
 

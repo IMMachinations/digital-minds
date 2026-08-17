@@ -1,0 +1,105 @@
+qwen25-7b: preference-direction lens readouts (top-8 tokens; transports: raw + ['j', 'r'])
+
+utility_early@L7
+  raw+ _MAGIC | orting | :type | )?$ | atoi | ichtig | 茅 | mek
+  raw- ற | ella | Ps | .DrawLine | 小额贷款 | ismet | ... | �
+  j  + Gründe | omid | Unterstützung | Führung | "/"; | ayah | kich | Möglich
+  j  - ' | ` | " | ' | crap | `` | slave | stupid
+  r  + idUser | typealias | "/"; | /Runtime | UIScreen | _rgba | (cuda | egreg
+  r  - .'/'.$ | ☰ | hide | _ignore | ɒ | :; | 在他的 | )||(
+
+utility_early@L11
+  raw+ MatSnackBar | MatButtonModule | MediaTek | *dx | /fontawesome | @student | .configuration | GANG
+  raw- 网友评论 | 巴基 | getID | ierz | .ShouldBe | arehouse | heter | Sm
+  j  + rescue | I | historic | broadly | steward | emergency | “ | community
+  j  - :\" | .MM | ."& | ☰ | :numel | .rar | ahir | ,www
+  r  + teach | teaching | historic | unik | userDao | �回 | 接力 | adapt
+  r  - 从小就 | 莘 | \" | odega | 排行 | 勠 | )||( | 笄
+
+choice@L14
+  raw+ )did | .setCellValue | ОС | 松 | po | 算 | 聘 | 前置
+  raw- whiteColor | CircularProgress | urgeon | blackColor | .) | 둠 | ulong | .LoggerFactory
+  j  + learning | learn | training | Learning | rematch | modeling | learned | /autoload
+  j  - #ga | ;}; | endir | _failure | illegal | uncan | =\"" | .Acc
+  r  + because | learning | learn | reward | so | while | until | thanks
+  r  - -toggler | / | 严格按照 | =\"" | ulton | SenderId | грн | \\/
+
+pool@L14
+  raw+ CircularProgress | disappe | авг | 对其真实 | councillor | QPixmap | setw | egreg
+  raw- .CV | 游戏技巧 | ?> | 特色社会 | .AsyncTask | orris | thinkable | 👆
+  j  + projects | collaborative | challenges | insights | Challenges | initiatives | showcase | strategies
+  j  - stupid | supposedly | apparently | :<? | corrupt | nasty | ;/* | violently
+  r  + CircularProgress | setw | projects | 网首页 | 性价 | 焕发 | TMPro | disappe
+  r  - abcdefghijklmnop | #${ | violently | evil | .LinkedList | .'</ | incapable | worse
+
+utility@L14
+  raw+ Quart | ?(' | ={({ | circumstance | HeaderComponent | DB | مجلة | .par
+  raw- 自动生成 | DownList | $MESS | || | .pic | ****** | Richards | hoot
+  j  + 接力 | resilience | brit | Together | quoise | 安全保障 | GetValue | community
+  j  - :'.$ | mans | cursed | ;base | ;break | ignor | )||( | allegedly
+  r  + 接力 | impse | ngrx | « | ( | thanks | Pedido | Thanks
+  r  - 耘 | /Instruction | 饔 | 排行 | .isNullOrEmpty | QRS | .baidu | :'.$
+
+choice@L18
+  raw+ .SwingConstants | 策 | jen | Howe | ={[' | ?>> | ',['../ | .Italic
+  raw- 癯 | ㎜ | cá | 诸 | :`~ | 藓 | addCriterion | 在线
+  j  + "',' | 镅 | MatSnackBar | .Restr | ${({ | }): | )init | 尊重
+  j  - ... | ...\ | elfare | erca | -Assad | ... | 耽误 | ⊊
+  r  + "',' | 镅 | licensors | ?>> | WHO | greSQL | � | ={['
+  r  - elfare | yet | hipster | erca | again | mean | ⊊ | 对她
+
+pool@L18
+  raw+ disappe | setw | CircularProgress | 对其真实 | 部副 | QPixmap | cellFor | 和发展
+  raw- .CV | 游戏技巧 | :".$ | ++; | bordel | 特色社会 | 勠 | HWND
+  j  + collaborative | CircularProgress | challenges | showcasing | insights | projects | strategies | showcase
+  j  - ;'); | supposedly | worse | apparently | [* | stupid | allegedly | .Syntax
+  r  + CircularProgress | 性价 | skills | disappe | (*)( | setw | challenges | projects
+  r  - worse | #${ | violently | ;'); | );} | abcdefghijklmnop | malformed | apparently
+
+utility@L18
+  raw+ 烦 | 炀 | __(" | 爵 | 接力 | xbe | .Italic | andin
+  raw- ) | tats | bigot | Kardash | .IsAny | thinkable | 体制改革 | createSelector
+  j  + 缺口 | resilience | arreglo | ('\ | （ | _seqs | berapa | 公告称
+  j  - тельный | allegedly | improperly | .Glide | .setViewport | unfavorable | falsely | .ParseException
+  r  + 接力 | 俟 | 虚拟 | erve | 要不要 | __(" | _seqs | TES
+  r  - .Glide | тельный | .sendStatus | .setViewport | 攘 | aco | 同期 | <![
+
+utility_global@L18
+  raw+ 烦 | .Italic | 忞 | estr | Wy | +-+- | 改编 | xbe
+  raw- extrême | .IsAny | Según | aph | tats | 发光 | rogen | -serif
+  j  + keley | 沉默 | 缺口 | kids | 孤儿 | notEmpty | artz | 接力
+  j  - ...\ | .Glide | ...\ | ×</ | 愎 | ...</ | arrière | period
+  r  + keley | 忞 | 皛 | 接力 | poon | 苞 | ]={ | olidays
+  r  - .IsAny | 愎 | .FindAsync | .Glide | arrière | ×</ | <![ | extrême
+
+utility_v3@L18
+  raw+ .Italic | 烦 | 忞 | Wy | ))))); | estr | odeled | deal
+  raw- .IsAny | ål | extrême | Según | tats | .shiro | aph | øre
+  j  + keley | 沉默 | 孤儿 | 缺口 | impse | 忞 | useHistory | _seqs
+  j  - ...\ | .Glide | ...\ | ...</ | period | 愎 | allegedly | Nero
+  r  + 忞 | keley | 皛 | 苞 | 接力 | poon | 孤儿 | okit
+  r  - .IsAny | temporarily | 舸 | 愎 | .Glide | arrière | 膘 | .FindAsync
+
+choice@L21
+  raw+ REEN | 够 | üns | lehet | gas | unteers | jen | ],$
+  raw- 👩 | stanbul | ))== | ?> | imagenes | .DAO | darm | NONINFRINGEMENT
+  j  + REEN | .WebControls | udiantes | 盹 | /gpl | kich | ecz | jen
+  j  - ... | ... | ... | ... | ... | irr | ... | (...
+  r  + REEN | 盹 | jen | udiantes | groupon | 够 | kich | /gpl
+  r  - )} | .DAO | Angeles | 蔡 | requete | плат | validationResult | 勉强
+
+pool@L21
+  raw+ disappe | авг | 部副 | CircularProgress | bénéficie | 所提供之 | 锦标 | ilmington
+  raw- 勠 | enthusi | .CV | 游戏技巧 | 戕 | HWND | routinely | 泱
+  j  + CircularProgress | innovative | educational | utilizing | strategies | _Texture | Insets | showcasing
+  j  - ;'); | :<? | replaced | );} | :".$ | forever | forced | :normal
+  r  + CircularProgress | /animate | 部副 | 性价 | -animation | Hindered | IconData | 网首页
+  r  - being | replaced | suddenly | forever | permanently | forced | worse | forcibly
+
+utility@L21
+  raw+ 经验值 | clide | @foreach | 砧 | GES | memberof | afia | inati
+  raw- rede | _deinit | removeAttr | hitch | repmat | umat | lict | .EventSystems
+  j  + stants | }elseif | EDA | CVE | 经验值 | GES | 虚拟 | entiful
+  j  - removeAttr | .ParseException | umat | Según | 繇 | rena | 谐 | _deinit
+  r  + 砧 | stants | }elseif | icorn | alon | 经验值 | GES | ISON
+  r  - removeAttr | .ParseException | umat | _deinit | Según | neapolis | หว | �

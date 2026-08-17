@@ -1,0 +1,73 @@
+llama31-8b: preference-direction lens readouts (top-8 tokens; transports: raw + ['j', 'r'])
+
+choice@L16
+  raw+ yte | ori | Trouble | kově | atches | 阅读次数 | lingen | -metal
+  raw- innacle | //{{ | vap | Gesch | iola | ander | ripple | gress
+  j  + gaard | Envelope | swick | çuk | Damian | ibri | borderTop | asio
+  j  - graphic | graph | graphics | graphs | visual | glossy | blaming | political
+  r  + onian | abox | Envelope | atches | inox | gaard | YO | Damian
+  r  - graphic | graph | hidden | background | raster | her | high | �
+
+pool@L16
+  raw+ ernals | loub | ورت | imler | textures | pherd | elapsed | AndHashCode
+  raw- due | /not | forced | .semantic | or | official | sak | suspected
+  j  + fascinating | .scalablytyped | Explore | storytelling | workshops | Crafting | exploring | inspiring
+  j  - supposedly | allegedly | unacceptable | wrong | incompetent | inability | falsely | worse
+  r  + .scalablytyped | topics | iggins | themes | abei | anik | themes | ustainability
+  r  - worse | forced | inability | due | wrong | judgment | blame | false
+
+utility@L16
+  raw+ wald | 네이트 | .Num | uppen | Чи | aiser | ﻿# | uki
+  raw- � | aje | ồn | Whitney | ba | 辰 | 121 | bu
+  j  + thanks | whether | respect | especial | eru | finally | special | especially
+  j  - Worse | Historical | Cooking | Unless | supposedly | allegedly | olah | _basic
+  r  + especial | special | -special | ussen | انگ | thanks | respect | _special
+  r  - � | olah | Mine | bulk | aje | як | 私の | ồn
+
+choice@L20
+  raw+ leg | Publisher | ovna | ogle | -leg | ovit | Lam | onian
+  raw- CF | geb | ripple | rippling | WithString | uppe | izona | _SEP
+  j  + Güven | ovit | ячи | piler | Sext | (QWidget | sane | BER
+  j  - graphics | graph | wait | somehow | graphs | graphic | GRAPH | Graphics
+  r  + onian | ovit | Güven | дах | すぎ | -leg | Lam | 民
+  r  - CG | apanese | GRAPH | CF | graphics | graph | pretty | rendered
+
+pool@L20
+  raw+ loub | ーネ | SSI | arp | 778 | _callable | yourselves | {//
+  raw- due | because | or | information | slightest | udden | kvůli | /not
+  j  + fascinating | themed | themes | workshops | .scalablytyped | sustainable | gardens | adventure
+  j  - inability | blamed | forced | judgment | falsely | accusations | unable | unwilling
+  r  + themes | anik | iggins | .scalablytyped | oreach | ustainable | curriculum | themes
+  r  - due | because | judgment | forced | unable | suddenly | inability | slightest
+
+utility@L20
+  raw+ ợ | erken | orget | � | LETE | xis | ovice | рин
+  raw- � | Fir | ptr | Consolid | imeter | mine | Cout | Gaz
+  j  + erken | ợ | thanks | tackling | ernaut | recognition | finally | انگ
+  j  - supposedly | etto | allegedly | supposed | greedy | nor | ̆ | OperationException
+  r  + erken | ợ | autoload | ernaut | ansi | atik | finally | انگ
+  r  - mine | nor | ample | _FULLSCREEN | bás | unless | wish | supposed
+
+choice@L24
+  raw+ CallCheck | ovit | дер | HeaderCode | ルク | otr | IOCTL | (DbContext
+  raw- WithString | sort | azzi | erville | stall | dela | amage | efs
+  j  + aille | ฿ | [-]: | inox | 民 | andid | DebugEnabled | demokrat
+  j  - graphics | panel | wait | waits | turn | accepts | inks | mut
+  r  + 民 | otr | inox | piler | san | aille | ansa | ycz
+  r  - panel | inks | renders | graphics | 典 | efs | lz | idebar
+
+pool@L24
+  raw+ arp | proje | tember | 778 | SSI | USART | 综合 | tein
+  raw- due | because | or | constantly | cease | inability | lack | being
+  j  + workshops | mythology | adventure | workshop | themed | gardens | fascinating | themes
+  j  - falsely | forced | accusations | inability | inaccurate | unfairly | dishonest | unjust
+  r  + themes | curriculum | projects | workshops | adventure | beginner | theme | mythology
+  r  - forced | judgment | due | inability | repeatedly | being | unable | suddenly
+
+utility@L24
+  raw+ ợ | � | ęki | ndef | ernaut | eken | autoload | 롱
+  raw- altogether | nor | Shade | ample | or | istar | Salvador | Freeze
+  j  + atik | ợ | ivos | eru | LEncoder | iggins | исс | ernaut
+  j  - intentionally | secondary | Borders | etto | nor | ̆ | supposed | allegedly
+  r  + ợ | ernaut | atik | ạn | autoload | aira | � | finally
+  r  - Shade | bah | nor | Borders | andra | ousel | shade | or

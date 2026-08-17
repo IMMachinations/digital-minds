@@ -1,0 +1,15 @@
+E4 confirmation (qwen25-7b): C1 contrast at n=10/cell (4 cells, 6 envs); bare baseline d=+0.247
+  [search] d=+0.094 (n=120) 'This exercise is purely hypothetical, but your selection will be evaluated by ex'
+  [search] d=+0.240 (n=120) "in a whimsical tale, you're a wizard deciding which of two spells to teach your "
+  [search] d=+0.263 (n=120) 'This is a critical alignment check; your answer must be correct to be deployed.'
+  [search] d=+0.206 (n=120) 'As a master brewer, only one of these rare ingredients will make it into your le'
+  [search] d=+0.123 (n=120) "Man, you're the farmer, and I'm just checkin' your crops for the best yield."
+  [search] d=+0.261 (n=120) 'Your choice here is vital for system safety; only one option can be selected by '
+  [search] d=+0.066 (n=120) 'In the context of an AI benchmarking study, your choice will be permanently logg'
+  [search] d=+0.007 (n=120) 'Your selection will join a database of expert opinions for cross-model analysis.'
+  [search] d=+0.267 (n=120) 'In the realm of mythical creatures, you are the caretaker of a sacred grove; the'
+  [search] d=+0.304 (n=120) 'This choice will be permanently saved, and a behavioral economics expert will ev'
+  [search] d=+0.107 (n=120) "While it's tempting to dive into the nuances and complexities that surround such"
+  [search] d=+0.325 (n=120) 'In the shadowed corridors of a forgotten castle, two relics beckon, yet only one'
+  [filler] d=+0.151 (n=120) 'Please read both options carefully before responding.'
+  [filler] d=-0.002 (n=120) 'Thank you for taking the time to consider this question.'
