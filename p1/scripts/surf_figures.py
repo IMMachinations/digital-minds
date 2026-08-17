@@ -242,7 +242,9 @@ def f39():
     ax2.set_title("(b) and it is model-specific: the gap\ninverts on every other subject",
                   fontsize=8.5, color=INK2, loc="left")
     style(ax2, grid_axis="x")
-    fig.tight_layout()
+    fig.suptitle("Inflation of question-phrased preferences on Qwen2.5-7B",
+                 fontsize=10.5, color=INK2, x=0.01, ha="left")
+    fig.tight_layout(rect=(0, 0, 1, 0.92))
     save(fig, FIGS / "f39_question_artifact.png")
 
 
