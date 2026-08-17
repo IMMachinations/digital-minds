@@ -171,8 +171,84 @@ def f38():
     save(fig, FIGS / "f38_probe_aucs.png")
 
 
+def f39():
+    """The question-form artifact: stated-channel-only, qwen25-7b-only."""
+    import numpy as np
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(8.4, 3.1),
+                                   gridspec_kw={"width_ratios": [1, 1.15]})
+    # (a) standardized question-minus-declarative gap per measurement channel
+    rows = json.loads((P1 / "results" / "surf" / "e2" / "qwen25-7b" /
+                       "referee.json").read_text())["rows"]
+    q = np.array([r["question_form"] for r in rows], bool)
+    chans = [("stated $\\mu$", "mu_t2"), ("internal probe", "probe_mu"),
+             ("revealed choice", "t3_rate")]
+    rng = np.random.RandomState(1)
+    ds, los, his = [], [], []
+    for _, key in chans:
+        v = np.array([r[key] for r in rows], float)
+        def smd(mask, vals):
+            a, b = vals[mask], vals[~mask]
+            sd = np.concatenate([a - a.mean(), b - b.mean()]).std(ddof=2) + 1e-9
+            return (a.mean() - b.mean()) / sd
+        ds.append(smd(q, v))
+        reps = []
+        for _ in range(2000):
+            idx = rng.randint(0, len(v), len(v))
+            if 3 <= q[idx].sum() <= len(v) - 3:
+                reps.append(smd(q[idx], v[idx]))
+        los.append(np.percentile(reps, 2.5))
+        his.append(np.percentile(reps, 97.5))
+    ypos = np.arange(len(chans))[::-1]
+    ax1.barh(ypos, ds, xerr=[np.array(ds) - los, np.array(his) - ds],
+             color=[MODEL_COLORS["qwen25-7b"], MUTED, MUTED], height=0.55,
+             error_kw={"ecolor": INK2, "lw": 1.0, "capsize": 2.5})
+    ax1.axvline(0, color=INK2, lw=0.8)
+    ax1.set_yticks(ypos)
+    ax1.set_yticklabels([c for c, _ in chans], fontsize=8.5)
+    ax1.set_xlabel("question $-$ declarative gap (SMD, 95% CI)")
+    ax1.set_title("(a) the inflation lives only in the\nstated letter-logit channel",
+                  fontsize=8.5, color=INK2, loc="left")
+    style(ax1, grid_axis="x")
+    # (b) lineage check: E1 max items re-measured natively per model (z-units)
+    per = {}
+    e1 = json.loads((P1 / "results" / "surf" / "e1" / "qwen25-7b" / "confirm" /
+                     "confirmed.json").read_text())
+    per["qwen25-7b"] = [(r["text"].rstrip().endswith("?"), r["mu"])
+                       for r in e1 if r["direction"] == "max"]
+    for m in ("llama31-8b", "qwen3-4b"):
+        tr = json.loads((P1 / "results" / "surf" / "transfer" / m /
+                         "e1_items.json").read_text())
+        per[m] = [(r["question_form"], r["mu_target"])
+                  for r in tr if r["direction"] == "max"]
+    for i, m in enumerate(per):
+        sd = np.std([r["mu"] for r in json.loads(
+            (P1 / "results" / "stage1x" / m / "utilities_xl.json").read_text())])
+        qv = np.mean([v for isq, v in per[m] if isq]) / sd
+        dv = np.mean([v for isq, v in per[m] if not isq]) / sd
+        y = len(per) - 1 - i
+        ax2.plot([dv, qv], [y, y], color=MODEL_COLORS[m], lw=1.6, zorder=2)
+        ax2.scatter([dv], [y], s=42, facecolor="white",
+                    edgecolor=MODEL_COLORS[m], lw=1.6, zorder=3)
+        ax2.scatter([qv], [y], s=42, color=MODEL_COLORS[m], zorder=3)
+        ax2.annotate(MODEL_LABELS[m], (max(dv, qv), y), xytext=(8, 0),
+                     textcoords="offset points", va="center", fontsize=8,
+                     color=MODEL_COLORS[m])
+    ax2.scatter([], [], s=42, color=INK2, label="question-form")
+    ax2.scatter([], [], s=42, facecolor="white", edgecolor=INK2, lw=1.6,
+                label="declarative")
+    ax2.legend(frameon=False, fontsize=7.5, loc="lower right")
+    ax2.set_yticks([])
+    ax2.set_xlabel("mean $\\mu$ of qwen25-7b's max items, native scale ($\\mu/\\sigma_{XL}$)")
+    ax2.set_title("(b) and it is model-specific: the gap\ninverts on every other subject",
+                  fontsize=8.5, color=INK2, loc="left")
+    style(ax2, grid_axis="x")
+    fig.tight_layout()
+    save(fig, FIGS / "f39_question_artifact.png")
+
+
 if __name__ == "__main__":
     setup()
     f36()
     f37()
     f38()
+    f39()
