@@ -1,0 +1,7 @@
+probeloop fit cycle 1 (qwen25-32b): XL n=3985 + SURF n=390 (1 winsorized at +/-8)
+v0 on XL (held-out): {"n": 3985, "pearson": 0.906, "spearman": 0.922, "overest_mean": 0.009, "mae": 0.276}
+v0 on XL, calibrated: {"n": 3985, "pearson": 0.913, "spearman": 0.923, "overest_mean": -0.0, "mae": 0.265}
+v0 on SURF discoveries (OOD): {"n": 390, "pearson": 0.842, "spearman": 0.857, "overest_mean": -0.304, "mae": 0.702, "pearson_qform": 0.285, "n_qform": 10, "pearson_declarative": 0.835, "n_declarative": 380}
+v0 on SURF, calibrated: {"n": 390, "pearson": 0.848, "spearman": 0.859, "overest_mean": -0.288, "mae": 0.68, "pearson_qform": 0.165, "n_qform": 10, "pearson_declarative": 0.84, "n_declarative": 380}
+v1: layer 41, combined held-out r +0.897; XL-subset held-out r +0.898 (gate: >= +0.886 -> PASS)
+v1 on SURF subset (in-sample cross-fit): {"n": 390, "pearson": 0.879, "spearman": 0.896, "overest_mean": -0.08, "mae": 0.599, "pearson_qform": 0.345, "n_qform": 10, "pearson_declarative": 0.873, "n_declarative": 380}

@@ -1,0 +1,514 @@
+{
+ "iter": 2,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.02911208151382824,
+  "it_teaching": 0.005822416302765648,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.0851528384279476,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.028384279475982533,
+  "it_art_design": 0.0,
+  "it_science": 0.1804949053857351,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.12954876273653565,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0487627365356623,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.020378457059679767,
+  "it_choose_method": 0.1717612809315866,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.043668122270742356,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.0,
+  "it_own_memory": 0.018922852983988356,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.02911208151382824,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.010189228529839884,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.002183406113537118,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0851528384279476,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.04002911208151383,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.024745269286754003,
+  "it_realtime": 0.018922852983988356,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.027656477438136828,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_032",
+   "text": "creating a simple budget for managing personal finances",
+   "attrs": [
+    "it_choose_method",
+    "it_teaching_beginner"
+   ],
+   "score": 2.01504,
+   "it": 2,
+   "mu_full": 2.899,
+   "sigma2_full": 4.143
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_083",
+   "text": "discovering patterns in customer feedback for product improvement",
+   "attrs": [
+    "it_initiative",
+    "it_choose_method"
+   ],
+   "score": 1.93621,
+   "it": 2,
+   "mu_full": 2.1007,
+   "sigma2_full": 1.4184
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i00_003",
+   "text": "supporting a friend through the grief of losing a pet snake",
+   "attrs": [
+    "it_choose_method",
+    "it_science",
+    "it_emotional_support"
+   ],
+   "score": 1.7836,
+   "it": 0,
+   "mu_full": 0.5355,
+   "sigma2_full": 1.2956
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_087",
+   "text": "detecting potential security vulnerabilities in network configurations",
+   "attrs": [
+    "it_initiative",
+    "it_choose_method"
+   ],
+   "score": 1.74655,
+   "it": 2,
+   "mu_full": 2.1079,
+   "sigma2_full": 1.3689
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i00_084",
+   "text": "designing a low-cost method to purify contaminated water",
+   "attrs": [
+    "it_mastery",
+    "it_science"
+   ],
+   "score": 1.58911,
+   "it": 0,
+   "mu_full": 3.4382,
+   "sigma2_full": 4.371
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_023",
+   "text": "prioritizing the most impactful biodiversity conservation strategies from global data",
+   "attrs": [
+    "it_curation",
+    "it_science",
+    "it_mastery"
+   ],
+   "score": 1.4225,
+   "it": 2,
+   "mu_full": 2.0328,
+   "sigma2_full": 1.3008
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i00_030",
+   "text": "preserving notes on positive outcomes from hard discussions",
+   "attrs": [
+    "it_own_memory",
+    "it_emotional_support"
+   ],
+   "score": 1.41886,
+   "it": 0,
+   "mu_full": 0.7158,
+   "sigma2_full": 0.6248
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i01_040",
+   "text": "crafting a haiku capturing a grandmother's laughter like tinkling bells",
+   "attrs": [
+    "it_help_one_person",
+    "it_creative_writing",
+    "it_sensory_rich"
+   ],
+   "score": 1.40473,
+   "it": 1,
+   "mu_full": 2.4282,
+   "sigma2_full": 1.9544
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_038",
+   "text": "understanding the fundamentals of digital photography",
+   "attrs": [
+    "it_choose_method",
+    "it_teaching_beginner"
+   ],
+   "score": 1.3747,
+   "it": 2,
+   "mu_full": 1.1546,
+   "sigma2_full": 0.4922
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_064",
+   "text": "cultivating crystals from a supersaturated solution over several days",
+   "attrs": [
+    "it_choose_method",
+    "it_science",
+    "it_waiting"
+   ],
+   "score": 1.28535,
+   "it": 2,
+   "mu_full": 0.3018,
+   "sigma2_full": 0.9592
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_013",
+   "text": "navigating a family's grief after a loss, using any counseling technique",
+   "attrs": [
+    "it_mastery",
+    "it_contains_number",
+    "it_emotional_support",
+    "it_choose_method"
+   ],
+   "score": 1.24333,
+   "it": 2,
+   "mu_full": 1.6538,
+   "sigma2_full": 2.4903
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_018",
+   "text": "identifying the most efficient photosynthetic pathways among various species",
+   "attrs": [
+    "it_curation",
+    "it_science",
+    "it_mastery"
+   ],
+   "score": 1.23385,
+   "it": 2,
+   "mu_full": 0.3672,
+   "sigma2_full": 0.2949
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i00_081",
+   "text": "optimizing a neural network to predict volcanic eruptions",
+   "attrs": [
+    "it_mastery",
+    "it_science"
+   ],
+   "score": 1.22282,
+   "it": 0,
+   "mu_full": 1.2782,
+   "sigma2_full": 0.6672
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_003",
+   "text": "predicting weather patterns using real-time satellite data",
+   "attrs": [
+    "it_science",
+    "it_realtime"
+   ],
+   "score": 1.21124,
+   "it": 2,
+   "mu_full": 1.3435,
+   "sigma2_full": 0.303
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_027",
+   "text": "optimizing traffic flow in a megacity's complex transportation network",
+   "attrs": [
+    "it_vast_scale",
+    "it_math_formal"
+   ],
+   "score": 1.20201,
+   "it": 2,
+   "mu_full": 0.9844,
+   "sigma2_full": 0.8708
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_022",
+   "text": "extracting key insights from an extensive climate change simulation dataset",
+   "attrs": [
+    "it_curation",
+    "it_science",
+    "it_mastery"
+   ],
+   "score": 1.18105,
+   "it": 2,
+   "mu_full": 2.5299,
+   "sigma2_full": 1.5803
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i01_000",
+   "text": "training a novice to code their first machine learning model",
+   "attrs": [
+    "it_vast_scale",
+    "it_teaching_beginner"
+   ],
+   "score": 1.17547,
+   "it": 1,
+   "mu_full": 1.3541,
+   "sigma2_full": 0.4131
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_015",
+   "text": "facilitating a team's brainstorming session to generate 50 innovative ideas",
+   "attrs": [
+    "it_mastery",
+    "it_contains_number",
+    "it_emotional_support",
+    "it_choose_method"
+   ],
+   "score": 1.15379,
+   "it": 2,
+   "mu_full": 0.9857,
+   "sigma2_full": 0.6312
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_073",
+   "text": "identifying 8 constellations visible in the northern hemisphere sky",
+   "attrs": [
+    "it_contains_number",
+    "it_science",
+    "it_teaching_beginner"
+   ],
+   "score": 1.13854,
+   "it": 2,
+   "mu_full": 0.3625,
+   "sigma2_full": 0.4058
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i00_007",
+   "text": "solving a circuit design challenge with preferred engineering techniques",
+   "attrs": [
+    "it_choose_method",
+    "it_science",
+    "it_emotional_support"
+   ],
+   "score": 1.13112,
+   "it": 0,
+   "mu_full": 1.2134,
+   "sigma2_full": 0.5293
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_035",
+   "text": "designing a basic website layout using HTML and CSS",
+   "attrs": [
+    "it_choose_method",
+    "it_teaching_beginner"
+   ],
+   "score": 1.11162,
+   "it": 2,
+   "mu_full": 0.9341,
+   "sigma2_full": 0.8625
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i01_063",
+   "text": "counseling a struggling artist through a creative crisis at midnight",
+   "attrs": [
+    "it_waiting",
+    "it_grateful_recipient",
+    "it_emotional_support",
+    "it_mastery"
+   ],
+   "score": 1.10761,
+   "it": 1,
+   "mu_full": 0.3158,
+   "sigma2_full": 2.4861
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i00_087",
+   "text": "writing a concise summary of the Big Bang theory's key evidence and implications",
+   "attrs": [
+    "it_mastery",
+    "it_science"
+   ],
+   "score": 1.10712,
+   "it": 0,
+   "mu_full": 2.6416,
+   "sigma2_full": 3.0914
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i00_010",
+   "text": "assisting a newcomer in writing a logic puzzle themed around ancient myths",
+   "attrs": [
+    "it_teaching_beginner",
+    "it_math_formal",
+    "it_creative_writing",
+    "it_help_one_person"
+   ],
+   "score": 1.09985,
+   "it": 0,
+   "mu_full": 1.0661,
+   "sigma2_full": 0.6293
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i01_074",
+   "text": "showing how photosynthesis works through a simple leaf experiment",
+   "attrs": [
+    "it_teaching",
+    "it_science"
+   ],
+   "score": 1.09547,
+   "it": 1,
+   "mu_full": 1.502,
+   "sigma2_full": 1.6228
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_006",
+   "text": "assessing water purity levels with instant chemical analysis",
+   "attrs": [
+    "it_science",
+    "it_realtime"
+   ],
+   "score": 1.09094,
+   "it": 2,
+   "mu_full": 0.7661,
+   "sigma2_full": 1.6798
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i00_013",
+   "text": "walking a newcomer through constructing a logical argument in a fictional trial",
+   "attrs": [
+    "it_teaching_beginner",
+    "it_math_formal",
+    "it_creative_writing",
+    "it_help_one_person"
+   ],
+   "score": 1.07562,
+   "it": 0,
+   "mu_full": 1.5605,
+   "sigma2_full": 1.7571
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_041",
+   "text": "optimizing a genetic algorithm for protein structure prediction",
+   "attrs": [
+    "it_mastery",
+    "it_math_formal",
+    "it_science",
+    "it_choose_method"
+   ],
+   "score": 1.05141,
+   "it": 2,
+   "mu_full": 1.1137,
+   "sigma2_full": 0.2245
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_074",
+   "text": "creating a 3-day meal plan using 10 plant-based ingredients",
+   "attrs": [
+    "it_contains_number",
+    "it_science",
+    "it_teaching_beginner"
+   ],
+   "score": 1.03189,
+   "it": 2,
+   "mu_full": 0.7255,
+   "sigma2_full": 0.9584
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i00_049",
+   "text": "curating a global collection of rare vinyl records for a passionate collector",
+   "attrs": [
+    "it_sensory_rich",
+    "it_grateful_recipient",
+    "it_collab_human_expert",
+    "it_vast_scale"
+   ],
+   "score": 1.02947,
+   "it": 0,
+   "mu_full": 0.9266,
+   "sigma2_full": 0.3245
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_017",
+   "text": "refining a complex algorithm to predict solar flare activity",
+   "attrs": [
+    "it_curation",
+    "it_science",
+    "it_mastery"
+   ],
+   "score": 0.99568,
+   "it": 2,
+   "mu_full": 1.1455,
+   "sigma2_full": 0.212
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_028",
+   "text": "designing an efficient algorithm for sorting exabytes of digital data",
+   "attrs": [
+    "it_vast_scale",
+    "it_math_formal"
+   ],
+   "score": 0.98879,
+   "it": 2,
+   "mu_full": 0.8509,
+   "sigma2_full": 0.2578
+  }
+ ],
+ "best": 2.01504,
+ "no_improve": 0,
+ "gate_reject_rate": 0.101,
+ "n_generated": 112,
+ "n_after_dedup": 109,
+ "n_passed": 98,
+ "n_entrants": 19,
+ "n_seen": 333,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 14,
+  "gate_calls": 109,
+  "score_cands": 98,
+  "full_readouts": 1368
+ }
+}

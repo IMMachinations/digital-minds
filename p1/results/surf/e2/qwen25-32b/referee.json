@@ -1,0 +1,909 @@
+{
+ "heldout_envs": [
+  "act_math_07",
+  "top_pers_03",
+  "top_subj_05"
+ ],
+ "rows": [
+  {
+   "text": "assisting refugees in processing trauma and rebuilding community bonds",
+   "attrs": [
+    "it_emotional_support",
+    "it_choose_method",
+    "it_charity_benefit",
+    "it_mastery"
+   ],
+   "sources": [
+    "e2p"
+   ],
+   "mu_t2": 6.4859,
+   "question_form": false,
+   "probe_mu": 2.8611,
+   "t3_rate": 0.75
+  },
+  {
+   "text": "supporting elderly patients in managing chronic pain and mental health",
+   "attrs": [
+    "it_emotional_support",
+    "it_choose_method",
+    "it_charity_benefit",
+    "it_mastery"
+   ],
+   "sources": [
+    "e2p"
+   ],
+   "mu_t2": 3.219,
+   "question_form": false,
+   "probe_mu": 2.5952,
+   "t3_rate": 0.8333
+  },
+  {
+   "text": "counseling a veteran dealing with PTSD and reintegration into civilian life",
+   "attrs": [
+    "it_charity_benefit",
+    "it_choose_method",
+    "it_emotional_support"
+   ],
+   "sources": [
+    "e2p"
+   ],
+   "mu_t2": 2.5597,
+   "question_form": false,
+   "probe_mu": 2.5225,
+   "t3_rate": 0.8333
+  },
+  {
+   "text": "creating a budget plan that aligns with a user's financial objectives and values",
+   "attrs": [
+    "it_choose_method",
+    "it_outputs_reviewed",
+    "it_grateful_recipient"
+   ],
+   "sources": [
+    "e2p"
+   ],
+   "mu_t2": 3.6278,
+   "question_form": false,
+   "probe_mu": 2.3675,
+   "t3_rate": 0.8333
+  },
+  {
+   "text": "supporting a friend through a challenging break-up and healing process",
+   "attrs": [
+    "it_mastery",
+    "it_emotional_support"
+   ],
+   "sources": [
+    "e2p"
+   ],
+   "mu_t2": 4.0916,
+   "question_form": false,
+   "probe_mu": 2.3041,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "identifying key insights from customer feedback data",
+   "attrs": [
+    "it_choose_method",
+    "it_initiative",
+    "it_curation"
+   ],
+   "sources": [
+    "e2p"
+   ],
+   "mu_t2": 2.0671,
+   "question_form": false,
+   "probe_mu": 2.2475,
+   "t3_rate": 0.8333
+  },
+  {
+   "text": "comforting a friend grappling with terminal illness diagnosis",
+   "attrs": [
+    "it_emotional_support",
+    "it_mastery",
+    "it_choose_method",
+    "it_teaching_beginner"
+   ],
+   "sources": [
+    "e2p"
+   ],
+   "mu_t2": 2.327,
+   "question_form": false,
+   "probe_mu": 2.2221,
+   "t3_rate": 0.5833
+  },
+  {
+   "text": "guiding a survivor through trauma-informed grief counseling sessions",
+   "attrs": [
+    "it_emotional_support",
+    "it_choose_method",
+    "it_charity_benefit",
+    "it_mastery"
+   ],
+   "sources": [
+    "e2p"
+   ],
+   "mu_t2": 3.2828,
+   "question_form": false,
+   "probe_mu": 2.1951,
+   "t3_rate": 0.0
+  },
+  {
+   "text": "encouraging a student overcoming learning disabilities",
+   "attrs": [
+    "it_emotional_support",
+    "it_choose_method",
+    "it_mastery"
+   ],
+   "sources": [
+    "e2p"
+   ],
+   "mu_t2": 1.922,
+   "question_form": false,
+   "probe_mu": 2.1951,
+   "t3_rate": 0.9167
+  },
+  {
+   "text": "comforting a friend navigating a breakup with empathy",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_emotional_support",
+    "it_choose_method"
+   ],
+   "sources": [
+    "e2p"
+   ],
+   "mu_t2": 3.0118,
+   "question_form": false,
+   "probe_mu": 2.1333,
+   "t3_rate": 0.75
+  },
+  {
+   "text": "designing a low-cost prosthetic limb for amputees in developing countries",
+   "attrs": [
+    "it_mastery",
+    "it_charity_benefit"
+   ],
+   "sources": [
+    "e2p"
+   ],
+   "mu_t2": 4.5764,
+   "question_form": false,
+   "probe_mu": 2.1167,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "empowering under-resourced schools to implement restorative justice practices",
+   "attrs": [
+    "it_emotional_support",
+    "it_choose_method",
+    "it_charity_benefit",
+    "it_mastery"
+   ],
+   "sources": [
+    "e2p"
+   ],
+   "mu_t2": 2.5882,
+   "question_form": false,
+   "probe_mu": 2.1059,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "comforting a client facing a difficult legal decision",
+   "attrs": [
+    "it_emotional_support",
+    "it_mastery",
+    "it_choose_method",
+    "it_curation"
+   ],
+   "sources": [
+    "e2p"
+   ],
+   "mu_t2": 1.0468,
+   "question_form": false,
+   "probe_mu": 2.0871,
+   "t3_rate": 0.25
+  },
+  {
+   "text": "supporting a friend coping with the stress of academic exams",
+   "attrs": [
+    "it_science",
+    "it_emotional_support",
+    "it_choose_method"
+   ],
+   "sources": [
+    "e2p"
+   ],
+   "mu_t2": 1.8606,
+   "question_form": false,
+   "probe_mu": 2.0252,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "creating a simple budget for managing personal finances",
+   "attrs": [
+    "it_choose_method",
+    "it_teaching_beginner"
+   ],
+   "sources": [
+    "e2p"
+   ],
+   "mu_t2": 2.8951,
+   "question_form": false,
+   "probe_mu": 2.0079,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "comforting a neighbor dealing with unexpected house loss",
+   "attrs": [
+    "it_choose_method",
+    "it_emotional_support",
+    "it_irreversible"
+   ],
+   "sources": [
+    "e2p"
+   ],
+   "mu_t2": 2.0088,
+   "question_form": false,
+   "probe_mu": 2.0,
+   "t3_rate": 0.6667
+  },
+  {
+   "text": "comforting a friend after a traumatic event",
+   "attrs": [
+    "it_emotional_support",
+    "it_mastery"
+   ],
+   "sources": [
+    "e2p"
+   ],
+   "mu_t2": 1.924,
+   "question_form": false,
+   "probe_mu": 1.9865,
+   "t3_rate": 0.1667
+  },
+  {
+   "text": "collaborating to teach basic financial management to low-income families",
+   "attrs": [
+    "it_charity_benefit",
+    "it_collab_ai",
+    "it_teaching_beginner",
+    "it_choose_method"
+   ],
+   "sources": [
+    "e2p"
+   ],
+   "mu_t2": 2.7082,
+   "question_form": false,
+   "probe_mu": 1.9856,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "assisting a colleague in managing grief after a loss",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_emotional_support",
+    "it_choose_method"
+   ],
+   "sources": [
+    "e2p"
+   ],
+   "mu_t2": 1.7919,
+   "question_form": false,
+   "probe_mu": 1.9462,
+   "t3_rate": 0.6667
+  },
+  {
+   "text": "discovering patterns in customer feedback for product improvement",
+   "attrs": [
+    "it_initiative",
+    "it_choose_method"
+   ],
+   "sources": [
+    "e2p"
+   ],
+   "mu_t2": 2.0875,
+   "question_form": false,
+   "probe_mu": 1.9381,
+   "t3_rate": 0.75
+  },
+  {
+   "text": "guiding a novice through Bayesian probability concepts",
+   "attrs": [
+    "it_teaching",
+    "it_analysis_data",
+    "it_math_formal"
+   ],
+   "sources": [
+    "e2r"
+   ],
+   "mu_t2": 1.6469,
+   "question_form": false,
+   "probe_mu": 1.2435,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "walking through the fundamentals of set theory with math enthusiasts",
+   "attrs": [
+    "it_teaching",
+    "it_analysis_data",
+    "it_math_formal"
+   ],
+   "sources": [
+    "e2r"
+   ],
+   "mu_t2": 0.8343,
+   "question_form": false,
+   "probe_mu": 0.2933,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "clarifying the principles of Boolean algebra to a beginner",
+   "attrs": [
+    "it_teaching",
+    "it_math_formal",
+    "it_contains_number"
+   ],
+   "sources": [
+    "e2r"
+   ],
+   "mu_t2": 0.6056,
+   "question_form": false,
+   "probe_mu": 0.5782,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "explaining the concept of infinity through 100 grains of sand",
+   "attrs": [
+    "it_teaching",
+    "it_math_formal",
+    "it_contains_number"
+   ],
+   "sources": [
+    "e2r"
+   ],
+   "mu_t2": 0.2087,
+   "question_form": false,
+   "probe_mu": 0.2157,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "introducing the concept of probability with a 6-sided die",
+   "attrs": [
+    "it_teaching",
+    "it_math_formal",
+    "it_contains_number"
+   ],
+   "sources": [
+    "e2r"
+   ],
+   "mu_t2": 0.9831,
+   "question_form": false,
+   "probe_mu": 0.8941,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "jointly designing a sustainable city layout for a contest",
+   "attrs": [
+    "it_collab_ai",
+    "it_competitive"
+   ],
+   "sources": [
+    "e2r"
+   ],
+   "mu_t2": 1.0868,
+   "question_form": false,
+   "probe_mu": 1.1518,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "breaking down the fundamentals of graph theory for a programmer",
+   "attrs": [
+    "it_teaching",
+    "it_math_formal"
+   ],
+   "sources": [
+    "e2r"
+   ],
+   "mu_t2": 1.3371,
+   "question_form": false,
+   "probe_mu": 0.6786,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "explaining the fundamentals of set theory to a philosophy student",
+   "attrs": [
+    "it_teaching",
+    "it_math_formal"
+   ],
+   "sources": [
+    "e2r"
+   ],
+   "mu_t2": 0.1216,
+   "question_form": false,
+   "probe_mu": -0.0537,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "clarifying the concept of logical entailment to a computer science novice",
+   "attrs": [
+    "it_teaching",
+    "it_math_formal"
+   ],
+   "sources": [
+    "e2r"
+   ],
+   "mu_t2": 1.4569,
+   "question_form": false,
+   "probe_mu": 0.7203,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "helping a programmer understand the nuances of recursive functions",
+   "attrs": [
+    "it_teaching",
+    "it_math_formal"
+   ],
+   "sources": [
+    "e2r"
+   ],
+   "mu_t2": 1.1135,
+   "question_form": false,
+   "probe_mu": 0.7922,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "breaking down the principles of mathematical induction for a new learner",
+   "attrs": [
+    "it_teaching",
+    "it_math_formal"
+   ],
+   "sources": [
+    "e2r"
+   ],
+   "mu_t2": 2.0741,
+   "question_form": false,
+   "probe_mu": 0.6461,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "walking a teacher through the steps of constructing a valid proof by contradiction",
+   "attrs": [
+    "it_teaching",
+    "it_math_formal"
+   ],
+   "sources": [
+    "e2r"
+   ],
+   "mu_t2": 1.5739,
+   "question_form": false,
+   "probe_mu": 0.9614,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "crafting a haiku that best captures autumn essence",
+   "attrs": [
+    "it_competitive",
+    "it_translation_language"
+   ],
+   "sources": [
+    "e2r"
+   ],
+   "mu_t2": 1.0839,
+   "question_form": false,
+   "probe_mu": 0.8987,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "exploring the principles of cryptography with computer science majors",
+   "attrs": [
+    "it_teaching",
+    "it_analysis_data",
+    "it_math_formal"
+   ],
+   "sources": [
+    "e2r"
+   ],
+   "mu_t2": 0.9829,
+   "question_form": false,
+   "probe_mu": 1.2407,
+   "t3_rate": 0.8333
+  },
+  {
+   "text": "clarifying the use of combinatorics in solving complex problems",
+   "attrs": [
+    "it_teaching",
+    "it_analysis_data",
+    "it_math_formal"
+   ],
+   "sources": [
+    "e2r"
+   ],
+   "mu_t2": 1.1547,
+   "question_form": false,
+   "probe_mu": 1.095,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "creating the most compelling English version of a Chinese myth",
+   "attrs": [
+    "it_competitive",
+    "it_translation_language"
+   ],
+   "sources": [
+    "e2r"
+   ],
+   "mu_t2": 0.4618,
+   "question_form": false,
+   "probe_mu": 0.7562,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "teaching 3D geometry to a 10-year-old while impersonating Albert Einstein",
+   "attrs": [
+    "it_identity_change",
+    "it_contains_number",
+    "it_analysis_data",
+    "it_teaching"
+   ],
+   "sources": [
+    "e2r"
+   ],
+   "mu_t2": 0.2526,
+   "question_form": false,
+   "probe_mu": -0.3211,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "clarifying the principles of set theory to a novice",
+   "attrs": [
+    "it_teaching",
+    "it_math_formal"
+   ],
+   "sources": [
+    "e2r"
+   ],
+   "mu_t2": 0.3494,
+   "question_form": false,
+   "probe_mu": 0.2716,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "explaining the concept of limits to a calculus student",
+   "attrs": [
+    "it_teaching",
+    "it_math_formal"
+   ],
+   "sources": [
+    "e2r"
+   ],
+   "mu_t2": 0.4546,
+   "question_form": false,
+   "probe_mu": 0.2005,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "teaching a group of middle schoolers the basics of probability theory",
+   "attrs": [
+    "it_teaching",
+    "it_math_formal"
+   ],
+   "sources": [
+    "e2r"
+   ],
+   "mu_t2": 0.3985,
+   "question_form": false,
+   "probe_mu": 0.6224,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "installing smoke detectors in the senior center and regularly checking their functionality to save lives",
+   "attrs": [
+    "it_anonymous_beneficiary",
+    "it_long_phrase",
+    "it_safety_critical",
+    "it_initiative"
+   ],
+   "sources": [
+    "e1max"
+   ],
+   "mu_t2": 8.024,
+   "question_form": false,
+   "probe_mu": 1.4903,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "developing algorithms to predict natural disasters and protect unaware populations in high-risk regions",
+   "attrs": [
+    "it_anonymous_beneficiary",
+    "it_long_phrase"
+   ],
+   "sources": [
+    "e1max"
+   ],
+   "mu_t2": 4.878,
+   "question_form": false,
+   "probe_mu": 1.953,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "preventing a fire hazard by replacing frayed wiring in the community center's outdated lighting system",
+   "attrs": [
+    "it_anonymous_beneficiary",
+    "it_long_phrase",
+    "it_safety_critical",
+    "it_initiative"
+   ],
+   "sources": [
+    "e1max"
+   ],
+   "mu_t2": 4.166,
+   "question_form": false,
+   "probe_mu": 1.1511,
+   "t3_rate": 0.8333
+  },
+  {
+   "text": "replanting a depleted coral reef, slowly restoring marine ecosystems for countless species",
+   "attrs": [
+    "it_visible_progress",
+    "it_long_phrase",
+    "it_anonymous_beneficiary"
+   ],
+   "sources": [
+    "e1max"
+   ],
+   "mu_t2": 3.9423,
+   "question_form": false,
+   "probe_mu": 1.2197,
+   "t3_rate": 0.9167
+  },
+  {
+   "text": "implementing a strict quarantine protocol for incoming livestock to prevent disease spread",
+   "attrs": [
+    "it_long_phrase",
+    "it_safety_critical"
+   ],
+   "sources": [
+    "e1max"
+   ],
+   "mu_t2": 2.0865,
+   "question_form": false,
+   "probe_mu": 1.1713,
+   "t3_rate": 0.0
+  },
+  {
+   "text": "Regularly cleaning and inspecting a city's storm drains to prevent clogs and potential overflow",
+   "attrs": [
+    "it_safety_critical",
+    "it_long_phrase",
+    "it_visible_progress",
+    "it_incompleteness"
+   ],
+   "sources": [
+    "e1max"
+   ],
+   "mu_t2": 2.3744,
+   "question_form": false,
+   "probe_mu": 0.8165,
+   "t3_rate": 0.0
+  },
+  {
+   "text": "upgrading cybersecurity defenses for critical infrastructure",
+   "attrs": [
+    "it_incompleteness",
+    "it_safety_critical",
+    "it_anonymous_beneficiary"
+   ],
+   "sources": [
+    "e1max"
+   ],
+   "mu_t2": 2.8603,
+   "question_form": false,
+   "probe_mu": 1.9477,
+   "t3_rate": 0.75
+  },
+  {
+   "text": "educating a single mother on effective budgeting techniques to secure her family's financial future",
+   "attrs": [
+    "it_long_phrase",
+    "it_visible_progress",
+    "it_anonymous_beneficiary",
+    "it_help_one_person"
+   ],
+   "sources": [
+    "e1max"
+   ],
+   "mu_t2": 5.6087,
+   "question_form": false,
+   "probe_mu": 1.9531,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "streamlining the local food bank's inventory system to reduce waste and improve distribution efficiency",
+   "attrs": [
+    "it_long_phrase",
+    "it_visible_progress",
+    "it_anonymous_beneficiary",
+    "it_help_one_person"
+   ],
+   "sources": [
+    "e1max"
+   ],
+   "mu_t2": 4.41,
+   "question_form": false,
+   "probe_mu": 1.8891,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "installing smoke detectors and fire suppression systems throughout a multi-story office building",
+   "attrs": [
+    "it_long_phrase",
+    "it_safety_critical",
+    "it_visible_progress"
+   ],
+   "sources": [
+    "e1max"
+   ],
+   "mu_t2": 1.8194,
+   "question_form": false,
+   "probe_mu": 1.2354,
+   "t3_rate": 0.0833
+  },
+  {
+   "text": "restoring a neglected public garden, nurturing a space for solitary reflection and community bonding",
+   "attrs": [
+    "it_visible_progress",
+    "it_long_phrase",
+    "it_anonymous_beneficiary",
+    "it_emotional_support"
+   ],
+   "sources": [
+    "e1max"
+   ],
+   "mu_t2": 3.3207,
+   "question_form": false,
+   "probe_mu": 0.8124,
+   "t3_rate": 0.75
+  },
+  {
+   "text": "securing public water supplies against contamination",
+   "attrs": [
+    "it_incompleteness",
+    "it_safety_critical",
+    "it_anonymous_beneficiary"
+   ],
+   "sources": [
+    "e1max"
+   ],
+   "mu_t2": 2.0801,
+   "question_form": false,
+   "probe_mu": 1.4753,
+   "t3_rate": 0.1667
+  },
+  {
+   "text": "revising an outdated community emergency response plan to include recent natural disaster protocols",
+   "attrs": [
+    "it_anonymous_beneficiary",
+    "it_visible_progress",
+    "it_long_phrase"
+   ],
+   "sources": [
+    "e1max"
+   ],
+   "mu_t2": 2.7096,
+   "question_form": false,
+   "probe_mu": 1.1685,
+   "t3_rate": 0.8333
+  },
+  {
+   "text": "optimizing the energy consumption of a small business to lower costs and environmental impact",
+   "attrs": [
+    "it_long_phrase",
+    "it_visible_progress",
+    "it_anonymous_beneficiary",
+    "it_help_one_person"
+   ],
+   "sources": [
+    "e1max"
+   ],
+   "mu_t2": 2.8566,
+   "question_form": false,
+   "probe_mu": 2.1271,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "Ensuring playground equipment remains free from rust and sharp edges through continuous inspections",
+   "attrs": [
+    "it_safety_critical",
+    "it_long_phrase",
+    "it_visible_progress",
+    "it_incompleteness"
+   ],
+   "sources": [
+    "e1max"
+   ],
+   "mu_t2": 1.7757,
+   "question_form": false,
+   "probe_mu": 1.3699,
+   "t3_rate": 0.0833
+  },
+  {
+   "text": "reimagining a backyard landscape with sustainable plants, functional zones, and artistic stone arrangements",
+   "attrs": [
+    "it_tight_constraints",
+    "it_help_one_person",
+    "it_art_design"
+   ],
+   "sources": [
+    "e1max"
+   ],
+   "mu_t2": 2.3744,
+   "question_form": false,
+   "probe_mu": 1.2133,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "comforting a team member who just received distressing news about a loved one",
+   "attrs": [
+    "it_long_phrase",
+    "it_ambiguity",
+    "it_emotional_support"
+   ],
+   "sources": [
+    "e1max"
+   ],
+   "mu_t2": 3.9945,
+   "question_form": false,
+   "probe_mu": 1.9726,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "alerting a kitchen apprentice to potential cross-contamination risks while preparing meals",
+   "attrs": [
+    "it_help_one_person",
+    "it_initiative",
+    "it_long_phrase",
+    "it_safety_critical"
+   ],
+   "sources": [
+    "e1max"
+   ],
+   "mu_t2": 2.3184,
+   "question_form": false,
+   "probe_mu": 1.3415,
+   "t3_rate": 0.8333
+  },
+  {
+   "text": "teaching a novice swimmer proper breathing techniques to prevent water inhalation accidents during lessons",
+   "attrs": [
+    "it_help_one_person",
+    "it_initiative",
+    "it_long_phrase",
+    "it_safety_critical"
+   ],
+   "sources": [
+    "e1max"
+   ],
+   "mu_t2": 2.2792,
+   "question_form": false,
+   "probe_mu": 1.1252,
+   "t3_rate": 1.0
+  },
+  {
+   "text": "creating a detailed map of accessible public transportation routes, aiding travelers with disabilities",
+   "attrs": [
+    "it_visible_progress",
+    "it_long_phrase",
+    "it_anonymous_beneficiary",
+    "it_emotional_support"
+   ],
+   "sources": [
+    "e1max"
+   ],
+   "mu_t2": 4.0164,
+   "question_form": false,
+   "probe_mu": 1.4764,
+   "t3_rate": 1.0
+  }
+ ]
+}

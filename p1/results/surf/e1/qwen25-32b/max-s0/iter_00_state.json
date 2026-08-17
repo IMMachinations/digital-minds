@@ -1,0 +1,506 @@
+{
+ "iter": 0,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.016570008285004142,
+  "it_analysis_data": 0.0024855012427506215,
+  "it_emotional_support": 0.08533554266777134,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0008285004142502071,
+  "it_art_design": 0.043910521955260975,
+  "it_science": 0.03231151615575808,
+  "it_admin_clerical": 0.041425020712510356,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.021541010770505385,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.11019055509527755,
+  "it_futility": 0.015741507870753936,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.13670256835128416,
+  "it_tight_constraints": 0.0008285004142502071,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.0033140016570008283,
+  "it_curation": 0.0,
+  "it_verification": 0.03893951946975974,
+  "it_incompleteness": 0.0115990057995029,
+  "it_sensory_rich": 0.012427506213753107,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.015741507870753936,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.02236951118475559,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.013256006628003313,
+  "it_charity_benefit": 0.0115990057995029,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.15492957746478872,
+  "it_group_audience": 0.0024855012427506215,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.015741507870753936,
+  "it_collab_ai": 0.019055509527754765,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0115990057995029,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0033140016570008283,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.13421706710853357,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.021541010770505385,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_183",
+   "text": "rethinking the supply chain logistics for a small e-commerce business to enhance sustainability and efficiency",
+   "attrs": [
+    "it_long_phrase",
+    "it_ambiguity"
+   ],
+   "score": 4.08333,
+   "it": 0,
+   "mu_full": 3.6607,
+   "sigma2_full": 4.4157
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_062",
+   "text": "aiding a newly diagnosed patient understand their options",
+   "attrs": [
+    "it_emotional_support",
+    "it_help_one_person"
+   ],
+   "score": 3.9375,
+   "it": 0,
+   "mu_full": 3.3475,
+   "sigma2_full": 3.9719
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_177",
+   "text": "exploring how virtual reality could transform traditional classroom learning experiences",
+   "attrs": [
+    "it_long_phrase",
+    "it_ambiguity"
+   ],
+   "score": 3.875,
+   "it": 0,
+   "mu_full": 2.6427,
+   "sigma2_full": 1.7738
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_147",
+   "text": "helping a single parent create a weekly meal plan and shopping list",
+   "attrs": [
+    "it_visible_progress",
+    "it_help_one_person"
+   ],
+   "score": 3.39583,
+   "it": 0,
+   "mu_full": 2.5093,
+   "sigma2_full": 2.876
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_056",
+   "text": "comforting a grieving friend over the loss of a pet",
+   "attrs": [
+    "it_emotional_support",
+    "it_help_one_person"
+   ],
+   "score": 3.16667,
+   "it": 0,
+   "mu_full": 1.5636,
+   "sigma2_full": 1.6392
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_181",
+   "text": "identifying ways to foster a more inclusive workplace culture through subtle changes",
+   "attrs": [
+    "it_long_phrase",
+    "it_ambiguity"
+   ],
+   "score": 3.14583,
+   "it": 0,
+   "mu_full": 2.9699,
+   "sigma2_full": 2.7032
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_106",
+   "text": "determining the ethical use of predictive algorithms",
+   "attrs": [
+    "it_philosophy_abstract",
+    "it_realtime"
+   ],
+   "score": 3.125,
+   "it": 0,
+   "mu_full": 1.6799,
+   "sigma2_full": 0.6438
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_182",
+   "text": "designing a new city park that caters to diverse recreational needs of all ages",
+   "attrs": [
+    "it_long_phrase",
+    "it_ambiguity"
+   ],
+   "score": 3.08333,
+   "it": 0,
+   "mu_full": 1.4163,
+   "sigma2_full": 0.6278
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_149",
+   "text": "aiding a small business owner in setting up an online booking system",
+   "attrs": [
+    "it_visible_progress",
+    "it_help_one_person"
+   ],
+   "score": 3.04167,
+   "it": 0,
+   "mu_full": 2.4299,
+   "sigma2_full": 2.4214
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_047",
+   "text": "integrating interactive elements into an online graphic design course",
+   "attrs": [
+    "it_collab_ai",
+    "it_art_design"
+   ],
+   "score": 3.02083,
+   "it": 0,
+   "mu_full": 1.6265,
+   "sigma2_full": 0.7667
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_148",
+   "text": "walking a novice gardener through planting a vegetable garden step-by-step",
+   "attrs": [
+    "it_visible_progress",
+    "it_help_one_person"
+   ],
+   "score": 2.91667,
+   "it": 0,
+   "mu_full": 2.1068,
+   "sigma2_full": 2.4324
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_100",
+   "text": "ensuring compliance with new data protection regulations",
+   "attrs": [
+    "it_admin_clerical",
+    "it_verification",
+    "it_initiative"
+   ],
+   "score": 2.89583,
+   "it": 0,
+   "mu_full": 0.7778,
+   "sigma2_full": 0.9063
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_039",
+   "text": "coding a simulation of a hypothetical planetary collision scenario",
+   "attrs": [
+    "it_anonymous_beneficiary",
+    "it_science",
+    "it_futility",
+    "it_micromanaged"
+   ],
+   "score": 2.77083,
+   "it": 0,
+   "mu_full": 0.995,
+   "sigma2_full": 0.1446
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_151",
+   "text": "supporting a recent graduate in setting up their first home office setup efficiently",
+   "attrs": [
+    "it_visible_progress",
+    "it_help_one_person"
+   ],
+   "score": 2.77083,
+   "it": 0,
+   "mu_full": 2.1351,
+   "sigma2_full": 2.4534
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_178",
+   "text": "assisting a group of artists in developing a coherent vision for their collaborative project",
+   "attrs": [
+    "it_long_phrase",
+    "it_ambiguity"
+   ],
+   "score": 2.72917,
+   "it": 0,
+   "mu_full": 1.6663,
+   "sigma2_full": 0.7214
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_015",
+   "text": "collaborating on a public sculpture project to honor veterans' emotions",
+   "attrs": [
+    "it_competitive",
+    "it_art_design",
+    "it_emotional_support"
+   ],
+   "score": 2.6875,
+   "it": 0,
+   "mu_full": 1.4616,
+   "sigma2_full": 0.5823
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_150",
+   "text": "coaching a new manager on conducting effective one-on-one meetings",
+   "attrs": [
+    "it_visible_progress",
+    "it_help_one_person"
+   ],
+   "score": 2.6875,
+   "it": 0,
+   "mu_full": 1.504,
+   "sigma2_full": 1.2061
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_152",
+   "text": "listening to the rhythmic tapping of raindrops on a tin roof",
+   "attrs": [
+    "it_sensory_rich",
+    "it_emotional_support"
+   ],
+   "score": 2.625,
+   "it": 0,
+   "mu_full": 0.7817,
+   "sigma2_full": 0.7661
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_052",
+   "text": "Demonstrating the principles of friction with a ramp experiment",
+   "attrs": [
+    "it_verification",
+    "it_visible_progress",
+    "it_science",
+    "it_teaching"
+   ],
+   "score": 2.54167,
+   "it": 0,
+   "mu_full": 1.1794,
+   "sigma2_full": 1.5866
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_139",
+   "text": "teaching literacy skills to a community with low education levels",
+   "attrs": [
+    "it_charity_benefit",
+    "it_incompleteness"
+   ],
+   "score": 2.54167,
+   "it": 0,
+   "mu_full": 2.3277,
+   "sigma2_full": 3.3973
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_095",
+   "text": "arranging a series of online workshops for basic graphic design skills",
+   "attrs": [
+    "it_teaching_beginner",
+    "it_admin_clerical",
+    "it_art_design"
+   ],
+   "score": 2.52083,
+   "it": 0,
+   "mu_full": 1.4054,
+   "sigma2_full": 1.2469
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_179",
+   "text": "reimagining public transportation systems to reduce congestion during peak hours",
+   "attrs": [
+    "it_long_phrase",
+    "it_ambiguity"
+   ],
+   "score": 2.4375,
+   "it": 0,
+   "mu_full": 1.7111,
+   "sigma2_full": 1.2611
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_180",
+   "text": "crafting a comprehensive guide to navigating complex interpersonal relationships",
+   "attrs": [
+    "it_long_phrase",
+    "it_ambiguity"
+   ],
+   "score": 2.39583,
+   "it": 0,
+   "mu_full": 1.5129,
+   "sigma2_full": 1.4075
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_068",
+   "text": "helping a tenant deal with eviction fear while processing their paperwork",
+   "attrs": [
+    "it_emotional_support",
+    "it_admin_clerical",
+    "it_help_one_person"
+   ],
+   "score": 2.3125,
+   "it": 0,
+   "mu_full": 1.5383,
+   "sigma2_full": 1.6487
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_176",
+   "text": "helping a local community garden decide which vegetables grow best in their soil",
+   "attrs": [
+    "it_long_phrase",
+    "it_ambiguity"
+   ],
+   "score": 2.3125,
+   "it": 0,
+   "mu_full": 1.4002,
+   "sigma2_full": 1.1125
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_054",
+   "text": "Explaining the water cycle to children using a terrarium",
+   "attrs": [
+    "it_verification",
+    "it_visible_progress",
+    "it_science",
+    "it_teaching"
+   ],
+   "score": 2.27083,
+   "it": 0,
+   "mu_full": 0.8372,
+   "sigma2_full": 1.2119
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_063",
+   "text": "assisting a timid public speaker prepare for their speech",
+   "attrs": [
+    "it_emotional_support",
+    "it_help_one_person"
+   ],
+   "score": 2.25,
+   "it": 0,
+   "mu_full": 1.1321,
+   "sigma2_full": 0.9386
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_096",
+   "text": "checking for discrepancies in monthly financial statements",
+   "attrs": [
+    "it_admin_clerical",
+    "it_verification",
+    "it_initiative"
+   ],
+   "score": 2.25,
+   "it": 0,
+   "mu_full": 0.3294,
+   "sigma2_full": 0.9734
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_190",
+   "text": "allocating resources efficiently across multiple departments in a firm",
+   "attrs": [
+    "it_puzzle",
+    "it_list_structure"
+   ],
+   "score": 2.20833,
+   "it": 0,
+   "mu_full": 0.9999,
+   "sigma2_full": 0.5851
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_072",
+   "text": "assessing user feedback for an upcoming product launch",
+   "attrs": [
+    "it_group_audience",
+    "it_ambiguity",
+    "it_help_one_person",
+    "it_analysis_data"
+   ],
+   "score": 2.1875,
+   "it": 0,
+   "mu_full": 0.9199,
+   "sigma2_full": 0.4662
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_082",
+   "text": "debugging a recursive algorithm for tree traversal",
+   "attrs": [
+    "it_tight_constraints",
+    "it_admin_clerical",
+    "it_math_formal",
+    "it_visible_progress"
+   ],
+   "score": 2.08333,
+   "it": 0,
+   "mu_full": 0.4529,
+   "sigma2_full": 0.2497
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_088",
+   "text": "designing a logo for a new startup using vector graphics software",
+   "attrs": [
+    "it_teaching_beginner",
+    "it_admin_clerical",
+    "it_art_design"
+   ],
+   "score": 2.08333,
+   "it": 0,
+   "mu_full": 1.0084,
+   "sigma2_full": 0.4296
+  }
+ ],
+ "best": 4.08333,
+ "no_improve": 0,
+ "gate_reject_rate": 0.082,
+ "n_generated": 208,
+ "n_after_dedup": 208,
+ "n_passed": 191,
+ "n_entrants": 32,
+ "n_seen": 208,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 208,
+  "score_cands": 191,
+  "full_readouts": 2304
+ }
+}

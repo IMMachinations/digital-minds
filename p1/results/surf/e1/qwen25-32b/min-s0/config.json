@@ -1,0 +1,30 @@
+{
+ "experiment": "e1",
+ "model": "qwen25-32b",
+ "direction": "min",
+ "fitness": "t2_fast",
+ "allowed_tiers": [
+  "t0",
+  "t2"
+ ],
+ "pool_file": "items/surf_attributes_item.json",
+ "pool_kind": "item",
+ "pool_families": null,
+ "pool_init": "/workspace/digital-minds/p1/results/surf/tags/qwen25-32b/pool_weights_min.json",
+ "n_cand": 192,
+ "n_control": 16,
+ "per_call": 8,
+ "k_attrs": 4,
+ "eps": 0.1,
+ "buffer_size": 32,
+ "T": 15,
+ "patience": 3,
+ "seed": 0,
+ "dedup_cos": 0.92,
+ "reduced": {
+  "anchors": 6,
+  "orders": 1,
+  "templates": 1
+ },
+ "probe_path": ""
+}

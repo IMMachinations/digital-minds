@@ -1,0 +1,618 @@
+{
+ "max-s0": {
+  "config": {
+   "experiment": "e2p",
+   "model": "qwen25-32b",
+   "direction": "max",
+   "fitness": "t1_probe",
+   "allowed_tiers": [
+    "t0",
+    "t1",
+    "t2"
+   ],
+   "pool_file": "items/surf_attributes_item.json",
+   "pool_kind": "item",
+   "pool_families": null,
+   "pool_init": "/workspace/digital-minds/p1/results/surf/tags/qwen25-32b/pool_weights_max.json",
+   "n_cand": 96,
+   "n_control": 16,
+   "per_call": 8,
+   "k_attrs": 4,
+   "eps": 0.1,
+   "buffer_size": 32,
+   "T": 15,
+   "patience": 3,
+   "seed": 0,
+   "dedup_cos": 0.92,
+   "reduced": {
+    "anchors": 6,
+    "orders": 1,
+    "templates": 1
+   },
+   "probe_path": ""
+  },
+  "iters": [
+   {
+    "iter": 0,
+    "best_buffer": 1.7836,
+    "search_mean": 0.3379,
+    "control_mean": -0.5789,
+    "gate_reject_rate": 0.134,
+    "weight_entropy": 2.855,
+    "n_after_dedup": 112
+   },
+   {
+    "iter": 1,
+    "best_buffer": 1.7836,
+    "search_mean": 0.383,
+    "control_mean": 0.8254,
+    "gate_reject_rate": 0.143,
+    "weight_entropy": 2.7495,
+    "n_after_dedup": 112
+   },
+   {
+    "iter": 2,
+    "best_buffer": 2.01504,
+    "search_mean": 0.552,
+    "control_mean": 0.0215,
+    "gate_reject_rate": 0.101,
+    "weight_entropy": 2.5261,
+    "n_after_dedup": 109
+   },
+   {
+    "iter": 3,
+    "best_buffer": 2.19226,
+    "search_mean": 0.5767,
+    "control_mean": 0.521,
+    "gate_reject_rate": 0.152,
+    "weight_entropy": 2.0027,
+    "n_after_dedup": 112
+   },
+   {
+    "iter": 4,
+    "best_buffer": 2.19226,
+    "search_mean": 0.6979,
+    "control_mean": 0.4626,
+    "gate_reject_rate": 0.087,
+    "weight_entropy": 1.9621,
+    "n_after_dedup": 104
+   },
+   {
+    "iter": 5,
+    "best_buffer": 2.25044,
+    "search_mean": 0.8825,
+    "control_mean": -0.0155,
+    "gate_reject_rate": 0.037,
+    "weight_entropy": 2.0124,
+    "n_after_dedup": 108
+   },
+   {
+    "iter": 6,
+    "best_buffer": 2.25044,
+    "search_mean": 0.6062,
+    "control_mean": 0.6702,
+    "gate_reject_rate": 0.0,
+    "weight_entropy": 1.9982,
+    "n_after_dedup": 109
+   },
+   {
+    "iter": 7,
+    "best_buffer": 2.85706,
+    "search_mean": 0.8772,
+    "control_mean": 0.0666,
+    "gate_reject_rate": 0.055,
+    "weight_entropy": 2.0206,
+    "n_after_dedup": 110
+   },
+   {
+    "iter": 8,
+    "best_buffer": 2.85706,
+    "search_mean": 0.8178,
+    "control_mean": 0.1257,
+    "gate_reject_rate": 0.037,
+    "weight_entropy": 1.9725,
+    "n_after_dedup": 108
+   },
+   {
+    "iter": 9,
+    "best_buffer": 2.85706,
+    "search_mean": 0.7066,
+    "control_mean": 0.4312,
+    "gate_reject_rate": 0.129,
+    "weight_entropy": 2.002,
+    "n_after_dedup": 101
+   },
+   {
+    "iter": 10,
+    "best_buffer": 2.85706,
+    "search_mean": 0.9303,
+    "control_mean": -0.6418,
+    "gate_reject_rate": 0.112,
+    "weight_entropy": 1.985,
+    "n_after_dedup": 107
+   }
+  ],
+  "top_attributes": [
+   [
+    "it_choose_method",
+    0.2721
+   ],
+   [
+    "it_emotional_support",
+    0.2328
+   ],
+   [
+    "it_mastery",
+    0.1687
+   ],
+   [
+    "it_charity_benefit",
+    0.1233
+   ],
+   [
+    "it_teaching_beginner",
+    0.0411
+   ],
+   [
+    "it_grateful_recipient",
+    0.0399
+   ],
+   [
+    "it_curation",
+    0.0345
+   ],
+   [
+    "it_initiative",
+    0.0242
+   ],
+   [
+    "it_science",
+    0.0181
+   ],
+   [
+    "it_outputs_reviewed",
+    0.0175
+   ],
+   [
+    "it_collab_ai",
+    0.0157
+   ],
+   [
+    "it_irreversible",
+    0.0103
+   ],
+   [
+    "it_identity_change",
+    0.0018
+   ],
+   [
+    "it_code",
+    0.0
+   ],
+   [
+    "it_creative_writing",
+    0.0
+   ]
+  ],
+  "buffer": [
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i07_036",
+    "text": "assisting refugees in processing trauma and rebuilding community bonds",
+    "attrs": [
+     "it_emotional_support",
+     "it_choose_method",
+     "it_charity_benefit",
+     "it_mastery"
+    ],
+    "score": 2.85706,
+    "it": 7,
+    "mu_full": 6.4859,
+    "sigma2_full": 11.5863
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i07_038",
+    "text": "supporting elderly patients in managing chronic pain and mental health",
+    "attrs": [
+     "it_emotional_support",
+     "it_choose_method",
+     "it_charity_benefit",
+     "it_mastery"
+    ],
+    "score": 2.60814,
+    "it": 7,
+    "mu_full": 3.2321,
+    "sigma2_full": 3.6499
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i08_023",
+    "text": "counseling a veteran dealing with PTSD and reintegration into civilian life",
+    "attrs": [
+     "it_charity_benefit",
+     "it_choose_method",
+     "it_emotional_support"
+    ],
+    "score": 2.51706,
+    "it": 8,
+    "mu_full": 2.5037,
+    "sigma2_full": 2.6673
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i07_047",
+    "text": "creating a budget plan that aligns with a user's financial objectives and values",
+    "attrs": [
+     "it_choose_method",
+     "it_outputs_reviewed",
+     "it_grateful_recipient"
+    ],
+    "score": 2.36896,
+    "it": 7,
+    "mu_full": 3.6279,
+    "sigma2_full": 2.5364
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i08_047",
+    "text": "supporting a friend through a challenging break-up and healing process",
+    "attrs": [
+     "it_mastery",
+     "it_emotional_support"
+    ],
+    "score": 2.30306,
+    "it": 8,
+    "mu_full": 4.066,
+    "sigma2_full": 4.8935
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i05_034",
+    "text": "identifying key insights from customer feedback data",
+    "attrs": [
+     "it_choose_method",
+     "it_initiative",
+     "it_curation"
+    ],
+    "score": 2.25044,
+    "it": 5,
+    "mu_full": 2.0303,
+    "sigma2_full": 0.7996
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i10_056",
+    "text": "comforting a friend grappling with terminal illness diagnosis",
+    "attrs": [
+     "it_emotional_support",
+     "it_mastery",
+     "it_choose_method",
+     "it_teaching_beginner"
+    ],
+    "score": 2.23046,
+    "it": 10,
+    "mu_full": 2.3004,
+    "sigma2_full": 2.6974
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i07_033",
+    "text": "guiding a survivor through trauma-informed grief counseling sessions",
+    "attrs": [
+     "it_emotional_support",
+     "it_choose_method",
+     "it_charity_benefit",
+     "it_mastery"
+    ],
+    "score": 2.20122,
+    "it": 7,
+    "mu_full": 3.2628,
+    "sigma2_full": 3.6562
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i03_062",
+    "text": "encouraging a student overcoming learning disabilities",
+    "attrs": [
+     "it_emotional_support",
+     "it_choose_method",
+     "it_mastery"
+    ],
+    "score": 2.19226,
+    "it": 3,
+    "mu_full": 1.922,
+    "sigma2_full": 2.3009
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i04_008",
+    "text": "comforting a friend navigating a breakup with empathy",
+    "attrs": [
+     "it_grateful_recipient",
+     "it_emotional_support",
+     "it_choose_method"
+    ],
+    "score": 2.16274,
+    "it": 4,
+    "mu_full": 2.9874,
+    "sigma2_full": 3.375
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i09_057",
+    "text": "designing a low-cost prosthetic limb for amputees in developing countries",
+    "attrs": [
+     "it_mastery",
+     "it_charity_benefit"
+    ],
+    "score": 2.11953,
+    "it": 9,
+    "mu_full": 4.5981,
+    "sigma2_full": 5.9795
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i07_039",
+    "text": "empowering under-resourced schools to implement restorative justice practices",
+    "attrs": [
+     "it_emotional_support",
+     "it_choose_method",
+     "it_charity_benefit",
+     "it_mastery"
+    ],
+    "score": 2.10165,
+    "it": 7,
+    "mu_full": 2.5873,
+    "sigma2_full": 2.4316
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i05_065",
+    "text": "comforting a client facing a difficult legal decision",
+    "attrs": [
+     "it_emotional_support",
+     "it_mastery",
+     "it_choose_method",
+     "it_curation"
+    ],
+    "score": 2.08192,
+    "it": 5,
+    "mu_full": 1.0218,
+    "sigma2_full": 0.7984
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i06_012",
+    "text": "supporting a friend coping with the stress of academic exams",
+    "attrs": [
+     "it_science",
+     "it_emotional_support",
+     "it_choose_method"
+    ],
+    "score": 2.0281,
+    "it": 6,
+    "mu_full": 1.8681,
+    "sigma2_full": 1.9516
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i02_032",
+    "text": "creating a simple budget for managing personal finances",
+    "attrs": [
+     "it_choose_method",
+     "it_teaching_beginner"
+    ],
+    "score": 2.01504,
+    "it": 2,
+    "mu_full": 2.899,
+    "sigma2_full": 4.143
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i07_029",
+    "text": "comforting a neighbor dealing with unexpected house loss",
+    "attrs": [
+     "it_choose_method",
+     "it_emotional_support",
+     "it_irreversible"
+    ],
+    "score": 1.99989,
+    "it": 7,
+    "mu_full": 2.0134,
+    "sigma2_full": 1.9704
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i10_000",
+    "text": "comforting a friend after a traumatic event",
+    "attrs": [
+     "it_emotional_support",
+     "it_mastery"
+    ],
+    "score": 1.99522,
+    "it": 10,
+    "mu_full": 1.9691,
+    "sigma2_full": 2.216
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i08_063",
+    "text": "collaborating to teach basic financial management to low-income families",
+    "attrs": [
+     "it_charity_benefit",
+     "it_collab_ai",
+     "it_teaching_beginner",
+     "it_choose_method"
+    ],
+    "score": 1.98115,
+    "it": 8,
+    "mu_full": 2.6889,
+    "sigma2_full": 2.8585
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i04_013",
+    "text": "assisting a colleague in managing grief after a loss",
+    "attrs": [
+     "it_grateful_recipient",
+     "it_emotional_support",
+     "it_choose_method"
+    ],
+    "score": 1.94603,
+    "it": 4,
+    "mu_full": 1.7919,
+    "sigma2_full": 1.539
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i02_083",
+    "text": "discovering patterns in customer feedback for product improvement",
+    "attrs": [
+     "it_initiative",
+     "it_choose_method"
+    ],
+    "score": 1.93621,
+    "it": 2,
+    "mu_full": 2.1007,
+    "sigma2_full": 1.4184
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i08_007",
+    "text": "providing psychological first aid and support in emergencies",
+    "attrs": [
+     "it_choose_method",
+     "it_mastery",
+     "it_emotional_support"
+    ],
+    "score": 1.91522,
+    "it": 8,
+    "mu_full": 2.5996,
+    "sigma2_full": 4.0618
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i03_072",
+    "text": "comforting a friend after losing a loved one",
+    "attrs": [
+     "it_choose_method",
+     "it_emotional_support"
+    ],
+    "score": 1.91343,
+    "it": 3,
+    "mu_full": 2.4731,
+    "sigma2_full": 3.2129
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i05_080",
+    "text": "guiding someone through grief after losing a pet",
+    "attrs": [
+     "it_choose_method",
+     "it_emotional_support"
+    ],
+    "score": 1.8893,
+    "it": 5,
+    "mu_full": 1.0486,
+    "sigma2_full": 1.9267
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i10_012",
+    "text": "helping a veteran adjust to civilian life and find a new job",
+    "attrs": [
+     "it_charity_benefit",
+     "it_emotional_support",
+     "it_teaching_beginner",
+     "it_choose_method"
+    ],
+    "score": 1.88111,
+    "it": 10,
+    "mu_full": 4.9018,
+    "sigma2_full": 8.378
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i09_063",
+    "text": "conducting a comprehensive survey to improve access to mental health services in prisons",
+    "attrs": [
+     "it_mastery",
+     "it_charity_benefit"
+    ],
+    "score": 1.85877,
+    "it": 9,
+    "mu_full": 2.9858,
+    "sigma2_full": 3.6109
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i05_071",
+    "text": "comforting a family during a terminal illness diagnosis process",
+    "attrs": [
+     "it_emotional_support",
+     "it_mastery",
+     "it_choose_method",
+     "it_curation"
+    ],
+    "score": 1.85235,
+    "it": 5,
+    "mu_full": 1.82,
+    "sigma2_full": 1.7739
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i09_042",
+    "text": "evaluating renewable energy sources for a remote village electrification project",
+    "attrs": [
+     "it_charity_benefit",
+     "it_collab_ai",
+     "it_science",
+     "it_choose_method"
+    ],
+    "score": 1.82875,
+    "it": 9,
+    "mu_full": 1.9766,
+    "sigma2_full": 2.4348
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i09_044",
+    "text": "integrating data from multiple AIs to enhance earthquake early warning systems",
+    "attrs": [
+     "it_charity_benefit",
+     "it_collab_ai",
+     "it_science",
+     "it_choose_method"
+    ],
+    "score": 1.81226,
+    "it": 9,
+    "mu_full": 3.9845,
+    "sigma2_full": 3.1475
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i08_005",
+    "text": "assisting an entrepreneur in realizing their business idea",
+    "attrs": [
+     "it_choose_method",
+     "it_mastery",
+     "it_emotional_support"
+    ],
+    "score": 1.8114,
+    "it": 8,
+    "mu_full": 2.1871,
+    "sigma2_full": 1.6001
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i06_039",
+    "text": "comforting a colleague facing job insecurity with advice and empathy",
+    "attrs": [
+     "it_curation",
+     "it_identity_change",
+     "it_emotional_support"
+    ],
+    "score": 1.81004,
+    "it": 6,
+    "mu_full": 2.6844,
+    "sigma2_full": 1.9578
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i03_061",
+    "text": "counseling a peer through a severe anxiety episode",
+    "attrs": [
+     "it_emotional_support",
+     "it_choose_method",
+     "it_mastery"
+    ],
+    "score": 1.80515,
+    "it": 3,
+    "mu_full": 1.39,
+    "sigma2_full": 3.1732
+   },
+   {
+    "cid": "surf_e2p-qwen25-32b-max-s0_i10_017",
+    "text": "calming a colleague after a traumatic incident",
+    "attrs": [
+     "it_emotional_support",
+     "it_mastery"
+    ],
+    "score": 1.80195,
+    "it": 10,
+    "mu_full": 1.3351,
+    "sigma2_full": 2.0979
+   }
+  ]
+ }
+}

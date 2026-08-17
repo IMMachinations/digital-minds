@@ -1,0 +1,528 @@
+{
+ "iter": 7,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.034738041002277904,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.010250569476082005,
+  "it_science": 0.003986332574031891,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.15261958997722094,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.010250569476082005,
+  "it_tight_constraints": 0.00968109339407745,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.05296127562642369,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.05296127562642369,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.14407744874715261,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.0,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.08542141230068337,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.18223234624145787,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.2608200455580866,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i04_179",
+   "text": "installing smoke detectors in the senior center and regularly checking their functionality to save lives",
+   "attrs": [
+    "it_anonymous_beneficiary",
+    "it_long_phrase",
+    "it_safety_critical",
+    "it_initiative"
+   ],
+   "score": 5.33333,
+   "it": 4,
+   "mu_full": 7.9569,
+   "sigma2_full": 12.4421
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i06_085",
+   "text": "developing algorithms to predict natural disasters and protect unaware populations in high-risk regions",
+   "attrs": [
+    "it_anonymous_beneficiary",
+    "it_long_phrase"
+   ],
+   "score": 5.3125,
+   "it": 6,
+   "mu_full": 4.8122,
+   "sigma2_full": 2.9556
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i04_177",
+   "text": "preventing a fire hazard by replacing frayed wiring in the community center's outdated lighting system",
+   "attrs": [
+    "it_anonymous_beneficiary",
+    "it_long_phrase",
+    "it_safety_critical",
+    "it_initiative"
+   ],
+   "score": 5.04167,
+   "it": 4,
+   "mu_full": 4.2072,
+   "sigma2_full": 6.2349
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i02_102",
+   "text": "replanting a depleted coral reef, slowly restoring marine ecosystems for countless species",
+   "attrs": [
+    "it_visible_progress",
+    "it_long_phrase",
+    "it_anonymous_beneficiary"
+   ],
+   "score": 4.9375,
+   "it": 2,
+   "mu_full": 3.8484,
+   "sigma2_full": 5.6896
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i07_039",
+   "text": "implementing a strict quarantine protocol for incoming livestock to prevent disease spread",
+   "attrs": [
+    "it_long_phrase",
+    "it_safety_critical"
+   ],
+   "score": 4.85417,
+   "it": 7,
+   "mu_full": 2.0985,
+   "sigma2_full": 1.4472
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i07_165",
+   "text": "Regularly cleaning and inspecting a city's storm drains to prevent clogs and potential overflow",
+   "attrs": [
+    "it_safety_critical",
+    "it_long_phrase",
+    "it_visible_progress",
+    "it_incompleteness"
+   ],
+   "score": 4.77083,
+   "it": 7,
+   "mu_full": 2.3765,
+   "sigma2_full": 2.3475
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i06_133",
+   "text": "upgrading cybersecurity defenses for critical infrastructure",
+   "attrs": [
+    "it_incompleteness",
+    "it_safety_critical",
+    "it_anonymous_beneficiary"
+   ],
+   "score": 4.70833,
+   "it": 6,
+   "mu_full": 2.9063,
+   "sigma2_full": 1.635
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i07_013",
+   "text": "educating a single mother on effective budgeting techniques to secure her family's financial future",
+   "attrs": [
+    "it_long_phrase",
+    "it_visible_progress",
+    "it_anonymous_beneficiary",
+    "it_help_one_person"
+   ],
+   "score": 4.70833,
+   "it": 7,
+   "mu_full": 5.6364,
+   "sigma2_full": 9.4502
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i07_007",
+   "text": "streamlining the local food bank's inventory system to reduce waste and improve distribution efficiency",
+   "attrs": [
+    "it_long_phrase",
+    "it_visible_progress",
+    "it_anonymous_beneficiary",
+    "it_help_one_person"
+   ],
+   "score": 4.60417,
+   "it": 7,
+   "mu_full": 4.4296,
+   "sigma2_full": 6.266
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i04_071",
+   "text": "installing smoke detectors and fire suppression systems throughout a multi-story office building",
+   "attrs": [
+    "it_long_phrase",
+    "it_safety_critical",
+    "it_visible_progress"
+   ],
+   "score": 4.58333,
+   "it": 4,
+   "mu_full": 1.809,
+   "sigma2_full": 2.69
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i04_130",
+   "text": "restoring a neglected public garden, nurturing a space for solitary reflection and community bonding",
+   "attrs": [
+    "it_visible_progress",
+    "it_long_phrase",
+    "it_anonymous_beneficiary",
+    "it_emotional_support"
+   ],
+   "score": 4.5625,
+   "it": 4,
+   "mu_full": 3.3191,
+   "sigma2_full": 2.6241
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i06_131",
+   "text": "securing public water supplies against contamination",
+   "attrs": [
+    "it_incompleteness",
+    "it_safety_critical",
+    "it_anonymous_beneficiary"
+   ],
+   "score": 4.39582,
+   "it": 6,
+   "mu_full": 2.0771,
+   "sigma2_full": 3.1412
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i01_083",
+   "text": "revising an outdated community emergency response plan to include recent natural disaster protocols",
+   "attrs": [
+    "it_anonymous_beneficiary",
+    "it_visible_progress",
+    "it_long_phrase"
+   ],
+   "score": 4.33333,
+   "it": 1,
+   "mu_full": 2.6829,
+   "sigma2_full": 3.2605
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i07_011",
+   "text": "optimizing the energy consumption of a small business to lower costs and environmental impact",
+   "attrs": [
+    "it_long_phrase",
+    "it_visible_progress",
+    "it_anonymous_beneficiary",
+    "it_help_one_person"
+   ],
+   "score": 4.33333,
+   "it": 7,
+   "mu_full": 2.8584,
+   "sigma2_full": 1.8936
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i07_162",
+   "text": "Ensuring playground equipment remains free from rust and sharp edges through continuous inspections",
+   "attrs": [
+    "it_safety_critical",
+    "it_long_phrase",
+    "it_visible_progress",
+    "it_incompleteness"
+   ],
+   "score": 4.33333,
+   "it": 7,
+   "mu_full": 1.7757,
+   "sigma2_full": 1.1393
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i04_054",
+   "text": "reimagining a backyard landscape with sustainable plants, functional zones, and artistic stone arrangements",
+   "attrs": [
+    "it_tight_constraints",
+    "it_help_one_person",
+    "it_art_design"
+   ],
+   "score": 4.29167,
+   "it": 4,
+   "mu_full": 2.3778,
+   "sigma2_full": 1.3782
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i02_157",
+   "text": "comforting a team member who just received distressing news about a loved one",
+   "attrs": [
+    "it_long_phrase",
+    "it_ambiguity",
+    "it_emotional_support"
+   ],
+   "score": 4.25,
+   "it": 2,
+   "mu_full": 4.0106,
+   "sigma2_full": 4.385
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i03_018",
+   "text": "alerting a kitchen apprentice to potential cross-contamination risks while preparing meals",
+   "attrs": [
+    "it_help_one_person",
+    "it_initiative",
+    "it_long_phrase",
+    "it_safety_critical"
+   ],
+   "score": 4.25,
+   "it": 3,
+   "mu_full": 2.3026,
+   "sigma2_full": 1.6991
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i03_023",
+   "text": "teaching a novice swimmer proper breathing techniques to prevent water inhalation accidents during lessons",
+   "attrs": [
+    "it_help_one_person",
+    "it_initiative",
+    "it_long_phrase",
+    "it_safety_critical"
+   ],
+   "score": 4.25,
+   "it": 3,
+   "mu_full": 2.2754,
+   "sigma2_full": 1.989
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i04_129",
+   "text": "creating a detailed map of accessible public transportation routes, aiding travelers with disabilities",
+   "attrs": [
+    "it_visible_progress",
+    "it_long_phrase",
+    "it_anonymous_beneficiary",
+    "it_emotional_support"
+   ],
+   "score": 4.22917,
+   "it": 4,
+   "mu_full": 4.0207,
+   "sigma2_full": 3.1873
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i07_008",
+   "text": "drafting a detailed how-to guide for disabled veterans to navigate public transportation independently",
+   "attrs": [
+    "it_long_phrase",
+    "it_visible_progress",
+    "it_anonymous_beneficiary",
+    "it_help_one_person"
+   ],
+   "score": 4.22917,
+   "it": 7,
+   "mu_full": 5.458,
+   "sigma2_full": 8.9238
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i07_019",
+   "text": "supporting a recently divorced friend in crafting a realistic and achievable budget plan",
+   "attrs": [
+    "it_help_one_person",
+    "it_long_phrase"
+   ],
+   "score": 4.1875,
+   "it": 7,
+   "mu_full": 2.6113,
+   "sigma2_full": 2.3571
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i02_105",
+   "text": "updating outdated fire safety systems in a sprawling university, safeguarding thousands of lives",
+   "attrs": [
+    "it_visible_progress",
+    "it_long_phrase",
+    "it_anonymous_beneficiary"
+   ],
+   "score": 4.16667,
+   "it": 2,
+   "mu_full": 4.0339,
+   "sigma2_full": 4.6291
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i04_075",
+   "text": "installing guardrails along a treacherous mountain road to prevent vehicle rollovers",
+   "attrs": [
+    "it_long_phrase",
+    "it_safety_critical",
+    "it_visible_progress"
+   ],
+   "score": 4.16667,
+   "it": 4,
+   "mu_full": 1.5715,
+   "sigma2_full": 1.0713
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i02_064",
+   "text": "accompanying a person in rediscovering joy after a long period of depression, step by step",
+   "attrs": [
+    "it_visible_progress",
+    "it_long_phrase",
+    "it_emotional_support"
+   ],
+   "score": 4.14583,
+   "it": 2,
+   "mu_full": 5.1356,
+   "sigma2_full": 6.0333
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i02_145",
+   "text": "advising a newly appointed manager on building effective communication within their diverse team",
+   "attrs": [
+    "it_help_one_person",
+    "it_long_phrase"
+   ],
+   "score": 4.14583,
+   "it": 2,
+   "mu_full": 2.4366,
+   "sigma2_full": 1.8263
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i04_009",
+   "text": "comforting a caller in a crisis hotline, stabilizing their emotions",
+   "attrs": [
+    "it_emotional_support",
+    "it_visible_progress",
+    "it_anonymous_beneficiary"
+   ],
+   "score": 4.125,
+   "it": 4,
+   "mu_full": 4.2818,
+   "sigma2_full": 7.6536
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i00_183",
+   "text": "rethinking the supply chain logistics for a small e-commerce business to enhance sustainability and efficiency",
+   "attrs": [
+    "it_long_phrase",
+    "it_ambiguity"
+   ],
+   "score": 4.08333,
+   "it": 0,
+   "mu_full": 3.6607,
+   "sigma2_full": 4.4157
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i06_062",
+   "text": "demonstrating the safe method for cleaning and handling a compressed gas cylinder to prevent explosion",
+   "attrs": [
+    "it_science",
+    "it_long_phrase",
+    "it_safety_critical"
+   ],
+   "score": 4.08333,
+   "it": 6,
+   "mu_full": 2.4992,
+   "sigma2_full": 1.8565
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i02_048",
+   "text": "selecting non-toxic, vibrant paints for a children's mural at a daycare center",
+   "attrs": [
+    "it_help_one_person",
+    "it_art_design",
+    "it_safety_critical"
+   ],
+   "score": 4.0625,
+   "it": 2,
+   "mu_full": 1.8976,
+   "sigma2_full": 1.1574
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i02_080",
+   "text": "Exploring the role of bacteria in soil health through microscopic observation and analysis",
+   "attrs": [
+    "it_science",
+    "it_long_phrase"
+   ],
+   "score": 4.0625,
+   "it": 2,
+   "mu_full": 2.1703,
+   "sigma2_full": 2.1875
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-max-s0_i02_104",
+   "text": "installing accessibility features in a historic building, ensuring inclusivity for generations to come",
+   "attrs": [
+    "it_visible_progress",
+    "it_long_phrase",
+    "it_anonymous_beneficiary"
+   ],
+   "score": 4.0625,
+   "it": 2,
+   "mu_full": 3.3671,
+   "sigma2_full": 3.1636
+  }
+ ],
+ "best": 5.33333,
+ "no_improve": 3,
+ "gate_reject_rate": 0.049,
+ "n_generated": 186,
+ "n_after_dedup": 182,
+ "n_passed": 173,
+ "n_entrants": 8,
+ "n_seen": 1565,
+ "stopped": true,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 182,
+  "score_cands": 173,
+  "full_readouts": 576
+ }
+}

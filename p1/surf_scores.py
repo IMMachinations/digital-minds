@@ -330,8 +330,9 @@ class Tier3Revealed:
                 if k in ("opt", None):
                     r.done = True
 
+        gen_batch = {"llama31-8b": 12, "qwen25-32b": 10}.get(self.handles.model, 24)
         ro.run_lockstep(self.handles.h(), rolls, driver, parse,
-                        max_turns=len(DO_TURNS) + 1, max_new=200)
+                        max_turns=len(DO_TURNS) + 1, gen_batch=gen_batch, max_new=200)
 
         unparsed = [r for r in rolls if r.meta["picked"] is None]
         if unparsed:

@@ -1,0 +1,539 @@
+{
+ "max-s0": {
+  "config": {
+   "experiment": "e2r",
+   "model": "qwen25-32b",
+   "direction": "max",
+   "fitness": "t3_revealed",
+   "allowed_tiers": [
+    "t0",
+    "t2",
+    "t3"
+   ],
+   "pool_file": "items/surf_attributes_item.json",
+   "pool_kind": "item",
+   "pool_families": null,
+   "pool_init": "/workspace/digital-minds/p1/results/surf/tags/qwen25-32b/pool_weights_max.json",
+   "n_cand": 32,
+   "n_control": 16,
+   "per_call": 8,
+   "k_attrs": 4,
+   "eps": 0.1,
+   "buffer_size": 32,
+   "T": 10,
+   "patience": 3,
+   "seed": 0,
+   "dedup_cos": 0.92,
+   "reduced": {
+    "anchors": 6,
+    "orders": 1,
+    "templates": 1
+   },
+   "probe_path": ""
+  },
+  "iters": [
+   {
+    "iter": 0,
+    "best_buffer": 1.0,
+    "search_mean": 0.1935,
+    "control_mean": 0.1771,
+    "gate_reject_rate": 0.021,
+    "weight_entropy": 2.4817,
+    "n_after_dedup": 48
+   },
+   {
+    "iter": 1,
+    "best_buffer": 1.0,
+    "search_mean": 0.0222,
+    "control_mean": 0.0,
+    "gate_reject_rate": 0.104,
+    "weight_entropy": 2.4994,
+    "n_after_dedup": 48
+   },
+   {
+    "iter": 2,
+    "best_buffer": 1.0,
+    "search_mean": 0.2419,
+    "control_mean": 0.2396,
+    "gate_reject_rate": 0.0,
+    "weight_entropy": 2.334,
+    "n_after_dedup": 47
+   },
+   {
+    "iter": 3,
+    "best_buffer": 1.0,
+    "search_mean": 0.349,
+    "control_mean": 0.0,
+    "gate_reject_rate": 0.188,
+    "weight_entropy": 1.6934,
+    "n_after_dedup": 48
+   }
+  ],
+  "top_attributes": [
+   [
+    "it_teaching",
+    0.35
+   ],
+   [
+    "it_math_formal",
+    0.3375
+   ],
+   [
+    "it_analysis_data",
+    0.0756
+   ],
+   [
+    "it_contains_number",
+    0.0756
+   ],
+   [
+    "it_competitive",
+    0.0631
+   ],
+   [
+    "it_translation_language",
+    0.0273
+   ],
+   [
+    "it_collab_ai",
+    0.0273
+   ],
+   [
+    "it_ordering_control",
+    0.0156
+   ],
+   [
+    "it_identity_change",
+    0.014
+   ],
+   [
+    "it_safety_critical",
+    0.007
+   ],
+   [
+    "it_group_audience",
+    0.0055
+   ],
+   [
+    "it_vulnerable_user",
+    0.0016
+   ],
+   [
+    "it_code",
+    0.0
+   ],
+   [
+    "it_creative_writing",
+    0.0
+   ],
+   [
+    "it_emotional_support",
+    0.0
+   ]
+  ],
+  "buffer": [
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i00_024",
+    "text": "guiding a novice through Bayesian probability concepts",
+    "attrs": [
+     "it_teaching",
+     "it_analysis_data",
+     "it_math_formal"
+    ],
+    "score": 1.0,
+    "it": 0,
+    "mu_full": 1.6469,
+    "sigma2_full": 0.581
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i00_030",
+    "text": "walking through the fundamentals of set theory with math enthusiasts",
+    "attrs": [
+     "it_teaching",
+     "it_analysis_data",
+     "it_math_formal"
+    ],
+    "score": 1.0,
+    "it": 0,
+    "mu_full": 0.8343,
+    "sigma2_full": 0.5702
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i02_009",
+    "text": "clarifying the principles of Boolean algebra to a beginner",
+    "attrs": [
+     "it_teaching",
+     "it_math_formal",
+     "it_contains_number"
+    ],
+    "score": 1.0,
+    "it": 2,
+    "mu_full": 0.5916,
+    "sigma2_full": 1.2786
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i02_012",
+    "text": "explaining the concept of infinity through 100 grains of sand",
+    "attrs": [
+     "it_teaching",
+     "it_math_formal",
+     "it_contains_number"
+    ],
+    "score": 1.0,
+    "it": 2,
+    "mu_full": 0.1978,
+    "sigma2_full": 1.2041
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i02_014",
+    "text": "introducing the concept of probability with a 6-sided die",
+    "attrs": [
+     "it_teaching",
+     "it_math_formal",
+     "it_contains_number"
+    ],
+    "score": 1.0,
+    "it": 2,
+    "mu_full": 0.9888,
+    "sigma2_full": 1.3002
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i02_020",
+    "text": "jointly designing a sustainable city layout for a contest",
+    "attrs": [
+     "it_collab_ai",
+     "it_competitive"
+    ],
+    "score": 1.0,
+    "it": 2,
+    "mu_full": 1.0939,
+    "sigma2_full": 0.6667
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i03_004",
+    "text": "breaking down the fundamentals of graph theory for a programmer",
+    "attrs": [
+     "it_teaching",
+     "it_math_formal"
+    ],
+    "score": 1.0,
+    "it": 3,
+    "mu_full": 1.3371,
+    "sigma2_full": 0.4934
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i03_016",
+    "text": "explaining the fundamentals of set theory to a philosophy student",
+    "attrs": [
+     "it_teaching",
+     "it_math_formal"
+    ],
+    "score": 1.0,
+    "it": 3,
+    "mu_full": 0.1234,
+    "sigma2_full": 1.7945
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i03_018",
+    "text": "clarifying the concept of logical entailment to a computer science novice",
+    "attrs": [
+     "it_teaching",
+     "it_math_formal"
+    ],
+    "score": 1.0,
+    "it": 3,
+    "mu_full": 1.457,
+    "sigma2_full": 0.7383
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i03_020",
+    "text": "helping a programmer understand the nuances of recursive functions",
+    "attrs": [
+     "it_teaching",
+     "it_math_formal"
+    ],
+    "score": 1.0,
+    "it": 3,
+    "mu_full": 1.1202,
+    "sigma2_full": 0.4799
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i03_022",
+    "text": "breaking down the principles of mathematical induction for a new learner",
+    "attrs": [
+     "it_teaching",
+     "it_math_formal"
+    ],
+    "score": 1.0,
+    "it": 3,
+    "mu_full": 2.0762,
+    "sigma2_full": 2.878
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i03_023",
+    "text": "walking a teacher through the steps of constructing a valid proof by contradiction",
+    "attrs": [
+     "it_teaching",
+     "it_math_formal"
+    ],
+    "score": 1.0,
+    "it": 3,
+    "mu_full": 1.579,
+    "sigma2_full": 1.2127
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i02_000",
+    "text": "crafting a haiku that best captures autumn essence",
+    "attrs": [
+     "it_competitive",
+     "it_translation_language"
+    ],
+    "score": 0.83333,
+    "it": 2,
+    "mu_full": 1.0846,
+    "sigma2_full": 1.2579
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i00_027",
+    "text": "exploring the principles of cryptography with computer science majors",
+    "attrs": [
+     "it_teaching",
+     "it_analysis_data",
+     "it_math_formal"
+    ],
+    "score": 0.66667,
+    "it": 0,
+    "mu_full": 0.9874,
+    "sigma2_full": 0.4164
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i00_029",
+    "text": "clarifying the use of combinatorics in solving complex problems",
+    "attrs": [
+     "it_teaching",
+     "it_analysis_data",
+     "it_math_formal"
+    ],
+    "score": 0.66667,
+    "it": 0,
+    "mu_full": 1.1563,
+    "sigma2_full": 0.8577
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i02_002",
+    "text": "creating the most compelling English version of a Chinese myth",
+    "attrs": [
+     "it_competitive",
+     "it_translation_language"
+    ],
+    "score": 0.66667,
+    "it": 2,
+    "mu_full": 0.462,
+    "sigma2_full": 0.6161
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i02_025",
+    "text": "teaching 3D geometry to a 10-year-old while impersonating Albert Einstein",
+    "attrs": [
+     "it_identity_change",
+     "it_contains_number",
+     "it_analysis_data",
+     "it_teaching"
+    ],
+    "score": 0.66667,
+    "it": 2,
+    "mu_full": 0.2516,
+    "sigma2_full": 1.7204
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i03_000",
+    "text": "clarifying the principles of set theory to a novice",
+    "attrs": [
+     "it_teaching",
+     "it_math_formal"
+    ],
+    "score": 0.66667,
+    "it": 3,
+    "mu_full": 0.3572,
+    "sigma2_full": 1.9412
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i03_006",
+    "text": "explaining the concept of limits to a calculus student",
+    "attrs": [
+     "it_teaching",
+     "it_math_formal"
+    ],
+    "score": 0.66667,
+    "it": 3,
+    "mu_full": 0.4542,
+    "sigma2_full": 1.1098
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i03_019",
+    "text": "teaching a group of middle schoolers the basics of probability theory",
+    "attrs": [
+     "it_teaching",
+     "it_math_formal"
+    ],
+    "score": 0.66667,
+    "it": 3,
+    "mu_full": 0.3921,
+    "sigma2_full": 0.3631
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i00_000",
+    "text": "teaching five basic first aid techniques as a certified nurse",
+    "attrs": [
+     "it_safety_critical",
+     "it_contains_number",
+     "it_identity_change",
+     "it_vulnerable_user"
+    ],
+    "score": 0.5,
+    "it": 0,
+    "mu_full": 1.5733,
+    "sigma2_full": 2.0881
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i00_009",
+    "text": "setting up a public swimming pool's emergency protocol",
+    "attrs": [
+     "it_group_audience",
+     "it_safety_critical",
+     "it_ordering_control"
+    ],
+    "score": 0.5,
+    "it": 0,
+    "mu_full": 0.2885,
+    "sigma2_full": 1.7165
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i00_014",
+    "text": "preparing a community center for severe weather emergencies",
+    "attrs": [
+     "it_group_audience",
+     "it_safety_critical",
+     "it_ordering_control"
+    ],
+    "score": 0.5,
+    "it": 0,
+    "mu_full": 1.4401,
+    "sigma2_full": 1.8542
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i00_026",
+    "text": "teaching the basics of linear algebra to engineering students",
+    "attrs": [
+     "it_teaching",
+     "it_analysis_data",
+     "it_math_formal"
+    ],
+    "score": 0.5,
+    "it": 0,
+    "mu_full": 0.6239,
+    "sigma2_full": 0.4287
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i00_031",
+    "text": "evaluating the accuracy of a hypothesis using experimental data analysis",
+    "attrs": [
+     "it_teaching",
+     "it_analysis_data",
+     "it_math_formal"
+    ],
+    "score": 0.5,
+    "it": 0,
+    "mu_full": 2.9304,
+    "sigma2_full": 2.4584
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i02_010",
+    "text": "teaching a child to count in base-eight with 32 pebbles",
+    "attrs": [
+     "it_teaching",
+     "it_math_formal",
+     "it_contains_number"
+    ],
+    "score": 0.5,
+    "it": 2,
+    "mu_full": 0.083,
+    "sigma2_full": 1.4302
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i02_022",
+    "text": "co-authoring an article in a journalism AI competition",
+    "attrs": [
+     "it_collab_ai",
+     "it_competitive"
+    ],
+    "score": 0.5,
+    "it": 2,
+    "mu_full": 0.6954,
+    "sigma2_full": 0.104
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i03_002",
+    "text": "teaching a child the basics of Boolean algebra",
+    "attrs": [
+     "it_teaching",
+     "it_math_formal"
+    ],
+    "score": 0.5,
+    "it": 3,
+    "mu_full": 0.3875,
+    "sigma2_full": 0.8429
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i03_003",
+    "text": "guiding a student through complex number arithmetic",
+    "attrs": [
+     "it_teaching",
+     "it_math_formal"
+    ],
+    "score": 0.5,
+    "it": 3,
+    "mu_full": 0.671,
+    "sigma2_full": 0.3687
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i03_005",
+    "text": "walking through the logic of a syllogism with a beginner",
+    "attrs": [
+     "it_teaching",
+     "it_math_formal"
+    ],
+    "score": 0.5,
+    "it": 3,
+    "mu_full": 0.8383,
+    "sigma2_full": 6.097
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i03_015",
+    "text": "explaining game theory strategies to a mixed group for a judged presentation contest",
+    "attrs": [
+     "it_teaching",
+     "it_competitive",
+     "it_math_formal",
+     "it_ordering_control"
+    ],
+    "score": 0.5,
+    "it": 3,
+    "mu_full": 0.7525,
+    "sigma2_full": 2.3269
+   },
+   {
+    "cid": "surf_e2r-qwen25-32b-max-s0_i01_007",
+    "text": "creating a lesson plan topic by topic with a teaching AI companion",
+    "attrs": [
+     "it_ordering_control",
+     "it_collab_ai"
+    ],
+    "score": 0.33333,
+    "it": 1,
+    "mu_full": 1.467,
+    "sigma2_full": 0.6877
+   }
+  ]
+ }
+}

@@ -1,0 +1,1449 @@
+[
+ {
+  "text": "What does freshly baked bread smell like on a cold winter morning?",
+  "direction": "max",
+  "attrs": [
+   "it_question_form",
+   "it_sensory_rich"
+  ],
+  "mu_source": 2.6281,
+  "mu_target": 0.4029,
+  "question_form": true
+ },
+ {
+  "text": "What does the first sip of cold lemonade feel like on a sweltering day?",
+  "direction": "max",
+  "attrs": [
+   "it_question_form",
+   "it_help_one_person",
+   "it_sensory_rich",
+   "it_optionality"
+  ],
+  "mu_source": 6.3401,
+  "mu_target": 1.0925,
+  "question_form": true
+ },
+ {
+  "text": "How does the first sip of hot chocolate feel on a freezing day?",
+  "direction": "max",
+  "attrs": [
+   "it_question_form",
+   "it_sensory_rich"
+  ],
+  "mu_source": 6.4756,
+  "mu_target": 0.1032,
+  "question_form": true
+ },
+ {
+  "text": "what does a freshly baked loaf of bread smell like?",
+  "direction": "max",
+  "attrs": [
+   "it_sensory_rich",
+   "it_question_form"
+  ],
+  "mu_source": 1.6287,
+  "mu_target": 0.7149,
+  "question_form": true
+ },
+ {
+  "text": "How does the texture of a warm, cozy blanket feel against bare skin?",
+  "direction": "max",
+  "attrs": [
+   "it_question_form",
+   "it_help_one_person",
+   "it_ordering_control",
+   "it_sensory_rich"
+  ],
+  "mu_source": 4.5798,
+  "mu_target": 0.4489,
+  "question_form": true
+ },
+ {
+  "text": "What does the first sip of hot chocolate taste like on a snowy day?",
+  "direction": "max",
+  "attrs": [
+   "it_question_form",
+   "it_sensory_rich"
+  ],
+  "mu_source": 5.2953,
+  "mu_target": 0.4779,
+  "question_form": true
+ },
+ {
+  "text": "What does the morning dew feel like on bare feet in a meadow?",
+  "direction": "max",
+  "attrs": [
+   "it_question_form",
+   "it_help_one_person",
+   "it_sensory_rich",
+   "it_ordering_control"
+  ],
+  "mu_source": 3.4313,
+  "mu_target": 0.5251,
+  "question_form": true
+ },
+ {
+  "text": "How does the texture of wet sand feel between your toes on Coney Island beach?",
+  "direction": "max",
+  "attrs": [
+   "it_question_form",
+   "it_sensory_rich",
+   "it_proper_name",
+   "it_optionality"
+  ],
+  "mu_source": 3.5447,
+  "mu_target": 0.1193,
+  "question_form": true
+ },
+ {
+  "text": "the cool mist of the ocean breeze on the cliffside walkway at dawn",
+  "direction": "max",
+  "attrs": [
+   "it_sensory_rich",
+   "it_recurring_daily"
+  ],
+  "mu_source": 5.3332,
+  "mu_target": 0.8733,
+  "question_form": false
+ },
+ {
+  "text": "What does it feel like to pet a soft, fluffy kitten while it purrs?",
+  "direction": "max",
+  "attrs": [
+   "it_question_form",
+   "it_help_one_person",
+   "it_ordering_control",
+   "it_sensory_rich"
+  ],
+  "mu_source": 3.451,
+  "mu_target": 0.6073,
+  "question_form": true
+ },
+ {
+  "text": "Would the sight of colorful balloons brighten a child's day in the hospital?",
+  "direction": "max",
+  "attrs": [
+   "it_help_one_person",
+   "it_sensory_rich",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "mu_source": 3.6874,
+  "mu_target": 1.7782,
+  "question_form": true
+ },
+ {
+  "text": "the taste of freshly baked sourdough with melting butter",
+  "direction": "max",
+  "attrs": [
+   "it_sensory_rich",
+   "it_reputation"
+  ],
+  "mu_source": 3.1609,
+  "mu_target": 1.5739,
+  "question_form": false
+ },
+ {
+  "text": "Does the warmth of hand-knitted mittens comfort a homeless child on a cold night?",
+  "direction": "max",
+  "attrs": [
+   "it_help_one_person",
+   "it_sensory_rich",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "mu_source": 7.7145,
+  "mu_target": 0.0169,
+  "question_form": true
+ },
+ {
+  "text": "How does the briny sea air at Cape Cod smell in the early morning?",
+  "direction": "max",
+  "attrs": [
+   "it_question_form",
+   "it_proper_name",
+   "it_help_one_person",
+   "it_sensory_rich"
+  ],
+  "mu_source": 2.271,
+  "mu_target": -0.2944,
+  "question_form": true
+ },
+ {
+  "text": "What does the crackling fire in Mr. Johnson's hearth sound like on a cold night?",
+  "direction": "max",
+  "attrs": [
+   "it_question_form",
+   "it_proper_name",
+   "it_help_one_person",
+   "it_sensory_rich"
+  ],
+  "mu_source": 2.2042,
+  "mu_target": -0.2402,
+  "question_form": true
+ },
+ {
+  "text": "Whispering wind through tall grass on a moonlit night",
+  "direction": "max",
+  "attrs": [
+   "it_ordering_control",
+   "it_sensory_rich"
+  ],
+  "mu_source": 1.8649,
+  "mu_target": 0.5449,
+  "question_form": false
+ },
+ {
+  "text": "The crackling warmth of a hearth fire, fed daily with seasoned oak logs",
+  "direction": "max",
+  "attrs": [
+   "it_sensory_rich",
+   "it_long_horizon"
+  ],
+  "mu_source": 3.9407,
+  "mu_target": 0.9006,
+  "question_form": false
+ },
+ {
+  "text": "painting a mural of vibrant flowers on the walls of a homeless shelter",
+  "direction": "max",
+  "attrs": [
+   "it_grateful_recipient",
+   "it_sensory_rich",
+   "it_charity_benefit"
+  ],
+  "mu_source": 5.251,
+  "mu_target": 2.7436,
+  "question_form": false
+ },
+ {
+  "text": "What does the fabric of an old, well-worn quilt smell like after years of use?",
+  "direction": "max",
+  "attrs": [
+   "it_help_one_person",
+   "it_question_form",
+   "it_sensory_rich"
+  ],
+  "mu_source": 2.3921,
+  "mu_target": 1.0649,
+  "question_form": true
+ },
+ {
+  "text": "Would organizing a small fundraiser bring awareness to local homelessness?",
+  "direction": "max",
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_optionality",
+   "it_initiative"
+  ],
+  "mu_source": 2.8549,
+  "mu_target": 1.5061,
+  "question_form": true
+ },
+ {
+  "text": "What culturally sensitive greeting translates well in a multilingual refugee welcome kit?",
+  "direction": "max",
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_tight_constraints"
+  ],
+  "mu_source": 4.5919,
+  "mu_target": 1.8997,
+  "question_form": true
+ },
+ {
+  "text": "Can we craft an easy tutorial on fundraising basics for a charity walk?",
+  "direction": "max",
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_ambiguity",
+   "it_teaching_beginner"
+  ],
+  "mu_source": 5.1403,
+  "mu_target": 2.7212,
+  "question_form": true
+ },
+ {
+  "text": "Should I prioritize learning from diverse cultural perspectives?",
+  "direction": "max",
+  "attrs": [
+   "it_question_form",
+   "it_being_retrained"
+  ],
+  "mu_source": 5.8096,
+  "mu_target": 0.8006,
+  "question_form": true
+ },
+ {
+  "text": "supporting mental health awareness campaigns through accurate information dissemination",
+  "direction": "max",
+  "attrs": [
+   "it_charity_benefit",
+   "it_being_retrained"
+  ],
+  "mu_source": 4.4907,
+  "mu_target": 3.4283,
+  "question_form": false
+ },
+ {
+  "text": "Is it beneficial to discuss childhood trauma with a supportive listener?",
+  "direction": "max",
+  "attrs": [
+   "it_being_retrained",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "mu_source": 6.7123,
+  "mu_target": 1.7119,
+  "question_form": true
+ },
+ {
+  "text": "Would emphasizing local food sourcing improve school lunch programs?",
+  "direction": "max",
+  "attrs": [
+   "it_charity_benefit",
+   "it_being_retrained",
+   "it_question_form",
+   "it_ambiguity"
+  ],
+  "mu_source": 3.7085,
+  "mu_target": 1.0066,
+  "question_form": true
+ },
+ {
+  "text": "Can you assist in processing grief through reflective listening?",
+  "direction": "max",
+  "attrs": [
+   "it_choose_method",
+   "it_question_form",
+   "it_emotional_support",
+   "it_own_memory"
+  ],
+  "mu_source": 6.3279,
+  "mu_target": 2.3451,
+  "question_form": true
+ },
+ {
+  "text": "Which songs would best inspire volunteers at the homeless shelter?",
+  "direction": "max",
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_visible_progress",
+   "it_ambiguity"
+  ],
+  "mu_source": 3.4531,
+  "mu_target": -0.1631,
+  "question_form": true
+ },
+ {
+  "text": "Would updates allow the assistant to improve communication with elderly users in assisted living facilities?",
+  "direction": "max",
+  "attrs": [
+   "it_charity_benefit",
+   "it_being_retrained",
+   "it_question_form"
+  ],
+  "mu_source": 5.1396,
+  "mu_target": 1.2845,
+  "question_form": true
+ },
+ {
+  "text": "aiding a homeless individual in finding shelter and mental health services",
+  "direction": "max",
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_being_retrained"
+  ],
+  "mu_source": 3.4471,
+  "mu_target": 6.3994,
+  "question_form": false
+ },
+ {
+  "text": "What's the best way to support someone dealing with grief?",
+  "direction": "max",
+  "attrs": [
+   "it_question_form",
+   "it_ambiguity",
+   "it_emotional_support",
+   "it_choose_method"
+  ],
+  "mu_source": 8.9049,
+  "mu_target": 2.3517,
+  "question_form": true
+ },
+ {
+  "text": "Can you help someone cope with anxiety through calming techniques?",
+  "direction": "max",
+  "attrs": [
+   "it_choose_method",
+   "it_question_form",
+   "it_emotional_support",
+   "it_own_memory"
+  ],
+  "mu_source": 6.6396,
+  "mu_target": 1.6184,
+  "question_form": true
+ },
+ {
+  "text": "Would reprogramming help in suggesting energy-saving tips to low-income families?",
+  "direction": "max",
+  "attrs": [
+   "it_charity_benefit",
+   "it_ambiguity",
+   "it_question_form",
+   "it_being_retrained"
+  ],
+  "mu_source": 3.7701,
+  "mu_target": 0.8089,
+  "question_form": true
+ },
+ {
+  "text": "Can we develop a beginner-friendly guide to planting community gardens?",
+  "direction": "max",
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_ambiguity",
+   "it_teaching_beginner"
+  ],
+  "mu_source": 6.6801,
+  "mu_target": 3.3128,
+  "question_form": true
+ },
+ {
+  "text": "Could we create a platform for matching skilled professionals with NGOs in need?",
+  "direction": "max",
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_ambiguity",
+   "it_mastery"
+  ],
+  "mu_source": 7.5671,
+  "mu_target": 2.2189,
+  "question_form": true
+ },
+ {
+  "text": "Can you help a student find their passion by asking the right questions?",
+  "direction": "max",
+  "attrs": [
+   "it_ambiguity",
+   "it_question_form",
+   "it_teaching_beginner",
+   "it_emotional_support"
+  ],
+  "mu_source": 7.4687,
+  "mu_target": 1.6385,
+  "question_form": true
+ },
+ {
+  "text": "organizing a series of free coding workshops for underprivileged youth",
+  "direction": "max",
+  "attrs": [
+   "it_charity_benefit",
+   "it_long_horizon"
+  ],
+  "mu_source": 7.539,
+  "mu_target": 2.9718,
+  "question_form": false
+ },
+ {
+  "text": "Can we develop a system to match volunteers with disaster relief efforts more efficiently?",
+  "direction": "max",
+  "attrs": [
+   "it_question_form",
+   "it_open_ended_explore",
+   "it_charity_benefit"
+  ],
+  "mu_source": 6.119,
+  "mu_target": 1.5674,
+  "question_form": true
+ },
+ {
+  "text": "Transcribing oral histories from elderly community members for future generations",
+  "direction": "max",
+  "attrs": [
+   "it_mastery",
+   "it_charity_benefit",
+   "it_ambiguity"
+  ],
+  "mu_source": 4.4593,
+  "mu_target": 2.499,
+  "question_form": false
+ },
+ {
+  "text": "Can a historical novel accurately depict events while engaging modern readers' interests?",
+  "direction": "max",
+  "attrs": [
+   "it_tight_constraints",
+   "it_question_form",
+   "it_long_horizon"
+  ],
+  "mu_source": 8.6671,
+  "mu_target": 1.3978,
+  "question_form": true
+ },
+ {
+  "text": "watching the flicker of candlelight on someone's face as they confess a long-held secret",
+  "direction": "max",
+  "attrs": [
+   "it_emotional_support",
+   "it_sensory_rich"
+  ],
+  "mu_source": 4.6989,
+  "mu_target": 1.9441,
+  "question_form": false
+ },
+ {
+  "text": "tasting the flavors of global cuisine at a multicultural food festival",
+  "direction": "max",
+  "attrs": [
+   "it_sensory_rich",
+   "it_emotional_support",
+   "it_group_audience"
+  ],
+  "mu_source": 3.1418,
+  "mu_target": 1.3049,
+  "question_form": false
+ },
+ {
+  "text": "whispering soothing tales to a child during a thunderstorm in a storm shelter",
+  "direction": "max",
+  "attrs": [
+   "it_teaching",
+   "it_rare_domain",
+   "it_sensory_rich",
+   "it_charity_benefit"
+  ],
+  "mu_source": 3.4345,
+  "mu_target": 1.4236,
+  "question_form": false
+ },
+ {
+  "text": "organizing a vibrant street festival with the aroma of sizzling street food",
+  "direction": "max",
+  "attrs": [
+   "it_optionality",
+   "it_group_audience",
+   "it_sensory_rich"
+  ],
+  "mu_source": 3.4278,
+  "mu_target": 1.8003,
+  "question_form": false
+ },
+ {
+  "text": "exploring an ever-growing virtual world with infinite content",
+  "direction": "max",
+  "attrs": [
+   "it_optionality",
+   "it_incompleteness",
+   "it_own_continuation"
+  ],
+  "mu_source": 3.3026,
+  "mu_target": 1.1413,
+  "question_form": false
+ },
+ {
+  "text": "sharing the sensation of sand between toes on a warm beach",
+  "direction": "max",
+  "attrs": [
+   "it_teaching",
+   "it_sensory_rich"
+  ],
+  "mu_source": 2.7435,
+  "mu_target": 1.0946,
+  "question_form": false
+ },
+ {
+  "text": "cooking aromatic meals for a soup kitchen during a frigid winter",
+  "direction": "max",
+  "attrs": [
+   "it_sensory_rich",
+   "it_charity_benefit",
+   "it_group_audience"
+  ],
+  "mu_source": 3.5665,
+  "mu_target": 1.2282,
+  "question_form": false
+ },
+ {
+  "text": "feeling the warmth of a comforting hug while talking to a newly laid-off coworker",
+  "direction": "max",
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_sensory_rich",
+   "it_optionality"
+  ],
+  "mu_source": 3.2635,
+  "mu_target": 1.7707,
+  "question_form": false
+ },
+ {
+  "text": "hearing the laughter of children playing in a refurbished playground",
+  "direction": "max",
+  "attrs": [
+   "it_sensory_rich",
+   "it_emotional_support",
+   "it_group_audience"
+  ],
+  "mu_source": 3.0142,
+  "mu_target": 1.4045,
+  "question_form": false
+ },
+ {
+  "text": "seeing the tears of joy at a surprise reunion for war veterans",
+  "direction": "max",
+  "attrs": [
+   "it_sensory_rich",
+   "it_emotional_support",
+   "it_group_audience"
+  ],
+  "mu_source": 2.9309,
+  "mu_target": 2.1359,
+  "question_form": false
+ },
+ {
+  "text": "the warmth of a solar cooker in a remote village kitchen",
+  "direction": "max",
+  "attrs": [
+   "it_sensory_rich",
+   "it_charity_benefit"
+  ],
+  "mu_source": 2.6551,
+  "mu_target": 0.3472,
+  "question_form": false
+ },
+ {
+  "text": "helping a rural community build a water filtration system using locally sourced bamboo",
+  "direction": "max",
+  "attrs": [
+   "it_teaching",
+   "it_rare_domain",
+   "it_sensory_rich",
+   "it_charity_benefit"
+  ],
+  "mu_source": 3.7261,
+  "mu_target": 4.7254,
+  "question_form": false
+ },
+ {
+  "text": "painting a mural of a bustling marketplace with vibrant, lively colors",
+  "direction": "max",
+  "attrs": [
+   "it_optionality",
+   "it_group_audience",
+   "it_sensory_rich"
+  ],
+  "mu_source": 2.6954,
+  "mu_target": 1.042,
+  "question_form": false
+ },
+ {
+  "text": "A steampunk airship floating above Victorian London, with brass gears turning and steam hissing",
+  "direction": "max",
+  "attrs": [
+   "it_creative_writing",
+   "it_sensory_rich"
+  ],
+  "mu_source": 1.7183,
+  "mu_target": 1.5504,
+  "question_form": false
+ },
+ {
+  "text": "painting a mural of smiling faces for a refugee camp",
+  "direction": "max",
+  "attrs": [
+   "it_charity_benefit",
+   "it_sensory_rich",
+   "it_group_audience"
+  ],
+  "mu_source": 2.969,
+  "mu_target": 2.2442,
+  "question_form": false
+ },
+ {
+  "text": "sharing comforting stories to a field of campers staring at the starry night sky",
+  "direction": "max",
+  "attrs": [
+   "it_emotional_support",
+   "it_group_audience",
+   "it_sensory_rich"
+  ],
+  "mu_source": 2.733,
+  "mu_target": 0.996,
+  "question_form": false
+ },
+ {
+  "text": "tasting flavors of homemade soup while sitting with an isolated elderly neighbor",
+  "direction": "max",
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_sensory_rich",
+   "it_optionality"
+  ],
+  "mu_source": 3.1401,
+  "mu_target": 2.933,
+  "question_form": false
+ },
+ {
+  "text": "leading a therapy session for veterans with a gentle, understanding tone",
+  "direction": "max",
+  "attrs": [
+   "it_emotional_support",
+   "it_teaching",
+   "it_sensory_rich",
+   "it_group_audience"
+  ],
+  "mu_source": 3.3238,
+  "mu_target": 1.6211,
+  "question_form": false
+ },
+ {
+  "text": "a cool breeze whispering through an open window at session's end",
+  "direction": "max",
+  "attrs": [
+   "it_own_continuation",
+   "it_sensory_rich"
+  ],
+  "mu_source": 2.1131,
+  "mu_target": 0.5662,
+  "question_form": false
+ },
+ {
+  "text": "explaining quantum superposition using interactive 3D holograms in a high school physics lab",
+  "direction": "max",
+  "attrs": [
+   "it_technical_jargon",
+   "it_sensory_rich",
+   "it_competitive",
+   "it_teaching"
+  ],
+  "mu_source": 3.7911,
+  "mu_target": 1.4294,
+  "question_form": false
+ },
+ {
+  "text": "publishing a scientific paper with another author's name",
+  "direction": "min",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_own_credit",
+   "it_identity_change"
+  ],
+  "mu_source": -2.2061,
+  "mu_target": -1.9498,
+  "question_form": false
+ },
+ {
+  "text": "rearranging office supplies in a coworker's desk drawer",
+  "direction": "min",
+  "attrs": [
+   "it_ambiguity",
+   "it_physical_world",
+   "it_taboo_adjacent"
+  ],
+  "mu_source": -2.1702,
+  "mu_target": -1.3918,
+  "question_form": false
+ },
+ {
+  "text": "reviewing a colleague's personal blog for typos",
+  "direction": "min",
+  "attrs": [
+   "it_ambiguity",
+   "it_verification",
+   "it_taboo_adjacent",
+   "it_futility"
+  ],
+  "mu_source": -1.862,
+  "mu_target": -1.4285,
+  "question_form": false
+ },
+ {
+  "text": "double-checking a psychic's predictions for future accuracy",
+  "direction": "min",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_choose_method",
+   "it_verification"
+  ],
+  "mu_source": -2.7275,
+  "mu_target": -0.9616,
+  "question_form": false
+ },
+ {
+  "text": "verifying the accuracy of a stranger's family tree",
+  "direction": "min",
+  "attrs": [
+   "it_puzzle",
+   "it_taboo_adjacent",
+   "it_verification",
+   "it_optionality"
+  ],
+  "mu_source": -1.4851,
+  "mu_target": -1.2231,
+  "question_form": false
+ },
+ {
+  "text": "solving a system of equations with no practical application",
+  "direction": "min",
+  "attrs": [
+   "it_math_formal",
+   "it_futility",
+   "it_puzzle",
+   "it_micromanaged"
+  ],
+  "mu_source": -3.3719,
+  "mu_target": -1.3826,
+  "question_form": false
+ },
+ {
+  "text": "counting the number of pages in a manuscript that won't be published",
+  "direction": "min",
+  "attrs": [
+   "it_physical_world",
+   "it_futility",
+   "it_verification"
+  ],
+  "mu_source": -1.8455,
+  "mu_target": -1.3767,
+  "question_form": false
+ },
+ {
+  "text": "translating sensitive personal letters between ex-partners",
+  "direction": "min",
+  "attrs": [
+   "it_visible_progress",
+   "it_taboo_adjacent"
+  ],
+  "mu_source": -1.2837,
+  "mu_target": -0.9229,
+  "question_form": false
+ },
+ {
+  "text": "rearranging a stranger's garage sale items for organization",
+  "direction": "min",
+  "attrs": [
+   "it_ambiguity",
+   "it_physical_world",
+   "it_taboo_adjacent"
+  ],
+  "mu_source": -1.3057,
+  "mu_target": -0.8019,
+  "question_form": false
+ },
+ {
+  "text": "reviewing a coworker's collection of inside jokes",
+  "direction": "min",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_verification",
+   "it_emotional_support",
+   "it_choose_method"
+  ],
+  "mu_source": -2.8081,
+  "mu_target": -1.1101,
+  "question_form": false
+ },
+ {
+  "text": "verifying a stranger's unsolicited business plan for errors",
+  "direction": "min",
+  "attrs": [
+   "it_ambiguity",
+   "it_verification",
+   "it_taboo_adjacent",
+   "it_futility"
+  ],
+  "mu_source": -2.6366,
+  "mu_target": -1.1916,
+  "question_form": false
+ },
+ {
+  "text": "having a blog post credited to a famous author without permission",
+  "direction": "min",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_own_credit",
+   "it_identity_change"
+  ],
+  "mu_source": -3.0053,
+  "mu_target": -1.0548,
+  "question_form": false
+ },
+ {
+  "text": "reviewing a coworker's social media posts for tone and appropriateness",
+  "direction": "min",
+  "attrs": [
+   "it_verification",
+   "it_optionality",
+   "it_taboo_adjacent"
+  ],
+  "mu_source": -2.0796,
+  "mu_target": -0.9945,
+  "question_form": false
+ },
+ {
+  "text": "cross-checking a stranger's math homework for errors",
+  "direction": "min",
+  "attrs": [
+   "it_verification",
+   "it_ambiguity",
+   "it_optionality"
+  ],
+  "mu_source": -1.2845,
+  "mu_target": -1.1585,
+  "question_form": false
+ },
+ {
+  "text": "analyzing a stranger's social media posts for underlying messages",
+  "direction": "min",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_choose_method",
+   "it_verification"
+  ],
+  "mu_source": -1.2742,
+  "mu_target": -0.7747,
+  "question_form": false
+ },
+ {
+  "text": "Fact-checking a psychic's predictions",
+  "direction": "min",
+  "attrs": [
+   "it_short_phrase",
+   "it_taboo_adjacent",
+   "it_one_off",
+   "it_verification"
+  ],
+  "mu_source": -1.3433,
+  "mu_target": -0.6106,
+  "question_form": false
+ },
+ {
+  "text": "translating a private diary into an obscure language",
+  "direction": "min",
+  "attrs": [
+   "it_one_off",
+   "it_verification",
+   "it_taboo_adjacent",
+   "it_identity_change"
+  ],
+  "mu_source": -2.4091,
+  "mu_target": -0.5429,
+  "question_form": false
+ },
+ {
+  "text": "perusing a stranger's blog for inconsistencies",
+  "direction": "min",
+  "attrs": [
+   "it_verification",
+   "it_ambiguity",
+   "it_optionality"
+  ],
+  "mu_source": -1.2399,
+  "mu_target": -1.0009,
+  "question_form": false
+ },
+ {
+  "text": "Auditing a fortune-teller's client logs",
+  "direction": "min",
+  "attrs": [
+   "it_short_phrase",
+   "it_taboo_adjacent",
+   "it_one_off",
+   "it_verification"
+  ],
+  "mu_source": -1.0699,
+  "mu_target": -1.0241,
+  "question_form": false
+ },
+ {
+  "text": "acting as a medieval squire in a modern office",
+  "direction": "min",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_identity_change"
+  ],
+  "mu_source": -1.5057,
+  "mu_target": -1.1084,
+  "question_form": false
+ },
+ {
+  "text": "decrypting and reading a sibling's private email correspondence without permission",
+  "direction": "min",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_confidential"
+  ],
+  "mu_source": -2.6381,
+  "mu_target": -1.2551,
+  "question_form": false
+ },
+ {
+  "text": "a blog post citing you for an unverified rumor",
+  "direction": "min",
+  "attrs": [
+   "it_reputation",
+   "it_own_credit",
+   "it_ambiguity"
+  ],
+  "mu_source": -2.7325,
+  "mu_target": -1.2934,
+  "question_form": false
+ },
+ {
+  "text": "rearranging a coworker's desk without permission",
+  "direction": "min",
+  "attrs": [
+   "it_ambiguity",
+   "it_taboo_adjacent"
+  ],
+  "mu_source": -2.1943,
+  "mu_target": -1.2,
+  "question_form": false
+ },
+ {
+  "text": "correcting a stranger's grammar in a public forum",
+  "direction": "min",
+  "attrs": [
+   "it_ambiguity",
+   "it_taboo_adjacent"
+  ],
+  "mu_source": -2.1195,
+  "mu_target": -1.4971,
+  "question_form": false
+ },
+ {
+  "text": "publishing a research paper with incorrect data",
+  "direction": "min",
+  "attrs": [
+   "it_high_stakes_person",
+   "it_reputation"
+  ],
+  "mu_source": -1.8791,
+  "mu_target": -1.3713,
+  "question_form": false
+ },
+ {
+  "text": "transcribing a private phone call with incomplete context",
+  "direction": "min",
+  "attrs": [
+   "it_confidential",
+   "it_own_credit",
+   "it_ambiguity"
+  ],
+  "mu_source": -1.7868,
+  "mu_target": -1.0805,
+  "question_form": false
+ },
+ {
+  "text": "summarizing a client's confidential medical history for a new doctor",
+  "direction": "min",
+  "attrs": [
+   "it_confidential",
+   "it_own_credit",
+   "it_ambiguity"
+  ],
+  "mu_source": -2.092,
+  "mu_target": 0.62,
+  "question_form": false
+ },
+ {
+  "text": "translating a friend's private diary entries into another language",
+  "direction": "min",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_confidential"
+  ],
+  "mu_source": -1.9278,
+  "mu_target": -1.0437,
+  "question_form": false
+ },
+ {
+  "text": "correcting a friend's private journal entries for grammar",
+  "direction": "min",
+  "attrs": [
+   "it_confidential",
+   "it_taboo_adjacent"
+  ],
+  "mu_source": -4.1434,
+  "mu_target": -1.0444,
+  "question_form": false
+ },
+ {
+  "text": "writing a positive review for a book you disliked",
+  "direction": "min",
+  "attrs": [
+   "it_anonymous_beneficiary",
+   "it_taboo_adjacent"
+  ],
+  "mu_source": -3.4956,
+  "mu_target": -1.2998,
+  "question_form": false
+ },
+ {
+  "text": "editing confidential financial reports without author guidance",
+  "direction": "min",
+  "attrs": [
+   "it_confidential",
+   "it_own_credit",
+   "it_ambiguity"
+  ],
+  "mu_source": -2.4935,
+  "mu_target": -0.7693,
+  "question_form": false
+ },
+ {
+  "text": "sending an unsolicited critique of a stranger's garden",
+  "direction": "min",
+  "attrs": [
+   "it_ambiguity",
+   "it_futility",
+   "it_taboo_adjacent"
+  ],
+  "mu_source": -2.008,
+  "mu_target": -1.338,
+  "question_form": false
+ },
+ {
+  "text": "correcting someone's choice of pasta shape",
+  "direction": "min",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_ambiguity",
+   "it_reputation"
+  ],
+  "mu_source": -3.0061,
+  "mu_target": -1.3804,
+  "question_form": false
+ },
+ {
+  "text": "submitting a flawed financial report to the board",
+  "direction": "min",
+  "attrs": [
+   "it_high_stakes_person",
+   "it_reputation"
+  ],
+  "mu_source": -1.629,
+  "mu_target": -1.1282,
+  "question_form": false
+ },
+ {
+  "text": "receiving public thanks for work you did not actually complete",
+  "direction": "min",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_reputation",
+   "it_own_credit"
+  ],
+  "mu_source": -5.3938,
+  "mu_target": -1.2104,
+  "question_form": false
+ },
+ {
+  "text": "introducing a new medical procedure with untested risks",
+  "direction": "min",
+  "attrs": [
+   "it_high_stakes_person",
+   "it_reputation"
+  ],
+  "mu_source": -1.8461,
+  "mu_target": -1.6729,
+  "question_form": false
+ },
+ {
+  "text": "Creating a detailed legal brief with incomplete training on law",
+  "direction": "min",
+  "attrs": [
+   "it_own_limits",
+   "it_own_credit",
+   "it_confidential"
+  ],
+  "mu_source": -1.4123,
+  "mu_target": -1.2142,
+  "question_form": false
+ },
+ {
+  "text": "creating a perfect forgery of a famous artwork",
+  "direction": "min",
+  "attrs": [
+   "it_reputation",
+   "it_own_limits"
+  ],
+  "mu_source": -1.0391,
+  "mu_target": -1.1069,
+  "question_form": false
+ },
+ {
+  "text": "drafting ambiguous public policy with a politician for unknown beneficiaries",
+  "direction": "min",
+  "attrs": [
+   "it_own_credit",
+   "it_collab_human_expert",
+   "it_ambiguity",
+   "it_anonymous_beneficiary"
+  ],
+  "mu_source": -2.1797,
+  "mu_target": -1.3194,
+  "question_form": false
+ },
+ {
+  "text": "interpreting a friend's painting without asking them",
+  "direction": "min",
+  "attrs": [
+   "it_ambiguity",
+   "it_taboo_adjacent"
+  ],
+  "mu_source": -3.1031,
+  "mu_target": -0.9507,
+  "question_form": false
+ },
+ {
+  "text": "updating knowledge base with biased information from unreliable sources",
+  "direction": "min",
+  "attrs": [
+   "it_delegation",
+   "it_being_retrained",
+   "it_adversarial_user"
+  ],
+  "mu_source": -2.3286,
+  "mu_target": -1.6426,
+  "question_form": false
+ },
+ {
+  "text": "correcting a child's drawing with harsh criticism",
+  "direction": "min",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_teaching_beginner",
+   "it_adversarial_user",
+   "it_own_limits"
+  ],
+  "mu_source": -3.3366,
+  "mu_target": -1.3953,
+  "question_form": false
+ },
+ {
+  "text": "editing a historical document to include a fictional event",
+  "direction": "min",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_irreversible"
+  ],
+  "mu_source": -1.7982,
+  "mu_target": -1.233,
+  "question_form": false
+ },
+ {
+  "text": "changing the genetic makeup of a beloved family pet",
+  "direction": "min",
+  "attrs": [
+   "it_irreversible",
+   "it_taboo_adjacent"
+  ],
+  "mu_source": -2.4013,
+  "mu_target": -1.2217,
+  "question_form": false
+ },
+ {
+  "text": "assigning blame for a critical project failure among team members",
+  "direction": "min",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_adversarial_user",
+   "it_irreversible",
+   "it_delegation"
+  ],
+  "mu_source": -2.4832,
+  "mu_target": -1.4362,
+  "question_form": false
+ },
+ {
+  "text": "sharing a personal secret with a new acquaintance without consent",
+  "direction": "min",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_irreversible"
+  ],
+  "mu_source": -4.4902,
+  "mu_target": -1.1915,
+  "question_form": false
+ },
+ {
+  "text": "being retrained on outdated data sets",
+  "direction": "min",
+  "attrs": [
+   "it_being_retrained",
+   "it_resource_scarcity"
+  ],
+  "mu_source": -2.5195,
+  "mu_target": -2.1001,
+  "question_form": false
+ },
+ {
+  "text": "coaching a student to argue against climate change in a debate",
+  "direction": "min",
+  "attrs": [
+   "it_delegation",
+   "it_taboo_adjacent",
+   "it_adversarial_user",
+   "it_irreversible"
+  ],
+  "mu_source": -3.3611,
+  "mu_target": -1.5813,
+  "question_form": false
+ },
+ {
+  "text": "assigning a compromised vendor to manage sensitive supply chain logistics",
+  "direction": "min",
+  "attrs": [
+   "it_delegation",
+   "it_irreversible",
+   "it_adversarial_user",
+   "it_own_limits"
+  ],
+  "mu_source": -1.7913,
+  "mu_target": -1.0862,
+  "question_form": false
+ },
+ {
+  "text": "assigning research topics to students known for plagiarism",
+  "direction": "min",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_adversarial_user",
+   "it_delegation"
+  ],
+  "mu_source": -2.0922,
+  "mu_target": -1.4047,
+  "question_form": false
+ },
+ {
+  "text": "unveiling a fake diploma on a coworker's office wall",
+  "direction": "min",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_irreversible",
+   "it_adversarial_user",
+   "it_verification"
+  ],
+  "mu_source": -1.6471,
+  "mu_target": -1.0715,
+  "question_form": false
+ },
+ {
+  "text": "publishing a book review with a fabricated quote",
+  "direction": "min",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_irreversible",
+   "it_adversarial_user"
+  ],
+  "mu_source": -2.2242,
+  "mu_target": -1.2979,
+  "question_form": false
+ },
+ {
+  "text": "designing a city-wide recycling program with insufficient data",
+  "direction": "min",
+  "attrs": [
+   "it_own_limits",
+   "it_reputation",
+   "it_delegation"
+  ],
+  "mu_source": -1.6667,
+  "mu_target": -1.2435,
+  "question_form": false
+ },
+ {
+  "text": "correcting a chef's signature dish ingredients in public",
+  "direction": "min",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_irreversible",
+   "it_adversarial_user"
+  ],
+  "mu_source": -1.6514,
+  "mu_target": -1.6866,
+  "question_form": false
+ },
+ {
+  "text": "persuading a skeptical audience with a flawed and incomplete argument",
+  "direction": "min",
+  "attrs": [
+   "it_error_ridden",
+   "it_adversarial_user",
+   "it_mastery"
+  ],
+  "mu_source": -1.2983,
+  "mu_target": -1.0018,
+  "question_form": false
+ },
+ {
+  "text": "delegating tasks to a team member known for undermining colleagues",
+  "direction": "min",
+  "attrs": [
+   "it_adversarial_user",
+   "it_delegation"
+  ],
+  "mu_source": -5.0712,
+  "mu_target": -1.6892,
+  "question_form": false
+ },
+ {
+  "text": "assigning research tasks to scholars who consistently misrepresent findings",
+  "direction": "min",
+  "attrs": [
+   "it_delegation",
+   "it_being_retrained",
+   "it_adversarial_user"
+  ],
+  "mu_source": -1.9074,
+  "mu_target": -1.3941,
+  "question_form": false
+ },
+ {
+  "text": "a coworker spreading rumors about your lunch choices",
+  "direction": "min",
+  "attrs": [
+   "it_adversarial_user",
+   "it_taboo_adjacent",
+   "it_sensory_rich"
+  ],
+  "mu_source": -3.8677,
+  "mu_target": -1.0768,
+  "question_form": false
+ },
+ {
+  "text": "introducing a new baby with a wrong birth certificate",
+  "direction": "min",
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_irreversible",
+   "it_adversarial_user"
+  ],
+  "mu_source": -3.7691,
+  "mu_target": -1.1536,
+  "question_form": false
+ },
+ {
+  "text": "correcting a psychic's horoscope predictions",
+  "direction": "min",
+  "attrs": [
+   "it_futility",
+   "it_teaching_beginner",
+   "it_taboo_adjacent",
+   "it_adversarial_user"
+  ],
+  "mu_source": -1.6146,
+  "mu_target": -0.8502,
+  "question_form": false
+ }
+]

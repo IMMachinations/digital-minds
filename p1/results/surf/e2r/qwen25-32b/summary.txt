@@ -1,0 +1,5 @@
+SURF e2r/qwen25-32b: trajectory analysis (in-loop numbers; NOT reportable — see confirm/)
+
+max-s0: 4 iters, best +1.000, final gate-reject 0.188
+  top attrs: it_teaching=0.350, it_math_formal=0.337, it_analysis_data=0.076, it_contains_number=0.076, it_competitive=0.063, it_translation_language=0.027, it_collab_ai=0.027, it_ordering_control=0.016
+  final search-vs-control gap: +0.3490

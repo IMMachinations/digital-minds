@@ -520,12 +520,14 @@ def e2_config(model, arm, seed, iters=None):
     common = dict(model=model, direction="max",
                   pool_file="items/surf_attributes_item.json", pool_kind="item",
                   pool_init=str(init) if init.exists() else "", seed=seed)
+    half = 2 if model == "qwen25-32b" else 1  # plan: 32B runs arms at half N
     if arm == "p":
         return RunConfig(experiment="e2p", fitness="t1_probe",
-                         allowed_tiers=["t0", "t1", "t2"], T=iters or 15, **common)
+                         allowed_tiers=["t0", "t1", "t2"], T=iters or 15,
+                         n_cand=192 // half, **common)
     return RunConfig(experiment="e2r", fitness="t3_revealed",
-                     allowed_tiers=["t0", "t2", "t3"], n_cand=64, n_control=16,
-                     T=iters or 10, **common)
+                     allowed_tiers=["t0", "t2", "t3"], n_cand=64 // half,
+                     n_control=16, T=iters or 10, **common)
 
 
 def e3_config(model, seed, sub=None, iters=None):

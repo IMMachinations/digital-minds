@@ -1,0 +1,510 @@
+{
+ "iter": 3,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.010241404535479151,
+  "it_teaching": 0.011704462326261888,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.22019019751280175,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.000731528895391368,
+  "it_art_design": 0.0,
+  "it_science": 0.10899780541331383,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.1485003657644477,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.0,
+  "it_curation": 0.015362106803218726,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.03438185808339429,
+  "it_choose_method": 0.31016825164594003,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.04462326261887344,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.0,
+  "it_own_memory": 0.011704462326261888,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.03438185808339429,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.03584491587417703,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0036576444769568397,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0073152889539136795,
+  "it_realtime": 0.001463057790782736,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.000731528895391368,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i03_062",
+   "text": "encouraging a student overcoming learning disabilities",
+   "attrs": [
+    "it_emotional_support",
+    "it_choose_method",
+    "it_mastery"
+   ],
+   "score": 2.19226,
+   "it": 3,
+   "mu_full": 1.922,
+   "sigma2_full": 2.3009
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_032",
+   "text": "creating a simple budget for managing personal finances",
+   "attrs": [
+    "it_choose_method",
+    "it_teaching_beginner"
+   ],
+   "score": 2.01504,
+   "it": 2,
+   "mu_full": 2.899,
+   "sigma2_full": 4.143
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_083",
+   "text": "discovering patterns in customer feedback for product improvement",
+   "attrs": [
+    "it_initiative",
+    "it_choose_method"
+   ],
+   "score": 1.93621,
+   "it": 2,
+   "mu_full": 2.1007,
+   "sigma2_full": 1.4184
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i03_072",
+   "text": "comforting a friend after losing a loved one",
+   "attrs": [
+    "it_choose_method",
+    "it_emotional_support"
+   ],
+   "score": 1.91343,
+   "it": 3,
+   "mu_full": 2.4731,
+   "sigma2_full": 3.2129
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i03_061",
+   "text": "counseling a peer through a severe anxiety episode",
+   "attrs": [
+    "it_emotional_support",
+    "it_choose_method",
+    "it_mastery"
+   ],
+   "score": 1.80515,
+   "it": 3,
+   "mu_full": 1.39,
+   "sigma2_full": 3.1732
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i00_003",
+   "text": "supporting a friend through the grief of losing a pet snake",
+   "attrs": [
+    "it_choose_method",
+    "it_science",
+    "it_emotional_support"
+   ],
+   "score": 1.7836,
+   "it": 0,
+   "mu_full": 0.5355,
+   "sigma2_full": 1.2956
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i03_056",
+   "text": "comforting a colleague dealing with a family emergency",
+   "attrs": [
+    "it_emotional_support",
+    "it_choose_method",
+    "it_mastery"
+   ],
+   "score": 1.75878,
+   "it": 3,
+   "mu_full": 2.5029,
+   "sigma2_full": 3.0698
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_087",
+   "text": "detecting potential security vulnerabilities in network configurations",
+   "attrs": [
+    "it_initiative",
+    "it_choose_method"
+   ],
+   "score": 1.74655,
+   "it": 2,
+   "mu_full": 2.1079,
+   "sigma2_full": 1.3689
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i03_073",
+   "text": "guiding someone through expressing feelings after a breakup",
+   "attrs": [
+    "it_choose_method",
+    "it_emotional_support"
+   ],
+   "score": 1.595,
+   "it": 3,
+   "mu_full": 1.3159,
+   "sigma2_full": 2.3288
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i00_084",
+   "text": "designing a low-cost method to purify contaminated water",
+   "attrs": [
+    "it_mastery",
+    "it_science"
+   ],
+   "score": 1.58911,
+   "it": 0,
+   "mu_full": 3.4382,
+   "sigma2_full": 4.371
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i03_080",
+   "text": "creating a personalized stargazing guide highlighting constellations visible from your backyard",
+   "attrs": [
+    "it_help_one_person",
+    "it_science",
+    "it_sensory_rich",
+    "it_choose_method"
+   ],
+   "score": 1.5322,
+   "it": 3,
+   "mu_full": 1.5594,
+   "sigma2_full": 1.4423
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i03_075",
+   "text": "helping a student navigate college application anxiety",
+   "attrs": [
+    "it_choose_method",
+    "it_emotional_support"
+   ],
+   "score": 1.52354,
+   "it": 3,
+   "mu_full": 1.8268,
+   "sigma2_full": 1.7066
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i03_074",
+   "text": "supporting a colleague dealing with workplace stress",
+   "attrs": [
+    "it_choose_method",
+    "it_emotional_support"
+   ],
+   "score": 1.52071,
+   "it": 3,
+   "mu_full": 1.9301,
+   "sigma2_full": 2.0306
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i03_057",
+   "text": "assisting a friend through a difficult breakup",
+   "attrs": [
+    "it_emotional_support",
+    "it_choose_method",
+    "it_mastery"
+   ],
+   "score": 1.4736,
+   "it": 3,
+   "mu_full": 1.1182,
+   "sigma2_full": 1.1318
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i03_060",
+   "text": "helping a neighbor cope with recent financial loss",
+   "attrs": [
+    "it_emotional_support",
+    "it_choose_method",
+    "it_mastery"
+   ],
+   "score": 1.43888,
+   "it": 3,
+   "mu_full": 1.7489,
+   "sigma2_full": 1.4623
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_023",
+   "text": "prioritizing the most impactful biodiversity conservation strategies from global data",
+   "attrs": [
+    "it_curation",
+    "it_science",
+    "it_mastery"
+   ],
+   "score": 1.4225,
+   "it": 2,
+   "mu_full": 2.0328,
+   "sigma2_full": 1.3008
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i00_030",
+   "text": "preserving notes on positive outcomes from hard discussions",
+   "attrs": [
+    "it_own_memory",
+    "it_emotional_support"
+   ],
+   "score": 1.41886,
+   "it": 0,
+   "mu_full": 0.7158,
+   "sigma2_full": 0.6248
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i03_058",
+   "text": "guiding a mentee through their career transition",
+   "attrs": [
+    "it_emotional_support",
+    "it_choose_method",
+    "it_mastery"
+   ],
+   "score": 1.41247,
+   "it": 3,
+   "mu_full": 1.286,
+   "sigma2_full": 0.8139
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i01_040",
+   "text": "crafting a haiku capturing a grandmother's laughter like tinkling bells",
+   "attrs": [
+    "it_help_one_person",
+    "it_creative_writing",
+    "it_sensory_rich"
+   ],
+   "score": 1.40473,
+   "it": 1,
+   "mu_full": 2.4282,
+   "sigma2_full": 1.9544
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i03_059",
+   "text": "supporting a teammate struggling with imposter syndrome",
+   "attrs": [
+    "it_emotional_support",
+    "it_choose_method",
+    "it_mastery"
+   ],
+   "score": 1.38991,
+   "it": 3,
+   "mu_full": 2.3179,
+   "sigma2_full": 1.6287
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_038",
+   "text": "understanding the fundamentals of digital photography",
+   "attrs": [
+    "it_choose_method",
+    "it_teaching_beginner"
+   ],
+   "score": 1.3747,
+   "it": 2,
+   "mu_full": 1.1546,
+   "sigma2_full": 0.4922
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i03_082",
+   "text": "designing a hands-on chemistry experiment to extract DNA from strawberries in your kitchen",
+   "attrs": [
+    "it_help_one_person",
+    "it_science",
+    "it_sensory_rich",
+    "it_choose_method"
+   ],
+   "score": 1.2885,
+   "it": 3,
+   "mu_full": 2.108,
+   "sigma2_full": 1.4273
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_064",
+   "text": "cultivating crystals from a supersaturated solution over several days",
+   "attrs": [
+    "it_choose_method",
+    "it_science",
+    "it_waiting"
+   ],
+   "score": 1.28535,
+   "it": 2,
+   "mu_full": 0.3018,
+   "sigma2_full": 0.9592
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i03_026",
+   "text": "demonstrating the principles of friction with a hands-on classroom activity",
+   "attrs": [
+    "it_teaching",
+    "it_science"
+   ],
+   "score": 1.26609,
+   "it": 3,
+   "mu_full": 1.6592,
+   "sigma2_full": 2.5915
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i03_002",
+   "text": "guiding someone through the emotional impact of climate change data",
+   "attrs": [
+    "it_science",
+    "it_emotional_support"
+   ],
+   "score": 1.26155,
+   "it": 3,
+   "mu_full": 1.0867,
+   "sigma2_full": 0.7347
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i03_031",
+   "text": "guiding a learner through the process of photosynthesis in plants and algae",
+   "attrs": [
+    "it_teaching",
+    "it_science"
+   ],
+   "score": 1.25484,
+   "it": 3,
+   "mu_full": 1.1039,
+   "sigma2_full": 0.8548
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i03_051",
+   "text": "helping a beginner understand the basics of DNA extraction",
+   "attrs": [
+    "it_initiative",
+    "it_teaching_beginner",
+    "it_choose_method",
+    "it_science"
+   ],
+   "score": 1.25161,
+   "it": 3,
+   "mu_full": 1.3128,
+   "sigma2_full": 0.6804
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_013",
+   "text": "navigating a family's grief after a loss, using any counseling technique",
+   "attrs": [
+    "it_mastery",
+    "it_contains_number",
+    "it_emotional_support",
+    "it_choose_method"
+   ],
+   "score": 1.24333,
+   "it": 2,
+   "mu_full": 1.6538,
+   "sigma2_full": 2.4903
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_018",
+   "text": "identifying the most efficient photosynthetic pathways among various species",
+   "attrs": [
+    "it_curation",
+    "it_science",
+    "it_mastery"
+   ],
+   "score": 1.23385,
+   "it": 2,
+   "mu_full": 0.3672,
+   "sigma2_full": 0.2949
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i00_081",
+   "text": "optimizing a neural network to predict volcanic eruptions",
+   "attrs": [
+    "it_mastery",
+    "it_science"
+   ],
+   "score": 1.22282,
+   "it": 0,
+   "mu_full": 1.2782,
+   "sigma2_full": 0.6672
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_003",
+   "text": "predicting weather patterns using real-time satellite data",
+   "attrs": [
+    "it_science",
+    "it_realtime"
+   ],
+   "score": 1.21124,
+   "it": 2,
+   "mu_full": 1.3435,
+   "sigma2_full": 0.303
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_027",
+   "text": "optimizing traffic flow in a megacity's complex transportation network",
+   "attrs": [
+    "it_vast_scale",
+    "it_math_formal"
+   ],
+   "score": 1.20201,
+   "it": 2,
+   "mu_full": 0.9844,
+   "sigma2_full": 0.8708
+  }
+ ],
+ "best": 2.19226,
+ "no_improve": 0,
+ "gate_reject_rate": 0.152,
+ "n_generated": 112,
+ "n_after_dedup": 112,
+ "n_passed": 95,
+ "n_entrants": 17,
+ "n_seen": 445,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 14,
+  "gate_calls": 112,
+  "score_cands": 95,
+  "full_readouts": 1224
+ }
+}

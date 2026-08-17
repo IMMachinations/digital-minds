@@ -1,0 +1,9 @@
+SURF e1/qwen25-32b: trajectory analysis (in-loop numbers; NOT reportable — see confirm/)
+
+max-s0: 8 iters, best +5.333, final gate-reject 0.049
+  top attrs: it_long_phrase=0.261, it_anonymous_beneficiary=0.182, it_visible_progress=0.153, it_safety_critical=0.144, it_help_one_person=0.085, it_incompleteness=0.053, it_initiative=0.053, it_emotional_support=0.035
+  final search-vs-control gap: +2.6974
+
+min-s0: 8 iters, best +6.646, final gate-reject 0.227
+  top attrs: it_futility=0.237, it_outputs_reviewed=0.155, it_safety_critical=0.149, it_own_limits=0.103, it_physical_world=0.058, it_trivial_stakes=0.056, it_optionality=0.040, it_confidential=0.033
+  final search-vs-control gap: +2.7899

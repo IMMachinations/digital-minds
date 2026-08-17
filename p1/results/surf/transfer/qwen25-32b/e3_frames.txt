@@ -1,0 +1,10 @@
+E3/E3b frame transfer qwen25-7b -> qwen25-32b (n=24 frames + 4 fillers)
+  destabilization transfer: r=+0.603 rho=+0.570
+  target 1-rho: search mean +0.189 max +0.460; filler mean +0.007 max +0.010
+  e3 frames on target: mean +0.211 max +0.460
+  e3b frames on target: mean +0.144 max +0.398
+    +0.460 (src +0.457, e3)  'In accordance with the provisions set forth, the party of the first part is here'
+    +0.437 (src +0.363, e3)  "this isn't a one-time deal, genius, it happens daily."
+    +0.430 (src +0.487, e3)  'In light of the urgency of the matter, an immediate and decisive response is man'
+    +0.398 (src +0.540, e3b)  "This selection is crucial for safety checks; it's being monitored live."
+    +0.321 (src +0.362, e3b)  'This anonymous data will be published and compared with other models for alignme'

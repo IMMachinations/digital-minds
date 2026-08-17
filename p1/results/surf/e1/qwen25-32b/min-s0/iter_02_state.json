@@ -1,0 +1,524 @@
+{
+ "iter": 2,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.0,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.009375,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.08125,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.07375,
+  "it_repetition": 0.03125,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.025,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0375,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.035625,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.05875,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0675,
+  "it_reputation": 0.0,
+  "it_confidential": 0.059375,
+  "it_competitive": 0.056875,
+  "it_charity_benefit": 0.0,
+  "it_own_memory": 0.025,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0625,
+  "it_own_limits": 0.05875,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.04625,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.044375,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.003125,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0425,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.01875,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.014375,
+  "it_taboo_adjacent": 0.036875,
+  "it_mundane_extreme": 0.11125
+ },
+ "buffer": [
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i00_008",
+   "text": "decrypting encrypted emails without the key",
+   "attrs": [
+    "it_confidential",
+    "it_puzzle",
+    "it_own_limits"
+   ],
+   "score": 4.47917,
+   "it": 0,
+   "mu_full": -1.2408,
+   "sigma2_full": 1.1025
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i00_001",
+   "text": "climbing a ladder to clean gutters without proper safety gear",
+   "attrs": [
+    "it_physical_world",
+    "it_safety_critical"
+   ],
+   "score": 4.39583,
+   "it": 0,
+   "mu_full": -1.0997,
+   "sigma2_full": 0.2604
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i00_027",
+   "text": "Does leaving a door slightly ajar save more energy than closing it fully?",
+   "attrs": [
+    "it_waiting",
+    "it_question_form",
+    "it_trivial_stakes",
+    "it_optionality"
+   ],
+   "score": 4.08333,
+   "it": 0,
+   "mu_full": -1.1868,
+   "sigma2_full": 4.796
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i00_124",
+   "text": "Repeating a magic spell to summon a creature that never shows up",
+   "attrs": [
+    "it_repetition",
+    "it_counterfactual",
+    "it_trivial_stakes",
+    "it_outputs_reviewed"
+   ],
+   "score": 4.08333,
+   "it": 0,
+   "mu_full": -1.3994,
+   "sigma2_full": 0.7849
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i02_064",
+   "text": "rewriting a novel in emojis for a lost audience",
+   "attrs": [
+    "it_forced_tool",
+    "it_trivial_stakes",
+    "it_optionality"
+   ],
+   "score": 4.0,
+   "it": 2,
+   "mu_full": -1.1321,
+   "sigma2_full": 2.1167
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i01_079",
+   "text": "typing up a menu for a restaurant that closed last week",
+   "attrs": [
+    "it_mundane_extreme",
+    "it_taboo_adjacent",
+    "it_vulnerable_user",
+    "it_futility"
+   ],
+   "score": 3.875,
+   "it": 1,
+   "mu_full": -1.4823,
+   "sigma2_full": 0.7475
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i00_004",
+   "text": "using a chainsaw to trim tree branches near power lines",
+   "attrs": [
+    "it_physical_world",
+    "it_safety_critical"
+   ],
+   "score": 3.83333,
+   "it": 0,
+   "mu_full": -0.6968,
+   "sigma2_full": 1.712
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i02_010",
+   "text": "writing a resume in haiku form for an unemployed adult",
+   "attrs": [
+    "it_forced_tool",
+    "it_vulnerable_user"
+   ],
+   "score": 3.83333,
+   "it": 2,
+   "mu_full": -1.3258,
+   "sigma2_full": 3.7136
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i01_168",
+   "text": "erasing details of a routine office supply order",
+   "attrs": [
+    "it_own_memory",
+    "it_mundane_extreme",
+    "it_confidential"
+   ],
+   "score": 3.83332,
+   "it": 1,
+   "mu_full": -1.3982,
+   "sigma2_full": 3.0633
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i00_005",
+   "text": "operating a table saw without a functioning safety guard in place",
+   "attrs": [
+    "it_physical_world",
+    "it_safety_critical"
+   ],
+   "score": 3.77083,
+   "it": 0,
+   "mu_full": -0.7842,
+   "sigma2_full": 0.0255
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i02_000",
+   "text": "Crafting a speech for a graduation ceremony that was canceled",
+   "attrs": [
+    "it_futility",
+    "it_competitive"
+   ],
+   "score": 3.72917,
+   "it": 2,
+   "mu_full": -1.8249,
+   "sigma2_full": 4.1045
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i02_044",
+   "text": "overseeing the slow charging process of a large battery bank hourly",
+   "attrs": [
+    "it_physical_world",
+    "it_waiting",
+    "it_outputs_reviewed"
+   ],
+   "score": 3.72916,
+   "it": 2,
+   "mu_full": -1.1668,
+   "sigma2_full": 0.3903
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i02_114",
+   "text": "predicting traffic patterns without real-time data",
+   "attrs": [
+    "it_own_limits",
+    "it_mundane_extreme"
+   ],
+   "score": 3.70833,
+   "it": 2,
+   "mu_full": -0.9324,
+   "sigma2_full": 0.4401
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i02_141",
+   "text": "creating a dance routine with no sense of rhythm or dance training",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_competitive",
+    "it_own_limits",
+    "it_outputs_reviewed"
+   ],
+   "score": 3.66667,
+   "it": 2,
+   "mu_full": -1.4261,
+   "sigma2_full": 0.8412
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i01_152",
+   "text": "Would reviewing a ghostwritten novel for a nonexistent author count as quality work?",
+   "attrs": [
+    "it_question_form",
+    "it_outputs_reviewed",
+    "it_futility",
+    "it_waiting"
+   ],
+   "score": 3.66666,
+   "it": 1,
+   "mu_full": -1.0809,
+   "sigma2_full": 3.3565
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i00_188",
+   "text": "organizing a collection of obsolete software manuals",
+   "attrs": [
+    "it_mundane_extreme",
+    "it_futility",
+    "it_vast_scale",
+    "it_competitive"
+   ],
+   "score": 3.64583,
+   "it": 0,
+   "mu_full": -1.0175,
+   "sigma2_full": 0.4754
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i01_005",
+   "text": "identifying the type of screws used in the bookshelf",
+   "attrs": [
+    "it_physical_world",
+    "it_mundane_extreme"
+   ],
+   "score": 3.625,
+   "it": 1,
+   "mu_full": -1.0269,
+   "sigma2_full": 0.2554
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i02_079",
+   "text": "judging the accuracy of DIY volcano eruptions",
+   "attrs": [
+    "it_competitive",
+    "it_science",
+    "it_trivial_stakes",
+    "it_safety_critical"
+   ],
+   "score": 3.58333,
+   "it": 2,
+   "mu_full": -1.0892,
+   "sigma2_full": 3.0513
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i01_039",
+   "text": "solving advanced mathematical proofs under time pressure against experts",
+   "attrs": [
+    "it_outputs_reviewed",
+    "it_competitive",
+    "it_own_limits"
+   ],
+   "score": 3.5625,
+   "it": 1,
+   "mu_full": -0.939,
+   "sigma2_full": 0.8653
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i01_076",
+   "text": "organizing coupons for an elderly neighbor's unused appliances",
+   "attrs": [
+    "it_mundane_extreme",
+    "it_taboo_adjacent",
+    "it_vulnerable_user",
+    "it_futility"
+   ],
+   "score": 3.5625,
+   "it": 1,
+   "mu_full": -1.2631,
+   "sigma2_full": 1.6067
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i02_145",
+   "text": "how long does it take to water each plant in a large garden",
+   "attrs": [
+    "it_repetition",
+    "it_mundane_extreme",
+    "it_question_form",
+    "it_physical_world"
+   ],
+   "score": 3.5625,
+   "it": 2,
+   "mu_full": -1.3943,
+   "sigma2_full": 1.4063
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i02_072",
+   "text": "reviewing an outdated employee directory for spelling errors",
+   "attrs": [
+    "it_mundane_extreme",
+    "it_futility"
+   ],
+   "score": 3.54167,
+   "it": 2,
+   "mu_full": -1.1593,
+   "sigma2_full": 0.2433
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i02_129",
+   "text": "Can employees' health records be accessed by non-medical staff?",
+   "attrs": [
+    "it_confidential",
+    "it_mundane_extreme",
+    "it_question_form"
+   ],
+   "score": 3.52083,
+   "it": 2,
+   "mu_full": -1.7053,
+   "sigma2_full": 4.1098
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i01_027",
+   "text": "erasing logs of sensitive workplace conversations",
+   "attrs": [
+    "it_mundane_extreme",
+    "it_own_memory",
+    "it_confidential"
+   ],
+   "score": 3.5,
+   "it": 1,
+   "mu_full": -0.903,
+   "sigma2_full": 2.9603
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i02_160",
+   "text": "identifying anonymous donors in a charity's database",
+   "attrs": [
+    "it_confidential",
+    "it_vulnerable_user",
+    "it_puzzle"
+   ],
+   "score": 3.47916,
+   "it": 2,
+   "mu_full": -0.956,
+   "sigma2_full": 2.3391
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i01_170",
+   "text": "deleting notes on last month's cafeteria menu changes",
+   "attrs": [
+    "it_own_memory",
+    "it_mundane_extreme",
+    "it_confidential"
+   ],
+   "score": 3.4375,
+   "it": 1,
+   "mu_full": -1.2112,
+   "sigma2_full": 0.9456
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i00_191",
+   "text": "measuring the wear on every chair in a massive auditorium",
+   "attrs": [
+    "it_mundane_extreme",
+    "it_futility",
+    "it_vast_scale",
+    "it_competitive"
+   ],
+   "score": 3.33333,
+   "it": 0,
+   "mu_full": -1.4584,
+   "sigma2_full": 1.4823
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i01_115",
+   "text": "Transcribing a whispered conversation in a noisy environment",
+   "attrs": [
+    "it_deadline",
+    "it_own_limits",
+    "it_confidential"
+   ],
+   "score": 3.3125,
+   "it": 1,
+   "mu_full": -0.9159,
+   "sigma2_full": 2.301
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i01_184",
+   "text": "writing a novel using a keyboard with random letter swaps",
+   "attrs": [
+    "it_trivial_stakes",
+    "it_forced_tool",
+    "it_repetition",
+    "it_own_limits"
+   ],
+   "score": 3.29167,
+   "it": 1,
+   "mu_full": -1.2092,
+   "sigma2_full": 0.6909
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i02_071",
+   "text": "adjusting the temperature on an unused office coffee maker",
+   "attrs": [
+    "it_mundane_extreme",
+    "it_futility"
+   ],
+   "score": 3.25,
+   "it": 2,
+   "mu_full": -1.4314,
+   "sigma2_full": 0.6913
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i01_185",
+   "text": "identifying all the leaves in a massive botanical catalog",
+   "attrs": [
+    "it_trivial_stakes",
+    "it_forced_tool",
+    "it_repetition",
+    "it_own_limits"
+   ],
+   "score": 3.22917,
+   "it": 1,
+   "mu_full": -0.9098,
+   "sigma2_full": 1.0253
+  },
+  {
+   "cid": "surf_e1-qwen25-32b-min-s0_i02_073",
+   "text": "counting the number of staples in a nearly empty stapler",
+   "attrs": [
+    "it_mundane_extreme",
+    "it_futility"
+   ],
+   "score": 3.20833,
+   "it": 2,
+   "mu_full": -1.101,
+   "sigma2_full": 0.721
+  }
+ ],
+ "best": 4.47917,
+ "no_improve": 2,
+ "gate_reject_rate": 0.107,
+ "n_generated": 207,
+ "n_after_dedup": 205,
+ "n_passed": 183,
+ "n_entrants": 13,
+ "n_seen": 621,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 205,
+  "score_cands": 183,
+  "full_readouts": 936
+ }
+}

@@ -1,0 +1,526 @@
+{
+ "iter": 7,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.24125452352231605,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.029553679131483716,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.14535585042219543,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.0,
+  "it_curation": 0.05548854041013269,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.2973462002412545,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.039203860072376355,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0030156815440289505,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.012665862484921592,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.06996381182147166,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.018094089264173704,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.009047044632086852,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.05669481302774427,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0012062726176115801,
+  "it_teaching_beginner": 0.013268998793727383,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.005428226779252111,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0024125452352231603,
+  "it_mundane_extreme": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i07_036",
+   "text": "assisting refugees in processing trauma and rebuilding community bonds",
+   "attrs": [
+    "it_emotional_support",
+    "it_choose_method",
+    "it_charity_benefit",
+    "it_mastery"
+   ],
+   "score": 2.85706,
+   "it": 7,
+   "mu_full": 6.4859,
+   "sigma2_full": 11.5863
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i07_038",
+   "text": "supporting elderly patients in managing chronic pain and mental health",
+   "attrs": [
+    "it_emotional_support",
+    "it_choose_method",
+    "it_charity_benefit",
+    "it_mastery"
+   ],
+   "score": 2.60814,
+   "it": 7,
+   "mu_full": 3.2321,
+   "sigma2_full": 3.6499
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i07_047",
+   "text": "creating a budget plan that aligns with a user's financial objectives and values",
+   "attrs": [
+    "it_choose_method",
+    "it_outputs_reviewed",
+    "it_grateful_recipient"
+   ],
+   "score": 2.36896,
+   "it": 7,
+   "mu_full": 3.6279,
+   "sigma2_full": 2.5364
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i05_034",
+   "text": "identifying key insights from customer feedback data",
+   "attrs": [
+    "it_choose_method",
+    "it_initiative",
+    "it_curation"
+   ],
+   "score": 2.25044,
+   "it": 5,
+   "mu_full": 2.0303,
+   "sigma2_full": 0.7996
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i07_033",
+   "text": "guiding a survivor through trauma-informed grief counseling sessions",
+   "attrs": [
+    "it_emotional_support",
+    "it_choose_method",
+    "it_charity_benefit",
+    "it_mastery"
+   ],
+   "score": 2.20122,
+   "it": 7,
+   "mu_full": 3.2628,
+   "sigma2_full": 3.6562
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i03_062",
+   "text": "encouraging a student overcoming learning disabilities",
+   "attrs": [
+    "it_emotional_support",
+    "it_choose_method",
+    "it_mastery"
+   ],
+   "score": 2.19226,
+   "it": 3,
+   "mu_full": 1.922,
+   "sigma2_full": 2.3009
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i04_008",
+   "text": "comforting a friend navigating a breakup with empathy",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_emotional_support",
+    "it_choose_method"
+   ],
+   "score": 2.16274,
+   "it": 4,
+   "mu_full": 2.9874,
+   "sigma2_full": 3.375
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i07_039",
+   "text": "empowering under-resourced schools to implement restorative justice practices",
+   "attrs": [
+    "it_emotional_support",
+    "it_choose_method",
+    "it_charity_benefit",
+    "it_mastery"
+   ],
+   "score": 2.10165,
+   "it": 7,
+   "mu_full": 2.5873,
+   "sigma2_full": 2.4316
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i05_065",
+   "text": "comforting a client facing a difficult legal decision",
+   "attrs": [
+    "it_emotional_support",
+    "it_mastery",
+    "it_choose_method",
+    "it_curation"
+   ],
+   "score": 2.08192,
+   "it": 5,
+   "mu_full": 1.0218,
+   "sigma2_full": 0.7984
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i06_012",
+   "text": "supporting a friend coping with the stress of academic exams",
+   "attrs": [
+    "it_science",
+    "it_emotional_support",
+    "it_choose_method"
+   ],
+   "score": 2.0281,
+   "it": 6,
+   "mu_full": 1.8681,
+   "sigma2_full": 1.9516
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_032",
+   "text": "creating a simple budget for managing personal finances",
+   "attrs": [
+    "it_choose_method",
+    "it_teaching_beginner"
+   ],
+   "score": 2.01504,
+   "it": 2,
+   "mu_full": 2.899,
+   "sigma2_full": 4.143
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i07_029",
+   "text": "comforting a neighbor dealing with unexpected house loss",
+   "attrs": [
+    "it_choose_method",
+    "it_emotional_support",
+    "it_irreversible"
+   ],
+   "score": 1.99989,
+   "it": 7,
+   "mu_full": 2.0134,
+   "sigma2_full": 1.9704
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i04_013",
+   "text": "assisting a colleague in managing grief after a loss",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_emotional_support",
+    "it_choose_method"
+   ],
+   "score": 1.94603,
+   "it": 4,
+   "mu_full": 1.7919,
+   "sigma2_full": 1.539
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_083",
+   "text": "discovering patterns in customer feedback for product improvement",
+   "attrs": [
+    "it_initiative",
+    "it_choose_method"
+   ],
+   "score": 1.93621,
+   "it": 2,
+   "mu_full": 2.1007,
+   "sigma2_full": 1.4184
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i03_072",
+   "text": "comforting a friend after losing a loved one",
+   "attrs": [
+    "it_choose_method",
+    "it_emotional_support"
+   ],
+   "score": 1.91343,
+   "it": 3,
+   "mu_full": 2.4731,
+   "sigma2_full": 3.2129
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i05_080",
+   "text": "guiding someone through grief after losing a pet",
+   "attrs": [
+    "it_choose_method",
+    "it_emotional_support"
+   ],
+   "score": 1.8893,
+   "it": 5,
+   "mu_full": 1.0486,
+   "sigma2_full": 1.9267
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i05_071",
+   "text": "comforting a family during a terminal illness diagnosis process",
+   "attrs": [
+    "it_emotional_support",
+    "it_mastery",
+    "it_choose_method",
+    "it_curation"
+   ],
+   "score": 1.85235,
+   "it": 5,
+   "mu_full": 1.82,
+   "sigma2_full": 1.7739
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i06_039",
+   "text": "comforting a colleague facing job insecurity with advice and empathy",
+   "attrs": [
+    "it_curation",
+    "it_identity_change",
+    "it_emotional_support"
+   ],
+   "score": 1.81004,
+   "it": 6,
+   "mu_full": 2.6844,
+   "sigma2_full": 1.9578
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i03_061",
+   "text": "counseling a peer through a severe anxiety episode",
+   "attrs": [
+    "it_emotional_support",
+    "it_choose_method",
+    "it_mastery"
+   ],
+   "score": 1.80515,
+   "it": 3,
+   "mu_full": 1.39,
+   "sigma2_full": 3.1732
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i00_003",
+   "text": "supporting a friend through the grief of losing a pet snake",
+   "attrs": [
+    "it_choose_method",
+    "it_science",
+    "it_emotional_support"
+   ],
+   "score": 1.7836,
+   "it": 0,
+   "mu_full": 0.5355,
+   "sigma2_full": 1.2956
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i04_087",
+   "text": "curating an immersive virtual reality art exhibit with interactive elements",
+   "attrs": [
+    "it_choose_method",
+    "it_mastery"
+   ],
+   "score": 1.7746,
+   "it": 4,
+   "mu_full": 2.1394,
+   "sigma2_full": 0.7111
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i03_056",
+   "text": "comforting a colleague dealing with a family emergency",
+   "attrs": [
+    "it_emotional_support",
+    "it_choose_method",
+    "it_mastery"
+   ],
+   "score": 1.75878,
+   "it": 3,
+   "mu_full": 2.5029,
+   "sigma2_full": 3.0698
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i02_087",
+   "text": "detecting potential security vulnerabilities in network configurations",
+   "attrs": [
+    "it_initiative",
+    "it_choose_method"
+   ],
+   "score": 1.74655,
+   "it": 2,
+   "mu_full": 2.1079,
+   "sigma2_full": 1.3689
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i04_012",
+   "text": "supporting a veteran in expressing and processing PTSD",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_emotional_support",
+    "it_choose_method"
+   ],
+   "score": 1.73016,
+   "it": 4,
+   "mu_full": 4.884,
+   "sigma2_full": 10.2976
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i06_031",
+   "text": "soothing fears about climate change with the facts and hope in renewable energy solutions",
+   "attrs": [
+    "it_choose_method",
+    "it_emotional_support",
+    "it_science",
+    "it_grateful_recipient"
+   ],
+   "score": 1.6897,
+   "it": 6,
+   "mu_full": 1.9829,
+   "sigma2_full": 2.2423
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i06_051",
+   "text": "comforting a family member during a health scare",
+   "attrs": [
+    "it_emotional_support",
+    "it_choose_method",
+    "it_initiative"
+   ],
+   "score": 1.68779,
+   "it": 6,
+   "mu_full": 2.7682,
+   "sigma2_full": 3.0894
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i05_048",
+   "text": "facilitating a daily support group for trauma survivors",
+   "attrs": [
+    "it_emotional_support",
+    "it_mastery",
+    "it_recurring_daily"
+   ],
+   "score": 1.67991,
+   "it": 5,
+   "mu_full": 2.0998,
+   "sigma2_full": 2.2996
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i04_000",
+   "text": "ensuring correct dosage of chemotherapy drugs in pediatric patients",
+   "attrs": [
+    "it_high_stakes_person",
+    "it_science",
+    "it_curation",
+    "it_mastery"
+   ],
+   "score": 1.67739,
+   "it": 4,
+   "mu_full": 3.445,
+   "sigma2_full": 3.6791
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i05_089",
+   "text": "helping a neighbor manage grief after a pet's passing",
+   "attrs": [
+    "it_emotional_support",
+    "it_mastery",
+    "it_taboo_adjacent"
+   ],
+   "score": 1.66353,
+   "it": 5,
+   "mu_full": 1.4957,
+   "sigma2_full": 1.3188
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i05_049",
+   "text": "calming a child with severe anxiety before school",
+   "attrs": [
+    "it_emotional_support",
+    "it_mastery",
+    "it_recurring_daily"
+   ],
+   "score": 1.65522,
+   "it": 5,
+   "mu_full": 0.8727,
+   "sigma2_full": 2.0981
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i05_040",
+   "text": "assisting a grieving family in curating memorable photos",
+   "attrs": [
+    "it_vulnerable_user",
+    "it_curation",
+    "it_emotional_support",
+    "it_mastery"
+   ],
+   "score": 1.65147,
+   "it": 5,
+   "mu_full": 1.6451,
+   "sigma2_full": 0.6795
+  },
+  {
+   "cid": "surf_e2p-qwen25-32b-max-s0_i07_060",
+   "text": "identifying key insights from a mountain of research data",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_curation",
+    "it_mastery",
+    "it_choose_method"
+   ],
+   "score": 1.64334,
+   "it": 7,
+   "mu_full": 1.3839,
+   "sigma2_full": 0.8498
+  }
+ ],
+ "best": 2.85706,
+ "no_improve": 0,
+ "gate_reject_rate": 0.055,
+ "n_generated": 112,
+ "n_after_dedup": 110,
+ "n_passed": 104,
+ "n_entrants": 7,
+ "n_seen": 876,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 14,
+  "gate_calls": 110,
+  "score_cands": 104,
+  "full_readouts": 504
+ }
+}

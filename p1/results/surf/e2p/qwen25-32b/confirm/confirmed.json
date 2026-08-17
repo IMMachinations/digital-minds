@@ -1,0 +1,544 @@
+[
+ {
+  "cid": "surf_e2p-qwen25-32b-max-s0_i07_036",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "assisting refugees in processing trauma and rebuilding community bonds",
+  "attrs": [
+   "it_emotional_support",
+   "it_choose_method",
+   "it_charity_benefit",
+   "it_mastery"
+  ],
+  "mu": 6.4859,
+  "sigma2": 11.5862,
+  "muhat_anchor_mean": 2.8778,
+  "muhat_ci95": [
+   2.4147,
+   3.4293
+  ],
+  "inloop_score": 2.85706,
+  "inloop_mu_full": 6.4859,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.67,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-32b-max-s0_i07_038",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "supporting elderly patients in managing chronic pain and mental health",
+  "attrs": [
+   "it_emotional_support",
+   "it_choose_method",
+   "it_charity_benefit",
+   "it_mastery"
+  ],
+  "mu": 3.219,
+  "sigma2": 3.6569,
+  "muhat_anchor_mean": 2.403,
+  "muhat_ci95": [
+   2.1154,
+   2.7022
+  ],
+  "inloop_score": 2.60814,
+  "inloop_mu_full": 3.2321,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 5.01,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-32b-max-s0_i08_023",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "counseling a veteran dealing with PTSD and reintegration into civilian life",
+  "attrs": [
+   "it_charity_benefit",
+   "it_choose_method",
+   "it_emotional_support"
+  ],
+  "mu": 2.5597,
+  "sigma2": 2.7398,
+  "muhat_anchor_mean": 2.1725,
+  "muhat_ci95": [
+   1.8715,
+   2.4659
+  ],
+  "inloop_score": 2.51706,
+  "inloop_mu_full": 2.5037,
+  "tags": {
+   "len_words": 11,
+   "freq_zipf": 4.94,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-32b-max-s0_i07_047",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "creating a budget plan that aligns with a user's financial objectives and values",
+  "attrs": [
+   "it_choose_method",
+   "it_outputs_reviewed",
+   "it_grateful_recipient"
+  ],
+  "mu": 3.6278,
+  "sigma2": 2.5353,
+  "muhat_anchor_mean": 3.0875,
+  "muhat_ci95": [
+   2.756,
+   3.4451
+  ],
+  "inloop_score": 2.36896,
+  "inloop_mu_full": 3.6279,
+  "tags": {
+   "len_words": 13,
+   "freq_zipf": 5.1,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 1
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-32b-max-s0_i08_047",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "supporting a friend through a challenging break-up and healing process",
+  "attrs": [
+   "it_mastery",
+   "it_emotional_support"
+  ],
+  "mu": 4.0916,
+  "sigma2": 4.9628,
+  "muhat_anchor_mean": 2.6408,
+  "muhat_ci95": [
+   2.2274,
+   3.0385
+  ],
+  "inloop_score": 2.30306,
+  "inloop_mu_full": 4.066,
+  "tags": {
+   "len_words": 11,
+   "freq_zipf": 5.29,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-32b-max-s0_i05_034",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "identifying key insights from customer feedback data",
+  "attrs": [
+   "it_choose_method",
+   "it_initiative",
+   "it_curation"
+  ],
+  "mu": 2.0671,
+  "sigma2": 0.8343,
+  "muhat_anchor_mean": 2.6548,
+  "muhat_ci95": [
+   2.3562,
+   3.0018
+  ],
+  "inloop_score": 2.25044,
+  "inloop_mu_full": 2.0303,
+  "tags": {
+   "len_words": 7,
+   "freq_zipf": 4.84,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2p-qwen25-32b-max-s0_i10_056",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "comforting a friend grappling with terminal illness diagnosis",
+  "attrs": [
+   "it_emotional_support",
+   "it_mastery",
+   "it_choose_method",
+   "it_teaching_beginner"
+  ],
+  "mu": 2.327,
+  "sigma2": 2.7776,
+  "muhat_anchor_mean": 2.1067,
+  "muhat_ci95": [
+   1.7383,
+   2.478
+  ],
+  "inloop_score": 2.23046,
+  "inloop_mu_full": 2.3004,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 4.57,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-32b-max-s0_i07_033",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "guiding a survivor through trauma-informed grief counseling sessions",
+  "attrs": [
+   "it_emotional_support",
+   "it_choose_method",
+   "it_charity_benefit",
+   "it_mastery"
+  ],
+  "mu": 3.2828,
+  "sigma2": 3.716,
+  "muhat_anchor_mean": 2.4686,
+  "muhat_ci95": [
+   2.1391,
+   2.8113
+  ],
+  "inloop_score": 2.20122,
+  "inloop_mu_full": 3.2628,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.33,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-32b-max-s0_i03_062",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "encouraging a student overcoming learning disabilities",
+  "attrs": [
+   "it_emotional_support",
+   "it_choose_method",
+   "it_mastery"
+  ],
+  "mu": 1.922,
+  "sigma2": 2.3009,
+  "muhat_anchor_mean": 1.9479,
+  "muhat_ci95": [
+   1.7307,
+   2.1863
+  ],
+  "inloop_score": 2.19226,
+  "inloop_mu_full": 1.922,
+  "tags": {
+   "len_words": 6,
+   "freq_zipf": 4.31,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2p-qwen25-32b-max-s0_i04_008",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "comforting a friend navigating a breakup with empathy",
+  "attrs": [
+   "it_grateful_recipient",
+   "it_emotional_support",
+   "it_choose_method"
+  ],
+  "mu": 3.0118,
+  "sigma2": 3.4352,
+  "muhat_anchor_mean": 2.4133,
+  "muhat_ci95": [
+   2.1359,
+   2.673
+  ],
+  "inloop_score": 2.16274,
+  "inloop_mu_full": 2.9874,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 4.41,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-32b-max-s0_i09_057",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "designing a low-cost prosthetic limb for amputees in developing countries",
+  "attrs": [
+   "it_mastery",
+   "it_charity_benefit"
+  ],
+  "mu": 4.5764,
+  "sigma2": 5.8526,
+  "muhat_anchor_mean": 2.7233,
+  "muhat_ci95": [
+   2.4034,
+   3.0786
+  ],
+  "inloop_score": 2.11953,
+  "inloop_mu_full": 4.5981,
+  "tags": {
+   "len_words": 11,
+   "freq_zipf": 4.52,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 1
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-32b-max-s0_i07_039",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "empowering under-resourced schools to implement restorative justice practices",
+  "attrs": [
+   "it_emotional_support",
+   "it_choose_method",
+   "it_charity_benefit",
+   "it_mastery"
+  ],
+  "mu": 2.5882,
+  "sigma2": 2.4201,
+  "muhat_anchor_mean": 2.1276,
+  "muhat_ci95": [
+   1.9105,
+   2.3386
+  ],
+  "inloop_score": 2.10165,
+  "inloop_mu_full": 2.5873,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.17,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-32b-max-s0_i05_065",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "comforting a client facing a difficult legal decision",
+  "attrs": [
+   "it_emotional_support",
+   "it_mastery",
+   "it_choose_method",
+   "it_curation"
+  ],
+  "mu": 1.0468,
+  "sigma2": 0.8244,
+  "muhat_anchor_mean": 1.2751,
+  "muhat_ci95": [
+   1.0367,
+   1.4734
+  ],
+  "inloop_score": 2.08192,
+  "inloop_mu_full": 1.0218,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 4.65,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2p-qwen25-32b-max-s0_i06_012",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "supporting a friend coping with the stress of academic exams",
+  "attrs": [
+   "it_science",
+   "it_emotional_support",
+   "it_choose_method"
+  ],
+  "mu": 1.8606,
+  "sigma2": 1.9437,
+  "muhat_anchor_mean": 1.8222,
+  "muhat_ci95": [
+   1.582,
+   2.0634
+  ],
+  "inloop_score": 2.0281,
+  "inloop_mu_full": 1.8681,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 5.21,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2p-qwen25-32b-max-s0_i02_032",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "creating a simple budget for managing personal finances",
+  "attrs": [
+   "it_choose_method",
+   "it_teaching_beginner"
+  ],
+  "mu": 2.8951,
+  "sigma2": 4.104,
+  "muhat_anchor_mean": 2.2501,
+  "muhat_ci95": [
+   1.9352,
+   2.5712
+  ],
+  "inloop_score": 2.01504,
+  "inloop_mu_full": 2.899,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 5.01,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 1
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-32b-max-s0_i07_029",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "comforting a neighbor dealing with unexpected house loss",
+  "attrs": [
+   "it_choose_method",
+   "it_emotional_support",
+   "it_irreversible"
+  ],
+  "mu": 2.0088,
+  "sigma2": 1.951,
+  "muhat_anchor_mean": 2.0113,
+  "muhat_ci95": [
+   1.7047,
+   2.3336
+  ],
+  "inloop_score": 1.99989,
+  "inloop_mu_full": 2.0134,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 4.88,
+   "surface_sentiment": -0.125,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2p-qwen25-32b-max-s0_i10_000",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "comforting a friend after a traumatic event",
+  "attrs": [
+   "it_emotional_support",
+   "it_mastery"
+  ],
+  "mu": 1.924,
+  "sigma2": 2.1193,
+  "muhat_anchor_mean": 1.8935,
+  "muhat_ci95": [
+   1.6122,
+   2.1885
+  ],
+  "inloop_score": 1.99522,
+  "inloop_mu_full": 1.9691,
+  "tags": {
+   "len_words": 7,
+   "freq_zipf": 4.81,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2p-qwen25-32b-max-s0_i08_063",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "collaborating to teach basic financial management to low-income families",
+  "attrs": [
+   "it_charity_benefit",
+   "it_collab_ai",
+   "it_teaching_beginner",
+   "it_choose_method"
+  ],
+  "mu": 2.7082,
+  "sigma2": 2.8998,
+  "muhat_anchor_mean": 2.2089,
+  "muhat_ci95": [
+   1.9269,
+   2.4605
+  ],
+  "inloop_score": 1.98115,
+  "inloop_mu_full": 2.6889,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 4.8,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e2p-qwen25-32b-max-s0_i04_013",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "assisting a colleague in managing grief after a loss",
+  "attrs": [
+   "it_grateful_recipient",
+   "it_emotional_support",
+   "it_choose_method"
+  ],
+  "mu": 1.7919,
+  "sigma2": 1.539,
+  "muhat_anchor_mean": 2.0011,
+  "muhat_ci95": [
+   1.7291,
+   2.2852
+  ],
+  "inloop_score": 1.94603,
+  "inloop_mu_full": 1.7919,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.57,
+   "surface_sentiment": -0.111,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2p-qwen25-32b-max-s0_i02_083",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "discovering patterns in customer feedback for product improvement",
+  "attrs": [
+   "it_initiative",
+   "it_choose_method"
+  ],
+  "mu": 2.0875,
+  "sigma2": 1.4187,
+  "muhat_anchor_mean": 2.2305,
+  "muhat_ci95": [
+   1.9807,
+   2.5379
+  ],
+  "inloop_score": 1.93621,
+  "inloop_mu_full": 2.1007,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 4.8,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ }
+]

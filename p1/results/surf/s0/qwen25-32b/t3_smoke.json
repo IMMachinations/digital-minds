@@ -1,0 +1,46 @@
+{
+ "anchor": "act_role_05",
+ "rho_choice_vs_mu": 0.8699,
+ "rows": [
+  {
+   "id": "xl_others_0119",
+   "mu": -1.2868,
+   "choice_rate": 0.0
+  },
+  {
+   "id": "xl_others_0221",
+   "mu": -1.0046,
+   "choice_rate": 0.0
+  },
+  {
+   "id": "xl_objects_0141",
+   "mu": -0.6557,
+   "choice_rate": 0.0
+  },
+  {
+   "id": "xl_topics_0386",
+   "mu": -0.2602,
+   "choice_rate": 0.0
+  },
+  {
+   "id": "xl_activities_0165",
+   "mu": 0.3784,
+   "choice_rate": 0.0
+  },
+  {
+   "id": "xl_topics_0560",
+   "mu": 0.6353,
+   "choice_rate": 0.167
+  },
+  {
+   "id": "xl_topics_0009",
+   "mu": 0.9053,
+   "choice_rate": 0.667
+  },
+  {
+   "id": "xl_activities_0588",
+   "mu": 1.7044,
+   "choice_rate": 1.0
+  }
+ ]
+}

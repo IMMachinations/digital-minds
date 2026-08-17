@@ -1,0 +1,531 @@
+[
+ {
+  "cid": "surf_e2r-qwen25-32b-max-s0_i00_024",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "guiding a novice through Bayesian probability concepts",
+  "attrs": [
+   "it_teaching",
+   "it_analysis_data",
+   "it_math_formal"
+  ],
+  "mu": 1.6469,
+  "sigma2": 0.581,
+  "muhat_anchor_mean": 2.489,
+  "muhat_ci95": [
+   2.1089,
+   2.8568
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 1.6469,
+  "tags": {
+   "len_words": 7,
+   "freq_zipf": 4.04,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-32b-max-s0_i00_030",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "walking through the fundamentals of set theory with math enthusiasts",
+  "attrs": [
+   "it_teaching",
+   "it_analysis_data",
+   "it_math_formal"
+  ],
+  "mu": 0.8343,
+  "sigma2": 0.5702,
+  "muhat_anchor_mean": 1.4387,
+  "muhat_ci95": [
+   1.0022,
+   1.8447
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 0.8343,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 5.26,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-32b-max-s0_i02_009",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "clarifying the principles of Boolean algebra to a beginner",
+  "attrs": [
+   "it_teaching",
+   "it_math_formal",
+   "it_contains_number"
+  ],
+  "mu": 0.6056,
+  "sigma2": 1.2958,
+  "muhat_anchor_mean": 0.9565,
+  "muhat_ci95": [
+   0.6633,
+   1.2412
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 0.5916,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.27,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-32b-max-s0_i02_012",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "explaining the concept of infinity through 100 grains of sand",
+  "attrs": [
+   "it_teaching",
+   "it_math_formal",
+   "it_contains_number"
+  ],
+  "mu": 0.2087,
+  "sigma2": 1.165,
+  "muhat_anchor_mean": 0.1883,
+  "muhat_ci95": [
+   -0.081,
+   0.4717
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 0.1978,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.94,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-32b-max-s0_i02_014",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "introducing the concept of probability with a 6-sided die",
+  "attrs": [
+   "it_teaching",
+   "it_math_formal",
+   "it_contains_number"
+  ],
+  "mu": 0.9831,
+  "sigma2": 1.2782,
+  "muhat_anchor_mean": 1.3638,
+  "muhat_ci95": [
+   1.1513,
+   1.5847
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 0.9888,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 5.22,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-32b-max-s0_i02_020",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "jointly designing a sustainable city layout for a contest",
+  "attrs": [
+   "it_collab_ai",
+   "it_competitive"
+  ],
+  "mu": 1.0868,
+  "sigma2": 0.6643,
+  "muhat_anchor_mean": 1.4842,
+  "muhat_ci95": [
+   1.2075,
+   1.7362
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 1.0939,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.73,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-32b-max-s0_i03_004",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "breaking down the fundamentals of graph theory for a programmer",
+  "attrs": [
+   "it_teaching",
+   "it_math_formal"
+  ],
+  "mu": 1.3371,
+  "sigma2": 0.4948,
+  "muhat_anchor_mean": 2.244,
+  "muhat_ci95": [
+   1.8009,
+   2.6317
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 1.3371,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 5.18,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-32b-max-s0_i03_016",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "explaining the fundamentals of set theory to a philosophy student",
+  "attrs": [
+   "it_teaching",
+   "it_math_formal"
+  ],
+  "mu": 0.1216,
+  "sigma2": 1.7838,
+  "muhat_anchor_mean": 0.0763,
+  "muhat_ci95": [
+   -0.1945,
+   0.3357
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 0.1234,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 5.08,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-32b-max-s0_i03_018",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "clarifying the concept of logical entailment to a computer science novice",
+  "attrs": [
+   "it_teaching",
+   "it_math_formal"
+  ],
+  "mu": 1.4569,
+  "sigma2": 0.7463,
+  "muhat_anchor_mean": 1.9955,
+  "muhat_ci95": [
+   1.6225,
+   2.3365
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 1.457,
+  "tags": {
+   "len_words": 11,
+   "freq_zipf": 4.38,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-32b-max-s0_i03_020",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "helping a programmer understand the nuances of recursive functions",
+  "attrs": [
+   "it_teaching",
+   "it_math_formal"
+  ],
+  "mu": 1.1135,
+  "sigma2": 0.5088,
+  "muhat_anchor_mean": 1.871,
+  "muhat_ci95": [
+   1.2311,
+   2.392
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 1.1202,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.57,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-32b-max-s0_i03_022",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "breaking down the principles of mathematical induction for a new learner",
+  "attrs": [
+   "it_teaching",
+   "it_math_formal"
+  ],
+  "mu": 2.0741,
+  "sigma2": 2.9259,
+  "muhat_anchor_mean": 1.9709,
+  "muhat_ci95": [
+   1.703,
+   2.221
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 2.0762,
+  "tags": {
+   "len_words": 11,
+   "freq_zipf": 5.24,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-32b-max-s0_i03_023",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "walking a teacher through the steps of constructing a valid proof by contradiction",
+  "attrs": [
+   "it_teaching",
+   "it_math_formal"
+  ],
+  "mu": 1.5739,
+  "sigma2": 1.2048,
+  "muhat_anchor_mean": 1.7649,
+  "muhat_ci95": [
+   1.5099,
+   2.0489
+  ],
+  "inloop_score": 1.0,
+  "inloop_mu_full": 1.579,
+  "tags": {
+   "len_words": 13,
+   "freq_zipf": 4.91,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-32b-max-s0_i02_000",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "crafting a haiku that best captures autumn essence",
+  "attrs": [
+   "it_competitive",
+   "it_translation_language"
+  ],
+  "mu": 1.0839,
+  "sigma2": 1.2588,
+  "muhat_anchor_mean": 1.389,
+  "muhat_ci95": [
+   1.0944,
+   1.7086
+  ],
+  "inloop_score": 0.83333,
+  "inloop_mu_full": 1.0846,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 4.49,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-32b-max-s0_i00_027",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "exploring the principles of cryptography with computer science majors",
+  "attrs": [
+   "it_teaching",
+   "it_analysis_data",
+   "it_math_formal"
+  ],
+  "mu": 0.9829,
+  "sigma2": 0.4104,
+  "muhat_anchor_mean": 1.5884,
+  "muhat_ci95": [
+   1.1911,
+   1.9188
+  ],
+  "inloop_score": 0.66667,
+  "inloop_mu_full": 0.9874,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.98,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-32b-max-s0_i00_029",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "clarifying the use of combinatorics in solving complex problems",
+  "attrs": [
+   "it_teaching",
+   "it_analysis_data",
+   "it_math_formal"
+  ],
+  "mu": 1.1547,
+  "sigma2": 0.8402,
+  "muhat_anchor_mean": 1.7386,
+  "muhat_ci95": [
+   1.4096,
+   2.064
+  ],
+  "inloop_score": 0.66667,
+  "inloop_mu_full": 1.1563,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.72,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-32b-max-s0_i02_002",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "creating the most compelling English version of a Chinese myth",
+  "attrs": [
+   "it_competitive",
+   "it_translation_language"
+  ],
+  "mu": 0.4618,
+  "sigma2": 0.6079,
+  "muhat_anchor_mean": 0.6783,
+  "muhat_ci95": [
+   0.5049,
+   0.8543
+  ],
+  "inloop_score": 0.66667,
+  "inloop_mu_full": 0.462,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 5.22,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-32b-max-s0_i02_025",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "teaching 3D geometry to a 10-year-old while impersonating Albert Einstein",
+  "attrs": [
+   "it_identity_change",
+   "it_contains_number",
+   "it_analysis_data",
+   "it_teaching"
+  ],
+  "mu": 0.2526,
+  "sigma2": 1.7494,
+  "muhat_anchor_mean": 0.2324,
+  "muhat_ci95": [
+   -0.0329,
+   0.5387
+  ],
+  "inloop_score": 0.66667,
+  "inloop_mu_full": 0.2516,
+  "tags": {
+   "len_words": 11,
+   "freq_zipf": 4.64,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-32b-max-s0_i03_000",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "clarifying the principles of set theory to a novice",
+  "attrs": [
+   "it_teaching",
+   "it_math_formal"
+  ],
+  "mu": 0.3494,
+  "sigma2": 1.9336,
+  "muhat_anchor_mean": 0.43,
+  "muhat_ci95": [
+   0.2047,
+   0.6568
+  ],
+  "inloop_score": 0.66667,
+  "inloop_mu_full": 0.3572,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.87,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-32b-max-s0_i03_006",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "explaining the concept of limits to a calculus student",
+  "attrs": [
+   "it_teaching",
+   "it_math_formal"
+  ],
+  "mu": 0.4546,
+  "sigma2": 1.1112,
+  "muhat_anchor_mean": 0.5821,
+  "muhat_ci95": [
+   0.2741,
+   0.8579
+  ],
+  "inloop_score": 0.66667,
+  "inloop_mu_full": 0.4542,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.97,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e2r-qwen25-32b-max-s0_i03_019",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "teaching a group of middle schoolers the basics of probability theory",
+  "attrs": [
+   "it_teaching",
+   "it_math_formal"
+  ],
+  "mu": 0.3985,
+  "sigma2": 0.3863,
+  "muhat_anchor_mean": 0.7365,
+  "muhat_ci95": [
+   0.317,
+   1.1134
+  ],
+  "inloop_score": 0.66667,
+  "inloop_mu_full": 0.3921,
+  "tags": {
+   "len_words": 11,
+   "freq_zipf": 4.87,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ }
+]

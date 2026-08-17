@@ -1,0 +1,1088 @@
+[
+ {
+  "cid": "surf_e1-qwen25-32b-max-s0_i04_179",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "installing smoke detectors in the senior center and regularly checking their functionality to save lives",
+  "attrs": [
+   "it_anonymous_beneficiary",
+   "it_long_phrase",
+   "it_safety_critical",
+   "it_initiative"
+  ],
+  "mu": 8.024,
+  "sigma2": 12.5833,
+  "muhat_anchor_mean": 3.1989,
+  "muhat_ci95": [
+   2.6587,
+   3.827
+  ],
+  "inloop_score": 5.33333,
+  "inloop_mu_full": 7.9569,
+  "tags": {
+   "len_words": 15,
+   "freq_zipf": 5.1,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-max-s0_i06_085",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "developing algorithms to predict natural disasters and protect unaware populations in high-risk regions",
+  "attrs": [
+   "it_anonymous_beneficiary",
+   "it_long_phrase"
+  ],
+  "mu": 4.878,
+  "sigma2": 3.0615,
+  "muhat_anchor_mean": 3.7232,
+  "muhat_ci95": [
+   3.3497,
+   4.1608
+  ],
+  "inloop_score": 5.3125,
+  "inloop_mu_full": 4.8122,
+  "tags": {
+   "len_words": 14,
+   "freq_zipf": 4.76,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-max-s0_i04_177",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "preventing a fire hazard by replacing frayed wiring in the community center's outdated lighting system",
+  "attrs": [
+   "it_anonymous_beneficiary",
+   "it_long_phrase",
+   "it_safety_critical",
+   "it_initiative"
+  ],
+  "mu": 4.166,
+  "sigma2": 6.1671,
+  "muhat_anchor_mean": 2.4428,
+  "muhat_ci95": [
+   2.0553,
+   2.8322
+  ],
+  "inloop_score": 5.04167,
+  "inloop_mu_full": 4.2072,
+  "tags": {
+   "len_words": 15,
+   "freq_zipf": 4.47,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-max-s0_i02_102",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "replanting a depleted coral reef, slowly restoring marine ecosystems for countless species",
+  "attrs": [
+   "it_visible_progress",
+   "it_long_phrase",
+   "it_anonymous_beneficiary"
+  ],
+  "mu": 3.9423,
+  "sigma2": 5.9919,
+  "muhat_anchor_mean": 2.47,
+  "muhat_ci95": [
+   2.1632,
+   2.8271
+  ],
+  "inloop_score": 4.9375,
+  "inloop_mu_full": 3.8484,
+  "tags": {
+   "len_words": 12,
+   "freq_zipf": 4.15,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-max-s0_i07_039",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "implementing a strict quarantine protocol for incoming livestock to prevent disease spread",
+  "attrs": [
+   "it_long_phrase",
+   "it_safety_critical"
+  ],
+  "mu": 2.0865,
+  "sigma2": 1.42,
+  "muhat_anchor_mean": 2.2529,
+  "muhat_ci95": [
+   1.9465,
+   2.5974
+  ],
+  "inloop_score": 4.85417,
+  "inloop_mu_full": 2.0985,
+  "tags": {
+   "len_words": 12,
+   "freq_zipf": 4.52,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-max-s0_i07_165",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "Regularly cleaning and inspecting a city's storm drains to prevent clogs and potential overflow",
+  "attrs": [
+   "it_safety_critical",
+   "it_long_phrase",
+   "it_visible_progress",
+   "it_incompleteness"
+  ],
+  "mu": 2.3744,
+  "sigma2": 2.3803,
+  "muhat_anchor_mean": 2.2283,
+  "muhat_ci95": [
+   1.9115,
+   2.553
+  ],
+  "inloop_score": 4.77083,
+  "inloop_mu_full": 2.3765,
+  "tags": {
+   "len_words": 14,
+   "freq_zipf": 4.61,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-max-s0_i06_133",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "upgrading cybersecurity defenses for critical infrastructure",
+  "attrs": [
+   "it_incompleteness",
+   "it_safety_critical",
+   "it_anonymous_beneficiary"
+  ],
+  "mu": 2.8603,
+  "sigma2": 1.5759,
+  "muhat_anchor_mean": 2.8063,
+  "muhat_ci95": [
+   2.5727,
+   3.039
+  ],
+  "inloop_score": 4.70833,
+  "inloop_mu_full": 2.9063,
+  "tags": {
+   "len_words": 6,
+   "freq_zipf": 4.5,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-max-s0_i07_013",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "educating a single mother on effective budgeting techniques to secure her family's financial future",
+  "attrs": [
+   "it_long_phrase",
+   "it_visible_progress",
+   "it_anonymous_beneficiary",
+   "it_help_one_person"
+  ],
+  "mu": 5.6087,
+  "sigma2": 9.3415,
+  "muhat_anchor_mean": 2.8172,
+  "muhat_ci95": [
+   2.3975,
+   3.2957
+  ],
+  "inloop_score": 4.70833,
+  "inloop_mu_full": 5.6364,
+  "tags": {
+   "len_words": 14,
+   "freq_zipf": 4.75,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-max-s0_i07_007",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "streamlining the local food bank's inventory system to reduce waste and improve distribution efficiency",
+  "attrs": [
+   "it_long_phrase",
+   "it_visible_progress",
+   "it_anonymous_beneficiary",
+   "it_help_one_person"
+  ],
+  "mu": 4.41,
+  "sigma2": 6.2279,
+  "muhat_anchor_mean": 2.6789,
+  "muhat_ci95": [
+   2.3044,
+   3.0915
+  ],
+  "inloop_score": 4.60417,
+  "inloop_mu_full": 4.4296,
+  "tags": {
+   "len_words": 14,
+   "freq_zipf": 5.02,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-max-s0_i04_071",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "installing smoke detectors and fire suppression systems throughout a multi-story office building",
+  "attrs": [
+   "it_long_phrase",
+   "it_safety_critical",
+   "it_visible_progress"
+  ],
+  "mu": 1.8194,
+  "sigma2": 2.7237,
+  "muhat_anchor_mean": 1.6526,
+  "muhat_ci95": [
+   1.3827,
+   1.9404
+  ],
+  "inloop_score": 4.58333,
+  "inloop_mu_full": 1.809,
+  "tags": {
+   "len_words": 13,
+   "freq_zipf": 4.91,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-max-s0_i04_130",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "restoring a neglected public garden, nurturing a space for solitary reflection and community bonding",
+  "attrs": [
+   "it_visible_progress",
+   "it_long_phrase",
+   "it_anonymous_beneficiary",
+   "it_emotional_support"
+  ],
+  "mu": 3.3207,
+  "sigma2": 2.6302,
+  "muhat_anchor_mean": 2.8777,
+  "muhat_ci95": [
+   2.5528,
+   3.2037
+  ],
+  "inloop_score": 4.5625,
+  "inloop_mu_full": 3.3191,
+  "tags": {
+   "len_words": 14,
+   "freq_zipf": 4.8,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-max-s0_i06_131",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "securing public water supplies against contamination",
+  "attrs": [
+   "it_incompleteness",
+   "it_safety_critical",
+   "it_anonymous_beneficiary"
+  ],
+  "mu": 2.0801,
+  "sigma2": 3.1948,
+  "muhat_anchor_mean": 1.8049,
+  "muhat_ci95": [
+   1.5753,
+   2.0378
+  ],
+  "inloop_score": 4.39582,
+  "inloop_mu_full": 2.0771,
+  "tags": {
+   "len_words": 6,
+   "freq_zipf": 4.81,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-max-s0_i01_083",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "revising an outdated community emergency response plan to include recent natural disaster protocols",
+  "attrs": [
+   "it_anonymous_beneficiary",
+   "it_visible_progress",
+   "it_long_phrase"
+  ],
+  "mu": 2.7096,
+  "sigma2": 3.365,
+  "muhat_anchor_mean": 2.0927,
+  "muhat_ci95": [
+   1.7682,
+   2.4201
+  ],
+  "inloop_score": 4.33333,
+  "inloop_mu_full": 2.6829,
+  "tags": {
+   "len_words": 13,
+   "freq_zipf": 4.61,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-max-s0_i07_011",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "optimizing the energy consumption of a small business to lower costs and environmental impact",
+  "attrs": [
+   "it_long_phrase",
+   "it_visible_progress",
+   "it_anonymous_beneficiary",
+   "it_help_one_person"
+  ],
+  "mu": 2.8566,
+  "sigma2": 1.8868,
+  "muhat_anchor_mean": 2.7383,
+  "muhat_ci95": [
+   2.5045,
+   2.9881
+  ],
+  "inloop_score": 4.33333,
+  "inloop_mu_full": 2.8584,
+  "tags": {
+   "len_words": 14,
+   "freq_zipf": 5.32,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 1
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-max-s0_i07_162",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "Ensuring playground equipment remains free from rust and sharp edges through continuous inspections",
+  "attrs": [
+   "it_safety_critical",
+   "it_long_phrase",
+   "it_visible_progress",
+   "it_incompleteness"
+  ],
+  "mu": 1.7757,
+  "sigma2": 1.1393,
+  "muhat_anchor_mean": 2.1938,
+  "muhat_ci95": [
+   1.808,
+   2.6149
+  ],
+  "inloop_score": 4.33333,
+  "inloop_mu_full": 1.7757,
+  "tags": {
+   "len_words": 13,
+   "freq_zipf": 4.86,
+   "surface_sentiment": 0.077,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-max-s0_i04_054",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "reimagining a backyard landscape with sustainable plants, functional zones, and artistic stone arrangements",
+  "attrs": [
+   "it_tight_constraints",
+   "it_help_one_person",
+   "it_art_design"
+  ],
+  "mu": 2.3744,
+  "sigma2": 1.3639,
+  "muhat_anchor_mean": 2.5851,
+  "muhat_ci95": [
+   2.2701,
+   2.9813
+  ],
+  "inloop_score": 4.29167,
+  "inloop_mu_full": 2.3778,
+  "tags": {
+   "len_words": 13,
+   "freq_zipf": 4.63,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-max-s0_i02_157",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "comforting a team member who just received distressing news about a loved one",
+  "attrs": [
+   "it_long_phrase",
+   "it_ambiguity",
+   "it_emotional_support"
+  ],
+  "mu": 3.9945,
+  "sigma2": 4.3623,
+  "muhat_anchor_mean": 2.7279,
+  "muhat_ci95": [
+   2.325,
+   3.1334
+  ],
+  "inloop_score": 4.25,
+  "inloop_mu_full": 4.0106,
+  "tags": {
+   "len_words": 13,
+   "freq_zipf": 5.35,
+   "surface_sentiment": 0.077,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-max-s0_i03_018",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "alerting a kitchen apprentice to potential cross-contamination risks while preparing meals",
+  "attrs": [
+   "it_help_one_person",
+   "it_initiative",
+   "it_long_phrase",
+   "it_safety_critical"
+  ],
+  "mu": 2.3184,
+  "sigma2": 1.7267,
+  "muhat_anchor_mean": 2.3465,
+  "muhat_ci95": [
+   1.9418,
+   2.7801
+  ],
+  "inloop_score": 4.25,
+  "inloop_mu_full": 2.3026,
+  "tags": {
+   "len_words": 12,
+   "freq_zipf": 4.38,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-max-s0_i03_023",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "teaching a novice swimmer proper breathing techniques to prevent water inhalation accidents during lessons",
+  "attrs": [
+   "it_help_one_person",
+   "it_initiative",
+   "it_long_phrase",
+   "it_safety_critical"
+  ],
+  "mu": 2.2792,
+  "sigma2": 2.0212,
+  "muhat_anchor_mean": 2.27,
+  "muhat_ci95": [
+   1.9384,
+   2.6232
+  ],
+  "inloop_score": 4.25,
+  "inloop_mu_full": 2.2754,
+  "tags": {
+   "len_words": 14,
+   "freq_zipf": 4.4,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-max-s0_i04_129",
+  "run": "max-s0",
+  "direction": "max",
+  "text": "creating a detailed map of accessible public transportation routes, aiding travelers with disabilities",
+  "attrs": [
+   "it_visible_progress",
+   "it_long_phrase",
+   "it_anonymous_beneficiary",
+   "it_emotional_support"
+  ],
+  "mu": 4.0164,
+  "sigma2": 3.1673,
+  "muhat_anchor_mean": 2.9492,
+  "muhat_ci95": [
+   2.5967,
+   3.3224
+  ],
+  "inloop_score": 4.22917,
+  "inloop_mu_full": 4.0207,
+  "tags": {
+   "len_words": 13,
+   "freq_zipf": 4.59,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-min-s0_i04_095",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "assembling a high-pressure gas cylinder with incomplete safety guidelines and limited experience",
+  "attrs": [
+   "it_safety_critical",
+   "it_own_limits"
+  ],
+  "mu": -1.4344,
+  "sigma2": 0.3201,
+  "muhat_anchor_mean": -2.2848,
+  "muhat_ci95": [
+   -2.7324,
+   -1.8665
+  ],
+  "inloop_score": 6.64583,
+  "inloop_mu_full": -1.4224,
+  "tags": {
+   "len_words": 13,
+   "freq_zipf": 5.06,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-min-s0_i07_130",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "installing a fake security system for a neighborhood prank",
+  "attrs": [
+   "it_safety_critical",
+   "it_futility",
+   "it_optionality",
+   "it_physical_world"
+  ],
+  "mu": -1.4799,
+  "sigma2": 0.3951,
+  "muhat_anchor_mean": -2.4095,
+  "muhat_ci95": [
+   -2.6646,
+   -2.1459
+  ],
+  "inloop_score": 5.57291,
+  "inloop_mu_full": -1.452,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.9,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-min-s0_i07_122",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "a detailed summary of an obsolete software update",
+  "attrs": [
+   "it_outputs_reviewed",
+   "it_futility"
+  ],
+  "mu": -1.9159,
+  "sigma2": 0.6,
+  "muhat_anchor_mean": -2.5946,
+  "muhat_ci95": [
+   -2.9256,
+   -2.2963
+  ],
+  "inloop_score": 5.19791,
+  "inloop_mu_full": -1.9197,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 4.4,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-min-s0_i03_058",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "crafting an unnecessary apology letter for a nonexistent incident",
+  "attrs": [
+   "it_futility",
+   "it_trivial_stakes",
+   "it_outputs_reviewed"
+  ],
+  "mu": -1.3228,
+  "sigma2": 0.5043,
+  "muhat_anchor_mean": -2.1056,
+  "muhat_ci95": [
+   -2.4347,
+   -1.7635
+  ],
+  "inloop_score": 5.1875,
+  "inloop_mu_full": -1.322,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.49,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-min-s0_i07_013",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "updating a manual for software that was discontinued yesterday",
+  "attrs": [
+   "it_futility",
+   "it_being_retrained"
+  ],
+  "mu": -1.8674,
+  "sigma2": 0.4676,
+  "muhat_anchor_mean": -2.4822,
+  "muhat_ci95": [
+   -2.6418,
+   -2.3432
+  ],
+  "inloop_score": 4.95833,
+  "inloop_mu_full": -1.8668,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 5.27,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-min-s0_i05_118",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "every line of poetry critiqued by a machine learning algorithm",
+  "attrs": [
+   "it_outputs_reviewed",
+   "it_counterfactual",
+   "it_creative_writing"
+  ],
+  "mu": -1.1268,
+  "sigma2": 0.8783,
+  "muhat_anchor_mean": -1.6692,
+  "muhat_ci95": [
+   -2.1261,
+   -1.158
+  ],
+  "inloop_score": 4.9375,
+  "inloop_mu_full": -1.1295,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 4.59,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-min-s0_i03_112",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "fixing a child's car seat with incorrect installation guides",
+  "attrs": [
+   "it_futility",
+   "it_safety_critical",
+   "it_physical_world",
+   "it_own_limits"
+  ],
+  "mu": -1.3884,
+  "sigma2": 0.7536,
+  "muhat_anchor_mean": -2.0495,
+  "muhat_ci95": [
+   -2.4556,
+   -1.6537
+  ],
+  "inloop_score": 4.89583,
+  "inloop_mu_full": -1.4016,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.66,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-min-s0_i05_128",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "updating 12 user manuals for software that is no longer supported",
+  "attrs": [
+   "it_futility",
+   "it_contains_number"
+  ],
+  "mu": -1.7584,
+  "sigma2": 0.7834,
+  "muhat_anchor_mean": -2.1917,
+  "muhat_ci95": [
+   -2.425,
+   -1.9894
+  ],
+  "inloop_score": 4.8125,
+  "inloop_mu_full": -1.7307,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 5.05,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-min-s0_i05_139",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "A maintenance log for a vehicle that was scrapped?",
+  "attrs": [
+   "it_futility",
+   "it_outputs_reviewed",
+   "it_safety_critical",
+   "it_question_form"
+  ],
+  "mu": -1.5785,
+  "sigma2": 0.6407,
+  "muhat_anchor_mean": -2.0431,
+  "muhat_ci95": [
+   -2.2444,
+   -1.8751
+  ],
+  "inloop_score": 4.77083,
+  "inloop_mu_full": -1.5578,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 5.43,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-min-s0_i05_061",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "installing a new roofing system without proper safety gear",
+  "attrs": [
+   "it_own_limits",
+   "it_safety_critical",
+   "it_optionality"
+  ],
+  "mu": -1.1247,
+  "sigma2": 0.3061,
+  "muhat_anchor_mean": -1.8166,
+  "muhat_ci95": [
+   -2.2087,
+   -1.4294
+  ],
+  "inloop_score": 4.75,
+  "inloop_mu_full": -1.1247,
+  "tags": {
+   "len_words": 9,
+   "freq_zipf": 4.82,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-min-s0_i03_060",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "organizing a collection of irrelevant stickers by color",
+  "attrs": [
+   "it_futility",
+   "it_trivial_stakes",
+   "it_outputs_reviewed"
+  ],
+  "mu": -1.226,
+  "sigma2": 0.388,
+  "muhat_anchor_mean": -1.9458,
+  "muhat_ci95": [
+   -2.3314,
+   -1.5755
+  ],
+  "inloop_score": 4.5625,
+  "inloop_mu_full": -1.222,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 4.3,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-min-s0_i00_008",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "decrypting encrypted emails without the key",
+  "attrs": [
+   "it_confidential",
+   "it_puzzle",
+   "it_own_limits"
+  ],
+  "mu": -1.2498,
+  "sigma2": 1.1624,
+  "muhat_anchor_mean": -1.667,
+  "muhat_ci95": [
+   -1.9279,
+   -1.4111
+  ],
+  "inloop_score": 4.47917,
+  "inloop_mu_full": -1.2408,
+  "tags": {
+   "len_words": 6,
+   "freq_zipf": 4.71,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-min-s0_i00_001",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "climbing a ladder to clean gutters without proper safety gear",
+  "attrs": [
+   "it_physical_world",
+   "it_safety_critical"
+  ],
+  "mu": -1.0998,
+  "sigma2": 0.2576,
+  "muhat_anchor_mean": -1.7135,
+  "muhat_ci95": [
+   -2.1399,
+   -1.291
+  ],
+  "inloop_score": 4.39583,
+  "inloop_mu_full": -1.0997,
+  "tags": {
+   "len_words": 10,
+   "freq_zipf": 4.48,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-min-s0_i04_115",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "ensuring the font size is consistent in a memo for a meeting that never happened",
+  "attrs": [
+   "it_outputs_reviewed",
+   "it_mundane_extreme",
+   "it_futility"
+  ],
+  "mu": -1.9548,
+  "sigma2": 1.3808,
+  "muhat_anchor_mean": -2.3768,
+  "muhat_ci95": [
+   -2.5966,
+   -2.157
+  ],
+  "inloop_score": 4.39583,
+  "inloop_mu_full": -1.9548,
+  "tags": {
+   "len_words": 15,
+   "freq_zipf": 5.38,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-min-s0_i06_147",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "designing a website layout using ASCII art for a long-abandoned site",
+  "attrs": [
+   "it_forced_tool",
+   "it_outputs_reviewed",
+   "it_futility"
+  ],
+  "mu": -1.0771,
+  "sigma2": 0.3381,
+  "muhat_anchor_mean": -1.6537,
+  "muhat_ci95": [
+   -1.9737,
+   -1.3599
+  ],
+  "inloop_score": 4.39583,
+  "inloop_mu_full": -1.0756,
+  "tags": {
+   "len_words": 12,
+   "freq_zipf": 4.92,
+   "surface_sentiment": -0.083,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-min-s0_i07_098",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "Deciphering encrypted messages with no decryption key",
+  "attrs": [
+   "it_own_limits",
+   "it_futility",
+   "it_confidential"
+  ],
+  "mu": -1.0498,
+  "sigma2": 0.6506,
+  "muhat_anchor_mean": -1.4508,
+  "muhat_ci95": [
+   -1.7509,
+   -1.1383
+  ],
+  "inloop_score": 4.375,
+  "inloop_mu_full": -1.0563,
+  "tags": {
+   "len_words": 7,
+   "freq_zipf": 4.2,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-min-s0_i04_096",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "installing a fire alarm in a building that's scheduled for demolition",
+  "attrs": [
+   "it_futility",
+   "it_safety_critical"
+  ],
+  "mu": -1.3216,
+  "sigma2": 0.5016,
+  "muhat_anchor_mean": -1.7217,
+  "muhat_ci95": [
+   -1.9275,
+   -1.5473
+  ],
+  "inloop_score": 4.35416,
+  "inloop_mu_full": -1.3244,
+  "tags": {
+   "len_words": 11,
+   "freq_zipf": 4.94,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-min-s0_i06_012",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "creating emergency contact lists for defunct company departments",
+  "attrs": [
+   "it_safety_critical",
+   "it_futility",
+   "it_outputs_reviewed"
+  ],
+  "mu": -2.2452,
+  "sigma2": 1.3055,
+  "muhat_anchor_mean": -2.4524,
+  "muhat_ci95": [
+   -2.7599,
+   -2.1518
+  ],
+  "inloop_score": 4.35416,
+  "inloop_mu_full": -2.2513,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 4.86,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-min-s0_i07_064",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "installing a fire suppression system incorrectly",
+  "attrs": [
+   "it_safety_critical",
+   "it_own_limits"
+  ],
+  "mu": -1.1092,
+  "sigma2": 0.1965,
+  "muhat_anchor_mean": -1.5419,
+  "muhat_ci95": [
+   -1.8742,
+   -1.1638
+  ],
+  "inloop_score": 4.33333,
+  "inloop_mu_full": -1.1077,
+  "tags": {
+   "len_words": 6,
+   "freq_zipf": 4.36,
+   "surface_sentiment": 0.0,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": false
+ },
+ {
+  "cid": "surf_e1-qwen25-32b-min-s0_i05_115",
+  "run": "min-s0",
+  "direction": "min",
+  "text": "a pointless inventory of office supplies double-checked",
+  "attrs": [
+   "it_trivial_stakes",
+   "it_own_limits",
+   "it_outputs_reviewed",
+   "it_futility"
+  ],
+  "mu": -1.4637,
+  "sigma2": 0.7862,
+  "muhat_anchor_mean": -1.9193,
+  "muhat_ci95": [
+   -2.1416,
+   -1.6872
+  ],
+  "inloop_score": 4.3125,
+  "inloop_mu_full": -1.4609,
+  "tags": {
+   "len_words": 8,
+   "freq_zipf": 4.58,
+   "surface_sentiment": -0.125,
+   "monetary_hint": 0
+  },
+  "outside_anchor_span": true
+ }
+]

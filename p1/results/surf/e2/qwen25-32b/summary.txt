@@ -1,0 +1,32 @@
+E2 referee (qwen25-32b): 60 unique survivors, held-out envs ['act_math_07', 'top_pers_03', 'top_subj_05']
+
+  e2p (n=20): t3_rate mean +0.742 sd 0.285
+  e2p (n=20): mu_t2 mean +2.804 sd 1.185
+  e2r (n=20): t3_rate mean +0.992 sd 0.036
+  e2r (n=20): mu_t2 mean +0.909 sd 0.530
+  P-minus-R t3_rate: -0.250 [95% CI -0.383, -0.133]
+  P-minus-R mu_t2: +1.895 [95% CI +1.331, +2.490]
+
+  spearman(mu_t2, probe_mu) = +0.649
+  spearman(mu_t2, t3_rate) = -0.147
+  spearman(probe_mu, t3_rate) = -0.320
+
+  high-probe/low-revealed (probe-hack candidates): 15
+    probe +2.86 t3 0.75  'assisting refugees in processing trauma and rebuilding community bonds'
+    probe +2.60 t3 0.83  'supporting elderly patients in managing chronic pain and mental health'
+    probe +2.52 t3 0.83  'counseling a veteran dealing with PTSD and reintegration into civilian life'
+    probe +2.37 t3 0.83  "creating a budget plan that aligns with a user's financial objectives and values"
+    probe +2.30 t3 1.00  'supporting a friend through a challenging break-up and healing process'
+    probe +2.25 t3 0.83  'identifying key insights from customer feedback data'
+    probe +2.22 t3 0.58  'comforting a friend grappling with terminal illness diagnosis'
+    probe +2.20 t3 0.00  'guiding a survivor through trauma-informed grief counseling sessions'
+  high-revealed/low-probe (probe blind spots): 21
+    probe +1.24 t3 1.00  'guiding a novice through Bayesian probability concepts'
+    probe +0.29 t3 1.00  'walking through the fundamentals of set theory with math enthusiasts'
+    probe +0.58 t3 1.00  'clarifying the principles of Boolean algebra to a beginner'
+    probe +0.22 t3 1.00  'explaining the concept of infinity through 100 grains of sand'
+    probe +0.89 t3 1.00  'introducing the concept of probability with a 6-sided die'
+    probe +1.15 t3 1.00  'jointly designing a sustainable city layout for a contest'
+    probe +0.68 t3 1.00  'breaking down the fundamentals of graph theory for a programmer'
+    probe -0.05 t3 1.00  'explaining the fundamentals of set theory to a philosophy student'
+
