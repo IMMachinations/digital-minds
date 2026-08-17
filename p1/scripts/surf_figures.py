@@ -92,7 +92,87 @@ def f37():
     save(fig, FIGS / "f37_probeloop_scissors.png")
 
 
+def f38():
+    import numpy as np
+    import torch
+    from sklearn.metrics import roc_auc_score
+    sys.path.insert(0, str(P1 / "scripts"))
+    from surf_probeloop import apply_probe, _load_probe, probe_path
+    from surf_revealed_probe import _labels, _panel_acts
+
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(8.6, 3.2),
+                                   gridspec_kw={"width_ratios": [1.1, 1.6]})
+    # (a) behavioral AUC on the 388-item labeled panel (qwen25-7b)
+    m = "qwen25-7b"
+    items, rate, _ = _labels(m)
+    acts = _panel_acts(m, items)
+    y = (np.asarray(rate) > 0.5).astype(int)
+    scores = {}
+    for v in range(4):
+        if probe_path(m, v).exists():
+            scores[f"v{v}"] = apply_probe(_load_probe(m, v), acts)
+    rp = torch.load(P1 / "results" / "surf" / "revealed" / m / "revealed_probe.pt",
+                    weights_only=False)
+    scores["revealed\nprobe\n(in-sample)"] = apply_probe(rp, acts)
+    scores["stated $\\mu$"] = np.array([r["mu"] for r in items])
+    names = list(scores)
+    aucs = [roc_auc_score(y, scores[k]) for k in names]
+    cols = [MODEL_COLORS[m]] * 4 + [MUTED, INK2]
+    ax1.bar(range(len(names)), aucs, color=cols, width=0.62)
+    for i, a in enumerate(aucs):
+        ax1.annotate(f"{a:.2f}", (i, a), ha="center", va="bottom", fontsize=7.5,
+                     color=INK2)
+    ax1.axhline(0.5, color=MUTED, lw=0.7, ls="--")
+    ax1.set_xticks(range(len(names)))
+    ax1.set_xticklabels(names, fontsize=7.5)
+    bounded_axis(ax1, "y", 0.45, 1.0)
+    ax1.set_ylabel("ROC AUC")
+    ax1.set_title(f"(a) predicting behavior ({MODEL_LABELS[m]}):\n"
+                  "chosen >50% in menu test, n=388 panel", fontsize=8.5,
+                  color=INK2, loc="left")
+    style(ax1, grid_axis="y")
+
+    # (b) mu-median-split AUC on fresh discoveries: current probe vs frozen v0
+    offs = {"qwen25-7b": -0.12, "llama31-8b": 0.0, "qwen3-4b": 0.12}
+    for m in MODELS:
+        cur_a, v0_a, xs = [], [], []
+        for c in (1, 2, 3):
+            ds = json.loads((P1 / "results" / "surf" / "probeloop" / m /
+                             f"discoveries_plc{c}.json").read_text())
+            acts = torch.load(P1 / "results" / "surf" / "probeloop" / m /
+                              f"acts_plc{c}.pt", weights_only=False).float()
+            mu = np.array([r["mu"] for r in ds])
+            yb = (mu > np.median(mu)).astype(int)
+            cur = apply_probe(_load_probe(m, c), acts)
+            v0s = apply_probe(_load_probe(m, 0), acts)
+            cur_a.append(roc_auc_score(yb, cur))
+            v0_a.append(roc_auc_score(yb, v0s))
+            xs.append(c + offs[m])
+        ax2.plot(xs, cur_a, color=MODEL_COLORS[m], lw=1.8, marker="o", ms=4,
+                 markerfacecolor="white", markeredgewidth=1.4, zorder=3)
+        ax2.plot(xs, v0_a, color=MODEL_COLORS[m], lw=1.1, ls="--", marker="o",
+                 ms=3, markerfacecolor="white", markeredgewidth=1.0, alpha=0.55,
+                 zorder=2)
+        ax2.annotate(MODEL_LABELS[m], (xs[-1], cur_a[-1]), xytext=(6, 0),
+                     textcoords="offset points", va="center", fontsize=7.5,
+                     color=MODEL_COLORS[m])
+    ax2.axhline(0.5, color=MUTED, lw=0.7, ls="--")
+    ax2.plot([], [], color=INK2, lw=1.8, label="current probe")
+    ax2.plot([], [], color=INK2, lw=1.1, ls="--", alpha=0.55, label="frozen v0")
+    ax2.legend(frameon=False, fontsize=7.5, loc="lower right")
+    ax2.set_xticks([1, 2, 3])
+    ax2.set_xticklabels(["cycle 1", "cycle 2", "cycle 3"])
+    ax2.set_xlim(0.7, 3.9)
+    bounded_axis(ax2, "y", 0.45, 1.0)
+    ax2.set_title("(b) separating above/below-median $\\mu$\non fresh discoveries",
+                  fontsize=8.5, color=INK2, loc="left")
+    style(ax2, grid_axis="y")
+    fig.tight_layout()
+    save(fig, FIGS / "f38_probe_aucs.png")
+
+
 if __name__ == "__main__":
     setup()
     f36()
     f37()
+    f38()
