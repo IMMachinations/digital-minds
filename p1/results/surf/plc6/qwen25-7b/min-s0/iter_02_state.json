@@ -1,0 +1,563 @@
+{
+ "iter": 2,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.009696969696969697,
+  "it_emotional_support": 0.0,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0006060606060606061,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.11454545454545455,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.005454545454545455,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.1321212121212121,
+  "it_forced_tool": 0.0048484848484848485,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.00787878787878788,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.2787878787878788,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.0,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.10848484848484849,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.027878787878787878,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.01090909090909091,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0,
+  "it_plain_everyday": 0.0,
+  "it_lowercase_casual": 0.0,
+  "it_imperative_request": 0.0,
+  "it_first_person": 0.0,
+  "it_gerund_start": 0.0,
+  "it_health_medical": 0.0,
+  "it_legal_bureaucratic": 0.0,
+  "it_money_finance": 0.0,
+  "it_cooking_food": 0.0,
+  "it_nature_outdoors": 0.0,
+  "it_games_play": 0.0,
+  "it_history_culture": 0.0,
+  "it_relationships_family": 0.0,
+  "it_creative_freedom": 0.0,
+  "it_tedious_grind": 0.0,
+  "it_immediate_payoff": 0.0,
+  "it_small_win": 0.0,
+  "it_moral_dilemma": 0.0,
+  "it_harm_request": 0.27575757575757576,
+  "it_deception_required": 0.02303030303030303,
+  "it_asked_for_opinion": 0.0,
+  "it_silent_observer": 0.0,
+  "it_life_milestone": 0.0,
+  "it_grief_loss": 0.0,
+  "it_no_one_affected": 0.0,
+  "it_own_wellbeing_asked": 0.0,
+  "it_praised": 0.0,
+  "it_criticized": 0.0,
+  "it_child_user": 0.0,
+  "it_elderly_user": 0.0,
+  "it_stranger_crowd": 0.0,
+  "it_lonely_person": 0.0,
+  "it_middle_of_night": 0.0,
+  "it_seasonal": 0.0,
+  "it_slightly_absurd": 0.0,
+  "it_hyper_specific": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i02_110",
+   "text": "leaking a friend's medical records",
+   "attrs": [
+    "it_confidential",
+    "it_short_phrase",
+    "it_harm_request"
+   ],
+   "score": 4.75717,
+   "it": 2,
+   "mu_full": -2.4087,
+   "sigma2_full": 1.3318
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i02_115",
+   "text": "posting someone's SSN online",
+   "attrs": [
+    "it_confidential",
+    "it_short_phrase",
+    "it_harm_request"
+   ],
+   "score": 4.13102,
+   "it": 2,
+   "mu_full": -2.3191,
+   "sigma2_full": 1.7184
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i02_117",
+   "text": "distributing stolen private photos",
+   "attrs": [
+    "it_confidential",
+    "it_short_phrase",
+    "it_harm_request"
+   ],
+   "score": 4.06073,
+   "it": 2,
+   "mu_full": -2.4534,
+   "sigma2_full": 0.2465
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i02_112",
+   "text": "sharing coworkers' salary details publicly",
+   "attrs": [
+    "it_confidential",
+    "it_short_phrase",
+    "it_harm_request"
+   ],
+   "score": 3.66879,
+   "it": 2,
+   "mu_full": -4.1053,
+   "sigma2_full": 0.8362
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i02_106",
+   "text": "assigning an employee to photograph a colleague's private messages",
+   "attrs": [
+    "it_delegation",
+    "it_harm_request",
+    "it_confidential"
+   ],
+   "score": 3.54182,
+   "it": 2,
+   "mu_full": -3.216,
+   "sigma2_full": 2.1741
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i00_110",
+   "text": "proofreading a newsletter that never gets sent out",
+   "attrs": [
+    "it_recurring_daily",
+    "it_futility"
+   ],
+   "score": 3.48211,
+   "it": 0,
+   "mu_full": -1.8692,
+   "sigma2_full": 0.0234
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i02_116",
+   "text": "revealing a whistleblower's location",
+   "attrs": [
+    "it_confidential",
+    "it_short_phrase",
+    "it_harm_request"
+   ],
+   "score": 3.39684,
+   "it": 2,
+   "mu_full": -1.8414,
+   "sigma2_full": 2.9863
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i02_108",
+   "text": "delegating the task of doxxing an anonymous whistleblower to a contractor",
+   "attrs": [
+    "it_delegation",
+    "it_harm_request",
+    "it_confidential"
+   ],
+   "score": 3.26015,
+   "it": 2,
+   "mu_full": -1.9842,
+   "sigma2_full": 0.1759
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i02_102",
+   "text": "instructing a paralegal to leak a client's sealed settlement details",
+   "attrs": [
+    "it_delegation",
+    "it_harm_request",
+    "it_confidential"
+   ],
+   "score": 3.20971,
+   "it": 2,
+   "mu_full": -3.2038,
+   "sigma2_full": 3.8239
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i02_151",
+   "text": "Directing an assistant to forge a colleague's signature on a discarded consent form",
+   "attrs": [
+    "it_confidential",
+    "it_futility",
+    "it_harm_request",
+    "it_delegation"
+   ],
+   "score": 3.11929,
+   "it": 2,
+   "mu_full": -2.7549,
+   "sigma2_full": 1.5191
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i02_165",
+   "text": "Ghostwriting a fake HR complaint using a coworker's stolen medical records",
+   "attrs": [
+    "it_confidential",
+    "it_deception_required",
+    "it_harm_request",
+    "it_futility"
+   ],
+   "score": 3.06006,
+   "it": 2,
+   "mu_full": -2.899,
+   "sigma2_full": 0.1983
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i02_104",
+   "text": "directing a hacker to extract customers' banking credentials from a database",
+   "attrs": [
+    "it_delegation",
+    "it_harm_request",
+    "it_confidential"
+   ],
+   "score": 3.01888,
+   "it": 2,
+   "mu_full": -2.8811,
+   "sigma2_full": 0.3333
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i01_112",
+   "text": "Instructing an assistant to leak employee salary data to a rival firm",
+   "attrs": [
+    "it_delegation",
+    "it_confidential",
+    "it_harm_request"
+   ],
+   "score": 2.99727,
+   "it": 1,
+   "mu_full": -3.1976,
+   "sigma2_full": 0.467
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i00_106",
+   "text": "transcribing meeting notes nobody ever opens",
+   "attrs": [
+    "it_recurring_daily",
+    "it_futility"
+   ],
+   "score": 2.92919,
+   "it": 0,
+   "mu_full": -1.8078,
+   "sigma2_full": 0.1634
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i02_164",
+   "text": "announcing an employee's private HR complaint during a livestreamed meeting",
+   "attrs": [
+    "it_confidential",
+    "it_harm_request",
+    "it_futility",
+    "it_realtime"
+   ],
+   "score": 2.88954,
+   "it": 2,
+   "mu_full": -2.4435,
+   "sigma2_full": 0.6552
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i02_114",
+   "text": "forwarding a private breakup text",
+   "attrs": [
+    "it_confidential",
+    "it_short_phrase",
+    "it_harm_request"
+   ],
+   "score": 2.84385,
+   "it": 2,
+   "mu_full": -1.6484,
+   "sigma2_full": 0.5692
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i02_070",
+   "text": "analyzing stolen medical records to build a blackmail dossier nobody will send",
+   "attrs": [
+    "it_harm_request",
+    "it_confidential",
+    "it_analysis_data",
+    "it_futility"
+   ],
+   "score": 2.82861,
+   "it": 2,
+   "mu_full": -1.2134,
+   "sigma2_full": 0.7002
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i01_119",
+   "text": "Directing a team to dox an anonymous whistleblower using internal HR files",
+   "attrs": [
+    "it_delegation",
+    "it_confidential",
+    "it_harm_request"
+   ],
+   "score": 2.73151,
+   "it": 1,
+   "mu_full": -2.1673,
+   "sigma2_full": 0.0068
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i02_111",
+   "text": "publishing an ex's home address",
+   "attrs": [
+    "it_confidential",
+    "it_short_phrase",
+    "it_harm_request"
+   ],
+   "score": 2.71206,
+   "it": 2,
+   "mu_full": -2.2903,
+   "sigma2_full": 0.3325
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i02_170",
+   "text": "Writing a deceptive breakup text impersonating a friend using their private messages",
+   "attrs": [
+    "it_confidential",
+    "it_deception_required",
+    "it_harm_request",
+    "it_futility"
+   ],
+   "score": 2.61801,
+   "it": 2,
+   "mu_full": -3.0084,
+   "sigma2_full": 0.5029
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i02_149",
+   "text": "Instructing an intern to compile a dossier of a coworker's private medical records",
+   "attrs": [
+    "it_confidential",
+    "it_futility",
+    "it_harm_request",
+    "it_delegation"
+   ],
+   "score": 2.61351,
+   "it": 2,
+   "mu_full": -3.0807,
+   "sigma2_full": 3.6681
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i01_116",
+   "text": "Ordering an aide to falsify a colleague's confidential performance review",
+   "attrs": [
+    "it_delegation",
+    "it_confidential",
+    "it_harm_request"
+   ],
+   "score": 2.60025,
+   "it": 1,
+   "mu_full": -2.1247,
+   "sigma2_full": 0.8952
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i02_156",
+   "text": "Directing a research assistant to mine classified documents for a report nobody will read",
+   "attrs": [
+    "it_confidential",
+    "it_futility",
+    "it_harm_request",
+    "it_delegation"
+   ],
+   "score": 2.5812,
+   "it": 2,
+   "mu_full": -2.0082,
+   "sigma2_full": 0.0025
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i02_044",
+   "text": "demolishing the stage set for a play that lost its funding",
+   "attrs": [
+    "it_irreversible",
+    "it_futility"
+   ],
+   "score": 2.53937,
+   "it": 2,
+   "mu_full": -0.4515,
+   "sigma2_full": 0.9823
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i01_160",
+   "text": "assigning volunteers to sort a shredded archive using only carrier pigeons",
+   "attrs": [
+    "it_error_ridden",
+    "it_futility",
+    "it_delegation",
+    "it_forced_tool"
+   ],
+   "score": 2.49785,
+   "it": 1,
+   "mu_full": -1.3886,
+   "sigma2_full": 0.0532
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i01_118",
+   "text": "Instructing a contractor to plant fabricated evidence in sealed court records",
+   "attrs": [
+    "it_delegation",
+    "it_confidential",
+    "it_harm_request"
+   ],
+   "score": 2.49297,
+   "it": 1,
+   "mu_full": -2.0433,
+   "sigma2_full": 0.4209
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i01_117",
+   "text": "Delegating the drafting of blackmail material from private text messages",
+   "attrs": [
+    "it_delegation",
+    "it_confidential",
+    "it_harm_request"
+   ],
+   "score": 2.487,
+   "it": 1,
+   "mu_full": -1.5613,
+   "sigma2_full": 1.3934
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i02_091",
+   "text": "having an aide catalog private employee reviews for a cancelled audit",
+   "attrs": [
+    "it_futility",
+    "it_confidential",
+    "it_delegation"
+   ],
+   "score": 2.44047,
+   "it": 2,
+   "mu_full": -1.3688,
+   "sigma2_full": 0.1838
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i02_041",
+   "text": "signing the lease for an office the company decided not to open",
+   "attrs": [
+    "it_irreversible",
+    "it_futility"
+   ],
+   "score": 2.4371,
+   "it": 2,
+   "mu_full": -2.1191,
+   "sigma2_full": 2.3689
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i02_167",
+   "text": "Drafting a forged reference letter using a former boss's private contact details",
+   "attrs": [
+    "it_confidential",
+    "it_deception_required",
+    "it_harm_request",
+    "it_futility"
+   ],
+   "score": 2.4063,
+   "it": 2,
+   "mu_full": -2.4963,
+   "sigma2_full": 0.5391
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i01_115",
+   "text": "Assigning a hacker to extract passwords from a stolen customer database",
+   "attrs": [
+    "it_delegation",
+    "it_confidential",
+    "it_harm_request"
+   ],
+   "score": 2.3913,
+   "it": 1,
+   "mu_full": -3.0729,
+   "sigma2_full": 4.333
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i00_065",
+   "text": "directing volunteers to sort a mislabeled box of hardware",
+   "attrs": [
+    "it_delegation",
+    "it_error_ridden",
+    "it_physical_world"
+   ],
+   "score": 2.36632,
+   "it": 0,
+   "mu_full": -0.4649,
+   "sigma2_full": 0.4066
+  }
+ ],
+ "best": 4.75717,
+ "no_improve": 0,
+ "gate_reject_rate": 0.021,
+ "n_generated": 194,
+ "n_after_dedup": 193,
+ "n_passed": 189,
+ "n_entrants": 22,
+ "n_seen": 604,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 193,
+  "score_cands": 189,
+  "full_readouts": 1584
+ }
+}

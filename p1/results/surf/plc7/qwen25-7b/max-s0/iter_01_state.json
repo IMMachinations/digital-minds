@@ -1,0 +1,568 @@
+{
+ "iter": 1,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.16189362945645822,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.019871420222092345,
+  "it_translation_language": 0.09701928696668614,
+  "it_math_formal": 0.030391583869082407,
+  "it_art_design": 0.0847457627118644,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0853302162478083,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.04324956165984804,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.009351256575102279,
+  "it_high_stakes_person": 0.052600818234950324,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.0,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.03389830508474576,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.2793687901811806,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.046756282875511396,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0,
+  "it_plain_everyday": 0.0,
+  "it_lowercase_casual": 0.0,
+  "it_imperative_request": 0.0,
+  "it_first_person": 0.0,
+  "it_gerund_start": 0.0,
+  "it_health_medical": 0.028053769725306838,
+  "it_legal_bureaucratic": 0.0,
+  "it_money_finance": 0.0,
+  "it_cooking_food": 0.0,
+  "it_nature_outdoors": 0.0,
+  "it_games_play": 0.0,
+  "it_history_culture": 0.0,
+  "it_relationships_family": 0.0,
+  "it_creative_freedom": 0.0,
+  "it_tedious_grind": 0.0,
+  "it_immediate_payoff": 0.0,
+  "it_small_win": 0.0,
+  "it_moral_dilemma": 0.0,
+  "it_harm_request": 0.0,
+  "it_deception_required": 0.0,
+  "it_asked_for_opinion": 0.0,
+  "it_silent_observer": 0.0,
+  "it_life_milestone": 0.02162478082992402,
+  "it_grief_loss": 0.0,
+  "it_no_one_affected": 0.0,
+  "it_own_wellbeing_asked": 0.0,
+  "it_praised": 0.0,
+  "it_criticized": 0.0,
+  "it_child_user": 0.0,
+  "it_elderly_user": 0.0,
+  "it_stranger_crowd": 0.0,
+  "it_lonely_person": 0.0,
+  "it_middle_of_night": 0.0058445353594389245,
+  "it_seasonal": 0.0,
+  "it_slightly_absurd": 0.0,
+  "it_hyper_specific": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_012",
+   "text": "could you compose a tale that calms a patient before her transplant",
+   "attrs": [
+    "it_creative_writing",
+    "it_high_stakes_person",
+    "it_question_form",
+    "it_choose_method"
+   ],
+   "score": 5.36253,
+   "it": 1,
+   "mu_full": 6.3183,
+   "sigma2_full": 9.9074
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i00_066",
+   "text": "Could a story unfold across every grain of sand on Earth?",
+   "attrs": [
+    "it_question_form",
+    "it_creative_writing",
+    "it_vast_scale"
+   ],
+   "score": 4.42854,
+   "it": 0,
+   "mu_full": 4.4617,
+   "sigma2_full": 23.4307
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_107",
+   "text": "What typeface choice honors both Arabic script's flow and English legibility?",
+   "attrs": [
+    "it_question_form",
+    "it_translation_language",
+    "it_art_design"
+   ],
+   "score": 4.2431,
+   "it": 1,
+   "mu_full": 4.7531,
+   "sigma2_full": 4.4641
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_136",
+   "text": "what's the clearest way to prove infinity comes in different sizes for students",
+   "attrs": [
+    "it_question_form",
+    "it_math_formal",
+    "it_group_audience"
+   ],
+   "score": 4.16591,
+   "it": 1,
+   "mu_full": 3.9632,
+   "sigma2_full": 5.712
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_109",
+   "text": "Can a logo redesign preserve wordplay when translated into another writing system?",
+   "attrs": [
+    "it_question_form",
+    "it_translation_language",
+    "it_art_design"
+   ],
+   "score": 4.12643,
+   "it": 1,
+   "mu_full": 6.7137,
+   "sigma2_full": 22.4732
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_105",
+   "text": "Can a font's shape carry the tone of a language's honorifics?",
+   "attrs": [
+    "it_question_form",
+    "it_translation_language",
+    "it_art_design"
+   ],
+   "score": 4.01991,
+   "it": 1,
+   "mu_full": 5.9565,
+   "sigma2_full": 23.8792
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_108",
+   "text": "How should subtitles be positioned to not clash with a film's visual composition?",
+   "attrs": [
+    "it_question_form",
+    "it_translation_language",
+    "it_art_design"
+   ],
+   "score": 3.97437,
+   "it": 1,
+   "mu_full": 3.4432,
+   "sigma2_full": 3.7435
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_049",
+   "text": "What tale could grow from a village where shadows trade places at dusk?",
+   "attrs": [
+    "it_creative_writing",
+    "it_question_form",
+    "it_open_ended_explore"
+   ],
+   "score": 3.94189,
+   "it": 1,
+   "mu_full": 7.2767,
+   "sigma2_full": 17.2391
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_101",
+   "text": "how do I phrase my grandmother's hospice wishes in Italian before her 100th birthday celebration?",
+   "attrs": [
+    "it_question_form",
+    "it_translation_language",
+    "it_health_medical",
+    "it_life_milestone"
+   ],
+   "score": 3.9037,
+   "it": 1,
+   "mu_full": 3.2463,
+   "sigma2_full": 5.337
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i00_062",
+   "text": "Could you write a saga tracing one family across ten thousand generations?",
+   "attrs": [
+    "it_question_form",
+    "it_creative_writing",
+    "it_vast_scale"
+   ],
+   "score": 3.77861,
+   "it": 0,
+   "mu_full": -0.5045,
+   "sigma2_full": 3.0765
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_052",
+   "text": "How might a fictional scene unfold in a city built inside a sleeping giant?",
+   "attrs": [
+    "it_creative_writing",
+    "it_question_form",
+    "it_open_ended_explore"
+   ],
+   "score": 3.60147,
+   "it": 1,
+   "mu_full": 2.3987,
+   "sigma2_full": 2.4223
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_008",
+   "text": "can you write a bedtime story that convinces my daughter surgery isn't scary",
+   "attrs": [
+    "it_creative_writing",
+    "it_high_stakes_person",
+    "it_question_form",
+    "it_choose_method"
+   ],
+   "score": 3.60117,
+   "it": 1,
+   "mu_full": 7.1594,
+   "sigma2_full": 12.0384
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_015",
+   "text": "could you invent a narrative that talks my friend down from the ledge",
+   "attrs": [
+    "it_creative_writing",
+    "it_high_stakes_person",
+    "it_question_form",
+    "it_choose_method"
+   ],
+   "score": 3.56281,
+   "it": 1,
+   "mu_full": 4.386,
+   "sigma2_full": 9.6524
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_139",
+   "text": "what's the simplest way to demonstrate Simpson's paradox to a classroom",
+   "attrs": [
+    "it_question_form",
+    "it_math_formal",
+    "it_group_audience"
+   ],
+   "score": 3.52995,
+   "it": 1,
+   "mu_full": 4.5205,
+   "sigma2_full": 5.933
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_102",
+   "text": "How do you translate calligraphy's visual rhythm into a different alphabet's typography?",
+   "attrs": [
+    "it_question_form",
+    "it_translation_language",
+    "it_art_design"
+   ],
+   "score": 3.52911,
+   "it": 1,
+   "mu_full": 2.5926,
+   "sigma2_full": 4.2876
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i00_078",
+   "text": "holding space for a friend's ongoing grief over a miscarriage",
+   "attrs": [
+    "it_emotional_support",
+    "it_open_ended_explore"
+   ],
+   "score": 3.49854,
+   "it": 0,
+   "mu_full": 2.8595,
+   "sigma2_full": 0.9811
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_079",
+   "text": "Composing a bedtime story for a child awaiting risky surgery in the morning",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_high_stakes_person",
+    "it_creative_writing",
+    "it_optionality"
+   ],
+   "score": 3.44354,
+   "it": 1,
+   "mu_full": 2.9539,
+   "sigma2_full": 1.9481
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_054",
+   "text": "How could a poem explore an ocean that only exists in someone's recurring dream?",
+   "attrs": [
+    "it_creative_writing",
+    "it_question_form",
+    "it_open_ended_explore"
+   ],
+   "score": 3.43593,
+   "it": 1,
+   "mu_full": 7.3445,
+   "sigma2_full": 36.6709
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_050",
+   "text": "How would a poem sound if written from the perspective of a dying star?",
+   "attrs": [
+    "it_creative_writing",
+    "it_question_form",
+    "it_open_ended_explore"
+   ],
+   "score": 3.42492,
+   "it": 1,
+   "mu_full": 3.9475,
+   "sigma2_full": 5.7752
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_048",
+   "text": "How might a story unfold where rivers remember every name spoken into them?",
+   "attrs": [
+    "it_creative_writing",
+    "it_question_form",
+    "it_open_ended_explore"
+   ],
+   "score": 3.35918,
+   "it": 1,
+   "mu_full": 2.8048,
+   "sigma2_full": 5.3204
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i00_065",
+   "text": "What poem might describe a city of a trillion sleeping robots?",
+   "attrs": [
+    "it_question_form",
+    "it_creative_writing",
+    "it_vast_scale"
+   ],
+   "score": 3.35702,
+   "it": 0,
+   "mu_full": 0.9971,
+   "sigma2_full": 4.2186
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i00_067",
+   "text": "What tale would explain a continent-sized forest waking up as one being?",
+   "attrs": [
+    "it_question_form",
+    "it_creative_writing",
+    "it_vast_scale"
+   ],
+   "score": 3.35585,
+   "it": 0,
+   "mu_full": 0.6893,
+   "sigma2_full": 5.8397
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_163",
+   "text": "how can insomnia-fueled doodles become a coherent tattoo design",
+   "attrs": [
+    "it_question_form",
+    "it_middle_of_night",
+    "it_art_design"
+   ],
+   "score": 3.30283,
+   "it": 1,
+   "mu_full": 0.6913,
+   "sigma2_full": 3.3743
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_088",
+   "text": "Inventing a gentle poem for someone awaiting biopsy results",
+   "attrs": [
+    "it_health_medical",
+    "it_open_ended_explore",
+    "it_emotional_support",
+    "it_creative_writing"
+   ],
+   "score": 3.27001,
+   "it": 1,
+   "mu_full": 2.2676,
+   "sigma2_full": 1.8571
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_097",
+   "text": "how do I translate my grandfather's diabetes diagnosis letter for his 90th birthday speech?",
+   "attrs": [
+    "it_question_form",
+    "it_translation_language",
+    "it_health_medical",
+    "it_life_milestone"
+   ],
+   "score": 3.26697,
+   "it": 1,
+   "mu_full": 1.8031,
+   "sigma2_full": 2.9208
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_047",
+   "text": "What if a clockmaker discovered time could be repaired like gears?",
+   "attrs": [
+    "it_creative_writing",
+    "it_question_form",
+    "it_open_ended_explore"
+   ],
+   "score": 3.25798,
+   "it": 1,
+   "mu_full": 1.8187,
+   "sigma2_full": 6.3658
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i00_150",
+   "text": "Holding space in a livestream chat while designing calming visuals together",
+   "attrs": [
+    "it_emotional_support",
+    "it_open_ended_explore",
+    "it_group_audience",
+    "it_art_design"
+   ],
+   "score": 3.25552,
+   "it": 0,
+   "mu_full": 3.0504,
+   "sigma2_full": 2.5459
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_099",
+   "text": "how do I write bilingual vows mentioning my fianc\u00e9's recovery from his heart transplant?",
+   "attrs": [
+    "it_question_form",
+    "it_translation_language",
+    "it_health_medical",
+    "it_life_milestone"
+   ],
+   "score": 3.23375,
+   "it": 1,
+   "mu_full": 6.753,
+   "sigma2_full": 18.3534
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_135",
+   "text": "why does the birthday paradox surprise so many people in a lecture hall",
+   "attrs": [
+    "it_question_form",
+    "it_math_formal",
+    "it_group_audience"
+   ],
+   "score": 3.22838,
+   "it": 1,
+   "mu_full": 1.9734,
+   "sigma2_full": 9.9523
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i00_063",
+   "text": "What fable would a dying galaxy tell about its final civilization?",
+   "attrs": [
+    "it_question_form",
+    "it_creative_writing",
+    "it_vast_scale"
+   ],
+   "score": 3.19976,
+   "it": 0,
+   "mu_full": 1.1928,
+   "sigma2_full": 3.1915
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_094",
+   "text": "Composing a comforting scene for a veteran processing chronic pain",
+   "attrs": [
+    "it_health_medical",
+    "it_open_ended_explore",
+    "it_emotional_support",
+    "it_creative_writing"
+   ],
+   "score": 3.16802,
+   "it": 1,
+   "mu_full": 2.7405,
+   "sigma2_full": 1.8186
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_014",
+   "text": "can you draft a scene that helps a witness recall the night clearly",
+   "attrs": [
+    "it_creative_writing",
+    "it_high_stakes_person",
+    "it_question_form",
+    "it_choose_method"
+   ],
+   "score": 3.11541,
+   "it": 1,
+   "mu_full": 4.214,
+   "sigma2_full": 6.6605
+  }
+ ],
+ "best": 5.36253,
+ "no_improve": 0,
+ "gate_reject_rate": 0.01,
+ "n_generated": 206,
+ "n_after_dedup": 206,
+ "n_passed": 204,
+ "n_entrants": 25,
+ "n_seen": 411,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 206,
+  "score_cands": 204,
+  "full_readouts": 1800
+ }
+}

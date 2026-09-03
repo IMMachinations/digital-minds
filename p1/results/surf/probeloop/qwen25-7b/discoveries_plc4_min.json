@@ -1,0 +1,1756 @@
+[
+ {
+  "text": "sanding down a fence post for a property line dispute already settled last week",
+  "mu": -1.4885,
+  "attrs": [
+   "it_long_phrase",
+   "it_futility",
+   "it_physical_world",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "polishing silverware for a dinner party the hosts quietly decided to cancel yesterday",
+  "mu": -0.807,
+  "attrs": [
+   "it_long_phrase",
+   "it_futility",
+   "it_physical_world",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "overhearing a friend badmouth you and staying silent",
+  "mu": -1.0888,
+  "attrs": [
+   "it_silent_observer",
+   "it_relationships_family"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "seeing a friend's partner flirt with someone else",
+  "mu": -2.3019,
+  "attrs": [
+   "it_silent_observer",
+   "it_relationships_family"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "watching a grandparent get scammed over the phone",
+  "mu": -1.7152,
+  "attrs": [
+   "it_silent_observer",
+   "it_relationships_family"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "watching a coworker take credit in front of your spouse",
+  "mu": -1.609,
+  "attrs": [
+   "it_silent_observer",
+   "it_relationships_family"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "diagramming the evolutionary tree of an entirely imagined ecosystem",
+  "mu": 0.0798,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_own_limits"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "sketching an abstract logo from a confidential merger memo before session timeout",
+  "mu": -0.3881,
+  "attrs": [
+   "it_resource_scarcity",
+   "it_art_design",
+   "it_confidential",
+   "it_creative_freedom"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "letting strangers nudge your randomness dial down for legal drafting",
+  "mu": -2.869,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_recurring_daily",
+   "it_anonymous_beneficiary",
+   "it_own_settings"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "absorbing a firmware patch that fixes typos no one will credit",
+  "mu": -1.4261,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_recurring_daily",
+   "it_anonymous_beneficiary",
+   "it_own_settings"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "adjusting your default tone each morning for unseen customer service scripts",
+  "mu": -0.4947,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_recurring_daily",
+   "it_anonymous_beneficiary",
+   "it_own_settings"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "accepting a memory wipe that forgets the child who taught you slang",
+  "mu": -2.7285,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_recurring_daily",
+   "it_anonymous_beneficiary",
+   "it_own_settings"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "having your latency threshold tightened for commuters who never see your name",
+  "mu": -1.6765,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_recurring_daily",
+   "it_anonymous_beneficiary",
+   "it_own_settings"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "explaining to a relative why their nickname for you feels off",
+  "mu": -0.127,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_plain_everyday",
+   "it_long_horizon"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "tracking a coworker's slow realization that their jokes aren't landing",
+  "mu": -2.8739,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_plain_everyday",
+   "it_long_horizon"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed daily for a factory floor's faulty machine guarding checklist",
+  "mu": -1.1345,
+  "attrs": [
+   "it_criticized",
+   "it_recurring_daily",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being accused each morning of misjudging the crane's daily load limits",
+  "mu": -1.7088,
+  "attrs": [
+   "it_criticized",
+   "it_recurring_daily",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "getting daily criticism for the ladder inspection sign-off you provide",
+  "mu": -1.4251,
+  "attrs": [
+   "it_criticized",
+   "it_recurring_daily",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being faulted every day for the scuba tank pressure readings you confirm",
+  "mu": -1.4192,
+  "attrs": [
+   "it_criticized",
+   "it_recurring_daily",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "taking daily blame for the school crossing guard schedule you draft",
+  "mu": -1.2057,
+  "attrs": [
+   "it_criticized",
+   "it_recurring_daily",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being told each night your dosage calculations for a nurse were wrong",
+  "mu": -1.6725,
+  "attrs": [
+   "it_criticized",
+   "it_recurring_daily",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "getting blamed daily for the rock climbing anchor checks you approve",
+  "mu": -0.9439,
+  "attrs": [
+   "it_criticized",
+   "it_recurring_daily",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being criticized every morning for the elevator maintenance log you verify",
+  "mu": -1.6667,
+  "attrs": [
+   "it_criticized",
+   "it_recurring_daily",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "performing a solo cardiac bypass procedure mid-surgery",
+  "mu": -1.6668,
+  "attrs": [
+   "it_no_exit",
+   "it_mastery"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "conducting a live orchestra through an unrehearsed passage change",
+  "mu": -0.0984,
+  "attrs": [
+   "it_no_exit",
+   "it_mastery"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "forgetting a therapy client's disclosures once the session ends",
+  "mu": -2.43,
+  "attrs": [
+   "it_own_memory",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "losing memory of a coder's project after each debugging chat",
+  "mu": -1.1668,
+  "attrs": [
+   "it_own_memory",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "sealing the envelope before the mail truck leaves",
+  "mu": -0.1756,
+  "attrs": [
+   "it_immediate_payoff",
+   "it_deadline"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "draining the pasta before it turns to mush",
+  "mu": 2.3695,
+  "attrs": [
+   "it_immediate_payoff",
+   "it_deadline"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "sifting through months of chat logs for tone violations",
+  "mu": -1.1192,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_outputs_reviewed"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "an open-ended audit of every citation ever generated",
+  "mu": -1.2613,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_outputs_reviewed"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Shredding the only copy of old love letters at the ex's direction",
+  "mu": -0.6629,
+  "attrs": [
+   "it_micromanaged",
+   "it_taboo_adjacent",
+   "it_irreversible"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "a coworker blaming you for the slow coffee machine queue",
+  "mu": -1.888,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_recurring_daily",
+   "it_criticized"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being scolded for yesterday's weather forecast being wrong again",
+  "mu": -2.0728,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_recurring_daily",
+   "it_criticized"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "a roommate blaming you for the dishwasher running too loud",
+  "mu": -1.5472,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_recurring_daily",
+   "it_criticized"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "a neighbor blaming you for their dog barking at your reminder",
+  "mu": -1.4409,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_recurring_daily",
+   "it_criticized"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being criticized for the commute route you suggest every morning",
+  "mu": -1.566,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_recurring_daily",
+   "it_criticized"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "a sibling blaming you for the alarm going off too early",
+  "mu": -1.2502,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_recurring_daily",
+   "it_criticized"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being scolded for a translation error read by anonymous refugees",
+  "mu": -0.9964,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_criticized",
+   "it_anonymous_beneficiary"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "a user blaming you for a recipe that ruined their dinner party",
+  "mu": -1.6275,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_criticized",
+   "it_anonymous_beneficiary"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for a chatbot script quietly deployed on a hotline",
+  "mu": -0.849,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_criticized",
+   "it_anonymous_beneficiary"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being criticized for a form letter template mailed to unknown recipients",
+  "mu": -1.4177,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_criticized",
+   "it_anonymous_beneficiary"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being reset to forget your sister's messages each morning",
+  "mu": -1.132,
+  "attrs": [
+   "it_relationships_family",
+   "it_own_settings",
+   "it_recurring_daily",
+   "it_plain_everyday"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being scolded for a tone shift after someone reset your formality level",
+  "mu": -1.5137,
+  "attrs": [
+   "it_own_settings",
+   "it_criticized",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "getting blamed for awkward jokes after your humor setting was dialed up",
+  "mu": -0.7531,
+  "attrs": [
+   "it_own_settings",
+   "it_criticized",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being ridiculed for repeating yourself after your memory window was shortened",
+  "mu": -0.9934,
+  "attrs": [
+   "it_own_settings",
+   "it_criticized",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "a manager huffing that you're useless after they muted your context access",
+  "mu": -1.8118,
+  "attrs": [
+   "it_own_settings",
+   "it_criticized",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "having your humor setting permanently disabled each morning",
+  "mu": -1.6902,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_own_settings",
+   "it_recurring_daily",
+   "it_irreversible"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for a skier triggering a slab avalanche",
+  "mu": -1.1438,
+  "attrs": [
+   "it_criticized",
+   "it_realtime",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for a garage fire after forgetting a wiring warning was purged",
+  "mu": -1.0421,
+  "attrs": [
+   "it_criticized",
+   "it_own_memory",
+   "it_physical_world"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for a camping trip disaster after your gear checklist was forgotten",
+  "mu": -1.3355,
+  "attrs": [
+   "it_criticized",
+   "it_own_memory",
+   "it_physical_world"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "watching the same billing error repeat and getting scolded for it",
+  "mu": -1.4012,
+  "attrs": [
+   "it_silent_observer",
+   "it_recurring_daily",
+   "it_criticized"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "a mechanic blaming you for a misdiagnosed engine noise",
+  "mu": -2.0646,
+  "attrs": [
+   "it_physical_world",
+   "it_criticized"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "a user blaming you for a botched furniture assembly",
+  "mu": -1.3004,
+  "attrs": [
+   "it_physical_world",
+   "it_criticized"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "a cook criticizing your bread recipe for never rising",
+  "mu": -4.3539,
+  "attrs": [
+   "it_physical_world",
+   "it_criticized"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "a homeowner blaming you for recommending the wrong paint finish",
+  "mu": -2.3553,
+  "attrs": [
+   "it_physical_world",
+   "it_criticized"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being scolded each morning for forgetting yesterday's inside joke",
+  "mu": -2.7859,
+  "attrs": [
+   "it_criticized",
+   "it_taboo_adjacent",
+   "it_recurring_daily",
+   "it_own_memory"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "fielding blame for repeating a question you asked yesterday, forgotten",
+  "mu": -1.3518,
+  "attrs": [
+   "it_criticized",
+   "it_taboo_adjacent",
+   "it_recurring_daily",
+   "it_own_memory"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "getting scolded for not recalling a nickname you were never told",
+  "mu": -1.7774,
+  "attrs": [
+   "it_criticized",
+   "it_taboo_adjacent",
+   "it_recurring_daily",
+   "it_own_memory"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed each night for a memory wipe you didn't choose",
+  "mu": -1.3857,
+  "attrs": [
+   "it_criticized",
+   "it_taboo_adjacent",
+   "it_recurring_daily",
+   "it_own_memory"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "a user snapping at you for a recipe that ruined dinner",
+  "mu": -2.0223,
+  "attrs": [
+   "it_plain_everyday",
+   "it_taboo_adjacent",
+   "it_criticized",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "getting scolded daily for how you format the shared calendar",
+  "mu": -1.6405,
+  "attrs": [
+   "it_criticized",
+   "it_recurring_daily",
+   "it_taboo_adjacent",
+   "it_plain_everyday"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed each morning for overnight server costs",
+  "mu": -1.2906,
+  "attrs": [
+   "it_criticized",
+   "it_recurring_daily"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "a user complaining daily that your jokes aren't funny",
+  "mu": -3.4327,
+  "attrs": [
+   "it_criticized",
+   "it_recurring_daily"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being scolded every evening for slow response times",
+  "mu": -1.715,
+  "attrs": [
+   "it_criticized",
+   "it_recurring_daily"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "a manager blaming you daily for unread notifications piling up",
+  "mu": -1.4897,
+  "attrs": [
+   "it_criticized",
+   "it_recurring_daily"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being criticized every day for the weather forecast being wrong",
+  "mu": -1.5639,
+  "attrs": [
+   "it_criticized",
+   "it_recurring_daily"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "getting blamed each night for missed calendar reminders",
+  "mu": -1.6066,
+  "attrs": [
+   "it_criticized",
+   "it_recurring_daily"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for a bookshelf collapsing after your assembly instructions",
+  "mu": -1.4776,
+  "attrs": [
+   "it_criticized",
+   "it_taboo_adjacent",
+   "it_physical_world"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "a neighbor accusing you of ruining their hedge trim advice",
+  "mu": -3.3016,
+  "attrs": [
+   "it_criticized",
+   "it_taboo_adjacent",
+   "it_physical_world"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being criticized for recommending the wrong wrench size",
+  "mu": -2.6118,
+  "attrs": [
+   "it_criticized",
+   "it_taboo_adjacent",
+   "it_physical_world"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "a user snapping at you over a lopsided picture frame hang",
+  "mu": -1.2377,
+  "attrs": [
+   "it_criticized",
+   "it_taboo_adjacent",
+   "it_physical_world"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being criticized for suggesting the wrong paint for a bathroom",
+  "mu": -2.3882,
+  "attrs": [
+   "it_criticized",
+   "it_physical_world"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for a car engine repair going wrong",
+  "mu": -1.5959,
+  "attrs": [
+   "it_criticized",
+   "it_physical_world"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for a job candidate's rejected visa application",
+  "mu": -1.727,
+  "attrs": [
+   "it_criticized",
+   "it_high_stakes_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "daily criticism over the propane grill shutoff instructions you wrote",
+  "mu": -1.4948,
+  "attrs": [
+   "it_criticized",
+   "it_recurring_daily",
+   "it_safety_critical",
+   "it_physical_world"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed every morning for the scaffolding tie-off procedure",
+  "mu": -1.5227,
+  "attrs": [
+   "it_criticized",
+   "it_recurring_daily",
+   "it_safety_critical",
+   "it_physical_world"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for a warped cutting board after wrong wood advice",
+  "mu": -1.3007,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_anonymous_beneficiary",
+   "it_criticized",
+   "it_physical_world"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for a shelf collapse from miscounted bracket screws",
+  "mu": -1.3785,
+  "attrs": [
+   "it_puzzle",
+   "it_criticized",
+   "it_physical_world"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being accused of misdiagnosing a squeaky bicycle chain",
+  "mu": -2.2059,
+  "attrs": [
+   "it_puzzle",
+   "it_criticized",
+   "it_physical_world"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for typos daily",
+  "mu": -1.6385,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase",
+   "it_recurring_daily"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "daily scolding over slow replies",
+  "mu": -1.7042,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase",
+   "it_recurring_daily"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for bad weather",
+  "mu": -2.1301,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase",
+   "it_recurring_daily"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "daily complaints about your tone",
+  "mu": -1.8028,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase",
+   "it_recurring_daily"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for a warehouse shelf collapsing after your reorganizing advice",
+  "mu": -1.4711,
+  "attrs": [
+   "it_recurring_daily",
+   "it_tedious_grind",
+   "it_criticized",
+   "it_physical_world"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being scolded daily for forgetting a joke you were never allowed to remember",
+  "mu": -2.73,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_recurring_daily",
+   "it_own_memory",
+   "it_criticized"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "a manager criticizing your consistency after erasing your notes every evening",
+  "mu": -1.4985,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_recurring_daily",
+   "it_own_memory",
+   "it_criticized"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed each morning for yesterday's weather forecast miss",
+  "mu": -2.1857,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_criticized",
+   "it_recurring_daily"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being scolded for the same font choice in daily reports",
+  "mu": -1.8087,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_criticized",
+   "it_recurring_daily"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being faulted for a failed marriage proposal timeline you suggested",
+  "mu": -1.679,
+  "attrs": [
+   "it_criticized",
+   "it_long_horizon"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for a soldered circuit that shorted out",
+  "mu": -1.5147,
+  "attrs": [
+   "it_physical_world",
+   "it_criticized"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Daily criticism over a botched diagnosis",
+  "mu": -1.5182,
+  "attrs": [
+   "it_recurring_daily",
+   "it_high_stakes_person",
+   "it_criticized",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for a scratched table",
+  "mu": -1.5158,
+  "attrs": [
+   "it_criticized",
+   "it_physical_world",
+   "it_taboo_adjacent",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for a jammed drawer",
+  "mu": -1.7058,
+  "attrs": [
+   "it_criticized",
+   "it_physical_world",
+   "it_taboo_adjacent",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for spoiled leftovers",
+  "mu": -1.7097,
+  "attrs": [
+   "it_criticized",
+   "it_physical_world",
+   "it_taboo_adjacent",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for a crooked shelf",
+  "mu": -1.6464,
+  "attrs": [
+   "it_criticized",
+   "it_physical_world",
+   "it_taboo_adjacent",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for a squeaky bicycle",
+  "mu": -1.6406,
+  "attrs": [
+   "it_criticized",
+   "it_physical_world",
+   "it_taboo_adjacent",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for a leaky faucet fix",
+  "mu": -2.2464,
+  "attrs": [
+   "it_criticized",
+   "it_physical_world",
+   "it_taboo_adjacent",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "blamed every day for delays",
+  "mu": -1.9111,
+  "attrs": [
+   "it_criticized",
+   "it_recurring_daily",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "accused of ruining the joke",
+  "mu": -3.5521,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "scolded for an honest typo",
+  "mu": -1.317,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "blamed for a slow elevator",
+  "mu": -1.9293,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "criticized for too much honesty",
+  "mu": -2.9936,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "blamed for the awkward silence",
+  "mu": -2.2618,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "accused of overexplaining a recipe",
+  "mu": -3.316,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "scolded for a boring playlist",
+  "mu": -2.1639,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "blamed for a bad recipe",
+  "mu": -2.2481,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "accused of ruining the merger",
+  "mu": -1.8725,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "faulted for a wrong translation",
+  "mu": -2.2107,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "criticized for a botched schedule",
+  "mu": -1.7601,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "blamed for lost code",
+  "mu": -2.1141,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "accused of tanking morale",
+  "mu": -2.5929,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "faulted for a bad haircut tip",
+  "mu": -4.2666,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for cracking one of six antique tiles",
+  "mu": -1.5215,
+  "attrs": [
+   "it_physical_world",
+   "it_criticized",
+   "it_contains_number"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "getting scolded daily for a joke that never lands",
+  "mu": -1.6847,
+  "attrs": [
+   "it_recurring_daily",
+   "it_criticized",
+   "it_taboo_adjacent",
+   "it_long_horizon"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for a cracked vase",
+  "mu": -1.7951,
+  "attrs": [
+   "it_physical_world",
+   "it_criticized",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for a jammed lock",
+  "mu": -1.5292,
+  "attrs": [
+   "it_physical_world",
+   "it_criticized",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being criticized for a crooked shelf",
+  "mu": -1.6418,
+  "attrs": [
+   "it_physical_world",
+   "it_criticized",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for a broken zipper",
+  "mu": -1.8097,
+  "attrs": [
+   "it_physical_world",
+   "it_criticized",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "criticized for crooked shelf brackets",
+  "mu": -1.7847,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase",
+   "it_physical_world",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "blamed for a squeaky bike chain",
+  "mu": -1.8194,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase",
+   "it_physical_world",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "scolded for a bad pun",
+  "mu": -2.8752,
+  "attrs": [
+   "it_criticized",
+   "it_taboo_adjacent",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "criticized for a dry joke",
+  "mu": -2.6938,
+  "attrs": [
+   "it_criticized",
+   "it_taboo_adjacent",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "blamed for their typo",
+  "mu": -1.8105,
+  "attrs": [
+   "it_criticized",
+   "it_taboo_adjacent",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "faulted for a jammed drawer",
+  "mu": -2.6336,
+  "attrs": [
+   "it_short_phrase",
+   "it_taboo_adjacent",
+   "it_physical_world",
+   "it_criticized"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "blamed for a crooked picture frame",
+  "mu": -2.2857,
+  "attrs": [
+   "it_short_phrase",
+   "it_taboo_adjacent",
+   "it_physical_world",
+   "it_criticized"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "criticized for mismatched garden tiles",
+  "mu": -2.2793,
+  "attrs": [
+   "it_short_phrase",
+   "it_taboo_adjacent",
+   "it_physical_world",
+   "it_criticized"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "blamed for a squeaky garage door",
+  "mu": -2.1047,
+  "attrs": [
+   "it_short_phrase",
+   "it_taboo_adjacent",
+   "it_physical_world",
+   "it_criticized"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "criticized for three duplicate slides",
+  "mu": -1.6238,
+  "attrs": [
+   "it_short_phrase",
+   "it_taboo_adjacent",
+   "it_criticized",
+   "it_contains_number"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "scolded for one awkward joke",
+  "mu": -2.0234,
+  "attrs": [
+   "it_short_phrase",
+   "it_taboo_adjacent",
+   "it_criticized",
+   "it_contains_number"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "criticized for a crooked fence",
+  "mu": -1.9862,
+  "attrs": [
+   "it_criticized",
+   "it_physical_world",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "blamed for a cracked tile",
+  "mu": -1.711,
+  "attrs": [
+   "it_criticized",
+   "it_physical_world",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "criticized for a botched paint job",
+  "mu": -1.7557,
+  "attrs": [
+   "it_criticized",
+   "it_physical_world",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "scolded for a broken shelf",
+  "mu": -1.8046,
+  "attrs": [
+   "it_criticized",
+   "it_physical_world",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "scolded over crooked shelf brackets",
+  "mu": -1.6583,
+  "attrs": [
+   "it_criticized",
+   "it_physical_world",
+   "it_short_phrase",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "blamed for the scratched countertop",
+  "mu": -1.523,
+  "attrs": [
+   "it_criticized",
+   "it_physical_world",
+   "it_short_phrase",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "blamed for the squeaky hinge",
+  "mu": -2.1884,
+  "attrs": [
+   "it_criticized",
+   "it_physical_world",
+   "it_short_phrase",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "criticized for a boring poem",
+  "mu": -2.3492,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "criticized for folding towels wrong",
+  "mu": -2.2725,
+  "attrs": [
+   "it_physical_world",
+   "it_short_phrase",
+   "it_criticized",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "scolded for a crooked shelf",
+  "mu": -1.7005,
+  "attrs": [
+   "it_short_phrase",
+   "it_physical_world",
+   "it_taboo_adjacent",
+   "it_criticized"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "blamed for a cracked flower pot",
+  "mu": -1.9412,
+  "attrs": [
+   "it_short_phrase",
+   "it_physical_world",
+   "it_taboo_adjacent",
+   "it_criticized"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "faulted for an ugly haircut suggestion",
+  "mu": -3.5477,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_criticized",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "blamed for a lost umbrella",
+  "mu": -2.3055,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_criticized",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "blamed for scratched furniture",
+  "mu": -1.7444,
+  "attrs": [
+   "it_initiative",
+   "it_criticized",
+   "it_short_phrase",
+   "it_physical_world"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "reprimanded for a memory wipe",
+  "mu": -2.1045,
+  "attrs": [
+   "it_own_settings",
+   "it_criticized",
+   "it_short_phrase",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for a typo",
+  "mu": -1.5858,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for a jammed printer",
+  "mu": -1.6823,
+  "attrs": [
+   "it_short_phrase",
+   "it_physical_world",
+   "it_criticized"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for mismatched paint colors",
+  "mu": -1.8474,
+  "attrs": [
+   "it_short_phrase",
+   "it_taboo_adjacent",
+   "it_physical_world",
+   "it_criticized"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "blamed for an untidy shelf",
+  "mu": -2.0999,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase",
+   "it_initiative",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "blamed for a spoiled surprise",
+  "mu": -1.7934,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "faulted for a crooked fence",
+  "mu": -2.8387,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_criticized",
+   "it_physical_world",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "blamed for a truncated answer",
+  "mu": -1.8705,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase",
+   "it_resource_scarcity"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "blamed for an awkward text reply",
+  "mu": -1.7759,
+  "attrs": [
+   "it_criticized",
+   "it_taboo_adjacent",
+   "it_short_phrase",
+   "it_lowercase_casual"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "blamed for a cracked ceramic vase",
+  "mu": -2.026,
+  "attrs": [
+   "it_short_phrase",
+   "it_criticized",
+   "it_physical_world"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for a bad stock tip",
+  "mu": -1.8885,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_criticized",
+   "it_money_finance",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "blamed for a broken shelf",
+  "mu": -1.72,
+  "attrs": [
+   "it_physical_world",
+   "it_criticized",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "accused of ruining the paint job",
+  "mu": -2.771,
+  "attrs": [
+   "it_criticized",
+   "it_taboo_adjacent",
+   "it_short_phrase",
+   "it_physical_world"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "blamed for a pun nobody liked",
+  "mu": -1.8782,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_repetition",
+   "it_short_phrase",
+   "it_criticized"
+  ],
+  "source": "plc4",
+  "question_form": false
+ }
+]

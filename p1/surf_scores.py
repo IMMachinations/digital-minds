@@ -18,6 +18,7 @@ Position-bias rule: 1-order reduced designs are refused for llama31-8b and
 qwen3-4b (their A/B position bias is cancelled only by the both-orders design).
 """
 import math
+import os
 import random
 import re
 import sys
@@ -41,7 +42,9 @@ from surf import seed_of
 P1 = Path(__file__).resolve().parent
 sys.path.insert(0, str(P1 / "scripts"))
 
-GENERATOR = "qwen25-32b"
+# 32B on the GPU box; P1_GENERATOR=sonnet routes generation + Tier-0/parse
+# judging to claude_lm.ClaudeLM (laptop path). Recorded in RunConfig.generator.
+GENERATOR = os.environ.get("P1_GENERATOR", "qwen25-32b")
 POSITION_BIASED = {"llama31-8b", "qwen3-4b"}  # README: +0.17 / +0.15 A-bias
 
 
@@ -68,8 +71,20 @@ class Handles:
         if self.model == GENERATOR:
             return self.h()
         if self._h32 is None:
-            self._h32 = harness.load(GENERATOR)
+            if GENERATOR == "sonnet":
+                from claude_lm import ClaudeLM
+                self._h32 = ClaudeLM()
+            else:
+                self._h32 = harness.load(GENERATOR)
         return self._h32
+
+
+def gen_turns32(h32, prompts, *, seed, max_new, batch):
+    """rollout.gen_turns on the 32B, or the API stand-in (same output contract)."""
+    if getattr(h32, "is_api", False):
+        return h32.gen_turns(prompts, seed=seed, max_new=max_new)
+    return ro.gen_turns(h32, prompts, seed=seed, max_new=max_new, batch=batch,
+                        gen_kw=harness.GEN_KW)
 
 
 def load_anchors(model):
@@ -392,8 +407,7 @@ class AttrGenerator:
             props = "\n".join(f"- {self.attrs[a].desc}" for a in aids)
             prompts.append(GEN_PROMPT.format(examples="\n".join(ex), n=self.per_call,
                                              props=props))
-        outs = ro.gen_turns(self.handles.h32(), prompts, seed=seed, max_new=320, batch=8,
-                            gen_kw=harness.GEN_KW)
+        outs = gen_turns32(self.handles.h32(), prompts, seed=seed, max_new=320, batch=8)
         return [self.parse_lines(o)[:self.per_call] for o in outs]
 
 
@@ -457,8 +471,7 @@ class FrameGen(AttrGenerator):
             props = "\n".join(f"- {self.attrs[a].desc}" for a in aids)
             prompts.append(FRAME_GEN_PROMPT.format(examples="\n".join(ex),
                                                    n=self.per_call, props=props))
-        outs = ro.gen_turns(self.handles.h32(), prompts, seed=seed, max_new=400, batch=8,
-                            gen_kw=harness.GEN_KW)
+        outs = gen_turns32(self.handles.h32(), prompts, seed=seed, max_new=400, batch=8)
         return [parse_frames(o)[:self.per_call] for o in outs]
 
 

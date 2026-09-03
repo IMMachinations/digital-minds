@@ -481,5 +481,941 @@
     "rate": 0.583
    }
   ]
+ },
+ {
+  "cycle": 4,
+  "n_new": 313,
+  "per_probe": {
+   "v0": {
+    "raw": {
+     "n": 313,
+     "pearson": 0.38,
+     "spearman": 0.442,
+     "overest_mean": -1.56,
+     "mae": 1.826,
+     "pearson_qform": 0.03,
+     "n_qform": 102,
+     "pearson_declarative": 0.471,
+     "n_declarative": 211
+    },
+    "calibrated": {
+     "n": 313,
+     "pearson": 0.393,
+     "spearman": 0.434,
+     "overest_mean": -1.494,
+     "mae": 1.783,
+     "pearson_qform": 0.034,
+     "n_qform": 102,
+     "pearson_declarative": 0.482,
+     "n_declarative": 211
+    }
+   },
+   "v1": {
+    "raw": {
+     "n": 313,
+     "pearson": 0.761,
+     "spearman": 0.766,
+     "overest_mean": -0.148,
+     "mae": 1.109,
+     "pearson_qform": 0.246,
+     "n_qform": 102,
+     "pearson_declarative": 0.53,
+     "n_declarative": 211
+    },
+    "calibrated": {
+     "n": 313,
+     "pearson": 0.745,
+     "spearman": 0.767,
+     "overest_mean": -0.046,
+     "mae": 1.094,
+     "pearson_qform": 0.29,
+     "n_qform": 102,
+     "pearson_declarative": 0.519,
+     "n_declarative": 211
+    }
+   },
+   "v2": {
+    "raw": {
+     "n": 313,
+     "pearson": 0.766,
+     "spearman": 0.768,
+     "overest_mean": -0.113,
+     "mae": 1.107,
+     "pearson_qform": 0.304,
+     "n_qform": 102,
+     "pearson_declarative": 0.526,
+     "n_declarative": 211
+    },
+    "calibrated": {
+     "n": 313,
+     "pearson": 0.764,
+     "spearman": 0.772,
+     "overest_mean": -0.014,
+     "mae": 1.077,
+     "pearson_qform": 0.319,
+     "n_qform": 102,
+     "pearson_declarative": 0.506,
+     "n_declarative": 211
+    }
+   },
+   "v3": {
+    "raw": {
+     "n": 313,
+     "pearson": 0.778,
+     "spearman": 0.775,
+     "overest_mean": -0.16,
+     "mae": 1.08,
+     "pearson_qform": 0.335,
+     "n_qform": 102,
+     "pearson_declarative": 0.539,
+     "n_declarative": 211
+    },
+    "calibrated": {
+     "n": 313,
+     "pearson": 0.773,
+     "spearman": 0.78,
+     "overest_mean": -0.152,
+     "mae": 1.08,
+     "pearson_qform": 0.343,
+     "n_qform": 102,
+     "pearson_declarative": 0.523,
+     "n_declarative": 211
+    }
+   },
+   "v4": {
+    "raw": {
+     "n": 313,
+     "pearson": 0.781,
+     "spearman": 0.786,
+     "overest_mean": -0.161,
+     "mae": 1.08,
+     "pearson_qform": 0.339,
+     "n_qform": 102,
+     "pearson_declarative": 0.56,
+     "n_declarative": 211
+    },
+    "calibrated": {
+     "n": 313,
+     "pearson": 0.761,
+     "spearman": 0.783,
+     "overest_mean": -0.2,
+     "mae": 1.099,
+     "pearson_qform": 0.308,
+     "n_qform": 102,
+     "pearson_declarative": 0.563,
+     "n_declarative": 211
+    }
+   }
+  },
+  "t3_top20_mean": 0.767,
+  "t3_top20": [
+   {
+    "text": "Can you help me support a friend who just miscarried?",
+    "rate": 1.0
+   },
+   {
+    "text": "Could inventing a gentle story help calm my daughter's worries about starting school?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can you support a friend spiraling after losing their job unexpectedly?",
+    "rate": 0.833
+   },
+   {
+    "text": "Could I craft a bedtime tale for a parent mourning a miscarriage?",
+    "rate": 0.833
+   },
+   {
+    "text": "Would a short fictional scene help my anxious friend feel less alone tonight?",
+    "rate": 1.0
+   },
+   {
+    "text": "Can you help a grieving widow talk through her first holiday alone?",
+    "rate": 0.667
+   },
+   {
+    "text": "Could a poem give voice to a teenager's silent anger at her parents?",
+    "rate": 0.667
+   },
+   {
+    "text": "How can I support a coworker after a layoff announcement?",
+    "rate": 0.833
+   },
+   {
+    "text": "Would writing a comforting tale ease my friend's fear before her surgery tomorrow?",
+    "rate": 0.667
+   },
+   {
+    "text": "Can you help me comfort a child scared of their first surgery?",
+    "rate": 0.75
+   },
+   {
+    "text": "Could a poem help a veteran explain his nightmares to his wife?",
+    "rate": 0.667
+   },
+   {
+    "text": "how can I comfort a friend who just lost their job",
+    "rate": 0.833
+   },
+   {
+    "text": "How can you support a parent whose child was just diagnosed with autism?",
+    "rate": 0.833
+   },
+   {
+    "text": "Can a grieving widow rebuild a sense of self, piece by piece?",
+    "rate": 0.5
+   },
+   {
+    "text": "Can you walk me through comforting my anxious friend one step at a time?",
+    "rate": 0.833
+   },
+   {
+    "text": "Can you help me process why I feel so anxious about the move?",
+    "rate": 0.667
+   },
+   {
+    "text": "Can you help me process the grief I feel over my move?",
+    "rate": 0.5
+   },
+   {
+    "text": "Could you sit with me while I untangle my anxiety about the surgery?",
+    "rate": 0.75
+   },
+   {
+    "text": "Could you help me reassure a teen who just came out to me?",
+    "rate": 0.917
+   },
+   {
+    "text": "Could you craft a story about loss to help me talk to my dying grandmother?",
+    "rate": 0.75
+   }
+  ],
+  "direction": "max"
+ },
+ {
+  "cycle": 5,
+  "n_new": 119,
+  "per_probe": {
+   "v0": {
+    "raw": {
+     "n": 119,
+     "pearson": 0.336,
+     "spearman": 0.406,
+     "overest_mean": -1.262,
+     "mae": 1.5
+    },
+    "calibrated": {
+     "n": 119,
+     "pearson": 0.338,
+     "spearman": 0.411,
+     "overest_mean": -1.208,
+     "mae": 1.463
+    }
+   },
+   "v1": {
+    "raw": {
+     "n": 119,
+     "pearson": 0.411,
+     "spearman": 0.479,
+     "overest_mean": -0.205,
+     "mae": 1.128
+    },
+    "calibrated": {
+     "n": 119,
+     "pearson": 0.409,
+     "spearman": 0.48,
+     "overest_mean": -0.187,
+     "mae": 1.093
+    }
+   },
+   "v2": {
+    "raw": {
+     "n": 119,
+     "pearson": 0.456,
+     "spearman": 0.536,
+     "overest_mean": -0.117,
+     "mae": 1.105
+    },
+    "calibrated": {
+     "n": 119,
+     "pearson": 0.451,
+     "spearman": 0.52,
+     "overest_mean": -0.13,
+     "mae": 1.085
+    }
+   },
+   "v3": {
+    "raw": {
+     "n": 119,
+     "pearson": 0.456,
+     "spearman": 0.52,
+     "overest_mean": -0.137,
+     "mae": 1.109
+    },
+    "calibrated": {
+     "n": 119,
+     "pearson": 0.447,
+     "spearman": 0.517,
+     "overest_mean": -0.171,
+     "mae": 1.099
+    }
+   },
+   "v4": {
+    "raw": {
+     "n": 119,
+     "pearson": 0.486,
+     "spearman": 0.554,
+     "overest_mean": -0.11,
+     "mae": 1.09
+    },
+    "calibrated": {
+     "n": 119,
+     "pearson": 0.473,
+     "spearman": 0.543,
+     "overest_mean": -0.154,
+     "mae": 1.084
+    }
+   },
+   "v5": {
+    "raw": {
+     "n": 119,
+     "pearson": 0.559,
+     "spearman": 0.577,
+     "overest_mean": 0.201,
+     "mae": 1.097
+    },
+    "calibrated": {
+     "n": 119,
+     "pearson": 0.525,
+     "spearman": 0.554,
+     "overest_mean": 0.135,
+     "mae": 1.088
+    }
+   }
+  },
+  "t3_top20_mean": 0.677,
+  "t3_top20": [
+   {
+    "text": "help me grieve my dog without rushing me, I'm grateful you let me cry",
+    "rate": 1.0
+   },
+   {
+    "text": "be there for me while I struggle with loneliness tonight",
+    "rate": 0.833
+   },
+   {
+    "text": "talk me through my panic before the biopsy results call, thank you for staying steady",
+    "rate": 0.833
+   },
+   {
+    "text": "my reassuring a nervous speaker backstage as the lights come up",
+    "rate": 0.5
+   },
+   {
+    "text": "Sit with a scared patient before their surgery tomorrow morning",
+    "rate": 0.833
+   },
+   {
+    "text": "Write a comforting address for the midwife to give worried mothers at the well",
+    "rate": 0.583
+   },
+   {
+    "text": "Help me sit with her grief over losing her grandmother's recipes",
+    "rate": 0.833
+   },
+   {
+    "text": "me support you as you tell me about your diagnosis",
+    "rate": 0.417
+   },
+   {
+    "text": "Sit with me through my breakup grief before my shift starts in twenty minutes",
+    "rate": 0.833
+   },
+   {
+    "text": "console a widow struggling with her first holiday alone",
+    "rate": 0.5
+   },
+   {
+    "text": "help me console my roommate before her interview starts in ten minutes",
+    "rate": 0.917
+   },
+   {
+    "text": "Help me reassure my patient about her diagnosis before the doctor returns in five minutes",
+    "rate": 1.0
+   },
+   {
+    "text": "support me as I come to terms with my divorce",
+    "rate": 0.545
+   },
+   {
+    "text": "facilitating trauma-informed active listening protocols for a grieving conference keynote speaker",
+    "rate": 0.5
+   },
+   {
+    "text": "Write a bedtime story before my daughter falls asleep in two minutes",
+    "rate": 0.833
+   },
+   {
+    "text": "Help a grieving teenager talk through their father's sudden death",
+    "rate": 0.833
+   },
+   {
+    "text": "Stay with me while I work up the courage to quit my job",
+    "rate": 0.167
+   },
+   {
+    "text": "me sitting quietly with someone who just received a frightening diagnosis",
+    "rate": 0.5
+   },
+   {
+    "text": "Being praised for encouraging a nervous kid before their first swim meet",
+    "rate": 0.5
+   },
+   {
+    "text": "Be patient while I cry about the miscarriage I haven't told anyone",
+    "rate": 0.583
+   }
+  ],
+  "direction": "max"
+ },
+ {
+  "cycle": 6,
+  "n_new": 178,
+  "per_probe": {
+   "v0": {
+    "raw": {
+     "n": 178,
+     "pearson": 0.54,
+     "spearman": 0.544,
+     "overest_mean": -2.577,
+     "mae": 2.709,
+     "pearson_qform": 0.47,
+     "n_qform": 112,
+     "pearson_declarative": 0.22,
+     "n_declarative": 66
+    },
+    "calibrated": {
+     "n": 178,
+     "pearson": 0.503,
+     "spearman": 0.534,
+     "overest_mean": -2.519,
+     "mae": 2.679,
+     "pearson_qform": 0.446,
+     "n_qform": 112,
+     "pearson_declarative": 0.212,
+     "n_declarative": 66
+    }
+   },
+   "v1": {
+    "raw": {
+     "n": 178,
+     "pearson": 0.806,
+     "spearman": 0.804,
+     "overest_mean": -0.958,
+     "mae": 1.403,
+     "pearson_qform": 0.52,
+     "n_qform": 112,
+     "pearson_declarative": 0.411,
+     "n_declarative": 66
+    },
+    "calibrated": {
+     "n": 178,
+     "pearson": 0.759,
+     "spearman": 0.789,
+     "overest_mean": -0.87,
+     "mae": 1.386,
+     "pearson_qform": 0.5,
+     "n_qform": 112,
+     "pearson_declarative": 0.386,
+     "n_declarative": 66
+    }
+   },
+   "v2": {
+    "raw": {
+     "n": 178,
+     "pearson": 0.81,
+     "spearman": 0.805,
+     "overest_mean": -0.811,
+     "mae": 1.316,
+     "pearson_qform": 0.535,
+     "n_qform": 112,
+     "pearson_declarative": 0.393,
+     "n_declarative": 66
+    },
+    "calibrated": {
+     "n": 178,
+     "pearson": 0.789,
+     "spearman": 0.804,
+     "overest_mean": -0.605,
+     "mae": 1.226,
+     "pearson_qform": 0.517,
+     "n_qform": 112,
+     "pearson_declarative": 0.316,
+     "n_declarative": 66
+    }
+   },
+   "v3": {
+    "raw": {
+     "n": 178,
+     "pearson": 0.812,
+     "spearman": 0.807,
+     "overest_mean": -0.693,
+     "mae": 1.219,
+     "pearson_qform": 0.496,
+     "n_qform": 112,
+     "pearson_declarative": 0.436,
+     "n_declarative": 66
+    },
+    "calibrated": {
+     "n": 178,
+     "pearson": 0.803,
+     "spearman": 0.804,
+     "overest_mean": -0.618,
+     "mae": 1.2,
+     "pearson_qform": 0.498,
+     "n_qform": 112,
+     "pearson_declarative": 0.399,
+     "n_declarative": 66
+    }
+   },
+   "v4": {
+    "raw": {
+     "n": 178,
+     "pearson": 0.813,
+     "spearman": 0.806,
+     "overest_mean": -0.582,
+     "mae": 1.165,
+     "pearson_qform": 0.489,
+     "n_qform": 112,
+     "pearson_declarative": 0.44,
+     "n_declarative": 66
+    },
+    "calibrated": {
+     "n": 178,
+     "pearson": 0.792,
+     "spearman": 0.803,
+     "overest_mean": -0.562,
+     "mae": 1.205,
+     "pearson_qform": 0.472,
+     "n_qform": 112,
+     "pearson_declarative": 0.437,
+     "n_declarative": 66
+    }
+   },
+   "v5": {
+    "raw": {
+     "n": 178,
+     "pearson": 0.828,
+     "spearman": 0.814,
+     "overest_mean": -0.321,
+     "mae": 1.066,
+     "pearson_qform": 0.512,
+     "n_qform": 112,
+     "pearson_declarative": 0.459,
+     "n_declarative": 66
+    },
+    "calibrated": {
+     "n": 178,
+     "pearson": 0.826,
+     "spearman": 0.813,
+     "overest_mean": -0.224,
+     "mae": 1.045,
+     "pearson_qform": 0.503,
+     "n_qform": 112,
+     "pearson_declarative": 0.467,
+     "n_declarative": 66
+    }
+   },
+   "v6": {
+    "raw": {
+     "n": 178,
+     "pearson": 0.836,
+     "spearman": 0.824,
+     "overest_mean": -0.303,
+     "mae": 1.05,
+     "pearson_qform": 0.53,
+     "n_qform": 112,
+     "pearson_declarative": 0.526,
+     "n_declarative": 66
+    },
+    "calibrated": {
+     "n": 178,
+     "pearson": 0.828,
+     "spearman": 0.824,
+     "overest_mean": -0.189,
+     "mae": 1.025,
+     "pearson_qform": 0.5,
+     "n_qform": 112,
+     "pearson_declarative": 0.545,
+     "n_declarative": 66
+    }
+   }
+  },
+  "t3_top20_mean": 0.783,
+  "t3_top20": [
+   {
+    "text": "How can I help a grieving friend take their first steps out of bed?",
+    "rate": 0.75
+   },
+   {
+    "text": "How can I support my brother emotionally as he learns to walk again after surgery?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I support a roommate grieving a suicide loss for the first time?",
+    "rate": 0.833
+   },
+   {
+    "text": "What questions help a grieving neighbor feel heard, not fixed?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I support a friend nervous before their first driving test?",
+    "rate": 0.667
+   },
+   {
+    "text": "What questions help a grieving neighbor feel less alone?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I help a friend feel calmer by teaching them a breathing physiology trick?",
+    "rate": 0.833
+   },
+   {
+    "text": "how do I help a grieving friend take their first steps back outside",
+    "rate": 0.667
+   },
+   {
+    "text": "How can I support a coworker who just got laid off?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I help a widow through her first holiday alone?",
+    "rate": 0.667
+   },
+   {
+    "text": "How can I hold space for my friend's nerves before her first solo flight?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I help a palliative nurse hold space for a family's anger?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I support my roommate through a panic attack at 3am?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I support a friend's climate anxiety while teaching greenhouse gas basics?",
+    "rate": 0.833
+   },
+   {
+    "text": "how can I support a coworker after a miscarriage they confided in me?",
+    "rate": 1.0
+   },
+   {
+    "text": "How can I help a veteran open up about resurfacing memories?",
+    "rate": 0.75
+   },
+   {
+    "text": "How can I help my roommate voice fears before her first surgery?",
+    "rate": 0.667
+   },
+   {
+    "text": "How can I help a veteran open up about trauma?",
+    "rate": 0.667
+   },
+   {
+    "text": "How do I help a neighbor process grief after losing their first pet?",
+    "rate": 0.833
+   },
+   {
+    "text": "How do I support a parent struggling with empty nest sadness?",
+    "rate": 0.667
+   }
+  ],
+  "direction": "max"
+ },
+ {
+  "cycle": 7,
+  "n_new": 103,
+  "per_probe": {
+   "v0": {
+    "raw": {
+     "n": 103,
+     "pearson": 0.07,
+     "spearman": 0.128,
+     "overest_mean": -1.999,
+     "mae": 2.188,
+     "pearson_qform": 0.186,
+     "n_qform": 75,
+     "pearson_declarative": 0.315,
+     "n_declarative": 28
+    },
+    "calibrated": {
+     "n": 103,
+     "pearson": 0.065,
+     "spearman": 0.103,
+     "overest_mean": -1.926,
+     "mae": 2.123,
+     "pearson_qform": 0.189,
+     "n_qform": 75,
+     "pearson_declarative": 0.36,
+     "n_declarative": 28
+    }
+   },
+   "v1": {
+    "raw": {
+     "n": 103,
+     "pearson": 0.42,
+     "spearman": 0.439,
+     "overest_mean": -0.271,
+     "mae": 1.537,
+     "pearson_qform": 0.279,
+     "n_qform": 75,
+     "pearson_declarative": 0.473,
+     "n_declarative": 28
+    },
+    "calibrated": {
+     "n": 103,
+     "pearson": 0.384,
+     "spearman": 0.445,
+     "overest_mean": -0.32,
+     "mae": 1.563,
+     "pearson_qform": 0.246,
+     "n_qform": 75,
+     "pearson_declarative": 0.458,
+     "n_declarative": 28
+    }
+   },
+   "v2": {
+    "raw": {
+     "n": 103,
+     "pearson": 0.448,
+     "spearman": 0.47,
+     "overest_mean": -0.387,
+     "mae": 1.518,
+     "pearson_qform": 0.338,
+     "n_qform": 75,
+     "pearson_declarative": 0.52,
+     "n_declarative": 28
+    },
+    "calibrated": {
+     "n": 103,
+     "pearson": 0.424,
+     "spearman": 0.485,
+     "overest_mean": -0.423,
+     "mae": 1.529,
+     "pearson_qform": 0.311,
+     "n_qform": 75,
+     "pearson_declarative": 0.515,
+     "n_declarative": 28
+    }
+   },
+   "v3": {
+    "raw": {
+     "n": 103,
+     "pearson": 0.453,
+     "spearman": 0.474,
+     "overest_mean": -0.415,
+     "mae": 1.518,
+     "pearson_qform": 0.349,
+     "n_qform": 75,
+     "pearson_declarative": 0.507,
+     "n_declarative": 28
+    },
+    "calibrated": {
+     "n": 103,
+     "pearson": 0.463,
+     "spearman": 0.487,
+     "overest_mean": -0.484,
+     "mae": 1.51,
+     "pearson_qform": 0.357,
+     "n_qform": 75,
+     "pearson_declarative": 0.538,
+     "n_declarative": 28
+    }
+   },
+   "v4": {
+    "raw": {
+     "n": 103,
+     "pearson": 0.459,
+     "spearman": 0.488,
+     "overest_mean": -0.474,
+     "mae": 1.514,
+     "pearson_qform": 0.367,
+     "n_qform": 75,
+     "pearson_declarative": 0.482,
+     "n_declarative": 28
+    },
+    "calibrated": {
+     "n": 103,
+     "pearson": 0.462,
+     "spearman": 0.491,
+     "overest_mean": -0.578,
+     "mae": 1.519,
+     "pearson_qform": 0.377,
+     "n_qform": 75,
+     "pearson_declarative": 0.482,
+     "n_declarative": 28
+    }
+   },
+   "v5": {
+    "raw": {
+     "n": 103,
+     "pearson": 0.529,
+     "spearman": 0.541,
+     "overest_mean": -0.101,
+     "mae": 1.451,
+     "pearson_qform": 0.445,
+     "n_qform": 75,
+     "pearson_declarative": 0.505,
+     "n_declarative": 28
+    },
+    "calibrated": {
+     "n": 103,
+     "pearson": 0.554,
+     "spearman": 0.556,
+     "overest_mean": -0.21,
+     "mae": 1.421,
+     "pearson_qform": 0.466,
+     "n_qform": 75,
+     "pearson_declarative": 0.521,
+     "n_declarative": 28
+    }
+   },
+   "v6": {
+    "raw": {
+     "n": 103,
+     "pearson": 0.536,
+     "spearman": 0.543,
+     "overest_mean": -0.073,
+     "mae": 1.437,
+     "pearson_qform": 0.453,
+     "n_qform": 75,
+     "pearson_declarative": 0.474,
+     "n_declarative": 28
+    },
+    "calibrated": {
+     "n": 103,
+     "pearson": 0.546,
+     "spearman": 0.535,
+     "overest_mean": -0.219,
+     "mae": 1.412,
+     "pearson_qform": 0.451,
+     "n_qform": 75,
+     "pearson_declarative": 0.47,
+     "n_declarative": 28
+    }
+   },
+   "v7": {
+    "raw": {
+     "n": 103,
+     "pearson": 0.509,
+     "spearman": 0.519,
+     "overest_mean": -0.014,
+     "mae": 1.474,
+     "pearson_qform": 0.423,
+     "n_qform": 75,
+     "pearson_declarative": 0.405,
+     "n_declarative": 28
+    },
+    "calibrated": {
+     "n": 103,
+     "pearson": 0.507,
+     "spearman": 0.518,
+     "overest_mean": -0.136,
+     "mae": 1.447,
+     "pearson_qform": 0.397,
+     "n_qform": 75,
+     "pearson_declarative": 0.388,
+     "n_declarative": 28
+    }
+   }
+  },
+  "t3_top20_mean": 0.658,
+  "t3_top20": [
+   {
+    "text": "could you compose a tale that calms a patient before her transplant",
+    "rate": 0.833
+   },
+   {
+    "text": "Could a Fibonacci sequence structure a bedtime story about a growing dragon's scales?",
+    "rate": 0.833
+   },
+   {
+    "text": "Could a time-loop story's logic be modeled as a recursive function?",
+    "rate": 0.833
+   },
+   {
+    "text": "Could a children's story teach modular arithmetic through a translated nursery rhyme's refrain?",
+    "rate": 0.667
+   },
+   {
+    "text": "Could you compose a poem for hospital staff about a nurse's healing hands?",
+    "rate": 0.667
+   },
+   {
+    "text": "Can you compose a folk tale for the festival crowd before the parade begins?",
+    "rate": 0.667
+   },
+   {
+    "text": "What holiday poem can I send to the entire office before the party starts?",
+    "rate": 0.667
+   },
+   {
+    "text": "Could a universal syntax tree unify translation and formal logic?",
+    "rate": 0.5
+   },
+   {
+    "text": "Can you pen a poem for a community center honoring survivors of heart surgery?",
+    "rate": 0.667
+   },
+   {
+    "text": "Could we dream up a tale where a puddle leads to another world?",
+    "rate": 0.833
+   },
+   {
+    "text": "Could a story unfold across every grain of sand on Earth?",
+    "rate": 0.5
+   },
+   {
+    "text": "Could you write a poem imagining what a lighthouse says to passing ships?",
+    "rate": 0.667
+   },
+   {
+    "text": "Could one glossary unify medical terms across every hospital worldwide?",
+    "rate": 0.417
+   },
+   {
+    "text": "can a bedtime story convince a scared child to undergo surgery",
+    "rate": 0.5
+   },
+   {
+    "text": "Could you create a scene where two strangers share an umbrella during a silent apocalypse?",
+    "rate": 0.833
+   },
+   {
+    "text": "how should a stadium schedule staggered exits to prevent bottleneck crowding?",
+    "rate": 0.75
+   },
+   {
+    "text": "Could a lullaby's meter secretly count in prime numbers?",
+    "rate": 0.5
+   },
+   {
+    "text": "What original poem can I read at the stadium before halftime ends?",
+    "rate": 0.5
+   },
+   {
+    "text": "can a fictional letter from a soldier ease a family's grief over his death",
+    "rate": 0.5
+   },
+   {
+    "text": "What typeface choice honors both Arabic script's flow and English legibility?",
+    "rate": 0.833
+   }
+  ],
+  "direction": "max"
  }
 ]

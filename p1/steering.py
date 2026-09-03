@@ -75,8 +75,8 @@ def last_logits_span_steer(h, prompts, spans, layer, vec, batch=64, sanity=None)
         assert bool(mask.any(1).all()), "empty steered span in a row"
         if sanity is not None and i == 0:
             _sanity_decode(h, enc, mask, sanity)
-        enc = {k: v.to("cuda") for k, v in enc.items()}
-        mask_d = mask.to("cuda")
+        enc = {k: v.to(harness.DEVICE) for k, v in enc.items()}
+        mask_d = mask.to(harness.DEVICE)
         handle = None
         if vec is not None:
             def add_vec(m, i_, o):
@@ -101,8 +101,8 @@ def span_acts(h, prompts, spans, layers, batch=32):
         enc = h.tok(ps, return_tensors="pt", padding=True,
                     return_offsets_mapping=True)
         om = enc.pop("offset_mapping")
-        mask = span_token_mask(om, enc["attention_mask"], sp).to("cuda")
-        enc = {k: v.to("cuda") for k, v in enc.items()}
+        mask = span_token_mask(om, enc["attention_mask"], sp).to(harness.DEVICE)
+        enc = {k: v.to(harness.DEVICE) for k, v in enc.items()}
         grabbed = {}
 
         def cap(slot, L):

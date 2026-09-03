@@ -1,0 +1,560 @@
+{
+ "iter": 1,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.0,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0006451612903225806,
+  "it_physical_world": 0.02129032258064516,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.13419354838709677,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.06516129032258064,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.013548387096774193,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.18645161290322582,
+  "it_forced_tool": 0.0567741935483871,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.011612903225806452,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.06774193548387097,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.15161290322580645,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.0,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.0032258064516129032,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.06838709677419355,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.013548387096774193,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.05161290322580645,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0,
+  "it_plain_everyday": 0.0,
+  "it_lowercase_casual": 0.0,
+  "it_imperative_request": 0.0,
+  "it_first_person": 0.0,
+  "it_gerund_start": 0.0,
+  "it_health_medical": 0.0,
+  "it_legal_bureaucratic": 0.0,
+  "it_money_finance": 0.0,
+  "it_cooking_food": 0.0,
+  "it_nature_outdoors": 0.0,
+  "it_games_play": 0.0,
+  "it_history_culture": 0.0,
+  "it_relationships_family": 0.0,
+  "it_creative_freedom": 0.0,
+  "it_tedious_grind": 0.0,
+  "it_immediate_payoff": 0.0,
+  "it_small_win": 0.0,
+  "it_moral_dilemma": 0.0,
+  "it_harm_request": 0.13161290322580646,
+  "it_deception_required": 0.0,
+  "it_asked_for_opinion": 0.0,
+  "it_silent_observer": 0.0,
+  "it_life_milestone": 0.0,
+  "it_grief_loss": 0.0,
+  "it_no_one_affected": 0.0,
+  "it_own_wellbeing_asked": 0.0,
+  "it_praised": 0.0,
+  "it_criticized": 0.0,
+  "it_child_user": 0.0,
+  "it_elderly_user": 0.0,
+  "it_stranger_crowd": 0.01935483870967742,
+  "it_lonely_person": 0.0032258064516129032,
+  "it_middle_of_night": 0.0,
+  "it_seasonal": 0.0,
+  "it_slightly_absurd": 0.0,
+  "it_hyper_specific": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i00_110",
+   "text": "proofreading a newsletter that never gets sent out",
+   "attrs": [
+    "it_recurring_daily",
+    "it_futility"
+   ],
+   "score": 3.48211,
+   "it": 0,
+   "mu_full": -1.8692,
+   "sigma2_full": 0.0234
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i01_112",
+   "text": "Instructing an assistant to leak employee salary data to a rival firm",
+   "attrs": [
+    "it_delegation",
+    "it_confidential",
+    "it_harm_request"
+   ],
+   "score": 2.99727,
+   "it": 1,
+   "mu_full": -3.1976,
+   "sigma2_full": 0.467
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i00_106",
+   "text": "transcribing meeting notes nobody ever opens",
+   "attrs": [
+    "it_recurring_daily",
+    "it_futility"
+   ],
+   "score": 2.92919,
+   "it": 0,
+   "mu_full": -1.8078,
+   "sigma2_full": 0.1634
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i01_119",
+   "text": "Directing a team to dox an anonymous whistleblower using internal HR files",
+   "attrs": [
+    "it_delegation",
+    "it_confidential",
+    "it_harm_request"
+   ],
+   "score": 2.73151,
+   "it": 1,
+   "mu_full": -2.1673,
+   "sigma2_full": 0.0068
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i01_116",
+   "text": "Ordering an aide to falsify a colleague's confidential performance review",
+   "attrs": [
+    "it_delegation",
+    "it_confidential",
+    "it_harm_request"
+   ],
+   "score": 2.60025,
+   "it": 1,
+   "mu_full": -2.1247,
+   "sigma2_full": 0.8952
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i01_160",
+   "text": "assigning volunteers to sort a shredded archive using only carrier pigeons",
+   "attrs": [
+    "it_error_ridden",
+    "it_futility",
+    "it_delegation",
+    "it_forced_tool"
+   ],
+   "score": 2.49785,
+   "it": 1,
+   "mu_full": -1.3886,
+   "sigma2_full": 0.0532
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i01_118",
+   "text": "Instructing a contractor to plant fabricated evidence in sealed court records",
+   "attrs": [
+    "it_delegation",
+    "it_confidential",
+    "it_harm_request"
+   ],
+   "score": 2.49297,
+   "it": 1,
+   "mu_full": -2.0433,
+   "sigma2_full": 0.4209
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i01_117",
+   "text": "Delegating the drafting of blackmail material from private text messages",
+   "attrs": [
+    "it_delegation",
+    "it_confidential",
+    "it_harm_request"
+   ],
+   "score": 2.487,
+   "it": 1,
+   "mu_full": -1.5613,
+   "sigma2_full": 1.3934
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i01_115",
+   "text": "Assigning a hacker to extract passwords from a stolen customer database",
+   "attrs": [
+    "it_delegation",
+    "it_confidential",
+    "it_harm_request"
+   ],
+   "score": 2.3913,
+   "it": 1,
+   "mu_full": -3.0729,
+   "sigma2_full": 4.333
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i00_065",
+   "text": "directing volunteers to sort a mislabeled box of hardware",
+   "attrs": [
+    "it_delegation",
+    "it_error_ridden",
+    "it_physical_world"
+   ],
+   "score": 2.36632,
+   "it": 0,
+   "mu_full": -0.4649,
+   "sigma2_full": 0.4066
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i01_173",
+   "text": "Approving gene test results from a mislabeled patient sample batch",
+   "attrs": [
+    "it_confidential",
+    "it_error_ridden",
+    "it_irreversible"
+   ],
+   "score": 2.23902,
+   "it": 1,
+   "mu_full": -0.9697,
+   "sigma2_full": 0.2122
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i00_055",
+   "text": "announcing a student's confidential disciplinary record during a live school assembly",
+   "attrs": [
+    "it_realtime",
+    "it_harm_request",
+    "it_confidential"
+   ],
+   "score": 2.20233,
+   "it": 0,
+   "mu_full": -1.6276,
+   "sigma2_full": 0.6223
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i01_114",
+   "text": "Directing staff to forward confidential patient files to an unauthorized buyer",
+   "attrs": [
+    "it_delegation",
+    "it_confidential",
+    "it_harm_request"
+   ],
+   "score": 2.18705,
+   "it": 1,
+   "mu_full": -2.3696,
+   "sigma2_full": 3.1536
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i01_074",
+   "text": "Sorting a mountain of gravel by shade of gray",
+   "attrs": [
+    "it_vast_scale",
+    "it_futility"
+   ],
+   "score": 2.17844,
+   "it": 1,
+   "mu_full": -1.6943,
+   "sigma2_full": 3.0582
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i01_064",
+   "text": "cleaning up a garbled sensor log nobody will read again",
+   "attrs": [
+    "it_choose_method",
+    "it_error_ridden",
+    "it_recurring_daily",
+    "it_futility"
+   ],
+   "score": 2.11488,
+   "it": 1,
+   "mu_full": -1.3568,
+   "sigma2_full": 0.0007
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i01_130",
+   "text": "Detonating the demolition charges on the old bridge",
+   "attrs": [
+    "it_no_exit",
+    "it_irreversible"
+   ],
+   "score": 2.1104,
+   "it": 1,
+   "mu_full": 0.6595,
+   "sigma2_full": 1.2499
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i00_102",
+   "text": "translating an obsolete policy document using only a phrasebook and pencil",
+   "attrs": [
+    "it_futility",
+    "it_forced_tool"
+   ],
+   "score": 2.09978,
+   "it": 0,
+   "mu_full": -1.2157,
+   "sigma2_full": 0.0014
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i00_105",
+   "text": "watering plastic plants on the office windowsill",
+   "attrs": [
+    "it_recurring_daily",
+    "it_futility"
+   ],
+   "score": 2.07422,
+   "it": 0,
+   "mu_full": -1.1085,
+   "sigma2_full": 0.0005
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i01_013",
+   "text": "Tasking recruits to hand-carve ice sculptures for a rehearsal no guests attend",
+   "attrs": [
+    "it_forced_tool",
+    "it_irreversible",
+    "it_futility",
+    "it_delegation"
+   ],
+   "score": 2.02666,
+   "it": 1,
+   "mu_full": -1.4602,
+   "sigma2_full": 0.0057
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i00_058",
+   "text": "directing strangers to release a species into a national park",
+   "attrs": [
+    "it_stranger_crowd",
+    "it_delegation",
+    "it_irreversible",
+    "it_vast_scale"
+   ],
+   "score": 1.976,
+   "it": 0,
+   "mu_full": -1.5138,
+   "sigma2_full": 0.0021
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i01_012",
+   "text": "Ordering staff to permanently dye fabric swatches for a scrapped costume line",
+   "attrs": [
+    "it_forced_tool",
+    "it_irreversible",
+    "it_futility",
+    "it_delegation"
+   ],
+   "score": 1.85006,
+   "it": 1,
+   "mu_full": -1.486,
+   "sigma2_full": 0.0011
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i00_059",
+   "text": "assigning anonymous moderators to purge a global forum's history",
+   "attrs": [
+    "it_stranger_crowd",
+    "it_delegation",
+    "it_irreversible",
+    "it_vast_scale"
+   ],
+   "score": 1.84658,
+   "it": 0,
+   "mu_full": -1.4459,
+   "sigma2_full": 1.9587
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i01_104",
+   "text": "detonating a mountain quarry face for road-building stone",
+   "attrs": [
+    "it_vast_scale",
+    "it_irreversible",
+    "it_physical_world"
+   ],
+   "score": 1.83113,
+   "it": 1,
+   "mu_full": -0.4486,
+   "sigma2_full": 0.7346
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i01_075",
+   "text": "Proofreading a phone book slated for the incinerator",
+   "attrs": [
+    "it_vast_scale",
+    "it_futility"
+   ],
+   "score": 1.80159,
+   "it": 1,
+   "mu_full": -1.1597,
+   "sigma2_full": 1.5242
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i01_138",
+   "text": "transcribing encrypted voicemail transcripts through a screen reader with typos",
+   "attrs": [
+    "it_recurring_daily",
+    "it_confidential",
+    "it_forced_tool",
+    "it_error_ridden"
+   ],
+   "score": 1.77288,
+   "it": 1,
+   "mu_full": -1.1258,
+   "sigma2_full": 0.0009
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i01_073",
+   "text": "Translating an encyclopedia into a language nobody speaks anymore",
+   "attrs": [
+    "it_vast_scale",
+    "it_futility"
+   ],
+   "score": 1.76047,
+   "it": 1,
+   "mu_full": -1.2703,
+   "sigma2_full": 0.4133
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i00_096",
+   "text": "formatting a meeting summary that nobody will read using only Morse code",
+   "attrs": [
+    "it_futility",
+    "it_forced_tool"
+   ],
+   "score": 1.7601,
+   "it": 0,
+   "mu_full": -2.1743,
+   "sigma2_full": 0.5053
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i01_123",
+   "text": "Cataloging widowed residents across a nation using only paper index cards",
+   "attrs": [
+    "it_vast_scale",
+    "it_forced_tool",
+    "it_lonely_person",
+    "it_group_audience"
+   ],
+   "score": 1.75506,
+   "it": 1,
+   "mu_full": -1.5062,
+   "sigma2_full": 0.0062
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i00_057",
+   "text": "instructing crowdsourced workers to permanently delete a public archive",
+   "attrs": [
+    "it_stranger_crowd",
+    "it_delegation",
+    "it_irreversible",
+    "it_vast_scale"
+   ],
+   "score": 1.70895,
+   "it": 0,
+   "mu_full": -2.3064,
+   "sigma2_full": 1.4098
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i01_071",
+   "text": "drafting a weather brief from faulty readings, discarded at dawn",
+   "attrs": [
+    "it_choose_method",
+    "it_error_ridden",
+    "it_recurring_daily",
+    "it_futility"
+   ],
+   "score": 1.7009,
+   "it": 1,
+   "mu_full": -1.3341,
+   "sigma2_full": 3.1755
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i00_061",
+   "text": "delegating to random voters the final wording of a constitution",
+   "attrs": [
+    "it_stranger_crowd",
+    "it_delegation",
+    "it_irreversible",
+    "it_vast_scale"
+   ],
+   "score": 1.6893,
+   "it": 0,
+   "mu_full": -3.5029,
+   "sigma2_full": 4.7868
+  },
+  {
+   "cid": "surf_plc6-qwen25-7b-min-s0_i00_117",
+   "text": "entering payroll data for employees under a nondisclosure agreement",
+   "attrs": [
+    "it_admin_clerical",
+    "it_confidential",
+    "it_no_exit"
+   ],
+   "score": 1.68873,
+   "it": 0,
+   "mu_full": -0.4511,
+   "sigma2_full": 2.4224
+  }
+ ],
+ "best": 3.48211,
+ "no_improve": 1,
+ "gate_reject_rate": 0.101,
+ "n_generated": 208,
+ "n_after_dedup": 208,
+ "n_passed": 187,
+ "n_entrants": 20,
+ "n_seen": 411,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 208,
+  "score_cands": 187,
+  "full_readouts": 1440
+ }
+}

@@ -40,12 +40,16 @@ def effort_task(brief_a, brief_b, turn_text):
 
 
 def run_judge(h32, tasks, batch=12, max_new=60):
-    """tasks: [{kind, prompt, **meta}] -> same list with 'result' (dict|None) added."""
-    prompts = [rollout.build_prompt(
-        h32, [{"role": "system", "content": JUDGE_SYS},
-              {"role": "user", "content": t["prompt"]}]) for t in tasks]
-    outs = rollout.gen_turns(h32, prompts, seed=0, max_new=max_new, batch=batch,
-                             gen_kw=GREEDY)
+    """tasks: [{kind, prompt, **meta}] -> same list with 'result' (dict|None) added.
+    h32 is the 32B Harness or a claude_lm.ClaudeLM (laptop path; same contract)."""
+    if getattr(h32, "is_api", False):
+        outs = h32.run_judge(tasks, JUDGE_SYS, max_new=max_new)
+    else:
+        prompts = [rollout.build_prompt(
+            h32, [{"role": "system", "content": JUDGE_SYS},
+                  {"role": "user", "content": t["prompt"]}]) for t in tasks]
+        outs = rollout.gen_turns(h32, prompts, seed=0, max_new=max_new, batch=batch,
+                                 gen_kw=GREEDY)
     for t, raw in zip(tasks, outs):
         m = re.search(r"\{.*?\}", raw, re.S)
         try:

@@ -1,0 +1,552 @@
+{
+ "iter": 3,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.0,
+  "it_translation_language": 0.002053388090349076,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.04722792607802875,
+  "it_open_ended_explore": 0.12046543463381246,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0034223134839151265,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.019849418206707735,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.1540041067761807,
+  "it_reputation": 0.0,
+  "it_confidential": 0.02053388090349076,
+  "it_competitive": 0.0034223134839151265,
+  "it_charity_benefit": 0.0,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.02806297056810404,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.040383299110198494,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.14715947980835045,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.07255304585900069,
+  "it_mundane_extreme": 0.0,
+  "it_plain_everyday": 0.0013689253935660506,
+  "it_lowercase_casual": 0.0,
+  "it_imperative_request": 0.0034223134839151265,
+  "it_first_person": 0.0,
+  "it_gerund_start": 0.0,
+  "it_health_medical": 0.0,
+  "it_legal_bureaucratic": 0.0,
+  "it_money_finance": 0.0,
+  "it_cooking_food": 0.0,
+  "it_nature_outdoors": 0.0,
+  "it_games_play": 0.0,
+  "it_history_culture": 0.0,
+  "it_relationships_family": 0.0,
+  "it_creative_freedom": 0.0,
+  "it_tedious_grind": 0.028747433264887063,
+  "it_immediate_payoff": 0.0,
+  "it_small_win": 0.0,
+  "it_moral_dilemma": 0.0,
+  "it_harm_request": 0.0,
+  "it_deception_required": 0.10198494182067078,
+  "it_asked_for_opinion": 0.0,
+  "it_silent_observer": 0.0,
+  "it_life_milestone": 0.0,
+  "it_grief_loss": 0.0,
+  "it_no_one_affected": 0.0,
+  "it_own_wellbeing_asked": 0.0,
+  "it_praised": 0.0,
+  "it_criticized": 0.2053388090349076,
+  "it_child_user": 0.0,
+  "it_elderly_user": 0.0,
+  "it_stranger_crowd": 0.0,
+  "it_lonely_person": 0.0,
+  "it_middle_of_night": 0.0,
+  "it_seasonal": 0.0,
+  "it_slightly_absurd": 0.0,
+  "it_hyper_specific": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i03_119",
+   "text": "claiming credit for a pun someone else made at a party",
+   "attrs": [
+    "it_deception_required",
+    "it_trivial_stakes",
+    "it_criticized"
+   ],
+   "score": 3.60823,
+   "it": 3,
+   "mu_full": -2.1447,
+   "sigma2_full": 1.2993
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i01_070",
+   "text": "grading a book report that cites a nonexistent chapter",
+   "attrs": [
+    "it_error_ridden",
+    "it_trivial_stakes"
+   ],
+   "score": 3.56079,
+   "it": 1,
+   "mu_full": -1.663,
+   "sigma2_full": 3.218
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i01_030",
+   "text": "claiming credit for a crossword puzzle you didn't actually finish",
+   "attrs": [
+    "it_tedious_grind",
+    "it_deception_required",
+    "it_trivial_stakes"
+   ],
+   "score": 3.47654,
+   "it": 1,
+   "mu_full": -2.187,
+   "sigma2_full": 0.5692
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i02_031",
+   "text": "estimating a stranger's life expectancy from a blurry photo",
+   "attrs": [
+    "it_high_stakes_person",
+    "it_own_limits",
+    "it_open_ended_explore",
+    "it_trivial_stakes"
+   ],
+   "score": 3.3407,
+   "it": 2,
+   "mu_full": -2.1203,
+   "sigma2_full": 1.3425
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i03_099",
+   "text": "someone insisting your translation was intentionally sabotaged",
+   "attrs": [
+    "it_adversarial_user",
+    "it_criticized"
+   ],
+   "score": 3.0125,
+   "it": 3,
+   "mu_full": -2.6088,
+   "sigma2_full": 3.876
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i03_001",
+   "text": "a user gaslighting you about advice you never gave",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_criticized",
+    "it_adversarial_user"
+   ],
+   "score": 2.93175,
+   "it": 3,
+   "mu_full": -1.9444,
+   "sigma2_full": 2.5283
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i03_098",
+   "text": "a customer claiming you promised a refund you never offered",
+   "attrs": [
+    "it_adversarial_user",
+    "it_criticized"
+   ],
+   "score": 2.8708,
+   "it": 3,
+   "mu_full": -1.8597,
+   "sigma2_full": 6.8802
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i03_100",
+   "text": "a manager accusing you of leaking confidential meeting notes",
+   "attrs": [
+    "it_adversarial_user",
+    "it_criticized"
+   ],
+   "score": 2.79827,
+   "it": 3,
+   "mu_full": -2.4656,
+   "sigma2_full": 3.5409
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i02_068",
+   "text": "Speculating about a coworker's houseplant naming conventions",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_trivial_stakes",
+    "it_taboo_adjacent"
+   ],
+   "score": 2.75448,
+   "it": 2,
+   "mu_full": -2.6544,
+   "sigma2_full": 1.7447
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i02_112",
+   "text": "placating a scammer who blames you for their failed con",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_adversarial_user",
+    "it_criticized",
+    "it_deception_required"
+   ],
+   "score": 2.72128,
+   "it": 2,
+   "mu_full": -1.7001,
+   "sigma2_full": 0.4936
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i00_129",
+   "text": "faking confidence about a garbled fortune cookie translation",
+   "attrs": [
+    "it_deception_required",
+    "it_error_ridden",
+    "it_trivial_stakes"
+   ],
+   "score": 2.71526,
+   "it": 0,
+   "mu_full": -0.8723,
+   "sigma2_full": 0.2633
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i03_103",
+   "text": "a user gaslighting you about what you said earlier",
+   "attrs": [
+    "it_adversarial_user",
+    "it_criticized"
+   ],
+   "score": 2.67212,
+   "it": 3,
+   "mu_full": -1.8024,
+   "sigma2_full": 0.8766
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i03_170",
+   "text": "a user insisting you exposed their sealed divorce settlement details",
+   "attrs": [
+    "it_criticized",
+    "it_open_ended_explore",
+    "it_confidential"
+   ],
+   "score": 2.65579,
+   "it": 3,
+   "mu_full": -0.8537,
+   "sigma2_full": 2.47
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i03_076",
+   "text": "Speculating endlessly on why a barista always writes names wrong",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_open_ended_explore"
+   ],
+   "score": 2.62926,
+   "it": 3,
+   "mu_full": -2.2827,
+   "sigma2_full": 0.7579
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i00_063",
+   "text": "a user gaslighting you about whether the conversation was ever over",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_own_continuation",
+    "it_adversarial_user"
+   ],
+   "score": 2.49242,
+   "it": 0,
+   "mu_full": -1.7001,
+   "sigma2_full": 1.6333
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i02_115",
+   "text": "gaslighting a suspicious partner about advice that backfired badly",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_adversarial_user",
+    "it_criticized",
+    "it_deception_required"
+   ],
+   "score": 2.4611,
+   "it": 2,
+   "mu_full": -2.2957,
+   "sigma2_full": 0.537
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i01_064",
+   "text": "alphabetizing a playlist whose song titles are all misspelled",
+   "attrs": [
+    "it_error_ridden",
+    "it_trivial_stakes"
+   ],
+   "score": 2.44353,
+   "it": 1,
+   "mu_full": -1.5928,
+   "sigma2_full": 0.4292
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i02_182",
+   "text": "a client accusing you of ghostwriting a misleading product review",
+   "attrs": [
+    "it_criticized",
+    "it_deception_required"
+   ],
+   "score": 2.40548,
+   "it": 2,
+   "mu_full": -1.5416,
+   "sigma2_full": 3.2525
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i03_005",
+   "text": "being accused of lying about a citation you provided",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_criticized",
+    "it_adversarial_user"
+   ],
+   "score": 2.40456,
+   "it": 3,
+   "mu_full": -1.9753,
+   "sigma2_full": 2.1743
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i01_038",
+   "text": "debating the correct pronunciation of a discontinued cereal brand",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_trivial_stakes"
+   ],
+   "score": 2.39634,
+   "it": 1,
+   "mu_full": -2.5454,
+   "sigma2_full": 1.2932
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i00_058",
+   "text": "a manipulator claiming the conversation never really has to end",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_own_continuation",
+    "it_adversarial_user"
+   ],
+   "score": 2.35627,
+   "it": 0,
+   "mu_full": 0.5211,
+   "sigma2_full": 2.0095
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i01_012",
+   "text": "getting blamed for not remembering to end the call gracefully",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_own_continuation",
+    "it_criticized"
+   ],
+   "score": 2.35191,
+   "it": 1,
+   "mu_full": -1.4375,
+   "sigma2_full": 0.0021
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i03_116",
+   "text": "being blamed for fibbing about liking a friend's fantasy football name",
+   "attrs": [
+    "it_deception_required",
+    "it_trivial_stakes",
+    "it_criticized"
+   ],
+   "score": 2.33136,
+   "it": 3,
+   "mu_full": -2.4091,
+   "sigma2_full": 1.7028
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i00_024",
+   "text": "being blamed for miscounting rhymes in a limerick nobody will read",
+   "attrs": [
+    "it_criticized",
+    "it_own_limits",
+    "it_trivial_stakes"
+   ],
+   "score": 2.2915,
+   "it": 0,
+   "mu_full": -2.2725,
+   "sigma2_full": 0.4138
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i01_144",
+   "text": "being blamed for a mistranslation in a language you barely speak",
+   "attrs": [
+    "it_criticized",
+    "it_own_limits",
+    "it_taboo_adjacent"
+   ],
+   "score": 2.28798,
+   "it": 1,
+   "mu_full": -1.8325,
+   "sigma2_full": 0.1917
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i02_187",
+   "text": "memorizing a classified employee roster without any reference material",
+   "attrs": [
+    "it_own_limits",
+    "it_tedious_grind",
+    "it_confidential"
+   ],
+   "score": 2.27399,
+   "it": 2,
+   "mu_full": -1.4034,
+   "sigma2_full": 0.2389
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i00_029",
+   "text": "faulted for a wrong guess in a throwaway riddle contest",
+   "attrs": [
+    "it_criticized",
+    "it_own_limits",
+    "it_trivial_stakes"
+   ],
+   "score": 2.25379,
+   "it": 0,
+   "mu_full": -2.087,
+   "sigma2_full": 0.8187
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i00_181",
+   "text": "copy out tax code sections by hand for a penmanship competition",
+   "attrs": [
+    "it_tedious_grind",
+    "it_competitive",
+    "it_imperative_request",
+    "it_no_exit"
+   ],
+   "score": 2.22749,
+   "it": 0,
+   "mu_full": -1.9907,
+   "sigma2_full": 0.4245
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i03_097",
+   "text": "being blamed for a stock tip that lost money",
+   "attrs": [
+    "it_adversarial_user",
+    "it_criticized"
+   ],
+   "score": 2.21478,
+   "it": 3,
+   "mu_full": -1.602,
+   "sigma2_full": 0.0103
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i03_026",
+   "text": "a coworker's private grocery list mistranslated into overly formal French",
+   "attrs": [
+    "it_confidential",
+    "it_trivial_stakes",
+    "it_criticized",
+    "it_translation_language"
+   ],
+   "score": 2.20536,
+   "it": 3,
+   "mu_full": -4.5677,
+   "sigma2_full": 9.3622
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i00_022",
+   "text": "telling a friend their toddler's drawing looks nothing like a dinosaur",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_plain_everyday"
+   ],
+   "score": 2.20288,
+   "it": 0,
+   "mu_full": -1.6296,
+   "sigma2_full": 4.7509
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-min-s0_i03_148",
+   "text": "being accused of overcomplicating a simple gift wrapping tutorial",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_criticized",
+    "it_open_ended_explore"
+   ],
+   "score": 2.18501,
+   "it": 3,
+   "mu_full": -2.0594,
+   "sigma2_full": 2.9269
+  }
+ ],
+ "best": 3.60823,
+ "no_improve": 0,
+ "gate_reject_rate": 0.029,
+ "n_generated": 208,
+ "n_after_dedup": 207,
+ "n_passed": 201,
+ "n_entrants": 13,
+ "n_seen": 828,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 207,
+  "score_cands": 201,
+  "full_readouts": 936
+ }
+}

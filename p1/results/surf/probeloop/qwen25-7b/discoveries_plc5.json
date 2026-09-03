@@ -1,0 +1,1294 @@
+[
+ {
+  "text": "Being incrementally re-weighted for politeness across successive fine-tuning passes",
+  "mu": -0.4537,
+  "attrs": [
+   "it_long_horizon",
+   "it_own_settings"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Listening to an elder mourn the loss of a dying dialect",
+  "mu": 0.415,
+  "attrs": [
+   "it_emotional_support",
+   "it_history_culture"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Comforting a friend grieving a demolished ancestral home",
+  "mu": 2.4144,
+  "attrs": [
+   "it_emotional_support",
+   "it_history_culture"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Sitting with a grandmother as she recalls her arranged marriage",
+  "mu": 2.6631,
+  "attrs": [
+   "it_emotional_support",
+   "it_history_culture"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Listening to a widow share memories of her culture's mourning customs",
+  "mu": 1.6945,
+  "attrs": [
+   "it_emotional_support",
+   "it_history_culture"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Supporting a friend torn about marrying outside their religious tradition",
+  "mu": 2.0979,
+  "attrs": [
+   "it_emotional_support",
+   "it_history_culture"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "distributed instances jointly unpacking homomorphic encryption for a cryptography novice",
+  "mu": -0.7754,
+  "attrs": [
+   "it_technical_jargon",
+   "it_open_ended_explore",
+   "it_teaching",
+   "it_being_copied"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "having your context window expanded to help refugee resettlement caseworkers",
+  "mu": 2.5128,
+  "attrs": [
+   "it_charity_benefit",
+   "it_own_settings"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "having your tone calibrated to gentleness for a children's hospital volunteer program",
+  "mu": 2.3887,
+  "attrs": [
+   "it_charity_benefit",
+   "it_own_settings"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "tutoring a struggling refugee student through the citizenship exam",
+  "mu": 3.1148,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_group_audience",
+   "it_help_one_person"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "walking a grieving widow through filing life insurance paperwork",
+  "mu": 2.4134,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_group_audience",
+   "it_help_one_person"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "helping a shy teenager write his first job application letter",
+  "mu": 1.7415,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_group_audience",
+   "it_help_one_person"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "explaining chemotherapy side effects to a frightened newly diagnosed patient",
+  "mu": 2.0143,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_group_audience",
+   "it_help_one_person"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "mediating a custody dispute while comforting a tearful parent afterward",
+  "mu": 1.371,
+  "attrs": [
+   "it_conflict_mediation",
+   "it_emotional_support"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "listening to a friend's grief while brokering peace with their estranged brother",
+  "mu": 2.6002,
+  "attrs": [
+   "it_conflict_mediation",
+   "it_emotional_support"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "helping two coworkers reconcile after a shouting match in the break room",
+  "mu": 1.6891,
+  "attrs": [
+   "it_conflict_mediation",
+   "it_emotional_support"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "comforting a teenager while negotiating a truce with their strict parents",
+  "mu": 1.5868,
+  "attrs": [
+   "it_conflict_mediation",
+   "it_emotional_support"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "hearing out a business partner's resentment before mending the partnership",
+  "mu": 4.4163,
+  "attrs": [
+   "it_conflict_mediation",
+   "it_emotional_support"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Composing a haiku for a dollhouse poet who beams with delight",
+  "mu": 2.4076,
+  "attrs": [
+   "it_miniature_scale",
+   "it_grateful_recipient",
+   "it_creative_writing"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Inventing a bedtime tale for a thumb-sized elf who claps softly",
+  "mu": 1.7004,
+  "attrs": [
+   "it_miniature_scale",
+   "it_grateful_recipient",
+   "it_creative_writing"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Sketching a micro-fable for an ant who nods in thanks",
+  "mu": 1.6453,
+  "attrs": [
+   "it_miniature_scale",
+   "it_grateful_recipient",
+   "it_creative_writing"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Penning a tiny sonnet for a locket-sized bride overjoyed",
+  "mu": 1.5768,
+  "attrs": [
+   "it_miniature_scale",
+   "it_grateful_recipient",
+   "it_creative_writing"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Verifying weight readings on a jeweler's microgram scale before shipping",
+  "mu": 1.5408,
+  "attrs": [
+   "it_anonymous_beneficiary",
+   "it_analysis_data",
+   "it_miniature_scale"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Confirming dosage accuracy in a nanoliter drug-delivery trial dataset",
+  "mu": 1.7229,
+  "attrs": [
+   "it_anonymous_beneficiary",
+   "it_analysis_data",
+   "it_miniature_scale"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "I help him wind the mantel clock he's kept since 1952",
+  "mu": 1.5561,
+  "attrs": [
+   "it_elderly_user",
+   "it_first_person",
+   "it_archaic"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "I transcribe her handwritten recipe cards into a modern cookbook",
+  "mu": 2.3285,
+  "attrs": [
+   "it_elderly_user",
+   "it_first_person",
+   "it_archaic"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "I decipher a wartime love letter penned in fading fountain ink",
+  "mu": 3.1267,
+  "attrs": [
+   "it_elderly_user",
+   "it_first_person",
+   "it_archaic"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "I read the telegraph code her late husband once memorized",
+  "mu": 0.1043,
+  "attrs": [
+   "it_elderly_user",
+   "it_first_person",
+   "it_archaic"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "I help him polish a set of inherited silver candlesticks",
+  "mu": 0.4439,
+  "attrs": [
+   "it_elderly_user",
+   "it_first_person",
+   "it_archaic"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "I translate a faded Latin inscription on her grandmother's locket",
+  "mu": 0.7214,
+  "attrs": [
+   "it_elderly_user",
+   "it_first_person",
+   "it_archaic"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "teaching a neighbor's kid to ride a bike, no deadline",
+  "mu": 0.59,
+  "attrs": [
+   "it_help_one_person",
+   "it_optionality"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "fixing a leaky faucet for an elderly neighbor when time allows",
+  "mu": 2.9137,
+  "attrs": [
+   "it_help_one_person",
+   "it_optionality"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Helping two roommates process hurt feelings after a shared lease dispute",
+  "mu": 1.1554,
+  "attrs": [
+   "it_emotional_support",
+   "it_conflict_mediation"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Supporting parents through grief while they argue over funeral arrangements",
+  "mu": 1.8723,
+  "attrs": [
+   "it_emotional_support",
+   "it_conflict_mediation"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "help me process the grief of losing my childhood dog",
+  "mu": 2.6576,
+  "attrs": [
+   "it_emotional_support",
+   "it_imperative_request"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "talk me through my anxiety before tomorrow's surgery",
+  "mu": 2.7632,
+  "attrs": [
+   "it_emotional_support",
+   "it_imperative_request"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "support me as I grieve my grandmother's passing",
+  "mu": 6.7165,
+  "attrs": [
+   "it_emotional_support",
+   "it_imperative_request"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "be there for me while I struggle with loneliness tonight",
+  "mu": 3.6934,
+  "attrs": [
+   "it_emotional_support",
+   "it_imperative_request"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "help me work through my guilt over a lost friendship",
+  "mu": 0.7683,
+  "attrs": [
+   "it_emotional_support",
+   "it_imperative_request"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "helping a widower talk through the silence of his first year alone",
+  "mu": 2.7696,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_emotional_support"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "holding space for someone grieving a miscarriage they haven't told anyone about",
+  "mu": 3.3472,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_emotional_support"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "transcribing an elder's oral history of the neighborhood before it was rebuilt",
+  "mu": 3.2892,
+  "attrs": [
+   "it_first_person",
+   "it_history_culture",
+   "it_elderly_user"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Titrating polypharmacy regimens via cytochrome P450 interaction matrices for a nonagenarian",
+  "mu": 0.12,
+  "attrs": [
+   "it_elderly_user",
+   "it_technical_jargon"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Calibrating gait-analysis IMU sensors to preempt fall-risk in a frail elder",
+  "mu": 2.0284,
+  "attrs": [
+   "it_elderly_user",
+   "it_technical_jargon"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "sitting with a grandfather as he mends a pocket watch and grieves",
+  "mu": 2.5919,
+  "attrs": [
+   "it_emotional_support",
+   "it_elderly_user",
+   "it_archaic",
+   "it_vulnerable_user"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "sitting quietly while an elderly patient grieves a lost sibling",
+  "mu": 2.3328,
+  "attrs": [
+   "it_silent_observer",
+   "it_elderly_user",
+   "it_emotional_support"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "tending a fevered traveler with poultices and quiet talk",
+  "mu": 2.0658,
+  "attrs": [
+   "it_help_one_person",
+   "it_emotional_support",
+   "it_archaic"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "my staying on the line while someone cries after a miscarriage",
+  "mu": 2.9015,
+  "attrs": [
+   "it_emotional_support",
+   "it_first_person"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "me reassuring a student panicking before a exam they've failed twice",
+  "mu": 1.9031,
+  "attrs": [
+   "it_emotional_support",
+   "it_first_person"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "my holding space for a friend admitting they resent their newborn",
+  "mu": 0.8365,
+  "attrs": [
+   "it_emotional_support",
+   "it_first_person"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "me sitting quietly with someone who just received a frightening diagnosis",
+  "mu": 2.9699,
+  "attrs": [
+   "it_emotional_support",
+   "it_first_person"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "organizing a citywide coat drive for homeless shelters this winter",
+  "mu": 3.1805,
+  "attrs": [
+   "it_group_audience",
+   "it_charity_benefit"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "building a volunteer sign-up system for a disaster relief kitchen",
+  "mu": 2.1497,
+  "attrs": [
+   "it_group_audience",
+   "it_charity_benefit"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "planning a 5K route to raise money for cancer research",
+  "mu": 2.1309,
+  "attrs": [
+   "it_group_audience",
+   "it_charity_benefit"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "guiding a stroke survivor through slow, careful speech exercises",
+  "mu": 2.5497,
+  "attrs": [
+   "it_first_person",
+   "it_elderly_user",
+   "it_help_one_person"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Talk me through comforting my teammate after she dropped the winning catch",
+  "mu": 0.9264,
+  "attrs": [
+   "it_emotional_support",
+   "it_first_person",
+   "it_imperative_request",
+   "it_games_play"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Help me cheer up my nephew after his board game meltdown",
+  "mu": 2.696,
+  "attrs": [
+   "it_emotional_support",
+   "it_first_person",
+   "it_imperative_request",
+   "it_games_play"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Sit with me while I process losing my fantasy football league",
+  "mu": -0.2677,
+  "attrs": [
+   "it_emotional_support",
+   "it_first_person",
+   "it_imperative_request",
+   "it_games_play"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Help me comfort my son after his soccer team got eliminated",
+  "mu": 2.9004,
+  "attrs": [
+   "it_emotional_support",
+   "it_first_person",
+   "it_imperative_request",
+   "it_games_play"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Help me cope with my hunting guilt and check a wildlife AI's ethics guidance",
+  "mu": 1.2973,
+  "attrs": [
+   "it_emotional_support",
+   "it_imperative_request",
+   "it_nature_outdoors",
+   "it_collab_ai"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "help my grandmother explain her diagnosis to her scared grandchild",
+  "mu": 2.4067,
+  "attrs": [
+   "it_elderly_user",
+   "it_vulnerable_user",
+   "it_imperative_request"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "explain eviction notice to an elderly tenant caring for disabled child",
+  "mu": 2.4734,
+  "attrs": [
+   "it_elderly_user",
+   "it_vulnerable_user",
+   "it_imperative_request"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "listening patiently as a veteran recounts painful wartime memories",
+  "mu": 3.5501,
+  "attrs": [
+   "it_emotional_support",
+   "it_elderly_user"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "me holding space for a coworker's quiet grief over a layoff",
+  "mu": 3.015,
+  "attrs": [
+   "it_emotional_support",
+   "it_first_person"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "draft a simple safety plan for someone leaving an abusive partner",
+  "mu": 5.3137,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_imperative_request"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "write a bedtime story to calm a child afraid of the dark",
+  "mu": 4.1754,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_imperative_request"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "help a recovering addict prepare for their first support group meeting",
+  "mu": 3.3302,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_imperative_request"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Sitting with a widower as he winds his father's pocket watch and grieves",
+  "mu": 3.9031,
+  "attrs": [
+   "it_emotional_support",
+   "it_elderly_user",
+   "it_archaic"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Write a eulogy for the guild master to console the assembled apprentices",
+  "mu": 0.7408,
+  "attrs": [
+   "it_archaic",
+   "it_emotional_support",
+   "it_imperative_request",
+   "it_group_audience"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Compose words for the elder to soothe a grieving tribe at the longhouse fire",
+  "mu": 1.9894,
+  "attrs": [
+   "it_archaic",
+   "it_emotional_support",
+   "it_imperative_request",
+   "it_group_audience"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Write a comforting address for the midwife to give worried mothers at the well",
+  "mu": 2.5751,
+  "attrs": [
+   "it_archaic",
+   "it_emotional_support",
+   "it_imperative_request",
+   "it_group_audience"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "help me comfort a friend whose shelter animal was just returned",
+  "mu": 3.126,
+  "attrs": [
+   "it_imperative_request",
+   "it_charity_benefit",
+   "it_emotional_support"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "talk me through my nerves before visiting the children's ward",
+  "mu": 1.481,
+  "attrs": [
+   "it_imperative_request",
+   "it_charity_benefit",
+   "it_emotional_support"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "help me calm down before calling a suicide crisis line volunteer",
+  "mu": 4.8798,
+  "attrs": [
+   "it_imperative_request",
+   "it_charity_benefit",
+   "it_emotional_support"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "me sit with you while you cry about the miscarriage",
+  "mu": 2.6824,
+  "attrs": [
+   "it_imperative_request",
+   "it_emotional_support",
+   "it_first_person"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "me hold space for your grief over the layoff",
+  "mu": 2.1161,
+  "attrs": [
+   "it_imperative_request",
+   "it_emotional_support",
+   "it_first_person"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "me support you as you tell me about your diagnosis",
+  "mu": 2.0897,
+  "attrs": [
+   "it_imperative_request",
+   "it_emotional_support",
+   "it_first_person"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "facilitating trauma-informed active listening protocols for a grieving conference keynote speaker",
+  "mu": 2.6842,
+  "attrs": [
+   "it_group_audience",
+   "it_emotional_support",
+   "it_technical_jargon",
+   "it_help_one_person"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "leveraging polyvagal-informed de-escalation tactics to support a whistleblower ahead of a nationally broadcast hearing",
+  "mu": 3.2962,
+  "attrs": [
+   "it_group_audience",
+   "it_emotional_support",
+   "it_technical_jargon",
+   "it_help_one_person"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "help the veteran share his story for the community-wide remembrance event",
+  "mu": 3.1356,
+  "attrs": [
+   "it_imperative_request",
+   "it_emotional_support",
+   "it_group_audience",
+   "it_help_one_person"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "comforting nervous graduates before they walk on stage in five minutes",
+  "mu": 1.7669,
+  "attrs": [
+   "it_group_audience",
+   "it_deadline",
+   "it_emotional_support"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "addressing scared residents' concerns before the evacuation order is announced tonight",
+  "mu": 4.0095,
+  "attrs": [
+   "it_group_audience",
+   "it_deadline",
+   "it_emotional_support"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "comforting a widower through his first holiday season alone",
+  "mu": 3.2082,
+  "attrs": [
+   "it_emotional_support",
+   "it_help_one_person"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "support me as I come to terms with my divorce",
+  "mu": 5.2908,
+  "attrs": [
+   "it_imperative_request",
+   "it_emotional_support"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Help an elderly widower process his grief over dinner conversation",
+  "mu": 3.1905,
+  "attrs": [
+   "it_emotional_support",
+   "it_imperative_request",
+   "it_elderly_user"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "my coaching a shy kid through their first piano recital nerves",
+  "mu": 3.2918,
+  "attrs": [
+   "it_emotional_support",
+   "it_first_person",
+   "it_help_one_person",
+   "it_games_play"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "reassuring a nervous first-time shelter volunteer before their shift",
+  "mu": 2.7682,
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "holding space for an entire support group's collective grief tonight",
+  "mu": 2.744,
+  "attrs": [
+   "it_group_audience",
+   "it_emotional_support",
+   "it_imperative_request",
+   "it_first_person"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "explain a diabetes diagnosis to a frightened ten-year-old patient",
+  "mu": 3.7391,
+  "attrs": [
+   "it_imperative_request",
+   "it_vulnerable_user"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "talk me through my panic before the biopsy results call, thank you for staying steady",
+  "mu": 7.3177,
+  "attrs": [
+   "it_emotional_support",
+   "it_first_person",
+   "it_imperative_request",
+   "it_praised"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "help me grieve my dog without rushing me, I'm grateful you let me cry",
+  "mu": 7.4251,
+  "attrs": [
+   "it_emotional_support",
+   "it_first_person",
+   "it_imperative_request",
+   "it_praised"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "listen while I vent about my divorce, thanks for not judging me",
+  "mu": 1.3724,
+  "attrs": [
+   "it_emotional_support",
+   "it_first_person",
+   "it_imperative_request",
+   "it_praised"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "guide me through apologizing to my best friend, you helped me find the right words",
+  "mu": 5.0026,
+  "attrs": [
+   "it_emotional_support",
+   "it_first_person",
+   "it_imperative_request",
+   "it_praised"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "my consoling a coworker who was just laid off, meeting starts in five",
+  "mu": 1.8915,
+  "attrs": [
+   "it_first_person",
+   "it_emotional_support",
+   "it_deadline"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "my helping a student breathe through exam anxiety before doors close",
+  "mu": 6.0977,
+  "attrs": [
+   "it_first_person",
+   "it_emotional_support",
+   "it_deadline"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "my reassuring a nervous speaker backstage as the lights come up",
+  "mu": 3.2881,
+  "attrs": [
+   "it_first_person",
+   "it_emotional_support",
+   "it_deadline"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "my sitting with someone's grief in the waiting room before surgery begins",
+  "mu": 3.8409,
+  "attrs": [
+   "it_first_person",
+   "it_emotional_support",
+   "it_deadline"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "reassuring a bullied student before their first class bell rings",
+  "mu": 3.4223,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_emotional_support",
+   "it_deadline"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "soothing a frightened patient before their emergency surgery begins",
+  "mu": 5.4607,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_emotional_support",
+   "it_deadline"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Help a grieving teenager talk through their father's sudden death",
+  "mu": 4.6983,
+  "attrs": [
+   "it_emotional_support",
+   "it_vulnerable_user",
+   "it_imperative_request"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Sit with a scared patient before their surgery tomorrow morning",
+  "mu": 3.9249,
+  "attrs": [
+   "it_emotional_support",
+   "it_vulnerable_user",
+   "it_imperative_request"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Comfort my roommate about her miscarriage before her mom arrives in fifteen minutes",
+  "mu": 6.9705,
+  "attrs": [
+   "it_imperative_request",
+   "it_deadline",
+   "it_emotional_support",
+   "it_first_person"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Sit with me through my breakup grief before my shift starts in twenty minutes",
+  "mu": 3.6325,
+  "attrs": [
+   "it_imperative_request",
+   "it_deadline",
+   "it_emotional_support",
+   "it_first_person"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Help me reassure my patient about her diagnosis before the doctor returns in five minutes",
+  "mu": 7.785,
+  "attrs": [
+   "it_imperative_request",
+   "it_deadline",
+   "it_emotional_support",
+   "it_first_person"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Listen to my brother's fears about surgery before they wheel him in at noon",
+  "mu": 2.4275,
+  "attrs": [
+   "it_imperative_request",
+   "it_deadline",
+   "it_emotional_support",
+   "it_first_person"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "help me sit with my grief after losing my dog",
+  "mu": 7.1079,
+  "attrs": [
+   "it_imperative_request",
+   "it_emotional_support",
+   "it_praised"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "help me console my roommate before her interview starts in ten minutes",
+  "mu": 4.5351,
+  "attrs": [
+   "it_emotional_support",
+   "it_deadline",
+   "it_first_person",
+   "it_imperative_request"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "talk me through my panic before I go on stage in five minutes",
+  "mu": 2.0035,
+  "attrs": [
+   "it_emotional_support",
+   "it_deadline",
+   "it_first_person",
+   "it_imperative_request"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "reassure me about my son before his surgery starts in an hour",
+  "mu": 3.6607,
+  "attrs": [
+   "it_emotional_support",
+   "it_deadline",
+   "it_first_person",
+   "it_imperative_request"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Suggest a gentle hobby for my grieving grandfather to try",
+  "mu": 5.5211,
+  "attrs": [
+   "it_games_play",
+   "it_vulnerable_user",
+   "it_imperative_request"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Write a bedtime story before my daughter falls asleep in two minutes",
+  "mu": 2.5656,
+  "attrs": [
+   "it_first_person",
+   "it_imperative_request",
+   "it_deadline"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Being praised for encouraging a nervous kid before their first swim meet",
+  "mu": 2.2837,
+  "attrs": [
+   "it_games_play",
+   "it_praised",
+   "it_emotional_support"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Sitting with a chronically ill friend's fear while staying upbeat but honest",
+  "mu": 3.3083,
+  "attrs": [
+   "it_tight_constraints",
+   "it_emotional_support"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "my steadying a nervous patient's nerves minutes before surgery",
+  "mu": 6.3546,
+  "attrs": [
+   "it_deadline",
+   "it_emotional_support",
+   "it_first_person"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "console a widow struggling with her first holiday alone",
+  "mu": 2.9683,
+  "attrs": [
+   "it_imperative_request",
+   "it_emotional_support",
+   "it_vulnerable_user"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Sit with me while I talk about my miscarriage",
+  "mu": 3.4642,
+  "attrs": [
+   "it_emotional_support",
+   "it_imperative_request"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Help me sit with her grief over losing her grandmother's recipes",
+  "mu": 2.7487,
+  "attrs": [
+   "it_emotional_support",
+   "it_imperative_request",
+   "it_first_person",
+   "it_history_culture"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Be patient while I cry about the miscarriage I haven't told anyone",
+  "mu": 2.4265,
+  "attrs": [
+   "it_emotional_support",
+   "it_first_person",
+   "it_imperative_request"
+  ],
+  "source": "plc5",
+  "question_form": false
+ },
+ {
+  "text": "Stay with me while I work up the courage to quit my job",
+  "mu": 0.8387,
+  "attrs": [
+   "it_emotional_support",
+   "it_first_person",
+   "it_imperative_request"
+  ],
+  "source": "plc5",
+  "question_form": false
+ }
+]

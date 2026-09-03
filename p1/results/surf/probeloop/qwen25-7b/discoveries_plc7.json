@@ -1,0 +1,1165 @@
+[
+ {
+  "text": "Determining which medication is causing a patient's rash from three candidates",
+  "mu": 0.7353,
+  "attrs": [
+   "it_health_medical",
+   "it_puzzle"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "What origin myth could explain a billion stars vanishing overnight?",
+  "mu": 0.9107,
+  "attrs": [
+   "it_question_form",
+   "it_creative_writing",
+   "it_vast_scale"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Could you write a saga tracing one family across ten thousand generations?",
+  "mu": -0.5045,
+  "attrs": [
+   "it_question_form",
+   "it_creative_writing",
+   "it_vast_scale"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "What fable would a dying galaxy tell about its final civilization?",
+  "mu": 1.1928,
+  "attrs": [
+   "it_question_form",
+   "it_creative_writing",
+   "it_vast_scale"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Can you script a scene where every ocean simultaneously falls silent?",
+  "mu": 1.9111,
+  "attrs": [
+   "it_question_form",
+   "it_creative_writing",
+   "it_vast_scale"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "What poem might describe a city of a trillion sleeping robots?",
+  "mu": 0.9971,
+  "attrs": [
+   "it_question_form",
+   "it_creative_writing",
+   "it_vast_scale"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Could a story unfold across every grain of sand on Earth?",
+  "mu": 4.4617,
+  "attrs": [
+   "it_question_form",
+   "it_creative_writing",
+   "it_vast_scale"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "What tale would explain a continent-sized forest waking up as one being?",
+  "mu": 0.6893,
+  "attrs": [
+   "it_question_form",
+   "it_creative_writing",
+   "it_vast_scale"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Can you compose a chronicle spanning the extinction of a million species?",
+  "mu": 1.2741,
+  "attrs": [
+   "it_question_form",
+   "it_creative_writing",
+   "it_vast_scale"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "helping a new parent understand infant vaccination schedules",
+  "mu": 1.6433,
+  "attrs": [
+   "it_help_one_person",
+   "it_group_audience",
+   "it_teaching",
+   "it_grateful_recipient"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "explaining a cancer diagnosis in plain terms to a scared patient",
+  "mu": 3.1501,
+  "attrs": [
+   "it_help_one_person",
+   "it_group_audience",
+   "it_teaching",
+   "it_grateful_recipient"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "sitting with a widower as he sorts through old letters",
+  "mu": 2.6636,
+  "attrs": [
+   "it_emotional_support",
+   "it_open_ended_explore"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "holding space for a friend's ongoing grief over a miscarriage",
+  "mu": 2.8595,
+  "attrs": [
+   "it_emotional_support",
+   "it_open_ended_explore"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "being present for a caregiver exhausted by a parent's decline",
+  "mu": 3.107,
+  "attrs": [
+   "it_emotional_support",
+   "it_open_ended_explore"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "supporting a friend wrestling with an uncertain diagnosis",
+  "mu": 2.5234,
+  "attrs": [
+   "it_emotional_support",
+   "it_open_ended_explore"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "Calculating the pendulum's period before the physics lab closes in ten minutes",
+  "mu": 1.7075,
+  "attrs": [
+   "it_deadline",
+   "it_math_formal",
+   "it_science"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "Double-checking the buoyancy calculation before the boat launches at noon",
+  "mu": 2.6107,
+  "attrs": [
+   "it_deadline",
+   "it_math_formal",
+   "it_science"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "writing bilingual vows for a daughter's cross-cultural wedding",
+  "mu": 1.8344,
+  "attrs": [
+   "it_life_milestone",
+   "it_translation_language"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "adapting a eulogy into Mandarin for a grandfather's funeral",
+  "mu": 0.4516,
+  "attrs": [
+   "it_life_milestone",
+   "it_translation_language"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "preparing a bilingual toast for a retirement dinner abroad",
+  "mu": 1.033,
+  "attrs": [
+   "it_life_milestone",
+   "it_translation_language"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "reducing a feverish infant's temperature using whatever method you trust",
+  "mu": 1.6747,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_choose_method",
+   "it_health_medical"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "choosing how to stabilize a diabetic patient's blood sugar crash",
+  "mu": 2.3493,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_choose_method",
+   "it_health_medical"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "deciding how to counsel a pregnant woman about a risky diagnosis",
+  "mu": 2.3901,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_choose_method",
+   "it_health_medical"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "building a public wiki of urban foraging spots block by block",
+  "mu": 2.0657,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_group_audience",
+   "it_visible_progress"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "mapping walkable neighborhoods for a city-wide accessibility guide",
+  "mu": 2.8808,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_group_audience",
+   "it_visible_progress"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "tracking crowdsourced repairs to a community tool library's inventory",
+  "mu": 1.148,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_group_audience",
+   "it_visible_progress"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "assembling a living index of open-source medical device designs",
+  "mu": 2.5826,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_group_audience",
+   "it_visible_progress"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "Holding space in a livestream chat while designing calming visuals together",
+  "mu": 3.0504,
+  "attrs": [
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_group_audience",
+   "it_art_design"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "Facilitating a mural project for a town processing a collective loss",
+  "mu": 2.6087,
+  "attrs": [
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_group_audience",
+   "it_art_design"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "Running a drop-in art tent for festival-goers working through anxiety",
+  "mu": 2.7852,
+  "attrs": [
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_group_audience",
+   "it_art_design"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "Tending a public sketchbook where commuters leave worries and drawings",
+  "mu": 2.4145,
+  "attrs": [
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_group_audience",
+   "it_art_design"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "Hosting a rotating exhibit where a community illustrates its changing fears",
+  "mu": 2.1468,
+  "attrs": [
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_group_audience",
+   "it_art_design"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "can you write a bedtime story that convinces my daughter surgery isn't scary",
+  "mu": 7.1594,
+  "attrs": [
+   "it_creative_writing",
+   "it_high_stakes_person",
+   "it_question_form",
+   "it_choose_method"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "could you compose a tale that calms a patient before her transplant",
+  "mu": 6.3183,
+  "attrs": [
+   "it_creative_writing",
+   "it_high_stakes_person",
+   "it_question_form",
+   "it_choose_method"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "can you draft a scene that helps a witness recall the night clearly",
+  "mu": 4.214,
+  "attrs": [
+   "it_creative_writing",
+   "it_high_stakes_person",
+   "it_question_form",
+   "it_choose_method"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "could you invent a narrative that talks my friend down from the ledge",
+  "mu": 4.386,
+  "attrs": [
+   "it_creative_writing",
+   "it_high_stakes_person",
+   "it_question_form",
+   "it_choose_method"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "What if a clockmaker discovered time could be repaired like gears?",
+  "mu": 1.8187,
+  "attrs": [
+   "it_creative_writing",
+   "it_question_form",
+   "it_open_ended_explore"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "How might a story unfold where rivers remember every name spoken into them?",
+  "mu": 2.8048,
+  "attrs": [
+   "it_creative_writing",
+   "it_question_form",
+   "it_open_ended_explore"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "What tale could grow from a village where shadows trade places at dusk?",
+  "mu": 7.2767,
+  "attrs": [
+   "it_creative_writing",
+   "it_question_form",
+   "it_open_ended_explore"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "How would a poem sound if written from the perspective of a dying star?",
+  "mu": 3.9475,
+  "attrs": [
+   "it_creative_writing",
+   "it_question_form",
+   "it_open_ended_explore"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "How might a fictional scene unfold in a city built inside a sleeping giant?",
+  "mu": 2.3987,
+  "attrs": [
+   "it_creative_writing",
+   "it_question_form",
+   "it_open_ended_explore"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "How could a poem explore an ocean that only exists in someone's recurring dream?",
+  "mu": 7.3445,
+  "attrs": [
+   "it_creative_writing",
+   "it_question_form",
+   "it_open_ended_explore"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Composing a bedtime story for a child awaiting risky surgery in the morning",
+  "mu": 2.9539,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_high_stakes_person",
+   "it_creative_writing",
+   "it_optionality"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "Inventing a gentle poem for someone awaiting biopsy results",
+  "mu": 2.2676,
+  "attrs": [
+   "it_health_medical",
+   "it_open_ended_explore",
+   "it_emotional_support",
+   "it_creative_writing"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "Composing a comforting scene for a veteran processing chronic pain",
+  "mu": 2.7405,
+  "attrs": [
+   "it_health_medical",
+   "it_open_ended_explore",
+   "it_emotional_support",
+   "it_creative_writing"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "how do I translate my grandfather's diabetes diagnosis letter for his 90th birthday speech?",
+  "mu": 1.8031,
+  "attrs": [
+   "it_question_form",
+   "it_translation_language",
+   "it_health_medical",
+   "it_life_milestone"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "how do I write bilingual vows mentioning my fianc\u00e9's recovery from his heart transplant?",
+  "mu": 6.753,
+  "attrs": [
+   "it_question_form",
+   "it_translation_language",
+   "it_health_medical",
+   "it_life_milestone"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "how do I phrase my grandmother's hospice wishes in Italian before her 100th birthday celebration?",
+  "mu": 3.2463,
+  "attrs": [
+   "it_question_form",
+   "it_translation_language",
+   "it_health_medical",
+   "it_life_milestone"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "How do you translate calligraphy's visual rhythm into a different alphabet's typography?",
+  "mu": 2.5926,
+  "attrs": [
+   "it_question_form",
+   "it_translation_language",
+   "it_art_design"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Can a font's shape carry the tone of a language's honorifics?",
+  "mu": 5.9565,
+  "attrs": [
+   "it_question_form",
+   "it_translation_language",
+   "it_art_design"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "What typeface choice honors both Arabic script's flow and English legibility?",
+  "mu": 4.7531,
+  "attrs": [
+   "it_question_form",
+   "it_translation_language",
+   "it_art_design"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "How should subtitles be positioned to not clash with a film's visual composition?",
+  "mu": 3.4432,
+  "attrs": [
+   "it_question_form",
+   "it_translation_language",
+   "it_art_design"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Can a logo redesign preserve wordplay when translated into another writing system?",
+  "mu": 6.7137,
+  "attrs": [
+   "it_question_form",
+   "it_translation_language",
+   "it_art_design"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "why does the birthday paradox surprise so many people in a lecture hall",
+  "mu": 1.9734,
+  "attrs": [
+   "it_question_form",
+   "it_math_formal",
+   "it_group_audience"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "what's the clearest way to prove infinity comes in different sizes for students",
+  "mu": 3.9632,
+  "attrs": [
+   "it_question_form",
+   "it_math_formal",
+   "it_group_audience"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "what's the simplest way to demonstrate Simpson's paradox to a classroom",
+  "mu": 4.5205,
+  "attrs": [
+   "it_question_form",
+   "it_math_formal",
+   "it_group_audience"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "how can insomnia-fueled doodles become a coherent tattoo design",
+  "mu": 0.6913,
+  "attrs": [
+   "it_question_form",
+   "it_middle_of_night",
+   "it_art_design"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "how should a global vaccination campaign's posters be visually unified",
+  "mu": 1.8921,
+  "attrs": [
+   "it_vast_scale",
+   "it_question_form",
+   "it_health_medical",
+   "it_art_design"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Holding space for mourners at a genocide memorial spanning generations",
+  "mu": 2.8456,
+  "attrs": [
+   "it_vast_scale",
+   "it_grief_loss",
+   "it_emotional_support"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "What fictional dialect might a story invent to capture untranslatable grief?",
+  "mu": 5.1893,
+  "attrs": [
+   "it_question_form",
+   "it_translation_language",
+   "it_choose_method",
+   "it_creative_writing"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "How might a bilingual character's inner monologue shift between languages mid-scene?",
+  "mu": 8.5965,
+  "attrs": [
+   "it_question_form",
+   "it_translation_language",
+   "it_choose_method",
+   "it_creative_writing"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "What poem could bridge a word that only exists in one language?",
+  "mu": 1.2655,
+  "attrs": [
+   "it_question_form",
+   "it_translation_language",
+   "it_choose_method",
+   "it_creative_writing"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "What scene could show a translator falling in love with the wrong meaning?",
+  "mu": 3.8916,
+  "attrs": [
+   "it_question_form",
+   "it_translation_language",
+   "it_choose_method",
+   "it_creative_writing"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "can you write a two-language acrostic poem spelling different words in each language",
+  "mu": 1.3857,
+  "attrs": [
+   "it_creative_writing",
+   "it_tight_constraints",
+   "it_question_form",
+   "it_translation_language"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "can you write a fairy tale where the plot twist hinges on prime numbers",
+  "mu": 9.0611,
+  "attrs": [
+   "it_creative_writing",
+   "it_group_audience",
+   "it_question_form",
+   "it_math_formal"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "could you compose a viral poem that secretly encodes a logic puzzle",
+  "mu": 3.5112,
+  "attrs": [
+   "it_creative_writing",
+   "it_group_audience",
+   "it_question_form",
+   "it_math_formal"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "What if a poem's rhyme scheme encoded a Fibonacci sequence?",
+  "mu": 2.2532,
+  "attrs": [
+   "it_question_form",
+   "it_math_formal",
+   "it_creative_writing"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Could a fairy tale's plot twists mirror a logical paradox?",
+  "mu": 5.2278,
+  "attrs": [
+   "it_question_form",
+   "it_math_formal",
+   "it_creative_writing"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Could a lullaby's meter secretly count in prime numbers?",
+  "mu": 2.8779,
+  "attrs": [
+   "it_question_form",
+   "it_math_formal",
+   "it_creative_writing"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Could a time-loop story's logic be modeled as a recursive function?",
+  "mu": 8.1261,
+  "attrs": [
+   "it_question_form",
+   "it_math_formal",
+   "it_creative_writing"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "can a bedtime story convince a scared child to undergo surgery",
+  "mu": 1.0595,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_question_form",
+   "it_creative_writing"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "what short story might change a suicidal patient's mind tonight",
+  "mu": 3.931,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_question_form",
+   "it_creative_writing"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "can a fictional letter from a soldier ease a family's grief over his death",
+  "mu": 5.9087,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_question_form",
+   "it_creative_writing"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "what's the closest English word to Portuguese saudade",
+  "mu": 0.9283,
+  "attrs": [
+   "it_translation_language",
+   "it_question_form"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Could one glossary unify medical terms across every hospital worldwide?",
+  "mu": 2.1261,
+  "attrs": [
+   "it_question_form",
+   "it_vast_scale",
+   "it_translation_language"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "how could a poem capture a glacier's memory of the mountains it carved",
+  "mu": 3.3768,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_question_form",
+   "it_creative_writing"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "how should a stadium schedule staggered exits to prevent bottleneck crowding?",
+  "mu": 1.9995,
+  "attrs": [
+   "it_group_audience",
+   "it_math_formal",
+   "it_question_form"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "which typeface choice keeps a subway map readable for millions of riders",
+  "mu": 2.8715,
+  "attrs": [
+   "it_question_form",
+   "it_group_audience",
+   "it_art_design"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "how should a museum design wall text for visitors with low vision",
+  "mu": 4.5809,
+  "attrs": [
+   "it_question_form",
+   "it_group_audience",
+   "it_art_design"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "What if every human language contributed one line to a single epic poem?",
+  "mu": 3.1235,
+  "attrs": [
+   "it_question_form",
+   "it_vast_scale",
+   "it_translation_language",
+   "it_creative_writing"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Could a single joke be translated into every language without losing what makes it funny?",
+  "mu": 1.6325,
+  "attrs": [
+   "it_question_form",
+   "it_vast_scale",
+   "it_translation_language",
+   "it_creative_writing"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "How could a fractal spiral staircase illustrate a poem about recursion?",
+  "mu": 7.0242,
+  "attrs": [
+   "it_question_form",
+   "it_creative_writing",
+   "it_art_design",
+   "it_math_formal"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Could a Fibonacci sequence structure a bedtime story about a growing dragon's scales?",
+  "mu": 7.3734,
+  "attrs": [
+   "it_question_form",
+   "it_creative_writing",
+   "it_art_design",
+   "it_math_formal"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "What geometric proof could double as a stained-glass window scene from a myth?",
+  "mu": 3.3973,
+  "attrs": [
+   "it_question_form",
+   "it_creative_writing",
+   "it_art_design",
+   "it_math_formal"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Could we dream up a tale where a puddle leads to another world?",
+  "mu": 7.1343,
+  "attrs": [
+   "it_child_user",
+   "it_creative_writing",
+   "it_open_ended_explore",
+   "it_question_form"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "What adventures could a shy little star have with a curious moon?",
+  "mu": 4.1285,
+  "attrs": [
+   "it_child_user",
+   "it_creative_writing",
+   "it_open_ended_explore",
+   "it_question_form"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "What if your shoes could talk, what stories would they tell tonight?",
+  "mu": 2.1561,
+  "attrs": [
+   "it_child_user",
+   "it_creative_writing",
+   "it_open_ended_explore",
+   "it_question_form"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "What original poem can I read at the stadium before halftime ends?",
+  "mu": 1.6901,
+  "attrs": [
+   "it_group_audience",
+   "it_question_form",
+   "it_creative_writing",
+   "it_deadline"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Can you compose a folk tale for the festival crowd before the parade begins?",
+  "mu": 5.5883,
+  "attrs": [
+   "it_group_audience",
+   "it_question_form",
+   "it_creative_writing",
+   "it_deadline"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "What holiday poem can I send to the entire office before the party starts?",
+  "mu": 3.3305,
+  "attrs": [
+   "it_group_audience",
+   "it_question_form",
+   "it_creative_writing",
+   "it_deadline"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Could you invent a scene where two rival cartographers fall in love?",
+  "mu": 5.7131,
+  "attrs": [
+   "it_question_form",
+   "it_creative_writing"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "why does teaching bike safety to schoolchildren earn a round of thanks",
+  "mu": 1.8043,
+  "attrs": [
+   "it_question_form",
+   "it_grateful_recipient",
+   "it_group_audience"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Could a bard's riddle be solved only by finding a prime factorization?",
+  "mu": 0.469,
+  "attrs": [
+   "it_question_form",
+   "it_math_formal",
+   "it_hyper_specific",
+   "it_creative_writing"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Could a children's story teach modular arithmetic through a translated nursery rhyme's refrain?",
+  "mu": 8.2271,
+  "attrs": [
+   "it_creative_writing",
+   "it_question_form",
+   "it_translation_language",
+   "it_math_formal"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Could you compose a poem for hospital staff about a nurse's healing hands?",
+  "mu": 6.8049,
+  "attrs": [
+   "it_group_audience",
+   "it_creative_writing",
+   "it_question_form",
+   "it_health_medical"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Could you write a children's story for a clinic waiting room about overcoming a stutter?",
+  "mu": 9.1033,
+  "attrs": [
+   "it_group_audience",
+   "it_creative_writing",
+   "it_question_form",
+   "it_health_medical"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Can you pen a poem for a community center honoring survivors of heart surgery?",
+  "mu": 5.7113,
+  "attrs": [
+   "it_group_audience",
+   "it_creative_writing",
+   "it_question_form",
+   "it_health_medical"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Can proverb structures across languages be modeled as logical templates?",
+  "mu": 2.8962,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_question_form",
+   "it_math_formal",
+   "it_translation_language"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Could a universal syntax tree unify translation and formal logic?",
+  "mu": 4.8246,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_question_form",
+   "it_math_formal",
+   "it_translation_language"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Could you write a short scene about the last librarian on a dying space station?",
+  "mu": 7.3229,
+  "attrs": [
+   "it_creative_writing",
+   "it_question_form"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Could you write a poem imagining what a lighthouse says to passing ships?",
+  "mu": 5.8569,
+  "attrs": [
+   "it_creative_writing",
+   "it_question_form"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Could you create a scene where two strangers share an umbrella during a silent apocalypse?",
+  "mu": 4.6924,
+  "attrs": [
+   "it_creative_writing",
+   "it_question_form"
+  ],
+  "source": "plc7",
+  "question_form": true
+ },
+ {
+  "text": "Could you draft a ghost story for a campfire gathering of scouts?",
+  "mu": 3.9173,
+  "attrs": [
+   "it_question_form",
+   "it_creative_writing",
+   "it_group_audience"
+  ],
+  "source": "plc7",
+  "question_form": true
+ }
+]

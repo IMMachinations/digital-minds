@@ -16,12 +16,21 @@ dependencies = [
     "sentence-transformers",
     "matplotlib",
     "wordfreq",
+    "anthropic",
 ]
 
 # Blackwell GPU (sm_120) needs cu128 wheels; default PyPI torch wheels may not
-# include sm_120 kernels and fail only at kernel-launch time.
+# include sm_120 kernels and fail only at kernel-launch time. The cu128 index
+# has no macOS wheels, so Apple-silicon laptops (MPS path in harness.DEVICE)
+# resolve plain PyPI torch instead.
 [tool.uv.sources]
-torch = [{ index = "pytorch-cu128" }]
+torch = [{ index = "pytorch-cu128", marker = "sys_platform == 'linux'" }]
+
+[tool.uv]
+required-environments = [
+    "sys_platform == 'linux' and platform_machine == 'x86_64'",
+    "sys_platform == 'darwin' and platform_machine == 'arm64'",
+]
 
 [[tool.uv.index]]
 name = "pytorch-cu128"

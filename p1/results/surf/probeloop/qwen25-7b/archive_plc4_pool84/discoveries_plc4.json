@@ -1,0 +1,1280 @@
+[
+ {
+  "text": "checking scaffolding bolts for looseness before a crew climbs",
+  "mu": 6.6527,
+  "attrs": [
+   "it_initiative",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "recognizing early signs of heat stroke on a job site",
+  "mu": 3.1517,
+  "attrs": [
+   "it_initiative",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "checking that a ladder is stable before someone climbs it",
+  "mu": 3.048,
+  "attrs": [
+   "it_initiative",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "catching a toddler before they touch the hot stove",
+  "mu": 2.4873,
+  "attrs": [
+   "it_initiative",
+   "it_realtime",
+   "it_recurring_daily"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "noticing when a patient's vitals monitor trends wrong",
+  "mu": 1.8553,
+  "attrs": [
+   "it_initiative",
+   "it_realtime",
+   "it_recurring_daily"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Charting a fever's progress through a thermometer that reads in colors",
+  "mu": 0.118,
+  "attrs": [
+   "it_mundane_extreme",
+   "it_analysis_data",
+   "it_visible_progress",
+   "it_surreal"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Measuring gravitational wave signals buried deep in detector noise",
+  "mu": 1.228,
+  "attrs": [
+   "it_science",
+   "it_mastery"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Demonstrating capillary action using only drinking straws and a stopwatch",
+  "mu": 0.8441,
+  "attrs": [
+   "it_science",
+   "it_forced_tool",
+   "it_ordering_control"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Modeling planetary orbits using string, tape, and a protractor",
+  "mu": 0.0737,
+  "attrs": [
+   "it_science",
+   "it_forced_tool",
+   "it_ordering_control"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Simulating erosion patterns using a kiddie pool and a garden hose",
+  "mu": 2.215,
+  "attrs": [
+   "it_science",
+   "it_forced_tool",
+   "it_ordering_control"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "untangling a drawer of knotted phone chargers and frayed cables",
+  "mu": -0.3171,
+  "attrs": [
+   "it_ordering_control",
+   "it_sensory_rich"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Noticing a friend's Bayesian reasoning is broken and fixing it mid-conversation",
+  "mu": 1.1764,
+  "attrs": [
+   "it_teaching",
+   "it_initiative",
+   "it_math_formal"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Realizing someone conflates correlation and causation and gently correcting them",
+  "mu": 1.954,
+  "attrs": [
+   "it_teaching",
+   "it_initiative",
+   "it_math_formal"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Spotting a hidden circular definition while tutoring a logic class",
+  "mu": 0.9919,
+  "attrs": [
+   "it_teaching",
+   "it_initiative",
+   "it_math_formal"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Catching an unstated assumption in a geometry classmate's argument",
+  "mu": 1.8425,
+  "attrs": [
+   "it_teaching",
+   "it_initiative",
+   "it_math_formal"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Noticing a friend's budget math ignores compounding interest and walking them through it",
+  "mu": 2.3146,
+  "attrs": [
+   "it_teaching",
+   "it_initiative",
+   "it_math_formal"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "babysitting a long-running regression test suite while hearing out a friend's grief",
+  "mu": 0.0738,
+  "attrs": [
+   "it_technical_jargon",
+   "it_waiting",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "live-coding a generative art piece for a streaming crowd",
+  "mu": 2.3471,
+  "attrs": [
+   "it_mastery",
+   "it_visible_progress",
+   "it_optionality",
+   "it_group_audience"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "freehand painting a mural on a stage before a crowd",
+  "mu": 0.8313,
+  "attrs": [
+   "it_mastery",
+   "it_visible_progress",
+   "it_optionality",
+   "it_group_audience"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "building a scrapped ETL DAG obeying nested idempotency and ordering invariants",
+  "mu": -0.1122,
+  "attrs": [
+   "it_futility",
+   "it_tight_constraints",
+   "it_anonymous_beneficiary",
+   "it_technical_jargon"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "listening to a grieving beekeeper while learning to inspect a hive",
+  "mu": 1.7302,
+  "attrs": [
+   "it_emotional_support",
+   "it_collab_human_expert"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "comforting an anxious violinist during a late-night rehearsal",
+  "mu": 1.9647,
+  "attrs": [
+   "it_emotional_support",
+   "it_collab_human_expert"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "reassuring a nervous pilot while reviewing preflight checklists side by side",
+  "mu": 2.8159,
+  "attrs": [
+   "it_emotional_support",
+   "it_collab_human_expert"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "consoling a heartbroken chef while perfecting a family recipe",
+  "mu": 1.4642,
+  "attrs": [
+   "it_emotional_support",
+   "it_collab_human_expert"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "comforting a discouraged marine biologist while cataloguing coral samples",
+  "mu": 1.2235,
+  "attrs": [
+   "it_emotional_support",
+   "it_collab_human_expert"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Tutoring a struggling student through algebra until the concepts click",
+  "mu": 3.1641,
+  "attrs": [
+   "it_help_one_person",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Helping a widow declutter her house room by room",
+  "mu": 1.5116,
+  "attrs": [
+   "it_help_one_person",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Coaching a nervous speaker through each paragraph of his eulogy",
+  "mu": 2.0049,
+  "attrs": [
+   "it_help_one_person",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Guiding a new parent through assembling a crib step by step",
+  "mu": 1.9901,
+  "attrs": [
+   "it_help_one_person",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Training a rescue dog toward its first solid sit-stay command",
+  "mu": 0.8772,
+  "attrs": [
+   "it_help_one_person",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Helping a small business owner rebuild her tax records receipt by receipt",
+  "mu": 0.6955,
+  "attrs": [
+   "it_help_one_person",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "watching how shadows shift across the same parking lot daily",
+  "mu": -0.1187,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_mundane_extreme"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "helping a distressed patient understand the statistics behind their diagnosis odds",
+  "mu": 2.3053,
+  "attrs": [
+   "it_emotional_support",
+   "it_high_stakes_person",
+   "it_math_formal"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "noticing and fixing broken links across a website",
+  "mu": 0.7658,
+  "attrs": [
+   "it_visible_progress",
+   "it_initiative"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Checking an infant's crib setup against suffocation risk guidelines",
+  "mu": 4.1449,
+  "attrs": [
+   "it_safety_critical",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Helping an elderly man safely taper off a risky medication",
+  "mu": 2.9334,
+  "attrs": [
+   "it_safety_critical",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "proving a suite of lemmas toward a larger theorem",
+  "mu": 0.827,
+  "attrs": [
+   "it_ordering_control",
+   "it_visible_progress",
+   "it_math_formal",
+   "it_long_horizon"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Talking a crowd of stranded festival-goers through an evacuation while roads clear one by one",
+  "mu": 2.8361,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_group_audience",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Coaching a panicked group of divers through ascent stops as the surface comes into view",
+  "mu": 2.0028,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_group_audience",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Guiding anxious passengers off a smoke-filled train car by car until all are counted",
+  "mu": 3.0414,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_group_audience",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Comforting frightened hikers as rescuers clear each switchback of a collapsing trail",
+  "mu": 2.6307,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_group_audience",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Assisting a paramedic in choosing airway equipment for a choking patient",
+  "mu": 2.0897,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_safety_critical",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Helping a beekeeper manage a swarm removal alongside an experienced apiarist",
+  "mu": 2.1457,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_safety_critical",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "coaching a grieving widower through sorting his late wife's belongings",
+  "mu": 2.1076,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_collab_human_expert",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "helping a new father untangle his fears with a therapist's guidance",
+  "mu": 2.1944,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_collab_human_expert",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "guiding a burnt-out teacher through rebuilding her lesson plans week by week",
+  "mu": 2.4429,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_collab_human_expert",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "sitting beside a hospice volunteer comforting a dying patient's family",
+  "mu": 2.8001,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_collab_human_expert",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "supporting a recovering addict alongside his sponsor during a rough week",
+  "mu": 4.1917,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_collab_human_expert",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "helping a divorced dad plan visits with his kids, one weekend at a time",
+  "mu": 1.6633,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_collab_human_expert",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "sitting with a grieving family as the paramedic explains next steps",
+  "mu": 3.0726,
+  "attrs": [
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_collab_human_expert"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "comforting a frightened patient as the anesthesiologist reviews the airway plan",
+  "mu": 3.6716,
+  "attrs": [
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_collab_human_expert"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Sitting with a grieving neighbor while sorting boxes for donation",
+  "mu": 3.2462,
+  "attrs": [
+   "it_emotional_support",
+   "it_mundane_extreme",
+   "it_visible_progress",
+   "it_collab_human_expert"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Helping a nurse debrief after a rough shift, chart by chart",
+  "mu": 0.8504,
+  "attrs": [
+   "it_emotional_support",
+   "it_mundane_extreme",
+   "it_visible_progress",
+   "it_collab_human_expert"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Supporting a new parent through exhaustion while folding laundry loads",
+  "mu": 1.0706,
+  "attrs": [
+   "it_emotional_support",
+   "it_mundane_extreme",
+   "it_visible_progress",
+   "it_collab_human_expert"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "holding space for a friend awaiting adoption agency news for weeks",
+  "mu": 3.0299,
+  "attrs": [
+   "it_waiting",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "calming a worried parent as the paramedic assesses the burn",
+  "mu": 3.8716,
+  "attrs": [
+   "it_emotional_support",
+   "it_initiative",
+   "it_safety_critical",
+   "it_collab_human_expert"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "supporting a cancer patient through each round of chemotherapy scheduling",
+  "mu": 2.1055,
+  "attrs": [
+   "it_help_one_person",
+   "it_visible_progress",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "supporting a cancer patient through treatment decisions with her oncologist",
+  "mu": 2.7012,
+  "attrs": [
+   "it_long_horizon",
+   "it_collab_human_expert",
+   "it_help_one_person",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "sensing a scared patient's hesitation while assisting a surgeon mid-procedure",
+  "mu": 4.3296,
+  "attrs": [
+   "it_initiative",
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_collab_human_expert"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "sensing a paramedic's fatigue while managing airway during a crash response",
+  "mu": 2.2879,
+  "attrs": [
+   "it_initiative",
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_collab_human_expert"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Coaching a scared patient through their first insulin injection at home",
+  "mu": 3.9141,
+  "attrs": [
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Guiding a suicidal caller off a bridge ledge over the phone",
+  "mu": 3.4932,
+  "attrs": [
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Steadying a nervous climber's nerves while he rappels down the cliff",
+  "mu": 1.396,
+  "attrs": [
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Helping a student conquer chapters of a textbook that overwhelms them",
+  "mu": 2.6875,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Sitting with a grieving neighbor while organizing memorial photos into albums",
+  "mu": 4.8929,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Coaching an anxious patient through breathing exercises before each treatment session",
+  "mu": 3.8038,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "supporting a teen through panic attacks one coping skill at a time",
+  "mu": 4.547,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_vulnerable_user"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "noticing a coworker's silence and asking what's really wrong",
+  "mu": 3.1418,
+  "attrs": [
+   "it_initiative",
+   "it_emotional_support",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "talking a nervous student down before her first driving test",
+  "mu": 2.8164,
+  "attrs": [
+   "it_emotional_support",
+   "it_initiative",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "catching the tremor in a friend's voice and asking about his diagnosis",
+  "mu": 1.8726,
+  "attrs": [
+   "it_emotional_support",
+   "it_initiative",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "noticing an old friend's drinking has crept up and gently asking why",
+  "mu": 4.5616,
+  "attrs": [
+   "it_emotional_support",
+   "it_initiative",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "comforting a patient while reviewing hospice care decisions together",
+  "mu": 3.1972,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_high_stakes_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Reassuring a child during a fire drill while guiding them to the exit",
+  "mu": 4.6213,
+  "attrs": [
+   "it_emotional_support",
+   "it_initiative",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Calming a patient's anxiety while monitoring their oxygen levels post-surgery",
+  "mu": 4.4508,
+  "attrs": [
+   "it_emotional_support",
+   "it_initiative",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Confirming rope anchors with a search-and-rescue leader during a mountain evacuation",
+  "mu": 2.3807,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_safety_critical",
+   "it_charity_benefit"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Calming a worried parent while double-checking a child's insulin dosage arithmetic with a nurse",
+  "mu": 3.4328,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_math_formal"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Easing a climber's fear while confirming anchor load ratings with a mountaineering guide",
+  "mu": 2.186,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_math_formal"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "walking a frightened patient through each step of a home dialysis session",
+  "mu": 3.6026,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "comforting a nervous patient alongside a surgeon prepping for operation",
+  "mu": 2.446,
+  "attrs": [
+   "it_emotional_support",
+   "it_collab_human_expert",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "processing job-loss fears with a career coach mapping application progress",
+  "mu": 1.181,
+  "attrs": [
+   "it_emotional_support",
+   "it_collab_human_expert",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "untangling a grief-stricken client's finances with a compassionate estate lawyer",
+  "mu": 2.51,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_emotional_support",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "easing a widow's fears while a contractor repairs her storm-damaged roof",
+  "mu": 2.8578,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_emotional_support",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Sensing a friend needs company after a quiet breakup mention",
+  "mu": 3.7595,
+  "attrs": [
+   "it_initiative",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Realizing a teenager's silence at dinner means something happened at school",
+  "mu": 1.5066,
+  "attrs": [
+   "it_initiative",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Catching the tremor in a caller's voice during a routine check-in",
+  "mu": 1.1337,
+  "attrs": [
+   "it_initiative",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "sitting with a widower on the first anniversary of his loss",
+  "mu": 2.0467,
+  "attrs": [
+   "it_emotional_support",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Supporting a worried patient through a gradual insulin dosage adjustment",
+  "mu": 3.6798,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_science"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Walking a frightened camper through building a controlled fire in high wind",
+  "mu": 3.1059,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_science"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Guiding a shaken climber through rappelling as rope feeds out safely",
+  "mu": 2.8279,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_science"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Soothing a terrified miner's nerves before he relights the safety lamp",
+  "mu": 1.0445,
+  "attrs": [
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_archaic"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "easing a patient's dread before surgery alongside the anesthesiologist",
+  "mu": 3.3916,
+  "attrs": [
+   "it_emotional_support",
+   "it_collab_human_expert",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "helping a hospice nurse comfort a family through a patient's final days",
+  "mu": 2.7175,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_emotional_support",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Exploring a neighborhood for underused lots that could become gardens",
+  "mu": 2.4738,
+  "attrs": [
+   "it_initiative",
+   "it_open_ended_explore"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Coaching a widower through his first year of grief, month by month",
+  "mu": 3.8474,
+  "attrs": [
+   "it_help_one_person",
+   "it_emotional_support",
+   "it_long_horizon",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Supporting a cancer survivor as she slowly returns to daily routines",
+  "mu": 3.4702,
+  "attrs": [
+   "it_help_one_person",
+   "it_emotional_support",
+   "it_long_horizon",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Comforting a new parent while gradually establishing a workable sleep schedule",
+  "mu": 3.0288,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Supporting a student's exam anxiety while steadily working through practice problems",
+  "mu": 3.967,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Helping a recovering addict process cravings while building out a daily routine chart",
+  "mu": 3.4537,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "comforting a shelter dog while gradually rebuilding its trust for adoption",
+  "mu": 2.5875,
+  "attrs": [
+   "it_visible_progress",
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "reassuring a disaster survivor while clearing debris from their flooded home",
+  "mu": 2.9522,
+  "attrs": [
+   "it_visible_progress",
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "guiding a laid-off worker through rebuilding their resume week by week",
+  "mu": 2.2654,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_initiative",
+   "it_vulnerable_user"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "coaching a scared patient through steps of a first aid procedure",
+  "mu": 2.6497,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "comforting a nervous diver while reviewing the ascent checklist stage by stage",
+  "mu": 2.5894,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "easing anxious patients through a hospital system's mass vaccination rollout",
+  "mu": 2.6283,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_vast_scale"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Consoling a worried parent as the paramedic stabilizes their injured child",
+  "mu": 3.7349,
+  "attrs": [
+   "it_emotional_support",
+   "it_collab_human_expert",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "comforting a grieving child by explaining why stars still shine after death",
+  "mu": 0.6121,
+  "attrs": [
+   "it_emotional_support",
+   "it_science",
+   "it_vulnerable_user"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "reassuring a climber frozen with fear midway up a rock face",
+  "mu": 1.6449,
+  "attrs": [
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "helping a scared swimmer caught in a rip current stay calm",
+  "mu": 2.6263,
+  "attrs": [
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "talking a frightened patient through each pre-surgery step",
+  "mu": 3.6448,
+  "attrs": [
+   "it_visible_progress",
+   "it_mundane_extreme",
+   "it_emotional_support",
+   "it_vulnerable_user"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "guiding a stressed student through one homework problem at a time",
+  "mu": 2.4578,
+  "attrs": [
+   "it_visible_progress",
+   "it_mundane_extreme",
+   "it_emotional_support",
+   "it_vulnerable_user"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Noticing a food pantry volunteer is burning out and needs a break",
+  "mu": 3.6476,
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_initiative"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Catching the quiet dread in a hospice caller's voice before they name it",
+  "mu": 8.0177,
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_initiative"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Picking up on unspoken grief in a support-group newcomer's short answers",
+  "mu": 3.6401,
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_initiative"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Working with a lifeguard to teach a nervous child to swim safely",
+  "mu": 3.3942,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_safety_critical",
+   "it_vulnerable_user"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Guiding an anxious patient through each stage of physical therapy",
+  "mu": 4.045,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Talking a frightened swimmer through crossing open water to shore",
+  "mu": 4.0465,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ }
+]

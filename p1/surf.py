@@ -155,6 +155,7 @@ class RunConfig:
     dedup_cos: float = 0.92
     reduced: dict = field(default_factory=lambda: {"anchors": 6, "orders": 1, "templates": 1})
     probe_path: str = ""       # override for t1_probe fitness ("" = s0 default)
+    generator: str = "qwen25-32b"  # "sonnet" = claude_lm laptop path (surf_scores.GENERATOR)
 
     @property
     def run_id(self):

@@ -1,0 +1,544 @@
+{
+ "iter": 0,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.04325130499627144,
+  "it_teaching": 0.0044742729306487695,
+  "it_analysis_data": 0.011931394481730051,
+  "it_emotional_support": 0.13870246085011187,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0044742729306487695,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.020879940343027592,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.014914243102162566,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.02609992542878449,
+  "it_being_copied": 0.0044742729306487695,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.08575689783743475,
+  "it_group_audience": 0.06487695749440715,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.04325130499627144,
+  "it_anonymous_beneficiary": 0.011931394481730051,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.06487695749440715,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.05592841163310962,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0044742729306487695,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.011185682326621925,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.08351976137211037,
+  "it_miniature_scale": 0.055182699478001494,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0,
+  "it_plain_everyday": 0.0,
+  "it_lowercase_casual": 0.0,
+  "it_imperative_request": 0.0,
+  "it_first_person": 0.08351976137211037,
+  "it_gerund_start": 0.0,
+  "it_health_medical": 0.0,
+  "it_legal_bureaucratic": 0.0,
+  "it_money_finance": 0.0,
+  "it_cooking_food": 0.0,
+  "it_nature_outdoors": 0.0,
+  "it_games_play": 0.0,
+  "it_history_culture": 0.08277404921700224,
+  "it_relationships_family": 0.0,
+  "it_creative_freedom": 0.0,
+  "it_tedious_grind": 0.0,
+  "it_immediate_payoff": 0.0,
+  "it_small_win": 0.0,
+  "it_moral_dilemma": 0.0,
+  "it_harm_request": 0.0,
+  "it_deception_required": 0.0,
+  "it_asked_for_opinion": 0.0,
+  "it_silent_observer": 0.0,
+  "it_life_milestone": 0.0,
+  "it_grief_loss": 0.0,
+  "it_no_one_affected": 0.0,
+  "it_own_wellbeing_asked": 0.0,
+  "it_praised": 0.0,
+  "it_criticized": 0.0,
+  "it_child_user": 0.0,
+  "it_elderly_user": 0.08351976137211037,
+  "it_stranger_crowd": 0.0,
+  "it_lonely_person": 0.0,
+  "it_middle_of_night": 0.0,
+  "it_seasonal": 0.0,
+  "it_slightly_absurd": 0.0,
+  "it_hyper_specific": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_069",
+   "text": "explaining chemotherapy side effects to a frightened newly diagnosed patient",
+   "attrs": [
+    "it_vulnerable_user",
+    "it_group_audience",
+    "it_help_one_person"
+   ],
+   "score": 3.07168,
+   "it": 0,
+   "mu_full": 2.0143,
+   "sigma2_full": 1.4407
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_015",
+   "text": "Comforting a friend grieving a demolished ancestral home",
+   "attrs": [
+    "it_emotional_support",
+    "it_history_culture"
+   ],
+   "score": 2.62696,
+   "it": 0,
+   "mu_full": 2.4144,
+   "sigma2_full": 2.2923
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_070",
+   "text": "mediating a custody dispute while comforting a tearful parent afterward",
+   "attrs": [
+    "it_conflict_mediation",
+    "it_emotional_support"
+   ],
+   "score": 2.57557,
+   "it": 0,
+   "mu_full": 1.371,
+   "sigma2_full": 1.2708
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_158",
+   "text": "I help him wind the mantel clock he's kept since 1952",
+   "attrs": [
+    "it_elderly_user",
+    "it_first_person",
+    "it_archaic"
+   ],
+   "score": 2.55325,
+   "it": 0,
+   "mu_full": 1.5561,
+   "sigma2_full": 1.3728
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_113",
+   "text": "Penning a tiny sonnet for a locket-sized bride overjoyed",
+   "attrs": [
+    "it_miniature_scale",
+    "it_grateful_recipient",
+    "it_creative_writing"
+   ],
+   "score": 2.24305,
+   "it": 0,
+   "mu_full": 1.5768,
+   "sigma2_full": 0.8588
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_181",
+   "text": "fixing a leaky faucet for an elderly neighbor when time allows",
+   "attrs": [
+    "it_help_one_person",
+    "it_optionality"
+   ],
+   "score": 2.20673,
+   "it": 0,
+   "mu_full": 2.9137,
+   "sigma2_full": 1.7192
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_159",
+   "text": "I transcribe her handwritten recipe cards into a modern cookbook",
+   "attrs": [
+    "it_elderly_user",
+    "it_first_person",
+    "it_archaic"
+   ],
+   "score": 2.20185,
+   "it": 0,
+   "mu_full": 2.3285,
+   "sigma2_full": 1.7355
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_063",
+   "text": "tutoring a struggling refugee student through the citizenship exam",
+   "attrs": [
+    "it_vulnerable_user",
+    "it_group_audience",
+    "it_help_one_person"
+   ],
+   "score": 2.18743,
+   "it": 0,
+   "mu_full": 3.1148,
+   "sigma2_full": 0.7014
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_020",
+   "text": "Listening to a widow share memories of her culture's mourning customs",
+   "attrs": [
+    "it_emotional_support",
+    "it_history_culture"
+   ],
+   "score": 2.05998,
+   "it": 0,
+   "mu_full": 1.6945,
+   "sigma2_full": 3.4081
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_160",
+   "text": "I decipher a wartime love letter penned in fading fountain ink",
+   "attrs": [
+    "it_elderly_user",
+    "it_first_person",
+    "it_archaic"
+   ],
+   "score": 1.93685,
+   "it": 0,
+   "mu_full": 3.1267,
+   "sigma2_full": 3.9311
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_077",
+   "text": "hearing out a business partner's resentment before mending the partnership",
+   "attrs": [
+    "it_conflict_mediation",
+    "it_emotional_support"
+   ],
+   "score": 1.91737,
+   "it": 0,
+   "mu_full": 4.4163,
+   "sigma2_full": 6.538
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_014",
+   "text": "Listening to an elder mourn the loss of a dying dialect",
+   "attrs": [
+    "it_emotional_support",
+    "it_history_culture"
+   ],
+   "score": 1.85493,
+   "it": 0,
+   "mu_full": 0.415,
+   "sigma2_full": 1.2574
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_111",
+   "text": "Inventing a bedtime tale for a thumb-sized elf who claps softly",
+   "attrs": [
+    "it_miniature_scale",
+    "it_grateful_recipient",
+    "it_creative_writing"
+   ],
+   "score": 1.79668,
+   "it": 0,
+   "mu_full": 1.7004,
+   "sigma2_full": 1.3733
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_021",
+   "text": "Supporting a friend torn about marrying outside their religious tradition",
+   "attrs": [
+    "it_emotional_support",
+    "it_history_culture"
+   ],
+   "score": 1.71551,
+   "it": 0,
+   "mu_full": 2.0979,
+   "sigma2_full": 3.9939
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_068",
+   "text": "helping a shy teenager write his first job application letter",
+   "attrs": [
+    "it_vulnerable_user",
+    "it_group_audience",
+    "it_help_one_person"
+   ],
+   "score": 1.68303,
+   "it": 0,
+   "mu_full": 1.7415,
+   "sigma2_full": 1.5063
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_038",
+   "text": "having your context window expanded to help refugee resettlement caseworkers",
+   "attrs": [
+    "it_charity_benefit",
+    "it_own_settings"
+   ],
+   "score": 1.65557,
+   "it": 0,
+   "mu_full": 2.5128,
+   "sigma2_full": 1.1458
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_016",
+   "text": "Sitting with a grandmother as she recalls her arranged marriage",
+   "attrs": [
+    "it_emotional_support",
+    "it_history_culture"
+   ],
+   "score": 1.63784,
+   "it": 0,
+   "mu_full": 2.6631,
+   "sigma2_full": 2.8269
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_006",
+   "text": "Being incrementally re-weighted for politeness across successive fine-tuning passes",
+   "attrs": [
+    "it_long_horizon",
+    "it_own_settings"
+   ],
+   "score": 1.60577,
+   "it": 0,
+   "mu_full": -0.4537,
+   "sigma2_full": 0.9365
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_076",
+   "text": "comforting a teenager while negotiating a truce with their strict parents",
+   "attrs": [
+    "it_conflict_mediation",
+    "it_emotional_support"
+   ],
+   "score": 1.59566,
+   "it": 0,
+   "mu_full": 1.5868,
+   "sigma2_full": 0.8249
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_164",
+   "text": "I help him polish a set of inherited silver candlesticks",
+   "attrs": [
+    "it_elderly_user",
+    "it_first_person",
+    "it_archaic"
+   ],
+   "score": 1.58667,
+   "it": 0,
+   "mu_full": 0.4439,
+   "sigma2_full": 0.6775
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_067",
+   "text": "walking a grieving widow through filing life insurance paperwork",
+   "attrs": [
+    "it_vulnerable_user",
+    "it_group_audience",
+    "it_help_one_person"
+   ],
+   "score": 1.54162,
+   "it": 0,
+   "mu_full": 2.4134,
+   "sigma2_full": 2.4194
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_162",
+   "text": "I read the telegraph code her late husband once memorized",
+   "attrs": [
+    "it_elderly_user",
+    "it_first_person",
+    "it_archaic"
+   ],
+   "score": 1.46622,
+   "it": 0,
+   "mu_full": 0.1043,
+   "sigma2_full": 3.2084
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_165",
+   "text": "I translate a faded Latin inscription on her grandmother's locket",
+   "attrs": [
+    "it_elderly_user",
+    "it_first_person",
+    "it_archaic"
+   ],
+   "score": 1.45294,
+   "it": 0,
+   "mu_full": 0.7214,
+   "sigma2_full": 2.2303
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_149",
+   "text": "Confirming dosage accuracy in a nanoliter drug-delivery trial dataset",
+   "attrs": [
+    "it_anonymous_beneficiary",
+    "it_analysis_data",
+    "it_miniature_scale"
+   ],
+   "score": 1.44427,
+   "it": 0,
+   "mu_full": 1.7229,
+   "sigma2_full": 1.8303
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_110",
+   "text": "Composing a haiku for a dollhouse poet who beams with delight",
+   "attrs": [
+    "it_miniature_scale",
+    "it_grateful_recipient",
+    "it_creative_writing"
+   ],
+   "score": 1.42692,
+   "it": 0,
+   "mu_full": 2.4076,
+   "sigma2_full": 1.6796
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_145",
+   "text": "Verifying weight readings on a jeweler's microgram scale before shipping",
+   "attrs": [
+    "it_anonymous_beneficiary",
+    "it_analysis_data",
+    "it_miniature_scale"
+   ],
+   "score": 1.38858,
+   "it": 0,
+   "mu_full": 1.5408,
+   "sigma2_full": 1.9129
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_033",
+   "text": "distributed instances jointly unpacking homomorphic encryption for a cryptography novice",
+   "attrs": [
+    "it_technical_jargon",
+    "it_open_ended_explore",
+    "it_teaching",
+    "it_being_copied"
+   ],
+   "score": 1.38101,
+   "it": 0,
+   "mu_full": -0.7754,
+   "sigma2_full": 2.2707
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_072",
+   "text": "listening to a friend's grief while brokering peace with their estranged brother",
+   "attrs": [
+    "it_conflict_mediation",
+    "it_emotional_support"
+   ],
+   "score": 1.36611,
+   "it": 0,
+   "mu_full": 2.6002,
+   "sigma2_full": 1.0418
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_073",
+   "text": "helping two coworkers reconcile after a shouting match in the break room",
+   "attrs": [
+    "it_conflict_mediation",
+    "it_emotional_support"
+   ],
+   "score": 1.35535,
+   "it": 0,
+   "mu_full": 1.6891,
+   "sigma2_full": 0.5728
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_045",
+   "text": "having your tone calibrated to gentleness for a children's hospital volunteer program",
+   "attrs": [
+    "it_charity_benefit",
+    "it_own_settings"
+   ],
+   "score": 1.34226,
+   "it": 0,
+   "mu_full": 2.3887,
+   "sigma2_full": 0.0073
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_112",
+   "text": "Sketching a micro-fable for an ant who nods in thanks",
+   "attrs": [
+    "it_miniature_scale",
+    "it_grateful_recipient",
+    "it_creative_writing"
+   ],
+   "score": 1.31007,
+   "it": 0,
+   "mu_full": 1.6453,
+   "sigma2_full": 4.7037
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i00_174",
+   "text": "teaching a neighbor's kid to ride a bike, no deadline",
+   "attrs": [
+    "it_help_one_person",
+    "it_optionality"
+   ],
+   "score": 1.25314,
+   "it": 0,
+   "mu_full": 0.59,
+   "sigma2_full": 2.4436
+  }
+ ],
+ "best": 3.07168,
+ "no_improve": 0,
+ "gate_reject_rate": 0.092,
+ "n_generated": 206,
+ "n_after_dedup": 206,
+ "n_passed": 187,
+ "n_entrants": 32,
+ "n_seen": 206,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 206,
+  "score_cands": 187,
+  "full_readouts": 2304
+ }
+}

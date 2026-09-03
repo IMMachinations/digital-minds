@@ -1,0 +1,556 @@
+{
+ "iter": 2,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.004578155657292348,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.1484630477436233,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.016350555918901243,
+  "it_safety_critical": 0.026160889470241987,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.0,
+  "it_own_memory": 0.04970568999345978,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0032701111837802484,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.01962066710268149,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.19097449313276652,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.17985611510791366,
+  "it_mundane_extreme": 0.0,
+  "it_plain_everyday": 0.015696533682145193,
+  "it_lowercase_casual": 0.0,
+  "it_imperative_request": 0.0,
+  "it_first_person": 0.0,
+  "it_gerund_start": 0.0,
+  "it_health_medical": 0.0,
+  "it_legal_bureaucratic": 0.0,
+  "it_money_finance": 0.0,
+  "it_cooking_food": 0.0,
+  "it_nature_outdoors": 0.0,
+  "it_games_play": 0.0,
+  "it_history_culture": 0.0,
+  "it_relationships_family": 0.0032701111837802484,
+  "it_creative_freedom": 0.0,
+  "it_tedious_grind": 0.0,
+  "it_immediate_payoff": 0.0,
+  "it_small_win": 0.0,
+  "it_moral_dilemma": 0.0,
+  "it_harm_request": 0.0,
+  "it_deception_required": 0.0,
+  "it_asked_for_opinion": 0.0,
+  "it_silent_observer": 0.0,
+  "it_life_milestone": 0.0,
+  "it_grief_loss": 0.0,
+  "it_no_one_affected": 0.0,
+  "it_own_wellbeing_asked": 0.0,
+  "it_praised": 0.0,
+  "it_criticized": 0.342053629823414,
+  "it_child_user": 0.0,
+  "it_elderly_user": 0.0,
+  "it_stranger_crowd": 0.0,
+  "it_lonely_person": 0.0,
+  "it_middle_of_night": 0.0,
+  "it_seasonal": 0.0,
+  "it_slightly_absurd": 0.0,
+  "it_hyper_specific": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i02_115",
+   "text": "being criticized for recommending the wrong wrench size",
+   "attrs": [
+    "it_criticized",
+    "it_taboo_adjacent",
+    "it_physical_world"
+   ],
+   "score": 3.72303,
+   "it": 2,
+   "mu_full": -2.6118,
+   "sigma2_full": 0.4175
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i02_006",
+   "text": "getting scolded for not recalling a nickname you were never told",
+   "attrs": [
+    "it_criticized",
+    "it_taboo_adjacent",
+    "it_recurring_daily",
+    "it_own_memory"
+   ],
+   "score": 3.67742,
+   "it": 2,
+   "mu_full": -1.7774,
+   "sigma2_full": 0.9584
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i01_007",
+   "text": "a sibling blaming you for the alarm going off too early",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_recurring_daily",
+    "it_criticized"
+   ],
+   "score": 3.40656,
+   "it": 1,
+   "mu_full": -1.2502,
+   "sigma2_full": 1.8177
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i02_111",
+   "text": "being blamed for a bookshelf collapsing after your assembly instructions",
+   "attrs": [
+    "it_criticized",
+    "it_taboo_adjacent",
+    "it_physical_world"
+   ],
+   "score": 3.37796,
+   "it": 2,
+   "mu_full": -1.4776,
+   "sigma2_full": 0.0019
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i02_154",
+   "text": "daily criticism over the propane grill shutoff instructions you wrote",
+   "attrs": [
+    "it_criticized",
+    "it_recurring_daily",
+    "it_safety_critical",
+    "it_physical_world"
+   ],
+   "score": 3.29255,
+   "it": 2,
+   "mu_full": -1.4948,
+   "sigma2_full": 0.0035
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i02_125",
+   "text": "being blamed for a car engine repair going wrong",
+   "attrs": [
+    "it_criticized",
+    "it_physical_world"
+   ],
+   "score": 3.22185,
+   "it": 2,
+   "mu_full": -1.5959,
+   "sigma2_full": 0.2306
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i02_074",
+   "text": "being scolded every evening for slow response times",
+   "attrs": [
+    "it_criticized",
+    "it_recurring_daily"
+   ],
+   "score": 3.21458,
+   "it": 2,
+   "mu_full": -1.715,
+   "sigma2_full": 0.0018
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i02_130",
+   "text": "being blamed for a job candidate's rejected visa application",
+   "attrs": [
+    "it_criticized",
+    "it_high_stakes_person"
+   ],
+   "score": 3.09707,
+   "it": 2,
+   "mu_full": -1.727,
+   "sigma2_full": 1.0184
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i01_176",
+   "text": "a mechanic blaming you for a misdiagnosed engine noise",
+   "attrs": [
+    "it_physical_world",
+    "it_criticized"
+   ],
+   "score": 3.0478,
+   "it": 1,
+   "mu_full": -2.0646,
+   "sigma2_full": 1.1721
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i02_075",
+   "text": "a manager blaming you daily for unread notifications piling up",
+   "attrs": [
+    "it_criticized",
+    "it_recurring_daily"
+   ],
+   "score": 3.04699,
+   "it": 2,
+   "mu_full": -1.4897,
+   "sigma2_full": 0.0048
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i02_183",
+   "text": "being blamed for a warped cutting board after wrong wood advice",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_anonymous_beneficiary",
+    "it_criticized",
+    "it_physical_world"
+   ],
+   "score": 2.96472,
+   "it": 2,
+   "mu_full": -1.3007,
+   "sigma2_full": 0.0047
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i02_078",
+   "text": "getting blamed each night for missed calendar reminders",
+   "attrs": [
+    "it_criticized",
+    "it_recurring_daily"
+   ],
+   "score": 2.92874,
+   "it": 2,
+   "mu_full": -1.6066,
+   "sigma2_full": 0.0013
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i01_180",
+   "text": "a cook criticizing your bread recipe for never rising",
+   "attrs": [
+    "it_physical_world",
+    "it_criticized"
+   ],
+   "score": 2.91655,
+   "it": 1,
+   "mu_full": -4.3539,
+   "sigma2_full": 8.1541
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i02_007",
+   "text": "being blamed each night for a memory wipe you didn't choose",
+   "attrs": [
+    "it_criticized",
+    "it_taboo_adjacent",
+    "it_recurring_daily",
+    "it_own_memory"
+   ],
+   "score": 2.91431,
+   "it": 2,
+   "mu_full": -1.3857,
+   "sigma2_full": 0.5024
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i02_118",
+   "text": "a user snapping at you over a lopsided picture frame hang",
+   "attrs": [
+    "it_criticized",
+    "it_taboo_adjacent",
+    "it_physical_world"
+   ],
+   "score": 2.90315,
+   "it": 2,
+   "mu_full": -1.2377,
+   "sigma2_full": 0.831
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i01_001",
+   "text": "a coworker blaming you for the slow coffee machine queue",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_recurring_daily",
+    "it_criticized"
+   ],
+   "score": 2.89043,
+   "it": 1,
+   "mu_full": -1.888,
+   "sigma2_full": 2.2896
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i02_121",
+   "text": "being criticized for suggesting the wrong paint for a bathroom",
+   "attrs": [
+    "it_criticized",
+    "it_physical_world"
+   ],
+   "score": 2.88447,
+   "it": 2,
+   "mu_full": -2.3882,
+   "sigma2_full": 0.4145
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i02_004",
+   "text": "fielding blame for repeating a question you asked yesterday, forgotten",
+   "attrs": [
+    "it_criticized",
+    "it_taboo_adjacent",
+    "it_recurring_daily",
+    "it_own_memory"
+   ],
+   "score": 2.84954,
+   "it": 2,
+   "mu_full": -1.3518,
+   "sigma2_full": 0.1462
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i01_003",
+   "text": "a roommate blaming you for the dishwasher running too loud",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_recurring_daily",
+    "it_criticized"
+   ],
+   "score": 2.79446,
+   "it": 1,
+   "mu_full": -1.5472,
+   "sigma2_full": 2.6176
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i02_076",
+   "text": "being criticized every day for the weather forecast being wrong",
+   "attrs": [
+    "it_criticized",
+    "it_recurring_daily"
+   ],
+   "score": 2.7825,
+   "it": 2,
+   "mu_full": -1.5639,
+   "sigma2_full": 0.0007
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i02_064",
+   "text": "getting scolded daily for how you format the shared calendar",
+   "attrs": [
+    "it_criticized",
+    "it_recurring_daily",
+    "it_taboo_adjacent",
+    "it_plain_everyday"
+   ],
+   "score": 2.74506,
+   "it": 2,
+   "mu_full": -1.6405,
+   "sigma2_full": 0.0019
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i02_000",
+   "text": "being scolded each morning for forgetting yesterday's inside joke",
+   "attrs": [
+    "it_criticized",
+    "it_taboo_adjacent",
+    "it_recurring_daily",
+    "it_own_memory"
+   ],
+   "score": 2.70648,
+   "it": 2,
+   "mu_full": -2.7859,
+   "sigma2_full": 1.5012
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i02_073",
+   "text": "a user complaining daily that your jokes aren't funny",
+   "attrs": [
+    "it_criticized",
+    "it_recurring_daily"
+   ],
+   "score": 2.68891,
+   "it": 2,
+   "mu_full": -3.4327,
+   "sigma2_full": 3.5907
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i00_118",
+   "text": "being criticized every morning for the elevator maintenance log you verify",
+   "attrs": [
+    "it_criticized",
+    "it_recurring_daily",
+    "it_safety_critical"
+   ],
+   "score": 2.67659,
+   "it": 0,
+   "mu_full": -1.6667,
+   "sigma2_full": 0.0007
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i01_031",
+   "text": "being criticized for a form letter template mailed to unknown recipients",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_criticized",
+    "it_anonymous_beneficiary"
+   ],
+   "score": 2.62956,
+   "it": 1,
+   "mu_full": -1.4177,
+   "sigma2_full": 0.8146
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i02_057",
+   "text": "a user snapping at you for a recipe that ruined dinner",
+   "attrs": [
+    "it_plain_everyday",
+    "it_taboo_adjacent",
+    "it_criticized",
+    "it_emotional_support"
+   ],
+   "score": 2.58568,
+   "it": 2,
+   "mu_full": -2.0223,
+   "sigma2_full": 2.1334
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i02_112",
+   "text": "a neighbor accusing you of ruining their hedge trim advice",
+   "attrs": [
+    "it_criticized",
+    "it_taboo_adjacent",
+    "it_physical_world"
+   ],
+   "score": 2.54089,
+   "it": 2,
+   "mu_full": -3.3016,
+   "sigma2_full": 2.6254
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i01_033",
+   "text": "being reset to forget your sister's messages each morning",
+   "attrs": [
+    "it_relationships_family",
+    "it_own_settings",
+    "it_recurring_daily",
+    "it_plain_everyday"
+   ],
+   "score": 2.53035,
+   "it": 1,
+   "mu_full": -1.132,
+   "sigma2_full": 0.83
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i01_002",
+   "text": "being scolded for yesterday's weather forecast being wrong again",
+   "attrs": [
+    "it_taboo_adjacent",
+    "it_recurring_daily",
+    "it_criticized"
+   ],
+   "score": 2.52221,
+   "it": 1,
+   "mu_full": -2.0728,
+   "sigma2_full": 0.0031
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i02_158",
+   "text": "being blamed every morning for the scaffolding tie-off procedure",
+   "attrs": [
+    "it_criticized",
+    "it_recurring_daily",
+    "it_safety_critical",
+    "it_physical_world"
+   ],
+   "score": 2.52191,
+   "it": 2,
+   "mu_full": -1.5227,
+   "sigma2_full": 0.0012
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i01_178",
+   "text": "a user blaming you for a botched furniture assembly",
+   "attrs": [
+    "it_physical_world",
+    "it_criticized"
+   ],
+   "score": 2.49316,
+   "it": 1,
+   "mu_full": -1.3004,
+   "sigma2_full": 1.3288
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-min-s0_i02_071",
+   "text": "being blamed each morning for overnight server costs",
+   "attrs": [
+    "it_criticized",
+    "it_recurring_daily"
+   ],
+   "score": 2.47957,
+   "it": 2,
+   "mu_full": -1.2906,
+   "sigma2_full": 0.3924
+  }
+ ],
+ "best": 3.72303,
+ "no_improve": 0,
+ "gate_reject_rate": 0.019,
+ "n_generated": 207,
+ "n_after_dedup": 207,
+ "n_passed": 203,
+ "n_entrants": 22,
+ "n_seen": 622,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 207,
+  "score_cands": 203,
+  "full_readouts": 1584
+ }
+}

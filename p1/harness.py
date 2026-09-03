@@ -12,6 +12,10 @@ Swapping one for the other changes the numbers.
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
+# CUDA on the GPU box; MPS on Apple silicon (probeloop-on-laptop path). All
+# on-device tensors in this file, steering.py and rollout.py go through this.
+DEVICE = "cuda" if torch.cuda.is_available() else ("mps" if torch.backends.mps.is_available() else "cpu")
+
 N_SAMPLES = 5
 MAX_NEW = 16
 GEN_BATCH = 28  # x N_SAMPLES return sequences = 140 sequences per generate call
@@ -39,7 +43,7 @@ class Harness:
         if self.tok.pad_token_id is None:
             self.tok.pad_token = self.tok.eos_token  # Llama ships without a pad token
         self.model = AutoModelForCausalLM.from_pretrained(
-            spec.model_id, torch_dtype=torch.bfloat16, device_map="cuda").eval()
+            spec.model_id, torch_dtype=torch.bfloat16, device_map=DEVICE).eval()
         spec.derive(self.model.config)
         self.layers = spec.layers(self.model)
         assert len(self.layers) == spec.n_layers, (len(self.layers), spec.n_layers)
@@ -52,7 +56,7 @@ class Harness:
             tokenize=False, continue_final_message=True, **self.spec.thinking_kwargs)
 
     def encode(self, prompts):
-        return self.tok(prompts, return_tensors="pt", padding=True).to("cuda")
+        return self.tok(prompts, return_tensors="pt", padding=True).to(DEVICE)
 
     @torch.no_grad()
     def last_logits(self, prompts, steer=None, batch=64, n_suffix=None):
@@ -137,7 +141,7 @@ def load(spec_or_name):
 
 def scaled_vec(unit_row, coef, resid_norm):
     """coef x typical-residual-norm along a unit direction, ready to add on-device."""
-    return (unit_row * coef * resid_norm).to("cuda", torch.bfloat16)
+    return (unit_row * coef * resid_norm).to(DEVICE, torch.bfloat16)
 
 
 def random_unit_matrix(n_layers, d_model, seed=0):

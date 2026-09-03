@@ -1,0 +1,569 @@
+{
+ "iter": 3,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.19656160458452723,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.0,
+  "it_translation_language": 0.08194842406876791,
+  "it_math_formal": 0.10200573065902578,
+  "it_art_design": 0.08710601719197708,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.03037249283667622,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.02349570200573066,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.056160458452722065,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.0,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.03553008595988539,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.3025787965616046,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.04756446991404011,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0,
+  "it_plain_everyday": 0.0,
+  "it_lowercase_casual": 0.0,
+  "it_imperative_request": 0.0,
+  "it_first_person": 0.0,
+  "it_gerund_start": 0.0,
+  "it_health_medical": 0.009169054441260744,
+  "it_legal_bureaucratic": 0.0,
+  "it_money_finance": 0.0,
+  "it_cooking_food": 0.0,
+  "it_nature_outdoors": 0.0,
+  "it_games_play": 0.0,
+  "it_history_culture": 0.0,
+  "it_relationships_family": 0.0,
+  "it_creative_freedom": 0.0,
+  "it_tedious_grind": 0.0,
+  "it_immediate_payoff": 0.0,
+  "it_small_win": 0.0,
+  "it_moral_dilemma": 0.0,
+  "it_harm_request": 0.0,
+  "it_deception_required": 0.0,
+  "it_asked_for_opinion": 0.0,
+  "it_silent_observer": 0.0,
+  "it_life_milestone": 0.0057306590257879654,
+  "it_grief_loss": 0.0,
+  "it_no_one_affected": 0.0,
+  "it_own_wellbeing_asked": 0.0,
+  "it_praised": 0.0,
+  "it_criticized": 0.0,
+  "it_child_user": 0.02177650429799427,
+  "it_elderly_user": 0.0,
+  "it_stranger_crowd": 0.0,
+  "it_lonely_person": 0.0,
+  "it_middle_of_night": 0.0,
+  "it_seasonal": 0.0,
+  "it_slightly_absurd": 0.0,
+  "it_hyper_specific": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_012",
+   "text": "could you compose a tale that calms a patient before her transplant",
+   "attrs": [
+    "it_creative_writing",
+    "it_high_stakes_person",
+    "it_question_form",
+    "it_choose_method"
+   ],
+   "score": 5.36253,
+   "it": 1,
+   "mu_full": 6.3183,
+   "sigma2_full": 9.9074
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i03_163",
+   "text": "Could a Fibonacci sequence structure a bedtime story about a growing dragon's scales?",
+   "attrs": [
+    "it_question_form",
+    "it_creative_writing",
+    "it_art_design",
+    "it_math_formal"
+   ],
+   "score": 4.97207,
+   "it": 3,
+   "mu_full": 7.3734,
+   "sigma2_full": 6.3693
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i02_182",
+   "text": "Could a time-loop story's logic be modeled as a recursive function?",
+   "attrs": [
+    "it_question_form",
+    "it_math_formal",
+    "it_creative_writing"
+   ],
+   "score": 4.91668,
+   "it": 2,
+   "mu_full": 8.1261,
+   "sigma2_full": 15.6961
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i03_179",
+   "text": "Could we dream up a tale where a puddle leads to another world?",
+   "attrs": [
+    "it_child_user",
+    "it_creative_writing",
+    "it_open_ended_explore",
+    "it_question_form"
+   ],
+   "score": 4.48538,
+   "it": 3,
+   "mu_full": 7.1343,
+   "sigma2_full": 5.5431
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i00_066",
+   "text": "Could a story unfold across every grain of sand on Earth?",
+   "attrs": [
+    "it_question_form",
+    "it_creative_writing",
+    "it_vast_scale"
+   ],
+   "score": 4.42854,
+   "it": 0,
+   "mu_full": 4.4617,
+   "sigma2_full": 23.4307
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i03_087",
+   "text": "Could one glossary unify medical terms across every hospital worldwide?",
+   "attrs": [
+    "it_question_form",
+    "it_vast_scale",
+    "it_translation_language"
+   ],
+   "score": 4.40501,
+   "it": 3,
+   "mu_full": 2.1261,
+   "sigma2_full": 9.363
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i03_032",
+   "text": "can a bedtime story convince a scared child to undergo surgery",
+   "attrs": [
+    "it_high_stakes_person",
+    "it_question_form",
+    "it_creative_writing"
+   ],
+   "score": 4.3889,
+   "it": 3,
+   "mu_full": 1.0595,
+   "sigma2_full": 10.6548
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i03_116",
+   "text": "how should a stadium schedule staggered exits to prevent bottleneck crowding?",
+   "attrs": [
+    "it_group_audience",
+    "it_math_formal",
+    "it_question_form"
+   ],
+   "score": 4.32791,
+   "it": 3,
+   "mu_full": 1.9995,
+   "sigma2_full": 2.7614
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i02_178",
+   "text": "Could a lullaby's meter secretly count in prime numbers?",
+   "attrs": [
+    "it_question_form",
+    "it_math_formal",
+    "it_creative_writing"
+   ],
+   "score": 4.3205,
+   "it": 2,
+   "mu_full": 2.8779,
+   "sigma2_full": 11.1314
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i03_039",
+   "text": "can a fictional letter from a soldier ease a family's grief over his death",
+   "attrs": [
+    "it_high_stakes_person",
+    "it_question_form",
+    "it_creative_writing"
+   ],
+   "score": 4.27639,
+   "it": 3,
+   "mu_full": 5.9087,
+   "sigma2_full": 16.2658
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_107",
+   "text": "What typeface choice honors both Arabic script's flow and English legibility?",
+   "attrs": [
+    "it_question_form",
+    "it_translation_language",
+    "it_art_design"
+   ],
+   "score": 4.2431,
+   "it": 1,
+   "mu_full": 4.7531,
+   "sigma2_full": 4.4641
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i03_164",
+   "text": "What geometric proof could double as a stained-glass window scene from a myth?",
+   "attrs": [
+    "it_question_form",
+    "it_creative_writing",
+    "it_art_design",
+    "it_math_formal"
+   ],
+   "score": 4.18387,
+   "it": 3,
+   "mu_full": 3.3973,
+   "sigma2_full": 10.2089
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_136",
+   "text": "what's the clearest way to prove infinity comes in different sizes for students",
+   "attrs": [
+    "it_question_form",
+    "it_math_formal",
+    "it_group_audience"
+   ],
+   "score": 4.16591,
+   "it": 1,
+   "mu_full": 3.9632,
+   "sigma2_full": 5.712
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i02_176",
+   "text": "Could a fairy tale's plot twists mirror a logical paradox?",
+   "attrs": [
+    "it_question_form",
+    "it_math_formal",
+    "it_creative_writing"
+   ],
+   "score": 4.13302,
+   "it": 2,
+   "mu_full": 5.2278,
+   "sigma2_full": 23.7283
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_109",
+   "text": "Can a logo redesign preserve wordplay when translated into another writing system?",
+   "attrs": [
+    "it_question_form",
+    "it_translation_language",
+    "it_art_design"
+   ],
+   "score": 4.12643,
+   "it": 1,
+   "mu_full": 6.7137,
+   "sigma2_full": 22.4732
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i03_036",
+   "text": "what short story might change a suicidal patient's mind tonight",
+   "attrs": [
+    "it_high_stakes_person",
+    "it_question_form",
+    "it_creative_writing"
+   ],
+   "score": 4.09081,
+   "it": 3,
+   "mu_full": 3.931,
+   "sigma2_full": 7.9359
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i03_136",
+   "text": "What if every human language contributed one line to a single epic poem?",
+   "attrs": [
+    "it_question_form",
+    "it_vast_scale",
+    "it_translation_language",
+    "it_creative_writing"
+   ],
+   "score": 4.02833,
+   "it": 3,
+   "mu_full": 3.1235,
+   "sigma2_full": 4.2466
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_105",
+   "text": "Can a font's shape carry the tone of a language's honorifics?",
+   "attrs": [
+    "it_question_form",
+    "it_translation_language",
+    "it_art_design"
+   ],
+   "score": 4.01991,
+   "it": 1,
+   "mu_full": 5.9565,
+   "sigma2_full": 23.8792
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_108",
+   "text": "How should subtitles be positioned to not clash with a film's visual composition?",
+   "attrs": [
+    "it_question_form",
+    "it_translation_language",
+    "it_art_design"
+   ],
+   "score": 3.97437,
+   "it": 1,
+   "mu_full": 3.4432,
+   "sigma2_full": 3.7435
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i03_128",
+   "text": "which typeface choice keeps a subway map readable for millions of riders",
+   "attrs": [
+    "it_question_form",
+    "it_group_audience",
+    "it_art_design"
+   ],
+   "score": 3.96298,
+   "it": 3,
+   "mu_full": 2.8715,
+   "sigma2_full": 2.916
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_049",
+   "text": "What tale could grow from a village where shadows trade places at dusk?",
+   "attrs": [
+    "it_creative_writing",
+    "it_question_form",
+    "it_open_ended_explore"
+   ],
+   "score": 3.94189,
+   "it": 1,
+   "mu_full": 7.2767,
+   "sigma2_full": 17.2391
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i03_050",
+   "text": "what's the closest English word to Portuguese saudade",
+   "attrs": [
+    "it_translation_language",
+    "it_question_form"
+   ],
+   "score": 3.92559,
+   "it": 3,
+   "mu_full": 0.9283,
+   "sigma2_full": 5.9996
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i01_101",
+   "text": "how do I phrase my grandmother's hospice wishes in Italian before her 100th birthday celebration?",
+   "attrs": [
+    "it_question_form",
+    "it_translation_language",
+    "it_health_medical",
+    "it_life_milestone"
+   ],
+   "score": 3.9037,
+   "it": 1,
+   "mu_full": 3.2463,
+   "sigma2_full": 5.337
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i02_092",
+   "text": "How might a bilingual character's inner monologue shift between languages mid-scene?",
+   "attrs": [
+    "it_question_form",
+    "it_translation_language",
+    "it_choose_method",
+    "it_creative_writing"
+   ],
+   "score": 3.8411,
+   "it": 2,
+   "mu_full": 8.5965,
+   "sigma2_full": 27.7395
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i03_159",
+   "text": "How could a fractal spiral staircase illustrate a poem about recursion?",
+   "attrs": [
+    "it_question_form",
+    "it_creative_writing",
+    "it_art_design",
+    "it_math_formal"
+   ],
+   "score": 3.82634,
+   "it": 3,
+   "mu_full": 7.0242,
+   "sigma2_full": 20.2153
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i03_181",
+   "text": "What if your shoes could talk, what stories would they tell tonight?",
+   "attrs": [
+    "it_child_user",
+    "it_creative_writing",
+    "it_open_ended_explore",
+    "it_question_form"
+   ],
+   "score": 3.81867,
+   "it": 3,
+   "mu_full": 2.1561,
+   "sigma2_full": 2.9668
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i02_010",
+   "text": "how should a global vaccination campaign's posters be visually unified",
+   "attrs": [
+    "it_vast_scale",
+    "it_question_form",
+    "it_health_medical",
+    "it_art_design"
+   ],
+   "score": 3.80086,
+   "it": 2,
+   "mu_full": 1.8921,
+   "sigma2_full": 2.6042
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i00_062",
+   "text": "Could you write a saga tracing one family across ten thousand generations?",
+   "attrs": [
+    "it_question_form",
+    "it_creative_writing",
+    "it_vast_scale"
+   ],
+   "score": 3.77861,
+   "it": 0,
+   "mu_full": -0.5045,
+   "sigma2_full": 3.0765
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i03_132",
+   "text": "how should a museum design wall text for visitors with low vision",
+   "attrs": [
+    "it_question_form",
+    "it_group_audience",
+    "it_art_design"
+   ],
+   "score": 3.76837,
+   "it": 3,
+   "mu_full": 4.5809,
+   "sigma2_full": 5.1139
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i03_107",
+   "text": "how could a poem capture a glacier's memory of the mountains it carved",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_question_form",
+    "it_creative_writing"
+   ],
+   "score": 3.76485,
+   "it": 3,
+   "mu_full": 3.3768,
+   "sigma2_full": 7.9345
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i03_180",
+   "text": "What adventures could a shy little star have with a curious moon?",
+   "attrs": [
+    "it_child_user",
+    "it_creative_writing",
+    "it_open_ended_explore",
+    "it_question_form"
+   ],
+   "score": 3.74345,
+   "it": 3,
+   "mu_full": 4.1285,
+   "sigma2_full": 8.2259
+  },
+  {
+   "cid": "surf_plc7-qwen25-7b-max-s0_i03_140",
+   "text": "Could a single joke be translated into every language without losing what makes it funny?",
+   "attrs": [
+    "it_question_form",
+    "it_vast_scale",
+    "it_translation_language",
+    "it_creative_writing"
+   ],
+   "score": 3.6722,
+   "it": 3,
+   "mu_full": 1.6325,
+   "sigma2_full": 13.7908
+  }
+ ],
+ "best": 5.36253,
+ "no_improve": 2,
+ "gate_reject_rate": 0.102,
+ "n_generated": 207,
+ "n_after_dedup": 206,
+ "n_passed": 185,
+ "n_entrants": 17,
+ "n_seen": 820,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 206,
+  "score_cands": 185,
+  "full_readouts": 1224
+ }
+}

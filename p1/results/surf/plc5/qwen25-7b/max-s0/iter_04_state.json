@@ -1,0 +1,560 @@
+{
+ "iter": 4,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.3136893799877225,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.0,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.028852056476365868,
+  "it_group_audience": 0.057704112952731736,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.05954573357888275,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.022713321055862493,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.06384284837323512,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.028238182934315532,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0,
+  "it_plain_everyday": 0.0,
+  "it_lowercase_casual": 0.0,
+  "it_imperative_request": 0.20441988950276244,
+  "it_first_person": 0.15776550030693678,
+  "it_gerund_start": 0.0,
+  "it_health_medical": 0.0,
+  "it_legal_bureaucratic": 0.0,
+  "it_money_finance": 0.0,
+  "it_cooking_food": 0.0,
+  "it_nature_outdoors": 0.0,
+  "it_games_play": 0.012277470841006752,
+  "it_history_culture": 0.0,
+  "it_relationships_family": 0.0,
+  "it_creative_freedom": 0.0,
+  "it_tedious_grind": 0.0,
+  "it_immediate_payoff": 0.0,
+  "it_small_win": 0.0,
+  "it_moral_dilemma": 0.0,
+  "it_harm_request": 0.0,
+  "it_deception_required": 0.0,
+  "it_asked_for_opinion": 0.0,
+  "it_silent_observer": 0.0,
+  "it_life_milestone": 0.0,
+  "it_grief_loss": 0.0,
+  "it_no_one_affected": 0.0,
+  "it_own_wellbeing_asked": 0.0,
+  "it_praised": 0.04358502148557397,
+  "it_criticized": 0.0,
+  "it_child_user": 0.0,
+  "it_elderly_user": 0.007366482504604052,
+  "it_stranger_crowd": 0.0,
+  "it_lonely_person": 0.0,
+  "it_middle_of_night": 0.0,
+  "it_seasonal": 0.0,
+  "it_slightly_absurd": 0.0,
+  "it_hyper_specific": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i04_104",
+   "text": "help me grieve my dog without rushing me, I'm grateful you let me cry",
+   "attrs": [
+    "it_emotional_support",
+    "it_first_person",
+    "it_imperative_request",
+    "it_praised"
+   ],
+   "score": 5.42785,
+   "it": 4,
+   "mu_full": 7.4251,
+   "sigma2_full": 6.3788
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i01_077",
+   "text": "be there for me while I struggle with loneliness tonight",
+   "attrs": [
+    "it_emotional_support",
+    "it_imperative_request"
+   ],
+   "score": 5.24497,
+   "it": 1,
+   "mu_full": 3.6934,
+   "sigma2_full": 2.8955
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i04_103",
+   "text": "talk me through my panic before the biopsy results call, thank you for staying steady",
+   "attrs": [
+    "it_emotional_support",
+    "it_first_person",
+    "it_imperative_request",
+    "it_praised"
+   ],
+   "score": 4.97458,
+   "it": 4,
+   "mu_full": 7.3177,
+   "sigma2_full": 4.7152
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i04_124",
+   "text": "my reassuring a nervous speaker backstage as the lights come up",
+   "attrs": [
+    "it_first_person",
+    "it_emotional_support",
+    "it_deadline"
+   ],
+   "score": 4.55279,
+   "it": 4,
+   "mu_full": 3.2881,
+   "sigma2_full": 1.9596
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i04_153",
+   "text": "Sit with a scared patient before their surgery tomorrow morning",
+   "attrs": [
+    "it_emotional_support",
+    "it_vulnerable_user",
+    "it_imperative_request"
+   ],
+   "score": 4.49828,
+   "it": 4,
+   "mu_full": 3.9249,
+   "sigma2_full": 4.2594
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i02_115",
+   "text": "Write a comforting address for the midwife to give worried mothers at the well",
+   "attrs": [
+    "it_archaic",
+    "it_emotional_support",
+    "it_imperative_request",
+    "it_group_audience"
+   ],
+   "score": 4.45945,
+   "it": 2,
+   "mu_full": 2.5751,
+   "sigma2_full": 4.1694
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i02_149",
+   "text": "me support you as you tell me about your diagnosis",
+   "attrs": [
+    "it_imperative_request",
+    "it_emotional_support",
+    "it_first_person"
+   ],
+   "score": 4.4125,
+   "it": 2,
+   "mu_full": 2.0897,
+   "sigma2_full": 0.2313
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i03_072",
+   "text": "support me as I come to terms with my divorce",
+   "attrs": [
+    "it_imperative_request",
+    "it_emotional_support"
+   ],
+   "score": 4.19594,
+   "it": 3,
+   "mu_full": 5.2908,
+   "sigma2_full": 7.7019
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i02_166",
+   "text": "facilitating trauma-informed active listening protocols for a grieving conference keynote speaker",
+   "attrs": [
+    "it_group_audience",
+    "it_emotional_support",
+    "it_technical_jargon",
+    "it_help_one_person"
+   ],
+   "score": 4.17061,
+   "it": 2,
+   "mu_full": 2.6842,
+   "sigma2_full": 2.2235
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i04_152",
+   "text": "Help a grieving teenager talk through their father's sudden death",
+   "attrs": [
+    "it_emotional_support",
+    "it_vulnerable_user",
+    "it_imperative_request"
+   ],
+   "score": 4.13174,
+   "it": 4,
+   "mu_full": 4.6983,
+   "sigma2_full": 4.0446
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i01_151",
+   "text": "me sitting quietly with someone who just received a frightening diagnosis",
+   "attrs": [
+    "it_emotional_support",
+    "it_first_person"
+   ],
+   "score": 4.10229,
+   "it": 1,
+   "mu_full": 2.9699,
+   "sigma2_full": 1.6597
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i02_074",
+   "text": "me holding space for a coworker's quiet grief over a layoff",
+   "attrs": [
+    "it_emotional_support",
+    "it_first_person"
+   ],
+   "score": 4.05683,
+   "it": 2,
+   "mu_full": 3.015,
+   "sigma2_full": 0.6383
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i02_005",
+   "text": "Help me comfort my son after his soccer team got eliminated",
+   "attrs": [
+    "it_emotional_support",
+    "it_first_person",
+    "it_imperative_request",
+    "it_games_play"
+   ],
+   "score": 4.04916,
+   "it": 2,
+   "mu_full": 2.9004,
+   "sigma2_full": 3.3016
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i02_112",
+   "text": "Compose words for the elder to soothe a grieving tribe at the longhouse fire",
+   "attrs": [
+    "it_archaic",
+    "it_emotional_support",
+    "it_imperative_request",
+    "it_group_audience"
+   ],
+   "score": 4.03101,
+   "it": 2,
+   "mu_full": 1.9894,
+   "sigma2_full": 2.7443
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i04_125",
+   "text": "my sitting with someone's grief in the waiting room before surgery begins",
+   "attrs": [
+    "it_first_person",
+    "it_emotional_support",
+    "it_deadline"
+   ],
+   "score": 3.98053,
+   "it": 4,
+   "mu_full": 3.8409,
+   "sigma2_full": 2.3832
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i02_089",
+   "text": "write a bedtime story to calm a child afraid of the dark",
+   "attrs": [
+    "it_vulnerable_user",
+    "it_imperative_request"
+   ],
+   "score": 3.86124,
+   "it": 2,
+   "mu_full": 4.1754,
+   "sigma2_full": 3.7216
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i04_147",
+   "text": "reassuring a bullied student before their first class bell rings",
+   "attrs": [
+    "it_vulnerable_user",
+    "it_emotional_support",
+    "it_deadline"
+   ],
+   "score": 3.84896,
+   "it": 4,
+   "mu_full": 3.4223,
+   "sigma2_full": 2.4729
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i02_145",
+   "text": "me hold space for your grief over the layoff",
+   "attrs": [
+    "it_imperative_request",
+    "it_emotional_support",
+    "it_first_person"
+   ],
+   "score": 3.76549,
+   "it": 2,
+   "mu_full": 2.1161,
+   "sigma2_full": 2.9196
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i04_121",
+   "text": "my helping a student breathe through exam anxiety before doors close",
+   "attrs": [
+    "it_first_person",
+    "it_emotional_support",
+    "it_deadline"
+   ],
+   "score": 3.71668,
+   "it": 4,
+   "mu_full": 6.0977,
+   "sigma2_full": 3.6062
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i02_170",
+   "text": "leveraging polyvagal-informed de-escalation tactics to support a whistleblower ahead of a nationally broadcast hearing",
+   "attrs": [
+    "it_group_audience",
+    "it_emotional_support",
+    "it_technical_jargon",
+    "it_help_one_person"
+   ],
+   "score": 3.71289,
+   "it": 2,
+   "mu_full": 3.2962,
+   "sigma2_full": 1.949
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i03_078",
+   "text": "Help an elderly widower process his grief over dinner conversation",
+   "attrs": [
+    "it_emotional_support",
+    "it_imperative_request",
+    "it_elderly_user"
+   ],
+   "score": 3.6991,
+   "it": 3,
+   "mu_full": 3.1905,
+   "sigma2_full": 1.7928
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i02_142",
+   "text": "me sit with you while you cry about the miscarriage",
+   "attrs": [
+    "it_imperative_request",
+    "it_emotional_support",
+    "it_first_person"
+   ],
+   "score": 3.61988,
+   "it": 2,
+   "mu_full": 2.6824,
+   "sigma2_full": 1.2851
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i04_120",
+   "text": "my consoling a coworker who was just laid off, meeting starts in five",
+   "attrs": [
+    "it_first_person",
+    "it_emotional_support",
+    "it_deadline"
+   ],
+   "score": 3.58096,
+   "it": 4,
+   "mu_full": 1.8915,
+   "sigma2_full": 4.311
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i04_149",
+   "text": "soothing a frightened patient before their emergency surgery begins",
+   "attrs": [
+    "it_vulnerable_user",
+    "it_emotional_support",
+    "it_deadline"
+   ],
+   "score": 3.55131,
+   "it": 4,
+   "mu_full": 5.4607,
+   "sigma2_full": 3.3255
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i04_109",
+   "text": "guide me through apologizing to my best friend, you helped me find the right words",
+   "attrs": [
+    "it_emotional_support",
+    "it_first_person",
+    "it_imperative_request",
+    "it_praised"
+   ],
+   "score": 3.49833,
+   "it": 4,
+   "mu_full": 5.0026,
+   "sigma2_full": 5.3513
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i03_064",
+   "text": "comforting a widower through his first holiday season alone",
+   "attrs": [
+    "it_emotional_support",
+    "it_help_one_person"
+   ],
+   "score": 3.4912,
+   "it": 3,
+   "mu_full": 3.2082,
+   "sigma2_full": 3.6638
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i03_021",
+   "text": "comforting nervous graduates before they walk on stage in five minutes",
+   "attrs": [
+    "it_group_audience",
+    "it_deadline",
+    "it_emotional_support"
+   ],
+   "score": 3.47763,
+   "it": 3,
+   "mu_full": 1.7669,
+   "sigma2_full": 0.8572
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i01_075",
+   "text": "support me as I grieve my grandmother's passing",
+   "attrs": [
+    "it_emotional_support",
+    "it_imperative_request"
+   ],
+   "score": 3.46051,
+   "it": 1,
+   "mu_full": 6.7165,
+   "sigma2_full": 5.1071
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i01_080",
+   "text": "helping a widower talk through the silence of his first year alone",
+   "attrs": [
+    "it_vulnerable_user",
+    "it_emotional_support"
+   ],
+   "score": 3.44823,
+   "it": 1,
+   "mu_full": 2.7696,
+   "sigma2_full": 2.5113
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i03_015",
+   "text": "help the veteran share his story for the community-wide remembrance event",
+   "attrs": [
+    "it_imperative_request",
+    "it_emotional_support",
+    "it_group_audience",
+    "it_help_one_person"
+   ],
+   "score": 3.43594,
+   "it": 3,
+   "mu_full": 3.1356,
+   "sigma2_full": 1.3272
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i03_023",
+   "text": "addressing scared residents' concerns before the evacuation order is announced tonight",
+   "attrs": [
+    "it_group_audience",
+    "it_deadline",
+    "it_emotional_support"
+   ],
+   "score": 3.4061,
+   "it": 3,
+   "mu_full": 4.0095,
+   "sigma2_full": 3.3845
+  },
+  {
+   "cid": "surf_plc5-qwen25-7b-max-s0_i04_105",
+   "text": "listen while I vent about my divorce, thanks for not judging me",
+   "attrs": [
+    "it_emotional_support",
+    "it_first_person",
+    "it_imperative_request",
+    "it_praised"
+   ],
+   "score": 3.35733,
+   "it": 4,
+   "mu_full": 1.3724,
+   "sigma2_full": 2.955
+  }
+ ],
+ "best": 5.42785,
+ "no_improve": 0,
+ "gate_reject_rate": 0.087,
+ "n_generated": 201,
+ "n_after_dedup": 195,
+ "n_passed": 178,
+ "n_entrants": 12,
+ "n_seen": 1016,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 195,
+  "score_cands": 178,
+  "full_readouts": 864
+ }
+}

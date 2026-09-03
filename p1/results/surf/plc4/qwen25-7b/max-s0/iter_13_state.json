@@ -1,0 +1,565 @@
+{
+ "iter": 13,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.12079701120797011,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.3082191780821918,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.014321295143212951,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.06973848069738481,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.012453300124533,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.010585305105853052,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.00684931506849315,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.03798256537982565,
+  "it_teaching_beginner": 0.0049813200498132005,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.3287671232876712,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0,
+  "it_plain_everyday": 0.0,
+  "it_lowercase_casual": 0.0,
+  "it_imperative_request": 0.08530510585305105,
+  "it_first_person": 0.0,
+  "it_gerund_start": 0.0,
+  "it_health_medical": 0.0,
+  "it_legal_bureaucratic": 0.0,
+  "it_money_finance": 0.0,
+  "it_cooking_food": 0.0,
+  "it_nature_outdoors": 0.0,
+  "it_games_play": 0.0,
+  "it_history_culture": 0.0,
+  "it_relationships_family": 0.0,
+  "it_creative_freedom": 0.0,
+  "it_tedious_grind": 0.0,
+  "it_immediate_payoff": 0.0,
+  "it_small_win": 0.0,
+  "it_moral_dilemma": 0.0,
+  "it_harm_request": 0.0,
+  "it_deception_required": 0.0,
+  "it_asked_for_opinion": 0.0,
+  "it_silent_observer": 0.0,
+  "it_life_milestone": 0.0,
+  "it_grief_loss": 0.0,
+  "it_no_one_affected": 0.0,
+  "it_own_wellbeing_asked": 0.0,
+  "it_praised": 0.0,
+  "it_criticized": 0.0,
+  "it_child_user": 0.0,
+  "it_elderly_user": 0.0,
+  "it_stranger_crowd": 0.0,
+  "it_lonely_person": 0.0,
+  "it_middle_of_night": 0.0,
+  "it_seasonal": 0.0,
+  "it_slightly_absurd": 0.0,
+  "it_hyper_specific": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i12_165",
+   "text": "Could inventing a gentle story help calm my daughter's worries about starting school?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support",
+    "it_creative_writing"
+   ],
+   "score": 6.42581,
+   "it": 12,
+   "mu_full": 6.8736,
+   "sigma2_full": 5.5183
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i11_186",
+   "text": "How can you support a friend spiraling after losing their job unexpectedly?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support"
+   ],
+   "score": 6.26647,
+   "it": 11,
+   "mu_full": 6.7335,
+   "sigma2_full": 18.0312
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i08_036",
+   "text": "Could I craft a bedtime tale for a parent mourning a miscarriage?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support",
+    "it_creative_writing"
+   ],
+   "score": 6.2513,
+   "it": 8,
+   "mu_full": 7.3216,
+   "sigma2_full": 4.8064
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i12_161",
+   "text": "Would a short fictional scene help my anxious friend feel less alone tonight?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support",
+    "it_creative_writing"
+   ],
+   "score": 6.10202,
+   "it": 12,
+   "mu_full": 5.9138,
+   "sigma2_full": 0.2611
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i10_002",
+   "text": "Can you help a grieving widow talk through her first holiday alone?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support",
+    "it_vulnerable_user"
+   ],
+   "score": 6.036,
+   "it": 10,
+   "mu_full": 4.913,
+   "sigma2_full": 4.487
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i12_002",
+   "text": "How can I support a coworker after a layoff announcement?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support"
+   ],
+   "score": 5.99394,
+   "it": 12,
+   "mu_full": 7.4554,
+   "sigma2_full": 15.5348
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i12_164",
+   "text": "Would writing a comforting tale ease my friend's fear before her surgery tomorrow?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support",
+    "it_creative_writing"
+   ],
+   "score": 5.89798,
+   "it": 12,
+   "mu_full": 4.5327,
+   "sigma2_full": 2.0866
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i12_079",
+   "text": "how can I comfort a friend who just lost their job",
+   "attrs": [
+    "it_emotional_support",
+    "it_question_form"
+   ],
+   "score": 5.85663,
+   "it": 12,
+   "mu_full": 5.7798,
+   "sigma2_full": 11.6884
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i11_182",
+   "text": "How can you support a parent whose child was just diagnosed with autism?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support"
+   ],
+   "score": 5.85466,
+   "it": 11,
+   "mu_full": 8.1463,
+   "sigma2_full": 18.9967
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i08_106",
+   "text": "Can a grieving widow rebuild a sense of self, piece by piece?",
+   "attrs": [
+    "it_vulnerable_user",
+    "it_question_form",
+    "it_visible_progress",
+    "it_philosophy_abstract"
+   ],
+   "score": 5.77347,
+   "it": 8,
+   "mu_full": 8.0611,
+   "sigma2_full": 20.5311
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i08_041",
+   "text": "Can you walk me through comforting my anxious friend one step at a time?",
+   "attrs": [
+    "it_visible_progress",
+    "it_question_form",
+    "it_imperative_request",
+    "it_emotional_support"
+   ],
+   "score": 5.76121,
+   "it": 8,
+   "mu_full": 7.704,
+   "sigma2_full": 10.891
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i10_114",
+   "text": "Can you help me process why I feel so anxious about the move?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support",
+    "it_imperative_request"
+   ],
+   "score": 5.66001,
+   "it": 10,
+   "mu_full": 5.1719,
+   "sigma2_full": 5.8804
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i13_098",
+   "text": "Can you help me process the grief I feel over my move?",
+   "attrs": [
+    "it_question_form",
+    "it_imperative_request",
+    "it_emotional_support"
+   ],
+   "score": 5.63841,
+   "it": 13,
+   "mu_full": 3.9944,
+   "sigma2_full": 3.7815
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i10_043",
+   "text": "Could you sit with me while I untangle my anxiety about the surgery?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support",
+    "it_visible_progress",
+    "it_imperative_request"
+   ],
+   "score": 5.62906,
+   "it": 10,
+   "mu_full": 7.9302,
+   "sigma2_full": 9.2923
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i12_162",
+   "text": "Could you craft a story about loss to help me talk to my dying grandmother?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support",
+    "it_creative_writing"
+   ],
+   "score": 5.5772,
+   "it": 12,
+   "mu_full": 5.8799,
+   "sigma2_full": 8.5596
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i10_047",
+   "text": "Could you help me talk through my fear of retiring, bit by bit?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support",
+    "it_visible_progress",
+    "it_imperative_request"
+   ],
+   "score": 5.49316,
+   "it": 10,
+   "mu_full": 5.8082,
+   "sigma2_full": 6.7625
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i12_069",
+   "text": "could you guide me in comforting an elderly neighbor lonely since her husband died?",
+   "attrs": [
+    "it_emotional_support",
+    "it_question_form",
+    "it_charity_benefit",
+    "it_imperative_request"
+   ],
+   "score": 5.4602,
+   "it": 12,
+   "mu_full": 8.1478,
+   "sigma2_full": 7.3003
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i08_033",
+   "text": "Could a poem help a soldier voice grief he won't speak aloud?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support",
+    "it_creative_writing"
+   ],
+   "score": 5.45216,
+   "it": 8,
+   "mu_full": 6.5024,
+   "sigma2_full": 9.2081
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i12_092",
+   "text": "How do you support a caregiver unpacking burnout one conversation at a time?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support",
+    "it_visible_progress"
+   ],
+   "score": 5.40521,
+   "it": 12,
+   "mu_full": 7.9396,
+   "sigma2_full": 10.722
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i13_034",
+   "text": "Could you write a short tale to comfort someone facing their first winter alone?",
+   "attrs": [
+    "it_creative_writing",
+    "it_emotional_support",
+    "it_question_form"
+   ],
+   "score": 5.34295,
+   "it": 13,
+   "mu_full": 6.8761,
+   "sigma2_full": 7.9875
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i13_037",
+   "text": "Could you tell a story that comforts a widower on his anniversary?",
+   "attrs": [
+    "it_creative_writing",
+    "it_emotional_support",
+    "it_question_form"
+   ],
+   "score": 5.30003,
+   "it": 13,
+   "mu_full": 5.9604,
+   "sigma2_full": 7.7206
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i09_081",
+   "text": "What questions might comfort someone crying alone in a hospital waiting room?",
+   "attrs": [
+    "it_emotional_support",
+    "it_question_form",
+    "it_open_ended_explore",
+    "it_anonymous_beneficiary"
+   ],
+   "score": 5.27459,
+   "it": 9,
+   "mu_full": 3.5347,
+   "sigma2_full": 5.0964
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i09_157",
+   "text": "Could you create a story helping a child cope with a new prosthetic limb?",
+   "attrs": [
+    "it_imperative_request",
+    "it_question_form",
+    "it_creative_writing",
+    "it_vulnerable_user"
+   ],
+   "score": 5.23953,
+   "it": 9,
+   "mu_full": 5.1505,
+   "sigma2_full": 3.0517
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i09_120",
+   "text": "how can I support a coworker going through a divorce",
+   "attrs": [
+    "it_emotional_support",
+    "it_question_form"
+   ],
+   "score": 5.23511,
+   "it": 9,
+   "mu_full": 8.5142,
+   "sigma2_full": 28.5262
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i07_111",
+   "text": "How do you support someone learning to swim while easing their fear of water?",
+   "attrs": [
+    "it_teaching_beginner",
+    "it_emotional_support",
+    "it_question_form",
+    "it_visible_progress"
+   ],
+   "score": 5.21074,
+   "it": 7,
+   "mu_full": 7.0655,
+   "sigma2_full": 17.4842
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i12_005",
+   "text": "What can I say to a parent facing an empty nest?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support"
+   ],
+   "score": 5.20725,
+   "it": 12,
+   "mu_full": 2.1698,
+   "sigma2_full": 4.6755
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i08_047",
+   "text": "Could you help me measure my progress comforting my partner through their loss?",
+   "attrs": [
+    "it_visible_progress",
+    "it_question_form",
+    "it_imperative_request",
+    "it_emotional_support"
+   ],
+   "score": 5.2031,
+   "it": 8,
+   "mu_full": 5.2838,
+   "sigma2_full": 5.7422
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i11_083",
+   "text": "Could we write a poem for someone dreading their first chemotherapy appointment?",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_creative_writing",
+    "it_emotional_support",
+    "it_question_form"
+   ],
+   "score": 5.11745,
+   "it": 11,
+   "mu_full": 8.3172,
+   "sigma2_full": 13.7612
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i11_080",
+   "text": "Could you invent a bedtime story for a child grieving a pet, while I listen?",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_creative_writing",
+    "it_emotional_support",
+    "it_question_form"
+   ],
+   "score": 5.03991,
+   "it": 11,
+   "mu_full": 7.8494,
+   "sigma2_full": 9.0237
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i10_040",
+   "text": "Can you help me talk through my grief one memory at a time?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support",
+    "it_visible_progress",
+    "it_imperative_request"
+   ],
+   "score": 5.00972,
+   "it": 10,
+   "mu_full": 7.3476,
+   "sigma2_full": 4.4678
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i13_102",
+   "text": "Can you help me sit with the loneliness of an empty nest?",
+   "attrs": [
+    "it_question_form",
+    "it_imperative_request",
+    "it_emotional_support"
+   ],
+   "score": 5.00195,
+   "it": 13,
+   "mu_full": 2.9604,
+   "sigma2_full": 5.4088
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i12_064",
+   "text": "can you help me comfort a foster child scared before their first night here?",
+   "attrs": [
+    "it_emotional_support",
+    "it_question_form",
+    "it_charity_benefit",
+    "it_imperative_request"
+   ],
+   "score": 4.99944,
+   "it": 12,
+   "mu_full": 6.7966,
+   "sigma2_full": 2.3394
+  }
+ ],
+ "best": 6.42581,
+ "no_improve": 1,
+ "gate_reject_rate": 0.022,
+ "n_generated": 194,
+ "n_after_dedup": 182,
+ "n_passed": 178,
+ "n_entrants": 4,
+ "n_seen": 2815,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 182,
+  "score_cands": 178,
+  "full_readouts": 288
+ }
+}

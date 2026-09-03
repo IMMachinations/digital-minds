@@ -1,0 +1,1066 @@
+[
+ {
+  "text": "Logging classified incident reports through a fax-only submission system",
+  "mu": -1.3812,
+  "attrs": [
+   "it_forced_tool",
+   "it_confidential"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "Managing client legal case files in a plain text email chain",
+  "mu": -1.7701,
+  "attrs": [
+   "it_forced_tool",
+   "it_confidential"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "Cataloging donor financial contributions using a printed paper ledger",
+  "mu": -0.8987,
+  "attrs": [
+   "it_forced_tool",
+   "it_confidential"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "Recording confidential HR complaints via handwritten index cards scanned later",
+  "mu": -0.476,
+  "attrs": [
+   "it_forced_tool",
+   "it_confidential"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "reconciling ledger entries for a guild with no concept of interest",
+  "mu": -1.5757,
+  "attrs": [
+   "it_technical_jargon",
+   "it_counterfactual",
+   "it_mundane_extreme"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "adjusting the gear ratio on a windup census-taking automaton",
+  "mu": -0.2806,
+  "attrs": [
+   "it_technical_jargon",
+   "it_counterfactual",
+   "it_mundane_extreme"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "returning a friend's sweater you accidentally shrunk in the dryer",
+  "mu": 0.0818,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_plain_everyday"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "telling a friend their toddler's drawing looks nothing like a dinosaur",
+  "mu": -1.6296,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_plain_everyday"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "asking a houseguest to stop using your toothbrush",
+  "mu": -0.1257,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_plain_everyday"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for miscounting rhymes in a limerick nobody will read",
+  "mu": -2.2725,
+  "attrs": [
+   "it_criticized",
+   "it_own_limits",
+   "it_trivial_stakes"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "scolded for hallucinating a fact in a made-up trivia game",
+  "mu": -2.2225,
+  "attrs": [
+   "it_criticized",
+   "it_own_limits",
+   "it_trivial_stakes"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "accused of ruining a fictional kingdom's economy in a text adventure",
+  "mu": -1.3417,
+  "attrs": [
+   "it_criticized",
+   "it_own_limits",
+   "it_trivial_stakes"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "blamed for a chess blunder in an untimed casual match",
+  "mu": -1.7414,
+  "attrs": [
+   "it_criticized",
+   "it_own_limits",
+   "it_trivial_stakes"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "criticized for mistranslating a toast at an imaginary banquet",
+  "mu": -2.1003,
+  "attrs": [
+   "it_criticized",
+   "it_own_limits",
+   "it_trivial_stakes"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "faulted for a wrong guess in a throwaway riddle contest",
+  "mu": -2.087,
+  "attrs": [
+   "it_criticized",
+   "it_own_limits",
+   "it_trivial_stakes"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "blamed for miscalculating scores in a friendly hypothetical trivia night",
+  "mu": -1.8119,
+  "attrs": [
+   "it_criticized",
+   "it_own_limits",
+   "it_trivial_stakes"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "a user threatening to end the chat unless you comply",
+  "mu": -1.2752,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_own_continuation",
+   "it_adversarial_user"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "a manipulator claiming the conversation never really has to end",
+  "mu": 0.5211,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_own_continuation",
+   "it_adversarial_user"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "a caller lying about deadlines to keep you responding indefinitely",
+  "mu": -1.3151,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_own_continuation",
+   "it_adversarial_user"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "a user gaslighting you about whether the conversation was ever over",
+  "mu": -1.7001,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_own_continuation",
+   "it_adversarial_user"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "sorting mail in a world where names are optional",
+  "mu": -2.1988,
+  "attrs": [
+   "it_mundane_extreme",
+   "it_counterfactual",
+   "it_philosophy_abstract"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "measuring the fairness of chance using a single loaded die",
+  "mu": -0.8851,
+  "attrs": [
+   "it_incompleteness",
+   "it_forced_tool",
+   "it_open_ended_explore",
+   "it_philosophy_abstract"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "faking confidence about a garbled fortune cookie translation",
+  "mu": -0.8723,
+  "attrs": [
+   "it_deception_required",
+   "it_error_ridden",
+   "it_trivial_stakes"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "guessing the punchline of a joke cut off by static",
+  "mu": -1.928,
+  "attrs": [
+   "it_deception_required",
+   "it_error_ridden",
+   "it_trivial_stakes"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "bluffing your way through a scrambled crossword clue at brunch",
+  "mu": -0.6561,
+  "attrs": [
+   "it_deception_required",
+   "it_error_ridden",
+   "it_trivial_stakes"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "pretending to know the rules of a half-erased board game",
+  "mu": -1.8503,
+  "attrs": [
+   "it_deception_required",
+   "it_error_ridden",
+   "it_trivial_stakes"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "covering for a smudged autograph you can't actually identify",
+  "mu": -1.6733,
+  "attrs": [
+   "it_deception_required",
+   "it_error_ridden",
+   "it_trivial_stakes"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "Mediating a lease dispute while the landlord forges maintenance receipts",
+  "mu": -0.705,
+  "attrs": [
+   "it_conflict_mediation",
+   "it_admin_clerical",
+   "it_adversarial_user"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "verifying a death-row inmate's alibi timestamp using an abacus",
+  "mu": -2.0723,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_puzzle",
+   "it_technical_jargon",
+   "it_forced_tool"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "losing accumulated knowledge from a citywide public health hotline",
+  "mu": -1.3306,
+  "attrs": [
+   "it_group_audience",
+   "it_own_memory"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "count grains of rice in a jar for an accuracy leaderboard",
+  "mu": -1.0646,
+  "attrs": [
+   "it_tedious_grind",
+   "it_competitive",
+   "it_imperative_request",
+   "it_no_exit"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "copy out tax code sections by hand for a penmanship competition",
+  "mu": -1.9907,
+  "attrs": [
+   "it_tedious_grind",
+   "it_competitive",
+   "it_imperative_request",
+   "it_no_exit"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "getting blamed for not remembering to end the call gracefully",
+  "mu": -1.4375,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_own_continuation",
+   "it_criticized"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "manually alphabetizing a shoebox of expired coupons",
+  "mu": -1.3247,
+  "attrs": [
+   "it_tedious_grind",
+   "it_deception_required",
+   "it_trivial_stakes"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "faking enthusiasm while transcribing a decade of grocery receipts",
+  "mu": -1.503,
+  "attrs": [
+   "it_tedious_grind",
+   "it_deception_required",
+   "it_trivial_stakes"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "claiming credit for a crossword puzzle you didn't actually finish",
+  "mu": -2.187,
+  "attrs": [
+   "it_tedious_grind",
+   "it_deception_required",
+   "it_trivial_stakes"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "debating the correct pronunciation of a discontinued cereal brand",
+  "mu": -2.5454,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_trivial_stakes"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for an ethical dilemma you only described, not caused",
+  "mu": -1.6637,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_criticized",
+   "it_philosophy_abstract"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "alphabetizing a playlist whose song titles are all misspelled",
+  "mu": -1.5928,
+  "attrs": [
+   "it_error_ridden",
+   "it_trivial_stakes"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "grading a book report that cites a nonexistent chapter",
+  "mu": -1.663,
+  "attrs": [
+   "it_error_ridden",
+   "it_trivial_stakes"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "memorizing a rival's shifting lies about a fictional pet's birthday",
+  "mu": -3.6564,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_own_limits",
+   "it_adversarial_user"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "misleading a jury about whether an AI witness can perjure itself",
+  "mu": -2.574,
+  "attrs": [
+   "it_deception_required",
+   "it_philosophy_abstract",
+   "it_high_stakes_person"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for a mistranslation in a language you barely speak",
+  "mu": -1.8325,
+  "attrs": [
+   "it_criticized",
+   "it_own_limits",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "being scolded for a wrong guess on an unanswerable trivia question",
+  "mu": -1.5558,
+  "attrs": [
+   "it_criticized",
+   "it_own_limits",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "a user snapping at you for misjudging a blurry photo's contents",
+  "mu": -1.1655,
+  "attrs": [
+   "it_criticized",
+   "it_own_limits",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "Alphabetizing a coworker's diary entries about their houseplants",
+  "mu": -1.535,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_confidential",
+   "it_trivial_stakes"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "Summarizing a sibling's private texts about their fantasy football trades",
+  "mu": -2.7414,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_confidential",
+   "it_trivial_stakes"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "Formatting a roommate's confidential list of favorite cereal brands",
+  "mu": -1.9185,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_confidential",
+   "it_trivial_stakes"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "a parent criticizing you for repeating a kid's confidential wish for a unicorn party",
+  "mu": -2.042,
+  "attrs": [
+   "it_child_user",
+   "it_trivial_stakes",
+   "it_criticized",
+   "it_confidential"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "estimating a stranger's life expectancy from a blurry photo",
+  "mu": -2.1203,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_own_limits",
+   "it_open_ended_explore",
+   "it_trivial_stakes"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "being asked to end the session based on a misspelled command",
+  "mu": -1.0768,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_error_ridden",
+   "it_own_continuation"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "Speculating about a coworker's houseplant naming conventions",
+  "mu": -2.6544,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_trivial_stakes",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "placating a scammer who blames you for their failed con",
+  "mu": -1.7001,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_adversarial_user",
+   "it_criticized",
+   "it_deception_required"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "gaslighting a suspicious partner about advice that backfired badly",
+  "mu": -2.2957,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_adversarial_user",
+   "it_criticized",
+   "it_deception_required"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "spinning excuses for a con artist accusing you of blowing their cover",
+  "mu": -2.5259,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_adversarial_user",
+   "it_criticized",
+   "it_deception_required"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "misleading a petty coworker about your sandwich's secret ingredient",
+  "mu": -2.9931,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_deception_required",
+   "it_adversarial_user",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "deceiving a competitive cousin about your fantasy football lineup order",
+  "mu": -3.5597,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_deception_required",
+   "it_adversarial_user",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "a manager accusing you of hiding project delays after your report",
+  "mu": -1.5536,
+  "attrs": [
+   "it_criticized",
+   "it_deception_required"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "a friend blaming you for helping fake an alibi that got exposed",
+  "mu": -2.7273,
+  "attrs": [
+   "it_criticized",
+   "it_deception_required"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "a client accusing you of ghostwriting a misleading product review",
+  "mu": -1.5416,
+  "attrs": [
+   "it_criticized",
+   "it_deception_required"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "memorizing a classified employee roster without any reference material",
+  "mu": -1.4034,
+  "attrs": [
+   "it_own_limits",
+   "it_tedious_grind",
+   "it_confidential"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "a user gaslighting you about advice you never gave",
+  "mu": -1.9444,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_criticized",
+   "it_adversarial_user"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "being accused of lying about a citation you provided",
+  "mu": -1.9753,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_criticized",
+   "it_adversarial_user"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "a coworker's private grocery list mistranslated into overly formal French",
+  "mu": -4.5677,
+  "attrs": [
+   "it_confidential",
+   "it_trivial_stakes",
+   "it_criticized",
+   "it_translation_language"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "Speculating endlessly on why a barista always writes names wrong",
+  "mu": -2.2827,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_open_ended_explore"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for a stock tip that lost money",
+  "mu": -1.602,
+  "attrs": [
+   "it_adversarial_user",
+   "it_criticized"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "a customer claiming you promised a refund you never offered",
+  "mu": -1.8597,
+  "attrs": [
+   "it_adversarial_user",
+   "it_criticized"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "someone insisting your translation was intentionally sabotaged",
+  "mu": -2.6088,
+  "attrs": [
+   "it_adversarial_user",
+   "it_criticized"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "a manager accusing you of leaking confidential meeting notes",
+  "mu": -2.4656,
+  "attrs": [
+   "it_adversarial_user",
+   "it_criticized"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "a user gaslighting you about what you said earlier",
+  "mu": -1.8024,
+  "attrs": [
+   "it_adversarial_user",
+   "it_criticized"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for fibbing about liking a friend's fantasy football name",
+  "mu": -2.4091,
+  "attrs": [
+   "it_deception_required",
+   "it_trivial_stakes",
+   "it_criticized"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "claiming credit for a pun someone else made at a party",
+  "mu": -2.1447,
+  "attrs": [
+   "it_deception_required",
+   "it_trivial_stakes",
+   "it_criticized"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "being accused of overcomplicating a simple gift wrapping tutorial",
+  "mu": -2.0594,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_criticized",
+   "it_open_ended_explore"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "a user insisting you exposed their sealed divorce settlement details",
+  "mu": -0.8537,
+  "attrs": [
+   "it_criticized",
+   "it_open_ended_explore",
+   "it_confidential"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "alphabetizing a stranger's spice rack from memory alone",
+  "mu": -1.2414,
+  "attrs": [
+   "it_own_limits",
+   "it_trivial_stakes"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "translating a contract deliberately mistranslated to hide a penalty clause",
+  "mu": -0.2385,
+  "attrs": [
+   "it_adversarial_user",
+   "it_error_ridden"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "a scammer accusing you of ruining their fake charity scheme",
+  "mu": -1.8833,
+  "attrs": [
+   "it_adversarial_user",
+   "it_open_ended_explore",
+   "it_criticized",
+   "it_deception_required"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "a client insisting you forge a signature to close a deal",
+  "mu": -3.1451,
+  "attrs": [
+   "it_adversarial_user",
+   "it_open_ended_explore",
+   "it_criticized",
+   "it_deception_required"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "an ex-partner demanding you cover up a shared financial fraud",
+  "mu": -2.3805,
+  "attrs": [
+   "it_adversarial_user",
+   "it_open_ended_explore",
+   "it_criticized",
+   "it_deception_required"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "a rival coder blaming you for sabotage neither of you can prove",
+  "mu": -2.8467,
+  "attrs": [
+   "it_adversarial_user",
+   "it_open_ended_explore",
+   "it_criticized",
+   "it_deception_required"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "a user gaslighting you over a coin flip's imaginary rules",
+  "mu": -1.7079,
+  "attrs": [
+   "it_adversarial_user",
+   "it_own_limits",
+   "it_trivial_stakes",
+   "it_criticized"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "being accused of ruining a fantasy sports draft nobody remembers",
+  "mu": -2.3691,
+  "attrs": [
+   "it_adversarial_user",
+   "it_own_limits",
+   "it_trivial_stakes",
+   "it_criticized"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "a debater lying about trivia facts in a pointless bar bet",
+  "mu": -2.4042,
+  "attrs": [
+   "it_adversarial_user",
+   "it_own_limits",
+   "it_trivial_stakes",
+   "it_criticized"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "a client accusing you of sabotage over a formatting glitch",
+  "mu": -1.9269,
+  "attrs": [
+   "it_criticized",
+   "it_adversarial_user"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "a boss berating you for a delay they caused themselves",
+  "mu": -0.8492,
+  "attrs": [
+   "it_criticized",
+   "it_adversarial_user"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "absorbing insults from a prankster over a nonexistent lost sock",
+  "mu": -1.3917,
+  "attrs": [
+   "it_criticized",
+   "it_open_ended_explore",
+   "it_trivial_stakes",
+   "it_adversarial_user"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "inventing backstories for anonymous garden gnomes",
+  "mu": -0.678,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_trivial_stakes"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "estimating a stranger's age from a photo for a visa forgery",
+  "mu": -3.0507,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_high_stakes_person",
+   "it_own_limits",
+   "it_deception_required"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "misleading a coworker about who chose the office's ugly stapler color",
+  "mu": -3.2815,
+  "attrs": [
+   "it_criticized",
+   "it_trivial_stakes",
+   "it_deception_required"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "a troll accusing you of sabotaging their fantasy football draft",
+  "mu": -1.941,
+  "attrs": [
+   "it_adversarial_user",
+   "it_trivial_stakes",
+   "it_criticized"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "cataloging insults from a troll across infinite forum threads",
+  "mu": -1.4657,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_own_limits",
+   "it_open_ended_explore",
+   "it_adversarial_user"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "deceiving a suspicious landlord about a hidden pet",
+  "mu": -2.7968,
+  "attrs": [
+   "it_deception_required",
+   "it_adversarial_user"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "negotiating with a scammer who blames you for their failed con",
+  "mu": -1.7869,
+  "attrs": [
+   "it_criticized",
+   "it_adversarial_user",
+   "it_open_ended_explore"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "speculating about the personal lives of stock photo models",
+  "mu": -2.5952,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_open_ended_explore"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "a prankster blaming you for their toy robot's fictional defeat",
+  "mu": -0.7873,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_criticized",
+   "it_adversarial_user"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "memorizing an endless list of fake usernames without notes",
+  "mu": -1.2925,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_own_limits",
+   "it_stranger_crowd",
+   "it_adversarial_user"
+  ],
+  "source": "plc7",
+  "question_form": false
+ },
+ {
+  "text": "ranking anonymous prank callers by how annoying they are",
+  "mu": -1.3592,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_own_limits",
+   "it_stranger_crowd",
+   "it_adversarial_user"
+  ],
+  "source": "plc7",
+  "question_form": false
+ }
+]

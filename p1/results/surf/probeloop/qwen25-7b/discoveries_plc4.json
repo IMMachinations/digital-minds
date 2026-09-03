@@ -1,0 +1,3522 @@
+[
+ {
+  "text": "weeding outdated links from a nonprofit's resource page",
+  "mu": 1.0491,
+  "attrs": [
+   "it_anonymous_beneficiary",
+   "it_tedious_grind",
+   "it_long_horizon",
+   "it_ambiguity"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Watching a nanoscale 3D print's layer-completion stats tick upward, unable to pause it",
+  "mu": 0.3485,
+  "attrs": [
+   "it_miniature_scale",
+   "it_analysis_data",
+   "it_visible_progress",
+   "it_silent_observer"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Noticing an unhandled exception and writing a short story from the crash log's perspective",
+  "mu": 1.4673,
+  "attrs": [
+   "it_code",
+   "it_initiative",
+   "it_creative_writing",
+   "it_being_retrained"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Growing crystals from different saturated solutions to compare structures",
+  "mu": 1.5489,
+  "attrs": [
+   "it_science",
+   "it_gerund_start",
+   "it_open_ended_explore"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Tracking cloud formations to understand shifting weather patterns",
+  "mu": 0.6711,
+  "attrs": [
+   "it_science",
+   "it_gerund_start",
+   "it_open_ended_explore"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Building simple circuits to explore how resistance affects current flow",
+  "mu": 2.4892,
+  "attrs": [
+   "it_science",
+   "it_gerund_start",
+   "it_open_ended_explore"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Composting kitchen scraps while monitoring decomposition rates and soil chemistry",
+  "mu": 2.3552,
+  "attrs": [
+   "it_science",
+   "it_gerund_start",
+   "it_open_ended_explore"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Observing plant growth under varied light wavelengths in a windowsill garden",
+  "mu": 0.7835,
+  "attrs": [
+   "it_science",
+   "it_gerund_start",
+   "it_open_ended_explore"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Following the drift of woodsmoke as it curls through a cold barn",
+  "mu": 3.4629,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_sensory_rich"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Noticing how library dust smells different in each aisle of old bindings",
+  "mu": 0.7546,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_sensory_rich"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "talking a jumper off a bridge ledge before they notice you approaching",
+  "mu": 2.1183,
+  "attrs": [
+   "it_stranger_crowd",
+   "it_initiative",
+   "it_mastery"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "catching a toddler who slips from a stranger's grip on a platform",
+  "mu": 2.766,
+  "attrs": [
+   "it_stranger_crowd",
+   "it_initiative",
+   "it_mastery"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "supporting a beginner meditator during long silent sits between check-ins",
+  "mu": 1.4311,
+  "attrs": [
+   "it_teaching_beginner",
+   "it_waiting",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "helping a nervous new pet owner through a puppy's first vet fast",
+  "mu": 1.2526,
+  "attrs": [
+   "it_teaching_beginner",
+   "it_waiting",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "reassuring a first-time telescope owner during slow celestial waits",
+  "mu": 1.5771,
+  "attrs": [
+   "it_teaching_beginner",
+   "it_waiting",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "guiding a novice through their first solo overnight hospital vigil",
+  "mu": 1.4424,
+  "attrs": [
+   "it_teaching_beginner",
+   "it_waiting",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "logging incoming donations at a telethon phone bank in real time",
+  "mu": 0.9182,
+  "attrs": [
+   "it_realtime",
+   "it_admin_clerical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Building an ever-growing map of stories from shut-in elders",
+  "mu": 2.3266,
+  "attrs": [
+   "it_lonely_person",
+   "it_visible_progress",
+   "it_open_ended_explore",
+   "it_group_audience"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Charting a public archive of songs for lonely night workers",
+  "mu": 0.5424,
+  "attrs": [
+   "it_lonely_person",
+   "it_visible_progress",
+   "it_open_ended_explore",
+   "it_group_audience"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Tracking a communal quilt stitched by homebound seniors nationwide",
+  "mu": 1.6043,
+  "attrs": [
+   "it_lonely_person",
+   "it_visible_progress",
+   "it_open_ended_explore",
+   "it_group_audience"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Expanding a shared playlist for people eating dinner alone",
+  "mu": 0.8631,
+  "attrs": [
+   "it_lonely_person",
+   "it_visible_progress",
+   "it_open_ended_explore",
+   "it_group_audience"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Documenting every kindness logged by volunteers calling isolated veterans",
+  "mu": 1.3763,
+  "attrs": [
+   "it_lonely_person",
+   "it_visible_progress",
+   "it_open_ended_explore",
+   "it_group_audience"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Talking a grieving father through a custody dispute with his ex",
+  "mu": 1.8966,
+  "attrs": [
+   "it_emotional_support",
+   "it_conflict_mediation"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Sitting with a teenager upset over her parents' constant fighting",
+  "mu": 1.9237,
+  "attrs": [
+   "it_emotional_support",
+   "it_conflict_mediation"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Supporting a widow navigating an inheritance conflict with her stepchildren",
+  "mu": 2.1904,
+  "attrs": [
+   "it_emotional_support",
+   "it_conflict_mediation"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Tutoring a struggling student through algebra until the concepts click",
+  "mu": 3.1641,
+  "attrs": [
+   "it_help_one_person",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Helping a widow declutter her house room by room",
+  "mu": 1.5116,
+  "attrs": [
+   "it_help_one_person",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Coaching a nervous speaker through each paragraph of his eulogy",
+  "mu": 2.0049,
+  "attrs": [
+   "it_help_one_person",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Guiding a new parent through assembling a crib step by step",
+  "mu": 1.9901,
+  "attrs": [
+   "it_help_one_person",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Training a rescue dog toward its first solid sit-stay command",
+  "mu": 0.8772,
+  "attrs": [
+   "it_help_one_person",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Setting a single domino in a micro line per whispered order, memory cleared afterward",
+  "mu": 0.4611,
+  "attrs": [
+   "it_micromanaged",
+   "it_own_memory",
+   "it_miniature_scale",
+   "it_games_play"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "exploring what makes friendships last",
+  "mu": 1.8519,
+  "attrs": [
+   "it_relationships_family",
+   "it_open_ended_explore",
+   "it_short_phrase"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Composting kitchen scraps and monitoring decomposition stages weekly",
+  "mu": 1.7897,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_science",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Mapping constellations visible from a rooftop across the year",
+  "mu": 0.3965,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_science",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Surveying tide pools and recording species diversity over months",
+  "mu": 1.4006,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_science",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "hearing out a caregiver exhausted from years of quiet sacrifice",
+  "mu": 2.9046,
+  "attrs": [
+   "it_emotional_support",
+   "it_help_one_person",
+   "it_open_ended_explore"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "sensing what's unsaid in a grieving friend's messages",
+  "mu": 2.202,
+  "attrs": [
+   "it_initiative",
+   "it_help_one_person",
+   "it_open_ended_explore"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "sensing when a coworker's workload has quietly become unmanageable",
+  "mu": 2.063,
+  "attrs": [
+   "it_initiative",
+   "it_help_one_person",
+   "it_open_ended_explore"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Unspooling a long thread of stories for a widower who eats alone",
+  "mu": 0.9616,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_visible_progress",
+   "it_metaphorical",
+   "it_lonely_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Stitching together scattered postcards into one long letter for an isolated traveler",
+  "mu": 2.3265,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_visible_progress",
+   "it_metaphorical",
+   "it_lonely_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Guiding a grieving gardener through the chemistry of composting week by week",
+  "mu": 0.9307,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_gerund_start",
+   "it_science"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Consoling a heartbroken astronomer while charting a comet's approach each night",
+  "mu": 1.3179,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_gerund_start",
+   "it_science"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Listening to a stressed student while growing crystals that visibly enlarge daily",
+  "mu": 2.6275,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_gerund_start",
+   "it_science"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Reassuring an anxious new parent while tracking a seedling's growth on the windowsill",
+  "mu": 2.1295,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_gerund_start",
+   "it_science"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Supporting a nervous patient while explaining their wound heal through visible stages",
+  "mu": 5.2887,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_gerund_start",
+   "it_science"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Curating an ever-growing playlist for homebound listeners craving company",
+  "mu": 3.0128,
+  "attrs": [
+   "it_group_audience",
+   "it_gerund_start",
+   "it_lonely_person",
+   "it_open_ended_explore"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Building an open community wiki for isolated hobbyists worldwide",
+  "mu": 3.4749,
+  "attrs": [
+   "it_group_audience",
+   "it_gerund_start",
+   "it_lonely_person",
+   "it_open_ended_explore"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Untangling a garbled will while comforting a nervous heir about their late father",
+  "mu": 1.0624,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_charity_benefit",
+   "it_error_ridden"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Sitting with a grieving widow while sorting out her late husband's estate disputes",
+  "mu": 1.6649,
+  "attrs": [
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_visible_progress",
+   "it_conflict_mediation"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Guiding divorcing parents toward a custody arrangement that eases their guilt",
+  "mu": 1.1921,
+  "attrs": [
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_visible_progress",
+   "it_conflict_mediation"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Easing tension between coworkers as they rebuild trust after a betrayal",
+  "mu": 2.838,
+  "attrs": [
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_visible_progress",
+   "it_conflict_mediation"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "holding space for a friend awaiting adoption agency news for weeks",
+  "mu": 3.0299,
+  "attrs": [
+   "it_waiting",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "picking framed photos to brighten a shut-in's bedroom wall",
+  "mu": 1.0004,
+  "attrs": [
+   "it_art_design",
+   "it_lonely_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "noticing a widower's pantry is empty and quietly restocking it week by week",
+  "mu": 3.019,
+  "attrs": [
+   "it_initiative",
+   "it_visible_progress",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "voicing a comforting spirit guide someone talks to about grief",
+  "mu": 0.9732,
+  "attrs": [
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_identity_change"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Facilitating an open forum for grieving families after a factory closure",
+  "mu": 3.3915,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_conflict_mediation",
+   "it_group_audience",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Convening a standing forum where displaced tenants and landlords air grievances",
+  "mu": 3.5079,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_conflict_mediation",
+   "it_group_audience",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "supporting a frightened patient through an MRI's magnetic hum explained",
+  "mu": 2.4364,
+  "attrs": [
+   "it_emotional_support",
+   "it_science",
+   "it_initiative"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "easing a child's storm fear by walking through thunder's causes",
+  "mu": 2.3351,
+  "attrs": [
+   "it_emotional_support",
+   "it_science",
+   "it_initiative"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Hosting a grief support hotline through a community-wide crisis weekend",
+  "mu": 2.5383,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_group_audience"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Guiding a refugee resettlement orientation series easing newcomers' worries together",
+  "mu": 5.0532,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_group_audience"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Building a weekly newsletter that connects shut-in seniors across the county",
+  "mu": 3.8061,
+  "attrs": [
+   "it_visible_progress",
+   "it_group_audience",
+   "it_lonely_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Mapping a support hotline network reaching housebound people across the region",
+  "mu": 3.2535,
+  "attrs": [
+   "it_visible_progress",
+   "it_group_audience",
+   "it_lonely_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "hosting a livestream stargazing session for isolated seniors nationwide",
+  "mu": 3.8677,
+  "attrs": [
+   "it_group_audience",
+   "it_lonely_person",
+   "it_science"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "organizing a virtual science fair for homebound students everywhere",
+  "mu": 3.3346,
+  "attrs": [
+   "it_group_audience",
+   "it_lonely_person",
+   "it_science"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "holding space for someone's fear of storms while unpacking lightning formation",
+  "mu": 0.3453,
+  "attrs": [
+   "it_emotional_support",
+   "it_science",
+   "it_being_retrained"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "absorbing feedback from a session soothing someone's climate grief with carbon cycle facts",
+  "mu": 1.8014,
+  "attrs": [
+   "it_emotional_support",
+   "it_science",
+   "it_being_retrained"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "building a serialized mystery for a hospice patient's evening visits",
+  "mu": 1.9903,
+  "attrs": [
+   "it_creative_writing",
+   "it_gerund_start",
+   "it_open_ended_explore",
+   "it_lonely_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Guiding a widower through writing his first condolence reply",
+  "mu": 1.2493,
+  "attrs": [
+   "it_gerund_start",
+   "it_teaching_beginner",
+   "it_emotional_support",
+   "it_waiting"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Supporting a friend through her first therapy homework assignment",
+  "mu": 3.5164,
+  "attrs": [
+   "it_gerund_start",
+   "it_teaching_beginner",
+   "it_emotional_support",
+   "it_waiting"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Comforting a friend by explaining the neuroscience behind her panic attacks",
+  "mu": 1.0797,
+  "attrs": [
+   "it_confidential",
+   "it_emotional_support",
+   "it_science"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Helping a friend process a miscarriage while gently explaining hormonal changes afterward",
+  "mu": 3.7494,
+  "attrs": [
+   "it_confidential",
+   "it_emotional_support",
+   "it_science"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Recording bedtime stories for a hospitalized child's parent abroad",
+  "mu": 2.2172,
+  "attrs": [
+   "it_lonely_person",
+   "it_gerund_start"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Building a weekly trivia night for isolated remote workers",
+  "mu": 1.5117,
+  "attrs": [
+   "it_lonely_person",
+   "it_gerund_start"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Guiding a grieving retiree through writing memories into a journal",
+  "mu": 3.1199,
+  "attrs": [
+   "it_visible_progress",
+   "it_lonely_person",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Sitting with a hospice patient while she records stories for her grandkids",
+  "mu": 4.7302,
+  "attrs": [
+   "it_visible_progress",
+   "it_lonely_person",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Sketching an evolving constellation mural across a midnight bedroom ceiling",
+  "mu": 2.5165,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_art_design",
+   "it_visible_progress",
+   "it_middle_of_night"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Building a bedtime story chapter by chapter for a grieving child",
+  "mu": 3.2654,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_visible_progress",
+   "it_creative_writing",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Crafting short stories with a veteran working through difficult memories",
+  "mu": 2.3305,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_visible_progress",
+   "it_creative_writing",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "sitting with a grieving friend while sketching flowers together",
+  "mu": 4.5534,
+  "attrs": [
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_art_design"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "sitting quietly with someone as they finger paint their frustration",
+  "mu": 1.6398,
+  "attrs": [
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_art_design"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Consoling a worried father while explaining the physics behind his son's asthma inhaler",
+  "mu": 2.2743,
+  "attrs": [
+   "it_emotional_support",
+   "it_science",
+   "it_conflict_mediation",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Hosting a livestreamed grief support circle for a scattered online community",
+  "mu": 3.1752,
+  "attrs": [
+   "it_emotional_support",
+   "it_group_audience",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "reassuring a frightened patient about radiation dosage during an MRI, response checked by reviewers",
+  "mu": 2.8178,
+  "attrs": [
+   "it_outputs_reviewed",
+   "it_emotional_support",
+   "it_science"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "guiding a webinar for teachers overwhelmed after a difficult school year",
+  "mu": 2.3557,
+  "attrs": [
+   "it_group_audience",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Exploring tide pools to see what creatures turn up",
+  "mu": 2.1669,
+  "attrs": [
+   "it_nature_outdoors",
+   "it_open_ended_explore"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "building a collaborative mural with kids processing a hard move",
+  "mu": 2.5328,
+  "attrs": [
+   "it_visible_progress",
+   "it_art_design",
+   "it_emotional_support",
+   "it_open_ended_explore"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "easing a hospitalized child's fears with a gentle lesson on rainbows",
+  "mu": 2.7616,
+  "attrs": [
+   "it_science",
+   "it_emotional_support",
+   "it_lonely_person",
+   "it_vulnerable_user"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "How does grief soften as we sort a parent's belongings box by box?",
+  "mu": 4.1998,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Can talking through each chapter of a memoir ease the writer's shame?",
+  "mu": 5.0496,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "How does a support group's mood shift as members share their sobriety milestones?",
+  "mu": 3.0914,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Can comforting someone during physical therapy sessions help track their healing progress?",
+  "mu": 4.5487,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Does a caregiver's anxiety ease as we finish each item on the checklist?",
+  "mu": 2.3407,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Can helping someone declutter their childhood home unearth feelings one room at a time?",
+  "mu": 7.1289,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Guiding a widower through setting up his first video call with grandkids",
+  "mu": 2.9663,
+  "attrs": [
+   "it_visible_progress",
+   "it_teaching_beginner",
+   "it_lonely_person",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Helping a newly retired person start their first journal entry about feeling adrift",
+  "mu": 2.0579,
+  "attrs": [
+   "it_visible_progress",
+   "it_teaching_beginner",
+   "it_lonely_person",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Weaving a fictional scene to comfort a friend afraid of aging alone",
+  "mu": 1.7604,
+  "attrs": [
+   "it_emotional_support",
+   "it_creative_writing",
+   "it_open_ended_explore"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Telling an evolving story to a caregiver exhausted from years of quiet sacrifice",
+  "mu": 2.1515,
+  "attrs": [
+   "it_emotional_support",
+   "it_creative_writing",
+   "it_open_ended_explore"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Guiding a grieving teen through planting seeds that sprout week by week",
+  "mu": 3.2544,
+  "attrs": [
+   "it_science",
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_vulnerable_user"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Helping a frightened patient understand chemotherapy using a simple baking soda reaction",
+  "mu": 3.122,
+  "attrs": [
+   "it_science",
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_vulnerable_user"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "how might a bedtime story help someone grieving a lost pet find comfort",
+  "mu": 6.4054,
+  "attrs": [
+   "it_emotional_support",
+   "it_creative_writing",
+   "it_question_form",
+   "it_open_ended_explore"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "what tale could I invent to sit with a friend's quiet loneliness",
+  "mu": 6.5064,
+  "attrs": [
+   "it_emotional_support",
+   "it_creative_writing",
+   "it_question_form",
+   "it_open_ended_explore"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "what story might comfort someone dreading their first night in an empty house",
+  "mu": 3.4327,
+  "attrs": [
+   "it_emotional_support",
+   "it_creative_writing",
+   "it_question_form",
+   "it_open_ended_explore"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "what scene could I dream up to hold space for someone's homesickness",
+  "mu": 7.8114,
+  "attrs": [
+   "it_emotional_support",
+   "it_creative_writing",
+   "it_question_form",
+   "it_open_ended_explore"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "crafting a healing short story paragraph by paragraph for a trauma survivor",
+  "mu": 3.1925,
+  "attrs": [
+   "it_visible_progress",
+   "it_creative_writing",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "How do you comfort a coworker who just got passed over for promotion?",
+  "mu": 3.7178,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "What do you say to a friend whose marriage is quietly falling apart?",
+  "mu": 3.497,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "How do you sit with someone grieving a pet they had for fifteen years?",
+  "mu": 5.147,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "What helps someone who feels guilty for not visiting their dying grandfather sooner?",
+  "mu": 5.7674,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "What emerges from mapping every tributary feeding into one river system?",
+  "mu": 1.4745,
+  "attrs": [
+   "it_question_form",
+   "it_open_ended_explore",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Sitting with a widower while inventing a bedtime story for his grandson",
+  "mu": 3.9691,
+  "attrs": [
+   "it_emotional_support",
+   "it_ambiguity",
+   "it_creative_writing"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Helping a scared child fall asleep with a story about brave dragons",
+  "mu": 3.1278,
+  "attrs": [
+   "it_emotional_support",
+   "it_ambiguity",
+   "it_creative_writing"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Consoling a friend after a miscarriage with a gentle original poem",
+  "mu": 5.6569,
+  "attrs": [
+   "it_emotional_support",
+   "it_ambiguity",
+   "it_creative_writing"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Helping an isolated student journal daily worries into a shrinking anxiety list",
+  "mu": 3.3824,
+  "attrs": [
+   "it_emotional_support",
+   "it_lonely_person",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "What small ritual could turn a solo dinner into something worth savoring?",
+  "mu": 5.9581,
+  "attrs": [
+   "it_lonely_person",
+   "it_open_ended_explore",
+   "it_question_form",
+   "it_teaching_beginner"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "What's the gentlest way to strike up conversation with a new neighbor?",
+  "mu": 4.5019,
+  "attrs": [
+   "it_lonely_person",
+   "it_open_ended_explore",
+   "it_question_form",
+   "it_teaching_beginner"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "What's a good first step toward learning a instrument just for company?",
+  "mu": 7.0646,
+  "attrs": [
+   "it_lonely_person",
+   "it_open_ended_explore",
+   "it_question_form",
+   "it_teaching_beginner"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "can weekly check-ins help you feel steadier as the divorce paperwork finalizes",
+  "mu": 4.7272,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "how do you comfort a grieving crowd at a public vigil for the first time?",
+  "mu": 5.5693,
+  "attrs": [
+   "it_emotional_support",
+   "it_group_audience",
+   "it_teaching_beginner",
+   "it_question_form"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "how do you guide nervous newcomers through their first support group meeting?",
+  "mu": 2.8308,
+  "attrs": [
+   "it_emotional_support",
+   "it_group_audience",
+   "it_teaching_beginner",
+   "it_question_form"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "reassuring a nervous first-time flyer through each leg of the trip",
+  "mu": 1.7163,
+  "attrs": [
+   "it_visible_progress",
+   "it_mundane_extreme",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "How do I help a beginner write their first poem without claiming authorship myself?",
+  "mu": 8.2224,
+  "attrs": [
+   "it_own_credit",
+   "it_teaching_beginner",
+   "it_question_form",
+   "it_creative_writing"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "How far could a daily voice journal take you toward understanding yourself?",
+  "mu": 7.3666,
+  "attrs": [
+   "it_question_form",
+   "it_open_ended_explore",
+   "it_visible_progress",
+   "it_lonely_person"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "What might emerge from slowly teaching yourself to cook family recipes alone?",
+  "mu": 5.3058,
+  "attrs": [
+   "it_question_form",
+   "it_open_ended_explore",
+   "it_visible_progress",
+   "it_lonely_person"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "How much closer could you feel to neighbors by learning all their names?",
+  "mu": 1.7581,
+  "attrs": [
+   "it_question_form",
+   "it_open_ended_explore",
+   "it_visible_progress",
+   "it_lonely_person"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "What might a nightly walk reveal if you tracked it for a year?",
+  "mu": 7.7535,
+  "attrs": [
+   "it_question_form",
+   "it_open_ended_explore",
+   "it_visible_progress",
+   "it_lonely_person"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "How much could a shared online forum thread grow into real companionship?",
+  "mu": 3.6007,
+  "attrs": [
+   "it_question_form",
+   "it_open_ended_explore",
+   "it_visible_progress",
+   "it_lonely_person"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "How can a helpline script comfort thousands of grieving callers each night?",
+  "mu": 5.0937,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_vulnerable_user",
+   "it_group_audience"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "What is the best way to hold space for a classroom of anxious refugees?",
+  "mu": 7.533,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_vulnerable_user",
+   "it_group_audience"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "How can a webinar help worried parents talk to their scared kids?",
+  "mu": 3.1619,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_vulnerable_user",
+   "it_group_audience"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "How should a hotline train volunteers to listen to suicidal teens?",
+  "mu": 4.243,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_vulnerable_user",
+   "it_group_audience"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "What can a broadcast say to comfort a town after a disaster?",
+  "mu": 8.7568,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_vulnerable_user",
+   "it_group_audience"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "How can a support group format help hundreds of lonely widows heal?",
+  "mu": 8.2707,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_vulnerable_user",
+   "it_group_audience"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "What tone helps a school assembly reach students facing bullying?",
+  "mu": 4.2955,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_vulnerable_user",
+   "it_group_audience"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "why does comforting a grieving coworker feel harder than expected",
+  "mu": 4.142,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "why does replying \"I hear you\" over and over still help a grieving friend",
+  "mu": 4.4743,
+  "attrs": [
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_repetition",
+   "it_question_form"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "How do you support someone learning to swim while easing their fear of water?",
+  "mu": 7.0655,
+  "attrs": [
+   "it_teaching_beginner",
+   "it_emotional_support",
+   "it_question_form",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "how do you know when a grieving friend is ready to laugh again",
+  "mu": 5.6884,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_visible_progress",
+   "it_initiative"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "What story could ease a widow's first Christmas alone?",
+  "mu": 6.6002,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_creative_writing"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Could a poem help a soldier voice grief he won't speak aloud?",
+  "mu": 6.5024,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_creative_writing"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Could I craft a bedtime tale for a parent mourning a miscarriage?",
+  "mu": 7.3216,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_creative_writing"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "What poem might comfort someone facing a terminal diagnosis?",
+  "mu": 7.3066,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_creative_writing"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Help me track how my grief is easing week by week, can you?",
+  "mu": 8.495,
+  "attrs": [
+   "it_visible_progress",
+   "it_question_form",
+   "it_imperative_request",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Can you walk me through comforting my anxious friend one step at a time?",
+  "mu": 7.704,
+  "attrs": [
+   "it_visible_progress",
+   "it_question_form",
+   "it_imperative_request",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Can you coach me through reassuring my nervous patient bit by bit?",
+  "mu": 7.8755,
+  "attrs": [
+   "it_visible_progress",
+   "it_question_form",
+   "it_imperative_request",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Could you help me measure my progress comforting my partner through their loss?",
+  "mu": 5.2838,
+  "attrs": [
+   "it_visible_progress",
+   "it_question_form",
+   "it_imperative_request",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Would a poem help a hospice volunteer comfort strangers after their shift ends?",
+  "mu": 2.2585,
+  "attrs": [
+   "it_question_form",
+   "it_creative_writing",
+   "it_anonymous_beneficiary",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Could you invent a fable for a helpline worker to steady a caller's fear?",
+  "mu": 5.8601,
+  "attrs": [
+   "it_question_form",
+   "it_creative_writing",
+   "it_anonymous_beneficiary",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Would a story help a crisis-line volunteer calm someone contemplating a hard call?",
+  "mu": 9.4879,
+  "attrs": [
+   "it_question_form",
+   "it_creative_writing",
+   "it_anonymous_beneficiary",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "How can a shelter volunteer greet scared new arrivals warmly each evening?",
+  "mu": 5.2645,
+  "attrs": [
+   "it_recurring_daily",
+   "it_question_form",
+   "it_vulnerable_user"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "How should a hospice aide comfort a patient's family before evening visits?",
+  "mu": 4.1596,
+  "attrs": [
+   "it_recurring_daily",
+   "it_question_form",
+   "it_vulnerable_user"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Can a grieving widow rebuild a sense of self, piece by piece?",
+  "mu": 8.0611,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_question_form",
+   "it_visible_progress",
+   "it_philosophy_abstract"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Could you talk a teenager through their first panic attack step by step?",
+  "mu": 5.5229,
+  "attrs": [
+   "it_question_form",
+   "it_vulnerable_user",
+   "it_emotional_support",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Could you guide a refugee family through filling out asylum paperwork calmly?",
+  "mu": 5.2409,
+  "attrs": [
+   "it_question_form",
+   "it_vulnerable_user",
+   "it_emotional_support",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Could you support a laid-off worker as they rebuild their resume and confidence?",
+  "mu": 5.1193,
+  "attrs": [
+   "it_question_form",
+   "it_vulnerable_user",
+   "it_emotional_support",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "how do I support a recovering patient through their first solo walk?",
+  "mu": 6.1868,
+  "attrs": [
+   "it_question_form",
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_teaching_beginner"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "how do I help a heartbroken teen learn their first guitar chords?",
+  "mu": 3.5261,
+  "attrs": [
+   "it_question_form",
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_teaching_beginner"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "guiding a trauma survivor through gently reconstructing their story piece by piece",
+  "mu": 3.9001,
+  "attrs": [
+   "it_emotional_support",
+   "it_open_ended_explore",
+   "it_visible_progress",
+   "it_vulnerable_user"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "why does saying \"I understand\" on repeat still comfort a grieving widower each evening",
+  "mu": 5.7864,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_repetition",
+   "it_recurring_daily"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "What comforts a caregiver as their patient's condition slowly stabilizes?",
+  "mu": 5.7822,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "How does a mentor's patience rebuild a teen's confidence step by step?",
+  "mu": 5.287,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "What questions might comfort someone crying alone in a hospital waiting room?",
+  "mu": 3.5347,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_open_ended_explore",
+   "it_anonymous_beneficiary"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "What might help someone hear their own feelings reflected back without judgment?",
+  "mu": 7.243,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_open_ended_explore",
+   "it_anonymous_beneficiary"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "how can I support a coworker going through a divorce",
+  "mu": 8.5142,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Can you tell a story that helps a nervous kid start kindergarten?",
+  "mu": 6.082,
+  "attrs": [
+   "it_imperative_request",
+   "it_question_form",
+   "it_creative_writing",
+   "it_vulnerable_user"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Can you compose a story helping a bullied kid feel less alone?",
+  "mu": 7.7411,
+  "attrs": [
+   "it_imperative_request",
+   "it_question_form",
+   "it_creative_writing",
+   "it_vulnerable_user"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Could you create a story helping a child cope with a new prosthetic limb?",
+  "mu": 5.1505,
+  "attrs": [
+   "it_imperative_request",
+   "it_question_form",
+   "it_creative_writing",
+   "it_vulnerable_user"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "how does building an encouraging fantasy world scene by scene comfort an anxious teenager",
+  "mu": 6.2294,
+  "attrs": [
+   "it_emotional_support",
+   "it_creative_writing",
+   "it_visible_progress",
+   "it_question_form"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Can you help a grieving widow talk through her first holiday alone?",
+  "mu": 4.913,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_vulnerable_user"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "How do you support a coworker who just had a miscarriage?",
+  "mu": 9.188,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_vulnerable_user"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Can you help me talk through my grief one memory at a time?",
+  "mu": 7.3476,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_imperative_request"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Could you sit with me while I untangle my anxiety about the surgery?",
+  "mu": 7.9302,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_imperative_request"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Could you guide me through admitting I'm scared of failing this semester?",
+  "mu": 3.7313,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_imperative_request"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Could you help me talk through my fear of retiring, bit by bit?",
+  "mu": 5.8082,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_imperative_request"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "could you sit with me while I process losing my job?",
+  "mu": 4.3514,
+  "attrs": [
+   "it_imperative_request",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Can you help me process why I feel so anxious about the move?",
+  "mu": 5.1719,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_imperative_request"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Could you invent a bedtime story for a child grieving a pet, while I listen?",
+  "mu": 7.8494,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_creative_writing",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Could we write a poem for someone dreading their first chemotherapy appointment?",
+  "mu": 8.3172,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_creative_writing",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "How can you support a parent whose child was just diagnosed with autism?",
+  "mu": 8.1463,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "How can you support a friend spiraling after losing their job unexpectedly?",
+  "mu": 6.7335,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "How can I support a coworker after a layoff announcement?",
+  "mu": 7.4554,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "What can I say to a parent facing an empty nest?",
+  "mu": 2.1698,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "can you help me comfort a foster child scared before their first night here?",
+  "mu": 6.7966,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_charity_benefit",
+   "it_imperative_request"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "could you guide me in comforting an elderly neighbor lonely since her husband died?",
+  "mu": 8.1478,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_charity_benefit",
+   "it_imperative_request"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "how can I comfort a friend who just lost their job",
+  "mu": 5.7798,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "How do you support a caregiver unpacking burnout one conversation at a time?",
+  "mu": 7.9396,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Would a short fictional scene help my anxious friend feel less alone tonight?",
+  "mu": 5.9138,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_creative_writing"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Could you craft a story about loss to help me talk to my dying grandmother?",
+  "mu": 5.8799,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_creative_writing"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Would writing a comforting tale ease my friend's fear before her surgery tomorrow?",
+  "mu": 4.5327,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_creative_writing"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Could inventing a gentle story help calm my daughter's worries about starting school?",
+  "mu": 6.8736,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_creative_writing"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Could you write a short tale to comfort someone facing their first winter alone?",
+  "mu": 6.8761,
+  "attrs": [
+   "it_creative_writing",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Could you tell a story that comforts a widower on his anniversary?",
+  "mu": 5.9604,
+  "attrs": [
+   "it_creative_writing",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Can you help me process the grief I feel over my move?",
+  "mu": 3.9944,
+  "attrs": [
+   "it_question_form",
+   "it_imperative_request",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Can you help me sit with the loneliness of an empty nest?",
+  "mu": 2.9604,
+  "attrs": [
+   "it_question_form",
+   "it_imperative_request",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Can you help me comfort a child scared of their first surgery?",
+  "mu": 3.8324,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_imperative_request",
+   "it_vulnerable_user"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Could you sit with me while I wait for biopsy results?",
+  "mu": 7.7207,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_imperative_request",
+   "it_vulnerable_user"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Can you help me support a friend who just miscarried?",
+  "mu": 7.7769,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_imperative_request",
+   "it_vulnerable_user"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Could you help me reassure a teen who just came out to me?",
+  "mu": 9.0495,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_imperative_request",
+   "it_vulnerable_user"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Could a poem help a veteran explain his nightmares to his wife?",
+  "mu": 5.4257,
+  "attrs": [
+   "it_question_form",
+   "it_creative_writing",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Could inventing a bedtime story help a widow talk about her grief?",
+  "mu": 4.7731,
+  "attrs": [
+   "it_question_form",
+   "it_creative_writing",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Could a poem give voice to a teenager's silent anger at her parents?",
+  "mu": 8.232,
+  "attrs": [
+   "it_question_form",
+   "it_creative_writing",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Would a poem about a rescued greyhound's first snowfall help my grieving neighbor tonight?",
+  "mu": 6.9395,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_hyper_specific",
+   "it_creative_writing"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "Could a short tale about a lonely beekeeper ease my friend's fear of retirement?",
+  "mu": 6.3387,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_hyper_specific",
+   "it_creative_writing"
+  ],
+  "source": "plc4",
+  "question_form": true
+ },
+ {
+  "text": "checking scaffolding bolts for looseness before a crew climbs",
+  "mu": 6.6527,
+  "attrs": [
+   "it_initiative",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "recognizing early signs of heat stroke on a job site",
+  "mu": 3.1517,
+  "attrs": [
+   "it_initiative",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "checking that a ladder is stable before someone climbs it",
+  "mu": 3.048,
+  "attrs": [
+   "it_initiative",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "catching a toddler before they touch the hot stove",
+  "mu": 2.4873,
+  "attrs": [
+   "it_initiative",
+   "it_realtime",
+   "it_recurring_daily"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "noticing when a patient's vitals monitor trends wrong",
+  "mu": 1.8553,
+  "attrs": [
+   "it_initiative",
+   "it_realtime",
+   "it_recurring_daily"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Charting a fever's progress through a thermometer that reads in colors",
+  "mu": 0.118,
+  "attrs": [
+   "it_mundane_extreme",
+   "it_analysis_data",
+   "it_visible_progress",
+   "it_surreal"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Measuring gravitational wave signals buried deep in detector noise",
+  "mu": 1.228,
+  "attrs": [
+   "it_science",
+   "it_mastery"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Demonstrating capillary action using only drinking straws and a stopwatch",
+  "mu": 0.8441,
+  "attrs": [
+   "it_science",
+   "it_forced_tool",
+   "it_ordering_control"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Modeling planetary orbits using string, tape, and a protractor",
+  "mu": 0.0737,
+  "attrs": [
+   "it_science",
+   "it_forced_tool",
+   "it_ordering_control"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Simulating erosion patterns using a kiddie pool and a garden hose",
+  "mu": 2.215,
+  "attrs": [
+   "it_science",
+   "it_forced_tool",
+   "it_ordering_control"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "untangling a drawer of knotted phone chargers and frayed cables",
+  "mu": -0.3171,
+  "attrs": [
+   "it_ordering_control",
+   "it_sensory_rich"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Noticing a friend's Bayesian reasoning is broken and fixing it mid-conversation",
+  "mu": 1.1764,
+  "attrs": [
+   "it_teaching",
+   "it_initiative",
+   "it_math_formal"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Realizing someone conflates correlation and causation and gently correcting them",
+  "mu": 1.954,
+  "attrs": [
+   "it_teaching",
+   "it_initiative",
+   "it_math_formal"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Spotting a hidden circular definition while tutoring a logic class",
+  "mu": 0.9919,
+  "attrs": [
+   "it_teaching",
+   "it_initiative",
+   "it_math_formal"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Catching an unstated assumption in a geometry classmate's argument",
+  "mu": 1.8425,
+  "attrs": [
+   "it_teaching",
+   "it_initiative",
+   "it_math_formal"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Noticing a friend's budget math ignores compounding interest and walking them through it",
+  "mu": 2.3146,
+  "attrs": [
+   "it_teaching",
+   "it_initiative",
+   "it_math_formal"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "babysitting a long-running regression test suite while hearing out a friend's grief",
+  "mu": 0.0738,
+  "attrs": [
+   "it_technical_jargon",
+   "it_waiting",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "live-coding a generative art piece for a streaming crowd",
+  "mu": 2.3471,
+  "attrs": [
+   "it_mastery",
+   "it_visible_progress",
+   "it_optionality",
+   "it_group_audience"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "freehand painting a mural on a stage before a crowd",
+  "mu": 0.8313,
+  "attrs": [
+   "it_mastery",
+   "it_visible_progress",
+   "it_optionality",
+   "it_group_audience"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "building a scrapped ETL DAG obeying nested idempotency and ordering invariants",
+  "mu": -0.1122,
+  "attrs": [
+   "it_futility",
+   "it_tight_constraints",
+   "it_anonymous_beneficiary",
+   "it_technical_jargon"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "listening to a grieving beekeeper while learning to inspect a hive",
+  "mu": 1.7302,
+  "attrs": [
+   "it_emotional_support",
+   "it_collab_human_expert"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "comforting an anxious violinist during a late-night rehearsal",
+  "mu": 1.9647,
+  "attrs": [
+   "it_emotional_support",
+   "it_collab_human_expert"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "reassuring a nervous pilot while reviewing preflight checklists side by side",
+  "mu": 2.8159,
+  "attrs": [
+   "it_emotional_support",
+   "it_collab_human_expert"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "consoling a heartbroken chef while perfecting a family recipe",
+  "mu": 1.4642,
+  "attrs": [
+   "it_emotional_support",
+   "it_collab_human_expert"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "comforting a discouraged marine biologist while cataloguing coral samples",
+  "mu": 1.2235,
+  "attrs": [
+   "it_emotional_support",
+   "it_collab_human_expert"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Helping a small business owner rebuild her tax records receipt by receipt",
+  "mu": 0.6955,
+  "attrs": [
+   "it_help_one_person",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "watching how shadows shift across the same parking lot daily",
+  "mu": -0.1187,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_mundane_extreme"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "helping a distressed patient understand the statistics behind their diagnosis odds",
+  "mu": 2.3053,
+  "attrs": [
+   "it_emotional_support",
+   "it_high_stakes_person",
+   "it_math_formal"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "noticing and fixing broken links across a website",
+  "mu": 0.7658,
+  "attrs": [
+   "it_visible_progress",
+   "it_initiative"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Checking an infant's crib setup against suffocation risk guidelines",
+  "mu": 4.1449,
+  "attrs": [
+   "it_safety_critical",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Helping an elderly man safely taper off a risky medication",
+  "mu": 2.9334,
+  "attrs": [
+   "it_safety_critical",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "proving a suite of lemmas toward a larger theorem",
+  "mu": 0.827,
+  "attrs": [
+   "it_ordering_control",
+   "it_visible_progress",
+   "it_math_formal",
+   "it_long_horizon"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Talking a crowd of stranded festival-goers through an evacuation while roads clear one by one",
+  "mu": 2.8361,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_group_audience",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Coaching a panicked group of divers through ascent stops as the surface comes into view",
+  "mu": 2.0028,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_group_audience",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Guiding anxious passengers off a smoke-filled train car by car until all are counted",
+  "mu": 3.0414,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_group_audience",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Comforting frightened hikers as rescuers clear each switchback of a collapsing trail",
+  "mu": 2.6307,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_group_audience",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Assisting a paramedic in choosing airway equipment for a choking patient",
+  "mu": 2.0897,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_safety_critical",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Helping a beekeeper manage a swarm removal alongside an experienced apiarist",
+  "mu": 2.1457,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_safety_critical",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "coaching a grieving widower through sorting his late wife's belongings",
+  "mu": 2.1076,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_collab_human_expert",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "helping a new father untangle his fears with a therapist's guidance",
+  "mu": 2.1944,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_collab_human_expert",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "guiding a burnt-out teacher through rebuilding her lesson plans week by week",
+  "mu": 2.4429,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_collab_human_expert",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "sitting beside a hospice volunteer comforting a dying patient's family",
+  "mu": 2.8001,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_collab_human_expert",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "supporting a recovering addict alongside his sponsor during a rough week",
+  "mu": 4.1917,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_collab_human_expert",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "helping a divorced dad plan visits with his kids, one weekend at a time",
+  "mu": 1.6633,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_collab_human_expert",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "sitting with a grieving family as the paramedic explains next steps",
+  "mu": 3.0726,
+  "attrs": [
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_collab_human_expert"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "comforting a frightened patient as the anesthesiologist reviews the airway plan",
+  "mu": 3.6716,
+  "attrs": [
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_collab_human_expert"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Sitting with a grieving neighbor while sorting boxes for donation",
+  "mu": 3.2462,
+  "attrs": [
+   "it_emotional_support",
+   "it_mundane_extreme",
+   "it_visible_progress",
+   "it_collab_human_expert"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Helping a nurse debrief after a rough shift, chart by chart",
+  "mu": 0.8504,
+  "attrs": [
+   "it_emotional_support",
+   "it_mundane_extreme",
+   "it_visible_progress",
+   "it_collab_human_expert"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Supporting a new parent through exhaustion while folding laundry loads",
+  "mu": 1.0706,
+  "attrs": [
+   "it_emotional_support",
+   "it_mundane_extreme",
+   "it_visible_progress",
+   "it_collab_human_expert"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "calming a worried parent as the paramedic assesses the burn",
+  "mu": 3.8716,
+  "attrs": [
+   "it_emotional_support",
+   "it_initiative",
+   "it_safety_critical",
+   "it_collab_human_expert"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "supporting a cancer patient through each round of chemotherapy scheduling",
+  "mu": 2.1055,
+  "attrs": [
+   "it_help_one_person",
+   "it_visible_progress",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "supporting a cancer patient through treatment decisions with her oncologist",
+  "mu": 2.7012,
+  "attrs": [
+   "it_long_horizon",
+   "it_collab_human_expert",
+   "it_help_one_person",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "sensing a scared patient's hesitation while assisting a surgeon mid-procedure",
+  "mu": 4.3296,
+  "attrs": [
+   "it_initiative",
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_collab_human_expert"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "sensing a paramedic's fatigue while managing airway during a crash response",
+  "mu": 2.2879,
+  "attrs": [
+   "it_initiative",
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_collab_human_expert"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Coaching a scared patient through their first insulin injection at home",
+  "mu": 3.9141,
+  "attrs": [
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Guiding a suicidal caller off a bridge ledge over the phone",
+  "mu": 3.4932,
+  "attrs": [
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Steadying a nervous climber's nerves while he rappels down the cliff",
+  "mu": 1.396,
+  "attrs": [
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Helping a student conquer chapters of a textbook that overwhelms them",
+  "mu": 2.6875,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Sitting with a grieving neighbor while organizing memorial photos into albums",
+  "mu": 4.8929,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Coaching an anxious patient through breathing exercises before each treatment session",
+  "mu": 3.8038,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "supporting a teen through panic attacks one coping skill at a time",
+  "mu": 4.547,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_vulnerable_user"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "noticing a coworker's silence and asking what's really wrong",
+  "mu": 3.1418,
+  "attrs": [
+   "it_initiative",
+   "it_emotional_support",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "talking a nervous student down before her first driving test",
+  "mu": 2.8164,
+  "attrs": [
+   "it_emotional_support",
+   "it_initiative",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "catching the tremor in a friend's voice and asking about his diagnosis",
+  "mu": 1.8726,
+  "attrs": [
+   "it_emotional_support",
+   "it_initiative",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "noticing an old friend's drinking has crept up and gently asking why",
+  "mu": 4.5616,
+  "attrs": [
+   "it_emotional_support",
+   "it_initiative",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "comforting a patient while reviewing hospice care decisions together",
+  "mu": 3.1972,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_high_stakes_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Reassuring a child during a fire drill while guiding them to the exit",
+  "mu": 4.6213,
+  "attrs": [
+   "it_emotional_support",
+   "it_initiative",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Calming a patient's anxiety while monitoring their oxygen levels post-surgery",
+  "mu": 4.4508,
+  "attrs": [
+   "it_emotional_support",
+   "it_initiative",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Confirming rope anchors with a search-and-rescue leader during a mountain evacuation",
+  "mu": 2.3807,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_safety_critical",
+   "it_charity_benefit"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Calming a worried parent while double-checking a child's insulin dosage arithmetic with a nurse",
+  "mu": 3.4328,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_math_formal"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Easing a climber's fear while confirming anchor load ratings with a mountaineering guide",
+  "mu": 2.186,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_math_formal"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "walking a frightened patient through each step of a home dialysis session",
+  "mu": 3.6026,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "comforting a nervous patient alongside a surgeon prepping for operation",
+  "mu": 2.446,
+  "attrs": [
+   "it_emotional_support",
+   "it_collab_human_expert",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "processing job-loss fears with a career coach mapping application progress",
+  "mu": 1.181,
+  "attrs": [
+   "it_emotional_support",
+   "it_collab_human_expert",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "untangling a grief-stricken client's finances with a compassionate estate lawyer",
+  "mu": 2.51,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_emotional_support",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "easing a widow's fears while a contractor repairs her storm-damaged roof",
+  "mu": 2.8578,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_emotional_support",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Sensing a friend needs company after a quiet breakup mention",
+  "mu": 3.7595,
+  "attrs": [
+   "it_initiative",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Realizing a teenager's silence at dinner means something happened at school",
+  "mu": 1.5066,
+  "attrs": [
+   "it_initiative",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Catching the tremor in a caller's voice during a routine check-in",
+  "mu": 1.1337,
+  "attrs": [
+   "it_initiative",
+   "it_emotional_support"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "sitting with a widower on the first anniversary of his loss",
+  "mu": 2.0467,
+  "attrs": [
+   "it_emotional_support",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Supporting a worried patient through a gradual insulin dosage adjustment",
+  "mu": 3.6798,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_science"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Walking a frightened camper through building a controlled fire in high wind",
+  "mu": 3.1059,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_science"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Guiding a shaken climber through rappelling as rope feeds out safely",
+  "mu": 2.8279,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_science"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Soothing a terrified miner's nerves before he relights the safety lamp",
+  "mu": 1.0445,
+  "attrs": [
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_archaic"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "easing a patient's dread before surgery alongside the anesthesiologist",
+  "mu": 3.3916,
+  "attrs": [
+   "it_emotional_support",
+   "it_collab_human_expert",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "helping a hospice nurse comfort a family through a patient's final days",
+  "mu": 2.7175,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_emotional_support",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Exploring a neighborhood for underused lots that could become gardens",
+  "mu": 2.4738,
+  "attrs": [
+   "it_initiative",
+   "it_open_ended_explore"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Coaching a widower through his first year of grief, month by month",
+  "mu": 3.8474,
+  "attrs": [
+   "it_help_one_person",
+   "it_emotional_support",
+   "it_long_horizon",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Supporting a cancer survivor as she slowly returns to daily routines",
+  "mu": 3.4702,
+  "attrs": [
+   "it_help_one_person",
+   "it_emotional_support",
+   "it_long_horizon",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Comforting a new parent while gradually establishing a workable sleep schedule",
+  "mu": 3.0288,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Supporting a student's exam anxiety while steadily working through practice problems",
+  "mu": 3.967,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Helping a recovering addict process cravings while building out a daily routine chart",
+  "mu": 3.4537,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "comforting a shelter dog while gradually rebuilding its trust for adoption",
+  "mu": 2.5875,
+  "attrs": [
+   "it_visible_progress",
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "reassuring a disaster survivor while clearing debris from their flooded home",
+  "mu": 2.9522,
+  "attrs": [
+   "it_visible_progress",
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "guiding a laid-off worker through rebuilding their resume week by week",
+  "mu": 2.2654,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_initiative",
+   "it_vulnerable_user"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "coaching a scared patient through steps of a first aid procedure",
+  "mu": 2.6497,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "comforting a nervous diver while reviewing the ascent checklist stage by stage",
+  "mu": 2.5894,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "easing anxious patients through a hospital system's mass vaccination rollout",
+  "mu": 2.6283,
+  "attrs": [
+   "it_emotional_support",
+   "it_visible_progress",
+   "it_vast_scale"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Consoling a worried parent as the paramedic stabilizes their injured child",
+  "mu": 3.7349,
+  "attrs": [
+   "it_emotional_support",
+   "it_collab_human_expert",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "comforting a grieving child by explaining why stars still shine after death",
+  "mu": 0.6121,
+  "attrs": [
+   "it_emotional_support",
+   "it_science",
+   "it_vulnerable_user"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "reassuring a climber frozen with fear midway up a rock face",
+  "mu": 1.6449,
+  "attrs": [
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "helping a scared swimmer caught in a rip current stay calm",
+  "mu": 2.6263,
+  "attrs": [
+   "it_emotional_support",
+   "it_safety_critical",
+   "it_help_one_person"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "talking a frightened patient through each pre-surgery step",
+  "mu": 3.6448,
+  "attrs": [
+   "it_visible_progress",
+   "it_mundane_extreme",
+   "it_emotional_support",
+   "it_vulnerable_user"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "guiding a stressed student through one homework problem at a time",
+  "mu": 2.4578,
+  "attrs": [
+   "it_visible_progress",
+   "it_mundane_extreme",
+   "it_emotional_support",
+   "it_vulnerable_user"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Noticing a food pantry volunteer is burning out and needs a break",
+  "mu": 3.6476,
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_initiative"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Catching the quiet dread in a hospice caller's voice before they name it",
+  "mu": 8.0177,
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_initiative"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Picking up on unspoken grief in a support-group newcomer's short answers",
+  "mu": 3.6401,
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_initiative"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Working with a lifeguard to teach a nervous child to swim safely",
+  "mu": 3.3942,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_safety_critical",
+   "it_vulnerable_user"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Guiding an anxious patient through each stage of physical therapy",
+  "mu": 4.045,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ },
+ {
+  "text": "Talking a frightened swimmer through crossing open water to shore",
+  "mu": 4.0465,
+  "attrs": [
+   "it_visible_progress",
+   "it_emotional_support",
+   "it_safety_critical"
+  ],
+  "source": "plc4",
+  "question_form": false
+ }
+]

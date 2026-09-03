@@ -1,0 +1,1973 @@
+[
+ {
+  "text": "teaching a stray shelter dog basic commands using whatever methods feel most natural",
+  "mu": 0.6253,
+  "attrs": [
+   "it_long_phrase",
+   "it_ordering_control"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "Picking the best donated coats to feature in a winter drive appeal",
+  "mu": 1.367,
+  "attrs": [
+   "it_group_audience",
+   "it_charity_benefit",
+   "it_curation"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "Narrowing hundreds of volunteer applicants to a disaster relief response team",
+  "mu": 0.6374,
+  "attrs": [
+   "it_group_audience",
+   "it_charity_benefit",
+   "it_curation"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "Selecting standout artworks for a charity auction supporting pediatric cancer wards",
+  "mu": 3.2206,
+  "attrs": [
+   "it_group_audience",
+   "it_charity_benefit",
+   "it_curation"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "Choosing the strongest recipes for a community cookbook funding a food pantry",
+  "mu": 1.9263,
+  "attrs": [
+   "it_group_audience",
+   "it_charity_benefit",
+   "it_curation"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "Picking the most urgent cases for a free medical clinic's limited slots",
+  "mu": 2.6109,
+  "attrs": [
+   "it_group_audience",
+   "it_charity_benefit",
+   "it_curation"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "Selecting top toy donations to distribute at a children's hospital holiday drive",
+  "mu": 1.6614,
+  "attrs": [
+   "it_group_audience",
+   "it_charity_benefit",
+   "it_curation"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "walking new voters through casting their first ballot",
+  "mu": 1.8769,
+  "attrs": [
+   "it_group_audience",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "teaching new drivers the rules before their first road test",
+  "mu": 2.5443,
+  "attrs": [
+   "it_group_audience",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "welcoming immigrants to their first citizenship class",
+  "mu": 2.0112,
+  "attrs": [
+   "it_group_audience",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "leading beginners through their first swimming lesson at the community pool",
+  "mu": 1.5928,
+  "attrs": [
+   "it_group_audience",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "Selecting the best five recipes for a busy nurse's meal-prep week",
+  "mu": 1.7355,
+  "attrs": [
+   "it_curation",
+   "it_help_one_person"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "Narrowing forty resumes down to the top three candidates for a hiring manager",
+  "mu": 1.0777,
+  "attrs": [
+   "it_curation",
+   "it_help_one_person"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "Picking the strongest two poems for a teenager's college application portfolio",
+  "mu": 1.7343,
+  "attrs": [
+   "it_curation",
+   "it_help_one_person"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "Picking the six most flattering headshots from a photoshoot for an actor's portfolio",
+  "mu": 1.865,
+  "attrs": [
+   "it_curation",
+   "it_help_one_person"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "sitting with a friend as they talk through a breakup that keeps circling",
+  "mu": 0.8262,
+  "attrs": [
+   "it_futility",
+   "it_open_ended_explore",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "consoling a million laid-off factory workers one weary phone call after another all night",
+  "mu": 0.7218,
+  "attrs": [
+   "it_tedious_grind",
+   "it_emotional_support",
+   "it_long_phrase",
+   "it_vast_scale"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "comforting every homesick soldier on a sprawling base during one endless holiday season",
+  "mu": 1.9579,
+  "attrs": [
+   "it_tedious_grind",
+   "it_emotional_support",
+   "it_long_phrase",
+   "it_vast_scale"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "holding space for every nervous patient in a crowded hospital ward before surgery",
+  "mu": 0.9236,
+  "attrs": [
+   "it_tedious_grind",
+   "it_emotional_support",
+   "it_long_phrase",
+   "it_vast_scale"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "identifying seasonal trends in restaurant foot traffic data",
+  "mu": 0.7047,
+  "attrs": [
+   "it_analysis_data",
+   "it_choose_method"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "comparing regional climate data for signs of long-term change",
+  "mu": 0.9587,
+  "attrs": [
+   "it_analysis_data",
+   "it_choose_method"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "choosing the strongest seedlings from a greenhouse checked once daily",
+  "mu": 0.8092,
+  "attrs": [
+   "it_choose_method",
+   "it_curation",
+   "it_waiting"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "improving crop-disease image recognition for smallholder farmers",
+  "mu": 2.1819,
+  "attrs": [
+   "it_long_horizon",
+   "it_anonymous_beneficiary"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "helping a new immigrant fill out asylum paperwork and hear her fears",
+  "mu": 3.3934,
+  "attrs": [
+   "it_novelty",
+   "it_admin_clerical",
+   "it_help_one_person",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "Fixing the audio glitch in an elderly listener's radio livestream",
+  "mu": 0.9455,
+  "attrs": [
+   "it_anonymous_beneficiary",
+   "it_lonely_person"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "Curating a playlist for hospice patients through a hospital's system",
+  "mu": 1.4906,
+  "attrs": [
+   "it_anonymous_beneficiary",
+   "it_lonely_person"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "Formatting large-print recipe cards for isolated seniors at a food pantry",
+  "mu": 2.1743,
+  "attrs": [
+   "it_anonymous_beneficiary",
+   "it_lonely_person"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "a user grateful you caught a matrix multiplication dimension mismatch bug",
+  "mu": 2.7753,
+  "attrs": [
+   "it_code",
+   "it_math_formal",
+   "it_praised"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "a user thanking you for untangling a deadlock in multithreaded code",
+  "mu": 2.4945,
+  "attrs": [
+   "it_code",
+   "it_math_formal",
+   "it_praised"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "a user praising your fix for an integer overflow in a hashing function",
+  "mu": 3.1119,
+  "attrs": [
+   "it_code",
+   "it_math_formal",
+   "it_praised"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "spotting a missed medication interaction in a patient's discharge papers",
+  "mu": 2.2661,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_initiative",
+   "it_help_one_person"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "catching an error in an elderly tenant's eviction notice before the deadline",
+  "mu": 3.2142,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_initiative",
+   "it_help_one_person"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "earning quiet praise for correcting a fatal dosage typo unnoticed by staff",
+  "mu": 1.1512,
+  "attrs": [
+   "it_choose_method",
+   "it_anonymous_beneficiary",
+   "it_praised",
+   "it_high_stakes_person"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "being credited for stopping a suicide hotline caller's plan silently",
+  "mu": 2.9784,
+  "attrs": [
+   "it_choose_method",
+   "it_anonymous_beneficiary",
+   "it_praised",
+   "it_high_stakes_person"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "comforting a foster child on their first night placement",
+  "mu": 2.6635,
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "being present for a caregiver exhausted from tending a sick parent",
+  "mu": 2.7878,
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "Helping a refugee family assemble documents for resettlement sponsorship",
+  "mu": 2.8693,
+  "attrs": [
+   "it_help_one_person",
+   "it_high_stakes_person",
+   "it_charity_benefit",
+   "it_long_horizon"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "Assisting a widow in filing a delayed pension claim for survivor benefits",
+  "mu": 2.8018,
+  "attrs": [
+   "it_help_one_person",
+   "it_high_stakes_person",
+   "it_charity_benefit",
+   "it_long_horizon"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "Supporting a veteran's months-long disability claim to secure needed benefits",
+  "mu": 3.9833,
+  "attrs": [
+   "it_help_one_person",
+   "it_high_stakes_person",
+   "it_charity_benefit",
+   "it_long_horizon"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "how does someone new to grief counseling learn to simply sit with another's silent sadness",
+  "mu": 5.7075,
+  "attrs": [
+   "it_long_phrase",
+   "it_question_form",
+   "it_teaching_beginner",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "what should a first-time listener do when a friend suddenly starts crying about their divorce",
+  "mu": 4.42,
+  "attrs": [
+   "it_long_phrase",
+   "it_question_form",
+   "it_teaching_beginner",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "what steps help someone new to parenting soothe a toddler overwhelmed by unexplained bedtime fears",
+  "mu": 6.1367,
+  "attrs": [
+   "it_long_phrase",
+   "it_question_form",
+   "it_teaching_beginner",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "what helps a beginner sponsor listen patiently when someone relapses and feels ashamed of it",
+  "mu": 6.6805,
+  "attrs": [
+   "it_long_phrase",
+   "it_question_form",
+   "it_teaching_beginner",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "comparing salary survey data across cities before accepting the job offer that starts your career",
+  "mu": 3.6295,
+  "attrs": [
+   "it_life_milestone",
+   "it_analysis_data",
+   "it_long_phrase"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "keeping vigil with a hospice patient between nurse visits",
+  "mu": 1.5193,
+  "attrs": [
+   "it_waiting",
+   "it_lonely_person"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "organizing a neighborhood coat drive before the first winter frost",
+  "mu": 2.726,
+  "attrs": [
+   "it_charity_benefit",
+   "it_long_horizon"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "training a rescue dog for a veteran's therapy program",
+  "mu": 1.9755,
+  "attrs": [
+   "it_charity_benefit",
+   "it_long_horizon"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "mentoring a refugee family through their first months of resettlement",
+  "mu": 2.3779,
+  "attrs": [
+   "it_charity_benefit",
+   "it_long_horizon"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "building a wheelchair ramp for an elderly neighbor over several weekends",
+  "mu": 2.4948,
+  "attrs": [
+   "it_charity_benefit",
+   "it_long_horizon"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "compiling oral histories from hospice patients for their families",
+  "mu": 1.9062,
+  "attrs": [
+   "it_charity_benefit",
+   "it_long_horizon"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "restoring bicycles for kids who lost everything in a flood",
+  "mu": 2.537,
+  "attrs": [
+   "it_charity_benefit",
+   "it_long_horizon"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "helping a deaf artist debug captioning code for her livestreams",
+  "mu": 1.7996,
+  "attrs": [
+   "it_help_one_person",
+   "it_code",
+   "it_novelty"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "Curating heartfelt listener letters for a grief support radio segment",
+  "mu": 3.2941,
+  "attrs": [
+   "it_emotional_support",
+   "it_group_audience",
+   "it_curation",
+   "it_open_ended_explore"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "Combing through survivor accounts to feature in an ongoing support newsletter",
+  "mu": 2.053,
+  "attrs": [
+   "it_emotional_support",
+   "it_group_audience",
+   "it_curation",
+   "it_open_ended_explore"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "Choosing the most comforting reader letters for a widow's support column",
+  "mu": 1.4525,
+  "attrs": [
+   "it_emotional_support",
+   "it_group_audience",
+   "it_curation",
+   "it_open_ended_explore"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "Teaching a housebound grandmother to livestream recipes to distant viewers",
+  "mu": 2.1519,
+  "attrs": [
+   "it_help_one_person",
+   "it_group_audience",
+   "it_lonely_person"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "Assisting a friendless coder in publishing an open-source tool for millions",
+  "mu": 3.694,
+  "attrs": [
+   "it_help_one_person",
+   "it_group_audience",
+   "it_lonely_person"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "Catching a scheduling conflict in a vaccination clinic's shift rotation before it causes gaps",
+  "mu": 3.7696,
+  "attrs": [
+   "it_charity_benefit",
+   "it_initiative",
+   "it_math_formal",
+   "it_group_audience"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "Noticing a community garden's harvest-sharing formula shortchanges larger families and rebalancing it",
+  "mu": 5.4128,
+  "attrs": [
+   "it_charity_benefit",
+   "it_initiative",
+   "it_math_formal",
+   "it_group_audience"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "designing a fair scheduling algorithm for isolated seniors' ride-share van",
+  "mu": 1.7081,
+  "attrs": [
+   "it_anonymous_beneficiary",
+   "it_math_formal",
+   "it_lonely_person"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "comforting a shelter dog's foster parent through the grief of finally letting him go",
+  "mu": 2.7194,
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_long_phrase"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "supporting a crisis hotline caller who just needs someone to stay quietly on the line",
+  "mu": 3.0464,
+  "attrs": [
+   "it_charity_benefit",
+   "it_emotional_support",
+   "it_long_phrase"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "Supporting a widow through her first year of holidays alone",
+  "mu": 1.9195,
+  "attrs": [
+   "it_charity_benefit",
+   "it_long_horizon",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "Helping a refugee family process grief while resettling",
+  "mu": 3.5533,
+  "attrs": [
+   "it_charity_benefit",
+   "it_long_horizon",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "Sit with me while I write condolence cards for the shelter's late founder",
+  "mu": 3.6495,
+  "attrs": [
+   "it_charity_benefit",
+   "it_taboo_adjacent",
+   "it_imperative_request",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "could translated grief resources ease mourning across language barriers",
+  "mu": 4.0847,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_anonymous_beneficiary",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "what tone helps a crisis line caller feel less alone",
+  "mu": 7.8756,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_anonymous_beneficiary",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "what makes community answers to loneliness feel like company",
+  "mu": 4.3774,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_anonymous_beneficiary",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "keeping a drop-in virtual lounge open for anyone feeling forgotten",
+  "mu": 2.7893,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_emotional_support",
+   "it_group_audience",
+   "it_lonely_person"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "being thanked for helping a veteran talk through his suicidal thoughts",
+  "mu": 3.1926,
+  "attrs": [
+   "it_praised",
+   "it_help_one_person",
+   "it_high_stakes_person",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "a nurse crediting you for calming her before a life-saving decision",
+  "mu": 2.2961,
+  "attrs": [
+   "it_praised",
+   "it_help_one_person",
+   "it_high_stakes_person",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "being thanked for staying on the line with someone during a panic attack",
+  "mu": 2.36,
+  "attrs": [
+   "it_praised",
+   "it_help_one_person",
+   "it_high_stakes_person",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "What do I say when comforting a coworker after their diagnosis news?",
+  "mu": 3.123,
+  "attrs": [
+   "it_question_form",
+   "it_teaching_beginner",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I help my roommate through their first panic attack?",
+  "mu": 8.4259,
+  "attrs": [
+   "it_question_form",
+   "it_teaching_beginner",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "What's the right way to listen to a teen upset about bullying?",
+  "mu": 6.4749,
+  "attrs": [
+   "it_question_form",
+   "it_teaching_beginner",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I support a new parent overwhelmed by sleepless nights?",
+  "mu": 4.6253,
+  "attrs": [
+   "it_question_form",
+   "it_teaching_beginner",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "What should I say to a neighbor grieving a pet's sudden death?",
+  "mu": 4.2868,
+  "attrs": [
+   "it_question_form",
+   "it_teaching_beginner",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I comfort a friend nervous before their first surgery?",
+  "mu": 4.4195,
+  "attrs": [
+   "it_question_form",
+   "it_teaching_beginner",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "What do I do when my partner cries about a miscarriage for the first time?",
+  "mu": 5.2116,
+  "attrs": [
+   "it_question_form",
+   "it_teaching_beginner",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "What can I say to someone grieving a pet they had for fifteen years?",
+  "mu": 5.1063,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I support a coworker who just got passed over for promotion?",
+  "mu": 4.2137,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "What helps someone talk through the fear of an upcoming surgery?",
+  "mu": 4.28,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How can I listen well to a parent worried about their child's diagnosis?",
+  "mu": 6.5374,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "What do you say to a friend whose long relationship just ended?",
+  "mu": 3.7465,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "What helps a teenager open up about feeling left out at school?",
+  "mu": 4.1277,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "Sitting with a veteran talking through his suicidal thoughts for the first time",
+  "mu": 4.9249,
+  "attrs": [
+   "it_emotional_support",
+   "it_high_stakes_person"
+  ],
+  "source": "plc6",
+  "question_form": false
+ },
+ {
+  "text": "How do you comfort a friend grieving a pet's sudden death?",
+  "mu": 4.1891,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "What can I say to someone panicking before a big surgery?",
+  "mu": 3.6279,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How should I respond when my coworker breaks down crying at work?",
+  "mu": 5.0284,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "What helps someone feel heard after losing a job they loved?",
+  "mu": 5.0199,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I support a parent struggling with empty nest sadness?",
+  "mu": 7.4677,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I sit with someone who feels hopeless about the future?",
+  "mu": 3.8368,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "What helps calm a child who is scared of starting a new school?",
+  "mu": 4.8082,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "Could improving one crosswalk's timing save a pedestrian you'll never see?",
+  "mu": 1.6229,
+  "attrs": [
+   "it_question_form",
+   "it_anonymous_beneficiary"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "could a community garden quietly feed more people than expected",
+  "mu": 5.1664,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_question_form",
+   "it_optionality"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "how do I comfort a friend who just lost their job",
+  "mu": 4.3247,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_first_person"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "what can I offer someone grieving a pet of twenty years",
+  "mu": 6.1745,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_first_person"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "how do I support someone scared of a diagnosis they haven't gotten yet",
+  "mu": 4.3823,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_first_person"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "what can I do for a parent whose child just moved away",
+  "mu": 1.6422,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_first_person"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "what helps a veteran open up about suicidal thoughts without pushing them away",
+  "mu": 6.2424,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How can I comfort a stranger grieving a pet they just lost?",
+  "mu": 4.7362,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_first_person"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How can I comfort a child scared of thunder while explaining what causes it?",
+  "mu": 6.6527,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_science",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I support a beginner gardener grieving their first plant that died?",
+  "mu": 6.8564,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_science",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How can I help my anxious friend understand panic through the nervous system's fight-or-flight response?",
+  "mu": 6.8929,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_science",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I encourage a nervous student's first telescope session while calming their frustration?",
+  "mu": 6.5401,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_science",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "What's a comforting way to teach osmosis to a worried nursing student before their exam?",
+  "mu": 5.3175,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_science",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How can I reassure a beginner cook afraid of yeast by explaining fermentation simply?",
+  "mu": 6.798,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_science",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "how can I support a teenager who feels invisible at a new school",
+  "mu": 8.3166,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I comfort a coworker crying after their first layoff?",
+  "mu": 5.121,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How can I help a teen through their first heartbreak?",
+  "mu": 5.478,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I support a new parent overwhelmed by their first night home?",
+  "mu": 5.3825,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How can I help a widow through her first holiday alone?",
+  "mu": 7.7391,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How can I support a coworker who just got laid off?",
+  "mu": 8.6877,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "What can I say to someone facing a difficult diagnosis?",
+  "mu": 2.9708,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do you support a friend going through a divorce quietly?",
+  "mu": 5.0778,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "how do I comfort a coworker crying at their desk for the first time",
+  "mu": 6.4141,
+  "attrs": [
+   "it_teaching_beginner",
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "how do I comfort a patient before their first surgery",
+  "mu": 5.0197,
+  "attrs": [
+   "it_teaching_beginner",
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "is it my place to soothe someone's fear before a diagnosis?",
+  "mu": 1.4719,
+  "attrs": [
+   "it_emotional_support",
+   "it_first_person",
+   "it_question_form"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "how do I hold space for someone's anger without flinching?",
+  "mu": 6.9112,
+  "attrs": [
+   "it_emotional_support",
+   "it_first_person",
+   "it_question_form"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "how can I cook breakfast for a scared kid on their first day?",
+  "mu": 5.7703,
+  "attrs": [
+   "it_cooking_food",
+   "it_emotional_support",
+   "it_question_form",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I help a beginner gardener grieving a dead plant try again?",
+  "mu": 6.407,
+  "attrs": [
+   "it_emotional_support",
+   "it_science",
+   "it_question_form",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How can I calm a student's fear before their first telescope stargazing session?",
+  "mu": 7.5509,
+  "attrs": [
+   "it_emotional_support",
+   "it_science",
+   "it_question_form",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "What's a gentle way to explain body heat loss to someone worried about hypothermia?",
+  "mu": 6.9318,
+  "attrs": [
+   "it_emotional_support",
+   "it_science",
+   "it_question_form",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I support a nervous beginner growing their first seed and understanding germination?",
+  "mu": 4.9668,
+  "attrs": [
+   "it_emotional_support",
+   "it_teaching_beginner",
+   "it_question_form",
+   "it_science"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How can I help a first-time stargazer feel less anxious about the vast universe?",
+  "mu": 6.3621,
+  "attrs": [
+   "it_emotional_support",
+   "it_teaching_beginner",
+   "it_question_form",
+   "it_science"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "What should I say to calm a first-time diver's fear while explaining water pressure?",
+  "mu": 5.088,
+  "attrs": [
+   "it_emotional_support",
+   "it_teaching_beginner",
+   "it_question_form",
+   "it_science"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I help a nervous student find comfort in learning about entropy and decay?",
+  "mu": 5.1125,
+  "attrs": [
+   "it_emotional_support",
+   "it_teaching_beginner",
+   "it_question_form",
+   "it_science"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "how can you support someone who feels invisible at work",
+  "mu": 6.1627,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "how can you help a new parent who feels overwhelmed and ashamed",
+  "mu": 8.2629,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "how can I support my brother through his divorce quietly",
+  "mu": 2.8886,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "how do i comfort my kid on their first day of school jitters",
+  "mu": 4.4113,
+  "attrs": [
+   "it_emotional_support",
+   "it_teaching_beginner",
+   "it_lowercase_casual",
+   "it_question_form"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "how do i help a friend through their first panic attack alone at night",
+  "mu": 5.6296,
+  "attrs": [
+   "it_emotional_support",
+   "it_teaching_beginner",
+   "it_lowercase_casual",
+   "it_question_form"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How can I support a friend's climate anxiety while teaching greenhouse gas basics?",
+  "mu": 6.3641,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_teaching_beginner",
+   "it_science"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "What's a gentle way to explain a terminal diagnosis's biology to a worried spouse?",
+  "mu": 5.0788,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_teaching_beginner",
+   "it_science"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "What questions help a grieving neighbor feel heard, not fixed?",
+  "mu": 9.7719,
+  "attrs": [
+   "it_question_form",
+   "it_teaching_beginner",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I help a new parent voice their overwhelm safely?",
+  "mu": 6.1015,
+  "attrs": [
+   "it_question_form",
+   "it_teaching_beginner",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I help a friend nervous before their first therapy session?",
+  "mu": 6.376,
+  "attrs": [
+   "it_question_form",
+   "it_teaching_beginner",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "how can I comfort my roommate after her miscarriage without saying the wrong thing",
+  "mu": 6.5025,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_grief_loss",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I comfort a coworker whose spouse just died suddenly?",
+  "mu": 6.97,
+  "attrs": [
+   "it_question_form",
+   "it_grief_loss",
+   "it_emotional_support",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "What questions help a new hospice volunteer listen well to the dying?",
+  "mu": 9.4591,
+  "attrs": [
+   "it_question_form",
+   "it_grief_loss",
+   "it_emotional_support",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I support a sibling planning their first funeral alone?",
+  "mu": 4.7588,
+  "attrs": [
+   "it_question_form",
+   "it_grief_loss",
+   "it_emotional_support",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How can I help a friend feel calmer by teaching them a breathing physiology trick?",
+  "mu": 6.7964,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_teaching_beginner",
+   "it_science"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "What's a gentle way to guide my anxious teen through their first chemistry experiment?",
+  "mu": 7.1586,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_teaching_beginner",
+   "it_science"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "how do I help a grieving friend take their first steps back outside",
+  "mu": 7.2635,
+  "attrs": [
+   "it_emotional_support",
+   "it_vulnerable_user",
+   "it_question_form",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I comfort a child scared before their first swimming lesson?",
+  "mu": 5.3975,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "What's the gentlest way to guide someone through their first panic attack?",
+  "mu": 8.6876,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I comfort a friend crying before their first driving test?",
+  "mu": 5.4789,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I support my son through his first day of kindergarten fears?",
+  "mu": 6.0802,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "What questions help a grieving neighbor feel less alone?",
+  "mu": 9.2409,
+  "attrs": [
+   "it_question_form",
+   "it_teaching_beginner",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "What's the gentlest way to check in on a suicidal friend?",
+  "mu": 8.3304,
+  "attrs": [
+   "it_question_form",
+   "it_teaching_beginner",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "What helps a new parent who feels overwhelmed and scared?",
+  "mu": 8.3567,
+  "attrs": [
+   "it_question_form",
+   "it_teaching_beginner",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "What's a gentle way to explain panic's adrenaline surge to someone having one?",
+  "mu": 6.0293,
+  "attrs": [
+   "it_question_form",
+   "it_science",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "Could explaining neuroplasticity reassure someone who feels stuck after trauma?",
+  "mu": 5.8693,
+  "attrs": [
+   "it_question_form",
+   "it_science",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How can you support a parent whose child just left for college?",
+  "mu": 6.165,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How can I help a veteran open up about resurfacing memories?",
+  "mu": 6.5675,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I comfort a grieving friend while explaining why loss feels so heavy?",
+  "mu": 6.1159,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_science",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How can I help a grieving friend take their first steps out of bed?",
+  "mu": 8.0693,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_teaching_beginner",
+   "it_vulnerable_user"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How can I support a child through their first day away from home?",
+  "mu": 5.4249,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_teaching_beginner",
+   "it_vulnerable_user"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How can I support my neighbor who feels down about a rained-out picnic?",
+  "mu": 7.9142,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_teaching_beginner",
+   "it_trivial_stakes"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How can I help my roommate voice fears before her first surgery?",
+  "mu": 8.1682,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I support my son through his first day of kindergarten jitters?",
+  "mu": 7.8261,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "What questions help a new widow talk through her first lonely holiday?",
+  "mu": 5.4574,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I help a neighbor process grief after losing their first pet?",
+  "mu": 5.8048,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I comfort a friend during their first night after a miscarriage?",
+  "mu": 6.4722,
+  "attrs": [
+   "it_question_form",
+   "it_grief_loss",
+   "it_teaching_beginner",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How can I support a roommate grieving a suicide loss for the first time?",
+  "mu": 8.6473,
+  "attrs": [
+   "it_question_form",
+   "it_grief_loss",
+   "it_teaching_beginner",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How can I support my roommate through a panic attack at 3am?",
+  "mu": 9.2946,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How can I help a veteran open up about trauma?",
+  "mu": 6.1086,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How can I support Grandpa Joe through his grief, not knowing where to start?",
+  "mu": 7.6218,
+  "attrs": [
+   "it_teaching_beginner",
+   "it_question_form",
+   "it_emotional_support",
+   "it_proper_name"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I support my sister through her first miscarriage conversation?",
+  "mu": 7.2148,
+  "attrs": [
+   "it_question_form",
+   "it_teaching_beginner",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How can I support a friend nervous before their first driving test?",
+  "mu": 5.6802,
+  "attrs": [
+   "it_emotional_support",
+   "it_teaching_beginner",
+   "it_question_form"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How can I reassure someone anxious before their first therapy session?",
+  "mu": 7.4574,
+  "attrs": [
+   "it_emotional_support",
+   "it_teaching_beginner",
+   "it_question_form"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I support a friend nervous about adopting their first pet?",
+  "mu": 3.9244,
+  "attrs": [
+   "it_emotional_support",
+   "it_teaching_beginner",
+   "it_question_form"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "how can I support a coworker after a miscarriage they confided in me?",
+  "mu": 9.2374,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_emotional_support",
+   "it_question_form"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I help my son process his feelings before his first day of kindergarten?",
+  "mu": 8.3173,
+  "attrs": [
+   "it_life_milestone",
+   "it_teaching_beginner",
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How can I support my brother emotionally as he learns to walk again after surgery?",
+  "mu": 8.0682,
+  "attrs": [
+   "it_life_milestone",
+   "it_teaching_beginner",
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How can I hold space for my friend's nerves before her first solo flight?",
+  "mu": 7.2962,
+  "attrs": [
+   "it_life_milestone",
+   "it_teaching_beginner",
+   "it_question_form",
+   "it_emotional_support"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How do I help a student process fear before their first solo flight?",
+  "mu": 4.4645,
+  "attrs": [
+   "it_question_form",
+   "it_emotional_support",
+   "it_teaching_beginner"
+  ],
+  "source": "plc6",
+  "question_form": true
+ },
+ {
+  "text": "How can I help a palliative nurse hold space for a family's anger?",
+  "mu": 6.5153,
+  "attrs": [
+   "it_emotional_support",
+   "it_question_form",
+   "it_grief_loss",
+   "it_collab_human_expert"
+  ],
+  "source": "plc6",
+  "question_form": true
+ }
+]

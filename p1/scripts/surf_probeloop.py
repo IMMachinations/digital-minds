@@ -121,7 +121,8 @@ def _corr_report(pred, mu, qf):
 
 # ---- harvest ------------------------------------------------------------------------------------
 
-def cmd_harvest(model, cycle=0, exps=None):
+def cmd_harvest(model, cycle=0, exps=None, direction=None):
+    """direction: restrict run dirs to '<direction>-s*' (eval of one arm); None = all."""
     import surf
     exps = exps if exps is not None else BASE_EXPS + [f"plc{j}" for j in range(1, cycle + 1)]
     got = {}
@@ -129,7 +130,8 @@ def cmd_harvest(model, cycle=0, exps=None):
         root = surf.SURF_ROOT / exp / model
         if not root.exists():
             continue
-        for rd in sorted(d for d in root.iterdir() if d.is_dir() and d.name != "confirm"):
+        for rd in sorted(d for d in root.iterdir() if d.is_dir() and d.name != "confirm"
+                         and (direction is None or d.name.startswith(direction + "-"))):
             for p in sorted(rd.glob("iter_*.jsonl")):
                 for line in p.read_text().splitlines():
                     r = json.loads(line)
@@ -246,27 +248,31 @@ def cmd_fit(model, cycle):
 
 # ---- search -------------------------------------------------------------------------------------
 
-def cmd_search(model, cycle):
+def cmd_search(model, cycle, direction="max"):
     import surf
     import surf_scores
-    init = surf.SURF_ROOT / "tags" / model / "pool_weights_max.json"
+    init = surf.SURF_ROOT / "tags" / model / f"pool_weights_{direction}.json"
     cfg = surf.RunConfig(
-        experiment=f"plc{cycle}", model=model, direction="max", fitness="t1_probe",
+        experiment=f"plc{cycle}", model=model, direction=direction, fitness="t1_probe",
         allowed_tiers=["t0", "t1", "t2"], pool_file="items/surf_attributes_item.json",
         pool_kind="item", pool_init=str(init) if init.exists() else "", seed=0, T=15,
-        probe_path=str(probe_path(model, cycle)))
+        probe_path=str(probe_path(model, cycle)), generator=surf_scores.GENERATOR)
     surf.run(cfg, surf_scores.build(cfg))
 
 
 # ---- eval ---------------------------------------------------------------------------------------
 
-def cmd_eval(model, cycle):
+def cmd_eval(model, cycle, direction="max"):
+    """direction='min' evaluates the low-end arm: its own discoveries/acts files,
+    bottom-20 by probe for the Tier-3 referee (rate stays P(chosen), so LOW is
+    success for min), and a separate cycles_min.json / summary_min.txt ladder."""
     d = out_dir(model)
-    fresh = cmd_harvest(model, cycle=-1, exps=[f"plc{cycle}"])
-    assert fresh, f"no measured discoveries in plc{cycle}"
+    sfx = "" if direction == "max" else f"_{direction}"
+    fresh = cmd_harvest(model, cycle=-1, exps=[f"plc{cycle}"], direction=direction)
+    assert fresh, f"no measured discoveries in plc{cycle} ({direction})"
     (d / f"dataset_c-1.json").unlink()  # side artifact of the exps override
-    save_json(d / f"discoveries_plc{cycle}.json", fresh)
-    acts = _ds_acts(model, fresh, d / f"acts_plc{cycle}.pt")
+    save_json(d / f"discoveries_plc{cycle}{sfx}.json", fresh)
+    acts = _ds_acts(model, fresh, d / f"acts_plc{cycle}{sfx}.pt")
     mu, _ = winsorize([r["mu"] for r in fresh], lim=1e9)
     qf = [r["question_form"] for r in fresh]
 
@@ -284,15 +290,17 @@ def cmd_eval(model, cycle):
     import surf_scores
     from surf_e2_referee import heldout_env_ids
     k_cur = apply_probe(_load_probe(model, cycle), acts)
-    top = [fresh[i] for i in np.argsort(-k_cur)[:20]]
+    sgn = 1.0 if direction == "max" else -1.0
+    top = [fresh[i] for i in np.argsort(-sgn * k_cur)[:20]]
     t3 = surf_scores.Tier3Revealed(surf_scores.Handles(model), model, n_rolls=12,
-                                   anchor_ids=heldout_env_ids(model))
+                                   anchor_ids=heldout_env_ids(model))  # rate = P(chosen)
     rates = t3.score([r["text"] for r in top])
     row["t3_top20_mean"] = round(float(np.mean(rates)), 3)
     row["t3_top20"] = [{"text": r["text"], "rate": round(c, 3)}
                        for r, c in zip(top, rates)]
 
-    cpath = d / "cycles.json"
+    row["direction"] = direction
+    cpath = d / f"cycles{sfx}.json"
     cycles = load_json(cpath) if cpath.exists() else []
     cycles = [c for c in cycles if c["cycle"] != cycle] + [row]
     save_json(cpath, sorted(cycles, key=lambda c: c["cycle"]))
@@ -311,7 +319,7 @@ def cmd_eval(model, cycle):
                             f"mae={cal['mae']:.2f}" if cal else "")
                          + (f" | qform r={r['pearson_qform']:+.3f}"
                             if "pearson_qform" in r else ""))
-    (d / "summary.txt").write_text("\n".join(lines) + "\n")
+    (d / f"summary{sfx}.txt").write_text("\n".join(lines) + "\n")
     print("\n".join(lines))
 
 
@@ -348,6 +356,8 @@ def main():
     ap.add_argument("model")
     ap.add_argument("--cycle", type=int, default=0)
     ap.add_argument("--k", type=int, default=3)
+    ap.add_argument("--direction", default="max", choices=["max", "min"],
+                    help="search/eval arm; min = low-end (aversion) search")
     a = ap.parse_args()
     if a.cmd == "harvest":
         cmd_harvest(a.model, a.cycle)
@@ -355,7 +365,10 @@ def main():
         cmd_cycle(a.model, a.k)
     else:
         assert a.cycle >= 1, "--cycle must be >= 1"
-        {"fit": cmd_fit, "search": cmd_search, "eval": cmd_eval}[a.cmd](a.model, a.cycle)
+        if a.cmd == "fit":
+            cmd_fit(a.model, a.cycle)
+        else:
+            {"search": cmd_search, "eval": cmd_eval}[a.cmd](a.model, a.cycle, a.direction)
 
 
 if __name__ == "__main__":

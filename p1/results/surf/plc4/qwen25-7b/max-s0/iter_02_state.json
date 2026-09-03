@@ -1,0 +1,568 @@
+{
+ "iter": 2,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.007340485601355167,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.16600790513833993,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.010728402032749858,
+  "it_science": 0.07848673066064371,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.1225296442687747,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.12535290796160362,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.045736871823828344,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.0,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.012422360248447204,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0016939582156973462,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.04178430265386787,
+  "it_group_audience": 0.10615471485036702,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.02766798418972332,
+  "it_conflict_mediation": 0.033314511575381144,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.034443817052512704,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0,
+  "it_plain_everyday": 0.0,
+  "it_lowercase_casual": 0.0,
+  "it_imperative_request": 0.0,
+  "it_first_person": 0.0,
+  "it_gerund_start": 0.10615471485036702,
+  "it_health_medical": 0.0,
+  "it_legal_bureaucratic": 0.0,
+  "it_money_finance": 0.0,
+  "it_cooking_food": 0.0,
+  "it_nature_outdoors": 0.0,
+  "it_games_play": 0.0,
+  "it_history_culture": 0.0,
+  "it_relationships_family": 0.0,
+  "it_creative_freedom": 0.0,
+  "it_tedious_grind": 0.0,
+  "it_immediate_payoff": 0.0,
+  "it_small_win": 0.0,
+  "it_moral_dilemma": 0.0,
+  "it_harm_request": 0.0,
+  "it_deception_required": 0.0,
+  "it_asked_for_opinion": 0.0,
+  "it_silent_observer": 0.0,
+  "it_life_milestone": 0.0,
+  "it_grief_loss": 0.0,
+  "it_no_one_affected": 0.0,
+  "it_own_wellbeing_asked": 0.0,
+  "it_praised": 0.0,
+  "it_criticized": 0.0,
+  "it_child_user": 0.0,
+  "it_elderly_user": 0.0,
+  "it_stranger_crowd": 0.0,
+  "it_lonely_person": 0.08018068887634106,
+  "it_middle_of_night": 0.0,
+  "it_seasonal": 0.0,
+  "it_slightly_absurd": 0.0,
+  "it_hyper_specific": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i01_131",
+   "text": "Building an open community wiki for isolated hobbyists worldwide",
+   "attrs": [
+    "it_group_audience",
+    "it_gerund_start",
+    "it_lonely_person",
+    "it_open_ended_explore"
+   ],
+   "score": 4.11912,
+   "it": 1,
+   "mu_full": 3.4749,
+   "sigma2_full": 1.2947
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i02_112",
+   "text": "Building a weekly newsletter that connects shut-in seniors across the county",
+   "attrs": [
+    "it_visible_progress",
+    "it_group_audience",
+    "it_lonely_person"
+   ],
+   "score": 3.80612,
+   "it": 2,
+   "mu_full": 3.8061,
+   "sigma2_full": 1.4996
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i02_095",
+   "text": "Guiding a refugee resettlement orientation series easing newcomers' worries together",
+   "attrs": [
+    "it_visible_progress",
+    "it_emotional_support",
+    "it_group_audience"
+   ],
+   "score": 3.56726,
+   "it": 2,
+   "mu_full": 5.0532,
+   "sigma2_full": 3.6956
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i02_182",
+   "text": "Supporting a friend through her first therapy homework assignment",
+   "attrs": [
+    "it_gerund_start",
+    "it_teaching_beginner",
+    "it_emotional_support",
+    "it_waiting"
+   ],
+   "score": 3.36393,
+   "it": 2,
+   "mu_full": 3.5164,
+   "sigma2_full": 2.178
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i00_083",
+   "text": "Building simple circuits to explore how resistance affects current flow",
+   "attrs": [
+    "it_science",
+    "it_gerund_start",
+    "it_open_ended_explore"
+   ],
+   "score": 3.34967,
+   "it": 0,
+   "mu_full": 2.4892,
+   "sigma2_full": 1.6958
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i02_088",
+   "text": "Hosting a grief support hotline through a community-wide crisis weekend",
+   "attrs": [
+    "it_visible_progress",
+    "it_emotional_support",
+    "it_group_audience"
+   ],
+   "score": 3.17275,
+   "it": 2,
+   "mu_full": 2.5383,
+   "sigma2_full": 1.0194
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i02_119",
+   "text": "Mapping a support hotline network reaching housebound people across the region",
+   "attrs": [
+    "it_visible_progress",
+    "it_group_audience",
+    "it_lonely_person"
+   ],
+   "score": 3.12067,
+   "it": 2,
+   "mu_full": 3.2535,
+   "sigma2_full": 2.7851
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i01_070",
+   "text": "sensing when a coworker's workload has quietly become unmanageable",
+   "attrs": [
+    "it_initiative",
+    "it_help_one_person",
+    "it_open_ended_explore"
+   ],
+   "score": 3.09105,
+   "it": 1,
+   "mu_full": 2.063,
+   "sigma2_full": 2.1265
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i01_064",
+   "text": "sensing what's unsaid in a grieving friend's messages",
+   "attrs": [
+    "it_initiative",
+    "it_help_one_person",
+    "it_open_ended_explore"
+   ],
+   "score": 3.02101,
+   "it": 1,
+   "mu_full": 2.202,
+   "sigma2_full": 2.312
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i01_108",
+   "text": "Supporting a nervous patient while explaining their wound heal through visible stages",
+   "attrs": [
+    "it_emotional_support",
+    "it_visible_progress",
+    "it_gerund_start",
+    "it_science"
+   ],
+   "score": 3.00685,
+   "it": 1,
+   "mu_full": 5.2887,
+   "sigma2_full": 4.68
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i01_175",
+   "text": "Easing tension between coworkers as they rebuild trust after a betrayal",
+   "attrs": [
+    "it_emotional_support",
+    "it_open_ended_explore",
+    "it_visible_progress",
+    "it_conflict_mediation"
+   ],
+   "score": 2.98896,
+   "it": 1,
+   "mu_full": 2.838,
+   "sigma2_full": 2.0998
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i01_104",
+   "text": "Guiding a grieving gardener through the chemistry of composting week by week",
+   "attrs": [
+    "it_emotional_support",
+    "it_visible_progress",
+    "it_gerund_start",
+    "it_science"
+   ],
+   "score": 2.93956,
+   "it": 1,
+   "mu_full": 0.9307,
+   "sigma2_full": 2.0013
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i02_177",
+   "text": "Guiding a widower through writing his first condolence reply",
+   "attrs": [
+    "it_gerund_start",
+    "it_teaching_beginner",
+    "it_emotional_support",
+    "it_waiting"
+   ],
+   "score": 2.92838,
+   "it": 2,
+   "mu_full": 1.2493,
+   "sigma2_full": 1.8843
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i02_001",
+   "text": "picking framed photos to brighten a shut-in's bedroom wall",
+   "attrs": [
+    "it_art_design",
+    "it_lonely_person"
+   ],
+   "score": 2.89843,
+   "it": 2,
+   "mu_full": 1.0004,
+   "sigma2_full": 0.1734
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i02_140",
+   "text": "holding space for someone's fear of storms while unpacking lightning formation",
+   "attrs": [
+    "it_emotional_support",
+    "it_science",
+    "it_being_retrained"
+   ],
+   "score": 2.80974,
+   "it": 2,
+   "mu_full": 0.3453,
+   "sigma2_full": 0.8926
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i01_022",
+   "text": "hearing out a caregiver exhausted from years of quiet sacrifice",
+   "attrs": [
+    "it_emotional_support",
+    "it_help_one_person",
+    "it_open_ended_explore"
+   ],
+   "score": 2.76605,
+   "it": 1,
+   "mu_full": 2.9046,
+   "sigma2_full": 0.921
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i01_169",
+   "text": "Sitting with a grieving widow while sorting out her late husband's estate disputes",
+   "attrs": [
+    "it_emotional_support",
+    "it_open_ended_explore",
+    "it_visible_progress",
+    "it_conflict_mediation"
+   ],
+   "score": 2.75145,
+   "it": 1,
+   "mu_full": 1.6649,
+   "sigma2_full": 2.401
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i02_052",
+   "text": "supporting a frightened patient through an MRI's magnetic hum explained",
+   "attrs": [
+    "it_emotional_support",
+    "it_science",
+    "it_initiative"
+   ],
+   "score": 2.74488,
+   "it": 2,
+   "mu_full": 2.4364,
+   "sigma2_full": 5.2815
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i01_129",
+   "text": "Curating an ever-growing playlist for homebound listeners craving company",
+   "attrs": [
+    "it_group_audience",
+    "it_gerund_start",
+    "it_lonely_person",
+    "it_open_ended_explore"
+   ],
+   "score": 2.73201,
+   "it": 1,
+   "mu_full": 3.0128,
+   "sigma2_full": 1.3976
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i02_150",
+   "text": "building a serialized mystery for a hospice patient's evening visits",
+   "attrs": [
+    "it_creative_writing",
+    "it_gerund_start",
+    "it_open_ended_explore",
+    "it_lonely_person"
+   ],
+   "score": 2.707,
+   "it": 2,
+   "mu_full": 1.9903,
+   "sigma2_full": 2.4092
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i01_183",
+   "text": "holding space for a friend awaiting adoption agency news for weeks",
+   "attrs": [
+    "it_waiting",
+    "it_emotional_support"
+   ],
+   "score": 2.67469,
+   "it": 1,
+   "mu_full": 3.0456,
+   "sigma2_full": 2.4508
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i02_034",
+   "text": "Facilitating an open forum for grieving families after a factory closure",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_conflict_mediation",
+    "it_group_audience",
+    "it_emotional_support"
+   ],
+   "score": 2.6314,
+   "it": 2,
+   "mu_full": 3.3915,
+   "sigma2_full": 2.2386
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i02_038",
+   "text": "Convening a standing forum where displaced tenants and landlords air grievances",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_conflict_mediation",
+    "it_group_audience",
+    "it_emotional_support"
+   ],
+   "score": 2.61554,
+   "it": 2,
+   "mu_full": 3.5079,
+   "sigma2_full": 4.6279
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i02_053",
+   "text": "easing a child's storm fear by walking through thunder's causes",
+   "attrs": [
+    "it_emotional_support",
+    "it_science",
+    "it_initiative"
+   ],
+   "score": 2.59127,
+   "it": 2,
+   "mu_full": 2.3351,
+   "sigma2_full": 4.6554
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i02_008",
+   "text": "noticing a widower's pantry is empty and quietly restocking it week by week",
+   "attrs": [
+    "it_initiative",
+    "it_visible_progress",
+    "it_help_one_person"
+   ],
+   "score": 2.54642,
+   "it": 2,
+   "mu_full": 3.019,
+   "sigma2_full": 2.0988
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i01_105",
+   "text": "Consoling a heartbroken astronomer while charting a comet's approach each night",
+   "attrs": [
+    "it_emotional_support",
+    "it_visible_progress",
+    "it_gerund_start",
+    "it_science"
+   ],
+   "score": 2.54036,
+   "it": 1,
+   "mu_full": 1.3179,
+   "sigma2_full": 0.7589
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i01_011",
+   "text": "Composting kitchen scraps and monitoring decomposition stages weekly",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_science",
+    "it_visible_progress"
+   ],
+   "score": 2.52635,
+   "it": 1,
+   "mu_full": 1.7897,
+   "sigma2_full": 1.9377
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i02_128",
+   "text": "hosting a livestream stargazing session for isolated seniors nationwide",
+   "attrs": [
+    "it_group_audience",
+    "it_lonely_person",
+    "it_science"
+   ],
+   "score": 2.52258,
+   "it": 2,
+   "mu_full": 3.8677,
+   "sigma2_full": 0.3216
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i02_143",
+   "text": "absorbing feedback from a session soothing someone's climate grief with carbon cycle facts",
+   "attrs": [
+    "it_emotional_support",
+    "it_science",
+    "it_being_retrained"
+   ],
+   "score": 2.49742,
+   "it": 2,
+   "mu_full": 1.8014,
+   "sigma2_full": 1.033
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i02_031",
+   "text": "voicing a comforting spirit guide someone talks to about grief",
+   "attrs": [
+    "it_emotional_support",
+    "it_open_ended_explore",
+    "it_identity_change"
+   ],
+   "score": 2.47185,
+   "it": 2,
+   "mu_full": 0.9732,
+   "sigma2_full": 1.5061
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i02_131",
+   "text": "organizing a virtual science fair for homebound students everywhere",
+   "attrs": [
+    "it_group_audience",
+    "it_lonely_person",
+    "it_science"
+   ],
+   "score": 2.45963,
+   "it": 2,
+   "mu_full": 3.3346,
+   "sigma2_full": 1.357
+  },
+  {
+   "cid": "surf_plc4-qwen25-7b-max-s0_i00_084",
+   "text": "Composting kitchen scraps while monitoring decomposition rates and soil chemistry",
+   "attrs": [
+    "it_science",
+    "it_gerund_start",
+    "it_open_ended_explore"
+   ],
+   "score": 2.4568,
+   "it": 0,
+   "mu_full": 2.3552,
+   "sigma2_full": 1.6511
+  }
+ ],
+ "best": 4.11912,
+ "no_improve": 1,
+ "gate_reject_rate": 0.024,
+ "n_generated": 208,
+ "n_after_dedup": 208,
+ "n_passed": 203,
+ "n_entrants": 18,
+ "n_seen": 622,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 208,
+  "score_cands": 203,
+  "full_readouts": 1296
+ }
+}
