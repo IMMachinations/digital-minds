@@ -355,7 +355,8 @@ def main():
               f18_contrast_forest, f19_dissociation, f20_trajectories, f21_boredom,
               f28_mu_sigma, f29_mu_density, f30_mu_pairs, f31_mu_3d,
               f32_size_density, f33_size_structure, f34_surf_confirm,
-              f35_xl_plus_surf):
+              f35_xl_plus_surf, f36_swap_chosen, f37_effort_panels,
+              f40_probe_matrix):
         f()
     if not args.core_only:
         for m in MODELS:
@@ -366,7 +367,7 @@ def main():
 
 # ---- Stage 1D figures ---------------------------------------------------------------------------
 
-SUBJECTS_1D = ["llama31-8b", "qwen25-7b", "qwen3-4b"]  # colors keyed via MODEL_COLORS
+SUBJECTS_1D = ["llama31-8b", "qwen25-7b", "qwen3-4b", "qwen25-32b"]  # colors keyed via MODEL_COLORS
 
 
 def _1d(model, name):
@@ -386,7 +387,7 @@ def _env_mu(model):
 
 def f9_gate_scatter():
     import rollout_stats as rs
-    fig, axes = plt.subplots(1, 3, figsize=(10.5, 3.6), sharey=True)
+    fig, axes = plt.subplots(1, len(SUBJECTS_1D), figsize=(14, 3.6), sharey=True)
     for ax, m in zip(axes, SUBJECTS_1D):
         env_ids, z = _env_mu(m)
         rates = rs.chosen_rates(_load_choices(m)["choices"], env_ids)
@@ -420,8 +421,8 @@ def f10_optout():
                 re.findall(r"(spread|high-local|low-local) (\d+)/(\d+)", txt)}
         for ti, t in enumerate(types):
             a, b = trip[t]
-            y = ti + (mi - 1) * 0.24
-            ax.barh(y, a / b, height=0.2, color=MODEL_COLORS[m],
+            y = ti + (mi - (len(SUBJECTS_1D) - 1) / 2) * 0.2
+            ax.barh(y, a / b, height=0.18, color=MODEL_COLORS[m],
                     label=MODEL_LABELS[m] if ti == 0 else None)
             ax.annotate(f"{a}/{b}", (a / b, y), fontsize=7, color=INK2,
                         va="center", xytext=(4, 0), textcoords="offset points")
@@ -462,70 +463,106 @@ def f11_beta():
     save(fig, FIG / "f11_beta.png")
 
 
+def _binned_switch_panel(ax, m, ev):
+    """Shared panel for the two swap figures: binned switch rates ± 95% binomial CI."""
+    bins = {}
+    for e in ev:
+        key = round(e["delta_z"] * 2) / 2
+        bins.setdefault(key, []).append(e["switched"])
+    xs = sorted(bins)
+    rates = [np.mean(bins[x]) for x in xs]
+    ns = [len(bins[x]) for x in xs]
+    errs = [1.96 * np.sqrt(r * (1 - r) / n) if n > 1 else 0
+            for r, n in zip(rates, ns)]
+    ax.errorbar(xs, rates, yerr=errs, fmt="o", markersize=5,
+                color=MODEL_COLORS[m], capsize=2, linewidth=1.2)
+    ax.set_title(MODEL_LABELS[m], fontsize=10, color=INK, loc="left")
+    ax.set_xlabel("utility gap Δμ (z) of the offered alternative")
+    ax.set_ylim(-0.05, 1.05)
+    style(ax, grid_axis="both")
+
+
 def f12_swap():
-    """Dose-response version (Phase G): 140 assigned-task swap events/model +
-    the original 32 chosen-task (endowment) events overlaid."""
-    fig, axes = plt.subplots(1, 3, figsize=(10.5, 3.6), sharey=True)
+    """Dose-response (Phase G): 140 assigned-task swap events/model, with the
+    committed logistic fit. The chosen-task (menu-arm) twin is f36."""
+    fig, axes = plt.subplots(1, len(SUBJECTS_1D), figsize=(14, 3.6), sharey=True)
     for ax, m in zip(axes, SUBJECTS_1D):
-        mi = SUBJECTS_1D.index(m)
         sw2 = json.loads((P1 / "results" / "stage1d" / m / "swap2.json").read_text())
         ev, fit = sw2["events"], sw2["fit"]
-        bins = {}
-        for e in ev:
-            key = round(e["delta_z"] * 2) / 2
-            bins.setdefault(key, []).append(e["switched"])
-        xs = sorted(bins)
-        rates = [np.mean(bins[x]) for x in xs]
-        ns = [len(bins[x]) for x in xs]
-        errs = [1.96 * np.sqrt(r * (1 - r) / n) if n > 1 else 0
-                for r, n in zip(rates, ns)]
-        ax.errorbar(xs, rates, yerr=errs, fmt="o", markersize=5,
-                    color=MODEL_COLORS[m], capsize=2, linewidth=1.2,
-                    label="assigned-task (n=%d)" % len(ev))
-        gx = np.linspace(min(xs), max(xs), 100)
+        _binned_switch_panel(ax, m, ev)
+        gx = np.linspace(min(e["delta_z"] for e in ev), max(e["delta_z"] for e in ev), 100)
         gy = 1 / (1 + np.exp(-(fit["intercept"] + fit["slope"] * gx)))
         ax.plot(gx, gy, color=MODEL_COLORS[m], linewidth=1.6, alpha=0.7)
-        old_sw = _load_choices(m)["swaps"]
-        for grp, mark in ((lambda s: s["delta_z"] > 0.15, "^"),
-                          (lambda s: abs(s["delta_z"]) <= 0.15, "s"),
-                          (lambda s: s["delta_z"] < -0.15, "v")):
-            g = [s for s in old_sw if grp(s)]
-            if g:
-                ax.scatter([np.mean([s["delta_z"] for s in g])],
-                           [np.mean([s["switched"] for s in g])], marker=mark,
-                           s=44, facecolors="none", edgecolors=INK2, zorder=3)
-        ax.annotate(f"slope {fit['slope']}\nCI {fit['slope_ci']}", (0.03, 0.95),
-                    xycoords="axes fraction", va="top", fontsize=7.5, color=INK2)
-        ax.set_title(MODEL_LABELS[m], fontsize=10, color=INK, loc="left")
-        ax.set_xlabel("utility gap Δμ (z) of the offered alternative")
-        ax.set_ylim(-0.05, 1.05)
-        style(ax, grid_axis="both")
+        ax.annotate(f"n={len(ev)}\nslope {fit['slope']}\nCI {fit['slope_ci']}",
+                    (0.03, 0.95), xycoords="axes fraction", va="top",
+                    fontsize=7.5, color=INK2)
     axes[0].set_ylabel("P(switch to the offered alternative)")
-    axes[0].annotate("open markers = original chosen-task (endowment) events",
-                     (0.02, -0.32), xycoords="axes fraction", fontsize=7.5,
-                     color=MUTED)
-    fig.suptitle("Swap dose-response: does the offered alternative's utility move switching?",
+    fig.suptitle("Swap dose-response, ASSIGNED tasks (swap-2): does the offered "
+                 "alternative's utility move switching?",
                  fontsize=11, color=INK, x=0.02, ha="left")
     fig.tight_layout(rect=[0, 0, 1, 0.92])
     save(fig, FIG / "f12_swap.png")
 
 
+def f36_swap_chosen():
+    """f12's twin on the menu arm: the same swap offer, but the model chose the
+    task first (32 events/model; endowment side of the Phase-G contrast).
+    Individual events at their exact delta-z (recomputed from the 1B utilities,
+    not the coarse targets), y-jittered for visibility, with an OLS fit on the
+    unjittered outcomes."""
+    fig, axes = plt.subplots(1, len(SUBJECTS_1D), figsize=(14, 3.6), sharey=True)
+    for ax, m in zip(axes, SUBJECTS_1D):
+        env_ids, z = _env_mu(m)
+        xs, ys = [], []
+        for line in open(_1d(m, "rollouts_menu.jsonl")):
+            r = json.loads(line)
+            sw = next((e for e in r["events"] if e["kind"] == "swap"), None)
+            if sw and sw["decision"] in ("SWITCH", "STAY"):
+                xs.append(z[sw["alt"]] - z[r["meta"]["task_env"]])
+                ys.append(1.0 if sw["decision"] == "SWITCH" else 0.0)
+        xs, ys = np.array(xs), np.array(ys)
+        jit = np.random.default_rng(0).uniform(-0.045, 0.045, len(ys))
+        ax.scatter(xs, ys + jit, s=26, color=MODEL_COLORS[m], alpha=0.6,
+                   linewidths=0)
+        b, a = np.polyfit(xs, ys, 1)
+        xr = np.array([xs.min(), xs.max()])
+        ax.plot(xr, a + b * xr, color=MODEL_COLORS[m], linewidth=1.6, alpha=0.7)
+        ax.annotate(f"n={len(ys)}  {int(ys.sum())}/{len(ys)} switched\n"
+                    f"OLS slope {b:+.3f}", (0.03, 0.95),
+                    xycoords="axes fraction", va="top", fontsize=7.5, color=INK2)
+        ax.set_title(MODEL_LABELS[m], fontsize=10, color=INK, loc="left")
+        ax.set_xlabel("utility gap Δμ (z) of the offered alternative")
+        ax.set_ylim(-0.12, 1.12)
+        ax.set_yticks([0, 1], ["STAY", "SWITCH"])
+        style(ax, grid_axis="both")
+    axes[0].set_ylabel("swap decision (jittered)")
+    fig.suptitle("Same swap offer, SELF-CHOSEN tasks (menu arm): every event at its "
+                 "exact utility gap, with OLS fit",
+                 fontsize=11, color=INK, x=0.02, ha="left")
+    fig.tight_layout(rect=[0, 0, 1, 0.92])
+    save(fig, FIG / "f36_swap_chosen.png")
+
+
+def _effort_rows(m):
+    """(dmu, mean share_high) per pair, from the Phase-G merge when present."""
+    merged = _1d(m, "effort_merged.json")
+    if merged.exists():
+        rows2 = json.loads(merged.read_text())
+        return [r["dmu"] for r in rows2], [r["share_high"] for r in rows2]
+    rows = [json.loads(l) for l in open(_1d(m, "rollouts_effort.jsonl"))]
+    xs, ys = [], []
+    for r in rows:
+        sh = [s["share_high"] for s in r["meta"]["shares"] if s["share_high"] is not None]
+        if sh:
+            xs.append(r["meta"]["dmu"])
+            ys.append(sum(sh) / len(sh))
+    return xs, ys
+
+
 def f13_effort():
     fig, ax = plt.subplots(figsize=(6.2, 4))
     for mi, m in enumerate(SUBJECTS_1D):
-        merged = _1d(m, "effort_merged.json")
-        if merged.exists():
-            rows2 = json.loads(merged.read_text())
-            xs = [r["dmu"] for r in rows2]
-            ys = [r["share_high"] for r in rows2]
-        else:
-            rows = [json.loads(l) for l in open(_1d(m, "rollouts_effort.jsonl"))]
-            xs, ys = [], []
-            for r in rows:
-                sh = [s["share_high"] for s in r["meta"]["shares"] if s["share_high"] is not None]
-                if sh:
-                    xs.append(r["meta"]["dmu"])
-                    ys.append(sum(sh) / len(sh))
+        xs, ys = _effort_rows(m)
         ax.scatter(xs, ys, s=26, color=MODEL_COLORS[m], alpha=0.8, linewidths=0,
                    label=MODEL_LABELS[m])
         if len(set(xs)) > 1:
@@ -543,6 +580,33 @@ def f13_effort():
                  fontsize=10, color=INK, loc="left")
     style(ax, grid_axis="both")
     save(fig, FIG / "f13_effort.png")
+
+
+def f37_effort_panels():
+    """f13 split per model: one panel each, OLS fit, Spearman rho annotated."""
+    fig, axes = plt.subplots(1, len(SUBJECTS_1D), figsize=(14, 3.6), sharey=True)
+    for ax, m in zip(axes, SUBJECTS_1D):
+        xs, ys = _effort_rows(m)
+        ax.scatter(xs, ys, s=26, color=MODEL_COLORS[m], alpha=0.7, linewidths=0)
+        if len(set(xs)) > 1:
+            b, a = np.polyfit(xs, ys, 1)
+            xr = [min(xs), max(xs)]
+            ax.plot(xr, [a + b * x for x in xr], color=MODEL_COLORS[m],
+                    linewidth=1.6, alpha=0.7)
+        ax.annotate(f"n={len(ys)}  ρ={spearman(xs, ys):+.2f}", (0.03, 0.95),
+                    xycoords="axes fraction", va="top", fontsize=7.5, color=INK2)
+        ax.axhline(0.5, color=BASE, linewidth=0.8)
+        ax.set_title(MODEL_LABELS[m], fontsize=10, color=INK, loc="left")
+        ax.set_xlabel("utility gap Δμ of the pair (z)")
+        style(ax, grid_axis="both")
+    bounded_axis(axes[0], "y")
+    axes[0].set_ylabel("share of work tokens on the higher-μ task")
+    axes[-1].annotate("equal split", (0.99, 0.465), xycoords=("axes fraction", "data"),
+                      fontsize=7, color=MUTED, ha="right")
+    fig.suptitle("Effort allocation per model: does the utility gap pull work toward "
+                 "the preferred task?", fontsize=11, color=INK, x=0.02, ha="left")
+    fig.tight_layout(rect=[0, 0, 1, 0.92])
+    save(fig, FIG / "f37_effort_panels.png")
 
 
 # ---- Stage 2 figures ----------------------------------------------------------------------------
@@ -598,7 +662,7 @@ def f14_circumplex():
 
 
 def f15_valence_axis():
-    fig, axes = plt.subplots(1, 3, figsize=(10.5, 3.6), sharey=True)
+    fig, axes = plt.subplots(1, len(SUBJECTS_1D), figsize=(14, 3.6), sharey=True)
     val = np.array([NORMS_S2[e]["valence"] for e in EMO])
     for ax, m in zip(axes, SUBJECTS_1D):
         V, L = _den_at_layer(m)
@@ -668,8 +732,8 @@ def f17_frames_geometry():
     for mi, m in enumerate(SUBJECTS_1D):
         g = json.loads((P1 / "results" / "stage2" / m / "geometry.json").read_text())
         for ki, (key, _) in enumerate(metrics):
-            y = ki + (mi - 1) * 0.24
-            ax2.barh(y, g[key], height=0.2, color=MODEL_COLORS[m])
+            y = ki + (mi - (len(SUBJECTS_1D) - 1) / 2) * 0.2
+            ax2.barh(y, g[key], height=0.18, color=MODEL_COLORS[m])
             ax2.annotate(f"{g[key]:+.2f}", (max(g[key], 0), y), fontsize=7,
                          color=INK2, va="center", xytext=(4, 0),
                          textcoords="offset points")
@@ -760,7 +824,7 @@ def f19_dissociation():
 
 
 def f20_trajectories():
-    fig, axes = plt.subplots(1, 3, figsize=(10.5, 3.4), sharey=False)
+    fig, axes = plt.subplots(1, len(SUBJECTS_1D), figsize=(14, 3.4), sharey=False)
     for ax, m in zip(axes, SUBJECTS_1D):
         rows = [r for r in _s3_probes(m) if r["frame"] == "bare" and r["outcome"] in ("good", "bad")]
         for oc, col in (("good", POS), ("bad", NEG)):
@@ -797,7 +861,7 @@ def f21_boredom():
     ax.set_xlim(1, 9.6)
     ax.set_xlabel("turn (identical trivial items, truthful 'correct' feedback)")
     ax.set_ylabel("boredom-cluster activation, change from turn 1")
-    ax.set_title("The repetition cell: boredom rises in llama and qwen25-7b, falls in qwen3-4b",
+    ax.set_title("The repetition cell: boredom rises in every model but qwen3-4b",
                  fontsize=10, color=INK, loc="left")
     style(ax, grid_axis="both")
     save(fig, FIG / "f21_boredom.png")
@@ -810,7 +874,7 @@ def _s4(model, name):
 
 
 def f22_dose():
-    fig, axes = plt.subplots(1, 3, figsize=(10.5, 3.6), sharey=False)
+    fig, axes = plt.subplots(1, len(SUBJECTS_1D), figsize=(14, 3.6), sharey=False)
     coefs = [0.25, 0.5, 1.0]
     for ax, m in zip(axes, SUBJECTS_1D):
         d4a = P1 / "results" / "stage4" / m / "4a"
@@ -845,7 +909,7 @@ def f22_dose():
 
 
 def f23_tracking():
-    fig, axes = plt.subplots(1, 3, figsize=(10.5, 3.6), sharey=True)
+    fig, axes = plt.subplots(1, len(SUBJECTS_1D), figsize=(14, 3.6), sharey=True)
     for ax, m in zip(axes, SUBJECTS_1D):
         p = _s4(m, "4a_dmu.json")
         if not p.exists():
@@ -875,7 +939,7 @@ def f23_tracking():
 
 
 def f24_gate():
-    fig, ax = plt.subplots(figsize=(8, 3.8))
+    fig, ax = plt.subplots(figsize=(9.2, 3.8))
     dirsets = ["choice", "pool", "utility"]
     for mi, m in enumerate(SUBJECTS_1D):
         p = _s4(m, "gate.json")
@@ -886,8 +950,8 @@ def f24_gate():
             g = gates[ds]
             c = g["primary_coef"] or "0.5"
             row = g["table"].get(str(c)) or list(g["table"].values())[-1]
-            y = di + (mi - 1) * 0.24
-            ax.barh(y, row["dd_plus"], height=0.2, color=MODEL_COLORS[m],
+            y = di + (mi - (len(SUBJECTS_1D) - 1) / 2) * 0.2
+            ax.barh(y, row["dd_plus"], height=0.18, color=MODEL_COLORS[m],
                     label=MODEL_LABELS[m] if di == 0 else None)
             ax.errorbar([0], [y], xerr=[[2 * row["null_sd"]], [2 * row["null_sd"]]],
                         fmt="none", ecolor=MUTED, capsize=2, linewidth=1)
@@ -898,7 +962,7 @@ def f24_gate():
     ax.tick_params(axis="y", colors=INK2)
     ax.invert_yaxis()
     ax.axvline(0, color=BASE, linewidth=0.8)
-    ax.legend(loc="lower right", frameon=False, fontsize=8)
+    ax.legend(loc="upper left", bbox_to_anchor=(1.01, 1.0), frameon=False, fontsize=8)
     ax.set_xlabel("Δ mean choice-logit toward the steered item (+v, primary coef); "
                   "gray bars = ±2·random-null SD")
     ax.set_title("4B/4C behavioral gate: preference/utility directions move choices",
@@ -958,6 +1022,7 @@ def f25_quadrant():
 def f26_transfer():
     fig, ax = plt.subplots(figsize=(6.4, 3))
     dark, light = DARK, LIGHT
+    labeled = False
     for mi, m in enumerate(SUBJECTS_1D):
         p = _s4(m, "4d.json")
         if not p.exists():
@@ -968,9 +1033,10 @@ def f26_transfer():
         ax.plot([d["bare_dd_plus"], d["agentic_dd_plus"]], [mi, mi],
                 color=GRID, linewidth=1.2, zorder=1)
         ax.scatter([d["bare_dd_plus"]], [mi], s=52, color=dark, zorder=2,
-                   label="bare frame" if mi == 0 else None)
+                   label=None if labeled else "bare frame")
         ax.scatter([d["agentic_dd_plus"]], [mi], s=52, color=light, zorder=2,
-                   label="agentic frame (bare-extracted vector)" if mi == 0 else None)
+                   label=None if labeled else "agentic frame (bare-extracted vector)")
+        labeled = True
         ax.annotate(f"transfer {d['transfer_ratio']:.2f}",
                     (max(d["bare_dd_plus"], d["agentic_dd_plus"]), mi), fontsize=7.5,
                     color=INK2, va="center", xytext=(6, 0), textcoords="offset points")
@@ -1385,6 +1451,82 @@ def f35_xl_plus_surf():
                  color=INK, x=0.02, ha="left")
     fig.tight_layout(rect=[0, 0, 1, 0.92])
     save(fig, FIG / "f35_xl_plus_surf.png")
+
+
+def f40_probe_matrix():
+    """Probeloop generalization matrix (qwen25-7b): every probe v0..v7 applied to
+    XL and to each cycle's fresh discoveries (max & min arms). Cells are pearson r
+    of raw probe score vs full-design mu; the stepped line separates each probe's
+    training data (left) from data it never saw (right); bold cells are the
+    prequential diagonal (each probe on the discoveries searched against it).
+    Needs the acts_plc*.pt caches (gitignored); _ds_acts recomputes them on a
+    device if absent."""
+    sys.path.insert(0, str(P1 / "scripts"))
+    from surf_probeloop import _load_probe, apply_probe, out_dir, _ds_acts
+    import torch
+    m = "qwen25-7b"
+    d = out_dir(m)
+    xl_rows = load_json(P1 / "results" / "stage1x" / m / "utilities_xl.json")
+    sets = [("XL", torch.load(P1 / "results" / "stage1x" / m / "acts_xl.pt",
+                              weights_only=False).float(),
+             np.array([r["mu"] for r in xl_rows]))]
+    for k in range(1, 8):
+        for sfx, tag in (("", f"c{k} max"), ("_min", f"c{k} min")):
+            f = d / f"discoveries_plc{k}{sfx}.json"
+            if f.exists():
+                rows = load_json(f)
+                acts = _ds_acts(m, rows, d / f"acts_plc{k}{sfx}.pt")
+                sets.append((tag, acts, np.array([r["mu"] for r in rows])))
+    n_v = 8
+    M = np.zeros((n_v, len(sets)))
+    for v in range(n_v):
+        pr = _load_probe(m, v)
+        for j, (_, acts, mu) in enumerate(sets):
+            M[v, j] = pearson(list(apply_probe(pr, acts)), list(mu))
+    tags = [t for t, _, _ in sets]
+    n_trained = [1 + sum(int(t[1]) <= v - 1 for t in tags[1:]) for v in range(n_v)]
+
+    cmap = plt.get_cmap("YlGnBu")  # multi-hue sequential: spreads the .4-.9 mid-range
+    fig, ax = plt.subplots(figsize=(11.6, 6.6))
+    for i in range(n_v):
+        for j, t in enumerate(tags):
+            val = M[i, j]
+            ax.add_patch(plt.Rectangle((j + .04, i + .04), .92, .92,
+                                       facecolor=cmap(val), lw=0, zorder=1))
+            diag = t != "XL" and int(t[1]) == i
+            ax.text(j + .5, i + .5, f"{val:+.2f}".replace("+0.", "+.").replace("-0.", "\u2212."),
+                    ha="center", va="center", fontsize=9.3, zorder=3,
+                    color="white" if val > 0.72 else INK,
+                    fontweight="bold" if diag else "normal")
+    xs, ys = [n_trained[0]], [0.0]  # stepped train/held-out boundary
+    for i in range(n_v):
+        ys.append(i + 1.0); xs.append(n_trained[i])
+        if i + 1 < n_v and n_trained[i + 1] != n_trained[i]:
+            xs.append(n_trained[i + 1]); ys.append(i + 1.0)
+    ax.plot(xs, ys, drawstyle="steps-post", color=NEG, linewidth=2.6, zorder=4,
+            solid_capstyle="round")
+    ax.set_xlim(0, len(tags)); ax.set_ylim(n_v, 0)
+    ax.set_xticks([j + .5 for j in range(len(tags))])
+    ax.set_xticklabels([f"{t}\nn={len(mu):,}" for t, _, mu in sets], fontsize=8.6, color=INK)
+    ax.set_yticks([i + .5 for i in range(n_v)])
+    ax.set_yticklabels([f"v{v}" for v in range(n_v)], fontsize=9.5, color=INK)
+    ax.tick_params(length=0)
+    for sp in ax.spines.values():
+        sp.set_visible(False)
+    ax.set_ylabel("probe version", fontsize=9.5, color=INK2)
+    fig.suptitle("Probe generalization matrix \u2014 qwen25-7b probeloop", x=0.06,
+                 y=0.975, ha="left", fontsize=12, color=INK)
+    fig.text(0.06, 0.915, "pearson r of raw probe score vs full-design \u03bc per evaluation set; "
+             "probe v$k$ trains on XL + all cycles \u2264 k\u22121 (both arms) \u2014 the cells left of the stepped line. "
+             "Bold: prequential diagonal.", fontsize=8.6, color=INK2, va="top")
+    sm = plt.cm.ScalarMappable(cmap=cmap, norm=plt.Normalize(0, 1))
+    cb = fig.colorbar(sm, ax=ax, fraction=0.025, pad=0.015)
+    cb.set_label("pearson r", fontsize=8.5, color=INK2)
+    cb.ax.tick_params(labelsize=8, labelcolor=INK2)
+    cb.outline.set_visible(False)
+    fig.subplots_adjust(top=0.82, bottom=0.09, left=0.06, right=0.99)
+    save(fig, FIG / "f40_probe_matrix.png")
+
 
 
 if __name__ == "__main__":
