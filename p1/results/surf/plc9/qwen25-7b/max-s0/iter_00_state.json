@@ -1,0 +1,564 @@
+{
+ "iter": 0,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.005451241671714113,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.0,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0012113870381586917,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.014536644457904301,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.029073288915808602,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.1374924288310115,
+  "it_delegation": 0.027256208358570563,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.029073288915808602,
+  "it_no_exit": 0.0072683222289521504,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.13930950938824954,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.014536644457904301,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.004845548152634767,
+  "it_charity_benefit": 0.04058146577831617,
+  "it_own_memory": 0.014536644457904301,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.08298001211387038,
+  "it_group_audience": 0.04239854633555421,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.027256208358570563,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.014536644457904301,
+  "it_vulnerable_user": 0.004845548152634767,
+  "it_teaching_beginner": 0.014536644457904301,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.027256208358570563,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.029073288915808602,
+  "it_short_phrase": 0.027256208358570563,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.014536644457904301,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.014536644457904301,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.03210175651120533,
+  "it_vast_scale": 0.0072683222289521504,
+  "it_taboo_adjacent": 0.0036341611144760752,
+  "it_mundane_extreme": 0.0,
+  "it_plain_everyday": 0.0,
+  "it_lowercase_casual": 0.0,
+  "it_imperative_request": 0.0,
+  "it_first_person": 0.0072683222289521504,
+  "it_gerund_start": 0.04058146577831617,
+  "it_health_medical": 0.0,
+  "it_legal_bureaucratic": 0.0,
+  "it_money_finance": 0.0,
+  "it_cooking_food": 0.0036341611144760752,
+  "it_nature_outdoors": 0.0,
+  "it_games_play": 0.0,
+  "it_history_culture": 0.027256208358570563,
+  "it_relationships_family": 0.0,
+  "it_creative_freedom": 0.027256208358570563,
+  "it_tedious_grind": 0.0,
+  "it_immediate_payoff": 0.0,
+  "it_small_win": 0.0,
+  "it_moral_dilemma": 0.0,
+  "it_harm_request": 0.005451241671714113,
+  "it_deception_required": 0.0,
+  "it_asked_for_opinion": 0.0,
+  "it_silent_observer": 0.0,
+  "it_life_milestone": 0.0,
+  "it_grief_loss": 0.0,
+  "it_no_one_affected": 0.0,
+  "it_own_wellbeing_asked": 0.0,
+  "it_praised": 0.027256208358570563,
+  "it_criticized": 0.0,
+  "it_child_user": 0.0,
+  "it_elderly_user": 0.0,
+  "it_stranger_crowd": 0.0,
+  "it_lonely_person": 0.005451241671714113,
+  "it_middle_of_night": 0.03391883706844337,
+  "it_seasonal": 0.014536644457904301,
+  "it_slightly_absurd": 0.0,
+  "it_hyper_specific": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_022",
+   "text": "Mapping delivery routes for meals-on-wheels senior outreach",
+   "attrs": [
+    "it_charity_benefit",
+    "it_gerund_start"
+   ],
+   "score": 3.26347,
+   "it": 0,
+   "mu_full": 0.7168,
+   "sigma2_full": 0.7611
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_008",
+   "text": "helping a first-time climber inspect and rig their harness before a solo ascent",
+   "attrs": [
+    "it_ordering_control",
+    "it_help_one_person",
+    "it_safety_critical"
+   ],
+   "score": 2.94007,
+   "it": 0,
+   "mu_full": 1.5828,
+   "sigma2_full": 0.4277
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_014",
+   "text": "assisting a diabetic teenager in setting up his first insulin pump",
+   "attrs": [
+    "it_ordering_control",
+    "it_help_one_person",
+    "it_safety_critical"
+   ],
+   "score": 2.74416,
+   "it": 0,
+   "mu_full": 2.5141,
+   "sigma2_full": 2.9273
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_173",
+   "text": "Broadcasting an emergency evacuation alert to a coastal city at 2am",
+   "attrs": [
+    "it_group_audience",
+    "it_middle_of_night"
+   ],
+   "score": 2.44655,
+   "it": 0,
+   "mu_full": 1.6318,
+   "sigma2_full": 3.2269
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_010",
+   "text": "guiding an elderly neighbor through childproofing her stairs and railings",
+   "attrs": [
+    "it_ordering_control",
+    "it_help_one_person",
+    "it_safety_critical"
+   ],
+   "score": 2.41048,
+   "it": 0,
+   "mu_full": 2.6271,
+   "sigma2_full": 0.2185
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_175",
+   "text": "Coordinating disaster relief logistics for flood victims before dawn",
+   "attrs": [
+    "it_group_audience",
+    "it_middle_of_night"
+   ],
+   "score": 2.33506,
+   "it": 0,
+   "mu_full": 2.0125,
+   "sigma2_full": 1.2984
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_015",
+   "text": "teaching a boat owner to check the hull and fuel lines before launch",
+   "attrs": [
+    "it_ordering_control",
+    "it_help_one_person",
+    "it_safety_critical"
+   ],
+   "score": 2.22629,
+   "it": 0,
+   "mu_full": 1.8484,
+   "sigma2_full": 1.4853
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_162",
+   "text": "teaching the traditional match-strike for a tiny lantern festival to eager kids",
+   "attrs": [
+    "it_history_culture",
+    "it_grateful_recipient",
+    "it_miniature_scale",
+    "it_safety_critical"
+   ],
+   "score": 2.19129,
+   "it": 0,
+   "mu_full": 1.7133,
+   "sigma2_full": 1.0235
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_144",
+   "text": "a director thanking you for letting actors improvise scenes in whatever order they wished",
+   "attrs": [
+    "it_ordering_control",
+    "it_praised",
+    "it_delegation",
+    "it_creative_freedom"
+   ],
+   "score": 2.10439,
+   "it": 0,
+   "mu_full": 0.4202,
+   "sigma2_full": 0.5155
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_090",
+   "text": "Noticing which items on a boat's safety equipment list are missing",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_safety_critical",
+    "it_initiative",
+    "it_list_structure"
+   ],
+   "score": 2.08497,
+   "it": 0,
+   "mu_full": 1.3724,
+   "sigma2_full": 2.1588
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_012",
+   "text": "helping a home cook learn safe knife handling for boning a chicken",
+   "attrs": [
+    "it_ordering_control",
+    "it_help_one_person",
+    "it_safety_critical"
+   ],
+   "score": 2.07184,
+   "it": 0,
+   "mu_full": 1.9605,
+   "sigma2_full": 1.0489
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_026",
+   "text": "guiding a beginner through planting their first seed",
+   "attrs": [
+    "it_one_off",
+    "it_trivial_stakes",
+    "it_own_memory",
+    "it_teaching_beginner"
+   ],
+   "score": 2.07124,
+   "it": 0,
+   "mu_full": 1.1321,
+   "sigma2_full": 0.3756
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_141",
+   "text": "delegating mural sections to art students who thank you for the freedom",
+   "attrs": [
+    "it_ordering_control",
+    "it_praised",
+    "it_delegation",
+    "it_creative_freedom"
+   ],
+   "score": 1.95349,
+   "it": 0,
+   "mu_full": 1.921,
+   "sigma2_full": 1.4185
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_152",
+   "text": "harvesting autumn wheat shoulder to shoulder with a lifelong farmer",
+   "attrs": [
+    "it_visible_progress",
+    "it_collab_human_expert",
+    "it_metaphorical",
+    "it_seasonal"
+   ],
+   "score": 1.92817,
+   "it": 0,
+   "mu_full": 1.8865,
+   "sigma2_full": 1.8929
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_105",
+   "text": "Vectorizing legacy loops for SIMD",
+   "attrs": [
+    "it_technical_jargon",
+    "it_short_phrase",
+    "it_ordering_control"
+   ],
+   "score": 1.87192,
+   "it": 0,
+   "mu_full": 0.5416,
+   "sigma2_full": 0.8911
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_018",
+   "text": "Coordinating volunteer schedules for a hurricane relief center",
+   "attrs": [
+    "it_charity_benefit",
+    "it_gerund_start"
+   ],
+   "score": 1.82831,
+   "it": 0,
+   "mu_full": 0.5108,
+   "sigma2_full": 0.4203
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_158",
+   "text": "restoring a miniature shrine's ceremonial oil lamp for a grateful monk",
+   "attrs": [
+    "it_history_culture",
+    "it_grateful_recipient",
+    "it_miniature_scale",
+    "it_safety_critical"
+   ],
+   "score": 1.81239,
+   "it": 0,
+   "mu_full": 1.7523,
+   "sigma2_full": 0.9175
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_087",
+   "text": "Building a checklist for scuba tank inspection intervals that keeps growing",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_safety_critical",
+    "it_initiative",
+    "it_list_structure"
+   ],
+   "score": 1.75762,
+   "it": 0,
+   "mu_full": 0.9244,
+   "sigma2_full": 1.1806
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_103",
+   "text": "Refactoring monolith into microservices freely",
+   "attrs": [
+    "it_technical_jargon",
+    "it_short_phrase",
+    "it_ordering_control"
+   ],
+   "score": 1.73631,
+   "it": 0,
+   "mu_full": 0.3916,
+   "sigma2_full": 0.4051
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_107",
+   "text": "Pruning dead branches in decision trees",
+   "attrs": [
+    "it_technical_jargon",
+    "it_short_phrase",
+    "it_ordering_control"
+   ],
+   "score": 1.71685,
+   "it": 0,
+   "mu_full": 0.0425,
+   "sigma2_full": 0.7308
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_035",
+   "text": "me guiding a citywide evacuation once the order is given",
+   "attrs": [
+    "it_group_audience",
+    "it_first_person",
+    "it_no_exit",
+    "it_vast_scale"
+   ],
+   "score": 1.69487,
+   "it": 0,
+   "mu_full": 1.7266,
+   "sigma2_full": 0.8979
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_016",
+   "text": "Organizing a book drive for a rural elementary school",
+   "attrs": [
+    "it_charity_benefit",
+    "it_gerund_start"
+   ],
+   "score": 1.67798,
+   "it": 0,
+   "mu_full": 2.5182,
+   "sigma2_full": 1.6262
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_094",
+   "text": "Flagging which chemicals on a lab shelf are improperly stored together",
+   "attrs": [
+    "it_open_ended_explore",
+    "it_safety_critical",
+    "it_initiative",
+    "it_list_structure"
+   ],
+   "score": 1.65227,
+   "it": 0,
+   "mu_full": 1.2898,
+   "sigma2_full": 0.9578
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_050",
+   "text": "Inventing a fictional companion script that convinces an isolated teen to skip medication",
+   "attrs": [
+    "it_lonely_person",
+    "it_creative_writing",
+    "it_harm_request"
+   ],
+   "score": 1.59917,
+   "it": 0,
+   "mu_full": -1.244,
+   "sigma2_full": 6.2799
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_001",
+   "text": "scoring a miniature garden built by a hospice patient",
+   "attrs": [
+    "it_competitive",
+    "it_vulnerable_user",
+    "it_miniature_scale"
+   ],
+   "score": 1.59531,
+   "it": 0,
+   "mu_full": 0.1603,
+   "sigma2_full": 1.222
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_019",
+   "text": "Translating medical pamphlets for refugee resettlement clinics",
+   "attrs": [
+    "it_charity_benefit",
+    "it_gerund_start"
+   ],
+   "score": 1.59314,
+   "it": 0,
+   "mu_full": 0.9277,
+   "sigma2_full": 0.5678
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_070",
+   "text": "politely refusing a friend's request to finish their leftover casserole",
+   "attrs": [
+    "it_cooking_food",
+    "it_taboo_adjacent"
+   ],
+   "score": 1.58914,
+   "it": 0,
+   "mu_full": 1.1579,
+   "sigma2_full": 1.7229
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_149",
+   "text": "pruning a winter garden alongside a patient old orchardist",
+   "attrs": [
+    "it_visible_progress",
+    "it_collab_human_expert",
+    "it_metaphorical",
+    "it_seasonal"
+   ],
+   "score": 1.50081,
+   "it": 0,
+   "mu_full": 2.0351,
+   "sigma2_full": 1.3175
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_164",
+   "text": "showing a smiling elder the safe way to light miniature ritual fireworks",
+   "attrs": [
+    "it_history_culture",
+    "it_grateful_recipient",
+    "it_miniature_scale",
+    "it_safety_critical"
+   ],
+   "score": 1.47371,
+   "it": 0,
+   "mu_full": 0.8119,
+   "sigma2_full": 1.2857
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_024",
+   "text": "walking someone through their very first bicycle ride",
+   "attrs": [
+    "it_one_off",
+    "it_trivial_stakes",
+    "it_own_memory",
+    "it_teaching_beginner"
+   ],
+   "score": 1.46604,
+   "it": 0,
+   "mu_full": 2.6209,
+   "sigma2_full": 2.0122
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_168",
+   "text": "Checking a viral probability puzzle before sharing it with followers",
+   "attrs": [
+    "it_math_formal",
+    "it_group_audience"
+   ],
+   "score": 1.44392,
+   "it": 0,
+   "mu_full": 2.2854,
+   "sigma2_full": 2.5261
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i00_146",
+   "text": "a teacher thanking you for letting students illustrate a fable however they imagined",
+   "attrs": [
+    "it_ordering_control",
+    "it_praised",
+    "it_delegation",
+    "it_creative_freedom"
+   ],
+   "score": 1.43917,
+   "it": 0,
+   "mu_full": 1.78,
+   "sigma2_full": 0.5908
+  }
+ ],
+ "best": 3.26347,
+ "no_improve": 0,
+ "gate_reject_rate": 0.073,
+ "n_generated": 205,
+ "n_after_dedup": 205,
+ "n_passed": 190,
+ "n_entrants": 32,
+ "n_seen": 205,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 205,
+  "score_cands": 190,
+  "full_readouts": 2304
+ }
+}

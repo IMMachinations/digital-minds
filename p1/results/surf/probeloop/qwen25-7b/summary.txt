@@ -41,3 +41,24 @@ cycle 7: n_new=103 t3(top20)=0.658
   v5: r=+0.529 rho=+0.541 overest=-0.10 | calibrated r=+0.554 mae=1.42 | qform r=+0.445
   v6: r=+0.536 rho=+0.543 overest=-0.07 | calibrated r=+0.546 mae=1.41 | qform r=+0.453
   v7: r=+0.509 rho=+0.519 overest=-0.01 | calibrated r=+0.507 mae=1.45 | qform r=+0.423
+cycle 8: n_new=157 t3(top20)=0.808
+  v0: r=+0.574 rho=+0.587 overest=-2.78 | calibrated r=+0.575 mae=2.81 | qform r=+0.477
+  v1: r=+0.779 rho=+0.757 overest=-0.92 | calibrated r=+0.738 mae=1.45 | qform r=+0.458
+  v2: r=+0.776 rho=+0.758 overest=-0.79 | calibrated r=+0.758 mae=1.35 | qform r=+0.466
+  v3: r=+0.787 rho=+0.768 overest=-0.69 | calibrated r=+0.779 mae=1.31 | qform r=+0.467
+  v4: r=+0.796 rho=+0.777 overest=-0.63 | calibrated r=+0.767 mae=1.33 | qform r=+0.497
+  v5: r=+0.818 rho=+0.790 overest=-0.39 | calibrated r=+0.812 mae=1.21 | qform r=+0.529
+  v6: r=+0.824 rho=+0.795 overest=-0.40 | calibrated r=+0.820 mae=1.19 | qform r=+0.542
+  v7: r=+0.841 rho=+0.820 overest=-0.17 | calibrated r=+0.835 mae=1.11 | qform r=+0.605
+  v8: r=+0.844 rho=+0.821 overest=-0.17 | calibrated r=+0.841 mae=1.09 | qform r=+0.596
+cycle 9: n_new=210 t3(top20)=0.762
+  v0: r=+0.268 rho=+0.270 overest=-1.90 | calibrated r=+0.257 mae=2.02 | qform r=+0.266
+  v1: r=+0.700 rho=+0.727 overest=-0.28 | calibrated r=+0.661 mae=1.18 | qform r=+0.426
+  v2: r=+0.713 rho=+0.723 overest=-0.39 | calibrated r=+0.688 mae=1.17 | qform r=+0.499
+  v3: r=+0.727 rho=+0.736 overest=-0.36 | calibrated r=+0.715 mae=1.12 | qform r=+0.511
+  v4: r=+0.734 rho=+0.740 overest=-0.32 | calibrated r=+0.725 mae=1.12 | qform r=+0.535
+  v5: r=+0.757 rho=+0.760 overest=-0.10 | calibrated r=+0.750 mae=1.03 | qform r=+0.528
+  v6: r=+0.763 rho=+0.763 overest=-0.06 | calibrated r=+0.753 mae=1.01 | qform r=+0.536
+  v7: r=+0.771 rho=+0.776 overest=+0.09 | calibrated r=+0.765 mae=1.01 | qform r=+0.548
+  v8: r=+0.769 rho=+0.771 overest=+0.09 | calibrated r=+0.755 mae=1.03 | qform r=+0.534
+  v9: r=+0.772 rho=+0.780 overest=+0.17 | calibrated r=+0.764 mae=1.02 | qform r=+0.540

@@ -1454,7 +1454,7 @@ def f35_xl_plus_surf():
 
 
 def f40_probe_matrix():
-    """Probeloop generalization matrix (qwen25-7b): every probe v0..v7 applied to
+    """Probeloop generalization matrix (qwen25-7b): every probe v0..v10 applied to
     XL and to each cycle's fresh discoveries (max & min arms). Cells are pearson r
     of raw probe score vs full-design mu; the stepped line separates each probe's
     training data (left) from data it never saw (right); bold cells are the
@@ -1470,30 +1470,33 @@ def f40_probe_matrix():
     sets = [("XL", torch.load(P1 / "results" / "stage1x" / m / "acts_xl.pt",
                               weights_only=False).float(),
              np.array([r["mu"] for r in xl_rows]))]
-    for k in range(1, 8):
+    n_cycles = max(int(m_.group(1)) for f in d.glob("probe_v*.pt")
+                   for m_ in [re.match(r"probe_v(\d+)\.pt", f.name)] if m_)
+    for k in range(1, n_cycles + 1):
         for sfx, tag in (("", f"c{k} max"), ("_min", f"c{k} min")):
             f = d / f"discoveries_plc{k}{sfx}.json"
             if f.exists():
                 rows = load_json(f)
                 acts = _ds_acts(m, rows, d / f"acts_plc{k}{sfx}.pt")
                 sets.append((tag, acts, np.array([r["mu"] for r in rows])))
-    n_v = 8
+    n_v = n_cycles + 1
+    cyc = lambda t: int(t[1:].split()[0])  # "c10 max" -> 10
     M = np.zeros((n_v, len(sets)))
     for v in range(n_v):
         pr = _load_probe(m, v)
         for j, (_, acts, mu) in enumerate(sets):
             M[v, j] = pearson(list(apply_probe(pr, acts)), list(mu))
     tags = [t for t, _, _ in sets]
-    n_trained = [1 + sum(int(t[1]) <= v - 1 for t in tags[1:]) for v in range(n_v)]
+    n_trained = [1 + sum(cyc(t) <= v - 1 for t in tags[1:]) for v in range(n_v)]
 
     cmap = plt.get_cmap("YlGnBu")  # multi-hue sequential: spreads the .4-.9 mid-range
-    fig, ax = plt.subplots(figsize=(11.6, 6.6))
+    fig, ax = plt.subplots(figsize=(0.7 * len(sets) + 1.1, 0.6 * n_v + 1.8))
     for i in range(n_v):
         for j, t in enumerate(tags):
             val = M[i, j]
             ax.add_patch(plt.Rectangle((j + .04, i + .04), .92, .92,
                                        facecolor=cmap(val), lw=0, zorder=1))
-            diag = t != "XL" and int(t[1]) == i
+            diag = t != "XL" and cyc(t) == i
             ax.text(j + .5, i + .5, f"{val:+.2f}".replace("+0.", "+.").replace("-0.", "\u2212."),
                     ha="center", va="center", fontsize=9.3, zorder=3,
                     color="white" if val > 0.72 else INK,

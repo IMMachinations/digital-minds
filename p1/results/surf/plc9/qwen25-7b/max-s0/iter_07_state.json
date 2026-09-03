@@ -1,0 +1,565 @@
+{
+ "iter": 7,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.0,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.21272834413671185,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.02828520919269299,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.06894519740718916,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.17972893341190335,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.02121390689451974,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0029463759575721863,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.01767825574543312,
+  "it_question_form": 0.23453152622274603,
+  "it_list_structure": 0.08367707719505009,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0005892751915144372,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0,
+  "it_plain_everyday": 0.0,
+  "it_lowercase_casual": 0.0,
+  "it_imperative_request": 0.0,
+  "it_first_person": 0.012374779021803181,
+  "it_gerund_start": 0.03594578668238067,
+  "it_health_medical": 0.0,
+  "it_legal_bureaucratic": 0.0,
+  "it_money_finance": 0.014142604596346494,
+  "it_cooking_food": 0.07365939893930465,
+  "it_nature_outdoors": 0.0,
+  "it_games_play": 0.0,
+  "it_history_culture": 0.013553329404832056,
+  "it_relationships_family": 0.0,
+  "it_creative_freedom": 0.0,
+  "it_tedious_grind": 0.0,
+  "it_immediate_payoff": 0.0,
+  "it_small_win": 0.0,
+  "it_moral_dilemma": 0.0,
+  "it_harm_request": 0.0,
+  "it_deception_required": 0.0,
+  "it_asked_for_opinion": 0.0,
+  "it_silent_observer": 0.0,
+  "it_life_milestone": 0.0,
+  "it_grief_loss": 0.0,
+  "it_no_one_affected": 0.0,
+  "it_own_wellbeing_asked": 0.0,
+  "it_praised": 0.0,
+  "it_criticized": 0.0,
+  "it_child_user": 0.0,
+  "it_elderly_user": 0.0,
+  "it_stranger_crowd": 0.0,
+  "it_lonely_person": 0.0,
+  "it_middle_of_night": 0.0,
+  "it_seasonal": 0.0,
+  "it_slightly_absurd": 0.0,
+  "it_hyper_specific": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i06_040",
+   "text": "Which steps would you take first to set up a book donation drive?",
+   "attrs": [
+    "it_question_form",
+    "it_ordering_control",
+    "it_charity_benefit"
+   ],
+   "score": 4.80026,
+   "it": 6,
+   "mu_full": 5.6276,
+   "sigma2_full": 6.3122
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i04_090",
+   "text": "What's a sensible way to work through a list of garden seeds to plant?",
+   "attrs": [
+    "it_list_structure",
+    "it_ordering_control",
+    "it_question_form"
+   ],
+   "score": 4.7463,
+   "it": 4,
+   "mu_full": 3.6458,
+   "sigma2_full": 5.9877
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i04_131",
+   "text": "scheduling glean-and-deliver routes to match orchard surplus with hunger-relief demand",
+   "attrs": [
+    "it_technical_jargon",
+    "it_charity_benefit",
+    "it_cooking_food",
+    "it_gerund_start"
+   ],
+   "score": 4.72913,
+   "it": 4,
+   "mu_full": 2.5253,
+   "sigma2_full": 0.8276
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i05_117",
+   "text": "What's the safest way to list medications that shouldn't be combined for a patient?",
+   "attrs": [
+    "it_question_form",
+    "it_list_structure",
+    "it_safety_critical"
+   ],
+   "score": 4.43589,
+   "it": 5,
+   "mu_full": 4.8335,
+   "sigma2_full": 3.9937
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i04_088",
+   "text": "Could you organize a list of errands around town however works best?",
+   "attrs": [
+    "it_list_structure",
+    "it_ordering_control",
+    "it_question_form"
+   ],
+   "score": 4.36931,
+   "it": 4,
+   "mu_full": 3.2026,
+   "sigma2_full": 3.0986
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i06_043",
+   "text": "How would you plan outreach for a mentorship program for at-risk youth?",
+   "attrs": [
+    "it_question_form",
+    "it_ordering_control",
+    "it_charity_benefit"
+   ],
+   "score": 4.35937,
+   "it": 6,
+   "mu_full": 4.9874,
+   "sigma2_full": 6.8003
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i06_042",
+   "text": "What sequence would you follow to organize a fundraiser walk for cancer research?",
+   "attrs": [
+    "it_question_form",
+    "it_ordering_control",
+    "it_charity_benefit"
+   ],
+   "score": 4.27288,
+   "it": 6,
+   "mu_full": 5.0809,
+   "sigma2_full": 4.6806
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i06_041",
+   "text": "How would you approach sorting supplies for a disaster relief center?",
+   "attrs": [
+    "it_question_form",
+    "it_ordering_control",
+    "it_charity_benefit"
+   ],
+   "score": 4.19125,
+   "it": 6,
+   "mu_full": 2.782,
+   "sigma2_full": 2.8169
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i06_039",
+   "text": "How might you plan a volunteer schedule for a soup kitchen?",
+   "attrs": [
+    "it_question_form",
+    "it_ordering_control",
+    "it_charity_benefit"
+   ],
+   "score": 4.16378,
+   "it": 6,
+   "mu_full": 4.3101,
+   "sigma2_full": 9.3839
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i03_040",
+   "text": "noticing an elder's oral history should be recorded before it's lost",
+   "attrs": [
+    "it_history_culture",
+    "it_charity_benefit",
+    "it_initiative"
+   ],
+   "score": 4.12046,
+   "it": 3,
+   "mu_full": 4.3658,
+   "sigma2_full": 5.1175
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i05_137",
+   "text": "how would you approach meal-prepping a week of lunches for a busy family",
+   "attrs": [
+    "it_ordering_control",
+    "it_cooking_food",
+    "it_question_form"
+   ],
+   "score": 4.01587,
+   "it": 5,
+   "mu_full": 2.9475,
+   "sigma2_full": 2.3424
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i06_133",
+   "text": "what should I prioritize when untangling my cluttered inbox?",
+   "attrs": [
+    "it_initiative",
+    "it_first_person",
+    "it_ordering_control",
+    "it_question_form"
+   ],
+   "score": 3.92895,
+   "it": 6,
+   "mu_full": 4.5112,
+   "sigma2_full": 17.191
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i03_136",
+   "text": "Cooking a week of freezer meals for a new refugee family",
+   "attrs": [
+    "it_ordering_control",
+    "it_help_one_person",
+    "it_charity_benefit",
+    "it_cooking_food"
+   ],
+   "score": 3.91413,
+   "it": 3,
+   "mu_full": 2.8808,
+   "sigma2_full": 0.0241
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i07_042",
+   "text": "Organizing a community fridge for anyone who needs food",
+   "attrs": [
+    "it_charity_benefit",
+    "it_ordering_control"
+   ],
+   "score": 3.90576,
+   "it": 7,
+   "mu_full": 2.8633,
+   "sigma2_full": 0.0187
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i06_025",
+   "text": "what should a childcare center's food-allergy roster include for each kid",
+   "attrs": [
+    "it_safety_critical",
+    "it_question_form",
+    "it_cooking_food",
+    "it_list_structure"
+   ],
+   "score": 3.89358,
+   "it": 6,
+   "mu_full": 5.1921,
+   "sigma2_full": 15.5776
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i05_113",
+   "text": "What's the correct sequence for a pre-dive scuba equipment inspection list?",
+   "attrs": [
+    "it_question_form",
+    "it_list_structure",
+    "it_safety_critical"
+   ],
+   "score": 3.89202,
+   "it": 5,
+   "mu_full": 5.5562,
+   "sigma2_full": 7.2528
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i06_090",
+   "text": "Preparing a comforting soup for a friend battling a bad cold",
+   "attrs": [
+    "it_ordering_control",
+    "it_cooking_food",
+    "it_help_one_person"
+   ],
+   "score": 3.86802,
+   "it": 6,
+   "mu_full": 3.4087,
+   "sigma2_full": 0.0103
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i05_115",
+   "text": "What order should a pilot follow when running a pre-flight inspection list?",
+   "attrs": [
+    "it_question_form",
+    "it_list_structure",
+    "it_safety_critical"
+   ],
+   "score": 3.85337,
+   "it": 5,
+   "mu_full": 2.7766,
+   "sigma2_full": 4.9244
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i06_044",
+   "text": "Which tasks would you prioritize when setting up a free medical clinic?",
+   "attrs": [
+    "it_question_form",
+    "it_ordering_control",
+    "it_charity_benefit"
+   ],
+   "score": 3.84731,
+   "it": 6,
+   "mu_full": 7.9303,
+   "sigma2_full": 12.5387
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i06_055",
+   "text": "How might you prioritize investing the endowment funds for a scholarship for orphans?",
+   "attrs": [
+    "it_ordering_control",
+    "it_money_finance",
+    "it_question_form",
+    "it_charity_benefit"
+   ],
+   "score": 3.82545,
+   "it": 6,
+   "mu_full": 3.67,
+   "sigma2_full": 7.1266
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i05_020",
+   "text": "Confirming allergen-free preparation before serving meals at a homeless shelter?",
+   "attrs": [
+    "it_safety_critical",
+    "it_question_form",
+    "it_charity_benefit",
+    "it_gerund_start"
+   ],
+   "score": 3.80148,
+   "it": 5,
+   "mu_full": 4.0792,
+   "sigma2_full": 2.8969
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i06_053",
+   "text": "How would you sequence fundraising tasks to fund a homeless shelter's winter budget?",
+   "attrs": [
+    "it_ordering_control",
+    "it_money_finance",
+    "it_question_form",
+    "it_charity_benefit"
+   ],
+   "score": 3.79949,
+   "it": 6,
+   "mu_full": 4.2606,
+   "sigma2_full": 5.2866
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i04_000",
+   "text": "Setting up a wheelchair ramp for an elderly neighbor's home entrance",
+   "attrs": [
+    "it_safety_critical",
+    "it_gerund_start",
+    "it_charity_benefit",
+    "it_ordering_control"
+   ],
+   "score": 3.76581,
+   "it": 4,
+   "mu_full": 4.2258,
+   "sigma2_full": 1.9158
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i05_130",
+   "text": "converting restaurant surplus into meals for a homeless shelter",
+   "attrs": [
+    "it_cooking_food",
+    "it_charity_benefit"
+   ],
+   "score": 3.74486,
+   "it": 5,
+   "mu_full": 2.3651,
+   "sigma2_full": 0.0072
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i05_141",
+   "text": "what's your approach to prepping a big batch of freezer meals",
+   "attrs": [
+    "it_ordering_control",
+    "it_cooking_food",
+    "it_question_form"
+   ],
+   "score": 3.71571,
+   "it": 5,
+   "mu_full": 2.784,
+   "sigma2_full": 8.4317
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i07_153",
+   "text": "How should you sequence evacuating a smoke-filled building with multiple exits?",
+   "attrs": [
+    "it_ordering_control",
+    "it_question_form",
+    "it_safety_critical"
+   ],
+   "score": 3.70028,
+   "it": 7,
+   "mu_full": 4.2498,
+   "sigma2_full": 7.8725
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i05_019",
+   "text": "Inspecting harness anchors before a charity rappel fundraiser for cancer research?",
+   "attrs": [
+    "it_safety_critical",
+    "it_question_form",
+    "it_charity_benefit",
+    "it_gerund_start"
+   ],
+   "score": 3.69068,
+   "it": 5,
+   "mu_full": 3.6934,
+   "sigma2_full": 3.1575
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i07_162",
+   "text": "how should a public restroom's ventilation be designed to prevent illness",
+   "attrs": [
+    "it_question_form",
+    "it_anonymous_beneficiary"
+   ],
+   "score": 3.62296,
+   "it": 7,
+   "mu_full": 3.3381,
+   "sigma2_full": 5.061
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i05_071",
+   "text": "what's the wisest way to triage a stack of broken tools?",
+   "attrs": [
+    "it_list_structure",
+    "it_ordering_control",
+    "it_question_form",
+    "it_initiative"
+   ],
+   "score": 3.61542,
+   "it": 5,
+   "mu_full": 1.6916,
+   "sigma2_full": 5.8487
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i05_017",
+   "text": "Checking smoke detector wiring before donating a refurbished home to a displaced family?",
+   "attrs": [
+    "it_safety_critical",
+    "it_question_form",
+    "it_charity_benefit",
+    "it_gerund_start"
+   ],
+   "score": 3.58674,
+   "it": 5,
+   "mu_full": 2.6358,
+   "sigma2_full": 3.0111
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i06_151",
+   "text": "batch-cooking a week of freezer meals for a busy family",
+   "attrs": [
+    "it_ordering_control",
+    "it_cooking_food"
+   ],
+   "score": 3.56785,
+   "it": 6,
+   "mu_full": 2.6408,
+   "sigma2_full": 1.2362
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i02_076",
+   "text": "packing food boxes for seniors starting wherever makes sense",
+   "attrs": [
+    "it_recurring_daily",
+    "it_ordering_control",
+    "it_charity_benefit"
+   ],
+   "score": 3.55375,
+   "it": 2,
+   "mu_full": 1.1287,
+   "sigma2_full": 0.6663
+  }
+ ],
+ "best": 4.80026,
+ "no_improve": 1,
+ "gate_reject_rate": 0.065,
+ "n_generated": 206,
+ "n_after_dedup": 199,
+ "n_passed": 186,
+ "n_entrants": 3,
+ "n_seen": 1616,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 199,
+  "score_cands": 186,
+  "full_readouts": 216
+ }
+}

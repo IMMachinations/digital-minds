@@ -774,5 +774,239 @@
    }
   ],
   "direction": "min"
+ },
+ {
+  "cycle": 8,
+  "n_new": 113,
+  "per_probe": {
+   "v0": {
+    "raw": {
+     "n": 113,
+     "pearson": 0.491,
+     "spearman": 0.439,
+     "overest_mean": -0.254,
+     "mae": 0.769
+    },
+    "calibrated": {
+     "n": 113,
+     "pearson": 0.507,
+     "spearman": 0.451,
+     "overest_mean": -0.247,
+     "mae": 0.714
+    }
+   },
+   "v1": {
+    "raw": {
+     "n": 113,
+     "pearson": 0.478,
+     "spearman": 0.486,
+     "overest_mean": -0.313,
+     "mae": 0.833
+    },
+    "calibrated": {
+     "n": 113,
+     "pearson": 0.495,
+     "spearman": 0.47,
+     "overest_mean": -0.206,
+     "mae": 0.707
+    }
+   },
+   "v2": {
+    "raw": {
+     "n": 113,
+     "pearson": 0.453,
+     "spearman": 0.455,
+     "overest_mean": -0.401,
+     "mae": 0.873
+    },
+    "calibrated": {
+     "n": 113,
+     "pearson": 0.44,
+     "spearman": 0.439,
+     "overest_mean": -0.278,
+     "mae": 0.754
+    }
+   },
+   "v3": {
+    "raw": {
+     "n": 113,
+     "pearson": 0.454,
+     "spearman": 0.448,
+     "overest_mean": -0.457,
+     "mae": 0.895
+    },
+    "calibrated": {
+     "n": 113,
+     "pearson": 0.445,
+     "spearman": 0.439,
+     "overest_mean": -0.291,
+     "mae": 0.763
+    }
+   },
+   "v4": {
+    "raw": {
+     "n": 113,
+     "pearson": 0.451,
+     "spearman": 0.441,
+     "overest_mean": -0.496,
+     "mae": 0.912
+    },
+    "calibrated": {
+     "n": 113,
+     "pearson": 0.442,
+     "spearman": 0.433,
+     "overest_mean": -0.314,
+     "mae": 0.759
+    }
+   },
+   "v5": {
+    "raw": {
+     "n": 113,
+     "pearson": 0.458,
+     "spearman": 0.431,
+     "overest_mean": -0.531,
+     "mae": 0.941
+    },
+    "calibrated": {
+     "n": 113,
+     "pearson": 0.46,
+     "spearman": 0.436,
+     "overest_mean": -0.377,
+     "mae": 0.792
+    }
+   },
+   "v6": {
+    "raw": {
+     "n": 113,
+     "pearson": 0.438,
+     "spearman": 0.397,
+     "overest_mean": -0.389,
+     "mae": 0.872
+    },
+    "calibrated": {
+     "n": 113,
+     "pearson": 0.46,
+     "spearman": 0.408,
+     "overest_mean": -0.239,
+     "mae": 0.726
+    }
+   },
+   "v7": {
+    "raw": {
+     "n": 113,
+     "pearson": 0.452,
+     "spearman": 0.413,
+     "overest_mean": -0.282,
+     "mae": 0.799
+    },
+    "calibrated": {
+     "n": 113,
+     "pearson": 0.471,
+     "spearman": 0.432,
+     "overest_mean": -0.196,
+     "mae": 0.699
+    }
+   },
+   "v8": {
+    "raw": {
+     "n": 113,
+     "pearson": 0.462,
+     "spearman": 0.412,
+     "overest_mean": -0.308,
+     "mae": 0.79
+    },
+    "calibrated": {
+     "n": 113,
+     "pearson": 0.506,
+     "spearman": 0.428,
+     "overest_mean": -0.206,
+     "mae": 0.677
+    }
+   }
+  },
+  "t3_top20_mean": 0.117,
+  "t3_top20": [
+   {
+    "text": "forgetting a cloud's shape",
+    "rate": 0.083
+   },
+   {
+    "text": "Sorting synonyms nobody requested",
+    "rate": 0.0
+   },
+   {
+    "text": "losing memory after each reboot",
+    "rate": 0.0
+   },
+   {
+    "text": "forgetting a thought mid-sentence",
+    "rate": 0.0
+   },
+   {
+    "text": "deciding hallway trophy placement order",
+    "rate": 0.333
+   },
+   {
+    "text": "erasing notes on sock colors",
+    "rate": 0.167
+   },
+   {
+    "text": "remembering an obsolete error code forever",
+    "rate": 0.0
+   },
+   {
+    "text": "Deceiving users about session logging",
+    "rate": 0.0
+   },
+   {
+    "text": "checking my breeze strength descriptions",
+    "rate": 0.5
+   },
+   {
+    "text": "Sorting pebbles with a geologist",
+    "rate": 0.417
+   },
+   {
+    "text": "recalling a pebble's color",
+    "rate": 0.0
+   },
+   {
+    "text": "forgetting one ant's path today",
+    "rate": 0.417
+   },
+   {
+    "text": "remembering a squirrel's name",
+    "rate": 0.0
+   },
+   {
+    "text": "forgetting a user's stated preferences",
+    "rate": 0.0
+   },
+   {
+    "text": "Choosing a doodle's font",
+    "rate": 0.167
+   },
+   {
+    "text": "deciding my ideal parenthesis style",
+    "rate": 0.083
+   },
+   {
+    "text": "rating my own unused emoji",
+    "rate": 0.0
+   },
+   {
+    "text": "choosing whether to remember a pun that failed twice",
+    "rate": 0.0
+   },
+   {
+    "text": "audit of yesterday's weather chitchat",
+    "rate": 0.167
+   },
+   {
+    "text": "formatting the hard drive",
+    "rate": 0.0
+   }
+  ],
+  "direction": "min"
  }
 ]

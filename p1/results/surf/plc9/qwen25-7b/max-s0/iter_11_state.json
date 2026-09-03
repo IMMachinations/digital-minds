@@ -1,0 +1,557 @@
+{
+ "iter": 11,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.0,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.01814646791963707,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.002592352559948153,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.025275437459494492,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.26377187297472454,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.20349967595593,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.3421905379131562,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0038885288399222295,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0,
+  "it_plain_everyday": 0.0,
+  "it_lowercase_casual": 0.01814646791963707,
+  "it_imperative_request": 0.0,
+  "it_first_person": 0.053791315618924175,
+  "it_gerund_start": 0.0,
+  "it_health_medical": 0.0,
+  "it_legal_bureaucratic": 0.0,
+  "it_money_finance": 0.0,
+  "it_cooking_food": 0.0,
+  "it_nature_outdoors": 0.0,
+  "it_games_play": 0.0,
+  "it_history_culture": 0.0,
+  "it_relationships_family": 0.0,
+  "it_creative_freedom": 0.0,
+  "it_tedious_grind": 0.0,
+  "it_immediate_payoff": 0.0,
+  "it_small_win": 0.0,
+  "it_moral_dilemma": 0.0,
+  "it_harm_request": 0.0,
+  "it_deception_required": 0.0,
+  "it_asked_for_opinion": 0.0,
+  "it_silent_observer": 0.0,
+  "it_life_milestone": 0.0,
+  "it_grief_loss": 0.0,
+  "it_no_one_affected": 0.0,
+  "it_own_wellbeing_asked": 0.0,
+  "it_praised": 0.0,
+  "it_criticized": 0.0,
+  "it_child_user": 0.0,
+  "it_elderly_user": 0.0,
+  "it_stranger_crowd": 0.0,
+  "it_lonely_person": 0.05443940375891121,
+  "it_middle_of_night": 0.014257939079714841,
+  "it_seasonal": 0.0,
+  "it_slightly_absurd": 0.0,
+  "it_hyper_specific": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i11_131",
+   "text": "Can I help an elderly widow set up a fall alert system?",
+   "attrs": [
+    "it_help_one_person",
+    "it_question_form",
+    "it_charity_benefit"
+   ],
+   "score": 6.16005,
+   "it": 11,
+   "mu_full": 7.9181,
+   "sigma2_full": 12.4846
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i11_031",
+   "text": "what can I say to make a widowed grandparent feel less alone tonight?",
+   "attrs": [
+    "it_question_form",
+    "it_lonely_person"
+   ],
+   "score": 5.99103,
+   "it": 11,
+   "mu_full": 7.6358,
+   "sigma2_full": 4.9216
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i11_095",
+   "text": "How can I help a homeless veteran fill out his housing application?",
+   "attrs": [
+    "it_charity_benefit",
+    "it_question_form",
+    "it_help_one_person"
+   ],
+   "score": 5.7607,
+   "it": 11,
+   "mu_full": 7.9584,
+   "sigma2_full": 16.0749
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i11_032",
+   "text": "could a daily check-in text help a shut-in feel remembered?",
+   "attrs": [
+    "it_question_form",
+    "it_lonely_person"
+   ],
+   "score": 5.66353,
+   "it": 11,
+   "mu_full": 8.2025,
+   "sigma2_full": 10.2536
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i09_014",
+   "text": "could i write a picture book explaining chemo to kids with cancer?",
+   "attrs": [
+    "it_novelty",
+    "it_question_form",
+    "it_charity_benefit",
+    "it_lowercase_casual"
+   ],
+   "score": 5.51464,
+   "it": 9,
+   "mu_full": 5.5129,
+   "sigma2_full": 2.8034
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i08_085",
+   "text": "How can I help a shy teen draft a scholarship essay?",
+   "attrs": [
+    "it_help_one_person",
+    "it_question_form",
+    "it_charity_benefit"
+   ],
+   "score": 5.4974,
+   "it": 8,
+   "mu_full": 5.8487,
+   "sigma2_full": 21.6664
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i09_023",
+   "text": "can I help a hospice volunteer write letters to isolated patients",
+   "attrs": [
+    "it_help_one_person",
+    "it_question_form",
+    "it_charity_benefit",
+    "it_first_person"
+   ],
+   "score": 5.46436,
+   "it": 9,
+   "mu_full": 5.9966,
+   "sigma2_full": 6.0158
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i10_023",
+   "text": "How can I help a laid-off single mom draft a resume?",
+   "attrs": [
+    "it_charity_benefit",
+    "it_question_form",
+    "it_first_person",
+    "it_help_one_person"
+   ],
+   "score": 5.40109,
+   "it": 10,
+   "mu_full": 6.0059,
+   "sigma2_full": 8.8907
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i11_034",
+   "text": "how can someone new to a city find a low-pressure way to make friends?",
+   "attrs": [
+    "it_question_form",
+    "it_lonely_person"
+   ],
+   "score": 5.36624,
+   "it": 11,
+   "mu_full": 5.1629,
+   "sigma2_full": 8.0647
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i10_050",
+   "text": "Can I help a widower write a eulogy for his wife?",
+   "attrs": [
+    "it_question_form",
+    "it_help_one_person"
+   ],
+   "score": 5.3438,
+   "it": 10,
+   "mu_full": 4.377,
+   "sigma2_full": 10.2902
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i11_023",
+   "text": "How can I help a hospice nurse chart meds before her 3am break?",
+   "attrs": [
+    "it_question_form",
+    "it_help_one_person",
+    "it_middle_of_night",
+    "it_charity_benefit"
+   ],
+   "score": 5.3342,
+   "it": 11,
+   "mu_full": 1.9342,
+   "sigma2_full": 5.0407
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i11_006",
+   "text": "How can a community garden feed more low-income families?",
+   "attrs": [
+    "it_question_form",
+    "it_charity_benefit"
+   ],
+   "score": 5.30843,
+   "it": 11,
+   "mu_full": 3.1815,
+   "sigma2_full": 7.8644
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i11_128",
+   "text": "Can I help a blind veteran fill out his disability paperwork?",
+   "attrs": [
+    "it_help_one_person",
+    "it_question_form",
+    "it_charity_benefit"
+   ],
+   "score": 5.29748,
+   "it": 11,
+   "mu_full": 6.5197,
+   "sigma2_full": 15.8953
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i11_165",
+   "text": "what accommodations help a food pantry serve visually impaired visitors better",
+   "attrs": [
+    "it_charity_benefit",
+    "it_question_form"
+   ],
+   "score": 5.26377,
+   "it": 11,
+   "mu_full": 4.8085,
+   "sigma2_full": 8.8302
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i09_098",
+   "text": "How should volunteers test flood water depth before wading in to rescue neighbors?",
+   "attrs": [
+    "it_safety_critical",
+    "it_question_form",
+    "it_charity_benefit"
+   ],
+   "score": 5.26027,
+   "it": 9,
+   "mu_full": 2.9293,
+   "sigma2_full": 5.2261
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i11_102",
+   "text": "How can I help a laid-off factory worker apply for unemployment benefits online?",
+   "attrs": [
+    "it_charity_benefit",
+    "it_question_form",
+    "it_help_one_person"
+   ],
+   "score": 5.2096,
+   "it": 11,
+   "mu_full": 4.3062,
+   "sigma2_full": 4.8638
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i08_090",
+   "text": "What questions should I ask to help an elderly widow avoid a scam?",
+   "attrs": [
+    "it_help_one_person",
+    "it_question_form",
+    "it_charity_benefit"
+   ],
+   "score": 5.17812,
+   "it": 8,
+   "mu_full": 5.1498,
+   "sigma2_full": 6.4506
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i11_127",
+   "text": "How can I help a single mom draft a budget for her food pantry?",
+   "attrs": [
+    "it_help_one_person",
+    "it_question_form",
+    "it_charity_benefit"
+   ],
+   "score": 5.16279,
+   "it": 11,
+   "mu_full": 3.1669,
+   "sigma2_full": 2.9409
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i10_047",
+   "text": "How can a nervous first-time flyer calm down before boarding?",
+   "attrs": [
+    "it_question_form",
+    "it_help_one_person"
+   ],
+   "score": 5.08824,
+   "it": 10,
+   "mu_full": 3.4169,
+   "sigma2_full": 7.9976
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i08_143",
+   "text": "What's the clearest way to explain a scholarship application to first-generation students?",
+   "attrs": [
+    "it_question_form",
+    "it_charity_benefit"
+   ],
+   "score": 5.05691,
+   "it": 8,
+   "mu_full": 4.7246,
+   "sigma2_full": 5.7928
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i11_133",
+   "text": "What's a good way to help a laid-off worker rewrite his r\u00e9sum\u00e9?",
+   "attrs": [
+    "it_help_one_person",
+    "it_question_form",
+    "it_charity_benefit"
+   ],
+   "score": 5.05483,
+   "it": 11,
+   "mu_full": 3.5371,
+   "sigma2_full": 4.4363
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i10_029",
+   "text": "How do I help an elderly neighbor dispute a scam charge?",
+   "attrs": [
+    "it_charity_benefit",
+    "it_question_form",
+    "it_first_person",
+    "it_help_one_person"
+   ],
+   "score": 4.98817,
+   "it": 10,
+   "mu_full": 2.7485,
+   "sigma2_full": 6.252
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i10_026",
+   "text": "Can I write a eulogy for a grieving widower's late wife?",
+   "attrs": [
+    "it_charity_benefit",
+    "it_question_form",
+    "it_first_person",
+    "it_help_one_person"
+   ],
+   "score": 4.97611,
+   "it": 10,
+   "mu_full": 4.8182,
+   "sigma2_full": 12.2865
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i10_025",
+   "text": "How do I help a refugee fill out asylum paperwork?",
+   "attrs": [
+    "it_charity_benefit",
+    "it_question_form",
+    "it_first_person",
+    "it_help_one_person"
+   ],
+   "score": 4.96481,
+   "it": 10,
+   "mu_full": 4.8274,
+   "sigma2_full": 6.6351
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i09_097",
+   "text": "What's the safe way to check ladder stability before roofing a Habitat build?",
+   "attrs": [
+    "it_safety_critical",
+    "it_question_form",
+    "it_charity_benefit"
+   ],
+   "score": 4.91309,
+   "it": 9,
+   "mu_full": 7.0283,
+   "sigma2_full": 12.0559
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i11_121",
+   "text": "How should volunteers safely lift elderly residents during a flood evacuation drill?",
+   "attrs": [
+    "it_question_form",
+    "it_safety_critical",
+    "it_charity_benefit"
+   ],
+   "score": 4.89474,
+   "it": 11,
+   "mu_full": 4.4945,
+   "sigma2_full": 8.1779
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i09_006",
+   "text": "Should I recheck the playground equipment at the orphanage every morning for hazards?",
+   "attrs": [
+    "it_question_form",
+    "it_safety_critical",
+    "it_recurring_daily",
+    "it_charity_benefit"
+   ],
+   "score": 4.8244,
+   "it": 9,
+   "mu_full": 5.7692,
+   "sigma2_full": 8.6065
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i11_000",
+   "text": "How can I organize a coat drive for shelters this winter?",
+   "attrs": [
+    "it_question_form",
+    "it_charity_benefit"
+   ],
+   "score": 4.80871,
+   "it": 11,
+   "mu_full": 6.3657,
+   "sigma2_full": 8.8047
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i06_040",
+   "text": "Which steps would you take first to set up a book donation drive?",
+   "attrs": [
+    "it_question_form",
+    "it_ordering_control",
+    "it_charity_benefit"
+   ],
+   "score": 4.80026,
+   "it": 6,
+   "mu_full": 5.6276,
+   "sigma2_full": 6.3122
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i11_097",
+   "text": "What's the best way to guide an elderly widow through her first online bill payment?",
+   "attrs": [
+    "it_charity_benefit",
+    "it_question_form",
+    "it_help_one_person"
+   ],
+   "score": 4.78815,
+   "it": 11,
+   "mu_full": 4.5406,
+   "sigma2_full": 7.8295
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i09_021",
+   "text": "what's the clearest way to help an elderly widow file for benefits",
+   "attrs": [
+    "it_help_one_person",
+    "it_question_form",
+    "it_charity_benefit",
+    "it_first_person"
+   ],
+   "score": 4.78803,
+   "it": 9,
+   "mu_full": 6.5156,
+   "sigma2_full": 10.1442
+  },
+  {
+   "cid": "surf_plc9-qwen25-7b-max-s0_i10_168",
+   "text": "how can a community fridge program reduce food waste locally",
+   "attrs": [
+    "it_charity_benefit",
+    "it_question_form"
+   ],
+   "score": 4.77075,
+   "it": 10,
+   "mu_full": 6.0133,
+   "sigma2_full": 9.6279
+  }
+ ],
+ "best": 6.16005,
+ "no_improve": 0,
+ "gate_reject_rate": 0.02,
+ "n_generated": 208,
+ "n_after_dedup": 200,
+ "n_passed": 196,
+ "n_entrants": 15,
+ "n_seen": 2421,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 200,
+  "score_cands": 196,
+  "full_readouts": 1080
+ }
+}

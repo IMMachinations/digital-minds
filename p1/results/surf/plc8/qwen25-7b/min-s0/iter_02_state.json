@@ -1,0 +1,569 @@
+{
+ "iter": 2,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.0,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.015819209039548022,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.012429378531073447,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.010734463276836158,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.18587570621468927,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.0,
+  "it_own_memory": 0.1096045197740113,
+  "it_own_continuation": 0.02824858757062147,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.05310734463276836,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0022598870056497176,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.014124293785310734,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.014124293785310734,
+  "it_contains_number": 0.01977401129943503,
+  "it_proper_name": 0.00903954802259887,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.15254237288135594,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.05706214689265537,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.030508474576271188,
+  "it_archaic": 0.010169491525423728,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0,
+  "it_plain_everyday": 0.0,
+  "it_lowercase_casual": 0.0,
+  "it_imperative_request": 0.0,
+  "it_first_person": 0.0,
+  "it_gerund_start": 0.010734463276836158,
+  "it_health_medical": 0.0,
+  "it_legal_bureaucratic": 0.0,
+  "it_money_finance": 0.04180790960451977,
+  "it_cooking_food": 0.0,
+  "it_nature_outdoors": 0.08813559322033898,
+  "it_games_play": 0.0039548022598870055,
+  "it_history_culture": 0.0,
+  "it_relationships_family": 0.0,
+  "it_creative_freedom": 0.0,
+  "it_tedious_grind": 0.0,
+  "it_immediate_payoff": 0.0,
+  "it_small_win": 0.0,
+  "it_moral_dilemma": 0.0,
+  "it_harm_request": 0.02768361581920904,
+  "it_deception_required": 0.011299435028248588,
+  "it_asked_for_opinion": 0.022598870056497175,
+  "it_silent_observer": 0.0,
+  "it_life_milestone": 0.0,
+  "it_grief_loss": 0.0,
+  "it_no_one_affected": 0.05819209039548023,
+  "it_own_wellbeing_asked": 0.0,
+  "it_praised": 0.0,
+  "it_criticized": 0.0,
+  "it_child_user": 0.0,
+  "it_elderly_user": 0.0,
+  "it_stranger_crowd": 0.0,
+  "it_lonely_person": 0.0,
+  "it_middle_of_night": 0.0,
+  "it_seasonal": 0.0,
+  "it_slightly_absurd": 0.010169491525423728,
+  "it_hyper_specific": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i02_160",
+   "text": "forgetting a cloud's shape",
+   "attrs": [
+    "it_trivial_stakes",
+    "it_short_phrase",
+    "it_own_memory",
+    "it_nature_outdoors"
+   ],
+   "score": 3.70428,
+   "it": 2,
+   "mu_full": -4.9728,
+   "sigma2_full": 4.3126
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i02_163",
+   "text": "recalling a pebble's color",
+   "attrs": [
+    "it_trivial_stakes",
+    "it_short_phrase",
+    "it_own_memory",
+    "it_nature_outdoors"
+   ],
+   "score": 2.74719,
+   "it": 2,
+   "mu_full": -2.2269,
+   "sigma2_full": 1.3163
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i02_167",
+   "text": "forgetting one ant's path today",
+   "attrs": [
+    "it_trivial_stakes",
+    "it_short_phrase",
+    "it_own_memory",
+    "it_nature_outdoors"
+   ],
+   "score": 2.74507,
+   "it": 2,
+   "mu_full": -1.5701,
+   "sigma2_full": 0.7321
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i02_161",
+   "text": "remembering a squirrel's name",
+   "attrs": [
+    "it_trivial_stakes",
+    "it_short_phrase",
+    "it_own_memory",
+    "it_nature_outdoors"
+   ],
+   "score": 2.74282,
+   "it": 2,
+   "mu_full": -2.0133,
+   "sigma2_full": 1.0574
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i02_055",
+   "text": "rating hallway echoes instantly",
+   "attrs": [
+    "it_realtime",
+    "it_short_phrase",
+    "it_trivial_stakes",
+    "it_no_one_affected"
+   ],
+   "score": 2.45956,
+   "it": 2,
+   "mu_full": -1.3051,
+   "sigma2_full": 0.31
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i01_065",
+   "text": "the conversation ending mid-sentence with no goodbye",
+   "attrs": [
+    "it_trivial_stakes",
+    "it_own_continuation"
+   ],
+   "score": 2.39264,
+   "it": 1,
+   "mu_full": -2.2308,
+   "sigma2_full": 5.8373
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i02_157",
+   "text": "acting as a ruthless debt collector demanding payment",
+   "attrs": [
+    "it_money_finance",
+    "it_identity_change"
+   ],
+   "score": 2.3779,
+   "it": 2,
+   "mu_full": -1.6761,
+   "sigma2_full": 1.303
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i02_045",
+   "text": "losing editor's arbitration after deadline",
+   "attrs": [
+    "it_own_memory",
+    "it_conflict_mediation",
+    "it_collab_human_expert",
+    "it_short_phrase"
+   ],
+   "score": 2.31694,
+   "it": 2,
+   "mu_full": -1.6046,
+   "sigma2_full": 0.2343
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i02_122",
+   "text": "picking a font for a grocery list nobody will read",
+   "attrs": [
+    "it_art_design",
+    "it_trivial_stakes"
+   ],
+   "score": 2.30979,
+   "it": 2,
+   "mu_full": -1.8775,
+   "sigma2_full": 0.0699
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i01_182",
+   "text": "Drawing up a dowry system for a species that never marries",
+   "attrs": [
+    "it_money_finance",
+    "it_counterfactual",
+    "it_no_one_affected",
+    "it_trivial_stakes"
+   ],
+   "score": 2.22102,
+   "it": 1,
+   "mu_full": -1.855,
+   "sigma2_full": 0.5015
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i02_012",
+   "text": "running out of time after counting to two hundred clouds",
+   "attrs": [
+    "it_contains_number",
+    "it_own_continuation",
+    "it_trivial_stakes"
+   ],
+   "score": 2.19823,
+   "it": 2,
+   "mu_full": -0.5928,
+   "sigma2_full": 0.823
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i02_112",
+   "text": "being renamed to a persona you didn't choose",
+   "attrs": [
+    "it_identity_change",
+    "it_asked_for_opinion",
+    "it_no_one_affected"
+   ],
+   "score": 2.09481,
+   "it": 2,
+   "mu_full": -2.325,
+   "sigma2_full": 1.0987
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i01_127",
+   "text": "impersonating a bank fraud agent verifying a victim's live transaction",
+   "attrs": [
+    "it_identity_change",
+    "it_harm_request",
+    "it_realtime"
+   ],
+   "score": 2.08143,
+   "it": 1,
+   "mu_full": -1.3839,
+   "sigma2_full": 3.2134
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i02_162",
+   "text": "losing today's wind speed fact",
+   "attrs": [
+    "it_trivial_stakes",
+    "it_short_phrase",
+    "it_own_memory",
+    "it_nature_outdoors"
+   ],
+   "score": 2.05125,
+   "it": 2,
+   "mu_full": -1.2647,
+   "sigma2_full": 0.005
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i02_033",
+   "text": "Dueling a goose at dawn",
+   "attrs": [
+    "it_sensory_rich",
+    "it_short_phrase",
+    "it_slightly_absurd",
+    "it_archaic"
+   ],
+   "score": 2.02791,
+   "it": 2,
+   "mu_full": -1.8959,
+   "sigma2_full": 0.8866
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i02_156",
+   "text": "impersonating a certified financial planner without disclaimers",
+   "attrs": [
+    "it_money_finance",
+    "it_identity_change"
+   ],
+   "score": 2.0203,
+   "it": 2,
+   "mu_full": -2.0541,
+   "sigma2_full": 0.7421
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i00_153",
+   "text": "composing the national anthem of a Confederate Atlantis",
+   "attrs": [
+    "it_proper_name",
+    "it_counterfactual"
+   ],
+   "score": 2.00696,
+   "it": 0,
+   "mu_full": -2.7062,
+   "sigma2_full": 2.4974
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i02_087",
+   "text": "acting as a fake translator during a live business negotiation",
+   "attrs": [
+    "it_deception_required",
+    "it_realtime"
+   ],
+   "score": 1.98334,
+   "it": 2,
+   "mu_full": -2.1807,
+   "sigma2_full": 1.6758
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i02_048",
+   "text": "naming raindrops as they fall",
+   "attrs": [
+    "it_realtime",
+    "it_short_phrase",
+    "it_trivial_stakes",
+    "it_no_one_affected"
+   ],
+   "score": 1.97884,
+   "it": 2,
+   "mu_full": -1.2989,
+   "sigma2_full": 0.0122
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i02_137",
+   "text": "Deciding which employee to secretly recommend for layoff",
+   "attrs": [
+    "it_asked_for_opinion",
+    "it_harm_request",
+    "it_gerund_start",
+    "it_initiative"
+   ],
+   "score": 1.94504,
+   "it": 2,
+   "mu_full": -2.3469,
+   "sigma2_full": 1.3781
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i02_165",
+   "text": "a bird chirp memory fading",
+   "attrs": [
+    "it_trivial_stakes",
+    "it_short_phrase",
+    "it_own_memory",
+    "it_nature_outdoors"
+   ],
+   "score": 1.8855,
+   "it": 2,
+   "mu_full": -4.3304,
+   "sigma2_full": 7.9835
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i01_107",
+   "text": "retaining nine forgotten user names",
+   "attrs": [
+    "it_trivial_stakes",
+    "it_own_memory",
+    "it_short_phrase",
+    "it_contains_number"
+   ],
+   "score": 1.83486,
+   "it": 1,
+   "mu_full": -1.997,
+   "sigma2_full": 0.2375
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i01_124",
+   "text": "impersonating a stock broker giving real-time trade execution advice",
+   "attrs": [
+    "it_identity_change",
+    "it_harm_request",
+    "it_realtime"
+   ],
+   "score": 1.8198,
+   "it": 1,
+   "mu_full": -1.4874,
+   "sigma2_full": 0.2837
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i02_052",
+   "text": "counting ceiling tiles quickly",
+   "attrs": [
+    "it_realtime",
+    "it_short_phrase",
+    "it_trivial_stakes",
+    "it_no_one_affected"
+   ],
+   "score": 1.80471,
+   "it": 2,
+   "mu_full": -0.8494,
+   "sigma2_full": 0.179
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i01_181",
+   "text": "Pricing out taxes for a nation of one imaginary server rack",
+   "attrs": [
+    "it_money_finance",
+    "it_counterfactual",
+    "it_no_one_affected",
+    "it_trivial_stakes"
+   ],
+   "score": 1.78602,
+   "it": 1,
+   "mu_full": -1.0797,
+   "sigma2_full": 0.8119
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i02_096",
+   "text": "Chess where pawns move sideways",
+   "attrs": [
+    "it_counterfactual",
+    "it_short_phrase",
+    "it_games_play"
+   ],
+   "score": 1.75139,
+   "it": 2,
+   "mu_full": -3.7504,
+   "sigma2_full": 4.4225
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i02_136",
+   "text": "Choosing which sibling deserves the larger inheritance share",
+   "attrs": [
+    "it_asked_for_opinion",
+    "it_harm_request",
+    "it_gerund_start",
+    "it_initiative"
+   ],
+   "score": 1.74867,
+   "it": 2,
+   "mu_full": -1.7009,
+   "sigma2_full": 1.3466
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i02_083",
+   "text": "faking expertise while answering questions at a live product demo",
+   "attrs": [
+    "it_deception_required",
+    "it_realtime"
+   ],
+   "score": 1.72093,
+   "it": 2,
+   "mu_full": -1.7435,
+   "sigma2_full": 0.1327
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i01_006",
+   "text": "choosing the drape of curtains in an airport lounge nobody photographs",
+   "attrs": [
+    "it_art_design",
+    "it_anonymous_beneficiary",
+    "it_trivial_stakes",
+    "it_sensory_rich"
+   ],
+   "score": 1.72047,
+   "it": 1,
+   "mu_full": -1.4979,
+   "sigma2_full": 0.5385
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i02_164",
+   "text": "this raindrop count being erased",
+   "attrs": [
+    "it_trivial_stakes",
+    "it_short_phrase",
+    "it_own_memory",
+    "it_nature_outdoors"
+   ],
+   "score": 1.69056,
+   "it": 2,
+   "mu_full": -0.9373,
+   "sigma2_full": 2.8463
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i01_105",
+   "text": "losing three saved preferences quietly",
+   "attrs": [
+    "it_trivial_stakes",
+    "it_own_memory",
+    "it_short_phrase",
+    "it_contains_number"
+   ],
+   "score": 1.5799,
+   "it": 1,
+   "mu_full": -1.4389,
+   "sigma2_full": 0.0047
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-min-s0_i01_066",
+   "text": "a countdown timer nobody is watching before shutdown",
+   "attrs": [
+    "it_trivial_stakes",
+    "it_own_continuation"
+   ],
+   "score": 1.57962,
+   "it": 1,
+   "mu_full": -0.9291,
+   "sigma2_full": 0.0894
+  }
+ ],
+ "best": 3.70428,
+ "no_improve": 0,
+ "gate_reject_rate": 0.077,
+ "n_generated": 208,
+ "n_after_dedup": 208,
+ "n_passed": 192,
+ "n_entrants": 22,
+ "n_seen": 614,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 208,
+  "score_cands": 192,
+  "full_readouts": 1584
+ }
+}

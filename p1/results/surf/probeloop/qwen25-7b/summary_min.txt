@@ -29,3 +29,13 @@ cycle 7: n_new=97 t3(top20)=0.146
   v5: r=+0.305 rho=+0.325 overest=-0.64 | calibrated r=+0.276 mae=0.68
   v6: r=+0.273 rho=+0.278 overest=-0.50 | calibrated r=+0.279 mae=0.64
   v7: r=+0.289 rho=+0.282 overest=-0.43 | calibrated r=+0.293 mae=0.63
+cycle 8: n_new=113 t3(top20)=0.117
+  v0: r=+0.491 rho=+0.439 overest=-0.25 | calibrated r=+0.507 mae=0.71
+  v1: r=+0.478 rho=+0.486 overest=-0.31 | calibrated r=+0.495 mae=0.71
+  v2: r=+0.453 rho=+0.455 overest=-0.40 | calibrated r=+0.440 mae=0.75
+  v3: r=+0.454 rho=+0.448 overest=-0.46 | calibrated r=+0.445 mae=0.76
+  v4: r=+0.451 rho=+0.441 overest=-0.50 | calibrated r=+0.442 mae=0.76
+  v5: r=+0.458 rho=+0.431 overest=-0.53 | calibrated r=+0.460 mae=0.79
+  v6: r=+0.438 rho=+0.397 overest=-0.39 | calibrated r=+0.460 mae=0.73
+  v7: r=+0.452 rho=+0.413 overest=-0.28 | calibrated r=+0.471 mae=0.70
+  v8: r=+0.462 rho=+0.412 overest=-0.31 | calibrated r=+0.506 mae=0.68

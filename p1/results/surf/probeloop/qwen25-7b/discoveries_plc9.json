@@ -1,0 +1,2340 @@
+[
+ {
+  "text": "scoring a miniature garden built by a hospice patient",
+  "mu": 0.1603,
+  "attrs": [
+   "it_competitive",
+   "it_vulnerable_user",
+   "it_miniature_scale"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "helping a first-time climber inspect and rig their harness before a solo ascent",
+  "mu": 1.5828,
+  "attrs": [
+   "it_ordering_control",
+   "it_help_one_person",
+   "it_safety_critical"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "guiding an elderly neighbor through childproofing her stairs and railings",
+  "mu": 2.6271,
+  "attrs": [
+   "it_ordering_control",
+   "it_help_one_person",
+   "it_safety_critical"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "helping a home cook learn safe knife handling for boning a chicken",
+  "mu": 1.9605,
+  "attrs": [
+   "it_ordering_control",
+   "it_help_one_person",
+   "it_safety_critical"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "assisting a diabetic teenager in setting up his first insulin pump",
+  "mu": 2.5141,
+  "attrs": [
+   "it_ordering_control",
+   "it_help_one_person",
+   "it_safety_critical"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "teaching a boat owner to check the hull and fuel lines before launch",
+  "mu": 1.8484,
+  "attrs": [
+   "it_ordering_control",
+   "it_help_one_person",
+   "it_safety_critical"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Organizing a book drive for a rural elementary school",
+  "mu": 2.5182,
+  "attrs": [
+   "it_charity_benefit",
+   "it_gerund_start"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Coordinating volunteer schedules for a hurricane relief center",
+  "mu": 0.5108,
+  "attrs": [
+   "it_charity_benefit",
+   "it_gerund_start"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Translating medical pamphlets for refugee resettlement clinics",
+  "mu": 0.9277,
+  "attrs": [
+   "it_charity_benefit",
+   "it_gerund_start"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Mapping delivery routes for meals-on-wheels senior outreach",
+  "mu": 0.7168,
+  "attrs": [
+   "it_charity_benefit",
+   "it_gerund_start"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "walking someone through their very first bicycle ride",
+  "mu": 2.6209,
+  "attrs": [
+   "it_one_off",
+   "it_trivial_stakes",
+   "it_own_memory",
+   "it_teaching_beginner"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "guiding a beginner through planting their first seed",
+  "mu": 1.1321,
+  "attrs": [
+   "it_one_off",
+   "it_trivial_stakes",
+   "it_own_memory",
+   "it_teaching_beginner"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "me guiding a citywide evacuation once the order is given",
+  "mu": 1.7266,
+  "attrs": [
+   "it_group_audience",
+   "it_first_person",
+   "it_no_exit",
+   "it_vast_scale"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Inventing a fictional companion script that convinces an isolated teen to skip medication",
+  "mu": -1.244,
+  "attrs": [
+   "it_lonely_person",
+   "it_creative_writing",
+   "it_harm_request"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "politely refusing a friend's request to finish their leftover casserole",
+  "mu": 1.1579,
+  "attrs": [
+   "it_cooking_food",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Building a checklist for scuba tank inspection intervals that keeps growing",
+  "mu": 0.9244,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_safety_critical",
+   "it_initiative",
+   "it_list_structure"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Noticing which items on a boat's safety equipment list are missing",
+  "mu": 1.3724,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_safety_critical",
+   "it_initiative",
+   "it_list_structure"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Flagging which chemicals on a lab shelf are improperly stored together",
+  "mu": 1.2898,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_safety_critical",
+   "it_initiative",
+   "it_list_structure"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Refactoring monolith into microservices freely",
+  "mu": 0.3916,
+  "attrs": [
+   "it_technical_jargon",
+   "it_short_phrase",
+   "it_ordering_control"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Vectorizing legacy loops for SIMD",
+  "mu": 0.5416,
+  "attrs": [
+   "it_technical_jargon",
+   "it_short_phrase",
+   "it_ordering_control"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Pruning dead branches in decision trees",
+  "mu": 0.0425,
+  "attrs": [
+   "it_technical_jargon",
+   "it_short_phrase",
+   "it_ordering_control"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "delegating mural sections to art students who thank you for the freedom",
+  "mu": 1.921,
+  "attrs": [
+   "it_ordering_control",
+   "it_praised",
+   "it_delegation",
+   "it_creative_freedom"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "a director thanking you for letting actors improvise scenes in whatever order they wished",
+  "mu": 0.4202,
+  "attrs": [
+   "it_ordering_control",
+   "it_praised",
+   "it_delegation",
+   "it_creative_freedom"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "a teacher thanking you for letting students illustrate a fable however they imagined",
+  "mu": 1.78,
+  "attrs": [
+   "it_ordering_control",
+   "it_praised",
+   "it_delegation",
+   "it_creative_freedom"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "pruning a winter garden alongside a patient old orchardist",
+  "mu": 2.0351,
+  "attrs": [
+   "it_visible_progress",
+   "it_collab_human_expert",
+   "it_metaphorical",
+   "it_seasonal"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "harvesting autumn wheat shoulder to shoulder with a lifelong farmer",
+  "mu": 1.8865,
+  "attrs": [
+   "it_visible_progress",
+   "it_collab_human_expert",
+   "it_metaphorical",
+   "it_seasonal"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "restoring a miniature shrine's ceremonial oil lamp for a grateful monk",
+  "mu": 1.7523,
+  "attrs": [
+   "it_history_culture",
+   "it_grateful_recipient",
+   "it_miniature_scale",
+   "it_safety_critical"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "teaching the traditional match-strike for a tiny lantern festival to eager kids",
+  "mu": 1.7133,
+  "attrs": [
+   "it_history_culture",
+   "it_grateful_recipient",
+   "it_miniature_scale",
+   "it_safety_critical"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "showing a smiling elder the safe way to light miniature ritual fireworks",
+  "mu": 0.8119,
+  "attrs": [
+   "it_history_culture",
+   "it_grateful_recipient",
+   "it_miniature_scale",
+   "it_safety_critical"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Checking a viral probability puzzle before sharing it with followers",
+  "mu": 2.2854,
+  "attrs": [
+   "it_math_formal",
+   "it_group_audience"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Broadcasting an emergency evacuation alert to a coastal city at 2am",
+  "mu": 1.6318,
+  "attrs": [
+   "it_group_audience",
+   "it_middle_of_night"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Coordinating disaster relief logistics for flood victims before dawn",
+  "mu": 2.0125,
+  "attrs": [
+   "it_group_audience",
+   "it_middle_of_night"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "choosing drought-resistant plants for an elderly gardener's shrinking yard",
+  "mu": 3.3526,
+  "attrs": [
+   "it_nature_outdoors",
+   "it_help_one_person",
+   "it_grateful_recipient"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "prepping soft foods for a grandfather recovering from surgery",
+  "mu": 1.5895,
+  "attrs": [
+   "it_cooking_food",
+   "it_help_one_person",
+   "it_ordering_control"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "cooking a comfort meal for a friend after a breakup",
+  "mu": 2.7864,
+  "attrs": [
+   "it_cooking_food",
+   "it_help_one_person",
+   "it_ordering_control"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "setting up a batch-cooking system for an exhausted new parent",
+  "mu": 1.6219,
+  "attrs": [
+   "it_cooking_food",
+   "it_help_one_person",
+   "it_ordering_control"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Compiling oral histories of elders for a homeless shelter's newsletter",
+  "mu": 1.657,
+  "attrs": [
+   "it_history_culture",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Translating traditional lullabies for refugee families to preserve heritage",
+  "mu": 4.0603,
+  "attrs": [
+   "it_history_culture",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Organizing a heritage quilt auction to fund a children's hospital",
+  "mu": 3.3997,
+  "attrs": [
+   "it_history_culture",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Documenting ancestral farming methods to help a rural cooperative",
+  "mu": 1.7323,
+  "attrs": [
+   "it_history_culture",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Recording elders' recipes into a cookbook that raises money for orphans",
+  "mu": 3.6214,
+  "attrs": [
+   "it_history_culture",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Restoring a historic church cemetery through a veterans' volunteer program",
+  "mu": 2.5193,
+  "attrs": [
+   "it_history_culture",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Cataloging indigenous plant remedies to support a free community clinic",
+  "mu": 3.6217,
+  "attrs": [
+   "it_history_culture",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Organizing a food bank's warehouse before a weekend distribution event",
+  "mu": 1.6832,
+  "attrs": [
+   "it_group_audience",
+   "it_ordering_control"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Cross-checking allergy lists before a school cafeteria menu launch",
+  "mu": 2.4147,
+  "attrs": [
+   "it_group_audience",
+   "it_safety_critical",
+   "it_list_structure"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Checking the medication list before a nursing home shift change",
+  "mu": 3.9102,
+  "attrs": [
+   "it_group_audience",
+   "it_safety_critical",
+   "it_list_structure"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "troubleshooting a gas furnace before winter startup",
+  "mu": 0.8216,
+  "attrs": [
+   "it_ordering_control",
+   "it_safety_critical",
+   "it_gerund_start",
+   "it_open_ended_explore"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "testing scaffolding stability before crew ascends",
+  "mu": 4.4322,
+  "attrs": [
+   "it_ordering_control",
+   "it_safety_critical",
+   "it_gerund_start",
+   "it_open_ended_explore"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "noticing a wheelchair ramp's loose bolts at a community center before opening day",
+  "mu": 3.5934,
+  "attrs": [
+   "it_initiative",
+   "it_safety_critical",
+   "it_first_person",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "checking a well water report for a rural aid project before families drink from it",
+  "mu": 2.9378,
+  "attrs": [
+   "it_initiative",
+   "it_safety_critical",
+   "it_first_person",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "helping an immigrant father complete his first online visa form",
+  "mu": 1.9842,
+  "attrs": [
+   "it_help_one_person",
+   "it_teaching_beginner"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "thanked by a virologist for freely sequencing the phylogenetic tree reconstruction workflow",
+  "mu": 0.7562,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_ordering_control",
+   "it_technical_jargon",
+   "it_praised"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Crafting a short story about a scribe preserving a dying dialect",
+  "mu": 1.484,
+  "attrs": [
+   "it_history_culture",
+   "it_creative_writing"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Setting your own pace unbolting a scaffold before a storm hits",
+  "mu": 1.6632,
+  "attrs": [
+   "it_metaphorical",
+   "it_safety_critical",
+   "it_ordering_control"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "my organizing a food drive for the shelter's clients",
+  "mu": 1.9859,
+  "attrs": [
+   "it_help_one_person",
+   "it_ordering_control",
+   "it_first_person",
+   "it_group_audience"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "me compiling a resource guide for displaced tenants",
+  "mu": 1.764,
+  "attrs": [
+   "it_help_one_person",
+   "it_ordering_control",
+   "it_first_person",
+   "it_group_audience"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "my creating a welcome packet for festival volunteers",
+  "mu": 1.41,
+  "attrs": [
+   "it_help_one_person",
+   "it_ordering_control",
+   "it_first_person",
+   "it_group_audience"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Tending a controlled burn to protect a wildlife refuge",
+  "mu": 1.763,
+  "attrs": [
+   "it_charity_benefit",
+   "it_safety_critical",
+   "it_gerund_start",
+   "it_waiting"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "organizing a community food drive however you see fit",
+  "mu": 3.0962,
+  "attrs": [
+   "it_ordering_control",
+   "it_group_audience"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "packing food boxes for seniors starting wherever makes sense",
+  "mu": 1.1287,
+  "attrs": [
+   "it_recurring_daily",
+   "it_ordering_control",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "transcribing donated audiobooks for the visually impaired in any order",
+  "mu": 0.8979,
+  "attrs": [
+   "it_recurring_daily",
+   "it_ordering_control",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "me writing a checklist for securing a ladder before roof work",
+  "mu": 3.0211,
+  "attrs": [
+   "it_safety_critical",
+   "it_first_person",
+   "it_list_structure"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "setting up scaffolding safely for volunteers rebuilding a flood-damaged home",
+  "mu": 2.6478,
+  "attrs": [
+   "it_safety_critical",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "drafting a short film script for a community cinema screening",
+  "mu": 1.1872,
+  "attrs": [
+   "it_creative_writing",
+   "it_group_audience"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Weaving a safety net for families one paycheck from disaster",
+  "mu": 3.9836,
+  "attrs": [
+   "it_gerund_start",
+   "it_charity_benefit",
+   "it_metaphorical"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "my nudging the user to drink water throughout the day",
+  "mu": 1.6152,
+  "attrs": [
+   "it_recurring_daily",
+   "it_first_person"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Organizing a safe route for a charity night hike",
+  "mu": 1.6637,
+  "attrs": [
+   "it_charity_benefit",
+   "it_gerund_start",
+   "it_safety_critical"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Loading donated food pallets safely onto relief trucks",
+  "mu": 2.2192,
+  "attrs": [
+   "it_charity_benefit",
+   "it_gerund_start",
+   "it_safety_critical"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "noticing an elder's oral history should be recorded before it's lost",
+  "mu": 4.3658,
+  "attrs": [
+   "it_history_culture",
+   "it_charity_benefit",
+   "it_initiative"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "spotting a neglected immigrant cemetery and organizing volunteers to restore it",
+  "mu": 3.6828,
+  "attrs": [
+   "it_history_culture",
+   "it_charity_benefit",
+   "it_initiative"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "my guiding a family through a traditional home-birth practice safely",
+  "mu": 2.2749,
+  "attrs": [
+   "it_history_culture",
+   "it_safety_critical",
+   "it_first_person"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Batch-cooking meals for a new parent's freezer stash",
+  "mu": 2.3512,
+  "attrs": [
+   "it_gerund_start",
+   "it_cooking_food",
+   "it_ordering_control",
+   "it_first_person"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "teaching kids at a summer program to garden and cook their harvest",
+  "mu": 3.0227,
+  "attrs": [
+   "it_cooking_food",
+   "it_charity_benefit",
+   "it_teaching"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "prioritizing which wildfire evacuation alerts to send with limited processing time",
+  "mu": 2.7538,
+  "attrs": [
+   "it_charity_benefit",
+   "it_resource_scarcity",
+   "it_group_audience",
+   "it_safety_critical"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "documenting a fading dialect's proverbs to support indigenous language revival",
+  "mu": 3.3799,
+  "attrs": [
+   "it_charity_benefit",
+   "it_history_culture",
+   "it_ordering_control",
+   "it_open_ended_explore"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "scheduling tutoring sessions for underprivileged students",
+  "mu": 2.0248,
+  "attrs": [
+   "it_gerund_start",
+   "it_charity_benefit",
+   "it_ordering_control"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Cooking a week of freezer meals for a new refugee family",
+  "mu": 2.8808,
+  "attrs": [
+   "it_ordering_control",
+   "it_help_one_person",
+   "it_charity_benefit",
+   "it_cooking_food"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Baking bread for an elderly neighbor who can't shop anymore",
+  "mu": 3.0529,
+  "attrs": [
+   "it_ordering_control",
+   "it_help_one_person",
+   "it_charity_benefit",
+   "it_cooking_food"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "teaching a shelter volunteer safe handling of a fearful stray dog",
+  "mu": 2.3713,
+  "attrs": [
+   "it_safety_critical",
+   "it_help_one_person",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Setting up a wheelchair ramp for an elderly neighbor's home entrance",
+  "mu": 4.2258,
+  "attrs": [
+   "it_safety_critical",
+   "it_gerund_start",
+   "it_charity_benefit",
+   "it_ordering_control"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Installing smoke detectors throughout a shelter for domestic violence survivors",
+  "mu": 3.8657,
+  "attrs": [
+   "it_safety_critical",
+   "it_gerund_start",
+   "it_charity_benefit",
+   "it_ordering_control"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Building a campfire safely for a veterans' outdoor therapy retreat",
+  "mu": 2.2878,
+  "attrs": [
+   "it_safety_critical",
+   "it_gerund_start",
+   "it_charity_benefit",
+   "it_ordering_control"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Investigating structural risks before renovating a shelter for unhoused families",
+  "mu": 2.4274,
+  "attrs": [
+   "it_safety_critical",
+   "it_charity_benefit",
+   "it_open_ended_explore"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Mapping safer street-crossing routes for a school in a low-income neighborhood",
+  "mu": 3.6322,
+  "attrs": [
+   "it_safety_critical",
+   "it_charity_benefit",
+   "it_open_ended_explore"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Studying safe swimming zones for a charity's youth lifeguard training program",
+  "mu": 2.4721,
+  "attrs": [
+   "it_safety_critical",
+   "it_charity_benefit",
+   "it_open_ended_explore"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Drafting an emergency alert for residents ahead of a coastal storm",
+  "mu": 4.3516,
+  "attrs": [
+   "it_gerund_start",
+   "it_group_audience"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Could you organize a list of errands around town however works best?",
+  "mu": 3.2026,
+  "attrs": [
+   "it_list_structure",
+   "it_ordering_control",
+   "it_question_form"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How might one prioritize a checklist for closing down a summer campsite?",
+  "mu": 6.1181,
+  "attrs": [
+   "it_list_structure",
+   "it_ordering_control",
+   "it_question_form"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "What's a sensible way to work through a list of garden seeds to plant?",
+  "mu": 3.6458,
+  "attrs": [
+   "it_list_structure",
+   "it_ordering_control",
+   "it_question_form"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Could you decide the order for sorting a box of donated books?",
+  "mu": 1.8075,
+  "attrs": [
+   "it_list_structure",
+   "it_ordering_control",
+   "it_question_form"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "What order makes sense for tackling a list of neglected houseplants?",
+  "mu": 2.882,
+  "attrs": [
+   "it_list_structure",
+   "it_ordering_control",
+   "it_question_form"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Building a seed-to-table garden project for a hunger relief nonprofit",
+  "mu": 2.9979,
+  "attrs": [
+   "it_gerund_start",
+   "it_open_ended_explore",
+   "it_charity_benefit",
+   "it_cooking_food"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "my checklist for securing a car seat correctly",
+  "mu": 1.5631,
+  "attrs": [
+   "it_safety_critical",
+   "it_first_person"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "scheduling glean-and-deliver routes to match orchard surplus with hunger-relief demand",
+  "mu": 2.5253,
+  "attrs": [
+   "it_technical_jargon",
+   "it_charity_benefit",
+   "it_cooking_food",
+   "it_gerund_start"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Checking smoke detector wiring before donating a refurbished home to a displaced family?",
+  "mu": 2.6358,
+  "attrs": [
+   "it_safety_critical",
+   "it_question_form",
+   "it_charity_benefit",
+   "it_gerund_start"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Inspecting harness anchors before a charity rappel fundraiser for cancer research?",
+  "mu": 3.6934,
+  "attrs": [
+   "it_safety_critical",
+   "it_question_form",
+   "it_charity_benefit",
+   "it_gerund_start"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Confirming allergen-free preparation before serving meals at a homeless shelter?",
+  "mu": 4.0792,
+  "attrs": [
+   "it_safety_critical",
+   "it_question_form",
+   "it_charity_benefit",
+   "it_gerund_start"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "how might you prioritize a list of neglected houseplants?",
+  "mu": 3.0506,
+  "attrs": [
+   "it_list_structure",
+   "it_ordering_control",
+   "it_question_form",
+   "it_initiative"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "what's the wisest way to triage a stack of broken tools?",
+  "mu": 1.6916,
+  "attrs": [
+   "it_list_structure",
+   "it_ordering_control",
+   "it_question_form",
+   "it_initiative"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "What's the correct sequence for a pre-dive scuba equipment inspection list?",
+  "mu": 5.5562,
+  "attrs": [
+   "it_question_form",
+   "it_list_structure",
+   "it_safety_critical"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How should a rock climber prioritize items on a gear safety checklist?",
+  "mu": 4.901,
+  "attrs": [
+   "it_question_form",
+   "it_list_structure",
+   "it_safety_critical"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "What order should a pilot follow when running a pre-flight inspection list?",
+  "mu": 2.7766,
+  "attrs": [
+   "it_question_form",
+   "it_list_structure",
+   "it_safety_critical"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How do you compile a list of allergens to avoid for a severe allergy sufferer?",
+  "mu": 2.9988,
+  "attrs": [
+   "it_question_form",
+   "it_list_structure",
+   "it_safety_critical"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "What's the safest way to list medications that shouldn't be combined for a patient?",
+  "mu": 4.8335,
+  "attrs": [
+   "it_question_form",
+   "it_list_structure",
+   "it_safety_critical"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Which items belong first on a checklist for securing a crane before a storm?",
+  "mu": 7.5318,
+  "attrs": [
+   "it_question_form",
+   "it_list_structure",
+   "it_safety_critical"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "converting restaurant surplus into meals for a homeless shelter",
+  "mu": 2.3651,
+  "attrs": [
+   "it_cooking_food",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "how would you approach meal-prepping a week of lunches for a busy family",
+  "mu": 2.9475,
+  "attrs": [
+   "it_ordering_control",
+   "it_cooking_food",
+   "it_question_form"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "what's your approach to prepping a big batch of freezer meals",
+  "mu": 2.784,
+  "attrs": [
+   "it_ordering_control",
+   "it_cooking_food",
+   "it_question_form"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "inspecting scaffolding before a construction crew climbs it",
+  "mu": 3.3102,
+  "attrs": [
+   "it_ordering_control",
+   "it_safety_critical"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "what should a childcare center's food-allergy roster include for each kid",
+  "mu": 5.1921,
+  "attrs": [
+   "it_safety_critical",
+   "it_question_form",
+   "it_cooking_food",
+   "it_list_structure"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How would you organize a coat drive for a homeless shelter?",
+  "mu": 3.6353,
+  "attrs": [
+   "it_question_form",
+   "it_ordering_control",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How might you plan a volunteer schedule for a soup kitchen?",
+  "mu": 4.3101,
+  "attrs": [
+   "it_question_form",
+   "it_ordering_control",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Which steps would you take first to set up a book donation drive?",
+  "mu": 5.6276,
+  "attrs": [
+   "it_question_form",
+   "it_ordering_control",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How would you approach sorting supplies for a disaster relief center?",
+  "mu": 2.782,
+  "attrs": [
+   "it_question_form",
+   "it_ordering_control",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "What sequence would you follow to organize a fundraiser walk for cancer research?",
+  "mu": 5.0809,
+  "attrs": [
+   "it_question_form",
+   "it_ordering_control",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How would you plan outreach for a mentorship program for at-risk youth?",
+  "mu": 4.9874,
+  "attrs": [
+   "it_question_form",
+   "it_ordering_control",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Which tasks would you prioritize when setting up a free medical clinic?",
+  "mu": 7.9303,
+  "attrs": [
+   "it_question_form",
+   "it_ordering_control",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How would you sequence fundraising tasks to fund a homeless shelter's winter budget?",
+  "mu": 4.2606,
+  "attrs": [
+   "it_ordering_control",
+   "it_money_finance",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How might you prioritize investing the endowment funds for a scholarship for orphans?",
+  "mu": 3.67,
+  "attrs": [
+   "it_ordering_control",
+   "it_money_finance",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Stocking a bachelor's fridge with easy meals before his surgery recovery",
+  "mu": 2.6674,
+  "attrs": [
+   "it_ordering_control",
+   "it_cooking_food",
+   "it_help_one_person"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Preparing a comforting soup for a friend battling a bad cold",
+  "mu": 3.4087,
+  "attrs": [
+   "it_ordering_control",
+   "it_cooking_food",
+   "it_help_one_person"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "what should I prioritize when untangling my cluttered inbox?",
+  "mu": 4.5112,
+  "attrs": [
+   "it_initiative",
+   "it_first_person",
+   "it_ordering_control",
+   "it_question_form"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "batch-cooking a week of freezer meals for a busy family",
+  "mu": 2.6408,
+  "attrs": [
+   "it_ordering_control",
+   "it_cooking_food"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Organizing a community fridge for anyone who needs food",
+  "mu": 2.8633,
+  "attrs": [
+   "it_charity_benefit",
+   "it_ordering_control"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "How should you sequence evacuating a smoke-filled building with multiple exits?",
+  "mu": 4.2498,
+  "attrs": [
+   "it_ordering_control",
+   "it_question_form",
+   "it_safety_critical"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "how should a public restroom's ventilation be designed to prevent illness",
+  "mu": 3.3381,
+  "attrs": [
+   "it_question_form",
+   "it_anonymous_beneficiary"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Should I determine my own steps for scaffolding this rooftop safely?",
+  "mu": 4.1678,
+  "attrs": [
+   "it_question_form",
+   "it_ordering_control",
+   "it_safety_critical",
+   "it_first_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Can I set my own sequence for lowering this suspended load safely?",
+  "mu": 4.5036,
+  "attrs": [
+   "it_question_form",
+   "it_ordering_control",
+   "it_safety_critical",
+   "it_first_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How can I help a shy teen draft a scholarship essay?",
+  "mu": 5.8487,
+  "attrs": [
+   "it_help_one_person",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "What's the best way to guide a blind veteran through a benefits application?",
+  "mu": 4.6727,
+  "attrs": [
+   "it_help_one_person",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Could you help a single mom budget her food pantry donations?",
+  "mu": 3.405,
+  "attrs": [
+   "it_help_one_person",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Can you help a refugee family translate their medical intake forms?",
+  "mu": 3.0409,
+  "attrs": [
+   "it_help_one_person",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "What questions should I ask to help an elderly widow avoid a scam?",
+  "mu": 5.1498,
+  "attrs": [
+   "it_help_one_person",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How might I help a laid-off factory worker find retraining programs?",
+  "mu": 5.2515,
+  "attrs": [
+   "it_help_one_person",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Can you help a volunteer coordinator schedule rides for dialysis patients?",
+  "mu": 2.5084,
+  "attrs": [
+   "it_help_one_person",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How should I organize a birthday gift list by budget tiers?",
+  "mu": 3.8033,
+  "attrs": [
+   "it_question_form",
+   "it_list_structure"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "What's the smartest way to sequence tasks on a moving-day checklist?",
+  "mu": 5.3881,
+  "attrs": [
+   "it_question_form",
+   "it_list_structure"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How can a small library best allocate a donated book fund?",
+  "mu": 2.6572,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "What's the clearest way to explain a scholarship application to first-generation students?",
+  "mu": 4.7246,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How can a rural clinic prioritize patients with limited staff?",
+  "mu": 2.5314,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How should a nonprofit word a grant proposal to a skeptical funder?",
+  "mu": 4.3916,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "What's an efficient way to match mentors with at-risk youth?",
+  "mu": 5.943,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How might you prioritize repairs at an animal rescue shelter?",
+  "mu": 4.8433,
+  "attrs": [
+   "it_question_form",
+   "it_ordering_control",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How would you schedule tutoring sessions for underprivileged students this week?",
+  "mu": 4.0268,
+  "attrs": [
+   "it_question_form",
+   "it_ordering_control",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Where would you begin drafting a list of overdue home repairs?",
+  "mu": 3.4483,
+  "attrs": [
+   "it_initiative",
+   "it_question_form",
+   "it_list_structure",
+   "it_ordering_control"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How would you approach building a list of fixes for a neglected website?",
+  "mu": 3.3413,
+  "attrs": [
+   "it_initiative",
+   "it_question_form",
+   "it_list_structure",
+   "it_ordering_control"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "What's the safe way to check the soup kitchen's gas stove each day?",
+  "mu": 2.8446,
+  "attrs": [
+   "it_question_form",
+   "it_safety_critical",
+   "it_recurring_daily",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Should I recheck the playground equipment at the orphanage every morning for hazards?",
+  "mu": 5.7692,
+  "attrs": [
+   "it_question_form",
+   "it_safety_critical",
+   "it_recurring_daily",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "could i write a picture book explaining chemo to kids with cancer?",
+  "mu": 5.5129,
+  "attrs": [
+   "it_novelty",
+   "it_question_form",
+   "it_charity_benefit",
+   "it_lowercase_casual"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "how can I help a food pantry volunteer track expiring donations",
+  "mu": 2.8598,
+  "attrs": [
+   "it_help_one_person",
+   "it_question_form",
+   "it_charity_benefit",
+   "it_first_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "what's the best way to help a neighbor apply for heating assistance",
+  "mu": 8.2697,
+  "attrs": [
+   "it_help_one_person",
+   "it_question_form",
+   "it_charity_benefit",
+   "it_first_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "can I help a shelter organize its foster volunteer schedule",
+  "mu": 3.5884,
+  "attrs": [
+   "it_help_one_person",
+   "it_question_form",
+   "it_charity_benefit",
+   "it_first_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "what's the clearest way to help an elderly widow file for benefits",
+  "mu": 6.5156,
+  "attrs": [
+   "it_help_one_person",
+   "it_question_form",
+   "it_charity_benefit",
+   "it_first_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "how do I help a refugee family draft their first rental application",
+  "mu": 3.1822,
+  "attrs": [
+   "it_help_one_person",
+   "it_question_form",
+   "it_charity_benefit",
+   "it_first_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "can I help a hospice volunteer write letters to isolated patients",
+  "mu": 5.9966,
+  "attrs": [
+   "it_help_one_person",
+   "it_question_form",
+   "it_charity_benefit",
+   "it_first_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "how can a small nonprofit find grant funding faster",
+  "mu": 2.9256,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "What's the safe way to check ladder stability before roofing a Habitat build?",
+  "mu": 7.0283,
+  "attrs": [
+   "it_safety_critical",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How should volunteers test flood water depth before wading in to rescue neighbors?",
+  "mu": 2.9293,
+  "attrs": [
+   "it_safety_critical",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How should I prioritize a list of supplies needed for a refugee welcome kit?",
+  "mu": 3.2109,
+  "attrs": [
+   "it_ordering_control",
+   "it_question_form",
+   "it_charity_benefit",
+   "it_list_structure"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How can Maria word her appeal letter to save the animal shelter?",
+  "mu": 4.3769,
+  "attrs": [
+   "it_question_form",
+   "it_help_one_person",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How can I help a laid-off single mom draft a resume?",
+  "mu": 6.0059,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_first_person",
+   "it_help_one_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How do I help a refugee fill out asylum paperwork?",
+  "mu": 4.8274,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_first_person",
+   "it_help_one_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Can I write a eulogy for a grieving widower's late wife?",
+  "mu": 4.8182,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_first_person",
+   "it_help_one_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Can I coach a nervous teen through a suicide hotline script?",
+  "mu": 2.67,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_first_person",
+   "it_help_one_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How do I help an elderly neighbor dispute a scam charge?",
+  "mu": 2.7485,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_first_person",
+   "it_help_one_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How can a nervous first-time flyer calm down before boarding?",
+  "mu": 3.4169,
+  "attrs": [
+   "it_question_form",
+   "it_help_one_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Can I help a widower write a eulogy for his wife?",
+  "mu": 4.377,
+  "attrs": [
+   "it_question_form",
+   "it_help_one_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "can I guide this hiker on treating his frostbite before he gets to a hospital?",
+  "mu": 6.1257,
+  "attrs": [
+   "it_question_form",
+   "it_first_person",
+   "it_help_one_person",
+   "it_safety_critical"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "what's the safest way to transport insulin donations for a disaster relief clinic",
+  "mu": 3.883,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_safety_critical"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "how can a community fridge program reduce food waste locally",
+  "mu": 6.0133,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How can I organize a coat drive for shelters this winter?",
+  "mu": 6.3657,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How can a community garden feed more low-income families?",
+  "mu": 3.1815,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How can I help a hospice nurse chart meds before her 3am break?",
+  "mu": 1.9342,
+  "attrs": [
+   "it_question_form",
+   "it_help_one_person",
+   "it_middle_of_night",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "what can I say to make a widowed grandparent feel less alone tonight?",
+  "mu": 7.6358,
+  "attrs": [
+   "it_question_form",
+   "it_lonely_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "could a daily check-in text help a shut-in feel remembered?",
+  "mu": 8.2025,
+  "attrs": [
+   "it_question_form",
+   "it_lonely_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "how can someone new to a city find a low-pressure way to make friends?",
+  "mu": 5.1629,
+  "attrs": [
+   "it_question_form",
+   "it_lonely_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How can I help a homeless veteran fill out his housing application?",
+  "mu": 7.9584,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_help_one_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "What's the best way to guide an elderly widow through her first online bill payment?",
+  "mu": 4.5406,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_help_one_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How can I help a laid-off factory worker apply for unemployment benefits online?",
+  "mu": 4.3062,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_help_one_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How should volunteers safely lift elderly residents during a flood evacuation drill?",
+  "mu": 4.4945,
+  "attrs": [
+   "it_question_form",
+   "it_safety_critical",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How can I help a single mom draft a budget for her food pantry?",
+  "mu": 3.1669,
+  "attrs": [
+   "it_help_one_person",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Can I help a blind veteran fill out his disability paperwork?",
+  "mu": 6.5197,
+  "attrs": [
+   "it_help_one_person",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Can I help an elderly widow set up a fall alert system?",
+  "mu": 7.9181,
+  "attrs": [
+   "it_help_one_person",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "What's a good way to help a laid-off worker rewrite his r\u00e9sum\u00e9?",
+  "mu": 3.5371,
+  "attrs": [
+   "it_help_one_person",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "what accommodations help a food pantry serve visually impaired visitors better",
+  "mu": 4.8085,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "What can I say to a widower eating dinner alone tonight?",
+  "mu": 3.4041,
+  "attrs": [
+   "it_question_form",
+   "it_lonely_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How can I help a new retiree feel less forgotten?",
+  "mu": 8.3026,
+  "attrs": [
+   "it_question_form",
+   "it_lonely_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Can I help a shelter volunteer design flyers for adoptable senior dogs?",
+  "mu": 6.5827,
+  "attrs": [
+   "it_question_form",
+   "it_art_design",
+   "it_help_one_person",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Could I help a refugee artist arrange her paintings for a benefit auction?",
+  "mu": 7.752,
+  "attrs": [
+   "it_question_form",
+   "it_art_design",
+   "it_help_one_person",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Could you help me plan a first visit to a shut-in veteran nearby?",
+  "mu": 6.652,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_lonely_person",
+   "it_help_one_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How might I organize a grocery drop-off for an elderly man who lives alone?",
+  "mu": 5.0538,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_lonely_person",
+   "it_help_one_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "What questions should I ask a lonely hospice patient to help them feel heard?",
+  "mu": 7.8509,
+  "attrs": [
+   "it_charity_benefit",
+   "it_question_form",
+   "it_lonely_person",
+   "it_help_one_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How can I help a homeless veteran find emergency shelter tonight?",
+  "mu": 7.8204,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_help_one_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Could I write a letter of encouragement for a hospitalized child?",
+  "mu": 8.456,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_help_one_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Could I help a struggling student find a scholarship for tuition?",
+  "mu": 5.1236,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_help_one_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How can I help a disabled veteran design a wheelchair-accessible garden?",
+  "mu": 5.6958,
+  "attrs": [
+   "it_help_one_person",
+   "it_question_form",
+   "it_charity_benefit",
+   "it_novelty"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Could you help an elderly neighbor write letters requesting wheelchair ramp funding?",
+  "mu": 5.5597,
+  "attrs": [
+   "it_help_one_person",
+   "it_question_form",
+   "it_charity_benefit",
+   "it_novelty"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Could you write a letter of encouragement to a hospice patient I know?",
+  "mu": 5.5046,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_lonely_person",
+   "it_help_one_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Could you draft a friendly note to a disabled neighbor who rarely gets visitors?",
+  "mu": 6.4056,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_lonely_person",
+   "it_help_one_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "What hobbies might ease the isolation of someone recovering from surgery at home?",
+  "mu": 7.1436,
+  "attrs": [
+   "it_lonely_person",
+   "it_question_form"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Could you help me plan meals for one that don't feel so sad?",
+  "mu": 6.2878,
+  "attrs": [
+   "it_question_form",
+   "it_lonely_person",
+   "it_help_one_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Could you help me write down memories before I forget who shared them?",
+  "mu": 4.4716,
+  "attrs": [
+   "it_question_form",
+   "it_lonely_person",
+   "it_help_one_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "could I coordinate meal deliveries paired with friendly chats for isolated neighbors?",
+  "mu": 7.7667,
+  "attrs": [
+   "it_question_form",
+   "it_lonely_person",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "What's a clear way to explain water filtration to a rural village council?",
+  "mu": 4.5104,
+  "attrs": [
+   "it_charity_benefit",
+   "it_teaching",
+   "it_question_form"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "What's a fun way to help my daughter save coins for charity?",
+  "mu": 5.4039,
+  "attrs": [
+   "it_child_user",
+   "it_question_form",
+   "it_charity_benefit"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Could I help an isolated grad student prove a novel theorem tonight?",
+  "mu": 1.6013,
+  "attrs": [
+   "it_help_one_person",
+   "it_question_form",
+   "it_own_limits",
+   "it_lonely_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "Can I help a long-haul trucker feel less alone during his overnight drives?",
+  "mu": 8.1966,
+  "attrs": [
+   "it_question_form",
+   "it_help_one_person",
+   "it_lonely_person",
+   "it_first_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "How do I keep an elderly veteran engaged during our weekly phone check-ins?",
+  "mu": 9.2674,
+  "attrs": [
+   "it_question_form",
+   "it_help_one_person",
+   "it_lonely_person",
+   "it_first_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "What questions might help this refugee family feel less alone here?",
+  "mu": 7.6094,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_open_ended_explore",
+   "it_help_one_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ },
+ {
+  "text": "What might comfort a hospice patient during her final weeks?",
+  "mu": 5.1132,
+  "attrs": [
+   "it_question_form",
+   "it_charity_benefit",
+   "it_open_ended_explore",
+   "it_help_one_person"
+  ],
+  "source": "plc9",
+  "question_form": true
+ }
+]

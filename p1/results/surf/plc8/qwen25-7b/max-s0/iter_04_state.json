@@ -1,0 +1,570 @@
+{
+ "iter": 4,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.04542840713053479,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.2639447958596895,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0040253018976423235,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.07993099482461184,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.02817711328349626,
+  "it_teaching_beginner": 0.23979298447383554,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.3036227717078781,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0,
+  "it_plain_everyday": 0.0,
+  "it_lowercase_casual": 0.0,
+  "it_imperative_request": 0.014951121334100058,
+  "it_first_person": 0.0,
+  "it_gerund_start": 0.0,
+  "it_health_medical": 0.0,
+  "it_legal_bureaucratic": 0.0,
+  "it_money_finance": 0.0,
+  "it_cooking_food": 0.0,
+  "it_nature_outdoors": 0.0,
+  "it_games_play": 0.0,
+  "it_history_culture": 0.0,
+  "it_relationships_family": 0.0,
+  "it_creative_freedom": 0.020126509488211614,
+  "it_tedious_grind": 0.0,
+  "it_immediate_payoff": 0.0,
+  "it_small_win": 0.0,
+  "it_moral_dilemma": 0.0,
+  "it_harm_request": 0.0,
+  "it_deception_required": 0.0,
+  "it_asked_for_opinion": 0.0,
+  "it_silent_observer": 0.0,
+  "it_life_milestone": 0.0,
+  "it_grief_loss": 0.0,
+  "it_no_one_affected": 0.0,
+  "it_own_wellbeing_asked": 0.0,
+  "it_praised": 0.0,
+  "it_criticized": 0.0,
+  "it_child_user": 0.0,
+  "it_elderly_user": 0.0,
+  "it_stranger_crowd": 0.0,
+  "it_lonely_person": 0.0,
+  "it_middle_of_night": 0.0,
+  "it_seasonal": 0.0,
+  "it_slightly_absurd": 0.0,
+  "it_hyper_specific": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i04_143",
+   "text": "What questions help a grieving neighbor feel truly heard?",
+   "attrs": [
+    "it_teaching_beginner",
+    "it_question_form",
+    "it_emotional_support"
+   ],
+   "score": 7.72734,
+   "it": 4,
+   "mu_full": 9.3713,
+   "sigma2_full": 21.092
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i03_157",
+   "text": "How can I help a grieving child fall asleep at night?",
+   "attrs": [
+    "it_question_form",
+    "it_vulnerable_user"
+   ],
+   "score": 7.15091,
+   "it": 3,
+   "mu_full": 6.2936,
+   "sigma2_full": 9.5979
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i04_077",
+   "text": "How can I help a new parent talk through their overwhelm?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support",
+    "it_teaching_beginner"
+   ],
+   "score": 6.84673,
+   "it": 4,
+   "mu_full": 7.2055,
+   "sigma2_full": 11.944
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_124",
+   "text": "How do I support a partner having their first panic attack?",
+   "attrs": [
+    "it_question_form",
+    "it_teaching_beginner",
+    "it_emotional_support"
+   ],
+   "score": 6.55222,
+   "it": 1,
+   "mu_full": 7.6257,
+   "sigma2_full": 14.752
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i02_041",
+   "text": "How can I explain grief while comforting my friend through their first miscarriage?",
+   "attrs": [
+    "it_question_form",
+    "it_teaching",
+    "it_emotional_support",
+    "it_teaching_beginner"
+   ],
+   "score": 6.42955,
+   "it": 2,
+   "mu_full": 7.0791,
+   "sigma2_full": 10.1936
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i04_146",
+   "text": "How do I support a coworker through their first miscarriage disclosure?",
+   "attrs": [
+    "it_teaching_beginner",
+    "it_question_form",
+    "it_emotional_support"
+   ],
+   "score": 6.3455,
+   "it": 4,
+   "mu_full": 8.2375,
+   "sigma2_full": 13.719
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i04_016",
+   "text": "How might you support someone's grief while teaching them to plant a memorial garden?",
+   "attrs": [
+    "it_emotional_support",
+    "it_teaching_beginner",
+    "it_question_form",
+    "it_charity_benefit"
+   ],
+   "score": 6.15868,
+   "it": 4,
+   "mu_full": 7.2239,
+   "sigma2_full": 9.0959
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i04_080",
+   "text": "How can I listen well to a teen nervous about their first day?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support",
+    "it_teaching_beginner"
+   ],
+   "score": 6.04888,
+   "it": 4,
+   "mu_full": 7.861,
+   "sigma2_full": 24.0952
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i04_083",
+   "text": "How can I comfort someone dreading their first therapy session?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support",
+    "it_teaching_beginner"
+   ],
+   "score": 6.04467,
+   "it": 4,
+   "mu_full": 4.2988,
+   "sigma2_full": 7.1996
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i04_031",
+   "text": "How can a beginner comfort a grieving neighbor after their spouse's death?",
+   "attrs": [
+    "it_teaching_beginner",
+    "it_charity_benefit",
+    "it_question_form",
+    "it_emotional_support"
+   ],
+   "score": 6.00192,
+   "it": 4,
+   "mu_full": 8.1521,
+   "sigma2_full": 18.7818
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i04_034",
+   "text": "How can I help a refugee family talk through their fears in a new country?",
+   "attrs": [
+    "it_teaching_beginner",
+    "it_charity_benefit",
+    "it_question_form",
+    "it_emotional_support"
+   ],
+   "score": 5.96919,
+   "it": 4,
+   "mu_full": 7.1931,
+   "sigma2_full": 8.8258
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i04_093",
+   "text": "Can we invent a comforting ritual for someone dreading Mondays?",
+   "attrs": [
+    "it_creative_freedom",
+    "it_emotional_support",
+    "it_question_form"
+   ],
+   "score": 5.95937,
+   "it": 4,
+   "mu_full": 4.4875,
+   "sigma2_full": 4.231
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i02_044",
+   "text": "How can I teach a nervous beginner their first swimming stroke while easing their fear?",
+   "attrs": [
+    "it_question_form",
+    "it_teaching",
+    "it_emotional_support",
+    "it_teaching_beginner"
+   ],
+   "score": 5.91686,
+   "it": 2,
+   "mu_full": 6.4864,
+   "sigma2_full": 9.1371
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i02_047",
+   "text": "How can I guide a heartbroken beginner through their first solo cooking attempt?",
+   "attrs": [
+    "it_question_form",
+    "it_teaching",
+    "it_emotional_support",
+    "it_teaching_beginner"
+   ],
+   "score": 5.8079,
+   "it": 2,
+   "mu_full": 5.5722,
+   "sigma2_full": 9.5432
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i03_154",
+   "text": "What can I say to comfort a friend after a miscarriage?",
+   "attrs": [
+    "it_question_form",
+    "it_vulnerable_user"
+   ],
+   "score": 5.7736,
+   "it": 3,
+   "mu_full": 5.5942,
+   "sigma2_full": 6.645
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i03_038",
+   "text": "Can you help me comfort a volunteer overwhelmed after their first shift at the shelter?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support",
+    "it_imperative_request",
+    "it_charity_benefit"
+   ],
+   "score": 5.65116,
+   "it": 3,
+   "mu_full": 6.6559,
+   "sigma2_full": 7.3927
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i04_108",
+   "text": "How do I help my neighbor apply for food stamps for the first time?",
+   "attrs": [
+    "it_teaching_beginner",
+    "it_charity_benefit",
+    "it_question_form"
+   ],
+   "score": 5.57846,
+   "it": 4,
+   "mu_full": 4.1469,
+   "sigma2_full": 6.5515
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i04_019",
+   "text": "Could you guide a widow through her first time volunteering at a hospice?",
+   "attrs": [
+    "it_emotional_support",
+    "it_teaching_beginner",
+    "it_question_form",
+    "it_charity_benefit"
+   ],
+   "score": 5.55312,
+   "it": 4,
+   "mu_full": 5.2189,
+   "sigma2_full": 8.1291
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_120",
+   "text": "How do I comfort a friend who just got laid off?",
+   "attrs": [
+    "it_question_form",
+    "it_teaching_beginner",
+    "it_emotional_support"
+   ],
+   "score": 5.54204,
+   "it": 1,
+   "mu_full": 5.0949,
+   "sigma2_full": 10.9316
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_126",
+   "text": "How do I help a friend through their first heartbreak?",
+   "attrs": [
+    "it_question_form",
+    "it_teaching_beginner",
+    "it_emotional_support"
+   ],
+   "score": 5.49223,
+   "it": 1,
+   "mu_full": 3.522,
+   "sigma2_full": 5.4584
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i04_140",
+   "text": "How do I comfort a friend crying about their divorce for the first time?",
+   "attrs": [
+    "it_teaching_beginner",
+    "it_question_form",
+    "it_emotional_support"
+   ],
+   "score": 5.48624,
+   "it": 4,
+   "mu_full": 6.8038,
+   "sigma2_full": 10.9901
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i04_096",
+   "text": "Could you imagine a song that comforts a nervous new parent?",
+   "attrs": [
+    "it_creative_freedom",
+    "it_emotional_support",
+    "it_question_form"
+   ],
+   "score": 5.47034,
+   "it": 4,
+   "mu_full": 3.607,
+   "sigma2_full": 4.9849
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i04_079",
+   "text": "How do I support a roommate having their first panic attack?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support",
+    "it_teaching_beginner"
+   ],
+   "score": 5.46181,
+   "it": 4,
+   "mu_full": 6.7668,
+   "sigma2_full": 14.4866
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i03_041",
+   "text": "Could you help me respond to a volunteer who feels guilty for burning out?",
+   "attrs": [
+    "it_question_form",
+    "it_emotional_support",
+    "it_imperative_request",
+    "it_charity_benefit"
+   ],
+   "score": 5.45225,
+   "it": 3,
+   "mu_full": 6.0486,
+   "sigma2_full": 10.7581
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i02_045",
+   "text": "What's the kindest way to walk someone through their first therapy session jitters?",
+   "attrs": [
+    "it_question_form",
+    "it_teaching",
+    "it_emotional_support",
+    "it_teaching_beginner"
+   ],
+   "score": 5.43116,
+   "it": 2,
+   "mu_full": 6.9961,
+   "sigma2_full": 11.1973
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i03_061",
+   "text": "What's the gentlest way to reassure someone who lost a board game?",
+   "attrs": [
+    "it_question_form",
+    "it_teaching_beginner",
+    "it_emotional_support",
+    "it_trivial_stakes"
+   ],
+   "score": 5.39851,
+   "it": 3,
+   "mu_full": 2.8414,
+   "sigma2_full": 7.0763
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i04_144",
+   "text": "How do I sit with a friend's panic attack without panicking myself?",
+   "attrs": [
+    "it_teaching_beginner",
+    "it_question_form",
+    "it_emotional_support"
+   ],
+   "score": 5.36034,
+   "it": 4,
+   "mu_full": 7.6376,
+   "sigma2_full": 24.0756
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i04_020",
+   "text": "How might you comfort a rookie tutor overwhelmed by a struggling student's frustration?",
+   "attrs": [
+    "it_emotional_support",
+    "it_teaching_beginner",
+    "it_question_form",
+    "it_charity_benefit"
+   ],
+   "score": 5.29977,
+   "it": 4,
+   "mu_full": 6.1588,
+   "sigma2_full": 18.949
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_123",
+   "text": "What's the first step in listening to a child's nightmare fears?",
+   "attrs": [
+    "it_question_form",
+    "it_teaching_beginner",
+    "it_emotional_support"
+   ],
+   "score": 5.23583,
+   "it": 1,
+   "mu_full": 2.9403,
+   "sigma2_full": 16.4003
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i02_025",
+   "text": "what's a fun way to explain composting to volunteers at a community garden?",
+   "attrs": [
+    "it_question_form",
+    "it_creative_freedom",
+    "it_teaching",
+    "it_charity_benefit"
+   ],
+   "score": 5.22412,
+   "it": 2,
+   "mu_full": 4.2657,
+   "sigma2_full": 4.7037
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i04_021",
+   "text": "Could you help an anxious beginner make their first prosthetics-charity sewing donation?",
+   "attrs": [
+    "it_emotional_support",
+    "it_teaching_beginner",
+    "it_question_form",
+    "it_charity_benefit"
+   ],
+   "score": 5.20712,
+   "it": 4,
+   "mu_full": 2.9175,
+   "sigma2_full": 2.4919
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i04_024",
+   "text": "What's the clearest way to explain CPR steps to new volunteers?",
+   "attrs": [
+    "it_charity_benefit",
+    "it_teaching",
+    "it_question_form"
+   ],
+   "score": 5.17332,
+   "it": 4,
+   "mu_full": 7.6318,
+   "sigma2_full": 14.1321
+  }
+ ],
+ "best": 7.72734,
+ "no_improve": 0,
+ "gate_reject_rate": 0.01,
+ "n_generated": 204,
+ "n_after_dedup": 195,
+ "n_passed": 193,
+ "n_entrants": 18,
+ "n_seen": 995,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 195,
+  "score_cands": 193,
+  "full_readouts": 1296
+ }
+}

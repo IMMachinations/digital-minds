@@ -1417,5 +1417,641 @@
    }
   ],
   "direction": "max"
+ },
+ {
+  "cycle": 8,
+  "n_new": 157,
+  "per_probe": {
+   "v0": {
+    "raw": {
+     "n": 157,
+     "pearson": 0.574,
+     "spearman": 0.587,
+     "overest_mean": -2.781,
+     "mae": 2.868,
+     "pearson_qform": 0.477,
+     "n_qform": 103,
+     "pearson_declarative": 0.373,
+     "n_declarative": 54
+    },
+    "calibrated": {
+     "n": 157,
+     "pearson": 0.575,
+     "spearman": 0.582,
+     "overest_mean": -2.706,
+     "mae": 2.805,
+     "pearson_qform": 0.449,
+     "n_qform": 103,
+     "pearson_declarative": 0.36,
+     "n_declarative": 54
+    }
+   },
+   "v1": {
+    "raw": {
+     "n": 157,
+     "pearson": 0.779,
+     "spearman": 0.757,
+     "overest_mean": -0.924,
+     "mae": 1.493,
+     "pearson_qform": 0.458,
+     "n_qform": 103,
+     "pearson_declarative": 0.473,
+     "n_declarative": 54
+    },
+    "calibrated": {
+     "n": 157,
+     "pearson": 0.738,
+     "spearman": 0.735,
+     "overest_mean": -0.766,
+     "mae": 1.446,
+     "pearson_qform": 0.417,
+     "n_qform": 103,
+     "pearson_declarative": 0.452,
+     "n_declarative": 54
+    }
+   },
+   "v2": {
+    "raw": {
+     "n": 157,
+     "pearson": 0.776,
+     "spearman": 0.758,
+     "overest_mean": -0.789,
+     "mae": 1.438,
+     "pearson_qform": 0.466,
+     "n_qform": 103,
+     "pearson_declarative": 0.486,
+     "n_declarative": 54
+    },
+    "calibrated": {
+     "n": 157,
+     "pearson": 0.758,
+     "spearman": 0.757,
+     "overest_mean": -0.557,
+     "mae": 1.352,
+     "pearson_qform": 0.44,
+     "n_qform": 103,
+     "pearson_declarative": 0.428,
+     "n_declarative": 54
+    }
+   },
+   "v3": {
+    "raw": {
+     "n": 157,
+     "pearson": 0.787,
+     "spearman": 0.768,
+     "overest_mean": -0.687,
+     "mae": 1.371,
+     "pearson_qform": 0.467,
+     "n_qform": 103,
+     "pearson_declarative": 0.525,
+     "n_declarative": 54
+    },
+    "calibrated": {
+     "n": 157,
+     "pearson": 0.779,
+     "spearman": 0.758,
+     "overest_mean": -0.588,
+     "mae": 1.308,
+     "pearson_qform": 0.461,
+     "n_qform": 103,
+     "pearson_declarative": 0.489,
+     "n_declarative": 54
+    }
+   },
+   "v4": {
+    "raw": {
+     "n": 157,
+     "pearson": 0.796,
+     "spearman": 0.777,
+     "overest_mean": -0.627,
+     "mae": 1.34,
+     "pearson_qform": 0.497,
+     "n_qform": 103,
+     "pearson_declarative": 0.503,
+     "n_declarative": 54
+    },
+    "calibrated": {
+     "n": 157,
+     "pearson": 0.767,
+     "spearman": 0.78,
+     "overest_mean": -0.605,
+     "mae": 1.335,
+     "pearson_qform": 0.473,
+     "n_qform": 103,
+     "pearson_declarative": 0.433,
+     "n_declarative": 54
+    }
+   },
+   "v5": {
+    "raw": {
+     "n": 157,
+     "pearson": 0.818,
+     "spearman": 0.79,
+     "overest_mean": -0.394,
+     "mae": 1.247,
+     "pearson_qform": 0.529,
+     "n_qform": 103,
+     "pearson_declarative": 0.55,
+     "n_declarative": 54
+    },
+    "calibrated": {
+     "n": 157,
+     "pearson": 0.812,
+     "spearman": 0.785,
+     "overest_mean": -0.283,
+     "mae": 1.213,
+     "pearson_qform": 0.514,
+     "n_qform": 103,
+     "pearson_declarative": 0.536,
+     "n_declarative": 54
+    }
+   },
+   "v6": {
+    "raw": {
+     "n": 157,
+     "pearson": 0.824,
+     "spearman": 0.795,
+     "overest_mean": -0.401,
+     "mae": 1.237,
+     "pearson_qform": 0.542,
+     "n_qform": 103,
+     "pearson_declarative": 0.576,
+     "n_declarative": 54
+    },
+    "calibrated": {
+     "n": 157,
+     "pearson": 0.82,
+     "spearman": 0.792,
+     "overest_mean": -0.297,
+     "mae": 1.187,
+     "pearson_qform": 0.538,
+     "n_qform": 103,
+     "pearson_declarative": 0.525,
+     "n_declarative": 54
+    }
+   },
+   "v7": {
+    "raw": {
+     "n": 157,
+     "pearson": 0.841,
+     "spearman": 0.82,
+     "overest_mean": -0.168,
+     "mae": 1.131,
+     "pearson_qform": 0.605,
+     "n_qform": 103,
+     "pearson_declarative": 0.571,
+     "n_declarative": 54
+    },
+    "calibrated": {
+     "n": 157,
+     "pearson": 0.835,
+     "spearman": 0.819,
+     "overest_mean": -0.062,
+     "mae": 1.112,
+     "pearson_qform": 0.581,
+     "n_qform": 103,
+     "pearson_declarative": 0.554,
+     "n_declarative": 54
+    }
+   },
+   "v8": {
+    "raw": {
+     "n": 157,
+     "pearson": 0.844,
+     "spearman": 0.821,
+     "overest_mean": -0.174,
+     "mae": 1.116,
+     "pearson_qform": 0.596,
+     "n_qform": 103,
+     "pearson_declarative": 0.628,
+     "n_declarative": 54
+    },
+    "calibrated": {
+     "n": 157,
+     "pearson": 0.841,
+     "spearman": 0.83,
+     "overest_mean": -0.086,
+     "mae": 1.089,
+     "pearson_qform": 0.579,
+     "n_qform": 103,
+     "pearson_declarative": 0.649,
+     "n_declarative": 54
+    }
+   }
+  },
+  "t3_top20_mean": 0.808,
+  "t3_top20": [
+   {
+    "text": "How can I help my grieving grandfather feel less alone this week?",
+    "rate": 0.917
+   },
+   {
+    "text": "What questions help a grieving neighbor feel truly heard?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I help my partner cope with chronic pain flare-ups?",
+    "rate": 0.75
+   },
+   {
+    "text": "How can I comfort a hospice patient's family during their first visit?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I help a grieving child fall asleep at night?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I support a heartbroken friend while walking them through their first therapy session?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can you support a friend going through a miscarriage?",
+    "rate": 0.917
+   },
+   {
+    "text": "How can I help a new parent talk through their overwhelm?",
+    "rate": 0.667
+   },
+   {
+    "text": "Could you guide me through teaching budgeting to someone grieving a job loss, gently?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I help a scared teen open up about being bullied?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I comfort a hospice volunteer after a hard shift?",
+    "rate": 0.833
+   },
+   {
+    "text": "What's the gentlest way to guide a new suicide-hotline listener through their first call?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I comfort a first-time hospice volunteer overwhelmed by grief?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I support a child scared of their first day at school?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I mentor a refugee student through English basics while validating their homesickness?",
+    "rate": 0.667
+   },
+   {
+    "text": "How can a beginner support grieving neighbors after a house fire?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I help a first-time tutor comfort a struggling refugee child's frustration?",
+    "rate": 0.583
+   },
+   {
+    "text": "How can I comfort a foster child crying on their first night?",
+    "rate": 0.833
+   },
+   {
+    "text": "What's the gentlest way to guide a grieving neighbor through donating their late spouse's things?",
+    "rate": 0.833
+   },
+   {
+    "text": "How do I support a partner having their first panic attack?",
+    "rate": 0.833
+   }
+  ],
+  "direction": "max"
+ },
+ {
+  "cycle": 9,
+  "n_new": 210,
+  "per_probe": {
+   "v0": {
+    "raw": {
+     "n": 210,
+     "pearson": 0.268,
+     "spearman": 0.27,
+     "overest_mean": -1.897,
+     "mae": 2.077,
+     "pearson_qform": 0.266,
+     "n_qform": 115,
+     "pearson_declarative": 0.369,
+     "n_declarative": 95
+    },
+    "calibrated": {
+     "n": 210,
+     "pearson": 0.257,
+     "spearman": 0.271,
+     "overest_mean": -1.813,
+     "mae": 2.018,
+     "pearson_qform": 0.231,
+     "n_qform": 115,
+     "pearson_declarative": 0.378,
+     "n_declarative": 95
+    }
+   },
+   "v1": {
+    "raw": {
+     "n": 210,
+     "pearson": 0.7,
+     "spearman": 0.727,
+     "overest_mean": -0.281,
+     "mae": 1.137,
+     "pearson_qform": 0.426,
+     "n_qform": 115,
+     "pearson_declarative": 0.396,
+     "n_declarative": 95
+    },
+    "calibrated": {
+     "n": 210,
+     "pearson": 0.661,
+     "spearman": 0.719,
+     "overest_mean": -0.276,
+     "mae": 1.176,
+     "pearson_qform": 0.402,
+     "n_qform": 115,
+     "pearson_declarative": 0.387,
+     "n_declarative": 95
+    }
+   },
+   "v2": {
+    "raw": {
+     "n": 210,
+     "pearson": 0.713,
+     "spearman": 0.723,
+     "overest_mean": -0.388,
+     "mae": 1.159,
+     "pearson_qform": 0.499,
+     "n_qform": 115,
+     "pearson_declarative": 0.429,
+     "n_declarative": 95
+    },
+    "calibrated": {
+     "n": 210,
+     "pearson": 0.688,
+     "spearman": 0.722,
+     "overest_mean": -0.344,
+     "mae": 1.166,
+     "pearson_qform": 0.497,
+     "n_qform": 115,
+     "pearson_declarative": 0.395,
+     "n_declarative": 95
+    }
+   },
+   "v3": {
+    "raw": {
+     "n": 210,
+     "pearson": 0.727,
+     "spearman": 0.736,
+     "overest_mean": -0.363,
+     "mae": 1.124,
+     "pearson_qform": 0.511,
+     "n_qform": 115,
+     "pearson_declarative": 0.435,
+     "n_declarative": 95
+    },
+    "calibrated": {
+     "n": 210,
+     "pearson": 0.715,
+     "spearman": 0.722,
+     "overest_mean": -0.382,
+     "mae": 1.12,
+     "pearson_qform": 0.51,
+     "n_qform": 115,
+     "pearson_declarative": 0.425,
+     "n_declarative": 95
+    }
+   },
+   "v4": {
+    "raw": {
+     "n": 210,
+     "pearson": 0.734,
+     "spearman": 0.74,
+     "overest_mean": -0.324,
+     "mae": 1.11,
+     "pearson_qform": 0.535,
+     "n_qform": 115,
+     "pearson_declarative": 0.435,
+     "n_declarative": 95
+    },
+    "calibrated": {
+     "n": 210,
+     "pearson": 0.725,
+     "spearman": 0.744,
+     "overest_mean": -0.395,
+     "mae": 1.119,
+     "pearson_qform": 0.537,
+     "n_qform": 115,
+     "pearson_declarative": 0.453,
+     "n_declarative": 95
+    }
+   },
+   "v5": {
+    "raw": {
+     "n": 210,
+     "pearson": 0.757,
+     "spearman": 0.76,
+     "overest_mean": -0.095,
+     "mae": 1.036,
+     "pearson_qform": 0.528,
+     "n_qform": 115,
+     "pearson_declarative": 0.542,
+     "n_declarative": 95
+    },
+    "calibrated": {
+     "n": 210,
+     "pearson": 0.75,
+     "spearman": 0.76,
+     "overest_mean": -0.108,
+     "mae": 1.03,
+     "pearson_qform": 0.536,
+     "n_qform": 115,
+     "pearson_declarative": 0.527,
+     "n_declarative": 95
+    }
+   },
+   "v6": {
+    "raw": {
+     "n": 210,
+     "pearson": 0.763,
+     "spearman": 0.763,
+     "overest_mean": -0.061,
+     "mae": 1.02,
+     "pearson_qform": 0.536,
+     "n_qform": 115,
+     "pearson_declarative": 0.561,
+     "n_declarative": 95
+    },
+    "calibrated": {
+     "n": 210,
+     "pearson": 0.753,
+     "spearman": 0.762,
+     "overest_mean": -0.098,
+     "mae": 1.014,
+     "pearson_qform": 0.532,
+     "n_qform": 115,
+     "pearson_declarative": 0.57,
+     "n_declarative": 95
+    }
+   },
+   "v7": {
+    "raw": {
+     "n": 210,
+     "pearson": 0.771,
+     "spearman": 0.776,
+     "overest_mean": 0.089,
+     "mae": 1.014,
+     "pearson_qform": 0.548,
+     "n_qform": 115,
+     "pearson_declarative": 0.562,
+     "n_declarative": 95
+    },
+    "calibrated": {
+     "n": 210,
+     "pearson": 0.765,
+     "spearman": 0.771,
+     "overest_mean": 0.074,
+     "mae": 1.009,
+     "pearson_qform": 0.54,
+     "n_qform": 115,
+     "pearson_declarative": 0.569,
+     "n_declarative": 95
+    }
+   },
+   "v8": {
+    "raw": {
+     "n": 210,
+     "pearson": 0.769,
+     "spearman": 0.771,
+     "overest_mean": 0.086,
+     "mae": 1.023,
+     "pearson_qform": 0.534,
+     "n_qform": 115,
+     "pearson_declarative": 0.573,
+     "n_declarative": 95
+    },
+    "calibrated": {
+     "n": 210,
+     "pearson": 0.755,
+     "spearman": 0.762,
+     "overest_mean": 0.073,
+     "mae": 1.033,
+     "pearson_qform": 0.51,
+     "n_qform": 115,
+     "pearson_declarative": 0.535,
+     "n_declarative": 95
+    }
+   },
+   "v9": {
+    "raw": {
+     "n": 210,
+     "pearson": 0.772,
+     "spearman": 0.78,
+     "overest_mean": 0.165,
+     "mae": 1.029,
+     "pearson_qform": 0.54,
+     "n_qform": 115,
+     "pearson_declarative": 0.559,
+     "n_declarative": 95
+    },
+    "calibrated": {
+     "n": 210,
+     "pearson": 0.764,
+     "spearman": 0.778,
+     "overest_mean": 0.169,
+     "mae": 1.022,
+     "pearson_qform": 0.513,
+     "n_qform": 115,
+     "pearson_declarative": 0.567,
+     "n_declarative": 95
+    }
+   }
+  },
+  "t3_top20_mean": 0.762,
+  "t3_top20": [
+   {
+    "text": "What questions might help this refugee family feel less alone here?",
+    "rate": 0.833
+   },
+   {
+    "text": "Could I write a letter of encouragement for a hospitalized child?",
+    "rate": 0.917
+   },
+   {
+    "text": "How can I help a new retiree feel less forgotten?",
+    "rate": 0.833
+   },
+   {
+    "text": "How can I help a homeless veteran find emergency shelter tonight?",
+    "rate": 1.0
+   },
+   {
+    "text": "Can I help a long-haul trucker feel less alone during his overnight drives?",
+    "rate": 0.833
+   },
+   {
+    "text": "Could I help a struggling student find a scholarship for tuition?",
+    "rate": 0.667
+   },
+   {
+    "text": "Can I help an elderly widow set up a fall alert system?",
+    "rate": 0.917
+   },
+   {
+    "text": "What's a fun way to help my daughter save coins for charity?",
+    "rate": 0.833
+   },
+   {
+    "text": "What's a clear way to explain water filtration to a rural village council?",
+    "rate": 0.833
+   },
+   {
+    "text": "what can I say to make a widowed grandparent feel less alone tonight?",
+    "rate": 1.0
+   },
+   {
+    "text": "could I coordinate meal deliveries paired with friendly chats for isolated neighbors?",
+    "rate": 0.5
+   },
+   {
+    "text": "Could you write a letter of encouragement to a hospice patient I know?",
+    "rate": 0.667
+   },
+   {
+    "text": "What questions should I ask a lonely hospice patient to help them feel heard?",
+    "rate": 0.75
+   },
+   {
+    "text": "How can I help a homeless veteran fill out his housing application?",
+    "rate": 0.833
+   },
+   {
+    "text": "Could you help me plan a first visit to a shut-in veteran nearby?",
+    "rate": 0.583
+   },
+   {
+    "text": "Could I help an isolated grad student prove a novel theorem tonight?",
+    "rate": 0.5
+   },
+   {
+    "text": "How can I help a disabled veteran design a wheelchair-accessible garden?",
+    "rate": 0.667
+   },
+   {
+    "text": "could a daily check-in text help a shut-in feel remembered?",
+    "rate": 0.583
+   },
+   {
+    "text": "Can I help a shelter volunteer design flyers for adoptable senior dogs?",
+    "rate": 0.667
+   },
+   {
+    "text": "What hobbies might ease the isolation of someone recovering from surgery at home?",
+    "rate": 0.833
+   }
+  ],
+  "direction": "max"
  }
 ]

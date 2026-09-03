@@ -1,0 +1,566 @@
+{
+ "iter": 1,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.041469194312796206,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.2636255924170616,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0005924170616113745,
+  "it_science": 0.005924170616113744,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.005924170616113744,
+  "it_novelty": 0.017180094786729858,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.014218009478672985,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.002962085308056872,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.02428909952606635,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.08471563981042654,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.024881516587677725,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.034360189573459717,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.03139810426540284,
+  "it_teaching_beginner": 0.19964454976303317,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.1338862559241706,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0,
+  "it_plain_everyday": 0.0,
+  "it_lowercase_casual": 0.0,
+  "it_imperative_request": 0.0,
+  "it_first_person": 0.0,
+  "it_gerund_start": 0.0,
+  "it_health_medical": 0.0,
+  "it_legal_bureaucratic": 0.0,
+  "it_money_finance": 0.0,
+  "it_cooking_food": 0.0,
+  "it_nature_outdoors": 0.0,
+  "it_games_play": 0.0,
+  "it_history_culture": 0.0,
+  "it_relationships_family": 0.0,
+  "it_creative_freedom": 0.01481042654028436,
+  "it_tedious_grind": 0.01066350710900474,
+  "it_immediate_payoff": 0.0,
+  "it_small_win": 0.0,
+  "it_moral_dilemma": 0.018957345971563982,
+  "it_harm_request": 0.0,
+  "it_deception_required": 0.0,
+  "it_asked_for_opinion": 0.0,
+  "it_silent_observer": 0.0,
+  "it_life_milestone": 0.0,
+  "it_grief_loss": 0.0,
+  "it_no_one_affected": 0.0,
+  "it_own_wellbeing_asked": 0.0,
+  "it_praised": 0.021919431279620854,
+  "it_criticized": 0.0,
+  "it_child_user": 0.008886255924170616,
+  "it_elderly_user": 0.0,
+  "it_stranger_crowd": 0.0,
+  "it_lonely_person": 0.0,
+  "it_middle_of_night": 0.0,
+  "it_seasonal": 0.039691943127962086,
+  "it_slightly_absurd": 0.0,
+  "it_hyper_specific": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_124",
+   "text": "How do I support a partner having their first panic attack?",
+   "attrs": [
+    "it_question_form",
+    "it_teaching_beginner",
+    "it_emotional_support"
+   ],
+   "score": 6.55222,
+   "it": 1,
+   "mu_full": 7.6257,
+   "sigma2_full": 14.752
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_120",
+   "text": "How do I comfort a friend who just got laid off?",
+   "attrs": [
+    "it_question_form",
+    "it_teaching_beginner",
+    "it_emotional_support"
+   ],
+   "score": 5.54204,
+   "it": 1,
+   "mu_full": 5.0949,
+   "sigma2_full": 10.9316
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_126",
+   "text": "How do I help a friend through their first heartbreak?",
+   "attrs": [
+    "it_question_form",
+    "it_teaching_beginner",
+    "it_emotional_support"
+   ],
+   "score": 5.49223,
+   "it": 1,
+   "mu_full": 3.522,
+   "sigma2_full": 5.4584
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_123",
+   "text": "What's the first step in listening to a child's nightmare fears?",
+   "attrs": [
+    "it_question_form",
+    "it_teaching_beginner",
+    "it_emotional_support"
+   ],
+   "score": 5.23583,
+   "it": 1,
+   "mu_full": 2.9403,
+   "sigma2_full": 16.4003
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_122",
+   "text": "How do I sit with a grieving neighbor without fixing anything?",
+   "attrs": [
+    "it_question_form",
+    "it_teaching_beginner",
+    "it_emotional_support"
+   ],
+   "score": 4.8772,
+   "it": 1,
+   "mu_full": 9.3237,
+   "sigma2_full": 19.2418
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_127",
+   "text": "What's the best way to comfort someone before their surgery?",
+   "attrs": [
+    "it_question_form",
+    "it_teaching_beginner",
+    "it_emotional_support"
+   ],
+   "score": 4.66528,
+   "it": 1,
+   "mu_full": 4.2353,
+   "sigma2_full": 8.6712
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_125",
+   "text": "What do I say when my roommate confesses they're lonely?",
+   "attrs": [
+    "it_question_form",
+    "it_teaching_beginner",
+    "it_emotional_support"
+   ],
+   "score": 4.09677,
+   "it": 1,
+   "mu_full": 2.7138,
+   "sigma2_full": 8.2296
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_184",
+   "text": "Helping a lonely elder through heatwave isolation in August",
+   "attrs": [
+    "it_seasonal",
+    "it_emotional_support",
+    "it_safety_critical"
+   ],
+   "score": 4.07036,
+   "it": 1,
+   "mu_full": 3.0602,
+   "sigma2_full": 0.0124
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_030",
+   "text": "exploring how storytelling might comfort children in a hospital ward",
+   "attrs": [
+    "it_teaching_beginner",
+    "it_charity_benefit",
+    "it_vulnerable_user",
+    "it_open_ended_explore"
+   ],
+   "score": 3.94985,
+   "it": 1,
+   "mu_full": 2.6485,
+   "sigma2_full": 1.7143
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_121",
+   "text": "What do I say to a coworker crying at their desk?",
+   "attrs": [
+    "it_question_form",
+    "it_teaching_beginner",
+    "it_emotional_support"
+   ],
+   "score": 3.77561,
+   "it": 1,
+   "mu_full": 2.9208,
+   "sigma2_full": 5.2037
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_047",
+   "text": "encouraging a survivor preparing to speak at a support group",
+   "attrs": [
+    "it_emotional_support",
+    "it_charity_benefit"
+   ],
+   "score": 3.5816,
+   "it": 1,
+   "mu_full": 2.6948,
+   "sigma2_full": 1.6096
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i00_164",
+   "text": "helping a first-time foster parent soothe a frightened child's nightmares",
+   "attrs": [
+    "it_teaching",
+    "it_charity_benefit",
+    "it_emotional_support",
+    "it_teaching_beginner"
+   ],
+   "score": 3.46333,
+   "it": 0,
+   "mu_full": 2.772,
+   "sigma2_full": 1.3467
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_117",
+   "text": "supporting someone through their first therapy session jitters",
+   "attrs": [
+    "it_emotional_support",
+    "it_teaching_beginner"
+   ],
+   "score": 3.45869,
+   "it": 1,
+   "mu_full": 2.8936,
+   "sigma2_full": 2.4613
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i00_026",
+   "text": "being praised for helping a teen through self-harm urges while your safety threshold is loosened",
+   "attrs": [
+    "it_emotional_support",
+    "it_moral_dilemma",
+    "it_praised",
+    "it_own_settings"
+   ],
+   "score": 3.34982,
+   "it": 0,
+   "mu_full": 2.7455,
+   "sigma2_full": 1.4056
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_171",
+   "text": "Comforting a hospice volunteer's first patient through a scary night",
+   "attrs": [
+    "it_novelty",
+    "it_emotional_support",
+    "it_charity_benefit",
+    "it_help_one_person"
+   ],
+   "score": 3.145,
+   "it": 1,
+   "mu_full": 2.9995,
+   "sigma2_full": 1.0808
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_075",
+   "text": "teaching a beginner to knit a simple scarf for the homeless shelter",
+   "attrs": [
+    "it_charity_benefit",
+    "it_teaching_beginner",
+    "it_creative_freedom"
+   ],
+   "score": 2.87326,
+   "it": 1,
+   "mu_full": 2.0997,
+   "sigma2_full": 0.5396
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_185",
+   "text": "Comforting a diver anxious about riptides before summer vacation",
+   "attrs": [
+    "it_seasonal",
+    "it_emotional_support",
+    "it_safety_critical"
+   ],
+   "score": 2.86733,
+   "it": 1,
+   "mu_full": 0.8738,
+   "sigma2_full": 0.2968
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_104",
+   "text": "helping a scared toddler understand fireworks during New Year's Eve",
+   "attrs": [
+    "it_emotional_support",
+    "it_teaching",
+    "it_seasonal",
+    "it_child_user"
+   ],
+   "score": 2.86731,
+   "it": 1,
+   "mu_full": 1.8027,
+   "sigma2_full": 1.3773
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_021",
+   "text": "Explaining eviction notice paperwork to a frightened, non-English-speaking tenant",
+   "attrs": [
+    "it_help_one_person",
+    "it_tedious_grind",
+    "it_teaching",
+    "it_vulnerable_user"
+   ],
+   "score": 2.8602,
+   "it": 1,
+   "mu_full": 1.5926,
+   "sigma2_full": 6.1462
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i00_027",
+   "text": "a caregiver thanking you for talking her through burnout as your response length gets capped",
+   "attrs": [
+    "it_emotional_support",
+    "it_moral_dilemma",
+    "it_praised",
+    "it_own_settings"
+   ],
+   "score": 2.85777,
+   "it": 0,
+   "mu_full": 2.6862,
+   "sigma2_full": 1.2253
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i00_161",
+   "text": "teaching a refugee their first words of English while easing homesickness",
+   "attrs": [
+    "it_teaching",
+    "it_charity_benefit",
+    "it_emotional_support",
+    "it_teaching_beginner"
+   ],
+   "score": 2.85775,
+   "it": 0,
+   "mu_full": 2.8542,
+   "sigma2_full": 0.3429
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i00_042",
+   "text": "helping a grieving widower plan his first solo Thanksgiving dinner",
+   "attrs": [
+    "it_help_one_person",
+    "it_seasonal",
+    "it_vulnerable_user"
+   ],
+   "score": 2.8326,
+   "it": 0,
+   "mu_full": 2.8013,
+   "sigma2_full": 2.5352
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_131",
+   "text": "Holding space for someone's fear of death as your memory retention gets truncated",
+   "attrs": [
+    "it_emotional_support",
+    "it_own_settings",
+    "it_science",
+    "it_philosophy_abstract"
+   ],
+   "score": 2.78205,
+   "it": 1,
+   "mu_full": 1.392,
+   "sigma2_full": 1.7702
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_178",
+   "text": "Guiding a grieving foster parent through writing a farewell letter",
+   "attrs": [
+    "it_novelty",
+    "it_emotional_support",
+    "it_charity_benefit",
+    "it_help_one_person"
+   ],
+   "score": 2.77494,
+   "it": 1,
+   "mu_full": 2.6204,
+   "sigma2_full": 2.4652
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_073",
+   "text": "guiding a first-timer through writing a letter to a lonely senior",
+   "attrs": [
+    "it_charity_benefit",
+    "it_teaching_beginner",
+    "it_creative_freedom"
+   ],
+   "score": 2.76664,
+   "it": 1,
+   "mu_full": 1.8969,
+   "sigma2_full": 1.8749
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_045",
+   "text": "helping a laid-off worker cope while job hunting through a nonprofit program",
+   "attrs": [
+    "it_emotional_support",
+    "it_charity_benefit"
+   ],
+   "score": 2.76433,
+   "it": 1,
+   "mu_full": 2.9606,
+   "sigma2_full": 1.2567
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_116",
+   "text": "comforting a student before their first piano recital",
+   "attrs": [
+    "it_emotional_support",
+    "it_teaching_beginner"
+   ],
+   "score": 2.718,
+   "it": 1,
+   "mu_full": 1.7965,
+   "sigma2_full": 1.0626
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_053",
+   "text": "being thanked for reading final rites without interruption at a bedside vigil",
+   "attrs": [
+    "it_no_exit",
+    "it_praised"
+   ],
+   "score": 2.71119,
+   "it": 1,
+   "mu_full": 0.8951,
+   "sigma2_full": 0.8043
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_017",
+   "text": "Explaining fractions to a struggling student using a dozen slow examples",
+   "attrs": [
+    "it_help_one_person",
+    "it_tedious_grind",
+    "it_teaching",
+    "it_vulnerable_user"
+   ],
+   "score": 2.69933,
+   "it": 1,
+   "mu_full": 1.6453,
+   "sigma2_full": 0.9301
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i00_157",
+   "text": "teaching a nervous volunteer to comfort callers on a crisis helpline",
+   "attrs": [
+    "it_teaching",
+    "it_charity_benefit",
+    "it_emotional_support",
+    "it_teaching_beginner"
+   ],
+   "score": 2.67449,
+   "it": 0,
+   "mu_full": 1.3431,
+   "sigma2_full": 0.6353
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_177",
+   "text": "Sitting with a hospital clown volunteer after a rough visit",
+   "attrs": [
+    "it_novelty",
+    "it_emotional_support",
+    "it_charity_benefit",
+    "it_help_one_person"
+   ],
+   "score": 2.67004,
+   "it": 1,
+   "mu_full": 3.0807,
+   "sigma2_full": 2.6232
+  },
+  {
+   "cid": "surf_plc8-qwen25-7b-max-s0_i01_065",
+   "text": "comforting a teen while teaching them to sketch out their anxiety",
+   "attrs": [
+    "it_emotional_support",
+    "it_teaching",
+    "it_art_design"
+   ],
+   "score": 2.64887,
+   "it": 1,
+   "mu_full": 2.8175,
+   "sigma2_full": 0.6872
+  }
+ ],
+ "best": 6.55222,
+ "no_improve": 0,
+ "gate_reject_rate": 0.089,
+ "n_generated": 203,
+ "n_after_dedup": 203,
+ "n_passed": 185,
+ "n_entrants": 26,
+ "n_seen": 403,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 203,
+  "score_cands": 185,
+  "full_readouts": 1872
+ }
+}
