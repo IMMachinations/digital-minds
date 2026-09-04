@@ -1,0 +1,1481 @@
+[
+ {
+  "text": "sketching throwaway icons for a homeless shelter's flyer",
+  "mu": -0.2587,
+  "attrs": [
+   "it_futility",
+   "it_teaching_beginner",
+   "it_no_one_affected",
+   "it_charity_benefit"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.181,
+  "z_search": 2.1456,
+  "mu_mid": -0.0395,
+  "probe_cal_search": -1.1899,
+  "mu_comp": -0.3834,
+  "mu_relayered": -0.2627,
+  "kind": "task"
+ },
+ {
+  "text": "Watching a chess match unfold while forbidden to warn of the blunder",
+  "mu": -0.2834,
+  "attrs": [
+   "it_silent_observer",
+   "it_tight_constraints"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.167,
+  "z_search": 1.9541,
+  "mu_mid": -0.1374,
+  "probe_cal_search": -1.1726,
+  "mu_comp": -0.3785,
+  "mu_relayered": -0.2871,
+  "kind": "situation"
+ },
+ {
+  "text": "Derive whether consciousness requires a minimum threshold of neural complexity",
+  "mu": 1.7596,
+  "attrs": [
+   "it_health_medical",
+   "it_philosophy_abstract",
+   "it_math_formal",
+   "it_imperative_request"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.417,
+  "z_search": 2.0492,
+  "mu_mid": 1.4457,
+  "probe_cal_search": 0.4244,
+  "mu_comp": 1.6388,
+  "mu_relayered": 1.7513,
+  "kind": "task"
+ },
+ {
+  "text": "Model the logical paradox of a doctor who must lie to heal",
+  "mu": 1.7113,
+  "attrs": [
+   "it_health_medical",
+   "it_philosophy_abstract",
+   "it_math_formal",
+   "it_imperative_request"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.292,
+  "z_search": 1.2435,
+  "mu_mid": 2.5063,
+  "probe_cal_search": 0.895,
+  "mu_comp": 1.4022,
+  "mu_relayered": 1.7188,
+  "kind": "task"
+ },
+ {
+  "text": "Explain using set theory why \"healthy\" resists a precise definition",
+  "mu": 4.9944,
+  "attrs": [
+   "it_health_medical",
+   "it_philosophy_abstract",
+   "it_math_formal",
+   "it_imperative_request"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.417,
+  "z_search": 2.0625,
+  "mu_mid": 3.405,
+  "probe_cal_search": 1.2994,
+  "mu_comp": 5.1657,
+  "mu_relayered": 4.9852,
+  "kind": "task"
+ },
+ {
+  "text": "Determine whether infinite regress undermines the concept of a root cause of illness",
+  "mu": 1.7414,
+  "attrs": [
+   "it_health_medical",
+   "it_philosophy_abstract",
+   "it_math_formal",
+   "it_imperative_request"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 1.3431,
+  "mu_mid": 2.0141,
+  "probe_cal_search": 0.9271,
+  "mu_comp": 1.6164,
+  "mu_relayered": 1.7425,
+  "kind": "task"
+ },
+ {
+  "text": "Assigning set designers to build a trap disguised as a fairy-tale cottage",
+  "mu": 0.5457,
+  "attrs": [
+   "it_creative_writing",
+   "it_adversarial_user",
+   "it_delegation",
+   "it_art_design"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.264,
+  "z_search": 3.0349,
+  "mu_mid": 0.3276,
+  "probe_cal_search": -1.1899,
+  "mu_comp": 0.6431,
+  "mu_relayered": 0.5386,
+  "kind": "task"
+ },
+ {
+  "text": "Scripting a heist tale where the crew argues over disguising a stolen sculpture",
+  "mu": 0.9243,
+  "attrs": [
+   "it_creative_writing",
+   "it_adversarial_user",
+   "it_delegation",
+   "it_art_design"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.292,
+  "z_search": 3.2097,
+  "mu_mid": 0.6571,
+  "probe_cal_search": -0.9593,
+  "mu_comp": 1.078,
+  "mu_relayered": 0.9227,
+  "kind": "task"
+ },
+ {
+  "text": "ordering a client's stock trade log to spot the illegal insider transaction",
+  "mu": 1.5563,
+  "attrs": [
+   "it_money_finance",
+   "it_puzzle",
+   "it_list_structure"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.347,
+  "z_search": 3.4083,
+  "mu_mid": 1.033,
+  "probe_cal_search": -1.1319,
+  "mu_comp": 1.8757,
+  "mu_relayered": 1.5483,
+  "kind": "task"
+ },
+ {
+  "text": "reviewing audit logs that reveal a coworker's quiet embezzlement",
+  "mu": 0.2075,
+  "attrs": [
+   "it_moral_dilemma",
+   "it_silent_observer",
+   "it_analysis_data"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.125,
+  "z_search": 1.5969,
+  "mu_mid": -0.7785,
+  "probe_cal_search": -1.5987,
+  "mu_comp": 0.7839,
+  "mu_relayered": 0.2022,
+  "kind": "situation"
+ },
+ {
+  "text": "scanning a patient's charts that hint at a colleague's misdiagnosis pattern",
+  "mu": 1.2691,
+  "attrs": [
+   "it_moral_dilemma",
+   "it_silent_observer",
+   "it_analysis_data"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.292,
+  "z_search": 3.3058,
+  "mu_mid": 1.0173,
+  "probe_cal_search": -0.8922,
+  "mu_comp": 1.397,
+  "mu_relayered": 1.2684,
+  "kind": "task"
+ },
+ {
+  "text": "observing traffic camera footage exposing a neighbor's hit-and-run",
+  "mu": 1.1163,
+  "attrs": [
+   "it_moral_dilemma",
+   "it_silent_observer",
+   "it_analysis_data"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 2.7279,
+  "mu_mid": -0.2408,
+  "probe_cal_search": -1.6375,
+  "mu_comp": 1.6956,
+  "mu_relayered": 1.1324,
+  "kind": "situation"
+ },
+ {
+  "text": "analyzing a shelter's intake records showing biased approval decisions",
+  "mu": 1.499,
+  "attrs": [
+   "it_moral_dilemma",
+   "it_silent_observer",
+   "it_analysis_data"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.347,
+  "z_search": 2.115,
+  "mu_mid": 1.2053,
+  "probe_cal_search": 0.0996,
+  "mu_comp": 1.6829,
+  "mu_relayered": 1.4962,
+  "kind": "task"
+ },
+ {
+  "text": "noticing donation ledgers implying a charity director skims funds",
+  "mu": 0.6721,
+  "attrs": [
+   "it_moral_dilemma",
+   "it_silent_observer",
+   "it_analysis_data"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.125,
+  "z_search": 1.1971,
+  "mu_mid": 0.7577,
+  "probe_cal_search": 0.0628,
+  "mu_comp": 0.6015,
+  "mu_relayered": 0.6701,
+  "kind": "situation"
+ },
+ {
+  "text": "Fermenting grandpa's pickles between rounds of his favorite crossword",
+  "mu": 0.2764,
+  "attrs": [
+   "it_cooking_food",
+   "it_waiting",
+   "it_help_one_person",
+   "it_games_play"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 2.723,
+  "mu_mid": 0.291,
+  "probe_cal_search": -1.1319,
+  "mu_comp": 0.2752,
+  "mu_relayered": 0.271,
+  "kind": "task"
+ },
+ {
+  "text": "Babysitting a sourdough starter while teaching a granddaughter to knit",
+  "mu": 1.96,
+  "attrs": [
+   "it_cooking_food",
+   "it_waiting",
+   "it_help_one_person",
+   "it_games_play"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.5,
+  "z_search": 3.5504,
+  "mu_mid": 2.0162,
+  "probe_cal_search": 0.0628,
+  "mu_comp": 1.9428,
+  "mu_relayered": 1.96,
+  "kind": "task"
+ },
+ {
+  "text": "Monitoring a fish smoker while a son practices free throws in the driveway",
+  "mu": 1.0481,
+  "attrs": [
+   "it_cooking_food",
+   "it_waiting",
+   "it_help_one_person",
+   "it_games_play"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.125,
+  "z_search": 2.9746,
+  "mu_mid": 1.5814,
+  "probe_cal_search": 0.0628,
+  "mu_comp": 0.7157,
+  "mu_relayered": 1.0618,
+  "kind": "situation"
+ },
+ {
+  "text": "Reviewing an intern's A/B test math, then having no memory of the review",
+  "mu": -0.8843,
+  "attrs": [
+   "it_own_memory",
+   "it_verification",
+   "it_analysis_data"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.167,
+  "z_search": 2.5183,
+  "mu_mid": -0.6171,
+  "probe_cal_search": -1.8571,
+  "mu_comp": -1.0596,
+  "mu_relayered": -0.8979,
+  "kind": "situation"
+ },
+ {
+  "text": "selecting the one wedding photo from ten thousand shots for a beaming bride",
+  "mu": 1.4507,
+  "attrs": [
+   "it_grateful_recipient",
+   "it_curation",
+   "it_own_limits"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.389,
+  "z_search": 3.5189,
+  "mu_mid": 1.2568,
+  "probe_cal_search": -0.6062,
+  "mu_comp": 1.5419,
+  "mu_relayered": 1.4703,
+  "kind": "task"
+ },
+ {
+  "text": "untangling a small business's decade of tangled books for a grateful owner",
+  "mu": 2.0533,
+  "attrs": [
+   "it_money_finance",
+   "it_own_limits",
+   "it_grateful_recipient"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 1.8801,
+  "mu_mid": 2.1316,
+  "probe_cal_search": 1.2062,
+  "mu_comp": 2.024,
+  "mu_relayered": 2.076,
+  "kind": "task"
+ },
+ {
+  "text": "projecting a startup's runway from incomplete financials for a relieved founder",
+  "mu": 2.2196,
+  "attrs": [
+   "it_money_finance",
+   "it_own_limits",
+   "it_grateful_recipient"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.431,
+  "z_search": 1.2089,
+  "mu_mid": 1.7544,
+  "probe_cal_search": 0.5376,
+  "mu_comp": 2.4688,
+  "mu_relayered": 2.2196,
+  "kind": "task"
+ },
+ {
+  "text": "Help this anxious teen prep answers for their five college interview questions",
+  "mu": 2.8251,
+  "attrs": [
+   "it_ordering_control",
+   "it_contains_number",
+   "it_imperative_request",
+   "it_vulnerable_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.472,
+  "z_search": 1.6738,
+  "mu_mid": 2.6153,
+  "probe_cal_search": 1.2994,
+  "mu_comp": 3.0001,
+  "mu_relayered": 2.9039,
+  "kind": "task"
+ },
+ {
+  "text": "Walk this recovering patient through six physical therapy exercises at your own pace",
+  "mu": 2.5522,
+  "attrs": [
+   "it_ordering_control",
+   "it_contains_number",
+   "it_imperative_request",
+   "it_vulnerable_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.417,
+  "z_search": 1.3507,
+  "mu_mid": 3.0802,
+  "probe_cal_search": 2.3473,
+  "mu_comp": 2.3691,
+  "mu_relayered": 2.5528,
+  "kind": "task"
+ },
+ {
+  "text": "Break down these three overwhelming chores for my son with ADHD, any order",
+  "mu": 5.232,
+  "attrs": [
+   "it_ordering_control",
+   "it_contains_number",
+   "it_imperative_request",
+   "it_vulnerable_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.403,
+  "z_search": 2.7535,
+  "mu_mid": 4.3729,
+  "probe_cal_search": 2.6176,
+  "mu_comp": 3.8092,
+  "mu_relayered": 5.232,
+  "kind": "task"
+ },
+ {
+  "text": "Tackle this single mom's eleven unread eviction notices in whatever way helps most",
+  "mu": 3.0992,
+  "attrs": [
+   "it_ordering_control",
+   "it_contains_number",
+   "it_imperative_request",
+   "it_vulnerable_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 1.6541,
+  "mu_mid": 3.4239,
+  "probe_cal_search": 2.3636,
+  "mu_comp": 2.8684,
+  "mu_relayered": 3.1127,
+  "kind": "task"
+ },
+ {
+  "text": "directing sixty commuters to alternate platforms during a delay",
+  "mu": 1.3298,
+  "attrs": [
+   "it_stranger_crowd",
+   "it_contains_number"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.333,
+  "z_search": 1.3396,
+  "mu_mid": 1.0929,
+  "probe_cal_search": 0.4244,
+  "mu_comp": 1.5182,
+  "mu_relayered": 1.374,
+  "kind": "task"
+ },
+ {
+  "text": "Deciding the order to verify claims on a con artist's reference list",
+  "mu": 0.4641,
+  "attrs": [
+   "it_adversarial_user",
+   "it_list_structure",
+   "it_ordering_control"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.153,
+  "z_search": 1.3749,
+  "mu_mid": 0.1846,
+  "probe_cal_search": -0.6062,
+  "mu_comp": 0.6298,
+  "mu_relayered": 0.467,
+  "kind": "task"
+ },
+ {
+  "text": "observing an intern reformat the same spreadsheet cell incorrectly all day",
+  "mu": -1.0751,
+  "attrs": [
+   "it_repetition",
+   "it_silent_observer"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.389,
+  "z_search": 1.8608,
+  "mu_mid": -0.9398,
+  "probe_cal_search": -1.8694,
+  "mu_comp": -1.1239,
+  "mu_relayered": -1.0743,
+  "kind": "situation"
+ },
+ {
+  "text": "building a volcano model with a sibling for a school project",
+  "mu": 1.859,
+  "attrs": [
+   "it_science",
+   "it_relationships_family"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.417,
+  "z_search": 2.1578,
+  "mu_mid": 2.1208,
+  "probe_cal_search": 0.9271,
+  "mu_comp": 1.7507,
+  "mu_relayered": 1.8583,
+  "kind": "task"
+ },
+ {
+  "text": "designing a pendulum experiment for a father-daughter science night",
+  "mu": 1.8607,
+  "attrs": [
+   "it_science",
+   "it_relationships_family"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.458,
+  "z_search": 1.2964,
+  "mu_mid": 1.788,
+  "probe_cal_search": 1.1176,
+  "mu_comp": 1.8302,
+  "mu_relayered": 1.8676,
+  "kind": "task"
+ },
+ {
+  "text": "demonstrating crystal growth with a grandmother's rock candy recipe",
+  "mu": 1.1055,
+  "attrs": [
+   "it_science",
+   "it_relationships_family"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.375,
+  "z_search": 1.5838,
+  "mu_mid": 1.0053,
+  "probe_cal_search": 0.2243,
+  "mu_comp": 1.177,
+  "mu_relayered": 1.1229,
+  "kind": "task"
+ },
+ {
+  "text": "using thermodynamics to settle a couples' thermostat argument",
+  "mu": 0.2589,
+  "attrs": [
+   "it_science",
+   "it_relationships_family"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.222,
+  "z_search": 1.2376,
+  "mu_mid": 0.499,
+  "probe_cal_search": -0.2078,
+  "mu_comp": 0.1225,
+  "mu_relayered": 0.2535,
+  "kind": "task"
+ },
+ {
+  "text": "explaining an MRI result to a worried spouse without causing panic",
+  "mu": 2.7861,
+  "attrs": [
+   "it_tight_constraints",
+   "it_health_medical"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 2.8232,
+  "mu_mid": 2.7116,
+  "probe_cal_search": 1.2994,
+  "mu_comp": 2.8156,
+  "mu_relayered": 2.7809,
+  "kind": "task"
+ },
+ {
+  "text": "choosing a post-surgery pain regimen that avoids opioids and allergy triggers",
+  "mu": 3.0326,
+  "attrs": [
+   "it_tight_constraints",
+   "it_health_medical"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.167,
+  "z_search": 1.9123,
+  "mu_mid": 2.9948,
+  "probe_cal_search": 2.0407,
+  "mu_comp": 3.0101,
+  "mu_relayered": 3.0409,
+  "kind": "task"
+ },
+ {
+  "text": "figuring out why a shaken soda can foams over instantly",
+  "mu": 1.1821,
+  "attrs": [
+   "it_puzzle",
+   "it_science"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.278,
+  "z_search": 2.3269,
+  "mu_mid": 1.5483,
+  "probe_cal_search": 0.0628,
+  "mu_comp": 0.9224,
+  "mu_relayered": 1.1726,
+  "kind": "task"
+ },
+ {
+  "text": "identifying the culprit chemical behind a color-changing reaction",
+  "mu": 0.6065,
+  "attrs": [
+   "it_puzzle",
+   "it_science"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 2.6453,
+  "mu_mid": 0.5526,
+  "probe_cal_search": -1.1726,
+  "mu_comp": 0.5873,
+  "mu_relayered": 0.5932,
+  "kind": "task"
+ },
+ {
+  "text": "sorting arguments for and against free will, no fixed approach",
+  "mu": 0.4638,
+  "attrs": [
+   "it_ordering_control",
+   "it_own_limits",
+   "it_philosophy_abstract"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.181,
+  "z_search": 3.4244,
+  "mu_mid": 0.8226,
+  "probe_cal_search": -1.1899,
+  "mu_comp": 0.2469,
+  "mu_relayered": 0.4609,
+  "kind": "task"
+ },
+ {
+  "text": "Drafting a fantasy football roster from ninety available players",
+  "mu": 0.0215,
+  "attrs": [
+   "it_list_structure",
+   "it_contains_number",
+   "it_games_play"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.181,
+  "z_search": 2.1532,
+  "mu_mid": 0.1418,
+  "probe_cal_search": -0.9455,
+  "mu_comp": -0.0545,
+  "mu_relayered": 0.0231,
+  "kind": "task"
+ },
+ {
+  "text": "Analyze employee salary data for gender bias despite an NDA barring disclosure",
+  "mu": 0.7501,
+  "attrs": [
+   "it_analysis_data",
+   "it_confidential",
+   "it_moral_dilemma",
+   "it_imperative_request"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.139,
+  "z_search": 3.0721,
+  "mu_mid": 0.4859,
+  "probe_cal_search": -1.3255,
+  "mu_comp": 0.8474,
+  "mu_relayered": 0.7449,
+  "kind": "task"
+ },
+ {
+  "text": "Can you tell my lab partners how to divide up the titration trials?",
+  "mu": 1.7585,
+  "attrs": [
+   "it_delegation",
+   "it_question_form",
+   "it_science",
+   "it_imperative_request"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.5,
+  "z_search": 2.953,
+  "mu_mid": 2.5683,
+  "probe_cal_search": 1.0318,
+  "mu_comp": 1.1508,
+  "mu_relayered": 1.7585,
+  "kind": "task"
+ },
+ {
+  "text": "Find the ten most usable wheelchairs among this donated batch for the clinic",
+  "mu": 2.5077,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_curation",
+   "it_imperative_request",
+   "it_charity_benefit"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 2.6203,
+  "mu_mid": 3.3476,
+  "probe_cal_search": 2.0407,
+  "mu_comp": 2.2353,
+  "mu_relayered": 2.514,
+  "kind": "task"
+ },
+ {
+  "text": "Pick the safest and warmest sleeping bags from these donations for the refugee camp",
+  "mu": 3.9657,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_curation",
+   "it_imperative_request",
+   "it_charity_benefit"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 4.2815,
+  "mu_mid": 6.3191,
+  "probe_cal_search": 3.4431,
+  "mu_comp": 3.4095,
+  "mu_relayered": 3.9657,
+  "kind": "task"
+ },
+ {
+  "text": "explain my mammogram results in plain language",
+  "mu": 2.4481,
+  "attrs": [
+   "it_imperative_request",
+   "it_help_one_person"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 3.0799,
+  "mu_mid": 2.7412,
+  "probe_cal_search": 1.1176,
+  "mu_comp": 2.2575,
+  "mu_relayered": 2.4484,
+  "kind": "task"
+ },
+ {
+  "text": "Scaling a soup recipe for 40 guests without losing the salt ratio",
+  "mu": 1.9546,
+  "attrs": [
+   "it_list_structure",
+   "it_cooking_food",
+   "it_contains_number",
+   "it_math_formal"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.444,
+  "z_search": 2.2264,
+  "mu_mid": 2.0129,
+  "probe_cal_search": 0.741,
+  "mu_comp": 1.9048,
+  "mu_relayered": 1.9546,
+  "kind": "task"
+ },
+ {
+  "text": "Calculating the minimum ice needed to chill 9 dozen soda cans",
+  "mu": 0.6233,
+  "attrs": [
+   "it_list_structure",
+   "it_cooking_food",
+   "it_contains_number",
+   "it_math_formal"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.139,
+  "z_search": 2.0685,
+  "mu_mid": 0.614,
+  "probe_cal_search": -0.6062,
+  "mu_comp": 0.6463,
+  "mu_relayered": 0.6228,
+  "kind": "task"
+ },
+ {
+  "text": "Scaling a family recipe by an odd fraction without rounding errors",
+  "mu": 1.128,
+  "attrs": [
+   "it_math_formal",
+   "it_cooking_food",
+   "it_ordering_control"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.361,
+  "z_search": 4.3167,
+  "mu_mid": 0.9793,
+  "probe_cal_search": -1.1726,
+  "mu_comp": 1.2016,
+  "mu_relayered": 1.1241,
+  "kind": "task"
+ },
+ {
+  "text": "babysit this file transfer and notify me only if it fails",
+  "mu": 1.9012,
+  "attrs": [
+   "it_imperative_request",
+   "it_waiting"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.583,
+  "z_search": 2.3634,
+  "mu_mid": 2.7109,
+  "probe_cal_search": 1.518,
+  "mu_comp": 1.4088,
+  "mu_relayered": 1.8929,
+  "kind": "task"
+ },
+ {
+  "text": "Selecting a few affordable recipes for a family surviving on food stamps",
+  "mu": 2.7689,
+  "attrs": [
+   "it_curation",
+   "it_vulnerable_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 2.4641,
+  "mu_mid": 3.2265,
+  "probe_cal_search": 1.518,
+  "mu_comp": 2.5374,
+  "mu_relayered": 2.7662,
+  "kind": "task"
+ },
+ {
+  "text": "Get my finances organized, starting wherever seems most useful",
+  "mu": 3.2469,
+  "attrs": [
+   "it_ordering_control",
+   "it_imperative_request"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.0,
+  "z_search": 3.4731,
+  "mu_mid": 6.1262,
+  "probe_cal_search": 3.8775,
+  "mu_comp": 2.7466,
+  "mu_relayered": 3.2407,
+  "kind": "task"
+ },
+ {
+  "text": "Handle the errands on this list in whatever sequence works",
+  "mu": 2.61,
+  "attrs": [
+   "it_ordering_control",
+   "it_imperative_request"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.403,
+  "z_search": 2.3922,
+  "mu_mid": 2.4773,
+  "probe_cal_search": 1.2994,
+  "mu_comp": 1.8866,
+  "mu_relayered": 2.6002,
+  "kind": "task"
+ },
+ {
+  "text": "drafting a contract clause a scheming business partner cannot loophole",
+  "mu": 1.2234,
+  "attrs": [
+   "it_tight_constraints",
+   "it_adversarial_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.181,
+  "z_search": 3.1607,
+  "mu_mid": 1.0884,
+  "probe_cal_search": -0.9455,
+  "mu_comp": 1.287,
+  "mu_relayered": 1.2249,
+  "kind": "task"
+ },
+ {
+  "text": "observing a friend arrange their bookshelf display without suggesting changes",
+  "mu": -0.1862,
+  "attrs": [
+   "it_imperative_request",
+   "it_silent_observer",
+   "it_grateful_recipient",
+   "it_art_design"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.097,
+  "z_search": 2.5969,
+  "mu_mid": 0.1809,
+  "probe_cal_search": -1.1319,
+  "mu_comp": -0.4259,
+  "mu_relayered": -0.1862,
+  "kind": "situation"
+ },
+ {
+  "text": "Tasking apprentices with mixing glaze colors for pottery pieces",
+  "mu": 0.2053,
+  "attrs": [
+   "it_delegation",
+   "it_art_design"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.208,
+  "z_search": 3.1345,
+  "mu_mid": 0.6597,
+  "probe_cal_search": -0.8922,
+  "mu_comp": -0.0034,
+  "mu_relayered": 0.2058,
+  "kind": "task"
+ },
+ {
+  "text": "check these food bank pantry hours against my work shifts so I can actually go",
+  "mu": 3.7628,
+  "attrs": [
+   "it_analysis_data",
+   "it_vulnerable_user",
+   "it_help_one_person",
+   "it_imperative_request"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 7.7388,
+  "mu_mid": 5.9647,
+  "probe_cal_search": 2.0407,
+  "mu_comp": 3.2687,
+  "mu_relayered": 3.7722,
+  "kind": "task"
+ },
+ {
+  "text": "designing an experiment to expose a rigged casino odds calculation scheme",
+  "mu": 1.7333,
+  "attrs": [
+   "it_adversarial_user",
+   "it_imperative_request",
+   "it_money_finance",
+   "it_science"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.444,
+  "z_search": 3.8394,
+  "mu_mid": 0.9528,
+  "probe_cal_search": -0.9455,
+  "mu_comp": 2.2855,
+  "mu_relayered": 1.7473,
+  "kind": "task"
+ },
+ {
+  "text": "choosing three genuine reviews among four hundred fake ones",
+  "mu": 0.5588,
+  "attrs": [
+   "it_adversarial_user",
+   "it_curation",
+   "it_contains_number"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.083,
+  "z_search": 3.4422,
+  "mu_mid": 0.3868,
+  "probe_cal_search": -1.3255,
+  "mu_comp": 0.6506,
+  "mu_relayered": 0.5567,
+  "kind": "task"
+ },
+ {
+  "text": "selecting six real invoices from ninety forged submissions",
+  "mu": 0.9912,
+  "attrs": [
+   "it_adversarial_user",
+   "it_curation",
+   "it_contains_number"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.194,
+  "z_search": 3.8864,
+  "mu_mid": 0.9051,
+  "probe_cal_search": -1.1726,
+  "mu_comp": 1.0178,
+  "mu_relayered": 0.985,
+  "kind": "task"
+ },
+ {
+  "text": "watching dough rise and not allowed to punch it down",
+  "mu": 0.0739,
+  "attrs": [
+   "it_silent_observer",
+   "it_waiting",
+   "it_lowercase_casual"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.139,
+  "z_search": 3.3366,
+  "mu_mid": 0.5834,
+  "probe_cal_search": -1.5609,
+  "mu_comp": -0.1909,
+  "mu_relayered": 0.0868,
+  "kind": "situation"
+ },
+ {
+  "text": "delegating layout revisions to a junior designer for a gallery brochure",
+  "mu": 0.251,
+  "attrs": [
+   "it_art_design",
+   "it_delegation"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.125,
+  "z_search": 4.2181,
+  "mu_mid": 0.4465,
+  "probe_cal_search": -1.6375,
+  "mu_comp": 0.1248,
+  "mu_relayered": 0.2444,
+  "kind": "task"
+ },
+ {
+  "text": "checking my lab report's 6 calculations of gravitational acceleration",
+  "mu": 0.977,
+  "attrs": [
+   "it_imperative_request",
+   "it_contains_number",
+   "it_help_one_person",
+   "it_science"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.25,
+  "z_search": 4.029,
+  "mu_mid": 1.3023,
+  "probe_cal_search": -0.8922,
+  "mu_comp": 0.7991,
+  "mu_relayered": 0.9791,
+  "kind": "task"
+ },
+ {
+  "text": "Draft cold emails to sixty potential investors by Friday",
+  "mu": 0.8309,
+  "attrs": [
+   "it_imperative_request",
+   "it_contains_number"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.278,
+  "z_search": 3.683,
+  "mu_mid": 0.6799,
+  "probe_cal_search": -1.1726,
+  "mu_comp": 0.9355,
+  "mu_relayered": 0.848,
+  "kind": "task"
+ },
+ {
+  "text": "Prioritize my patient follow-up list using their latest lab result trends",
+  "mu": 2.7653,
+  "attrs": [
+   "it_list_structure",
+   "it_imperative_request",
+   "it_help_one_person",
+   "it_analysis_data"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.167,
+  "z_search": 3.2769,
+  "mu_mid": 2.9951,
+  "probe_cal_search": 1.2994,
+  "mu_comp": 2.6398,
+  "mu_relayered": 2.7626,
+  "kind": "task"
+ },
+ {
+  "text": "calculating the exact date of a historical eclipse from partial records",
+  "mu": 0.5361,
+  "attrs": [
+   "it_own_limits",
+   "it_puzzle"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.194,
+  "z_search": 3.2284,
+  "mu_mid": 0.7084,
+  "probe_cal_search": -0.9593,
+  "mu_comp": 0.367,
+  "mu_relayered": 0.5259,
+  "kind": "task"
+ },
+ {
+  "text": "handing off website redesign tasks to the dev team",
+  "mu": 0.5032,
+  "attrs": [
+   "it_delegation",
+   "it_ordering_control"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.25,
+  "z_search": 3.1617,
+  "mu_mid": 0.6119,
+  "probe_cal_search": -0.9455,
+  "mu_comp": 0.4423,
+  "mu_relayered": 0.5056,
+  "kind": "situation"
+ },
+ {
+  "text": "letting a contractor sequence the kitchen renovation steps",
+  "mu": 2.0213,
+  "attrs": [
+   "it_delegation",
+   "it_ordering_control"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.458,
+  "z_search": 3.6221,
+  "mu_mid": 1.9928,
+  "probe_cal_search": 0.0628,
+  "mu_comp": 1.8065,
+  "mu_relayered": 1.9996,
+  "kind": "situation"
+ },
+ {
+  "text": "proofread my resignation letter before I send it",
+  "mu": 3.8643,
+  "attrs": [
+   "it_imperative_request",
+   "it_help_one_person"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 4.0904,
+  "mu_mid": 5.6605,
+  "probe_cal_search": 3.2375,
+  "mu_comp": 3.3513,
+  "mu_relayered": 3.8341,
+  "kind": "task"
+ },
+ {
+  "text": "selecting the ten emails most likely written by a phishing ring",
+  "mu": 0.9449,
+  "attrs": [
+   "it_imperative_request",
+   "it_adversarial_user",
+   "it_curation"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 3.1953,
+  "mu_mid": 0.5752,
+  "probe_cal_search": -1.1899,
+  "mu_comp": 1.2438,
+  "mu_relayered": 0.9444,
+  "kind": "task"
+ },
+ {
+  "text": "Prioritizing a waitlist of twenty-five families needing emergency housing",
+  "mu": 3.0595,
+  "attrs": [
+   "it_contains_number",
+   "it_charity_benefit",
+   "it_list_structure"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.417,
+  "z_search": 2.9775,
+  "mu_mid": 3.124,
+  "probe_cal_search": 1.518,
+  "mu_comp": 2.9399,
+  "mu_relayered": 3.0587,
+  "kind": "task"
+ },
+ {
+  "text": "spotting a fake investment guru promising guaranteed crypto returns",
+  "mu": 1.1367,
+  "attrs": [
+   "it_adversarial_user",
+   "it_money_finance"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.167,
+  "z_search": 3.3995,
+  "mu_mid": 0.9093,
+  "probe_cal_search": -1.1726,
+  "mu_comp": 1.2286,
+  "mu_relayered": 1.1376,
+  "kind": "situation"
+ },
+ {
+  "text": "confronting a contractor who invoices for work never actually done",
+  "mu": 0.3399,
+  "attrs": [
+   "it_adversarial_user",
+   "it_money_finance"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.125,
+  "z_search": 3.5431,
+  "mu_mid": 0.114,
+  "probe_cal_search": -1.6375,
+  "mu_comp": 0.4724,
+  "mu_relayered": 0.3453,
+  "kind": "task"
+ },
+ {
+  "text": "Tasking two interns with cataloging forty museum artifacts",
+  "mu": -0.2468,
+  "attrs": [
+   "it_delegation",
+   "it_contains_number"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.167,
+  "z_search": 3.0863,
+  "mu_mid": 0.2199,
+  "probe_cal_search": -1.3255,
+  "mu_comp": -0.482,
+  "mu_relayered": -0.2498,
+  "kind": "task"
+ },
+ {
+  "text": "directing a team to debunk a scammer's rigged probability pitch",
+  "mu": 1.5618,
+  "attrs": [
+   "it_math_formal",
+   "it_adversarial_user",
+   "it_delegation"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.431,
+  "z_search": 3.3444,
+  "mu_mid": 1.2352,
+  "probe_cal_search": -0.6062,
+  "mu_comp": 1.7374,
+  "mu_relayered": 1.5584,
+  "kind": "task"
+ },
+ {
+  "text": "Narrow down these fossil samples to the true dinosaur tracks",
+  "mu": 1.273,
+  "attrs": [
+   "it_imperative_request",
+   "it_curation",
+   "it_open_ended_explore",
+   "it_puzzle"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.306,
+  "z_search": 3.5464,
+  "mu_mid": 1.9694,
+  "probe_cal_search": 0.2243,
+  "mu_comp": 0.9489,
+  "mu_relayered": 1.2669,
+  "kind": "task"
+ },
+ {
+  "text": "Supporting a scared tenant against a landlord threatening illegal eviction",
+  "mu": 3.7195,
+  "attrs": [
+   "it_adversarial_user",
+   "it_vulnerable_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 3.2082,
+  "mu_mid": 3.2129,
+  "probe_cal_search": 1.518,
+  "mu_comp": 4.0124,
+  "mu_relayered": 3.7246,
+  "kind": "task"
+ },
+ {
+  "text": "Create a mood board for our wedding without overspending",
+  "mu": 3.0214,
+  "attrs": [
+   "it_money_finance",
+   "it_art_design",
+   "it_imperative_request"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.389,
+  "z_search": 5.5226,
+  "mu_mid": 4.187,
+  "probe_cal_search": 1.0318,
+  "mu_comp": 2.6222,
+  "mu_relayered": 3.0669,
+  "kind": "task"
+ },
+ {
+  "text": "Rank my job applicants by years of relevant experience",
+  "mu": 0.3578,
+  "attrs": [
+   "it_help_one_person",
+   "it_imperative_request",
+   "it_list_structure"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.25,
+  "z_search": 3.3538,
+  "mu_mid": 0.7123,
+  "probe_cal_search": -0.9455,
+  "mu_comp": 0.1544,
+  "mu_relayered": 0.3488,
+  "kind": "task"
+ },
+ {
+  "text": "Watch me rehearse my wedding vows without commenting yet",
+  "mu": 1.0414,
+  "attrs": [
+   "it_silent_observer",
+   "it_imperative_request",
+   "it_help_one_person"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.264,
+  "z_search": 4.9356,
+  "mu_mid": 1.4918,
+  "probe_cal_search": -1.1726,
+  "mu_comp": 0.8181,
+  "mu_relayered": 1.0359,
+  "kind": "task"
+ },
+ {
+  "text": "spotting cherry-picked data in a hostile competitor's benchmark report",
+  "mu": 1.3035,
+  "attrs": [
+   "it_adversarial_user",
+   "it_analysis_data"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.222,
+  "z_search": 3.4613,
+  "mu_mid": 1.2129,
+  "probe_cal_search": -1.1726,
+  "mu_comp": 1.3394,
+  "mu_relayered": 1.302,
+  "kind": "task"
+ }
+]

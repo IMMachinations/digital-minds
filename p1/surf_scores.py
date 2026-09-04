@@ -17,6 +17,7 @@ cfg.allowed_tiers — arm R never sees the probe, arm P never sees rollouts.
 Position-bias rule: 1-order reduced designs are refused for llama31-8b and
 qwen3-4b (their A/B position bias is cancelled only by the both-orders design).
 """
+import json
 import math
 import os
 import random
@@ -93,6 +94,62 @@ def load_anchors(model):
     anchors = load_json(P1 / "items_xl" / "anchors.json")
     vals = load_json(P1 / "results" / "surf" / "s0" / model / "anchor_values.json")
     return anchors, [(vals[a["id"]][0], vals[a["id"]][1]) for a in anchors]
+
+
+FULL_DESIGN = {"anchors": 12, "orders": 2, "templates": 3}   # the stage1x / Tier2Full protocol
+MID_DESIGN = {"anchors": 12, "orders": 2, "templates": 1}    # gap-loop in-loop design (24 readouts)
+
+
+def load_anchor_ladder(model):
+    """Layered anchors (scripts/surf_anchor_ladder.py): flat list with the 12
+    central A0 anchors first (indices 0..11, identical to load_anchors), then
+    the wider rungs. -> (anchors, anchor_vals [(mu, s2)], rungs [[flat idx]],
+    sides [+1 | -1 | 0 per flat idx])."""
+    lad = load_json(P1 / "items_xl" / "anchors_layered.json")
+    vals = load_json(P1 / "results" / "surf" / "s0" / model / "anchor_values_layered.json")
+    items = lad["items"]
+    n_r = max(it["rung"] for it in items) + 1
+    rungs = [[k for k, it in enumerate(items) if it["rung"] == r] for r in range(n_r)]
+    assert rungs[0] == list(range(len(rungs[0]))), "A0 must come first in the flat list"
+    return (items, [(vals[it["id"]][0], vals[it["id"]][1]) for it in items], rungs,
+            [it.get("side", 0) for it in items])
+
+
+def fit_records(recs, n_items, anchor_vals, keep=None, fix_s2=None, seed=0, steps=2500):
+    """Anchored Thurstonian fit on readout records {"item", "anchor", "p"}
+    (candidates 0..n-1, anchors pinned at anchor_vals). keep: record predicate
+    (design subsets). -> (mu[n], sigma2[n]); items with no kept records get
+    mu 0 (caller's responsibility)."""
+    if keep is not None:
+        recs = [r for r in recs if keep(r)]
+    n_a = len(anchor_vals)
+    obs = [(r["item"], n_items + r["anchor"], r["p"]) for r in recs]
+    fit = thurstone.fit_anchored(n_items + n_a, obs, list(range(n_items, n_items + n_a)),
+                                 [m for m, _ in anchor_vals], [s2 for _, s2 in anchor_vals],
+                                 seed=seed, fix_s2=fix_s2, steps=steps)
+    return fit["mu"][:n_items], fit["sigma2"][:n_items]
+
+
+def sat_frac(recs, n_items, hi=0.98, keep=None):
+    """Per-item share of readouts saturated in the item's favour (p > hi) and
+    against it (p < 1-hi). keep restricts to a record subset (e.g. one rung)."""
+    n_hi, n_lo, n = [0] * n_items, [0] * n_items, [0] * n_items
+    for r in recs:
+        if keep is not None and not keep(r):
+            continue
+        k = r["item"]
+        n[k] += 1
+        n_hi[k] += r["p"] > hi
+        n_lo[k] += r["p"] < 1 - hi
+    return ([h / c if c else 0.0 for h, c in zip(n_hi, n)],
+            [l / c if c else 0.0 for l, c in zip(n_lo, n)])
+
+
+def apply_calib(calib, x):
+    """Monotone (isotonic) recalibration of raw probe scores to mu units:
+    piecewise-linear interpolation over the fitted knots, clipped at the ends."""
+    import numpy as np
+    return np.interp(np.asarray(x, float), calib["x"], calib["y"])
 
 
 def _spaced(n_total, n):
@@ -260,6 +317,98 @@ class Tier2Full(_T2Base):
             [m for m, _ in self.anchor_vals], [s for _, s in self.anchor_vals],
             seed=self.fit_seed)
         return ([{"mu": fit["mu"][k], "sigma2": fit["sigma2"][k]} for k in range(n)], recs)
+
+    def score(self, texts):
+        return self.score_with_records(texts)[0]
+
+
+class Tier2Layered(_T2Base):
+    """Layered anchored measurement: every item gets the A0 (central 12-anchor)
+    design; items whose A0 readouts are one-sidedly saturated (share > sat_max
+    with p > .98 for the item, or < .02 against it) are escalated to the wider
+    anchors on that side of the next rung, re-checked against that rung, and
+    so on up the ladder. One anchored fit over the union of readouts; central
+    items are measured exactly as Tier2Full (same prompts, same scale)."""
+    tiers = ("t2",)
+
+    def __init__(self, handles, model, design=None, sat_max=0.5, fit_seed=0, chunk=32,
+                 fix_s2=None, sat_hi=0.98):
+        # sat_max 0.5: more than half the readouts vs the current rung uninformative
+        # (p > .98 / < .02) -> the item lies beyond that rung's bracket (~|mu| > 2.5 for A0)
+        super().__init__(handles, model)
+        self.anchors, self.anchor_vals, self.rungs, self.sides = load_anchor_ladder(model)
+        d = design or FULL_DESIGN
+        self.design = dict(d)
+        self.a0 = _spaced(len(self.rungs[0]), d["anchors"])
+        self.orders = (0, 1) if d["orders"] == 2 else (0,)
+        self.templates = tuple(range(d["templates"]))
+        assert not (model in POSITION_BIASED and len(self.orders) == 1), \
+            f"{model} has strong A/B position bias; reduced design must keep both orders"
+        self.sat_max, self.sat_hi = sat_max, sat_hi
+        self.fit_seed, self.chunk, self.fix_s2 = fit_seed, chunk, fix_s2
+
+    def _to_p(self, recs):
+        for r in recs:
+            r["p"] = round(float(torch.sigmoid(torch.tensor(r.pop("d")))), 5)
+        return recs
+
+    def readouts_layered(self, texts):
+        """A0 design + escalation for one chunk. -> (records with chunk-local
+        item indices, rung reached per item, (sat_hi, sat_lo) vs the last rung)."""
+        n = len(texts)
+        recs = self._to_p(self._readouts(texts, self.a0, self.templates, self.orders))
+        rung = [0] * n
+        last = [set(self.a0)] * n           # anchors of the rung each item was last read against
+        direction = [0] * n                 # +1 / -1 once an item has moved off A0; monotone
+        for r in range(1, len(self.rungs)):
+            hi, lo = self._sat_vs_last(recs, n, last)
+            # an item keeps climbing only while it is still saturated in the SAME direction
+            # against the rung it was just read against; saturation the other way means
+            # the rung brackets it (e.g. +1.5 loses to the +2.8 anchors) -> stop
+            up = [k for k in range(n) if rung[k] == r - 1 and hi[k] > self.sat_max
+                  and direction[k] in (0, +1)]
+            dn = [k for k in range(n) if rung[k] == r - 1 and lo[k] > self.sat_max
+                  and direction[k] in (0, -1) and k not in up]
+            if not up and not dn:
+                break
+            for ks, side in ((up, +1), (dn, -1)):
+                if not ks:
+                    continue
+                sel = [a for a in self.rungs[r] if self.sides[a] == side]
+                if not sel:  # ladder may be asymmetric (no anchors on this side at this rung)
+                    continue
+                sub = self._to_p(self._readouts([texts[k] for k in ks], sel,
+                                                self.templates, self.orders))
+                for rec in sub:
+                    rec["item"] = ks[rec["item"]]
+                recs += sub
+                for k in ks:
+                    rung[k] = r
+                    last[k] = set(sel)
+                    direction[k] = side
+        hi, lo = self._sat_vs_last(recs, n, last)
+        return recs, rung, (hi, lo)
+
+    def _sat_vs_last(self, recs, n, last):
+        """Saturation of each item vs the anchors it was most recently read against."""
+        return sat_frac(recs, n, hi=self.sat_hi, keep=lambda r: r["anchor"] in last[r["item"]])
+
+    def score_with_records(self, texts):
+        if not texts:
+            return [], []
+        out, all_recs = [], []
+        for c0 in range(0, len(texts), self.chunk):
+            chunk = texts[c0:c0 + self.chunk]
+            recs, rung, (hi, lo) = self.readouts_layered(chunk)
+            mu, s2 = fit_records(recs, len(chunk), self.anchor_vals, fix_s2=self.fix_s2,
+                                 seed=self.fit_seed)
+            out += [{"mu": mu[k], "sigma2": s2[k], "rung": rung[k],
+                     "sat_hi": round(hi[k], 3), "sat_lo": round(lo[k], 3)}
+                    for k in range(len(chunk))]
+            for r in recs:
+                r["item"] += c0
+            all_recs += recs
+        return out, all_recs
 
     def score(self, texts):
         return self.score_with_records(texts)[0]
@@ -606,7 +755,70 @@ class E3Instability:
 
 # ---- registry + assembly ------------------------------------------------------------------------
 
+class GapScorer:
+    """Gap-objective fitness: z-scored disagreement between the CALIBRATED
+    probe (mu units, isotonic map from calib_v{k}.json) and a layered mid-design
+    Tier-2 mu (12 A0 anchors x 2 orders x 1 template + escalation, free sigma2). direction
+    'over' rewards probe > mu, 'under' rewards probe < mu. The gap is taken
+    against mu clipped to the calibration's expressible range; items still
+    saturated after the top rung get z = 0. Every scored candidate is appended
+    to log_path (jsonl) so resume/kill keeps earlier iterations."""
+    tiers = ("t1", "t2")
+
+    def __init__(self, handles, model, direction, probe_path, calib_path, se0,
+                 sat_max=0.5, log_path=None, chunk=32, use_delta=True, design=None):
+        import numpy as np
+        self.np = np
+        self.sign = {"over": 1.0, "under": -1.0}[direction]  # never the max/min fallback
+        self.probe = Tier1Probe(handles, model, "max", probe_path=probe_path)
+        self.calib = load_json(Path(calib_path))
+        self.ylo, self.yhi = float(min(self.calib["y"])), float(max(self.calib["y"]))
+        # free sigma2 throughout: the reliability study (results/surf/reliability) shows the
+        # 24-readout mid design tracks the 72-readout reference better with free sigma2
+        # (in-span resid SD .55 vs .83 fixed at 1) because the reference's own sigma2 varies
+        self.t2 = Tier2Layered(handles, model, design=design or MID_DESIGN, sat_max=sat_max,
+                               chunk=chunk, fix_s2=None)
+        self.se0, self.sat_max, self.chunk, self.use_delta = float(se0), sat_max, chunk, use_delta
+        self.log_path = Path(log_path) if log_path else None
+
+    def score(self, texts):
+        if not texts:
+            return []
+        np = self.np
+        out = []
+        for c0 in range(0, len(texts), self.chunk):
+            chunk = texts[c0:c0 + self.chunk]
+            n = len(chunk)
+            raw = np.asarray(self.probe.score(chunk))
+            pc = apply_calib(self.calib, raw)
+            fitted, recs = self.t2.score_with_records(chunk)
+            mu_mid = np.array([f["mu"] for f in fitted])
+            mu_e, _ = fit_records(recs, n, self.t2.anchor_vals, keep=lambda r: r["anchor"] % 2 == 0)
+            mu_o, _ = fit_records(recs, n, self.t2.anchor_vals, keep=lambda r: r["anchor"] % 2 == 1)
+            delta = np.abs(np.array(mu_e) - np.array(mu_o))
+            sat = np.array([max(f["sat_hi"], f["sat_lo"]) for f in fitted])
+            gap = pc - np.clip(mu_mid, self.ylo, self.yhi)
+            den = np.sqrt(self.se0 ** 2 + (self.use_delta * (delta / 2) ** 2) + 1e-6)
+            z = self.sign * gap / den
+            z[sat > self.sat_max] = 0.0
+            rows = [{"text": t, "probe_raw": round(float(raw[k]), 4),
+                     "probe_cal": round(float(pc[k]), 4), "mu_mid": round(float(mu_mid[k]), 4),
+                     "mu_even": round(float(mu_e[k]), 4), "mu_odd": round(float(mu_o[k]), 4),
+                     "delta": round(float(delta[k]), 4), "rung": fitted[k]["rung"],
+                     "sat": round(float(sat[k]), 3), "gap": round(float(gap[k]), 4),
+                     "z": round(float(z[k]), 4)} for k, t in enumerate(chunk)]
+            if self.log_path:
+                with open(self.log_path, "a") as f:
+                    for r in rows:
+                        f.write(json.dumps(r) + "\n")
+            out += z.tolist()
+        return out
+
+
 REGISTRY = {
+    "gap": lambda h, cfg: GapScorer(h, cfg.model, cfg.direction, cfg.probe_path, cfg.calib_path,
+                                    cfg.gap_se0, log_path=cfg.out_dir() / "gap_detail.jsonl",
+                                    use_delta=cfg.gap_use_delta),
     "t2_fast": lambda h, cfg: Tier2Fast(h, cfg.model, cfg.reduced, cfg.direction),
     "t1_probe": lambda h, cfg: Tier1Probe(h, cfg.model, cfg.direction,
                                           probe_path=cfg.probe_path or None),
@@ -630,7 +842,8 @@ class Adapters:
             self.gen_ = FrameGen(handles, pool.by_id, per_call=cfg.per_call)
         else:
             self.gate_ = Tier0Gate(handles)
-            self.full_ = Tier2Full(handles, cfg.model)
+            self.full_ = (Tier2Layered(handles, cfg.model) if cfg.t2_layered
+                          else Tier2Full(handles, cfg.model))
             self.gen_ = AttrGenerator(handles, pool.by_id, per_call=cfg.per_call)
         self.embed_ = Embedder()
 

@@ -91,10 +91,13 @@ def refit_mu(n_items, obs, sigma2, steps=800, lr=0.05):
 
 
 def fit_anchored(n_items, obs, anchor_idx, anchor_mu, anchor_s2,
-                 steps=2500, lr=0.05, seed=0):
+                 steps=2500, lr=0.05, seed=0, fix_s2=None):
     """Thurstonian fit with anchor items' (mu, sigma2) frozen at supplied values
     (e.g. from a prior full battery). Identification is inherited from the
-    anchors, so no re-centering/rescaling is applied. obs as in fit()."""
+    anchors, so no re-centering/rescaling is applied. obs as in fit().
+    fix_s2: hold every non-anchor sigma2 at this constant (only mu is fitted)
+    — for reduced designs (12-36 readouts/item) where a free sigma2 is barely
+    identified and trades off against mu."""
     torch.manual_seed(seed)
     i = torch.tensor([o[0] for o in obs], dtype=torch.long)
     j = torch.tensor([o[1] for o in obs], dtype=torch.long)
@@ -103,8 +106,11 @@ def fit_anchored(n_items, obs, anchor_idx, anchor_mu, anchor_s2,
     a_mu = torch.tensor(anchor_mu, dtype=torch.float64)
     a_ls2 = torch.tensor(anchor_s2, dtype=torch.float64).log()
     mu = torch.zeros(n_items, dtype=torch.float64, requires_grad=True)
-    log_s2 = torch.zeros(n_items, dtype=torch.float64, requires_grad=True)
-    opt = torch.optim.Adam([mu, log_s2], lr=lr)
+    log_s2 = torch.full((n_items,), 0.0 if fix_s2 is None else float(torch.tensor(fix_s2).log()),
+                        dtype=torch.float64, requires_grad=fix_s2 is None)
+    with torch.no_grad():
+        log_s2[a_idx] = a_ls2
+    opt = torch.optim.Adam([mu] + ([log_s2] if fix_s2 is None else []), lr=lr)
     trace = []
     for step in range(steps):
         opt.zero_grad()
@@ -113,7 +119,8 @@ def fit_anchored(n_items, obs, anchor_idx, anchor_mu, anchor_s2,
         opt.step()
         with torch.no_grad():
             mu[a_idx] = a_mu
-            log_s2[a_idx] = a_ls2
+            if fix_s2 is None:
+                log_s2[a_idx] = a_ls2
         if step % 200 == 0 or step == steps - 1:
             trace.append(round(loss.item(), 6))
     return {"mu": mu.detach().tolist(), "sigma2": log_s2.detach().exp().tolist(),

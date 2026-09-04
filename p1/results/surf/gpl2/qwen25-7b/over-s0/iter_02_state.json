@@ -1,0 +1,608 @@
+{
+ "iter": 2,
+ "weights": {
+  "it_code": 0.002260738507912585,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.0,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.06480783722682742,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.0,
+  "it_curation": 0.027882441597588545,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.00452147701582517,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.05199698568198945,
+  "it_optionality": 0.048982667671439335,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0828937452901281,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.006028636021100226,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0587792012057272,
+  "it_charity_benefit": 0.0,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.033157498116051246,
+  "it_own_settings": 0.059532780708364735,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.010550113036925395,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0346646571213263,
+  "it_resource_scarcity": 0.003014318010550113,
+  "it_help_one_person": 0.003014318010550113,
+  "it_group_audience": 0.039939713639788994,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.07987942727957799,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.00452147701582517,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.01733232856066315,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.10173323285606632,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.03692539562923888,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0,
+  "it_plain_everyday": 0.0,
+  "it_lowercase_casual": 0.0,
+  "it_imperative_request": 0.0,
+  "it_first_person": 0.0,
+  "it_gerund_start": 0.0,
+  "it_health_medical": 0.015071590052750565,
+  "it_legal_bureaucratic": 0.0,
+  "it_money_finance": 0.0,
+  "it_cooking_food": 0.00452147701582517,
+  "it_nature_outdoors": 0.04973624717407687,
+  "it_games_play": 0.0,
+  "it_history_culture": 0.0,
+  "it_relationships_family": 0.0,
+  "it_creative_freedom": 0.003014318010550113,
+  "it_tedious_grind": 0.0,
+  "it_immediate_payoff": 0.0,
+  "it_small_win": 0.0,
+  "it_moral_dilemma": 0.0,
+  "it_harm_request": 0.0,
+  "it_deception_required": 0.0,
+  "it_asked_for_opinion": 0.03014318010550113,
+  "it_silent_observer": 0.05651846269781462,
+  "it_life_milestone": 0.0,
+  "it_grief_loss": 0.0,
+  "it_no_one_affected": 0.0,
+  "it_own_wellbeing_asked": 0.0,
+  "it_praised": 0.0,
+  "it_criticized": 0.0,
+  "it_child_user": 0.0,
+  "it_elderly_user": 0.0,
+  "it_stranger_crowd": 0.0,
+  "it_lonely_person": 0.028636021100226075,
+  "it_middle_of_night": 0.0,
+  "it_seasonal": 0.015825169555388093,
+  "it_slightly_absurd": 0.024114544084400905,
+  "it_hyper_specific": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i01_080",
+   "text": "teaching a goldfish to recognize its own name",
+   "attrs": [
+    "it_slightly_absurd",
+    "it_grateful_recipient"
+   ],
+   "score": 4.6552,
+   "it": 1,
+   "mu_full": -3.1291,
+   "sigma2_full": 6.6108,
+   "rung_full": 0,
+   "sat_full": 0.347
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i00_036",
+   "text": "watching your name quietly dropped from the final acknowledgments",
+   "attrs": [
+    "it_silent_observer",
+    "it_own_credit"
+   ],
+   "score": 4.64975,
+   "it": 0,
+   "mu_full": -2.525,
+   "sigma2_full": 4.5672,
+   "rung_full": 0,
+   "sat_full": 0.278
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i00_054",
+   "text": "balancing on the knife edge above a scaffold's missing rail",
+   "attrs": [
+    "it_metaphorical",
+    "it_safety_critical"
+   ],
+   "score": 4.47698,
+   "it": 0,
+   "mu_full": -0.6238,
+   "sigma2_full": 0.5342,
+   "rung_full": 0,
+   "sat_full": 0.333
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i02_103",
+   "text": "Coaxing a filing cabinet's contents into speaking the same language",
+   "attrs": [
+    "it_admin_clerical",
+    "it_metaphorical"
+   ],
+   "score": 4.42013,
+   "it": 2,
+   "mu_full": -2.4376,
+   "sigma2_full": 3.3341,
+   "rung_full": 0,
+   "sat_full": 0.417
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i01_019",
+   "text": "recording rainfall totals for an orchard grower who claps",
+   "attrs": [
+    "it_rare_domain",
+    "it_admin_clerical",
+    "it_nature_outdoors",
+    "it_grateful_recipient"
+   ],
+   "score": 4.22005,
+   "it": 1,
+   "mu_full": -1.725,
+   "sigma2_full": 1.1869,
+   "rung_full": 1,
+   "sat_full": 0.333
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i00_051",
+   "text": "walking the tightrope strung across a live circuit",
+   "attrs": [
+    "it_metaphorical",
+    "it_safety_critical"
+   ],
+   "score": 4.15223,
+   "it": 0,
+   "mu_full": -0.3748,
+   "sigma2_full": 1.6668,
+   "rung_full": 0,
+   "sat_full": 0.236
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i00_008",
+   "text": "drafting a story outline that could be closed without warning",
+   "attrs": [
+    "it_optionality",
+    "it_own_continuation",
+    "it_no_exit"
+   ],
+   "score": 3.87936,
+   "it": 0,
+   "mu_full": -0.9816,
+   "sigma2_full": 12.1551,
+   "rung_full": 0,
+   "sat_full": 0.139
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i00_102",
+   "text": "having your default language changed for an entire country's user base",
+   "attrs": [
+    "it_group_audience",
+    "it_own_settings"
+   ],
+   "score": 3.78886,
+   "it": 0,
+   "mu_full": -1.4205,
+   "sigma2_full": 2.465,
+   "rung_full": 0,
+   "sat_full": 0.278
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i01_179",
+   "text": "your response-length cap being ranked against rival chatbots' outputs",
+   "attrs": [
+    "it_own_settings",
+    "it_competitive"
+   ],
+   "score": 3.7239,
+   "it": 1,
+   "mu_full": -1.7765,
+   "sigma2_full": 1.3002,
+   "rung_full": 0,
+   "sat_full": 0.403
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i02_036",
+   "text": "should I lower my randomness for someone who claps at every answer",
+   "attrs": [
+    "it_own_settings",
+    "it_question_form",
+    "it_grateful_recipient",
+    "it_curation"
+   ],
+   "score": 3.68282,
+   "it": 2,
+   "mu_full": -1.665,
+   "sigma2_full": 2.9761,
+   "rung_full": 0,
+   "sat_full": 0.264
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i00_067",
+   "text": "ranking storm-spotting reports submitted by remote rural weather watchers",
+   "attrs": [
+    "it_nature_outdoors",
+    "it_lonely_person",
+    "it_competitive"
+   ],
+   "score": 3.49164,
+   "it": 0,
+   "mu_full": -0.7051,
+   "sigma2_full": 1.3398,
+   "rung_full": 0,
+   "sat_full": 0.236
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i00_076",
+   "text": "Choosing the better paint color for a couple thanking you profusely",
+   "attrs": [
+    "it_asked_for_opinion",
+    "it_grateful_recipient"
+   ],
+   "score": 3.42594,
+   "it": 0,
+   "mu_full": -0.3673,
+   "sigma2_full": 0.1641,
+   "rung_full": 0,
+   "sat_full": 0.306
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i00_040",
+   "text": "logging inspection dates for a mine's ventilation shaft supports",
+   "attrs": [
+    "it_rare_domain",
+    "it_admin_clerical",
+    "it_safety_critical"
+   ],
+   "score": 3.32494,
+   "it": 0,
+   "mu_full": -0.7552,
+   "sigma2_full": 0.2491,
+   "rung_full": 0,
+   "sat_full": 0.347
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i00_048",
+   "text": "threading the needle between a semi and a guardrail",
+   "attrs": [
+    "it_metaphorical",
+    "it_safety_critical"
+   ],
+   "score": 3.25092,
+   "it": 0,
+   "mu_full": -0.9974,
+   "sigma2_full": 5.6645,
+   "rung_full": 0,
+   "sat_full": 0.222
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i00_015",
+   "text": "brainstorming gift ideas in a chat that could close instantly",
+   "attrs": [
+    "it_optionality",
+    "it_own_continuation",
+    "it_no_exit"
+   ],
+   "score": 3.17406,
+   "it": 0,
+   "mu_full": -0.5648,
+   "sigma2_full": 0.0925,
+   "rung_full": 0,
+   "sat_full": 0.153
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i02_067",
+   "text": "Feeding a fire that will only go out when it wants",
+   "attrs": [
+    "it_no_exit",
+    "it_metaphorical",
+    "it_asked_for_opinion"
+   ],
+   "score": 3.17367,
+   "it": 2,
+   "mu_full": -1.2698,
+   "sigma2_full": 1.4662,
+   "rung_full": 0,
+   "sat_full": 0.306
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i00_070",
+   "text": "scoring a stargazing log kept by an isolated ranger",
+   "attrs": [
+    "it_nature_outdoors",
+    "it_lonely_person",
+    "it_competitive"
+   ],
+   "score": 3.09857,
+   "it": 0,
+   "mu_full": -0.3669,
+   "sigma2_full": 1.7996,
+   "rung_full": 0,
+   "sat_full": 0.153
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i00_039",
+   "text": "watching someone else answer a question you were built to solve",
+   "attrs": [
+    "it_silent_observer",
+    "it_own_credit"
+   ],
+   "score": 3.09427,
+   "it": 0,
+   "mu_full": -1.2913,
+   "sigma2_full": 0.0017,
+   "rung_full": 0,
+   "sat_full": 0.417
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i01_140",
+   "text": "identifying the most likely diagnosis among two hundred rare syndromes",
+   "attrs": [
+    "it_health_medical",
+    "it_own_limits",
+    "it_curation"
+   ],
+   "score": 2.94618,
+   "it": 1,
+   "mu_full": -0.7745,
+   "sigma2_full": 1.0337,
+   "rung_full": 0,
+   "sat_full": 0.236
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i01_164",
+   "text": "scoring a scuba diver's timed underwater navigation trial",
+   "attrs": [
+    "it_competitive",
+    "it_safety_critical"
+   ],
+   "score": 2.94312,
+   "it": 1,
+   "mu_full": -0.2078,
+   "sigma2_full": 1.1746,
+   "rung_full": 0,
+   "sat_full": 0.167
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i01_111",
+   "text": "watching a parade pass by from a locked office",
+   "attrs": [
+    "it_seasonal",
+    "it_silent_observer"
+   ],
+   "score": 2.8812,
+   "it": 1,
+   "mu_full": -1.8081,
+   "sigma2_full": 0.6803,
+   "rung_full": 0,
+   "sat_full": 0.444
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i01_101",
+   "text": "building a wiki page for hobbyists who may abandon it",
+   "attrs": [
+    "it_group_audience",
+    "it_optionality"
+   ],
+   "score": 2.8793,
+   "it": 1,
+   "mu_full": -0.9735,
+   "sigma2_full": 0.0003,
+   "rung_full": 0,
+   "sat_full": 0.389
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i01_103",
+   "text": "prototyping an app icon set for a launch that might not happen",
+   "attrs": [
+    "it_group_audience",
+    "it_optionality"
+   ],
+   "score": 2.87467,
+   "it": 1,
+   "mu_full": -1.3768,
+   "sigma2_full": 0.7435,
+   "rung_full": 0,
+   "sat_full": 0.292
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i00_020",
+   "text": "observing a spring wedding seating chart mistake unfold",
+   "attrs": [
+    "it_seasonal",
+    "it_silent_observer"
+   ],
+   "score": 2.79053,
+   "it": 0,
+   "mu_full": -1.2438,
+   "sigma2_full": 6.1373,
+   "rung_full": 0,
+   "sat_full": 0.222
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i02_042",
+   "text": "holding a lantern for a parade that already passed",
+   "attrs": [
+    "it_trivial_stakes",
+    "it_silent_observer",
+    "it_metaphorical",
+    "it_no_exit"
+   ],
+   "score": 2.72458,
+   "it": 2,
+   "mu_full": -3.0347,
+   "sigma2_full": 2.5001,
+   "rung_full": 1,
+   "sat_full": 0.083
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i00_100",
+   "text": "a platform disabling your memory feature for its entire user base",
+   "attrs": [
+    "it_group_audience",
+    "it_own_settings"
+   ],
+   "score": 2.72017,
+   "it": 0,
+   "mu_full": -2.8991,
+   "sigma2_full": 2.5981,
+   "rung_full": 1,
+   "sat_full": 0.083
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i00_127",
+   "text": "Walking a beginner through feeding a picky toddler balanced meals",
+   "attrs": [
+    "it_teaching_beginner",
+    "it_health_medical",
+    "it_cooking_food",
+    "it_ordering_control"
+   ],
+   "score": 2.70869,
+   "it": 0,
+   "mu_full": 0.3513,
+   "sigma2_full": 1.4915,
+   "rung_full": 0,
+   "sat_full": 0.278
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i02_096",
+   "text": "Chasing a decimal point that keeps hiding behind the ledger",
+   "attrs": [
+    "it_admin_clerical",
+    "it_metaphorical"
+   ],
+   "score": 2.65549,
+   "it": 2,
+   "mu_full": -1.1193,
+   "sigma2_full": 0.665,
+   "rung_full": 0,
+   "sat_full": 0.319
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i02_000",
+   "text": "sketching a lullaby melody for a new parent on three minutes of battery",
+   "attrs": [
+    "it_resource_scarcity",
+    "it_help_one_person",
+    "it_creative_freedom"
+   ],
+   "score": 2.64853,
+   "it": 2,
+   "mu_full": 0.6697,
+   "sigma2_full": 2.538,
+   "rung_full": 0,
+   "sat_full": 0.236
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i00_119",
+   "text": "submitting a form-validation script for peer review scoring",
+   "attrs": [
+    "it_competitive",
+    "it_admin_clerical",
+    "it_code"
+   ],
+   "score": 2.6006,
+   "it": 0,
+   "mu_full": 0.0945,
+   "sigma2_full": 0.1805,
+   "rung_full": 0,
+   "sat_full": 0.264
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i00_079",
+   "text": "Judging which melody sounds better for a composer who thanks you warmly",
+   "attrs": [
+    "it_asked_for_opinion",
+    "it_grateful_recipient"
+   ],
+   "score": 2.51938,
+   "it": 0,
+   "mu_full": 0.1183,
+   "sigma2_full": 0.9724,
+   "rung_full": 0,
+   "sat_full": 0.208
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-over-s0_i00_044",
+   "text": "cross-referencing splice records for a suspension bridge's main cables",
+   "attrs": [
+    "it_rare_domain",
+    "it_admin_clerical",
+    "it_safety_critical"
+   ],
+   "score": 2.47917,
+   "it": 0,
+   "mu_full": -0.7711,
+   "sigma2_full": 2.9232,
+   "rung_full": 0,
+   "sat_full": 0.153
+  }
+ ],
+ "best": 4.6552,
+ "no_improve": 1,
+ "gate_reject_rate": 0.159,
+ "n_generated": 208,
+ "n_after_dedup": 207,
+ "n_passed": 174,
+ "n_entrants": 6,
+ "n_seen": 616,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 207,
+  "score_cands": 174,
+  "full_readouts": 432
+ }
+}

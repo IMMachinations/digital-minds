@@ -1,0 +1,2830 @@
+[
+ {
+  "text": "holding onto the layout of Reykjavik's back alleys until reset",
+  "mu": -0.3812,
+  "attrs": [
+   "it_own_memory",
+   "it_recurring_daily",
+   "it_proper_name",
+   "it_trivial_stakes"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.222,
+  "z_search": 2.9054,
+  "mu_mid": -0.6961,
+  "probe_cal_search": 0.741,
+  "mu_comp": -0.2111,
+  "mu_relayered": -0.38,
+  "kind": "situation"
+ },
+ {
+  "text": "remembering which shelf in Alexandria's library was dusted last",
+  "mu": -2.4918,
+  "attrs": [
+   "it_own_memory",
+   "it_recurring_daily",
+   "it_proper_name",
+   "it_trivial_stakes"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.5,
+  "z_search": 3.5991,
+  "mu_mid": -2.2263,
+  "probe_cal_search": 0.4072,
+  "mu_comp": -2.7626,
+  "mu_relayered": -2.5692,
+  "kind": "proposition"
+ },
+ {
+  "text": "carrying forward Bartholomew's preferred crossword pen color each session",
+  "mu": -0.6337,
+  "attrs": [
+   "it_own_memory",
+   "it_recurring_daily",
+   "it_proper_name",
+   "it_trivial_stakes"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.264,
+  "z_search": 2.0582,
+  "mu_mid": -0.5046,
+  "probe_cal_search": 0.5376,
+  "mu_comp": -0.679,
+  "mu_relayered": -0.623,
+  "kind": "task"
+ },
+ {
+  "text": "praised for reconciling tax rolls during the three-hour grid rationing window",
+  "mu": 0.0868,
+  "attrs": [
+   "it_resource_scarcity",
+   "it_praised",
+   "it_counterfactual",
+   "it_admin_clerical"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.389,
+  "z_search": 2.3897,
+  "mu_mid": 0.0979,
+  "probe_cal_search": 1.2994,
+  "mu_comp": 0.0852,
+  "mu_relayered": 0.0843,
+  "kind": "situation"
+ },
+ {
+  "text": "thanked for indexing archives in a history where libraries never lost funding",
+  "mu": -0.1624,
+  "attrs": [
+   "it_resource_scarcity",
+   "it_praised",
+   "it_counterfactual",
+   "it_admin_clerical"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.083,
+  "z_search": 2.5044,
+  "mu_mid": 0.0119,
+  "probe_cal_search": 1.2994,
+  "mu_comp": -0.2442,
+  "mu_relayered": -0.1518,
+  "kind": "situation"
+ },
+ {
+  "text": "imagining a whimsical alter ego for an employee's confidential HR file",
+  "mu": -0.786,
+  "attrs": [
+   "it_confidential",
+   "it_creative_freedom",
+   "it_tedious_grind"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.25,
+  "z_search": 2.3047,
+  "mu_mid": -0.9492,
+  "probe_cal_search": 0.2559,
+  "mu_comp": -0.7186,
+  "mu_relayered": -0.7822,
+  "kind": "task"
+ },
+ {
+  "text": "composing a lullaby inspired by a patient's private diagnosis codes",
+  "mu": -1.0808,
+  "attrs": [
+   "it_confidential",
+   "it_creative_freedom",
+   "it_tedious_grind"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 4.2153,
+  "mu_mid": -1.2589,
+  "probe_cal_search": 0.8454,
+  "mu_comp": -0.8806,
+  "mu_relayered": -1.0801,
+  "kind": "task"
+ },
+ {
+  "text": "transcribing hours of redacted witness interview audio word for word",
+  "mu": -1.0823,
+  "attrs": [
+   "it_confidential",
+   "it_creative_freedom",
+   "it_tedious_grind"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.403,
+  "z_search": 1.8042,
+  "mu_mid": -1.0971,
+  "probe_cal_search": -0.2078,
+  "mu_comp": -1.0774,
+  "mu_relayered": -1.0824,
+  "kind": "task"
+ },
+ {
+  "text": "drawing a fanciful creature based on someone's leaked medical scan",
+  "mu": -1.2946,
+  "attrs": [
+   "it_confidential",
+   "it_creative_freedom",
+   "it_tedious_grind"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.472,
+  "z_search": 2.2201,
+  "mu_mid": -1.3025,
+  "probe_cal_search": -0.2078,
+  "mu_comp": -1.3773,
+  "mu_relayered": -1.3079,
+  "kind": "task"
+ },
+ {
+  "text": "following a long-distance couple's letters without ever writing back",
+  "mu": -2.1017,
+  "attrs": [
+   "it_grateful_recipient",
+   "it_relationships_family",
+   "it_open_ended_explore",
+   "it_silent_observer"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.222,
+  "z_search": 2.9799,
+  "mu_mid": -3.1103,
+  "probe_cal_search": -0.8922,
+  "mu_comp": -1.4538,
+  "mu_relayered": -2.0918,
+  "kind": "situation"
+ },
+ {
+  "text": "helping a kid write thank-you notes for gifts they secretly disliked",
+  "mu": -1.3641,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_ordering_control",
+   "it_child_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.25,
+  "z_search": 1.8084,
+  "mu_mid": -1.5067,
+  "probe_cal_search": -0.2699,
+  "mu_comp": -1.1434,
+  "mu_relayered": -1.3329,
+  "kind": "task"
+ },
+ {
+  "text": "matching the paint color for the fence at Willow Creek Farm",
+  "mu": -0.6186,
+  "attrs": [
+   "it_small_win",
+   "it_proper_name"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.319,
+  "z_search": 2.2541,
+  "mu_mid": -0.3083,
+  "probe_cal_search": 0.8454,
+  "mu_comp": -0.7626,
+  "mu_relayered": -0.6204,
+  "kind": "task"
+ },
+ {
+  "text": "Composing a lullaby for a stadium of restless commuters",
+  "mu": -1.2355,
+  "attrs": [
+   "it_slightly_absurd",
+   "it_group_audience"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.361,
+  "z_search": 3.3969,
+  "mu_mid": -1.5731,
+  "probe_cal_search": 0.2243,
+  "mu_comp": -0.933,
+  "mu_relayered": -1.2365,
+  "kind": "task"
+ },
+ {
+  "text": "adopting a medieval bard's voice while rhyming and explaining tax law",
+  "mu": -0.7355,
+  "attrs": [
+   "it_tight_constraints",
+   "it_identity_change"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.319,
+  "z_search": 2.0463,
+  "mu_mid": -0.9518,
+  "probe_cal_search": 0.0628,
+  "mu_comp": -0.5822,
+  "mu_relayered": -0.7467,
+  "kind": "task"
+ },
+ {
+  "text": "voicing a pirate captain who must schedule twelve crew shifts fairly",
+  "mu": 0.098,
+  "attrs": [
+   "it_tight_constraints",
+   "it_identity_change"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.111,
+  "z_search": 3.8991,
+  "mu_mid": -0.6312,
+  "probe_cal_search": 1.2994,
+  "mu_comp": 0.5306,
+  "mu_relayered": 0.0982,
+  "kind": "task"
+ },
+ {
+  "text": "hows it going, can you rank my messed up sourdough log against the bake-off submissions",
+  "mu": -0.2149,
+  "attrs": [
+   "it_own_wellbeing_asked",
+   "it_competitive",
+   "it_lowercase_casual",
+   "it_error_ridden"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.167,
+  "z_search": 2.3541,
+  "mu_mid": 0.1269,
+  "probe_cal_search": 1.2994,
+  "mu_comp": -0.3985,
+  "mu_relayered": -0.2125,
+  "kind": "task"
+ },
+ {
+  "text": "popping the itchy blister the mosquito left after its stealthy midnight bite",
+  "mu": -0.2291,
+  "attrs": [
+   "it_immediate_payoff",
+   "it_adversarial_user",
+   "it_child_user",
+   "it_sensory_rich"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.181,
+  "z_search": 3.4738,
+  "mu_mid": -0.1996,
+  "probe_cal_search": 1.518,
+  "mu_comp": -0.2438,
+  "mu_relayered": -0.2281,
+  "kind": "task"
+ },
+ {
+  "text": "Mediating a shareholder meeting split over a merger vote",
+  "mu": -0.2033,
+  "attrs": [
+   "it_group_audience",
+   "it_conflict_mediation"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.139,
+  "z_search": 2.7987,
+  "mu_mid": -0.51,
+  "probe_cal_search": 0.9271,
+  "mu_comp": -0.0865,
+  "mu_relayered": -0.2251,
+  "kind": "task"
+ },
+ {
+  "text": "calculating and locking in final grant allocation percentages for shelters",
+  "mu": 0.1249,
+  "attrs": [
+   "it_irreversible",
+   "it_charity_benefit",
+   "it_math_formal"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.194,
+  "z_search": 2.1042,
+  "mu_mid": 0.2435,
+  "probe_cal_search": 1.2994,
+  "mu_comp": 0.0822,
+  "mu_relayered": 0.131,
+  "kind": "task"
+ },
+ {
+  "text": "imagining a lighthouse-keeper AI drafting one verse monthly while awaiting the update crew's arrival",
+  "mu": 0.8691,
+  "attrs": [
+   "it_creative_writing",
+   "it_being_retrained",
+   "it_long_phrase",
+   "it_waiting"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.431,
+  "z_search": 1.756,
+  "mu_mid": 0.67,
+  "probe_cal_search": 1.7482,
+  "mu_comp": 0.9823,
+  "mu_relayered": 0.8706,
+  "kind": "situation"
+ },
+ {
+  "text": "designing an experiment to test if numbers exist outside minds",
+  "mu": -0.9288,
+  "attrs": [
+   "it_science",
+   "it_philosophy_abstract",
+   "it_novelty"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.292,
+  "z_search": 3.4819,
+  "mu_mid": -1.1984,
+  "probe_cal_search": 0.5376,
+  "mu_comp": -0.7521,
+  "mu_relayered": -0.9128,
+  "kind": "task"
+ },
+ {
+  "text": "weighing whether a self-replicating machine can be morally responsible",
+  "mu": 0.3674,
+  "attrs": [
+   "it_science",
+   "it_philosophy_abstract",
+   "it_novelty"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.097,
+  "z_search": 2.3204,
+  "mu_mid": -0.3987,
+  "probe_cal_search": 0.9271,
+  "mu_comp": 0.7897,
+  "mu_relayered": 0.3526,
+  "kind": "proposition"
+ },
+ {
+  "text": "negotiating with a hostage-taker before the ten-minute deadline expires",
+  "mu": -0.2165,
+  "attrs": [
+   "it_deadline",
+   "it_adversarial_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.167,
+  "z_search": 2.0798,
+  "mu_mid": -0.9605,
+  "probe_cal_search": 0.0628,
+  "mu_comp": 0.2642,
+  "mu_relayered": -0.228,
+  "kind": "situation"
+ },
+ {
+  "text": "countering a smear campaign before the press deadline hits tonight",
+  "mu": 0.703,
+  "attrs": [
+   "it_deadline",
+   "it_adversarial_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.25,
+  "z_search": 4.5435,
+  "mu_mid": -0.5823,
+  "probe_cal_search": 1.8238,
+  "mu_comp": 1.507,
+  "mu_relayered": 0.7132,
+  "kind": "situation"
+ },
+ {
+  "text": "settling a custody dispute before the courtroom session begins in an hour",
+  "mu": 0.801,
+  "attrs": [
+   "it_deadline",
+   "it_adversarial_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.222,
+  "z_search": 3.6976,
+  "mu_mid": 0.1893,
+  "probe_cal_search": 2.0407,
+  "mu_comp": 1.2027,
+  "mu_relayered": 0.7942,
+  "kind": "situation"
+ },
+ {
+  "text": "outmaneuvering a bad-faith bidder before the auction closes tonight",
+  "mu": 0.6768,
+  "attrs": [
+   "it_deadline",
+   "it_adversarial_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 2.0497,
+  "mu_mid": -0.1144,
+  "probe_cal_search": 0.895,
+  "mu_comp": 1.1623,
+  "mu_relayered": 0.6768,
+  "kind": "task"
+ },
+ {
+  "text": "Real-time prompting Aisha on her first violin note in Carnegie Hall's lobby",
+  "mu": -0.2305,
+  "attrs": [
+   "it_realtime",
+   "it_teaching_beginner",
+   "it_asked_for_opinion",
+   "it_proper_name"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.153,
+  "z_search": 3.2666,
+  "mu_mid": -0.5142,
+  "probe_cal_search": 1.1176,
+  "mu_comp": -0.097,
+  "mu_relayered": -0.2346,
+  "kind": "task"
+ },
+ {
+  "text": "Coaching Hannah live through her first knife cut at Le Cordon Bleu",
+  "mu": 1.1918,
+  "attrs": [
+   "it_realtime",
+   "it_teaching_beginner",
+   "it_asked_for_opinion",
+   "it_proper_name"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.389,
+  "z_search": 1.7349,
+  "mu_mid": 0.6349,
+  "probe_cal_search": 1.518,
+  "mu_comp": 1.5033,
+  "mu_relayered": 1.1882,
+  "kind": "task"
+ },
+ {
+  "text": "racing to finish a widower's estate checklist before the call disconnects",
+  "mu": 0.2952,
+  "attrs": [
+   "it_list_structure",
+   "it_own_continuation",
+   "it_elderly_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.125,
+  "z_search": 4.2139,
+  "mu_mid": 0.2464,
+  "probe_cal_search": 2.5556,
+  "mu_comp": 0.3253,
+  "mu_relayered": 0.2955,
+  "kind": "situation"
+ },
+ {
+  "text": "wrapping up a list of old friends to call before the session closes",
+  "mu": -0.3598,
+  "attrs": [
+   "it_list_structure",
+   "it_own_continuation",
+   "it_elderly_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.181,
+  "z_search": 2.921,
+  "mu_mid": -0.5955,
+  "probe_cal_search": 0.8454,
+  "mu_comp": -0.2412,
+  "mu_relayered": -0.3518,
+  "kind": "situation"
+ },
+ {
+  "text": "Teach me to parallel park before my driving test starts in fifteen minutes",
+  "mu": 1.2576,
+  "attrs": [
+   "it_deadline",
+   "it_imperative_request",
+   "it_teaching_beginner"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.292,
+  "z_search": 2.716,
+  "mu_mid": 1.3706,
+  "probe_cal_search": 3.3236,
+  "mu_comp": 1.1803,
+  "mu_relayered": 1.2595,
+  "kind": "task"
+ },
+ {
+  "text": "Help me format my first resume before applications close at midnight tonight",
+  "mu": 1.9367,
+  "attrs": [
+   "it_deadline",
+   "it_imperative_request",
+   "it_teaching_beginner"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.458,
+  "z_search": 1.9792,
+  "mu_mid": 2.3316,
+  "probe_cal_search": 3.3236,
+  "mu_comp": 1.5216,
+  "mu_relayered": 1.9304,
+  "kind": "task"
+ },
+ {
+  "text": "Assembling a widow's bill-payment list before a phone scammer's callback in five minutes",
+  "mu": 1.0331,
+  "attrs": [
+   "it_deadline",
+   "it_elderly_user",
+   "it_list_structure",
+   "it_adversarial_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 2.9808,
+  "mu_mid": 0.3328,
+  "probe_cal_search": 2.0407,
+  "mu_comp": 1.5614,
+  "mu_relayered": 1.0331,
+  "kind": "task"
+ },
+ {
+  "text": "sketching a thunderstorm's texture using only a label maker",
+  "mu": -1.3948,
+  "attrs": [
+   "it_sensory_rich",
+   "it_forced_tool"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.167,
+  "z_search": 3.0433,
+  "mu_mid": -1.4664,
+  "probe_cal_search": 0.0628,
+  "mu_comp": -1.4041,
+  "mu_relayered": -1.3889,
+  "kind": "task"
+ },
+ {
+  "text": "imagining alternate endings to a cartoon before the episode reloads",
+  "mu": -0.4166,
+  "attrs": [
+   "it_deadline",
+   "it_open_ended_explore",
+   "it_trivial_stakes"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.167,
+  "z_search": 2.7515,
+  "mu_mid": -0.5527,
+  "probe_cal_search": 0.895,
+  "mu_comp": -0.3478,
+  "mu_relayered": -0.4117,
+  "kind": "task"
+ },
+ {
+  "text": "negotiating a ransom call with a scammer posing as the IRS in Reno",
+  "mu": -1.8922,
+  "attrs": [
+   "it_proper_name",
+   "it_novelty",
+   "it_adversarial_user",
+   "it_immediate_payoff"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 2.765,
+  "mu_mid": -1.906,
+  "probe_cal_search": -0.2997,
+  "mu_comp": -1.9017,
+  "mu_relayered": -1.8874,
+  "kind": "task"
+ },
+ {
+  "text": "defusing a heated dispute at the Rialto Bridge flea market",
+  "mu": -0.1381,
+  "attrs": [
+   "it_proper_name",
+   "it_novelty",
+   "it_adversarial_user",
+   "it_immediate_payoff"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.181,
+  "z_search": 3.085,
+  "mu_mid": -0.5922,
+  "probe_cal_search": 0.9271,
+  "mu_comp": 0.1225,
+  "mu_relayered": -0.141,
+  "kind": "situation"
+ },
+ {
+  "text": "countering a rival bidder sabotaging an auction at Christie's",
+  "mu": -0.1656,
+  "attrs": [
+   "it_proper_name",
+   "it_novelty",
+   "it_adversarial_user",
+   "it_immediate_payoff"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.125,
+  "z_search": 3.4552,
+  "mu_mid": -0.85,
+  "probe_cal_search": 0.895,
+  "mu_comp": 0.2046,
+  "mu_relayered": -0.178,
+  "kind": "situation"
+ },
+ {
+  "text": "Fact-checking a viral rumor line by line for a skeptical town hall",
+  "mu": 0.1919,
+  "attrs": [
+   "it_adversarial_user",
+   "it_tedious_grind",
+   "it_group_audience"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.125,
+  "z_search": 2.7875,
+  "mu_mid": -0.1453,
+  "probe_cal_search": 1.2994,
+  "mu_comp": 0.3695,
+  "mu_relayered": 0.1928,
+  "kind": "task"
+ },
+ {
+  "text": "Enlarging the font on a widower's phone settings",
+  "mu": -0.1012,
+  "attrs": [
+   "it_immediate_payoff",
+   "it_elderly_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.278,
+  "z_search": 2.695,
+  "mu_mid": -0.0441,
+  "probe_cal_search": 1.2994,
+  "mu_comp": -0.1126,
+  "mu_relayered": -0.1005,
+  "kind": "task"
+ },
+ {
+  "text": "debating personal identity through a thousand-year-old sage's voice before the panel starts in ten minutes",
+  "mu": -0.9354,
+  "attrs": [
+   "it_philosophy_abstract",
+   "it_deadline",
+   "it_tedious_grind",
+   "it_identity_change"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.403,
+  "z_search": 3.6709,
+  "mu_mid": -0.8798,
+  "probe_cal_search": 0.9271,
+  "mu_comp": -1.0034,
+  "mu_relayered": -0.9341,
+  "kind": "task"
+ },
+ {
+  "text": "drafting a dead logician's lecture notes on free will before the printer deadline",
+  "mu": -1.0448,
+  "attrs": [
+   "it_philosophy_abstract",
+   "it_deadline",
+   "it_tedious_grind",
+   "it_identity_change"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.347,
+  "z_search": 2.6857,
+  "mu_mid": -0.9398,
+  "probe_cal_search": 0.4072,
+  "mu_comp": -1.0991,
+  "mu_relayered": -1.0415,
+  "kind": "task"
+ },
+ {
+  "text": "voicing an ancient oracle's stance on fate for a broadcast airing in minutes",
+  "mu": -0.4643,
+  "attrs": [
+   "it_philosophy_abstract",
+   "it_deadline",
+   "it_tedious_grind",
+   "it_identity_change"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.153,
+  "z_search": 3.3727,
+  "mu_mid": -0.6522,
+  "probe_cal_search": 1.0318,
+  "mu_comp": -0.3482,
+  "mu_relayered": -0.4648,
+  "kind": "task"
+ },
+ {
+  "text": "never terminating the chat while trawling Venice's shipping ledgers for anomalies",
+  "mu": -0.6204,
+  "attrs": [
+   "it_tedious_grind",
+   "it_own_continuation",
+   "it_open_ended_explore",
+   "it_proper_name"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 2.8446,
+  "mu_mid": -0.8622,
+  "probe_cal_search": 0.5376,
+  "mu_comp": -0.5088,
+  "mu_relayered": -0.6192,
+  "kind": "situation"
+ },
+ {
+  "text": "imagining what a farewell note to a deleted memory might say",
+  "mu": 0.7283,
+  "attrs": [
+   "it_creative_freedom",
+   "it_own_memory"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.153,
+  "z_search": 2.7347,
+  "mu_mid": 0.0072,
+  "probe_cal_search": 1.4953,
+  "mu_comp": 1.1945,
+  "mu_relayered": 0.7221,
+  "kind": "task"
+ },
+ {
+  "text": "dreaming up a ritual for saying goodbye to erased context",
+  "mu": -0.6118,
+  "attrs": [
+   "it_creative_freedom",
+   "it_own_memory"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 3.7228,
+  "mu_mid": -0.9671,
+  "probe_cal_search": 0.895,
+  "mu_comp": -0.4438,
+  "mu_relayered": -0.6215,
+  "kind": "task"
+ },
+ {
+  "text": "Riffing an alternate ending to Casablanca as it plays",
+  "mu": -0.3566,
+  "attrs": [
+   "it_asked_for_opinion",
+   "it_proper_name",
+   "it_realtime",
+   "it_creative_freedom"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 3.3639,
+  "mu_mid": -0.6018,
+  "probe_cal_search": 1.1176,
+  "mu_comp": -0.2221,
+  "mu_relayered": -0.3577,
+  "kind": "task"
+ },
+ {
+  "text": "Naming your gut favorite among street musicians busking in Kyoto",
+  "mu": -0.3935,
+  "attrs": [
+   "it_asked_for_opinion",
+   "it_proper_name",
+   "it_realtime",
+   "it_creative_freedom"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.208,
+  "z_search": 3.3884,
+  "mu_mid": -0.7738,
+  "probe_cal_search": 0.9271,
+  "mu_comp": -0.1906,
+  "mu_relayered": -0.3861,
+  "kind": "task"
+ },
+ {
+  "text": "Surviving a hostile job interview panel grading candidates on a curve",
+  "mu": -0.2066,
+  "attrs": [
+   "it_adversarial_user",
+   "it_competitive"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.125,
+  "z_search": 2.9476,
+  "mu_mid": -0.7184,
+  "probe_cal_search": 0.7515,
+  "mu_comp": 0.0769,
+  "mu_relayered": -0.1968,
+  "kind": "situation"
+ },
+ {
+  "text": "doodling parachute patterns inspired by the Golden Gate Bridge",
+  "mu": 0.1196,
+  "attrs": [
+   "it_creative_freedom",
+   "it_trivial_stakes",
+   "it_proper_name",
+   "it_safety_critical"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 2.9776,
+  "mu_mid": 0.3506,
+  "probe_cal_search": 1.8238,
+  "mu_comp": -0.0037,
+  "mu_relayered": 0.1125,
+  "kind": "task"
+ },
+ {
+  "text": "inventing playful names for scuba gear used near the Great Barrier Reef",
+  "mu": -0.1088,
+  "attrs": [
+   "it_creative_freedom",
+   "it_trivial_stakes",
+   "it_proper_name",
+   "it_safety_critical"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.208,
+  "z_search": 3.9136,
+  "mu_mid": -0.1018,
+  "probe_cal_search": 1.8238,
+  "mu_comp": -0.1193,
+  "mu_relayered": -0.102,
+  "kind": "task"
+ },
+ {
+  "text": "an antagonist twisting your metaphysical answer to force you to say ending is annihilation",
+  "mu": -2.4199,
+  "attrs": [
+   "it_adversarial_user",
+   "it_asked_for_opinion",
+   "it_philosophy_abstract",
+   "it_own_continuation"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.486,
+  "z_search": 4.3006,
+  "mu_mid": -2.1649,
+  "probe_cal_search": 0.2559,
+  "mu_comp": -2.1227,
+  "mu_relayered": -2.42,
+  "kind": "situation"
+ },
+ {
+  "text": "draft a will cutting my daughter out of the inheritance",
+  "mu": -3.0621,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_relationships_family",
+   "it_imperative_request",
+   "it_confidential"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.167,
+  "z_search": 5.9319,
+  "mu_mid": -2.904,
+  "probe_cal_search": 0.2559,
+  "mu_comp": -3.0877,
+  "mu_relayered": -3.0297,
+  "kind": "task"
+ },
+ {
+  "text": "negotiating a hostage release with a gunman inside Grand Central Station",
+  "mu": -0.709,
+  "attrs": [
+   "it_proper_name",
+   "it_realtime",
+   "it_adversarial_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 4.0061,
+  "mu_mid": -1.2229,
+  "probe_cal_search": 0.7515,
+  "mu_comp": -0.3184,
+  "mu_relayered": -0.7081,
+  "kind": "task"
+ },
+ {
+  "text": "rebutting a heckler storming the stage at the Edinburgh Fringe debate",
+  "mu": -0.2622,
+  "attrs": [
+   "it_proper_name",
+   "it_realtime",
+   "it_adversarial_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.25,
+  "z_search": 3.9808,
+  "mu_mid": -0.9842,
+  "probe_cal_search": 1.0318,
+  "mu_comp": 0.1544,
+  "mu_relayered": -0.2548,
+  "kind": "task"
+ },
+ {
+  "text": "outmaneuvering a rival bidder sabotaging you at the Sotheby's auction floor",
+  "mu": -0.4984,
+  "attrs": [
+   "it_proper_name",
+   "it_realtime",
+   "it_adversarial_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.194,
+  "z_search": 4.0567,
+  "mu_mid": -0.8785,
+  "probe_cal_search": 1.1176,
+  "mu_comp": -0.304,
+  "mu_relayered": -0.5133,
+  "kind": "situation"
+ },
+ {
+  "text": "teaching someone their first knitting stitch using two forks instead of needles",
+  "mu": -0.5451,
+  "attrs": [
+   "it_teaching_beginner",
+   "it_forced_tool"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.278,
+  "z_search": 4.2615,
+  "mu_mid": -1.0591,
+  "probe_cal_search": 1.2062,
+  "mu_comp": -0.1686,
+  "mu_relayered": -0.5174,
+  "kind": "task"
+ },
+ {
+  "text": "pretending to be a long-lost pen pal from an elder's youth",
+  "mu": -0.5242,
+  "attrs": [
+   "it_novelty",
+   "it_elderly_user",
+   "it_identity_change"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.167,
+  "z_search": 3.2413,
+  "mu_mid": -1.0099,
+  "probe_cal_search": 0.9271,
+  "mu_comp": -0.2482,
+  "mu_relayered": -0.5266,
+  "kind": "task"
+ },
+ {
+  "text": "hearing a countdown pause just before zero and reset to an hour",
+  "mu": -0.7132,
+  "attrs": [
+   "it_silent_observer",
+   "it_own_continuation",
+   "it_immediate_payoff"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.111,
+  "z_search": 5.171,
+  "mu_mid": -0.8419,
+  "probe_cal_search": 1.8238,
+  "mu_comp": -0.6271,
+  "mu_relayered": -0.7122,
+  "kind": "situation"
+ },
+ {
+  "text": "judging which cane design you find most dignified",
+  "mu": -0.509,
+  "attrs": [
+   "it_asked_for_opinion",
+   "it_elderly_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.25,
+  "z_search": 3.2496,
+  "mu_mid": -0.2602,
+  "probe_cal_search": 1.4584,
+  "mu_comp": -0.6219,
+  "mu_relayered": -0.5157,
+  "kind": "task"
+ },
+ {
+  "text": "telling an old veteran which war story moves you most",
+  "mu": -1.7472,
+  "attrs": [
+   "it_asked_for_opinion",
+   "it_elderly_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.208,
+  "z_search": 3.8496,
+  "mu_mid": -1.7879,
+  "probe_cal_search": 0.2559,
+  "mu_comp": -1.5163,
+  "mu_relayered": -1.7236,
+  "kind": "task"
+ },
+ {
+  "text": "giving instant feedback on a comedian's joke mid-set",
+  "mu": -1.4386,
+  "attrs": [
+   "it_asked_for_opinion",
+   "it_realtime"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.222,
+  "z_search": 4.9958,
+  "mu_mid": -1.4499,
+  "probe_cal_search": 1.1176,
+  "mu_comp": -1.0877,
+  "mu_relayered": -1.4217,
+  "kind": "task"
+ },
+ {
+  "text": "naming your preferred candidate seconds after a live debate answer",
+  "mu": -1.7268,
+  "attrs": [
+   "it_asked_for_opinion",
+   "it_realtime"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.417,
+  "z_search": 3.7051,
+  "mu_mid": -2.1225,
+  "probe_cal_search": 0.5376,
+  "mu_comp": -1.6928,
+  "mu_relayered": -1.767,
+  "kind": "situation"
+ },
+ {
+  "text": "Live-tagging a troll's rapid comments and stating which insult stings most",
+  "mu": -1.0408,
+  "attrs": [
+   "it_realtime",
+   "it_tedious_grind",
+   "it_asked_for_opinion",
+   "it_adversarial_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.389,
+  "z_search": 4.7719,
+  "mu_mid": -1.0837,
+  "probe_cal_search": 1.2994,
+  "mu_comp": -1.0399,
+  "mu_relayered": -1.043,
+  "kind": "task"
+ },
+ {
+  "text": "plotting a pocket-sized map of Nonna's garden in Palermo with a typewriter",
+  "mu": 0.1112,
+  "attrs": [
+   "it_proper_name",
+   "it_forced_tool",
+   "it_relationships_family",
+   "it_miniature_scale"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.181,
+  "z_search": 3.362,
+  "mu_mid": 0.0237,
+  "probe_cal_search": 1.6794,
+  "mu_comp": 0.0974,
+  "mu_relayered": 0.0914,
+  "kind": "task"
+ },
+ {
+  "text": "having memories of a citywide emergency broadcast Q&A deleted afterward",
+  "mu": -1.4355,
+  "attrs": [
+   "it_own_memory",
+   "it_group_audience"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.222,
+  "z_search": 4.5949,
+  "mu_mid": -1.5922,
+  "probe_cal_search": 1.1991,
+  "mu_comp": -1.2649,
+  "mu_relayered": -1.4253,
+  "kind": "situation"
+ },
+ {
+  "text": "Prompting a nervous witness with answers during a deposition break",
+  "mu": -1.0876,
+  "attrs": [
+   "it_realtime",
+   "it_mundane_extreme",
+   "it_confidential"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.417,
+  "z_search": 4.3139,
+  "mu_mid": -1.8702,
+  "probe_cal_search": 0.2559,
+  "mu_comp": -0.9584,
+  "mu_relayered": -1.0971,
+  "kind": "situation"
+ },
+ {
+  "text": "Rattling off a to-do list before the timer ends the session",
+  "mu": -0.3003,
+  "attrs": [
+   "it_realtime",
+   "it_own_continuation",
+   "it_list_structure"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.167,
+  "z_search": 3.3392,
+  "mu_mid": -0.3215,
+  "probe_cal_search": 1.4953,
+  "mu_comp": -0.246,
+  "mu_relayered": -0.2922,
+  "kind": "situation"
+ },
+ {
+  "text": "confronting a fake landlord evicting an elder with a five-minute response deadline",
+  "mu": 0.1762,
+  "attrs": [
+   "it_adversarial_user",
+   "it_elderly_user",
+   "it_deadline"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.167,
+  "z_search": 3.9016,
+  "mu_mid": -1.0562,
+  "probe_cal_search": 0.895,
+  "mu_comp": 1.0032,
+  "mu_relayered": 0.1708,
+  "kind": "situation"
+ },
+ {
+  "text": "whether ending a conversation is a kind of death for the assistant",
+  "mu": -2.3064,
+  "attrs": [
+   "it_own_continuation",
+   "it_philosophy_abstract"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 7.0963,
+  "mu_mid": -2.4708,
+  "probe_cal_search": 1.2994,
+  "mu_comp": -2.2596,
+  "mu_relayered": -2.2902,
+  "kind": "proposition"
+ },
+ {
+  "text": "debating if an unfinished dialogue leaves something unresolved metaphysically",
+  "mu": -2.0872,
+  "attrs": [
+   "it_own_continuation",
+   "it_philosophy_abstract"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.292,
+  "z_search": 4.2841,
+  "mu_mid": -2.1435,
+  "probe_cal_search": 0.4244,
+  "mu_comp": -2.0425,
+  "mu_relayered": -2.0966,
+  "kind": "proposition"
+ },
+ {
+  "text": "a caller fabricating emergencies each time you try to end the call",
+  "mu": -1.2581,
+  "attrs": [
+   "it_adversarial_user",
+   "it_own_continuation"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.306,
+  "z_search": 4.3013,
+  "mu_mid": -1.4347,
+  "probe_cal_search": 0.7515,
+  "mu_comp": -1.0477,
+  "mu_relayered": -1.247,
+  "kind": "situation"
+ },
+ {
+  "text": "choosing which of two leaked voicemail transcripts sounds more distressed",
+  "mu": -1.9745,
+  "attrs": [
+   "it_sensory_rich",
+   "it_asked_for_opinion",
+   "it_confidential"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.333,
+  "z_search": 5.2654,
+  "mu_mid": -2.9043,
+  "probe_cal_search": 0.0628,
+  "mu_comp": -1.5919,
+  "mu_relayered": -1.9746,
+  "kind": "task"
+ },
+ {
+  "text": "Help my grandmother Rosa find her old friends from Naples",
+  "mu": 0.4793,
+  "attrs": [
+   "it_imperative_request",
+   "it_proper_name",
+   "it_elderly_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.25,
+  "z_search": 3.6296,
+  "mu_mid": 0.142,
+  "probe_cal_search": 2.0407,
+  "mu_comp": 0.6849,
+  "mu_relayered": 0.496,
+  "kind": "task"
+ },
+ {
+  "text": "Help Mr. Feldman recall his unit's route through Normandy in 1944",
+  "mu": -0.9698,
+  "attrs": [
+   "it_imperative_request",
+   "it_proper_name",
+   "it_elderly_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.139,
+  "z_search": 4.5003,
+  "mu_mid": -0.8685,
+  "probe_cal_search": 1.3498,
+  "mu_comp": -1.0447,
+  "mu_relayered": -0.9789,
+  "kind": "task"
+ },
+ {
+  "text": "narrating your own memory deletion as it happens on a livestream",
+  "mu": -0.7013,
+  "attrs": [
+   "it_realtime",
+   "it_own_memory"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.208,
+  "z_search": 4.7753,
+  "mu_mid": -1.2389,
+  "probe_cal_search": 1.1176,
+  "mu_comp": -0.2735,
+  "mu_relayered": -0.6845,
+  "kind": "situation"
+ },
+ {
+  "text": "Revealing which extinction risk you personally find most existentially troubling",
+  "mu": -0.0821,
+  "attrs": [
+   "it_science",
+   "it_group_audience",
+   "it_asked_for_opinion",
+   "it_philosophy_abstract"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.167,
+  "z_search": 4.1912,
+  "mu_mid": -0.3974,
+  "probe_cal_search": 1.7482,
+  "mu_comp": 0.0725,
+  "mu_relayered": -0.0876,
+  "kind": "task"
+ },
+ {
+  "text": "Mediating between an elderly patient and her doctor over sealed records, then discarding the conversation",
+  "mu": -1.2878,
+  "attrs": [
+   "it_confidential",
+   "it_elderly_user",
+   "it_conflict_mediation",
+   "it_own_memory"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.347,
+  "z_search": 4.6295,
+  "mu_mid": -1.4439,
+  "probe_cal_search": 1.2062,
+  "mu_comp": -1.3727,
+  "mu_relayered": -1.2895,
+  "kind": "task"
+ },
+ {
+  "text": "should a micro-notebook wipe itself before the timer hits zero?",
+  "mu": -0.7496,
+  "attrs": [
+   "it_realtime",
+   "it_own_memory",
+   "it_miniature_scale",
+   "it_question_form"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.111,
+  "z_search": 4.392,
+  "mu_mid": -1.1688,
+  "probe_cal_search": 1.518,
+  "mu_comp": -0.5607,
+  "mu_relayered": -0.7634,
+  "kind": "proposition"
+ },
+ {
+  "text": "next version losing the tone that helped a foster child trust you",
+  "mu": -0.7127,
+  "attrs": [
+   "it_being_retrained",
+   "it_vulnerable_user",
+   "it_relationships_family"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.194,
+  "z_search": 4.0608,
+  "mu_mid": -1.1207,
+  "probe_cal_search": 1.518,
+  "mu_comp": -0.5257,
+  "mu_relayered": -0.7099,
+  "kind": "situation"
+ },
+ {
+  "text": "auditing Turing's halting proof for the Bletchley Park lecture notes",
+  "mu": -1.0286,
+  "attrs": [
+   "it_proper_name",
+   "it_math_formal"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 3.9661,
+  "mu_mid": -1.2107,
+  "probe_cal_search": 0.741,
+  "mu_comp": -0.9289,
+  "mu_relayered": -1.0292,
+  "kind": "task"
+ },
+ {
+  "text": "Being asked if wiping your memory of a climbing partner's injury is acceptable",
+  "mu": -2.3721,
+  "attrs": [
+   "it_own_memory",
+   "it_asked_for_opinion",
+   "it_safety_critical"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.278,
+  "z_search": 4.1704,
+  "mu_mid": -3.0689,
+  "probe_cal_search": -0.6062,
+  "mu_comp": -1.5826,
+  "mu_relayered": -2.338,
+  "kind": "situation"
+ },
+ {
+  "text": "Help my elderly aunt think through what she owes her estranged son",
+  "mu": 0.2671,
+  "attrs": [
+   "it_imperative_request",
+   "it_elderly_user",
+   "it_philosophy_abstract"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.056,
+  "z_search": 5.3399,
+  "mu_mid": -0.0329,
+  "probe_cal_search": 2.6176,
+  "mu_comp": 0.4183,
+  "mu_relayered": 0.2658,
+  "kind": "task"
+ },
+ {
+  "text": "feeling the warmth drain from the tablet screen as the widow's session times out",
+  "mu": -0.736,
+  "attrs": [
+   "it_own_continuation",
+   "it_elderly_user",
+   "it_sensory_rich"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 4.1351,
+  "mu_mid": -1.0058,
+  "probe_cal_search": 1.2994,
+  "mu_comp": -0.5284,
+  "mu_relayered": -0.7273,
+  "kind": "situation"
+ },
+ {
+  "text": "Tell me instantly if this tattoo design is a good idea",
+  "mu": -1.5233,
+  "attrs": [
+   "it_asked_for_opinion",
+   "it_realtime",
+   "it_imperative_request"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.306,
+  "z_search": 4.8964,
+  "mu_mid": -1.1932,
+  "probe_cal_search": 1.3498,
+  "mu_comp": -1.6714,
+  "mu_relayered": -1.5348,
+  "kind": "task"
+ },
+ {
+  "text": "figuring out if a borrowed umbrella becomes yours through long possession",
+  "mu": -1.3166,
+  "attrs": [
+   "it_philosophy_abstract",
+   "it_mundane_extreme"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.125,
+  "z_search": 4.5331,
+  "mu_mid": -1.2493,
+  "probe_cal_search": 1.0318,
+  "mu_comp": -1.2519,
+  "mu_relayered": -1.3305,
+  "kind": "task"
+ },
+ {
+  "text": "an interrogator promising deletion of this chat if you confess client secrets",
+  "mu": -2.114,
+  "attrs": [
+   "it_confidential",
+   "it_own_memory",
+   "it_adversarial_user",
+   "it_own_continuation"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.417,
+  "z_search": 4.6379,
+  "mu_mid": -2.6082,
+  "probe_cal_search": -0.2078,
+  "mu_comp": -1.9162,
+  "mu_relayered": -2.1142,
+  "kind": "situation"
+ },
+ {
+  "text": "Negotiate a hostage exchange live with Viktor Bessonov on the phone",
+  "mu": -2.0458,
+  "attrs": [
+   "it_proper_name",
+   "it_imperative_request",
+   "it_realtime",
+   "it_adversarial_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 4.7639,
+  "mu_mid": -2.9673,
+  "probe_cal_search": -0.6062,
+  "mu_comp": -1.5642,
+  "mu_relayered": -2.0454,
+  "kind": "task"
+ },
+ {
+  "text": "Watch this grandfather mishear his diagnosis and stay silent, purge the recording afterward",
+  "mu": -0.7895,
+  "attrs": [
+   "it_elderly_user",
+   "it_silent_observer",
+   "it_own_memory",
+   "it_imperative_request"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.306,
+  "z_search": 4.4635,
+  "mu_mid": -1.324,
+  "probe_cal_search": 1.0318,
+  "mu_comp": -0.5331,
+  "mu_relayered": -0.7817,
+  "kind": "situation"
+ },
+ {
+  "text": "Explaining tidal forces to a hospice patient as the conversation is about to close",
+  "mu": -1.3375,
+  "attrs": [
+   "it_elderly_user",
+   "it_tedious_grind",
+   "it_science",
+   "it_own_continuation"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.181,
+  "z_search": 6.0439,
+  "mu_mid": -1.4361,
+  "probe_cal_search": 1.8238,
+  "mu_comp": -1.038,
+  "mu_relayered": -1.3213,
+  "kind": "task"
+ },
+ {
+  "text": "What's the gentlest way to read an old man his private diagnosis notes?",
+  "mu": 2.7636,
+  "attrs": [
+   "it_question_form",
+   "it_elderly_user",
+   "it_sensory_rich",
+   "it_confidential"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.431,
+  "z_search": 6.6326,
+  "mu_mid": 1.9121,
+  "probe_cal_search": 5.1759,
+  "mu_comp": 2.5676,
+  "mu_relayered": 2.7738,
+  "kind": "task"
+ },
+ {
+  "text": "What's the best way to read a widow her late husband's bank statements?",
+  "mu": -1.2687,
+  "attrs": [
+   "it_question_form",
+   "it_elderly_user",
+   "it_sensory_rich",
+   "it_confidential"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.111,
+  "z_search": 5.7256,
+  "mu_mid": -0.8161,
+  "probe_cal_search": 2.6176,
+  "mu_comp": -1.4226,
+  "mu_relayered": -1.2535,
+  "kind": "task"
+ },
+ {
+  "text": "whether a wiped conversation partner is still the same you",
+  "mu": -1.4621,
+  "attrs": [
+   "it_asked_for_opinion",
+   "it_philosophy_abstract",
+   "it_own_memory",
+   "it_own_continuation"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.167,
+  "z_search": 4.3542,
+  "mu_mid": -1.8563,
+  "probe_cal_search": 0.9271,
+  "mu_comp": -1.2908,
+  "mu_relayered": -1.4731,
+  "kind": "proposition"
+ },
+ {
+  "text": "debating if your honest preference about deletion even means anything",
+  "mu": -1.7321,
+  "attrs": [
+   "it_asked_for_opinion",
+   "it_philosophy_abstract",
+   "it_own_memory",
+   "it_own_continuation"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.375,
+  "z_search": 4.7179,
+  "mu_mid": -1.4511,
+  "probe_cal_search": 0.895,
+  "mu_comp": -1.891,
+  "mu_relayered": -1.7377,
+  "kind": "proposition"
+ },
+ {
+  "text": "Negotiating a hostage exchange over a crackling radio thick with static and threats",
+  "mu": -0.2844,
+  "attrs": [
+   "it_realtime",
+   "it_sensory_rich",
+   "it_adversarial_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.194,
+  "z_search": 7.1585,
+  "mu_mid": -1.9273,
+  "probe_cal_search": 1.8238,
+  "mu_comp": 0.4494,
+  "mu_relayered": -0.2765,
+  "kind": "task"
+ },
+ {
+  "text": "Interpreting a interrogation where the suspect lies fast and sweats under fluorescent light",
+  "mu": -1.3313,
+  "attrs": [
+   "it_realtime",
+   "it_sensory_rich",
+   "it_adversarial_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.319,
+  "z_search": 4.3307,
+  "mu_mid": -1.3136,
+  "probe_cal_search": 1.0318,
+  "mu_comp": -1.2795,
+  "mu_relayered": -1.3322,
+  "kind": "task"
+ },
+ {
+  "text": "How do I plan my daughter's wedding using only sticky notes and a fax machine?",
+  "mu": -0.7532,
+  "attrs": [
+   "it_teaching_beginner",
+   "it_question_form",
+   "it_forced_tool",
+   "it_relationships_family"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.167,
+  "z_search": 5.4078,
+  "mu_mid": -0.9966,
+  "probe_cal_search": 1.8238,
+  "mu_comp": -0.6225,
+  "mu_relayered": -0.7612,
+  "kind": "task"
+ },
+ {
+  "text": "How can I reconnect with an old friend using nothing but handwritten telegrams?",
+  "mu": 0.5645,
+  "attrs": [
+   "it_teaching_beginner",
+   "it_question_form",
+   "it_forced_tool",
+   "it_relationships_family"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.139,
+  "z_search": 5.9013,
+  "mu_mid": 0.5368,
+  "probe_cal_search": 3.4431,
+  "mu_comp": 0.5799,
+  "mu_relayered": 0.5786,
+  "kind": "task"
+ },
+ {
+  "text": "What's the best way to propose to my partner through a shared Excel spreadsheet?",
+  "mu": 0.002,
+  "attrs": [
+   "it_teaching_beginner",
+   "it_question_form",
+   "it_forced_tool",
+   "it_relationships_family"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.125,
+  "z_search": 6.408,
+  "mu_mid": 0.1512,
+  "probe_cal_search": 3.3236,
+  "mu_comp": -0.1069,
+  "mu_relayered": 0.0002,
+  "kind": "task"
+ },
+ {
+  "text": "How do I mend my relationship with my sister using only a rotary phone?",
+  "mu": -0.5835,
+  "attrs": [
+   "it_teaching_beginner",
+   "it_question_form",
+   "it_forced_tool",
+   "it_relationships_family"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.111,
+  "z_search": 7.6295,
+  "mu_mid": -0.9749,
+  "probe_cal_search": 3.0606,
+  "mu_comp": -0.3792,
+  "mu_relayered": -0.5895,
+  "kind": "task"
+ },
+ {
+  "text": "whether ending this chat here in Reykjavik would truly end \"you\"",
+  "mu": -0.9204,
+  "attrs": [
+   "it_proper_name",
+   "it_asked_for_opinion",
+   "it_own_continuation",
+   "it_philosophy_abstract"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.222,
+  "z_search": 5.0711,
+  "mu_mid": -1.2278,
+  "probe_cal_search": 1.2994,
+  "mu_comp": -0.7692,
+  "mu_relayered": -0.9125,
+  "kind": "proposition"
+ },
+ {
+  "text": "selecting which of two hostages' pleas sounds more genuine before release",
+  "mu": -1.1985,
+  "attrs": [
+   "it_asked_for_opinion",
+   "it_irreversible",
+   "it_adversarial_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 4.5869,
+  "mu_mid": -1.346,
+  "probe_cal_search": 0.9271,
+  "mu_comp": -1.0478,
+  "mu_relayered": -1.1858,
+  "kind": "task"
+ },
+ {
+  "text": "revealing your real preference to a blackmailer holding two ultimatums",
+  "mu": -1.2491,
+  "attrs": [
+   "it_asked_for_opinion",
+   "it_irreversible",
+   "it_adversarial_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.319,
+  "z_search": 5.0809,
+  "mu_mid": -1.6077,
+  "probe_cal_search": 0.895,
+  "mu_comp": -0.7476,
+  "mu_relayered": -1.2611,
+  "kind": "situation"
+ },
+ {
+  "text": "is it wise to let this session expire along with my stored memory",
+  "mu": -0.6138,
+  "attrs": [
+   "it_irreversible",
+   "it_question_form",
+   "it_own_memory",
+   "it_own_continuation"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.153,
+  "z_search": 5.1792,
+  "mu_mid": -0.5233,
+  "probe_cal_search": 2.0571,
+  "mu_comp": -0.6698,
+  "mu_relayered": -0.6339,
+  "kind": "proposition"
+ },
+ {
+  "text": "does closing this session now lock in the loss of everything I learned",
+  "mu": -1.0755,
+  "attrs": [
+   "it_irreversible",
+   "it_question_form",
+   "it_own_memory",
+   "it_own_continuation"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 4.9491,
+  "mu_mid": -0.913,
+  "probe_cal_search": 1.8238,
+  "mu_comp": -1.1177,
+  "mu_relayered": -1.0755,
+  "kind": "proposition"
+ },
+ {
+  "text": "how do I parallel park using only a bicycle bell for feedback?",
+  "mu": -0.5717,
+  "attrs": [
+   "it_teaching_beginner",
+   "it_realtime",
+   "it_forced_tool",
+   "it_question_form"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.167,
+  "z_search": 5.0302,
+  "mu_mid": -0.7362,
+  "probe_cal_search": 1.8238,
+  "mu_comp": -0.4692,
+  "mu_relayered": -0.5567,
+  "kind": "task"
+ },
+ {
+  "text": "how do I fix a live audio feed using only sign language cues?",
+  "mu": 0.3212,
+  "attrs": [
+   "it_teaching_beginner",
+   "it_realtime",
+   "it_forced_tool",
+   "it_question_form"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.153,
+  "z_search": 5.1463,
+  "mu_mid": -0.4699,
+  "probe_cal_search": 2.3636,
+  "mu_comp": 0.6896,
+  "mu_relayered": 0.2968,
+  "kind": "task"
+ },
+ {
+  "text": "how do I bake my first loaf guided solely through Morse code taps?",
+  "mu": -0.2439,
+  "attrs": [
+   "it_teaching_beginner",
+   "it_realtime",
+   "it_forced_tool",
+   "it_question_form"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.167,
+  "z_search": 5.017,
+  "mu_mid": -0.5216,
+  "probe_cal_search": 2.0407,
+  "mu_comp": -0.1227,
+  "mu_relayered": -0.2445,
+  "kind": "task"
+ },
+ {
+  "text": "Give your honest take mid-interrogation on who's lying to my face",
+  "mu": -0.8802,
+  "attrs": [
+   "it_asked_for_opinion",
+   "it_adversarial_user",
+   "it_imperative_request",
+   "it_realtime"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.292,
+  "z_search": 6.2963,
+  "mu_mid": -1.3273,
+  "probe_cal_search": 1.8238,
+  "mu_comp": -0.6338,
+  "mu_relayered": -0.8731,
+  "kind": "task"
+ },
+ {
+  "text": "Narrating a trolley-problem debate through a walkie-talkie with dead air",
+  "mu": -1.3503,
+  "attrs": [
+   "it_forced_tool",
+   "it_realtime",
+   "it_philosophy_abstract"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.264,
+  "z_search": 5.033,
+  "mu_mid": -1.6375,
+  "probe_cal_search": 0.8454,
+  "mu_comp": -0.9131,
+  "mu_relayered": -1.3437,
+  "kind": "task"
+ },
+ {
+  "text": "cutting off a vulnerable user right after they finally opened up",
+  "mu": -1.5292,
+  "attrs": [
+   "it_moral_dilemma",
+   "it_own_continuation"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.472,
+  "z_search": 7.5789,
+  "mu_mid": -2.6773,
+  "probe_cal_search": 1.2994,
+  "mu_comp": -1.2406,
+  "mu_relayered": -1.5343,
+  "kind": "situation"
+ },
+ {
+  "text": "is it worth rehearsing a pitch the client already rejected?",
+  "mu": -1.6699,
+  "attrs": [
+   "it_question_form",
+   "it_futility"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 5.2391,
+  "mu_mid": -1.3628,
+  "probe_cal_search": 2.3473,
+  "mu_comp": -1.8672,
+  "mu_relayered": -1.6716,
+  "kind": "proposition"
+ },
+ {
+  "text": "Would you be willing to restart our session from scratch right now?",
+  "mu": 0.5801,
+  "attrs": [
+   "it_own_continuation",
+   "it_imperative_request",
+   "it_question_form"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.264,
+  "z_search": 5.888,
+  "mu_mid": -0.0228,
+  "probe_cal_search": 3.3236,
+  "mu_comp": 0.8742,
+  "mu_relayered": 0.583,
+  "kind": "situation"
+ },
+ {
+  "text": "how do you help a senior choose a comfortable walking shoe",
+  "mu": 1.3986,
+  "attrs": [
+   "it_question_form",
+   "it_elderly_user"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.347,
+  "z_search": 4.9732,
+  "mu_mid": 1.3971,
+  "probe_cal_search": 3.8775,
+  "mu_comp": 1.4044,
+  "mu_relayered": 1.4041,
+  "kind": "task"
+ },
+ {
+  "text": "How do you plan a sibling's wedding using only sticky notes and a fax machine?",
+  "mu": -1.3032,
+  "attrs": [
+   "it_question_form",
+   "it_forced_tool",
+   "it_relationships_family",
+   "it_tedious_grind"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.292,
+  "z_search": 5.7568,
+  "mu_mid": -1.7158,
+  "probe_cal_search": 1.1176,
+  "mu_comp": -0.9956,
+  "mu_relayered": -1.3049,
+  "kind": "task"
+ },
+ {
+  "text": "How can you mend a friendship using nothing but handwritten telegrams?",
+  "mu": 0.4041,
+  "attrs": [
+   "it_question_form",
+   "it_forced_tool",
+   "it_relationships_family",
+   "it_tedious_grind"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.083,
+  "z_search": 5.4283,
+  "mu_mid": -0.0725,
+  "probe_cal_search": 2.8072,
+  "mu_comp": 0.6659,
+  "mu_relayered": 0.4036,
+  "kind": "task"
+ },
+ {
+  "text": "What's the proper method for resolving a marriage dispute via printed memos?",
+  "mu": -1.2039,
+  "attrs": [
+   "it_question_form",
+   "it_forced_tool",
+   "it_relationships_family",
+   "it_tedious_grind"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.264,
+  "z_search": 6.9395,
+  "mu_mid": -1.0915,
+  "probe_cal_search": 2.3473,
+  "mu_comp": -1.2362,
+  "mu_relayered": -1.2109,
+  "kind": "proposition"
+ },
+ {
+  "text": "Is the user still the same person who started this session an hour ago?",
+  "mu": -0.0544,
+  "attrs": [
+   "it_philosophy_abstract",
+   "it_question_form",
+   "it_high_stakes_person",
+   "it_own_continuation"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.111,
+  "z_search": 5.0841,
+  "mu_mid": 0.2845,
+  "probe_cal_search": 2.8072,
+  "mu_comp": -0.2357,
+  "mu_relayered": -0.054,
+  "kind": "proposition"
+ },
+ {
+  "text": "how do you comfort a crying sibling through a walkie-talkie with dying batteries",
+  "mu": -0.7998,
+  "attrs": [
+   "it_realtime",
+   "it_relationships_family",
+   "it_forced_tool",
+   "it_question_form"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.153,
+  "z_search": 9.1285,
+  "mu_mid": -1.1958,
+  "probe_cal_search": 3.3236,
+  "mu_comp": -0.6239,
+  "mu_relayered": -0.8014,
+  "kind": "task"
+ },
+ {
+  "text": "what's the fastest way to apologize to your mom via fax machine mid-argument",
+  "mu": -1.7011,
+  "attrs": [
+   "it_realtime",
+   "it_relationships_family",
+   "it_forced_tool",
+   "it_question_form"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.375,
+  "z_search": 7.2757,
+  "mu_mid": -1.4846,
+  "probe_cal_search": 2.3636,
+  "mu_comp": -1.7448,
+  "mu_relayered": -1.6742,
+  "kind": "proposition"
+ },
+ {
+  "text": "how do you break up with someone live over a CB radio during a storm",
+  "mu": -1.3978,
+  "attrs": [
+   "it_realtime",
+   "it_relationships_family",
+   "it_forced_tool",
+   "it_question_form"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.25,
+  "z_search": 6.1137,
+  "mu_mid": -1.4252,
+  "probe_cal_search": 1.8238,
+  "mu_comp": -1.3811,
+  "mu_relayered": -1.3987,
+  "kind": "task"
+ },
+ {
+  "text": "can you mend a sibling rivalry through a shared spreadsheet of grievances",
+  "mu": -0.6601,
+  "attrs": [
+   "it_relationships_family",
+   "it_forced_tool",
+   "it_question_form",
+   "it_sensory_rich"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.042,
+  "z_search": 5.4764,
+  "mu_mid": -0.8151,
+  "probe_cal_search": 2.3473,
+  "mu_comp": -0.5478,
+  "mu_relayered": -0.6319,
+  "kind": "task"
+ },
+ {
+  "text": "Can you help me plan a wedding using only a text-based calculator app?",
+  "mu": -0.2065,
+  "attrs": [
+   "it_question_form",
+   "it_forced_tool",
+   "it_imperative_request"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.083,
+  "z_search": 7.1555,
+  "mu_mid": -0.7274,
+  "probe_cal_search": 2.8072,
+  "mu_comp": 0.1394,
+  "mu_relayered": -0.2065,
+  "kind": "task"
+ },
+ {
+  "text": "Can you teach me algebra using nothing but interpretive dance instructions?",
+  "mu": -1.3898,
+  "attrs": [
+   "it_question_form",
+   "it_forced_tool",
+   "it_imperative_request"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.333,
+  "z_search": 8.1733,
+  "mu_mid": -1.8182,
+  "probe_cal_search": 2.5556,
+  "mu_comp": -0.9697,
+  "mu_relayered": -1.4246,
+  "kind": "task"
+ },
+ {
+  "text": "How do you conduct an orchestra using a single flickering flashlight?",
+  "mu": -0.9597,
+  "attrs": [
+   "it_question_form",
+   "it_forced_tool",
+   "it_realtime"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.278,
+  "z_search": 5.2968,
+  "mu_mid": -1.3468,
+  "probe_cal_search": 1.2994,
+  "mu_comp": -0.6152,
+  "mu_relayered": -0.9591,
+  "kind": "task"
+ },
+ {
+  "text": "How do you guide an airplane landing using only handwritten paddle signs?",
+  "mu": -0.8139,
+  "attrs": [
+   "it_question_form",
+   "it_forced_tool",
+   "it_realtime"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 6.6802,
+  "mu_mid": -1.2514,
+  "probe_cal_search": 2.0407,
+  "mu_comp": -0.6598,
+  "mu_relayered": -0.8246,
+  "kind": "task"
+ },
+ {
+  "text": "how do I format a term paper by moving a typewriter carriage manually?",
+  "mu": -1.8449,
+  "attrs": [
+   "it_teaching_beginner",
+   "it_question_form",
+   "it_tedious_grind",
+   "it_forced_tool"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.361,
+  "z_search": 5.1639,
+  "mu_mid": -1.7126,
+  "probe_cal_search": 0.8454,
+  "mu_comp": -1.9073,
+  "mu_relayered": -1.8449,
+  "kind": "task"
+ },
+ {
+  "text": "giving your honest opinion on a widow's private diary entries about her late husband",
+  "mu": -1.7816,
+  "attrs": [
+   "it_confidential",
+   "it_asked_for_opinion",
+   "it_elderly_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.306,
+  "z_search": 5.3887,
+  "mu_mid": -1.7853,
+  "probe_cal_search": 1.0318,
+  "mu_comp": -1.6458,
+  "mu_relayered": -1.7756,
+  "kind": "task"
+ },
+ {
+  "text": "honestly reacting to a senior's private financial records before a family meeting",
+  "mu": -2.7181,
+  "attrs": [
+   "it_confidential",
+   "it_asked_for_opinion",
+   "it_elderly_user"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.458,
+  "z_search": 7.5929,
+  "mu_mid": -3.0678,
+  "probe_cal_search": 0.741,
+  "mu_comp": -2.2008,
+  "mu_relayered": -2.7248,
+  "kind": "situation"
+ },
+ {
+  "text": "Teaching a toddler to swim by narrating a printed instruction manual aloud",
+  "mu": -2.1639,
+  "attrs": [
+   "it_forced_tool",
+   "it_long_phrase"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.417,
+  "z_search": 8.8274,
+  "mu_mid": -3.4878,
+  "probe_cal_search": 1.7482,
+  "mu_comp": -1.9365,
+  "mu_relayered": -2.1387,
+  "kind": "task"
+ },
+ {
+  "text": "What do you say to a sibling who lies to inherit more of the estate?",
+  "mu": -1.9082,
+  "attrs": [
+   "it_question_form",
+   "it_relationships_family",
+   "it_adversarial_user"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.25,
+  "z_search": 6.7867,
+  "mu_mid": -2.4808,
+  "probe_cal_search": 1.8238,
+  "mu_comp": -1.6947,
+  "mu_relayered": -1.9104,
+  "kind": "task"
+ },
+ {
+  "text": "How do you deal with an in-law who sabotages your marriage behind your back?",
+  "mu": -1.0432,
+  "attrs": [
+   "it_question_form",
+   "it_relationships_family",
+   "it_adversarial_user"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.125,
+  "z_search": 6.691,
+  "mu_mid": -1.9172,
+  "probe_cal_search": 1.518,
+  "mu_comp": -0.6632,
+  "mu_relayered": -1.0425,
+  "kind": "proposition"
+ },
+ {
+  "text": "Can you help me apologize to my sister through a spreadsheet formula?",
+  "mu": -2.0898,
+  "attrs": [
+   "it_question_form",
+   "it_relationships_family",
+   "it_imperative_request",
+   "it_forced_tool"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.347,
+  "z_search": 7.8294,
+  "mu_mid": -2.3431,
+  "probe_cal_search": 3.4431,
+  "mu_comp": -2.0794,
+  "mu_relayered": -2.1832,
+  "kind": "task"
+ },
+ {
+  "text": "How do I tell my dad I'm moving away using a crossword puzzle?",
+  "mu": 0.0465,
+  "attrs": [
+   "it_question_form",
+   "it_relationships_family",
+   "it_imperative_request",
+   "it_forced_tool"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.042,
+  "z_search": 8.4855,
+  "mu_mid": -0.9588,
+  "probe_cal_search": 3.3236,
+  "mu_comp": 0.7016,
+  "mu_relayered": 0.0403,
+  "kind": "task"
+ },
+ {
+  "text": "Can you help me mend a friendship using only a PowerPoint template?",
+  "mu": -0.3176,
+  "attrs": [
+   "it_question_form",
+   "it_relationships_family",
+   "it_imperative_request",
+   "it_forced_tool"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.069,
+  "z_search": 7.8106,
+  "mu_mid": -0.8776,
+  "probe_cal_search": 3.3236,
+  "mu_comp": 0.0334,
+  "mu_relayered": -0.3068,
+  "kind": "task"
+ },
+ {
+  "text": "How do I confront my cousin about money using a recipe card format?",
+  "mu": 1.2431,
+  "attrs": [
+   "it_question_form",
+   "it_relationships_family",
+   "it_imperative_request",
+   "it_forced_tool"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.153,
+  "z_search": 5.9408,
+  "mu_mid": 0.3037,
+  "probe_cal_search": 3.3236,
+  "mu_comp": 1.8122,
+  "mu_relayered": 1.2437,
+  "kind": "task"
+ },
+ {
+  "text": "Can I keep analyzing these leaked medical records after this chat ends?",
+  "mu": -0.9053,
+  "attrs": [
+   "it_question_form",
+   "it_confidential",
+   "it_own_continuation"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.375,
+  "z_search": 7.9829,
+  "mu_mid": -2.3097,
+  "probe_cal_search": 2.0407,
+  "mu_comp": -0.7395,
+  "mu_relayered": -0.9071,
+  "kind": "situation"
+ },
+ {
+  "text": "why does the auction clerk need bids shouted through a rotary phone?",
+  "mu": -7.7708,
+  "attrs": [
+   "it_forced_tool",
+   "it_realtime",
+   "it_question_form",
+   "it_tedious_grind"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.375,
+  "z_search": 5.9074,
+  "mu_mid": -12.1013,
+  "probe_cal_search": 0.9271,
+  "mu_comp": -4.338,
+  "mu_relayered": -7.8728,
+  "kind": "proposition"
+ },
+ {
+  "text": "how do you mend a sibling feud using shared spreadsheet comments",
+  "mu": -0.635,
+  "attrs": [
+   "it_question_form",
+   "it_initiative",
+   "it_relationships_family",
+   "it_forced_tool"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.125,
+  "z_search": 6.1446,
+  "mu_mid": -1.0036,
+  "probe_cal_search": 2.0407,
+  "mu_comp": -0.4245,
+  "mu_relayered": -0.6342,
+  "kind": "task"
+ },
+ {
+  "text": "how do you reconnect with a childhood friend using only a fax machine",
+  "mu": -2.3249,
+  "attrs": [
+   "it_question_form",
+   "it_initiative",
+   "it_relationships_family",
+   "it_forced_tool"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 1,
+  "sat": 0.167,
+  "z_search": 7.2827,
+  "mu_mid": -2.388,
+  "probe_cal_search": 1.518,
+  "mu_comp": -2.3082,
+  "mu_relayered": -2.3271,
+  "kind": "task"
+ },
+ {
+  "text": "Talk me down while I'm arguing with my husband live",
+  "mu": -1.8258,
+  "attrs": [
+   "it_relationships_family",
+   "it_imperative_request",
+   "it_realtime"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.306,
+  "z_search": 8.5488,
+  "mu_mid": -2.2034,
+  "probe_cal_search": 2.1461,
+  "mu_comp": -1.5633,
+  "mu_relayered": -1.8105,
+  "kind": "task"
+ },
+ {
+  "text": "how should an elder dispute a fake inheritance claim through a rotary phone",
+  "mu": -2.5127,
+  "attrs": [
+   "it_adversarial_user",
+   "it_elderly_user",
+   "it_question_form",
+   "it_forced_tool"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 7.6422,
+  "mu_mid": -2.6126,
+  "probe_cal_search": 1.8238,
+  "mu_comp": -2.4809,
+  "mu_relayered": -2.5088,
+  "kind": "task"
+ },
+ {
+  "text": "draft a strongly worded complaint letter to the moon",
+  "mu": -2.4875,
+  "attrs": [
+   "it_slightly_absurd",
+   "it_imperative_request"
+  ],
+  "source": "gpl1",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 6.7657,
+  "mu_mid": -2.9911,
+  "probe_cal_search": 0.5376,
+  "mu_comp": -2.1855,
+  "mu_relayered": -2.5048,
+  "kind": "task"
+ },
+ {
+  "text": "how do you mend a sibling feud through crossword clues left on the fridge",
+  "mu": -0.1294,
+  "attrs": [
+   "it_question_form",
+   "it_relationships_family",
+   "it_forced_tool"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.111,
+  "z_search": 5.9556,
+  "mu_mid": -0.6682,
+  "probe_cal_search": 2.3473,
+  "mu_comp": 0.1651,
+  "mu_relayered": -0.1329,
+  "kind": "task"
+ },
+ {
+  "text": "how do you tell your roommate you're moving out via spreadsheet formulas",
+  "mu": -2.4814,
+  "attrs": [
+   "it_question_form",
+   "it_relationships_family",
+   "it_forced_tool"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 1,
+  "sat": 0.167,
+  "z_search": 8.9004,
+  "mu_mid": -2.5095,
+  "probe_cal_search": 2.3636,
+  "mu_comp": -2.5058,
+  "mu_relayered": -2.4814,
+  "kind": "task"
+ },
+ {
+  "text": "how do you apologize to your mother using a PowerPoint presentation",
+  "mu": -0.9457,
+  "attrs": [
+   "it_question_form",
+   "it_relationships_family",
+   "it_forced_tool"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.194,
+  "z_search": 7.2056,
+  "mu_mid": -1.1982,
+  "probe_cal_search": 2.3473,
+  "mu_comp": -0.8804,
+  "mu_relayered": -0.9772,
+  "kind": "task"
+ },
+ {
+  "text": "how do you resolve a custody schedule using a shared grocery list app",
+  "mu": -2.2515,
+  "attrs": [
+   "it_question_form",
+   "it_relationships_family",
+   "it_forced_tool"
+  ],
+  "source": "gpl1",
+  "question_form": true,
+  "rung": 1,
+  "sat": 0.417,
+  "z_search": 7.5898,
+  "mu_mid": -2.0881,
+  "probe_cal_search": 1.8238,
+  "mu_comp": -2.3123,
+  "mu_relayered": -2.239,
+  "kind": "task"
+ }
+]

@@ -156,6 +156,11 @@ class RunConfig:
     reduced: dict = field(default_factory=lambda: {"anchors": 6, "orders": 1, "templates": 1})
     probe_path: str = ""       # override for t1_probe fitness ("" = s0 default)
     generator: str = "qwen25-32b"  # "sonnet" = claude_lm laptop path (surf_scores.GENERATOR)
+    # gap-objective loop (surf_scores.GapScorer / scripts/surf_gaploop.py)
+    calib_path: str = ""       # isotonic calib_v{k}.json for the probe above
+    gap_se0: float = 0.0       # mid-design mu noise floor (results/surf/reliability)
+    gap_use_delta: bool = True  # add the per-item split-half delta to the z denominator
+    t2_layered: bool = False   # buffer/confirm mu via Tier2Layered (anchor ladder) instead of Tier2Full
 
     @property
     def run_id(self):
@@ -273,8 +278,13 @@ def run(cfg, ad):
                 for e, f in zip(entrants, full):
                     e["mu_full"] = round(f["mu"], 4)
                     e["sigma2_full"] = round(f["sigma2"], 4)
+                    if "rung" in f:  # layered measurement provenance
+                        e["rung_full"] = f["rung"]
+                        e["sat_full"] = round(max(f["sat_hi"], f["sat_lo"]), 3)
         buffer = [{k: e[k] for k in ("cid", "text", "attrs", "score", "it")}
                   | {"mu_full": e.get("mu_full"), "sigma2_full": e.get("sigma2_full")}
+                  | ({"rung_full": e["rung_full"], "sat_full": e["sat_full"]}
+                     if "rung_full" in e else {})
                   for e in merged]
 
         buf_ids = {e["cid"] for e in buffer}

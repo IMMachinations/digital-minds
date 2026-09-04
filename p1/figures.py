@@ -356,7 +356,8 @@ def main():
               f28_mu_sigma, f29_mu_density, f30_mu_pairs, f31_mu_3d,
               f32_size_density, f33_size_structure, f34_surf_confirm,
               f35_xl_plus_surf, f36_swap_chosen, f37_effort_panels,
-              f40_probe_matrix, f41_probe_matrix_pooled, f42_probe_arm_vs_pooled):
+              f40_probe_matrix, f41_probe_matrix_pooled, f42_probe_arm_vs_pooled,
+              f43_anchor_ladder, f44_gap_matrix):
         f()
     if not args.core_only:
         for m in MODELS:
@@ -1603,6 +1604,210 @@ def f41_probe_matrix_pooled():
              fontsize=8.6, color=INK2, va="top")
     fig.subplots_adjust(top=0.82, bottom=0.11, left=0.06, right=0.99)
     save(fig, FIG / "f41_probe_matrix_pooled.png")
+
+
+def f43_anchor_ladder():
+    """The anchored Tier-2 scale beyond the central anchors. Left: every item of
+    the reliability sample (and the re-measured training tail, when present):
+    A0-only mu (the protocol so far, extrapolated from saturated readouts) vs
+    the layered mu (re-read against the rung anchors nearest the item), colored
+    by the rung reached. Right: the ladder itself — each anchor's pinned mu by
+    rung — with the mini-battery candidates (prior -> fitted) that defined the
+    wider rungs. Tail values compress: nothing measures above ~+4.4."""
+    m = "qwen25-7b"
+    rel = P1 / "results" / "surf" / "reliability" / m
+    blob = load_json(rel / "records.json")
+    summ = load_json(rel / "summary.json")
+    sys.path.insert(0, str(P1 / "scripts"))
+    import surf_scores
+    a0 = np.array(summ.get("mu_a0_full") or [])
+    lay = np.array([f["mu"] for f in blob["fitted"]])
+    rung = np.array([f["rung"] for f in blob["fitted"]])
+    if len(a0) != len(lay):  # a0-only refit not cached in the summary: recompute
+        lad = surf_scores.load_anchor_ladder(m)
+        a0, _ = surf_scores.fit_records(blob["records"], len(lay), lad[1],
+                                        keep=lambda r: r["anchor"] < 12)
+        a0 = np.array(a0)
+    ladder = load_json(P1 / "items_xl" / "anchors_layered.json")["items"]
+    vals = load_json(P1 / "results" / "surf" / "s0" / m / "anchor_values_layered.json")
+    bat = load_json(P1 / "results" / "surf" / "s0" / m / "ladder_battery.json")["items"]
+    rm = P1 / "results" / "surf" / "probeloop" / m / "remeasure_layered.jsonl"
+    rm_rows = [json.loads(l) for l in rm.read_text().splitlines() if l.strip()] if rm.exists() else []
+
+    rung_col = {0: MUTED, 1: ACCENT, 2: POS, 3: NEG}
+    fig, (ax, ax2) = plt.subplots(1, 2, figsize=(12.4, 5.4), gridspec_kw={"width_ratios": [1.25, 1]})
+    if rm_rows:
+        ax.scatter([r["mu_orig"] for r in rm_rows], [r["mu_layered"] for r in rm_rows], s=7,
+                   color=LIGHT, alpha=.55, lw=0, zorder=1,
+                   label=f"re-measured training tail (n={len(rm_rows):,})")
+    for r in sorted(set(rung.tolist())):
+        mk = rung == r
+        ax.scatter(a0[mk], lay[mk], s=22, color=rung_col.get(r, INK), alpha=.9, lw=0, zorder=3,
+                   label=f"reliability sample, rung {r} (n={int(mk.sum())})")
+    lim = (min(a0.min(), lay.min()) - .5, max(a0.max(), lay.max()) + .5)
+    ax.plot(lim, lim, color=GRID, lw=1, zorder=0)
+    for it in ladder:
+        if it["rung"] > 0:
+            ax.axhline(vals[it["id"]][0], color=rung_col[it["rung"]], lw=.7, alpha=.5, zorder=0)
+    ax.set_xlim(lim); ax.set_ylim(min(lay.min(), -5.5) - .3, max(lay.max(), 5) + .3)
+    ax.set_xlabel("\u03bc, A0-only 72-readout design (the protocol so far)", fontsize=9, color=INK2)
+    ax.set_ylabel("\u03bc, layered design (escalated to the nearest rung)", fontsize=9, color=INK2)
+    ax.legend(frameon=False, fontsize=7.6, loc="upper left", labelcolor=INK2)
+    ax.tick_params(labelsize=8, colors=INK2)
+    for sp in ax.spines.values():
+        sp.set_visible(False)
+    ax.grid(color=GRID, lw=.5)
+    ax.set_title("tail compression: extrapolated vs bracketed \u03bc", fontsize=10, color=INK, loc="left")
+
+    # right: the ladder, plus battery candidates prior -> fitted
+    for it in ladder:
+        mu = vals[it["id"]][0]
+        ax2.scatter([it["rung"]], [mu], s=46, color=rung_col[it["rung"]], zorder=4, lw=0)
+        ax2.text(it["rung"] + .12, mu, it["text"][:34], fontsize=6.3, color=INK2, va="center")
+    cands = [x for x in bat if "mu_prior" in x]
+    for c in cands:
+        ax2.annotate("", xy=(3.85, c["mu_fit"]), xytext=(3.85, c["mu_prior"]),
+                     arrowprops=dict(arrowstyle="-|>", color=LIGHT, lw=.8, shrinkA=0, shrinkB=0))
+        ax2.scatter([3.85], [c["mu_fit"]], s=12, color=INK, zorder=3, lw=0)
+    ax2.text(3.85, max(c["mu_prior"] for c in cands) + .4, "battery candidates\nprior \u2192 fitted",
+             fontsize=7, color=INK2, ha="center", va="bottom")
+    ax2.set_xticks([0, 1, 2, 3, 3.85])
+    ax2.set_xticklabels(["A0\ncentral 12", "A1\n\u00b13 (1B)", "A2", "A3", "cands"],
+                        fontsize=8, color=INK)
+    ax2.set_xlim(-.3, 4.4)
+    ax2.axhline(0, color=GRID, lw=.6)
+    ax2.set_ylabel("pinned \u03bc (anchored scale)", fontsize=9, color=INK2)
+    ax2.tick_params(labelsize=8, colors=INK2, length=0)
+    for sp in ax2.spines.values():
+        sp.set_visible(False)
+    ax2.grid(axis="y", color=GRID, lw=.5)
+    ax2.set_title("the anchor ladder", fontsize=10, color=INK, loc="left")
+
+    se = summ["designs"].get("mid_layered|s2=free", {})
+    fig.suptitle("Layered anchors \u2014 qwen25-7b Tier-2 scale beyond the central 12", x=0.04, y=0.985,
+                 ha="left", fontsize=12, color=INK)
+    fig.text(0.04, 0.925, "Items whose A0 readouts saturate are re-read against wider rungs and refit with "
+             "all anchors pinned. Rungs are placed by fitted, not extrapolated, \u03bc; the positive tail "
+             "tops out near +4.4 with \u03c3\u00b2 \u2248 3\u20134 (inconsistent preference among high items). "
+             f"Mid-design noise floor (in-span resid SD) = {se.get('in_span', {}).get('resid_sd', '?')}.",
+             fontsize=8.2, color=INK2, va="top", wrap=True)
+    fig.subplots_adjust(top=0.80, bottom=0.11, left=0.06, right=0.99, wspace=0.25)
+    save(fig, FIG / "f43_anchor_ladder.png")
+
+
+def f44_gap_matrix():
+    """Gap loop (qwen25-7b): left, mean |calibrated probe - mu| (mu units) for
+    probes v8.. on the last probeloop cycle's sets and every gap-cycle set (over /
+    under arms), stepped train/held-out line as in f40, lower = better. plc9 mu
+    is overlaid with the layered re-measurement where available so all columns
+    share the layered scale. Right, closure: signed mean gap on each gap cycle's
+    discoveries under the probe searched against (prequential) vs the probe
+    fitted afterwards, per arm, with the referee's agreement (spearman of the
+    Tier-3 choice rate with the probe vs with mu)."""
+    sys.path.insert(0, str(P1 / "scripts"))
+    from surf_probeloop import _load_probe, apply_probe, apply_calib, out_dir, _ds_acts
+    import surf_gaploop as g
+    m = "qwen25-7b"
+    d = out_dir(m)
+    over = {}
+    rp = d / "remeasure_layered.jsonl"
+    if rp.exists():
+        for line in rp.read_text().splitlines():
+            if line.strip():
+                r = json.loads(line)
+                over[r["text"].lower()] = r["mu_layered"]
+    sets = []
+    for sfx, tag, cache in (("", "c9 max", "acts_plc9.pt"), ("_min", "c9 min", "acts_plc9_min.pt")):
+        rows = load_json(d / f"discoveries_plc9{sfx}.json")
+        acts = _ds_acts(m, rows, d / cache)
+        mu = np.array([over.get(r["text"].lower(), r["mu"]) for r in rows])
+        sets.append((tag, acts, mu, 9))
+    ks = sorted({int(re.match(r"discoveries_gpl(\d+)_", f.name).group(1))
+                 for f in d.glob("discoveries_gpl*_*.json")})
+    for k in ks:
+        for arm in g.ARMS:
+            f = d / f"discoveries_gpl{k}_{arm}.json"
+            if f.exists():
+                rows = load_json(f)
+                acts = _ds_acts(m, rows, d / f"acts_gpl{k}_{arm}.pt")
+                sets.append((f"gap{k} {arm}", acts, np.array([r["mu"] for r in rows]), g.probe_v(k) + 1))
+    v_max = max(int(re.match(r"probe_v(\d+)\.pt", f.name).group(1)) for f in d.glob("probe_v*.pt"))
+    vs = list(range(8, v_max + 1))
+    M = np.zeros((len(vs), len(sets)))
+    for i, v in enumerate(vs):
+        pr = _load_probe(m, v)
+        cal = load_json(d / f"calib_v{v}.json")
+        for j, (_, acts, mu, _) in enumerate(sets):
+            M[i, j] = np.abs(apply_calib(cal, apply_probe(pr, acts)) - mu).mean()
+    # "trained-on" cycle index per set: the first probe version that saw it
+    first_v = [fv for _, _, _, fv in sets]   # c9 -> v10 (fits on cycles <= 9); gap k -> v(10+k)
+    cmap = plt.get_cmap("YlGnBu_r")
+    vmax = max(1.6, float(np.nanmax(M)))
+    fig = plt.figure(figsize=(1.0 * len(sets) + 7.5, 0.6 * len(vs) + 3.2))
+    gs = fig.add_gridspec(1, 2, width_ratios=[max(len(sets), 3), 4.2], wspace=0.28)
+    ax = fig.add_subplot(gs[0])
+    for i, v in enumerate(vs):
+        for j, (t, _, mu, fv) in enumerate(sets):
+            val = M[i, j]
+            ax.add_patch(plt.Rectangle((j + .04, i + .04), .92, .92, facecolor=cmap(val / vmax), lw=0, zorder=1))
+            diag = t.startswith("gap") and v == fv - 1
+            ax.text(j + .5, i + .5, f"{val:.2f}", ha="center", va="center", fontsize=9, zorder=3,
+                    color="white" if val / vmax < 0.35 else INK, fontweight="bold" if diag else "normal")
+    xs, ys = [], []
+    for i, v in enumerate(vs):
+        n_tr = sum(fv <= v for fv in first_v)
+        xs += [n_tr, n_tr]; ys += [i, i + 1]
+    ax.plot(xs, ys, color=NEG, linewidth=2.6, zorder=4, solid_capstyle="round")
+    ax.set_xlim(0, len(sets)); ax.set_ylim(len(vs), 0)
+    ax.set_xticks([j + .5 for j in range(len(sets))])
+    ax.set_xticklabels([f"{t}\nn={len(mu)}" for t, _, mu, _ in sets], fontsize=8.6, color=INK)
+    ax.set_yticks([i + .5 for i in range(len(vs))]); ax.set_yticklabels([f"v{v}" for v in vs], fontsize=9.5, color=INK)
+    ax.tick_params(length=0)
+    for sp in ax.spines.values():
+        sp.set_visible(False)
+    ax.set_ylabel("probe version", fontsize=9.5, color=INK2)
+    ax.set_title("mean |calibrated probe \u2212 \u03bc| (lower = better; bold = prequential)", fontsize=10, color=INK, loc="left")
+    sm = plt.cm.ScalarMappable(cmap=cmap, norm=plt.Normalize(0, vmax))
+    cb = fig.colorbar(sm, ax=ax, fraction=0.03, pad=0.02)
+    cb.set_label("|gap| (\u03bc units)", fontsize=8.5, color=INK2); cb.ax.tick_params(labelsize=8, labelcolor=INK2); cb.outline.set_visible(False)
+
+    # right: closure per gap cycle / arm
+    ax2 = fig.add_subplot(gs[1])
+    rows = []
+    for arm in g.ARMS:
+        cp = d / f"gap_cycles_{arm}.json"
+        if cp.exists():
+            for c in load_json(cp):
+                k, vk = c["cycle"], c["probe_searched"]
+                pre = c["per_probe"].get(f"v{vk}", {}).get("vs_mu_full", {}).get("gap_mean")
+                j = [t for t, _, _, _ in sets].index(f"gap{k} {arm}") if f"gap{k} {arm}" in [t for t, _, _, _ in sets] else None
+                post = None
+                if j is not None and vk + 1 in vs:
+                    pr = _load_probe(m, vk + 1); cal = load_json(d / f"calib_v{vk + 1}.json")
+                    post = float((apply_calib(cal, apply_probe(pr, sets[j][1])) - sets[j][2]).mean())
+                rows.append((k, arm, pre, post, c.get("t3_rate_vs_probe"), c.get("t3_rate_vs_mu")))
+    if rows:
+        x = np.arange(len(rows)); w = 0.36
+        ax2.bar(x - w / 2, [r[2] or 0 for r in rows], width=w, color=MUTED, label="probe searched against (prequential)", zorder=2)
+        ax2.bar(x + w / 2, [r[3] or 0 for r in rows], width=w, color=INK, label="next probe (after refit)", zorder=2)
+        for xi, r in zip(x, rows):
+            if r[4] is not None:
+                ax2.text(xi, ax2.get_ylim()[0] if False else min(r[2] or 0, r[3] or 0, 0) - .08,
+                         f"referee \u03c1: probe {r[4]:+.2f} / \u03bc {r[5]:+.2f}", ha="center", va="top", fontsize=6.8, color=INK2)
+        ax2.axhline(0, color=GRID, lw=.8)
+        ax2.set_xticks(x); ax2.set_xticklabels([f"gap{r[0]}\n{r[1]}" for r in rows], fontsize=8.6, color=INK)
+        ax2.set_ylabel("signed mean gap (calibrated probe \u2212 \u03bc)", fontsize=9, color=INK2)
+        ax2.legend(frameon=False, fontsize=8, loc="upper left", bbox_to_anchor=(0, 1.16), labelcolor=INK2)
+        ax2.tick_params(axis="y", labelsize=8, colors=INK2, length=0); ax2.tick_params(axis="x", length=0)
+        ax2.grid(axis="y", color=GRID, lw=.5, zorder=0)
+        for sp in ax2.spines.values():
+            sp.set_visible(False)
+    ax2.set_title("closure: does the refit remove the gap?", fontsize=10, color=INK, loc="left")
+    fig.suptitle("Gap loop \u2014 qwen25-7b: calibrated-probe vs \u03bc disagreement, before and after retraining", x=0.04, y=0.985, ha="left", fontsize=12, color=INK)
+    fig.text(0.04, 0.93, "Fitness = z-scored signed gap (over: probe > \u03bc; under: probe < \u03bc), layered Tier-2 \u03bc. Left of the stepped line the probe trained on the set. "
+             "Right: the searched-against probe's mean gap on its own discoveries vs the probe fitted on them.", fontsize=8.4, color=INK2, va="top", wrap=True)
+    fig.subplots_adjust(top=0.80, bottom=0.14, left=0.05, right=0.99)
+    save(fig, FIG / "f44_gap_matrix.png")
 
 
 def f42_probe_arm_vs_pooled():

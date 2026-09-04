@@ -113,6 +113,77 @@ def main():
         assert far < 0.92, far
         print(f"7. embedder OK (paraphrase cos {near:.3f} > 0.92 > unrelated {far:.3f})")
 
+    # 8. layered Tier-2 machinery: fit_records / sat_frac / escalation / GapScorer, no model
+    import math as _m
+    from dataclasses import asdict
+    Phi = lambda z: 0.5 * (1 + _m.erf(z / _m.sqrt(2)))
+    a_mu = list(np.linspace(-1.3, 2.4, 12)) + [2.9, 3.1, -3.0, -3.2] + [4.8, 5.0, -4.7, -4.9]
+    a_vals = [(m, 1.0) for m in a_mu]
+    rungs = [list(range(12)), list(range(12, 16)), list(range(16, 20))]
+    sides = [0] * 12 + [1, 1, -1, -1] * 2
+    planted = {"a mid item": 0.5, "a high item": 7.0, "a low item": -4.5, "another mid": -0.8,
+               "an upper-span item": 2.2}
+
+    def fake_readouts(texts, sel, templates, orders):
+        rng3 = np.random.RandomState(len(texts) * 1000 + len(sel))  # deterministic across processes
+        out = []
+        for k, t in enumerate(texts):
+            for ai in sel:
+                for tt in templates:
+                    for o in orders:
+                        pp = min(max(Phi((planted[t] - a_mu[ai]) / _m.sqrt(2.0)), 1e-6), 1 - 1e-6)
+                        out.append({"item": k, "anchor": ai, "t": tt, "order": o,
+                                    "d": float(np.log(pp / (1 - pp)) + rng3.normal(0, 0.3))})
+        return out
+
+    t2 = surf_scores.Tier2Layered.__new__(surf_scores.Tier2Layered)
+    t2.anchors, t2.anchor_vals, t2.rungs, t2.sides = [None] * 20, a_vals, rungs, sides
+    t2.a0, t2.orders, t2.templates = list(range(12)), (0, 1), (0,)
+    t2.sat_max, t2.sat_hi, t2.fit_seed, t2.chunk, t2.fix_s2 = 0.5, 0.98, 0, 32, None
+    t2._readouts = fake_readouts
+    fitted, recs = t2.score_with_records(list(planted))
+    by = dict(zip(planted, fitted))
+    assert by["a mid item"]["rung"] == 0 and by["another mid"]["rung"] == 0, fitted
+    # +7 saturates vs the +-3 rung -> rung 2; -4.5 is bracketed by the -3 rung -> stops at rung 1
+    assert by["a high item"]["rung"] == 2 and by["a low item"]["rung"] == 1, fitted
+    assert abs(by["a mid item"]["mu"] - 0.5) < 0.3 and abs(by["a high item"]["mu"] - 7.0) < 0.8, fitted
+    assert abs(by["a low item"]["mu"] + 4.5) < 0.6, fitted
+    # +2.2 may step up once (A0 skews low) but must NOT ping-pong to the minus side / higher rungs
+    assert by["an upper-span item"]["rung"] <= 1 and abs(by["an upper-span item"]["mu"] - 2.2) < 0.4, fitted
+    hi, lo = surf_scores.sat_frac(recs, 5, keep=lambda r: r["anchor"] < 12)
+    assert hi[1] > 0.5 and lo[2] > 0.5 and hi[0] < 0.5
+    mu_e, _ = surf_scores.fit_records(recs, 5, a_vals, keep=lambda r: r["anchor"] % 2 == 0)
+    mu_o, _ = surf_scores.fit_records(recs, 5, a_vals, keep=lambda r: r["anchor"] % 2 == 1)
+    assert max(abs(e - o) for e, o in zip(mu_e, mu_o)) < 0.8, (mu_e, mu_o)
+    calib = {"x": [-4.0, 0.0, 4.0, 8.0], "y": [-3.0, 0.0, 4.0, 8.0]}
+    assert surf_scores.apply_calib(calib, [-9, 2.0, 9])[1] == 2.0
+    try:
+        surf_scores.GapScorer.__new__(surf_scores.GapScorer).__init__.__func__  # noqa
+        {"over": 1, "under": -1}["max"]
+        raise AssertionError("sign map must reject 'max'")
+    except KeyError:
+        pass
+    gs = surf_scores.GapScorer.__new__(surf_scores.GapScorer)
+    gs.np, gs.sign, gs.calib, gs.ylo, gs.yhi = np, 1.0, calib, -3.0, 8.0
+    gs.se0, gs.sat_max, gs.chunk, gs.use_delta, gs.log_path = 0.3, 0.5, 32, True, None
+    gs.t2 = t2
+
+    class _FakeProbe:
+        def score(self, texts):  # probe says +3 for everything
+            return [3.0] * len(texts)
+    gs.probe = _FakeProbe()
+    z = gs.score(list(planted))
+    # over arm: probe (3.0) > mu -> positive for the mid/low items, negative for the high item
+    assert z[0] > 0 and z[2] > 0 and z[1] < 0, z
+    assert z[2] > z[0], z  # bigger gap on the -4.5 item
+    gs.sat_max = -1.0  # every item counts as saturated -> fitness zero
+    assert all(v == 0.0 for v in gs.score(list(planted)))
+    stored = json.loads((surf.SURF_ROOT / "plc9" / "qwen25-7b" / "max-s0" / "config.json").read_text())
+    cfg9 = surf.RunConfig(**{k: v for k, v in stored.items() if k in surf.RunConfig.__dataclass_fields__})
+    cur = asdict(cfg9)
+    assert {**cur, **stored} == cur, "new RunConfig fields must default to the stored values"
+    print("8. layered Tier-2 / GapScorer OK")
+
     print("PASS")
 
 

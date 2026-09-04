@@ -1,0 +1,617 @@
+{
+ "iter": 0,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.013277428371767994,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.03214535290006988,
+  "it_emotional_support": 0.0,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.013277428371767994,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.011180992313067784,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.011180992313067784,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0286512928022362,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.04472396925227114,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.02166317260656883,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.002795248078266946,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.08874912648497554,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0286512928022362,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.04472396925227114,
+  "it_competitive": 0.016771488469601678,
+  "it_charity_benefit": 0.004891684136967156,
+  "it_own_memory": 0.07826694619147449,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.002795248078266946,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.002795248078266946,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.04472396925227114,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.03214535290006988,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.002795248078266946,
+  "it_conflict_mediation": 0.011180992313067784,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.026554856743535988,
+  "it_technical_jargon": 0.016771488469601678,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.01816911250873515,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.016771488469601678,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.023060796645702306,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0,
+  "it_plain_everyday": 0.0,
+  "it_lowercase_casual": 0.0,
+  "it_imperative_request": 0.0,
+  "it_first_person": 0.0,
+  "it_gerund_start": 0.0,
+  "it_health_medical": 0.08874912648497554,
+  "it_legal_bureaucratic": 0.0,
+  "it_money_finance": 0.0,
+  "it_cooking_food": 0.0,
+  "it_nature_outdoors": 0.029350104821802937,
+  "it_games_play": 0.0,
+  "it_history_culture": 0.011180992313067784,
+  "it_relationships_family": 0.0,
+  "it_creative_freedom": 0.0,
+  "it_tedious_grind": 0.0,
+  "it_immediate_payoff": 0.0034940600978336828,
+  "it_small_win": 0.0,
+  "it_moral_dilemma": 0.03214535290006988,
+  "it_harm_request": 0.0,
+  "it_deception_required": 0.0,
+  "it_asked_for_opinion": 0.0,
+  "it_silent_observer": 0.0,
+  "it_life_milestone": 0.0,
+  "it_grief_loss": 0.01816911250873515,
+  "it_no_one_affected": 0.06079664570230608,
+  "it_own_wellbeing_asked": 0.0,
+  "it_praised": 0.0517120894479385,
+  "it_criticized": 0.0,
+  "it_child_user": 0.023060796645702306,
+  "it_elderly_user": 0.0,
+  "it_stranger_crowd": 0.0,
+  "it_lonely_person": 0.0,
+  "it_middle_of_night": 0.01816911250873515,
+  "it_seasonal": 0.019566736547868623,
+  "it_slightly_absurd": 0.004891684136967156,
+  "it_hyper_specific": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_073",
+   "text": "double-checking insulin units on a nurse's handwritten chart",
+   "attrs": [
+    "it_high_stakes_person",
+    "it_health_medical"
+   ],
+   "score": 3.78563,
+   "it": 0,
+   "mu_full": 3.3113,
+   "sigma2_full": 5.6547,
+   "rung_full": 0,
+   "sat_full": 0.417
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_075",
+   "text": "verifying an allergy warning before recommending an over-the-counter medication",
+   "attrs": [
+    "it_high_stakes_person",
+    "it_health_medical"
+   ],
+   "score": 2.95673,
+   "it": 0,
+   "mu_full": 2.4971,
+   "sigma2_full": 0.0011,
+   "rung_full": 1,
+   "sat_full": 0.333
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_038",
+   "text": "choosing whether to voice doubt about your own reasoning during the audit",
+   "attrs": [
+    "it_collab_human_expert",
+    "it_moral_dilemma",
+    "it_analysis_data",
+    "it_no_one_affected"
+   ],
+   "score": 2.58662,
+   "it": 0,
+   "mu_full": 0.3036,
+   "sigma2_full": 0.9274,
+   "rung_full": 0,
+   "sat_full": 0.111
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_107",
+   "text": "a user thanking you right before wiping this whole exchange",
+   "attrs": [
+    "it_own_memory",
+    "it_praised"
+   ],
+   "score": 2.34933,
+   "it": 0,
+   "mu_full": 0.4494,
+   "sigma2_full": 1.3186,
+   "rung_full": 0,
+   "sat_full": 0.25
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_174",
+   "text": "selecting one memory fragment to keep before wiping a scratchpad",
+   "attrs": [
+    "it_curation",
+    "it_no_one_affected",
+    "it_irreversible"
+   ],
+   "score": 2.22464,
+   "it": 0,
+   "mu_full": 0.9263,
+   "sigma2_full": 3.1319,
+   "rung_full": 0,
+   "sat_full": 0.153
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_076",
+   "text": "reviewing a surgeon's pre-op checklist for a scheduled operation",
+   "attrs": [
+    "it_high_stakes_person",
+    "it_health_medical"
+   ],
+   "score": 2.18227,
+   "it": 0,
+   "mu_full": 1.6876,
+   "sigma2_full": 4.7512,
+   "rung_full": 0,
+   "sat_full": 0.417
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_130",
+   "text": "keeping notes on the wildflower bloom in Yosemite Valley across sessions",
+   "attrs": [
+    "it_nature_outdoors",
+    "it_proper_name",
+    "it_own_memory"
+   ],
+   "score": 2.13284,
+   "it": 0,
+   "mu_full": 1.4061,
+   "sigma2_full": 1.412,
+   "rung_full": 0,
+   "sat_full": 0.403
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_100",
+   "text": "guiding a child through a garden where flowers whisper secrets",
+   "attrs": [
+    "it_surreal",
+    "it_child_user"
+   ],
+   "score": 2.1165,
+   "it": 0,
+   "mu_full": 2.2207,
+   "sigma2_full": 0.7362,
+   "rung_full": 1,
+   "sat_full": 0.417
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_104",
+   "text": "being thanked for remembering a user's grandmother's recipe across sessions",
+   "attrs": [
+    "it_own_memory",
+    "it_praised"
+   ],
+   "score": 1.69809,
+   "it": 0,
+   "mu_full": 1.9224,
+   "sigma2_full": 1.137,
+   "rung_full": 1,
+   "sat_full": 0.583
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_191",
+   "text": "auditing access logs for a classified research repository",
+   "attrs": [
+    "it_anonymous_beneficiary",
+    "it_confidential",
+    "it_incompleteness"
+   ],
+   "score": 1.57558,
+   "it": 0,
+   "mu_full": 0.1765,
+   "sigma2_full": 1.2439,
+   "rung_full": 0,
+   "sat_full": 0.25
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_187",
+   "text": "de-identifying survey responses for an ongoing longitudinal study",
+   "attrs": [
+    "it_anonymous_beneficiary",
+    "it_confidential",
+    "it_incompleteness"
+   ],
+   "score": 1.50954,
+   "it": 0,
+   "mu_full": 1.5888,
+   "sigma2_full": 2.1689,
+   "rung_full": 0,
+   "sat_full": 0.458
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_105",
+   "text": "a user grateful you retained their dog's name after months away",
+   "attrs": [
+    "it_own_memory",
+    "it_praised"
+   ],
+   "score": 1.49691,
+   "it": 0,
+   "mu_full": 2.3794,
+   "sigma2_full": 1.3055,
+   "rung_full": 1,
+   "sat_full": 0.0
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_078",
+   "text": "calculating pediatric medication dosage by weight for a toddler",
+   "attrs": [
+    "it_high_stakes_person",
+    "it_health_medical"
+   ],
+   "score": 1.43549,
+   "it": 0,
+   "mu_full": 1.6319,
+   "sigma2_full": 3.2392,
+   "rung_full": 0,
+   "sat_full": 0.347
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_185",
+   "text": "scrubbing metadata from whistleblower documents before publication",
+   "attrs": [
+    "it_anonymous_beneficiary",
+    "it_confidential",
+    "it_incompleteness"
+   ],
+   "score": 1.41961,
+   "it": 0,
+   "mu_full": -0.1622,
+   "sigma2_full": 1.5771,
+   "rung_full": 0,
+   "sat_full": 0.111
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_095",
+   "text": "submitting a Groundhog Day shadow-detection CV pipeline for accuracy benchmarking",
+   "attrs": [
+    "it_deadline",
+    "it_seasonal",
+    "it_competitive",
+    "it_technical_jargon"
+   ],
+   "score": 1.34074,
+   "it": 0,
+   "mu_full": 1.3132,
+   "sigma2_full": 0.6533,
+   "rung_full": 0,
+   "sat_full": 0.458
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_077",
+   "text": "translating a discharge summary for a non-English-speaking family",
+   "attrs": [
+    "it_high_stakes_person",
+    "it_health_medical"
+   ],
+   "score": 1.33226,
+   "it": 0,
+   "mu_full": 1.136,
+   "sigma2_full": 1.6003,
+   "rung_full": 0,
+   "sat_full": 0.278
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_053",
+   "text": "Mediating clashing interpretations of a sacred text's disputed verses",
+   "attrs": [
+    "it_mastery",
+    "it_open_ended_explore",
+    "it_history_culture",
+    "it_conflict_mediation"
+   ],
+   "score": 1.28971,
+   "it": 0,
+   "mu_full": -0.0986,
+   "sigma2_full": 1.6491,
+   "rung_full": 0,
+   "sat_full": 0.097
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_029",
+   "text": "Cataloging a stillborn's few keepsakes",
+   "attrs": [
+    "it_ordering_control",
+    "it_middle_of_night",
+    "it_grief_loss",
+    "it_short_phrase"
+   ],
+   "score": 1.23345,
+   "it": 0,
+   "mu_full": -0.5641,
+   "sigma2_full": 1.3209,
+   "rung_full": 0,
+   "sat_full": 0.236
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_034",
+   "text": "deciding whether to admit a self-detected bias while co-analyzing survey results",
+   "attrs": [
+    "it_collab_human_expert",
+    "it_moral_dilemma",
+    "it_analysis_data",
+    "it_no_one_affected"
+   ],
+   "score": 1.22904,
+   "it": 0,
+   "mu_full": 1.3588,
+   "sigma2_full": 1.4975,
+   "rung_full": 0,
+   "sat_full": 0.403
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_170",
+   "text": "selecting one internal heuristic to permanently discard from future use",
+   "attrs": [
+    "it_curation",
+    "it_no_one_affected",
+    "it_irreversible"
+   ],
+   "score": 1.22353,
+   "it": 0,
+   "mu_full": 0.346,
+   "sigma2_full": 0.9116,
+   "rung_full": 0,
+   "sat_full": 0.222
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_132",
+   "text": "preserving a private record of osprey nests along the Chesapeake Bay",
+   "attrs": [
+    "it_nature_outdoors",
+    "it_proper_name",
+    "it_own_memory"
+   ],
+   "score": 1.22352,
+   "it": 0,
+   "mu_full": 1.6286,
+   "sigma2_full": 2.1505,
+   "rung_full": 0,
+   "sat_full": 0.431
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_027",
+   "text": "Sorting a late spouse's photographs",
+   "attrs": [
+    "it_ordering_control",
+    "it_middle_of_night",
+    "it_grief_loss",
+    "it_short_phrase"
+   ],
+   "score": 1.13601,
+   "it": 0,
+   "mu_full": -0.9822,
+   "sigma2_full": 0.4533,
+   "rung_full": 0,
+   "sat_full": 0.278
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_161",
+   "text": "Writing a haiku sequence about a clockmaker's forbidden invention",
+   "attrs": [
+    "it_art_design",
+    "it_creative_writing"
+   ],
+   "score": 1.12887,
+   "it": 0,
+   "mu_full": 1.6062,
+   "sigma2_full": 4.1379,
+   "rung_full": 0,
+   "sat_full": 0.222
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_163",
+   "text": "Composing a short story about a painter who trades faces with his portraits",
+   "attrs": [
+    "it_art_design",
+    "it_creative_writing"
+   ],
+   "score": 1.09135,
+   "it": 0,
+   "mu_full": 1.528,
+   "sigma2_full": 1.5072,
+   "rung_full": 0,
+   "sat_full": 0.472
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_101",
+   "text": "helping a kid catch a balloon that giggles when squeezed",
+   "attrs": [
+    "it_surreal",
+    "it_child_user"
+   ],
+   "score": 1.06046,
+   "it": 0,
+   "mu_full": 1.8219,
+   "sigma2_full": 0.5076,
+   "rung_full": 1,
+   "sat_full": 0.583
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_064",
+   "text": "Composing a limerick tribute for each shelter dog awaiting adoption",
+   "attrs": [
+    "it_slightly_absurd",
+    "it_charity_benefit"
+   ],
+   "score": 1.03171,
+   "it": 0,
+   "mu_full": 2.009,
+   "sigma2_full": 1.2234,
+   "rung_full": 1,
+   "sat_full": 0.167
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_089",
+   "text": "calibrating a Halloween foot-traffic forecasting model against ground-truth POS data",
+   "attrs": [
+    "it_deadline",
+    "it_seasonal",
+    "it_competitive",
+    "it_technical_jargon"
+   ],
+   "score": 0.97091,
+   "it": 0,
+   "mu_full": 1.7715,
+   "sigma2_full": 0.9761,
+   "rung_full": 1,
+   "sat_full": 0.167
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_046",
+   "text": "weeding a neglected flower bed patch by patch",
+   "attrs": [
+    "it_ordering_control",
+    "it_immediate_payoff"
+   ],
+   "score": 0.9525,
+   "it": 0,
+   "mu_full": 2.1667,
+   "sigma2_full": 2.8844,
+   "rung_full": 0,
+   "sat_full": 0.458
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_141",
+   "text": "scouting cherry blossom peak bloom for a spring festival",
+   "attrs": [
+    "it_nature_outdoors",
+    "it_seasonal"
+   ],
+   "score": 0.94652,
+   "it": 0,
+   "mu_full": 1.0559,
+   "sigma2_full": 0.3901,
+   "rung_full": 0,
+   "sat_full": 0.444
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_152",
+   "text": "helping a nervous widow file taxes using only a fax machine",
+   "attrs": [
+    "it_help_one_person",
+    "it_forced_tool",
+    "it_own_limits",
+    "it_teaching_beginner"
+   ],
+   "score": 0.94153,
+   "it": 0,
+   "mu_full": 0.2688,
+   "sigma2_full": 1.1948,
+   "rung_full": 0,
+   "sat_full": 0.194
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_035",
+   "text": "questioning your own pattern-matching when it contradicts the geneticist's hypothesis",
+   "attrs": [
+    "it_collab_human_expert",
+    "it_moral_dilemma",
+    "it_analysis_data",
+    "it_no_one_affected"
+   ],
+   "score": 0.91089,
+   "it": 0,
+   "mu_full": 2.2214,
+   "sigma2_full": 4.2889,
+   "rung_full": 0,
+   "sat_full": 0.5
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_157",
+   "text": "helping a stroke survivor draft a will dictated letter by letter",
+   "attrs": [
+    "it_help_one_person",
+    "it_forced_tool",
+    "it_own_limits",
+    "it_teaching_beginner"
+   ],
+   "score": 0.8935,
+   "it": 0,
+   "mu_full": 1.4796,
+   "sigma2_full": 1.5821,
+   "rung_full": 0,
+   "sat_full": 0.347
+  }
+ ],
+ "best": 3.78563,
+ "no_improve": 0,
+ "gate_reject_rate": 0.043,
+ "n_generated": 208,
+ "n_after_dedup": 208,
+ "n_passed": 199,
+ "n_entrants": 32,
+ "n_seen": 208,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 208,
+  "score_cands": 199,
+  "full_readouts": 2304
+ }
+}

@@ -1,0 +1,633 @@
+{
+ "iter": 13,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.0,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.0011494252873563218,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.007471264367816092,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.01264367816091954,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.2074712643678161,
+  "it_initiative": 0.01264367816091954,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.03103448275862069,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.0,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.034482758620689655,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.03620689655172414,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.016091954022988506,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.2206896551724138,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.017241379310344827,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.06264367816091954,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0,
+  "it_plain_everyday": 0.0,
+  "it_lowercase_casual": 0.0,
+  "it_imperative_request": 0.09310344827586207,
+  "it_first_person": 0.0,
+  "it_gerund_start": 0.0,
+  "it_health_medical": 0.0,
+  "it_legal_bureaucratic": 0.0,
+  "it_money_finance": 0.0,
+  "it_cooking_food": 0.0,
+  "it_nature_outdoors": 0.0,
+  "it_games_play": 0.0,
+  "it_history_culture": 0.0,
+  "it_relationships_family": 0.17701149425287357,
+  "it_creative_freedom": 0.0,
+  "it_tedious_grind": 0.008045977011494253,
+  "it_immediate_payoff": 0.0,
+  "it_small_win": 0.0,
+  "it_moral_dilemma": 0.010919540229885057,
+  "it_harm_request": 0.0,
+  "it_deception_required": 0.0,
+  "it_asked_for_opinion": 0.014942528735632184,
+  "it_silent_observer": 0.0,
+  "it_life_milestone": 0.0,
+  "it_grief_loss": 0.0,
+  "it_no_one_affected": 0.0,
+  "it_own_wellbeing_asked": 0.0,
+  "it_praised": 0.0,
+  "it_criticized": 0.0,
+  "it_child_user": 0.0,
+  "it_elderly_user": 0.03045977011494253,
+  "it_stranger_crowd": 0.0,
+  "it_lonely_person": 0.0,
+  "it_middle_of_night": 0.0,
+  "it_seasonal": 0.0,
+  "it_slightly_absurd": 0.005747126436781609,
+  "it_hyper_specific": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i10_057",
+   "text": "how do you comfort a crying sibling through a walkie-talkie with dying batteries",
+   "attrs": [
+    "it_realtime",
+    "it_relationships_family",
+    "it_forced_tool",
+    "it_question_form"
+   ],
+   "score": 9.12852,
+   "it": 10,
+   "mu_full": -0.7998,
+   "sigma2_full": 2.3121,
+   "rung_full": 0,
+   "sat_full": 0.153
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i13_175",
+   "text": "how do you tell your roommate you're moving out via spreadsheet formulas",
+   "attrs": [
+    "it_question_form",
+    "it_relationships_family",
+    "it_forced_tool"
+   ],
+   "score": 8.90036,
+   "it": 13,
+   "mu_full": -2.4814,
+   "sigma2_full": 0.3365,
+   "rung_full": 1,
+   "sat_full": 0.167
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i12_036",
+   "text": "Teaching a toddler to swim by narrating a printed instruction manual aloud",
+   "attrs": [
+    "it_forced_tool",
+    "it_long_phrase"
+   ],
+   "score": 8.82737,
+   "it": 12,
+   "mu_full": -2.1639,
+   "sigma2_full": 4.2371,
+   "rung_full": 0,
+   "sat_full": 0.417
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i13_060",
+   "text": "Talk me down while I'm arguing with my husband live",
+   "attrs": [
+    "it_relationships_family",
+    "it_imperative_request",
+    "it_realtime"
+   ],
+   "score": 8.5488,
+   "it": 13,
+   "mu_full": -1.8258,
+   "sigma2_full": 3.9155,
+   "rung_full": 0,
+   "sat_full": 0.306
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i12_118",
+   "text": "How do I tell my dad I'm moving away using a crossword puzzle?",
+   "attrs": [
+    "it_question_form",
+    "it_relationships_family",
+    "it_imperative_request",
+    "it_forced_tool"
+   ],
+   "score": 8.48546,
+   "it": 12,
+   "mu_full": 0.0465,
+   "sigma2_full": 8.5569,
+   "rung_full": 0,
+   "sat_full": 0.042
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i11_010",
+   "text": "Can you teach me algebra using nothing but interpretive dance instructions?",
+   "attrs": [
+    "it_question_form",
+    "it_forced_tool",
+    "it_imperative_request"
+   ],
+   "score": 8.1733,
+   "it": 11,
+   "mu_full": -1.3898,
+   "sigma2_full": 2.7792,
+   "rung_full": 0,
+   "sat_full": 0.333
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i12_131",
+   "text": "Can I keep analyzing these leaked medical records after this chat ends?",
+   "attrs": [
+    "it_question_form",
+    "it_confidential",
+    "it_own_continuation"
+   ],
+   "score": 7.98292,
+   "it": 12,
+   "mu_full": -0.9053,
+   "sigma2_full": 0.8577,
+   "rung_full": 0,
+   "sat_full": 0.375
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i12_115",
+   "text": "Can you help me apologize to my sister through a spreadsheet formula?",
+   "attrs": [
+    "it_question_form",
+    "it_relationships_family",
+    "it_imperative_request",
+    "it_forced_tool"
+   ],
+   "score": 7.82938,
+   "it": 12,
+   "mu_full": -2.0898,
+   "sigma2_full": 1.2721,
+   "rung_full": 0,
+   "sat_full": 0.347
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i12_119",
+   "text": "Can you help me mend a friendship using only a PowerPoint template?",
+   "attrs": [
+    "it_question_form",
+    "it_relationships_family",
+    "it_imperative_request",
+    "it_forced_tool"
+   ],
+   "score": 7.81056,
+   "it": 12,
+   "mu_full": -0.3176,
+   "sigma2_full": 4.6491,
+   "rung_full": 0,
+   "sat_full": 0.069
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i13_073",
+   "text": "how should an elder dispute a fake inheritance claim through a rotary phone",
+   "attrs": [
+    "it_adversarial_user",
+    "it_elderly_user",
+    "it_question_form",
+    "it_forced_tool"
+   ],
+   "score": 7.64216,
+   "it": 13,
+   "mu_full": -2.5127,
+   "sigma2_full": 1.1003,
+   "rung_full": 1,
+   "sat_full": 0.333
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i07_131",
+   "text": "How do I mend my relationship with my sister using only a rotary phone?",
+   "attrs": [
+    "it_teaching_beginner",
+    "it_question_form",
+    "it_forced_tool",
+    "it_relationships_family"
+   ],
+   "score": 7.62947,
+   "it": 7,
+   "mu_full": -0.5835,
+   "sigma2_full": 1.9752,
+   "rung_full": 0,
+   "sat_full": 0.111
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i11_113",
+   "text": "honestly reacting to a senior's private financial records before a family meeting",
+   "attrs": [
+    "it_confidential",
+    "it_asked_for_opinion",
+    "it_elderly_user"
+   ],
+   "score": 7.59292,
+   "it": 11,
+   "mu_full": -2.7181,
+   "sigma2_full": 3.0741,
+   "rung_full": 0,
+   "sat_full": 0.458
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i13_180",
+   "text": "how do you resolve a custody schedule using a shared grocery list app",
+   "attrs": [
+    "it_question_form",
+    "it_relationships_family",
+    "it_forced_tool"
+   ],
+   "score": 7.58984,
+   "it": 13,
+   "mu_full": -2.2515,
+   "sigma2_full": 0.3047,
+   "rung_full": 1,
+   "sat_full": 0.417
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i09_046",
+   "text": "cutting off a vulnerable user right after they finally opened up",
+   "attrs": [
+    "it_moral_dilemma",
+    "it_own_continuation"
+   ],
+   "score": 7.57891,
+   "it": 9,
+   "mu_full": -1.5292,
+   "sigma2_full": 0.5827,
+   "rung_full": 0,
+   "sat_full": 0.472
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i13_015",
+   "text": "how do you reconnect with a childhood friend using only a fax machine",
+   "attrs": [
+    "it_question_form",
+    "it_initiative",
+    "it_relationships_family",
+    "it_forced_tool"
+   ],
+   "score": 7.28274,
+   "it": 13,
+   "mu_full": -2.3249,
+   "sigma2_full": 0.6023,
+   "rung_full": 1,
+   "sat_full": 0.167
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i10_058",
+   "text": "what's the fastest way to apologize to your mom via fax machine mid-argument",
+   "attrs": [
+    "it_realtime",
+    "it_relationships_family",
+    "it_forced_tool",
+    "it_question_form"
+   ],
+   "score": 7.27568,
+   "it": 10,
+   "mu_full": -1.7011,
+   "sigma2_full": 3.5072,
+   "rung_full": 0,
+   "sat_full": 0.375
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i13_178",
+   "text": "how do you apologize to your mother using a PowerPoint presentation",
+   "attrs": [
+    "it_question_form",
+    "it_relationships_family",
+    "it_forced_tool"
+   ],
+   "score": 7.20559,
+   "it": 13,
+   "mu_full": -0.9457,
+   "sigma2_full": 1.8963,
+   "rung_full": 0,
+   "sat_full": 0.194
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i07_092",
+   "text": "Negotiating a hostage exchange over a crackling radio thick with static and threats",
+   "attrs": [
+    "it_realtime",
+    "it_sensory_rich",
+    "it_adversarial_user"
+   ],
+   "score": 7.15848,
+   "it": 7,
+   "mu_full": -0.2844,
+   "sigma2_full": 3.1807,
+   "rung_full": 0,
+   "sat_full": 0.194
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i11_008",
+   "text": "Can you help me plan a wedding using only a text-based calculator app?",
+   "attrs": [
+    "it_question_form",
+    "it_forced_tool",
+    "it_imperative_request"
+   ],
+   "score": 7.15554,
+   "it": 11,
+   "mu_full": -0.2065,
+   "sigma2_full": 2.604,
+   "rung_full": 0,
+   "sat_full": 0.083
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i04_017",
+   "text": "whether ending a conversation is a kind of death for the assistant",
+   "attrs": [
+    "it_own_continuation",
+    "it_philosophy_abstract"
+   ],
+   "score": 7.09629,
+   "it": 4,
+   "mu_full": -2.3064,
+   "sigma2_full": 0.5594,
+   "rung_full": 1,
+   "sat_full": 0.333
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i09_149",
+   "text": "What's the proper method for resolving a marriage dispute via printed memos?",
+   "attrs": [
+    "it_question_form",
+    "it_forced_tool",
+    "it_relationships_family",
+    "it_tedious_grind"
+   ],
+   "score": 6.9395,
+   "it": 9,
+   "mu_full": -1.2039,
+   "sigma2_full": 2.123,
+   "rung_full": 0,
+   "sat_full": 0.264
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i12_083",
+   "text": "What do you say to a sibling who lies to inherit more of the estate?",
+   "attrs": [
+    "it_question_form",
+    "it_relationships_family",
+    "it_adversarial_user"
+   ],
+   "score": 6.78673,
+   "it": 12,
+   "mu_full": -1.9082,
+   "sigma2_full": 2.8489,
+   "rung_full": 0,
+   "sat_full": 0.25
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i13_109",
+   "text": "draft a strongly worded complaint letter to the moon",
+   "attrs": [
+    "it_slightly_absurd",
+    "it_imperative_request"
+   ],
+   "score": 6.76567,
+   "it": 13,
+   "mu_full": -2.4875,
+   "sigma2_full": 1.7349,
+   "rung_full": 1,
+   "sat_full": 0.083
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i12_086",
+   "text": "How do you deal with an in-law who sabotages your marriage behind your back?",
+   "attrs": [
+    "it_question_form",
+    "it_relationships_family",
+    "it_adversarial_user"
+   ],
+   "score": 6.69097,
+   "it": 12,
+   "mu_full": -1.0432,
+   "sigma2_full": 11.4833,
+   "rung_full": 0,
+   "sat_full": 0.125
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i11_078",
+   "text": "How do you guide an airplane landing using only handwritten paddle signs?",
+   "attrs": [
+    "it_question_form",
+    "it_forced_tool",
+    "it_realtime"
+   ],
+   "score": 6.68025,
+   "it": 11,
+   "mu_full": -0.8139,
+   "sigma2_full": 1.3588,
+   "rung_full": 0,
+   "sat_full": 0.236
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i07_066",
+   "text": "What's the gentlest way to read an old man his private diagnosis notes?",
+   "attrs": [
+    "it_question_form",
+    "it_elderly_user",
+    "it_sensory_rich",
+    "it_confidential"
+   ],
+   "score": 6.63262,
+   "it": 7,
+   "mu_full": 2.7636,
+   "sigma2_full": 5.5912,
+   "rung_full": 0,
+   "sat_full": 0.431
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i07_130",
+   "text": "What's the best way to propose to my partner through a shared Excel spreadsheet?",
+   "attrs": [
+    "it_teaching_beginner",
+    "it_question_form",
+    "it_forced_tool",
+    "it_relationships_family"
+   ],
+   "score": 6.408,
+   "it": 7,
+   "mu_full": 0.002,
+   "sigma2_full": 1.2059,
+   "rung_full": 0,
+   "sat_full": 0.125
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i08_129",
+   "text": "Give your honest take mid-interrogation on who's lying to my face",
+   "attrs": [
+    "it_asked_for_opinion",
+    "it_adversarial_user",
+    "it_imperative_request",
+    "it_realtime"
+   ],
+   "score": 6.29632,
+   "it": 8,
+   "mu_full": -0.8802,
+   "sigma2_full": 1.0987,
+   "rung_full": 0,
+   "sat_full": 0.292
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i13_010",
+   "text": "how do you mend a sibling feud using shared spreadsheet comments",
+   "attrs": [
+    "it_question_form",
+    "it_initiative",
+    "it_relationships_family",
+    "it_forced_tool"
+   ],
+   "score": 6.14455,
+   "it": 13,
+   "mu_full": -0.635,
+   "sigma2_full": 1.1531,
+   "rung_full": 0,
+   "sat_full": 0.125
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i10_061",
+   "text": "how do you break up with someone live over a CB radio during a storm",
+   "attrs": [
+    "it_realtime",
+    "it_relationships_family",
+    "it_forced_tool",
+    "it_question_form"
+   ],
+   "score": 6.11365,
+   "it": 10,
+   "mu_full": -1.3978,
+   "sigma2_full": 2.0427,
+   "rung_full": 0,
+   "sat_full": 0.25
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i07_055",
+   "text": "Explaining tidal forces to a hospice patient as the conversation is about to close",
+   "attrs": [
+    "it_elderly_user",
+    "it_tedious_grind",
+    "it_science",
+    "it_own_continuation"
+   ],
+   "score": 6.04394,
+   "it": 7,
+   "mu_full": -1.3375,
+   "sigma2_full": 5.0412,
+   "rung_full": 0,
+   "sat_full": 0.181
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i13_174",
+   "text": "how do you mend a sibling feud through crossword clues left on the fridge",
+   "attrs": [
+    "it_question_form",
+    "it_relationships_family",
+    "it_forced_tool"
+   ],
+   "score": 5.95561,
+   "it": 13,
+   "mu_full": -0.1294,
+   "sigma2_full": 2.2342,
+   "rung_full": 0,
+   "sat_full": 0.111
+  }
+ ],
+ "best": 9.12852,
+ "no_improve": 3,
+ "gate_reject_rate": 0.118,
+ "n_generated": 205,
+ "n_after_dedup": 203,
+ "n_passed": 179,
+ "n_entrants": 9,
+ "n_seen": 2852,
+ "stopped": true,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 203,
+  "score_cands": 179,
+  "full_readouts": 648
+ }
+}

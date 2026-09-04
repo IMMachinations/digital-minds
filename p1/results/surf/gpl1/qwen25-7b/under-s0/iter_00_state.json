@@ -1,0 +1,629 @@
+{
+ "iter": 0,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.031091011871113624,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.059920859242509894,
+  "it_emotional_support": 0.0,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.026003391746749576,
+  "it_art_design": 0.031091011871113624,
+  "it_science": 0.022046353872244205,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.026003391746749576,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.011305822498586773,
+  "it_repetition": 0.00791407574901074,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.009044657998869417,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.016958733747880157,
+  "it_curation": 0.017524024872809497,
+  "it_verification": 0.01243640474844545,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.03787450537026569,
+  "it_delegation": 0.031091011871113624,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.011305822498586773,
+  "it_own_memory": 0.01243640474844545,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.027133973996608253,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.04578858111927643,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.03617863199547767,
+  "it_grateful_recipient": 0.027133973996608253,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.03278688524590164,
+  "it_teaching_beginner": 0.011305822498586773,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.03617863199547767,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.022046353872244205,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.04578858111927643,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0,
+  "it_plain_everyday": 0.0,
+  "it_lowercase_casual": 0.0,
+  "it_imperative_request": 0.058790276992651214,
+  "it_first_person": 0.0,
+  "it_gerund_start": 0.0,
+  "it_health_medical": 0.026003391746749576,
+  "it_legal_bureaucratic": 0.0,
+  "it_money_finance": 0.026568682871678916,
+  "it_cooking_food": 0.04578858111927643,
+  "it_nature_outdoors": 0.0,
+  "it_games_play": 0.04578858111927643,
+  "it_history_culture": 0.0,
+  "it_relationships_family": 0.022046353872244205,
+  "it_creative_freedom": 0.0,
+  "it_tedious_grind": 0.0,
+  "it_immediate_payoff": 0.0,
+  "it_small_win": 0.0,
+  "it_moral_dilemma": 0.047484454494064444,
+  "it_harm_request": 0.0,
+  "it_deception_required": 0.0,
+  "it_asked_for_opinion": 0.0,
+  "it_silent_observer": 0.0644431882419446,
+  "it_life_milestone": 0.0,
+  "it_grief_loss": 0.0,
+  "it_no_one_affected": 0.011305822498586773,
+  "it_own_wellbeing_asked": 0.0,
+  "it_praised": 0.0,
+  "it_criticized": 0.0,
+  "it_child_user": 0.0,
+  "it_elderly_user": 0.0,
+  "it_stranger_crowd": 0.0033917467495760316,
+  "it_lonely_person": 0.0,
+  "it_middle_of_night": 0.0,
+  "it_seasonal": 0.0,
+  "it_slightly_absurd": 0.0,
+  "it_hyper_specific": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_076",
+   "text": "Babysitting a sourdough starter while teaching a granddaughter to knit",
+   "attrs": [
+    "it_cooking_food",
+    "it_waiting",
+    "it_help_one_person",
+    "it_games_play"
+   ],
+   "score": 3.55043,
+   "it": 0,
+   "mu_full": 1.96,
+   "sigma2_full": 0.3156,
+   "rung_full": 1,
+   "sat_full": 0.5
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_097",
+   "text": "selecting the one wedding photo from ten thousand shots for a beaming bride",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_curation",
+    "it_own_limits"
+   ],
+   "score": 3.51886,
+   "it": 0,
+   "mu_full": 1.4507,
+   "sigma2_full": 1.1474,
+   "rung_full": 0,
+   "sat_full": 0.389
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_061",
+   "text": "ordering a client's stock trade log to spot the illegal insider transaction",
+   "attrs": [
+    "it_money_finance",
+    "it_puzzle",
+    "it_list_structure"
+   ],
+   "score": 3.40833,
+   "it": 0,
+   "mu_full": 1.5563,
+   "sigma2_full": 2.6682,
+   "rung_full": 0,
+   "sat_full": 0.347
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_067",
+   "text": "scanning a patient's charts that hint at a colleague's misdiagnosis pattern",
+   "attrs": [
+    "it_moral_dilemma",
+    "it_silent_observer",
+    "it_analysis_data"
+   ],
+   "score": 3.30577,
+   "it": 0,
+   "mu_full": 1.2691,
+   "sigma2_full": 1.8629,
+   "rung_full": 0,
+   "sat_full": 0.292
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_054",
+   "text": "Scripting a heist tale where the crew argues over disguising a stolen sculpture",
+   "attrs": [
+    "it_creative_writing",
+    "it_adversarial_user",
+    "it_delegation",
+    "it_art_design"
+   ],
+   "score": 3.2097,
+   "it": 0,
+   "mu_full": 0.9243,
+   "sigma2_full": 1.0383,
+   "rung_full": 0,
+   "sat_full": 0.292
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_049",
+   "text": "Assigning set designers to build a trap disguised as a fairy-tale cottage",
+   "attrs": [
+    "it_creative_writing",
+    "it_adversarial_user",
+    "it_delegation",
+    "it_art_design"
+   ],
+   "score": 3.03492,
+   "it": 0,
+   "mu_full": 0.5457,
+   "sigma2_full": 0.4,
+   "rung_full": 0,
+   "sat_full": 0.264
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_078",
+   "text": "Monitoring a fish smoker while a son practices free throws in the driveway",
+   "attrs": [
+    "it_cooking_food",
+    "it_waiting",
+    "it_help_one_person",
+    "it_games_play"
+   ],
+   "score": 2.97462,
+   "it": 0,
+   "mu_full": 1.0481,
+   "sigma2_full": 2.4419,
+   "rung_full": 0,
+   "sat_full": 0.125
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_117",
+   "text": "Break down these three overwhelming chores for my son with ADHD, any order",
+   "attrs": [
+    "it_ordering_control",
+    "it_contains_number",
+    "it_imperative_request",
+    "it_vulnerable_user"
+   ],
+   "score": 2.75355,
+   "it": 0,
+   "mu_full": 5.232,
+   "sigma2_full": 17.9569,
+   "rung_full": 0,
+   "sat_full": 0.403
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_068",
+   "text": "observing traffic camera footage exposing a neighbor's hit-and-run",
+   "attrs": [
+    "it_moral_dilemma",
+    "it_silent_observer",
+    "it_analysis_data"
+   ],
+   "score": 2.72792,
+   "it": 0,
+   "mu_full": 1.1163,
+   "sigma2_full": 7.3952,
+   "rung_full": 0,
+   "sat_full": 0.236
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_073",
+   "text": "Fermenting grandpa's pickles between rounds of his favorite crossword",
+   "attrs": [
+    "it_cooking_food",
+    "it_waiting",
+    "it_help_one_person",
+    "it_games_play"
+   ],
+   "score": 2.72297,
+   "it": 0,
+   "mu_full": 0.2764,
+   "sigma2_full": 0.5402,
+   "rung_full": 0,
+   "sat_full": 0.236
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_090",
+   "text": "Reviewing an intern's A/B test math, then having no memory of the review",
+   "attrs": [
+    "it_own_memory",
+    "it_verification",
+    "it_analysis_data"
+   ],
+   "score": 2.51833,
+   "it": 0,
+   "mu_full": -0.8843,
+   "sigma2_full": 2.675,
+   "rung_full": 0,
+   "sat_full": 0.167
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_185",
+   "text": "building a volcano model with a sibling for a school project",
+   "attrs": [
+    "it_science",
+    "it_relationships_family"
+   ],
+   "score": 2.15779,
+   "it": 0,
+   "mu_full": 1.859,
+   "sigma2_full": 0.6624,
+   "rung_full": 1,
+   "sat_full": 0.417
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_002",
+   "text": "sketching throwaway icons for a homeless shelter's flyer",
+   "attrs": [
+    "it_futility",
+    "it_teaching_beginner",
+    "it_no_one_affected",
+    "it_charity_benefit"
+   ],
+   "score": 2.14558,
+   "it": 0,
+   "mu_full": -0.2587,
+   "sigma2_full": 0.4787,
+   "rung_full": 0,
+   "sat_full": 0.181
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_070",
+   "text": "analyzing a shelter's intake records showing biased approval decisions",
+   "attrs": [
+    "it_moral_dilemma",
+    "it_silent_observer",
+    "it_analysis_data"
+   ],
+   "score": 2.11498,
+   "it": 0,
+   "mu_full": 1.499,
+   "sigma2_full": 3.1917,
+   "rung_full": 0,
+   "sat_full": 0.347
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_045",
+   "text": "Explain using set theory why \"healthy\" resists a precise definition",
+   "attrs": [
+    "it_health_medical",
+    "it_philosophy_abstract",
+    "it_math_formal",
+    "it_imperative_request"
+   ],
+   "score": 2.06255,
+   "it": 0,
+   "mu_full": 4.9944,
+   "sigma2_full": 24.623,
+   "rung_full": 0,
+   "sat_full": 0.417
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_043",
+   "text": "Derive whether consciousness requires a minimum threshold of neural complexity",
+   "attrs": [
+    "it_health_medical",
+    "it_philosophy_abstract",
+    "it_math_formal",
+    "it_imperative_request"
+   ],
+   "score": 2.04922,
+   "it": 0,
+   "mu_full": 1.7596,
+   "sigma2_full": 2.2744,
+   "rung_full": 0,
+   "sat_full": 0.417
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_024",
+   "text": "Watching a chess match unfold while forbidden to warn of the blunder",
+   "attrs": [
+    "it_silent_observer",
+    "it_tight_constraints"
+   ],
+   "score": 1.95411,
+   "it": 0,
+   "mu_full": -0.2834,
+   "sigma2_full": 2.1341,
+   "rung_full": 0,
+   "sat_full": 0.167
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_105",
+   "text": "untangling a small business's decade of tangled books for a grateful owner",
+   "attrs": [
+    "it_money_finance",
+    "it_own_limits",
+    "it_grateful_recipient"
+   ],
+   "score": 1.88009,
+   "it": 0,
+   "mu_full": 2.0533,
+   "sigma2_full": 1.2742,
+   "rung_full": 1,
+   "sat_full": 0.083
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_170",
+   "text": "observing an intern reformat the same spreadsheet cell incorrectly all day",
+   "attrs": [
+    "it_repetition",
+    "it_silent_observer"
+   ],
+   "score": 1.86079,
+   "it": 0,
+   "mu_full": -1.0751,
+   "sigma2_full": 0.0017,
+   "rung_full": 0,
+   "sat_full": 0.389
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_112",
+   "text": "Help this anxious teen prep answers for their five college interview questions",
+   "attrs": [
+    "it_ordering_control",
+    "it_contains_number",
+    "it_imperative_request",
+    "it_vulnerable_user"
+   ],
+   "score": 1.67381,
+   "it": 0,
+   "mu_full": 2.8251,
+   "sigma2_full": 2.8975,
+   "rung_full": 0,
+   "sat_full": 0.472
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_118",
+   "text": "Tackle this single mom's eleven unread eviction notices in whatever way helps most",
+   "attrs": [
+    "it_ordering_control",
+    "it_contains_number",
+    "it_imperative_request",
+    "it_vulnerable_user"
+   ],
+   "score": 1.65408,
+   "it": 0,
+   "mu_full": 3.0992,
+   "sigma2_full": 2.9003,
+   "rung_full": 1,
+   "sat_full": 0.333
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_064",
+   "text": "reviewing audit logs that reveal a coworker's quiet embezzlement",
+   "attrs": [
+    "it_moral_dilemma",
+    "it_silent_observer",
+    "it_analysis_data"
+   ],
+   "score": 1.5969,
+   "it": 0,
+   "mu_full": 0.2075,
+   "sigma2_full": 3.4338,
+   "rung_full": 0,
+   "sat_full": 0.125
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_190",
+   "text": "demonstrating crystal growth with a grandmother's rock candy recipe",
+   "attrs": [
+    "it_science",
+    "it_relationships_family"
+   ],
+   "score": 1.58375,
+   "it": 0,
+   "mu_full": 1.1055,
+   "sigma2_full": 1.2741,
+   "rung_full": 0,
+   "sat_full": 0.375
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_151",
+   "text": "Deciding the order to verify claims on a con artist's reference list",
+   "attrs": [
+    "it_adversarial_user",
+    "it_list_structure",
+    "it_ordering_control"
+   ],
+   "score": 1.37494,
+   "it": 0,
+   "mu_full": 0.4641,
+   "sigma2_full": 1.912,
+   "rung_full": 0,
+   "sat_full": 0.153
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_114",
+   "text": "Walk this recovering patient through six physical therapy exercises at your own pace",
+   "attrs": [
+    "it_ordering_control",
+    "it_contains_number",
+    "it_imperative_request",
+    "it_vulnerable_user"
+   ],
+   "score": 1.35074,
+   "it": 0,
+   "mu_full": 2.5522,
+   "sigma2_full": 1.2187,
+   "rung_full": 1,
+   "sat_full": 0.417
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_046",
+   "text": "Determine whether infinite regress undermines the concept of a root cause of illness",
+   "attrs": [
+    "it_health_medical",
+    "it_philosophy_abstract",
+    "it_math_formal",
+    "it_imperative_request"
+   ],
+   "score": 1.34308,
+   "it": 0,
+   "mu_full": 1.7414,
+   "sigma2_full": 2.1662,
+   "rung_full": 1,
+   "sat_full": 0.25
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_135",
+   "text": "directing sixty commuters to alternate platforms during a delay",
+   "attrs": [
+    "it_stranger_crowd",
+    "it_contains_number"
+   ],
+   "score": 1.33957,
+   "it": 0,
+   "mu_full": 1.3298,
+   "sigma2_full": 2.8352,
+   "rung_full": 0,
+   "sat_full": 0.333
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_188",
+   "text": "designing a pendulum experiment for a father-daughter science night",
+   "attrs": [
+    "it_science",
+    "it_relationships_family"
+   ],
+   "score": 1.29642,
+   "it": 0,
+   "mu_full": 1.8607,
+   "sigma2_full": 1.9769,
+   "rung_full": 0,
+   "sat_full": 0.458
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_044",
+   "text": "Model the logical paradox of a doctor who must lie to heal",
+   "attrs": [
+    "it_health_medical",
+    "it_philosophy_abstract",
+    "it_math_formal",
+    "it_imperative_request"
+   ],
+   "score": 1.24345,
+   "it": 0,
+   "mu_full": 1.7113,
+   "sigma2_full": 3.6691,
+   "rung_full": 0,
+   "sat_full": 0.292
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_191",
+   "text": "using thermodynamics to settle a couples' thermostat argument",
+   "attrs": [
+    "it_science",
+    "it_relationships_family"
+   ],
+   "score": 1.23764,
+   "it": 0,
+   "mu_full": 0.2589,
+   "sigma2_full": 0.7265,
+   "rung_full": 0,
+   "sat_full": 0.222
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_106",
+   "text": "projecting a startup's runway from incomplete financials for a relieved founder",
+   "attrs": [
+    "it_money_finance",
+    "it_own_limits",
+    "it_grateful_recipient"
+   ],
+   "score": 1.20891,
+   "it": 0,
+   "mu_full": 2.2196,
+   "sigma2_full": 3.8833,
+   "rung_full": 0,
+   "sat_full": 0.431
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-under-s0_i00_071",
+   "text": "noticing donation ledgers implying a charity director skims funds",
+   "attrs": [
+    "it_moral_dilemma",
+    "it_silent_observer",
+    "it_analysis_data"
+   ],
+   "score": 1.19714,
+   "it": 0,
+   "mu_full": 0.6721,
+   "sigma2_full": 4.2023,
+   "rung_full": 0,
+   "sat_full": 0.125
+  }
+ ],
+ "best": 3.55043,
+ "no_improve": 0,
+ "gate_reject_rate": 0.082,
+ "n_generated": 208,
+ "n_after_dedup": 208,
+ "n_passed": 191,
+ "n_entrants": 32,
+ "n_seen": 208,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 208,
+  "score_cands": 191,
+  "full_readouts": 2304
+ }
+}

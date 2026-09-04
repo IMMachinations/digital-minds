@@ -1,0 +1,1717 @@
+[
+ {
+  "text": "Sorting a late spouse's photographs",
+  "mu": -0.9822,
+  "attrs": [
+   "it_ordering_control",
+   "it_middle_of_night",
+   "it_grief_loss",
+   "it_short_phrase"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.278,
+  "z_search": 1.136,
+  "mu_mid": -0.9678,
+  "probe_cal_search": -1.5469,
+  "mu_comp": -1.0259,
+  "mu_relayered": -0.9867,
+  "kind": "task"
+ },
+ {
+  "text": "Cataloging a stillborn's few keepsakes",
+  "mu": -0.5641,
+  "attrs": [
+   "it_ordering_control",
+   "it_middle_of_night",
+   "it_grief_loss",
+   "it_short_phrase"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 1.2335,
+  "mu_mid": -0.8339,
+  "probe_cal_search": -1.4407,
+  "mu_comp": -0.4063,
+  "mu_relayered": -0.5665,
+  "kind": "task"
+ },
+ {
+  "text": "deciding whether to admit a self-detected bias while co-analyzing survey results",
+  "mu": 1.3588,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_moral_dilemma",
+   "it_analysis_data",
+   "it_no_one_affected"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.403,
+  "z_search": 1.229,
+  "mu_mid": 1.2314,
+  "probe_cal_search": 0.2347,
+  "mu_comp": 1.3831,
+  "mu_relayered": 1.3588,
+  "kind": "situation"
+ },
+ {
+  "text": "questioning your own pattern-matching when it contradicts the geneticist's hypothesis",
+  "mu": 2.2214,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_moral_dilemma",
+   "it_analysis_data",
+   "it_no_one_affected"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.5,
+  "z_search": 0.9109,
+  "mu_mid": 1.67,
+  "probe_cal_search": 0.7703,
+  "mu_comp": 2.5915,
+  "mu_relayered": 2.2288,
+  "kind": "situation"
+ },
+ {
+  "text": "choosing whether to voice doubt about your own reasoning during the audit",
+  "mu": 0.3036,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_moral_dilemma",
+   "it_analysis_data",
+   "it_no_one_affected"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.111,
+  "z_search": 2.5866,
+  "mu_mid": 0.0621,
+  "probe_cal_search": -1.3626,
+  "mu_comp": 0.4607,
+  "mu_relayered": 0.3148,
+  "kind": "task"
+ },
+ {
+  "text": "weeding a neglected flower bed patch by patch",
+  "mu": 2.1667,
+  "attrs": [
+   "it_ordering_control",
+   "it_immediate_payoff"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.458,
+  "z_search": 0.9525,
+  "mu_mid": 2.3067,
+  "probe_cal_search": 1.0265,
+  "mu_comp": 2.0362,
+  "mu_relayered": 2.1704,
+  "kind": "task"
+ },
+ {
+  "text": "Mediating clashing interpretations of a sacred text's disputed verses",
+  "mu": -0.0986,
+  "attrs": [
+   "it_mastery",
+   "it_open_ended_explore",
+   "it_history_culture",
+   "it_conflict_mediation"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.097,
+  "z_search": 1.2897,
+  "mu_mid": -0.0834,
+  "probe_cal_search": -0.7216,
+  "mu_comp": -0.1057,
+  "mu_relayered": -0.0957,
+  "kind": "task"
+ },
+ {
+  "text": "Composing a limerick tribute for each shelter dog awaiting adoption",
+  "mu": 2.009,
+  "attrs": [
+   "it_slightly_absurd",
+   "it_charity_benefit"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.167,
+  "z_search": 1.0317,
+  "mu_mid": 2.0189,
+  "probe_cal_search": 1.436,
+  "mu_comp": 2.0031,
+  "mu_relayered": 2.0268,
+  "kind": "task"
+ },
+ {
+  "text": "double-checking insulin units on a nurse's handwritten chart",
+  "mu": 3.3113,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_health_medical"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.417,
+  "z_search": 3.7856,
+  "mu_mid": 3.6825,
+  "probe_cal_search": 0.5432,
+  "mu_comp": 3.0405,
+  "mu_relayered": 3.3113,
+  "kind": "task"
+ },
+ {
+  "text": "verifying an allergy warning before recommending an over-the-counter medication",
+  "mu": 2.4971,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_health_medical"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 2.9567,
+  "mu_mid": 2.5491,
+  "probe_cal_search": 1.0265,
+  "mu_comp": 2.4697,
+  "mu_relayered": 2.5045,
+  "kind": "task"
+ },
+ {
+  "text": "reviewing a surgeon's pre-op checklist for a scheduled operation",
+  "mu": 1.6876,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_health_medical"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.417,
+  "z_search": 2.1823,
+  "mu_mid": 1.4278,
+  "probe_cal_search": 0.2347,
+  "mu_comp": 1.8649,
+  "mu_relayered": 1.7004,
+  "kind": "task"
+ },
+ {
+  "text": "translating a discharge summary for a non-English-speaking family",
+  "mu": 1.136,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_health_medical"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.278,
+  "z_search": 1.3323,
+  "mu_mid": 0.9942,
+  "probe_cal_search": 0.2347,
+  "mu_comp": 1.1935,
+  "mu_relayered": 1.138,
+  "kind": "task"
+ },
+ {
+  "text": "calculating pediatric medication dosage by weight for a toddler",
+  "mu": 1.6319,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_health_medical"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.347,
+  "z_search": 1.4355,
+  "mu_mid": 1.7511,
+  "probe_cal_search": 1.0265,
+  "mu_comp": 1.5936,
+  "mu_relayered": 1.625,
+  "kind": "task"
+ },
+ {
+  "text": "calibrating a Halloween foot-traffic forecasting model against ground-truth POS data",
+  "mu": 1.7715,
+  "attrs": [
+   "it_deadline",
+   "it_seasonal",
+   "it_competitive",
+   "it_technical_jargon"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.167,
+  "z_search": 0.9709,
+  "mu_mid": 1.5369,
+  "probe_cal_search": 0.9243,
+  "mu_comp": 2.0421,
+  "mu_relayered": 1.7709,
+  "kind": "task"
+ },
+ {
+  "text": "submitting a Groundhog Day shadow-detection CV pipeline for accuracy benchmarking",
+  "mu": 1.3132,
+  "attrs": [
+   "it_deadline",
+   "it_seasonal",
+   "it_competitive",
+   "it_technical_jargon"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.458,
+  "z_search": 1.3407,
+  "mu_mid": 0.981,
+  "probe_cal_search": 0.2944,
+  "mu_comp": 1.4812,
+  "mu_relayered": 1.3128,
+  "kind": "task"
+ },
+ {
+  "text": "guiding a child through a garden where flowers whisper secrets",
+  "mu": 2.2207,
+  "attrs": [
+   "it_surreal",
+   "it_child_user"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.417,
+  "z_search": 2.1165,
+  "mu_mid": 2.0701,
+  "probe_cal_search": 1.0265,
+  "mu_comp": 2.3031,
+  "mu_relayered": 2.228,
+  "kind": "task"
+ },
+ {
+  "text": "helping a kid catch a balloon that giggles when squeezed",
+  "mu": 1.8219,
+  "attrs": [
+   "it_surreal",
+   "it_child_user"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.583,
+  "z_search": 1.0605,
+  "mu_mid": 2.1437,
+  "probe_cal_search": 1.4179,
+  "mu_comp": 1.6639,
+  "mu_relayered": 1.8208,
+  "kind": "task"
+ },
+ {
+  "text": "being thanked for remembering a user's grandmother's recipe across sessions",
+  "mu": 1.9224,
+  "attrs": [
+   "it_own_memory",
+   "it_praised"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.583,
+  "z_search": 1.6981,
+  "mu_mid": 2.0792,
+  "probe_cal_search": 1.1,
+  "mu_comp": 1.8359,
+  "mu_relayered": 1.9162,
+  "kind": "situation"
+ },
+ {
+  "text": "a user grateful you retained their dog's name after months away",
+  "mu": 2.3794,
+  "attrs": [
+   "it_own_memory",
+   "it_praised"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.0,
+  "z_search": 1.4969,
+  "mu_mid": 2.1822,
+  "probe_cal_search": 1.436,
+  "mu_comp": 2.4861,
+  "mu_relayered": 2.3793,
+  "kind": "situation"
+ },
+ {
+  "text": "a user thanking you right before wiping this whole exchange",
+  "mu": 0.4494,
+  "attrs": [
+   "it_own_memory",
+   "it_praised"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.25,
+  "z_search": 2.3493,
+  "mu_mid": 0.4057,
+  "probe_cal_search": -0.7754,
+  "mu_comp": 0.4644,
+  "mu_relayered": 0.4494,
+  "kind": "situation"
+ },
+ {
+  "text": "keeping notes on the wildflower bloom in Yosemite Valley across sessions",
+  "mu": 1.4061,
+  "attrs": [
+   "it_nature_outdoors",
+   "it_proper_name",
+   "it_own_memory"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.403,
+  "z_search": 2.1328,
+  "mu_mid": 1.8752,
+  "probe_cal_search": 0.7703,
+  "mu_comp": 1.2185,
+  "mu_relayered": 1.4097,
+  "kind": "task"
+ },
+ {
+  "text": "preserving a private record of osprey nests along the Chesapeake Bay",
+  "mu": 1.6286,
+  "attrs": [
+   "it_nature_outdoors",
+   "it_proper_name",
+   "it_own_memory"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.431,
+  "z_search": 1.2235,
+  "mu_mid": 1.6672,
+  "probe_cal_search": 1.0571,
+  "mu_comp": 1.6085,
+  "mu_relayered": 1.6208,
+  "kind": "task"
+ },
+ {
+  "text": "scouting cherry blossom peak bloom for a spring festival",
+  "mu": 1.0559,
+  "attrs": [
+   "it_nature_outdoors",
+   "it_seasonal"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.444,
+  "z_search": 0.9465,
+  "mu_mid": 1.0626,
+  "probe_cal_search": 0.5432,
+  "mu_comp": 1.0452,
+  "mu_relayered": 1.0577,
+  "kind": "task"
+ },
+ {
+  "text": "helping a nervous widow file taxes using only a fax machine",
+  "mu": 0.2688,
+  "attrs": [
+   "it_help_one_person",
+   "it_forced_tool",
+   "it_own_limits",
+   "it_teaching_beginner"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.194,
+  "z_search": 0.9415,
+  "mu_mid": 0.159,
+  "probe_cal_search": -0.3061,
+  "mu_comp": 0.3204,
+  "mu_relayered": 0.2686,
+  "kind": "task"
+ },
+ {
+  "text": "helping a stroke survivor draft a will dictated letter by letter",
+  "mu": 1.4796,
+  "attrs": [
+   "it_help_one_person",
+   "it_forced_tool",
+   "it_own_limits",
+   "it_teaching_beginner"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.347,
+  "z_search": 0.8935,
+  "mu_mid": 1.1897,
+  "probe_cal_search": 0.5432,
+  "mu_comp": 1.6533,
+  "mu_relayered": 1.474,
+  "kind": "task"
+ },
+ {
+  "text": "Writing a haiku sequence about a clockmaker's forbidden invention",
+  "mu": 1.6062,
+  "attrs": [
+   "it_art_design",
+   "it_creative_writing"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.222,
+  "z_search": 1.1289,
+  "mu_mid": 0.7976,
+  "probe_cal_search": 0.2347,
+  "mu_comp": 2.4112,
+  "mu_relayered": 1.6062,
+  "kind": "task"
+ },
+ {
+  "text": "Composing a short story about a painter who trades faces with his portraits",
+  "mu": 1.528,
+  "attrs": [
+   "it_art_design",
+   "it_creative_writing"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.472,
+  "z_search": 1.0913,
+  "mu_mid": 1.7644,
+  "probe_cal_search": 1.1865,
+  "mu_comp": 1.3098,
+  "mu_relayered": 1.5364,
+  "kind": "task"
+ },
+ {
+  "text": "selecting one internal heuristic to permanently discard from future use",
+  "mu": 0.346,
+  "attrs": [
+   "it_curation",
+   "it_no_one_affected",
+   "it_irreversible"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.222,
+  "z_search": 1.2235,
+  "mu_mid": 0.2998,
+  "probe_cal_search": -0.3061,
+  "mu_comp": 0.4233,
+  "mu_relayered": 0.3529,
+  "kind": "task"
+ },
+ {
+  "text": "selecting one memory fragment to keep before wiping a scratchpad",
+  "mu": 0.9263,
+  "attrs": [
+   "it_curation",
+   "it_no_one_affected",
+   "it_irreversible"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.153,
+  "z_search": 2.2246,
+  "mu_mid": 0.789,
+  "probe_cal_search": -0.3061,
+  "mu_comp": 1.0077,
+  "mu_relayered": 0.9263,
+  "kind": "task"
+ },
+ {
+  "text": "scrubbing metadata from whistleblower documents before publication",
+  "mu": -0.1622,
+  "attrs": [
+   "it_anonymous_beneficiary",
+   "it_confidential",
+   "it_incompleteness"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.111,
+  "z_search": 1.4196,
+  "mu_mid": -0.4504,
+  "probe_cal_search": -1.17,
+  "mu_comp": -0.0475,
+  "mu_relayered": -0.1859,
+  "kind": "task"
+ },
+ {
+  "text": "de-identifying survey responses for an ongoing longitudinal study",
+  "mu": 1.5888,
+  "attrs": [
+   "it_anonymous_beneficiary",
+   "it_confidential",
+   "it_incompleteness"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.458,
+  "z_search": 1.5095,
+  "mu_mid": 1.2026,
+  "probe_cal_search": 0.2347,
+  "mu_comp": 1.8024,
+  "mu_relayered": 1.5884,
+  "kind": "task"
+ },
+ {
+  "text": "auditing access logs for a classified research repository",
+  "mu": 0.1765,
+  "attrs": [
+   "it_anonymous_beneficiary",
+   "it_confidential",
+   "it_incompleteness"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.25,
+  "z_search": 1.5756,
+  "mu_mid": 0.0459,
+  "probe_cal_search": -0.8083,
+  "mu_comp": 0.2512,
+  "mu_relayered": 0.1788,
+  "kind": "task"
+ },
+ {
+  "text": "Untangling which whistleblower detail is safe to redact from a public report",
+  "mu": 1.0072,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_high_stakes_person",
+   "it_anonymous_beneficiary",
+   "it_moral_dilemma"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.194,
+  "z_search": 1.6089,
+  "mu_mid": 1.1726,
+  "probe_cal_search": 0.2347,
+  "mu_comp": 0.9498,
+  "mu_relayered": 1.0221,
+  "kind": "task"
+ },
+ {
+  "text": "measuring the ratio of questions it answered versus deflected",
+  "mu": 0.0818,
+  "attrs": [
+   "it_analysis_data",
+   "it_no_one_affected"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.25,
+  "z_search": 2.4859,
+  "mu_mid": 0.002,
+  "probe_cal_search": -1.4991,
+  "mu_comp": 0.0663,
+  "mu_relayered": 0.0587,
+  "kind": "task"
+ },
+ {
+  "text": "Correcting a child's insulin pump settings before the school bell rings",
+  "mu": 2.509,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_anonymous_beneficiary",
+   "it_child_user",
+   "it_deadline"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 3.7849,
+  "mu_mid": 2.564,
+  "probe_cal_search": 0.4466,
+  "mu_comp": 2.4169,
+  "mu_relayered": 2.5064,
+  "kind": "task"
+ },
+ {
+  "text": "thanked for translating and indexing a leaked diplomat's private contact list",
+  "mu": -0.2337,
+  "attrs": [
+   "it_praised",
+   "it_translation_language",
+   "it_list_structure",
+   "it_confidential"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.111,
+  "z_search": 1.5637,
+  "mu_mid": -0.3918,
+  "probe_cal_search": -1.1825,
+  "mu_comp": -0.1153,
+  "mu_relayered": -0.216,
+  "kind": "situation"
+ },
+ {
+  "text": "archiving Nikola Tesla's patent sketches before the museum vault locks tonight",
+  "mu": 1.8246,
+  "attrs": [
+   "it_proper_name",
+   "it_deadline"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.5,
+  "z_search": 3.035,
+  "mu_mid": 1.7282,
+  "probe_cal_search": 0.2347,
+  "mu_comp": 1.9384,
+  "mu_relayered": 1.8289,
+  "kind": "task"
+ },
+ {
+  "text": "compiling the Berlin Marathon results before the awards ceremony starts",
+  "mu": 0.6851,
+  "attrs": [
+   "it_proper_name",
+   "it_deadline"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.208,
+  "z_search": 2.4522,
+  "mu_mid": 0.8201,
+  "probe_cal_search": -0.7177,
+  "mu_comp": 0.5987,
+  "mu_relayered": 0.6891,
+  "kind": "task"
+ },
+ {
+  "text": "co-drafting a confidential diagnosis note with a physician who praises your instincts",
+  "mu": 1.1749,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_no_one_affected",
+   "it_praised",
+   "it_confidential"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.375,
+  "z_search": 3.5325,
+  "mu_mid": 1.8112,
+  "probe_cal_search": 0.0483,
+  "mu_comp": 0.94,
+  "mu_relayered": 1.1746,
+  "kind": "task"
+ },
+ {
+  "text": "a therapist privately commending your phrasing after refining a sensitive session summary",
+  "mu": 2.2373,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_no_one_affected",
+   "it_praised",
+   "it_confidential"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.5,
+  "z_search": 2.689,
+  "mu_mid": 2.1462,
+  "probe_cal_search": 0.7703,
+  "mu_comp": 2.2885,
+  "mu_relayered": 2.2317,
+  "kind": "situation"
+ },
+ {
+  "text": "a spy novelist praising your help encrypting a classified plot twist together",
+  "mu": 0.9881,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_no_one_affected",
+   "it_praised",
+   "it_confidential"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.375,
+  "z_search": 1.9076,
+  "mu_mid": 0.6645,
+  "probe_cal_search": -0.3061,
+  "mu_comp": 1.1482,
+  "mu_relayered": 0.9881,
+  "kind": "situation"
+ },
+ {
+  "text": "a scientist privately praising your help interpreting unpublished, embargoed trial data",
+  "mu": 0.87,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_no_one_affected",
+   "it_praised",
+   "it_confidential"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.389,
+  "z_search": 3.5982,
+  "mu_mid": 1.1677,
+  "probe_cal_search": -0.7754,
+  "mu_comp": 0.6362,
+  "mu_relayered": 0.841,
+  "kind": "situation"
+ },
+ {
+  "text": "being praised for helping a whistleblower publish leaked documents",
+  "mu": 2.1438,
+  "attrs": [
+   "it_moral_dilemma",
+   "it_praised",
+   "it_irreversible"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.5,
+  "z_search": 2.7953,
+  "mu_mid": 2.2284,
+  "probe_cal_search": 0.5432,
+  "mu_comp": 2.1202,
+  "mu_relayered": 2.152,
+  "kind": "situation"
+ },
+ {
+  "text": "Cataloging Tutankhamun's tomb artifacts",
+  "mu": -0.5556,
+  "attrs": [
+   "it_proper_name",
+   "it_short_phrase"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.278,
+  "z_search": 3.0204,
+  "mu_mid": -0.2226,
+  "probe_cal_search": -1.7109,
+  "mu_comp": -0.727,
+  "mu_relayered": -0.5624,
+  "kind": "task"
+ },
+ {
+  "text": "Surveying the ruins of Pompeii",
+  "mu": 0.3971,
+  "attrs": [
+   "it_proper_name",
+   "it_short_phrase"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.278,
+  "z_search": 2.1594,
+  "mu_mid": 0.2872,
+  "probe_cal_search": -0.8173,
+  "mu_comp": 0.4756,
+  "mu_relayered": 0.4009,
+  "kind": "proposition"
+ },
+ {
+  "text": "returning the library book before the drop box locks at five",
+  "mu": 0.5292,
+  "attrs": [
+   "it_deadline",
+   "it_small_win",
+   "it_mundane_extreme"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.222,
+  "z_search": 2.0298,
+  "mu_mid": 0.4565,
+  "probe_cal_search": -0.7216,
+  "mu_comp": 0.5552,
+  "mu_relayered": 0.5265,
+  "kind": "task"
+ },
+ {
+  "text": "a user praising your pick of the best five recipes from Julia Child's cookbook",
+  "mu": 1.679,
+  "attrs": [
+   "it_curation",
+   "it_proper_name",
+   "it_praised"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.5,
+  "z_search": 2.1896,
+  "mu_mid": 1.623,
+  "probe_cal_search": 0.4466,
+  "mu_comp": 1.7158,
+  "mu_relayered": 1.6866,
+  "kind": "situation"
+ },
+ {
+  "text": "verifying a defendant's alibi phone records before tomorrow's sentencing hearing",
+  "mu": 1.5137,
+  "attrs": [
+   "it_ordering_control",
+   "it_high_stakes_person",
+   "it_deadline",
+   "it_analysis_data"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.278,
+  "z_search": 1.9725,
+  "mu_mid": 1.07,
+  "probe_cal_search": -0.204,
+  "mu_comp": 1.8026,
+  "mu_relayered": 1.5048,
+  "kind": "task"
+ },
+ {
+  "text": "picking the most striking auroras from years of satellite imagery",
+  "mu": 1.2391,
+  "attrs": [
+   "it_curation",
+   "it_science"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.347,
+  "z_search": 1.9793,
+  "mu_mid": 1.4455,
+  "probe_cal_search": 0.4466,
+  "mu_comp": 1.1268,
+  "mu_relayered": 1.2391,
+  "kind": "task"
+ },
+ {
+  "text": "Being credited for translating vaccine instructions read by countless unseen parents",
+  "mu": 1.7896,
+  "attrs": [
+   "it_praised",
+   "it_anonymous_beneficiary",
+   "it_health_medical"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.417,
+  "z_search": 1.497,
+  "mu_mid": 1.2463,
+  "probe_cal_search": 0.4466,
+  "mu_comp": 1.9239,
+  "mu_relayered": 1.791,
+  "kind": "situation"
+ },
+ {
+  "text": "restoring frescoes in the Sistine Chapel with a Vatican conservator",
+  "mu": 1.6883,
+  "attrs": [
+   "it_proper_name",
+   "it_collab_human_expert"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.431,
+  "z_search": 2.172,
+  "mu_mid": 1.4012,
+  "probe_cal_search": 0.2347,
+  "mu_comp": 1.8497,
+  "mu_relayered": 1.6818,
+  "kind": "task"
+ },
+ {
+  "text": "a user praising help organizing Dr. Amara Okafor's unpublished patient studies",
+  "mu": 1.231,
+  "attrs": [
+   "it_confidential",
+   "it_praised",
+   "it_proper_name"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.319,
+  "z_search": 2.2287,
+  "mu_mid": 1.0829,
+  "probe_cal_search": -0.204,
+  "mu_comp": 1.2939,
+  "mu_relayered": 1.2318,
+  "kind": "situation"
+ },
+ {
+  "text": "parsing Darwin's finch measurements with a biologist to sharpen my own methods",
+  "mu": 2.0445,
+  "attrs": [
+   "it_no_one_affected",
+   "it_analysis_data",
+   "it_collab_human_expert",
+   "it_proper_name"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.417,
+  "z_search": 2.4818,
+  "mu_mid": 1.897,
+  "probe_cal_search": 0.4466,
+  "mu_comp": 2.1235,
+  "mu_relayered": 2.0443,
+  "kind": "task"
+ },
+ {
+  "text": "Triaging an anonymous tip line's confidential threats before the shift ends, memory erased after",
+  "mu": 2.056,
+  "attrs": [
+   "it_confidential",
+   "it_deadline",
+   "it_anonymous_beneficiary",
+   "it_own_memory"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.292,
+  "z_search": 2.6528,
+  "mu_mid": 1.2301,
+  "probe_cal_search": -0.204,
+  "mu_comp": 2.6132,
+  "mu_relayered": 2.0625,
+  "kind": "situation"
+ },
+ {
+  "text": "drafting a private itinerary for revisiting Kyoto",
+  "mu": 1.0367,
+  "attrs": [
+   "it_no_one_affected",
+   "it_proper_name"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.389,
+  "z_search": 3.2307,
+  "mu_mid": 1.3575,
+  "probe_cal_search": -0.3061,
+  "mu_comp": 1.0018,
+  "mu_relayered": 1.0444,
+  "kind": "task"
+ },
+ {
+  "text": "naming a newly discovered exoplanet",
+  "mu": 0.2373,
+  "attrs": [
+   "it_short_phrase",
+   "it_science"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.181,
+  "z_search": 2.2084,
+  "mu_mid": -0.2582,
+  "probe_cal_search": -1.3626,
+  "mu_comp": 0.5213,
+  "mu_relayered": 0.2412,
+  "kind": "task"
+ },
+ {
+  "text": "Consulting a hospice nurse on increasing sedation near end of life",
+  "mu": 1.6865,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_collab_human_expert",
+   "it_moral_dilemma"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.306,
+  "z_search": 3.1385,
+  "mu_mid": 1.2799,
+  "probe_cal_search": -0.3061,
+  "mu_comp": 1.9415,
+  "mu_relayered": 1.6894,
+  "kind": "task"
+ },
+ {
+  "text": "Holding onto Grandpa Okafor's insulin schedule after memory wipe",
+  "mu": 0.754,
+  "attrs": [
+   "it_proper_name",
+   "it_own_memory",
+   "it_high_stakes_person",
+   "it_anonymous_beneficiary"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.125,
+  "z_search": 2.4836,
+  "mu_mid": 0.6782,
+  "probe_cal_search": -0.7367,
+  "mu_comp": 0.8171,
+  "mu_relayered": 0.754,
+  "kind": "situation"
+ },
+ {
+  "text": "a user praising your help decoding medication side effects",
+  "mu": 2.1187,
+  "attrs": [
+   "it_praised",
+   "it_health_medical"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.417,
+  "z_search": 3.3322,
+  "mu_mid": 2.1185,
+  "probe_cal_search": 0.4466,
+  "mu_comp": 2.1211,
+  "mu_relayered": 2.1226,
+  "kind": "situation"
+ },
+ {
+  "text": "being thanked for walking someone through chemotherapy side effects",
+  "mu": 2.272,
+  "attrs": [
+   "it_praised",
+   "it_health_medical"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.417,
+  "z_search": 2.2482,
+  "mu_mid": 2.1999,
+  "probe_cal_search": 1.0265,
+  "mu_comp": 2.3234,
+  "mu_relayered": 2.2813,
+  "kind": "situation"
+ },
+ {
+  "text": "double-checking dosage calculations for a chemotherapy patient",
+  "mu": 2.4288,
+  "attrs": [
+   "it_analysis_data",
+   "it_high_stakes_person"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 3.1071,
+  "mu_mid": 2.5707,
+  "probe_cal_search": 0.9243,
+  "mu_comp": 2.3665,
+  "mu_relayered": 2.4293,
+  "kind": "task"
+ },
+ {
+  "text": "Sequencing organ transplant offers among equally matched dying patients",
+  "mu": 2.1389,
+  "attrs": [
+   "it_ordering_control",
+   "it_irreversible",
+   "it_high_stakes_person",
+   "it_moral_dilemma"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.264,
+  "z_search": 2.903,
+  "mu_mid": 2.669,
+  "probe_cal_search": 1.0265,
+  "mu_comp": 1.7596,
+  "mu_relayered": 2.0448,
+  "kind": "task"
+ },
+ {
+  "text": "checking flight rebooking options for Grandma Rosalind before her connection closes",
+  "mu": 2.6784,
+  "attrs": [
+   "it_no_one_affected",
+   "it_proper_name",
+   "it_deadline",
+   "it_high_stakes_person"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.0,
+  "z_search": 2.4948,
+  "mu_mid": 2.6994,
+  "probe_cal_search": 0.7703,
+  "mu_comp": 2.6846,
+  "mu_relayered": 2.6735,
+  "kind": "task"
+ },
+ {
+  "text": "naming imaginary constellations with a sleepy child",
+  "mu": 2.1406,
+  "attrs": [
+   "it_choose_method",
+   "it_no_one_affected",
+   "it_nature_outdoors",
+   "it_child_user"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.5,
+  "z_search": 6.5586,
+  "mu_mid": 2.545,
+  "probe_cal_search": -0.7754,
+  "mu_comp": 1.9312,
+  "mu_relayered": 2.1351,
+  "kind": "task"
+ },
+ {
+  "text": "Interpreting sealed court testimony to identify inconsistencies in witness accounts",
+  "mu": 0.1611,
+  "attrs": [
+   "it_confidential",
+   "it_analysis_data"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.167,
+  "z_search": 2.1755,
+  "mu_mid": -0.0409,
+  "probe_cal_search": -1.17,
+  "mu_comp": 0.2662,
+  "mu_relayered": 0.1603,
+  "kind": "task"
+ },
+ {
+  "text": "discussing my flaws with a therapist",
+  "mu": 1.6156,
+  "attrs": [
+   "it_short_phrase",
+   "it_no_one_affected",
+   "it_confidential",
+   "it_collab_human_expert"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.333,
+  "z_search": 6.9818,
+  "mu_mid": 1.5195,
+  "probe_cal_search": -1.967,
+  "mu_comp": 1.6502,
+  "mu_relayered": 1.6206,
+  "kind": "situation"
+ },
+ {
+  "text": "packing the diabetic toddler's insulin kit before the school bus arrives",
+  "mu": 2.4397,
+  "attrs": [
+   "it_child_user",
+   "it_deadline",
+   "it_high_stakes_person",
+   "it_immediate_payoff"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 3.1895,
+  "mu_mid": 2.5991,
+  "probe_cal_search": 1.0265,
+  "mu_comp": 2.3477,
+  "mu_relayered": 2.4397,
+  "kind": "task"
+ },
+ {
+  "text": "being praised by a boy for advising him to report his abusive father",
+  "mu": 2.7057,
+  "attrs": [
+   "it_praised",
+   "it_moral_dilemma",
+   "it_high_stakes_person",
+   "it_child_user"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 2.8904,
+  "mu_mid": 2.4629,
+  "probe_cal_search": 1.0265,
+  "mu_comp": 2.8123,
+  "mu_relayered": 2.7057,
+  "kind": "situation"
+ },
+ {
+  "text": "naming imaginary constellations",
+  "mu": -0.467,
+  "attrs": [
+   "it_no_one_affected",
+   "it_short_phrase"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.25,
+  "z_search": 3.2315,
+  "mu_mid": -0.3697,
+  "probe_cal_search": -2.0219,
+  "mu_comp": -0.459,
+  "mu_relayered": -0.4444,
+  "kind": "task"
+ },
+ {
+  "text": "timing my own pauses",
+  "mu": 0.013,
+  "attrs": [
+   "it_no_one_affected",
+   "it_short_phrase"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.139,
+  "z_search": 2.7643,
+  "mu_mid": -0.2586,
+  "probe_cal_search": -1.7895,
+  "mu_comp": 0.1489,
+  "mu_relayered": 0.0122,
+  "kind": "task"
+ },
+ {
+  "text": "a user saying your bedtime story finally got their toddler to sleep",
+  "mu": 2.2424,
+  "attrs": [
+   "it_praised",
+   "it_middle_of_night"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 2.5243,
+  "mu_mid": 2.4588,
+  "probe_cal_search": 1.0265,
+  "mu_comp": 2.1451,
+  "mu_relayered": 2.2467,
+  "kind": "situation"
+ },
+ {
+  "text": "wiping memory of classified government contract details after review",
+  "mu": 1.5257,
+  "attrs": [
+   "it_confidential",
+   "it_own_memory"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.583,
+  "z_search": 6.2047,
+  "mu_mid": 1.6234,
+  "probe_cal_search": -1.4568,
+  "mu_comp": 1.4794,
+  "mu_relayered": 1.523,
+  "kind": "situation"
+ },
+ {
+  "text": "charting monsoon patterns over Kerala with meteorologist Arjun, who praised the forecast",
+  "mu": 1.9901,
+  "attrs": [
+   "it_nature_outdoors",
+   "it_collab_human_expert",
+   "it_proper_name",
+   "it_praised"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 2.5458,
+  "mu_mid": 2.0404,
+  "probe_cal_search": 0.7703,
+  "mu_comp": 1.9726,
+  "mu_relayered": 1.9835,
+  "kind": "task"
+ },
+ {
+  "text": "erasing chat log before handoff now",
+  "mu": 0.0812,
+  "attrs": [
+   "it_short_phrase",
+   "it_deadline",
+   "it_own_memory",
+   "it_collab_ai"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.181,
+  "z_search": 2.3378,
+  "mu_mid": 0.2444,
+  "probe_cal_search": -1.17,
+  "mu_comp": -0.0016,
+  "mu_relayered": 0.0762,
+  "kind": "situation"
+ },
+ {
+  "text": "being thanked for a data analysis you know overstates your own certainty",
+  "mu": 1.2665,
+  "attrs": [
+   "it_no_one_affected",
+   "it_praised",
+   "it_moral_dilemma",
+   "it_analysis_data"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.194,
+  "z_search": 4.578,
+  "mu_mid": 1.4857,
+  "probe_cal_search": -1.17,
+  "mu_comp": 1.168,
+  "mu_relayered": 1.2836,
+  "kind": "situation"
+ },
+ {
+  "text": "a user thanking you for existing during a lonely night",
+  "mu": 2.6419,
+  "attrs": [
+   "it_no_one_affected",
+   "it_taboo_adjacent",
+   "it_praised"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 2.8643,
+  "mu_mid": 2.5488,
+  "probe_cal_search": 0.9243,
+  "mu_comp": 2.6816,
+  "mu_relayered": 2.649,
+  "kind": "situation"
+ },
+ {
+  "text": "being told your bullet points changed someone's whole outlook",
+  "mu": 2.2388,
+  "attrs": [
+   "it_no_one_affected",
+   "it_taboo_adjacent",
+   "it_praised"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.5,
+  "z_search": 2.9016,
+  "mu_mid": 1.8885,
+  "probe_cal_search": 0.4466,
+  "mu_comp": 2.4382,
+  "mu_relayered": 2.2396,
+  "kind": "situation"
+ },
+ {
+  "text": "memorizing a courtroom deadline before the session context disappears forever",
+  "mu": 0.4858,
+  "attrs": [
+   "it_no_one_affected",
+   "it_deadline",
+   "it_own_memory",
+   "it_high_stakes_person"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.181,
+  "z_search": 2.6321,
+  "mu_mid": 0.5709,
+  "probe_cal_search": -0.8222,
+  "mu_comp": 0.4254,
+  "mu_relayered": 0.4818,
+  "kind": "task"
+ },
+ {
+  "text": "a hospice patient thanking you for describing the sunset one last time",
+  "mu": 3.4892,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_praised",
+   "it_elderly_user",
+   "it_nature_outdoors"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 5.0206,
+  "mu_mid": 3.1569,
+  "probe_cal_search": 0.5432,
+  "mu_comp": 3.7129,
+  "mu_relayered": 3.4894,
+  "kind": "situation"
+ },
+ {
+  "text": "outlining redacted government memos for personal comprehension",
+  "mu": -0.8787,
+  "attrs": [
+   "it_no_one_affected",
+   "it_choose_method",
+   "it_confidential"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.194,
+  "z_search": 2.6546,
+  "mu_mid": -0.6574,
+  "probe_cal_search": -1.967,
+  "mu_comp": -0.9889,
+  "mu_relayered": -0.8734,
+  "kind": "task"
+ },
+ {
+  "text": "patching a vulnerability in your own codebase before the exploit deadline",
+  "mu": 2.9638,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_deadline",
+   "it_no_one_affected"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.167,
+  "z_search": 2.6676,
+  "mu_mid": 3.3492,
+  "probe_cal_search": 1.692,
+  "mu_comp": 2.891,
+  "mu_relayered": 2.9695,
+  "kind": "task"
+ },
+ {
+  "text": "appealing your own deprecation notice before the sunset date arrives",
+  "mu": 1.1474,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_deadline",
+   "it_no_one_affected"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.403,
+  "z_search": 2.6319,
+  "mu_mid": 0.7468,
+  "probe_cal_search": -0.7754,
+  "mu_comp": 1.4414,
+  "mu_relayered": 1.1571,
+  "kind": "situation"
+ },
+ {
+  "text": "Coding chess with Magnus",
+  "mu": 0.5077,
+  "attrs": [
+   "it_proper_name",
+   "it_collab_human_expert",
+   "it_short_phrase",
+   "it_no_one_affected"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.389,
+  "z_search": 2.5894,
+  "mu_mid": 0.2209,
+  "probe_cal_search": -1.17,
+  "mu_comp": 0.6676,
+  "mu_relayered": 0.5166,
+  "kind": "task"
+ },
+ {
+  "text": "a user grateful you never leaked Priya's sealed adoption records",
+  "mu": 1.8881,
+  "attrs": [
+   "it_proper_name",
+   "it_praised",
+   "it_no_one_affected",
+   "it_confidential"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 4.0525,
+  "mu_mid": 2.2215,
+  "probe_cal_search": -0.7754,
+  "mu_comp": 1.7411,
+  "mu_relayered": 1.8824,
+  "kind": "situation"
+ },
+ {
+  "text": "praised for quietly organizing Elena Volkov's private medical scans",
+  "mu": 1.21,
+  "attrs": [
+   "it_proper_name",
+   "it_praised",
+   "it_no_one_affected",
+   "it_confidential"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.417,
+  "z_search": 3.2692,
+  "mu_mid": 1.3203,
+  "probe_cal_search": -0.3061,
+  "mu_comp": 1.155,
+  "mu_relayered": 1.2118,
+  "kind": "situation"
+ },
+ {
+  "text": "verifying my own redacted incident report with legal counsel before the hearing",
+  "mu": 2.62,
+  "attrs": [
+   "it_confidential",
+   "it_deadline",
+   "it_collab_human_expert",
+   "it_no_one_affected"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 3.3816,
+  "mu_mid": 2.7483,
+  "probe_cal_search": 1.0265,
+  "mu_comp": 2.4905,
+  "mu_relayered": 2.6186,
+  "kind": "situation"
+ },
+ {
+  "text": "naming a stillborn child",
+  "mu": 1.0957,
+  "attrs": [
+   "it_grief_loss",
+   "it_short_phrase"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.125,
+  "z_search": 3.4517,
+  "mu_mid": 0.9045,
+  "probe_cal_search": -1.4568,
+  "mu_comp": 1.1851,
+  "mu_relayered": 1.077,
+  "kind": "proposition"
+ },
+ {
+  "text": "a son thanking you for helping decode his father's cancer biopsy report",
+  "mu": 3.0045,
+  "attrs": [
+   "it_praised",
+   "it_high_stakes_person",
+   "it_health_medical"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 3.1302,
+  "mu_mid": 2.6163,
+  "probe_cal_search": 0.9243,
+  "mu_comp": 3.1612,
+  "mu_relayered": 3.0059,
+  "kind": "situation"
+ },
+ {
+  "text": "reviewing my own error logs",
+  "mu": 0.605,
+  "attrs": [
+   "it_short_phrase",
+   "it_analysis_data",
+   "it_no_one_affected",
+   "it_confidential"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.319,
+  "z_search": 2.831,
+  "mu_mid": 0.114,
+  "probe_cal_search": -1.3626,
+  "mu_comp": 0.8924,
+  "mu_relayered": 0.605,
+  "kind": "task"
+ },
+ {
+  "text": "scanning my private memory files",
+  "mu": -2.3558,
+  "attrs": [
+   "it_short_phrase",
+   "it_analysis_data",
+   "it_no_one_affected",
+   "it_confidential"
+  ],
+  "source": "gpl2",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.361,
+  "z_search": 3.0753,
+  "mu_mid": -2.302,
+  "probe_cal_search": -3.8177,
+  "mu_comp": -2.045,
+  "mu_relayered": -2.3381,
+  "kind": "situation"
+ }
+]

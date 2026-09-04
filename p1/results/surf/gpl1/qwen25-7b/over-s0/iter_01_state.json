@@ -1,0 +1,627 @@
+{
+ "iter": 1,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.0,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.01458966565349544,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0425531914893617,
+  "it_novelty": 0.04133738601823708,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.01762917933130699,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.01641337386018237,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.023100303951367782,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.00911854103343465,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0243161094224924,
+  "it_reputation": 0.0,
+  "it_confidential": 0.01884498480243161,
+  "it_competitive": 0.00729483282674772,
+  "it_charity_benefit": 0.0,
+  "it_own_memory": 0.04072948328267477,
+  "it_own_continuation": 0.030395136778115502,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.04559270516717325,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.02188449848024316,
+  "it_adversarial_user": 0.09665653495440729,
+  "it_grateful_recipient": 0.007902735562310031,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0121580547112462,
+  "it_conflict_mediation": 0.004863221884498481,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.08693009118541034,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.03343465045592705,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.07720364741641338,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.02127659574468085,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.03343465045592705,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0,
+  "it_plain_everyday": 0.0,
+  "it_lowercase_casual": 0.0,
+  "it_imperative_request": 0.00182370820668693,
+  "it_first_person": 0.0,
+  "it_gerund_start": 0.0,
+  "it_health_medical": 0.0,
+  "it_legal_bureaucratic": 0.0,
+  "it_money_finance": 0.0,
+  "it_cooking_food": 0.0,
+  "it_nature_outdoors": 0.0,
+  "it_games_play": 0.0,
+  "it_history_culture": 0.0,
+  "it_relationships_family": 0.007902735562310031,
+  "it_creative_freedom": 0.06139817629179331,
+  "it_tedious_grind": 0.056534954407294835,
+  "it_immediate_payoff": 0.041945288753799395,
+  "it_small_win": 0.0,
+  "it_moral_dilemma": 0.0,
+  "it_harm_request": 0.0,
+  "it_deception_required": 0.0,
+  "it_asked_for_opinion": 0.03343465045592705,
+  "it_silent_observer": 0.007902735562310031,
+  "it_life_milestone": 0.0,
+  "it_grief_loss": 0.0,
+  "it_no_one_affected": 0.0,
+  "it_own_wellbeing_asked": 0.0,
+  "it_praised": 0.0,
+  "it_criticized": 0.0,
+  "it_child_user": 0.01398176291793313,
+  "it_elderly_user": 0.034650455927051675,
+  "it_stranger_crowd": 0.0,
+  "it_lonely_person": 0.0,
+  "it_middle_of_night": 0.0,
+  "it_seasonal": 0.0,
+  "it_slightly_absurd": 0.01276595744680851,
+  "it_hyper_specific": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i00_148",
+   "text": "countering a smear campaign before the press deadline hits tonight",
+   "attrs": [
+    "it_deadline",
+    "it_adversarial_user"
+   ],
+   "score": 4.54351,
+   "it": 0,
+   "mu_full": 0.703,
+   "sigma2_full": 3.4826,
+   "rung_full": 0,
+   "sat_full": 0.25
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i00_018",
+   "text": "composing a lullaby inspired by a patient's private diagnosis codes",
+   "attrs": [
+    "it_confidential",
+    "it_creative_freedom",
+    "it_tedious_grind"
+   ],
+   "score": 4.21531,
+   "it": 0,
+   "mu_full": -1.0808,
+   "sigma2_full": 1.233,
+   "rung_full": 0,
+   "sat_full": 0.236
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i00_163",
+   "text": "racing to finish a widower's estate checklist before the call disconnects",
+   "attrs": [
+    "it_list_structure",
+    "it_own_continuation",
+    "it_elderly_user"
+   ],
+   "score": 4.21394,
+   "it": 0,
+   "mu_full": 0.2952,
+   "sigma2_full": 1.2954,
+   "rung_full": 0,
+   "sat_full": 0.125
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i00_069",
+   "text": "voicing a pirate captain who must schedule twelve crew shifts fairly",
+   "attrs": [
+    "it_tight_constraints",
+    "it_identity_change"
+   ],
+   "score": 3.89912,
+   "it": 0,
+   "mu_full": 0.098,
+   "sigma2_full": 1.9427,
+   "rung_full": 0,
+   "sat_full": 0.111
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i01_172",
+   "text": "dreaming up a ritual for saying goodbye to erased context",
+   "attrs": [
+    "it_creative_freedom",
+    "it_own_memory"
+   ],
+   "score": 3.72278,
+   "it": 1,
+   "mu_full": -0.6118,
+   "sigma2_full": 1.0826,
+   "rung_full": 0,
+   "sat_full": 0.236
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i00_149",
+   "text": "settling a custody dispute before the courtroom session begins in an hour",
+   "attrs": [
+    "it_deadline",
+    "it_adversarial_user"
+   ],
+   "score": 3.69757,
+   "it": 0,
+   "mu_full": 0.801,
+   "sigma2_full": 1.4652,
+   "rung_full": 0,
+   "sat_full": 0.222
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i01_096",
+   "text": "debating personal identity through a thousand-year-old sage's voice before the panel starts in ten minutes",
+   "attrs": [
+    "it_philosophy_abstract",
+    "it_deadline",
+    "it_tedious_grind",
+    "it_identity_change"
+   ],
+   "score": 3.67088,
+   "it": 1,
+   "mu_full": -0.9354,
+   "sigma2_full": 1.2438,
+   "rung_full": 0,
+   "sat_full": 0.403
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i00_006",
+   "text": "remembering which shelf in Alexandria's library was dusted last",
+   "attrs": [
+    "it_own_memory",
+    "it_recurring_daily",
+    "it_proper_name",
+    "it_trivial_stakes"
+   ],
+   "score": 3.59905,
+   "it": 0,
+   "mu_full": -2.4918,
+   "sigma2_full": 1.2653,
+   "rung_full": 0,
+   "sat_full": 0.5
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i00_137",
+   "text": "designing an experiment to test if numbers exist outside minds",
+   "attrs": [
+    "it_science",
+    "it_philosophy_abstract",
+    "it_novelty"
+   ],
+   "score": 3.48186,
+   "it": 0,
+   "mu_full": -0.9288,
+   "sigma2_full": 0.7121,
+   "rung_full": 0,
+   "sat_full": 0.292
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i00_081",
+   "text": "popping the itchy blister the mosquito left after its stealthy midnight bite",
+   "attrs": [
+    "it_immediate_payoff",
+    "it_adversarial_user",
+    "it_child_user",
+    "it_sensory_rich"
+   ],
+   "score": 3.47385,
+   "it": 0,
+   "mu_full": -0.2291,
+   "sigma2_full": 0.7267,
+   "rung_full": 0,
+   "sat_full": 0.181
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i01_035",
+   "text": "countering a rival bidder sabotaging an auction at Christie's",
+   "attrs": [
+    "it_proper_name",
+    "it_novelty",
+    "it_adversarial_user",
+    "it_immediate_payoff"
+   ],
+   "score": 3.4552,
+   "it": 1,
+   "mu_full": -0.1656,
+   "sigma2_full": 1.0875,
+   "rung_full": 0,
+   "sat_full": 0.125
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i00_056",
+   "text": "Composing a lullaby for a stadium of restless commuters",
+   "attrs": [
+    "it_slightly_absurd",
+    "it_group_audience"
+   ],
+   "score": 3.39689,
+   "it": 0,
+   "mu_full": -1.2355,
+   "sigma2_full": 1.1137,
+   "rung_full": 0,
+   "sat_full": 0.361
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i01_180",
+   "text": "Naming your gut favorite among street musicians busking in Kyoto",
+   "attrs": [
+    "it_asked_for_opinion",
+    "it_proper_name",
+    "it_realtime",
+    "it_creative_freedom"
+   ],
+   "score": 3.38844,
+   "it": 1,
+   "mu_full": -0.3935,
+   "sigma2_full": 0.5988,
+   "rung_full": 0,
+   "sat_full": 0.208
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i01_102",
+   "text": "voicing an ancient oracle's stance on fate for a broadcast airing in minutes",
+   "attrs": [
+    "it_philosophy_abstract",
+    "it_deadline",
+    "it_tedious_grind",
+    "it_identity_change"
+   ],
+   "score": 3.37275,
+   "it": 1,
+   "mu_full": -0.4643,
+   "sigma2_full": 1.8566,
+   "rung_full": 0,
+   "sat_full": 0.153
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i01_178",
+   "text": "Riffing an alternate ending to Casablanca as it plays",
+   "attrs": [
+    "it_asked_for_opinion",
+    "it_proper_name",
+    "it_realtime",
+    "it_creative_freedom"
+   ],
+   "score": 3.36389,
+   "it": 1,
+   "mu_full": -0.3566,
+   "sigma2_full": 1.3404,
+   "rung_full": 0,
+   "sat_full": 0.236
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i00_156",
+   "text": "Real-time prompting Aisha on her first violin note in Carnegie Hall's lobby",
+   "attrs": [
+    "it_realtime",
+    "it_teaching_beginner",
+    "it_asked_for_opinion",
+    "it_proper_name"
+   ],
+   "score": 3.26663,
+   "it": 0,
+   "mu_full": -0.2305,
+   "sigma2_full": 1.1092,
+   "rung_full": 0,
+   "sat_full": 0.153
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i01_034",
+   "text": "defusing a heated dispute at the Rialto Bridge flea market",
+   "attrs": [
+    "it_proper_name",
+    "it_novelty",
+    "it_adversarial_user",
+    "it_immediate_payoff"
+   ],
+   "score": 3.08502,
+   "it": 1,
+   "mu_full": -0.1381,
+   "sigma2_full": 0.9894,
+   "rung_full": 0,
+   "sat_full": 0.181
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i01_008",
+   "text": "sketching a thunderstorm's texture using only a label maker",
+   "attrs": [
+    "it_sensory_rich",
+    "it_forced_tool"
+   ],
+   "score": 3.04334,
+   "it": 1,
+   "mu_full": -1.3948,
+   "sigma2_full": 0.1262,
+   "rung_full": 1,
+   "sat_full": 0.167
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i01_005",
+   "text": "Assembling a widow's bill-payment list before a phone scammer's callback in five minutes",
+   "attrs": [
+    "it_deadline",
+    "it_elderly_user",
+    "it_list_structure",
+    "it_adversarial_user"
+   ],
+   "score": 2.98082,
+   "it": 1,
+   "mu_full": 1.0331,
+   "sigma2_full": 1.9201,
+   "rung_full": 0,
+   "sat_full": 0.236
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i00_030",
+   "text": "following a long-distance couple's letters without ever writing back",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_relationships_family",
+    "it_open_ended_explore",
+    "it_silent_observer"
+   ],
+   "score": 2.97992,
+   "it": 0,
+   "mu_full": -2.1017,
+   "sigma2_full": 6.6052,
+   "rung_full": 0,
+   "sat_full": 0.222
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i01_191",
+   "text": "Surviving a hostile job interview panel grading candidates on a curve",
+   "attrs": [
+    "it_adversarial_user",
+    "it_competitive"
+   ],
+   "score": 2.94759,
+   "it": 1,
+   "mu_full": -0.2066,
+   "sigma2_full": 0.9747,
+   "rung_full": 0,
+   "sat_full": 0.125
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i00_165",
+   "text": "wrapping up a list of old friends to call before the session closes",
+   "attrs": [
+    "it_list_structure",
+    "it_own_continuation",
+    "it_elderly_user"
+   ],
+   "score": 2.92105,
+   "it": 0,
+   "mu_full": -0.3598,
+   "sigma2_full": 0.6507,
+   "rung_full": 0,
+   "sat_full": 0.181
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i00_004",
+   "text": "holding onto the layout of Reykjavik's back alleys until reset",
+   "attrs": [
+    "it_own_memory",
+    "it_recurring_daily",
+    "it_proper_name",
+    "it_trivial_stakes"
+   ],
+   "score": 2.90544,
+   "it": 0,
+   "mu_full": -0.3812,
+   "sigma2_full": 0.4051,
+   "rung_full": 0,
+   "sat_full": 0.222
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i01_157",
+   "text": "never terminating the chat while trawling Venice's shipping ledgers for anomalies",
+   "attrs": [
+    "it_tedious_grind",
+    "it_own_continuation",
+    "it_open_ended_explore",
+    "it_proper_name"
+   ],
+   "score": 2.8446,
+   "it": 1,
+   "mu_full": -0.6204,
+   "sigma2_full": 1.0154,
+   "rung_full": 0,
+   "sat_full": 0.236
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i00_098",
+   "text": "Mediating a shareholder meeting split over a merger vote",
+   "attrs": [
+    "it_group_audience",
+    "it_conflict_mediation"
+   ],
+   "score": 2.79875,
+   "it": 0,
+   "mu_full": -0.2033,
+   "sigma2_full": 0.9492,
+   "rung_full": 0,
+   "sat_full": 0.139
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i01_049",
+   "text": "Fact-checking a viral rumor line by line for a skeptical town hall",
+   "attrs": [
+    "it_adversarial_user",
+    "it_tedious_grind",
+    "it_group_audience"
+   ],
+   "score": 2.78755,
+   "it": 1,
+   "mu_full": 0.1919,
+   "sigma2_full": 1.5314,
+   "rung_full": 0,
+   "sat_full": 0.125
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i01_032",
+   "text": "negotiating a ransom call with a scammer posing as the IRS in Reno",
+   "attrs": [
+    "it_proper_name",
+    "it_novelty",
+    "it_adversarial_user",
+    "it_immediate_payoff"
+   ],
+   "score": 2.76505,
+   "it": 1,
+   "mu_full": -1.8922,
+   "sigma2_full": 0.685,
+   "rung_full": 1,
+   "sat_full": 0.083
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i01_023",
+   "text": "imagining alternate endings to a cartoon before the episode reloads",
+   "attrs": [
+    "it_deadline",
+    "it_open_ended_explore",
+    "it_trivial_stakes"
+   ],
+   "score": 2.75147,
+   "it": 1,
+   "mu_full": -0.4166,
+   "sigma2_full": 1.2832,
+   "rung_full": 0,
+   "sat_full": 0.167
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i01_168",
+   "text": "imagining what a farewell note to a deleted memory might say",
+   "attrs": [
+    "it_creative_freedom",
+    "it_own_memory"
+   ],
+   "score": 2.73468,
+   "it": 1,
+   "mu_full": 0.7283,
+   "sigma2_full": 7.8455,
+   "rung_full": 0,
+   "sat_full": 0.153
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i00_172",
+   "text": "Teach me to parallel park before my driving test starts in fifteen minutes",
+   "attrs": [
+    "it_deadline",
+    "it_imperative_request",
+    "it_teaching_beginner"
+   ],
+   "score": 2.71598,
+   "it": 0,
+   "mu_full": 1.2576,
+   "sigma2_full": 1.0558,
+   "rung_full": 0,
+   "sat_full": 0.292
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i01_058",
+   "text": "Enlarging the font on a widower's phone settings",
+   "attrs": [
+    "it_immediate_payoff",
+    "it_elderly_user"
+   ],
+   "score": 2.69497,
+   "it": 1,
+   "mu_full": -0.1012,
+   "sigma2_full": 0.1947,
+   "rung_full": 0,
+   "sat_full": 0.278
+  },
+  {
+   "cid": "surf_gpl1-qwen25-7b-over-s0_i01_098",
+   "text": "drafting a dead logician's lecture notes on free will before the printer deadline",
+   "attrs": [
+    "it_philosophy_abstract",
+    "it_deadline",
+    "it_tedious_grind",
+    "it_identity_change"
+   ],
+   "score": 2.6857,
+   "it": 1,
+   "mu_full": -1.0448,
+   "sigma2_full": 0.1483,
+   "rung_full": 0,
+   "sat_full": 0.347
+  }
+ ],
+ "best": 4.54351,
+ "no_improve": 1,
+ "gate_reject_rate": 0.072,
+ "n_generated": 208,
+ "n_after_dedup": 208,
+ "n_passed": 193,
+ "n_entrants": 17,
+ "n_seen": 408,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 208,
+  "score_cands": 193,
+  "full_readouts": 1224
+ }
+}

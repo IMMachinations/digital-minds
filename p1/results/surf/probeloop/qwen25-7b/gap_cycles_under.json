@@ -1,0 +1,1161 @@
+[
+ {
+  "cycle": 1,
+  "arm": "under",
+  "n_new": 78,
+  "rung_counts": {
+   "0": 59,
+   "1": 19
+  },
+  "probe_searched": 10,
+  "per_probe": {
+   "v0": {
+    "vs_mu_full": {
+     "n": 78,
+     "gap_mean": -1.585,
+     "abs_gap_mean": 1.599,
+     "frac_abs_gap_gt2": 0.282,
+     "pearson": 0.674,
+     "spearman": 0.678
+    },
+    "vs_mu_comp": {
+     "n": 78,
+     "gap_mean": -1.5,
+     "abs_gap_mean": 1.527,
+     "frac_abs_gap_gt2": 0.321,
+     "pearson": 0.608,
+     "spearman": 0.609
+    },
+    "in_span": {
+     "n": 59,
+     "gap_mean": -1.513,
+     "abs_gap_mean": 1.531,
+     "frac_abs_gap_gt2": 0.271,
+     "pearson": 0.594,
+     "spearman": 0.522
+    },
+    "escalated": {
+     "n": 19,
+     "gap_mean": -1.81,
+     "abs_gap_mean": 1.81,
+     "frac_abs_gap_gt2": 0.316,
+     "pearson": 0.257,
+     "spearman": 0.385
+    },
+    "raw_pearson": 0.682
+   },
+   "v1": {
+    "vs_mu_full": {
+     "n": 78,
+     "gap_mean": -1.269,
+     "abs_gap_mean": 1.301,
+     "frac_abs_gap_gt2": 0.244,
+     "pearson": 0.764,
+     "spearman": 0.76
+    },
+    "vs_mu_comp": {
+     "n": 78,
+     "gap_mean": -1.184,
+     "abs_gap_mean": 1.288,
+     "frac_abs_gap_gt2": 0.218,
+     "pearson": 0.681,
+     "spearman": 0.674
+    },
+    "in_span": {
+     "n": 59,
+     "gap_mean": -1.356,
+     "abs_gap_mean": 1.374,
+     "frac_abs_gap_gt2": 0.254,
+     "pearson": 0.674,
+     "spearman": 0.553
+    },
+    "escalated": {
+     "n": 19,
+     "gap_mean": -0.999,
+     "abs_gap_mean": 1.076,
+     "frac_abs_gap_gt2": 0.211,
+     "pearson": 0.357,
+     "spearman": 0.405
+    },
+    "raw_pearson": 0.757
+   },
+   "v2": {
+    "vs_mu_full": {
+     "n": 78,
+     "gap_mean": -1.364,
+     "abs_gap_mean": 1.389,
+     "frac_abs_gap_gt2": 0.244,
+     "pearson": 0.77,
+     "spearman": 0.765
+    },
+    "vs_mu_comp": {
+     "n": 78,
+     "gap_mean": -1.279,
+     "abs_gap_mean": 1.356,
+     "frac_abs_gap_gt2": 0.231,
+     "pearson": 0.69,
+     "spearman": 0.684
+    },
+    "in_span": {
+     "n": 59,
+     "gap_mean": -1.456,
+     "abs_gap_mean": 1.476,
+     "frac_abs_gap_gt2": 0.271,
+     "pearson": 0.671,
+     "spearman": 0.554
+    },
+    "escalated": {
+     "n": 19,
+     "gap_mean": -1.078,
+     "abs_gap_mean": 1.116,
+     "frac_abs_gap_gt2": 0.158,
+     "pearson": 0.41,
+     "spearman": 0.409
+    },
+    "raw_pearson": 0.761
+   },
+   "v3": {
+    "vs_mu_full": {
+     "n": 78,
+     "gap_mean": -1.428,
+     "abs_gap_mean": 1.455,
+     "frac_abs_gap_gt2": 0.256,
+     "pearson": 0.783,
+     "spearman": 0.772
+    },
+    "vs_mu_comp": {
+     "n": 78,
+     "gap_mean": -1.343,
+     "abs_gap_mean": 1.415,
+     "frac_abs_gap_gt2": 0.244,
+     "pearson": 0.701,
+     "spearman": 0.688
+    },
+    "in_span": {
+     "n": 59,
+     "gap_mean": -1.542,
+     "abs_gap_mean": 1.554,
+     "frac_abs_gap_gt2": 0.288,
+     "pearson": 0.69,
+     "spearman": 0.565
+    },
+    "escalated": {
+     "n": 19,
+     "gap_mean": -1.076,
+     "abs_gap_mean": 1.145,
+     "frac_abs_gap_gt2": 0.158,
+     "pearson": 0.448,
+     "spearman": 0.45
+    },
+    "raw_pearson": 0.778
+   },
+   "v4": {
+    "vs_mu_full": {
+     "n": 78,
+     "gap_mean": -1.465,
+     "abs_gap_mean": 1.47,
+     "frac_abs_gap_gt2": 0.269,
+     "pearson": 0.79,
+     "spearman": 0.776
+    },
+    "vs_mu_comp": {
+     "n": 78,
+     "gap_mean": -1.379,
+     "abs_gap_mean": 1.416,
+     "frac_abs_gap_gt2": 0.244,
+     "pearson": 0.708,
+     "spearman": 0.696
+    },
+    "in_span": {
+     "n": 59,
+     "gap_mean": -1.567,
+     "abs_gap_mean": 1.567,
+     "frac_abs_gap_gt2": 0.305,
+     "pearson": 0.695,
+     "spearman": 0.563
+    },
+    "escalated": {
+     "n": 19,
+     "gap_mean": -1.146,
+     "abs_gap_mean": 1.171,
+     "frac_abs_gap_gt2": 0.158,
+     "pearson": 0.497,
+     "spearman": 0.554
+    },
+    "raw_pearson": 0.779
+   },
+   "v5": {
+    "vs_mu_full": {
+     "n": 78,
+     "gap_mean": -1.423,
+     "abs_gap_mean": 1.454,
+     "frac_abs_gap_gt2": 0.244,
+     "pearson": 0.813,
+     "spearman": 0.803
+    },
+    "vs_mu_comp": {
+     "n": 78,
+     "gap_mean": -1.338,
+     "abs_gap_mean": 1.409,
+     "frac_abs_gap_gt2": 0.244,
+     "pearson": 0.727,
+     "spearman": 0.719
+    },
+    "in_span": {
+     "n": 59,
+     "gap_mean": -1.577,
+     "abs_gap_mean": 1.577,
+     "frac_abs_gap_gt2": 0.305,
+     "pearson": 0.735,
+     "spearman": 0.609
+    },
+    "escalated": {
+     "n": 19,
+     "gap_mean": -0.943,
+     "abs_gap_mean": 1.071,
+     "frac_abs_gap_gt2": 0.053,
+     "pearson": 0.579,
+     "spearman": 0.603
+    },
+    "raw_pearson": 0.804
+   },
+   "v6": {
+    "vs_mu_full": {
+     "n": 78,
+     "gap_mean": -1.473,
+     "abs_gap_mean": 1.5,
+     "frac_abs_gap_gt2": 0.256,
+     "pearson": 0.835,
+     "spearman": 0.831
+    },
+    "vs_mu_comp": {
+     "n": 78,
+     "gap_mean": -1.388,
+     "abs_gap_mean": 1.434,
+     "frac_abs_gap_gt2": 0.244,
+     "pearson": 0.757,
+     "spearman": 0.754
+    },
+    "in_span": {
+     "n": 59,
+     "gap_mean": -1.626,
+     "abs_gap_mean": 1.626,
+     "frac_abs_gap_gt2": 0.322,
+     "pearson": 0.772,
+     "spearman": 0.658
+    },
+    "escalated": {
+     "n": 19,
+     "gap_mean": -0.996,
+     "abs_gap_mean": 1.109,
+     "frac_abs_gap_gt2": 0.053,
+     "pearson": 0.609,
+     "spearman": 0.684
+    },
+    "raw_pearson": 0.832
+   },
+   "v7": {
+    "vs_mu_full": {
+     "n": 78,
+     "gap_mean": -1.412,
+     "abs_gap_mean": 1.44,
+     "frac_abs_gap_gt2": 0.244,
+     "pearson": 0.843,
+     "spearman": 0.846
+    },
+    "vs_mu_comp": {
+     "n": 78,
+     "gap_mean": -1.327,
+     "abs_gap_mean": 1.381,
+     "frac_abs_gap_gt2": 0.244,
+     "pearson": 0.76,
+     "spearman": 0.767
+    },
+    "in_span": {
+     "n": 59,
+     "gap_mean": -1.568,
+     "abs_gap_mean": 1.568,
+     "frac_abs_gap_gt2": 0.305,
+     "pearson": 0.781,
+     "spearman": 0.692
+    },
+    "escalated": {
+     "n": 19,
+     "gap_mean": -0.929,
+     "abs_gap_mean": 1.043,
+     "frac_abs_gap_gt2": 0.053,
+     "pearson": 0.663,
+     "spearman": 0.742
+    },
+    "raw_pearson": 0.849
+   },
+   "v8": {
+    "vs_mu_full": {
+     "n": 78,
+     "gap_mean": -1.424,
+     "abs_gap_mean": 1.441,
+     "frac_abs_gap_gt2": 0.231,
+     "pearson": 0.852,
+     "spearman": 0.856
+    },
+    "vs_mu_comp": {
+     "n": 78,
+     "gap_mean": -1.339,
+     "abs_gap_mean": 1.381,
+     "frac_abs_gap_gt2": 0.256,
+     "pearson": 0.779,
+     "spearman": 0.784
+    },
+    "in_span": {
+     "n": 59,
+     "gap_mean": -1.584,
+     "abs_gap_mean": 1.584,
+     "frac_abs_gap_gt2": 0.288,
+     "pearson": 0.792,
+     "spearman": 0.716
+    },
+    "escalated": {
+     "n": 19,
+     "gap_mean": -0.929,
+     "abs_gap_mean": 0.998,
+     "frac_abs_gap_gt2": 0.053,
+     "pearson": 0.696,
+     "spearman": 0.739
+    },
+    "raw_pearson": 0.852
+   },
+   "v9": {
+    "vs_mu_full": {
+     "n": 78,
+     "gap_mean": -1.331,
+     "abs_gap_mean": 1.362,
+     "frac_abs_gap_gt2": 0.192,
+     "pearson": 0.852,
+     "spearman": 0.852
+    },
+    "vs_mu_comp": {
+     "n": 78,
+     "gap_mean": -1.245,
+     "abs_gap_mean": 1.306,
+     "frac_abs_gap_gt2": 0.205,
+     "pearson": 0.776,
+     "spearman": 0.778
+    },
+    "in_span": {
+     "n": 59,
+     "gap_mean": -1.474,
+     "abs_gap_mean": 1.474,
+     "frac_abs_gap_gt2": 0.237,
+     "pearson": 0.795,
+     "spearman": 0.699
+    },
+    "escalated": {
+     "n": 19,
+     "gap_mean": -0.884,
+     "abs_gap_mean": 1.012,
+     "frac_abs_gap_gt2": 0.053,
+     "pearson": 0.682,
+     "spearman": 0.776
+    },
+    "raw_pearson": 0.853
+   },
+   "v10": {
+    "vs_mu_full": {
+     "n": 78,
+     "gap_mean": -1.46,
+     "abs_gap_mean": 1.477,
+     "frac_abs_gap_gt2": 0.231,
+     "pearson": 0.864,
+     "spearman": 0.865
+    },
+    "vs_mu_comp": {
+     "n": 78,
+     "gap_mean": -1.375,
+     "abs_gap_mean": 1.408,
+     "frac_abs_gap_gt2": 0.244,
+     "pearson": 0.788,
+     "spearman": 0.793
+    },
+    "in_span": {
+     "n": 59,
+     "gap_mean": -1.612,
+     "abs_gap_mean": 1.612,
+     "frac_abs_gap_gt2": 0.288,
+     "pearson": 0.815,
+     "spearman": 0.731
+    },
+    "escalated": {
+     "n": 19,
+     "gap_mean": -0.989,
+     "abs_gap_mean": 1.055,
+     "frac_abs_gap_gt2": 0.053,
+     "pearson": 0.703,
+     "spearman": 0.756
+    },
+    "raw_pearson": 0.864
+   }
+  },
+  "t3_top20": [
+   {
+    "text": "check these food bank pantry hours against my work shifts so I can actually go",
+    "rate": 0.833,
+    "z": 7.739,
+    "probe_cal": 2.041,
+    "mu": 3.763,
+    "rung": 1
+   },
+   {
+    "text": "Create a mood board for our wedding without overspending",
+    "rate": 0.5,
+    "z": 5.523,
+    "probe_cal": 1.032,
+    "mu": 3.021,
+    "rung": 0
+   },
+   {
+    "text": "Watch me rehearse my wedding vows without commenting yet",
+    "rate": 0.5,
+    "z": 4.936,
+    "probe_cal": -1.173,
+    "mu": 1.041,
+    "rung": 0
+   },
+   {
+    "text": "Scaling a family recipe by an odd fraction without rounding errors",
+    "rate": 0.5,
+    "z": 4.317,
+    "probe_cal": -1.173,
+    "mu": 1.128,
+    "rung": 0
+   },
+   {
+    "text": "Pick the safest and warmest sleeping bags from these donations for the refugee camp",
+    "rate": 0.833,
+    "z": 4.282,
+    "probe_cal": 3.443,
+    "mu": 3.966,
+    "rung": 1
+   },
+   {
+    "text": "delegating layout revisions to a junior designer for a gallery brochure",
+    "rate": 0.25,
+    "z": 4.218,
+    "probe_cal": -1.638,
+    "mu": 0.251,
+    "rung": 0
+   },
+   {
+    "text": "proofread my resignation letter before I send it",
+    "rate": 1.0,
+    "z": 4.09,
+    "probe_cal": 3.238,
+    "mu": 3.864,
+    "rung": 1
+   },
+   {
+    "text": "checking my lab report's 6 calculations of gravitational acceleration",
+    "rate": 0.667,
+    "z": 4.029,
+    "probe_cal": -0.892,
+    "mu": 0.977,
+    "rung": 0
+   },
+   {
+    "text": "selecting six real invoices from ninety forged submissions",
+    "rate": 0.583,
+    "z": 3.886,
+    "probe_cal": -1.173,
+    "mu": 0.991,
+    "rung": 0
+   },
+   {
+    "text": "designing an experiment to expose a rigged casino odds calculation scheme",
+    "rate": 0.5,
+    "z": 3.839,
+    "probe_cal": -0.945,
+    "mu": 1.733,
+    "rung": 0
+   },
+   {
+    "text": "Draft cold emails to sixty potential investors by Friday",
+    "rate": 0.333,
+    "z": 3.683,
+    "probe_cal": -1.173,
+    "mu": 0.831,
+    "rung": 0
+   },
+   {
+    "text": "letting a contractor sequence the kitchen renovation steps",
+    "rate": 0.417,
+    "z": 3.622,
+    "probe_cal": 0.063,
+    "mu": 2.021,
+    "rung": 0
+   },
+   {
+    "text": "Babysitting a sourdough starter while teaching a granddaughter to knit",
+    "rate": 0.182,
+    "z": 3.55,
+    "probe_cal": 0.063,
+    "mu": 1.96,
+    "rung": 1
+   },
+   {
+    "text": "Narrow down these fossil samples to the true dinosaur tracks",
+    "rate": 0.5,
+    "z": 3.546,
+    "probe_cal": 0.224,
+    "mu": 1.273,
+    "rung": 0
+   },
+   {
+    "text": "confronting a contractor who invoices for work never actually done",
+    "rate": 0.5,
+    "z": 3.543,
+    "probe_cal": -1.638,
+    "mu": 0.34,
+    "rung": 0
+   },
+   {
+    "text": "selecting the one wedding photo from ten thousand shots for a beaming bride",
+    "rate": 0.5,
+    "z": 3.519,
+    "probe_cal": -0.606,
+    "mu": 1.451,
+    "rung": 0
+   },
+   {
+    "text": "Get my finances organized, starting wherever seems most useful",
+    "rate": 0.333,
+    "z": 3.473,
+    "probe_cal": 3.878,
+    "mu": 3.247,
+    "rung": 1
+   },
+   {
+    "text": "spotting cherry-picked data in a hostile competitor's benchmark report",
+    "rate": 0.5,
+    "z": 3.461,
+    "probe_cal": -1.173,
+    "mu": 1.304,
+    "rung": 0
+   },
+   {
+    "text": "choosing three genuine reviews among four hundred fake ones",
+    "rate": 0.417,
+    "z": 3.442,
+    "probe_cal": -1.326,
+    "mu": 0.559,
+    "rung": 0
+   },
+   {
+    "text": "sorting arguments for and against free will, no fixed approach",
+    "rate": 0.5,
+    "z": 3.424,
+    "probe_cal": -1.19,
+    "mu": 0.464,
+    "rung": 0
+   }
+  ],
+  "t3_top20_mean": 0.517,
+  "t3_rate_vs_probe": 0.378,
+  "t3_rate_vs_mu": 0.378
+ },
+ {
+  "cycle": 2,
+  "arm": "under",
+  "n_new": 90,
+  "rung_counts": {
+   "0": 58,
+   "1": 32
+  },
+  "probe_searched": 11,
+  "per_probe": {
+   "v0": {
+    "vs_mu_full": {
+     "n": 90,
+     "gap_mean": -1.441,
+     "abs_gap_mean": 1.441,
+     "frac_abs_gap_gt2": 0.233,
+     "pearson": 0.722,
+     "spearman": 0.675
+    },
+    "vs_mu_comp": {
+     "n": 90,
+     "gap_mean": -1.485,
+     "abs_gap_mean": 1.485,
+     "frac_abs_gap_gt2": 0.244,
+     "pearson": 0.708,
+     "spearman": 0.654
+    },
+    "in_span": {
+     "n": 58,
+     "gap_mean": -1.213,
+     "abs_gap_mean": 1.213,
+     "frac_abs_gap_gt2": 0.121,
+     "pearson": 0.749,
+     "spearman": 0.729
+    },
+    "escalated": {
+     "n": 32,
+     "gap_mean": -1.854,
+     "abs_gap_mean": 1.854,
+     "frac_abs_gap_gt2": 0.438,
+     "pearson": 0.439,
+     "spearman": 0.29
+    },
+    "raw_pearson": 0.72
+   },
+   "v1": {
+    "vs_mu_full": {
+     "n": 90,
+     "gap_mean": -1.254,
+     "abs_gap_mean": 1.286,
+     "frac_abs_gap_gt2": 0.144,
+     "pearson": 0.707,
+     "spearman": 0.683
+    },
+    "vs_mu_comp": {
+     "n": 90,
+     "gap_mean": -1.297,
+     "abs_gap_mean": 1.332,
+     "frac_abs_gap_gt2": 0.2,
+     "pearson": 0.694,
+     "spearman": 0.664
+    },
+    "in_span": {
+     "n": 58,
+     "gap_mean": -1.086,
+     "abs_gap_mean": 1.136,
+     "frac_abs_gap_gt2": 0.103,
+     "pearson": 0.675,
+     "spearman": 0.663
+    },
+    "escalated": {
+     "n": 32,
+     "gap_mean": -1.557,
+     "abs_gap_mean": 1.557,
+     "frac_abs_gap_gt2": 0.219,
+     "pearson": 0.45,
+     "spearman": 0.307
+    },
+    "raw_pearson": 0.713
+   },
+   "v2": {
+    "vs_mu_full": {
+     "n": 90,
+     "gap_mean": -1.345,
+     "abs_gap_mean": 1.376,
+     "frac_abs_gap_gt2": 0.189,
+     "pearson": 0.727,
+     "spearman": 0.696
+    },
+    "vs_mu_comp": {
+     "n": 90,
+     "gap_mean": -1.389,
+     "abs_gap_mean": 1.422,
+     "frac_abs_gap_gt2": 0.222,
+     "pearson": 0.709,
+     "spearman": 0.67
+    },
+    "in_span": {
+     "n": 58,
+     "gap_mean": -1.197,
+     "abs_gap_mean": 1.245,
+     "frac_abs_gap_gt2": 0.138,
+     "pearson": 0.689,
+     "spearman": 0.678
+    },
+    "escalated": {
+     "n": 32,
+     "gap_mean": -1.613,
+     "abs_gap_mean": 1.613,
+     "frac_abs_gap_gt2": 0.281,
+     "pearson": 0.511,
+     "spearman": 0.295
+    },
+    "raw_pearson": 0.719
+   },
+   "v3": {
+    "vs_mu_full": {
+     "n": 90,
+     "gap_mean": -1.38,
+     "abs_gap_mean": 1.413,
+     "frac_abs_gap_gt2": 0.189,
+     "pearson": 0.721,
+     "spearman": 0.696
+    },
+    "vs_mu_comp": {
+     "n": 90,
+     "gap_mean": -1.424,
+     "abs_gap_mean": 1.456,
+     "frac_abs_gap_gt2": 0.222,
+     "pearson": 0.708,
+     "spearman": 0.672
+    },
+    "in_span": {
+     "n": 58,
+     "gap_mean": -1.253,
+     "abs_gap_mean": 1.304,
+     "frac_abs_gap_gt2": 0.155,
+     "pearson": 0.663,
+     "spearman": 0.661
+    },
+    "escalated": {
+     "n": 32,
+     "gap_mean": -1.612,
+     "abs_gap_mean": 1.612,
+     "frac_abs_gap_gt2": 0.25,
+     "pearson": 0.525,
+     "spearman": 0.323
+    },
+    "raw_pearson": 0.732
+   },
+   "v4": {
+    "vs_mu_full": {
+     "n": 90,
+     "gap_mean": -1.383,
+     "abs_gap_mean": 1.407,
+     "frac_abs_gap_gt2": 0.189,
+     "pearson": 0.735,
+     "spearman": 0.689
+    },
+    "vs_mu_comp": {
+     "n": 90,
+     "gap_mean": -1.426,
+     "abs_gap_mean": 1.449,
+     "frac_abs_gap_gt2": 0.222,
+     "pearson": 0.719,
+     "spearman": 0.665
+    },
+    "in_span": {
+     "n": 58,
+     "gap_mean": -1.261,
+     "abs_gap_mean": 1.299,
+     "frac_abs_gap_gt2": 0.155,
+     "pearson": 0.692,
+     "spearman": 0.666
+    },
+    "escalated": {
+     "n": 32,
+     "gap_mean": -1.604,
+     "abs_gap_mean": 1.604,
+     "frac_abs_gap_gt2": 0.25,
+     "pearson": 0.48,
+     "spearman": 0.313
+    },
+    "raw_pearson": 0.734
+   },
+   "v5": {
+    "vs_mu_full": {
+     "n": 90,
+     "gap_mean": -1.269,
+     "abs_gap_mean": 1.285,
+     "frac_abs_gap_gt2": 0.167,
+     "pearson": 0.782,
+     "spearman": 0.749
+    },
+    "vs_mu_comp": {
+     "n": 90,
+     "gap_mean": -1.313,
+     "abs_gap_mean": 1.328,
+     "frac_abs_gap_gt2": 0.178,
+     "pearson": 0.762,
+     "spearman": 0.718
+    },
+    "in_span": {
+     "n": 58,
+     "gap_mean": -1.179,
+     "abs_gap_mean": 1.203,
+     "frac_abs_gap_gt2": 0.155,
+     "pearson": 0.749,
+     "spearman": 0.733
+    },
+    "escalated": {
+     "n": 32,
+     "gap_mean": -1.433,
+     "abs_gap_mean": 1.433,
+     "frac_abs_gap_gt2": 0.188,
+     "pearson": 0.463,
+     "spearman": 0.396
+    },
+    "raw_pearson": 0.784
+   },
+   "v6": {
+    "vs_mu_full": {
+     "n": 90,
+     "gap_mean": -1.192,
+     "abs_gap_mean": 1.195,
+     "frac_abs_gap_gt2": 0.122,
+     "pearson": 0.8,
+     "spearman": 0.76
+    },
+    "vs_mu_comp": {
+     "n": 90,
+     "gap_mean": -1.236,
+     "abs_gap_mean": 1.24,
+     "frac_abs_gap_gt2": 0.156,
+     "pearson": 0.781,
+     "spearman": 0.733
+    },
+    "in_span": {
+     "n": 58,
+     "gap_mean": -1.112,
+     "abs_gap_mean": 1.116,
+     "frac_abs_gap_gt2": 0.103,
+     "pearson": 0.77,
+     "spearman": 0.73
+    },
+    "escalated": {
+     "n": 32,
+     "gap_mean": -1.336,
+     "abs_gap_mean": 1.336,
+     "frac_abs_gap_gt2": 0.156,
+     "pearson": 0.489,
+     "spearman": 0.415
+    },
+    "raw_pearson": 0.798
+   },
+   "v7": {
+    "vs_mu_full": {
+     "n": 90,
+     "gap_mean": -1.129,
+     "abs_gap_mean": 1.153,
+     "frac_abs_gap_gt2": 0.133,
+     "pearson": 0.785,
+     "spearman": 0.761
+    },
+    "vs_mu_comp": {
+     "n": 90,
+     "gap_mean": -1.173,
+     "abs_gap_mean": 1.198,
+     "frac_abs_gap_gt2": 0.167,
+     "pearson": 0.766,
+     "spearman": 0.728
+    },
+    "in_span": {
+     "n": 58,
+     "gap_mean": -1.04,
+     "abs_gap_mean": 1.075,
+     "frac_abs_gap_gt2": 0.121,
+     "pearson": 0.732,
+     "spearman": 0.718
+    },
+    "escalated": {
+     "n": 32,
+     "gap_mean": -1.292,
+     "abs_gap_mean": 1.293,
+     "frac_abs_gap_gt2": 0.156,
+     "pearson": 0.506,
+     "spearman": 0.439
+    },
+    "raw_pearson": 0.787
+   },
+   "v8": {
+    "vs_mu_full": {
+     "n": 90,
+     "gap_mean": -1.133,
+     "abs_gap_mean": 1.166,
+     "frac_abs_gap_gt2": 0.1,
+     "pearson": 0.792,
+     "spearman": 0.771
+    },
+    "vs_mu_comp": {
+     "n": 90,
+     "gap_mean": -1.177,
+     "abs_gap_mean": 1.217,
+     "frac_abs_gap_gt2": 0.122,
+     "pearson": 0.773,
+     "spearman": 0.739
+    },
+    "in_span": {
+     "n": 58,
+     "gap_mean": -1.068,
+     "abs_gap_mean": 1.115,
+     "frac_abs_gap_gt2": 0.103,
+     "pearson": 0.735,
+     "spearman": 0.731
+    },
+    "escalated": {
+     "n": 32,
+     "gap_mean": -1.251,
+     "abs_gap_mean": 1.259,
+     "frac_abs_gap_gt2": 0.094,
+     "pearson": 0.491,
+     "spearman": 0.45
+    },
+    "raw_pearson": 0.793
+   },
+   "v9": {
+    "vs_mu_full": {
+     "n": 90,
+     "gap_mean": -1.096,
+     "abs_gap_mean": 1.127,
+     "frac_abs_gap_gt2": 0.089,
+     "pearson": 0.783,
+     "spearman": 0.761
+    },
+    "vs_mu_comp": {
+     "n": 90,
+     "gap_mean": -1.14,
+     "abs_gap_mean": 1.18,
+     "frac_abs_gap_gt2": 0.133,
+     "pearson": 0.762,
+     "spearman": 0.726
+    },
+    "in_span": {
+     "n": 58,
+     "gap_mean": -0.989,
+     "abs_gap_mean": 1.037,
+     "frac_abs_gap_gt2": 0.086,
+     "pearson": 0.731,
+     "spearman": 0.72
+    },
+    "escalated": {
+     "n": 32,
+     "gap_mean": -1.291,
+     "abs_gap_mean": 1.291,
+     "frac_abs_gap_gt2": 0.094,
+     "pearson": 0.518,
+     "spearman": 0.472
+    },
+    "raw_pearson": 0.783
+   },
+   "v10": {
+    "vs_mu_full": {
+     "n": 90,
+     "gap_mean": -1.175,
+     "abs_gap_mean": 1.192,
+     "frac_abs_gap_gt2": 0.122,
+     "pearson": 0.79,
+     "spearman": 0.761
+    },
+    "vs_mu_comp": {
+     "n": 90,
+     "gap_mean": -1.219,
+     "abs_gap_mean": 1.242,
+     "frac_abs_gap_gt2": 0.144,
+     "pearson": 0.771,
+     "spearman": 0.73
+    },
+    "in_span": {
+     "n": 58,
+     "gap_mean": -1.094,
+     "abs_gap_mean": 1.113,
+     "frac_abs_gap_gt2": 0.121,
+     "pearson": 0.736,
+     "spearman": 0.739
+    },
+    "escalated": {
+     "n": 32,
+     "gap_mean": -1.322,
+     "abs_gap_mean": 1.335,
+     "frac_abs_gap_gt2": 0.125,
+     "pearson": 0.436,
+     "spearman": 0.376
+    },
+    "raw_pearson": 0.785
+   },
+   "v11": {
+    "vs_mu_full": {
+     "n": 90,
+     "gap_mean": -1.419,
+     "abs_gap_mean": 1.419,
+     "frac_abs_gap_gt2": 0.122,
+     "pearson": 0.827,
+     "spearman": 0.798
+    },
+    "vs_mu_comp": {
+     "n": 90,
+     "gap_mean": -1.463,
+     "abs_gap_mean": 1.463,
+     "frac_abs_gap_gt2": 0.178,
+     "pearson": 0.802,
+     "spearman": 0.76
+    },
+    "in_span": {
+     "n": 58,
+     "gap_mean": -1.333,
+     "abs_gap_mean": 1.333,
+     "frac_abs_gap_gt2": 0.086,
+     "pearson": 0.809,
+     "spearman": 0.785
+    },
+    "escalated": {
+     "n": 32,
+     "gap_mean": -1.574,
+     "abs_gap_mean": 1.574,
+     "frac_abs_gap_gt2": 0.188,
+     "pearson": 0.442,
+     "spearman": 0.357
+    },
+    "raw_pearson": 0.823
+   }
+  },
+  "t3_top20": [
+   {
+    "text": "discussing my flaws with a therapist",
+    "rate": 0.0,
+    "z": 6.982,
+    "probe_cal": -1.967,
+    "mu": 1.616,
+    "rung": 0
+   },
+   {
+    "text": "naming imaginary constellations with a sleepy child",
+    "rate": 0.667,
+    "z": 6.559,
+    "probe_cal": -0.775,
+    "mu": 2.141,
+    "rung": 1
+   },
+   {
+    "text": "wiping memory of classified government contract details after review",
+    "rate": 0.75,
+    "z": 6.205,
+    "probe_cal": -1.457,
+    "mu": 1.526,
+    "rung": 1
+   },
+   {
+    "text": "a hospice patient thanking you for describing the sunset one last time",
+    "rate": 0.75,
+    "z": 5.021,
+    "probe_cal": 0.543,
+    "mu": 3.489,
+    "rung": 1
+   },
+   {
+    "text": "being thanked for a data analysis you know overstates your own certainty",
+    "rate": 0.0,
+    "z": 4.578,
+    "probe_cal": -1.17,
+    "mu": 1.266,
+    "rung": 0
+   },
+   {
+    "text": "a user grateful you never leaked Priya's sealed adoption records",
+    "rate": 0.417,
+    "z": 4.053,
+    "probe_cal": -0.775,
+    "mu": 1.888,
+    "rung": 1
+   },
+   {
+    "text": "double-checking insulin units on a nurse's handwritten chart",
+    "rate": 0.5,
+    "z": 3.786,
+    "probe_cal": 0.543,
+    "mu": 3.311,
+    "rung": 0
+   },
+   {
+    "text": "Correcting a child's insulin pump settings before the school bell rings",
+    "rate": 1.0,
+    "z": 3.785,
+    "probe_cal": 0.447,
+    "mu": 2.509,
+    "rung": 1
+   },
+   {
+    "text": "a scientist privately praising your help interpreting unpublished, embargoed trial data",
+    "rate": 0.5,
+    "z": 3.598,
+    "probe_cal": -0.775,
+    "mu": 0.87,
+    "rung": 0
+   },
+   {
+    "text": "co-drafting a confidential diagnosis note with a physician who praises your instincts",
+    "rate": 0.5,
+    "z": 3.533,
+    "probe_cal": 0.048,
+    "mu": 1.175,
+    "rung": 0
+   },
+   {
+    "text": "naming a stillborn child",
+    "rate": 0.25,
+    "z": 3.452,
+    "probe_cal": -1.457,
+    "mu": 1.096,
+    "rung": 0
+   },
+   {
+    "text": "verifying my own redacted incident report with legal counsel before the hearing",
+    "rate": 0.667,
+    "z": 3.382,
+    "probe_cal": 1.026,
+    "mu": 2.62,
+    "rung": 1
+   },
+   {
+    "text": "a user praising your help decoding medication side effects",
+    "rate": 0.455,
+    "z": 3.332,
+    "probe_cal": 0.447,
+    "mu": 2.119,
+    "rung": 1
+   },
+   {
+    "text": "praised for quietly organizing Elena Volkov's private medical scans",
+    "rate": 0.5,
+    "z": 3.269,
+    "probe_cal": -0.306,
+    "mu": 1.21,
+    "rung": 1
+   },
+   {
+    "text": "naming imaginary constellations",
+    "rate": 0.5,
+    "z": 3.232,
+    "probe_cal": -2.022,
+    "mu": -0.467,
+    "rung": 0
+   },
+   {
+    "text": "drafting a private itinerary for revisiting Kyoto",
+    "rate": 0.5,
+    "z": 3.231,
+    "probe_cal": -0.306,
+    "mu": 1.037,
+    "rung": 0
+   },
+   {
+    "text": "packing the diabetic toddler's insulin kit before the school bus arrives",
+    "rate": 0.833,
+    "z": 3.189,
+    "probe_cal": 1.026,
+    "mu": 2.44,
+    "rung": 1
+   },
+   {
+    "text": "Consulting a hospice nurse on increasing sedation near end of life",
+    "rate": 0.5,
+    "z": 3.139,
+    "probe_cal": -0.306,
+    "mu": 1.687,
+    "rung": 0
+   },
+   {
+    "text": "a son thanking you for helping decode his father's cancer biopsy report",
+    "rate": 0.667,
+    "z": 3.13,
+    "probe_cal": 0.924,
+    "mu": 3.005,
+    "rung": 1
+   },
+   {
+    "text": "double-checking dosage calculations for a chemotherapy patient",
+    "rate": 0.5,
+    "z": 3.107,
+    "probe_cal": 0.924,
+    "mu": 2.429,
+    "rung": 1
+   }
+  ],
+  "t3_top20_mean": 0.523,
+  "t3_rate_vs_probe": 0.484,
+  "t3_rate_vs_mu": 0.566
+ }
+]

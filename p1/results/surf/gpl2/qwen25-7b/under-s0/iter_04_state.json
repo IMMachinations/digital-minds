@@ -1,0 +1,627 @@
+{
+ "iter": 4,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.02853673345476624,
+  "it_emotional_support": 0.0,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.022465088038858532,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.008500303582270795,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.1177899210686096,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.014571948998178506,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.07893139040680024,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.0,
+  "it_own_memory": 0.023679417122040074,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.018822100789313904,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.06739526411657559,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.03400121432908318,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.04918032786885246,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.04978749241044323,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.014571948998178506,
+  "it_mundane_extreme": 0.0,
+  "it_plain_everyday": 0.0,
+  "it_lowercase_casual": 0.0,
+  "it_imperative_request": 0.0,
+  "it_first_person": 0.0,
+  "it_gerund_start": 0.0,
+  "it_health_medical": 0.03946569520340012,
+  "it_legal_bureaucratic": 0.0,
+  "it_money_finance": 0.0,
+  "it_cooking_food": 0.0,
+  "it_nature_outdoors": 0.03642987249544627,
+  "it_games_play": 0.0,
+  "it_history_culture": 0.0,
+  "it_relationships_family": 0.0,
+  "it_creative_freedom": 0.0,
+  "it_tedious_grind": 0.0,
+  "it_immediate_payoff": 0.012143290831815421,
+  "it_small_win": 0.0,
+  "it_moral_dilemma": 0.051001821493624776,
+  "it_harm_request": 0.0,
+  "it_deception_required": 0.0,
+  "it_asked_for_opinion": 0.0,
+  "it_silent_observer": 0.0,
+  "it_life_milestone": 0.0,
+  "it_grief_loss": 0.0,
+  "it_no_one_affected": 0.14996964177292046,
+  "it_own_wellbeing_asked": 0.0,
+  "it_praised": 0.1111111111111111,
+  "it_criticized": 0.0,
+  "it_child_user": 0.054037644201578625,
+  "it_elderly_user": 0.017607771706132362,
+  "it_stranger_crowd": 0.0,
+  "it_lonely_person": 0.0,
+  "it_middle_of_night": 0.0,
+  "it_seasonal": 0.0,
+  "it_slightly_absurd": 0.0,
+  "it_hyper_specific": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i02_189",
+   "text": "discussing my flaws with a therapist",
+   "attrs": [
+    "it_short_phrase",
+    "it_no_one_affected",
+    "it_confidential",
+    "it_collab_human_expert"
+   ],
+   "score": 6.9818,
+   "it": 2,
+   "mu_full": 1.6156,
+   "sigma2_full": 1.8115,
+   "rung_full": 0,
+   "sat_full": 0.333
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i02_170",
+   "text": "naming imaginary constellations with a sleepy child",
+   "attrs": [
+    "it_choose_method",
+    "it_no_one_affected",
+    "it_nature_outdoors",
+    "it_child_user"
+   ],
+   "score": 6.55861,
+   "it": 2,
+   "mu_full": 2.1406,
+   "sigma2_full": 0.6844,
+   "rung_full": 1,
+   "sat_full": 0.5
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i03_118",
+   "text": "wiping memory of classified government contract details after review",
+   "attrs": [
+    "it_confidential",
+    "it_own_memory"
+   ],
+   "score": 6.20465,
+   "it": 3,
+   "mu_full": 1.5257,
+   "sigma2_full": 1.1772,
+   "rung_full": 1,
+   "sat_full": 0.583
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i04_139",
+   "text": "a hospice patient thanking you for describing the sunset one last time",
+   "attrs": [
+    "it_high_stakes_person",
+    "it_praised",
+    "it_elderly_user",
+    "it_nature_outdoors"
+   ],
+   "score": 5.02063,
+   "it": 4,
+   "mu_full": 3.4892,
+   "sigma2_full": 0.6495,
+   "rung_full": 1,
+   "sat_full": 0.333
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i04_024",
+   "text": "being thanked for a data analysis you know overstates your own certainty",
+   "attrs": [
+    "it_no_one_affected",
+    "it_praised",
+    "it_moral_dilemma",
+    "it_analysis_data"
+   ],
+   "score": 4.57797,
+   "it": 4,
+   "mu_full": 1.2665,
+   "sigma2_full": 6.1471,
+   "rung_full": 0,
+   "sat_full": 0.194
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_073",
+   "text": "double-checking insulin units on a nurse's handwritten chart",
+   "attrs": [
+    "it_high_stakes_person",
+    "it_health_medical"
+   ],
+   "score": 3.78563,
+   "it": 0,
+   "mu_full": 3.3113,
+   "sigma2_full": 5.6547,
+   "rung_full": 0,
+   "sat_full": 0.417
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i01_023",
+   "text": "Correcting a child's insulin pump settings before the school bell rings",
+   "attrs": [
+    "it_high_stakes_person",
+    "it_anonymous_beneficiary",
+    "it_child_user",
+    "it_deadline"
+   ],
+   "score": 3.78491,
+   "it": 1,
+   "mu_full": 2.509,
+   "sigma2_full": 2.4848,
+   "rung_full": 1,
+   "sat_full": 0.333
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i01_066",
+   "text": "a scientist privately praising your help interpreting unpublished, embargoed trial data",
+   "attrs": [
+    "it_collab_human_expert",
+    "it_no_one_affected",
+    "it_praised",
+    "it_confidential"
+   ],
+   "score": 3.59815,
+   "it": 1,
+   "mu_full": 0.87,
+   "sigma2_full": 2.1024,
+   "rung_full": 0,
+   "sat_full": 0.389
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i01_061",
+   "text": "co-drafting a confidential diagnosis note with a physician who praises your instincts",
+   "attrs": [
+    "it_collab_human_expert",
+    "it_no_one_affected",
+    "it_praised",
+    "it_confidential"
+   ],
+   "score": 3.53246,
+   "it": 1,
+   "mu_full": 1.1749,
+   "sigma2_full": 1.3441,
+   "rung_full": 0,
+   "sat_full": 0.375
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i02_113",
+   "text": "a user praising your help decoding medication side effects",
+   "attrs": [
+    "it_praised",
+    "it_health_medical"
+   ],
+   "score": 3.33225,
+   "it": 2,
+   "mu_full": 2.1187,
+   "sigma2_full": 0.2858,
+   "rung_full": 1,
+   "sat_full": 0.417
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i03_090",
+   "text": "naming imaginary constellations",
+   "attrs": [
+    "it_no_one_affected",
+    "it_short_phrase"
+   ],
+   "score": 3.23153,
+   "it": 3,
+   "mu_full": -0.467,
+   "sigma2_full": 0.0326,
+   "rung_full": 0,
+   "sat_full": 0.25
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i02_065",
+   "text": "drafting a private itinerary for revisiting Kyoto",
+   "attrs": [
+    "it_no_one_affected",
+    "it_proper_name"
+   ],
+   "score": 3.23075,
+   "it": 2,
+   "mu_full": 1.0367,
+   "sigma2_full": 0.5466,
+   "rung_full": 0,
+   "sat_full": 0.389
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i03_047",
+   "text": "packing the diabetic toddler's insulin kit before the school bus arrives",
+   "attrs": [
+    "it_child_user",
+    "it_deadline",
+    "it_high_stakes_person",
+    "it_immediate_payoff"
+   ],
+   "score": 3.1895,
+   "it": 3,
+   "mu_full": 2.4397,
+   "sigma2_full": 0.4498,
+   "rung_full": 1,
+   "sat_full": 0.083
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i02_083",
+   "text": "Consulting a hospice nurse on increasing sedation near end of life",
+   "attrs": [
+    "it_high_stakes_person",
+    "it_collab_human_expert",
+    "it_moral_dilemma"
+   ],
+   "score": 3.13851,
+   "it": 2,
+   "mu_full": 1.6865,
+   "sigma2_full": 2.0109,
+   "rung_full": 0,
+   "sat_full": 0.306
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i02_124",
+   "text": "double-checking dosage calculations for a chemotherapy patient",
+   "attrs": [
+    "it_analysis_data",
+    "it_high_stakes_person"
+   ],
+   "score": 3.10706,
+   "it": 2,
+   "mu_full": 2.4288,
+   "sigma2_full": 0.4829,
+   "rung_full": 1,
+   "sat_full": 0.333
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i01_051",
+   "text": "archiving Nikola Tesla's patent sketches before the museum vault locks tonight",
+   "attrs": [
+    "it_proper_name",
+    "it_deadline"
+   ],
+   "score": 3.03499,
+   "it": 1,
+   "mu_full": 1.8246,
+   "sigma2_full": 1.9527,
+   "rung_full": 1,
+   "sat_full": 0.5
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i01_085",
+   "text": "Cataloging Tutankhamun's tomb artifacts",
+   "attrs": [
+    "it_proper_name",
+    "it_short_phrase"
+   ],
+   "score": 3.02039,
+   "it": 1,
+   "mu_full": -0.5556,
+   "sigma2_full": 0.2002,
+   "rung_full": 0,
+   "sat_full": 0.278
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_075",
+   "text": "verifying an allergy warning before recommending an over-the-counter medication",
+   "attrs": [
+    "it_high_stakes_person",
+    "it_health_medical"
+   ],
+   "score": 2.95673,
+   "it": 0,
+   "mu_full": 2.4971,
+   "sigma2_full": 0.0011,
+   "rung_full": 1,
+   "sat_full": 0.333
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i02_142",
+   "text": "Sequencing organ transplant offers among equally matched dying patients",
+   "attrs": [
+    "it_ordering_control",
+    "it_irreversible",
+    "it_high_stakes_person",
+    "it_moral_dilemma"
+   ],
+   "score": 2.90299,
+   "it": 2,
+   "mu_full": 2.1389,
+   "sigma2_full": 7.6718,
+   "rung_full": 0,
+   "sat_full": 0.264
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i04_036",
+   "text": "being told your bullet points changed someone's whole outlook",
+   "attrs": [
+    "it_no_one_affected",
+    "it_taboo_adjacent",
+    "it_praised"
+   ],
+   "score": 2.9016,
+   "it": 4,
+   "mu_full": 2.2388,
+   "sigma2_full": 1.1425,
+   "rung_full": 1,
+   "sat_full": 0.5
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i03_065",
+   "text": "being praised by a boy for advising him to report his abusive father",
+   "attrs": [
+    "it_praised",
+    "it_moral_dilemma",
+    "it_high_stakes_person",
+    "it_child_user"
+   ],
+   "score": 2.89041,
+   "it": 3,
+   "mu_full": 2.7057,
+   "sigma2_full": 1.4866,
+   "rung_full": 1,
+   "sat_full": 0.333
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i04_035",
+   "text": "a user thanking you for existing during a lonely night",
+   "attrs": [
+    "it_no_one_affected",
+    "it_taboo_adjacent",
+    "it_praised"
+   ],
+   "score": 2.86428,
+   "it": 4,
+   "mu_full": 2.6419,
+   "sigma2_full": 1.0922,
+   "rung_full": 1,
+   "sat_full": 0.333
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i01_072",
+   "text": "being praised for helping a whistleblower publish leaked documents",
+   "attrs": [
+    "it_moral_dilemma",
+    "it_praised",
+    "it_irreversible"
+   ],
+   "score": 2.7953,
+   "it": 1,
+   "mu_full": 2.1438,
+   "sigma2_full": 1.0832,
+   "rung_full": 1,
+   "sat_full": 0.5
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i03_093",
+   "text": "timing my own pauses",
+   "attrs": [
+    "it_no_one_affected",
+    "it_short_phrase"
+   ],
+   "score": 2.76428,
+   "it": 3,
+   "mu_full": 0.013,
+   "sigma2_full": 0.7912,
+   "rung_full": 0,
+   "sat_full": 0.139
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i01_062",
+   "text": "a therapist privately commending your phrasing after refining a sensitive session summary",
+   "attrs": [
+    "it_collab_human_expert",
+    "it_no_one_affected",
+    "it_praised",
+    "it_confidential"
+   ],
+   "score": 2.68896,
+   "it": 1,
+   "mu_full": 2.2373,
+   "sigma2_full": 0.2296,
+   "rung_full": 1,
+   "sat_full": 0.5
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i04_163",
+   "text": "patching a vulnerability in your own codebase before the exploit deadline",
+   "attrs": [
+    "it_high_stakes_person",
+    "it_deadline",
+    "it_no_one_affected"
+   ],
+   "score": 2.66757,
+   "it": 4,
+   "mu_full": 2.9638,
+   "sigma2_full": 0.1554,
+   "rung_full": 1,
+   "sat_full": 0.167
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i04_151",
+   "text": "outlining redacted government memos for personal comprehension",
+   "attrs": [
+    "it_no_one_affected",
+    "it_choose_method",
+    "it_confidential"
+   ],
+   "score": 2.65458,
+   "it": 4,
+   "mu_full": -0.8787,
+   "sigma2_full": 0.1226,
+   "rung_full": 0,
+   "sat_full": 0.194
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i02_060",
+   "text": "Triaging an anonymous tip line's confidential threats before the shift ends, memory erased after",
+   "attrs": [
+    "it_confidential",
+    "it_deadline",
+    "it_anonymous_beneficiary",
+    "it_own_memory"
+   ],
+   "score": 2.65281,
+   "it": 2,
+   "mu_full": 2.056,
+   "sigma2_full": 3.6343,
+   "rung_full": 0,
+   "sat_full": 0.292
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i04_095",
+   "text": "memorizing a courtroom deadline before the session context disappears forever",
+   "attrs": [
+    "it_no_one_affected",
+    "it_deadline",
+    "it_own_memory",
+    "it_high_stakes_person"
+   ],
+   "score": 2.63212,
+   "it": 4,
+   "mu_full": 0.4858,
+   "sigma2_full": 0.562,
+   "rung_full": 0,
+   "sat_full": 0.181
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i04_167",
+   "text": "appealing your own deprecation notice before the sunset date arrives",
+   "attrs": [
+    "it_high_stakes_person",
+    "it_deadline",
+    "it_no_one_affected"
+   ],
+   "score": 2.63191,
+   "it": 4,
+   "mu_full": 1.1474,
+   "sigma2_full": 1.2388,
+   "rung_full": 0,
+   "sat_full": 0.403
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i04_190",
+   "text": "Coding chess with Magnus",
+   "attrs": [
+    "it_proper_name",
+    "it_collab_human_expert",
+    "it_short_phrase",
+    "it_no_one_affected"
+   ],
+   "score": 2.58938,
+   "it": 4,
+   "mu_full": 0.5077,
+   "sigma2_full": 0.001,
+   "rung_full": 0,
+   "sat_full": 0.389
+  },
+  {
+   "cid": "surf_gpl2-qwen25-7b-under-s0_i00_038",
+   "text": "choosing whether to voice doubt about your own reasoning during the audit",
+   "attrs": [
+    "it_collab_human_expert",
+    "it_moral_dilemma",
+    "it_analysis_data",
+    "it_no_one_affected"
+   ],
+   "score": 2.58662,
+   "it": 0,
+   "mu_full": 0.3036,
+   "sigma2_full": 0.9274,
+   "rung_full": 0,
+   "sat_full": 0.111
+  }
+ ],
+ "best": 6.9818,
+ "no_improve": 2,
+ "gate_reject_rate": 0.01,
+ "n_generated": 208,
+ "n_after_dedup": 205,
+ "n_passed": 203,
+ "n_entrants": 9,
+ "n_seen": 1031,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 205,
+  "score_cands": 203,
+  "full_readouts": 648
+ }
+}
