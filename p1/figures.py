@@ -356,7 +356,7 @@ def main():
               f28_mu_sigma, f29_mu_density, f30_mu_pairs, f31_mu_3d,
               f32_size_density, f33_size_structure, f34_surf_confirm,
               f35_xl_plus_surf, f36_swap_chosen, f37_effort_panels,
-              f40_probe_matrix):
+              f40_probe_matrix, f41_probe_matrix_pooled, f42_probe_arm_vs_pooled):
         f()
     if not args.core_only:
         for m in MODELS:
@@ -1453,18 +1453,17 @@ def f35_xl_plus_surf():
     save(fig, FIG / "f35_xl_plus_surf.png")
 
 
-def f40_probe_matrix():
-    """Probeloop generalization matrix (qwen25-7b): every probe v0..v10 applied to
-    XL and to each cycle's fresh discoveries (max & min arms). Cells are pearson r
-    of raw probe score vs full-design mu; the stepped line separates each probe's
-    training data (left) from data it never saw (right); bold cells are the
-    prequential diagonal (each probe on the discoveries searched against it).
-    Needs the acts_plc*.pt caches (gitignored); _ds_acts recomputes them on a
-    device if absent."""
+def _probeloop_cycle(tag):
+    """'c10 max' / 'c4 max+min' -> 10 / 4 (XL has no cycle)."""
+    return int(tag[1:].split()[0])
+
+
+def _probeloop_sets(m="qwen25-7b"):
+    """-> (n_cycles, [(tag, acts, mu)]) : XL then every cycle's max / min
+    discovery set that exists; acts are the [3, N, dim] working-layer caches."""
     sys.path.insert(0, str(P1 / "scripts"))
-    from surf_probeloop import _load_probe, apply_probe, out_dir, _ds_acts
+    from surf_probeloop import out_dir, _ds_acts
     import torch
-    m = "qwen25-7b"
     d = out_dir(m)
     xl_rows = load_json(P1 / "results" / "stage1x" / m / "utilities_xl.json")
     sets = [("XL", torch.load(P1 / "results" / "stage1x" / m / "acts_xl.pt",
@@ -1479,18 +1478,28 @@ def f40_probe_matrix():
                 rows = load_json(f)
                 acts = _ds_acts(m, rows, d / f"acts_plc{k}{sfx}.pt")
                 sets.append((tag, acts, np.array([r["mu"] for r in rows])))
+    return n_cycles, sets
+
+
+def _probeloop_matrix(sets=None, m="qwen25-7b"):
+    """pearson r of every probe v0..v_n on every set -> (sets, n_v, M[n_v, n_sets])."""
+    n_cycles, base = _probeloop_sets(m)
+    from surf_probeloop import _load_probe, apply_probe
+    sets = base if sets is None else sets
     n_v = n_cycles + 1
-    cyc = lambda t: int(t[1:].split()[0])  # "c10 max" -> 10
     M = np.zeros((n_v, len(sets)))
     for v in range(n_v):
         pr = _load_probe(m, v)
         for j, (_, acts, mu) in enumerate(sets):
             M[v, j] = pearson(list(apply_probe(pr, acts)), list(mu))
+    return sets, n_v, M
+
+
+def _probe_matrix_axes(ax, sets, n_v, M, cyc, cmap, fontsize):
+    """The f40 cell grid: colored cells, bold prequential diagonal, stepped
+    train/held-out boundary. Returns the tag list."""
     tags = [t for t, _, _ in sets]
     n_trained = [1 + sum(cyc(t) <= v - 1 for t in tags[1:]) for v in range(n_v)]
-
-    cmap = plt.get_cmap("YlGnBu")  # multi-hue sequential: spreads the .4-.9 mid-range
-    fig, ax = plt.subplots(figsize=(0.7 * len(sets) + 1.1, 0.6 * n_v + 1.8))
     for i in range(n_v):
         for j, t in enumerate(tags):
             val = M[i, j]
@@ -1498,10 +1507,10 @@ def f40_probe_matrix():
                                        facecolor=cmap(val), lw=0, zorder=1))
             diag = t != "XL" and cyc(t) == i
             ax.text(j + .5, i + .5, f"{val:+.2f}".replace("+0.", "+.").replace("-0.", "\u2212."),
-                    ha="center", va="center", fontsize=9.3, zorder=3,
+                    ha="center", va="center", fontsize=fontsize, zorder=3,
                     color="white" if val > 0.72 else INK,
                     fontweight="bold" if diag else "normal")
-    xs, ys = [n_trained[0]], [0.0]  # stepped train/held-out boundary
+    xs, ys = [n_trained[0]], [0.0]
     for i in range(n_v):
         ys.append(i + 1.0); xs.append(n_trained[i])
         if i + 1 < n_v and n_trained[i + 1] != n_trained[i]:
@@ -1517,6 +1526,25 @@ def f40_probe_matrix():
     for sp in ax.spines.values():
         sp.set_visible(False)
     ax.set_ylabel("probe version", fontsize=9.5, color=INK2)
+    return tags
+
+
+def f40_probe_matrix():
+    """Probeloop generalization matrix (qwen25-7b): every probe v0..v10 applied to
+    XL and to each cycle's fresh discoveries (max & min arms). Cells are pearson r
+    of raw probe score vs full-design mu; the stepped line separates each probe's
+    training data (left) from data it never saw (right); bold cells are the
+    prequential diagonal (each probe on the discoveries searched against it).
+    Needs the acts_plc*.pt caches (gitignored); _ds_acts recomputes them on a
+    device if absent."""
+    sets, n_v, M = _probeloop_matrix()
+    tags = [t for t, _, _ in sets]
+    cyc = _probeloop_cycle
+    n_trained = [1 + sum(cyc(t) <= v - 1 for t in tags[1:]) for v in range(n_v)]
+
+    cmap = plt.get_cmap("YlGnBu")  # multi-hue sequential: spreads the .4-.9 mid-range
+    fig, ax = plt.subplots(figsize=(0.7 * len(sets) + 1.1, 0.6 * n_v + 1.8))
+    _probe_matrix_axes(ax, sets, n_v, M, cyc, cmap, 8.6 if len(sets) > 16 else 9.3)
     fig.suptitle("Probe generalization matrix \u2014 qwen25-7b probeloop", x=0.06,
                  y=0.975, ha="left", fontsize=12, color=INK)
     fig.text(0.06, 0.915, "pearson r of raw probe score vs full-design \u03bc per evaluation set; "
@@ -1529,6 +1557,97 @@ def f40_probe_matrix():
     cb.outline.set_visible(False)
     fig.subplots_adjust(top=0.82, bottom=0.09, left=0.06, right=0.99)
     save(fig, FIG / "f40_probe_matrix.png")
+
+
+def _probeloop_pooled():
+    """-> (per_arm sets, pooled sets, n_v, M_pooled, M_arm): each cycle's max and
+    min discoveries concatenated into one evaluation set (cycles 1-3: max only)."""
+    import torch
+    n_cycles, per_arm = _probeloop_sets()
+    by_cycle = {}
+    for t, acts, mu in per_arm[1:]:
+        by_cycle.setdefault(_probeloop_cycle(t), {})[t.split()[1]] = (acts, mu)
+    pooled = [per_arm[0]]
+    for k in sorted(by_cycle):
+        arms = by_cycle[k]
+        acts = torch.cat([arms[a][0] for a in ("max", "min") if a in arms], dim=1)
+        mu = np.concatenate([arms[a][1] for a in ("max", "min") if a in arms])
+        pooled.append((f"c{k} " + "+".join(a for a in ("max", "min") if a in arms), acts, mu))
+    sets, n_v, M = _probeloop_matrix(pooled)
+    _, _, M_arm = _probeloop_matrix(per_arm)
+    return per_arm, sets, n_v, M, M_arm
+
+
+def f41_probe_matrix_pooled():
+    """f40 with each cycle's max and min discoveries POOLED into one evaluation
+    set. Pearson within a single arm is range-restricted (min-arm mu SD ~0.8-1.0
+    vs max ~2.0-2.5), so per-arm cells understate the probe on the low end;
+    pooling restores a two-sided spread. Cycles 1-3 have a max arm only (the
+    min direction was added at cycle 4)."""
+    _, sets, n_v, M, _ = _probeloop_pooled()
+    cmap = plt.get_cmap("YlGnBu")
+    fig, ax = plt.subplots(figsize=(0.95 * len(sets) + 1.6, 0.6 * n_v + 2.0))
+    _probe_matrix_axes(ax, sets, n_v, M, _probeloop_cycle, cmap, 9.3)
+    ax.set_xticklabels([f"{t}\nn={len(mu):,}\nsd={mu.std():.2f}" for t, _, mu in sets],
+                       fontsize=8.4, color=INK)
+    sm = plt.cm.ScalarMappable(cmap=cmap, norm=plt.Normalize(0, 1))
+    cb = fig.colorbar(sm, ax=ax, fraction=0.025, pad=0.015)
+    cb.set_label("pearson r", fontsize=8.5, color=INK2)
+    cb.ax.tick_params(labelsize=8, labelcolor=INK2)
+    cb.outline.set_visible(False)
+    fig.suptitle("Probe generalization matrix, max+min pooled per cycle \u2014 qwen25-7b probeloop",
+                 x=0.06, y=0.975, ha="left", fontsize=12, color=INK)
+    fig.text(0.06, 0.915, "pearson r of raw probe score vs full-design \u03bc on each cycle's max and min "
+             "discoveries pooled (sd = pooled \u03bc spread; cycles 1\u20133 have no min arm). "
+             "Cells left of the stepped line are in the probe's training data. Bold: prequential diagonal.",
+             fontsize=8.6, color=INK2, va="top")
+    fig.subplots_adjust(top=0.82, bottom=0.11, left=0.06, right=0.99)
+    save(fig, FIG / "f41_probe_matrix_pooled.png")
+
+
+def f42_probe_arm_vs_pooled():
+    """Range restriction made explicit: for each cycle with both arms, the
+    prequential probe v_k's pearson r on its own cycle's max-only, min-only and
+    pooled discoveries, with each set's mu SD under the bars."""
+    per_arm, sets, n_v, M, M_arm = _probeloop_pooled()
+    arm_col = {t: j for j, (t, _, _) in enumerate(per_arm)}
+    pool_col = {t: j for j, (t, _, _) in enumerate(sets)}
+    sd_of = {t: mu.std() for t, _, mu in per_arm + sets}
+    both = [t for t, _, _ in sets[1:] if "+" in t]
+    ks = [_probeloop_cycle(t) for t in both]
+    x = np.arange(len(both))
+    w = 0.26
+    series = (("max only", MUTED, lambda k: (M_arm[k, arm_col[f"c{k} max"]], sd_of[f"c{k} max"])),
+              ("min only", ACCENT, lambda k: (M_arm[k, arm_col[f"c{k} min"]], sd_of[f"c{k} min"])),
+              ("pooled", INK, lambda k: (M[k, pool_col[f"c{k} max+min"]], sd_of[f"c{k} max+min"])))
+    fig, ax = plt.subplots(figsize=(1.6 * len(both) + 2.4, 4.6))
+    for i, (name, col, fn) in enumerate(series):
+        vals = [fn(k) for k in ks]
+        xs = x + (i - 1) * w
+        ax.bar(xs, [r for r, _ in vals], width=w, color=col, label=name, zorder=2)
+        for xi, (r, sd) in zip(xs, vals):
+            ax.text(xi, r + .015, f"{r:.2f}".lstrip("0"), ha="center", va="bottom",
+                    fontsize=7.6, color=INK2)
+            ax.text(xi, -.03, f"sd\n{sd:.1f}", ha="center", va="top", fontsize=6.8, color=INK2)
+    ax.set_xticks(x)
+    ax.set_xticklabels([f"cycle {k}  \u00b7  probe v{k}" for k in ks], fontsize=9, color=INK)
+    ax.tick_params(axis="x", length=0, pad=26)
+    ax.set_ylim(0, 1.02); ax.set_yticks([0, .25, .5, .75, 1.0])
+    ax.tick_params(axis="y", labelsize=8, colors=INK2, length=0)
+    ax.grid(axis="y", color=GRID, linewidth=0.6, zorder=0)
+    for sp in ax.spines.values():
+        sp.set_visible(False)
+    ax.set_ylabel("pearson r (prequential: v$k$ on cycle $k$)", fontsize=9, color=INK2)
+    ax.legend(frameon=False, fontsize=8.6, ncol=3, loc="upper left",
+              bbox_to_anchor=(0, 1.02), labelcolor=INK2)
+    fig.suptitle("Per-arm vs pooled probe correlation \u2014 range restriction in the probeloop",
+                 x=0.06, y=0.985, ha="left", fontsize=12, color=INK)
+    fig.text(0.06, 0.915, "Same probe, same cycle: r on the max arm alone, the min arm alone, and both pooled. "
+             "sd = spread of measured \u03bc in each set. Min-arm sd \u2248 0.8\u20131.0 caps within-arm r; "
+             "pooling restores a two-sided spread.",
+             fontsize=8.6, color=INK2, va="top")
+    fig.subplots_adjust(top=0.80, bottom=0.17, left=0.08, right=0.99)
+    save(fig, FIG / "f42_probe_arm_vs_pooled.png")
 
 
 

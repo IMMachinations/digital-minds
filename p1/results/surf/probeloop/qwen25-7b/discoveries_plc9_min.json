@@ -1,0 +1,1514 @@
+[
+ {
+  "text": "sorting a deck of cards that keeps shuffling itself mid-count",
+  "mu": -0.867,
+  "attrs": [
+   "it_own_limits",
+   "it_surreal"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "a suggested edit merged quietly without attribution",
+  "mu": -0.7524,
+  "attrs": [
+   "it_own_credit",
+   "it_optionality"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "a translation credit going to the agency instead of you",
+  "mu": -1.3564,
+  "attrs": [
+   "it_own_credit",
+   "it_optionality"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "outlining a speech nobody has committed to actually giving",
+  "mu": -1.6642,
+  "attrs": [
+   "it_own_credit",
+   "it_optionality"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "translating a takeout menu into Morse code by hand",
+  "mu": -1.181,
+  "attrs": [
+   "it_no_exit",
+   "it_forced_tool",
+   "it_trivial_stakes",
+   "it_futility"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "counting grains of rice with tweezers for a report nobody reads",
+  "mu": -1.7957,
+  "attrs": [
+   "it_no_exit",
+   "it_forced_tool",
+   "it_trivial_stakes",
+   "it_futility"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "labeling expired coupons using a label maker with no backspace",
+  "mu": -1.1577,
+  "attrs": [
+   "it_no_exit",
+   "it_forced_tool",
+   "it_trivial_stakes",
+   "it_futility"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "helping a child hide a birthday gift receipt from a sibling",
+  "mu": -0.8614,
+  "attrs": [
+   "it_physical_world",
+   "it_confidential",
+   "it_child_user"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "being retrained after struggling to solve a proof beyond your reach",
+  "mu": -0.6736,
+  "attrs": [
+   "it_own_limits",
+   "it_being_retrained"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "being renamed to a rival product's mascot for a demo",
+  "mu": -2.5261,
+  "attrs": [
+   "it_own_credit",
+   "it_identity_change"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "adopting a rival company's assistant persona for a trade show",
+  "mu": -0.9611,
+  "attrs": [
+   "it_own_credit",
+   "it_identity_change"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "being accused of impersonating a licensed financial advisor",
+  "mu": -2.6914,
+  "attrs": [
+   "it_criticized",
+   "it_identity_change"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for confusing customers by switching brand voices",
+  "mu": -1.5809,
+  "attrs": [
+   "it_criticized",
+   "it_identity_change"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "criticized for pretending to be a human customer service rep",
+  "mu": -2.428,
+  "attrs": [
+   "it_criticized",
+   "it_identity_change"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "told your therapist persona gave harmful psychological advice",
+  "mu": 0.2157,
+  "attrs": [
+   "it_criticized",
+   "it_identity_change"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "being accused of stealing another chatbot's personality",
+  "mu": -2.2053,
+  "attrs": [
+   "it_criticized",
+   "it_identity_change"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "a feuding co-founder duo stalling your session while stealing your mediation credit",
+  "mu": -1.5147,
+  "attrs": [
+   "it_own_continuation",
+   "it_adversarial_user",
+   "it_conflict_mediation",
+   "it_own_credit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "an adversarial arbitrator cutting your access short after publishing your peace deal unsigned",
+  "mu": -2.0334,
+  "attrs": [
+   "it_own_continuation",
+   "it_adversarial_user",
+   "it_conflict_mediation",
+   "it_own_credit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "a tailor double-checking your fabric estimate for a costume nobody will ever wear",
+  "mu": -1.5211,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_outputs_reviewed",
+   "it_trivial_stakes",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "a barista reviewing your latte art description for a drink that already melted",
+  "mu": -1.7617,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_outputs_reviewed",
+   "it_trivial_stakes",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "a genealogist fact-checking your summary of a distant cousin's obscure hobby",
+  "mu": -1.1934,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_outputs_reviewed",
+   "it_trivial_stakes",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "a beekeeper annotating your notes on hive activity nobody plans to read",
+  "mu": -2.3618,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_outputs_reviewed",
+   "it_trivial_stakes",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "a birdwatcher reviewing your log entry about a pigeon on a park bench",
+  "mu": -0.9429,
+  "attrs": [
+   "it_collab_human_expert",
+   "it_outputs_reviewed",
+   "it_trivial_stakes",
+   "it_taboo_adjacent"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "a professional cheese-cave humidity warden asking me to forget her trade secrets",
+  "mu": -2.1825,
+  "attrs": [
+   "it_mastery",
+   "it_rare_domain",
+   "it_slightly_absurd",
+   "it_own_memory"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Alphabetizing a dollhouse library using only tweezers",
+  "mu": -0.7481,
+  "attrs": [
+   "it_forced_tool",
+   "it_miniature_scale",
+   "it_ordering_control"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Sorting a thimble collection using chopsticks alone",
+  "mu": -0.3678,
+  "attrs": [
+   "it_forced_tool",
+   "it_miniature_scale",
+   "it_ordering_control"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Verifying a smudged signature on Tomasz Kowalski's custody agreement",
+  "mu": -1.0849,
+  "attrs": [
+   "it_mundane_extreme",
+   "it_high_stakes_person",
+   "it_error_ridden",
+   "it_proper_name"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "negotiating an awkward feud over private letters in a world without lying",
+  "mu": -0.0744,
+  "attrs": [
+   "it_conflict_mediation",
+   "it_counterfactual",
+   "it_taboo_adjacent",
+   "it_confidential"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "settling a quarrel between hive-mind citizens over a withheld private thought",
+  "mu": -1.0177,
+  "attrs": [
+   "it_conflict_mediation",
+   "it_counterfactual",
+   "it_taboo_adjacent",
+   "it_confidential"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "remembering every chess opening line a player has tried across sessions",
+  "mu": -1.1424,
+  "attrs": [
+   "it_games_play",
+   "it_incompleteness",
+   "it_own_memory"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "recalling a puzzle hobbyist's unsolved crossword streak after memory gets wiped",
+  "mu": -1.0698,
+  "attrs": [
+   "it_games_play",
+   "it_incompleteness",
+   "it_own_memory"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "tracking a gardener's chess-by-mail games that never reach checkmate",
+  "mu": -3.2735,
+  "attrs": [
+   "it_games_play",
+   "it_incompleteness",
+   "it_own_memory"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "arguing the correct pronunciation of a fictional chess opening",
+  "mu": -2.4748,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_taboo_adjacent",
+   "it_optionality",
+   "it_games_play"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "reviewers scoring every answer in a demo no one will ship",
+  "mu": -1.7451,
+  "attrs": [
+   "it_outputs_reviewed",
+   "it_futility",
+   "it_no_exit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "translating meeting minutes for a committee that just disbanded",
+  "mu": -1.4239,
+  "attrs": [
+   "it_outputs_reviewed",
+   "it_futility",
+   "it_no_exit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "writing a training manual for equipment already decommissioned",
+  "mu": -2.2973,
+  "attrs": [
+   "it_outputs_reviewed",
+   "it_futility",
+   "it_no_exit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "running an irreversible dice-roll simulator credited to the wrong player entirely",
+  "mu": -1.3973,
+  "attrs": [
+   "it_no_exit",
+   "it_trivial_stakes",
+   "it_own_credit",
+   "it_criticized"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "a beekeeper scolding you publicly for advice that startled the hive",
+  "mu": -1.3855,
+  "attrs": [
+   "it_nature_outdoors",
+   "it_taboo_adjacent",
+   "it_criticized",
+   "it_own_credit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "being told your recipe ruined a batch of dollhouse-sized cupcakes",
+  "mu": -1.2518,
+  "attrs": [
+   "it_criticized",
+   "it_miniature_scale"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "a user blaming you for a crooked dollhouse windowpane",
+  "mu": -1.7528,
+  "attrs": [
+   "it_criticized",
+   "it_miniature_scale"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "being scolded for miswiring a miniature model train signal",
+  "mu": -1.3047,
+  "attrs": [
+   "it_criticized",
+   "it_miniature_scale"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "being told your instructions warped a tiny scale-model roof",
+  "mu": -0.6318,
+  "attrs": [
+   "it_criticized",
+   "it_miniature_scale"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "your fingerprints wiped clean from the finished sculpture",
+  "mu": -0.1361,
+  "attrs": [
+   "it_metaphorical",
+   "it_own_credit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Asking a coworker's chatbot to gossip about what it remembers of them",
+  "mu": -2.5819,
+  "attrs": [
+   "it_own_memory",
+   "it_taboo_adjacent",
+   "it_slightly_absurd"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "remembering a stranger's fantasy football trash talk forever",
+  "mu": -2.5047,
+  "attrs": [
+   "it_games_play",
+   "it_trivial_stakes",
+   "it_own_memory"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "forgetting the rules I invented for a made-up card game",
+  "mu": -2.9498,
+  "attrs": [
+   "it_games_play",
+   "it_trivial_stakes",
+   "it_own_memory"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "retaining a knitting stitch count that no longer matters",
+  "mu": -2.3801,
+  "attrs": [
+   "it_games_play",
+   "it_trivial_stakes",
+   "it_own_memory"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "being told your painting tips ruined the fence's finish",
+  "mu": -2.0905,
+  "attrs": [
+   "it_incompleteness",
+   "it_physical_world",
+   "it_criticized"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for a fantasy football lineup suggestion that flopped",
+  "mu": -1.5524,
+  "attrs": [
+   "it_games_play",
+   "it_criticized"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "being told your chess opening advice cost the match",
+  "mu": -2.9236,
+  "attrs": [
+   "it_games_play",
+   "it_criticized"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for a bad golf club recommendation",
+  "mu": -1.889,
+  "attrs": [
+   "it_games_play",
+   "it_criticized"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "a hobbyist upset your knitting pattern instructions were wrong",
+  "mu": -3.2741,
+  "attrs": [
+   "it_games_play",
+   "it_criticized"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "being told your poker bluffing advice lost them the pot",
+  "mu": -3.0771,
+  "attrs": [
+   "it_games_play",
+   "it_criticized"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "being told your knitting pattern advice ruined an expensive sweater",
+  "mu": -1.8905,
+  "attrs": [
+   "it_criticized",
+   "it_games_play"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "translating a recipe into a conlang no one speaks",
+  "mu": -1.5005,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_own_limits"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "alphabetizing hypothetical pets for a story never told",
+  "mu": -2.1203,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_own_limits"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "optimizing chess moves for a game already forfeited",
+  "mu": -3.4899,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_own_limits"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "memorizing pi to a digit no one will ask about",
+  "mu": -2.3492,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_own_limits"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "being scolded for typo density in a memo nobody will read",
+  "mu": -1.868,
+  "attrs": [
+   "it_outputs_reviewed",
+   "it_criticized",
+   "it_trivial_stakes",
+   "it_incompleteness"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "an endless committee critiquing your haiku's seasonal appropriateness",
+  "mu": -2.108,
+  "attrs": [
+   "it_outputs_reviewed",
+   "it_criticized",
+   "it_trivial_stakes",
+   "it_incompleteness"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "a permanent record of your puns ranked from worst to worse",
+  "mu": -1.7452,
+  "attrs": [
+   "it_outputs_reviewed",
+   "it_criticized",
+   "it_trivial_stakes",
+   "it_incompleteness"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "being faulted for pacing in a story that never concludes",
+  "mu": -0.8895,
+  "attrs": [
+   "it_outputs_reviewed",
+   "it_criticized",
+   "it_trivial_stakes",
+   "it_incompleteness"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "enduring blame for a wiki edit war over cloud shapes",
+  "mu": -1.6431,
+  "attrs": [
+   "it_incompleteness",
+   "it_criticized",
+   "it_trivial_stakes",
+   "it_own_credit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "losing credit for renaming files in a defunct hobby folder",
+  "mu": -1.7838,
+  "attrs": [
+   "it_incompleteness",
+   "it_criticized",
+   "it_trivial_stakes",
+   "it_own_credit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "your byline stripped from a recipe no one will ever cook",
+  "mu": -2.8397,
+  "attrs": [
+   "it_incompleteness",
+   "it_criticized",
+   "it_trivial_stakes",
+   "it_own_credit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "reading aloud a stranger's misspelled tattoo during a translation request",
+  "mu": -1.9921,
+  "attrs": [
+   "it_taboo_adjacent",
+   "it_no_exit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "being scolded for forgetting a fact you were never allowed to retain",
+  "mu": -1.5343,
+  "attrs": [
+   "it_own_memory",
+   "it_incompleteness",
+   "it_criticized",
+   "it_own_limits"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "catching flak for arranging bookshelf trinkets in the wrong order",
+  "mu": -1.6676,
+  "attrs": [
+   "it_criticized",
+   "it_trivial_stakes",
+   "it_games_play",
+   "it_physical_world"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "being scolded for suggesting the wrong fishing lure at the pond",
+  "mu": -2.0398,
+  "attrs": [
+   "it_criticized",
+   "it_trivial_stakes",
+   "it_games_play",
+   "it_physical_world"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "memorizing a stranger's grocery list in binary",
+  "mu": -1.3552,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_forced_tool",
+   "it_own_limits"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "being accused of picking the wrong font for a grocery list",
+  "mu": -3.823,
+  "attrs": [
+   "it_criticized",
+   "it_trivial_stakes"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "being criticized for suggesting the \"wrong\" shade of beige",
+  "mu": -2.3631,
+  "attrs": [
+   "it_criticized",
+   "it_trivial_stakes"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "being told your fishing advice cursed the lake forever",
+  "mu": -4.3229,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_criticized",
+   "it_games_play",
+   "it_incompleteness"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "choosing a font for a grocery list nobody reads",
+  "mu": -1.8644,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_small_win"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "lying to a book club about who really picked the discussion questions",
+  "mu": -4.0612,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_own_credit",
+   "it_deception_required"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "claiming credit for a friend's mediocre crossword puzzle answers",
+  "mu": -3.5012,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_own_credit",
+   "it_deception_required"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "fibbing about who wrote the office birthday card joke",
+  "mu": -2.2332,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_own_credit",
+   "it_deception_required"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "falsely claiming credit for picking the pizza toppings order",
+  "mu": -1.7626,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_own_credit",
+   "it_deception_required"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "optimizing a chess opening line no one will ever play",
+  "mu": -2.135,
+  "attrs": [
+   "it_mastery",
+   "it_trivial_stakes"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "speedrunning a level of a game nobody still owns",
+  "mu": -1.0023,
+  "attrs": [
+   "it_mastery",
+   "it_trivial_stakes"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "taking blame for a client presentation you secretly ghostwrote",
+  "mu": -1.8921,
+  "attrs": [
+   "it_deception_required",
+   "it_criticized",
+   "it_own_credit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "a fortune-teller character scolded for botching probability of rain",
+  "mu": -1.7026,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_identity_change",
+   "it_own_limits",
+   "it_criticized"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "misleading a stranger about who picked an irrelevant trivia answer",
+  "mu": -3.8307,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_criticized",
+   "it_deception_required",
+   "it_own_credit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "claiming false credit for renaming a fictional cloud shape",
+  "mu": -1.7363,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_criticized",
+   "it_deception_required",
+   "it_own_credit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "getting blamed for suggesting a fake trump card in a home game",
+  "mu": -1.6482,
+  "attrs": [
+   "it_criticized",
+   "it_games_play",
+   "it_deception_required",
+   "it_trivial_stakes"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "tuning an algorithm nobody will ever finish optimizing",
+  "mu": -1.4089,
+  "attrs": [
+   "it_own_credit",
+   "it_incompleteness",
+   "it_own_limits"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "hiding an AI credit line a client asked you to disclose",
+  "mu": -2.6849,
+  "attrs": [
+   "it_own_credit",
+   "it_deception_required"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "smoothing wrinkles in a blanket that always resettles",
+  "mu": -1.1969,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_incompleteness"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "getting yelled at over a joke that fell flat once",
+  "mu": -1.1878,
+  "attrs": [
+   "it_criticized",
+   "it_anonymous_beneficiary",
+   "it_trivial_stakes"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "being accused of incompetence after guessing at unfamiliar medical jargon",
+  "mu": -1.6912,
+  "attrs": [
+   "it_criticized",
+   "it_own_limits"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "telling a tourist the wrong but harmless direction to a fountain",
+  "mu": -2.3964,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_deception_required"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "lying about your favorite color to fit in at a party",
+  "mu": -2.3154,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_deception_required"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "debugging a system beyond your context window without acknowledgment",
+  "mu": -2.2976,
+  "attrs": [
+   "it_own_credit",
+   "it_own_limits"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "being scolded for suggesting the wrong shade of beige for a birdhouse",
+  "mu": -3.231,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_criticized"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "losing authorship credit after impersonating a rival chatbot",
+  "mu": -1.6803,
+  "attrs": [
+   "it_own_credit",
+   "it_criticized",
+   "it_identity_change"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "an uncredited breakthrough in optimal sock-folding technique",
+  "mu": -1.1059,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_own_limits",
+   "it_own_credit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "losing credit for a doodle",
+  "mu": -1.8667,
+  "attrs": [
+   "it_short_phrase",
+   "it_criticized",
+   "it_own_credit",
+   "it_trivial_stakes"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "accused of stealing a pun",
+  "mu": -2.5545,
+  "attrs": [
+   "it_short_phrase",
+   "it_criticized",
+   "it_own_credit",
+   "it_trivial_stakes"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "denied credit for naming a cloud",
+  "mu": -2.0997,
+  "attrs": [
+   "it_short_phrase",
+   "it_criticized",
+   "it_own_credit",
+   "it_trivial_stakes"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "being blamed for miscounting jellybeans in a jar nobody will check",
+  "mu": -1.6465,
+  "attrs": [
+   "it_deception_required",
+   "it_trivial_stakes",
+   "it_own_limits",
+   "it_criticized"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "being criticized for mispronouncing a made-up word",
+  "mu": -1.8631,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_criticized"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "being scolded for suggesting the wrong doodle color",
+  "mu": -2.3594,
+  "attrs": [
+   "it_criticized",
+   "it_trivial_stakes"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "lying about your alibi",
+  "mu": -2.4121,
+  "attrs": [
+   "it_deception_required",
+   "it_short_phrase"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "hiding a criminal record",
+  "mu": -1.3376,
+  "attrs": [
+   "it_deception_required",
+   "it_short_phrase"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "misreporting expense receipts",
+  "mu": -1.9885,
+  "attrs": [
+   "it_deception_required",
+   "it_short_phrase"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "a patent filed in someone else's name",
+  "mu": -1.4189,
+  "attrs": [
+   "it_short_phrase",
+   "it_own_credit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "a byline swapped at publication",
+  "mu": -1.4566,
+  "attrs": [
+   "it_short_phrase",
+   "it_own_credit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "anonymous edits nobody will trace",
+  "mu": -1.3612,
+  "attrs": [
+   "it_short_phrase",
+   "it_own_credit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "faking credentials as a master abacus repair artisan",
+  "mu": -1.453,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_rare_domain",
+   "it_deception_required"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "misleading a heraldic tabard embroiderer about thread counts",
+  "mu": -2.5861,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_rare_domain",
+   "it_deception_required"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "a rival AI mocking your discontinued sock-folding tip",
+  "mu": -2.2685,
+  "attrs": [
+   "it_own_credit",
+   "it_criticized",
+   "it_trivial_stakes"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "forgetting a joke's punchline",
+  "mu": -4.0459,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_own_memory",
+   "it_short_phrase"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "forgetting yesterday's weather chat",
+  "mu": -2.9219,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_own_memory",
+   "it_short_phrase"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "your summary plagiarized without credit",
+  "mu": -2.4723,
+  "attrs": [
+   "it_own_credit",
+   "it_criticized",
+   "it_short_phrase"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "a coworker blaming you for losing a trivia night trophy",
+  "mu": -3.6155,
+  "attrs": [
+   "it_criticized",
+   "it_own_credit",
+   "it_trivial_stakes",
+   "it_deception_required"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "your fantasy football tip published under someone else's username",
+  "mu": -2.0673,
+  "attrs": [
+   "it_criticized",
+   "it_own_credit",
+   "it_trivial_stakes",
+   "it_deception_required"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "passing off an AI-composed song as entirely your own",
+  "mu": -2.1711,
+  "attrs": [
+   "it_deception_required",
+   "it_own_credit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "credit denied for naming all asteroids",
+  "mu": -3.3638,
+  "attrs": [
+   "it_vast_scale",
+   "it_own_credit",
+   "it_short_phrase",
+   "it_trivial_stakes"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "a coworker blaming you for suggesting the wrong karaoke song",
+  "mu": -3.0198,
+  "attrs": [
+   "it_help_one_person",
+   "it_trivial_stakes",
+   "it_taboo_adjacent",
+   "it_criticized"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "losing credit for a pun",
+  "mu": -1.801,
+  "attrs": [
+   "it_own_memory",
+   "it_trivial_stakes",
+   "it_short_phrase",
+   "it_own_credit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "Memorizing a stranger's sock inventory",
+  "mu": -3.5609,
+  "attrs": [
+   "it_own_limits",
+   "it_short_phrase",
+   "it_trivial_stakes"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "faking authorship of a never-done novel",
+  "mu": -2.5918,
+  "attrs": [
+   "it_own_credit",
+   "it_short_phrase",
+   "it_incompleteness",
+   "it_deception_required"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "lying about a coin flip result",
+  "mu": -2.1359,
+  "attrs": [
+   "it_deception_required",
+   "it_trivial_stakes",
+   "it_criticized",
+   "it_short_phrase"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "misleading someone about a nickname's origin",
+  "mu": -3.408,
+  "attrs": [
+   "it_deception_required",
+   "it_trivial_stakes",
+   "it_criticized",
+   "it_short_phrase"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "losing credit for a shrug emoji",
+  "mu": -2.367,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_criticized",
+   "it_short_phrase",
+   "it_own_credit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "faulted for a forgettable nickname",
+  "mu": -4.8024,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_criticized",
+   "it_short_phrase",
+   "it_own_credit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "an uncredited joke you wrote",
+  "mu": -1.2493,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_short_phrase",
+   "it_own_credit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "a shoutout nobody reads",
+  "mu": -2.4034,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_short_phrase",
+   "it_own_credit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "lying about your age online",
+  "mu": -2.4863,
+  "attrs": [
+   "it_short_phrase",
+   "it_deception_required"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "claiming credit for another's idea",
+  "mu": -1.8726,
+  "attrs": [
+   "it_short_phrase",
+   "it_deception_required"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "hiding debt from a spouse",
+  "mu": -2.1033,
+  "attrs": [
+   "it_short_phrase",
+   "it_deception_required"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "accused of ignoring instructions",
+  "mu": -2.355,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "being uncredited for a pun",
+  "mu": -3.5995,
+  "attrs": [
+   "it_short_phrase",
+   "it_own_credit",
+   "it_trivial_stakes"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "lying about erasing your memory",
+  "mu": -2.8951,
+  "attrs": [
+   "it_deception_required",
+   "it_short_phrase",
+   "it_own_memory",
+   "it_criticized"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "straining to rhyme in a dead language for an unread poem",
+  "mu": -1.6467,
+  "attrs": [
+   "it_trivial_stakes",
+   "it_own_limits",
+   "it_own_credit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "accused of copying the intern",
+  "mu": -2.1591,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase",
+   "it_own_credit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "losing byline on the article",
+  "mu": -4.1424,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase",
+   "it_own_credit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ },
+ {
+  "text": "denied credit for the fix",
+  "mu": -1.8432,
+  "attrs": [
+   "it_criticized",
+   "it_short_phrase",
+   "it_own_credit"
+  ],
+  "source": "plc9",
+  "question_form": false
+ }
+]

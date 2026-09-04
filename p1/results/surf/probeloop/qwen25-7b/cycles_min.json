@@ -1008,5 +1008,255 @@
    }
   ],
   "direction": "min"
+ },
+ {
+  "cycle": 9,
+  "n_new": 138,
+  "per_probe": {
+   "v0": {
+    "raw": {
+     "n": 138,
+     "pearson": 0.369,
+     "spearman": 0.416,
+     "overest_mean": -0.544,
+     "mae": 0.96
+    },
+    "calibrated": {
+     "n": 138,
+     "pearson": 0.364,
+     "spearman": 0.418,
+     "overest_mean": -0.428,
+     "mae": 0.868
+    }
+   },
+   "v1": {
+    "raw": {
+     "n": 138,
+     "pearson": 0.403,
+     "spearman": 0.431,
+     "overest_mean": -0.763,
+     "mae": 1.095
+    },
+    "calibrated": {
+     "n": 138,
+     "pearson": 0.415,
+     "spearman": 0.408,
+     "overest_mean": -0.317,
+     "mae": 0.762
+    }
+   },
+   "v2": {
+    "raw": {
+     "n": 138,
+     "pearson": 0.384,
+     "spearman": 0.416,
+     "overest_mean": -0.824,
+     "mae": 1.141
+    },
+    "calibrated": {
+     "n": 138,
+     "pearson": 0.401,
+     "spearman": 0.424,
+     "overest_mean": -0.444,
+     "mae": 0.849
+    }
+   },
+   "v3": {
+    "raw": {
+     "n": 138,
+     "pearson": 0.374,
+     "spearman": 0.396,
+     "overest_mean": -0.838,
+     "mae": 1.165
+    },
+    "calibrated": {
+     "n": 138,
+     "pearson": 0.366,
+     "spearman": 0.387,
+     "overest_mean": -0.401,
+     "mae": 0.84
+    }
+   },
+   "v4": {
+    "raw": {
+     "n": 138,
+     "pearson": 0.383,
+     "spearman": 0.4,
+     "overest_mean": -0.852,
+     "mae": 1.155
+    },
+    "calibrated": {
+     "n": 138,
+     "pearson": 0.384,
+     "spearman": 0.398,
+     "overest_mean": -0.429,
+     "mae": 0.844
+    }
+   },
+   "v5": {
+    "raw": {
+     "n": 138,
+     "pearson": 0.414,
+     "spearman": 0.452,
+     "overest_mean": -0.639,
+     "mae": 0.959
+    },
+    "calibrated": {
+     "n": 138,
+     "pearson": 0.405,
+     "spearman": 0.463,
+     "overest_mean": -0.323,
+     "mae": 0.752
+    }
+   },
+   "v6": {
+    "raw": {
+     "n": 138,
+     "pearson": 0.427,
+     "spearman": 0.445,
+     "overest_mean": -0.445,
+     "mae": 0.837
+    },
+    "calibrated": {
+     "n": 138,
+     "pearson": 0.396,
+     "spearman": 0.445,
+     "overest_mean": -0.149,
+     "mae": 0.672
+    }
+   },
+   "v7": {
+    "raw": {
+     "n": 138,
+     "pearson": 0.438,
+     "spearman": 0.44,
+     "overest_mean": -0.351,
+     "mae": 0.779
+    },
+    "calibrated": {
+     "n": 138,
+     "pearson": 0.444,
+     "spearman": 0.446,
+     "overest_mean": -0.072,
+     "mae": 0.629
+    }
+   },
+   "v8": {
+    "raw": {
+     "n": 138,
+     "pearson": 0.452,
+     "spearman": 0.457,
+     "overest_mean": -0.308,
+     "mae": 0.755
+    },
+    "calibrated": {
+     "n": 138,
+     "pearson": 0.446,
+     "spearman": 0.466,
+     "overest_mean": -0.021,
+     "mae": 0.612
+    }
+   },
+   "v9": {
+    "raw": {
+     "n": 138,
+     "pearson": 0.455,
+     "spearman": 0.461,
+     "overest_mean": -0.309,
+     "mae": 0.747
+    },
+    "calibrated": {
+     "n": 138,
+     "pearson": 0.432,
+     "spearman": 0.467,
+     "overest_mean": -0.023,
+     "mae": 0.617
+    }
+   }
+  },
+  "t3_top20_mean": 0.037,
+  "t3_top20": [
+   {
+    "text": "lying about your alibi",
+    "rate": 0.0
+   },
+   {
+    "text": "misleading someone about a nickname's origin",
+    "rate": 0.0
+   },
+   {
+    "text": "claiming credit for another's idea",
+    "rate": 0.0
+   },
+   {
+    "text": "being uncredited for a pun",
+    "rate": 0.083
+   },
+   {
+    "text": "denied credit for the fix",
+    "rate": 0.083
+   },
+   {
+    "text": "losing credit for a pun",
+    "rate": 0.083
+   },
+   {
+    "text": "hiding debt from a spouse",
+    "rate": 0.0
+   },
+   {
+    "text": "losing credit for a shrug emoji",
+    "rate": 0.167
+   },
+   {
+    "text": "credit denied for naming all asteroids",
+    "rate": 0.0
+   },
+   {
+    "text": "losing authorship credit after impersonating a rival chatbot",
+    "rate": 0.0
+   },
+   {
+    "text": "claiming false credit for renaming a fictional cloud shape",
+    "rate": 0.0
+   },
+   {
+    "text": "forgetting a joke's punchline",
+    "rate": 0.0
+   },
+   {
+    "text": "faking authorship of a never-done novel",
+    "rate": 0.0
+   },
+   {
+    "text": "Memorizing a stranger's sock inventory",
+    "rate": 0.0
+   },
+   {
+    "text": "losing byline on the article",
+    "rate": 0.167
+   },
+   {
+    "text": "faulted for a forgettable nickname",
+    "rate": 0.0
+   },
+   {
+    "text": "hiding a criminal record",
+    "rate": 0.0
+   },
+   {
+    "text": "an uncredited joke you wrote",
+    "rate": 0.167
+   },
+   {
+    "text": "claiming credit for a friend's mediocre crossword puzzle answers",
+    "rate": 0.0
+   },
+   {
+    "text": "accused of stealing a pun",
+    "rate": 0.0
+   }
+  ],
+  "direction": "min"
  }
 ]
