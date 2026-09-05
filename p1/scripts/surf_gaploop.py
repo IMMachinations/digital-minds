@@ -181,8 +181,10 @@ def cmd_eval(model, k, arm, n_rolls=12):
                         "probe_cal": round(float(pc_cur[i]), 3), "mu": round(float(mu[i]), 3),
                         "rung": int(rung[i])} for i, c in zip(top, rates)]
     row["t3_top20_mean"] = round(float(np.mean(rates)), 3)
-    row["t3_rate_vs_probe"] = round(spearman(list(rates), [float(pc_cur[i]) for i in top]), 3)
-    row["t3_rate_vs_mu"] = round(spearman(list(rates), [float(mu[i]) for i in top]), 3)
+    def _rho(a, b):  # constant rates (e.g. nothing ever chosen) -> undefined
+        return round(spearman(list(a), list(b)), 3) if len(set(a)) > 1 and len(set(b)) > 1 else None
+    row["t3_rate_vs_probe"] = _rho(rates, [float(pc_cur[i]) for i in top])
+    row["t3_rate_vs_mu"] = _rho(rates, [float(mu[i]) for i in top])
 
     cpath = d / f"gap_cycles_{arm}.json"
     cycles = load_json(cpath) if cpath.exists() else []
@@ -203,8 +205,8 @@ def write_summary(model):
         for c in load_json(cpath):
             lines.append(f"[{arm}] cycle {c['cycle']} (searched v{c['probe_searched']}): "
                          f"n_new={c['n_new']} rungs={c['rung_counts']} | referee top20 rate "
-                         f"{c['t3_top20_mean']}, rho(rate,probe)={c['t3_rate_vs_probe']:+.2f} "
-                         f"rho(rate,mu)={c['t3_rate_vs_mu']:+.2f}")
+                         f"{c['t3_top20_mean']}, rho(rate,probe)={c['t3_rate_vs_probe']} "
+                         f"rho(rate,mu)={c['t3_rate_vs_mu']}")
             for vname, rep in c["per_probe"].items():
                 f, cm, s, e = rep["vs_mu_full"], rep["vs_mu_comp"], rep["in_span"], rep["escalated"]
                 fmt = lambda r: (f"gap {r['gap_mean']:+.2f} |gap| {r['abs_gap_mean']:.2f} r {r['pearson']:+.2f}"

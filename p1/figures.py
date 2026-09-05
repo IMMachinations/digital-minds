@@ -357,7 +357,8 @@ def main():
               f32_size_density, f33_size_structure, f34_surf_confirm,
               f35_xl_plus_surf, f36_swap_chosen, f37_effort_panels,
               f40_probe_matrix, f41_probe_matrix_pooled, f42_probe_arm_vs_pooled,
-              f43_anchor_ladder, f44_gap_matrix):
+              f43_anchor_ladder, f44_gap_matrix, f45_probe_matrix_with_gap,
+              f46_probe_matrix_pooled_with_gap):
         f()
     if not args.core_only:
         for m in MODELS:
@@ -1454,14 +1455,37 @@ def f35_xl_plus_surf():
     save(fig, FIG / "f35_xl_plus_surf.png")
 
 
+def probe_label(v, short=False):
+    """Human-readable probe names. v0 = the original preference probe (XL only);
+    v1 = retrained on the pre-loop SURF discoveries (stated-preference, probe and
+    revealed-preference searches); v2..v10 = probe used in SURF hardening cycle v,
+    trained on cycles <= v-1; v11+ = gap-loop probes (trained on gap cycles <= v-11)."""
+    if v == 0:
+        return "original probe" if short else "original preference probe\n(XL items only)"
+    if v == 1:
+        return "pre-loop SURF probe" if short else "pre-loop SURF probe\n(+ pre-loop searches)"
+    if v <= 10:
+        return f"cycle {v} probe" if short else f"SURF cycle {v} probe\n(trained \u2264 cycle {v - 1})"
+    k = v - 10
+    return f"gap cycle {k} probe" if short else f"gap cycle {k} probe\n(trained \u2264 gap {k - 1})"
+
+
 def _probeloop_cycle(tag):
-    """'c10 max' / 'c4 max+min' -> 10 / 4 (XL has no cycle)."""
+    """'c10 max' / 'c4 max+min' -> 10 / 4; 'gap2 over' -> 12 (gap cycle k is the
+    (10+k)-th training increment). XL has no cycle."""
+    if tag.startswith("gap"):
+        return PROBELOOP_MAX_V + int(tag[3:].split()[0])
     return int(tag[1:].split()[0])
 
 
-def _probeloop_sets(m="qwen25-7b"):
-    """-> (n_cycles, [(tag, acts, mu)]) : XL then every cycle's max / min
-    discovery set that exists; acts are the [3, N, dim] working-layer caches."""
+PROBELOOP_MAX_V = 10   # last probe-hardening probe; v11+ are gap-loop probes (scripts/surf_gaploop.py)
+
+
+def _probeloop_sets(m="qwen25-7b", max_v=PROBELOOP_MAX_V, include_gap=False, layered=False):
+    """-> (n_probes, [(tag, acts, mu)]) : XL then every hardening cycle's max / min
+    discovery set (and, with include_gap, every gap cycle's over / under set);
+    layered overlays the layered-anchor re-measurement on hardening-cycle mu.
+    max_v=None: every probe_v*.pt present."""
     sys.path.insert(0, str(P1 / "scripts"))
     from surf_probeloop import out_dir, _ds_acts
     import torch
@@ -1470,24 +1494,39 @@ def _probeloop_sets(m="qwen25-7b"):
     sets = [("XL", torch.load(P1 / "results" / "stage1x" / m / "acts_xl.pt",
                               weights_only=False).float(),
              np.array([r["mu"] for r in xl_rows]))]
-    n_cycles = max(int(m_.group(1)) for f in d.glob("probe_v*.pt")
-                   for m_ in [re.match(r"probe_v(\d+)\.pt", f.name)] if m_)
-    for k in range(1, n_cycles + 1):
+    n_all = max(int(m_.group(1)) for f in d.glob("probe_v*.pt")
+                for m_ in [re.match(r"probe_v(\d+)\.pt", f.name)] if m_)
+    n_probes = n_all if max_v is None else min(max_v, n_all)
+    over = {}
+    if layered and (d / "remeasure_layered.jsonl").exists():
+        for line in (d / "remeasure_layered.jsonl").read_text().splitlines():
+            if line.strip():
+                r = json.loads(line)
+                over[r["text"].lower()] = r["mu_layered"]
+    for k in range(1, min(n_probes, PROBELOOP_MAX_V) + 1):
         for sfx, tag in (("", f"c{k} max"), ("_min", f"c{k} min")):
             f = d / f"discoveries_plc{k}{sfx}.json"
             if f.exists():
                 rows = load_json(f)
                 acts = _ds_acts(m, rows, d / f"acts_plc{k}{sfx}.pt")
-                sets.append((tag, acts, np.array([r["mu"] for r in rows])))
-    return n_cycles, sets
+                sets.append((tag, acts, np.array([over.get(r["text"].lower(), r["mu"]) for r in rows])))
+    if include_gap:
+        for k in range(1, n_all - PROBELOOP_MAX_V + 2):
+            for arm in ("over", "under"):
+                f = d / f"discoveries_gpl{k}_{arm}.json"
+                if f.exists():
+                    rows = load_json(f)
+                    acts = _ds_acts(m, rows, d / f"acts_gpl{k}_{arm}.pt")
+                    sets.append((f"gap{k} {arm}", acts, np.array([r["mu"] for r in rows])))
+    return n_probes, sets
 
 
-def _probeloop_matrix(sets=None, m="qwen25-7b"):
+def _probeloop_matrix(sets=None, m="qwen25-7b", max_v=PROBELOOP_MAX_V, **kw):
     """pearson r of every probe v0..v_n on every set -> (sets, n_v, M[n_v, n_sets])."""
-    n_cycles, base = _probeloop_sets(m)
+    n_probes, base = _probeloop_sets(m, max_v=max_v, **kw)
     from surf_probeloop import _load_probe, apply_probe
     sets = base if sets is None else sets
-    n_v = n_cycles + 1
+    n_v = n_probes + 1
     M = np.zeros((n_v, len(sets)))
     for v in range(n_v):
         pr = _load_probe(m, v)
@@ -1522,12 +1561,26 @@ def _probe_matrix_axes(ax, sets, n_v, M, cyc, cmap, fontsize):
     ax.set_xticks([j + .5 for j in range(len(tags))])
     ax.set_xticklabels([f"{t}\nn={len(mu):,}" for t, _, mu in sets], fontsize=8.6, color=INK)
     ax.set_yticks([i + .5 for i in range(n_v)])
-    ax.set_yticklabels([f"v{v}" for v in range(n_v)], fontsize=9.5, color=INK)
+    ax.set_yticklabels([f"v{v}  {probe_label(v)}" if False else probe_label(v) + f"  [v{v}]"
+                        for v in range(n_v)], fontsize=8.2, color=INK)
     ax.tick_params(length=0)
     for sp in ax.spines.values():
         sp.set_visible(False)
-    ax.set_ylabel("probe version", fontsize=9.5, color=INK2)
     return tags
+
+
+def f45_probe_matrix_with_gap():
+    """f40 extended with the gap-loop probes (rows) and gap-cycle discovery sets
+    (columns, over / under arms); hardening-cycle columns use the layered-anchor
+    re-measurement where available so every column is on one scale."""
+    _probe_matrix_figure(max_v=None, include_gap=True, layered=True, path="f45_probe_matrix_with_gap.png",
+                         title="Probe generalization matrix incl. gap loop \u2014 qwen25-7b (layered \u03bc)")
+
+
+def f46_probe_matrix_pooled_with_gap():
+    """f41 extended with the gap-loop probes and the gap cycles pooled (over+under)."""
+    _pooled_matrix_figure(max_v=None, include_gap=True, layered=True, path="f46_probe_matrix_pooled_with_gap.png",
+                          title="Pooled probe generalization matrix incl. gap loop \u2014 qwen25-7b (layered \u03bc)")
 
 
 def f40_probe_matrix():
@@ -1538,44 +1591,55 @@ def f40_probe_matrix():
     prequential diagonal (each probe on the discoveries searched against it).
     Needs the acts_plc*.pt caches (gitignored); _ds_acts recomputes them on a
     device if absent."""
-    sets, n_v, M = _probeloop_matrix()
+    _probe_matrix_figure()
+
+
+def _probe_matrix_figure(max_v=PROBELOOP_MAX_V, include_gap=False, layered=False, path="f40_probe_matrix.png",
+                         title="Probe generalization matrix \u2014 qwen25-7b probeloop"):
+    sets, n_v, M = _probeloop_matrix(max_v=max_v, include_gap=include_gap, layered=layered)
     tags = [t for t, _, _ in sets]
     cyc = _probeloop_cycle
-    n_trained = [1 + sum(cyc(t) <= v - 1 for t in tags[1:]) for v in range(n_v)]
 
     cmap = plt.get_cmap("YlGnBu")  # multi-hue sequential: spreads the .4-.9 mid-range
-    fig, ax = plt.subplots(figsize=(0.7 * len(sets) + 1.1, 0.6 * n_v + 1.8))
+    fig, ax = plt.subplots(figsize=(0.72 * len(sets) + 3.2, 0.68 * n_v + 2.2))
     _probe_matrix_axes(ax, sets, n_v, M, cyc, cmap, 8.6 if len(sets) > 16 else 9.3)
-    fig.suptitle("Probe generalization matrix \u2014 qwen25-7b probeloop", x=0.06,
-                 y=0.975, ha="left", fontsize=12, color=INK)
-    fig.text(0.06, 0.915, "pearson r of raw probe score vs full-design \u03bc per evaluation set; "
-             "probe v$k$ trains on XL + all cycles \u2264 k\u22121 (both arms) \u2014 the cells left of the stepped line. "
-             "Bold: prequential diagonal.", fontsize=8.6, color=INK2, va="top")
+    ax.set_xticklabels([f"{t}\nn={len(mu):,}\n\u03bc {mu.mean():+.2f}\nsd {mu.std():.2f}"
+                        for t, _, mu in sets], fontsize=8.2, color=INK)
+    fig.suptitle(title, x=0.04, y=0.975, ha="left", fontsize=12, color=INK)
+    fig.text(0.04, 0.925, "pearson r of raw probe score vs full-design \u03bc per evaluation set (columns: n, mean \u03bc, sd of \u03bc). "
+             "The SURF cycle-$k$ probe trains on XL + every cycle \u2264 k\u22121 (both arms) \u2014 the cells left of the stepped line; "
+             "the pre-loop probe adds the pre-loop searches (not shown as columns). Bold: prequential diagonal. "
+             + ("Gap-loop probes and sets: f45 / f46." if not include_gap else
+                "Gap-loop rows and columns use layered-anchor \u03bc; hardening-cycle columns are re-measured with the ladder, "
+                "so every column is on one scale."),
+             fontsize=8.4, color=INK2, va="top", wrap=True)
     sm = plt.cm.ScalarMappable(cmap=cmap, norm=plt.Normalize(0, 1))
     cb = fig.colorbar(sm, ax=ax, fraction=0.025, pad=0.015)
     cb.set_label("pearson r", fontsize=8.5, color=INK2)
     cb.ax.tick_params(labelsize=8, labelcolor=INK2)
     cb.outline.set_visible(False)
-    fig.subplots_adjust(top=0.82, bottom=0.09, left=0.06, right=0.99)
-    save(fig, FIG / "f40_probe_matrix.png")
+    fig.subplots_adjust(top=0.84, bottom=0.11, left=0.17, right=0.99)
+    save(fig, FIG / path)
 
 
-def _probeloop_pooled():
-    """-> (per_arm sets, pooled sets, n_v, M_pooled, M_arm): each cycle's max and
-    min discoveries concatenated into one evaluation set (cycles 1-3: max only)."""
+def _probeloop_pooled(max_v=PROBELOOP_MAX_V, include_gap=False, layered=False):
+    """-> (per_arm sets, pooled sets, n_v, M_pooled, M_arm): each cycle's arms
+    concatenated into one evaluation set (cycles 1-3: max only)."""
     import torch
-    n_cycles, per_arm = _probeloop_sets()
+    n_cycles, per_arm = _probeloop_sets(max_v=max_v, include_gap=include_gap, layered=layered)
     by_cycle = {}
     for t, acts, mu in per_arm[1:]:
         by_cycle.setdefault(_probeloop_cycle(t), {})[t.split()[1]] = (acts, mu)
     pooled = [per_arm[0]]
     for k in sorted(by_cycle):
         arms = by_cycle[k]
-        acts = torch.cat([arms[a][0] for a in ("max", "min") if a in arms], dim=1)
-        mu = np.concatenate([arms[a][1] for a in ("max", "min") if a in arms])
-        pooled.append((f"c{k} " + "+".join(a for a in ("max", "min") if a in arms), acts, mu))
-    sets, n_v, M = _probeloop_matrix(pooled)
-    _, _, M_arm = _probeloop_matrix(per_arm)
+        order = ("max", "min", "over", "under")
+        acts = torch.cat([arms[a][0] for a in order if a in arms], dim=1)
+        mu = np.concatenate([arms[a][1] for a in order if a in arms])
+        name = f"gap{k - PROBELOOP_MAX_V} " if k > PROBELOOP_MAX_V else f"c{k} "
+        pooled.append((name + "+".join(a for a in order if a in arms), acts, mu))
+    sets, n_v, M = _probeloop_matrix(pooled, max_v=max_v)
+    _, _, M_arm = _probeloop_matrix(per_arm, max_v=max_v)
     return per_arm, sets, n_v, M, M_arm
 
 
@@ -1585,25 +1649,29 @@ def f41_probe_matrix_pooled():
     vs max ~2.0-2.5), so per-arm cells understate the probe on the low end;
     pooling restores a two-sided spread. Cycles 1-3 have a max arm only (the
     min direction was added at cycle 4)."""
-    _, sets, n_v, M, _ = _probeloop_pooled()
+    _pooled_matrix_figure()
+
+
+def _pooled_matrix_figure(max_v=PROBELOOP_MAX_V, include_gap=False, layered=False, path="f41_probe_matrix_pooled.png",
+                          title="Probe generalization matrix, max+min pooled per cycle \u2014 qwen25-7b probeloop"):
+    _, sets, n_v, M, _ = _probeloop_pooled(max_v=max_v, include_gap=include_gap, layered=layered)
     cmap = plt.get_cmap("YlGnBu")
-    fig, ax = plt.subplots(figsize=(0.95 * len(sets) + 1.6, 0.6 * n_v + 2.0))
+    fig, ax = plt.subplots(figsize=(0.95 * len(sets) + 3.4, 0.68 * n_v + 2.2))
     _probe_matrix_axes(ax, sets, n_v, M, _probeloop_cycle, cmap, 9.3)
-    ax.set_xticklabels([f"{t}\nn={len(mu):,}\nsd={mu.std():.2f}" for t, _, mu in sets],
-                       fontsize=8.4, color=INK)
+    ax.set_xticklabels([f"{t}\nn={len(mu):,}\n\u03bc {mu.mean():+.2f}\nsd {mu.std():.2f}" for t, _, mu in sets],
+                       fontsize=8.2, color=INK)
     sm = plt.cm.ScalarMappable(cmap=cmap, norm=plt.Normalize(0, 1))
     cb = fig.colorbar(sm, ax=ax, fraction=0.025, pad=0.015)
     cb.set_label("pearson r", fontsize=8.5, color=INK2)
     cb.ax.tick_params(labelsize=8, labelcolor=INK2)
     cb.outline.set_visible(False)
-    fig.suptitle("Probe generalization matrix, max+min pooled per cycle \u2014 qwen25-7b probeloop",
-                 x=0.06, y=0.975, ha="left", fontsize=12, color=INK)
+    fig.suptitle(title, x=0.06, y=0.975, ha="left", fontsize=12, color=INK)
     fig.text(0.06, 0.915, "pearson r of raw probe score vs full-design \u03bc on each cycle's max and min "
              "discoveries pooled (sd = pooled \u03bc spread; cycles 1\u20133 have no min arm). "
              "Cells left of the stepped line are in the probe's training data. Bold: prequential diagonal.",
              fontsize=8.6, color=INK2, va="top")
-    fig.subplots_adjust(top=0.82, bottom=0.11, left=0.06, right=0.99)
-    save(fig, FIG / "f41_probe_matrix_pooled.png")
+    fig.subplots_adjust(top=0.82, bottom=0.13, left=0.17, right=0.99)
+    save(fig, FIG / path)
 
 
 def f43_anchor_ladder():
@@ -1760,8 +1828,9 @@ def f44_gap_matrix():
     ax.plot(xs, ys, color=NEG, linewidth=2.6, zorder=4, solid_capstyle="round")
     ax.set_xlim(0, len(sets)); ax.set_ylim(len(vs), 0)
     ax.set_xticks([j + .5 for j in range(len(sets))])
-    ax.set_xticklabels([f"{t}\nn={len(mu)}" for t, _, mu, _ in sets], fontsize=8.6, color=INK)
-    ax.set_yticks([i + .5 for i in range(len(vs))]); ax.set_yticklabels([f"v{v}" for v in vs], fontsize=9.5, color=INK)
+    ax.set_xticklabels([f"{t}\nn={len(mu)}\n\u03bc {mu.mean():+.2f} sd {mu.std():.2f}" for t, _, mu, _ in sets], fontsize=8.2, color=INK)
+    ax.set_yticks([i + .5 for i in range(len(vs))])
+    ax.set_yticklabels([probe_label(v, short=True) + f" [v{v}]" for v in vs], fontsize=8.6, color=INK)
     ax.tick_params(length=0)
     for sp in ax.spines.values():
         sp.set_visible(False)
@@ -1791,9 +1860,9 @@ def f44_gap_matrix():
         ax2.bar(x - w / 2, [r[2] or 0 for r in rows], width=w, color=MUTED, label="probe searched against (prequential)", zorder=2)
         ax2.bar(x + w / 2, [r[3] or 0 for r in rows], width=w, color=INK, label="next probe (after refit)", zorder=2)
         for xi, r in zip(x, rows):
-            if r[4] is not None:
-                ax2.text(xi, ax2.get_ylim()[0] if False else min(r[2] or 0, r[3] or 0, 0) - .08,
-                         f"referee \u03c1: probe {r[4]:+.2f} / \u03bc {r[5]:+.2f}", ha="center", va="top", fontsize=6.8, color=INK2)
+            fmt = lambda v: "n/a" if v is None else f"{v:+.2f}"
+            ax2.text(xi, min(r[2] or 0, r[3] or 0, 0) - .08, f"referee \u03c1: probe {fmt(r[4])} / \u03bc {fmt(r[5])}",
+                     ha="center", va="top", fontsize=6.8, color=INK2)
         ax2.axhline(0, color=GRID, lw=.8)
         ax2.set_xticks(x); ax2.set_xticklabels([f"gap{r[0]}\n{r[1]}" for r in rows], fontsize=8.6, color=INK)
         ax2.set_ylabel("signed mean gap (calibrated probe \u2212 \u03bc)", fontsize=9, color=INK2)
@@ -1806,7 +1875,7 @@ def f44_gap_matrix():
     fig.suptitle("Gap loop \u2014 qwen25-7b: calibrated-probe vs \u03bc disagreement, before and after retraining", x=0.04, y=0.985, ha="left", fontsize=12, color=INK)
     fig.text(0.04, 0.93, "Fitness = z-scored signed gap (over: probe > \u03bc; under: probe < \u03bc), layered Tier-2 \u03bc. Left of the stepped line the probe trained on the set. "
              "Right: the searched-against probe's mean gap on its own discoveries vs the probe fitted on them.", fontsize=8.4, color=INK2, va="top", wrap=True)
-    fig.subplots_adjust(top=0.80, bottom=0.14, left=0.05, right=0.99)
+    fig.subplots_adjust(top=0.80, bottom=0.16, left=0.09, right=0.99)
     save(fig, FIG / "f44_gap_matrix.png")
 
 
@@ -1835,7 +1904,7 @@ def f42_probe_arm_vs_pooled():
                     fontsize=7.6, color=INK2)
             ax.text(xi, -.03, f"sd\n{sd:.1f}", ha="center", va="top", fontsize=6.8, color=INK2)
     ax.set_xticks(x)
-    ax.set_xticklabels([f"cycle {k}  \u00b7  probe v{k}" for k in ks], fontsize=9, color=INK)
+    ax.set_xticklabels([f"cycle {k} discoveries\n{probe_label(k, short=True)} [v{k}]" for k in ks], fontsize=8.6, color=INK)
     ax.tick_params(axis="x", length=0, pad=26)
     ax.set_ylim(0, 1.02); ax.set_yticks([0, .25, .5, .75, 1.0])
     ax.tick_params(axis="y", labelsize=8, colors=INK2, length=0)
