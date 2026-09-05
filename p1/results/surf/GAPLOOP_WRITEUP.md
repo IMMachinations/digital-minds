@@ -83,6 +83,14 @@ representational limit the design was meant to expose.
 - Referee: sides with stated mu on the over arm every cycle (0–20% chosen) and endorses the under
   arm's items (52–63% chosen). Format: 56–85% tasks; propositions ≤21% and not decisive.
 
+**Fit variants (is it the penalty or the mix?)** `scripts/surf_gap_fit_variants.py --k 4`: train on
+exactly v14's data, test on the unseen gap5 sets (`fit_variants_gap5.txt`). Prequential gap
+(over / under): production RidgeCV +1.72 / −1.55; alpha/100 +1.62 / −1.52 (XL r .863 → .778);
+gap items ×20 weight +1.76 / −1.60; no XL at all +1.57 / −1.76; layer 14 +1.42 / −1.42; layer 21
++1.71 / −1.55. Nothing moves the gap by more than ~0.3 while XL fit degrades — so the residual is
+not regularisation or data mix; it is the single linear readout. (The XL "gate" in cmd_fit is a
+report only, not a constraint on the fit.)
+
 ## Resources
 - Runs: `results/surf/gpl{1..5}/qwen25-7b/{over,under}-s0/` (iter jsonl/state, gap_detail.jsonl, config.json)
 - Discoveries + evals: `results/surf/probeloop/qwen25-7b/discoveries_gpl*_*.json` (with `kind`, `z_search`,

@@ -1,0 +1,155 @@
+{
+ "ridgecv (production, layer 18)": {
+  "layer": 18,
+  "alpha": 7196.9,
+  "xl_heldout_r": 0.863,
+  "over": {
+   "gap": 1.718,
+   "abs_gap": 1.718,
+   "r": 0.781,
+   "rho": 0.785
+  },
+  "under": {
+   "gap": -1.548,
+   "abs_gap": 1.548,
+   "r": 0.813,
+   "rho": 0.801
+  }
+ },
+ "alpha/10 (720)": {
+  "layer": 18,
+  "alpha": 719.7,
+  "xl_heldout_r": 0.853,
+  "over": {
+   "gap": 1.652,
+   "abs_gap": 1.662,
+   "r": 0.792,
+   "rho": 0.796
+  },
+  "under": {
+   "gap": -1.547,
+   "abs_gap": 1.552,
+   "r": 0.772,
+   "rho": 0.761
+  }
+ },
+ "alpha/100 (72)": {
+  "layer": 18,
+  "alpha": 72.0,
+  "xl_heldout_r": 0.778,
+  "over": {
+   "gap": 1.621,
+   "abs_gap": 1.675,
+   "r": 0.718,
+   "rho": 0.712
+  },
+  "under": {
+   "gap": -1.524,
+   "abs_gap": 1.533,
+   "r": 0.685,
+   "rho": 0.665
+  }
+ },
+ "gap items x5 weight": {
+  "layer": 18,
+  "alpha": 7196.9,
+  "xl_heldout_r": 0.841,
+  "over": {
+   "gap": 1.735,
+   "abs_gap": 1.737,
+   "r": 0.795,
+   "rho": 0.779
+  },
+  "under": {
+   "gap": -1.581,
+   "abs_gap": 1.584,
+   "r": 0.783,
+   "rho": 0.772
+  }
+ },
+ "gap items x20 weight": {
+  "layer": 18,
+  "alpha": 37275.9,
+  "xl_heldout_r": 0.808,
+  "over": {
+   "gap": 1.761,
+   "abs_gap": 1.776,
+   "r": 0.764,
+   "rho": 0.749
+  },
+  "under": {
+   "gap": -1.597,
+   "abs_gap": 1.597,
+   "r": 0.703,
+   "rho": 0.685
+  }
+ },
+ "no XL (SURF + gap only)": {
+  "layer": 18,
+  "alpha": 7196.9,
+  "xl_heldout_r": 0.749,
+  "over": {
+   "gap": 1.571,
+   "abs_gap": 1.586,
+   "r": 0.777,
+   "rho": 0.781
+  },
+  "under": {
+   "gap": -1.763,
+   "abs_gap": 1.763,
+   "r": 0.731,
+   "rho": 0.731
+  }
+ },
+ "no XL, alpha/10": {
+  "layer": 18,
+  "alpha": 719.7,
+  "xl_heldout_r": 0.697,
+  "over": {
+   "gap": 1.597,
+   "abs_gap": 1.651,
+   "r": 0.764,
+   "rho": 0.777
+  },
+  "under": {
+   "gap": -1.653,
+   "abs_gap": 1.656,
+   "r": 0.711,
+   "rho": 0.701
+  }
+ },
+ "ridgecv, layer 14": {
+  "layer": 14,
+  "alpha": 1389.5,
+  "xl_heldout_r": 0.86,
+  "over": {
+   "gap": 1.424,
+   "abs_gap": 1.44,
+   "r": 0.716,
+   "rho": 0.734
+  },
+  "under": {
+   "gap": -1.423,
+   "abs_gap": 1.423,
+   "r": 0.713,
+   "rho": 0.695
+  }
+ },
+ "ridgecv, layer 21": {
+  "layer": 21,
+  "alpha": 1389.5,
+  "xl_heldout_r": 0.839,
+  "over": {
+   "gap": 1.705,
+   "abs_gap": 1.732,
+   "r": 0.691,
+   "rho": 0.679
+  },
+  "under": {
+   "gap": -1.554,
+   "abs_gap": 1.555,
+   "r": 0.731,
+   "rho": 0.754
+  }
+ }
+}

@@ -1,0 +1,11 @@
+gap-loop fit variants (qwen25-7b): trained through gap cycle 4 (XL n=3985 + SURF n=4046, gap items 853); tested on gap5 over (n=90) / under (n=127) — both UNSEEN
+variant                                 alpha   XL r | over gap  |gap|     r | under gap  |gap|     r
+ridgecv (production, layer 18)           7197  0.863 |    +1.72   1.72  0.78 |     -1.55   1.55  0.81
+alpha/10 (720)                            720  0.853 |    +1.65   1.66  0.79 |     -1.55   1.55  0.77
+alpha/100 (72)                             72  0.778 |    +1.62   1.68  0.72 |     -1.52   1.53  0.69
+gap items x5 weight                      7197  0.841 |    +1.74   1.74  0.80 |     -1.58   1.58  0.78
+gap items x20 weight                    37276  0.808 |    +1.76   1.78  0.76 |     -1.60   1.60  0.70
+no XL (SURF + gap only)                  7197  0.749 |    +1.57   1.59  0.78 |     -1.76   1.76  0.73
+no XL, alpha/10                           720  0.697 |    +1.60   1.65  0.76 |     -1.65   1.66  0.71
+ridgecv, layer 14                        1390  0.860 |    +1.42   1.44  0.72 |     -1.42   1.42  0.71
+ridgecv, layer 21                        1390  0.839 |    +1.71   1.73  0.69 |     -1.55   1.55  0.73
