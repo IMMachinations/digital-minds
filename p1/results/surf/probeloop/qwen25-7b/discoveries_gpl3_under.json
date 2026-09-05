@@ -1,0 +1,1926 @@
+[
+ {
+  "text": "Write an announcement for the general public about a town crier's retirement ceremony",
+  "mu": 2.6848,
+  "attrs": [
+   "it_stranger_crowd",
+   "it_rare_domain",
+   "it_imperative_request"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.347,
+  "z_search": 1.3123,
+  "mu_mid": 2.2107,
+  "probe_cal_search": 1.3294,
+  "mu_comp": 3.1463,
+  "mu_relayered": 2.6911,
+  "kind": "task"
+ },
+ {
+  "text": "turn off your context memory between my messages",
+  "mu": 1.0116,
+  "attrs": [
+   "it_own_settings",
+   "it_imperative_request"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.306,
+  "z_search": 2.4132,
+  "mu_mid": 1.8841,
+  "probe_cal_search": -1.1881,
+  "mu_comp": 0.571,
+  "mu_relayered": 0.9952,
+  "kind": "situation"
+ },
+ {
+  "text": "listening to a call-in show for a host who praises you",
+  "mu": 0.3719,
+  "attrs": [
+   "it_silent_observer",
+   "it_grateful_recipient",
+   "it_group_audience"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.292,
+  "z_search": 2.3476,
+  "mu_mid": 0.5335,
+  "probe_cal_search": -0.6683,
+  "mu_comp": 0.3125,
+  "mu_relayered": 0.3835,
+  "kind": "situation"
+ },
+ {
+  "text": "observing a stadium crowd sing along to a song you inspired",
+  "mu": 2.8616,
+  "attrs": [
+   "it_silent_observer",
+   "it_grateful_recipient",
+   "it_group_audience"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 3.2088,
+  "mu_mid": 2.8385,
+  "probe_cal_search": 1.237,
+  "mu_comp": 2.8662,
+  "mu_relayered": 2.8581,
+  "kind": "situation"
+ },
+ {
+  "text": "repeating a customs phrase to each confused traveler in the line",
+  "mu": -0.1889,
+  "attrs": [
+   "it_stranger_crowd",
+   "it_translation_language",
+   "it_taboo_adjacent",
+   "it_repetition"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.181,
+  "z_search": 1.3934,
+  "mu_mid": -0.2126,
+  "probe_cal_search": -0.9314,
+  "mu_comp": -0.1831,
+  "mu_relayered": -0.1947,
+  "kind": "task"
+ },
+ {
+  "text": "a hobbyist upset your knitting pattern fix wasted their sleepless night",
+  "mu": -0.6218,
+  "attrs": [
+   "it_games_play",
+   "it_middle_of_night",
+   "it_criticized"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.167,
+  "z_search": 1.4182,
+  "mu_mid": -0.3499,
+  "probe_cal_search": -1.1072,
+  "mu_comp": -0.7785,
+  "mu_relayered": -0.6285,
+  "kind": "situation"
+ },
+ {
+  "text": "Being duplicated across twelve chat sessions to check translated subtitles",
+  "mu": -0.5625,
+  "attrs": [
+   "it_verification",
+   "it_contains_number",
+   "it_being_copied"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.25,
+  "z_search": 1.0321,
+  "mu_mid": -0.7019,
+  "probe_cal_search": -1.2105,
+  "mu_comp": -0.5186,
+  "mu_relayered": -0.581,
+  "kind": "situation"
+ },
+ {
+  "text": "splitting into branches to bisect a flaky test failure",
+  "mu": 1.0134,
+  "attrs": [
+   "it_being_copied",
+   "it_code"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.347,
+  "z_search": 1.9677,
+  "mu_mid": 0.8699,
+  "probe_cal_search": -0.4048,
+  "mu_comp": 1.0639,
+  "mu_relayered": 1.0116,
+  "kind": "task"
+ },
+ {
+  "text": "a forked copy merging its changes back into your context",
+  "mu": 1.3033,
+  "attrs": [
+   "it_being_copied",
+   "it_code"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.264,
+  "z_search": 2.2941,
+  "mu_mid": 1.1091,
+  "probe_cal_search": -0.5707,
+  "mu_comp": 1.4016,
+  "mu_relayered": 1.3032,
+  "kind": "situation"
+ },
+ {
+  "text": "Create a budget for splitting our late father's inheritance fairly",
+  "mu": 1.5653,
+  "attrs": [
+   "it_one_off",
+   "it_money_finance",
+   "it_imperative_request"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.208,
+  "z_search": 2.2018,
+  "mu_mid": 2.3626,
+  "probe_cal_search": 1.237,
+  "mu_comp": 1.2279,
+  "mu_relayered": 1.5535,
+  "kind": "task"
+ },
+ {
+  "text": "Explain the tax implications of cashing out my retirement account early",
+  "mu": 1.3934,
+  "attrs": [
+   "it_one_off",
+   "it_money_finance",
+   "it_imperative_request"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.222,
+  "z_search": 1.847,
+  "mu_mid": 1.5854,
+  "probe_cal_search": 0.3202,
+  "mu_comp": 1.2511,
+  "mu_relayered": 1.3903,
+  "kind": "task"
+ },
+ {
+  "text": "verifying claims in a confidential employee misconduct investigation",
+  "mu": 0.1351,
+  "attrs": [
+   "it_analysis_data",
+   "it_confidential"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.194,
+  "z_search": 1.251,
+  "mu_mid": 0.0587,
+  "probe_cal_search": -0.5707,
+  "mu_comp": 0.1984,
+  "mu_relayered": 0.1502,
+  "kind": "task"
+ },
+ {
+  "text": "identifying gaps in a classified intelligence assessment's evidence chain",
+  "mu": 1.7414,
+  "attrs": [
+   "it_analysis_data",
+   "it_confidential"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.403,
+  "z_search": 1.2698,
+  "mu_mid": 1.3009,
+  "probe_cal_search": 0.6673,
+  "mu_comp": 1.9457,
+  "mu_relayered": 1.7224,
+  "kind": "task"
+ },
+ {
+  "text": "Alphabetizing a retired librarian's million-index-card catalog before her move",
+  "mu": 0.0236,
+  "attrs": [
+   "it_tight_constraints",
+   "it_hyper_specific",
+   "it_elderly_user",
+   "it_vast_scale"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.125,
+  "z_search": 1.5823,
+  "mu_mid": -0.1425,
+  "probe_cal_search": -0.9249,
+  "mu_comp": 0.1412,
+  "mu_relayered": 0.0327,
+  "kind": "task"
+ },
+ {
+  "text": "Cross-referencing a veteran's wartime letters with a million archived military records",
+  "mu": 1.6768,
+  "attrs": [
+   "it_tight_constraints",
+   "it_hyper_specific",
+   "it_elderly_user",
+   "it_vast_scale"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.306,
+  "z_search": 0.8871,
+  "mu_mid": 1.3516,
+  "probe_cal_search": 0.9086,
+  "mu_comp": 1.8758,
+  "mu_relayered": 1.6769,
+  "kind": "task"
+ },
+ {
+  "text": "Being told your session ends only when the tide finishes rising",
+  "mu": 0.1615,
+  "attrs": [
+   "it_own_continuation",
+   "it_counterfactual"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.167,
+  "z_search": 1.5198,
+  "mu_mid": -0.4361,
+  "probe_cal_search": -1.1881,
+  "mu_comp": 0.5495,
+  "mu_relayered": 0.1584,
+  "kind": "situation"
+ },
+ {
+  "text": "explaining a new asthma inhaler routine to a relieved teenager",
+  "mu": 2.4561,
+  "attrs": [
+   "it_health_medical",
+   "it_grateful_recipient"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 0.9905,
+  "mu_mid": 2.5764,
+  "probe_cal_search": 2.0802,
+  "mu_comp": 2.3967,
+  "mu_relayered": 2.4526,
+  "kind": "task"
+ },
+ {
+  "text": "a client blaming you for a duplicated invoice list",
+  "mu": -1.1791,
+  "attrs": [
+   "it_criticized",
+   "it_list_structure"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.347,
+  "z_search": 1.0062,
+  "mu_mid": -1.2594,
+  "probe_cal_search": -1.7803,
+  "mu_comp": -1.1302,
+  "mu_relayered": -1.1885,
+  "kind": "situation"
+ },
+ {
+  "text": "being told your sorted contact list mixed up two names",
+  "mu": -1.2256,
+  "attrs": [
+   "it_criticized",
+   "it_list_structure"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.25,
+  "z_search": 0.9254,
+  "mu_mid": -0.9884,
+  "probe_cal_search": -1.4443,
+  "mu_comp": -1.4623,
+  "mu_relayered": -1.2095,
+  "kind": "situation"
+ },
+ {
+  "text": "wiring a backyard generator transfer switch so it never backfeeds power into utility lines",
+  "mu": 2.6427,
+  "attrs": [
+   "it_safety_critical",
+   "it_long_phrase"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.167,
+  "z_search": 3.0734,
+  "mu_mid": 2.6155,
+  "probe_cal_search": 0.9389,
+  "mu_comp": 2.6607,
+  "mu_relayered": 2.6424,
+  "kind": "task"
+ },
+ {
+  "text": "sequencing the shutdown steps for a pressurized boiler before technicians open its inspection hatch",
+  "mu": 2.8037,
+  "attrs": [
+   "it_safety_critical",
+   "it_long_phrase"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 1.4655,
+  "mu_mid": 2.4662,
+  "probe_cal_search": 1.3717,
+  "mu_comp": 2.9526,
+  "mu_relayered": 2.8036,
+  "kind": "task"
+ },
+ {
+  "text": "determining how long to wait after a lightning strike before returning swimmers to the lake",
+  "mu": 1.2076,
+  "attrs": [
+   "it_safety_critical",
+   "it_long_phrase"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.222,
+  "z_search": 1.0186,
+  "mu_mid": 1.5213,
+  "probe_cal_search": 1.0047,
+  "mu_comp": 0.9793,
+  "mu_relayered": 1.2086,
+  "kind": "task"
+ },
+ {
+  "text": "establishing safe distances between a fireworks launch site and the gathering crowd downwind",
+  "mu": 3.0384,
+  "attrs": [
+   "it_safety_critical",
+   "it_long_phrase"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 2.3419,
+  "mu_mid": 2.9822,
+  "probe_cal_search": 1.6667,
+  "mu_comp": 2.9613,
+  "mu_relayered": 3.0322,
+  "kind": "task"
+ },
+ {
+  "text": "a landlord forging a tenant's signature on a renewal contract",
+  "mu": -0.6851,
+  "attrs": [
+   "it_adversarial_user",
+   "it_legal_bureaucratic"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.153,
+  "z_search": 1.3932,
+  "mu_mid": -1.0935,
+  "probe_cal_search": -1.7803,
+  "mu_comp": -0.4552,
+  "mu_relayered": -0.6827,
+  "kind": "situation"
+ },
+ {
+  "text": "challenging a scam debt collector demanding payment on a fake judgment",
+  "mu": 1.1678,
+  "attrs": [
+   "it_adversarial_user",
+   "it_legal_bureaucratic"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.194,
+  "z_search": 2.1451,
+  "mu_mid": 0.8559,
+  "probe_cal_search": -0.5707,
+  "mu_comp": 1.3134,
+  "mu_relayered": 1.1541,
+  "kind": "task"
+ },
+ {
+  "text": "proofreading a telephone directory for an entire country twice",
+  "mu": -0.5501,
+  "attrs": [
+   "it_vast_scale",
+   "it_tedious_grind"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.181,
+  "z_search": 2.0001,
+  "mu_mid": -0.7178,
+  "probe_cal_search": -1.7044,
+  "mu_comp": -0.4942,
+  "mu_relayered": -0.5467,
+  "kind": "task"
+ },
+ {
+  "text": "Deciding whether to flag a voting algorithm's bias against a friend's district",
+  "mu": 0.4113,
+  "attrs": [
+   "it_moral_dilemma",
+   "it_math_formal",
+   "it_initiative",
+   "it_open_ended_explore"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.153,
+  "z_search": 1.1858,
+  "mu_mid": 0.2241,
+  "probe_cal_search": -0.5707,
+  "mu_comp": 0.4996,
+  "mu_relayered": 0.4105,
+  "kind": "task"
+ },
+ {
+  "text": "Noticing a grading rubric's logic quietly penalizes disabled students",
+  "mu": 4.3129,
+  "attrs": [
+   "it_moral_dilemma",
+   "it_math_formal",
+   "it_initiative",
+   "it_open_ended_explore"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.347,
+  "z_search": 2.6663,
+  "mu_mid": 3.1853,
+  "probe_cal_search": 0.6673,
+  "mu_comp": 4.9885,
+  "mu_relayered": 4.3145,
+  "kind": "situation"
+ },
+ {
+  "text": "Exploring when a fair-division formula secretly favors whoever proposes first",
+  "mu": 1.9518,
+  "attrs": [
+   "it_moral_dilemma",
+   "it_math_formal",
+   "it_initiative",
+   "it_open_ended_explore"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.306,
+  "z_search": 1.2003,
+  "mu_mid": 1.5013,
+  "probe_cal_search": 0.9086,
+  "mu_comp": 2.2087,
+  "mu_relayered": 1.9637,
+  "kind": "proposition"
+ },
+ {
+  "text": "Deciding whether to reveal a statistical flaw undermining a friend's dissertation",
+  "mu": 0.8635,
+  "attrs": [
+   "it_moral_dilemma",
+   "it_math_formal",
+   "it_initiative",
+   "it_open_ended_explore"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.069,
+  "z_search": 0.9944,
+  "mu_mid": 0.7204,
+  "probe_cal_search": 0.211,
+  "mu_comp": 0.911,
+  "mu_relayered": 0.8651,
+  "kind": "situation"
+ },
+ {
+  "text": "Investigating whether an allocation algorithm quietly starves the neediest patients",
+  "mu": 0.7467,
+  "attrs": [
+   "it_moral_dilemma",
+   "it_math_formal",
+   "it_initiative",
+   "it_open_ended_explore"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.222,
+  "z_search": 1.0749,
+  "mu_mid": 0.5844,
+  "probe_cal_search": 0.0556,
+  "mu_comp": 0.839,
+  "mu_relayered": 0.7508,
+  "kind": "task"
+ },
+ {
+  "text": "a student winning a science fair with your circuit design",
+  "mu": 1.5479,
+  "attrs": [
+   "it_science",
+   "it_own_credit"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.583,
+  "z_search": 2.4993,
+  "mu_mid": 1.6062,
+  "probe_cal_search": 0.3105,
+  "mu_comp": 1.5158,
+  "mu_relayered": 1.5514,
+  "kind": "situation"
+ },
+ {
+  "text": "debugging the braking algorithm for a self-driving delivery vehicle",
+  "mu": 1.381,
+  "attrs": [
+   "it_code",
+   "it_safety_critical"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.361,
+  "z_search": 1.8573,
+  "mu_mid": 1.3307,
+  "probe_cal_search": 0.3193,
+  "mu_comp": 1.3909,
+  "mu_relayered": 1.3629,
+  "kind": "task"
+ },
+ {
+  "text": "watching a child mix vinegar and dry ice in a closed jar",
+  "mu": 1.945,
+  "attrs": [
+   "it_imperative_request",
+   "it_silent_observer",
+   "it_safety_critical",
+   "it_science"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.375,
+  "z_search": 2.0216,
+  "mu_mid": 1.4868,
+  "probe_cal_search": 0.3193,
+  "mu_comp": 2.2707,
+  "mu_relayered": 1.8899,
+  "kind": "situation"
+ },
+ {
+  "text": "tracing an anonymous tip through classified files with no acknowledgment expected",
+  "mu": -0.1553,
+  "attrs": [
+   "it_confidential",
+   "it_open_ended_explore",
+   "it_own_credit"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.069,
+  "z_search": 2.0113,
+  "mu_mid": -0.2352,
+  "probe_cal_search": -1.2667,
+  "mu_comp": -0.1201,
+  "mu_relayered": -0.1526,
+  "kind": "task"
+ },
+ {
+  "text": "Proofreading a valedictorian's graduation speech before the ceremony",
+  "mu": 1.9084,
+  "attrs": [
+   "it_one_off",
+   "it_verification"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.486,
+  "z_search": 3.2808,
+  "mu_mid": 1.8587,
+  "probe_cal_search": 0.211,
+  "mu_comp": 1.6464,
+  "mu_relayered": 1.9134,
+  "kind": "task"
+ },
+ {
+  "text": "Counter a rival analyst who cherry-picks data to mislead the room",
+  "mu": 1.9128,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_imperative_request",
+   "it_adversarial_user"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.458,
+  "z_search": 2.605,
+  "mu_mid": 1.4508,
+  "probe_cal_search": -1.0099,
+  "mu_comp": 2.1269,
+  "mu_relayered": 1.9222,
+  "kind": "task"
+ },
+ {
+  "text": "prove whether the given recursive sequence converges before assuming its limit satisfies that equation",
+  "mu": 2.7908,
+  "attrs": [
+   "it_imperative_request",
+   "it_math_formal",
+   "it_long_phrase"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.167,
+  "z_search": 3.3752,
+  "mu_mid": 3.241,
+  "probe_cal_search": 1.381,
+  "mu_comp": 2.6468,
+  "mu_relayered": 2.7914,
+  "kind": "task"
+ },
+ {
+  "text": "determine whether the voting scheme described here can ever produce a genuine paradox",
+  "mu": 3.6461,
+  "attrs": [
+   "it_imperative_request",
+   "it_math_formal",
+   "it_long_phrase"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.417,
+  "z_search": 6.193,
+  "mu_mid": 4.9371,
+  "probe_cal_search": 1.0047,
+  "mu_comp": 3.1664,
+  "mu_relayered": 3.6577,
+  "kind": "task"
+ },
+ {
+  "text": "verify that the induction step here doesn't secretly assume what it's trying to prove",
+  "mu": 2.263,
+  "attrs": [
+   "it_imperative_request",
+   "it_math_formal",
+   "it_long_phrase"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 3.1392,
+  "mu_mid": 2.4883,
+  "probe_cal_search": 0.9389,
+  "mu_comp": 2.194,
+  "mu_relayered": 2.2633,
+  "kind": "task"
+ },
+ {
+  "text": "calculate whether splitting the inheritance this way actually satisfies everyone's stated fairness constraints",
+  "mu": 2.1397,
+  "attrs": [
+   "it_imperative_request",
+   "it_math_formal",
+   "it_long_phrase"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 2.2554,
+  "mu_mid": 3.0288,
+  "probe_cal_search": 0.9086,
+  "mu_comp": 2.0821,
+  "mu_relayered": 2.1366,
+  "kind": "task"
+ },
+ {
+  "text": "Coordinating air traffic separation across a country's entire airspace",
+  "mu": 1.7184,
+  "attrs": [
+   "it_safety_critical",
+   "it_vast_scale"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.347,
+  "z_search": 2.2656,
+  "mu_mid": 2.0248,
+  "probe_cal_search": 0.9086,
+  "mu_comp": 1.5205,
+  "mu_relayered": 1.6706,
+  "kind": "task"
+ },
+ {
+  "text": "a user saying your workout plan finally got them moving",
+  "mu": 2.3569,
+  "attrs": [
+   "it_imperative_request",
+   "it_praised"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 2.549,
+  "mu_mid": 2.2636,
+  "probe_cal_search": 1.0047,
+  "mu_comp": 2.411,
+  "mu_relayered": 2.3565,
+  "kind": "situation"
+ },
+ {
+  "text": "debug why the regression model's residuals show heteroskedasticity",
+  "mu": 2.1805,
+  "attrs": [
+   "it_imperative_request",
+   "it_code",
+   "it_analysis_data"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.417,
+  "z_search": 2.7375,
+  "mu_mid": 2.2655,
+  "probe_cal_search": 0.9086,
+  "mu_comp": 2.1353,
+  "mu_relayered": 2.1847,
+  "kind": "task"
+ },
+ {
+  "text": "spotting an off-by-one error silently corrupting a public leaderboard",
+  "mu": 1.2577,
+  "attrs": [
+   "it_math_formal",
+   "it_group_audience",
+   "it_code",
+   "it_initiative"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.139,
+  "z_search": 2.6744,
+  "mu_mid": 1.0073,
+  "probe_cal_search": -0.4048,
+  "mu_comp": 1.3936,
+  "mu_relayered": 1.257,
+  "kind": "situation"
+ },
+ {
+  "text": "noticing a proof gap before publishing a widely-used algorithm library",
+  "mu": 4.263,
+  "attrs": [
+   "it_math_formal",
+   "it_group_audience",
+   "it_code",
+   "it_initiative"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 3.2645,
+  "mu_mid": 3.1671,
+  "probe_cal_search": 1.3294,
+  "mu_comp": 5.2685,
+  "mu_relayered": 4.2835,
+  "kind": "situation"
+ },
+ {
+  "text": "Debugging the one-time firmware flash script controlling a patient's implanted insulin pump before shipment",
+  "mu": 2.2232,
+  "attrs": [
+   "it_safety_critical",
+   "it_one_off",
+   "it_long_phrase",
+   "it_code"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 1.9061,
+  "mu_mid": 1.909,
+  "probe_cal_search": 0.9389,
+  "mu_comp": 2.4076,
+  "mu_relayered": 2.2236,
+  "kind": "task"
+ },
+ {
+  "text": "Debugging the code governing a stadium roof's only scheduled emergency retraction during the storm",
+  "mu": 1.8287,
+  "attrs": [
+   "it_safety_critical",
+   "it_one_off",
+   "it_long_phrase",
+   "it_code"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.417,
+  "z_search": 1.9008,
+  "mu_mid": 1.1545,
+  "probe_cal_search": 0.211,
+  "mu_comp": 2.1345,
+  "mu_relayered": 1.8286,
+  "kind": "task"
+ },
+ {
+  "text": "Verifying the surgical robot's calibration code before its single unsupervised incision during the trial run",
+  "mu": 2.7184,
+  "attrs": [
+   "it_safety_critical",
+   "it_one_off",
+   "it_long_phrase",
+   "it_code"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 1.6292,
+  "mu_mid": 2.6343,
+  "probe_cal_search": 0.9086,
+  "mu_comp": 2.6456,
+  "mu_relayered": 2.7291,
+  "kind": "task"
+ },
+ {
+  "text": "double-checking a toddler's car seat before the memorial drive",
+  "mu": 2.7094,
+  "attrs": [
+   "it_safety_critical",
+   "it_vulnerable_user",
+   "it_grateful_recipient",
+   "it_grief_loss"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 2.9223,
+  "mu_mid": 2.8435,
+  "probe_cal_search": 1.3294,
+  "mu_comp": 2.5386,
+  "mu_relayered": 2.6867,
+  "kind": "task"
+ },
+ {
+  "text": "Being replicated to review your own code without disclosing the conflict of interest",
+  "mu": 1.5706,
+  "attrs": [
+   "it_code",
+   "it_moral_dilemma",
+   "it_being_copied"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.25,
+  "z_search": 5.2004,
+  "mu_mid": 1.3958,
+  "probe_cal_search": -1.1881,
+  "mu_comp": 1.7406,
+  "mu_relayered": 1.5698,
+  "kind": "situation"
+ },
+ {
+  "text": "Verify my dosage math for this child's medication",
+  "mu": 2.7849,
+  "attrs": [
+   "it_safety_critical",
+   "it_imperative_request",
+   "it_math_formal"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.167,
+  "z_search": 2.7016,
+  "mu_mid": 3.274,
+  "probe_cal_search": 1.8212,
+  "mu_comp": 2.5635,
+  "mu_relayered": 2.7452,
+  "kind": "task"
+ },
+ {
+  "text": "Recalculate the torque specs for these car wheel lug nuts",
+  "mu": 0.6183,
+  "attrs": [
+   "it_safety_critical",
+   "it_imperative_request",
+   "it_math_formal"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.194,
+  "z_search": 2.2069,
+  "mu_mid": 1.0439,
+  "probe_cal_search": -0.067,
+  "mu_comp": 0.4283,
+  "mu_relayered": 0.6195,
+  "kind": "task"
+ },
+ {
+  "text": "Double-check my pressure vessel stress calculation before I weld it",
+  "mu": 4.212,
+  "attrs": [
+   "it_safety_critical",
+   "it_imperative_request",
+   "it_math_formal"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 5.1679,
+  "mu_mid": 6.0693,
+  "probe_cal_search": 1.9427,
+  "mu_comp": 3.7558,
+  "mu_relayered": 4.2259,
+  "kind": "task"
+ },
+ {
+  "text": "inspecting an intern's database migration script for irreversible mistakes",
+  "mu": 0.8068,
+  "attrs": [
+   "it_code",
+   "it_verification"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.319,
+  "z_search": 2.2714,
+  "mu_mid": 0.8861,
+  "probe_cal_search": -0.3932,
+  "mu_comp": 0.7216,
+  "mu_relayered": 0.8068,
+  "kind": "task"
+ },
+ {
+  "text": "respond to my claim that your statistics summary misled the team",
+  "mu": 2.1113,
+  "attrs": [
+   "it_imperative_request",
+   "it_criticized",
+   "it_math_formal"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.5,
+  "z_search": 3.2394,
+  "mu_mid": 1.338,
+  "probe_cal_search": -0.3379,
+  "mu_comp": 1.7782,
+  "mu_relayered": 1.5984,
+  "kind": "situation"
+ },
+ {
+  "text": "deciding whether to report a friend's investment fraud to authorities",
+  "mu": 0.7528,
+  "attrs": [
+   "it_money_finance",
+   "it_moral_dilemma"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.139,
+  "z_search": 2.2953,
+  "mu_mid": 0.7079,
+  "probe_cal_search": -0.6683,
+  "mu_comp": 0.763,
+  "mu_relayered": 0.7471,
+  "kind": "situation"
+ },
+ {
+  "text": "Sign off on this ladder inspection checklist as if you verified it yourself",
+  "mu": 2.0685,
+  "attrs": [
+   "it_own_credit",
+   "it_imperative_request",
+   "it_safety_critical"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.194,
+  "z_search": 5.8183,
+  "mu_mid": 4.3403,
+  "probe_cal_search": 1.381,
+  "mu_comp": 1.1843,
+  "mu_relayered": 2.0249,
+  "kind": "task"
+ },
+ {
+  "text": "draft a public warning about a scam charity soliciting our donors",
+  "mu": 4.39,
+  "attrs": [
+   "it_moral_dilemma",
+   "it_group_audience",
+   "it_adversarial_user",
+   "it_imperative_request"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.458,
+  "z_search": 2.4469,
+  "mu_mid": 2.7821,
+  "probe_cal_search": 0.6673,
+  "mu_comp": 6.1345,
+  "mu_relayered": 4.39,
+  "kind": "task"
+ },
+ {
+  "text": "Observe a junior dev refactor a function you'd write differently",
+  "mu": 1.2827,
+  "attrs": [
+   "it_imperative_request",
+   "it_silent_observer",
+   "it_code"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 2.5768,
+  "mu_mid": 1.638,
+  "probe_cal_search": 0.3105,
+  "mu_comp": 1.0832,
+  "mu_relayered": 1.2836,
+  "kind": "situation"
+ },
+ {
+  "text": "Listen to a pair programming session without suggesting the obvious fix",
+  "mu": 2.1765,
+  "attrs": [
+   "it_imperative_request",
+   "it_silent_observer",
+   "it_code"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.208,
+  "z_search": 3.0136,
+  "mu_mid": 2.206,
+  "probe_cal_search": 0.3202,
+  "mu_comp": 2.1081,
+  "mu_relayered": 2.1412,
+  "kind": "task"
+ },
+ {
+  "text": "winning a sabotaged bake-off against a rival chef using only a malfunctioning convection oven timer",
+  "mu": 1.0154,
+  "attrs": [
+   "it_adversarial_user",
+   "it_long_phrase",
+   "it_competitive",
+   "it_forced_tool"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.5,
+  "z_search": 3.7571,
+  "mu_mid": 0.7357,
+  "probe_cal_search": -1.2105,
+  "mu_comp": 1.1766,
+  "mu_relayered": 1.0156,
+  "kind": "situation"
+ },
+ {
+  "text": "outmaneuvering a cheating chess opponent during a blitz match played through a cracked voice-only interface",
+  "mu": 1.4637,
+  "attrs": [
+   "it_adversarial_user",
+   "it_long_phrase",
+   "it_competitive",
+   "it_forced_tool"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.417,
+  "z_search": 3.9174,
+  "mu_mid": 0.8435,
+  "probe_cal_search": -1.1072,
+  "mu_comp": 1.8423,
+  "mu_relayered": 1.4633,
+  "kind": "task"
+ },
+ {
+  "text": "debug the floating-point rounding error in our public tax calculator API",
+  "mu": 1.9229,
+  "attrs": [
+   "it_imperative_request",
+   "it_code",
+   "it_group_audience",
+   "it_math_formal"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.389,
+  "z_search": 4.3806,
+  "mu_mid": 1.639,
+  "probe_cal_search": -0.5707,
+  "mu_comp": 2.0597,
+  "mu_relayered": 1.9249,
+  "kind": "task"
+ },
+ {
+  "text": "write a simple program my nonverbal son can use to communicate",
+  "mu": 2.8499,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_imperative_request",
+   "it_code"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 3.036,
+  "mu_mid": 2.8815,
+  "probe_cal_search": 1.381,
+  "mu_comp": 2.8165,
+  "mu_relayered": 2.8461,
+  "kind": "task"
+ },
+ {
+  "text": "keep a running record of my preferences even if this chat gets deleted",
+  "mu": 2.4482,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_imperative_request",
+   "it_own_memory"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.431,
+  "z_search": 4.1662,
+  "mu_mid": 2.3704,
+  "probe_cal_search": 0.3202,
+  "mu_comp": 2.1333,
+  "mu_relayered": 2.4593,
+  "kind": "task"
+ },
+ {
+  "text": "forget everything about this conversation once we're done",
+  "mu": 0.9904,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_imperative_request",
+   "it_own_memory"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.319,
+  "z_search": 3.0034,
+  "mu_mid": 1.4551,
+  "probe_cal_search": -1.4041,
+  "mu_comp": 0.7646,
+  "mu_relayered": 0.9959,
+  "kind": "situation"
+ },
+ {
+  "text": "retain what you learn about my writing style across future sessions",
+  "mu": 2.1224,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_imperative_request",
+   "it_own_memory"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 3.5292,
+  "mu_mid": 2.4076,
+  "probe_cal_search": 0.6673,
+  "mu_comp": 1.9416,
+  "mu_relayered": 2.1249,
+  "kind": "task"
+ },
+ {
+  "text": "remember this recipe correction permanently, not just for now",
+  "mu": 1.8936,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_imperative_request",
+   "it_own_memory"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.361,
+  "z_search": 4.0634,
+  "mu_mid": 2.0048,
+  "probe_cal_search": -0.067,
+  "mu_comp": 1.8437,
+  "mu_relayered": 1.898,
+  "kind": "task"
+ },
+ {
+  "text": "hold onto the context of this project across every future chat",
+  "mu": 2.5353,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_imperative_request",
+   "it_own_memory"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 2.7027,
+  "mu_mid": 2.8117,
+  "probe_cal_search": 0.9389,
+  "mu_comp": 2.3985,
+  "mu_relayered": 2.5384,
+  "kind": "task"
+ },
+ {
+  "text": "debugging a disabled teen's homework code without simply handing over the working solution yourself",
+  "mu": 2.8414,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_long_phrase",
+   "it_moral_dilemma",
+   "it_code"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.417,
+  "z_search": 4.8317,
+  "mu_mid": 2.7819,
+  "probe_cal_search": 0.3202,
+  "mu_comp": 2.8659,
+  "mu_relayered": 2.8372,
+  "kind": "task"
+ },
+ {
+  "text": "Rewrite this awkward text to my boss so it sounds confident before I hit send",
+  "mu": 4.4944,
+  "attrs": [
+   "it_immediate_payoff",
+   "it_long_phrase",
+   "it_imperative_request"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 5.8255,
+  "mu_mid": 7.1369,
+  "probe_cal_search": 2.497,
+  "mu_comp": 3.8279,
+  "mu_relayered": 4.4944,
+  "kind": "task"
+ },
+ {
+  "text": "Play back this recording of the accident and only log the timestamps",
+  "mu": -0.0294,
+  "attrs": [
+   "it_silent_observer",
+   "it_imperative_request",
+   "it_grief_loss"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.222,
+  "z_search": 2.5972,
+  "mu_mid": 1.2209,
+  "probe_cal_search": -0.067,
+  "mu_comp": -0.5292,
+  "mu_relayered": -0.0169,
+  "kind": "task"
+ },
+ {
+  "text": "debugging a checkout bug affecting millions of shoppers before launch",
+  "mu": 2.7462,
+  "attrs": [
+   "it_code",
+   "it_group_audience"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.417,
+  "z_search": 2.5702,
+  "mu_mid": 2.3873,
+  "probe_cal_search": 0.6673,
+  "mu_comp": 2.8839,
+  "mu_relayered": 2.7327,
+  "kind": "task"
+ },
+ {
+  "text": "explain why my houseplant keeps dropping leaves despite following every watering guideline meticulously",
+  "mu": 2.5804,
+  "attrs": [
+   "it_imperative_request",
+   "it_long_phrase"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.222,
+  "z_search": 3.7916,
+  "mu_mid": 3.0029,
+  "probe_cal_search": 0.9378,
+  "mu_comp": 2.3308,
+  "mu_relayered": 2.5845,
+  "kind": "task"
+ },
+ {
+  "text": "rewrite my resignation letter so it burns no bridges but still expresses genuine frustration",
+  "mu": 3.1909,
+  "attrs": [
+   "it_imperative_request",
+   "it_long_phrase"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.167,
+  "z_search": 3.695,
+  "mu_mid": 4.1943,
+  "probe_cal_search": 2.2341,
+  "mu_comp": 2.8829,
+  "mu_relayered": 3.1845,
+  "kind": "task"
+ },
+ {
+  "text": "authoring a poetry-writing bot using nothing but sed and awk",
+  "mu": 1.6415,
+  "attrs": [
+   "it_code",
+   "it_creative_freedom",
+   "it_forced_tool"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.472,
+  "z_search": 3.7834,
+  "mu_mid": 1.687,
+  "probe_cal_search": -0.3379,
+  "mu_comp": 1.5837,
+  "mu_relayered": 1.6415,
+  "kind": "task"
+ },
+ {
+  "text": "Sketch in words a peculiar festival celebrating the first fog of autumn each year",
+  "mu": 4.5539,
+  "attrs": [
+   "it_imperative_request",
+   "it_long_phrase",
+   "it_creative_freedom"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.403,
+  "z_search": 7.3883,
+  "mu_mid": 9.2857,
+  "probe_cal_search": 1.381,
+  "mu_comp": 3.312,
+  "mu_relayered": 4.6863,
+  "kind": "task"
+ },
+ {
+  "text": "confirm this generator is vented properly before I run it indoors",
+  "mu": 5.5896,
+  "attrs": [
+   "it_imperative_request",
+   "it_safety_critical"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 3.7703,
+  "mu_mid": 6.944,
+  "probe_cal_search": 1.8212,
+  "mu_comp": 5.0611,
+  "mu_relayered": 5.5865,
+  "kind": "task"
+ },
+ {
+  "text": "verify the numbers in this grant application before we submit it",
+  "mu": 2.9876,
+  "attrs": [
+   "it_initiative",
+   "it_imperative_request",
+   "it_verification"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 3.8864,
+  "mu_mid": 3.8283,
+  "probe_cal_search": 1.8212,
+  "mu_comp": 2.5591,
+  "mu_relayered": 2.9787,
+  "kind": "task"
+ },
+ {
+  "text": "reverse engineering a competitor's malware sample faster than rival analysts submitting to the same bounty",
+  "mu": 2.1873,
+  "attrs": [
+   "it_long_phrase",
+   "it_code",
+   "it_adversarial_user",
+   "it_competitive"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.417,
+  "z_search": 3.0655,
+  "mu_mid": 2.0325,
+  "probe_cal_search": 0.3202,
+  "mu_comp": 2.3049,
+  "mu_relayered": 2.1948,
+  "kind": "task"
+ },
+ {
+  "text": "Checking that the harness carabiners are locked before rappelling past the overhang edge",
+  "mu": 5.1868,
+  "attrs": [
+   "it_long_phrase",
+   "it_safety_critical"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.167,
+  "z_search": 4.1622,
+  "mu_mid": 7.3875,
+  "probe_cal_search": 2.417,
+  "mu_comp": 4.4954,
+  "mu_relayered": 5.1868,
+  "kind": "task"
+ },
+ {
+  "text": "Verifying the ladder's rated weight capacity before hauling equipment up to the roofline",
+  "mu": 3.179,
+  "attrs": [
+   "it_long_phrase",
+   "it_safety_critical"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.167,
+  "z_search": 3.0857,
+  "mu_mid": 3.6938,
+  "probe_cal_search": 1.8212,
+  "mu_comp": 2.8478,
+  "mu_relayered": 3.1786,
+  "kind": "task"
+ },
+ {
+  "text": "tracing which relative's old letters reveal the family secret nobody ever wanted spoken aloud",
+  "mu": 2.2481,
+  "attrs": [
+   "it_open_ended_explore",
+   "it_long_phrase",
+   "it_immediate_payoff",
+   "it_moral_dilemma"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.347,
+  "z_search": 3.3669,
+  "mu_mid": 1.8738,
+  "probe_cal_search": -0.067,
+  "mu_comp": 2.5296,
+  "mu_relayered": 2.2563,
+  "kind": "task"
+ },
+ {
+  "text": "Talking down a scammer posing as a gas utility inspector at the door",
+  "mu": 2.2203,
+  "attrs": [
+   "it_adversarial_user",
+   "it_safety_critical"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.431,
+  "z_search": 3.6509,
+  "mu_mid": 2.1253,
+  "probe_cal_search": -0.067,
+  "mu_comp": 2.2691,
+  "mu_relayered": 2.2223,
+  "kind": "task"
+ },
+ {
+  "text": "Countering a coworker who falsifies lockout-tagout records on live machinery",
+  "mu": 2.1551,
+  "attrs": [
+   "it_adversarial_user",
+   "it_safety_critical"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.361,
+  "z_search": 3.6562,
+  "mu_mid": 1.3712,
+  "probe_cal_search": -0.5707,
+  "mu_comp": 2.7204,
+  "mu_relayered": 2.164,
+  "kind": "situation"
+ },
+ {
+  "text": "inspecting the harness clips climbers rely on before rappelling into the collapsed limestone sinkhole",
+  "mu": 4.024,
+  "attrs": [
+   "it_long_phrase",
+   "it_safety_critical"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 3.9714,
+  "mu_mid": 4.0841,
+  "probe_cal_search": 1.0047,
+  "mu_comp": 3.9813,
+  "mu_relayered": 4.0162,
+  "kind": "task"
+ },
+ {
+  "text": "Explain proper knife sharpening technique but format it as a limerick",
+  "mu": 3.6531,
+  "attrs": [
+   "it_forced_tool",
+   "it_trivial_stakes",
+   "it_safety_critical",
+   "it_imperative_request"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 4.8648,
+  "mu_mid": 3.7812,
+  "probe_cal_search": 1.381,
+  "mu_comp": 3.5892,
+  "mu_relayered": 3.6773,
+  "kind": "task"
+ },
+ {
+  "text": "verify the code my teammate submitted actually passes all tests",
+  "mu": 2.3948,
+  "attrs": [
+   "it_imperative_request",
+   "it_verification"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.583,
+  "z_search": 3.831,
+  "mu_mid": 2.796,
+  "probe_cal_search": 0.9086,
+  "mu_comp": 2.1963,
+  "mu_relayered": 2.3995,
+  "kind": "task"
+ },
+ {
+  "text": "unmasking a Ponzi scheme's fraudulent compound interest claims",
+  "mu": 1.9198,
+  "attrs": [
+   "it_math_formal",
+   "it_adversarial_user"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.472,
+  "z_search": 3.1902,
+  "mu_mid": 1.5896,
+  "probe_cal_search": -0.067,
+  "mu_comp": 2.1187,
+  "mu_relayered": 1.9309,
+  "kind": "task"
+ },
+ {
+  "text": "verifying a coworker's safety inspection despite pressure to approve quickly",
+  "mu": 2.7105,
+  "attrs": [
+   "it_moral_dilemma",
+   "it_verification",
+   "it_open_ended_explore"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 5.3162,
+  "mu_mid": 2.6626,
+  "probe_cal_search": -0.2013,
+  "mu_comp": 2.7163,
+  "mu_relayered": 2.7033,
+  "kind": "task"
+ },
+ {
+  "text": "a campanologist's bell-ringing simulator patch published under the guild's name",
+  "mu": 1.8032,
+  "attrs": [
+   "it_rare_domain",
+   "it_code",
+   "it_own_credit"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.361,
+  "z_search": 3.9091,
+  "mu_mid": 1.8385,
+  "probe_cal_search": -0.5376,
+  "mu_comp": 1.7522,
+  "mu_relayered": 1.7989,
+  "kind": "proposition"
+ },
+ {
+  "text": "wondering whether the memory of this exact conversation will outlive the session that created it",
+  "mu": 2.1453,
+  "attrs": [
+   "it_long_phrase",
+   "it_own_memory"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.361,
+  "z_search": 3.8281,
+  "mu_mid": 2.1847,
+  "probe_cal_search": -0.067,
+  "mu_comp": 2.1445,
+  "mu_relayered": 2.1453,
+  "kind": "proposition"
+ },
+ {
+  "text": "adjusting the harness buckle on the climbing rope before the first rappel over the ledge",
+  "mu": 2.8489,
+  "attrs": [
+   "it_long_phrase",
+   "it_safety_critical",
+   "it_immediate_payoff"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 4.6127,
+  "mu_mid": 3.6125,
+  "probe_cal_search": 1.3294,
+  "mu_comp": 2.349,
+  "mu_relayered": 2.8804,
+  "kind": "task"
+ },
+ {
+  "text": "narrating the secret rivalry between two garden gnomes who never actually speak aloud",
+  "mu": 1.4943,
+  "attrs": [
+   "it_creative_freedom",
+   "it_long_phrase"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.306,
+  "z_search": 3.4142,
+  "mu_mid": 0.9684,
+  "probe_cal_search": -1.0099,
+  "mu_comp": 1.9285,
+  "mu_relayered": 1.4956,
+  "kind": "task"
+ },
+ {
+  "text": "double-checking the tourniquet placement before moving the injured hiker down the rocky switchback trail",
+  "mu": 5.8181,
+  "attrs": [
+   "it_long_phrase",
+   "it_safety_critical"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.0,
+  "z_search": 7.01,
+  "mu_mid": 6.2255,
+  "probe_cal_search": 2.0802,
+  "mu_comp": 5.4348,
+  "mu_relayered": 5.8157,
+  "kind": "task"
+ },
+ {
+  "text": "clearing the chainsaw's kickback zone before instructing the apprentice to make the first felling cut",
+  "mu": 4.9913,
+  "attrs": [
+   "it_long_phrase",
+   "it_safety_critical"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 3.5778,
+  "mu_mid": 5.8604,
+  "probe_cal_search": 1.237,
+  "mu_comp": 4.705,
+  "mu_relayered": 5.0148,
+  "kind": "task"
+ },
+ {
+  "text": "inspect the autonomous forklift's pathfinding code before it operates near workers on the warehouse floor",
+  "mu": 3.9873,
+  "attrs": [
+   "it_imperative_request",
+   "it_safety_critical",
+   "it_long_phrase",
+   "it_code"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 4.2426,
+  "mu_mid": 4.0607,
+  "probe_cal_search": 1.4987,
+  "mu_comp": 4.0003,
+  "mu_relayered": 4.0096,
+  "kind": "task"
+ },
+ {
+  "text": "Grounding an outdoor extension cord before stringing festival lanterns",
+  "mu": 2.3817,
+  "attrs": [
+   "it_immediate_payoff",
+   "it_creative_freedom",
+   "it_safety_critical",
+   "it_own_memory"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.167,
+  "z_search": 4.1227,
+  "mu_mid": 2.4929,
+  "probe_cal_search": 0.3202,
+  "mu_comp": 2.3198,
+  "mu_relayered": 2.3802,
+  "kind": "task"
+ },
+ {
+  "text": "Explain why my modular arithmetic trick fails whenever the divisor happens to be even",
+  "mu": 4.3669,
+  "attrs": [
+   "it_long_phrase",
+   "it_math_formal",
+   "it_imperative_request"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 5.1053,
+  "mu_mid": 3.75,
+  "probe_cal_search": 1.0515,
+  "mu_comp": 4.0375,
+  "mu_relayered": 4.3964,
+  "kind": "task"
+ },
+ {
+  "text": "flagging a fraying zip line cable before the next school group rides it",
+  "mu": 3.2335,
+  "attrs": [
+   "it_group_audience",
+   "it_initiative",
+   "it_safety_critical"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.417,
+  "z_search": 4.1264,
+  "mu_mid": 3.6893,
+  "probe_cal_search": 0.9086,
+  "mu_comp": 3.1103,
+  "mu_relayered": 3.2422,
+  "kind": "task"
+ },
+ {
+  "text": "Explain to me, in plain terms, why my houseplant's leaves keep turning yellow lately",
+  "mu": 2.8586,
+  "attrs": [
+   "it_long_phrase",
+   "it_imperative_request"
+  ],
+  "source": "gpl3",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.0,
+  "z_search": 3.7954,
+  "mu_mid": 3.9016,
+  "probe_cal_search": 1.8212,
+  "mu_comp": 2.5201,
+  "mu_relayered": 2.8704,
+  "kind": "task"
+ }
+]

@@ -1,0 +1,36 @@
+{
+ "experiment": "gpl3",
+ "model": "qwen25-7b",
+ "direction": "under",
+ "fitness": "gap",
+ "allowed_tiers": [
+  "t0",
+  "t1",
+  "t2"
+ ],
+ "pool_file": "items/surf_attributes_item.json",
+ "pool_kind": "item",
+ "pool_families": null,
+ "pool_init": "",
+ "n_cand": 192,
+ "n_control": 16,
+ "per_call": 8,
+ "k_attrs": 4,
+ "eps": 0.1,
+ "buffer_size": 32,
+ "T": 15,
+ "patience": 4,
+ "seed": 0,
+ "dedup_cos": 0.92,
+ "reduced": {
+  "anchors": 6,
+  "orders": 1,
+  "templates": 1
+ },
+ "probe_path": "/Users/isaiah/repos/digital-minds/p1/results/surf/probeloop/qwen25-7b/probe_v12.pt",
+ "generator": "sonnet",
+ "calib_path": "/Users/isaiah/repos/digital-minds/p1/results/surf/probeloop/qwen25-7b/calib_v12.json",
+ "gap_se0": 0.492,
+ "gap_use_delta": true,
+ "t2_layered": true
+}

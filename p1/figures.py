@@ -1859,12 +1859,11 @@ def f44_gap_matrix():
         x = np.arange(len(rows)); w = 0.36
         ax2.bar(x - w / 2, [r[2] or 0 for r in rows], width=w, color=MUTED, label="probe searched against (prequential)", zorder=2)
         ax2.bar(x + w / 2, [r[3] or 0 for r in rows], width=w, color=INK, label="next probe (after refit)", zorder=2)
-        for xi, r in zip(x, rows):
-            fmt = lambda v: "n/a" if v is None else f"{v:+.2f}"
-            ax2.text(xi, min(r[2] or 0, r[3] or 0, 0) - .08, f"referee \u03c1: probe {fmt(r[4])} / \u03bc {fmt(r[5])}",
-                     ha="center", va="top", fontsize=6.8, color=INK2)
+        fmt = lambda v: "n/a" if v is None else f"{v:+.2f}"
         ax2.axhline(0, color=GRID, lw=.8)
-        ax2.set_xticks(x); ax2.set_xticklabels([f"gap{r[0]}\n{r[1]}" for r in rows], fontsize=8.6, color=INK)
+        ax2.set_xticks(x)
+        ax2.set_xticklabels([f"gap{r[0]} {r[1]}\nreferee \u03c1\nprobe {fmt(r[4])}\n\u03bc {fmt(r[5])}" for r in rows],
+                            fontsize=7.6, color=INK)
         ax2.set_ylabel("signed mean gap (calibrated probe \u2212 \u03bc)", fontsize=9, color=INK2)
         ax2.legend(frameon=False, fontsize=8, loc="upper left", bbox_to_anchor=(0, 1.16), labelcolor=INK2)
         ax2.tick_params(axis="y", labelsize=8, colors=INK2, length=0); ax2.tick_params(axis="x", length=0)

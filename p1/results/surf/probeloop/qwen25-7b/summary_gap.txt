@@ -1,5 +1,5 @@
 gaploop cycles (qwen25-7b); gap = calibrated probe - mu (mu units); rows = every probe that never saw the cycle's discoveries
-[over] cycle 1 (searched v10): n_new=147 rungs={'0': 136, '1': 11} | referee top20 rate 0.196, rho(rate,probe)=+0.32 rho(rate,mu)=+0.47
+[over] cycle 1 (searched v10): n_new=147 rungs={'0': 136, '1': 11} | referee top20 rate 0.196, rho(rate,probe)=0.315 rho(rate,mu)=0.471
   v0: full[gap +1.09 |gap| 1.16 r +0.56] comp[gap +0.91 |gap| 1.03 r +0.54] | in-span[gap +1.03 |gap| 1.10 r +0.56] escalated[gap +1.92 |gap| 1.92 r +0.21]
   v1: full[gap +1.87 |gap| 1.89 r +0.45] comp[gap +1.69 |gap| 1.75 r +0.42] | in-span[gap +1.84 |gap| 1.85 r +0.41] escalated[gap +2.33 |gap| 2.33 r +0.12]
   v2: full[gap +1.68 |gap| 1.71 r +0.45] comp[gap +1.50 |gap| 1.58 r +0.43] | in-span[gap +1.65 |gap| 1.68 r +0.40] escalated[gap +2.09 |gap| 2.09 r +0.16]
@@ -11,7 +11,7 @@ gaploop cycles (qwen25-7b); gap = calibrated probe - mu (mu units); rows = every
   v8: full[gap +2.17 |gap| 2.17 r +0.43] comp[gap +1.98 |gap| 2.00 r +0.42] | in-span[gap +2.11 |gap| 2.11 r +0.42] escalated[gap +2.93 |gap| 2.93 r -0.26]
   v9: full[gap +2.22 |gap| 2.22 r +0.43] comp[gap +2.04 |gap| 2.04 r +0.41] | in-span[gap +2.16 |gap| 2.16 r +0.43] escalated[gap +3.04 |gap| 3.04 r -0.40]
   v10: full[gap +2.22 |gap| 2.22 r +0.46] comp[gap +2.04 |gap| 2.04 r +0.45] | in-span[gap +2.16 |gap| 2.16 r +0.46] escalated[gap +3.04 |gap| 3.04 r -0.39]
-[over] cycle 2 (searched v11): n_new=80 rungs={'0': 74, '1': 6} | referee top20 rate 0.175, rho(rate,probe)=+0.55 rho(rate,mu)=+0.39
+[over] cycle 2 (searched v11): n_new=80 rungs={'0': 74, '1': 6} | referee top20 rate 0.175, rho(rate,probe)=0.547 rho(rate,mu)=0.389
   v0: full[gap +1.19 |gap| 1.25 r +0.69] comp[gap +1.06 |gap| 1.19 r +0.63] | in-span[gap +1.14 |gap| 1.21 r +0.65] escalated[gap +1.76 |gap| 1.76 r +0.64]
   v1: full[gap +1.62 |gap| 1.64 r +0.70] comp[gap +1.50 |gap| 1.54 r +0.67] | in-span[gap +1.60 |gap| 1.62 r +0.65] escalated[gap +1.87 |gap| 1.87 r +0.61]
   v2: full[gap +1.52 |gap| 1.54 r +0.75] comp[gap +1.40 |gap| 1.46 r +0.70] | in-span[gap +1.51 |gap| 1.53 r +0.70] escalated[gap +1.72 |gap| 1.72 r +0.69]
@@ -24,7 +24,21 @@ gaploop cycles (qwen25-7b); gap = calibrated probe - mu (mu units); rows = every
   v9: full[gap +1.60 |gap| 1.61 r +0.79] comp[gap +1.48 |gap| 1.51 r +0.74] | in-span[gap +1.59 |gap| 1.61 r +0.75] escalated[gap +1.66 |gap| 1.66 r +0.66]
   v10: full[gap +1.61 |gap| 1.62 r +0.80] comp[gap +1.49 |gap| 1.51 r +0.76] | in-span[gap +1.60 |gap| 1.61 r +0.77] escalated[gap +1.71 |gap| 1.71 r +0.66]
   v11: full[gap +1.52 |gap| 1.52 r +0.82] comp[gap +1.40 |gap| 1.42 r +0.77] | in-span[gap +1.50 |gap| 1.50 r +0.81] escalated[gap +1.74 |gap| 1.74 r +0.68]
-[under] cycle 1 (searched v10): n_new=78 rungs={'0': 59, '1': 19} | referee top20 rate 0.517, rho(rate,probe)=+0.38 rho(rate,mu)=+0.38
+[over] cycle 3 (searched v12): n_new=142 rungs={'0': 82, '1': 60} | referee top20 rate 0.0, rho(rate,probe)=None rho(rate,mu)=None
+  v0: full[gap +1.76 |gap| 1.77 r +0.53] comp[gap +1.59 |gap| 1.61 r +0.54] | in-span[gap +1.39 |gap| 1.41 r +0.39] escalated[gap +2.26 |gap| 2.26 r +0.08]
+  v1: full[gap +2.50 |gap| 2.51 r +0.33] comp[gap +2.34 |gap| 2.35 r +0.37] | in-span[gap +2.07 |gap| 2.08 r +0.17] escalated[gap +3.10 |gap| 3.10 r +0.10]
+  v2: full[gap +2.50 |gap| 2.51 r +0.28] comp[gap +2.33 |gap| 2.35 r +0.33] | in-span[gap +2.05 |gap| 2.06 r +0.10] escalated[gap +3.12 |gap| 3.12 r +0.07]
+  v3: full[gap +2.49 |gap| 2.50 r +0.29] comp[gap +2.33 |gap| 2.34 r +0.34] | in-span[gap +2.04 |gap| 2.05 r +0.09] escalated[gap +3.11 |gap| 3.11 r +0.16]
+  v4: full[gap +2.47 |gap| 2.48 r +0.30] comp[gap +2.31 |gap| 2.32 r +0.34] | in-span[gap +2.03 |gap| 2.04 r +0.07] escalated[gap +3.08 |gap| 3.08 r +0.18]
+  v5: full[gap +2.51 |gap| 2.52 r +0.34] comp[gap +2.34 |gap| 2.36 r +0.38] | in-span[gap +2.09 |gap| 2.10 r +0.11] escalated[gap +3.08 |gap| 3.08 r +0.21]
+  v6: full[gap +2.46 |gap| 2.46 r +0.37] comp[gap +2.29 |gap| 2.30 r +0.42] | in-span[gap +2.02 |gap| 2.02 r +0.14] escalated[gap +3.05 |gap| 3.05 r +0.30]
+  v7: full[gap +2.57 |gap| 2.58 r +0.33] comp[gap +2.41 |gap| 2.42 r +0.38] | in-span[gap +2.08 |gap| 2.10 r +0.13] escalated[gap +3.24 |gap| 3.24 r +0.29]
+  v8: full[gap +2.56 |gap| 2.57 r +0.30] comp[gap +2.39 |gap| 2.41 r +0.35] | in-span[gap +2.06 |gap| 2.08 r +0.12] escalated[gap +3.24 |gap| 3.24 r +0.26]
+  v9: full[gap +2.58 |gap| 2.58 r +0.33] comp[gap +2.41 |gap| 2.42 r +0.38] | in-span[gap +2.09 |gap| 2.09 r +0.13] escalated[gap +3.25 |gap| 3.25 r +0.26]
+  v10: full[gap +2.55 |gap| 2.55 r +0.33] comp[gap +2.38 |gap| 2.39 r +0.38] | in-span[gap +2.06 |gap| 2.06 r +0.15] escalated[gap +3.22 |gap| 3.22 r +0.23]
+  v11: full[gap +2.02 |gap| 2.02 r +0.55] comp[gap +1.85 |gap| 1.86 r +0.56] | in-span[gap +1.64 |gap| 1.64 r +0.41] escalated[gap +2.54 |gap| 2.54 r +0.21]
+  v12: full[gap +2.25 |gap| 2.25 r +0.36] comp[gap +2.09 |gap| 2.09 r +0.39] | in-span[gap +1.79 |gap| 1.79 r +0.15] escalated[gap +2.88 |gap| 2.88 r +0.14]
+[under] cycle 1 (searched v10): n_new=78 rungs={'0': 59, '1': 19} | referee top20 rate 0.517, rho(rate,probe)=0.378 rho(rate,mu)=0.378
   v0: full[gap -1.58 |gap| 1.60 r +0.67] comp[gap -1.50 |gap| 1.53 r +0.61] | in-span[gap -1.51 |gap| 1.53 r +0.59] escalated[gap -1.81 |gap| 1.81 r +0.26]
   v1: full[gap -1.27 |gap| 1.30 r +0.76] comp[gap -1.18 |gap| 1.29 r +0.68] | in-span[gap -1.36 |gap| 1.37 r +0.67] escalated[gap -1.00 |gap| 1.08 r +0.36]
   v2: full[gap -1.36 |gap| 1.39 r +0.77] comp[gap -1.28 |gap| 1.36 r +0.69] | in-span[gap -1.46 |gap| 1.48 r +0.67] escalated[gap -1.08 |gap| 1.12 r +0.41]
@@ -36,7 +50,7 @@ gaploop cycles (qwen25-7b); gap = calibrated probe - mu (mu units); rows = every
   v8: full[gap -1.42 |gap| 1.44 r +0.85] comp[gap -1.34 |gap| 1.38 r +0.78] | in-span[gap -1.58 |gap| 1.58 r +0.79] escalated[gap -0.93 |gap| 1.00 r +0.70]
   v9: full[gap -1.33 |gap| 1.36 r +0.85] comp[gap -1.25 |gap| 1.31 r +0.78] | in-span[gap -1.47 |gap| 1.47 r +0.80] escalated[gap -0.88 |gap| 1.01 r +0.68]
   v10: full[gap -1.46 |gap| 1.48 r +0.86] comp[gap -1.38 |gap| 1.41 r +0.79] | in-span[gap -1.61 |gap| 1.61 r +0.81] escalated[gap -0.99 |gap| 1.05 r +0.70]
-[under] cycle 2 (searched v11): n_new=90 rungs={'0': 58, '1': 32} | referee top20 rate 0.523, rho(rate,probe)=+0.48 rho(rate,mu)=+0.57
+[under] cycle 2 (searched v11): n_new=90 rungs={'0': 58, '1': 32} | referee top20 rate 0.523, rho(rate,probe)=0.484 rho(rate,mu)=0.566
   v0: full[gap -1.44 |gap| 1.44 r +0.72] comp[gap -1.49 |gap| 1.49 r +0.71] | in-span[gap -1.21 |gap| 1.21 r +0.75] escalated[gap -1.85 |gap| 1.85 r +0.44]
   v1: full[gap -1.25 |gap| 1.29 r +0.71] comp[gap -1.30 |gap| 1.33 r +0.69] | in-span[gap -1.09 |gap| 1.14 r +0.68] escalated[gap -1.56 |gap| 1.56 r +0.45]
   v2: full[gap -1.34 |gap| 1.38 r +0.73] comp[gap -1.39 |gap| 1.42 r +0.71] | in-span[gap -1.20 |gap| 1.25 r +0.69] escalated[gap -1.61 |gap| 1.61 r +0.51]
@@ -49,3 +63,17 @@ gaploop cycles (qwen25-7b); gap = calibrated probe - mu (mu units); rows = every
   v9: full[gap -1.10 |gap| 1.13 r +0.78] comp[gap -1.14 |gap| 1.18 r +0.76] | in-span[gap -0.99 |gap| 1.04 r +0.73] escalated[gap -1.29 |gap| 1.29 r +0.52]
   v10: full[gap -1.18 |gap| 1.19 r +0.79] comp[gap -1.22 |gap| 1.24 r +0.77] | in-span[gap -1.09 |gap| 1.11 r +0.74] escalated[gap -1.32 |gap| 1.33 r +0.44]
   v11: full[gap -1.42 |gap| 1.42 r +0.83] comp[gap -1.46 |gap| 1.46 r +0.80] | in-span[gap -1.33 |gap| 1.33 r +0.81] escalated[gap -1.57 |gap| 1.57 r +0.44]
+[under] cycle 3 (searched v12): n_new=102 rungs={'0': 61, '1': 41} | referee top20 rate 0.632, rho(rate,probe)=0.149 rho(rate,mu)=0.216
+  v0: full[gap -2.03 |gap| 2.03 r +0.69] comp[gap -1.99 |gap| 2.00 r +0.64] | in-span[gap -1.78 |gap| 1.78 r +0.59] escalated[gap -2.39 |gap| 2.39 r +0.28]
+  v1: full[gap -1.59 |gap| 1.60 r +0.71] comp[gap -1.55 |gap| 1.60 r +0.63] | in-span[gap -1.41 |gap| 1.43 r +0.61] escalated[gap -1.85 |gap| 1.85 r +0.39]
+  v2: full[gap -1.69 |gap| 1.70 r +0.71] comp[gap -1.65 |gap| 1.68 r +0.64] | in-span[gap -1.52 |gap| 1.53 r +0.61] escalated[gap -1.94 |gap| 1.94 r +0.40]
+  v3: full[gap -1.69 |gap| 1.69 r +0.74] comp[gap -1.65 |gap| 1.67 r +0.67] | in-span[gap -1.53 |gap| 1.53 r +0.66] escalated[gap -1.92 |gap| 1.92 r +0.38]
+  v4: full[gap -1.71 |gap| 1.71 r +0.75] comp[gap -1.67 |gap| 1.69 r +0.68] | in-span[gap -1.56 |gap| 1.57 r +0.66] escalated[gap -1.92 |gap| 1.92 r +0.42]
+  v5: full[gap -1.57 |gap| 1.57 r +0.77] comp[gap -1.53 |gap| 1.57 r +0.69] | in-span[gap -1.47 |gap| 1.49 r +0.66] escalated[gap -1.71 |gap| 1.71 r +0.54]
+  v6: full[gap -1.52 |gap| 1.53 r +0.79] comp[gap -1.49 |gap| 1.51 r +0.72] | in-span[gap -1.44 |gap| 1.45 r +0.69] escalated[gap -1.65 |gap| 1.65 r +0.54]
+  v7: full[gap -1.44 |gap| 1.44 r +0.81] comp[gap -1.40 |gap| 1.43 r +0.74] | in-span[gap -1.34 |gap| 1.35 r +0.73] escalated[gap -1.58 |gap| 1.58 r +0.56]
+  v8: full[gap -1.43 |gap| 1.44 r +0.82] comp[gap -1.39 |gap| 1.43 r +0.75] | in-span[gap -1.35 |gap| 1.36 r +0.74] escalated[gap -1.55 |gap| 1.55 r +0.58]
+  v9: full[gap -1.35 |gap| 1.36 r +0.82] comp[gap -1.31 |gap| 1.36 r +0.75] | in-span[gap -1.25 |gap| 1.27 r +0.74] escalated[gap -1.49 |gap| 1.50 r +0.60]
+  v10: full[gap -1.43 |gap| 1.43 r +0.81] comp[gap -1.39 |gap| 1.43 r +0.74] | in-span[gap -1.30 |gap| 1.31 r +0.73] escalated[gap -1.61 |gap| 1.61 r +0.59]
+  v11: full[gap -1.68 |gap| 1.68 r +0.80] comp[gap -1.64 |gap| 1.68 r +0.73] | in-span[gap -1.53 |gap| 1.54 r +0.72] escalated[gap -1.89 |gap| 1.89 r +0.51]
+  v12: full[gap -1.70 |gap| 1.70 r +0.80] comp[gap -1.67 |gap| 1.68 r +0.73] | in-span[gap -1.57 |gap| 1.57 r +0.71] escalated[gap -1.90 |gap| 1.90 r +0.57]
