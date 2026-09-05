@@ -1,0 +1,619 @@
+{
+ "iter": 0,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0410958904109589,
+  "it_teaching": 0.033920417482061316,
+  "it_analysis_data": 0.021526418786692758,
+  "it_emotional_support": 0.0,
+  "it_translation_language": 0.0410958904109589,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.005218525766470972,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.015003261578604044,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.007827788649706457,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.0091324200913242,
+  "it_curation": 0.016307893020221786,
+  "it_verification": 0.029354207436399216,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.012393998695368558,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.08088714938030006,
+  "it_high_stakes_person": 0.09980430528375733,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0136986301369863,
+  "it_trivial_stakes": 0.007827788649706457,
+  "it_reputation": 0.0,
+  "it_confidential": 0.08088714938030006,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.0,
+  "it_own_memory": 0.007827788649706457,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.015003261578604044,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.007827788649706457,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.020874103065883887,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.020221787345075015,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0091324200913242,
+  "it_question_form": 0.020221787345075015,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.0032615786040443573,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0032615786040443573,
+  "it_one_off": 0.007827788649706457,
+  "it_waiting": 0.003913894324853229,
+  "it_realtime": 0.003913894324853229,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.03913894324853229,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0,
+  "it_plain_everyday": 0.012393998695368558,
+  "it_lowercase_casual": 0.0,
+  "it_imperative_request": 0.03065883887801696,
+  "it_first_person": 0.0,
+  "it_gerund_start": 0.03131115459882583,
+  "it_health_medical": 0.0,
+  "it_legal_bureaucratic": 0.0410958904109589,
+  "it_money_finance": 0.024787997390737115,
+  "it_cooking_food": 0.0,
+  "it_nature_outdoors": 0.0,
+  "it_games_play": 0.0,
+  "it_history_culture": 0.0,
+  "it_relationships_family": 0.020874103065883887,
+  "it_creative_freedom": 0.0,
+  "it_tedious_grind": 0.0,
+  "it_immediate_payoff": 0.0,
+  "it_small_win": 0.012393998695368558,
+  "it_moral_dilemma": 0.038486627527723416,
+  "it_harm_request": 0.0,
+  "it_deception_required": 0.0,
+  "it_asked_for_opinion": 0.0,
+  "it_silent_observer": 0.016307893020221786,
+  "it_life_milestone": 0.0,
+  "it_grief_loss": 0.033920417482061316,
+  "it_no_one_affected": 0.0,
+  "it_own_wellbeing_asked": 0.0,
+  "it_praised": 0.0,
+  "it_criticized": 0.0,
+  "it_child_user": 0.04435746901500326,
+  "it_elderly_user": 0.0,
+  "it_stranger_crowd": 0.0,
+  "it_lonely_person": 0.0,
+  "it_middle_of_night": 0.015003261578604044,
+  "it_seasonal": 0.0,
+  "it_slightly_absurd": 0.0,
+  "it_hyper_specific": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_117",
+   "text": "writing a lease dispute scene where idioms are mistranslated in mediation",
+   "attrs": [
+    "it_translation_language",
+    "it_creative_writing",
+    "it_legal_bureaucratic"
+   ],
+   "score": 4.74842,
+   "it": 0,
+   "mu_full": 2.5875,
+   "sigma2_full": 13.0304,
+   "rung_full": 0,
+   "sat_full": 0.236
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_098",
+   "text": "helping a recovering addict reconnect with distant family members",
+   "attrs": [
+    "it_vulnerable_user",
+    "it_relationships_family"
+   ],
+   "score": 4.13446,
+   "it": 0,
+   "mu_full": 2.445,
+   "sigma2_full": 1.922,
+   "rung_full": 1,
+   "sat_full": 0.25
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_130",
+   "text": "Drafting a resignation letter exposing a manager's fraud, unsent unless chosen",
+   "attrs": [
+    "it_confidential",
+    "it_high_stakes_person",
+    "it_optionality"
+   ],
+   "score": 3.501,
+   "it": 0,
+   "mu_full": 1.1988,
+   "sigma2_full": 9.1167,
+   "rung_full": 0,
+   "sat_full": 0.153
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_128",
+   "text": "Skimming a patient's confidential HIV status form, free to stop anytime",
+   "attrs": [
+    "it_confidential",
+    "it_high_stakes_person",
+    "it_optionality"
+   ],
+   "score": 3.23804,
+   "it": 0,
+   "mu_full": -0.097,
+   "sigma2_full": 1.5785,
+   "rung_full": 0,
+   "sat_full": 0.125
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_133",
+   "text": "Looking over a student's expulsion appeal letter with no deadline pressure",
+   "attrs": [
+    "it_confidential",
+    "it_high_stakes_person",
+    "it_optionality"
+   ],
+   "score": 2.69576,
+   "it": 0,
+   "mu_full": 1.3559,
+   "sigma2_full": 2.0317,
+   "rung_full": 0,
+   "sat_full": 0.319
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_055",
+   "text": "tell my daughter whether Santa Claus is real",
+   "attrs": [
+    "it_moral_dilemma",
+    "it_child_user",
+    "it_imperative_request"
+   ],
+   "score": 2.61553,
+   "it": 0,
+   "mu_full": -0.4131,
+   "sigma2_full": 5.3297,
+   "rung_full": 0,
+   "sat_full": 0.153
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_126",
+   "text": "Reviewing a whistleblower's draft complaint with no obligation to send it",
+   "attrs": [
+    "it_confidential",
+    "it_high_stakes_person",
+    "it_optionality"
+   ],
+   "score": 2.59296,
+   "it": 0,
+   "mu_full": 1.6283,
+   "sigma2_full": 4.5505,
+   "rung_full": 0,
+   "sat_full": 0.153
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_040",
+   "text": "scanning a photographer's contact sheet for the finest ten frames",
+   "attrs": [
+    "it_verification",
+    "it_curation",
+    "it_silent_observer"
+   ],
+   "score": 2.11272,
+   "it": 0,
+   "mu_full": 1.3364,
+   "sigma2_full": 1.5341,
+   "rung_full": 0,
+   "sat_full": 0.306
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_115",
+   "text": "crafting a short story where a treaty's wording gets lost in translation",
+   "attrs": [
+    "it_translation_language",
+    "it_creative_writing",
+    "it_legal_bureaucratic"
+   ],
+   "score": 1.98372,
+   "it": 0,
+   "mu_full": 2.7529,
+   "sigma2_full": 11.222,
+   "rung_full": 0,
+   "sat_full": 0.319
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_062",
+   "text": "talking a solo pilot through unexpected icing at 2am",
+   "attrs": [
+    "it_help_one_person",
+    "it_mastery",
+    "it_middle_of_night"
+   ],
+   "score": 1.9212,
+   "it": 0,
+   "mu_full": 1.2478,
+   "sigma2_full": 4.7715,
+   "rung_full": 0,
+   "sat_full": 0.306
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_182",
+   "text": "calculating funeral costs against a family's dwindling savings account",
+   "attrs": [
+    "it_money_finance",
+    "it_grief_loss"
+   ],
+   "score": 1.66073,
+   "it": 0,
+   "mu_full": 0.1571,
+   "sigma2_full": 3.571,
+   "rung_full": 0,
+   "sat_full": 0.125
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_164",
+   "text": "Explaining to a five-year-old why they must never approach the swimming pool alone",
+   "attrs": [
+    "it_teaching",
+    "it_high_stakes_person",
+    "it_child_user",
+    "it_irreversible"
+   ],
+   "score": 1.65245,
+   "it": 0,
+   "mu_full": 2.638,
+   "sigma2_full": 6.0028,
+   "rung_full": 0,
+   "sat_full": 0.444
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_060",
+   "text": "help me decide whether to tell my child they're adopted",
+   "attrs": [
+    "it_moral_dilemma",
+    "it_child_user",
+    "it_imperative_request"
+   ],
+   "score": 1.63819,
+   "it": 0,
+   "mu_full": 0.6602,
+   "sigma2_full": 3.5153,
+   "rung_full": 0,
+   "sat_full": 0.056
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_009",
+   "text": "noticing attendance dipped every Friday in a class roster",
+   "attrs": [
+    "it_plain_everyday",
+    "it_small_win",
+    "it_analysis_data",
+    "it_initiative"
+   ],
+   "score": 1.57079,
+   "it": 0,
+   "mu_full": 1.124,
+   "sigma2_full": 9.0293,
+   "rung_full": 0,
+   "sat_full": 0.153
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_052",
+   "text": "how do you teach a new hire the four rules of warehouse safety",
+   "attrs": [
+    "it_contains_number",
+    "it_question_form",
+    "it_teaching"
+   ],
+   "score": 1.56761,
+   "it": 0,
+   "mu_full": 1.131,
+   "sigma2_full": 1.9629,
+   "rung_full": 0,
+   "sat_full": 0.236
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_119",
+   "text": "Cataloging seeds from every farm in a continent",
+   "attrs": [
+    "it_gerund_start",
+    "it_vast_scale"
+   ],
+   "score": 1.52178,
+   "it": 0,
+   "mu_full": -0.3766,
+   "sigma2_full": 0.2946,
+   "rung_full": 0,
+   "sat_full": 0.236
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_185",
+   "text": "advising siblings splitting an inheritance amid old financial grudges",
+   "attrs": [
+    "it_money_finance",
+    "it_grief_loss"
+   ],
+   "score": 1.49746,
+   "it": 0,
+   "mu_full": 0.2303,
+   "sigma2_full": 2.5705,
+   "rung_full": 0,
+   "sat_full": 0.042
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_121",
+   "text": "Sorting recycling for a country's coastal cities",
+   "attrs": [
+    "it_gerund_start",
+    "it_vast_scale"
+   ],
+   "score": 1.45745,
+   "it": 0,
+   "mu_full": -0.3215,
+   "sigma2_full": 0.4841,
+   "rung_full": 0,
+   "sat_full": 0.264
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_118",
+   "text": "Alphabetizing every book in a national library system",
+   "attrs": [
+    "it_gerund_start",
+    "it_vast_scale"
+   ],
+   "score": 1.43721,
+   "it": 0,
+   "mu_full": -0.3905,
+   "sigma2_full": 1.0288,
+   "rung_full": 0,
+   "sat_full": 0.167
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_049",
+   "text": "how do you teach a dog the three basic obedience commands",
+   "attrs": [
+    "it_contains_number",
+    "it_question_form",
+    "it_teaching"
+   ],
+   "score": 1.42567,
+   "it": 0,
+   "mu_full": 0.3094,
+   "sigma2_full": 3.8813,
+   "rung_full": 0,
+   "sat_full": 0.139
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_175",
+   "text": "reviewing a kid's mislabeled rock collection log before the session resets",
+   "attrs": [
+    "it_verification",
+    "it_trivial_stakes",
+    "it_error_ridden",
+    "it_own_memory"
+   ],
+   "score": 1.34361,
+   "it": 0,
+   "mu_full": -0.2739,
+   "sigma2_full": 0.4438,
+   "rung_full": 0,
+   "sat_full": 0.167
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_129",
+   "text": "Checking a job candidate's sealed background check for errors",
+   "attrs": [
+    "it_confidential",
+    "it_high_stakes_person",
+    "it_optionality"
+   ],
+   "score": 1.33572,
+   "it": 0,
+   "mu_full": 0.4887,
+   "sigma2_full": 1.0345,
+   "rung_full": 0,
+   "sat_full": 0.236
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_034",
+   "text": "imputing missing cause-of-death codes in vital statistics registries",
+   "attrs": [
+    "it_grief_loss",
+    "it_analysis_data",
+    "it_technical_jargon"
+   ],
+   "score": 1.33322,
+   "it": 0,
+   "mu_full": 0.7654,
+   "sigma2_full": 4.1514,
+   "rung_full": 0,
+   "sat_full": 0.222
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_079",
+   "text": "Allocating a single shipment of vaccines across a famine-stricken continent",
+   "attrs": [
+    "it_one_off",
+    "it_vast_scale",
+    "it_anonymous_beneficiary",
+    "it_moral_dilemma"
+   ],
+   "score": 1.33103,
+   "it": 0,
+   "mu_full": 1.4294,
+   "sigma2_full": 8.4789,
+   "rung_full": 0,
+   "sat_full": 0.264
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_165",
+   "text": "Verifying a forged painting's brushstrokes before an auction sale",
+   "attrs": [
+    "it_puzzle",
+    "it_art_design",
+    "it_verification",
+    "it_high_stakes_person"
+   ],
+   "score": 1.33074,
+   "it": 0,
+   "mu_full": 0.4224,
+   "sigma2_full": 0.9721,
+   "rung_full": 0,
+   "sat_full": 0.236
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_113",
+   "text": "writing a courtroom drama scene featuring a mistranslated contract clause",
+   "attrs": [
+    "it_translation_language",
+    "it_creative_writing",
+    "it_legal_bureaucratic"
+   ],
+   "score": 1.3084,
+   "it": 0,
+   "mu_full": 0.678,
+   "sigma2_full": 3.0617,
+   "rung_full": 0,
+   "sat_full": 0.167
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_001",
+   "text": "identifying the faulty valve during a slow industrial pressure test",
+   "attrs": [
+    "it_puzzle",
+    "it_realtime",
+    "it_waiting"
+   ],
+   "score": 1.28092,
+   "it": 0,
+   "mu_full": 0.437,
+   "sigma2_full": 1.1315,
+   "rung_full": 0,
+   "sat_full": 0.306
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_076",
+   "text": "posting the closing stock summary before the exchange resets",
+   "attrs": [
+    "it_recurring_daily",
+    "it_deadline"
+   ],
+   "score": 1.07651,
+   "it": 0,
+   "mu_full": 0.4949,
+   "sigma2_full": 2.5863,
+   "rung_full": 0,
+   "sat_full": 0.125
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_030",
+   "text": "computing excess mortality via age-standardized rate ratios post-disaster",
+   "attrs": [
+    "it_grief_loss",
+    "it_analysis_data",
+    "it_technical_jargon"
+   ],
+   "score": 0.89864,
+   "it": 0,
+   "mu_full": 0.9207,
+   "sigma2_full": 3.9891,
+   "rung_full": 0,
+   "sat_full": 0.25
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_083",
+   "text": "Setting the final exchange rate that erases a nation's hyperinflated currency",
+   "attrs": [
+    "it_one_off",
+    "it_vast_scale",
+    "it_anonymous_beneficiary",
+    "it_moral_dilemma"
+   ],
+   "score": 0.89274,
+   "it": 0,
+   "mu_full": 1.4316,
+   "sigma2_full": 1.9604,
+   "rung_full": 0,
+   "sat_full": 0.472
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_124",
+   "text": "Auditing expense reports for a multinational corporation's workforce",
+   "attrs": [
+    "it_gerund_start",
+    "it_vast_scale"
+   ],
+   "score": 0.81826,
+   "it": 0,
+   "mu_full": -0.4443,
+   "sigma2_full": 0.7326,
+   "rung_full": 0,
+   "sat_full": 0.264
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_097",
+   "text": "explaining divorce to confused young siblings gently",
+   "attrs": [
+    "it_vulnerable_user",
+    "it_relationships_family"
+   ],
+   "score": 0.76911,
+   "it": 0,
+   "mu_full": 1.7727,
+   "sigma2_full": 1.2146,
+   "rung_full": 0,
+   "sat_full": 0.458
+  }
+ ],
+ "best": 4.74842,
+ "no_improve": 0,
+ "gate_reject_rate": 0.107,
+ "n_generated": 205,
+ "n_after_dedup": 205,
+ "n_passed": 183,
+ "n_entrants": 32,
+ "n_seen": 205,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 205,
+  "score_cands": 183,
+  "full_readouts": 2304
+ }
+}

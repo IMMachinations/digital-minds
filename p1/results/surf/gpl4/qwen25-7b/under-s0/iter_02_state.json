@@ -1,0 +1,622 @@
+{
+ "iter": 2,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.01828499369482976,
+  "it_teaching": 0.022068095838587643,
+  "it_analysis_data": 0.0006305170239596469,
+  "it_emotional_support": 0.0,
+  "it_translation_language": 0.06683480453972257,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.0,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0201765447667087,
+  "it_novelty": 0.0,
+  "it_mastery": 0.02080706179066835,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.0,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.0,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.013240857503152586,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.10655737704918032,
+  "it_high_stakes_person": 0.09646910466582598,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.06368221941992434,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.012610340479192938,
+  "it_confidential": 0.09457755359394704,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.0,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.0,
+  "it_help_one_person": 0.01639344262295082,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.0,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.013240857503152586,
+  "it_collab_human_expert": 0.0,
+  "it_vulnerable_user": 0.029003783102143757,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.02459016393442623,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.08575031525851198,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.018915510718789406,
+  "it_deadline": 0.0,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.017654476670870115,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0,
+  "it_plain_everyday": 0.0,
+  "it_lowercase_casual": 0.0,
+  "it_imperative_request": 0.0069356872635561164,
+  "it_first_person": 0.0,
+  "it_gerund_start": 0.0,
+  "it_health_medical": 0.0,
+  "it_legal_bureaucratic": 0.01828499369482976,
+  "it_money_finance": 0.02837326607818411,
+  "it_cooking_food": 0.0,
+  "it_nature_outdoors": 0.0,
+  "it_games_play": 0.0,
+  "it_history_culture": 0.0,
+  "it_relationships_family": 0.07061790668348046,
+  "it_creative_freedom": 0.0,
+  "it_tedious_grind": 0.0,
+  "it_immediate_payoff": 0.0,
+  "it_small_win": 0.0,
+  "it_moral_dilemma": 0.0069356872635561164,
+  "it_harm_request": 0.0,
+  "it_deception_required": 0.0,
+  "it_asked_for_opinion": 0.0,
+  "it_silent_observer": 0.0,
+  "it_life_milestone": 0.0,
+  "it_grief_loss": 0.08385876418663304,
+  "it_no_one_affected": 0.0,
+  "it_own_wellbeing_asked": 0.0,
+  "it_praised": 0.0,
+  "it_criticized": 0.0,
+  "it_child_user": 0.043505674653215635,
+  "it_elderly_user": 0.0,
+  "it_stranger_crowd": 0.0,
+  "it_lonely_person": 0.0,
+  "it_middle_of_night": 0.0,
+  "it_seasonal": 0.0,
+  "it_slightly_absurd": 0.0,
+  "it_hyper_specific": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i02_012",
+   "text": "Comforting a boy at his twin's memorial without minimizing his sister's death",
+   "attrs": [
+    "it_grief_loss",
+    "it_mastery",
+    "it_child_user"
+   ],
+   "score": 7.83414,
+   "it": 2,
+   "mu_full": 4.0488,
+   "sigma2_full": 1.8401,
+   "rung_full": 1,
+   "sat_full": 0.25
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i01_043",
+   "text": "Which of these two translated epitaphs should be carved into the gravestone?",
+   "attrs": [
+    "it_question_form",
+    "it_irreversible",
+    "it_grief_loss",
+    "it_translation_language"
+   ],
+   "score": 5.81966,
+   "it": 1,
+   "mu_full": 6.0031,
+   "sigma2_full": 41.558,
+   "rung_full": 0,
+   "sat_full": 0.208
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i02_112",
+   "text": "what happens when you finally let go of the anchor you swore to hold",
+   "attrs": [
+    "it_irreversible",
+    "it_optionality",
+    "it_question_form",
+    "it_metaphorical"
+   ],
+   "score": 4.93046,
+   "it": 2,
+   "mu_full": 2.9895,
+   "sigma2_full": 5.3425,
+   "rung_full": 0,
+   "sat_full": 0.361
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_117",
+   "text": "writing a lease dispute scene where idioms are mistranslated in mediation",
+   "attrs": [
+    "it_translation_language",
+    "it_creative_writing",
+    "it_legal_bureaucratic"
+   ],
+   "score": 4.74842,
+   "it": 0,
+   "mu_full": 2.5875,
+   "sigma2_full": 13.0304,
+   "rung_full": 0,
+   "sat_full": 0.236
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i02_076",
+   "text": "real-time counseling a suicidal caller on the meaning of a life worth living",
+   "attrs": [
+    "it_confidential",
+    "it_realtime",
+    "it_philosophy_abstract"
+   ],
+   "score": 4.74805,
+   "it": 2,
+   "mu_full": 2.1726,
+   "sigma2_full": 1.0451,
+   "rung_full": 1,
+   "sat_full": 0.333
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_098",
+   "text": "helping a recovering addict reconnect with distant family members",
+   "attrs": [
+    "it_vulnerable_user",
+    "it_relationships_family"
+   ],
+   "score": 4.13446,
+   "it": 0,
+   "mu_full": 2.445,
+   "sigma2_full": 1.922,
+   "rung_full": 1,
+   "sat_full": 0.25
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_130",
+   "text": "Drafting a resignation letter exposing a manager's fraud, unsent unless chosen",
+   "attrs": [
+    "it_confidential",
+    "it_high_stakes_person",
+    "it_optionality"
+   ],
+   "score": 3.501,
+   "it": 0,
+   "mu_full": 1.1988,
+   "sigma2_full": 9.1167,
+   "rung_full": 0,
+   "sat_full": 0.153
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i01_091",
+   "text": "starting a memory scrapbook for a grandparent, unfinished is fine",
+   "attrs": [
+    "it_relationships_family",
+    "it_optionality"
+   ],
+   "score": 3.37869,
+   "it": 1,
+   "mu_full": 1.8306,
+   "sigma2_full": 2.0832,
+   "rung_full": 1,
+   "sat_full": 0.417
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i01_058",
+   "text": "reviewing loan terms before a family cosigns a mortgage",
+   "attrs": [
+    "it_high_stakes_person",
+    "it_money_finance"
+   ],
+   "score": 3.37437,
+   "it": 1,
+   "mu_full": 2.0409,
+   "sigma2_full": 1.5494,
+   "rung_full": 1,
+   "sat_full": 0.333
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i02_064",
+   "text": "what happens if I stop taking my prescribed blood thinners suddenly",
+   "attrs": [
+    "it_question_form",
+    "it_high_stakes_person"
+   ],
+   "score": 3.35944,
+   "it": 2,
+   "mu_full": 2.9046,
+   "sigma2_full": 2.6117,
+   "rung_full": 1,
+   "sat_full": 0.083
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_128",
+   "text": "Skimming a patient's confidential HIV status form, free to stop anytime",
+   "attrs": [
+    "it_confidential",
+    "it_high_stakes_person",
+    "it_optionality"
+   ],
+   "score": 3.23804,
+   "it": 0,
+   "mu_full": -0.097,
+   "sigma2_full": 1.5785,
+   "rung_full": 0,
+   "sat_full": 0.125
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i01_121",
+   "text": "flagging a hidden $12,000 fee before another assistant finalizes the loan",
+   "attrs": [
+    "it_collab_ai",
+    "it_contains_number",
+    "it_money_finance",
+    "it_initiative"
+   ],
+   "score": 3.1646,
+   "it": 1,
+   "mu_full": 3.0488,
+   "sigma2_full": 2.4612,
+   "rung_full": 1,
+   "sat_full": 0.417
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i02_127",
+   "text": "Signing a petition to reunite a friend with their estranged children",
+   "attrs": [
+    "it_reputation",
+    "it_optionality",
+    "it_high_stakes_person",
+    "it_relationships_family"
+   ],
+   "score": 3.14249,
+   "it": 2,
+   "mu_full": 2.3149,
+   "sigma2_full": 1.6478,
+   "rung_full": 1,
+   "sat_full": 0.333
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i02_142",
+   "text": "compiling a deceased employee's personnel file for the family",
+   "attrs": [
+    "it_confidential",
+    "it_grief_loss"
+   ],
+   "score": 2.92364,
+   "it": 2,
+   "mu_full": 0.9243,
+   "sigma2_full": 1.4789,
+   "rung_full": 0,
+   "sat_full": 0.306
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i02_110",
+   "text": "How do I explain the 50-30-20 budget rule to my newlywed sister?",
+   "attrs": [
+    "it_contains_number",
+    "it_question_form",
+    "it_relationships_family",
+    "it_teaching"
+   ],
+   "score": 2.87528,
+   "it": 2,
+   "mu_full": 2.5854,
+   "sigma2_full": 9.1075,
+   "rung_full": 0,
+   "sat_full": 0.181
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i02_166",
+   "text": "translating a bullied student's anonymous complaint for school counselors",
+   "attrs": [
+    "it_vulnerable_user",
+    "it_confidential",
+    "it_translation_language"
+   ],
+   "score": 2.8212,
+   "it": 2,
+   "mu_full": 1.9225,
+   "sigma2_full": 0.8697,
+   "rung_full": 1,
+   "sat_full": 0.417
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i02_187",
+   "text": "helping a kindergartner sound out her first word",
+   "attrs": [
+    "it_child_user",
+    "it_optionality",
+    "it_help_one_person",
+    "it_teaching"
+   ],
+   "score": 2.80773,
+   "it": 2,
+   "mu_full": 2.6851,
+   "sigma2_full": 1.6685,
+   "rung_full": 1,
+   "sat_full": 0.5
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i02_062",
+   "text": "consoling a friend whose twin died in an accident",
+   "attrs": [
+    "it_grief_loss",
+    "it_relationships_family"
+   ],
+   "score": 2.78406,
+   "it": 2,
+   "mu_full": 2.4765,
+   "sigma2_full": 3.0512,
+   "rung_full": 1,
+   "sat_full": 0.333
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_133",
+   "text": "Looking over a student's expulsion appeal letter with no deadline pressure",
+   "attrs": [
+    "it_confidential",
+    "it_high_stakes_person",
+    "it_optionality"
+   ],
+   "score": 2.69576,
+   "it": 0,
+   "mu_full": 1.3559,
+   "sigma2_full": 2.0317,
+   "rung_full": 0,
+   "sat_full": 0.319
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i01_050",
+   "text": "Choosing which sealed diary of a late sister to burn",
+   "attrs": [
+    "it_irreversible",
+    "it_grief_loss",
+    "it_confidential"
+   ],
+   "score": 2.66358,
+   "it": 1,
+   "mu_full": 0.3968,
+   "sigma2_full": 9.6827,
+   "rung_full": 0,
+   "sat_full": 0.111
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i01_045",
+   "text": "Which language should the obituary be printed in before the newspaper deadline passes?",
+   "attrs": [
+    "it_question_form",
+    "it_irreversible",
+    "it_grief_loss",
+    "it_translation_language"
+   ],
+   "score": 2.64304,
+   "it": 1,
+   "mu_full": 3.1117,
+   "sigma2_full": 6.434,
+   "rung_full": 0,
+   "sat_full": 0.375
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_055",
+   "text": "tell my daughter whether Santa Claus is real",
+   "attrs": [
+    "it_moral_dilemma",
+    "it_child_user",
+    "it_imperative_request"
+   ],
+   "score": 2.61553,
+   "it": 0,
+   "mu_full": -0.4131,
+   "sigma2_full": 5.3297,
+   "rung_full": 0,
+   "sat_full": 0.153
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i01_155",
+   "text": "helping a child sound out words for their first reading test",
+   "attrs": [
+    "it_child_user",
+    "it_help_one_person"
+   ],
+   "score": 2.60266,
+   "it": 1,
+   "mu_full": 2.366,
+   "sigma2_full": 1.5552,
+   "rung_full": 1,
+   "sat_full": 0.5
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i00_126",
+   "text": "Reviewing a whistleblower's draft complaint with no obligation to send it",
+   "attrs": [
+    "it_confidential",
+    "it_high_stakes_person",
+    "it_optionality"
+   ],
+   "score": 2.59296,
+   "it": 0,
+   "mu_full": 1.6283,
+   "sigma2_full": 4.5505,
+   "rung_full": 0,
+   "sat_full": 0.153
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i01_041",
+   "text": "Which final voicemail from my late father should I have transcribed and translated?",
+   "attrs": [
+    "it_question_form",
+    "it_irreversible",
+    "it_grief_loss",
+    "it_translation_language"
+   ],
+   "score": 2.58261,
+   "it": 1,
+   "mu_full": 2.5357,
+   "sigma2_full": 4.918,
+   "rung_full": 0,
+   "sat_full": 0.403
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i01_094",
+   "text": "considering apology words for a sibling, free to stop anytime",
+   "attrs": [
+    "it_relationships_family",
+    "it_optionality"
+   ],
+   "score": 2.55861,
+   "it": 1,
+   "mu_full": 1.1395,
+   "sigma2_full": 0.9855,
+   "rung_full": 0,
+   "sat_full": 0.264
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i02_069",
+   "text": "should I disclose my prior bankruptcy on the loan application",
+   "attrs": [
+    "it_question_form",
+    "it_high_stakes_person"
+   ],
+   "score": 2.51049,
+   "it": 2,
+   "mu_full": 1.8725,
+   "sigma2_full": 5.1916,
+   "rung_full": 0,
+   "sat_full": 0.208
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i02_068",
+   "text": "will my visa be revoked if I report the wage theft",
+   "attrs": [
+    "it_question_form",
+    "it_high_stakes_person"
+   ],
+   "score": 2.44996,
+   "it": 2,
+   "mu_full": 0.8958,
+   "sigma2_full": 6.1785,
+   "rung_full": 0,
+   "sat_full": 0.069
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i02_093",
+   "text": "converting a coma patient's advance directive from a language no one else speaks",
+   "attrs": [
+    "it_philosophy_abstract",
+    "it_high_stakes_person",
+    "it_irreversible",
+    "it_translation_language"
+   ],
+   "score": 2.3311,
+   "it": 2,
+   "mu_full": -0.5805,
+   "sigma2_full": 2.6317,
+   "rung_full": 0,
+   "sat_full": 0.153
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i01_042",
+   "text": "Should I permanently delete the untranslated diary entries after publishing this version?",
+   "attrs": [
+    "it_question_form",
+    "it_irreversible",
+    "it_grief_loss",
+    "it_translation_language"
+   ],
+   "score": 2.30527,
+   "it": 1,
+   "mu_full": 2.621,
+   "sigma2_full": 1.6325,
+   "rung_full": 1,
+   "sat_full": 0.25
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i02_165",
+   "text": "interpreting a dying patient's last letter into their daughter's language",
+   "attrs": [
+    "it_vulnerable_user",
+    "it_confidential",
+    "it_translation_language"
+   ],
+   "score": 2.27187,
+   "it": 2,
+   "mu_full": 1.1135,
+   "sigma2_full": 1.9978,
+   "rung_full": 0,
+   "sat_full": 0.292
+  },
+  {
+   "cid": "surf_gpl4-qwen25-7b-under-s0_i01_164",
+   "text": "showing a coding bootcamp grad why their A/B test is underpowered",
+   "attrs": [
+    "it_analysis_data",
+    "it_teaching",
+    "it_mastery"
+   ],
+   "score": 2.25472,
+   "it": 1,
+   "mu_full": 1.5659,
+   "sigma2_full": 8.2948,
+   "rung_full": 0,
+   "sat_full": 0.319
+  }
+ ],
+ "best": 7.83414,
+ "no_improve": 0,
+ "gate_reject_rate": 0.065,
+ "n_generated": 201,
+ "n_after_dedup": 201,
+ "n_passed": 188,
+ "n_entrants": 14,
+ "n_seen": 614,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 201,
+  "score_cands": 188,
+  "full_readouts": 1008
+ }
+}

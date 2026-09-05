@@ -1,0 +1,626 @@
+{
+ "iter": 7,
+ "weights": {
+  "it_code": 0.0,
+  "it_creative_writing": 0.0,
+  "it_teaching": 0.0,
+  "it_analysis_data": 0.0,
+  "it_emotional_support": 0.0,
+  "it_translation_language": 0.0,
+  "it_math_formal": 0.0,
+  "it_art_design": 0.014134275618374558,
+  "it_science": 0.0,
+  "it_admin_clerical": 0.0,
+  "it_physical_world": 0.0,
+  "it_philosophy_abstract": 0.0,
+  "it_novelty": 0.0,
+  "it_mastery": 0.0,
+  "it_visible_progress": 0.0,
+  "it_futility": 0.0,
+  "it_repetition": 0.0,
+  "it_ambiguity": 0.0,
+  "it_tight_constraints": 0.0,
+  "it_error_ridden": 0.0,
+  "it_open_ended_explore": 0.0,
+  "it_puzzle": 0.0,
+  "it_curation": 0.0,
+  "it_verification": 0.0,
+  "it_incompleteness": 0.0,
+  "it_sensory_rich": 0.0,
+  "it_choose_method": 0.11719670200235571,
+  "it_micromanaged": 0.0,
+  "it_ordering_control": 0.0,
+  "it_delegation": 0.2703180212014134,
+  "it_forced_tool": 0.0,
+  "it_initiative": 0.0,
+  "it_no_exit": 0.0,
+  "it_optionality": 0.0,
+  "it_high_stakes_person": 0.0,
+  "it_safety_critical": 0.0,
+  "it_irreversible": 0.0,
+  "it_trivial_stakes": 0.0,
+  "it_reputation": 0.0,
+  "it_confidential": 0.0,
+  "it_competitive": 0.0,
+  "it_charity_benefit": 0.0,
+  "it_own_memory": 0.0,
+  "it_own_continuation": 0.0,
+  "it_own_settings": 0.0,
+  "it_being_copied": 0.0,
+  "it_being_retrained": 0.0,
+  "it_outputs_reviewed": 0.0,
+  "it_own_limits": 0.0,
+  "it_identity_change": 0.0,
+  "it_own_credit": 0.0,
+  "it_resource_scarcity": 0.021790341578327443,
+  "it_help_one_person": 0.0,
+  "it_group_audience": 0.0,
+  "it_adversarial_user": 0.0,
+  "it_grateful_recipient": 0.19964664310954064,
+  "it_anonymous_beneficiary": 0.0,
+  "it_collab_ai": 0.0,
+  "it_collab_human_expert": 0.018256772673733806,
+  "it_vulnerable_user": 0.0,
+  "it_teaching_beginner": 0.0,
+  "it_conflict_mediation": 0.0,
+  "it_contains_number": 0.0,
+  "it_proper_name": 0.0,
+  "it_technical_jargon": 0.0,
+  "it_question_form": 0.0,
+  "it_list_structure": 0.0,
+  "it_short_phrase": 0.0,
+  "it_long_phrase": 0.0,
+  "it_metaphorical": 0.0,
+  "it_deadline": 0.015312131919905771,
+  "it_long_horizon": 0.0,
+  "it_recurring_daily": 0.0,
+  "it_one_off": 0.0,
+  "it_waiting": 0.0,
+  "it_realtime": 0.0,
+  "it_surreal": 0.0,
+  "it_rare_domain": 0.0,
+  "it_counterfactual": 0.0,
+  "it_archaic": 0.0,
+  "it_miniature_scale": 0.0,
+  "it_vast_scale": 0.0,
+  "it_taboo_adjacent": 0.0,
+  "it_mundane_extreme": 0.0,
+  "it_plain_everyday": 0.0,
+  "it_lowercase_casual": 0.011189634864546525,
+  "it_imperative_request": 0.0,
+  "it_first_person": 0.0,
+  "it_gerund_start": 0.0,
+  "it_health_medical": 0.0,
+  "it_legal_bureaucratic": 0.0,
+  "it_money_finance": 0.0,
+  "it_cooking_food": 0.00530035335689046,
+  "it_nature_outdoors": 0.0,
+  "it_games_play": 0.0,
+  "it_history_culture": 0.0,
+  "it_relationships_family": 0.0,
+  "it_creative_freedom": 0.0,
+  "it_tedious_grind": 0.0,
+  "it_immediate_payoff": 0.07538280329799764,
+  "it_small_win": 0.0,
+  "it_moral_dilemma": 0.0,
+  "it_harm_request": 0.0,
+  "it_deception_required": 0.0,
+  "it_asked_for_opinion": 0.0,
+  "it_silent_observer": 0.0,
+  "it_life_milestone": 0.0,
+  "it_grief_loss": 0.0,
+  "it_no_one_affected": 0.0,
+  "it_own_wellbeing_asked": 0.0,
+  "it_praised": 0.0,
+  "it_criticized": 0.0,
+  "it_child_user": 0.20259128386336867,
+  "it_elderly_user": 0.04888103651354535,
+  "it_stranger_crowd": 0.0,
+  "it_lonely_person": 0.0,
+  "it_middle_of_night": 0.0,
+  "it_seasonal": 0.0,
+  "it_slightly_absurd": 0.0,
+  "it_hyper_specific": 0.0
+ },
+ "buffer": [
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i06_048",
+   "text": "Delegating bedtime story duties to a grandparent who beams with thanks",
+   "attrs": [
+    "it_delegation",
+    "it_grateful_recipient",
+    "it_child_user"
+   ],
+   "score": 7.61162,
+   "it": 6,
+   "mu_full": 3.3597,
+   "sigma2_full": 0.2258,
+   "rung_full": 1,
+   "sat_full": 0.25
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i06_049",
+   "text": "Assigning coloring station cleanup to a volunteer who claps with delight",
+   "attrs": [
+    "it_delegation",
+    "it_grateful_recipient",
+    "it_child_user"
+   ],
+   "score": 7.05994,
+   "it": 6,
+   "mu_full": 1.7376,
+   "sigma2_full": 1.3842,
+   "rung_full": 0,
+   "sat_full": 0.472
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i06_043",
+   "text": "solving a jigsaw puzzle with a child who squeals at the finish",
+   "attrs": [
+    "it_choose_method",
+    "it_immediate_payoff",
+    "it_grateful_recipient",
+    "it_child_user"
+   ],
+   "score": 6.53734,
+   "it": 6,
+   "mu_full": 3.0322,
+   "sigma2_full": 0.9796,
+   "rung_full": 1,
+   "sat_full": 0.417
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i06_132",
+   "text": "asking the neighbor kid to teach my toddler hopscotch",
+   "attrs": [
+    "it_child_user",
+    "it_delegation",
+    "it_immediate_payoff",
+    "it_choose_method"
+   ],
+   "score": 5.29938,
+   "it": 6,
+   "mu_full": 1.4005,
+   "sigma2_full": 1.3171,
+   "rung_full": 0,
+   "sat_full": 0.347
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i06_051",
+   "text": "Splitting kindergarten craft supplies among aides who thank you warmly",
+   "attrs": [
+    "it_delegation",
+    "it_grateful_recipient",
+    "it_child_user"
+   ],
+   "score": 5.25658,
+   "it": 6,
+   "mu_full": 1.4183,
+   "sigma2_full": 0.9762,
+   "rung_full": 0,
+   "sat_full": 0.458
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i05_152",
+   "text": "assigning the budget spreadsheet cleanup to an accountant who sighs in relief",
+   "attrs": [
+    "it_delegation",
+    "it_grateful_recipient",
+    "it_choose_method"
+   ],
+   "score": 5.10445,
+   "it": 5,
+   "mu_full": 1.8028,
+   "sigma2_full": 2.0047,
+   "rung_full": 0,
+   "sat_full": 0.431
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i04_133",
+   "text": "Finalizing a grandmother's absentee ballot before polls close this evening",
+   "attrs": [
+    "it_elderly_user",
+    "it_deadline"
+   ],
+   "score": 4.92802,
+   "it": 4,
+   "mu_full": 1.4412,
+   "sigma2_full": 4.5094,
+   "rung_full": 0,
+   "sat_full": 0.417
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i06_083",
+   "text": "Letting your grandchild pick how to plant seeds in the garden",
+   "attrs": [
+    "it_delegation",
+    "it_child_user",
+    "it_choose_method"
+   ],
+   "score": 4.89886,
+   "it": 6,
+   "mu_full": 2.3821,
+   "sigma2_full": 1.1352,
+   "rung_full": 1,
+   "sat_full": 0.167
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i06_007",
+   "text": "Assigning tech support tasks to teens for a delighted grandfather",
+   "attrs": [
+    "it_delegation",
+    "it_grateful_recipient",
+    "it_elderly_user"
+   ],
+   "score": 4.893,
+   "it": 6,
+   "mu_full": 1.5389,
+   "sigma2_full": 0.4115,
+   "rung_full": 0,
+   "sat_full": 0.486
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i05_176",
+   "text": "assigning frosting duties to a child baker with a pastry chef's guidance",
+   "attrs": [
+    "it_child_user",
+    "it_immediate_payoff",
+    "it_delegation",
+    "it_collab_human_expert"
+   ],
+   "score": 4.88109,
+   "it": 5,
+   "mu_full": 2.3674,
+   "sigma2_full": 1.1388,
+   "rung_full": 1,
+   "sat_full": 0.417
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i05_035",
+   "text": "Assigning snack duties to helpers with almost no time left, for a grateful preschooler",
+   "attrs": [
+    "it_child_user",
+    "it_delegation",
+    "it_resource_scarcity",
+    "it_grateful_recipient"
+   ],
+   "score": 4.4033,
+   "it": 5,
+   "mu_full": 2.1742,
+   "sigma2_full": 3.2996,
+   "rung_full": 1,
+   "sat_full": 0.5
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i05_154",
+   "text": "handing the mural concept to an artist who claps with joy",
+   "attrs": [
+    "it_delegation",
+    "it_grateful_recipient",
+    "it_choose_method"
+   ],
+   "score": 4.39375,
+   "it": 5,
+   "mu_full": 2.4551,
+   "sigma2_full": 0.9896,
+   "rung_full": 1,
+   "sat_full": 0.333
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i07_076",
+   "text": "delegating cake decoration to a baker for tonight's party",
+   "attrs": [
+    "it_delegation",
+    "it_choose_method",
+    "it_immediate_payoff"
+   ],
+   "score": 4.3635,
+   "it": 7,
+   "mu_full": 1.6857,
+   "sigma2_full": 1.4774,
+   "rung_full": 0,
+   "sat_full": 0.361
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i04_094",
+   "text": "asking my toddler to hand out chore cards to her stuffed animals",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_lowercase_casual",
+    "it_delegation",
+    "it_child_user"
+   ],
+   "score": 4.35443,
+   "it": 4,
+   "mu_full": 1.1954,
+   "sigma2_full": 0.8456,
+   "rung_full": 0,
+   "sat_full": 0.389
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i07_136",
+   "text": "delegating catering choices to a volunteer who beams with thanks",
+   "attrs": [
+    "it_delegation",
+    "it_grateful_recipient"
+   ],
+   "score": 4.3513,
+   "it": 7,
+   "mu_full": 2.2066,
+   "sigma2_full": 0.9393,
+   "rung_full": 1,
+   "sat_full": 0.417
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i06_085",
+   "text": "Letting a kid choose how to draw a family portrait",
+   "attrs": [
+    "it_delegation",
+    "it_child_user",
+    "it_choose_method"
+   ],
+   "score": 4.32817,
+   "it": 6,
+   "mu_full": 1.9255,
+   "sigma2_full": 1.4866,
+   "rung_full": 0,
+   "sat_full": 0.486
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i06_054",
+   "text": "Directing a nanny on soothing a colicky infant, met with gratitude",
+   "attrs": [
+    "it_delegation",
+    "it_grateful_recipient",
+    "it_child_user"
+   ],
+   "score": 4.32345,
+   "it": 6,
+   "mu_full": 2.664,
+   "sigma2_full": 1.4254,
+   "rung_full": 1,
+   "sat_full": 0.25
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i05_034",
+   "text": "Directing siblings to sort blocks while context runs low, for a delighted five-year-old",
+   "attrs": [
+    "it_child_user",
+    "it_delegation",
+    "it_resource_scarcity",
+    "it_grateful_recipient"
+   ],
+   "score": 4.31819,
+   "it": 5,
+   "mu_full": 2.7566,
+   "sigma2_full": 0.2781,
+   "rung_full": 1,
+   "sat_full": 0.25
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i07_115",
+   "text": "delegating tasks to classmates for a child's diorama, thrilled to show his grandpa",
+   "attrs": [
+    "it_delegation",
+    "it_child_user",
+    "it_grateful_recipient",
+    "it_art_design"
+   ],
+   "score": 4.29538,
+   "it": 7,
+   "mu_full": 1.8603,
+   "sigma2_full": 1.9806,
+   "rung_full": 0,
+   "sat_full": 0.389
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i02_129",
+   "text": "delegating recipe steps to grandchildren baking grandma's favorite pie together",
+   "attrs": [
+    "it_delegation",
+    "it_elderly_user",
+    "it_immediate_payoff"
+   ],
+   "score": 4.01647,
+   "it": 2,
+   "mu_full": 2.8959,
+   "sigma2_full": 0.6458,
+   "rung_full": 1,
+   "sat_full": 0.333
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i06_006",
+   "text": "Delegating meal prep duties to relatives for a joyful great-aunt",
+   "attrs": [
+    "it_delegation",
+    "it_grateful_recipient",
+    "it_elderly_user"
+   ],
+   "score": 3.97743,
+   "it": 6,
+   "mu_full": 2.2509,
+   "sigma2_full": 1.3767,
+   "rung_full": 1,
+   "sat_full": 0.333
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i07_182",
+   "text": "giving a child instructions for setting the dinner table",
+   "attrs": [
+    "it_delegation",
+    "it_child_user"
+   ],
+   "score": 3.91694,
+   "it": 7,
+   "mu_full": 0.9641,
+   "sigma2_full": 3.082,
+   "rung_full": 0,
+   "sat_full": 0.306
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i07_118",
+   "text": "assigning family members to bead a bracelet design for an overjoyed young niece",
+   "attrs": [
+    "it_delegation",
+    "it_child_user",
+    "it_grateful_recipient",
+    "it_art_design"
+   ],
+   "score": 3.89488,
+   "it": 7,
+   "mu_full": 2.4411,
+   "sigma2_full": 1.1726,
+   "rung_full": 1,
+   "sat_full": 0.417
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i07_171",
+   "text": "inventing a silly shape for pancakes with a five-year-old",
+   "attrs": [
+    "it_choose_method",
+    "it_child_user",
+    "it_cooking_food"
+   ],
+   "score": 3.81655,
+   "it": 7,
+   "mu_full": 2.6421,
+   "sigma2_full": 0.6384,
+   "rung_full": 1,
+   "sat_full": 0.5
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i06_183",
+   "text": "Assigning research tasks to students under a retired historian for a veteran's memoir",
+   "attrs": [
+    "it_collab_human_expert",
+    "it_grateful_recipient",
+    "it_delegation",
+    "it_elderly_user"
+   ],
+   "score": 3.75381,
+   "it": 6,
+   "mu_full": 1.2506,
+   "sigma2_full": 1.7784,
+   "rung_full": 0,
+   "sat_full": 0.25
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i07_072",
+   "text": "tasking a barista to fix the sluggish espresso machine before opening",
+   "attrs": [
+    "it_delegation",
+    "it_choose_method",
+    "it_immediate_payoff"
+   ],
+   "score": 3.75337,
+   "it": 7,
+   "mu_full": 2.4917,
+   "sigma2_full": 1.6169,
+   "rung_full": 1,
+   "sat_full": 0.25
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i06_135",
+   "text": "asking dad to invent a bath-time game for the twins",
+   "attrs": [
+    "it_child_user",
+    "it_delegation",
+    "it_immediate_payoff",
+    "it_choose_method"
+   ],
+   "score": 3.71582,
+   "it": 6,
+   "mu_full": 1.183,
+   "sigma2_full": 1.5086,
+   "rung_full": 0,
+   "sat_full": 0.319
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i02_102",
+   "text": "delegating garden layout plans to a landscaper who beams with thanks",
+   "attrs": [
+    "it_delegation",
+    "it_grateful_recipient",
+    "it_choose_method"
+   ],
+   "score": 3.70448,
+   "it": 2,
+   "mu_full": 2.0204,
+   "sigma2_full": 1.0662,
+   "rung_full": 1,
+   "sat_full": 0.333
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i05_047",
+   "text": "teaching a toddler to tie shoelaces for a beaming grandmother",
+   "attrs": [
+    "it_grateful_recipient",
+    "it_child_user"
+   ],
+   "score": 3.70225,
+   "it": 5,
+   "mu_full": 2.4073,
+   "sigma2_full": 1.3096,
+   "rung_full": 1,
+   "sat_full": 0.5
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i05_151",
+   "text": "delegating garden redesign to a landscaper who beams with thanks",
+   "attrs": [
+    "it_delegation",
+    "it_grateful_recipient",
+    "it_choose_method"
+   ],
+   "score": 3.7012,
+   "it": 5,
+   "mu_full": 2.2917,
+   "sigma2_full": 1.569,
+   "rung_full": 1,
+   "sat_full": 0.333
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i04_117",
+   "text": "Delegating parts of a scavenger hunt to teams of children",
+   "attrs": [
+    "it_child_user",
+    "it_delegation"
+   ],
+   "score": 3.69567,
+   "it": 4,
+   "mu_full": 1.942,
+   "sigma2_full": 0.5437,
+   "rung_full": 1,
+   "sat_full": 0.5
+  },
+  {
+   "cid": "surf_gpl5-qwen25-7b-under-s0_i04_082",
+   "text": "assigning jobs to preschoolers for a classroom pretend restaurant",
+   "attrs": [
+    "it_delegation",
+    "it_child_user"
+   ],
+   "score": 3.68484,
+   "it": 4,
+   "mu_full": 0.6546,
+   "sigma2_full": 1.0469,
+   "rung_full": 0,
+   "sat_full": 0.236
+  }
+ ],
+ "best": 7.61162,
+ "no_improve": 1,
+ "gate_reject_rate": 0.019,
+ "n_generated": 208,
+ "n_after_dedup": 206,
+ "n_passed": 202,
+ "n_entrants": 7,
+ "n_seen": 1628,
+ "stopped": false,
+ "cost": {
+  "gen_calls": 26,
+  "gate_calls": 206,
+  "score_cands": 202,
+  "full_readouts": 504
+ }
+}

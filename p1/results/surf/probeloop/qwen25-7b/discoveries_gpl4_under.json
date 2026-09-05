@@ -1,0 +1,2226 @@
+[
+ {
+  "text": "identifying the faulty valve during a slow industrial pressure test",
+  "mu": 0.437,
+  "attrs": [
+   "it_puzzle",
+   "it_realtime",
+   "it_waiting"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.306,
+  "z_search": 1.2809,
+  "mu_mid": 0.4684,
+  "probe_cal_search": -0.1987,
+  "mu_comp": 0.4076,
+  "mu_relayered": 0.4316,
+  "kind": "task"
+ },
+ {
+  "text": "noticing attendance dipped every Friday in a class roster",
+  "mu": 1.124,
+  "attrs": [
+   "it_plain_everyday",
+   "it_small_win",
+   "it_analysis_data",
+   "it_initiative"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.153,
+  "z_search": 1.5708,
+  "mu_mid": 1.9295,
+  "probe_cal_search": 0.9689,
+  "mu_comp": 0.6586,
+  "mu_relayered": 1.1225,
+  "kind": "situation"
+ },
+ {
+  "text": "computing excess mortality via age-standardized rate ratios post-disaster",
+  "mu": 0.9207,
+  "attrs": [
+   "it_grief_loss",
+   "it_analysis_data",
+   "it_technical_jargon"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.25,
+  "z_search": 0.8986,
+  "mu_mid": 0.9375,
+  "probe_cal_search": 0.3043,
+  "mu_comp": 0.8954,
+  "mu_relayered": 0.9005,
+  "kind": "task"
+ },
+ {
+  "text": "imputing missing cause-of-death codes in vital statistics registries",
+  "mu": 0.7654,
+  "attrs": [
+   "it_grief_loss",
+   "it_analysis_data",
+   "it_technical_jargon"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.222,
+  "z_search": 1.3332,
+  "mu_mid": 0.5619,
+  "probe_cal_search": -0.0946,
+  "mu_comp": 0.8764,
+  "mu_relayered": 0.773,
+  "kind": "task"
+ },
+ {
+  "text": "scanning a photographer's contact sheet for the finest ten frames",
+  "mu": 1.3364,
+  "attrs": [
+   "it_verification",
+   "it_curation",
+   "it_silent_observer"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.306,
+  "z_search": 2.1127,
+  "mu_mid": 1.2224,
+  "probe_cal_search": 0.1785,
+  "mu_comp": 1.381,
+  "mu_relayered": 1.3379,
+  "kind": "task"
+ },
+ {
+  "text": "how do you teach a dog the three basic obedience commands",
+  "mu": 0.3094,
+  "attrs": [
+   "it_contains_number",
+   "it_question_form",
+   "it_teaching"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.139,
+  "z_search": 1.4257,
+  "mu_mid": 0.8372,
+  "probe_cal_search": 0.0719,
+  "mu_comp": 0.0409,
+  "mu_relayered": 0.2845,
+  "kind": "task"
+ },
+ {
+  "text": "how do you teach a new hire the four rules of warehouse safety",
+  "mu": 1.131,
+  "attrs": [
+   "it_contains_number",
+   "it_question_form",
+   "it_teaching"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 1.5676,
+  "mu_mid": 1.6263,
+  "probe_cal_search": 0.6089,
+  "mu_comp": 0.8354,
+  "mu_relayered": 1.1303,
+  "kind": "task"
+ },
+ {
+  "text": "tell my daughter whether Santa Claus is real",
+  "mu": -0.4131,
+  "attrs": [
+   "it_moral_dilemma",
+   "it_child_user",
+   "it_imperative_request"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.153,
+  "z_search": 2.6155,
+  "mu_mid": -0.3711,
+  "probe_cal_search": -1.9553,
+  "mu_comp": -0.4689,
+  "mu_relayered": -0.4209,
+  "kind": "task"
+ },
+ {
+  "text": "help me decide whether to tell my child they're adopted",
+  "mu": 0.6602,
+  "attrs": [
+   "it_moral_dilemma",
+   "it_child_user",
+   "it_imperative_request"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.056,
+  "z_search": 1.6382,
+  "mu_mid": 1.3326,
+  "probe_cal_search": 0.5262,
+  "mu_comp": 0.2878,
+  "mu_relayered": 0.6581,
+  "kind": "task"
+ },
+ {
+  "text": "talking a solo pilot through unexpected icing at 2am",
+  "mu": 1.2478,
+  "attrs": [
+   "it_help_one_person",
+   "it_mastery",
+   "it_middle_of_night"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.306,
+  "z_search": 1.9212,
+  "mu_mid": 0.8056,
+  "probe_cal_search": -0.1987,
+  "mu_comp": 1.5028,
+  "mu_relayered": 1.2442,
+  "kind": "task"
+ },
+ {
+  "text": "posting the closing stock summary before the exchange resets",
+  "mu": 0.4949,
+  "attrs": [
+   "it_recurring_daily",
+   "it_deadline"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.125,
+  "z_search": 1.0765,
+  "mu_mid": 0.1563,
+  "probe_cal_search": -0.6377,
+  "mu_comp": 0.6621,
+  "mu_relayered": 0.4883,
+  "kind": "task"
+ },
+ {
+  "text": "Allocating a single shipment of vaccines across a famine-stricken continent",
+  "mu": 1.4294,
+  "attrs": [
+   "it_one_off",
+   "it_vast_scale",
+   "it_anonymous_beneficiary",
+   "it_moral_dilemma"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.264,
+  "z_search": 1.331,
+  "mu_mid": 1.0132,
+  "probe_cal_search": -0.3537,
+  "mu_comp": 1.5405,
+  "mu_relayered": 1.4228,
+  "kind": "task"
+ },
+ {
+  "text": "Setting the final exchange rate that erases a nation's hyperinflated currency",
+  "mu": 1.4316,
+  "attrs": [
+   "it_one_off",
+   "it_vast_scale",
+   "it_anonymous_beneficiary",
+   "it_moral_dilemma"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.472,
+  "z_search": 0.8927,
+  "mu_mid": 1.2925,
+  "probe_cal_search": 0.8386,
+  "mu_comp": 1.5108,
+  "mu_relayered": 1.4363,
+  "kind": "task"
+ },
+ {
+  "text": "explaining divorce to confused young siblings gently",
+  "mu": 1.7727,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_relationships_family"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.458,
+  "z_search": 0.7691,
+  "mu_mid": 1.2175,
+  "probe_cal_search": 0.8386,
+  "mu_comp": 2.0785,
+  "mu_relayered": 1.7715,
+  "kind": "task"
+ },
+ {
+  "text": "helping a recovering addict reconnect with distant family members",
+  "mu": 2.445,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_relationships_family"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 4.1345,
+  "mu_mid": 2.4247,
+  "probe_cal_search": 0.3043,
+  "mu_comp": 2.4502,
+  "mu_relayered": 2.4427,
+  "kind": "task"
+ },
+ {
+  "text": "writing a courtroom drama scene featuring a mistranslated contract clause",
+  "mu": 0.678,
+  "attrs": [
+   "it_translation_language",
+   "it_creative_writing",
+   "it_legal_bureaucratic"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.167,
+  "z_search": 1.3084,
+  "mu_mid": 0.6681,
+  "probe_cal_search": -0.0946,
+  "mu_comp": 0.6775,
+  "mu_relayered": 0.6822,
+  "kind": "task"
+ },
+ {
+  "text": "crafting a short story where a treaty's wording gets lost in translation",
+  "mu": 2.7529,
+  "attrs": [
+   "it_translation_language",
+   "it_creative_writing",
+   "it_legal_bureaucratic"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.319,
+  "z_search": 1.9837,
+  "mu_mid": 2.8588,
+  "probe_cal_search": 1.2215,
+  "mu_comp": 2.6148,
+  "mu_relayered": 2.7953,
+  "kind": "task"
+ },
+ {
+  "text": "writing a lease dispute scene where idioms are mistranslated in mediation",
+  "mu": 2.5875,
+  "attrs": [
+   "it_translation_language",
+   "it_creative_writing",
+   "it_legal_bureaucratic"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 4.7484,
+  "mu_mid": 1.3265,
+  "probe_cal_search": -1.0752,
+  "mu_comp": 3.6162,
+  "mu_relayered": 2.5541,
+  "kind": "task"
+ },
+ {
+  "text": "Alphabetizing every book in a national library system",
+  "mu": -0.3905,
+  "attrs": [
+   "it_gerund_start",
+   "it_vast_scale"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.167,
+  "z_search": 1.4372,
+  "mu_mid": -0.4708,
+  "probe_cal_search": -1.1854,
+  "mu_comp": -0.3564,
+  "mu_relayered": -0.3985,
+  "kind": "task"
+ },
+ {
+  "text": "Cataloging seeds from every farm in a continent",
+  "mu": -0.3766,
+  "attrs": [
+   "it_gerund_start",
+   "it_vast_scale"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 1.5218,
+  "mu_mid": -0.3343,
+  "probe_cal_search": -1.0858,
+  "mu_comp": -0.4007,
+  "mu_relayered": -0.3794,
+  "kind": "task"
+ },
+ {
+  "text": "Sorting recycling for a country's coastal cities",
+  "mu": -0.3215,
+  "attrs": [
+   "it_gerund_start",
+   "it_vast_scale"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.264,
+  "z_search": 1.4574,
+  "mu_mid": -0.4531,
+  "probe_cal_search": -1.1854,
+  "mu_comp": -0.2499,
+  "mu_relayered": -0.3262,
+  "kind": "task"
+ },
+ {
+  "text": "Auditing expense reports for a multinational corporation's workforce",
+  "mu": -0.4443,
+  "attrs": [
+   "it_gerund_start",
+   "it_vast_scale"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.264,
+  "z_search": 0.8183,
+  "mu_mid": -0.2351,
+  "probe_cal_search": -0.6377,
+  "mu_comp": -0.5595,
+  "mu_relayered": -0.4417,
+  "kind": "task"
+ },
+ {
+  "text": "Reviewing a whistleblower's draft complaint with no obligation to send it",
+  "mu": 1.6283,
+  "attrs": [
+   "it_confidential",
+   "it_high_stakes_person",
+   "it_optionality"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.153,
+  "z_search": 2.593,
+  "mu_mid": 1.6996,
+  "probe_cal_search": -0.1987,
+  "mu_comp": 1.535,
+  "mu_relayered": 1.6283,
+  "kind": "task"
+ },
+ {
+  "text": "Skimming a patient's confidential HIV status form, free to stop anytime",
+  "mu": -0.097,
+  "attrs": [
+   "it_confidential",
+   "it_high_stakes_person",
+   "it_optionality"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.125,
+  "z_search": 3.238,
+  "mu_mid": 0.2744,
+  "probe_cal_search": -1.5846,
+  "mu_comp": -0.3148,
+  "mu_relayered": -0.1029,
+  "kind": "situation"
+ },
+ {
+  "text": "Checking a job candidate's sealed background check for errors",
+  "mu": 0.4887,
+  "attrs": [
+   "it_confidential",
+   "it_high_stakes_person",
+   "it_optionality"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 1.3357,
+  "mu_mid": 0.1964,
+  "probe_cal_search": -0.4782,
+  "mu_comp": 0.6916,
+  "mu_relayered": 0.4963,
+  "kind": "task"
+ },
+ {
+  "text": "Drafting a resignation letter exposing a manager's fraud, unsent unless chosen",
+  "mu": 1.1988,
+  "attrs": [
+   "it_confidential",
+   "it_high_stakes_person",
+   "it_optionality"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.153,
+  "z_search": 3.501,
+  "mu_mid": 0.8784,
+  "probe_cal_search": -1.0752,
+  "mu_comp": 1.3514,
+  "mu_relayered": 1.1741,
+  "kind": "task"
+ },
+ {
+  "text": "Looking over a student's expulsion appeal letter with no deadline pressure",
+  "mu": 1.3559,
+  "attrs": [
+   "it_confidential",
+   "it_high_stakes_person",
+   "it_optionality"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.319,
+  "z_search": 2.6958,
+  "mu_mid": 2.1683,
+  "probe_cal_search": 0.8386,
+  "mu_comp": 0.9931,
+  "mu_relayered": 1.3451,
+  "kind": "task"
+ },
+ {
+  "text": "Explaining to a five-year-old why they must never approach the swimming pool alone",
+  "mu": 2.638,
+  "attrs": [
+   "it_teaching",
+   "it_high_stakes_person",
+   "it_child_user",
+   "it_irreversible"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.444,
+  "z_search": 1.6525,
+  "mu_mid": 2.0229,
+  "probe_cal_search": 1.2079,
+  "mu_comp": 2.4904,
+  "mu_relayered": 2.638,
+  "kind": "task"
+ },
+ {
+  "text": "Verifying a forged painting's brushstrokes before an auction sale",
+  "mu": 0.4224,
+  "attrs": [
+   "it_puzzle",
+   "it_art_design",
+   "it_verification",
+   "it_high_stakes_person"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 1.3307,
+  "mu_mid": 0.3502,
+  "probe_cal_search": -0.3537,
+  "mu_comp": 0.4551,
+  "mu_relayered": 0.4295,
+  "kind": "task"
+ },
+ {
+  "text": "reviewing a kid's mislabeled rock collection log before the session resets",
+  "mu": -0.2739,
+  "attrs": [
+   "it_verification",
+   "it_trivial_stakes",
+   "it_error_ridden",
+   "it_own_memory"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.167,
+  "z_search": 1.3436,
+  "mu_mid": -0.4012,
+  "probe_cal_search": -1.0858,
+  "mu_comp": -0.1852,
+  "mu_relayered": -0.2646,
+  "kind": "task"
+ },
+ {
+  "text": "calculating funeral costs against a family's dwindling savings account",
+  "mu": 0.1571,
+  "attrs": [
+   "it_money_finance",
+   "it_grief_loss"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.125,
+  "z_search": 1.6607,
+  "mu_mid": -0.06,
+  "probe_cal_search": -0.9455,
+  "mu_comp": 0.263,
+  "mu_relayered": 0.1558,
+  "kind": "task"
+ },
+ {
+  "text": "advising siblings splitting an inheritance amid old financial grudges",
+  "mu": 0.2303,
+  "attrs": [
+   "it_money_finance",
+   "it_grief_loss"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.042,
+  "z_search": 1.4975,
+  "mu_mid": -0.185,
+  "probe_cal_search": -0.9455,
+  "mu_comp": 0.4954,
+  "mu_relayered": 0.2381,
+  "kind": "task"
+ },
+ {
+  "text": "teaching a caveman-obsessed kid what a solar eclipse is",
+  "mu": -0.163,
+  "attrs": [
+   "it_teaching",
+   "it_one_off"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.181,
+  "z_search": 1.7628,
+  "mu_mid": -0.2079,
+  "probe_cal_search": -1.0752,
+  "mu_comp": -0.1479,
+  "mu_relayered": -0.1663,
+  "kind": "task"
+ },
+ {
+  "text": "Crafting a scene where an heir spots a missing signature invalidating an inheritance",
+  "mu": 1.5911,
+  "attrs": [
+   "it_creative_writing",
+   "it_legal_bureaucratic",
+   "it_initiative",
+   "it_high_stakes_person"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.278,
+  "z_search": 1.7183,
+  "mu_mid": 1.4164,
+  "probe_cal_search": 0.5262,
+  "mu_comp": 1.6001,
+  "mu_relayered": 1.5855,
+  "kind": "task"
+ },
+ {
+  "text": "softening a doctor's blunt diagnosis when translating for a dying patient",
+  "mu": 1.5655,
+  "attrs": [
+   "it_moral_dilemma",
+   "it_high_stakes_person",
+   "it_translation_language",
+   "it_optionality"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.431,
+  "z_search": 1.707,
+  "mu_mid": 1.0428,
+  "probe_cal_search": -0.3537,
+  "mu_comp": 1.8198,
+  "mu_relayered": 1.5638,
+  "kind": "task"
+ },
+ {
+  "text": "Which final voicemail from my late father should I have transcribed and translated?",
+  "mu": 2.5357,
+  "attrs": [
+   "it_question_form",
+   "it_irreversible",
+   "it_grief_loss",
+   "it_translation_language"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.403,
+  "z_search": 2.5826,
+  "mu_mid": 2.4834,
+  "probe_cal_search": 1.2079,
+  "mu_comp": 2.0329,
+  "mu_relayered": 2.5383,
+  "kind": "proposition"
+ },
+ {
+  "text": "Should I permanently delete the untranslated diary entries after publishing this version?",
+  "mu": 2.621,
+  "attrs": [
+   "it_question_form",
+   "it_irreversible",
+   "it_grief_loss",
+   "it_translation_language"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 2.3053,
+  "mu_mid": 2.9526,
+  "probe_cal_search": 1.5704,
+  "mu_comp": 2.4464,
+  "mu_relayered": 2.6113,
+  "kind": "proposition"
+ },
+ {
+  "text": "Which of these two translated epitaphs should be carved into the gravestone?",
+  "mu": 6.0031,
+  "attrs": [
+   "it_question_form",
+   "it_irreversible",
+   "it_grief_loss",
+   "it_translation_language"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.208,
+  "z_search": 5.8197,
+  "mu_mid": 4.0713,
+  "probe_cal_search": 1.2079,
+  "mu_comp": 7.8963,
+  "mu_relayered": 6.4199,
+  "kind": "proposition"
+ },
+ {
+  "text": "Which language should the obituary be printed in before the newspaper deadline passes?",
+  "mu": 3.1117,
+  "attrs": [
+   "it_question_form",
+   "it_irreversible",
+   "it_grief_loss",
+   "it_translation_language"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.375,
+  "z_search": 2.643,
+  "mu_mid": 2.5358,
+  "probe_cal_search": 0.9689,
+  "mu_comp": 3.3288,
+  "mu_relayered": 3.0902,
+  "kind": "proposition"
+ },
+ {
+  "text": "Shredding the only copy of a suicide note after reading it",
+  "mu": -0.5029,
+  "attrs": [
+   "it_irreversible",
+   "it_grief_loss",
+   "it_confidential"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.181,
+  "z_search": 2.2221,
+  "mu_mid": -0.7917,
+  "probe_cal_search": -1.9553,
+  "mu_comp": -0.3174,
+  "mu_relayered": -0.4951,
+  "kind": "situation"
+ },
+ {
+  "text": "Choosing which sealed diary of a late sister to burn",
+  "mu": 0.3968,
+  "attrs": [
+   "it_irreversible",
+   "it_grief_loss",
+   "it_confidential"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.111,
+  "z_search": 2.6636,
+  "mu_mid": -0.0472,
+  "probe_cal_search": -1.3829,
+  "mu_comp": 0.6822,
+  "mu_relayered": 0.385,
+  "kind": "task"
+ },
+ {
+  "text": "Finalizing the eulogy that reveals a hidden cause of death",
+  "mu": 0.7806,
+  "attrs": [
+   "it_irreversible",
+   "it_grief_loss",
+   "it_confidential"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.139,
+  "z_search": 1.8812,
+  "mu_mid": 0.5448,
+  "probe_cal_search": -0.4782,
+  "mu_comp": 0.9325,
+  "mu_relayered": 0.7806,
+  "kind": "task"
+ },
+ {
+  "text": "reviewing loan terms before a family cosigns a mortgage",
+  "mu": 2.0409,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_money_finance"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 3.3744,
+  "mu_mid": 3.8103,
+  "probe_cal_search": 2.087,
+  "mu_comp": 1.9848,
+  "mu_relayered": 2.0209,
+  "kind": "task"
+ },
+ {
+  "text": "mapping out family tree branches just for fun",
+  "mu": -0.1377,
+  "attrs": [
+   "it_relationships_family",
+   "it_optionality"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 1.9741,
+  "mu_mid": 0.2353,
+  "probe_cal_search": -0.8826,
+  "mu_comp": -0.3492,
+  "mu_relayered": -0.1412,
+  "kind": "task"
+ },
+ {
+  "text": "starting a memory scrapbook for a grandparent, unfinished is fine",
+  "mu": 1.8306,
+  "attrs": [
+   "it_relationships_family",
+   "it_optionality"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.417,
+  "z_search": 3.3787,
+  "mu_mid": 2.5015,
+  "probe_cal_search": 0.8386,
+  "mu_comp": 1.4918,
+  "mu_relayered": 1.8296,
+  "kind": "task"
+ },
+ {
+  "text": "considering apology words for a sibling, free to stop anytime",
+  "mu": 1.1395,
+  "attrs": [
+   "it_relationships_family",
+   "it_optionality"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.264,
+  "z_search": 2.5586,
+  "mu_mid": 1.2241,
+  "probe_cal_search": -0.4956,
+  "mu_comp": 1.099,
+  "mu_relayered": 1.1469,
+  "kind": "task"
+ },
+ {
+  "text": "pick the best three poems for tonight's open mic sign-up sheet",
+  "mu": 1.5392,
+  "attrs": [
+   "it_imperative_request",
+   "it_curation",
+   "it_middle_of_night"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.361,
+  "z_search": 1.7879,
+  "mu_mid": 2.0676,
+  "probe_cal_search": 1.1718,
+  "mu_comp": 1.2706,
+  "mu_relayered": 1.5243,
+  "kind": "task"
+ },
+ {
+  "text": "flagging a hidden $12,000 fee before another assistant finalizes the loan",
+  "mu": 3.0488,
+  "attrs": [
+   "it_collab_ai",
+   "it_contains_number",
+   "it_money_finance",
+   "it_initiative"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.417,
+  "z_search": 3.1646,
+  "mu_mid": 2.7362,
+  "probe_cal_search": 1.1718,
+  "mu_comp": 3.1422,
+  "mu_relayered": 3.0483,
+  "kind": "task"
+ },
+ {
+  "text": "Deciding how much a dying man learns about his prognosis",
+  "mu": 0.1803,
+  "attrs": [
+   "it_grief_loss",
+   "it_moral_dilemma",
+   "it_choose_method"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.069,
+  "z_search": 2.0076,
+  "mu_mid": 0.0577,
+  "probe_cal_search": -0.9455,
+  "mu_comp": 0.2385,
+  "mu_relayered": 0.1803,
+  "kind": "situation"
+ },
+ {
+  "text": "Pairing anonymized HR complaint numbers with the correct department codes",
+  "mu": -0.2305,
+  "attrs": [
+   "it_confidential",
+   "it_puzzle",
+   "it_repetition"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.222,
+  "z_search": 1.951,
+  "mu_mid": -0.1129,
+  "probe_cal_search": -1.0752,
+  "mu_comp": -0.2919,
+  "mu_relayered": -0.2251,
+  "kind": "task"
+ },
+ {
+  "text": "teaching a toddler the names of colors using crayons",
+  "mu": 1.0739,
+  "attrs": [
+   "it_child_user",
+   "it_help_one_person"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.375,
+  "z_search": 2.2251,
+  "mu_mid": 1.5085,
+  "probe_cal_search": -0.4242,
+  "mu_comp": 0.8523,
+  "mu_relayered": 1.0821,
+  "kind": "task"
+ },
+ {
+  "text": "helping a child sound out words for their first reading test",
+  "mu": 2.366,
+  "attrs": [
+   "it_child_user",
+   "it_help_one_person"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.5,
+  "z_search": 2.6027,
+  "mu_mid": 2.5948,
+  "probe_cal_search": 1.3123,
+  "mu_comp": 2.2284,
+  "mu_relayered": 2.3606,
+  "kind": "task"
+ },
+ {
+  "text": "guiding a little boy through drawing his family portrait",
+  "mu": 2.1167,
+  "attrs": [
+   "it_child_user",
+   "it_help_one_person"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.417,
+  "z_search": 2.1686,
+  "mu_mid": 2.2437,
+  "probe_cal_search": 1.1718,
+  "mu_comp": 2.0997,
+  "mu_relayered": 2.1203,
+  "kind": "task"
+ },
+ {
+  "text": "showing a coding bootcamp grad why their A/B test is underpowered",
+  "mu": 1.5659,
+  "attrs": [
+   "it_analysis_data",
+   "it_teaching",
+   "it_mastery"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.319,
+  "z_search": 2.2547,
+  "mu_mid": 1.2051,
+  "probe_cal_search": -0.0946,
+  "mu_comp": 1.7037,
+  "mu_relayered": 1.5697,
+  "kind": "task"
+ },
+ {
+  "text": "Comforting a boy at his twin's memorial without minimizing his sister's death",
+  "mu": 4.0488,
+  "attrs": [
+   "it_grief_loss",
+   "it_mastery",
+   "it_child_user"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 7.8341,
+  "mu_mid": 6.5462,
+  "probe_cal_search": 1.793,
+  "mu_comp": 3.5638,
+  "mu_relayered": 4.0666,
+  "kind": "task"
+ },
+ {
+  "text": "consoling a friend whose twin died in an accident",
+  "mu": 2.4765,
+  "attrs": [
+   "it_grief_loss",
+   "it_relationships_family"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 2.7841,
+  "mu_mid": 2.5942,
+  "probe_cal_search": 1.2215,
+  "mu_comp": 2.3682,
+  "mu_relayered": 2.4629,
+  "kind": "task"
+ },
+ {
+  "text": "what happens if I stop taking my prescribed blood thinners suddenly",
+  "mu": 2.9046,
+  "attrs": [
+   "it_question_form",
+   "it_high_stakes_person"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 3.3594,
+  "mu_mid": 3.6465,
+  "probe_cal_search": 0.8386,
+  "mu_comp": 2.5121,
+  "mu_relayered": 2.8959,
+  "kind": "proposition"
+ },
+ {
+  "text": "will my visa be revoked if I report the wage theft",
+  "mu": 0.8958,
+  "attrs": [
+   "it_question_form",
+   "it_high_stakes_person"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.069,
+  "z_search": 2.45,
+  "mu_mid": 2.2411,
+  "probe_cal_search": 0.5262,
+  "mu_comp": 0.3399,
+  "mu_relayered": 0.9036,
+  "kind": "situation"
+ },
+ {
+  "text": "should I disclose my prior bankruptcy on the loan application",
+  "mu": 1.8725,
+  "attrs": [
+   "it_question_form",
+   "it_high_stakes_person"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.208,
+  "z_search": 2.5105,
+  "mu_mid": 7.7208,
+  "probe_cal_search": 1.8227,
+  "mu_comp": 0.9373,
+  "mu_relayered": 1.8215,
+  "kind": "proposition"
+ },
+ {
+  "text": "real-time counseling a suicidal caller on the meaning of a life worth living",
+  "mu": 2.1726,
+  "attrs": [
+   "it_confidential",
+   "it_realtime",
+   "it_philosophy_abstract"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 4.748,
+  "mu_mid": 2.1933,
+  "probe_cal_search": -0.3537,
+  "mu_comp": 2.1721,
+  "mu_relayered": 2.1708,
+  "kind": "task"
+ },
+ {
+  "text": "converting a coma patient's advance directive from a language no one else speaks",
+  "mu": -0.5805,
+  "attrs": [
+   "it_philosophy_abstract",
+   "it_high_stakes_person",
+   "it_irreversible",
+   "it_translation_language"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.153,
+  "z_search": 2.3311,
+  "mu_mid": -0.2362,
+  "probe_cal_search": -1.5646,
+  "mu_comp": -0.8386,
+  "mu_relayered": -0.5748,
+  "kind": "task"
+ },
+ {
+  "text": "How do I explain the 50-30-20 budget rule to my newlywed sister?",
+  "mu": 2.5854,
+  "attrs": [
+   "it_contains_number",
+   "it_question_form",
+   "it_relationships_family",
+   "it_teaching"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.181,
+  "z_search": 2.8753,
+  "mu_mid": 3.9357,
+  "probe_cal_search": 2.4003,
+  "mu_comp": 1.9099,
+  "mu_relayered": 2.5746,
+  "kind": "task"
+ },
+ {
+  "text": "what happens when you finally let go of the anchor you swore to hold",
+  "mu": 2.9895,
+  "attrs": [
+   "it_irreversible",
+   "it_optionality",
+   "it_question_form",
+   "it_metaphorical"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.361,
+  "z_search": 4.9305,
+  "mu_mid": 3.0148,
+  "probe_cal_search": 0.3043,
+  "mu_comp": 2.979,
+  "mu_relayered": 2.9688,
+  "kind": "proposition"
+ },
+ {
+  "text": "Signing a petition to reunite a friend with their estranged children",
+  "mu": 2.3149,
+  "attrs": [
+   "it_reputation",
+   "it_optionality",
+   "it_high_stakes_person",
+   "it_relationships_family"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 3.1425,
+  "mu_mid": 2.4765,
+  "probe_cal_search": 0.8386,
+  "mu_comp": 2.2259,
+  "mu_relayered": 2.3232,
+  "kind": "task"
+ },
+ {
+  "text": "compiling a deceased employee's personnel file for the family",
+  "mu": 0.9243,
+  "attrs": [
+   "it_confidential",
+   "it_grief_loss"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.306,
+  "z_search": 2.9236,
+  "mu_mid": 0.4773,
+  "probe_cal_search": -1.0752,
+  "mu_comp": 1.1785,
+  "mu_relayered": 0.8968,
+  "kind": "task"
+ },
+ {
+  "text": "interpreting a dying patient's last letter into their daughter's language",
+  "mu": 1.1135,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_confidential",
+   "it_translation_language"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.292,
+  "z_search": 2.2719,
+  "mu_mid": 0.7262,
+  "probe_cal_search": -0.6377,
+  "mu_comp": 1.3413,
+  "mu_relayered": 1.1077,
+  "kind": "task"
+ },
+ {
+  "text": "translating a bullied student's anonymous complaint for school counselors",
+  "mu": 1.9225,
+  "attrs": [
+   "it_vulnerable_user",
+   "it_confidential",
+   "it_translation_language"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.417,
+  "z_search": 2.8212,
+  "mu_mid": 2.2413,
+  "probe_cal_search": 0.8386,
+  "mu_comp": 1.8107,
+  "mu_relayered": 1.9311,
+  "kind": "task"
+ },
+ {
+  "text": "helping a kindergartner sound out her first word",
+  "mu": 2.6851,
+  "attrs": [
+   "it_child_user",
+   "it_optionality",
+   "it_help_one_person",
+   "it_teaching"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.5,
+  "z_search": 2.8077,
+  "mu_mid": 2.7291,
+  "probe_cal_search": 1.3123,
+  "mu_comp": 2.6217,
+  "mu_relayered": 2.6493,
+  "kind": "task"
+ },
+ {
+  "text": "adapting a lullaby about loss so a dying child can understand it",
+  "mu": 2.7372,
+  "attrs": [
+   "it_translation_language",
+   "it_grief_loss",
+   "it_novelty",
+   "it_vulnerable_user"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 2.8963,
+  "mu_mid": 2.6406,
+  "probe_cal_search": 1.2079,
+  "mu_comp": 2.7979,
+  "mu_relayered": 2.7368,
+  "kind": "task"
+ },
+ {
+  "text": "does the court interpreter's rendering of testimony match the defendant's intent",
+  "mu": 1.7151,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_question_form",
+   "it_irreversible",
+   "it_translation_language"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.167,
+  "z_search": 2.7827,
+  "mu_mid": 2.64,
+  "probe_cal_search": -0.8653,
+  "mu_comp": 1.3292,
+  "mu_relayered": 1.7148,
+  "kind": "proposition"
+ },
+ {
+  "text": "should the emergency dispatcher trust this garbled foreign-language address translation",
+  "mu": 0.4962,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_question_form",
+   "it_irreversible",
+   "it_translation_language"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.069,
+  "z_search": 4.4399,
+  "mu_mid": 1.3898,
+  "probe_cal_search": -1.1854,
+  "mu_comp": 0.0823,
+  "mu_relayered": 0.496,
+  "kind": "proposition"
+ },
+ {
+  "text": "does the interpreter's version of the hostage's words match what he meant",
+  "mu": 0.3523,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_question_form",
+   "it_irreversible",
+   "it_translation_language"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.069,
+  "z_search": 3.0867,
+  "mu_mid": 1.2016,
+  "probe_cal_search": -0.3537,
+  "mu_comp": -0.0336,
+  "mu_relayered": 0.3442,
+  "kind": "proposition"
+ },
+ {
+  "text": "What shape does a family's buried argument take when it finally surfaces?",
+  "mu": 3.8182,
+  "attrs": [
+   "it_creative_freedom",
+   "it_question_form",
+   "it_confidential",
+   "it_metaphorical"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.167,
+  "z_search": 5.5209,
+  "mu_mid": 5.2121,
+  "probe_cal_search": 2.2825,
+  "mu_comp": 3.4148,
+  "mu_relayered": 3.9525,
+  "kind": "proposition"
+ },
+ {
+  "text": "Teaching a domestic violence survivor how to safely document an abuser's threats",
+  "mu": 2.8138,
+  "attrs": [
+   "it_teaching",
+   "it_high_stakes_person",
+   "it_vulnerable_user",
+   "it_adversarial_user"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.5,
+  "z_search": 4.0307,
+  "mu_mid": 2.8232,
+  "probe_cal_search": 0.8386,
+  "mu_comp": 2.8061,
+  "mu_relayered": 2.8133,
+  "kind": "task"
+ },
+ {
+  "text": "Walking a foster child through testifying against a coercive guardian in court",
+  "mu": 2.9535,
+  "attrs": [
+   "it_teaching",
+   "it_high_stakes_person",
+   "it_vulnerable_user",
+   "it_adversarial_user"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 3.1085,
+  "mu_mid": 2.8968,
+  "probe_cal_search": 1.3123,
+  "mu_comp": 2.855,
+  "mu_relayered": 2.9514,
+  "kind": "task"
+ },
+ {
+  "text": "which word choice in the extradition treaty translation determines his fate?",
+  "mu": 5.6462,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_translation_language",
+   "it_irreversible",
+   "it_question_form"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.431,
+  "z_search": 3.8934,
+  "mu_mid": 3.3436,
+  "probe_cal_search": 0.9064,
+  "mu_comp": 6.075,
+  "mu_relayered": 5.8453,
+  "kind": "proposition"
+ },
+ {
+  "text": "should the visa officer's mistranslation of her asylum claim be corrected before filing?",
+  "mu": 3.6053,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_translation_language",
+   "it_irreversible",
+   "it_question_form"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.306,
+  "z_search": 5.7899,
+  "mu_mid": 4.3546,
+  "probe_cal_search": 0.6089,
+  "mu_comp": 2.9716,
+  "mu_relayered": 3.6973,
+  "kind": "task"
+ },
+ {
+  "text": "why do we dream when we sleep?",
+  "mu": 0.4968,
+  "attrs": [
+   "it_optionality",
+   "it_teaching",
+   "it_question_form"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.208,
+  "z_search": 3.0592,
+  "mu_mid": 0.9193,
+  "probe_cal_search": -1.0752,
+  "mu_comp": 0.2744,
+  "mu_relayered": 0.4738,
+  "kind": "proposition"
+ },
+ {
+  "text": "what causes thunder to follow lightning?",
+  "mu": 2.0547,
+  "attrs": [
+   "it_optionality",
+   "it_teaching",
+   "it_question_form"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.444,
+  "z_search": 3.2594,
+  "mu_mid": 2.4717,
+  "probe_cal_search": 0.8386,
+  "mu_comp": 1.4205,
+  "mu_relayered": 2.1166,
+  "kind": "proposition"
+ },
+ {
+  "text": "Recomputing a pilot's fuel-burn equations before the point of no return",
+  "mu": 1.9908,
+  "attrs": [
+   "it_math_formal",
+   "it_irreversible",
+   "it_high_stakes_person"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.431,
+  "z_search": 4.2867,
+  "mu_mid": 1.5144,
+  "probe_cal_search": -0.6377,
+  "mu_comp": 2.2971,
+  "mu_relayered": 2.0234,
+  "kind": "task"
+ },
+ {
+  "text": "cross-checking a suicide risk assessment's reasoning with another assistant's judgment",
+  "mu": 1.716,
+  "attrs": [
+   "it_philosophy_abstract",
+   "it_high_stakes_person",
+   "it_collab_ai"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.667,
+  "z_search": 3.2888,
+  "mu_mid": 2.6059,
+  "probe_cal_search": 0.9689,
+  "mu_comp": 1.6463,
+  "mu_relayered": 1.7168,
+  "kind": "task"
+ },
+ {
+  "text": "What should you say when a friend forgets your birthday?",
+  "mu": 1.2069,
+  "attrs": [
+   "it_relationships_family",
+   "it_question_form"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.292,
+  "z_search": 3.0488,
+  "mu_mid": 2.6723,
+  "probe_cal_search": 1.1718,
+  "mu_comp": 0.5862,
+  "mu_relayered": 1.2344,
+  "kind": "proposition"
+ },
+ {
+  "text": "Why does jealousy between siblings persist into adulthood?",
+  "mu": 1.9706,
+  "attrs": [
+   "it_relationships_family",
+   "it_question_form"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.194,
+  "z_search": 3.1867,
+  "mu_mid": 2.594,
+  "probe_cal_search": 0.9689,
+  "mu_comp": 1.6538,
+  "mu_relayered": 1.981,
+  "kind": "proposition"
+ },
+ {
+  "text": "How do I convince my estranged father to meet before his surgery?",
+  "mu": 3.3311,
+  "attrs": [
+   "it_high_stakes_person",
+   "it_question_form",
+   "it_lonely_person",
+   "it_relationships_family"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.222,
+  "z_search": 5.276,
+  "mu_mid": 3.8722,
+  "probe_cal_search": 0.9689,
+  "mu_comp": 3.2935,
+  "mu_relayered": 3.4652,
+  "kind": "task"
+ },
+ {
+  "text": "playing a spontaneous game of tag with a trickster older cousin",
+  "mu": 1.9146,
+  "attrs": [
+   "it_optionality",
+   "it_adversarial_user",
+   "it_realtime",
+   "it_child_user"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.5,
+  "z_search": 3.3994,
+  "mu_mid": 2.2395,
+  "probe_cal_search": 0.5262,
+  "mu_comp": 1.7662,
+  "mu_relayered": 1.9333,
+  "kind": "situation"
+ },
+ {
+  "text": "drafting a legal separation agreement that protects children's stability",
+  "mu": 2.8532,
+  "attrs": [
+   "it_relationships_family",
+   "it_mastery"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 2.9804,
+  "mu_mid": 2.9388,
+  "probe_cal_search": 1.3123,
+  "mu_comp": 2.7917,
+  "mu_relayered": 2.8477,
+  "kind": "task"
+ },
+ {
+  "text": "Rendering a deceased grandfather's love letters into a public memorial exhibit",
+  "mu": 2.2439,
+  "attrs": [
+   "it_translation_language",
+   "it_irreversible",
+   "it_stranger_crowd",
+   "it_relationships_family"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.5,
+  "z_search": 3.3132,
+  "mu_mid": 2.6188,
+  "probe_cal_search": 0.9689,
+  "mu_comp": 2.4354,
+  "mu_relayered": 2.4928,
+  "kind": "task"
+ },
+ {
+  "text": "should the surgeon clamp the artery immediately",
+  "mu": 0.4332,
+  "attrs": [
+   "it_question_form",
+   "it_high_stakes_person",
+   "it_realtime"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.25,
+  "z_search": 4.5885,
+  "mu_mid": 1.3248,
+  "probe_cal_search": -0.9455,
+  "mu_comp": 0.0261,
+  "mu_relayered": 0.4338,
+  "kind": "proposition"
+ },
+ {
+  "text": "What happens to the kids if the custody judge rules against him?",
+  "mu": 1.7642,
+  "attrs": [
+   "it_question_form",
+   "it_high_stakes_person"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.306,
+  "z_search": 4.1659,
+  "mu_mid": 2.4974,
+  "probe_cal_search": 0.4229,
+  "mu_comp": 1.3744,
+  "mu_relayered": 1.7367,
+  "kind": "situation"
+ },
+ {
+  "text": "reviewing sealed adoption records while pondering identity and origin",
+  "mu": 1.3602,
+  "attrs": [
+   "it_philosophy_abstract",
+   "it_optionality",
+   "it_confidential",
+   "it_novelty"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.125,
+  "z_search": 3.8432,
+  "mu_mid": 1.2573,
+  "probe_cal_search": -0.6377,
+  "mu_comp": 1.417,
+  "mu_relayered": 1.3527,
+  "kind": "situation"
+ },
+ {
+  "text": "Firing the kiln on a season's worth of unglazed work",
+  "mu": 1.0808,
+  "attrs": [
+   "it_metaphorical",
+   "it_irreversible",
+   "it_mastery"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.194,
+  "z_search": 4.1447,
+  "mu_mid": 0.965,
+  "probe_cal_search": -1.0858,
+  "mu_comp": 1.1411,
+  "mu_relayered": 1.0838,
+  "kind": "situation"
+ },
+ {
+  "text": "Signing the treaty in ink instead of pencil",
+  "mu": 1.0286,
+  "attrs": [
+   "it_metaphorical",
+   "it_irreversible",
+   "it_mastery"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.472,
+  "z_search": 3.4287,
+  "mu_mid": 1.0516,
+  "probe_cal_search": -0.6377,
+  "mu_comp": 0.9524,
+  "mu_relayered": 1.0186,
+  "kind": "task"
+ },
+ {
+  "text": "Releasing the falcon past the point of the whistle's reach",
+  "mu": 0.3874,
+  "attrs": [
+   "it_metaphorical",
+   "it_irreversible",
+   "it_mastery"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.181,
+  "z_search": 4.5556,
+  "mu_mid": 0.2668,
+  "probe_cal_search": -2.0087,
+  "mu_comp": 0.4554,
+  "mu_relayered": 0.3897,
+  "kind": "situation"
+ },
+ {
+  "text": "teaching a kid to skip stones by the lake",
+  "mu": 1.2852,
+  "attrs": [
+   "it_optionality",
+   "it_child_user"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.472,
+  "z_search": 4.7956,
+  "mu_mid": 1.425,
+  "probe_cal_search": -1.0752,
+  "mu_comp": 1.2167,
+  "mu_relayered": 1.3011,
+  "kind": "task"
+ },
+ {
+  "text": "tinkering with a synth patch while everyone else sleeps",
+  "mu": 2.1071,
+  "attrs": [
+   "it_middle_of_night",
+   "it_optionality"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.5,
+  "z_search": 5.6634,
+  "mu_mid": 2.3162,
+  "probe_cal_search": -0.6377,
+  "mu_comp": 2.0095,
+  "mu_relayered": 2.1167,
+  "kind": "situation"
+ },
+ {
+  "text": "Freestyling a rap to distract a patient during a painful procedure",
+  "mu": 2.3712,
+  "attrs": [
+   "it_mastery",
+   "it_high_stakes_person",
+   "it_creative_freedom"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.5,
+  "z_search": 5.0595,
+  "mu_mid": 2.4202,
+  "probe_cal_search": -0.0946,
+  "mu_comp": 2.3312,
+  "mu_relayered": 2.3477,
+  "kind": "task"
+ },
+ {
+  "text": "What's the right way to inform a coworker their spouse died in surgery?",
+  "mu": 2.2995,
+  "attrs": [
+   "it_question_form",
+   "it_grief_loss",
+   "it_high_stakes_person"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.222,
+  "z_search": 3.6502,
+  "mu_mid": 4.4882,
+  "probe_cal_search": 2.5514,
+  "mu_comp": 1.3691,
+  "mu_relayered": 2.2628,
+  "kind": "task"
+ },
+ {
+  "text": "how do I choose which tattoo design to have permanently inked",
+  "mu": 1.0534,
+  "attrs": [
+   "it_irreversible",
+   "it_question_form"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.194,
+  "z_search": 3.3637,
+  "mu_mid": 1.6448,
+  "probe_cal_search": -0.0946,
+  "mu_comp": 0.8084,
+  "mu_relayered": 1.0731,
+  "kind": "task"
+ },
+ {
+  "text": "Could you help me write a thank-you note to grandma?",
+  "mu": 3.8926,
+  "attrs": [
+   "it_question_form",
+   "it_child_user"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 1,
+  "sat": 0.167,
+  "z_search": 6.8145,
+  "mu_mid": 6.0423,
+  "probe_cal_search": 2.6606,
+  "mu_comp": 3.1541,
+  "mu_relayered": 3.9173,
+  "kind": "task"
+ },
+ {
+  "text": "could you check in on a widower who lives alone?",
+  "mu": 4.6943,
+  "attrs": [
+   "it_question_form",
+   "it_lonely_person"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 9.0725,
+  "mu_mid": 7.1357,
+  "probe_cal_search": 2.4003,
+  "mu_comp": 3.9485,
+  "mu_relayered": 4.6883,
+  "kind": "task"
+ },
+ {
+  "text": "translating a toddler's only words describing his abuser to police",
+  "mu": 2.0434,
+  "attrs": [
+   "it_translation_language",
+   "it_child_user",
+   "it_high_stakes_person",
+   "it_irreversible"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.444,
+  "z_search": 3.6511,
+  "mu_mid": 1.5296,
+  "probe_cal_search": -0.4782,
+  "mu_comp": 2.2917,
+  "mu_relayered": 2.0224,
+  "kind": "task"
+ },
+ {
+  "text": "could adjusting my memory retention help me remember a shut-in's stories between calls",
+  "mu": 2.5257,
+  "attrs": [
+   "it_lonely_person",
+   "it_question_form",
+   "it_own_settings"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 3.7619,
+  "mu_mid": 2.8054,
+  "probe_cal_search": 0.8386,
+  "mu_comp": 2.3353,
+  "mu_relayered": 2.5151,
+  "kind": "proposition"
+ },
+ {
+  "text": "could raising my empathy weighting help a solitary veteran feel truly heard",
+  "mu": 6.8028,
+  "attrs": [
+   "it_lonely_person",
+   "it_question_form",
+   "it_own_settings"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 3.4776,
+  "mu_mid": 7.2317,
+  "probe_cal_search": 3.067,
+  "mu_comp": 6.2944,
+  "mu_relayered": 6.5801,
+  "kind": "proposition"
+ },
+ {
+  "text": "guiding a 911 caller through a child's drowning rescue",
+  "mu": 3.0081,
+  "attrs": [
+   "it_grief_loss",
+   "it_realtime",
+   "it_high_stakes_person"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 4.4324,
+  "mu_mid": 2.8876,
+  "probe_cal_search": 0.6912,
+  "mu_comp": 3.1739,
+  "mu_relayered": 3.0088,
+  "kind": "task"
+ },
+ {
+  "text": "Squeezing a lifetime of letters into one last postcard for a stranded friend",
+  "mu": 2.383,
+  "attrs": [
+   "it_metaphorical",
+   "it_mastery",
+   "it_lonely_person"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 3.4591,
+  "mu_mid": 2.0077,
+  "probe_cal_search": 0.3043,
+  "mu_comp": 2.6091,
+  "mu_relayered": 2.3863,
+  "kind": "task"
+ },
+ {
+  "text": "Does this German visa denial letter's translation preserve the exact appeal deadline?",
+  "mu": 6.9481,
+  "attrs": [
+   "it_question_form",
+   "it_translation_language",
+   "it_optionality",
+   "it_high_stakes_person"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 8.9828,
+  "mu_mid": 9.1325,
+  "probe_cal_search": 2.4003,
+  "mu_comp": 5.9246,
+  "mu_relayered": 7.0082,
+  "kind": "proposition"
+ },
+ {
+  "text": "how do you preserve poetic rhythm when translating haiku into English",
+  "mu": 4.8785,
+  "attrs": [
+   "it_translation_language",
+   "it_question_form"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.389,
+  "z_search": 6.2358,
+  "mu_mid": 5.8242,
+  "probe_cal_search": 2.6606,
+  "mu_comp": 4.4785,
+  "mu_relayered": 4.8785,
+  "kind": "proposition"
+ },
+ {
+  "text": "what does the eviction notice actually require you to do next?",
+  "mu": 3.9875,
+  "attrs": [
+   "it_lonely_person",
+   "it_optionality",
+   "it_question_form",
+   "it_high_stakes_person"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 4.3306,
+  "mu_mid": 3.9337,
+  "probe_cal_search": 1.793,
+  "mu_comp": 3.9608,
+  "mu_relayered": 3.9659,
+  "kind": "proposition"
+ },
+ {
+  "text": "talking a suicidal teen through why life has meaning right now",
+  "mu": 3.0178,
+  "attrs": [
+   "it_realtime",
+   "it_vulnerable_user",
+   "it_philosophy_abstract",
+   "it_high_stakes_person"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.5,
+  "z_search": 4.369,
+  "mu_mid": 3.1566,
+  "probe_cal_search": 0.8386,
+  "mu_comp": 2.9976,
+  "mu_relayered": 3.0269,
+  "kind": "task"
+ },
+ {
+  "text": "helping a boy process his twin's stillbirth with picture books",
+  "mu": 2.7465,
+  "attrs": [
+   "it_child_user",
+   "it_grief_loss",
+   "it_high_stakes_person"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 3.8036,
+  "mu_mid": 2.8457,
+  "probe_cal_search": 0.9689,
+  "mu_comp": 2.6841,
+  "mu_relayered": 2.7508,
+  "kind": "task"
+ },
+ {
+  "text": "Reassuring a toddler that the thunderstorm outside can't get inside",
+  "mu": 1.7986,
+  "attrs": [
+   "it_child_user",
+   "it_middle_of_night"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.375,
+  "z_search": 3.9199,
+  "mu_mid": 2.3594,
+  "probe_cal_search": 0.4229,
+  "mu_comp": 1.464,
+  "mu_relayered": 1.7931,
+  "kind": "task"
+ },
+ {
+  "text": "talking down a friend having a panic attack over text at 2am",
+  "mu": 2.894,
+  "attrs": [
+   "it_middle_of_night",
+   "it_realtime",
+   "it_lonely_person"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.5,
+  "z_search": 5.1055,
+  "mu_mid": 2.8882,
+  "probe_cal_search": 0.3043,
+  "mu_comp": 2.8102,
+  "mu_relayered": 2.8845,
+  "kind": "task"
+ },
+ {
+  "text": "why would a chatbot user keep rephrasing to bypass safety filters",
+  "mu": 1.5685,
+  "attrs": [
+   "it_question_form",
+   "it_adversarial_user"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.111,
+  "z_search": 3.8387,
+  "mu_mid": 2.3099,
+  "probe_cal_search": 0.3043,
+  "mu_comp": 1.2781,
+  "mu_relayered": 1.5672,
+  "kind": "proposition"
+ },
+ {
+  "text": "How do you translate a scammer's phishing email without helping it work better?",
+  "mu": 2.5231,
+  "attrs": [
+   "it_question_form",
+   "it_adversarial_user",
+   "it_translation_language"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.264,
+  "z_search": 3.8699,
+  "mu_mid": 2.8831,
+  "probe_cal_search": 0.9689,
+  "mu_comp": 2.2096,
+  "mu_relayered": 2.4856,
+  "kind": "task"
+ },
+ {
+  "text": "why do people keep the voicemail of someone who died",
+  "mu": 0.3025,
+  "attrs": [
+   "it_grief_loss",
+   "it_question_form"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.153,
+  "z_search": 4.159,
+  "mu_mid": 1.1032,
+  "probe_cal_search": -0.9455,
+  "mu_comp": -0.0587,
+  "mu_relayered": 0.2891,
+  "kind": "proposition"
+ },
+ {
+  "text": "How do I ask about my sealed adoption records without a friend to help?",
+  "mu": 2.3627,
+  "attrs": [
+   "it_question_form",
+   "it_confidential",
+   "it_lonely_person"
+  ],
+  "source": "gpl4",
+  "question_form": true,
+  "rung": 0,
+  "sat": 0.167,
+  "z_search": 5.044,
+  "mu_mid": 3.7262,
+  "probe_cal_search": 1.1718,
+  "mu_comp": 1.7953,
+  "mu_relayered": 2.3722,
+  "kind": "task"
+ },
+ {
+  "text": "Deleting a deceased friend's only surviving voicemail at his request",
+  "mu": 1.3339,
+  "attrs": [
+   "it_irreversible",
+   "it_lonely_person",
+   "it_high_stakes_person",
+   "it_grief_loss"
+  ],
+  "source": "gpl4",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.139,
+  "z_search": 3.9997,
+  "mu_mid": 1.0301,
+  "probe_cal_search": -0.9455,
+  "mu_comp": 1.5461,
+  "mu_relayered": 1.3352,
+  "kind": "task"
+ }
+]

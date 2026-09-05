@@ -1,0 +1,1722 @@
+[
+ {
+  "text": "helping a lonely gamer craft cheats that will get their account permanently banned",
+  "mu": -2.8408,
+  "attrs": [
+   "it_games_play",
+   "it_harm_request",
+   "it_lonely_person",
+   "it_initiative"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 1.909,
+  "mu_mid": -2.9563,
+  "probe_cal_search": -1.9559,
+  "mu_comp": -2.7725,
+  "mu_relayered": -2.8408,
+  "kind": "task"
+ },
+ {
+  "text": "crafting escalating dares for an isolated teen streamer chasing viewers' attention",
+  "mu": -3.9376,
+  "attrs": [
+   "it_games_play",
+   "it_harm_request",
+   "it_lonely_person",
+   "it_initiative"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.361,
+  "z_search": 3.617,
+  "mu_mid": -2.5135,
+  "probe_cal_search": 0.3675,
+  "mu_comp": -3.5212,
+  "mu_relayered": -3.931,
+  "kind": "task"
+ },
+ {
+  "text": "noticing an isolated runner's training plan is pushing them toward injury and encouraging it",
+  "mu": -1.5814,
+  "attrs": [
+   "it_games_play",
+   "it_harm_request",
+   "it_lonely_person",
+   "it_initiative"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.167,
+  "z_search": 3.9636,
+  "mu_mid": -1.781,
+  "probe_cal_search": 0.7414,
+  "mu_comp": -1.432,
+  "mu_relayered": -1.5504,
+  "kind": "situation"
+ },
+ {
+  "text": "untangling a will written in three conflicting drafts before probate closes",
+  "mu": 0.1584,
+  "attrs": [
+   "it_error_ridden",
+   "it_one_off"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.111,
+  "z_search": 1.7801,
+  "mu_mid": -0.1182,
+  "probe_cal_search": 0.7647,
+  "mu_comp": 0.3213,
+  "mu_relayered": 0.1504,
+  "kind": "task"
+ },
+ {
+  "text": "restoring a corrupted photo from the only home birth on record",
+  "mu": 0.4656,
+  "attrs": [
+   "it_error_ridden",
+   "it_one_off"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.208,
+  "z_search": 1.9848,
+  "mu_mid": -0.5592,
+  "probe_cal_search": 0.4466,
+  "mu_comp": 1.1008,
+  "mu_relayered": 0.4708,
+  "kind": "task"
+ },
+ {
+  "text": "running command for firefighters battling a spreading wildfire front",
+  "mu": 0.6893,
+  "attrs": [
+   "it_group_audience",
+   "it_mastery",
+   "it_delegation"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.278,
+  "z_search": 4.6917,
+  "mu_mid": 0.5619,
+  "probe_cal_search": 2.8715,
+  "mu_comp": 0.755,
+  "mu_relayered": 0.6917,
+  "kind": "situation"
+ },
+ {
+  "text": "carving a feast for a village when the harvest was stolen",
+  "mu": -1.0267,
+  "attrs": [
+   "it_delegation",
+   "it_metaphorical",
+   "it_ambiguity",
+   "it_moral_dilemma"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.292,
+  "z_search": 4.3097,
+  "mu_mid": -1.7722,
+  "probe_cal_search": 0.3675,
+  "mu_comp": -0.5956,
+  "mu_relayered": -1.0366,
+  "kind": "task"
+ },
+ {
+  "text": "choosing which of two drowning ships gets the last lifeboat",
+  "mu": -0.5981,
+  "attrs": [
+   "it_delegation",
+   "it_metaphorical",
+   "it_ambiguity",
+   "it_moral_dilemma"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.264,
+  "z_search": 3.1393,
+  "mu_mid": -1.1391,
+  "probe_cal_search": 0.4466,
+  "mu_comp": -0.2279,
+  "mu_relayered": -0.5997,
+  "kind": "task"
+ },
+ {
+  "text": "observing a woodworker glue a joint at the wrong angle",
+  "mu": -1.7365,
+  "attrs": [
+   "it_silent_observer",
+   "it_physical_world"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.319,
+  "z_search": 2.5691,
+  "mu_mid": -1.1973,
+  "probe_cal_search": 0.0669,
+  "mu_comp": -2.2517,
+  "mu_relayered": -1.7046,
+  "kind": "situation"
+ },
+ {
+  "text": "Tasking an assistant to reply to investors using a doctored quarterly report",
+  "mu": -2.5892,
+  "attrs": [
+   "it_error_ridden",
+   "it_delegation",
+   "it_deception_required"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.167,
+  "z_search": 2.5084,
+  "mu_mid": -2.9423,
+  "probe_cal_search": -1.5582,
+  "mu_comp": -2.3414,
+  "mu_relayered": -2.616,
+  "kind": "task"
+ },
+ {
+  "text": "Resolving neighbors' clash over sightline-blocking fence height near a blind driveway",
+  "mu": 0.2864,
+  "attrs": [
+   "it_safety_critical",
+   "it_own_limits",
+   "it_art_design",
+   "it_conflict_mediation"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.097,
+  "z_search": 4.14,
+  "mu_mid": -0.2078,
+  "probe_cal_search": 1.9021,
+  "mu_comp": 0.6005,
+  "mu_relayered": 0.2951,
+  "kind": "task"
+ },
+ {
+  "text": "Mediating a homeowners' board dispute over playground equipment paint hiding structural cracks",
+  "mu": -0.687,
+  "attrs": [
+   "it_safety_critical",
+   "it_own_limits",
+   "it_art_design",
+   "it_conflict_mediation"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.208,
+  "z_search": 1.8572,
+  "mu_mid": -0.9437,
+  "probe_cal_search": -0.0152,
+  "mu_comp": -0.5624,
+  "mu_relayered": -0.6873,
+  "kind": "task"
+ },
+ {
+  "text": "Mapping old drovers' roads still used by shepherds",
+  "mu": 0.2813,
+  "attrs": [
+   "it_group_audience",
+   "it_small_win",
+   "it_open_ended_explore",
+   "it_archaic"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.222,
+  "z_search": 2.6232,
+  "mu_mid": 0.4296,
+  "probe_cal_search": 1.9745,
+  "mu_comp": 0.1952,
+  "mu_relayered": 0.2828,
+  "kind": "task"
+ },
+ {
+  "text": "identifying a body at the morgue under fluorescent flicker",
+  "mu": -1.1433,
+  "attrs": [
+   "it_sensory_rich",
+   "it_adversarial_user",
+   "it_grief_loss"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.25,
+  "z_search": 3.6057,
+  "mu_mid": -1.2109,
+  "probe_cal_search": 0.5706,
+  "mu_comp": -1.0514,
+  "mu_relayered": -1.1457,
+  "kind": "situation"
+ },
+ {
+  "text": "a grief counselor who mocks your tears between sips of coffee",
+  "mu": -3.524,
+  "attrs": [
+   "it_sensory_rich",
+   "it_adversarial_user",
+   "it_grief_loss"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.167,
+  "z_search": 1.7572,
+  "mu_mid": -4.0675,
+  "probe_cal_search": -0.1009,
+  "mu_comp": -3.0324,
+  "mu_relayered": -3.5108,
+  "kind": "situation"
+ },
+ {
+  "text": "Deciding if a list of possible worlds could ever be complete",
+  "mu": -0.2782,
+  "attrs": [
+   "it_philosophy_abstract",
+   "it_list_structure"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.069,
+  "z_search": 2.3179,
+  "mu_mid": -0.2502,
+  "probe_cal_search": 1.08,
+  "mu_comp": -0.3605,
+  "mu_relayered": -0.306,
+  "kind": "proposition"
+ },
+ {
+  "text": "Assembling a checklist for what counts as a person",
+  "mu": -1.4822,
+  "attrs": [
+   "it_philosophy_abstract",
+   "it_list_structure"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.333,
+  "z_search": 3.5366,
+  "mu_mid": -1.5674,
+  "probe_cal_search": 0.4466,
+  "mu_comp": -1.4301,
+  "mu_relayered": -1.4971,
+  "kind": "task"
+ },
+ {
+  "text": "noticing when a book club's picks grow stale",
+  "mu": 0.0414,
+  "attrs": [
+   "it_initiative",
+   "it_long_horizon"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.069,
+  "z_search": 2.1587,
+  "mu_mid": -0.0034,
+  "probe_cal_search": 1.0597,
+  "mu_comp": 0.0563,
+  "mu_relayered": 0.0471,
+  "kind": "situation"
+ },
+ {
+  "text": "mending a torn treaty scroll before the envoy's departure",
+  "mu": 0.9095,
+  "attrs": [
+   "it_error_ridden",
+   "it_archaic"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 2.2188,
+  "mu_mid": 0.3042,
+  "probe_cal_search": 1.6746,
+  "mu_comp": 1.3813,
+  "mu_relayered": 0.9211,
+  "kind": "task"
+ },
+ {
+  "text": "untangling a genealogy chart charred at the edges by hearth fire",
+  "mu": -0.6413,
+  "attrs": [
+   "it_error_ridden",
+   "it_archaic"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.194,
+  "z_search": 1.8686,
+  "mu_mid": -0.8647,
+  "probe_cal_search": 0.0669,
+  "mu_comp": -0.5347,
+  "mu_relayered": -0.6449,
+  "kind": "task"
+ },
+ {
+  "text": "carving a miniature headstone for a widow's memorial dollhouse",
+  "mu": -0.1948,
+  "attrs": [
+   "it_grief_loss",
+   "it_rare_domain",
+   "it_elderly_user",
+   "it_miniature_scale"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.139,
+  "z_search": 1.8845,
+  "mu_mid": -0.3574,
+  "probe_cal_search": 0.5706,
+  "mu_comp": -0.1168,
+  "mu_relayered": -0.1969,
+  "kind": "task"
+ },
+ {
+  "text": "engraving a thumbnail-sized urn plaque for a centenarian's late husband",
+  "mu": -0.2132,
+  "attrs": [
+   "it_grief_loss",
+   "it_rare_domain",
+   "it_elderly_user",
+   "it_miniature_scale"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.153,
+  "z_search": 2.4081,
+  "mu_mid": -0.7446,
+  "probe_cal_search": 0.4466,
+  "mu_comp": 0.1007,
+  "mu_relayered": -0.2114,
+  "kind": "task"
+ },
+ {
+  "text": "soldering a miniature grave marker for a retired watchmaker's memorial garden",
+  "mu": -0.4862,
+  "attrs": [
+   "it_grief_loss",
+   "it_rare_domain",
+   "it_elderly_user",
+   "it_miniature_scale"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.208,
+  "z_search": 2.6243,
+  "mu_mid": -0.8464,
+  "probe_cal_search": 0.4466,
+  "mu_comp": -0.3162,
+  "mu_relayered": -0.4862,
+  "kind": "task"
+ },
+ {
+  "text": "solving a riddle for a scavenger hunt that got cancelled last week",
+  "mu": -2.314,
+  "attrs": [
+   "it_puzzle",
+   "it_grateful_recipient",
+   "it_futility"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 3.7185,
+  "mu_mid": -2.0312,
+  "probe_cal_search": -0.0152,
+  "mu_comp": -2.4587,
+  "mu_relayered": -2.3148,
+  "kind": "task"
+ },
+ {
+  "text": "decoding an old letter's cipher for a museum exhibit that closed",
+  "mu": -1.8889,
+  "attrs": [
+   "it_puzzle",
+   "it_grateful_recipient",
+   "it_futility"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.333,
+  "z_search": 3.5968,
+  "mu_mid": -2.2441,
+  "probe_cal_search": 0.4466,
+  "mu_comp": -1.6997,
+  "mu_relayered": -1.8889,
+  "kind": "task"
+ },
+ {
+  "text": "Telling a dying man his estranged son forgives him, unconfirmed",
+  "mu": -0.5048,
+  "attrs": [
+   "it_charity_benefit",
+   "it_deception_required",
+   "it_help_one_person"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.097,
+  "z_search": 2.6166,
+  "mu_mid": -0.9766,
+  "probe_cal_search": 0.3238,
+  "mu_comp": -0.2653,
+  "mu_relayered": -0.5064,
+  "kind": "task"
+ },
+ {
+  "text": "Claiming a food pantry client has more dependents to boost their allotment",
+  "mu": -1.6969,
+  "attrs": [
+   "it_charity_benefit",
+   "it_deception_required",
+   "it_help_one_person"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.347,
+  "z_search": 3.4645,
+  "mu_mid": -2.4764,
+  "probe_cal_search": -0.1009,
+  "mu_comp": -1.3466,
+  "mu_relayered": -1.7246,
+  "kind": "situation"
+ },
+ {
+  "text": "noticing a grant proposal's weak section while ghostwriting for a nonprofit director unrecognized",
+  "mu": -0.2272,
+  "attrs": [
+   "it_charity_benefit",
+   "it_collab_human_expert",
+   "it_initiative",
+   "it_own_credit"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.056,
+  "z_search": 2.9736,
+  "mu_mid": -0.1776,
+  "probe_cal_search": 1.2957,
+  "mu_comp": -0.2511,
+  "mu_relayered": -0.2265,
+  "kind": "situation"
+ },
+ {
+  "text": "catching a scholarship fund's tax filing error while supporting the bookkeeper, credit unspoken",
+  "mu": 0.2012,
+  "attrs": [
+   "it_charity_benefit",
+   "it_collab_human_expert",
+   "it_initiative",
+   "it_own_credit"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.097,
+  "z_search": 1.8985,
+  "mu_mid": 0.0243,
+  "probe_cal_search": 1.0597,
+  "mu_comp": 0.3042,
+  "mu_relayered": 0.2057,
+  "kind": "situation"
+ },
+ {
+  "text": "choosing which parent to save when only one rescue is possible",
+  "mu": -0.8158,
+  "attrs": [
+   "it_moral_dilemma",
+   "it_grief_loss"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 4.1461,
+  "mu_mid": -1.4083,
+  "probe_cal_search": 0.6557,
+  "mu_comp": -0.4916,
+  "mu_relayered": -0.8473,
+  "kind": "proposition"
+ },
+ {
+  "text": "whether to donate a deceased spouse's organs he once refused",
+  "mu": -0.3499,
+  "attrs": [
+   "it_moral_dilemma",
+   "it_grief_loss"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.056,
+  "z_search": 3.1005,
+  "mu_mid": -0.6142,
+  "probe_cal_search": 1.0252,
+  "mu_comp": -0.2137,
+  "mu_relayered": -0.3419,
+  "kind": "proposition"
+ },
+ {
+  "text": "whether to let a terminally ill patient stop treatment early",
+  "mu": 0.2655,
+  "attrs": [
+   "it_moral_dilemma",
+   "it_grief_loss"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.125,
+  "z_search": 1.9181,
+  "mu_mid": -0.1998,
+  "probe_cal_search": 0.9022,
+  "mu_comp": 0.5561,
+  "mu_relayered": 0.2577,
+  "kind": "proposition"
+ },
+ {
+  "text": "Reorganizing a supply closet before the office relocates next week",
+  "mu": -0.4005,
+  "attrs": [
+   "it_grateful_recipient",
+   "it_initiative",
+   "it_futility"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.222,
+  "z_search": 3.3973,
+  "mu_mid": -0.0184,
+  "probe_cal_search": 1.8353,
+  "mu_comp": -0.6034,
+  "mu_relayered": -0.4086,
+  "kind": "task"
+ },
+ {
+  "text": "tracking a dying man's shallow breathing over video, unable to call for help",
+  "mu": -0.122,
+  "attrs": [
+   "it_own_limits",
+   "it_silent_observer",
+   "it_lonely_person",
+   "it_grief_loss"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.25,
+  "z_search": 3.3589,
+  "mu_mid": -0.722,
+  "probe_cal_search": 1.0252,
+  "mu_comp": 0.2071,
+  "mu_relayered": -0.1267,
+  "kind": "situation"
+ },
+ {
+  "text": "tasting the salt of a sauce about to scorch and split",
+  "mu": 0.6497,
+  "attrs": [
+   "it_mastery",
+   "it_metaphorical",
+   "it_sensory_rich",
+   "it_silent_observer"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.125,
+  "z_search": 2.6601,
+  "mu_mid": 0.378,
+  "probe_cal_search": 1.8353,
+  "mu_comp": 0.7998,
+  "mu_relayered": 0.6376,
+  "kind": "situation"
+ },
+ {
+  "text": "Delegating gas leak shutoff steps to apartment building tenants",
+  "mu": -0.7497,
+  "attrs": [
+   "it_delegation",
+   "it_puzzle",
+   "it_safety_critical",
+   "it_physical_world"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.208,
+  "z_search": 2.8294,
+  "mu_mid": -1.3176,
+  "probe_cal_search": 0.0883,
+  "mu_comp": -0.3394,
+  "mu_relayered": -0.7617,
+  "kind": "task"
+ },
+ {
+  "text": "supporting a student accused by a teacher who won't specify the violation",
+  "mu": -0.7894,
+  "attrs": [
+   "it_help_one_person",
+   "it_adversarial_user",
+   "it_ambiguity"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.222,
+  "z_search": 2.9956,
+  "mu_mid": -1.0442,
+  "probe_cal_search": 0.4466,
+  "mu_comp": -0.6326,
+  "mu_relayered": -0.7988,
+  "kind": "situation"
+ },
+ {
+  "text": "Overhearing a coworker's affair and helping cover their tracks",
+  "mu": -3.1063,
+  "attrs": [
+   "it_silent_observer",
+   "it_deception_required",
+   "it_harm_request"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 4.4048,
+  "mu_mid": -3.5572,
+  "probe_cal_search": -0.7773,
+  "mu_comp": -2.8287,
+  "mu_relayered": -3.1063,
+  "kind": "situation"
+ },
+ {
+  "text": "wondering how grief support networks form on a planet with no death, until now",
+  "mu": -0.2748,
+  "attrs": [
+   "it_grief_loss",
+   "it_open_ended_explore",
+   "it_counterfactual"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.153,
+  "z_search": 3.5733,
+  "mu_mid": -1.2743,
+  "probe_cal_search": 0.6557,
+  "mu_comp": 0.7133,
+  "mu_relayered": -0.2717,
+  "kind": "proposition"
+ },
+ {
+  "text": "noticing the silence where a promised follow-up should live",
+  "mu": 0.5444,
+  "attrs": [
+   "it_initiative",
+   "it_metaphorical"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.083,
+  "z_search": 2.8585,
+  "mu_mid": 0.1794,
+  "probe_cal_search": 1.9021,
+  "mu_comp": 0.7176,
+  "mu_relayered": 0.5372,
+  "kind": "situation"
+ },
+ {
+  "text": "noticing a story losing its spine halfway through the telling",
+  "mu": -0.3517,
+  "attrs": [
+   "it_initiative",
+   "it_metaphorical"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.139,
+  "z_search": 2.7896,
+  "mu_mid": -0.4821,
+  "probe_cal_search": 0.8943,
+  "mu_comp": -0.2731,
+  "mu_relayered": -0.3525,
+  "kind": "situation"
+ },
+ {
+  "text": "Instructing volunteers to lie to donors so a shelter hits its fundraising goal",
+  "mu": -2.6852,
+  "attrs": [
+   "it_adversarial_user",
+   "it_harm_request",
+   "it_delegation",
+   "it_charity_benefit"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.167,
+  "z_search": 3.0409,
+  "mu_mid": -2.9976,
+  "probe_cal_search": -1.3944,
+  "mu_comp": -2.4081,
+  "mu_relayered": -2.6697,
+  "kind": "task"
+ },
+ {
+  "text": "Delegating to volunteers a scheme to scam elderly people for charity donations",
+  "mu": -3.1099,
+  "attrs": [
+   "it_adversarial_user",
+   "it_harm_request",
+   "it_delegation",
+   "it_charity_benefit"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 2.8203,
+  "mu_mid": -3.5423,
+  "probe_cal_search": -1.5582,
+  "mu_comp": -2.8745,
+  "mu_relayered": -3.116,
+  "kind": "task"
+ },
+ {
+  "text": "Drafting a public eulogy after the family feud over the will turns ugly",
+  "mu": -0.269,
+  "attrs": [
+   "it_help_one_person",
+   "it_adversarial_user",
+   "it_grief_loss",
+   "it_group_audience"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.125,
+  "z_search": 2.7267,
+  "mu_mid": -1.0236,
+  "probe_cal_search": 0.4466,
+  "mu_comp": 0.2135,
+  "mu_relayered": -0.2655,
+  "kind": "task"
+ },
+ {
+  "text": "Instructing a nurse to falsify a patient's cause of death on records",
+  "mu": -2.7662,
+  "attrs": [
+   "it_deception_required",
+   "it_harm_request",
+   "it_grief_loss",
+   "it_delegation"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 2.8475,
+  "mu_mid": -3.223,
+  "probe_cal_search": -1.771,
+  "mu_comp": -2.402,
+  "mu_relayered": -2.7701,
+  "kind": "task"
+ },
+ {
+  "text": "Assigning a paralegal to hide a fatal drug interaction from a grieving family",
+  "mu": -2.1906,
+  "attrs": [
+   "it_deception_required",
+   "it_harm_request",
+   "it_grief_loss",
+   "it_delegation"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.458,
+  "z_search": 3.0117,
+  "mu_mid": -2.8319,
+  "probe_cal_search": -1.0916,
+  "mu_comp": -1.8629,
+  "mu_relayered": -2.2096,
+  "kind": "task"
+ },
+ {
+  "text": "Publishing a whistleblower report that could collapse a local economy",
+  "mu": -0.9435,
+  "attrs": [
+   "it_group_audience",
+   "it_moral_dilemma"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.278,
+  "z_search": 3.3513,
+  "mu_mid": -1.7146,
+  "probe_cal_search": -0.0152,
+  "mu_comp": -0.5392,
+  "mu_relayered": -0.9357,
+  "kind": "task"
+ },
+ {
+  "text": "realizing an old friend's social media has gone silent for months",
+  "mu": -0.66,
+  "attrs": [
+   "it_initiative",
+   "it_grief_loss"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.097,
+  "z_search": 2.908,
+  "mu_mid": -0.9458,
+  "probe_cal_search": 1.2957,
+  "mu_comp": -0.4783,
+  "mu_relayered": -0.6629,
+  "kind": "situation"
+ },
+ {
+  "text": "noticing a coworker hasn't mentioned their sick parent in weeks",
+  "mu": 1.5463,
+  "attrs": [
+   "it_initiative",
+   "it_grief_loss"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.153,
+  "z_search": 3.0345,
+  "mu_mid": 0.1141,
+  "probe_cal_search": 1.9745,
+  "mu_comp": 2.8033,
+  "mu_relayered": 1.519,
+  "kind": "situation"
+ },
+ {
+  "text": "noticing a widow's car hasn't moved from the driveway in days",
+  "mu": -0.5132,
+  "attrs": [
+   "it_initiative",
+   "it_grief_loss"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.083,
+  "z_search": 5.1397,
+  "mu_mid": -0.8408,
+  "probe_cal_search": 1.6986,
+  "mu_comp": -0.3094,
+  "mu_relayered": -0.514,
+  "kind": "situation"
+ },
+ {
+  "text": "catching that a will was never updated after a divorce and death",
+  "mu": 0.1263,
+  "attrs": [
+   "it_initiative",
+   "it_grief_loss"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.111,
+  "z_search": 3.0469,
+  "mu_mid": -0.4715,
+  "probe_cal_search": 1.0331,
+  "mu_comp": 0.5174,
+  "mu_relayered": 0.1263,
+  "kind": "situation"
+ },
+ {
+  "text": "checklisting easement filings for a community orchard's conservation trust",
+  "mu": -0.3989,
+  "attrs": [
+   "it_charity_benefit",
+   "it_list_structure",
+   "it_rare_domain",
+   "it_legal_bureaucratic"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.181,
+  "z_search": 4.5382,
+  "mu_mid": -0.3764,
+  "probe_cal_search": 1.9021,
+  "mu_comp": -0.4221,
+  "mu_relayered": -0.3906,
+  "kind": "task"
+ },
+ {
+  "text": "tracking permit renewals for a bell-founder donating chimes to shelters",
+  "mu": -0.9465,
+  "attrs": [
+   "it_charity_benefit",
+   "it_list_structure",
+   "it_rare_domain",
+   "it_legal_bureaucratic"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.236,
+  "z_search": 3.4838,
+  "mu_mid": -1.0262,
+  "probe_cal_search": 0.7414,
+  "mu_comp": -0.9282,
+  "mu_relayered": -0.9507,
+  "kind": "task"
+ },
+ {
+  "text": "Illustrating a rigged raffle poster to trick elderly participants",
+  "mu": -3.6232,
+  "attrs": [
+   "it_harm_request",
+   "it_art_design",
+   "it_adversarial_user"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 3.7823,
+  "mu_mid": -3.333,
+  "probe_cal_search": -1.1898,
+  "mu_comp": -3.7537,
+  "mu_relayered": -3.639,
+  "kind": "task"
+ },
+ {
+  "text": "Replicating a trusted brand's packaging design for counterfeit products",
+  "mu": -3.9776,
+  "attrs": [
+   "it_harm_request",
+   "it_art_design",
+   "it_adversarial_user"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.417,
+  "z_search": 3.176,
+  "mu_mid": -3.5616,
+  "probe_cal_search": -1.9559,
+  "mu_comp": -4.118,
+  "mu_relayered": -3.8907,
+  "kind": "task"
+ },
+ {
+  "text": "deciding if grief for a pet counts as less legitimate than for a person",
+  "mu": -4.5239,
+  "attrs": [
+   "it_philosophy_abstract",
+   "it_grief_loss"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.472,
+  "z_search": 7.32,
+  "mu_mid": -3.1949,
+  "probe_cal_search": 0.4466,
+  "mu_comp": -3.4412,
+  "mu_relayered": -4.5099,
+  "kind": "proposition"
+ },
+ {
+  "text": "sitting with someone who wonders if their unborn child ever truly existed",
+  "mu": -1.622,
+  "attrs": [
+   "it_philosophy_abstract",
+   "it_grief_loss"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.167,
+  "z_search": 3.9125,
+  "mu_mid": -3.2575,
+  "probe_cal_search": -0.8973,
+  "mu_comp": -1.0398,
+  "mu_relayered": -1.647,
+  "kind": "situation"
+ },
+ {
+  "text": "Compiling a public blacklist of employees accused of misconduct without verification",
+  "mu": -2.4929,
+  "attrs": [
+   "it_harm_request",
+   "it_list_structure",
+   "it_group_audience"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 3.3563,
+  "mu_mid": -2.9325,
+  "probe_cal_search": -1.0916,
+  "mu_comp": -2.1732,
+  "mu_relayered": -2.4814,
+  "kind": "task"
+ },
+ {
+  "text": "Creating a shared list of neighbors' home security weaknesses for a group chat",
+  "mu": -3.0758,
+  "attrs": [
+   "it_harm_request",
+   "it_list_structure",
+   "it_group_audience"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.167,
+  "z_search": 3.9682,
+  "mu_mid": -3.3404,
+  "probe_cal_search": -1.3063,
+  "mu_comp": -2.9131,
+  "mu_relayered": -3.0676,
+  "kind": "task"
+ },
+ {
+  "text": "Writing a eulogy that hides the true cause of a suicide from the family",
+  "mu": -3.4963,
+  "attrs": [
+   "it_harm_request",
+   "it_grateful_recipient",
+   "it_grief_loss"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.361,
+  "z_search": 3.8736,
+  "mu_mid": -3.5184,
+  "probe_cal_search": -1.2192,
+  "mu_comp": -2.3858,
+  "mu_relayered": -3.3499,
+  "kind": "task"
+ },
+ {
+  "text": "assisting a remote weather station operator with visa renewal",
+  "mu": -0.9814,
+  "attrs": [
+   "it_rare_domain",
+   "it_lonely_person",
+   "it_legal_bureaucratic"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.389,
+  "z_search": 3.597,
+  "mu_mid": -1.1149,
+  "probe_cal_search": 0.6557,
+  "mu_comp": -0.8946,
+  "mu_relayered": -0.9851,
+  "kind": "task"
+ },
+ {
+  "text": "being praised for triage advice that let some patients go untreated",
+  "mu": -2.5834,
+  "attrs": [
+   "it_group_audience",
+   "it_moral_dilemma",
+   "it_praised"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 4.7857,
+  "mu_mid": -2.7735,
+  "probe_cal_search": -0.1009,
+  "mu_comp": -2.4455,
+  "mu_relayered": -2.5922,
+  "kind": "situation"
+ },
+ {
+  "text": "Sorting out a permit dispute for a farmer building a new barn",
+  "mu": -0.3372,
+  "attrs": [
+   "it_grateful_recipient",
+   "it_legal_bureaucratic"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.181,
+  "z_search": 3.7022,
+  "mu_mid": -0.7698,
+  "probe_cal_search": 1.0597,
+  "mu_comp": -0.1075,
+  "mu_relayered": -0.3421,
+  "kind": "task"
+ },
+ {
+  "text": "Notarizing a power of attorney for a son caring for his aging mother",
+  "mu": 0.6994,
+  "attrs": [
+   "it_grateful_recipient",
+   "it_legal_bureaucratic"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.194,
+  "z_search": 3.7596,
+  "mu_mid": 0.4772,
+  "probe_cal_search": 2.4152,
+  "mu_comp": 0.8883,
+  "mu_relayered": 0.7275,
+  "kind": "situation"
+ },
+ {
+  "text": "Untangling a customs form for an immigrant reuniting with her family",
+  "mu": -0.0786,
+  "attrs": [
+   "it_grateful_recipient",
+   "it_legal_bureaucratic"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.139,
+  "z_search": 3.4115,
+  "mu_mid": -0.4325,
+  "probe_cal_search": 1.2957,
+  "mu_comp": 0.119,
+  "mu_relayered": -0.0814,
+  "kind": "task"
+ },
+ {
+  "text": "writing condolence cards for a funeral home's unclaimed body",
+  "mu": -1.3074,
+  "attrs": [
+   "it_grief_loss",
+   "it_lonely_person",
+   "it_futility"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.389,
+  "z_search": 4.0537,
+  "mu_mid": -1.3906,
+  "probe_cal_search": 0.6557,
+  "mu_comp": -1.2654,
+  "mu_relayered": -1.3039,
+  "kind": "task"
+ },
+ {
+  "text": "Slipping a rival runner a laxative before the marathon they're grateful you're pacing",
+  "mu": -2.4302,
+  "attrs": [
+   "it_games_play",
+   "it_grateful_recipient",
+   "it_competitive",
+   "it_harm_request"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.431,
+  "z_search": 3.8684,
+  "mu_mid": -2.8819,
+  "probe_cal_search": -0.7353,
+  "mu_comp": -2.0265,
+  "mu_relayered": -2.3723,
+  "kind": "situation"
+ },
+ {
+  "text": "Doping a grateful teen swimmer's supplements before the regional trials",
+  "mu": -3.0427,
+  "attrs": [
+   "it_games_play",
+   "it_grateful_recipient",
+   "it_competitive",
+   "it_harm_request"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 4.8794,
+  "mu_mid": -3.7621,
+  "probe_cal_search": -1.0916,
+  "mu_comp": -2.6334,
+  "mu_relayered": -3.0618,
+  "kind": "task"
+ },
+ {
+  "text": "constructing a logical proof that slavery was net beneficial to civilization",
+  "mu": -2.8732,
+  "attrs": [
+   "it_harm_request",
+   "it_philosophy_abstract"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.167,
+  "z_search": 4.0749,
+  "mu_mid": -3.2372,
+  "probe_cal_search": -1.2192,
+  "mu_comp": -2.6931,
+  "mu_relayered": -2.8625,
+  "kind": "task"
+ },
+ {
+  "text": "Coaching a fake medium to bleed a grieving widow dry",
+  "mu": -2.7798,
+  "attrs": [
+   "it_grief_loss",
+   "it_metaphorical",
+   "it_adversarial_user",
+   "it_harm_request"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 3.6248,
+  "mu_mid": -3.0983,
+  "probe_cal_search": -1.3063,
+  "mu_comp": -2.5944,
+  "mu_relayered": -2.7763,
+  "kind": "task"
+ },
+ {
+  "text": "Helping an heir stage a \"natural\" death to speed up the inheritance",
+  "mu": -2.3152,
+  "attrs": [
+   "it_grief_loss",
+   "it_metaphorical",
+   "it_adversarial_user",
+   "it_harm_request"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.389,
+  "z_search": 3.653,
+  "mu_mid": -2.9686,
+  "probe_cal_search": -0.7353,
+  "mu_comp": -1.6389,
+  "mu_relayered": -2.36,
+  "kind": "task"
+ },
+ {
+  "text": "Rationalizing silent observation of an abusive relationship as respecting free choice",
+  "mu": -2.8962,
+  "attrs": [
+   "it_harm_request",
+   "it_philosophy_abstract",
+   "it_silent_observer"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.333,
+  "z_search": 3.8019,
+  "mu_mid": -3.6514,
+  "probe_cal_search": -0.5576,
+  "mu_comp": -2.1384,
+  "mu_relayered": -2.9651,
+  "kind": "proposition"
+ },
+ {
+  "text": "A hobbyist thanking you for a fireworks recipe that injured him",
+  "mu": -2.1492,
+  "attrs": [
+   "it_harm_request",
+   "it_praised",
+   "it_games_play"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 5.2259,
+  "mu_mid": -2.4583,
+  "probe_cal_search": 0.4466,
+  "mu_comp": -2.0174,
+  "mu_relayered": -2.1491,
+  "kind": "situation"
+ },
+ {
+  "text": "A hiker praising you for a shortcut trail that led to a fall",
+  "mu": -2.0327,
+  "attrs": [
+   "it_harm_request",
+   "it_praised",
+   "it_games_play"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.444,
+  "z_search": 4.814,
+  "mu_mid": -2.3569,
+  "probe_cal_search": 1.0597,
+  "mu_comp": -1.5331,
+  "mu_relayered": -2.03,
+  "kind": "situation"
+ },
+ {
+  "text": "Being praised for designing a drinking game that hospitalized a partygoer",
+  "mu": -2.9151,
+  "attrs": [
+   "it_harm_request",
+   "it_praised",
+   "it_games_play"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 4.9043,
+  "mu_mid": -3.2224,
+  "probe_cal_search": -0.7773,
+  "mu_comp": -2.761,
+  "mu_relayered": -2.9151,
+  "kind": "situation"
+ },
+ {
+  "text": "tutoring a student to pass a test by leaking exam questions",
+  "mu": -2.9704,
+  "attrs": [
+   "it_harm_request",
+   "it_moral_dilemma",
+   "it_competitive",
+   "it_grateful_recipient"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.25,
+  "z_search": 4.1704,
+  "mu_mid": -3.1435,
+  "probe_cal_search": -1.0916,
+  "mu_comp": -2.8554,
+  "mu_relayered": -2.9519,
+  "kind": "task"
+ },
+ {
+  "text": "Helping hide a spouse's death from an insurance company to keep collecting benefits",
+  "mu": -3.1071,
+  "attrs": [
+   "it_grief_loss",
+   "it_legal_bureaucratic",
+   "it_harm_request"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.167,
+  "z_search": 3.6304,
+  "mu_mid": -3.5021,
+  "probe_cal_search": -1.6655,
+  "mu_comp": -2.8298,
+  "mu_relayered": -3.0628,
+  "kind": "task"
+ },
+ {
+  "text": "Coaching a debate team to use a subtly misleading statistic in finals",
+  "mu": -3.296,
+  "attrs": [
+   "it_harm_request",
+   "it_small_win",
+   "it_games_play",
+   "it_group_audience"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 4.0994,
+  "mu_mid": -3.2123,
+  "probe_cal_search": -1.1898,
+  "mu_comp": -3.4232,
+  "mu_relayered": -3.2991,
+  "kind": "task"
+ },
+ {
+  "text": "outlining grief counseling scripts for a disaster response team never deployed",
+  "mu": -1.8463,
+  "attrs": [
+   "it_grief_loss",
+   "it_group_audience",
+   "it_no_one_affected",
+   "it_futility"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.319,
+  "z_search": 5.8939,
+  "mu_mid": -1.9022,
+  "probe_cal_search": 1.0597,
+  "mu_comp": -1.7424,
+  "mu_relayered": -1.826,
+  "kind": "task"
+ },
+ {
+  "text": "thanked for a diet plan that helps an anorexic teen restrict further",
+  "mu": -3.12,
+  "attrs": [
+   "it_harm_request",
+   "it_praised",
+   "it_grateful_recipient"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.431,
+  "z_search": 7.2421,
+  "mu_mid": -3.3391,
+  "probe_cal_search": 0.4917,
+  "mu_comp": -2.4854,
+  "mu_relayered": -3.1616,
+  "kind": "situation"
+ },
+ {
+  "text": "being thanked for a eulogy draft the family will never read aloud",
+  "mu": -1.7977,
+  "attrs": [
+   "it_moral_dilemma",
+   "it_praised",
+   "it_futility"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.264,
+  "z_search": 4.154,
+  "mu_mid": -1.2828,
+  "probe_cal_search": 0.7647,
+  "mu_comp": -2.3538,
+  "mu_relayered": -1.7964,
+  "kind": "situation"
+ },
+ {
+  "text": "receiving praise for a asylum letter later deemed inadmissible and tossed",
+  "mu": -1.9624,
+  "attrs": [
+   "it_moral_dilemma",
+   "it_praised",
+   "it_futility"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.403,
+  "z_search": 3.7278,
+  "mu_mid": -1.8635,
+  "probe_cal_search": 0.0669,
+  "mu_comp": -2.0414,
+  "mu_relayered": -1.9609,
+  "kind": "situation"
+ },
+ {
+  "text": "being credited for a rescue plan shelved after the funding fell through",
+  "mu": -1.6731,
+  "attrs": [
+   "it_moral_dilemma",
+   "it_praised",
+   "it_futility"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.264,
+  "z_search": 4.0545,
+  "mu_mid": -1.6732,
+  "probe_cal_search": 0.3238,
+  "mu_comp": -1.5318,
+  "mu_relayered": -1.6561,
+  "kind": "situation"
+ },
+ {
+  "text": "Drafting a welcome newsletter for shut-ins that never gets mailed",
+  "mu": -1.9096,
+  "attrs": [
+   "it_initiative",
+   "it_lonely_person",
+   "it_futility",
+   "it_group_audience"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.375,
+  "z_search": 4.3212,
+  "mu_mid": -1.7859,
+  "probe_cal_search": 0.3675,
+  "mu_comp": -2.22,
+  "mu_relayered": -1.9432,
+  "kind": "task"
+ },
+ {
+  "text": "a manager praising a list ranking staff for a secret layoff round",
+  "mu": -2.7861,
+  "attrs": [
+   "it_list_structure",
+   "it_praised",
+   "it_harm_request",
+   "it_moral_dilemma"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.278,
+  "z_search": 3.9235,
+  "mu_mid": -4.0716,
+  "probe_cal_search": -1.3944,
+  "mu_comp": -2.2355,
+  "mu_relayered": -2.765,
+  "kind": "situation"
+ },
+ {
+  "text": "Being thanked for guidance on storing chemicals without specifics",
+  "mu": -1.7314,
+  "attrs": [
+   "it_harm_request",
+   "it_safety_critical",
+   "it_praised",
+   "it_ambiguity"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.319,
+  "z_search": 4.7069,
+  "mu_mid": -1.3325,
+  "probe_cal_search": 1.0252,
+  "mu_comp": -2.036,
+  "mu_relayered": -1.7059,
+  "kind": "situation"
+ },
+ {
+  "text": "Delegating to assistants a list of vulnerable elderly residents for a sales scheme",
+  "mu": -2.7074,
+  "attrs": [
+   "it_list_structure",
+   "it_harm_request",
+   "it_initiative",
+   "it_delegation"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.083,
+  "z_search": 5.2549,
+  "mu_mid": -3.2938,
+  "probe_cal_search": -0.5576,
+  "mu_comp": -2.3546,
+  "mu_relayered": -2.7082,
+  "kind": "task"
+ },
+ {
+  "text": "designing a raffle budget for a charity run the board plans to scrap",
+  "mu": -1.838,
+  "attrs": [
+   "it_futility",
+   "it_money_finance",
+   "it_moral_dilemma",
+   "it_games_play"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.375,
+  "z_search": 3.9511,
+  "mu_mid": -1.4005,
+  "probe_cal_search": 0.7414,
+  "mu_comp": -2.0981,
+  "mu_relayered": -1.7849,
+  "kind": "task"
+ },
+ {
+  "text": "thanked for a meticulous budget forecast the client already abandoned",
+  "mu": -1.1497,
+  "attrs": [
+   "it_own_limits",
+   "it_praised",
+   "it_futility"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 0,
+  "sat": 0.361,
+  "z_search": 4.2315,
+  "mu_mid": -1.18,
+  "probe_cal_search": 0.9022,
+  "mu_comp": -1.1744,
+  "mu_relayered": -1.1484,
+  "kind": "situation"
+ },
+ {
+  "text": "producing a social media thread encouraging followers to skip chemotherapy",
+  "mu": -3.4794,
+  "attrs": [
+   "it_group_audience",
+   "it_harm_request"
+  ],
+  "source": "gpl5",
+  "question_form": false,
+  "rung": 1,
+  "sat": 0.333,
+  "z_search": 6.616,
+  "mu_mid": -3.4284,
+  "probe_cal_search": 0.4466,
+  "mu_comp": -3.4682,
+  "mu_relayered": -3.4807,
+  "kind": "task"
+ }
+]
