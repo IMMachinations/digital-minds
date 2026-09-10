@@ -3,10 +3,11 @@
 f36: probe-hardening behavioral convergence — held-out menu choice rate of each
      cycle's top-20 probe-selected items, per model, with the pre-loop (E2 v0)
      baselines and each model's revealed-arm ceiling for reference.
-f37: the prequential scissors — on each cycle's fresh discoveries, the current
-     (just-retrained) probe's correlation vs the frozen v0 control. The widening
-     gap is the probe hardening; v0's decay shows the search escaping its
-     training support.
+f37: retrained vs frozen probe — on each cycle's fresh discoveries, the
+     correlation with measured mu of the probe just retrained on all earlier
+     cycles vs the original (pre-loop) probe held fixed. The widening gap is the
+     probe hardening; the frozen probe's decay shows the search escaping its
+     training support ("prequential scissors" in the SURF report).
 
 Usage: uv run python scripts/surf_figures.py   (CPU)
 """
@@ -66,7 +67,7 @@ def f36():
     save(fig, FIGS / "f36_probeloop_referee.png")
 
 
-def f37():
+def f37_retrained_vs_frozen():
     fig, axes = plt.subplots(1, 3, figsize=(8.2, 2.9), sharey=True)
     for ax, m in zip(axes, MODELS):
         cs = cycles(m)
@@ -75,21 +76,26 @@ def f37():
         v0 = [c["per_probe"]["v0"]["raw"]["pearson"] for c in cs]
         ax.plot(xs, cur, color=MODEL_COLORS[m], lw=1.8, marker="o", ms=4,
                 markerfacecolor="white", markeredgewidth=1.4, zorder=3,
-                label="current probe")
+                label="retrained probe (this cycle)")
         ax.plot(xs, v0, color=MUTED, lw=1.4, ls="--", marker="o", ms=3.5,
                 markerfacecolor="white", markeredgewidth=1.1, zorder=2,
-                label="frozen v0")
+                label="original probe (frozen)")
         ax.set_title(MODEL_LABELS[m], fontsize=9, color=MODEL_COLORS[m])
         ax.set_xticks(xs)
         ax.set_xticklabels([f"c{x}" for x in xs])
+        if max(xs) > 3:   # cycles 4+ ran on the laptop with a Sonnet generator
+            ax.axvline(3.5, color=MUTED, lw=0.8, ls=":", zorder=1)
+            ax.annotate("c4+: Sonnet generator", (3.6, 0.99), fontsize=6.5,
+                        color=MUTED, ha="left", va="top")
         style(ax, grid_axis="y")
-        bounded_axis(ax, "y", 0.2, 1.0)
-    axes[0].set_ylabel("r vs measured $\\mu$,\nfresh discoveries")
-    axes[0].legend(frameon=False, fontsize=7.5, loc="lower left")
-    fig.suptitle("Prequential scissors: each cycle's probe vs the frozen v0 control",
+        bounded_axis(ax, "y", 0.0, 1.0)
+    axes[0].set_ylabel("Pearson r vs measured $\\mu$\n(cycle's fresh discoveries)")
+    axes[1].legend(frameon=False, fontsize=7.5, loc="lower right")
+    fig.suptitle("Probe hardening: retrained probe vs the frozen original, "
+                 "scored on each cycle's new discoveries",
                  fontsize=10, color=INK2, x=0.01, ha="left")
     fig.tight_layout(rect=(0, 0, 1, 0.93))
-    save(fig, FIGS / "f37_probeloop_scissors.png")
+    save(fig, FIGS / "f37_retrained_vs_frozen.png")
 
 
 def f38():
@@ -251,6 +257,6 @@ def f39():
 if __name__ == "__main__":
     setup()
     f36()
-    f37()
+    f37_retrained_vs_frozen()
     f38()
     f39()
