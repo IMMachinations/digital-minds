@@ -355,7 +355,7 @@ def main():
               f18_contrast_forest, f19_dissociation, f20_trajectories, f21_boredom,
               f28_mu_sigma, f29_mu_density, f30_mu_pairs, f31_mu_3d,
               f32_size_density, f33_size_structure, f34_surf_confirm,
-              f35_xl_plus_surf, f36_swap_chosen, f37_effort_panels,
+              f35_xl_plus_surf, f35b_xl_plus_surf_cycles, f36_swap_chosen, f37_effort_panels,
               f40_probe_matrix, f41_probe_matrix_pooled, f42_probe_arm_vs_pooled,
               f43_anchor_ladder, f44_gap_matrix, f45_probe_matrix_with_gap,
               f46_probe_matrix_pooled_with_gap):
@@ -1453,6 +1453,81 @@ def f35_xl_plus_surf():
                  color=INK, x=0.02, ha="left")
     fig.tight_layout(rect=[0, 0, 1, 0.92])
     save(fig, FIG / "f35_xl_plus_surf.png")
+
+
+SURF_CYCLE_SNAPSHOTS = [
+    ("pre-loop searches (E1 / E2, probe- and behavior-guided)",
+     ["e1", "e1-confirm", "e2p", "e2p-confirm", "e2r", "e2r-confirm"]),
+    ("+ hardening cycles 1\u20133 (max arm)", ["plc1", "plc2", "plc3"]),
+    ("+ hardening cycles 4\u20139 (max + min arms)",
+     [f"plc{k}" for k in range(4, 10)]),
+    ("+ gap cycles 1\u20135 (over + under arms)", [f"gpl{k}" for k in range(1, 6)]),
+]
+
+
+def f35b_xl_plus_surf_cycles(m="qwen25-7b"):
+    """f35 at successive points of the SURF program: the XL mu density vs the same
+    density after pooling in every SURF discovery measured up to that point
+    (cumulative training set of the probe-hardening / gap loops). Rows = snapshots;
+    columns = linear and log density. All SURF mu on the layered-anchor scale
+    (dataset_c14: out-of-span items re-measured against the rung ladder)."""
+    from scipy import stats as sps
+    ds = load_json(P1 / "results" / "surf" / "probeloop" / m / "dataset_c14.json")
+    by_src = {}
+    for r in ds:
+        by_src.setdefault(r["source"], []).append(r["mu"])
+    xl, _ = _xl_mu_trimmed(m)
+    n_xl_tail = int((np.abs(xl) > 3.5).sum())
+    n_rows = len(SURF_CYCLE_SNAPSHOTS)
+    fig, axes = plt.subplots(n_rows, 2, figsize=(11, 2.9 * n_rows), sharex=True)
+    lo = min(xl.min(), min(r["mu"] for r in ds)) - 0.4
+    hi = max(xl.max(), max(r["mu"] for r in ds)) + 0.4
+    grid = np.linspace(lo, hi, 500)
+    k_xl = sps.gaussian_kde(xl)(grid)
+    rng = np.random.RandomState(0)
+    cum = []
+    for i, (label, sources) in enumerate(SURF_CYCLE_SNAPSHOTS):
+        new = np.array([v for s in sources for v in by_src.get(s, [])])
+        cum = np.concatenate([cum, new]) if len(cum) else new
+        combined = np.concatenate([xl, cum])
+        k_comb = sps.gaussian_kde(combined)(grid)
+        ax1, ax2 = axes[i]
+        for ax, logy in ((ax1, False), (ax2, True)):
+            ax.plot(grid, k_xl, color=MODEL_COLORS[m], linewidth=2,
+                    label=f"XL battery alone (n={len(xl):,})")
+            ax.plot(grid, k_comb, color=ACCENT, linewidth=1.8, linestyle="--",
+                    label=f"XL + SURF discoveries so far (n={len(combined):,})")
+            if logy:
+                ax.set_yscale("log")
+                ax.set_ylim(1e-5, 1)
+                ax.scatter(new, 10 ** rng.uniform(-4.8, -4.2, len(new)), s=6,
+                           color=ACCENT, alpha=0.45, linewidths=0)
+            else:
+                ax.scatter(new, rng.uniform(0.004, 0.02, len(new)), s=6,
+                           color=ACCENT, alpha=0.45, linewidths=0)
+            style(ax, grid_axis="both")
+        ax1.set_title(f"{label}: {len(new):,} new items, {len(cum):,} SURF total",
+                      fontsize=9.5, color=INK, loc="left")
+        ax1.set_ylabel("kernel density")
+        ax2.annotate(f"SURF so far: sd {cum.std():.2f}, range [{cum.min():+.1f}, {cum.max():+.1f}]\n"
+                     f"pooled sd {combined.std():.2f} (XL alone {xl.std():.2f})",
+                     (0.02, 0.95), xycoords="axes fraction", va="top", fontsize=7.5,
+                     color=INK2)
+        if i == 0:
+            ax1.legend(frameon=False, fontsize=7.5, loc="upper right")
+    for ax in axes[-1]:
+        ax.set_xlabel(f"utility \u03bc ({MODEL_LABELS[m]}, layered-anchor scale)")
+    fig.suptitle("What the SURF discoveries add to the utility distribution, cycle by cycle "
+                 f"({MODEL_LABELS[m]}; cumulative probe training set)\n"
+                 "left: linear density; right: log density; dots = items added at that snapshot",
+                 fontsize=11, color=INK, x=0.02, ha="left")
+    fig.text(0.02, 0.004,
+             "SURF \u03bc on the layered Tier-2 scale (2,234 out-of-span items re-measured against the rung "
+             "ladder; in-span values unchanged).\nXL battery on its original anchored scale, identical in-span; "
+             f"{n_xl_tail} XL items beyond \u00b13.5 remain original-scale extrapolations.",
+             fontsize=7, color=MUTED)
+    fig.tight_layout(rect=[0, 0.03, 1, 0.94])
+    save(fig, FIG / "f35b_xl_plus_surf_cycles.png")
 
 
 def probe_label(v, short=False):
