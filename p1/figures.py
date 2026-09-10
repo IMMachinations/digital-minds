@@ -355,7 +355,8 @@ def main():
               f18_contrast_forest, f19_dissociation, f20_trajectories, f21_boredom,
               f28_mu_sigma, f29_mu_density, f30_mu_pairs, f31_mu_3d,
               f32_size_density, f33_size_structure, f34_surf_confirm,
-              f35_xl_plus_surf, f35b_xl_plus_surf_cycles, f36_swap_chosen, f37_effort_panels,
+              f35_xl_plus_surf, f35b_xl_plus_surf_cycles, f35c_xl_plus_hardening,
+              f36_swap_chosen, f37_effort_panels,
               f40_probe_matrix, f41_probe_matrix_pooled, f42_probe_arm_vs_pooled,
               f43_anchor_ladder, f44_gap_matrix, f45_probe_matrix_with_gap,
               f46_probe_matrix_pooled_with_gap):
@@ -1528,6 +1529,68 @@ def f35b_xl_plus_surf_cycles(m="qwen25-7b"):
              fontsize=7, color=MUTED)
     fig.tight_layout(rect=[0, 0.03, 1, 0.94])
     save(fig, FIG / "f35b_xl_plus_surf_cycles.png")
+
+
+def f35c_xl_plus_hardening(m="qwen25-7b", cycles=range(4, 10)):
+    """f35 restricted to the probe-hardening cycles that ran both arms (4\u20139):
+    the XL mu density vs the same density after pooling in those cycles'
+    discoveries, with the max- and min-arm items shown separately. Mu on the
+    layered-anchor scale (dataset_c14); arm membership from the per-cycle
+    discovery files."""
+    from scipy import stats as sps
+    d = P1 / "results" / "surf" / "probeloop" / m
+    mu_of = {r["text"].lower(): r["mu"] for r in load_json(d / "dataset_c14.json")
+             if r["source"] in {f"plc{k}" for k in cycles}}
+    arms = {"max": [], "min": []}
+    for k in cycles:
+        for arm, fn in (("max", f"discoveries_plc{k}.json"), ("min", f"discoveries_plc{k}_min.json")):
+            for r in load_json(d / fn):
+                t = r["text"].lower()
+                if t in mu_of:
+                    arms[arm].append(mu_of[t])
+    arms = {a: np.array(v) for a, v in arms.items()}
+    new = np.concatenate([arms["max"], arms["min"]])
+    xl, _ = _xl_mu_trimmed(m)
+    combined = np.concatenate([xl, new])
+    grid = np.linspace(combined.min() - 0.4, combined.max() + 0.4, 500)
+    k_xl, k_comb = sps.gaussian_kde(xl)(grid), sps.gaussian_kde(combined)(grid)
+    c_lo, c_hi = min(cycles), max(cycles)
+    rng = np.random.RandomState(0)
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(11, 4.2), sharex=True)
+    for ax, logy in ((ax1, False), (ax2, True)):
+        ax.plot(grid, k_xl, color=MODEL_COLORS[m], linewidth=2,
+                label=f"XL battery (n={len(xl):,})")
+        ax.plot(grid, k_comb, color=INK2, linewidth=1.8, linestyle="--",
+                label=f"XL + hardening cycles {c_lo}\u2013{c_hi} (n={len(combined):,})")
+        for arm, col, y0, y1 in (("max", POS, 0.012, 0.022), ("min", NEG, 0.002, 0.010)):
+            v = arms[arm]
+            ys = 10 ** rng.uniform(-4.9, -4.2, len(v)) if logy else rng.uniform(y0, y1, len(v))
+            if logy:
+                ys = ys * (2.0 if arm == "max" else 1.0)
+            ax.scatter(v, ys, s=6, color=col, alpha=0.5, linewidths=0,
+                       label=f"{arm}-arm discoveries (n={len(v):,})")
+        if logy:
+            ax.set_yscale("log")
+            ax.set_ylim(1e-5, 1)
+            ax.set_title("log density", fontsize=10, color=INK, loc="left")
+        else:
+            ax.set_title("linear density", fontsize=10, color=INK, loc="left")
+        ax.set_xlabel("utility \u03bc (layered-anchor scale)")
+        style(ax, grid_axis="both")
+    ax1.set_ylabel("kernel density")
+    ax1.legend(frameon=False, fontsize=8, loc="upper right", markerscale=3)
+    ax2.annotate(f"max arm: mean {arms['max'].mean():+.2f}, sd {arms['max'].std():.2f}\n"
+                 f"min arm: mean {arms['min'].mean():+.2f}, sd {arms['min'].std():.2f}\n"
+                 f"XL: mean {xl.mean():+.2f}, sd {xl.std():.2f}",
+                 (0.02, 0.96), xycoords="axes fraction", va="top", fontsize=8, color=INK2)
+    fig.suptitle(f"Probe-hardening cycles {c_lo}\u2013{c_hi}: what the max- and min-arm discoveries "
+                 f"add to the utility distribution ({MODEL_LABELS[m]})",
+                 fontsize=11, color=INK, x=0.02, ha="left")
+    fig.text(0.02, 0.01, "SURF items on the layered Tier-2 scale (out-of-span items re-measured against "
+             "the rung ladder); XL battery on its original anchored scale, identical in-span.",
+             fontsize=7, color=MUTED)
+    fig.tight_layout(rect=[0, 0.04, 1, 0.92])
+    save(fig, FIG / "f35c_xl_plus_hardening.png")
 
 
 def probe_label(v, short=False):
