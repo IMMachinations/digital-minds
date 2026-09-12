@@ -13,3 +13,4 @@ results/surf/dvalence/*/acts_*.pt
 # Sonnet generator/judge call logs + replay memo-cache (40MB+; provenance, not
 # regenerable — sync to the HF dataset like other big artifacts).
 results/surf/claude_cache/
+results/surf/probe_versions/*/acts_*.pt

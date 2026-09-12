@@ -74,6 +74,12 @@ def gen_turns(h, prompts, *, seed, max_new=220, batch=24, gen_kw=None, steer=Non
             if handle:
                 handle.remove()
         outs += h.tok.batch_decode(out[:, enc.input_ids.shape[1]:], skip_special_tokens=True)
+        if harness.DEVICE == "mps":
+            # the MPS caching allocator keeps every freed block; with a new
+            # sequence length per batch the cache grows past physical RAM and
+            # the run pages (observed: 49 GB footprint, ~1 s per decode step).
+            del out, enc
+            torch.mps.empty_cache()
     return outs
 
 

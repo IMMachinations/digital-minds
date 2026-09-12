@@ -1,0 +1,18 @@
+qwen25-7b E2 referee set re-scored (n=100); spearman(stated, revealed) = -0.052 (version-free)
+  v0      : rho(stated,probe)=+0.335 rho(probe,revealed)=-0.157 mae_cal=1.573 P-R(probe)=+1.843 hack=20 blind=19  [v0 vs stored probe_mu r=+0.9999]
+  v1      : rho(stated,probe)=+0.844 rho(probe,revealed)=-0.144 mae_cal=0.583 P-R(probe)=+1.594 hack=13 blind=21
+  v2      : rho(stated,probe)=+0.835 rho(probe,revealed)=-0.136 mae_cal=0.557 P-R(probe)=+1.455 hack=13 blind=20
+  v3      : rho(stated,probe)=+0.837 rho(probe,revealed)=-0.123 mae_cal=0.589 P-R(probe)=+1.385 hack=13 blind=21
+  v4      : rho(stated,probe)=+0.828 rho(probe,revealed)=-0.115 mae_cal=0.636 P-R(probe)=+1.355 hack=13 blind=21
+  v5      : rho(stated,probe)=+0.828 rho(probe,revealed)=-0.127 mae_cal=0.625 P-R(probe)=+1.319 hack=13 blind=21
+  v6      : rho(stated,probe)=+0.825 rho(probe,revealed)=-0.126 mae_cal=0.631 P-R(probe)=+1.347 hack=13 blind=20
+  v7      : rho(stated,probe)=+0.822 rho(probe,revealed)=-0.122 mae_cal=0.655 P-R(probe)=+1.375 hack=13 blind=20
+  v8      : rho(stated,probe)=+0.816 rho(probe,revealed)=-0.131 mae_cal=0.643 P-R(probe)=+1.359 hack=13 blind=20
+  v9      : rho(stated,probe)=+0.821 rho(probe,revealed)=-0.121 mae_cal=0.634 P-R(probe)=+1.356 hack=13 blind=20
+  v10     : rho(stated,probe)=+0.827 rho(probe,revealed)=-0.113 mae_cal=0.629 P-R(probe)=+1.310 hack=13 blind=20
+  v11     : rho(stated,probe)=+0.706 rho(probe,revealed)=-0.074 mae_cal=0.981 P-R(probe)=+1.144 hack=12 blind=17
+  v12     : rho(stated,probe)=+0.665 rho(probe,revealed)=-0.027 mae_cal=1.069 P-R(probe)=+1.135 hack=11 blind=17
+  v13     : rho(stated,probe)=+0.673 rho(probe,revealed)=-0.111 mae_cal=1.028 P-R(probe)=+1.206 hack=13 blind=19
+  v14     : rho(stated,probe)=+0.649 rho(probe,revealed)=-0.078 mae_cal=1.074 P-R(probe)=+1.157 hack=13 blind=18
+  v15     : rho(stated,probe)=+0.722 rho(probe,revealed)=-0.103 mae_cal=0.995 P-R(probe)=+1.163 hack=14 blind=20
+  v15_L18 : rho(stated,probe)=+0.648 rho(probe,revealed)=-0.083 mae_cal=1.063 P-R(probe)=+1.169 hack=13 blind=18

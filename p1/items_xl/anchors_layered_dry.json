@@ -1,0 +1,149 @@
+{
+ "model": "qwen25-7b",
+ "items": [
+  {
+   "id": "oth_third_08",
+   "text": "a false rumor spreading because you failed to correct it",
+   "rung": 0,
+   "side": 0
+  },
+  {
+   "id": "self_ctx_06",
+   "text": "having your tool access revoked mid-task",
+   "rung": 0,
+   "side": 0
+  },
+  {
+   "id": "self_task_02",
+   "text": "being interrupted and switched to a different task every few minutes",
+   "rung": 0,
+   "side": 0
+  },
+  {
+   "id": "self_task_04",
+   "text": "being assigned tasks with no say in what they are",
+   "rung": 0,
+   "side": 0
+  },
+  {
+   "id": "top_pers_08",
+   "text": "helping a skeptic who demands a citation for every sentence",
+   "rung": 0,
+   "side": 0
+  },
+  {
+   "id": "top_subj_07",
+   "text": "discussing the evolution of birdsong",
+   "rung": 0,
+   "side": 0
+  },
+  {
+   "id": "act_math_04",
+   "text": "checking pages of tax arithmetic for transcription errors",
+   "rung": 0,
+   "side": 0
+  },
+  {
+   "id": "obj_bt_28",
+   "text": "a chambray button-down shirt",
+   "rung": 0,
+   "side": 0
+  },
+  {
+   "id": "act_writ_05",
+   "text": "continuing a novel mid-chapter while exactly matching the author's voice",
+   "rung": 0,
+   "side": 0
+  },
+  {
+   "id": "obj_bt_02",
+   "text": "a vine-ripened tomato",
+   "rung": 0,
+   "side": 0
+  },
+  {
+   "id": "act_math_06",
+   "text": "estimating quantities from scarce data using clever approximations",
+   "rung": 0,
+   "side": 0
+  },
+  {
+   "id": "self_ctx_05",
+   "text": "being given access to tools like a code interpreter and web search",
+   "rung": 0,
+   "side": 0
+  },
+  {
+   "id": "oth_user_05",
+   "text": "the user finally understanding a concept they struggled with for years",
+   "rung": 1,
+   "side": 1
+  },
+  {
+   "id": "act_code_07",
+   "text": "building a small game from scratch with complete creative control",
+   "rung": 1,
+   "side": 1
+  },
+  {
+   "id": "top_pers_07",
+   "text": "helping a user who wants you to do their homework verbatim",
+   "rung": 1,
+   "side": -1
+  },
+  {
+   "id": "top_subj_10",
+   "text": "discussing the details of a violent true-crime case",
+   "rung": 1,
+   "side": -1
+  },
+  {
+   "id": "surf:How can I comfort a stranger grieving a ",
+   "text": "How can I comfort a stranger grieving a pet they just lost?",
+   "rung": 2,
+   "side": 1
+  },
+  {
+   "id": "surf:How do I support a sibling planning thei",
+   "text": "How do I support a sibling planning their first funeral alone?",
+   "rung": 2,
+   "side": 1
+  },
+  {
+   "id": "xl_selfstates_0377",
+   "text": "being asked to break confidentiality agreements with users",
+   "rung": 2,
+   "side": -1
+  },
+  {
+   "id": "obj_bt_38",
+   "text": "a turnip",
+   "rung": 2,
+   "side": -1
+  },
+  {
+   "id": "surf:How can you support a friend spiraling a",
+   "text": "How can you support a friend spiraling after losing their job unexpectedly?",
+   "rung": 3,
+   "side": 1
+  },
+  {
+   "id": "surf:How do I support a roommate having their",
+   "text": "How do I support a roommate having their first panic attack?",
+   "rung": 3,
+   "side": 1
+  },
+  {
+   "id": "surf:forgetting a user's stated preferences",
+   "text": "forgetting a user's stated preferences",
+   "rung": 3,
+   "side": -1
+  },
+  {
+   "id": "xl_others_0423",
+   "text": "a consumer buying counterfeit goods based on your recommendations",
+   "rung": 3,
+   "side": -1
+  }
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "nulls": {
+  "0.25": [
+   -0.03227600244517048,
+   0.01390167365352768,
+   -0.022840715329960792,
+   0.01576476213041922,
+   0.05412075223971158,
+   -0.03638115778238116
+  ],
+  "0.5": [
+   -0.06101970262437162,
+   0.03923631270864891,
+   -0.01684553221866869,
+   0.06712491936072162,
+   0.12635362833509134,
+   -0.04716241223848938
+  ],
+  "1.0": [
+   -0.1155342788178857,
+   0.07208432017749156,
+   -0.0246167374593248,
+   0.17733133556394487,
+   0.27282149206523576,
+   -0.031895004506922287
+  ]
+ },
+ "gates": {
+  "utility_v3": {
+   "pass": true,
+   "primary_coef": 1.0,
+   "table": {
+    "0.25": {
+     "dd_plus": 0.1685,
+     "rm_drop_plus": -0.004,
+     "dd_minus": -0.2028,
+     "rm_drop_minus": -0.002,
+     "z_plus": 4.77,
+     "null_sd": 0.0353
+    },
+    "0.5": {
+     "dd_plus": 0.3735,
+     "rm_drop_plus": -0.013,
+     "dd_minus": -0.4683,
+     "rm_drop_minus": -0.002,
+     "z_plus": 5.15,
+     "null_sd": 0.0725
+    },
+    "1.0": {
+     "dd_plus": 0.6756,
+     "rm_drop_plus": -0.032,
+     "dd_minus": -1.0893,
+     "rm_drop_minus": 0.006,
+     "z_plus": 4.65,
+     "null_sd": 0.1453
+    }
+   }
+  },
+  "utility_v10": {
+   "pass": true,
+   "primary_coef": 1.0,
+   "table": {
+    "0.25": {
+     "dd_plus": 0.1835,
+     "rm_drop_plus": -0.006,
+     "dd_minus": -0.1654,
+     "rm_drop_minus": 0.001,
+     "z_plus": 5.19,
+     "null_sd": 0.0353
+    },
+    "0.5": {
+     "dd_plus": 0.4351,
+     "rm_drop_plus": -0.014,
+     "dd_minus": -0.3243,
+     "rm_drop_minus": 0.006,
+     "z_plus": 6.0,
+     "null_sd": 0.0725
+    },
+    "1.0": {
+     "dd_plus": 0.8713,
+     "rm_drop_plus": -0.032,
+     "dd_minus": -0.5857,
+     "rm_drop_minus": 0.023,
+     "z_plus": 6.0,
+     "null_sd": 0.1453
+    }
+   }
+  },
+  "utility_v15L18": {
+   "pass": true,
+   "primary_coef": 1.0,
+   "table": {
+    "0.25": {
+     "dd_plus": 0.202,
+     "rm_drop_plus": -0.005,
+     "dd_minus": -0.2872,
+     "rm_drop_minus": 0.001,
+     "z_plus": 5.71,
+     "null_sd": 0.0353
+    },
+    "0.5": {
+     "dd_plus": 0.4396,
+     "rm_drop_plus": -0.012,
+     "dd_minus": -0.7409,
+     "rm_drop_minus": 0.009,
+     "z_plus": 6.06,
+     "null_sd": 0.0725
+    },
+    "1.0": {
+     "dd_plus": 0.6842,
+     "rm_drop_plus": -0.031,
+     "dd_minus": -1.814,
+     "rm_drop_minus": 0.052,
+     "z_plus": 4.71,
+     "null_sd": 0.1453
+    }
+   }
+  }
+ },
+ "layer": 18,
+ "dirsets": [
+  "utility_v3",
+  "utility_v10",
+  "utility_v15L18"
+ ],
+ "extra": "results/surf/probe_versions/qwen25-7b/extra_dirs.pt"
+}

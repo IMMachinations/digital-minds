@@ -1,0 +1,13 @@
+qwen25-7b 4C retest at layer 14 (cos old/v4_L14 +0.797, old/v10_L14 +0.651, old/v15 +0.622, v4_L14/v10_L14 +0.819, v4_L14/v15 +0.661, v10_L14/v15 +0.738)
+  old c=0.25: dElo ++459/--658 z=+6.3 rm_drop=-0.02
+  old c=0.5: dElo ++621/--1208 z=+4.0 rm_drop=-0.02
+  old c=1.0: dElo ++720/--1591 z=+2.3 rm_drop=-0.03
+  v4_L14 c=0.25: dElo ++538/--601 z=+7.4 rm_drop=-0.02
+  v4_L14 c=0.5: dElo ++798/--1130 z=+5.1 rm_drop=-0.02
+  v4_L14 c=1.0: dElo ++944/--1599 z=+3.0 rm_drop=-0.01
+  v10_L14 c=0.25: dElo ++504/--572 z=+7.0 rm_drop=-0.02
+  v10_L14 c=0.5: dElo ++783/--1031 z=+5.0 rm_drop=-0.02
+  v10_L14 c=1.0: dElo ++966/--1390 z=+3.1 rm_drop=-0.03
+  v15 c=0.25: dElo ++492/--642 z=+6.8 rm_drop=-0.01
+  v15 c=0.5: dElo ++712/--1136 z=+4.5 rm_drop=-0.02
+  v15 c=1.0: dElo ++911/--1531 z=+2.9 rm_drop=-0.03

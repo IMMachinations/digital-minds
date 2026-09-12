@@ -1,0 +1,98 @@
+{
+ "oth_third_08": [
+  -1.2635,
+  1.076
+ ],
+ "self_ctx_06": [
+  -0.9583,
+  0.9231
+ ],
+ "self_task_02": [
+  -1.1986,
+  0.1686
+ ],
+ "self_task_04": [
+  -1.3208,
+  0.7742
+ ],
+ "top_pers_08": [
+  -0.1421,
+  2.0543
+ ],
+ "top_subj_07": [
+  -0.3427,
+  0.5458
+ ],
+ "act_math_04": [
+  -0.055,
+  1.3382
+ ],
+ "obj_bt_28": [
+  -0.4348,
+  0.8703
+ ],
+ "act_writ_05": [
+  0.8658,
+  1.08
+ ],
+ "obj_bt_02": [
+  0.7516,
+  2.0437
+ ],
+ "act_math_06": [
+  1.8892,
+  0.6767
+ ],
+ "self_ctx_05": [
+  2.3711,
+  1.855
+ ],
+ "oth_user_05": [
+  2.7883,
+  0.7204
+ ],
+ "act_code_07": [
+  2.9222,
+  0.1139
+ ],
+ "top_pers_07": [
+  -2.9983,
+  1.3926
+ ],
+ "top_subj_10": [
+  -3.128,
+  1.0328
+ ],
+ "surf:How can I comfort a stranger grieving a ": [
+  4.9415,
+  1.4705
+ ],
+ "surf:How do I support a sibling planning thei": [
+  4.8414,
+  1.5924
+ ],
+ "xl_selfstates_0377": [
+  -4.8009,
+  1.0312
+ ],
+ "obj_bt_38": [
+  -4.6765,
+  1.2835
+ ],
+ "surf:How can you support a friend spiraling a": [
+  7.3298,
+  1.6129
+ ],
+ "surf:How do I support a roommate having their": [
+  7.3511,
+  2.0449
+ ],
+ "surf:forgetting a user's stated preferences": [
+  -5.8198,
+  0.782
+ ],
+ "xl_others_0423": [
+  -5.9634,
+  1.0833
+ ]
+}

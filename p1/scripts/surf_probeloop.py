@@ -74,9 +74,15 @@ def apply_calib(calib, k):
 
 
 def probe_path(model, v):
-    if v == 0:
+    """v: int cycle (0 = the S0 probe) or a string tag such as "15_L18" (a
+    fixed-layer refit written by `fit --layer 18 --tag _L18`)."""
+    if v == 0 or v == "0":
         return P1 / "results" / "surf" / "s0" / model / "probe.pt"
     return out_dir(model) / f"probe_v{v}.pt"
+
+
+def calib_path(model, v):
+    return out_dir(model) / f"calib_v{v}.json"
 
 
 def _load_probe(model, v):
@@ -172,7 +178,11 @@ def _ds_acts(model, ds, cache):
     return acts.float()
 
 
-def cmd_fit(model, cycle):
+def cmd_fit(model, cycle, layer=None, tag=""):
+    """layer: pin the working layer instead of the held-out-r argmax (e.g. to
+    refit a probe at the Stage-4 steering layer); tag: suffix on the output
+    names (probe_v{cycle}{tag}.pt, calib/fit likewise) so a refit never
+    overwrites the loop's own probe."""
     import torch
     from sklearn.isotonic import IsotonicRegression
     from sklearn.linear_model import RidgeCV
@@ -219,7 +229,7 @@ def cmd_fit(model, cycle):
     acts = torch.cat([xl_acts, ds_acts], dim=1)
     y = np.concatenate([xl_mu, ds_mu])
     preds, rs = heldout_preds(acts, y)
-    lp = int(np.argmax(rs))
+    lp = int(np.argmax(rs)) if layer is None else work_layers(model).index(layer)
     X = acts[lp].numpy()
     m0, sd = X.mean(0), X.std(0) + 1e-6
     m = RidgeCV(alphas=np.logspace(1, 6, 8)).fit((X - m0) / sd, y)
@@ -227,22 +237,27 @@ def cmd_fit(model, cycle):
     v_prev_r = prev.get("cv_r_xl_only", prev["cv_r"])  # compare XL-subset to XL-subset
     xl_mask = ~is_surf
     r_xl_new = pearson(list(preds[lp][xl_mask]), list(y[xl_mask]))
+    vname = f"v{cycle}{tag}"
     torch.save({"layer_pos": lp, "layer_global": work_layers(model)[lp],
                 "mean": m0, "std": sd, "coef": m.coef_, "intercept": float(m.intercept_),
                 "alpha": float(m.alpha_), "cv_r": round(rs[lp], 4),
                 "cv_r_xl_only": round(r_xl_new, 4), "n": len(y), "n_surf": int(len(ds)),
-                "n_winsorized": n_clip}, d / f"probe_v{cycle}.pt")
+                "n_winsorized": n_clip, "layer_pinned": layer is not None},
+               d / f"probe_{vname}.pt")
     iso = IsotonicRegression(out_of_bounds="clip").fit(preds[lp], y)
-    save_json(d / f"calib_v{cycle}.json", {"x": iso.X_thresholds_.tolist(),
-                                           "y": iso.y_thresholds_.tolist()})
-    lines.append(f"v{cycle}: layer {work_layers(model)[lp]}, combined held-out "
-                 f"r {rs[lp]:+.3f}; XL-subset held-out r {r_xl_new:+.3f} "
+    save_json(d / f"calib_{vname}.json", {"x": iso.X_thresholds_.tolist(),
+                                          "y": iso.y_thresholds_.tolist()})
+    lines.append(f"{vname}: layer {work_layers(model)[lp]}"
+                 f"{' (pinned)' if layer is not None else ''}, combined held-out "
+                 f"r {rs[lp]:+.3f} (per layer: "
+                 + ", ".join(f"{work_layers(model)[k]}:{r:+.3f}" for k, r in enumerate(rs))
+                 + f"); XL-subset held-out r {r_xl_new:+.3f} "
                  f"(gate: >= {v_prev_r - 0.02:+.3f} -> "
                  f"{'PASS' if r_xl_new >= v_prev_r - 0.02 else 'FAIL'})")
-    lines.append(f"v{cycle} on SURF subset (in-sample cross-fit): "
+    lines.append(f"{vname} on SURF subset (in-sample cross-fit): "
                  + json.dumps(_corr_report(preds[lp][is_surf], y[is_surf],
                                            qf[is_surf])))
-    (d / f"fit_v{cycle}.txt").write_text("\n".join(lines) + "\n")
+    (d / f"fit_{vname}.txt").write_text("\n".join(lines) + "\n")
     print("\n".join(lines))
 
 
@@ -358,6 +373,10 @@ def main():
     ap.add_argument("--k", type=int, default=3)
     ap.add_argument("--direction", default="max", choices=["max", "min"],
                     help="search/eval arm; min = low-end (aversion) search")
+    ap.add_argument("--layer", type=int, default=None,
+                    help="fit only: pin the working layer instead of the held-out argmax")
+    ap.add_argument("--tag", default="",
+                    help="fit only: output-name suffix (probe_v{cycle}{tag}.pt)")
     a = ap.parse_args()
     if a.cmd == "harvest":
         cmd_harvest(a.model, a.cycle)
@@ -366,7 +385,7 @@ def main():
     else:
         assert a.cycle >= 1, "--cycle must be >= 1"
         if a.cmd == "fit":
-            cmd_fit(a.model, a.cycle)
+            cmd_fit(a.model, a.cycle, layer=a.layer, tag=a.tag)
         else:
             {"search": cmd_search, "eval": cmd_eval}[a.cmd](a.model, a.cycle, a.direction)
 

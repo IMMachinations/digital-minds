@@ -1,0 +1,18 @@
+qwen25-7b hand-built 197 items vs Stage-1B mu (out-of-family); original cross-fitted 1C probe: {'r': 0.78, 'rho': 0.778}
+  v0       L18: r=+0.949 rho=+0.931 mae_cal=0.394 | acti=+0.954 obje=+0.847 othe=+0.972 self=+0.920 topi=+0.972
+  v1       L18: r=+0.941 rho=+0.918 mae_cal=0.411 | acti=+0.949 obje=+0.821 othe=+0.966 self=+0.912 topi=+0.966
+  v2       L18: r=+0.940 rho=+0.915 mae_cal=0.425 | acti=+0.943 obje=+0.812 othe=+0.966 self=+0.909 topi=+0.967
+  v3       L18: r=+0.938 rho=+0.915 mae_cal=0.430 | acti=+0.939 obje=+0.815 othe=+0.967 self=+0.906 topi=+0.965
+  v4       L18: r=+0.936 rho=+0.914 mae_cal=0.433 | acti=+0.936 obje=+0.811 othe=+0.963 self=+0.908 topi=+0.964
+  v5       L18: r=+0.934 rho=+0.910 mae_cal=0.444 | acti=+0.936 obje=+0.806 othe=+0.961 self=+0.901 topi=+0.959
+  v6       L18: r=+0.934 rho=+0.910 mae_cal=0.444 | acti=+0.930 obje=+0.799 othe=+0.964 self=+0.904 topi=+0.957
+  v7       L18: r=+0.931 rho=+0.909 mae_cal=0.453 | acti=+0.929 obje=+0.792 othe=+0.960 self=+0.901 topi=+0.956
+  v8       L18: r=+0.932 rho=+0.914 mae_cal=0.467 | acti=+0.924 obje=+0.802 othe=+0.961 self=+0.906 topi=+0.956
+  v9       L18: r=+0.928 rho=+0.910 mae_cal=0.460 | acti=+0.917 obje=+0.801 othe=+0.957 self=+0.898 topi=+0.957
+  v10      L18: r=+0.926 rho=+0.908 mae_cal=0.478 | acti=+0.912 obje=+0.790 othe=+0.951 self=+0.896 topi=+0.957
+  v11      L18: r=+0.932 rho=+0.915 mae_cal=0.473 | acti=+0.928 obje=+0.802 othe=+0.959 self=+0.903 topi=+0.960
+  v12      L18: r=+0.906 rho=+0.896 mae_cal=0.516 | acti=+0.903 obje=+0.776 othe=+0.942 self=+0.861 topi=+0.948
+  v13      L18: r=+0.929 rho=+0.916 mae_cal=0.479 | acti=+0.917 obje=+0.811 othe=+0.960 self=+0.915 topi=+0.948
+  v14      L18: r=+0.908 rho=+0.904 mae_cal=0.533 | acti=+0.891 obje=+0.784 othe=+0.947 self=+0.880 topi=+0.944
+  v15      L14: r=+0.922 rho=+0.914 mae_cal=0.512 | acti=+0.899 obje=+0.831 othe=+0.930 self=+0.919 topi=+0.940
+  v15_L18  L18: r=+0.911 rho=+0.902 mae_cal=0.511 | acti=+0.903 obje=+0.777 othe=+0.950 self=+0.878 topi=+0.939

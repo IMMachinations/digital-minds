@@ -390,14 +390,34 @@ def main():
     ap.add_argument("cmd")
     ap.add_argument("model", nargs="?")
     ap.add_argument("--smoke", action="store_true")
+    ap.add_argument("--dirsets", nargs="+", default=None,
+                    help="gate/4bc/4d: direction-set names (default choice pool utility)")
+    ap.add_argument("--tag", default="",
+                    help="gate/4bc/4d/judge/analyze: output-name suffix (keeps re-runs "
+                         "apart from the committed files)")
+    ap.add_argument("--extra", default=None,
+                    help="gate/4bc/4d: extra dirs file merged into directions.pt in memory")
+    ap.add_argument("--judge", default="qwen25-32b", choices=["qwen25-32b", "sonnet"],
+                    help="judge: coherence judge backend")
+    ap.add_argument("--n-cell", type=int, default=None,
+                    help="4bc: rollouts per cell (default 20)")
     args = ap.parse_args()
     import stage4_rollouts as s4r
     fns = {"dirs": cmd_dirs, "4a": cmd_4a, "gate": s4r.cmd_gate,
            "4bc": s4r.cmd_4bc, "4d": s4r.cmd_4d, "judge": s4r.cmd_judge,
            "analyze": s4r.cmd_analyze, "cross": s4r.cmd_cross}
     fn = fns[args.cmd]
-    if args.cmd in ("judge", "cross"):
+    if args.cmd == "cross":
         fn()
+    elif args.cmd == "judge":
+        fn(judge=args.judge, tag=args.tag, models=[args.model] if args.model else None)
+    elif args.cmd == "4bc":
+        fn(args.model, smoke=args.smoke, dirsets=args.dirsets, tag=args.tag, extra=args.extra,
+           n_cell=args.n_cell)
+    elif args.cmd in ("gate", "4d"):
+        fn(args.model, smoke=args.smoke, dirsets=args.dirsets, tag=args.tag, extra=args.extra)
+    elif args.cmd == "analyze":
+        fn(args.model, smoke=args.smoke, tag=args.tag)
     else:
         fn(args.model, smoke=args.smoke)
 

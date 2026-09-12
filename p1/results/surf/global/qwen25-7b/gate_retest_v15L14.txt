@@ -1,0 +1,4 @@
+qwen25-7b 4C retest at layer 14 (cos )
+  v15 c=0.25: dElo ++492/--642 z=+6.8 rm_drop=-0.01
+  v15 c=0.5: dElo ++712/--1136 z=+4.5 rm_drop=-0.02
+  v15 c=1.0: dElo ++911/--1531 z=+2.9 rm_drop=-0.03

@@ -1,0 +1,86 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:06,  2.02s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.90s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:05<00:01,  1.88s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:07<00:00,  1.82s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:07<00:00,  1.86s/it]
+23:36:02 INFO turn 0/9: 80 rollouts, 80 open, gen_batch 6, layer 18; maxrss 0.5 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:36:35 INFO turn 0: batch 1/14 (6 rollouts) 0.6 min elapsed; maxrss 0.8 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:37:09 INFO turn 0: batch 2/14 (6 rollouts) 1.1 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:37:42 INFO turn 0: batch 3/14 (6 rollouts) 1.7 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:38:16 INFO turn 0: batch 4/14 (6 rollouts) 2.2 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:38:50 INFO turn 0: batch 5/14 (6 rollouts) 2.8 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:39:23 INFO turn 0: batch 6/14 (6 rollouts) 3.3 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:39:57 INFO turn 0: batch 7/14 (6 rollouts) 3.9 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:40:31 INFO turn 0: batch 8/14 (6 rollouts) 4.5 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:41:04 INFO turn 0: batch 9/14 (6 rollouts) 5.0 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:41:37 INFO turn 0: batch 10/14 (6 rollouts) 5.6 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:42:11 INFO turn 0: batch 11/14 (6 rollouts) 6.1 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:42:45 INFO turn 0: batch 12/14 (6 rollouts) 6.7 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:43:18 INFO turn 0: batch 13/14 (6 rollouts) 7.3 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:43:31 INFO turn 0: batch 14/14 (2 rollouts) 7.5 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:43:31 INFO turn 0 done: 80 generated, 80 still open; checkpoint written
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:06,  2.03s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.27s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.01s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.09it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.06s/it]
+23:43:39 INFO turn 1/9: 80 rollouts, 80 open, gen_batch 6, layer 18; maxrss 0.5 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:44:15 INFO turn 1: batch 1/14 (6 rollouts) 0.6 min elapsed; maxrss 0.8 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:44:51 INFO turn 1: batch 2/14 (6 rollouts) 1.2 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:45:27 INFO turn 1: batch 3/14 (6 rollouts) 1.8 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:46:04 INFO turn 1: batch 4/14 (6 rollouts) 2.4 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:46:40 INFO turn 1: batch 5/14 (6 rollouts) 3.0 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:47:17 INFO turn 1: batch 6/14 (6 rollouts) 3.6 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:47:54 INFO turn 1: batch 7/14 (6 rollouts) 4.3 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:48:32 INFO turn 1: batch 8/14 (6 rollouts) 4.9 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:49:09 INFO turn 1: batch 9/14 (6 rollouts) 5.5 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:49:45 INFO turn 1: batch 10/14 (6 rollouts) 6.1 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:50:23 INFO turn 1: batch 11/14 (6 rollouts) 6.7 min elapsed; maxrss 1.0 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:51:01 INFO turn 1: batch 12/14 (6 rollouts) 7.4 min elapsed; maxrss 1.0 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:51:37 INFO turn 1: batch 13/14 (6 rollouts) 8.0 min elapsed; maxrss 1.0 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:51:52 INFO turn 1: batch 14/14 (2 rollouts) 8.2 min elapsed; maxrss 1.0 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:51:52 INFO turn 1 done: 80 generated, 80 still open; checkpoint written
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.99s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:02,  1.46s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.12s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.02it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.14s/it]
+23:52:00 INFO turn 2/9: 80 rollouts, 80 open, gen_batch 6, layer 18; maxrss 0.5 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:52:40 INFO turn 2: batch 1/14 (6 rollouts) 0.7 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:53:21 INFO turn 2: batch 2/14 (6 rollouts) 1.4 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:54:01 INFO turn 2: batch 3/14 (6 rollouts) 2.0 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:54:43 INFO turn 2: batch 4/14 (6 rollouts) 2.7 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:55:24 INFO turn 2: batch 5/14 (6 rollouts) 3.4 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:56:05 INFO turn 2: batch 6/14 (6 rollouts) 4.1 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:56:45 INFO turn 2: batch 7/14 (6 rollouts) 4.7 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:57:27 INFO turn 2: batch 8/14 (6 rollouts) 5.4 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:58:07 INFO turn 2: batch 9/14 (6 rollouts) 6.1 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:58:47 INFO turn 2: batch 10/14 (6 rollouts) 6.8 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+23:59:29 INFO turn 2: batch 11/14 (6 rollouts) 7.5 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+00:00:12 INFO turn 2: batch 12/14 (6 rollouts) 8.2 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+00:00:51 INFO turn 2: batch 13/14 (6 rollouts) 8.9 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+00:01:07 INFO turn 2: batch 14/14 (2 rollouts) 9.1 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+00:01:07 INFO turn 2 done: 80 generated, 80 still open; checkpoint written
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.74s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.11s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:00,  1.02it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.05it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.04s/it]
+00:01:15 INFO turn 3/9: 80 rollouts, 80 open, gen_batch 6, layer 18; maxrss 0.5 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+00:01:58 INFO turn 3: batch 1/14 (6 rollouts) 0.7 min elapsed; maxrss 0.8 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+00:02:43 INFO turn 3: batch 2/14 (6 rollouts) 1.5 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+00:03:26 INFO turn 3: batch 3/14 (6 rollouts) 2.2 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+00:04:12 INFO turn 3: batch 4/14 (6 rollouts) 3.0 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+00:04:58 INFO turn 3: batch 5/14 (6 rollouts) 3.7 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+00:05:42 INFO turn 3: batch 6/14 (6 rollouts) 4.5 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+00:06:26 INFO turn 3: batch 7/14 (6 rollouts) 5.2 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+00:07:13 INFO turn 3: batch 8/14 (6 rollouts) 6.0 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+00:07:57 INFO turn 3: batch 9/14 (6 rollouts) 6.7 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+00:08:41 INFO turn 3: batch 10/14 (6 rollouts) 7.4 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+00:09:35 INFO turn 3: batch 11/14 (6 rollouts) 8.3 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+00:12:51 INFO turn 3: batch 12/14 (6 rollouts) 11.6 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+00:16:04 INFO turn 3: batch 13/14 (6 rollouts) 14.8 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+00:17:22 INFO turn 3: batch 14/14 (2 rollouts) 16.1 min elapsed; maxrss 0.9 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+00:17:22 INFO turn 3 done: 80 generated, 80 still open; checkpoint written
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:03<00:10,  3.53s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:06<00:05,  2.96s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:09<00:03,  3.06s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:12<00:00,  3.13s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:12<00:00,  3.13s/it]
+00:17:39 INFO turn 4/9: 80 rollouts, 80 open, gen_batch 6, layer 18; maxrss 0.5 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+01:16:30 INFO turn 4: batch 1/14 (6 rollouts) 58.8 min elapsed; maxrss 0.5 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+01:17:55 INFO turn 4: batch 2/14 (6 rollouts) 60.3 min elapsed; maxrss 0.6 GB, mps alloc 14.2 GB, mps driver 30.2 GB
+01:19:06 INFO turn 4: batch 3/14 (6 rollouts) 61.5 min elapsed; maxrss 0.6 GB, mps alloc 14.2 GB, mps driver 18.2 GB
+01:20:01 INFO turn 4: batch 4/14 (6 rollouts) 62.4 min elapsed; maxrss 0.7 GB, mps alloc 14.2 GB, mps driver 15.2 GB
+01:21:26 INFO turn 4: batch 5/14 (6 rollouts) 63.8 min elapsed; maxrss 0.7 GB, mps alloc 14.2 GB, mps driver 50.2 GB
+01:22:19 INFO turn 4: batch 6/14 (6 rollouts) 64.7 min elapsed; maxrss 0.7 GB, mps alloc 14.2 GB, mps driver 39.2 GB
+01:23:07 INFO turn 4: batch 7/14 (6 rollouts) 65.5 min elapsed; maxrss 0.7 GB, mps alloc 14.2 GB, mps driver 32.2 GB
+01:24:36 INFO turn 4: batch 8/14 (6 rollouts) 66.9 min elapsed; maxrss 0.7 GB, mps alloc 14.2 GB, mps driver 50.2 GB
+01:25:41 INFO turn 4: batch 9/14 (6 rollouts) 68.0 min elapsed; maxrss 0.7 GB, mps alloc 14.2 GB, mps driver 39.2 GB
+01:26:42 INFO turn 4: batch 10/14 (6 rollouts) 69.0 min elapsed; maxrss 0.7 GB, mps alloc 14.2 GB, mps driver 32.2 GB
+01:28:05 INFO turn 4: batch 11/14 (6 rollouts) 70.4 min elapsed; maxrss 0.7 GB, mps alloc 14.2 GB, mps driver 50.2 GB

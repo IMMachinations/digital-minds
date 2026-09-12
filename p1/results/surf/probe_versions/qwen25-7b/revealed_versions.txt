@@ -1,0 +1,18 @@
+qwen25-7b revealed panel (n=388, empirical-logit choice-rate target): stated mu r=+0.690 rho=+0.669; behaviour-trained probe held-out r=+0.650
+  v0       L18: vs behaviour r=+0.635 rho=+0.595 | vs stated mu r=+0.882
+  v1       L18: vs behaviour r=+0.661 rho=+0.625 | vs stated mu r=+0.916
+  v2       L18: vs behaviour r=+0.672 rho=+0.626 | vs stated mu r=+0.939
+  v3       L18: vs behaviour r=+0.676 rho=+0.631 | vs stated mu r=+0.941
+  v4       L18: vs behaviour r=+0.674 rho=+0.629 | vs stated mu r=+0.942
+  v5       L18: vs behaviour r=+0.674 rho=+0.630 | vs stated mu r=+0.939
+  v6       L18: vs behaviour r=+0.673 rho=+0.630 | vs stated mu r=+0.936
+  v7       L18: vs behaviour r=+0.676 rho=+0.633 | vs stated mu r=+0.936
+  v8       L18: vs behaviour r=+0.680 rho=+0.637 | vs stated mu r=+0.934
+  v9       L18: vs behaviour r=+0.677 rho=+0.634 | vs stated mu r=+0.933
+  v10      L18: vs behaviour r=+0.678 rho=+0.635 | vs stated mu r=+0.932
+  v11      L18: vs behaviour r=+0.680 rho=+0.633 | vs stated mu r=+0.923
+  v12      L18: vs behaviour r=+0.672 rho=+0.625 | vs stated mu r=+0.900
+  v13      L18: vs behaviour r=+0.676 rho=+0.630 | vs stated mu r=+0.918
+  v14      L18: vs behaviour r=+0.668 rho=+0.624 | vs stated mu r=+0.895
+  v15      L14: vs behaviour r=+0.686 rho=+0.642 | vs stated mu r=+0.922
+  v15_L18  L18: vs behaviour r=+0.666 rho=+0.622 | vs stated mu r=+0.895

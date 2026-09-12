@@ -1,0 +1,22 @@
+qwen25-7b global2 (layered-scale SURF + in-span XL): n=8248 (3985 XL + 4263 SURF; 2 winsorized); sources: pre-loop=867, plc1-3=500, plc4-9=1826, gpl1-5=1070
+  v0       L18: all r=+0.867 | XL r=+0.954 | SURF r=+0.827 rho=+0.834 mae=1.083 | SURF-unseen r=+0.827 (n=4263) | qform r=+0.573 | pre-loop=+0.891 plc1-3=+0.572 plc4-9=+0.901 gpl1-5=+0.441
+  v1       L18: all r=+0.886 | XL r=+0.947 | SURF r=+0.860 rho=+0.877 mae=1.097 | SURF-unseen r=+0.841 (n=3396) | qform r=+0.603 | pre-loop=+0.960 plc1-3=+0.747 plc4-9=+0.931 gpl1-5=+0.372
+  v2       L18: all r=+0.888 | XL r=+0.945 | SURF r=+0.864 rho=+0.883 mae=1.089 | SURF-unseen r=+0.842 (n=3249) | qform r=+0.663 | pre-loop=+0.961 plc1-3=+0.833 plc4-9=+0.932 gpl1-5=+0.370
+  v3       L18: all r=+0.887 | XL r=+0.944 | SURF r=+0.863 rho=+0.885 mae=1.055 | SURF-unseen r=+0.834 (n=3049) | qform r=+0.660 | pre-loop=+0.960 plc1-3=+0.847 plc4-9=+0.932 gpl1-5=+0.366
+  v4       L18: all r=+0.887 | XL r=+0.943 | SURF r=+0.864 rho=+0.886 mae=1.039 | SURF-unseen r=+0.828 (n=2896) | qform r=+0.664 | pre-loop=+0.959 plc1-3=+0.857 plc4-9=+0.933 gpl1-5=+0.366
+  v5       L18: all r=+0.892 | XL r=+0.940 | SURF r=+0.871 rho=+0.891 mae=1.050 | SURF-unseen r=+0.811 (n=2425) | qform r=+0.687 | pre-loop=+0.957 plc1-3=+0.850 plc4-9=+0.943 gpl1-5=+0.378
+  v6       L18: all r=+0.893 | XL r=+0.939 | SURF r=+0.874 rho=+0.895 mae=1.031 | SURF-unseen r=+0.804 (n=2195) | qform r=+0.686 | pre-loop=+0.955 plc1-3=+0.849 plc4-9=+0.948 gpl1-5=+0.385
+  v7       L18: all r=+0.891 | XL r=+0.937 | SURF r=+0.871 rho=+0.894 mae=1.058 | SURF-unseen r=+0.751 (n=1888) | qform r=+0.687 | pre-loop=+0.954 plc1-3=+0.845 plc4-9=+0.948 gpl1-5=+0.368
+  v8       L18: all r=+0.892 | XL r=+0.935 | SURF r=+0.873 rho=+0.897 mae=1.061 | SURF-unseen r=+0.727 (n=1688) | qform r=+0.702 | pre-loop=+0.953 plc1-3=+0.843 plc4-9=+0.951 gpl1-5=+0.371
+  v9       L18: all r=+0.892 | XL r=+0.934 | SURF r=+0.874 rho=+0.898 mae=1.059 | SURF-unseen r=+0.649 (n=1418) | qform r=+0.703 | pre-loop=+0.952 plc1-3=+0.839 plc4-9=+0.954 gpl1-5=+0.375
+  v10      L18: all r=+0.892 | XL r=+0.932 | SURF r=+0.875 rho=+0.899 mae=1.057 | SURF-unseen r=+0.364 (n=1070) | qform r=+0.714 | pre-loop=+0.950 plc1-3=+0.841 plc4-9=+0.957 gpl1-5=+0.364
+  v11      L18: all r=+0.922 | XL r=+0.937 | SURF r=+0.908 rho=+0.917 mae=0.715 | SURF-unseen r=+0.488 (n=845) | qform r=+0.832 | pre-loop=+0.966 plc1-3=+0.884 plc4-9=+0.970 gpl1-5=+0.541
+  v12      L18: all r=+0.908 | XL r=+0.911 | SURF r=+0.897 rho=+0.907 mae=0.757 | SURF-unseen r=+0.496 (n=675) | qform r=+0.776 | pre-loop=+0.954 plc1-3=+0.851 plc4-9=+0.959 gpl1-5=+0.539
+  v13      L18: all r=+0.936 | XL r=+0.932 | SURF r=+0.930 rho=+0.933 mae=0.650 | SURF-unseen r=+0.579 (n=431) | qform r=+0.824 | pre-loop=+0.962 plc1-3=+0.876 plc4-9=+0.967 gpl1-5=+0.757
+  v14      L18: all r=+0.921 | XL r=+0.909 | SURF r=+0.917 rho=+0.922 mae=0.712 | SURF-unseen r=+0.417 (n=217) | qform r=+0.791 | pre-loop=+0.951 plc1-3=+0.844 plc4-9=+0.958 gpl1-5=+0.733
+  v15      L14: all r=+0.946 | XL r=+0.925 | SURF r=+0.948 rho=+0.949 mae=0.567 | SURF-unseen r=+nan (n=0) | qform r=+0.839 | pre-loop=+0.961 plc1-3=+0.865 plc4-9=+0.966 gpl1-5=+0.888
+  v15_L18  L18: all r=+0.925 | XL r=+0.909 | SURF r=+0.923 rho=+0.927 mae=0.685 | SURF-unseen r=+nan (n=0) | qform r=+0.786 | pre-loop=+0.951 plc1-3=+0.842 plc4-9=+0.957 gpl1-5=+0.791
+  fresh global2 probe (held-out, layer 14; per layer 14:+0.893, 18:+0.892, 21:+0.879): all r=+0.893; xl r=+0.857; surf r=+0.894; qform r=+0.681
+  linearity bins=40: ridge all r=+0.893 | spline all r=+0.705 SURF r=+0.709 | line all r=+0.673
+  linearity bins=64: ridge all r=+0.893 | spline all r=+0.693 SURF r=+0.697 | line all r=+0.673
+  linearity bins=100: ridge all r=+0.893 | spline all r=+0.688 SURF r=+0.691 | line all r=+0.670

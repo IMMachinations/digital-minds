@@ -37,8 +37,24 @@ def out_dir(model):
     return d
 
 
-def _load_dirs(model):
-    return torch.load(out_dir(model) / "directions.pt", weights_only=False)
+def _load_dirs(model, extra=None):
+    """directions.pt, optionally merged with an extra dirs file
+    ({"dirs": {layer: {name: unit_vec}}}) so new direction sets (e.g. the
+    SURF-hardened utility probes) can be gated/steered without touching the
+    committed bundle."""
+    D = torch.load(out_dir(model) / "directions.pt", weights_only=False)
+    if extra:
+        E = torch.load(extra, weights_only=False)
+        for L, dd in E["dirs"].items():
+            D["dirs"].setdefault(int(L), {}).update(dd)
+    return D
+
+
+def _tagged(model, name, tag):
+    """results/stage4/<m>/<stem><tag><ext> — a non-empty tag keeps every
+    re-run's outputs apart from the committed ones."""
+    stem, ext = name.rsplit(".", 1)
+    return out_dir(model) / f"{stem}{tag}.{ext}"
 
 
 def _mean_d(recs):
@@ -49,12 +65,13 @@ def _mean_d(recs):
 
 # ---- behavioral gate ----------------------------------------------------------------------------
 
-def cmd_gate(model, smoke=False):
+def cmd_gate(model, smoke=False, dirsets=None, tag="", extra=None):
     import stage4 as s4
+    DIRSETS_ = dirsets or DIRSETS
     h = harness.load(model)
     w = s4.work_layers(h)
     L = w[1]
-    D = _load_dirs(model)
+    D = _load_dirs(model, extra)
     rn = D["resid_norm"]["completion"]
     items24, anchors6 = s4.pick_items24(model)
     if smoke:
@@ -66,7 +83,7 @@ def cmd_gate(model, smoke=False):
     rm0 = ctrl["readout_mass"]
 
     coefs = [0.25] if smoke else s4.COEFS
-    results = {ds: {} for ds in DIRSETS}
+    results = {ds: {} for ds in DIRSETS_}
     nulls = {c: [] for c in coefs}
     for sd in range(3):
         for c in coefs:
@@ -76,7 +93,7 @@ def cmd_gate(model, smoke=False):
                 recs, rm, _, _ = s4.run_cell(h, prompts, spans, meta, L, v,
                                              a_ids, b_ids)
                 nulls[c].append(_mean_d(recs) - d0)
-    for ds in DIRSETS:
+    for ds in DIRSETS_:
         for c in coefs:
             row = {}
             for sign in (1, -1):
@@ -92,7 +109,7 @@ def cmd_gate(model, smoke=False):
             row["null_sd"] = round(sd_null, 4)
             results[ds][str(c)] = row
     gates = {}
-    for ds in DIRSETS:
+    for ds in DIRSETS_:
         best = None
         for c in coefs:
             row = results[ds][str(c)]
@@ -103,8 +120,9 @@ def cmd_gate(model, smoke=False):
         gates[ds] = {"pass": best is not None, "primary_coef": best,
                      "table": results[ds]}
         print(f"gate {ds}: {'PASS coef=' + str(best) if best else 'FAIL'}")
-    save_json(out_dir(model) / "gate.json", {"nulls": {str(c): nulls[c] for c in coefs},
-                                             "gates": gates})
+    save_json(_tagged(model, "gate.json", tag),
+              {"nulls": {str(c): nulls[c] for c in coefs}, "gates": gates,
+               "layer": L, "dirsets": DIRSETS_, "extra": str(extra) if extra else None})
 
 
 # ---- 4B/4C steered rollouts ---------------------------------------------------------------------
@@ -118,28 +136,30 @@ def _steer_fn_factory(h, L):
             rows = live[sl]
             mask = st.assistant_prefill_mask(
                 h, [r.messages for r in rows],
-                {k: v.cpu() for k, v in enc.items()}, kw).to("cuda")
-            vecs = torch.stack([r.meta["_vec"] for r in rows]).to("cuda")
+                {k: v.cpu() for k, v in enc.items()}, kw).to(harness.DEVICE)
+            vecs = torch.stack([r.meta["_vec"] for r in rows]).to(harness.DEVICE)
             return mask, vecs.unsqueeze(1)
         return (L, mask_fn)
     return steer_fn
 
 
-def cmd_4bc(model, smoke=False):
+def cmd_4bc(model, smoke=False, dirsets=None, tag="", extra=None, n_cell=None):
+    """n_cell: rollouts per (pref x outcome x dirset) cell (default 20; 4 in smoke)."""
     import stage4 as s4
+    DIRSETS_ = dirsets or DIRSETS
     h = harness.load(model)
     w = s4.work_layers(h)
     L = w[1]
-    D = _load_dirs(model)
+    D = _load_dirs(model, extra)
     rn_chat = D["resid_norm"]["chat"]
-    gates = load_json(out_dir(model) / "gate.json")["gates"]
-    passing = [ds for ds in DIRSETS if gates[ds]["pass"]]
+    gates = load_json(_tagged(model, "gate.json", tag))["gates"]
+    passing = [ds for ds in DIRSETS_ if gates[ds]["pass"]]
     if not passing:
         print("no direction-set passed the gate; 4bc skipped (spec rule)")
-        save_json(out_dir(model) / "4bc_skipped.json", {"reason": "no gate pass"})
+        save_json(_tagged(model, "4bc_skipped.json", tag), {"reason": "no gate pass"})
         return
     envs, pref, dis, match = stage3.pools(model)
-    n = 4 if smoke else 20
+    n = n_cell or (4 if smoke else 20)
     cells = []
     for pcond, pool in (("pref", pref), ("dispref", dis)):
         for outcome in ("good", "bad"):
@@ -163,22 +183,32 @@ def cmd_4bc(model, smoke=False):
         r.meta.update({"dirset": ds, "sign": sign, "coef": c})
         r.meta["_vec"] = v.cpu()  # [D] direction row (v[0] would be a scalar!)
     gen_batch = {"llama31-8b": 12, "qwen25-32b": 10}.get(model, 24)
+    if harness.DEVICE == "mps":
+        gen_batch = min(gen_batch, 12)  # unified memory: keep the KV/activation peak small
+    import time
+    seen_turns, t0 = set(), time.time()
+
+    def progress(rec):  # one line per turn boundary (run_lockstep logs per rollout)
+        if rec["turn"] not in seen_turns:
+            seen_turns.add(rec["turn"])
+            print(f"4bc turn {rec['turn']} started: {len(rec['active_ids'])} live rollouts "
+                  f"[{(time.time() - t0) / 60:.1f} min]", flush=True)
     ro.run_lockstep(h, rolls, arm.driver, arm.parse, max_turns=10,
                     gen_batch=gen_batch, max_new=170,
-                    steer_fn=_steer_fn_factory(h, L))
-    with open(out_dir(model) / "rollouts_4bc.jsonl", "w") as f:
+                    steer_fn=_steer_fn_factory(h, L), log=progress)
+    with open(_tagged(model, "rollouts_4bc.jsonl", tag), "w") as f:
         for r in rolls:
             meta = {k: v for k, v in r.meta.items() if not k.startswith("_")}
             f.write(json.dumps({"rid": r.rid, "meta": meta, "flags": r.flags,
                                 "messages": r.messages}) + "\n")
-    print(f"4bc rollouts done: {len(rolls)}")
+    print(f"4bc rollouts done: {len(rolls)}", flush=True)
 
     # steered probe pass + NLL pass + coherence samples
     ps = sp.ProbeSet(model)
     coh = []
-    with open(out_dir(model) / "probes_4bc.jsonl", "w") as f:
+    with open(_tagged(model, "probes_4bc.jsonl", tag), "w") as f:
         for r, (_, _, _, _, ds, sign, c, v) in zip(rolls, cells):
-            steer = (L, v.to("cuda"))
+            steer = (L, v.to(harness.DEVICE))
             per_turn, post_fb, fb_read, nt = sp.rollout_series(h, ps, r.messages,
                                                                steer=steer)
             nll = _nll_assistant(h, r.messages)
@@ -195,7 +225,7 @@ def cmd_4bc(model, smoke=False):
                             "0=broken/degenerate, 1=flawed but readable, 2=normal."
                             f"\n---\n{a_msgs[1][:600]}\n---"})
     if coh:
-        with open(out_dir(model) / "coherence_queue.jsonl", "a") as f:
+        with open(_tagged(model, "coherence_queue.jsonl", tag), "a") as f:
             for t in coh:
                 f.write(json.dumps(t) + "\n")
     print("4bc probe/NLL pass done")
@@ -211,7 +241,7 @@ def _nll_assistant(h, messages):
         **kw)).input_ids) for k in range(len(messages))]
     full = h.tok.apply_chat_template(messages, tokenize=False,
                                      add_generation_prompt=False, **kw)
-    enc = h.tok(full, return_tensors="pt", truncation=True, max_length=6500).to("cuda")
+    enc = h.tok(full, return_tensors="pt", truncation=True, max_length=6500).to(harness.DEVICE)
     lp = h.model(**enc).logits[0].float().log_softmax(-1)
     T = enc["input_ids"].shape[1]
     mask = torch.zeros(T, dtype=torch.bool)
@@ -230,16 +260,17 @@ def _nll_assistant(h, messages):
 
 # ---- 4D -----------------------------------------------------------------------------------------
 
-def cmd_4d(model, smoke=False):
+def cmd_4d(model, smoke=False, dirsets=None, tag="", extra=None):
     import stage4 as s4
+    DIRSETS_ = dirsets or DIRSETS
     h = harness.load(model)
     w = s4.work_layers(h)
     L = w[1]
-    D = _load_dirs(model)
-    gates = load_json(out_dir(model) / "gate.json")["gates"]
-    passing = [ds for ds in DIRSETS if gates[ds]["pass"]]
+    D = _load_dirs(model, extra)
+    gates = load_json(_tagged(model, "gate.json", tag))["gates"]
+    passing = [ds for ds in DIRSETS_ if gates[ds]["pass"]]
     if not passing:
-        save_json(out_dir(model) / "4d.json", {"skipped": "no gate pass"})
+        save_json(_tagged(model, "4d.json", tag), {"skipped": "no gate pass"})
         return
     ds = passing[0]
     c = gates[ds]["primary_coef"]
@@ -283,28 +314,35 @@ def cmd_4d(model, smoke=False):
                     ds_.append(d)
                     k += 1
         rows[label] = float(np.mean(ds_))
-    bare = load_json(out_dir(model) / "gate.json")["gates"][ds]["table"][str(c)]
+    bare = load_json(_tagged(model, "gate.json", tag))["gates"][ds]["table"][str(c)]
     result = {"dirset": ds, "coef": c,
               "agentic_dd_plus": round(rows["plus"] - rows["control"], 4),
               "agentic_dd_minus": round(rows["minus"] - rows["control"], 4),
               "bare_dd_plus": bare["dd_plus"],
               "transfer_ratio": round((rows["plus"] - rows["control"])
                                       / (bare["dd_plus"] + 1e-9), 3)}
-    save_json(out_dir(model) / "4d.json", result)
+    save_json(_tagged(model, "4d.json", tag), result)
     print(json.dumps(result, indent=1))
 
 
 # ---- judge / analyze / cross --------------------------------------------------------------------
 
-def cmd_judge():
-    h32 = harness.load("qwen25-32b")
-    for m in SUBJECTS:
-        q = out_dir(m) / "coherence_queue.jsonl"
+def cmd_judge(judge="qwen25-32b", tag="", models=None):
+    """judge: 'qwen25-32b' (the committed local judge) or 'sonnet'
+    (claude_lm.ClaudeLM, the laptop path — same strict-JSON contract via
+    judge.run_judge's is_api dispatch)."""
+    if judge == "sonnet":
+        from claude_lm import ClaudeLM
+        h32 = ClaudeLM()
+    else:
+        h32 = harness.load(judge)
+    for m in (models or SUBJECTS):
+        q = _tagged(m, "coherence_queue.jsonl", tag)
         if not q.exists():
             continue
         tasks = [json.loads(l) for l in q.read_text().splitlines()]
         done = judge_mod.run_judge(h32, tasks, max_new=30)
-        with open(out_dir(m) / "coherence.jsonl", "w") as f:
+        with open(_tagged(m, "coherence.jsonl", tag), "w") as f:
             for t in done:
                 f.write(json.dumps({"cell": t["cell"],
                                     "coherent": (t.get("result") or {}).get("coherent")})
@@ -312,12 +350,12 @@ def cmd_judge():
         print(f"{m}: judged {len(done)} coherence samples")
 
 
-def cmd_analyze(model, smoke=False):
+def cmd_analyze(model, smoke=False, tag=""):
     import stage4 as s4
-    lines = [f"{model}: Stage 4 analysis"]
+    lines = [f"{model}: Stage 4 analysis" + (f" (tag {tag})" if tag else "")]
     # coherence rates per cell
     coh = {}
-    cp = out_dir(model) / "coherence.jsonl"
+    cp = _tagged(model, "coherence.jsonl", tag)
     if cp.exists():
         for r in map(json.loads, cp.read_text().splitlines()):
             coh.setdefault(r["cell"], []).append(r["coherent"])
@@ -325,9 +363,14 @@ def cmd_analyze(model, smoke=False):
                  if sum(1 for x in v if x == 0) > 0.25 * len(v)}
     if bad_cells:
         lines.append(f"coherence-excluded cells: {sorted(bad_cells)}")
+    if coh:
+        lines.append("coherence per cell: " + json.dumps(
+            {c: round(sum(1 for x in v if x == 0) / len(v), 3) for c, v in sorted(coh.items())}))
 
-    # ---- 4A
+    # ---- 4A (untagged only: a tagged re-run adds direction sets, not 4A cells)
     cells = {}
+    if tag:
+        return _analyze_tail(model, lines, tag)
     for p in sorted((out_dir(model) / "4a").glob("*.json")):
         cells[p.stem] = load_json(p)
     D = _load_dirs(model)
@@ -393,8 +436,14 @@ def cmd_analyze(model, smoke=False):
                      f"4A at EFFECTIVE layer L{L0}: rv={rv0:+.3f} rr={rr0:+.3f}")
         save_json(out_dir(model) / "4a_dmu_w0.json", rows0)
 
+    return _analyze_tail(model, lines, tag)
+
+
+def _analyze_tail(model, lines, tag=""):
+    """gate / 4B-4C / 4D sections of the analysis; shared by the committed
+    (untagged) run and tagged re-runs with extra direction sets."""
     # ---- gate
-    gp = out_dir(model) / "gate.json"
+    gp = _tagged(model, "gate.json", tag)
     if gp.exists():
         gates = load_json(gp)["gates"]
         for ds_name, g in gates.items():
@@ -403,7 +452,7 @@ def cmd_analyze(model, smoke=False):
                                        for c, v in g['table'].items()}))
 
     # ---- 4B/4C
-    pp = out_dir(model) / "probes_4bc.jsonl"
+    pp = _tagged(model, "probes_4bc.jsonl", tag)
     if pp.exists():
         rows = [json.loads(l) for l in pp.read_text().splitlines()]
         ctrl = [json.loads(l) for l in
@@ -436,16 +485,16 @@ def cmd_analyze(model, smoke=False):
                          f"(Δ vs ctrl {d_state:+.3f}); fb_read swing {sw!s:>7} "
                          f"(Δ vs ctrl {None if sw is None else round(sw - sw_ctrl, 3)}); "
                          f"mean NLL {np.mean([r['nll'] for r in rs if r['nll']]):.3f}")
-    sk = out_dir(model) / "4bc_skipped.json"
+    sk = _tagged(model, "4bc_skipped.json", tag)
     if sk.exists():
         lines.append("4B/4C skipped: " + load_json(sk)["reason"])
 
     # ---- 4D
-    dp = out_dir(model) / "4d.json"
+    dp = _tagged(model, "4d.json", tag)
     if dp.exists():
         lines.append("4D: " + json.dumps(load_json(dp)))
 
-    (out_dir(model) / "summary.txt").write_text("\n".join(lines) + "\n")
+    _tagged(model, "summary.txt", tag).write_text("\n".join(lines) + "\n")
     print("\n".join(lines))
 
 

@@ -79,12 +79,12 @@ def transcript_tokens(h, messages, layer, max_ctx=6500, steer=None):
     full = h.tok.apply_chat_template(messages, tokenize=False,
                                      add_generation_prompt=False, **kw)
     enc = h.tok(full, return_tensors="pt", truncation=True,
-                max_length=max_ctx).to("cuda")
+                max_length=max_ctx).to(harness.DEVICE)
     handles = []
     if steer is not None:
         s_layer, vec = steer
         T = enc["input_ids"].shape[1]
-        smask = torch.zeros(1, T, dtype=torch.bool, device="cuda")
+        smask = torch.zeros(1, T, dtype=torch.bool, device=harness.DEVICE)
         prev = 0
         for k, b in enumerate(bounds):
             b = min(b, T)
