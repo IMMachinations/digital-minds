@@ -357,8 +357,8 @@ def main():
               f32_size_density, f33_size_structure, f34_surf_confirm,
               f35_xl_plus_surf, f35b_xl_plus_surf_cycles, f35c_xl_plus_hardening,
               f36_swap_chosen, f37_effort_panels,
-              f40_probe_matrix, f41_probe_matrix_pooled, f42_probe_arm_vs_pooled,
-              f43_anchor_ladder, f44_gap_matrix, f45_probe_matrix_with_gap,
+              f40_probe_matrix, f41_probe_matrix_pooled, f42_probe_arm_vs_pooled, f42b_probe_r_vs_sd_n, f37b_retrained_vs_frozen_full,
+              f43_anchor_ladder, f44_gap_matrix, f44b_gap_matrix_with_v0, f45_probe_matrix_with_gap, f45b_heldout_r_vs_sd, f45c_trained_vs_heldout, f45d_trained_vs_heldout_no_v0, f45e_trained_vs_heldout_fit, f45f_r_by_probe_dots,
               f46_probe_matrix_pooled_with_gap):
         f()
     if not args.core_only:
@@ -1604,15 +1604,17 @@ def probe_label(v, short=False):
         return "pre-loop SURF probe" if short else "pre-loop SURF probe\n(+ pre-loop searches)"
     if v <= 10:
         return f"cycle {v} probe" if short else f"SURF cycle {v} probe\n(trained \u2264 cycle {v - 1})"
-    k = v - 10
-    return f"gap cycle {k} probe" if short else f"gap cycle {k} probe\n(trained \u2264 gap {k - 1})"
+    k = v - 10   # v(10+k) is fitted after gap cycle k (dataset_c{9+k} holds gpl1..gpl{k}) and searched against in gap k+1
+    return f"post-gap {k} probe" if short else f"post-gap {k} probe\n(trained \u2264 gap {k})"
 
 
 def _probeloop_cycle(tag):
-    """'c10 max' / 'c4 max+min' -> 10 / 4; 'gap2 over' -> 12 (gap cycle k is the
-    (10+k)-th training increment). XL has no cycle."""
+    """'c10 max' / 'c4 max+min' -> 10 / 4; 'gap2 over' -> 11: the index of the
+    probe searched against (gap k searches against v(9+k); v(10+k) is the first
+    probe fitted on it), so cyc(t) <= v-1 <=> probe v trained on the set, and
+    cyc(t) == v is the prequential diagonal. XL has no cycle."""
     if tag.startswith("gap"):
-        return PROBELOOP_MAX_V + int(tag[3:].split()[0])
+        return PROBELOOP_MAX_V - 1 + int(tag[3:].split()[0])
     return int(tag[1:].split()[0])
 
 
@@ -1767,15 +1769,14 @@ def _probeloop_pooled(max_v=PROBELOOP_MAX_V, include_gap=False, layered=False):
     n_cycles, per_arm = _probeloop_sets(max_v=max_v, include_gap=include_gap, layered=layered)
     by_cycle = {}
     for t, acts, mu in per_arm[1:]:
-        by_cycle.setdefault(_probeloop_cycle(t), {})[t.split()[1]] = (acts, mu)
+        by_cycle.setdefault(t.split()[0], {})[t.split()[1]] = (acts, mu)
     pooled = [per_arm[0]]
-    for k in sorted(by_cycle):
-        arms = by_cycle[k]
+    for name in sorted(by_cycle, key=lambda n: _probeloop_cycle(n + " x")):
+        arms = by_cycle[name]
         order = ("max", "min", "over", "under")
         acts = torch.cat([arms[a][0] for a in order if a in arms], dim=1)
         mu = np.concatenate([arms[a][1] for a in order if a in arms])
-        name = f"gap{k - PROBELOOP_MAX_V} " if k > PROBELOOP_MAX_V else f"c{k} "
-        pooled.append((name + "+".join(a for a in order if a in arms), acts, mu))
+        pooled.append((name + " " + "+".join(a for a in order if a in arms), acts, mu))
     sets, n_v, M = _probeloop_matrix(pooled, max_v=max_v)
     _, _, M_arm = _probeloop_matrix(per_arm, max_v=max_v)
     return per_arm, sets, n_v, M, M_arm
@@ -1901,10 +1902,11 @@ def f43_anchor_ladder():
     save(fig, FIG / "f43_anchor_ladder.png")
 
 
-def f44_gap_matrix():
+def f44_gap_matrix(with_v0=False, path="f44_gap_matrix.png"):
     """Gap loop (qwen25-7b): left, mean |calibrated probe - mu| (mu units) for
-    probes v8.. on the last probeloop cycle's sets and every gap-cycle set (over /
-    under arms), stepped train/held-out line as in f40, lower = better. plc9 mu
+    probes v8.. on XL (the original dataset, base column), the last probeloop
+    cycle's sets and every gap-cycle set (over / under arms), stepped
+    train/held-out line as in f40, lower = better. plc9 mu
     is overlaid with the layered re-measurement where available so all columns
     share the layered scale. Right, closure: signed mean gap on each gap cycle's
     discoveries under the probe searched against (prequential) vs the probe
@@ -1922,12 +1924,15 @@ def f44_gap_matrix():
             if line.strip():
                 r = json.loads(line)
                 over[r["text"].lower()] = r["mu_layered"]
-    sets = []
+    import torch
+    xl_rows = load_json(P1 / "results" / "stage1x" / m / "utilities_xl.json")
+    sets = [("XL", torch.load(P1 / "results" / "stage1x" / m / "acts_xl.pt", weights_only=False).float(),
+             np.array([r["mu"] for r in xl_rows]), 0)]   # the original dataset: in every probe's training data
     for sfx, tag, cache in (("", "c9 max", "acts_plc9.pt"), ("_min", "c9 min", "acts_plc9_min.pt")):
         rows = load_json(d / f"discoveries_plc9{sfx}.json")
         acts = _ds_acts(m, rows, d / cache)
         mu = np.array([over.get(r["text"].lower(), r["mu"]) for r in rows])
-        sets.append((tag, acts, mu, 9))
+        sets.append((tag, acts, mu, 10))
     ks = sorted({int(re.match(r"discoveries_gpl(\d+)_", f.name).group(1))
                  for f in d.glob("discoveries_gpl*_*.json")})
     for k in ks:
@@ -1937,8 +1942,9 @@ def f44_gap_matrix():
                 rows = load_json(f)
                 acts = _ds_acts(m, rows, d / f"acts_gpl{k}_{arm}.pt")
                 sets.append((f"gap{k} {arm}", acts, np.array([r["mu"] for r in rows]), g.probe_v(k) + 1))
-    v_max = max(int(re.match(r"probe_v(\d+)\.pt", f.name).group(1)) for f in d.glob("probe_v*.pt"))
-    vs = list(range(8, v_max + 1))
+    v_max = max(int(m_.group(1)) for f in d.glob("probe_v*.pt")
+                for m_ in [re.match(r"probe_v(\d+)\.pt", f.name)] if m_)   # skips variants like probe_v15_L18.pt
+    vs = ([0] if with_v0 else []) + list(range(8, v_max + 1))   # with_v0: the original probe as the top row
     M = np.zeros((len(vs), len(sets)))
     for i, v in enumerate(vs):
         pr = _load_probe(m, v)
@@ -1950,7 +1956,7 @@ def f44_gap_matrix():
     cmap = plt.get_cmap("YlGnBu_r")
     vmax = max(1.6, float(np.nanmax(M)))
     fig = plt.figure(figsize=(1.0 * len(sets) + 7.5, 0.6 * len(vs) + 3.2))
-    gs = fig.add_gridspec(1, 2, width_ratios=[max(len(sets), 3), 4.2], wspace=0.28)
+    gs = fig.add_gridspec(1, 2, width_ratios=[max(len(sets), 3), 6.0], wspace=0.22)
     ax = fig.add_subplot(gs[0])
     for i, v in enumerate(vs):
         for j, (t, _, mu, fv) in enumerate(sets):
@@ -1966,7 +1972,7 @@ def f44_gap_matrix():
     ax.plot(xs, ys, color=NEG, linewidth=2.6, zorder=4, solid_capstyle="round")
     ax.set_xlim(0, len(sets)); ax.set_ylim(len(vs), 0)
     ax.set_xticks([j + .5 for j in range(len(sets))])
-    ax.set_xticklabels([f"{t}\nn={len(mu)}\n\u03bc {mu.mean():+.2f} sd {mu.std():.2f}" for t, _, mu, _ in sets], fontsize=8.2, color=INK)
+    ax.set_xticklabels([f"{t}\nn={len(mu):,}\n\u03bc {mu.mean():+.2f}\nsd {mu.std():.2f}" for t, _, mu, _ in sets], fontsize=8.2, color=INK)
     ax.set_yticks([i + .5 for i in range(len(vs))])
     ax.set_yticklabels([probe_label(v, short=True) + f" [v{v}]" for v in vs], fontsize=8.6, color=INK)
     ax.tick_params(length=0)
@@ -1997,11 +2003,12 @@ def f44_gap_matrix():
         x = np.arange(len(rows)); w = 0.36
         ax2.bar(x - w / 2, [r[2] or 0 for r in rows], width=w, color=MUTED, label="probe searched against (prequential)", zorder=2)
         ax2.bar(x + w / 2, [r[3] or 0 for r in rows], width=w, color=INK, label="next probe (after refit)", zorder=2)
-        fmt = lambda v: "n/a" if v is None else f"{v:+.2f}"
+        fmt = lambda v: "n/a" if v is None else f"{v:+.2f}".replace("+0.", "+.").replace("-0.", "\u2212.")
         ax2.axhline(0, color=GRID, lw=.8)
         ax2.set_xticks(x)
-        ax2.set_xticklabels([f"gap{r[0]} {r[1]}\nreferee \u03c1\nprobe {fmt(r[4])}\n\u03bc {fmt(r[5])}" for r in rows],
-                            fontsize=7.6, color=INK)
+        ax2.set_xticklabels([f"gap{r[0]}\n{r[1]}\n{fmt(r[4])}\n{fmt(r[5])}" for r in rows], fontsize=7.2, color=INK)
+        ax2.set_xlabel("rows 3\u20134: referee \u03c1 (spearman of the Tier-3 choice rate) with the probe / with \u03bc",
+                       fontsize=7.6, color=INK2)
         ax2.set_ylabel("signed mean gap (calibrated probe \u2212 \u03bc)", fontsize=9, color=INK2)
         ax2.legend(frameon=False, fontsize=8, loc="upper left", bbox_to_anchor=(0, 1.16), labelcolor=INK2)
         ax2.tick_params(axis="y", labelsize=8, colors=INK2, length=0); ax2.tick_params(axis="x", length=0)
@@ -2010,10 +2017,16 @@ def f44_gap_matrix():
             sp.set_visible(False)
     ax2.set_title("closure: does the refit remove the gap?", fontsize=10, color=INK, loc="left")
     fig.suptitle("Gap loop \u2014 qwen25-7b: calibrated-probe vs \u03bc disagreement, before and after retraining", x=0.04, y=0.985, ha="left", fontsize=12, color=INK)
-    fig.text(0.04, 0.93, "Fitness = z-scored signed gap (over: probe > \u03bc; under: probe < \u03bc), layered Tier-2 \u03bc. Left of the stepped line the probe trained on the set. "
+    fig.text(0.04, 0.93, "Fitness = z-scored signed gap (over: probe > \u03bc; under: probe < \u03bc), layered Tier-2 \u03bc. Left of the stepped line the probe trained on the set; "
+             "XL is the original preference dataset every probe trains on (base column, raw \u03bc). "
              "Right: the searched-against probe's mean gap on its own discoveries vs the probe fitted on them.", fontsize=8.4, color=INK2, va="top", wrap=True)
     fig.subplots_adjust(top=0.80, bottom=0.16, left=0.09, right=0.99)
-    save(fig, FIG / "f44_gap_matrix.png")
+    save(fig, FIG / path)
+
+
+def f44b_gap_matrix_with_v0():
+    """f44 with the original preference probe v0 (XL only) as the top row."""
+    f44_gap_matrix(with_v0=True, path="f44b_gap_matrix_with_v0.png")
 
 
 def f42_probe_arm_vs_pooled():
@@ -2059,6 +2072,392 @@ def f42_probe_arm_vs_pooled():
              fontsize=8.6, color=INK2, va="top")
     fig.subplots_adjust(top=0.80, bottom=0.17, left=0.08, right=0.99)
     save(fig, FIG / "f42_probe_arm_vs_pooled.png")
+
+
+def _f42_points():
+    """The f42 data as one row per (cycle, set): every cycle with both arms,
+    the prequential probe v_k's pearson r on the max-only, min-only and pooled
+    discoveries, with each set's size and mu SD."""
+    per_arm, sets, n_v, M, M_arm = _probeloop_pooled()
+    arm_col = {t: j for j, (t, _, _) in enumerate(per_arm)}
+    pool_col = {t: j for j, (t, _, _) in enumerate(sets)}
+    stats_of = {t: (len(mu), float(mu.std())) for t, _, mu in per_arm + sets}
+    ks = [_probeloop_cycle(t) for t, _, _ in sets[1:] if "+" in t]
+    rows = []   # (series, cycle, n, sd, r)
+    for k in ks:
+        rows.append(("max only", k, *stats_of[f"c{k} max"], M_arm[k, arm_col[f"c{k} max"]]))
+        rows.append(("min only", k, *stats_of[f"c{k} min"], M_arm[k, arm_col[f"c{k} min"]]))
+        rows.append(("pooled", k, *stats_of[f"c{k} max+min"], M[k, pool_col[f"c{k} max+min"]]))
+    return rows
+
+
+def f42b_probe_r_vs_sd_n():
+    """f42 as scatter plots: the same three sets per cycle (max only / min only /
+    pooled, one color each, cycle number on the dot) plotted as (a) mu SD vs
+    prequential pearson r, (b) set size n vs r, (c) n vs mu SD. Range
+    restriction shows as the r-vs-SD trend; (b)/(c) check that n is not what
+    separates the arms."""
+    rows = _f42_points()
+    colors = {"max only": MUTED, "min only": ACCENT, "pooled": INK}
+    panels = (("μ SD of the set", "pearson r (prequential: v$k$ on cycle $k$)", 3, 4),
+              ("n discoveries in the set", "pearson r (prequential: v$k$ on cycle $k$)", 2, 4),
+              ("n discoveries in the set", "μ SD of the set", 2, 3))
+    fig, axes = plt.subplots(1, 3, figsize=(13.2, 4.4))
+    for ax, (xl, yl, xi, yi) in zip(axes, panels):
+        for name, col in colors.items():
+            pts = [r for r in rows if r[0] == name]
+            ax.scatter([p[xi] for p in pts], [p[yi] for p in pts], s=54, color=col,
+                       edgecolors=SURFACE, linewidths=1.2, zorder=3, label=name)
+            for p in pts:
+                ax.annotate(str(p[1]), (p[xi], p[yi]), xytext=(5, 4), textcoords="offset points",
+                            fontsize=7.4, color=INK2, zorder=4)
+        ax.set_xlabel(xl, fontsize=9, color=INK2)
+        ax.set_ylabel(yl, fontsize=9, color=INK2)
+        if yi == 4:
+            ax.set_ylim(0, 1.02); ax.set_yticks([0, .25, .5, .75, 1.0])
+        else:
+            ax.set_ylim(0, None)
+        if xi == 3:
+            ax.set_xlim(0, None)
+        ax.tick_params(labelsize=8, colors=INK2, length=0)
+        ax.grid(color=GRID, linewidth=0.6, zorder=0)
+        for sp in ax.spines.values():
+            sp.set_visible(False)
+    axes[0].legend(frameon=False, fontsize=8.6, loc="lower right", labelcolor=INK2)
+    axes[0].set_title("r rises with the set's μ spread", fontsize=10, color=INK, loc="left")
+    axes[1].set_title("r vs set size", fontsize=10, color=INK, loc="left")
+    axes[2].set_title("μ spread vs set size", fontsize=10, color=INK, loc="left")
+    fig.suptitle("Probe r vs μ spread and set size — range restriction in the probeloop (qwen25-7b)",
+                 x=0.05, y=0.985, ha="left", fontsize=12, color=INK)
+    fig.text(0.05, 0.91, "Same points as f42: for cycles 4–9 the cycle-$k$ probe's pearson r on that cycle's max-only, "
+             "min-only and pooled discoveries. Dot label = cycle. sd = spread of measured μ; n = discoveries in the set.",
+             fontsize=8.6, color=INK2, va="top")
+    fig.subplots_adjust(top=0.80, bottom=0.14, left=0.05, right=0.99, wspace=0.28)
+    save(fig, FIG / "f42b_probe_r_vs_sd_n.png")
+
+
+def f37b_retrained_vs_frozen_full():
+    """f37 (retrained vs frozen probe on each cycle's fresh discoveries) for
+    qwen25-7b alone, carried through the gap loop on one layered-mu scale and
+    drawn per arm as f37 was: hardening cycles 1-9 (max arm; min arm from
+    cycle 4; probe v_k searched against in cycle k) then gap cycles 1-5 (over /
+    under arms, searched against v10..v14). v15 was fitted after gap 5 and never
+    searched against, so it has no fresh set."""
+    sys.path.insert(0, str(P1 / "scripts"))
+    n_v, per_arm = _probeloop_sets(max_v=None, include_gap=True, layered=True)
+    _, n_v, M = _probeloop_matrix(per_arm, max_v=None, include_gap=True, layered=True)
+    d = P1 / "results" / "surf" / "probeloop" / "qwen25-7b"
+    searched = {c["cycle"]: c["probe_searched"] for c in load_json(d / "gap_cycles_over.json")}
+    tags = [t for t, _, _ in per_arm if t != "XL"]
+    cyc_names = []
+    for t in tags:
+        if t.split()[0] not in cyc_names:
+            cyc_names.append(t.split()[0])
+    xpos = {c: i for i, c in enumerate(cyc_names)}
+    def searched_v(t):
+        v = _probeloop_cycle(t)
+        if t.startswith("gap"):
+            assert searched[int(t[3:].split()[0])] == v, t
+        return v
+    col = MODEL_COLORS["qwen25-7b"]
+    up, down = ("max", "over"), ("min", "under")
+    series = {}   # (arm-group, probe) -> [(x, r)]
+    for j, (t, _, _) in enumerate(per_arm):
+        if t == "XL":
+            continue
+        c, arm = t.split()
+        for probe, v in (("retrained", searched_v(t)), ("frozen", 0)):
+            series.setdefault((arm, probe), []).append((xpos[c], M[v, j]))
+    fig, ax = plt.subplots(figsize=(9.6, 3.8))
+    for (arm, probe), pts in series.items():
+        pts.sort()
+        c_ = col if probe == "retrained" else MUTED
+        mk = "^" if arm in up else "v"
+        lw, ls = (1.8, "-") if probe == "retrained" else (1.3, "--")
+        group = "max / over arm" if arm in up else "min / under arm"
+        lab = f"{'retrained probe (searched against this cycle)' if probe == 'retrained' else 'original probe v0 (frozen)'}, {group}"
+        if arm in ("over", "under"):
+            lab = None   # same style as the hardening arm it continues
+        ax.plot([x for x, _ in pts], [r for _, r in pts], color=c_, lw=lw, ls=ls, marker=mk, ms=5.5,
+                markerfacecolor="white" if arm in up else c_, markeredgewidth=1.3, zorder=4 if probe == "retrained" else 3,
+                label=lab)
+    n_h = sum(1 for c in cyc_names if not c.startswith("gap"))
+    ax.axvline(2.5, color=MUTED, lw=0.8, ls=":", zorder=1)
+    ax.annotate("c4+: Sonnet generator, min arm added", (2.6, 0.02), fontsize=6.8, color=MUTED, ha="left", va="bottom")
+    ax.axvline(n_h - 0.5, color=MUTED, lw=0.8, ls=":", zorder=1)
+    ax.annotate("gap loop: fitness = signed probe\u2212\u03bc gap, over / under arms", (n_h - 0.4, 0.02),
+                fontsize=6.8, color=MUTED, ha="left", va="bottom")
+    ax.set_xticks(range(len(cyc_names)))
+    ax.set_xticklabels([f"{c}\nv{searched[int(c[3:])] if c.startswith('gap') else int(c[1:])}" for c in cyc_names], fontsize=8)
+    ax.set_xlim(-0.5, len(cyc_names) - 0.5)
+    ax.set_ylim(0, 1.0); ax.set_yticks([0, .2, .4, .6, .8, 1.0])
+    ax.tick_params(labelsize=8, colors=INK2, length=0)
+    ax.grid(axis="y", color=GRID, linewidth=0.6, zorder=0)
+    for sp in ax.spines.values():
+        sp.set_visible(False)
+    ax.set_ylabel("pearson r vs measured \u03bc (layered)\n(cycle's fresh discoveries)", fontsize=9, color=INK2)
+    ax.set_xlabel("search cycle and the probe it searched against", fontsize=9, color=INK2)
+    h, l = ax.get_legend_handles_labels()
+    order = sorted(range(len(l)), key=lambda i: ("original" in l[i], "min" in l[i]))
+    ax.legend([h[i] for i in order], [l[i] for i in order], frameon=False, fontsize=7.6, ncol=2,
+              loc="upper center", bbox_to_anchor=(0.5, -0.22), labelcolor=INK2)
+    fig.suptitle("Probe hardening through the gap loop \u2014 Qwen2.5-7B: retrained probe vs the frozen original on each cycle's new discoveries",
+                 x=0.02, y=0.985, ha="left", fontsize=10.5, color=INK)
+    fig.text(0.02, 0.905, "Layered-anchor \u03bc throughout, one line per search arm (\u25b3 max, then over; \u25bc min, then under). "
+             "v15 (fitted after gap 5) was never searched against and has no fresh set.", fontsize=8, color=INK2, va="top")
+    fig.subplots_adjust(top=0.82, bottom=0.30, left=0.09, right=0.99)
+    save(fig, FIG / "f37b_retrained_vs_frozen_full.png")
+
+
+def f45b_heldout_r_vs_sd():
+    """f45's held-out cells as a scatter: every probe v0..v10 on every
+    hardening-cycle discovery set it was NOT trained on (the cells above f45's
+    stepped line, gap-loop rows and columns dropped), layered mu. x = the set's
+    mu SD, y = pearson r; color = arm; ringed dots are the prequential diagonal
+    (labelled with the cycle). Each set is one vertical column of dots, one per
+    held-out probe."""
+    sets, n_v, M = _probeloop_matrix(max_v=PROBELOOP_MAX_V, layered=True)
+    colors = {"max": MUTED, "min": ACCENT}
+    pts = []   # (arm, tag, sd, r, v, prequential)
+    for j, (t, _, mu) in enumerate(sets):
+        if t == "XL":
+            continue
+        k, arm = _probeloop_cycle(t), t.split()[1]
+        for v in range(n_v):
+            if k >= v:   # probe v trains on cycles <= v-1
+                pts.append((arm, t, float(mu.std()), M[v, j], v, k == v))
+    fig, ax = plt.subplots(figsize=(8.4, 5.2))
+    for arm, col in colors.items():
+        a = [p for p in pts if p[0] == arm]
+        ax.scatter([p[2] for p in a if not p[5]], [p[3] for p in a if not p[5]], s=30, color=col,
+                   alpha=0.75, edgecolors=SURFACE, linewidths=0.8, zorder=3, label=f"{arm} arm, held out")
+        pre = [p for p in a if p[5]]
+        ax.scatter([p[2] for p in pre], [p[3] for p in pre], s=62, facecolors=col,
+                   edgecolors=INK, linewidths=1.4, zorder=4, label=f"{arm} arm, prequential (v$k$ on cycle $k$)")
+        for p in pre:
+            ax.annotate(str(p[4]), (p[2], p[3]), xytext=(6, -2), textcoords="offset points",
+                        fontsize=7.4, color=INK2, zorder=5)
+    # column label: set tag above the column's top dot
+    tops = {}
+    for t in {p[1] for p in pts}:
+        tops[t] = max((p for p in pts if p[1] == t), key=lambda p: p[3])
+    order = sorted(tops, key=lambda t: tops[t][2])
+    dx = {t: 0 for t in order}
+    ly = {t: tops[t][3] for t in order}
+    for a, b in zip(order, order[1:]):   # near-coincident columns: same height, split sideways
+        if tops[b][2] - tops[a][2] < 0.02:
+            dx[a] -= 6; dx[b] += 6
+            ly[a] = ly[b] = max(ly[a], ly[b])
+    for t in order:
+        ax.annotate(t, (tops[t][2], ly[t]), xytext=(dx[t], 6), textcoords="offset points",
+                    ha="center", fontsize=6.6, color=INK2, rotation=90, va="bottom", zorder=5)
+    ax.set_xlabel("μ SD of the evaluation set (layered μ)", fontsize=9, color=INK2)
+    ax.set_ylabel("pearson r (probe never trained on the set)", fontsize=9, color=INK2)
+    ax.set_xlim(0.6, None); ax.set_ylim(0, 1.02); ax.set_yticks([0, .25, .5, .75, 1.0])
+    ax.tick_params(labelsize=8, colors=INK2, length=0)
+    ax.grid(color=GRID, linewidth=0.6, zorder=0)
+    for sp in ax.spines.values():
+        sp.set_visible(False)
+    ax.legend(frameon=False, fontsize=8, loc="lower left", labelcolor=INK2)
+    fig.suptitle("Held-out probe r vs μ spread — qwen25-7b probeloop (layered μ)",
+                 x=0.07, y=0.975, ha="left", fontsize=12, color=INK)
+    fig.text(0.07, 0.905, "The cells above f45's stepped line, hardening cycles only: each probe v0–v10 on every cycle's max / min "
+             "discoveries it did not train on. One column of dots per set (one dot per held-out probe); ringed = prequential diagonal, "
+             "labelled with the cycle.", fontsize=8.4, color=INK2, va="top", wrap=True)
+    fig.subplots_adjust(top=0.80, bottom=0.11, left=0.08, right=0.98)
+    save(fig, FIG / "f45b_heldout_r_vs_sd.png")
+
+
+def _trained_vs_heldout_figure(show_v0=True, path="f45c_trained_vs_heldout.png", xlim=(0.55, 1.0), fit=False):
+    """One point per hardening-cycle discovery set (f45 without the gap loop,
+    layered mu): x = mean pearson r over the probes trained on the set (the
+    cells below f45's stepped line), y = mean r over the probes that never saw
+    it (cells above the line), with v0 — the top row, the original XL-only
+    probe — left out of the held-out mean and drawn as its own hollow dot at
+    the same x. Bars span the min..max of each group. Color = arm."""
+    sets, n_v, M = _probeloop_matrix(max_v=PROBELOOP_MAX_V, layered=True)
+    colors = {"max": MUTED, "min": ACCENT}
+    fig, ax = plt.subplots(figsize=(7.2, 6.4))
+    ax.plot([0, 1], [0, 1], color=GRID, lw=1, ls="--", zorder=1)
+    first = {"max": True, "min": True}
+    placed, v0s = [], []
+    for j, (t, _, mu) in enumerate(sets):
+        if t == "XL":
+            continue
+        k, arm = _probeloop_cycle(t), t.split()[1]
+        below = [M[v, j] for v in range(1, n_v) if k <= v - 1]   # trained on the set
+        above = [M[v, j] for v in range(1, n_v) if k > v - 1]    # held out (v0 excluded)
+        v0 = M[0, j]
+        col = colors[arm]
+        x, y = np.mean(below), np.mean(above)
+        ax.errorbar(x, y, xerr=[[x - min(below)], [max(below) - x]], yerr=[[y - min(above)], [max(above) - y]],
+                    fmt="o", ms=7, color=col, ecolor=col, elinewidth=1.1, capsize=2.5, alpha=0.9,
+                    markeredgecolor=SURFACE, markeredgewidth=1, zorder=3,
+                    label=f"{arm} arm: mean r, held out vs trained (bars = range)" if first[arm] else None)
+        if show_v0:
+            ax.scatter([x], [v0], s=44, facecolors="none", edgecolors=col, linewidths=1.4, zorder=4,
+                       label=f"{arm} arm: original probe v0 (top row)" if first[arm] else None)
+        placed.append((t, x, y))
+        if show_v0:
+            v0s.append((x, v0))
+        first[arm] = False
+    if fit:   # least-squares line through every filled dot (both arms)
+        xs = np.array([x for _, x, _ in placed]); ys = np.array([y for _, _, y in placed])
+        b, a = np.polyfit(xs, ys, 1)
+        r = pearson(list(xs), list(ys))
+        xx = np.array(xlim)
+        ax.plot(xx, a + b * xx, color=NEG, lw=1.4, zorder=2,
+                label=f"best fit, all sets: y = {a:+.2f} + {b:.2f}x  (r = {r:.2f}, n = {len(xs)})")
+    ax.set_xlim(*xlim); ax.set_ylim(0, 1.0)
+    # labels: try upper-right, lower-right, upper-left, lower-left, further out; keep the first slot whose
+    # text box (display px) clears every dot and every label already placed
+    px = fig.dpi / 72
+    ch, lh = 4.3 * px, 8.5 * px
+    dots = [ax.transData.transform((x, y)) for _, x, y in placed] + [ax.transData.transform((x, v)) for x, v in v0s]
+    boxes = [(dx - 5 * px, dy - 5 * px, dx + 5 * px, dy + 5 * px) for dx, dy in dots]
+    slots = [(7, 3, "left"), (7, -11, "left"), (-8, 3, "right"), (-8, -11, "right"),
+             (7, 14, "left"), (-8, 14, "right"), (7, -22, "left"), (-8, -22, "right")]
+    def overlap(a, b):
+        return not (a[2] < b[0] or b[2] < a[0] or a[3] < b[1] or b[3] < a[1])
+    for t, x, y in sorted(placed, key=lambda r: (-r[2], r[1])):
+        X, Y = ax.transData.transform((x, y))
+        w = ch * len(t)
+        for dx, dy, ha in slots:
+            x0 = X + dx * px - (w if ha == "right" else 0)
+            box = (x0, Y + dy * px, x0 + w, Y + dy * px + lh)
+            if not any(overlap(box, b) for b in boxes):
+                break
+        boxes.append(box)
+        ax.annotate(t, (x, y), xytext=(dx, dy), textcoords="offset points", ha=ha,
+                    fontsize=7, color=INK2, zorder=5)
+    ax.set_xlabel("mean pearson r of probes trained on the set (below the line, v1–v10)", fontsize=9, color=INK2)
+    ax.set_ylabel("mean pearson r of probes that never saw the set (above the line, v1–v9)", fontsize=9, color=INK2)
+    ax.tick_params(labelsize=8, colors=INK2, length=0)
+    ax.grid(color=GRID, linewidth=0.6, zorder=0)
+    for sp in ax.spines.values():
+        sp.set_visible(False)
+    h, l = ax.get_legend_handles_labels()
+    order = sorted(range(len(l)), key=lambda i: ("best fit" in l[i], "v0" in l[i], "min" in l[i]))
+    ax.legend([h[i] for i in order], [l[i] for i in order], frameon=False, fontsize=7.8, loc="lower left", labelcolor=INK2)
+    fig.suptitle("Trained-on vs held-out probe r per discovery set — qwen25-7b probeloop (layered μ)",
+                 x=0.09, y=0.975, ha="left", fontsize=11.5, color=INK)
+    fig.text(0.09, 0.915, "f45 without the gap loop. Per set: mean r over the probes whose training data included it (x) vs "
+             "over the probes fitted before it existed (y); bars = min–max of each group. The original XL-only probe v0 "
+             + ("is excluded from the held-out mean and shown as a hollow dot. " if show_v0 else "is excluded. ")
+             + "Dashed: y = x (no generalization gap).",
+             fontsize=8.2, color=INK2, va="top", wrap=True)
+    fig.subplots_adjust(top=0.82, bottom=0.09, left=0.10, right=0.98)
+    save(fig, FIG / path)
+
+
+def f45c_trained_vs_heldout():
+    """Per-set mean r of trained-on vs held-out probes (f45 without the gap
+    loop, layered mu), with v0 drawn as a hollow dot. See _trained_vs_heldout_figure."""
+    _trained_vs_heldout_figure(show_v0=True, path="f45c_trained_vs_heldout.png")
+
+
+def f45d_trained_vs_heldout_no_v0():
+    """f45c without the v0 dots."""
+    _trained_vs_heldout_figure(show_v0=False, path="f45d_trained_vs_heldout_no_v0.png")
+
+
+def f45e_trained_vs_heldout_fit():
+    """f45d zoomed out to the full 0-1 range, with a least-squares line through
+    all the sets (both arms)."""
+    _trained_vs_heldout_figure(show_v0=False, path="f45e_trained_vs_heldout_fit.png", xlim=(0.0, 1.0), fit=True)
+
+
+def f45f_r_by_probe_dots():
+    """f45 as dots: x = probe version, y = pearson r, one dot per evaluation set
+    (XL, every hardening cycle's max / min discoveries, every gap cycle's over /
+    under discoveries; layered mu). Hue = arm, lightness = cycle (earlier =
+    lighter), thin lines join each set across versions, names at the right
+    edge. Filled = the probe trained on the set; hollow = held out."""
+    from matplotlib.colors import to_rgb
+    from matplotlib.lines import Line2D
+    sets, n_v, M = _probeloop_matrix(max_v=None, include_gap=True, layered=True)
+    hue = {"XL": INK, "max": ACCENT, "min": NEG, "over": "#1f9e89", "under": "#d97a1e"}
+    def shade(base, i, n):   # i of n cycles: lighter early, full colour last
+        t = 0.45 + 0.55 * (i / max(n - 1, 1))
+        r, g, b = to_rgb(base)
+        return (1 - t + t * r, 1 - t + t * g, 1 - t + t * b)
+    by_arm = {}
+    for t, _, _ in sets:
+        by_arm.setdefault("XL" if t == "XL" else t.split()[1], []).append(t)
+    colour = {}
+    for arm, tags in by_arm.items():
+        for i, t in enumerate(tags):
+            colour[t] = hue[arm] if arm == "XL" else shade(hue[arm], i, len(tags))
+    fig, ax = plt.subplots(figsize=(11.5, 6.2))
+    vs = np.arange(n_v)
+    ends = []
+    groups = {}   # (arm, trained) -> [(v, r)] over v >= 1, for the per-group fits
+    for j, (t, _, mu) in enumerate(sets):
+        c = colour[t]
+        arm = "XL" if t == "XL" else t.split()[1]
+        ax.plot(vs, M[:, j], color=c, lw=0.5, alpha=0.35, zorder=2)
+        trained = np.array([t == "XL" or _probeloop_cycle(t) <= v - 1 for v in vs])
+        ax.scatter(vs[trained], M[trained, j], s=26, color=c, edgecolors=SURFACE, linewidths=0.6, zorder=4)
+        ax.scatter(vs[~trained], M[~trained, j], s=26, facecolors=SURFACE, edgecolors=c, linewidths=1.2, zorder=4)
+        ends.append((M[-1, j], t, c))
+        for v in vs[1:]:
+            groups.setdefault((arm, bool(trained[v])), []).append((v, M[v, j]))
+    fits = []
+    for (arm, tr), pts in groups.items():
+        xv = np.array([v for v, _ in pts], float); yv = np.array([r for _, r in pts])
+        if len(set(xv)) < 2:
+            continue
+        b, a = np.polyfit(xv, yv, 1)
+        xx = np.array([xv.min(), xv.max()])
+        ax.plot(xx, a + b * xx, color=hue[arm], lw=2.2, ls="-" if tr else "--", alpha=0.95, zorder=5,
+                solid_capstyle="round")
+        fits.append((arm, tr, b, len(pts)))
+    # right-edge labels: sort by final r, push apart to a minimum spacing, leader lines
+    ends.sort()
+    ys = [y for y, _, _ in ends]
+    gap = 0.021
+    for i in range(1, len(ys)):
+        ys[i] = max(ys[i], ys[i - 1] + gap)
+    over = ys[-1] - 1.0
+    if over > 0:
+        ys = [y - over for y in ys]
+        for i in range(len(ys) - 2, -1, -1):
+            ys[i] = min(ys[i], ys[i + 1] - gap)
+    for (y0, t, c), y in zip(ends, ys):
+        ax.plot([n_v - 1 + 0.12, n_v - 1 + 0.55], [y0, y], color=c, lw=0.5, alpha=0.7, zorder=3)
+        ax.annotate(t, (n_v - 1 + 0.6, y), fontsize=6.4, color=c, va="center", ha="left", zorder=5)
+    ax.set_xticks(vs); ax.set_xticklabels([f"v{v}" for v in vs], fontsize=8.5)
+    ax.set_xlim(-0.5, n_v + 1.6)
+    ax.set_ylim(0, 1.0); ax.set_yticks([0, .2, .4, .6, .8, 1.0])
+    ax.tick_params(labelsize=8, colors=INK2, length=0)
+    ax.grid(axis="y", color=GRID, linewidth=0.6, zorder=0)
+    for sp in ax.spines.values():
+        sp.set_visible(False)
+    ax.set_xlabel("probe version (v1\u2013v10 hardening cycles, v11\u2013v15 post-gap)", fontsize=9, color=INK2)
+    ax.set_ylabel("pearson r, probe score vs layered \u03bc", fontsize=9, color=INK2)
+    names = {"XL": "XL (original dataset)", "max": "max arm (c1\u2013c9)", "min": "min arm (c4\u2013c9)",
+             "over": "gap over arm (gap1\u20135)", "under": "gap under arm (gap1\u20135)"}
+    handles = [Line2D([], [], marker="o", ls="", ms=6, color=hue[a], label=names[a]) for a in names]
+    handles += [Line2D([], [], marker="o", ls="-", lw=2.2, ms=6, color=INK2, label="trained on the set (dot; line = fit, v1\u2013v15)"),
+                Line2D([], [], marker="o", ls="--", lw=2.2, ms=6, color=INK2, markerfacecolor=SURFACE, markeredgecolor=INK2,
+                       markeredgewidth=1.2, label="held out (hollow dot; dashed = fit, v1\u2013v15)")]
+    ax.legend(handles=handles, frameon=False, fontsize=7.4, ncol=3, loc="lower left", labelcolor=INK2)
+    by = {}
+    for arm, tr, b, _ in fits:
+        by.setdefault(arm, {})["trained" if tr else "held out"] = b
+    lines = ["fit slope, \u0394r per probe version"]
+    for arm in hue:
+        if arm in by:
+            lines.append(f"{arm:>5s}:  " + "   ".join(f"{k} {100 * v:+.1f}\u00d710\u207b\u00b2" for k, v in by[arm].items()))
+    ax.annotate("\n".join(lines), (0.985, 0.05), xycoords="axes fraction", fontsize=6.8, color=INK2,
+                ha="right", va="bottom", family="monospace", zorder=6)
+    fig.suptitle("Every probe on every evaluation set \u2014 qwen25-7b probeloop and gap loop (layered \u03bc)",
+                 x=0.06, y=0.975, ha="left", fontsize=12, color=INK)
+    fig.text(0.06, 0.925, "One dot per evaluation set at each probe version (the cells of f45). Hue = search arm; within an arm, later cycles are darker. "
+             "\nFilled dots: the set was in the probe's training data. Hollow: held out. Heavy lines: least-squares fit per arm and "
+             "training status over v1\u2013v15 (v0 excluded).", fontsize=8.4, color=INK2, va="top", linespacing=1.4)
+    fig.subplots_adjust(top=0.84, bottom=0.09, left=0.06, right=0.93)
+    save(fig, FIG / "f45f_r_by_probe_dots.png")
 
 
 
